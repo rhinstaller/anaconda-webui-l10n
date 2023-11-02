@@ -33,17 +33,17 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
 "POT-Creation-Date: 2023-10-25 00:59+0000\n"
-"PO-Revision-Date: 2023-08-09 14:14+0000\n"
-"Last-Translator: Vladimír Slávik <vslavik@redhat.com>\n"
-"Language-Team: Arabic <https://translate.fedoraproject.org/projects/anaconda/"
-"master/ar/>\n"
+"PO-Revision-Date: 2023-11-02 15:40+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Arabic <https://translate.fedoraproject.org/projects/"
+"anaconda-webui/anaconda-webui/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.1.1\n"
 
 #: pyanaconda/vnc.py:272
 msgid ""
@@ -207,7 +207,8 @@ msgstr " DNS: %s\n"
 #: pyanaconda/ui/tui/spokes/network.py:301
 #, python-format
 msgid " IPv4 Address: %(addr)s Netmask: %(netmask)s Gateway: %(gateway)s\n"
-msgstr " عنوان أيبي4: %(addr)s قناع الشّبكة: %(netmask)s البوّابة: %(gateway)s\n"
+msgstr ""
+" عنوان أيبي4: %(addr)s قناع الشّبكة: %(netmask)s البوّابة: %(gateway)s\n"
 
 #: pyanaconda/ui/tui/spokes/network.py:312
 #, python-format
@@ -249,8 +250,8 @@ msgid ""
 "%(bootloader_stage2_description)s cannot be on an iSCSI disk which is not "
 "configured in iBFT."
 msgstr ""
-"لا يمكن لـ %(bootloader_stage2_description)s أن يكون على قرص iSCSI لم يعدّ في "
-"وضع iBFT."
+"لا يمكن لـ %(bootloader_stage2_description)s أن يكون على قرص iSCSI لم يعدّ "
+"في وضع iBFT."
 
 #: pyanaconda/modules/storage/bootloader/base.py:668
 #, python-format
@@ -479,8 +480,8 @@ msgid ""
 "<b>Warning:</b> All storage changes made using the installer will be lost "
 "when you press 'Rescan Disks'."
 msgstr ""
-"<b>تحذير:</b> ستخسر جميع التّغييرات التي أجريتها من خلال المُثبّت عند ضغطك على "
-"زر 'أعِد فحص الأقراص'."
+"<b>تحذير:</b> ستخسر جميع التّغييرات التي أجريتها من خلال المُثبّت عند ضغطك "
+"على زر 'أعِد فحص الأقراص'."
 
 #: pyanaconda/ui/gui/spokes/lib/dasdfmt.glade:136
 msgid ""
@@ -499,9 +500,10 @@ msgid ""
 "install a smaller version of <b>%(productName)s</b>, or quit the installer."
 msgstr ""
 "<b>لا تتوفّر لديك مساحة كافية لتثبيت %(productName)s</b> ، حتّى لو استخدمت "
-"جميع المساحات الحرّة المتوفّرة على الأقراص المُنتقاة. يمكنك إضافة أقراصٍ أخرى "
-"لتوفير مساحةٍ إضافيّة، كما يمكتك تعديل انتقاءك للبرمجيات المُراد تثبيتها و ذلك "
-"بتثبيت إصدارٍ أصغر من <b>%(productName)s</b> ، أو أغلق المُثبّت."
+"جميع المساحات الحرّة المتوفّرة على الأقراص المُنتقاة. يمكنك إضافة أقراصٍ "
+"أخرى لتوفير مساحةٍ إضافيّة، كما يمكتك تعديل انتقاءك للبرمجيات المُراد "
+"تثبيتها و ذلك بتثبيت إصدارٍ أصغر من <b>%(productName)s</b> ، أو أغلق "
+"المُثبّت."
 
 #: pyanaconda/ui/gui/spokes/lib/storage_dialogs.py:142
 #, python-format
@@ -519,8 +521,8 @@ msgid ""
 "<span size=\"small\"><b>Example:</b> iqn.2012-09.com.example:diskarrays-sn-"
 "a8675309</span>"
 msgstr ""
-"<span size=\"small\"><b>مثال:</b> iqn.2012-09.com.example:diskarrays-sn-"
-"a8675309</span>"
+"<span size=\"small\"><b>مثال:</b> iqn.2012-09.com.example:diskarrays-"
+"sn-a8675309</span>"
 
 #: pyanaconda/ui/gui/spokes/lib/installation_source_helpers.glade:339
 msgid "<span size=\"small\"><b>Example:</b> squid.mysite.org:3128</span>"
@@ -814,10 +816,10 @@ msgid ""
 "referred to by device path in /etc/fstab, which is not ideal since device "
 "paths can change under a variety of circumstances. "
 msgstr ""
-"ثمّةَ جهازَ إبدالٍ (swap) واحدٍ على الأقل بدون معرف UUID، وهذا شائع في مساحات "
-"الإبدال المُنشأةِ بإصدارات قديمة من mkswap. سيُشار لهذه الأجهزة بمساراتها "
-"المحددة في ‎/etc/fstab، لكنَّ هذا ليس الأفضل لأن مسارات الأجهزة قد تتغير في "
-"ظروف متنوعة. "
+"ثمّةَ جهازَ إبدالٍ (swap) واحدٍ على الأقل بدون معرف UUID، وهذا شائع في "
+"مساحات الإبدال المُنشأةِ بإصدارات قديمة من mkswap. سيُشار لهذه الأجهزة "
+"بمساراتها المحددة في ‎/etc/fstab، لكنَّ هذا ليس الأفضل لأن مسارات الأجهزة قد "
+"تتغير في ظروف متنوعة. "
 
 #: pyanaconda/ui/gui/spokes/subscription.py:1000
 msgid "Attaching subscription..."
@@ -1131,8 +1133,8 @@ msgid ""
 "Changes here will only apply to the installed system. Use the desktop's tool "
 "to configure the keyboard for the installation process."
 msgstr ""
-"لن تطبّق هذه التّغييرات إلّا على النّظام المثبّت. استخدم أداة سطح المكتب الحاليّة "
-"لتهيئة لوحة المفاتيح لاستخدامها ضمن عمليّة التّثبيت."
+"لن تطبّق هذه التّغييرات إلّا على النّظام المثبّت. استخدم أداة سطح المكتب "
+"الحاليّة لتهيئة لوحة المفاتيح لاستخدامها ضمن عمليّة التّثبيت."
 
 #: pyanaconda/modules/payloads/payload/live_image/installation.py:185
 msgid "Checking image checksum"
@@ -3164,7 +3166,8 @@ msgstr "الخيارات"
 msgid ""
 "Or, assign new mount points to existing partitions after selecting them "
 "below."
-msgstr "أو ، قُم بتعيين نقاط وصلٍ جديدة على الأقسام الموجودة بعد انتقائها أدناه."
+msgstr ""
+"أو ، قُم بتعيين نقاط وصلٍ جديدة على الأقسام الموجودة بعد انتقائها أدناه."
 
 #: pyanaconda/ui/gui/spokes/lib/summary.glade:118
 msgid "Order"
@@ -3333,7 +3336,8 @@ msgid ""
 "Please create a name for this %(container_type)s and select at least one "
 "disk below."
 msgstr ""
-"اختر اسمًا من فضلك لـ %(container_type)s ثم انتقِ على الأقل قرصًا واحدًا أدناه."
+"اختر اسمًا من فضلك لـ %(container_type)s ثم انتقِ على الأقل قرصًا واحدًا "
+"أدناه."
 
 #: pyanaconda/ui/gui/spokes/lib/custom_storage_helpers.glade:657
 msgid ""
@@ -4089,8 +4093,8 @@ msgid ""
 "Select the device(s) you'd like to install to.  They will be left untouched "
 "until you click on the main menu's \"Begin Installation\" button."
 msgstr ""
-"انتقِ جهازًا أو أكثر ترغب بالتّثبيت عليها. لن تمسّ أجهزتك مطلقًا حتّى تضغط على زر "
-"\"ابدأ التّثبيت\" ضمن القائمة الرّئيسيّة."
+"انتقِ جهازًا أو أكثر ترغب بالتّثبيت عليها. لن تمسّ أجهزتك مطلقًا حتّى تضغط "
+"على زر \"ابدأ التّثبيت\" ضمن القائمة الرّئيسيّة."
 
 #: pyanaconda/ui/gui/spokes/custom_storage.glade:274
 #: pyanaconda/ui/gui/spokes/custom_storage.glade:1077
@@ -4617,8 +4621,8 @@ msgid ""
 "The following error occurred discovering iSCSI targets.  Please double check "
 "your authorization information and try again."
 msgstr ""
-"حدثت الأخطاء التّالية أثناء محاولة استكشاف iSCSI الاهداف. أعِد رجاءً التّحقق من "
-"معلومات الاستيثاق ثمّ حاول مجدّدًا."
+"حدثت الأخطاء التّالية أثناء محاولة استكشاف iSCSI الاهداف. أعِد رجاءً التّحقق "
+"من معلومات الاستيثاق ثمّ حاول مجدّدًا."
 
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade:269
 msgid ""
@@ -4641,8 +4645,8 @@ msgid ""
 "The following error occurred logging into the selected iSCSI node.  Please "
 "double check your authorization information and try again."
 msgstr ""
-"حدث الخطأ التالي عند الولوج إلى عُقدة iSCSI المُنتقاة. تحقّق مرة أخرى رجاءً من "
-"معلومات الاستيثاق ثمّ حاول مجدّدًا."
+"حدث الخطأ التالي عند الولوج إلى عُقدة iSCSI المُنتقاة. تحقّق مرة أخرى رجاءً "
+"من معلومات الاستيثاق ثمّ حاول مجدّدًا."
 
 #: pyanaconda/ui/gui/spokes/advstorage/nvdimm.glade:205
 msgid "The following error occurred reconfiguring NVDIMM devices:"
@@ -4653,8 +4657,8 @@ msgid ""
 "The following error occurred while attempting to add an FCoE SAN.  Please "
 "check your configuration and try again"
 msgstr ""
-"يحدث الخطأ التّالي عند محاولة إضافة FCoE SAN. تحقّق مرة أخرى رجاءً من إعداداتك "
-"ثمّ حاول مجدّدًا"
+"يحدث الخطأ التّالي عند محاولة إضافة FCoE SAN. تحقّق مرة أخرى رجاءً من "
+"إعداداتك ثمّ حاول مجدّدًا"
 
 #: pyanaconda/errors.py:167
 msgid ""
@@ -4754,8 +4758,8 @@ msgid ""
 "configuration.  These are not fatal, but you may wish to make changes to "
 "your storage layout."
 msgstr ""
-"أُطلقت التّحذيرات التّالية عند فحص إعداداتك للتخزين. هي ليست خطيرة، لكن يمكنك "
-"إجراء تغييرات على مخطط التخزين لديك."
+"أُطلقت التّحذيرات التّالية عند فحص إعداداتك للتخزين. هي ليست خطيرة، لكن "
+"يمكنك إجراء تغييرات على مخطط التخزين لديك."
 
 #: pyanaconda/startup_utils.py:131
 msgid "The installation cannot continue and the system will be rebooted"
@@ -4993,8 +4997,8 @@ msgid ""
 "This LVM Volume Group is missing %(missingPVs)d of %(totalPVs)d physical "
 "volumes. You can remove it or select a different device."
 msgstr ""
-"مجموعة الأقسام LVM هذه مفقودة %(missingPVs)d في %(totalPVs)d كأقسام "
-"فيزيائية ، بإمكانك حذفها أو انتقِ جهازًا آخر."
+"مجموعة الأقسام LVM هذه مفقودة %(missingPVs)d في %(totalPVs)d كأقسام فيزيائية "
+"، بإمكانك حذفها أو انتقِ جهازًا آخر."
 
 #: pyanaconda/modules/storage/partitioning/interactive/utils.py:1229
 #, python-format
@@ -5093,8 +5097,8 @@ msgid ""
 "To use iSCSI disks, you must provide the address of your iSCSI target and "
 "the iSCSI initiator name you've configured for your host."
 msgstr ""
-"لاستخدام أقراص iSCSI، يجب أن تزوّدنا بعنوان iSCSI الهدف و اسم بادئ iSCSI الذي "
-"قمت بإعداده في خادومك."
+"لاستخدام أقراص iSCSI، يجب أن تزوّدنا بعنوان iSCSI الهدف و اسم بادئ iSCSI "
+"الذي قمت بإعداده في خادومك."
 
 #: pyanaconda/ui/gui/spokes/advstorage/zfcp.glade:106
 msgid ""
@@ -5567,7 +5571,8 @@ msgstr ""
 msgid ""
 "Which combination(s) would you prefer for switching between keyboard layouts?"
 msgstr ""
-"ما هو التّركيب (أو التّركيبات) التي تفضّلها للتّبديل بين مخطّطات لوحة المفاتيح؟"
+"ما هو التّركيب (أو التّركيبات) التي تفضّلها للتّبديل بين مخطّطات لوحة "
+"المفاتيح؟"
 
 #: pyanaconda/ui/gui/spokes/installation_source.glade:74
 msgid "Which installation source would you like to use?"
@@ -5578,8 +5583,8 @@ msgid ""
 "Which keyboard layouts would you like to use on this system?  You may move "
 "any layout to the top of the list to select it as the default."
 msgstr ""
-"ما هي مخططات لوحة المفاتيح التي ترغب باستعمالها ضمن هذا النّظام؟ بإمكانك أيضًا "
-"نقل أي مخطط لأعلى القائمة وذلك لجعله افتراضيًا."
+"ما هي مخططات لوحة المفاتيح التي ترغب باستعمالها ضمن هذا النّظام؟ بإمكانك أيضً"
+"ا نقل أي مخطط لأعلى القائمة وذلك لجعله افتراضيًا."
 
 #: pyanaconda/ui/gui/spokes/network.glade:153
 #: pyanaconda/ui/gui/spokes/network.glade:286
@@ -5670,8 +5675,8 @@ msgid ""
 "You can remove or insert additional disks at this time and press 'Rescan "
 "Disks' below for the changes to take effect."
 msgstr ""
-"بإمكانك الآن إزالة أو إضافة أقراص أُخرى ، اضغط 'أعِد فحص الأقراص' أدناه لتأخذ "
-"تغييراتك تأثيرها."
+"بإمكانك الآن إزالة أو إضافة أقراص أُخرى ، اضغط 'أعِد فحص الأقراص' أدناه "
+"لتأخذ تغييراتك تأثيرها."
 
 #: pyanaconda/rescue.py:454
 msgid "You don't have any Linux partitions.\n"
@@ -5683,8 +5688,8 @@ msgid ""
 "passphrase that you will use to access your data when you start your "
 "computer."
 msgstr ""
-"قد اخترت تشفير بعض بياناتك. ستضطر إلى إنشاء عبّارة مرور و التي ستستخدمها "
-"للنّفاذ إلى بياناتك عند بدء تشغيل حاسوبك."
+"قد اخترت تشفير بعض بياناتك. ستضطر إلى إنشاء عبّارة مرور و التي ستستخدمها للنّ"
+"فاذ إلى بياناتك عند بدء تشغيل حاسوبك."
 
 #: pyanaconda/ui/gui/spokes/storage.py:602
 msgid ""
