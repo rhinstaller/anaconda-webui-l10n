@@ -69,16 +69,16 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: anaconda-devel@lists.fedoraproject.org\n"
 "POT-Creation-Date: 2023-10-25 00:59+0000\n"
-"PO-Revision-Date: 2023-10-13 01:00+0000\n"
-"Last-Translator: yangyangdaji <1504305527@qq.com>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/anaconda/"
-"master/fr/>\n"
+"PO-Revision-Date: 2023-11-02 15:42+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/"
+"anaconda-webui/anaconda-webui/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.1.1\n"
 
 #: pyanaconda/vnc.py:272
 msgid ""
@@ -203,10 +203,10 @@ msgid ""
 "The installer will now terminate."
 msgstr ""
 "\n"
-"L’installation a été interrompue en raison d’une erreur détectée lors de "
-"l’exécution en mode cmdline non-interactif. Du fait qu’aucune question ne "
-"peut être posée en mode cmdline, veuillez modifier votre fichier kickstart "
-"puis relancez l’installation.\n"
+"L’installation a été interrompue en raison d’une erreur détectée lors de l’"
+"exécution en mode cmdline non-interactif. Du fait qu’aucune question ne peut "
+"être posée en mode cmdline, veuillez modifier votre fichier kickstart puis "
+"relancez l’installation.\n"
 "Le message d’erreur exact est : \n"
 "\n"
 "%s.\n"
@@ -330,8 +330,9 @@ msgid ""
 "%(deviceName)s may not have enough space for grub2 to embed core.img when "
 "using the %(fsType)s file system on %(deviceType)s"
 msgstr ""
-"%(deviceName)s peut ne pas avoir assez d’espace pour que grub2 intègre core."
-"img lors de l’utilisation du système de fichier %(fsType)s sur %(deviceType)s"
+"%(deviceName)s peut ne pas avoir assez d’espace pour que grub2 intègre "
+"core.img lors de l’utilisation du système de fichier %(fsType)s sur "
+"%(deviceType)s"
 
 #: pyanaconda/ui/gui/spokes/lib/resize.py:237
 #, python-format
@@ -528,8 +529,8 @@ msgid ""
 "<b>Warning</b>: All storage changes made using the installer will be lost "
 "when you choose to format."
 msgstr ""
-"<b>Avertissement</b> : toutes les modifications faites en utilisant "
-"l’installateur seront perdues si vous choisissez de formater."
+"<b>Avertissement</b> : toutes les modifications faites en utilisant l’"
+"installateur seront perdues si vous choisissez de formater."
 
 #: pyanaconda/ui/gui/spokes/lib/storage_dialogs.py:178
 #, python-format
@@ -562,8 +563,8 @@ msgid ""
 "<span size=\"small\"><b>Example:</b> iqn.2012-09.com.example:diskarrays-sn-"
 "a8675309</span>"
 msgstr ""
-"<span size=\"small\"><b>Exemple:</b> iqn.2012-09.com.exemple:diskarrays-sn-"
-"a8675309</span>"
+"<span size=\"small\"><b>Exemple:</b> iqn.2012-09.com.exemple:diskarrays-"
+"sn-a8675309</span>"
 
 #: pyanaconda/ui/gui/spokes/lib/installation_source_helpers.glade:339
 msgid "<span size=\"small\"><b>Example:</b> squid.mysite.org:3128</span>"
@@ -789,8 +790,8 @@ msgstr ""
 #: pyanaconda/errors.py:119
 msgid "An error occurred while activating your storage configuration."
 msgstr ""
-"Une erreur s’est produite lors de l’activation de votre configuration "
-"d’espace de stockage."
+"Une erreur s’est produite lors de l’activation de votre configuration d’"
+"espace de stockage."
 
 #: pyanaconda/modules/storage/installation.py:89
 msgid "An error occurred while resizing the device {}: {}"
@@ -1527,8 +1528,8 @@ msgstr "Périphérique"
 #: pyanaconda/modules/storage/kickstart.py:148
 msgid "Device \"{}\" given in clearpart device list does not exist."
 msgstr ""
-"Le périphérique « {} » donné dans la liste de périphériques clearpart "
-"n’existe pas."
+"Le périphérique « {} » donné dans la liste de périphériques clearpart n’"
+"existe pas."
 
 #: pyanaconda/ui/gui/spokes/storage.glade:77
 msgid "Device Selection"
@@ -1995,8 +1996,8 @@ msgid ""
 "Failed to write boot loader configuration. More information may be found in "
 "the log files stored in /tmp"
 msgstr ""
-"Échec de l’écriture de la configuration du chargeur de démarrage. Plus "
-"d’information peut être trouvé dans les fichiers de log stockés dans /tmp"
+"Échec de l’écriture de la configuration du chargeur de démarrage. Plus d’"
+"information peut être trouvé dans les fichiers de log stockés dans /tmp"
 
 #: pyanaconda/core/constants.py:220
 msgid "Fair"
@@ -2291,8 +2292,8 @@ msgid ""
 "parts between periods must contain something and cannot start or end with "
 "'-'."
 msgstr ""
-"Les noms d’hôtes ne peuvent contenir que les caractères « a-z », « A-Z », "
-"« 0-9 », « - », ou « . », les parties entre des points doivent contenir "
+"Les noms d’hôtes ne peuvent contenir que les caractères « a-z », « A-Z », « "
+"0-9 », « - », ou « . », les parties entre des points doivent contenir "
 "quelque chose et ne peuvent commencer ni finir par « - »."
 
 #: pyanaconda/ui/gui/spokes/datetime_spoke.glade:424
@@ -2410,8 +2411,7 @@ msgstr "En mode, FIPS, le mot de passe doit compter au moins {} lettres."
 #: pyanaconda/modules/storage/kickstart.py:317
 msgid ""
 "Incorrectly specified origin of the snapshot. Use format \"VolGroup/LV-name\""
-msgstr ""
-"L’origine de l’instantané est incorrecte. Utilisez « VolGroup/LV-name »"
+msgstr "L’origine de l’instantané est incorrecte. Utilisez « VolGroup/LV-name »"
 
 #: pyanaconda/ui/gui/spokes/subscription.glade:403
 #: pyanaconda/ui/gui/spokes/subscription.glade:856
@@ -2787,8 +2787,8 @@ msgstr "Le volume logique \"{}\" indiqué dans la commande logvol n'existe pas."
 #: pyanaconda/modules/storage/partitioning/custom/custom_partitioning.py:931
 msgid "Logical volume name \"{}\" is already in use in volume group \"{}\"."
 msgstr ""
-"Le nom de volume logique \"{}\" est déjà utilisé dans le groupe de volumes "
-"\"{}\"."
+"Le nom de volume logique \"{}\" est déjà utilisé dans le groupe de volumes \""
+"{}\"."
 
 #: pyanaconda/modules/storage/partitioning/custom/custom_partitioning.py:937
 msgid ""
@@ -3045,8 +3045,8 @@ msgid ""
 "Network interface \"{nic}\" required by iSCSI \"{iscsi_target}\" target is "
 "not up."
 msgstr ""
-"L’interface réseau « {nic} » requise par la cible iSCSI « {iscsi_target} » "
-"n’est pas en service."
+"L’interface réseau « {nic} » requise par la cible iSCSI « {iscsi_target} » n’"
+"est pas en service."
 
 #: widgets/src/DiskOverview.c:97
 msgid "New Device"
@@ -3487,8 +3487,8 @@ msgid ""
 "Please complete items marked with this icon before continuing to the next "
 "step."
 msgstr ""
-"Veuillez compléter les points marqués avec cette icône avant de passer à "
-"l’étape suivante."
+"Veuillez compléter les points marqués avec cette icône avant de passer à l’"
+"étape suivante."
 
 #: pyanaconda/ui/lib/software.py:84
 msgid "Please confirm software selection"
@@ -3622,8 +3622,8 @@ msgid ""
 "configuration.  You can set the host name here."
 msgstr ""
 "Veuillez utiliser les outils de l’environnement de bureau « live » pour "
-"personnaliser votre configuration du réseau. Vous pouvez définir le nom "
-"d’hôte ici."
+"personnaliser votre configuration du réseau. Vous pouvez définir le nom d’"
+"hôte ici."
 
 #: pyanaconda/ui/gui/spokes/lib/storage_dialogs.py:69
 msgid "Please wait... software metadata still loading."
@@ -3756,8 +3756,7 @@ msgstr "Niveau RAID :"
 
 #: pyanaconda/modules/storage/partitioning/custom/custom_partitioning.py:524
 msgid "RAID device  \"{}\" given in raid command does not exist."
-msgstr ""
-"Le périphérique RAID \"{}\" indiqué dans la commande raid n'existe pas."
+msgstr "Le périphérique RAID \"{}\" indiqué dans la commande raid n'existe pas."
 
 #: pyanaconda/modules/storage/partitioning/custom/custom_partitioning.py:549
 msgid ""
@@ -4303,8 +4302,8 @@ msgid ""
 "until you click on the main menu's \"Begin Installation\" button."
 msgstr ""
 "Sélectionnez le périphérique sur lequel vous souhaitez faire l’installation. "
-"Il restera intact jusqu’à ce que vous cliquiez sur le bouton « Commencer "
-"l’installation » du menu principal."
+"Il restera intact jusqu’à ce que vous cliquiez sur le bouton « Commencer l’"
+"installation » du menu principal."
 
 #: pyanaconda/ui/gui/spokes/custom_storage.glade:274
 #: pyanaconda/ui/gui/spokes/custom_storage.glade:1077
@@ -4705,8 +4704,7 @@ msgstr ""
 
 #: pyanaconda/modules/storage/partitioning/interactive/utils.py:293
 msgid "That mount point is already in use. Try something else?"
-msgstr ""
-"Ce point de montage est déjà utilisé. Voulez-vous en essayer un autre ?"
+msgstr "Ce point de montage est déjà utilisé. Voulez-vous en essayer un autre ?"
 
 #: pyanaconda/modules/storage/partitioning/interactive/utils.py:299
 #: pyanaconda/modules/storage/partitioning/interactive/utils.py:311
@@ -4794,8 +4792,8 @@ msgid ""
 "The LDL DASD disk {name} ({busid}) cannot be used for the installation. "
 "Please format it."
 msgstr ""
-"Le disque LDL DASD {name} ({busid}) ne peut pas être utilisé pour "
-"l’installation. Veuillez le formater."
+"Le disque LDL DASD {name} ({busid}) ne peut pas être utilisé pour l’"
+"installation. Veuillez le formater."
 
 #: pyanaconda/core/storage.py:117
 msgid ""
@@ -4845,8 +4843,8 @@ msgid ""
 "without an encryption key specified for this device. Please, rescan the "
 "storage."
 msgstr ""
-"Le périphérique déverrouillé LUKS {} ne peut pas être utilisé pour "
-"l’installation sans avoir de clé de chiffrement renseignée pour ce "
+"Le périphérique déverrouillé LUKS {} ne peut pas être utilisé pour l’"
+"installation sans avoir de clé de chiffrement renseignée pour ce "
 "périphérique. Veuillez scanner à nouveau le disque."
 
 #: pyanaconda/ui/gui/spokes/advstorage/nvdimm.glade:70
@@ -5285,8 +5283,8 @@ msgid ""
 msgstr ""
 "Il y a aussi des espaces disques disponibles dans des systèmes de fichiers "
 "déjà existants. C’est une étape risquée, sauvegardez-donc vos données, mais "
-"vous pouvez récupérer cet espace libre et le rendre disponible pour "
-"l’installation ci-dessous."
+"vous pouvez récupérer cet espace libre et le rendre disponible pour l’"
+"installation ci-dessous."
 
 #: pyanaconda/modules/storage/devicetree/fsset.py:420
 #, python-brace-format
@@ -5314,9 +5312,9 @@ msgid ""
 "\n"
 "%(details)s"
 msgstr ""
-"Il y a une erreur lors du lancement du script kickstart à la ligne "
-"%(lineno)s. Cette erreur est fatale et l’installation est annulée. Les "
-"détails de ces erreurs sont :\n"
+"Il y a une erreur lors du lancement du script kickstart à la ligne %(lineno)"
+"s. Cette erreur est fatale et l’installation est annulée. Les détails de ces "
+"erreurs sont :\n"
 "\n"
 "%(details)s"
 
@@ -5652,8 +5650,8 @@ msgstr ""
 #: pyanaconda/ui/tui/spokes/installation_progress.py:135
 msgid "Use of this product is subject to the license agreement found at:"
 msgstr ""
-"L’utilisation de ce produit est soumise à un contrat de licence disponible "
-"à :"
+"L’utilisation de ce produit est soumise à un contrat de licence disponible à "
+":"
 
 #: pyanaconda/ui/tui/spokes/user.py:143
 msgid "Use password"
@@ -5929,8 +5927,8 @@ msgstr ""
 #: pyanaconda/ui/gui/hubs/summary.glade:128
 msgid "We won't touch your disks until you click 'Begin Installation'."
 msgstr ""
-"Nous ne modifierons pas vos disques tant que vous n’aurez pas cliqué sur "
-"« Commencer l’installation »."
+"Nous ne modifierons pas vos disques tant que vous n’aurez pas cliqué sur « "
+"Commencer l’installation »."
 
 #: pyanaconda/ui/gui/spokes/network.glade:421
 msgid ""
@@ -6153,8 +6151,8 @@ msgid ""
 "have %(installedMem)s."
 msgstr ""
 "Vous n’avez pas spécifié de partition swap. %(requiredMem)s de mémoire sont "
-"recommandés pour continuer l’installation sans partition swap, mais vous "
-"n’avez que %(installedMem)s de mémoire installés."
+"recommandés pour continuer l’installation sans partition swap, mais vous n’"
+"avez que %(installedMem)s de mémoire installés."
 
 #: pyanaconda/modules/storage/checker/utils.py:312
 #, python-format
@@ -6210,8 +6208,8 @@ msgid ""
 "You must include a PReP Boot Partition within the first 4GiB of an MBR- or "
 "GPT-formatted disk."
 msgstr ""
-"Vous devez inclure une partition de démarrage PReP dans les 4 premiers Gio "
-"d’un disque formaté MBR ou GPT."
+"Vous devez inclure une partition de démarrage PReP dans les 4 premiers Gio d’"
+"un disque formaté MBR ou GPT."
 
 #: pyanaconda/modules/storage/platform.py:354
 msgid ""
@@ -6246,8 +6244,7 @@ msgstr ""
 #: pyanaconda/modules/storage/platform.py:80
 #: pyanaconda/modules/storage/platform.py:386
 msgid "You must include at least one disk as an install target."
-msgstr ""
-"Vous devez inclure au moins un disque en tant que cible d’installation."
+msgstr "Vous devez inclure au moins un disque en tant que cible d’installation."
 
 #: pyanaconda/ui/tui/spokes/user.py:247
 msgid "You must set a password"
@@ -6306,8 +6303,8 @@ msgid ""
 "Your %(mount)s partition is too large for %(format)s formatting (allowable "
 "size is %(minSize)s to %(maxSize)s)"
 msgstr ""
-"Votre partition %(mount)s est trop grande pour être formatée en %(format)s "
-"(la taille permise est de %(minSize)s Mio à %(maxSize)s Mio)"
+"Votre partition %(mount)s est trop grande pour être formatée en %(format)s ("
+"la taille permise est de %(minSize)s Mio à %(maxSize)s Mio)"
 
 #: pyanaconda/modules/storage/checker/utils.py:148
 #, python-format
@@ -6315,8 +6312,8 @@ msgid ""
 "Your %(mount)s partition is too small for %(format)s formatting (allowable "
 "size is %(minSize)s to %(maxSize)s)"
 msgstr ""
-"Votre partition %(mount)s est trop petite pour être formatée en %(format)s "
-"(la taille permise est de %(minSize)s Mio à %(maxSize)s Mio)"
+"Votre partition %(mount)s est trop petite pour être formatée en %(format)s ("
+"la taille permise est de %(minSize)s Mio à %(maxSize)s Mio)"
 
 #: pyanaconda/modules/storage/checker/utils.py:128
 #, python-format
@@ -6337,8 +6334,8 @@ msgid ""
 "disk."
 msgstr ""
 "Votre système BIOS nécessite une partition spéciale pour démarrer depuis un "
-"disque au format GPT. Pour continuer, veuillez créer une partition de type "
-"« biosboot » de 1 Mio."
+"disque au format GPT. Pour continuer, veuillez créer une partition de type « "
+"biosboot » de 1 Mio."
 
 #: pyanaconda/ui/gui/spokes/lib/storage_dialogs.py:81
 #, python-format
@@ -6358,8 +6355,8 @@ msgid ""
 "of available space, including <b>%(software)s</b> for software and "
 "<b>%(swap)s</b> for swap space."
 msgstr ""
-"Votre sélection de logiciels <b>%(product)s</b> exige <b>%(total)s</b> "
-"d’espace libre, comprenant <b>%(software)s</b> pour les logiciels et "
+"Votre sélection de logiciels <b>%(product)s</b> exige <b>%(total)s</b> d’"
+"espace libre, comprenant <b>%(software)s</b> pour les logiciels et "
 "<b>%(swap)s</b> pour le swap."
 
 #: pyanaconda/ui/gui/spokes/lib/summary.glade:89
@@ -6368,8 +6365,8 @@ msgid ""
 "you return to the main menu and begin installation:"
 msgstr ""
 "Vos personnalisations entraîneront les modifications suivantes qui prendront "
-"effet lorsque vous retournerez au menu principal et que vous commencerez "
-"l’installation :"
+"effet lorsque vous retournerez au menu principal et que vous commencerez l’"
+"installation :"
 
 #: pyanaconda/modules/storage/checker/utils.py:63
 #, python-format
@@ -7431,8 +7428,8 @@ msgid ""
 "bootctl failed to install UEFI boot loader. More information may be found in "
 "the log files stored in /tmp"
 msgstr ""
-"bootctl n’a pas réussi à installer le chargeur de démarrage UEFI. Plus "
-"d’information peut être trouvé dans les fichiers de log stockés dans /tmp"
+"bootctl n’a pas réussi à installer le chargeur de démarrage UEFI. Plus d’"
+"information peut être trouvé dans les fichiers de log stockés dans /tmp"
 
 #: pyanaconda/ntp.py:51
 msgid "checking status"
@@ -7599,8 +7596,8 @@ msgid ""
 "volgroup --noformat and volgroup --useexisting must also use the --name= "
 "option."
 msgstr ""
-"volgroup --noformat et volgroup --useexisting doivent aussi utiliser "
-"l’option --name=."
+"volgroup --noformat et volgroup --useexisting doivent aussi utiliser l’"
+"option --name=."
 
 #: pyanaconda/ui/gui/spokes/advanced_user.glade:315
 msgid "wheel, my-team (1245), project-x (29935)"
@@ -8299,8 +8296,8 @@ msgid ""
 "The chosen language will be used for installation and in the installed "
 "software. "
 msgstr ""
-"La langue choisie sera utilisée pour l’installation et dans le programme "
-"d’installation. "
+"La langue choisie sera utilisée pour l’installation et dans le programme d’"
+"installation. "
 
 #: ui/webui/src/components/Error.jsx:253
 msgid ""
