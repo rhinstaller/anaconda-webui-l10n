@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  anaconda-webui.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-22 02:49+0000\n"
+"POT-Creation-Date: 2023-11-23 02:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,6 +30,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "#-#-#-#-#  anaconda-webui.manifest.pot (PACKAGE_VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE_VERSION\n"
 "MIME-Version: 1.0\n"
@@ -39,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  anaconda-webui.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-22 02:49+0000\n"
+"POT-Creation-Date: 2023-11-23 02:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,7 +103,7 @@ msgstr ""
 msgid "Apply mount point assignment and install"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:213
+#: src/components/storage/InstallationDestination.jsx:217
 msgid "Applying new disk selection..."
 msgstr ""
 
@@ -145,7 +146,7 @@ msgstr ""
 msgid "Chosen language: "
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:234
+#: src/components/storage/InstallationDestination.jsx:238
 msgid "Clear input value"
 msgstr ""
 
@@ -182,7 +183,7 @@ msgstr ""
 msgid "Critical error"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:217
+#: src/components/storage/InstallationDestination.jsx:221
 msgid "Current selections"
 msgstr ""
 
@@ -190,7 +191,7 @@ msgstr ""
 msgid "Custom"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:401
+#: src/components/storage/InstallationDestination.jsx:404
 msgid "Destination"
 msgstr ""
 
@@ -351,7 +352,7 @@ msgstr ""
 msgid "Installing"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:420
+#: src/components/storage/InstallationDestination.jsx:423
 msgid "Installing to $0 ($1)"
 msgstr ""
 
@@ -435,7 +436,7 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:406
+#: src/components/storage/InstallationDestination.jsx:463
 msgid "No additional disks detected"
 msgstr ""
 
@@ -443,7 +444,7 @@ msgstr ""
 msgid "No devices"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:115
+#: src/components/storage/InstallationDestination.jsx:119
 #: src/components/localization/InstallationLanguage.jsx:192
 msgid "No results found"
 msgstr ""
@@ -452,7 +453,7 @@ msgstr ""
 msgid "No usable devices on the selected disks."
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:430
+#: src/components/storage/InstallationDestination.jsx:433
 msgid "No usable disks detected"
 msgstr ""
 
@@ -526,7 +527,7 @@ msgstr ""
 msgid "Quit installer?"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:373
+#: src/components/storage/InstallationDestination.jsx:377
 msgid "Re-scan"
 msgstr ""
 
@@ -585,7 +586,7 @@ msgstr ""
 msgid "Required"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:382
+#: src/components/storage/InstallationDestination.jsx:386
 msgid "Rescan"
 msgstr ""
 
@@ -593,7 +594,7 @@ msgstr ""
 msgid "Rescan storage"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:361
+#: src/components/storage/InstallationDestination.jsx:365
 msgid "Rescanning of the disks failed."
 msgstr ""
 
@@ -606,7 +607,7 @@ msgstr ""
 msgid "Select a device"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:213
+#: src/components/storage/InstallationDestination.jsx:217
 msgid "Select a disk"
 msgstr ""
 
@@ -684,6 +685,18 @@ msgid ""
 "software. "
 msgstr ""
 
+#: src/components/storage/InstallationDestination.jsx:495
+msgid "The following disk is no longer available: $0"
+msgid_plural "The following disks are no longer available: $0"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/components/storage/InstallationDestination.jsx:478
+msgid "The following disk was detected: $0"
+msgid_plural "The following disks were detected: $0"
+msgstr[0] ""
+msgstr[1] ""
+
 #: src/components/Error.jsx:257
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
@@ -726,6 +739,10 @@ msgstr ""
 msgid ""
 "The selected disks will be erased, this cannot be undone. Are you sure you "
 "want to continue with the installation?"
+msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:470
+msgid "The usable disks have changed"
 msgstr ""
 
 #: src/components/users/Accounts.jsx:105
