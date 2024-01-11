@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  anaconda-webui.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-10 02:48+0000\n"
+"POT-Creation-Date: 2024-01-11 02:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 "#-#-#-#-#  anaconda-webui.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-10 02:48+0000\n"
+"POT-Creation-Date: 2024-01-11 02:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,6 +67,10 @@ msgstr ""
 
 #: src/components/review/ReviewConfiguration.jsx:144
 msgid "Account"
+msgstr ""
+
+#: src/components/AnacondaWizard.jsx:374
+msgid "Account setting failed."
 msgstr ""
 
 #: src/components/storage/MountPointMapping.jsx:573
@@ -108,7 +112,7 @@ msgid "Applying new disk selection..."
 msgstr ""
 
 #: src/components/review/ReviewConfiguration.jsx:210
-#: src/components/AnacondaWizard.jsx:421
+#: src/components/AnacondaWizard.jsx:415
 msgid "Back"
 msgstr ""
 
@@ -162,20 +166,20 @@ msgstr ""
 msgid "Completed"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:167
+#: src/components/users/Accounts.jsx:194 src/components/users/Accounts.jsx:293
 #: src/components/storage/DiskEncryption.jsx:96
 msgid "Confirm passphrase"
 msgstr ""
 
-#: src/components/AnacondaWizard.jsx:473
+#: src/components/AnacondaWizard.jsx:467
 msgid "Continue installation"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:266
+#: src/components/users/Accounts.jsx:351
 msgid "Create Account"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:190
+#: src/components/users/Accounts.jsx:210
 msgid "Create account"
 msgstr ""
 
@@ -207,7 +211,7 @@ msgstr ""
 msgid "Disabled"
 msgstr ""
 
-#: src/components/AnacondaWizard.jsx:134
+#: src/components/AnacondaWizard.jsx:131
 msgid "Disk configuration"
 msgstr ""
 
@@ -222,6 +226,10 @@ msgstr ""
 
 #: src/components/storage/MountPointMapping.jsx:240
 msgid "Duplicate mount point."
+msgstr ""
+
+#: src/components/users/Accounts.jsx:277
+msgid "Enable root account"
 msgstr ""
 
 #: src/components/review/ReviewConfiguration.jsx:168
@@ -261,7 +269,7 @@ msgstr ""
 msgid "Error details"
 msgstr ""
 
-#: src/components/AnacondaWizard.jsx:264
+#: src/components/AnacondaWizard.jsx:261
 msgid "Error was hit when going back from $0."
 msgstr ""
 
@@ -283,11 +291,11 @@ msgstr ""
 msgid "Find a language"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:194
+#: src/components/users/Accounts.jsx:214
 msgid "Full name"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:153
+#: src/components/users/Accounts.jsx:180
 msgid "Full name cannot contain colon characters"
 msgstr ""
 
@@ -436,7 +444,7 @@ msgstr ""
 msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 
-#: src/components/AnacondaWizard.jsx:395
+#: src/components/AnacondaWizard.jsx:389
 msgid "Next"
 msgstr ""
 
@@ -486,7 +494,7 @@ msgstr ""
 msgid "Operating system"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:164
+#: src/components/users/Accounts.jsx:191 src/components/users/Accounts.jsx:290
 #: src/components/storage/EncryptedDevices.jsx:178
 #: src/components/storage/EncryptedDevices.jsx:185
 #: src/components/storage/DiskEncryption.jsx:93
@@ -499,10 +507,6 @@ msgstr ""
 
 #: src/components/Password.jsx:255
 msgid "Passphrases must match"
-msgstr ""
-
-#: src/components/AnacondaWizard.jsx:380
-msgid "Password ecryption failed."
 msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:173
@@ -527,11 +531,11 @@ msgstr ""
 
 #: src/components/Error.jsx:216
 #: src/components/installation/InstallationProgress.jsx:222
-#: src/components/AnacondaWizard.jsx:443 src/components/AnacondaWizard.jsx:466
+#: src/components/AnacondaWizard.jsx:437 src/components/AnacondaWizard.jsx:460
 msgid "Quit"
 msgstr ""
 
-#: src/components/AnacondaWizard.jsx:478
+#: src/components/AnacondaWizard.jsx:472
 msgid "Quit installer?"
 msgstr ""
 
@@ -553,11 +557,11 @@ msgstr ""
 
 #: src/components/Error.jsx:216
 #: src/components/installation/InstallationProgress.jsx:222
-#: src/components/AnacondaWizard.jsx:443 src/components/AnacondaWizard.jsx:466
+#: src/components/AnacondaWizard.jsx:437 src/components/AnacondaWizard.jsx:460
 msgid "Reboot"
 msgstr ""
 
-#: src/components/AnacondaWizard.jsx:478
+#: src/components/AnacondaWizard.jsx:472
 msgid "Reboot system?"
 msgstr ""
 
@@ -685,6 +689,10 @@ msgstr ""
 msgid "Successfully unlocked $0."
 msgstr ""
 
+#: src/components/users/Accounts.jsx:305
+msgid "System"
+msgstr ""
+
 #: src/components/installation/InstallationProgress.jsx:127
 msgid "System configuration"
 msgstr ""
@@ -761,7 +769,7 @@ msgstr ""
 msgid "The usable disks have changed"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:192
+#: src/components/users/Accounts.jsx:212
 msgid "This account will have administration priviledge with sudo."
 msgstr ""
 
@@ -812,21 +820,21 @@ msgstr ""
 msgid "Use free space for the installation"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:213
+#: src/components/users/Accounts.jsx:233
 msgid "User name"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:141
+#: src/components/users/Accounts.jsx:168
 msgid ""
 "User name may only contain: letters from a-z, digits 0-9, dash $0, period "
 "$1, underscore $2"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:138
+#: src/components/users/Accounts.jsx:165
 msgid "User name must not be a reserved word"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:135
+#: src/components/users/Accounts.jsx:162
 msgid "User names must be shorter than 33 characters"
 msgstr ""
 
@@ -846,7 +854,7 @@ msgstr ""
 msgid "Welcome. Let's install $0 now."
 msgstr ""
 
-#: src/components/AnacondaWizard.jsx:482
+#: src/components/AnacondaWizard.jsx:476
 msgid "Your progress will not be saved."
 msgstr ""
 
