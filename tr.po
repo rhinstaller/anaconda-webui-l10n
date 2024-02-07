@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-07 02:49+0000\n"
-"PO-Revision-Date: 2024-02-04 15:34+0000\n"
+"PO-Revision-Date: 2024-02-08 02:42+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/tr/>\n"
@@ -133,6 +133,8 @@ msgstr "İptal"
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
+"Burada yapılan değişiklikler sistemi hemen etkileyecektir. 'Geri al' "
+"seçeneği yoktur."
 
 #: src/components/storage/DiskEncryption.jsx:53
 msgid "Checking storage configuration"
@@ -163,10 +165,8 @@ msgid "Completed"
 msgstr "Tamamlandı"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:100
-#, fuzzy
-#| msgid "Configuring storage"
 msgid "Configure storage"
-msgstr "Depolama yapılandırılıyor"
+msgstr "Depolamayı yapılandır"
 
 #: src/components/storage/DiskEncryption.jsx:96
 #: src/components/users/Accounts.jsx:194 src/components/users/Accounts.jsx:293
@@ -280,7 +280,7 @@ msgstr "$0 adımından geri dönerken hata oluştu."
 
 #: src/components/storage/CockpitStorageIntegration.jsx:190
 msgid "Fedora linux requires at least $0 of disk space."
-msgstr ""
+msgstr "Fedora Linux en az $0 disk alanı gerektirir."
 
 #: src/components/installation/InstallationProgress.jsx:132
 msgid "Finalization"
@@ -324,7 +324,7 @@ msgstr "Nasıl kurmak istersiniz?"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:166
 msgid "If you are configuring partitions the following are required:"
-msgstr ""
+msgstr "Bölümleri yapılandırıyorsanız şunlar gereklidir:"
 
 #: src/components/AnacondaHeader.jsx:80
 msgid ""
@@ -498,7 +498,7 @@ msgstr "İşletim sistemi"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:198
 msgid "Partitions (advanced)"
-msgstr ""
+msgstr "Bölümler (gelişmiş)"
 
 #: src/components/storage/DiskEncryption.jsx:93
 #: src/components/storage/EncryptedDevices.jsx:178
@@ -576,10 +576,8 @@ msgid "Recommended"
 msgstr "Tavsiye edilir"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:175
-#, fuzzy
-#| msgid "Recommended"
 msgid "Recommended partitions:"
-msgstr "Tavsiye edilir"
+msgstr "Tavsiye edilen bölümler:"
 
 #: src/components/storage/MountPointMapping.jsx:349
 #: src/components/storage/MountPointMapping.jsx:560
@@ -619,10 +617,8 @@ msgid "Required"
 msgstr "Gerekli"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:187
-#, fuzzy
-#| msgid "Required"
 msgid "Requirements"
-msgstr "Gerekli"
+msgstr "Gereksinimler"
 
 #: src/components/storage/InstallationDestination.jsx:389
 msgid "Rescan"
@@ -633,10 +629,8 @@ msgid "Rescanning of the disks failed."
 msgstr "Disklerin yeniden taranması başarısız oldu."
 
 #: src/components/storage/CockpitStorageIntegration.jsx:83
-#, fuzzy
-#| msgid "$0 installation"
 msgid "Return to installation"
-msgstr "$0 kurulumu"
+msgstr "Kuruluma geri dön"
 
 #: src/components/review/ReviewConfiguration.jsx:241
 #: src/components/review/ReviewConfiguration.jsx:242
@@ -708,10 +702,9 @@ msgid "Storage configuration: Storage is currently being configured."
 msgstr "Depolama yapılandırması: Depolama alanı şu anda yapılandırılıyor."
 
 #: src/components/storage/HelpAutopartOptions.jsx:11
-#, fuzzy
-#| msgid "Reload storage configuration from disk."
 msgid "Storage is based on the configuration from 'Modify storage'."
-msgstr "Depolama yapılandırmasını diskten yeniden yükle."
+msgstr ""
+"Depolama, 'Depolamayı değiştir' seçeneğindeki yapılandırmayı temel alır."
 
 #: src/components/Password.jsx:83
 msgid "Strong"
@@ -911,6 +904,8 @@ msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
 msgstr ""
+"Burada yeterince yer ayırıp geri kalanını kurucuya bırakabilir veya "
+"bölümleri elle ayarlayabilirsiniz."
 
 #: src/components/AnacondaWizard.jsx:482
 msgid "Your progress will not be saved."
