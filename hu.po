@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-16 02:49+0000\n"
+"POT-Creation-Date: 2024-02-17 02:48+0000\n"
 "PO-Revision-Date: 2023-11-06 12:18+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/"
@@ -76,7 +76,7 @@ msgstr "Névjegy"
 msgid "Account"
 msgstr "_Fiók"
 
-#: src/components/AnacondaWizard.jsx:380
+#: src/components/AnacondaWizard.jsx:390
 #, fuzzy
 #| msgid "Connection failed"
 msgid "Account setting failed."
@@ -115,7 +115,7 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Anaconda projekt oldala"
 
-#: src/components/storage/InstallationScenario.jsx:131
+#: src/components/storage/InstallationScenario.jsx:188
 msgid "Apply mount point assignment and install"
 msgstr "Alkalmazza a csatlakozási pont hozzárendelését és telepítse"
 
@@ -123,8 +123,8 @@ msgstr "Alkalmazza a csatlakozási pont hozzárendelését és telepítse"
 msgid "Applying new disk selection..."
 msgstr "Új lemezkijelölés alkalmazása..."
 
-#: src/components/review/ReviewConfiguration.jsx:210
-#: src/components/AnacondaWizard.jsx:421
+#: src/components/review/ReviewConfiguration.jsx:217
+#: src/components/AnacondaWizard.jsx:431
 msgid "Back"
 msgstr "Vissza"
 
@@ -140,16 +140,18 @@ msgstr ""
 "fejlesztési célokra használja, valamint hajlandó bejelenteni az esetleges "
 "problémákat, hogy javítson ezen a munkán."
 
-#: src/components/Error.jsx:249
+#: src/components/Error.jsx:257
 msgid "Cancel"
 msgstr "Mégse"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:104
+#: src/components/storage/CockpitStorageIntegration.jsx:115
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
 #: src/components/storage/DiskEncryption.jsx:53
+#: src/components/storage/CockpitStorageIntegration.jsx:359
+#: src/components/storage/CockpitStorageIntegration.jsx:371
 msgid "Checking storage configuration"
 msgstr "Tároló-összeállítás ellenőrzése"
 
@@ -169,6 +171,11 @@ msgstr "Bemeneti érték törlése"
 msgid "Close"
 msgstr "Bezárás"
 
+#: src/components/storage/CockpitStorageIntegration.jsx:274
+msgid ""
+"Cockpit storage did not provide the passphrase to unlock encrypted device."
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:149
 msgid "Common languages"
 msgstr "Általános nyelvek"
@@ -177,10 +184,16 @@ msgstr "Általános nyelvek"
 msgid "Completed"
 msgstr "Kész"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:100
+#: src/components/storage/CockpitStorageIntegration.jsx:111
 #, fuzzy
 #| msgid "Configuring storage"
 msgid "Configure storage"
+msgstr "Tárhely beállítása"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:407
+#, fuzzy
+#| msgid "Configuring storage"
+msgid "Configure storage again"
 msgstr "Tárhely beállítása"
 
 #: src/components/users/Accounts.jsx:194 src/components/users/Accounts.jsx:293
@@ -188,8 +201,18 @@ msgstr "Tárhely beállítása"
 msgid "Confirm passphrase"
 msgstr "Erősítse meg a jelszavát"
 
-#: src/components/AnacondaWizard.jsx:473
+#: src/components/storage/CockpitStorageIntegration.jsx:392
+msgid "Continue"
+msgstr "Folytatás"
+
+#: src/components/AnacondaWizard.jsx:483
 msgid "Continue installation"
+msgstr "Telepítés folytatása"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:368
+#, fuzzy
+#| msgid "Continue installation"
+msgid "Continue with installation"
 msgstr "Telepítés folytatása"
 
 #: src/components/users/Accounts.jsx:351
@@ -206,9 +229,17 @@ msgstr "_Rendszergazdai fiók"
 msgid "Create account"
 msgstr "Rendszergazdai fiók _engedélyezése"
 
-#: src/components/Error.jsx:234
+#: src/components/Error.jsx:242
 msgid "Critical error"
 msgstr "Kritikus hiba"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:428
+#, fuzzy
+#| msgid ""
+#| "You need to configure the network to use a network installation source."
+msgid "Current configuration can be used for installation."
+msgstr ""
+"Be kell állítania a hálózatot a hálózati telepítési forrás használatához."
 
 #: src/components/storage/InstallationDestination.jsx:222
 msgid "Current selections"
@@ -234,7 +265,7 @@ msgstr "Az eszközöket fel kell oldani a rögzítési pontok hozzárendelése e
 msgid "Disabled"
 msgstr "Letiltott"
 
-#: src/components/AnacondaWizard.jsx:122
+#: src/components/AnacondaWizard.jsx:131
 msgid "Disk configuration"
 msgstr "Lemez beállítások"
 
@@ -278,30 +309,30 @@ msgstr "Titkosított eszközök zárolva"
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr "A titkosítás segít megvédeni adatait, hogy mások ne férjenek hozzá."
 
-#: src/components/storage/InstallationScenario.jsx:97
-#: src/components/storage/InstallationScenario.jsx:103
+#: src/components/storage/InstallationScenario.jsx:154
+#: src/components/storage/InstallationScenario.jsx:160
 msgid "Erase data and install"
 msgstr "Törölje az adatokat és telepítse"
 
-#: src/components/storage/InstallationScenario.jsx:107
+#: src/components/storage/InstallationScenario.jsx:164
 msgid "Erase data and install?"
 msgstr "Törli a lemezeket és elkezdi a telepítést?"
 
-#: src/components/storage/InstallationScenario.jsx:105
+#: src/components/storage/InstallationScenario.jsx:162
 msgid "Erasing the data cannot be undone. Be sure to have backups."
 msgstr ""
 "Az adatok törlése nem vonható vissza. Ügyeljen arra, hogy legyen biztonsági "
 "másolata."
 
-#: src/components/Error.jsx:237
+#: src/components/Error.jsx:245
 msgid "Error details"
 msgstr "Hiba részletei"
 
-#: src/components/AnacondaWizard.jsx:250
+#: src/components/AnacondaWizard.jsx:259
 msgid "Error was hit when going back from $0."
 msgstr "Hiba történt a $0 való visszatéréskor."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:190
+#: src/components/storage/CockpitStorageIntegration.jsx:495
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr ""
 
@@ -341,11 +372,11 @@ msgstr "Jelszó elrejtése"
 msgid "Hide password"
 msgstr "Jelszó elrejtése"
 
-#: src/components/storage/InstallationScenario.jsx:253
+#: src/components/storage/InstallationScenario.jsx:371
 msgid "How would you like to install?"
 msgstr "Hogyan szeretné telepíteni?"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:166
+#: src/components/storage/CockpitStorageIntegration.jsx:471
 msgid "If you are configuring partitions the following are required:"
 msgstr ""
 
@@ -366,23 +397,30 @@ msgstr "Folyamatban"
 msgid "Initializing..."
 msgstr "Telepítés."
 
-#: src/components/storage/InstallationScenario.jsx:117
+#: src/components/storage/InstallationScenario.jsx:174
+#: src/components/storage/InstallationScenario.jsx:202
 msgid "Install"
 msgstr "Telepítés"
 
-#: src/components/storage/InstallationScenario.jsx:135
+#: src/components/storage/InstallationScenario.jsx:192
 msgid "Install on the custom mount points?"
 msgstr "Telepítse az egyéni csatolási pontokra?"
 
-#: src/components/storage/InstallationScenario.jsx:121
+#: src/components/storage/InstallationScenario.jsx:178
 msgid "Install on the free space?"
+msgstr "Telepítse a szabad helyre?"
+
+#: src/components/storage/InstallationScenario.jsx:206
+#, fuzzy
+#| msgid "Install on the free space?"
+msgid "Install using the configured storage?"
 msgstr "Telepítse a szabad helyre?"
 
 #: src/components/installation/InstallationProgress.jsx:149
 msgid "Installation failed"
 msgstr "A telepítés sikertelen"
 
-#: src/components/storage/InstallationMethod.jsx:92
+#: src/components/storage/InstallationMethod.jsx:96
 msgid "Installation method"
 msgstr "Telepítési mód"
 
@@ -441,7 +479,7 @@ msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 "Nem egyezik a szülőeszköz és a gyermekeszköz újraformázásának kiválasztása."
 
-#: src/components/storage/ModifyStorage.jsx:54
+#: src/components/storage/ModifyStorage.jsx:53
 msgid "Modify storage"
 msgstr "Tárhely módosítása"
 
@@ -450,7 +488,7 @@ msgid "Mount point"
 msgstr "Csatolási pont"
 
 #: src/components/storage/MountPointMapping.jsx:556
-#: src/components/storage/InstallationScenario.jsx:125
+#: src/components/storage/InstallationScenario.jsx:182
 msgid "Mount point assignment"
 msgstr "Csatlakozási pont hozzárendelése"
 
@@ -474,7 +512,7 @@ msgstr ""
 "A hálózat nem elérhető. A probléma bejelentéséhez konfigurálja a hálózatot a "
 "felső sáv menüjében."
 
-#: src/components/AnacondaWizard.jsx:395
+#: src/components/AnacondaWizard.jsx:405
 msgid "Next"
 msgstr "Következő"
 
@@ -491,7 +529,7 @@ msgstr "Nincsenek eszközök"
 msgid "No results found"
 msgstr "Nincs találat"
 
-#: src/components/storage/InstallationScenario.jsx:84
+#: src/components/storage/InstallationScenario.jsx:91
 msgid "No usable devices on the selected disks."
 msgstr "A kiválasztott lemezeken nincsenek használható eszközök."
 
@@ -499,11 +537,11 @@ msgstr "A kiválasztott lemezeken nincsenek használható eszközök."
 msgid "No usable disks detected"
 msgstr "Nem található használható lemez"
 
-#: src/components/storage/InstallationScenario.jsx:68
+#: src/components/storage/InstallationScenario.jsx:73
 msgid "Not enough free space on the selected disks."
 msgstr "Nincs elég szabad hely a kiválasztott lemezeken."
 
-#: src/components/storage/InstallationScenario.jsx:50
+#: src/components/storage/InstallationScenario.jsx:52
 msgid "Not enough space on selected disks."
 msgstr "Nincs elég hely a kiválasztott lemezeken."
 
@@ -529,7 +567,7 @@ msgstr ""
 msgid "Operating system"
 msgstr "Operációs rendszer"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:198
+#: src/components/storage/CockpitStorageIntegration.jsx:503
 msgid "Partitions (advanced)"
 msgstr ""
 
@@ -568,13 +606,19 @@ msgstr "Kiadás előtti verziók"
 msgid "Preparing report"
 msgstr "Jelentés előkészítése"
 
+#: src/components/storage/CockpitStorageIntegration.jsx:413
+#, fuzzy
+#| msgid "Failed to proceed with the installation."
+msgid "Proceed with installation"
+msgstr "A telepítés folytatása sikertelen."
+
 #: src/components/installation/InstallationProgress.jsx:222
-#: src/components/AnacondaWizard.jsx:443 src/components/AnacondaWizard.jsx:466
-#: src/components/Error.jsx:216
+#: src/components/AnacondaWizard.jsx:453 src/components/AnacondaWizard.jsx:476
+#: src/components/Error.jsx:224
 msgid "Quit"
 msgstr "Kilépés"
 
-#: src/components/AnacondaWizard.jsx:478
+#: src/components/AnacondaWizard.jsx:488
 msgid "Quit installer?"
 msgstr "Kilépés a telepítőből?"
 
@@ -595,12 +639,12 @@ msgid "Reading installer version information failed."
 msgstr "Nem sikerült beolvasni a telepítő verzió információit."
 
 #: src/components/installation/InstallationProgress.jsx:222
-#: src/components/AnacondaWizard.jsx:443 src/components/AnacondaWizard.jsx:466
-#: src/components/Error.jsx:216
+#: src/components/AnacondaWizard.jsx:453 src/components/AnacondaWizard.jsx:476
+#: src/components/Error.jsx:224
 msgid "Reboot"
 msgstr "Újraindítás"
 
-#: src/components/AnacondaWizard.jsx:478
+#: src/components/AnacondaWizard.jsx:488
 msgid "Reboot system?"
 msgstr "Rendszer újraindítása?"
 
@@ -608,7 +652,7 @@ msgstr "Rendszer újraindítása?"
 msgid "Recommended"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:175
+#: src/components/storage/CockpitStorageIntegration.jsx:480
 msgid "Recommended partitions:"
 msgstr ""
 
@@ -634,7 +678,7 @@ msgstr ""
 msgid "Report Issue"
 msgstr "Probléma bejelentése"
 
-#: src/components/Error.jsx:150 src/components/Error.jsx:260
+#: src/components/Error.jsx:150 src/components/Error.jsx:268
 msgid "Report issue"
 msgstr "Hiba bejelentése"
 
@@ -651,7 +695,7 @@ msgstr ""
 msgid "Required"
 msgstr "Szükséges"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:187
+#: src/components/storage/CockpitStorageIntegration.jsx:492
 #, fuzzy
 #| msgid "Required"
 msgid "Requirements"
@@ -671,8 +715,14 @@ msgstr "A lemezek újraellenőrzése nem sikerült."
 msgid "Return to installation"
 msgstr "$0 telepítés"
 
-#: src/components/review/ReviewConfiguration.jsx:241
-#: src/components/review/ReviewConfiguration.jsx:242
+#: src/components/storage/CockpitStorageIntegration.jsx:398
+#, fuzzy
+#| msgid "Launch Blivet-gui storage editor"
+msgid "Return to storage editor"
+msgstr "Indítsa el a Blivet-gui tárolószerkesztőt"
+
+#: src/components/review/ReviewConfiguration.jsx:248
+#: src/components/review/ReviewConfiguration.jsx:249
 msgid "Review and install"
 msgstr "Áttekintés és telepítés"
 
@@ -726,7 +776,7 @@ msgstr ""
 "Szoftver telepítő: A tárhely konfigurálása kész. A szoftver telepítése "
 "folyamatban van az eszközre."
 
-#: src/components/storage/InstallationScenario.jsx:87
+#: src/components/storage/InstallationScenario.jsx:94
 msgid "Some devices use the same name: $0."
 msgstr "Egyes eszközök ugyanazt a nevet használják: $0."
 
@@ -748,6 +798,10 @@ msgstr ""
 #| msgid "Reload storage configuration from disk."
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "Tároló-összeállítás újratöltésre a lemezről."
+
+#: src/components/storage/CockpitStorageIntegration.jsx:366
+msgid "Storage requirements not met"
+msgstr ""
 
 #: src/components/Password.jsx:83
 msgid "Strong"
@@ -801,7 +855,7 @@ msgid_plural "The following disks were detected: $0"
 msgstr[0] "A következő fontos lépések nincsenek kész:"
 msgstr[1] "A következő fontos lépések nincsenek kész:"
 
-#: src/components/Error.jsx:257
+#: src/components/Error.jsx:265
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
 "provide additional details."
@@ -809,11 +863,11 @@ msgstr ""
 "A következő naplót elküldjük a problémakövető rendszernek, ahol további "
 "részleteket adhat meg."
 
-#: src/components/storage/InstallationScenario.jsx:52
+#: src/components/storage/InstallationScenario.jsx:54
 msgid "The installation needs $1 of disk space; "
 msgstr "A telepítéshez $1 lemezterületre van szükség; "
 
-#: src/components/storage/InstallationScenario.jsx:122
+#: src/components/storage/InstallationScenario.jsx:179
 msgid ""
 "The installation will use the available space on your devices and will not "
 "erase any device data."
@@ -821,15 +875,16 @@ msgstr ""
 "A telepítés felhasználja az eszközein rendelkezésre álló helyet, és nem "
 "törli az eszközadatokat."
 
-#: src/components/storage/InstallationScenario.jsx:136
+#: src/components/storage/InstallationScenario.jsx:193
+#: src/components/storage/InstallationScenario.jsx:207
 msgid "The installation will use your configured partitioning layout."
 msgstr "A telepítés a beállított particionálási elrendezést fogja használni."
 
-#: src/components/Error.jsx:226
+#: src/components/Error.jsx:234
 msgid "The installer cannot continue due to a critical error."
 msgstr "A telepítő nem tudja folytatni egy kritikus hiba miatt."
 
-#: src/components/Error.jsx:225
+#: src/components/Error.jsx:233
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "A telepítő nem tud folytatni egy kritikus hiba miatt: $0"
 
@@ -845,7 +900,7 @@ msgstr ""
 msgid "The root partition is always re-formatted by the installer."
 msgstr "A root partíciót mindig újraformázza a telepítő."
 
-#: src/components/storage/InstallationScenario.jsx:108
+#: src/components/storage/InstallationScenario.jsx:165
 msgid ""
 "The selected disks will be erased, this cannot be undone. Are you sure you "
 "want to continue with the installation?"
@@ -871,27 +926,34 @@ msgstr "Ez egy instabil, előzetes kiadású szoftver"
 msgid "This may take a moment"
 msgstr "Ez eltarthat egy ideig"
 
+#: src/components/storage/CockpitStorageIntegration.jsx:360
+#, fuzzy
+#| msgid "This may take a moment"
+msgid "This will take a few moments"
+msgstr "Ez eltarthat egy ideig"
+
 #: src/components/installation/InstallationProgress.jsx:164
 msgid "To begin using $0, reboot your system."
 msgstr "A $0 használatának megkezdéséhez indítsa újra a rendszert."
 
-#: src/components/storage/InstallationMethod.jsx:84
+#: src/components/storage/InstallationMethod.jsx:88
 msgid "To continue, select the devices to install to."
 msgstr "A folytatáshoz, kérem válassza ki a telepíteni kívánt eszközöket."
 
-#: src/components/storage/InstallationScenario.jsx:119
-#: src/components/storage/InstallationScenario.jsx:133
+#: src/components/storage/InstallationScenario.jsx:176
+#: src/components/storage/InstallationScenario.jsx:190
+#: src/components/storage/InstallationScenario.jsx:204
 msgid "To prevent loss, make sure to backup your data."
 msgstr ""
 "Az adatvesztés elkerülése érdekében készítsen biztonsági másolatot az "
 "adatokról."
 
-#: src/components/storage/InstallationScenario.jsx:88
+#: src/components/storage/InstallationScenario.jsx:95
 msgid "To use this option, rename devices to have unique names."
 msgstr ""
 "Ennek az opciónak a használatához nevezze át az eszközöket egyedi névre."
 
-#: src/components/storage/InstallationScenario.jsx:70
+#: src/components/storage/InstallationScenario.jsx:75
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -911,7 +973,13 @@ msgstr "Eszköz feloldása"
 msgid "Unlock encrypted devices"
 msgstr "A titkosított eszközök feloldása"
 
-#: src/components/storage/InstallationScenario.jsx:111
+#: src/components/storage/InstallationScenario.jsx:196
+#, fuzzy
+#| msgid "Configuring storage"
+msgid "Use configured storage"
+msgstr "Tárhely beállítása"
+
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "Use free space for the installation"
 msgstr "Használjon szabad helyet a telepítéshez"
 
@@ -949,17 +1017,17 @@ msgstr "Üdvözöljük"
 msgid "Welcome to $0"
 msgstr "Üdvözli a $0"
 
-#: src/components/storage/InstallationMethod.jsx:93
+#: src/components/storage/InstallationMethod.jsx:97
 msgid "Welcome. Let's install $0 now."
 msgstr "Üdvözöljük. Most telepítsük a $0-t."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:193
+#: src/components/storage/CockpitStorageIntegration.jsx:498
 msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
 msgstr ""
 
-#: src/components/AnacondaWizard.jsx:482
+#: src/components/AnacondaWizard.jsx:492
 msgid "Your progress will not be saved."
 msgstr "A folyamat pillanatnyi állapota nem kerül mentésre."
 
@@ -1004,9 +1072,6 @@ msgstr "függőben lévő lépés"
 
 #~ msgid "Ignore"
 #~ msgstr "Mellőzés"
-
-#~ msgid "Launch Blivet-gui storage editor"
-#~ msgstr "Indítsa el a Blivet-gui tárolószerkesztőt"
 
 #~ msgid "Modified storage"
 #~ msgstr "Módosított tárhely"
@@ -2023,9 +2088,6 @@ msgstr "függőben lévő lépés"
 #~ msgid "Connecting..."
 #~ msgstr "Csatlakozás…"
 
-#~ msgid "Continue"
-#~ msgstr "Folytatás"
-
 #~ msgid ""
 #~ "Continuing with this action will reset all your partitioning selections "
 #~ "to their current on-disk state."
@@ -2469,9 +2531,6 @@ msgstr "függőben lévő lépés"
 
 #~ msgid "Failed to change a device."
 #~ msgstr "Az eszköz módosítása sikertelen."
-
-#~ msgid "Failed to proceed with the installation."
-#~ msgstr "A telepítés folytatása sikertelen."
 
 #~ msgid "Failed to save boot loader configuration"
 #~ msgstr "Tároló-összeállítás mentése sikertelen"
@@ -5715,11 +5774,6 @@ msgstr "függőben lévő lépés"
 
 #~ msgid "You must set a password"
 #~ msgstr "Meg kell adnia egy jelszót"
-
-#~ msgid ""
-#~ "You need to configure the network to use a network installation source."
-#~ msgstr ""
-#~ "Be kell állítania a hálózatot a hálózati telepítési forrás használatához."
 
 #~ msgid "You need to set up networking first if you want to use NTP"
 #~ msgstr "Az NTP használatához először be kell állítania a hálózatot"

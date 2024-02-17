@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-16 02:49+0000\n"
+"POT-Creation-Date: 2024-02-17 02:48+0000\n"
 "PO-Revision-Date: 2024-02-08 16:52+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
@@ -65,7 +65,7 @@ msgstr "Om"
 msgid "Account"
 msgstr "Konto"
 
-#: src/components/AnacondaWizard.jsx:380
+#: src/components/AnacondaWizard.jsx:390
 msgid "Account setting failed."
 msgstr "Kontoinställning misslyckades."
 
@@ -101,7 +101,7 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Anaconda projekt sida"
 
-#: src/components/storage/InstallationScenario.jsx:131
+#: src/components/storage/InstallationScenario.jsx:188
 msgid "Apply mount point assignment and install"
 msgstr "Tillämpa monteringspunktstilldelningar och installera"
 
@@ -109,8 +109,8 @@ msgstr "Tillämpa monteringspunktstilldelningar och installera"
 msgid "Applying new disk selection..."
 msgstr "Tillämpar nytt diskval..."
 
-#: src/components/review/ReviewConfiguration.jsx:210
-#: src/components/AnacondaWizard.jsx:421
+#: src/components/review/ReviewConfiguration.jsx:217
+#: src/components/AnacondaWizard.jsx:431
 msgid "Back"
 msgstr "Tillbaka"
 
@@ -126,11 +126,11 @@ msgstr ""
 "för test- och utvecklingssyften och är villig att rapportera eventuella "
 "buggar eller problem för att förbättra detta arbete."
 
-#: src/components/Error.jsx:249
+#: src/components/Error.jsx:257
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:104
+#: src/components/storage/CockpitStorageIntegration.jsx:115
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
@@ -138,6 +138,8 @@ msgstr ""
 "ingen \"ångra\"."
 
 #: src/components/storage/DiskEncryption.jsx:53
+#: src/components/storage/CockpitStorageIntegration.jsx:359
+#: src/components/storage/CockpitStorageIntegration.jsx:371
 msgid "Checking storage configuration"
 msgstr "Kontrollerar lagringskonfiguration"
 
@@ -157,6 +159,11 @@ msgstr "Rensa inmatningsvärde"
 msgid "Close"
 msgstr "Stäng"
 
+#: src/components/storage/CockpitStorageIntegration.jsx:274
+msgid ""
+"Cockpit storage did not provide the passphrase to unlock encrypted device."
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:149
 msgid "Common languages"
 msgstr "Vanliga språk"
@@ -165,8 +172,14 @@ msgstr "Vanliga språk"
 msgid "Completed"
 msgstr "Färdig"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:100
+#: src/components/storage/CockpitStorageIntegration.jsx:111
 msgid "Configure storage"
+msgstr "Konfigurera lagring"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:407
+#, fuzzy
+#| msgid "Configure storage"
+msgid "Configure storage again"
 msgstr "Konfigurera lagring"
 
 #: src/components/users/Accounts.jsx:194 src/components/users/Accounts.jsx:293
@@ -174,8 +187,18 @@ msgstr "Konfigurera lagring"
 msgid "Confirm passphrase"
 msgstr "Bekräfta lösenfras"
 
-#: src/components/AnacondaWizard.jsx:473
+#: src/components/storage/CockpitStorageIntegration.jsx:392
+msgid "Continue"
+msgstr "Fortsätt"
+
+#: src/components/AnacondaWizard.jsx:483
 msgid "Continue installation"
+msgstr "Fortsätt installation"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:368
+#, fuzzy
+#| msgid "Continue installation"
+msgid "Continue with installation"
 msgstr "Fortsätt installation"
 
 #: src/components/users/Accounts.jsx:351
@@ -186,9 +209,17 @@ msgstr "Skapa konto"
 msgid "Create account"
 msgstr "Skapa konto"
 
-#: src/components/Error.jsx:234
+#: src/components/Error.jsx:242
 msgid "Critical error"
 msgstr "Kritiskt fel"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:428
+#, fuzzy
+#| msgid ""
+#| "You need to configure the network to use a network installation source."
+msgid "Current configuration can be used for installation."
+msgstr ""
+"Du måste konfigurera nätverket för att använda en nätverksinstallationskälla."
 
 #: src/components/storage/InstallationDestination.jsx:222
 msgid "Current selections"
@@ -214,7 +245,7 @@ msgstr "Enheter bör låsas upp innan monteringspunkter tilldelas."
 msgid "Disabled"
 msgstr "Avaktiverad"
 
-#: src/components/AnacondaWizard.jsx:122
+#: src/components/AnacondaWizard.jsx:131
 msgid "Disk configuration"
 msgstr "Diskkonfiguration"
 
@@ -257,28 +288,28 @@ msgstr ""
 "Kryptering hjälper till att säkra din data, och att förhindra att andra "
 "kommer åt den."
 
-#: src/components/storage/InstallationScenario.jsx:97
-#: src/components/storage/InstallationScenario.jsx:103
+#: src/components/storage/InstallationScenario.jsx:154
+#: src/components/storage/InstallationScenario.jsx:160
 msgid "Erase data and install"
 msgstr "Radera data och installera"
 
-#: src/components/storage/InstallationScenario.jsx:107
+#: src/components/storage/InstallationScenario.jsx:164
 msgid "Erase data and install?"
 msgstr "Radera data och installera?"
 
-#: src/components/storage/InstallationScenario.jsx:105
+#: src/components/storage/InstallationScenario.jsx:162
 msgid "Erasing the data cannot be undone. Be sure to have backups."
 msgstr "Att radera data kan inte göras ogjort. Se till att ha säkerhetskopior."
 
-#: src/components/Error.jsx:237
+#: src/components/Error.jsx:245
 msgid "Error details"
 msgstr "Feldetaljer:"
 
-#: src/components/AnacondaWizard.jsx:250
+#: src/components/AnacondaWizard.jsx:259
 msgid "Error was hit when going back from $0."
 msgstr "Ett fel uppstod när systemet skulle gå tillbaka från $0."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:190
+#: src/components/storage/CockpitStorageIntegration.jsx:495
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora linux kräver minst $0 diskutrymme."
 
@@ -318,11 +349,11 @@ msgstr "Dölj lösenfras"
 msgid "Hide password"
 msgstr "Dölj lösenord"
 
-#: src/components/storage/InstallationScenario.jsx:253
+#: src/components/storage/InstallationScenario.jsx:371
 msgid "How would you like to install?"
 msgstr "Hur vill du installera?"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:166
+#: src/components/storage/CockpitStorageIntegration.jsx:471
 msgid "If you are configuring partitions the following are required:"
 msgstr "Om du konfigurerar partitioner krävs följande:"
 
@@ -340,23 +371,30 @@ msgstr "Pågående"
 msgid "Initializing..."
 msgstr "Initialiserar..."
 
-#: src/components/storage/InstallationScenario.jsx:117
+#: src/components/storage/InstallationScenario.jsx:174
+#: src/components/storage/InstallationScenario.jsx:202
 msgid "Install"
 msgstr "Installera"
 
-#: src/components/storage/InstallationScenario.jsx:135
+#: src/components/storage/InstallationScenario.jsx:192
 msgid "Install on the custom mount points?"
 msgstr "Installera på de anpassade monteringspunkterna?"
 
-#: src/components/storage/InstallationScenario.jsx:121
+#: src/components/storage/InstallationScenario.jsx:178
 msgid "Install on the free space?"
+msgstr "Installera på ledigt utrymme?"
+
+#: src/components/storage/InstallationScenario.jsx:206
+#, fuzzy
+#| msgid "Install on the free space?"
+msgid "Install using the configured storage?"
 msgstr "Installera på ledigt utrymme?"
 
 #: src/components/installation/InstallationProgress.jsx:149
 msgid "Installation failed"
 msgstr "installationen misslyckades"
 
-#: src/components/storage/InstallationMethod.jsx:92
+#: src/components/storage/InstallationMethod.jsx:96
 msgid "Installation method"
 msgstr "Installationsmetod"
 
@@ -415,7 +453,7 @@ msgstr ""
 "Felaktig överensstämmelse mellan överordnad enhet och underordnad enhet vid "
 "omformateringsval."
 
-#: src/components/storage/ModifyStorage.jsx:54
+#: src/components/storage/ModifyStorage.jsx:53
 msgid "Modify storage"
 msgstr "Modifera lagring"
 
@@ -424,7 +462,7 @@ msgid "Mount point"
 msgstr "Monteringspunkt"
 
 #: src/components/storage/MountPointMapping.jsx:556
-#: src/components/storage/InstallationScenario.jsx:125
+#: src/components/storage/InstallationScenario.jsx:182
 msgid "Mount point assignment"
 msgstr "Monteringspunkt tilldelning"
 
@@ -445,7 +483,7 @@ msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 "Nätverk ej tillgängligt. Konfigurera nätverket för att rapportera problemet."
 
-#: src/components/AnacondaWizard.jsx:395
+#: src/components/AnacondaWizard.jsx:405
 msgid "Next"
 msgstr "Nästa"
 
@@ -462,7 +500,7 @@ msgstr "Inga enheter"
 msgid "No results found"
 msgstr "Inga resultat funna"
 
-#: src/components/storage/InstallationScenario.jsx:84
+#: src/components/storage/InstallationScenario.jsx:91
 msgid "No usable devices on the selected disks."
 msgstr "Inga användbara enheter på de valda diskarna."
 
@@ -470,11 +508,11 @@ msgstr "Inga användbara enheter på de valda diskarna."
 msgid "No usable disks detected"
 msgstr "Inga användbara diskar upptäcktes."
 
-#: src/components/storage/InstallationScenario.jsx:68
+#: src/components/storage/InstallationScenario.jsx:73
 msgid "Not enough free space on the selected disks."
 msgstr "Inte tillräckligt med ledigt utrymme på de valda diskarna."
 
-#: src/components/storage/InstallationScenario.jsx:50
+#: src/components/storage/InstallationScenario.jsx:52
 msgid "Not enough space on selected disks."
 msgstr "Inte tillräckligt med utrymme på de valda diskarna."
 
@@ -500,7 +538,7 @@ msgstr ""
 msgid "Operating system"
 msgstr "Operativsystem"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:198
+#: src/components/storage/CockpitStorageIntegration.jsx:503
 msgid "Partitions (advanced)"
 msgstr "Partitioner (avancerat)"
 
@@ -539,13 +577,19 @@ msgstr "Förhandsutgåva"
 msgid "Preparing report"
 msgstr "Förbereder rapport"
 
+#: src/components/storage/CockpitStorageIntegration.jsx:413
+#, fuzzy
+#| msgid "Failed to proceed with the installation."
+msgid "Proceed with installation"
+msgstr "Misslyckades gå vidare med installationen."
+
 #: src/components/installation/InstallationProgress.jsx:222
-#: src/components/AnacondaWizard.jsx:443 src/components/AnacondaWizard.jsx:466
-#: src/components/Error.jsx:216
+#: src/components/AnacondaWizard.jsx:453 src/components/AnacondaWizard.jsx:476
+#: src/components/Error.jsx:224
 msgid "Quit"
 msgstr "Avsluta"
 
-#: src/components/AnacondaWizard.jsx:478
+#: src/components/AnacondaWizard.jsx:488
 msgid "Quit installer?"
 msgstr "Avsluta installationsprogrammet?"
 
@@ -566,12 +610,12 @@ msgid "Reading installer version information failed."
 msgstr "Läsa installation version information misslyckades."
 
 #: src/components/installation/InstallationProgress.jsx:222
-#: src/components/AnacondaWizard.jsx:443 src/components/AnacondaWizard.jsx:466
-#: src/components/Error.jsx:216
+#: src/components/AnacondaWizard.jsx:453 src/components/AnacondaWizard.jsx:476
+#: src/components/Error.jsx:224
 msgid "Reboot"
 msgstr "Starta om"
 
-#: src/components/AnacondaWizard.jsx:478
+#: src/components/AnacondaWizard.jsx:488
 msgid "Reboot system?"
 msgstr "Starta om systemet?"
 
@@ -579,7 +623,7 @@ msgstr "Starta om systemet?"
 msgid "Recommended"
 msgstr "Rekommenderad"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:175
+#: src/components/storage/CockpitStorageIntegration.jsx:480
 msgid "Recommended partitions:"
 msgstr "Rekommenderade partitioner:"
 
@@ -604,7 +648,7 @@ msgstr ""
 msgid "Report Issue"
 msgstr "Rapportera problem"
 
-#: src/components/Error.jsx:150 src/components/Error.jsx:260
+#: src/components/Error.jsx:150 src/components/Error.jsx:268
 msgid "Report issue"
 msgstr "Rapportera problem"
 
@@ -621,7 +665,7 @@ msgstr ""
 msgid "Required"
 msgstr "Krävs"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:187
+#: src/components/storage/CockpitStorageIntegration.jsx:492
 msgid "Requirements"
 msgstr "Krav"
 
@@ -637,8 +681,14 @@ msgstr "Omsökning av diskarna misslyckades."
 msgid "Return to installation"
 msgstr "Återgå till installation"
 
-#: src/components/review/ReviewConfiguration.jsx:241
-#: src/components/review/ReviewConfiguration.jsx:242
+#: src/components/storage/CockpitStorageIntegration.jsx:398
+#, fuzzy
+#| msgid "Launch Blivet-gui storage editor"
+msgid "Return to storage editor"
+msgstr "Starta Blivet-gui lagringseditor"
+
+#: src/components/review/ReviewConfiguration.jsx:248
+#: src/components/review/ReviewConfiguration.jsx:249
 msgid "Review and install"
 msgstr "Granska och installera"
 
@@ -690,7 +740,7 @@ msgstr ""
 "Programvaruinstallation: Lagringskonfigurationen är klar. Programvaran "
 "installeras nu på din enhet."
 
-#: src/components/storage/InstallationScenario.jsx:87
+#: src/components/storage/InstallationScenario.jsx:94
 msgid "Some devices use the same name: $0."
 msgstr "Vissa enheter använder samma namn: $0."
 
@@ -709,6 +759,10 @@ msgstr "Lagringskonfiguration: Lagring konfigureras för närvarande."
 #: src/components/storage/HelpAutopartOptions.jsx:11
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "Lagring baseras på konfigurationen från \"Modifera lagring\"."
+
+#: src/components/storage/CockpitStorageIntegration.jsx:366
+msgid "Storage requirements not met"
+msgstr ""
 
 #: src/components/Password.jsx:83
 msgid "Strong"
@@ -758,7 +812,7 @@ msgid_plural "The following disks were detected: $0"
 msgstr[0] "Följande disk upptäcktes: $0"
 msgstr[1] "Följande diskar upptäcktes: $0"
 
-#: src/components/Error.jsx:257
+#: src/components/Error.jsx:265
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
 "provide additional details."
@@ -766,11 +820,11 @@ msgstr ""
 "Följande logg kommer att skickas till problemspårningssystemet där du kan ge "
 "ytterligare information."
 
-#: src/components/storage/InstallationScenario.jsx:52
+#: src/components/storage/InstallationScenario.jsx:54
 msgid "The installation needs $1 of disk space; "
 msgstr "Installationen behöver $1 diskutrymme; "
 
-#: src/components/storage/InstallationScenario.jsx:122
+#: src/components/storage/InstallationScenario.jsx:179
 msgid ""
 "The installation will use the available space on your devices and will not "
 "erase any device data."
@@ -778,17 +832,18 @@ msgstr ""
 "Installationen kommer att använda det tillgängliga utrymmet på dina enheter "
 "och kommer inte att radera någon enhetsdata."
 
-#: src/components/storage/InstallationScenario.jsx:136
+#: src/components/storage/InstallationScenario.jsx:193
+#: src/components/storage/InstallationScenario.jsx:207
 msgid "The installation will use your configured partitioning layout."
 msgstr ""
 "Installationen kommer att använda din konfigurerade partitioneringslayout."
 
-#: src/components/Error.jsx:226
+#: src/components/Error.jsx:234
 msgid "The installer cannot continue due to a critical error."
 msgstr ""
 "Installationsprogrammet kan inte fortsätta på grund av ett kritiskt fel."
 
-#: src/components/Error.jsx:225
+#: src/components/Error.jsx:233
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr ""
 "Installationsprogrammet kan inte fortsätta på grund av ett kritiskt fel: $0"
@@ -805,7 +860,7 @@ msgstr ""
 msgid "The root partition is always re-formatted by the installer."
 msgstr "Rootpartitionen omformateras alltid av installationsprogrammet."
 
-#: src/components/storage/InstallationScenario.jsx:108
+#: src/components/storage/InstallationScenario.jsx:165
 msgid ""
 "The selected disks will be erased, this cannot be undone. Are you sure you "
 "want to continue with the installation?"
@@ -829,26 +884,33 @@ msgstr "Detta är en instabil förhandsutgåva av programvaran"
 msgid "This may take a moment"
 msgstr "Detta kan ta en stund"
 
+#: src/components/storage/CockpitStorageIntegration.jsx:360
+#, fuzzy
+#| msgid "This may take a moment"
+msgid "This will take a few moments"
+msgstr "Detta kan ta en stund"
+
 #: src/components/installation/InstallationProgress.jsx:164
 msgid "To begin using $0, reboot your system."
 msgstr "För att börja använda $0, starta om ditt system."
 
-#: src/components/storage/InstallationMethod.jsx:84
+#: src/components/storage/InstallationMethod.jsx:88
 msgid "To continue, select the devices to install to."
 msgstr "För att fortsätta, välj enheterna att installera på."
 
-#: src/components/storage/InstallationScenario.jsx:119
-#: src/components/storage/InstallationScenario.jsx:133
+#: src/components/storage/InstallationScenario.jsx:176
+#: src/components/storage/InstallationScenario.jsx:190
+#: src/components/storage/InstallationScenario.jsx:204
 msgid "To prevent loss, make sure to backup your data."
 msgstr "För att förhindra förlust, se till att säkerhetskopier dina data."
 
-#: src/components/storage/InstallationScenario.jsx:88
+#: src/components/storage/InstallationScenario.jsx:95
 msgid "To use this option, rename devices to have unique names."
 msgstr ""
 "Om du vill använda det här alternativet byt namn på enheter så att de får "
 "unika namn."
 
-#: src/components/storage/InstallationScenario.jsx:70
+#: src/components/storage/InstallationScenario.jsx:75
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -868,7 +930,13 @@ msgstr "Lås upp enheter"
 msgid "Unlock encrypted devices"
 msgstr "Lås upp krypterade enheter"
 
-#: src/components/storage/InstallationScenario.jsx:111
+#: src/components/storage/InstallationScenario.jsx:196
+#, fuzzy
+#| msgid "Configure storage"
+msgid "Use configured storage"
+msgstr "Konfigurera lagring"
+
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "Use free space for the installation"
 msgstr "Använd ledigt utrymme för installationen"
 
@@ -904,11 +972,11 @@ msgstr "Välkommen"
 msgid "Welcome to $0"
 msgstr "Välkommen till $0"
 
-#: src/components/storage/InstallationMethod.jsx:93
+#: src/components/storage/InstallationMethod.jsx:97
 msgid "Welcome. Let's install $0 now."
 msgstr "Välkommen. Låt oss installera $0 nu."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:193
+#: src/components/storage/CockpitStorageIntegration.jsx:498
 msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
@@ -916,7 +984,7 @@ msgstr ""
 "Du kan antingen frigöra tillräckligt med utrymme här och låta "
 "installationsprogrammet sköta resten eller manuellt sätta upp partitioner."
 
-#: src/components/AnacondaWizard.jsx:482
+#: src/components/AnacondaWizard.jsx:492
 msgid "Your progress will not be saved."
 msgstr "Ditt förlopp kommer inte att sparas."
 
@@ -960,9 +1028,6 @@ msgstr "väntande steg"
 
 #~ msgid "Ignore"
 #~ msgstr "Ignorera"
-
-#~ msgid "Launch Blivet-gui storage editor"
-#~ msgstr "Starta Blivet-gui lagringseditor"
 
 #~ msgid "Modified storage"
 #~ msgstr "Modifierad lagring"
@@ -1970,9 +2035,6 @@ msgstr "väntande steg"
 #~ msgid "Connecting..."
 #~ msgstr "Ansluter …"
 
-#~ msgid "Continue"
-#~ msgstr "Fortsätt"
-
 #~ msgid ""
 #~ "Continuing with this action will reset all your partitioning selections "
 #~ "to their current on-disk state."
@@ -2410,9 +2472,6 @@ msgstr "väntande steg"
 
 #~ msgid "Failed to change a device."
 #~ msgstr "Misslyckades att ändra en enhet."
-
-#~ msgid "Failed to proceed with the installation."
-#~ msgstr "Misslyckades gå vidare med installationen."
 
 #~ msgid "Failed to save boot loader configuration"
 #~ msgstr "Misslyckades att spara uppstartskonfigurationen"
@@ -5635,12 +5694,6 @@ msgstr "väntande steg"
 
 #~ msgid "You must set a password"
 #~ msgstr "Du måste ange ett lösenord"
-
-#~ msgid ""
-#~ "You need to configure the network to use a network installation source."
-#~ msgstr ""
-#~ "Du måste konfigurera nätverket för att använda en "
-#~ "nätverksinstallationskälla."
 
 #~ msgid "You need to set up networking first if you want to use NTP"
 #~ msgstr "Du behöver sätta upp nätverket först om du vill använda NTP"

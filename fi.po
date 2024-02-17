@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-16 02:49+0000\n"
+"POT-Creation-Date: 2024-02-17 02:48+0000\n"
 "PO-Revision-Date: 2023-11-06 12:17+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
@@ -70,7 +70,7 @@ msgstr "Aiheesta"
 msgid "Account"
 msgstr "_Tili"
 
-#: src/components/AnacondaWizard.jsx:380
+#: src/components/AnacondaWizard.jsx:390
 #, fuzzy
 #| msgid "Connection failed"
 msgid "Account setting failed."
@@ -108,7 +108,7 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Anaconda-projektin sivu"
 
-#: src/components/storage/InstallationScenario.jsx:131
+#: src/components/storage/InstallationScenario.jsx:188
 msgid "Apply mount point assignment and install"
 msgstr "Käytä kiinnityspisteiden määritystä ja asenna"
 
@@ -116,8 +116,8 @@ msgstr "Käytä kiinnityspisteiden määritystä ja asenna"
 msgid "Applying new disk selection..."
 msgstr "Otetaan uutta levyvalintaa käyttöön..."
 
-#: src/components/review/ReviewConfiguration.jsx:210
-#: src/components/AnacondaWizard.jsx:421
+#: src/components/review/ReviewConfiguration.jsx:217
+#: src/components/AnacondaWizard.jsx:431
 msgid "Back"
 msgstr "Takaisin"
 
@@ -133,16 +133,18 @@ msgstr ""
 "testaustarkoituksiin, ja olet halukas ilmoittamaan mahdollisista ongelmista "
 "parantaaksesi tätä ohjelmistoa."
 
-#: src/components/Error.jsx:249
+#: src/components/Error.jsx:257
 msgid "Cancel"
 msgstr "Peru"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:104
+#: src/components/storage/CockpitStorageIntegration.jsx:115
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
 #: src/components/storage/DiskEncryption.jsx:53
+#: src/components/storage/CockpitStorageIntegration.jsx:359
+#: src/components/storage/CockpitStorageIntegration.jsx:371
 msgid "Checking storage configuration"
 msgstr "Tarkistetaan tallennustilan asetuksia"
 
@@ -162,6 +164,11 @@ msgstr "Tyhjennä syöttöarvo"
 msgid "Close"
 msgstr "Sulje"
 
+#: src/components/storage/CockpitStorageIntegration.jsx:274
+msgid ""
+"Cockpit storage did not provide the passphrase to unlock encrypted device."
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:149
 msgid "Common languages"
 msgstr "Yleiset kielet"
@@ -170,10 +177,16 @@ msgstr "Yleiset kielet"
 msgid "Completed"
 msgstr "Valmis"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:100
+#: src/components/storage/CockpitStorageIntegration.jsx:111
 #, fuzzy
 #| msgid "Configuring storage"
 msgid "Configure storage"
+msgstr "Määritetään tallennustilaa"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:407
+#, fuzzy
+#| msgid "Configuring storage"
+msgid "Configure storage again"
 msgstr "Määritetään tallennustilaa"
 
 #: src/components/users/Accounts.jsx:194 src/components/users/Accounts.jsx:293
@@ -181,8 +194,18 @@ msgstr "Määritetään tallennustilaa"
 msgid "Confirm passphrase"
 msgstr "Vahvista salalause"
 
-#: src/components/AnacondaWizard.jsx:473
+#: src/components/storage/CockpitStorageIntegration.jsx:392
+msgid "Continue"
+msgstr "Jatka"
+
+#: src/components/AnacondaWizard.jsx:483
 msgid "Continue installation"
+msgstr "Jatka asennusta"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:368
+#, fuzzy
+#| msgid "Continue installation"
+msgid "Continue with installation"
 msgstr "Jatka asennusta"
 
 #: src/components/users/Accounts.jsx:351
@@ -198,9 +221,18 @@ msgstr "_Root-tili"
 msgid "Create account"
 msgstr "Lukitse root-tili"
 
-#: src/components/Error.jsx:234
+#: src/components/Error.jsx:242
 msgid "Critical error"
 msgstr "Kriittinen virhe"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:428
+#, fuzzy
+#| msgid ""
+#| "You need to configure the network to use a network installation source."
+msgid "Current configuration can be used for installation."
+msgstr ""
+"Sinun tulee määrittää verkon asetukset, jotta voit käyttää "
+"verkkoasennuslähdettä."
 
 #: src/components/storage/InstallationDestination.jsx:222
 msgid "Current selections"
@@ -226,7 +258,7 @@ msgstr "Laitteiden lukitus tulee avata ennen liitospisteiden määrittämistä."
 msgid "Disabled"
 msgstr "Ei käytössä"
 
-#: src/components/AnacondaWizard.jsx:122
+#: src/components/AnacondaWizard.jsx:131
 msgid "Disk configuration"
 msgstr "Laitteen asetukset"
 
@@ -271,30 +303,30 @@ msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 "Salaus auttaa suojaamaan tietosi, jotta muut eivät pääse niihin käsiksi."
 
-#: src/components/storage/InstallationScenario.jsx:97
-#: src/components/storage/InstallationScenario.jsx:103
+#: src/components/storage/InstallationScenario.jsx:154
+#: src/components/storage/InstallationScenario.jsx:160
 msgid "Erase data and install"
 msgstr "Tyhjennä levyt ja asenna"
 
-#: src/components/storage/InstallationScenario.jsx:107
+#: src/components/storage/InstallationScenario.jsx:164
 msgid "Erase data and install?"
 msgstr "Tyhjennetäänkö levyt ja asennetaanko?"
 
-#: src/components/storage/InstallationScenario.jsx:105
+#: src/components/storage/InstallationScenario.jsx:162
 msgid "Erasing the data cannot be undone. Be sure to have backups."
 msgstr ""
 "Tietojen tyhjentämistä ei voi kumota. Varmistu, että sinulla on "
 "varmuuskopiot."
 
-#: src/components/Error.jsx:237
+#: src/components/Error.jsx:245
 msgid "Error details"
 msgstr "Virheen tiedot"
 
-#: src/components/AnacondaWizard.jsx:250
+#: src/components/AnacondaWizard.jsx:259
 msgid "Error was hit when going back from $0."
 msgstr "Virhe palatessa takaisin kohteesta $0."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:190
+#: src/components/storage/CockpitStorageIntegration.jsx:495
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr ""
 
@@ -335,11 +367,11 @@ msgstr "Vahvista salalause"
 msgid "Hide password"
 msgstr "Piilota salasana"
 
-#: src/components/storage/InstallationScenario.jsx:253
+#: src/components/storage/InstallationScenario.jsx:371
 msgid "How would you like to install?"
 msgstr "Miten haluaisit asentaa?"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:166
+#: src/components/storage/CockpitStorageIntegration.jsx:471
 msgid "If you are configuring partitions the following are required:"
 msgstr ""
 
@@ -358,23 +390,30 @@ msgstr "Meneillään"
 msgid "Initializing..."
 msgstr "Asennetaan."
 
-#: src/components/storage/InstallationScenario.jsx:117
+#: src/components/storage/InstallationScenario.jsx:174
+#: src/components/storage/InstallationScenario.jsx:202
 msgid "Install"
 msgstr "Asenna"
 
-#: src/components/storage/InstallationScenario.jsx:135
+#: src/components/storage/InstallationScenario.jsx:192
 msgid "Install on the custom mount points?"
 msgstr "Asennetaanko mukautettuihin liitospisteisiin?"
 
-#: src/components/storage/InstallationScenario.jsx:121
+#: src/components/storage/InstallationScenario.jsx:178
 msgid "Install on the free space?"
+msgstr "Asennetaanko vapaaseen tilaan?"
+
+#: src/components/storage/InstallationScenario.jsx:206
+#, fuzzy
+#| msgid "Install on the free space?"
+msgid "Install using the configured storage?"
 msgstr "Asennetaanko vapaaseen tilaan?"
 
 #: src/components/installation/InstallationProgress.jsx:149
 msgid "Installation failed"
 msgstr "Asennus epäonnistui"
 
-#: src/components/storage/InstallationMethod.jsx:92
+#: src/components/storage/InstallationMethod.jsx:96
 msgid "Installation method"
 msgstr "Asennustapa"
 
@@ -433,7 +472,7 @@ msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 "Isäntälaitteen ja alalaitteen uudelleenmuotoilun valinta ei vastaa toisiaan."
 
-#: src/components/storage/ModifyStorage.jsx:54
+#: src/components/storage/ModifyStorage.jsx:53
 msgid "Modify storage"
 msgstr "Muokkaa tallennustilaa"
 
@@ -442,7 +481,7 @@ msgid "Mount point"
 msgstr "Liitospiste"
 
 #: src/components/storage/MountPointMapping.jsx:556
-#: src/components/storage/InstallationScenario.jsx:125
+#: src/components/storage/InstallationScenario.jsx:182
 msgid "Mount point assignment"
 msgstr "Liitospisteen määrittely"
 
@@ -466,7 +505,7 @@ msgstr ""
 "Verkko ei ole käytettävissä. Määritä verkko yläpalkin valikossa "
 "ilmoittaaksesi ongelmasta."
 
-#: src/components/AnacondaWizard.jsx:395
+#: src/components/AnacondaWizard.jsx:405
 msgid "Next"
 msgstr "Seuraava"
 
@@ -483,7 +522,7 @@ msgstr "Ei laiteita"
 msgid "No results found"
 msgstr "Tuloksia ei löytynyt"
 
-#: src/components/storage/InstallationScenario.jsx:84
+#: src/components/storage/InstallationScenario.jsx:91
 msgid "No usable devices on the selected disks."
 msgstr "Valituilla levyillä ei ole käyttökelpoisia laitteita."
 
@@ -491,12 +530,12 @@ msgstr "Valituilla levyillä ei ole käyttökelpoisia laitteita."
 msgid "No usable disks detected"
 msgstr "Yhtään käyttökelpoista levyä ei löytynyt"
 
-#: src/components/storage/InstallationScenario.jsx:68
+#: src/components/storage/InstallationScenario.jsx:73
 #, fuzzy
 msgid "Not enough free space on the selected disks."
 msgstr "Valituilla levyillä ei ole riittävästi vapaata tilaa."
 
-#: src/components/storage/InstallationScenario.jsx:50
+#: src/components/storage/InstallationScenario.jsx:52
 msgid "Not enough space on selected disks."
 msgstr "Valituilla levyillä ei ole riittävästi vapaata tilaa."
 
@@ -520,7 +559,7 @@ msgstr "Vain uudet osiot salataan. Olemassa olevat osiot säilyvät ennallaan."
 msgid "Operating system"
 msgstr "Käyttöjärjestelmä"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:198
+#: src/components/storage/CockpitStorageIntegration.jsx:503
 msgid "Partitions (advanced)"
 msgstr ""
 
@@ -559,13 +598,19 @@ msgstr "Esijulkaisu"
 msgid "Preparing report"
 msgstr "Raporttia valmistellaan"
 
+#: src/components/storage/CockpitStorageIntegration.jsx:413
+#, fuzzy
+#| msgid "Failed to proceed with the installation."
+msgid "Proceed with installation"
+msgstr "Asennuksen jatkaminen epäonnistui."
+
 #: src/components/installation/InstallationProgress.jsx:222
-#: src/components/AnacondaWizard.jsx:443 src/components/AnacondaWizard.jsx:466
-#: src/components/Error.jsx:216
+#: src/components/AnacondaWizard.jsx:453 src/components/AnacondaWizard.jsx:476
+#: src/components/Error.jsx:224
 msgid "Quit"
 msgstr "Lopeta"
 
-#: src/components/AnacondaWizard.jsx:478
+#: src/components/AnacondaWizard.jsx:488
 msgid "Quit installer?"
 msgstr "_Poistu asennusohjelmasta?"
 
@@ -586,12 +631,12 @@ msgid "Reading installer version information failed."
 msgstr "Asennusohjelman versiotietojen lukeminen epäonnistui."
 
 #: src/components/installation/InstallationProgress.jsx:222
-#: src/components/AnacondaWizard.jsx:443 src/components/AnacondaWizard.jsx:466
-#: src/components/Error.jsx:216
+#: src/components/AnacondaWizard.jsx:453 src/components/AnacondaWizard.jsx:476
+#: src/components/Error.jsx:224
 msgid "Reboot"
 msgstr "Käynnistä uudelleen"
 
-#: src/components/AnacondaWizard.jsx:478
+#: src/components/AnacondaWizard.jsx:488
 msgid "Reboot system?"
 msgstr "Käynnistä järjestelmä uudelleen?"
 
@@ -599,7 +644,7 @@ msgstr "Käynnistä järjestelmä uudelleen?"
 msgid "Recommended"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:175
+#: src/components/storage/CockpitStorageIntegration.jsx:480
 msgid "Recommended partitions:"
 msgstr ""
 
@@ -624,7 +669,7 @@ msgstr ""
 msgid "Report Issue"
 msgstr "Ilmoita ongelmasta"
 
-#: src/components/Error.jsx:150 src/components/Error.jsx:260
+#: src/components/Error.jsx:150 src/components/Error.jsx:268
 msgid "Report issue"
 msgstr "Ilmoita ongelmasta"
 
@@ -640,7 +685,7 @@ msgstr ""
 msgid "Required"
 msgstr "Vaaditaan"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:187
+#: src/components/storage/CockpitStorageIntegration.jsx:492
 #, fuzzy
 #| msgid "Required"
 msgid "Requirements"
@@ -660,8 +705,14 @@ msgstr "Levyjen uudelleenskannaus epäonnistui."
 msgid "Return to installation"
 msgstr "$0 -asennus"
 
-#: src/components/review/ReviewConfiguration.jsx:241
-#: src/components/review/ReviewConfiguration.jsx:242
+#: src/components/storage/CockpitStorageIntegration.jsx:398
+#, fuzzy
+#| msgid "Launch Blivet-gui storage editor"
+msgid "Return to storage editor"
+msgstr "Käynnistä Blivet-gui-tallennuseditori"
+
+#: src/components/review/ReviewConfiguration.jsx:248
+#: src/components/review/ReviewConfiguration.jsx:249
 msgid "Review and install"
 msgstr "Arvioi ja asenna"
 
@@ -716,7 +767,7 @@ msgstr ""
 "Ohjelmiston asennus: Tallennuskokoonpano on valmis. Ohjelmistoa asennetaan "
 "nyt laitteellesi."
 
-#: src/components/storage/InstallationScenario.jsx:87
+#: src/components/storage/InstallationScenario.jsx:94
 msgid "Some devices use the same name: $0."
 msgstr ""
 
@@ -737,6 +788,10 @@ msgstr "Tallennustilan määritys: Tallennustilaa konfiguroidaan parhaillaan."
 #| msgid "Reload storage configuration from disk."
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "Lataa uudelleen tallennusmääritykset levyltä."
+
+#: src/components/storage/CockpitStorageIntegration.jsx:366
+msgid "Storage requirements not met"
+msgstr ""
 
 #: src/components/Password.jsx:83
 msgid "Strong"
@@ -789,7 +844,7 @@ msgid_plural "The following disks were detected: $0"
 msgstr[0] "Seuraavat pakolliset vaiheet ovat kesken:"
 msgstr[1] "Seuraavat pakolliset vaiheet ovat kesken:"
 
-#: src/components/Error.jsx:257
+#: src/components/Error.jsx:265
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
 "provide additional details."
@@ -797,26 +852,27 @@ msgstr ""
 "Seuraava loki lähetetään ongelmanseurantajärjestelmään, jossa voit antaa "
 "lisätietoja."
 
-#: src/components/storage/InstallationScenario.jsx:52
+#: src/components/storage/InstallationScenario.jsx:54
 msgid "The installation needs $1 of disk space; "
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:122
+#: src/components/storage/InstallationScenario.jsx:179
 msgid ""
 "The installation will use the available space on your devices and will not "
 "erase any device data."
 msgstr ""
 "Asennus käyttää laitteidesi vapaata tilaa eikä poista laitteen tietoja."
 
-#: src/components/storage/InstallationScenario.jsx:136
+#: src/components/storage/InstallationScenario.jsx:193
+#: src/components/storage/InstallationScenario.jsx:207
 msgid "The installation will use your configured partitioning layout."
 msgstr "Asennus käyttää määritettyä osiointiasettelua."
 
-#: src/components/Error.jsx:226
+#: src/components/Error.jsx:234
 msgid "The installer cannot continue due to a critical error."
 msgstr "Asennuksen jatkaminen ei onnistu kriittisen virheen vuoksi."
 
-#: src/components/Error.jsx:225
+#: src/components/Error.jsx:233
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "Asennuksen jatkaminen ei onnistu kriittisen virheen vuoksi: $0"
 
@@ -832,7 +888,7 @@ msgstr ""
 msgid "The root partition is always re-formatted by the installer."
 msgstr "Asennusohjelma alustaa aina root-osion uudelleen."
 
-#: src/components/storage/InstallationScenario.jsx:108
+#: src/components/storage/InstallationScenario.jsx:165
 msgid ""
 "The selected disks will be erased, this cannot be undone. Are you sure you "
 "want to continue with the installation?"
@@ -858,24 +914,31 @@ msgstr "Tämä on epävakaa esijulkaisuversio ohjelmistosta"
 msgid "This may take a moment"
 msgstr "Tämä saattaa kestää hetken"
 
+#: src/components/storage/CockpitStorageIntegration.jsx:360
+#, fuzzy
+#| msgid "This may take a moment"
+msgid "This will take a few moments"
+msgstr "Tämä saattaa kestää hetken"
+
 #: src/components/installation/InstallationProgress.jsx:164
 msgid "To begin using $0, reboot your system."
 msgstr "Aloita $0 käyttö käynnistämällä järjestelmä uudelleen."
 
-#: src/components/storage/InstallationMethod.jsx:84
+#: src/components/storage/InstallationMethod.jsx:88
 msgid "To continue, select the devices to install to."
 msgstr "Jatka valitsemalla laitteet, joihin haluat asentaa."
 
-#: src/components/storage/InstallationScenario.jsx:119
-#: src/components/storage/InstallationScenario.jsx:133
+#: src/components/storage/InstallationScenario.jsx:176
+#: src/components/storage/InstallationScenario.jsx:190
+#: src/components/storage/InstallationScenario.jsx:204
 msgid "To prevent loss, make sure to backup your data."
 msgstr "Muista varmuuskopioida tiedot, jotta ne eivät katoa."
 
-#: src/components/storage/InstallationScenario.jsx:88
+#: src/components/storage/InstallationScenario.jsx:95
 msgid "To use this option, rename devices to have unique names."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:70
+#: src/components/storage/InstallationScenario.jsx:75
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -893,7 +956,13 @@ msgstr "Avaa laite"
 msgid "Unlock encrypted devices"
 msgstr "Avaa salatut laitteet"
 
-#: src/components/storage/InstallationScenario.jsx:111
+#: src/components/storage/InstallationScenario.jsx:196
+#, fuzzy
+#| msgid "Configuring storage"
+msgid "Use configured storage"
+msgstr "Määritetään tallennustilaa"
+
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "Use free space for the installation"
 msgstr "Käytä vapaata tilaa asennukseen"
 
@@ -931,17 +1000,17 @@ msgstr "Tervetuloa"
 msgid "Welcome to $0"
 msgstr "Tervetuloa $0an"
 
-#: src/components/storage/InstallationMethod.jsx:93
+#: src/components/storage/InstallationMethod.jsx:97
 msgid "Welcome. Let's install $0 now."
 msgstr "Tervetuloa. Asennataan nyt $0."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:193
+#: src/components/storage/CockpitStorageIntegration.jsx:498
 msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
 msgstr ""
 
-#: src/components/AnacondaWizard.jsx:482
+#: src/components/AnacondaWizard.jsx:492
 msgid "Your progress will not be saved."
 msgstr "Edistymistäsi ei tallenneta."
 
@@ -984,9 +1053,6 @@ msgstr "käsittelyä odottava vaihe"
 
 #~ msgid "Ignore"
 #~ msgstr "Ohita"
-
-#~ msgid "Launch Blivet-gui storage editor"
-#~ msgstr "Käynnistä Blivet-gui-tallennuseditori"
 
 #~ msgid "Modified storage"
 #~ msgstr "Muokattu tallennustila"
@@ -1997,9 +2063,6 @@ msgstr "käsittelyä odottava vaihe"
 #~ msgid "Connecting..."
 #~ msgstr "Yhdistetään..."
 
-#~ msgid "Continue"
-#~ msgstr "Jatka"
-
 #~ msgid ""
 #~ "Continuing with this action will reset all your partitioning selections "
 #~ "to their current on-disk state."
@@ -2441,9 +2504,6 @@ msgstr "käsittelyä odottava vaihe"
 
 #~ msgid "Failed to change a device."
 #~ msgstr "Laitteen vaihtaminen epäonnistui."
-
-#~ msgid "Failed to proceed with the installation."
-#~ msgstr "Asennuksen jatkaminen epäonnistui."
 
 #~ msgid "Failed to save boot loader configuration"
 #~ msgstr "Käynnistyslataajan asetusten tallentaminen epäonnistui"
@@ -5677,12 +5737,6 @@ msgstr "käsittelyä odottava vaihe"
 
 #~ msgid "You must set a password"
 #~ msgstr "Salasana on määritettävä"
-
-#~ msgid ""
-#~ "You need to configure the network to use a network installation source."
-#~ msgstr ""
-#~ "Sinun tulee määrittää verkon asetukset, jotta voit käyttää "
-#~ "verkkoasennuslähdettä."
 
 #~ msgid "You need to set up networking first if you want to use NTP"
 #~ msgstr ""

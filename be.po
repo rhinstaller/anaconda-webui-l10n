@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-16 02:49+0000\n"
+"POT-Creation-Date: 2024-02-17 02:48+0000\n"
 "PO-Revision-Date: 2023-11-06 12:15+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Belarusian <https://translate.fedoraproject.org/projects/"
@@ -65,7 +65,7 @@ msgstr ""
 msgid "Account"
 msgstr "Заблакаваць карыстальніка root"
 
-#: src/components/AnacondaWizard.jsx:380
+#: src/components/AnacondaWizard.jsx:390
 #, fuzzy
 #| msgid "Connection failed"
 msgid "Account setting failed."
@@ -106,7 +106,7 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Інсталятар Anaconda"
 
-#: src/components/storage/InstallationScenario.jsx:131
+#: src/components/storage/InstallationScenario.jsx:188
 #, fuzzy
 msgid "Apply mount point assignment and install"
 msgstr "Ужыць канфігурацыю ў інсталеры"
@@ -115,8 +115,8 @@ msgstr "Ужыць канфігурацыю ў інсталеры"
 msgid "Applying new disk selection..."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:210
-#: src/components/AnacondaWizard.jsx:421
+#: src/components/review/ReviewConfiguration.jsx:217
+#: src/components/AnacondaWizard.jsx:431
 msgid "Back"
 msgstr ""
 
@@ -140,17 +140,19 @@ msgstr ""
 "Калі вы не разумееце, або не прымаеце гэтых рызыкаў, калі ласка, завяршыце "
 "гэтую праграму, выбраўшы \"Я хачу выйсці\", што перазапусціць вашу сістэму."
 
-#: src/components/Error.jsx:249
+#: src/components/Error.jsx:257
 #, fuzzy
 msgid "Cancel"
 msgstr "Адмена"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:104
+#: src/components/storage/CockpitStorageIntegration.jsx:115
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
 #: src/components/storage/DiskEncryption.jsx:53
+#: src/components/storage/CockpitStorageIntegration.jsx:359
+#: src/components/storage/CockpitStorageIntegration.jsx:371
 #, fuzzy
 msgid "Checking storage configuration"
 msgstr "Правяраецца канфігурацыя сховішча..."
@@ -173,6 +175,11 @@ msgstr ""
 msgid "Close"
 msgstr "Закрыць"
 
+#: src/components/storage/CockpitStorageIntegration.jsx:274
+msgid ""
+"Cockpit storage did not provide the passphrase to unlock encrypted device."
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:149
 #, fuzzy
 msgid "Common languages"
@@ -183,10 +190,16 @@ msgstr "Мовы"
 msgid "Completed"
 msgstr "Скончана!"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:100
+#: src/components/storage/CockpitStorageIntegration.jsx:111
 #, fuzzy
 #| msgid "Configuring storage"
 msgid "Configure storage"
+msgstr "Канфігурацыя сховішча"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:407
+#, fuzzy
+#| msgid "Configuring storage"
+msgid "Configure storage again"
 msgstr "Канфігурацыя сховішча"
 
 #: src/components/users/Accounts.jsx:194 src/components/users/Accounts.jsx:293
@@ -195,9 +208,18 @@ msgstr "Канфігурацыя сховішча"
 msgid "Confirm passphrase"
 msgstr "Па_цвердзіць пароль"
 
-#: src/components/AnacondaWizard.jsx:473
+#: src/components/storage/CockpitStorageIntegration.jsx:392
+msgid "Continue"
+msgstr "Працяг"
+
+#: src/components/AnacondaWizard.jsx:483
 #, fuzzy
 msgid "Continue installation"
+msgstr "Запуск заданняў перад інсталяцыяй"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:368
+#, fuzzy
+msgid "Continue with installation"
 msgstr "Запуск заданняў перад інсталяцыяй"
 
 #: src/components/users/Accounts.jsx:351
@@ -212,9 +234,16 @@ msgstr "Заблакаваць карыстальніка root"
 msgid "Create account"
 msgstr "Заблакаваць карыстальніка root"
 
-#: src/components/Error.jsx:234
+#: src/components/Error.jsx:242
 msgid "Critical error"
 msgstr ""
+
+#: src/components/storage/CockpitStorageIntegration.jsx:428
+#, fuzzy
+#| msgid ""
+#| "You need to configure the network to use a network installation source."
+msgid "Current configuration can be used for installation."
+msgstr "Каб скарыстацца з сеткавай крыніцы ўсталявання, трэба наладзіць сетку."
 
 #: src/components/storage/InstallationDestination.jsx:222
 #, fuzzy
@@ -244,7 +273,7 @@ msgstr ""
 msgid "Disabled"
 msgstr "Уключана"
 
-#: src/components/AnacondaWizard.jsx:122
+#: src/components/AnacondaWizard.jsx:131
 #, fuzzy
 msgid "Disk configuration"
 msgstr "Канфігурацыя прылады"
@@ -292,30 +321,30 @@ msgstr ""
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:97
-#: src/components/storage/InstallationScenario.jsx:103
+#: src/components/storage/InstallationScenario.jsx:154
+#: src/components/storage/InstallationScenario.jsx:160
 #, fuzzy
 msgid "Erase data and install"
 msgstr "П_ачатак інсталяцыі"
 
-#: src/components/storage/InstallationScenario.jsx:107
+#: src/components/storage/InstallationScenario.jsx:164
 #, fuzzy
 msgid "Erase data and install?"
 msgstr "П_ачатак інсталяцыі"
 
-#: src/components/storage/InstallationScenario.jsx:105
+#: src/components/storage/InstallationScenario.jsx:162
 msgid "Erasing the data cannot be undone. Be sure to have backups."
 msgstr ""
 
-#: src/components/Error.jsx:237
+#: src/components/Error.jsx:245
 msgid "Error details"
 msgstr ""
 
-#: src/components/AnacondaWizard.jsx:250
+#: src/components/AnacondaWizard.jsx:259
 msgid "Error was hit when going back from $0."
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:190
+#: src/components/storage/CockpitStorageIntegration.jsx:495
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr ""
 
@@ -358,14 +387,14 @@ msgstr "Па_цвердзіць пароль"
 msgid "Hide password"
 msgstr "Схаваць пароль."
 
-#: src/components/storage/InstallationScenario.jsx:253
+#: src/components/storage/InstallationScenario.jsx:371
 #, fuzzy
 msgid "How would you like to install?"
 msgstr ""
 "\n"
 "Усё адно ўжыць гэта?"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:166
+#: src/components/storage/CockpitStorageIntegration.jsx:471
 msgid "If you are configuring partitions the following are required:"
 msgstr ""
 
@@ -385,18 +414,24 @@ msgstr "Ход выканання"
 msgid "Initializing..."
 msgstr "Інсталяцыя."
 
-#: src/components/storage/InstallationScenario.jsx:117
+#: src/components/storage/InstallationScenario.jsx:174
+#: src/components/storage/InstallationScenario.jsx:202
 msgid "Install"
 msgstr "Інсталяцыя"
 
-#: src/components/storage/InstallationScenario.jsx:135
+#: src/components/storage/InstallationScenario.jsx:192
 #, fuzzy
 msgid "Install on the custom mount points?"
 msgstr "Уручную задаць пункты мантавання"
 
-#: src/components/storage/InstallationScenario.jsx:121
+#: src/components/storage/InstallationScenario.jsx:178
 #, fuzzy
 msgid "Install on the free space?"
+msgstr "Інсталяцыя праграмаў"
+
+#: src/components/storage/InstallationScenario.jsx:206
+#, fuzzy
+msgid "Install using the configured storage?"
 msgstr "Інсталяцыя праграмаў"
 
 #: src/components/installation/InstallationProgress.jsx:149
@@ -404,7 +439,7 @@ msgstr "Інсталяцыя праграмаў"
 msgid "Installation failed"
 msgstr "Інсталяцыя"
 
-#: src/components/storage/InstallationMethod.jsx:92
+#: src/components/storage/InstallationMethod.jsx:96
 #, fuzzy
 msgid "Installation method"
 msgstr "Інсталяцыя завершаная"
@@ -469,7 +504,7 @@ msgstr ""
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 
-#: src/components/storage/ModifyStorage.jsx:54
+#: src/components/storage/ModifyStorage.jsx:53
 #, fuzzy
 msgid "Modify storage"
 msgstr "_Змяніць размяшчэнне сховішча"
@@ -479,7 +514,7 @@ msgid "Mount point"
 msgstr "Пункт мантавання"
 
 #: src/components/storage/MountPointMapping.jsx:556
-#: src/components/storage/InstallationScenario.jsx:125
+#: src/components/storage/InstallationScenario.jsx:182
 #, fuzzy
 msgid "Mount point assignment"
 msgstr "Пункт мантавання"
@@ -499,7 +534,7 @@ msgstr ""
 msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 
-#: src/components/AnacondaWizard.jsx:395
+#: src/components/AnacondaWizard.jsx:405
 msgid "Next"
 msgstr ""
 
@@ -518,7 +553,7 @@ msgstr "Дадаць прыладу"
 msgid "No results found"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:84
+#: src/components/storage/InstallationScenario.jsx:91
 #, fuzzy
 msgid "No usable devices on the selected disks."
 msgstr "На пазначаных дысках недастаткова вольнага месца."
@@ -528,12 +563,12 @@ msgstr "На пазначаных дысках недастаткова воль
 msgid "No usable disks detected"
 msgstr "Не выбрана прыдатных дыскаў."
 
-#: src/components/storage/InstallationScenario.jsx:68
+#: src/components/storage/InstallationScenario.jsx:73
 #, fuzzy
 msgid "Not enough free space on the selected disks."
 msgstr "На пазначаных дысках недастаткова вольнага месца."
 
-#: src/components/storage/InstallationScenario.jsx:50
+#: src/components/storage/InstallationScenario.jsx:52
 #, fuzzy
 msgid "Not enough space on selected disks."
 msgstr "На пазначаных дысках недастаткова вольнага месца."
@@ -556,7 +591,7 @@ msgstr ""
 msgid "Operating system"
 msgstr "Стварэнне карыстальникаў"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:198
+#: src/components/storage/CockpitStorageIntegration.jsx:503
 msgid "Partitions (advanced)"
 msgstr ""
 
@@ -597,13 +632,19 @@ msgstr ""
 msgid "Preparing report"
 msgstr "Пачынаем разгортванне of {}"
 
+#: src/components/storage/CockpitStorageIntegration.jsx:413
+#, fuzzy
+#| msgid "Failed to set up installation source"
+msgid "Proceed with installation"
+msgstr "Не атрымалася наладзіць крыніцу інсталяцыі"
+
 #: src/components/installation/InstallationProgress.jsx:222
-#: src/components/AnacondaWizard.jsx:443 src/components/AnacondaWizard.jsx:466
-#: src/components/Error.jsx:216
+#: src/components/AnacondaWizard.jsx:453 src/components/AnacondaWizard.jsx:476
+#: src/components/Error.jsx:224
 msgid "Quit"
 msgstr "Выйсці"
 
-#: src/components/AnacondaWizard.jsx:478
+#: src/components/AnacondaWizard.jsx:488
 #, fuzzy
 msgid "Quit installer?"
 msgstr "_Скончыць інсталятар"
@@ -627,13 +668,13 @@ msgid "Reading installer version information failed."
 msgstr "Падлучэнне не атрымалася"
 
 #: src/components/installation/InstallationProgress.jsx:222
-#: src/components/AnacondaWizard.jsx:443 src/components/AnacondaWizard.jsx:466
-#: src/components/Error.jsx:216
+#: src/components/AnacondaWizard.jsx:453 src/components/AnacondaWizard.jsx:476
+#: src/components/Error.jsx:224
 #, fuzzy
 msgid "Reboot"
 msgstr "Перазапускаемся."
 
-#: src/components/AnacondaWizard.jsx:478
+#: src/components/AnacondaWizard.jsx:488
 #, fuzzy
 msgid "Reboot system?"
 msgstr "_Перазапуск сістэмы"
@@ -642,7 +683,7 @@ msgstr "_Перазапуск сістэмы"
 msgid "Recommended"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:175
+#: src/components/storage/CockpitStorageIntegration.jsx:480
 msgid "Recommended partitions:"
 msgstr ""
 
@@ -666,7 +707,7 @@ msgstr ""
 msgid "Report Issue"
 msgstr ""
 
-#: src/components/Error.jsx:150 src/components/Error.jsx:260
+#: src/components/Error.jsx:150 src/components/Error.jsx:268
 msgid "Report issue"
 msgstr ""
 
@@ -681,7 +722,7 @@ msgstr ""
 msgid "Required"
 msgstr "Змяніць немагчыма"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:187
+#: src/components/storage/CockpitStorageIntegration.jsx:492
 #, fuzzy
 msgid "Requirements"
 msgstr "Змяніць немагчыма"
@@ -701,8 +742,13 @@ msgstr "Скончылі перагляд дыскаў."
 msgid "Return to installation"
 msgstr "Інсталяцыя"
 
-#: src/components/review/ReviewConfiguration.jsx:241
-#: src/components/review/ReviewConfiguration.jsx:242
+#: src/components/storage/CockpitStorageIntegration.jsx:398
+#, fuzzy
+msgid "Return to storage editor"
+msgstr "Інсталяцыя"
+
+#: src/components/review/ReviewConfiguration.jsx:248
+#: src/components/review/ReviewConfiguration.jsx:249
 #, fuzzy
 msgid "Review and install"
 msgstr "П_ачатак інсталяцыі"
@@ -760,7 +806,7 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:87
+#: src/components/storage/InstallationScenario.jsx:94
 msgid "Some devices use the same name: $0."
 msgstr ""
 
@@ -783,6 +829,10 @@ msgstr ""
 #| msgid "Reload storage configuration from disk."
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "Перачытаць з дыску канфігурацыю сховішча"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:366
+msgid "Storage requirements not met"
+msgstr ""
 
 #: src/components/Password.jsx:83
 msgid "Strong"
@@ -835,32 +885,33 @@ msgstr[0] "Наступныя абавязковыя крокі не сконч�
 msgstr[1] "Наступныя абавязковыя крокі не скончаны:"
 msgstr[2] "Наступныя абавязковыя крокі не скончаны:"
 
-#: src/components/Error.jsx:257
+#: src/components/Error.jsx:265
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
 "provide additional details."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:52
+#: src/components/storage/InstallationScenario.jsx:54
 msgid "The installation needs $1 of disk space; "
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:122
+#: src/components/storage/InstallationScenario.jsx:179
 msgid ""
 "The installation will use the available space on your devices and will not "
 "erase any device data."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:136
+#: src/components/storage/InstallationScenario.jsx:193
+#: src/components/storage/InstallationScenario.jsx:207
 msgid "The installation will use your configured partitioning layout."
 msgstr ""
 
-#: src/components/Error.jsx:226
+#: src/components/Error.jsx:234
 #, fuzzy
 msgid "The installer cannot continue due to a critical error."
 msgstr "Інсталяцыя не можа працягвацца, і сістэма будзе перазапушчаная"
 
-#: src/components/Error.jsx:225
+#: src/components/Error.jsx:233
 #, fuzzy
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "Інсталяцыя не можа працягвацца, і сістэма будзе перазапушчаная"
@@ -878,7 +929,7 @@ msgstr ""
 msgid "The root partition is always re-formatted by the installer."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:108
+#: src/components/storage/InstallationScenario.jsx:165
 msgid ""
 "The selected disks will be erased, this cannot be undone. Are you sure you "
 "want to continue with the installation?"
@@ -903,6 +954,11 @@ msgstr "Гэта нестабільныя, папярэднія выпускі �
 msgid "This may take a moment"
 msgstr "Гэта зойме крыху часу."
 
+#: src/components/storage/CockpitStorageIntegration.jsx:360
+#, fuzzy
+msgid "This will take a few moments"
+msgstr "Гэта зойме крыху часу."
+
 #: src/components/installation/InstallationProgress.jsx:164
 #, fuzzy
 msgid "To begin using $0, reboot your system."
@@ -910,22 +966,23 @@ msgstr ""
 "\n"
 "Каб перазапусціць сістэму, націсніце [Enter].\n"
 
-#: src/components/storage/InstallationMethod.jsx:84
+#: src/components/storage/InstallationMethod.jsx:88
 #, fuzzy
 msgid "To continue, select the devices to install to."
 msgstr ""
 "Не пазначана ніводнага дыску; пазначце прынамсі адзін дыск для інсталяцыі."
 
-#: src/components/storage/InstallationScenario.jsx:119
-#: src/components/storage/InstallationScenario.jsx:133
+#: src/components/storage/InstallationScenario.jsx:176
+#: src/components/storage/InstallationScenario.jsx:190
+#: src/components/storage/InstallationScenario.jsx:204
 msgid "To prevent loss, make sure to backup your data."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:88
+#: src/components/storage/InstallationScenario.jsx:95
 msgid "To use this option, rename devices to have unique names."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:70
+#: src/components/storage/InstallationScenario.jsx:75
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -946,7 +1003,13 @@ msgstr "перасканаваць прылады"
 msgid "Unlock encrypted devices"
 msgstr "Не атрымалася расшыфраваць зашыфраваную блокавую прыладу."
 
-#: src/components/storage/InstallationScenario.jsx:111
+#: src/components/storage/InstallationScenario.jsx:196
+#, fuzzy
+#| msgid "Configuring storage"
+msgid "Use configured storage"
+msgstr "Канфігурацыя сховішча"
+
+#: src/components/storage/InstallationScenario.jsx:168
 #, fuzzy
 msgid "Use free space for the installation"
 msgstr "Не атрымалася наладзіць крыніцу інсталяцыі"
@@ -986,17 +1049,17 @@ msgstr ""
 msgid "Welcome to $0"
 msgstr "Вітаем у $0"
 
-#: src/components/storage/InstallationMethod.jsx:93
+#: src/components/storage/InstallationMethod.jsx:97
 msgid "Welcome. Let's install $0 now."
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:193
+#: src/components/storage/CockpitStorageIntegration.jsx:498
 msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
 msgstr ""
 
-#: src/components/AnacondaWizard.jsx:482
+#: src/components/AnacondaWizard.jsx:492
 msgid "Your progress will not be saved."
 msgstr ""
 
@@ -2035,9 +2098,6 @@ msgstr ""
 #~ msgid "Connecting..."
 #~ msgstr "Падключэнне..."
 
-#~ msgid "Continue"
-#~ msgstr "Працяг"
-
 #~ msgid ""
 #~ "Continuing with this action will reset all your partitioning selections "
 #~ "to their current on-disk state."
@@ -2443,11 +2503,6 @@ msgstr ""
 #~| msgid "Failed to add new device."
 #~ msgid "Failed to change a device."
 #~ msgstr "Не атрымалася дадаць новую прыладу."
-
-#, fuzzy
-#~| msgid "Failed to set up installation source"
-#~ msgid "Failed to proceed with the installation."
-#~ msgstr "Не атрымалася наладзіць крыніцу інсталяцыі"
 
 #, fuzzy
 #~| msgid "Failed to save storage configuration..."
@@ -5528,11 +5583,6 @@ msgstr ""
 
 #~ msgid "You must set a password"
 #~ msgstr "Вы мусіце задаць пароль"
-
-#~ msgid ""
-#~ "You need to configure the network to use a network installation source."
-#~ msgstr ""
-#~ "Каб скарыстацца з сеткавай крыніцы ўсталявання, трэба наладзіць сетку."
 
 #~ msgid "You need to set up networking first if you want to use NTP"
 #~ msgstr "Калі хочаце скарыстацца з NTP, трэба спачатку наладзіць сетку"

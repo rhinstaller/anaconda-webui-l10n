@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-16 02:49+0000\n"
+"POT-Creation-Date: 2024-02-17 02:48+0000\n"
 "PO-Revision-Date: 2023-11-06 12:23+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -87,7 +87,7 @@ msgstr "关于"
 msgid "Account"
 msgstr "帐户(_A)"
 
-#: src/components/AnacondaWizard.jsx:380
+#: src/components/AnacondaWizard.jsx:390
 #, fuzzy
 #| msgid "Connection failed"
 msgid "Account setting failed."
@@ -125,7 +125,7 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Anaconda 项目页面"
 
-#: src/components/storage/InstallationScenario.jsx:131
+#: src/components/storage/InstallationScenario.jsx:188
 msgid "Apply mount point assignment and install"
 msgstr "应用挂载点分配并安装"
 
@@ -133,8 +133,8 @@ msgstr "应用挂载点分配并安装"
 msgid "Applying new disk selection..."
 msgstr "正在应用新的磁盘选择..."
 
-#: src/components/review/ReviewConfiguration.jsx:210
-#: src/components/AnacondaWizard.jsx:421
+#: src/components/review/ReviewConfiguration.jsx:217
+#: src/components/AnacondaWizard.jsx:431
 msgid "Back"
 msgstr "返回"
 
@@ -148,16 +148,18 @@ msgstr ""
 "点击 \"继续\" ，则说明您了解并接受预发行版的风险，只将该软件用于测试和开发，"
 "并且愿意报告所有程序错误或问题，以便改进本软件。"
 
-#: src/components/Error.jsx:249
+#: src/components/Error.jsx:257
 msgid "Cancel"
 msgstr "取消"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:104
+#: src/components/storage/CockpitStorageIntegration.jsx:115
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
 #: src/components/storage/DiskEncryption.jsx:53
+#: src/components/storage/CockpitStorageIntegration.jsx:359
+#: src/components/storage/CockpitStorageIntegration.jsx:371
 msgid "Checking storage configuration"
 msgstr "正在检查存储配置"
 
@@ -177,6 +179,11 @@ msgstr "清空输入值"
 msgid "Close"
 msgstr "关闭"
 
+#: src/components/storage/CockpitStorageIntegration.jsx:274
+msgid ""
+"Cockpit storage did not provide the passphrase to unlock encrypted device."
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:149
 msgid "Common languages"
 msgstr "通用语言"
@@ -185,10 +192,16 @@ msgstr "通用语言"
 msgid "Completed"
 msgstr "完全的"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:100
+#: src/components/storage/CockpitStorageIntegration.jsx:111
 #, fuzzy
 #| msgid "Configuring storage"
 msgid "Configure storage"
+msgstr "设置存储设备"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:407
+#, fuzzy
+#| msgid "Configuring storage"
+msgid "Configure storage again"
 msgstr "设置存储设备"
 
 #: src/components/users/Accounts.jsx:194 src/components/users/Accounts.jsx:293
@@ -196,8 +209,18 @@ msgstr "设置存储设备"
 msgid "Confirm passphrase"
 msgstr "确认密码"
 
-#: src/components/AnacondaWizard.jsx:473
+#: src/components/storage/CockpitStorageIntegration.jsx:392
+msgid "Continue"
+msgstr "继续"
+
+#: src/components/AnacondaWizard.jsx:483
 msgid "Continue installation"
+msgstr "继续安装"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:368
+#, fuzzy
+#| msgid "Continue installation"
+msgid "Continue with installation"
 msgstr "继续安装"
 
 #: src/components/users/Accounts.jsx:351
@@ -213,9 +236,16 @@ msgstr "_Root 帐户"
 msgid "Create account"
 msgstr "锁定 root 账户"
 
-#: src/components/Error.jsx:234
+#: src/components/Error.jsx:242
 msgid "Critical error"
 msgstr "关键错误"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:428
+#, fuzzy
+#| msgid ""
+#| "You need to configure the network to use a network installation source."
+msgid "Current configuration can be used for installation."
+msgstr "您需配置网络才能使用网络安装源。"
 
 #: src/components/storage/InstallationDestination.jsx:222
 msgid "Current selections"
@@ -241,7 +271,7 @@ msgstr "在分配挂载点之前应解锁设备。"
 msgid "Disabled"
 msgstr "禁用"
 
-#: src/components/AnacondaWizard.jsx:122
+#: src/components/AnacondaWizard.jsx:131
 msgid "Disk configuration"
 msgstr "磁盘配置"
 
@@ -285,28 +315,28 @@ msgstr "加密设备已锁定"
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr "加密有助于保护您的数据，防止其他人访问它。"
 
-#: src/components/storage/InstallationScenario.jsx:97
-#: src/components/storage/InstallationScenario.jsx:103
+#: src/components/storage/InstallationScenario.jsx:154
+#: src/components/storage/InstallationScenario.jsx:160
 msgid "Erase data and install"
 msgstr "删除数据内容并安装"
 
-#: src/components/storage/InstallationScenario.jsx:107
+#: src/components/storage/InstallationScenario.jsx:164
 msgid "Erase data and install?"
 msgstr "确认删除磁盘数据并安装吗？"
 
-#: src/components/storage/InstallationScenario.jsx:105
+#: src/components/storage/InstallationScenario.jsx:162
 msgid "Erasing the data cannot be undone. Be sure to have backups."
 msgstr "擦除数据是不能撤销的。请务必有备份。"
 
-#: src/components/Error.jsx:237
+#: src/components/Error.jsx:245
 msgid "Error details"
 msgstr "错误详情"
 
-#: src/components/AnacondaWizard.jsx:250
+#: src/components/AnacondaWizard.jsx:259
 msgid "Error was hit when going back from $0."
 msgstr "从 $0 返回时出错。"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:190
+#: src/components/storage/CockpitStorageIntegration.jsx:495
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr ""
 
@@ -344,11 +374,11 @@ msgstr "隐藏密码"
 msgid "Hide password"
 msgstr "隐藏密码"
 
-#: src/components/storage/InstallationScenario.jsx:253
+#: src/components/storage/InstallationScenario.jsx:371
 msgid "How would you like to install?"
 msgstr "您想如何安装？"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:166
+#: src/components/storage/CockpitStorageIntegration.jsx:471
 msgid "If you are configuring partitions the following are required:"
 msgstr ""
 
@@ -367,23 +397,30 @@ msgstr "进行中"
 msgid "Initializing..."
 msgstr "正在安装。"
 
-#: src/components/storage/InstallationScenario.jsx:117
+#: src/components/storage/InstallationScenario.jsx:174
+#: src/components/storage/InstallationScenario.jsx:202
 msgid "Install"
 msgstr "安装"
 
-#: src/components/storage/InstallationScenario.jsx:135
+#: src/components/storage/InstallationScenario.jsx:192
 msgid "Install on the custom mount points?"
 msgstr "安装在自定义的挂载点上？"
 
-#: src/components/storage/InstallationScenario.jsx:121
+#: src/components/storage/InstallationScenario.jsx:178
 msgid "Install on the free space?"
+msgstr "安装在可用空间上？"
+
+#: src/components/storage/InstallationScenario.jsx:206
+#, fuzzy
+#| msgid "Install on the free space?"
+msgid "Install using the configured storage?"
 msgstr "安装在可用空间上？"
 
 #: src/components/installation/InstallationProgress.jsx:149
 msgid "Installation failed"
 msgstr "安装失败"
 
-#: src/components/storage/InstallationMethod.jsx:92
+#: src/components/storage/InstallationMethod.jsx:96
 msgid "Installation method"
 msgstr "安装方案"
 
@@ -439,7 +476,7 @@ msgstr "媒介"
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr "父设备和子设备重新格式化选择不匹配。"
 
-#: src/components/storage/ModifyStorage.jsx:54
+#: src/components/storage/ModifyStorage.jsx:53
 msgid "Modify storage"
 msgstr "修改存储"
 
@@ -448,7 +485,7 @@ msgid "Mount point"
 msgstr "挂载点"
 
 #: src/components/storage/MountPointMapping.jsx:556
-#: src/components/storage/InstallationScenario.jsx:125
+#: src/components/storage/InstallationScenario.jsx:182
 msgid "Mount point assignment"
 msgstr "挂载点配置"
 
@@ -467,7 +504,7 @@ msgstr "网络不可用。在顶部栏菜单中配置网络以报告问题。"
 msgid "Network not available. Configure the network to report the issue."
 msgstr "网络不可用。在顶部栏菜单中配置网络以报告问题。"
 
-#: src/components/AnacondaWizard.jsx:395
+#: src/components/AnacondaWizard.jsx:405
 msgid "Next"
 msgstr "下一个"
 
@@ -484,7 +521,7 @@ msgstr "无设备"
 msgid "No results found"
 msgstr "未找到结果"
 
-#: src/components/storage/InstallationScenario.jsx:84
+#: src/components/storage/InstallationScenario.jsx:91
 msgid "No usable devices on the selected disks."
 msgstr "所选磁盘上没有可用的设备。"
 
@@ -492,11 +529,11 @@ msgstr "所选磁盘上没有可用的设备。"
 msgid "No usable disks detected"
 msgstr "未检测到可用磁盘"
 
-#: src/components/storage/InstallationScenario.jsx:68
+#: src/components/storage/InstallationScenario.jsx:73
 msgid "Not enough free space on the selected disks."
 msgstr "所选磁盘中没有足够剩余空间。"
 
-#: src/components/storage/InstallationScenario.jsx:50
+#: src/components/storage/InstallationScenario.jsx:52
 msgid "Not enough space on selected disks."
 msgstr "所选磁盘中没有足够空间。"
 
@@ -519,7 +556,7 @@ msgstr "仅新分区才会被加密。 现有分区将保持原样。"
 msgid "Operating system"
 msgstr "操作系统"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:198
+#: src/components/storage/CockpitStorageIntegration.jsx:503
 msgid "Partitions (advanced)"
 msgstr ""
 
@@ -558,13 +595,19 @@ msgstr "预发布"
 msgid "Preparing report"
 msgstr "准备报告"
 
+#: src/components/storage/CockpitStorageIntegration.jsx:413
+#, fuzzy
+#| msgid "Failed to proceed with the installation."
+msgid "Proceed with installation"
+msgstr "继续安装失败。"
+
 #: src/components/installation/InstallationProgress.jsx:222
-#: src/components/AnacondaWizard.jsx:443 src/components/AnacondaWizard.jsx:466
-#: src/components/Error.jsx:216
+#: src/components/AnacondaWizard.jsx:453 src/components/AnacondaWizard.jsx:476
+#: src/components/Error.jsx:224
 msgid "Quit"
 msgstr "退出"
 
-#: src/components/AnacondaWizard.jsx:478
+#: src/components/AnacondaWizard.jsx:488
 msgid "Quit installer?"
 msgstr "退出安装程序？"
 
@@ -585,12 +628,12 @@ msgid "Reading installer version information failed."
 msgstr "读取安装程序版本信息失败。"
 
 #: src/components/installation/InstallationProgress.jsx:222
-#: src/components/AnacondaWizard.jsx:443 src/components/AnacondaWizard.jsx:466
-#: src/components/Error.jsx:216
+#: src/components/AnacondaWizard.jsx:453 src/components/AnacondaWizard.jsx:476
+#: src/components/Error.jsx:224
 msgid "Reboot"
 msgstr "重启"
 
-#: src/components/AnacondaWizard.jsx:478
+#: src/components/AnacondaWizard.jsx:488
 msgid "Reboot system?"
 msgstr "重启系统？"
 
@@ -598,7 +641,7 @@ msgstr "重启系统？"
 msgid "Recommended"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:175
+#: src/components/storage/CockpitStorageIntegration.jsx:480
 msgid "Recommended partitions:"
 msgstr ""
 
@@ -621,7 +664,7 @@ msgstr "删除所选设备上的所有分区，包括现有操作系统。 确�
 msgid "Report Issue"
 msgstr "报告问题"
 
-#: src/components/Error.jsx:150 src/components/Error.jsx:260
+#: src/components/Error.jsx:150 src/components/Error.jsx:268
 msgid "Report issue"
 msgstr "报告问题"
 
@@ -636,7 +679,7 @@ msgstr ""
 msgid "Required"
 msgstr "必需的"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:187
+#: src/components/storage/CockpitStorageIntegration.jsx:492
 #, fuzzy
 #| msgid "Required"
 msgid "Requirements"
@@ -656,8 +699,14 @@ msgstr "重新扫描磁盘失败。"
 msgid "Return to installation"
 msgstr "$0 安装"
 
-#: src/components/review/ReviewConfiguration.jsx:241
-#: src/components/review/ReviewConfiguration.jsx:242
+#: src/components/storage/CockpitStorageIntegration.jsx:398
+#, fuzzy
+#| msgid "Launch Blivet-gui storage editor"
+msgid "Return to storage editor"
+msgstr "启动 Blivet-gui 存储编辑器"
+
+#: src/components/review/ReviewConfiguration.jsx:248
+#: src/components/review/ReviewConfiguration.jsx:249
 msgid "Review and install"
 msgstr "检查并安装"
 
@@ -709,7 +758,7 @@ msgid ""
 "being installed onto your device."
 msgstr "软件安装：存储配置完成。该软件现在正在安装到您的设备上。"
 
-#: src/components/storage/InstallationScenario.jsx:87
+#: src/components/storage/InstallationScenario.jsx:94
 msgid "Some devices use the same name: $0."
 msgstr "有些设备使用相同的名称：$0。"
 
@@ -730,6 +779,10 @@ msgstr "存储配置：当前正在配置存储。"
 #| msgid "Reload storage configuration from disk."
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "从硬盘重新载入存储配置。"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:366
+msgid "Storage requirements not met"
+msgstr ""
 
 #: src/components/Password.jsx:83
 msgid "Strong"
@@ -777,31 +830,32 @@ msgid "The following disk was detected: $0"
 msgid_plural "The following disks were detected: $0"
 msgstr[0] "以下必须的分部还没有完成："
 
-#: src/components/Error.jsx:257
+#: src/components/Error.jsx:265
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
 "provide additional details."
 msgstr "以下日志将发送到问题跟踪系统，您可以在其中提供其他详细信息。"
 
-#: src/components/storage/InstallationScenario.jsx:52
+#: src/components/storage/InstallationScenario.jsx:54
 msgid "The installation needs $1 of disk space; "
 msgstr "安装需要 $1 磁盘空间； "
 
-#: src/components/storage/InstallationScenario.jsx:122
+#: src/components/storage/InstallationScenario.jsx:179
 msgid ""
 "The installation will use the available space on your devices and will not "
 "erase any device data."
 msgstr "安装将使用您设备上的可用空间，并且不会删除任何设备数据。"
 
-#: src/components/storage/InstallationScenario.jsx:136
+#: src/components/storage/InstallationScenario.jsx:193
+#: src/components/storage/InstallationScenario.jsx:207
 msgid "The installation will use your configured partitioning layout."
 msgstr "安装将使用您配置的分区布局。"
 
-#: src/components/Error.jsx:226
+#: src/components/Error.jsx:234
 msgid "The installer cannot continue due to a critical error."
 msgstr "安装程序由于严重错误而无法继续。"
 
-#: src/components/Error.jsx:225
+#: src/components/Error.jsx:233
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "安装程序由于严重错误而无法继续：$0"
 
@@ -815,7 +869,7 @@ msgstr "您设定的密码中包括非 ASCII 字符。在输入时您可能无�
 msgid "The root partition is always re-formatted by the installer."
 msgstr "根分区始终由安装程序重新格式化。"
 
-#: src/components/storage/InstallationScenario.jsx:108
+#: src/components/storage/InstallationScenario.jsx:165
 msgid ""
 "The selected disks will be erased, this cannot be undone. Are you sure you "
 "want to continue with the installation?"
@@ -839,24 +893,31 @@ msgstr "这是不稳定的预发行软件"
 msgid "This may take a moment"
 msgstr "这可能需要些时间"
 
+#: src/components/storage/CockpitStorageIntegration.jsx:360
+#, fuzzy
+#| msgid "This may take a moment"
+msgid "This will take a few moments"
+msgstr "这可能需要些时间"
+
 #: src/components/installation/InstallationProgress.jsx:164
 msgid "To begin using $0, reboot your system."
 msgstr "要使用 $0，请重新启动系统。"
 
-#: src/components/storage/InstallationMethod.jsx:84
+#: src/components/storage/InstallationMethod.jsx:88
 msgid "To continue, select the devices to install to."
 msgstr "要想继续，请选择要安装的设备。"
 
-#: src/components/storage/InstallationScenario.jsx:119
-#: src/components/storage/InstallationScenario.jsx:133
+#: src/components/storage/InstallationScenario.jsx:176
+#: src/components/storage/InstallationScenario.jsx:190
+#: src/components/storage/InstallationScenario.jsx:204
 msgid "To prevent loss, make sure to backup your data."
 msgstr "为防止丢失，请备份你的数据。"
 
-#: src/components/storage/InstallationScenario.jsx:88
+#: src/components/storage/InstallationScenario.jsx:95
 msgid "To use this option, rename devices to have unique names."
 msgstr "要使用此选项，请将设备重命名为具有唯一的名称。"
 
-#: src/components/storage/InstallationScenario.jsx:70
+#: src/components/storage/InstallationScenario.jsx:75
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -874,7 +935,13 @@ msgstr "解锁设备"
 msgid "Unlock encrypted devices"
 msgstr "解锁加密设备"
 
-#: src/components/storage/InstallationScenario.jsx:111
+#: src/components/storage/InstallationScenario.jsx:196
+#, fuzzy
+#| msgid "Configuring storage"
+msgid "Use configured storage"
+msgstr "设置存储设备"
+
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "Use free space for the installation"
 msgstr "使用可用空间进行安装"
 
@@ -912,17 +979,17 @@ msgstr "欢迎"
 msgid "Welcome to $0"
 msgstr "欢迎使用 $0"
 
-#: src/components/storage/InstallationMethod.jsx:93
+#: src/components/storage/InstallationMethod.jsx:97
 msgid "Welcome. Let's install $0 now."
 msgstr "欢迎。现在就来安装 $0 吧。"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:193
+#: src/components/storage/CockpitStorageIntegration.jsx:498
 msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
 msgstr ""
 
-#: src/components/AnacondaWizard.jsx:482
+#: src/components/AnacondaWizard.jsx:492
 msgid "Your progress will not be saved."
 msgstr "您的进度将不会被保存。"
 
@@ -962,9 +1029,6 @@ msgstr "待执行操作"
 
 #~ msgid "Ignore"
 #~ msgstr "忽略"
-
-#~ msgid "Launch Blivet-gui storage editor"
-#~ msgstr "启动 Blivet-gui 存储编辑器"
 
 #~ msgid "Modified storage"
 #~ msgstr "已修改的存储"
@@ -1928,9 +1992,6 @@ msgstr "待执行操作"
 #~ msgid "Connecting..."
 #~ msgstr "正在连接..."
 
-#~ msgid "Continue"
-#~ msgstr "继续"
-
 #~ msgid ""
 #~ "Continuing with this action will reset all your partitioning selections "
 #~ "to their current on-disk state."
@@ -2351,9 +2412,6 @@ msgstr "待执行操作"
 
 #~ msgid "Failed to change a device."
 #~ msgstr "更改设备失败。"
-
-#~ msgid "Failed to proceed with the installation."
-#~ msgstr "继续安装失败。"
 
 #~ msgid "Failed to save boot loader configuration"
 #~ msgstr "保存引导程序配置失败"
@@ -5379,10 +5437,6 @@ msgstr "待执行操作"
 
 #~ msgid "You must set a password"
 #~ msgstr "您必须设置密码"
-
-#~ msgid ""
-#~ "You need to configure the network to use a network installation source."
-#~ msgstr "您需配置网络才能使用网络安装源。"
 
 #~ msgid "You need to set up networking first if you want to use NTP"
 #~ msgstr "如果您要使用 NTP，需要首先设置网络"

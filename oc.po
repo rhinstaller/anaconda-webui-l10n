@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 36.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-16 02:49+0000\n"
+"POT-Creation-Date: 2024-02-17 02:48+0000\n"
 "PO-Revision-Date: 2023-11-06 12:20+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Occitan <https://translate.fedoraproject.org/projects/"
@@ -48,7 +48,7 @@ msgstr ""
 msgid "Account"
 msgstr "_Compte"
 
-#: src/components/AnacondaWizard.jsx:380
+#: src/components/AnacondaWizard.jsx:390
 #, fuzzy
 #| msgid "Connection failed"
 msgid "Account setting failed."
@@ -88,7 +88,7 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Installacion"
 
-#: src/components/storage/InstallationScenario.jsx:131
+#: src/components/storage/InstallationScenario.jsx:188
 msgid "Apply mount point assignment and install"
 msgstr ""
 
@@ -96,8 +96,8 @@ msgstr ""
 msgid "Applying new disk selection..."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:210
-#: src/components/AnacondaWizard.jsx:421
+#: src/components/review/ReviewConfiguration.jsx:217
+#: src/components/AnacondaWizard.jsx:431
 msgid "Back"
 msgstr ""
 
@@ -109,17 +109,19 @@ msgid ""
 "issues in order to enhance this work."
 msgstr ""
 
-#: src/components/Error.jsx:249
+#: src/components/Error.jsx:257
 #, fuzzy
 msgid "Cancel"
 msgstr "_Anullar"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:104
+#: src/components/storage/CockpitStorageIntegration.jsx:115
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
 #: src/components/storage/DiskEncryption.jsx:53
+#: src/components/storage/CockpitStorageIntegration.jsx:359
+#: src/components/storage/CockpitStorageIntegration.jsx:371
 #, fuzzy
 msgid "Checking storage configuration"
 msgstr "URL de _configuracion"
@@ -142,6 +144,11 @@ msgstr ""
 msgid "Close"
 msgstr "Tancar"
 
+#: src/components/storage/CockpitStorageIntegration.jsx:274
+msgid ""
+"Cockpit storage did not provide the passphrase to unlock encrypted device."
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:149
 #, fuzzy
 msgid "Common languages"
@@ -152,9 +159,14 @@ msgstr "Lengas"
 msgid "Completed"
 msgstr "Acabat !"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:100
+#: src/components/storage/CockpitStorageIntegration.jsx:111
 #, fuzzy
 msgid "Configure storage"
+msgstr "Frasa secreta"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:407
+#, fuzzy
+msgid "Configure storage again"
 msgstr "Frasa secreta"
 
 #: src/components/users/Accounts.jsx:194 src/components/users/Accounts.jsx:293
@@ -163,9 +175,18 @@ msgstr "Frasa secreta"
 msgid "Confirm passphrase"
 msgstr "Frasa secreta"
 
-#: src/components/AnacondaWizard.jsx:473
+#: src/components/storage/CockpitStorageIntegration.jsx:392
+msgid "Continue"
+msgstr "Contunhar"
+
+#: src/components/AnacondaWizard.jsx:483
 #, fuzzy
 msgid "Continue installation"
+msgstr "Installacion"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:368
+#, fuzzy
+msgid "Continue with installation"
 msgstr "Installacion"
 
 #: src/components/users/Accounts.jsx:351
@@ -180,8 +201,12 @@ msgstr "Crear un utilizaire"
 msgid "Create account"
 msgstr "Crear un utilizaire"
 
-#: src/components/Error.jsx:234
+#: src/components/Error.jsx:242
 msgid "Critical error"
+msgstr ""
+
+#: src/components/storage/CockpitStorageIntegration.jsx:428
+msgid "Current configuration can be used for installation."
 msgstr ""
 
 #: src/components/storage/InstallationDestination.jsx:222
@@ -210,7 +235,7 @@ msgstr ""
 msgid "Disabled"
 msgstr "Desactivat"
 
-#: src/components/AnacondaWizard.jsx:122
+#: src/components/AnacondaWizard.jsx:131
 #, fuzzy
 msgid "Disk configuration"
 msgstr "URL de _configuracion"
@@ -255,30 +280,30 @@ msgstr ""
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:97
-#: src/components/storage/InstallationScenario.jsx:103
+#: src/components/storage/InstallationScenario.jsx:154
+#: src/components/storage/InstallationScenario.jsx:160
 #, fuzzy
 msgid "Erase data and install"
 msgstr "Installacion"
 
-#: src/components/storage/InstallationScenario.jsx:107
+#: src/components/storage/InstallationScenario.jsx:164
 #, fuzzy
 msgid "Erase data and install?"
 msgstr "Installacion"
 
-#: src/components/storage/InstallationScenario.jsx:105
+#: src/components/storage/InstallationScenario.jsx:162
 msgid "Erasing the data cannot be undone. Be sure to have backups."
 msgstr ""
 
-#: src/components/Error.jsx:237
+#: src/components/Error.jsx:245
 msgid "Error details"
 msgstr ""
 
-#: src/components/AnacondaWizard.jsx:250
+#: src/components/AnacondaWizard.jsx:259
 msgid "Error was hit when going back from $0."
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:190
+#: src/components/storage/CockpitStorageIntegration.jsx:495
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr ""
 
@@ -320,11 +345,11 @@ msgstr "Frasa secreta"
 msgid "Hide password"
 msgstr "Senhal"
 
-#: src/components/storage/InstallationScenario.jsx:253
+#: src/components/storage/InstallationScenario.jsx:371
 msgid "How would you like to install?"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:166
+#: src/components/storage/CockpitStorageIntegration.jsx:471
 msgid "If you are configuring partitions the following are required:"
 msgstr ""
 
@@ -342,17 +367,23 @@ msgstr "Progression"
 msgid "Initializing..."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:117
+#: src/components/storage/InstallationScenario.jsx:174
+#: src/components/storage/InstallationScenario.jsx:202
 msgid "Install"
 msgstr "Installar"
 
-#: src/components/storage/InstallationScenario.jsx:135
+#: src/components/storage/InstallationScenario.jsx:192
 msgid "Install on the custom mount points?"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:121
+#: src/components/storage/InstallationScenario.jsx:178
 #, fuzzy
 msgid "Install on the free space?"
+msgstr "Installacion de logicials"
+
+#: src/components/storage/InstallationScenario.jsx:206
+#, fuzzy
+msgid "Install using the configured storage?"
 msgstr "Installacion de logicials"
 
 #: src/components/installation/InstallationProgress.jsx:149
@@ -360,7 +391,7 @@ msgstr "Installacion de logicials"
 msgid "Installation failed"
 msgstr "Installacion"
 
-#: src/components/storage/InstallationMethod.jsx:92
+#: src/components/storage/InstallationMethod.jsx:96
 #, fuzzy
 msgid "Installation method"
 msgstr "Installacion acabada"
@@ -425,7 +456,7 @@ msgstr ""
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 
-#: src/components/storage/ModifyStorage.jsx:54
+#: src/components/storage/ModifyStorage.jsx:53
 msgid "Modify storage"
 msgstr ""
 
@@ -434,7 +465,7 @@ msgid "Mount point"
 msgstr "Punt de montatge"
 
 #: src/components/storage/MountPointMapping.jsx:556
-#: src/components/storage/InstallationScenario.jsx:125
+#: src/components/storage/InstallationScenario.jsx:182
 #, fuzzy
 msgid "Mount point assignment"
 msgstr "Punt de montatge"
@@ -453,7 +484,7 @@ msgstr ""
 msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 
-#: src/components/AnacondaWizard.jsx:395
+#: src/components/AnacondaWizard.jsx:405
 msgid "Next"
 msgstr ""
 
@@ -471,7 +502,7 @@ msgstr "Apondre un periferic"
 msgid "No results found"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:84
+#: src/components/storage/InstallationScenario.jsx:91
 #, fuzzy
 msgid "No usable devices on the selected disks."
 msgstr "Desactivat"
@@ -481,12 +512,12 @@ msgstr "Desactivat"
 msgid "No usable disks detected"
 msgstr "Desactivat"
 
-#: src/components/storage/InstallationScenario.jsx:68
+#: src/components/storage/InstallationScenario.jsx:73
 #, fuzzy
 msgid "Not enough free space on the selected disks."
 msgstr "Desactivat"
 
-#: src/components/storage/InstallationScenario.jsx:50
+#: src/components/storage/InstallationScenario.jsx:52
 msgid "Not enough space on selected disks."
 msgstr ""
 
@@ -507,7 +538,7 @@ msgstr ""
 msgid "Operating system"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:198
+#: src/components/storage/CockpitStorageIntegration.jsx:503
 msgid "Partitions (advanced)"
 msgstr ""
 
@@ -547,13 +578,19 @@ msgstr ""
 msgid "Preparing report"
 msgstr ""
 
+#: src/components/storage/CockpitStorageIntegration.jsx:413
+#, fuzzy
+#| msgid "Failed to proceed with the installation."
+msgid "Proceed with installation"
+msgstr "Fracàs de l’installacion."
+
 #: src/components/installation/InstallationProgress.jsx:222
-#: src/components/AnacondaWizard.jsx:443 src/components/AnacondaWizard.jsx:466
-#: src/components/Error.jsx:216
+#: src/components/AnacondaWizard.jsx:453 src/components/AnacondaWizard.jsx:476
+#: src/components/Error.jsx:224
 msgid "Quit"
 msgstr "Sortir"
 
-#: src/components/AnacondaWizard.jsx:478
+#: src/components/AnacondaWizard.jsx:488
 #, fuzzy
 msgid "Quit installer?"
 msgstr "_Quitar l’installador"
@@ -576,12 +613,12 @@ msgid "Reading installer version information failed."
 msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:222
-#: src/components/AnacondaWizard.jsx:443 src/components/AnacondaWizard.jsx:466
-#: src/components/Error.jsx:216
+#: src/components/AnacondaWizard.jsx:453 src/components/AnacondaWizard.jsx:476
+#: src/components/Error.jsx:224
 msgid "Reboot"
 msgstr ""
 
-#: src/components/AnacondaWizard.jsx:478
+#: src/components/AnacondaWizard.jsx:488
 #, fuzzy
 msgid "Reboot system?"
 msgstr "sistèma de fichièrs /boot"
@@ -590,7 +627,7 @@ msgstr "sistèma de fichièrs /boot"
 msgid "Recommended"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:175
+#: src/components/storage/CockpitStorageIntegration.jsx:480
 msgid "Recommended partitions:"
 msgstr ""
 
@@ -613,7 +650,7 @@ msgstr ""
 msgid "Report Issue"
 msgstr ""
 
-#: src/components/Error.jsx:150 src/components/Error.jsx:260
+#: src/components/Error.jsx:150 src/components/Error.jsx:268
 msgid "Report issue"
 msgstr ""
 
@@ -627,7 +664,7 @@ msgstr ""
 msgid "Required"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:187
+#: src/components/storage/CockpitStorageIntegration.jsx:492
 msgid "Requirements"
 msgstr ""
 
@@ -644,8 +681,13 @@ msgstr ""
 msgid "Return to installation"
 msgstr "Installacion"
 
-#: src/components/review/ReviewConfiguration.jsx:241
-#: src/components/review/ReviewConfiguration.jsx:242
+#: src/components/storage/CockpitStorageIntegration.jsx:398
+#, fuzzy
+msgid "Return to storage editor"
+msgstr "Installacion"
+
+#: src/components/review/ReviewConfiguration.jsx:248
+#: src/components/review/ReviewConfiguration.jsx:249
 #, fuzzy
 msgid "Review and install"
 msgstr "Installacion"
@@ -702,7 +744,7 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:87
+#: src/components/storage/InstallationScenario.jsx:94
 msgid "Some devices use the same name: $0."
 msgstr ""
 
@@ -721,6 +763,10 @@ msgstr ""
 
 #: src/components/storage/HelpAutopartOptions.jsx:11
 msgid "Storage is based on the configuration from 'Modify storage'."
+msgstr ""
+
+#: src/components/storage/CockpitStorageIntegration.jsx:366
+msgid "Storage requirements not met"
 msgstr ""
 
 #: src/components/Password.jsx:83
@@ -770,31 +816,32 @@ msgid_plural "The following disks were detected: $0"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/components/Error.jsx:257
+#: src/components/Error.jsx:265
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
 "provide additional details."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:52
+#: src/components/storage/InstallationScenario.jsx:54
 msgid "The installation needs $1 of disk space; "
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:122
+#: src/components/storage/InstallationScenario.jsx:179
 msgid ""
 "The installation will use the available space on your devices and will not "
 "erase any device data."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:136
+#: src/components/storage/InstallationScenario.jsx:193
+#: src/components/storage/InstallationScenario.jsx:207
 msgid "The installation will use your configured partitioning layout."
 msgstr ""
 
-#: src/components/Error.jsx:226
+#: src/components/Error.jsx:234
 msgid "The installer cannot continue due to a critical error."
 msgstr ""
 
-#: src/components/Error.jsx:225
+#: src/components/Error.jsx:233
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr ""
 
@@ -808,7 +855,7 @@ msgstr ""
 msgid "The root partition is always re-formatted by the installer."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:108
+#: src/components/storage/InstallationScenario.jsx:165
 msgid ""
 "The selected disks will be erased, this cannot be undone. Are you sure you "
 "want to continue with the installation?"
@@ -831,24 +878,29 @@ msgstr ""
 msgid "This may take a moment"
 msgstr ""
 
+#: src/components/storage/CockpitStorageIntegration.jsx:360
+msgid "This will take a few moments"
+msgstr ""
+
 #: src/components/installation/InstallationProgress.jsx:164
 msgid "To begin using $0, reboot your system."
 msgstr ""
 
-#: src/components/storage/InstallationMethod.jsx:84
+#: src/components/storage/InstallationMethod.jsx:88
 msgid "To continue, select the devices to install to."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:119
-#: src/components/storage/InstallationScenario.jsx:133
+#: src/components/storage/InstallationScenario.jsx:176
+#: src/components/storage/InstallationScenario.jsx:190
+#: src/components/storage/InstallationScenario.jsx:204
 msgid "To prevent loss, make sure to backup your data."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:88
+#: src/components/storage/InstallationScenario.jsx:95
 msgid "To use this option, rename devices to have unique names."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:70
+#: src/components/storage/InstallationScenario.jsx:75
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -868,7 +920,12 @@ msgstr "_Desverrolhar"
 msgid "Unlock encrypted devices"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:111
+#: src/components/storage/InstallationScenario.jsx:196
+#, fuzzy
+msgid "Use configured storage"
+msgstr "Frasa secreta"
+
+#: src/components/storage/InstallationScenario.jsx:168
 #, fuzzy
 msgid "Use free space for the installation"
 msgstr "Fracàs de l’installacion."
@@ -905,17 +962,17 @@ msgstr ""
 msgid "Welcome to $0"
 msgstr ""
 
-#: src/components/storage/InstallationMethod.jsx:93
+#: src/components/storage/InstallationMethod.jsx:97
 msgid "Welcome. Let's install $0 now."
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:193
+#: src/components/storage/CockpitStorageIntegration.jsx:498
 msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
 msgstr ""
 
-#: src/components/AnacondaWizard.jsx:482
+#: src/components/AnacondaWizard.jsx:492
 msgid "Your progress will not be saved."
 msgstr ""
 
@@ -1069,9 +1126,6 @@ msgstr ""
 #~ msgid "Connecting..."
 #~ msgstr "Connexion en cors..."
 
-#~ msgid "Continue"
-#~ msgstr "Contunhar"
-
 #~ msgid "DNS"
 #~ msgstr "DNS"
 
@@ -1170,9 +1224,6 @@ msgstr ""
 
 #~ msgid "Failed to add a device."
 #~ msgstr "Apondon impossible del periferic."
-
-#~ msgid "Failed to proceed with the installation."
-#~ msgstr "Fracàs de l’installacion."
 
 #, fuzzy
 #~| msgid "Failed to set up installation source"

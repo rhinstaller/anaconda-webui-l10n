@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-16 02:49+0000\n"
+"POT-Creation-Date: 2024-02-17 02:48+0000\n"
 "PO-Revision-Date: 2024-02-12 16:45+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
@@ -70,7 +70,7 @@ msgstr "Ihwal"
 msgid "Account"
 msgstr "Akun"
 
-#: src/components/AnacondaWizard.jsx:380
+#: src/components/AnacondaWizard.jsx:390
 msgid "Account setting failed."
 msgstr "Pengaturan akun gagal."
 
@@ -106,7 +106,7 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Halaman proyek Anaconda"
 
-#: src/components/storage/InstallationScenario.jsx:131
+#: src/components/storage/InstallationScenario.jsx:188
 msgid "Apply mount point assignment and install"
 msgstr "Terapkan penugasan titik kait dan pasang"
 
@@ -114,8 +114,8 @@ msgstr "Terapkan penugasan titik kait dan pasang"
 msgid "Applying new disk selection..."
 msgstr "Menerapkan pilihan disk baru..."
 
-#: src/components/review/ReviewConfiguration.jsx:210
-#: src/components/AnacondaWizard.jsx:421
+#: src/components/review/ReviewConfiguration.jsx:217
+#: src/components/AnacondaWizard.jsx:431
 msgid "Back"
 msgstr "Mundur"
 
@@ -131,11 +131,11 @@ msgstr ""
 "hanya untuk tujuan pengujian dan pengembangan dan Anda bersedia melaporkan "
 "sebarang kutu atau masalah untuk memajukan karya ini."
 
-#: src/components/Error.jsx:249
+#: src/components/Error.jsx:257
 msgid "Cancel"
 msgstr "Batal"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:104
+#: src/components/storage/CockpitStorageIntegration.jsx:115
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
@@ -143,6 +143,8 @@ msgstr ""
 "jadi'."
 
 #: src/components/storage/DiskEncryption.jsx:53
+#: src/components/storage/CockpitStorageIntegration.jsx:359
+#: src/components/storage/CockpitStorageIntegration.jsx:371
 msgid "Checking storage configuration"
 msgstr "Memeriksa konfigurasi penyimpanan"
 
@@ -162,6 +164,11 @@ msgstr "Bersihkan nilai masukan"
 msgid "Close"
 msgstr "Tutup"
 
+#: src/components/storage/CockpitStorageIntegration.jsx:274
+msgid ""
+"Cockpit storage did not provide the passphrase to unlock encrypted device."
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:149
 msgid "Common languages"
 msgstr "Bahasa umum"
@@ -170,8 +177,14 @@ msgstr "Bahasa umum"
 msgid "Completed"
 msgstr "Lengkap"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:100
+#: src/components/storage/CockpitStorageIntegration.jsx:111
 msgid "Configure storage"
+msgstr "Konfigurasikan penyimpanan"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:407
+#, fuzzy
+#| msgid "Configure storage"
+msgid "Configure storage again"
 msgstr "Konfigurasikan penyimpanan"
 
 #: src/components/users/Accounts.jsx:194 src/components/users/Accounts.jsx:293
@@ -179,8 +192,18 @@ msgstr "Konfigurasikan penyimpanan"
 msgid "Confirm passphrase"
 msgstr "Konfirmasi frasa sandi"
 
-#: src/components/AnacondaWizard.jsx:473
+#: src/components/storage/CockpitStorageIntegration.jsx:392
+msgid "Continue"
+msgstr "Lanjutkan"
+
+#: src/components/AnacondaWizard.jsx:483
 msgid "Continue installation"
+msgstr "Lanjutkan instalasi"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:368
+#, fuzzy
+#| msgid "Continue installation"
+msgid "Continue with installation"
 msgstr "Lanjutkan instalasi"
 
 #: src/components/users/Accounts.jsx:351
@@ -191,9 +214,18 @@ msgstr "Buat Akun"
 msgid "Create account"
 msgstr "Buat akun"
 
-#: src/components/Error.jsx:234
+#: src/components/Error.jsx:242
 msgid "Critical error"
 msgstr "Kesalahan kritis"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:428
+#, fuzzy
+#| msgid ""
+#| "You need to configure the network to use a network installation source."
+msgid "Current configuration can be used for installation."
+msgstr ""
+"Anda perlu mengkonfigurasi jaringan untuk memakai suatu sumber instalasi "
+"jaringan."
 
 #: src/components/storage/InstallationDestination.jsx:222
 msgid "Current selections"
@@ -219,7 +251,7 @@ msgstr "Perangkat harus dibuka kuncinya sebelum menugaskan titik kait."
 msgid "Disabled"
 msgstr "Dinonaktifkan"
 
-#: src/components/AnacondaWizard.jsx:122
+#: src/components/AnacondaWizard.jsx:131
 msgid "Disk configuration"
 msgstr "Konfigurasi disk"
 
@@ -262,28 +294,28 @@ msgstr ""
 "Enkripsi membantu mengamankan data Anda, untuk mencegah orang lain "
 "mengaksesnya."
 
-#: src/components/storage/InstallationScenario.jsx:97
-#: src/components/storage/InstallationScenario.jsx:103
+#: src/components/storage/InstallationScenario.jsx:154
+#: src/components/storage/InstallationScenario.jsx:160
 msgid "Erase data and install"
 msgstr "Hapus data dan pasang"
 
-#: src/components/storage/InstallationScenario.jsx:107
+#: src/components/storage/InstallationScenario.jsx:164
 msgid "Erase data and install?"
 msgstr "Hapus data dan pasang?"
 
-#: src/components/storage/InstallationScenario.jsx:105
+#: src/components/storage/InstallationScenario.jsx:162
 msgid "Erasing the data cannot be undone. Be sure to have backups."
 msgstr "Menghapus data tidak dapat dibatalkan. Pastikan memiliki cadangan."
 
-#: src/components/Error.jsx:237
+#: src/components/Error.jsx:245
 msgid "Error details"
 msgstr "Rincian kesalahan"
 
-#: src/components/AnacondaWizard.jsx:250
+#: src/components/AnacondaWizard.jsx:259
 msgid "Error was hit when going back from $0."
 msgstr "Kesalahan dijumpai saat kembali dari $0."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:190
+#: src/components/storage/CockpitStorageIntegration.jsx:495
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora linux memerlukan setidaknya ruang disk $0."
 
@@ -323,11 +355,11 @@ msgstr "Sembunyikan frasa sandi"
 msgid "Hide password"
 msgstr "Sembunyikan kata sandi"
 
-#: src/components/storage/InstallationScenario.jsx:253
+#: src/components/storage/InstallationScenario.jsx:371
 msgid "How would you like to install?"
 msgstr "Bagaimana Anda ingin memasang?"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:166
+#: src/components/storage/CockpitStorageIntegration.jsx:471
 msgid "If you are configuring partitions the following are required:"
 msgstr "Bila Anda mengonfigurasi partisi, yang berikut ini diperlukan:"
 
@@ -346,23 +378,30 @@ msgstr "Dalam progres"
 msgid "Initializing..."
 msgstr "Menginisialisasi..."
 
-#: src/components/storage/InstallationScenario.jsx:117
+#: src/components/storage/InstallationScenario.jsx:174
+#: src/components/storage/InstallationScenario.jsx:202
 msgid "Install"
 msgstr "Pasang"
 
-#: src/components/storage/InstallationScenario.jsx:135
+#: src/components/storage/InstallationScenario.jsx:192
 msgid "Install on the custom mount points?"
 msgstr "Pasang pada titik kait ubahan?"
 
-#: src/components/storage/InstallationScenario.jsx:121
+#: src/components/storage/InstallationScenario.jsx:178
 msgid "Install on the free space?"
+msgstr "Pasang pada ruang bebas?"
+
+#: src/components/storage/InstallationScenario.jsx:206
+#, fuzzy
+#| msgid "Install on the free space?"
+msgid "Install using the configured storage?"
 msgstr "Pasang pada ruang bebas?"
 
 #: src/components/installation/InstallationProgress.jsx:149
 msgid "Installation failed"
 msgstr "Instalasi gagal"
 
-#: src/components/storage/InstallationMethod.jsx:92
+#: src/components/storage/InstallationMethod.jsx:96
 msgid "Installation method"
 msgstr "Metode instalasi"
 
@@ -421,7 +460,7 @@ msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 "Tidak cocok antara pilihan format ulang perangkat induk dan perangkat anak."
 
-#: src/components/storage/ModifyStorage.jsx:54
+#: src/components/storage/ModifyStorage.jsx:53
 msgid "Modify storage"
 msgstr "Ubah penyimpanan"
 
@@ -430,7 +469,7 @@ msgid "Mount point"
 msgstr "Titik kait"
 
 #: src/components/storage/MountPointMapping.jsx:556
-#: src/components/storage/InstallationScenario.jsx:125
+#: src/components/storage/InstallationScenario.jsx:182
 msgid "Mount point assignment"
 msgstr "Penugasan titik kait"
 
@@ -451,7 +490,7 @@ msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 "Jaringan tidak tersedia. Konfigurasikan jaringan untuk melaporkan masalah."
 
-#: src/components/AnacondaWizard.jsx:395
+#: src/components/AnacondaWizard.jsx:405
 msgid "Next"
 msgstr "Selanjutnya"
 
@@ -468,7 +507,7 @@ msgstr "Tidak ada perangkat"
 msgid "No results found"
 msgstr "Tidak ditemukan hasil"
 
-#: src/components/storage/InstallationScenario.jsx:84
+#: src/components/storage/InstallationScenario.jsx:91
 msgid "No usable devices on the selected disks."
 msgstr "Tidak ada perangkat yang dapat dipakai pada disk yang dipilih."
 
@@ -476,11 +515,11 @@ msgstr "Tidak ada perangkat yang dapat dipakai pada disk yang dipilih."
 msgid "No usable disks detected"
 msgstr "Tidak terdeteksi disk yang dapat dipakai"
 
-#: src/components/storage/InstallationScenario.jsx:68
+#: src/components/storage/InstallationScenario.jsx:73
 msgid "Not enough free space on the selected disks."
 msgstr "Tidak cukup ruang bebas pada disk yang dipilih."
 
-#: src/components/storage/InstallationScenario.jsx:50
+#: src/components/storage/InstallationScenario.jsx:52
 msgid "Not enough space on selected disks."
 msgstr "Tidak cukup ruang bebas pada disk yang dipilih."
 
@@ -506,7 +545,7 @@ msgstr ""
 msgid "Operating system"
 msgstr "Sistem operasi"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:198
+#: src/components/storage/CockpitStorageIntegration.jsx:503
 msgid "Partitions (advanced)"
 msgstr "Partisi (tingkat lanjut)"
 
@@ -545,13 +584,19 @@ msgstr "Prarilis"
 msgid "Preparing report"
 msgstr "Mempersiapkan laporan"
 
+#: src/components/storage/CockpitStorageIntegration.jsx:413
+#, fuzzy
+#| msgid "Failed to proceed with the installation."
+msgid "Proceed with installation"
+msgstr "Gagal melanjutkan instalasi."
+
 #: src/components/installation/InstallationProgress.jsx:222
-#: src/components/AnacondaWizard.jsx:443 src/components/AnacondaWizard.jsx:466
-#: src/components/Error.jsx:216
+#: src/components/AnacondaWizard.jsx:453 src/components/AnacondaWizard.jsx:476
+#: src/components/Error.jsx:224
 msgid "Quit"
 msgstr "Keluar"
 
-#: src/components/AnacondaWizard.jsx:478
+#: src/components/AnacondaWizard.jsx:488
 msgid "Quit installer?"
 msgstr "Keluar pemasang?"
 
@@ -572,12 +617,12 @@ msgid "Reading installer version information failed."
 msgstr "Gagal membaca informasi versi pemasang."
 
 #: src/components/installation/InstallationProgress.jsx:222
-#: src/components/AnacondaWizard.jsx:443 src/components/AnacondaWizard.jsx:466
-#: src/components/Error.jsx:216
+#: src/components/AnacondaWizard.jsx:453 src/components/AnacondaWizard.jsx:476
+#: src/components/Error.jsx:224
 msgid "Reboot"
 msgstr "Boot ulang"
 
-#: src/components/AnacondaWizard.jsx:478
+#: src/components/AnacondaWizard.jsx:488
 msgid "Reboot system?"
 msgstr "Boot ulang sistem?"
 
@@ -585,7 +630,7 @@ msgstr "Boot ulang sistem?"
 msgid "Recommended"
 msgstr "Direkomendasikan"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:175
+#: src/components/storage/CockpitStorageIntegration.jsx:480
 msgid "Recommended partitions:"
 msgstr "Partisi yang disarankan:"
 
@@ -610,7 +655,7 @@ msgstr ""
 msgid "Report Issue"
 msgstr "Laporkan Masalah"
 
-#: src/components/Error.jsx:150 src/components/Error.jsx:260
+#: src/components/Error.jsx:150 src/components/Error.jsx:268
 msgid "Report issue"
 msgstr "Melaporkan masalah"
 
@@ -626,7 +671,7 @@ msgstr ""
 msgid "Required"
 msgstr "Diperlukan"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:187
+#: src/components/storage/CockpitStorageIntegration.jsx:492
 msgid "Requirements"
 msgstr "Persyaratan"
 
@@ -642,8 +687,14 @@ msgstr "Pemindaian ulang disk gagal."
 msgid "Return to installation"
 msgstr "Kembali ke instalasi"
 
-#: src/components/review/ReviewConfiguration.jsx:241
-#: src/components/review/ReviewConfiguration.jsx:242
+#: src/components/storage/CockpitStorageIntegration.jsx:398
+#, fuzzy
+#| msgid "Launch Blivet-gui storage editor"
+msgid "Return to storage editor"
+msgstr "Luncurkan penyunting penyimpanan Blivet-gui"
+
+#: src/components/review/ReviewConfiguration.jsx:248
+#: src/components/review/ReviewConfiguration.jsx:249
 msgid "Review and install"
 msgstr "Tinjau dan pasang"
 
@@ -695,7 +746,7 @@ msgstr ""
 "Instalasi perangkat lunak: Konfigurasi penyimpanan selesai. Perangkat lunak "
 "saat ini sedang dipasang ke perangkat Anda."
 
-#: src/components/storage/InstallationScenario.jsx:87
+#: src/components/storage/InstallationScenario.jsx:94
 msgid "Some devices use the same name: $0."
 msgstr "Beberapa perangkat menggunakan nama yang sama: $0."
 
@@ -714,6 +765,10 @@ msgstr "Konfigurasi penyimpanan: Penyimpanan saat ini sedang dikonfigurasi."
 #: src/components/storage/HelpAutopartOptions.jsx:11
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "Penyimpanan didasarkan pada konfigurasi dari 'Ubah penyimpanan'."
+
+#: src/components/storage/CockpitStorageIntegration.jsx:366
+msgid "Storage requirements not met"
+msgstr ""
 
 #: src/components/Password.jsx:83
 msgid "Strong"
@@ -761,7 +816,7 @@ msgid "The following disk was detected: $0"
 msgid_plural "The following disks were detected: $0"
 msgstr[0] "Diska berikut terdeteksi: $0"
 
-#: src/components/Error.jsx:257
+#: src/components/Error.jsx:265
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
 "provide additional details."
@@ -769,11 +824,11 @@ msgstr ""
 "Log berikut akan dikirim ke sistem pelacakan masalah dimana Anda dapat "
 "memberikan rincian tambahan."
 
-#: src/components/storage/InstallationScenario.jsx:52
+#: src/components/storage/InstallationScenario.jsx:54
 msgid "The installation needs $1 of disk space; "
 msgstr "Instalasi membutuhkan ruang disk sebesar $1; "
 
-#: src/components/storage/InstallationScenario.jsx:122
+#: src/components/storage/InstallationScenario.jsx:179
 msgid ""
 "The installation will use the available space on your devices and will not "
 "erase any device data."
@@ -781,16 +836,17 @@ msgstr ""
 "Instalasi akan memakai ruang yang tersedia pada perangkat Anda dan tidak "
 "akan menghapus sebarang data perangkat."
 
-#: src/components/storage/InstallationScenario.jsx:136
+#: src/components/storage/InstallationScenario.jsx:193
+#: src/components/storage/InstallationScenario.jsx:207
 msgid "The installation will use your configured partitioning layout."
 msgstr ""
 "Instalasi akan memakai tata letak pemartisian yang Anda konfigurasikan."
 
-#: src/components/Error.jsx:226
+#: src/components/Error.jsx:234
 msgid "The installer cannot continue due to a critical error."
 msgstr "Pemasang tidak dapat melanjutkan karena suatu kesalahan kritis."
 
-#: src/components/Error.jsx:225
+#: src/components/Error.jsx:233
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "Pemasang tidak dapat melanjutkan karena suatu kesalahan kritis: $0"
 
@@ -806,7 +862,7 @@ msgstr ""
 msgid "The root partition is always re-formatted by the installer."
 msgstr "Partisi root selalu diformat ulang oleh pemasang."
 
-#: src/components/storage/InstallationScenario.jsx:108
+#: src/components/storage/InstallationScenario.jsx:165
 msgid ""
 "The selected disks will be erased, this cannot be undone. Are you sure you "
 "want to continue with the installation?"
@@ -830,26 +886,33 @@ msgstr "Ini perangkat lunak pra-rilis yang tidak stabil"
 msgid "This may take a moment"
 msgstr "Ini mungkin perlu waktu"
 
+#: src/components/storage/CockpitStorageIntegration.jsx:360
+#, fuzzy
+#| msgid "This may take a moment"
+msgid "This will take a few moments"
+msgstr "Ini mungkin perlu waktu"
+
 #: src/components/installation/InstallationProgress.jsx:164
 msgid "To begin using $0, reboot your system."
 msgstr "Untuk mulai memakai $0, boot ulang sistem Anda."
 
-#: src/components/storage/InstallationMethod.jsx:84
+#: src/components/storage/InstallationMethod.jsx:88
 msgid "To continue, select the devices to install to."
 msgstr "Untuk melanjutkan, pilih perangkat untuk dipasangi."
 
-#: src/components/storage/InstallationScenario.jsx:119
-#: src/components/storage/InstallationScenario.jsx:133
+#: src/components/storage/InstallationScenario.jsx:176
+#: src/components/storage/InstallationScenario.jsx:190
+#: src/components/storage/InstallationScenario.jsx:204
 msgid "To prevent loss, make sure to backup your data."
 msgstr "Untuk mencegah kehilangan, pastikan membuat cadangan data Anda."
 
-#: src/components/storage/InstallationScenario.jsx:88
+#: src/components/storage/InstallationScenario.jsx:95
 msgid "To use this option, rename devices to have unique names."
 msgstr ""
 "Untuk menggunakan opsi ini, ganti nama perangkat agar memiliki nama yang "
 "unik."
 
-#: src/components/storage/InstallationScenario.jsx:70
+#: src/components/storage/InstallationScenario.jsx:75
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -869,7 +932,13 @@ msgstr "Buka kunci perangkat"
 msgid "Unlock encrypted devices"
 msgstr "Buka kunci perangkat terenkripsi"
 
-#: src/components/storage/InstallationScenario.jsx:111
+#: src/components/storage/InstallationScenario.jsx:196
+#, fuzzy
+#| msgid "Configure storage"
+msgid "Use configured storage"
+msgstr "Konfigurasikan penyimpanan"
+
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "Use free space for the installation"
 msgstr "Gunakan ruang bebas untuk instalasi"
 
@@ -905,11 +974,11 @@ msgstr "Selamat Datang"
 msgid "Welcome to $0"
 msgstr "Selamat datang di $0"
 
-#: src/components/storage/InstallationMethod.jsx:93
+#: src/components/storage/InstallationMethod.jsx:97
 msgid "Welcome. Let's install $0 now."
 msgstr "Selamat datang! Mari memasang $0 sekarang."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:193
+#: src/components/storage/CockpitStorageIntegration.jsx:498
 msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
@@ -917,7 +986,7 @@ msgstr ""
 "Anda dapat membebaskan cukup ruang di sini dan membiarkan pemasang menangani "
 "sisanya atau secara manual menyiapkan partisi."
 
-#: src/components/AnacondaWizard.jsx:482
+#: src/components/AnacondaWizard.jsx:492
 msgid "Your progress will not be saved."
 msgstr "Kemajuan Anda tidak akan disimpan."
 
@@ -962,9 +1031,6 @@ msgstr "langkah tertunda"
 
 #~ msgid "Ignore"
 #~ msgstr "Abaikan"
-
-#~ msgid "Launch Blivet-gui storage editor"
-#~ msgstr "Luncurkan penyunting penyimpanan Blivet-gui"
 
 #~ msgid "Modified storage"
 #~ msgstr "Penyimpanan diubah"
@@ -1968,9 +2034,6 @@ msgstr "langkah tertunda"
 #~ msgid "Connecting..."
 #~ msgstr "Menghubungkan..."
 
-#~ msgid "Continue"
-#~ msgstr "Lanjutkan"
-
 #~ msgid ""
 #~ "Continuing with this action will reset all your partitioning selections "
 #~ "to their current on-disk state."
@@ -2412,9 +2475,6 @@ msgstr "langkah tertunda"
 
 #~ msgid "Failed to change a device."
 #~ msgstr "Gagal mengubah suatu peranti."
-
-#~ msgid "Failed to proceed with the installation."
-#~ msgstr "Gagal melanjutkan instalasi."
 
 #~ msgid "Failed to save boot loader configuration"
 #~ msgstr "Gagal menyimpan konfigurasi boot loader"
@@ -5663,12 +5723,6 @@ msgstr "langkah tertunda"
 
 #~ msgid "You must set a password"
 #~ msgstr "Anda harus mengatur sandi"
-
-#~ msgid ""
-#~ "You need to configure the network to use a network installation source."
-#~ msgstr ""
-#~ "Anda perlu mengkonfigurasi jaringan untuk memakai suatu sumber instalasi "
-#~ "jaringan."
 
 #~ msgid "You need to set up networking first if you want to use NTP"
 #~ msgstr ""
