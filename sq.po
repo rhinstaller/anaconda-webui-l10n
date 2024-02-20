@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-19 02:48+0000\n"
+"POT-Creation-Date: 2024-02-20 02:48+0000\n"
 "PO-Revision-Date: 2023-11-06 12:21+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Albanian <https://translate.fedoraproject.org/projects/"
@@ -25,7 +25,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.1.1\n"
 
-#: src/components/app.jsx:139
+#: src/components/app.jsx:148
 #, fuzzy
 msgid "$0 installation"
 msgstr "Instalimi"
@@ -35,13 +35,13 @@ msgstr "Instalimi"
 msgid "$0 installer"
 msgstr "_Dil nga instaluesi"
 
-#: src/components/storage/MountPointMapping.jsx:201
+#: src/components/storage/MountPointMapping.jsx:203
 #, fuzzy
 #| msgid "%s cannot be on an encrypted block device."
 msgid "'$0' filesystem cannot be on an ecnrypted block device"
 msgstr "%s nuk mund të jetë në një pajisje të enkriptuar."
 
-#: src/components/storage/MountPointMapping.jsx:195
+#: src/components/storage/MountPointMapping.jsx:197
 msgid "'$0' must be on a device formatted to '$1'"
 msgstr ""
 
@@ -49,18 +49,18 @@ msgstr ""
 msgid "About"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:144
+#: src/components/review/ReviewConfiguration.jsx:103
 #, fuzzy
 msgid "Account"
 msgstr "Shto Faqosje"
 
-#: src/components/AnacondaWizard.jsx:390
+#: src/components/AnacondaWizard.jsx:395
 #, fuzzy
 #| msgid "Connection failed"
 msgid "Account setting failed."
 msgstr "Lidhja dështoi"
 
-#: src/components/storage/MountPointMapping.jsx:573
+#: src/components/storage/MountPointMapping.jsx:580
 #, fuzzy
 msgid "Add mount"
 msgstr "Shto Faqosje"
@@ -95,7 +95,7 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Instaluesi Anaconda"
 
-#: src/components/storage/InstallationScenario.jsx:188
+#: src/components/storage/InstallationScenario.jsx:208
 #, fuzzy
 msgid "Apply mount point assignment and install"
 msgstr "Apliko konfigurimin në instalues"
@@ -104,8 +104,8 @@ msgstr "Apliko konfigurimin në instalues"
 msgid "Applying new disk selection..."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:217
-#: src/components/AnacondaWizard.jsx:431
+#: src/components/review/ReviewConfiguration.jsx:172
+#: src/components/AnacondaWizard.jsx:436
 msgid "Back"
 msgstr ""
 
@@ -122,14 +122,14 @@ msgstr ""
 msgid "Cancel"
 msgstr "_Anullo"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:115
+#: src/components/storage/CockpitStorageIntegration.jsx:122
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
 #: src/components/storage/DiskEncryption.jsx:53
-#: src/components/storage/CockpitStorageIntegration.jsx:359
-#: src/components/storage/CockpitStorageIntegration.jsx:371
+#: src/components/storage/CockpitStorageIntegration.jsx:390
+#: src/components/storage/CockpitStorageIntegration.jsx:402
 #, fuzzy
 msgid "Checking storage configuration"
 msgstr "Duke kontrolluar konfigurimin e ruajtjes..."
@@ -152,7 +152,7 @@ msgstr ""
 msgid "Close"
 msgstr "Mbylleni"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:274
+#: src/components/storage/CockpitStorageIntegration.jsx:305
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
@@ -167,12 +167,12 @@ msgstr "Gjuhët"
 msgid "Completed"
 msgstr "I plotë!"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:111
+#: src/components/storage/CockpitStorageIntegration.jsx:118
 #, fuzzy
 msgid "Configure storage"
 msgstr "_Modifiko Shpërndarjen e Depos"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:407
+#: src/components/storage/CockpitStorageIntegration.jsx:438
 #, fuzzy
 msgid "Configure storage again"
 msgstr "_Modifiko Shpërndarjen e Depos"
@@ -183,16 +183,16 @@ msgstr "_Modifiko Shpërndarjen e Depos"
 msgid "Confirm passphrase"
 msgstr "_Konfirmo fjalëkalimin"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:392
+#: src/components/storage/CockpitStorageIntegration.jsx:423
 msgid "Continue"
 msgstr "Vazhdo"
 
-#: src/components/AnacondaWizard.jsx:483
+#: src/components/AnacondaWizard.jsx:488
 #, fuzzy
 msgid "Continue installation"
 msgstr "_Fillo Instalimin"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:368
+#: src/components/storage/CockpitStorageIntegration.jsx:399
 #, fuzzy
 msgid "Continue with installation"
 msgstr "_Fillo Instalimin"
@@ -209,21 +209,12 @@ msgstr ""
 msgid "Critical error"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:428
-#, fuzzy
-#| msgid ""
-#| "You need to configure the network to use a network installation source."
-msgid "Current configuration can be used for installation."
-msgstr ""
-"Ju duhet të konfiguroni rrjetin për të përdorur një burim instalimi nga "
-"rrjeti."
-
 #: src/components/storage/InstallationDestination.jsx:222
 #, fuzzy
 msgid "Current selections"
 msgstr "_Rivendosni përzgjedhjet"
 
-#: src/components/storage/MountPointMapping.jsx:242
+#: src/components/storage/MountPointMapping.jsx:244
 msgid "Custom"
 msgstr ""
 
@@ -232,7 +223,11 @@ msgstr ""
 msgid "Destination"
 msgstr "Përshkrimi"
 
-#: src/components/storage/MountPointMapping.jsx:549
+#: src/components/storage/CockpitStorageIntegration.jsx:462
+msgid "Detected valid storage layout:"
+msgstr ""
+
+#: src/components/storage/MountPointMapping.jsx:556
 msgid "Device"
 msgstr "Pajisje"
 
@@ -240,28 +235,28 @@ msgstr "Pajisje"
 msgid "Devices should be unlocked before assigning mount points."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:168
+#: src/components/review/ReviewConfiguration.jsx:127
 #, fuzzy
 msgid "Disabled"
 msgstr "Aktivizuar"
 
-#: src/components/AnacondaWizard.jsx:131
+#: src/components/AnacondaWizard.jsx:135
 #, fuzzy
 msgid "Disk configuration"
 msgstr "Konfigurimi i pajisjes"
 
-#: src/components/review/ReviewConfiguration.jsx:165
+#: src/components/review/ReviewConfiguration.jsx:124
 #: src/components/storage/DiskEncryption.jsx:138
 #, fuzzy
 msgid "Disk encryption"
 msgstr "Enkriptim"
 
-#: src/components/storage/MountPointMapping.jsx:325
+#: src/components/storage/MountPointMapping.jsx:327
 #, fuzzy
 msgid "Duplicate device."
 msgstr "Pajisjet me _Multishtigje"
 
-#: src/components/storage/MountPointMapping.jsx:248
+#: src/components/storage/MountPointMapping.jsx:250
 #, fuzzy
 msgid "Duplicate mount point."
 msgstr "Shto një pikë të re montimi."
@@ -270,7 +265,7 @@ msgstr "Shto një pikë të re montimi."
 msgid "Enable root account"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:168
+#: src/components/review/ReviewConfiguration.jsx:127
 msgid "Enabled"
 msgstr "Aktivizuar"
 
@@ -291,18 +286,18 @@ msgstr ""
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:154
-#: src/components/storage/InstallationScenario.jsx:160
+#: src/components/storage/InstallationScenario.jsx:174
+#: src/components/storage/InstallationScenario.jsx:180
 #, fuzzy
 msgid "Erase data and install"
 msgstr "_Fillo Instalimin"
 
-#: src/components/storage/InstallationScenario.jsx:164
+#: src/components/storage/InstallationScenario.jsx:184
 #, fuzzy
 msgid "Erase data and install?"
 msgstr "_Fillo Instalimin"
 
-#: src/components/storage/InstallationScenario.jsx:162
+#: src/components/storage/InstallationScenario.jsx:182
 msgid "Erasing the data cannot be undone. Be sure to have backups."
 msgstr ""
 
@@ -310,11 +305,11 @@ msgstr ""
 msgid "Error details"
 msgstr ""
 
-#: src/components/AnacondaWizard.jsx:259
+#: src/components/AnacondaWizard.jsx:263
 msgid "Error was hit when going back from $0."
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:495
+#: src/components/storage/CockpitStorageIntegration.jsx:533
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr ""
 
@@ -333,6 +328,10 @@ msgstr ""
 #, fuzzy
 msgid "Find a language"
 msgstr "Zgjidhini të gjitha"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:466
+msgid "Free space requirements met"
+msgstr ""
 
 #: src/components/users/Accounts.jsx:214
 #, fuzzy
@@ -360,7 +359,7 @@ msgstr "_Konfirmo fjalëkalimin"
 msgid "Hide password"
 msgstr "fjalëkalim bosh"
 
-#: src/components/storage/InstallationScenario.jsx:371
+#: src/components/storage/InstallationScenario.jsx:400
 #, fuzzy
 msgid "How would you like to install?"
 msgstr ""
@@ -368,7 +367,7 @@ msgstr ""
 "\n"
 "Dëshironi  ta përdorni gjithsesi?"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:471
+#: src/components/storage/CockpitStorageIntegration.jsx:509
 msgid "If you are configuring partitions the following are required:"
 msgstr ""
 
@@ -382,26 +381,26 @@ msgstr ""
 msgid "In progress"
 msgstr "Përparim"
 
-#: src/components/app.jsx:131
+#: src/components/app.jsx:140
 msgid "Initializing..."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:174
-#: src/components/storage/InstallationScenario.jsx:202
+#: src/components/storage/InstallationScenario.jsx:194
+#: src/components/storage/InstallationScenario.jsx:222
 msgid "Install"
 msgstr "Instaloje"
 
-#: src/components/storage/InstallationScenario.jsx:192
+#: src/components/storage/InstallationScenario.jsx:212
 #, fuzzy
 msgid "Install on the custom mount points?"
 msgstr "Hiq pikën(at) e zgjedhura të montimit."
 
-#: src/components/storage/InstallationScenario.jsx:178
+#: src/components/storage/InstallationScenario.jsx:198
 #, fuzzy
 msgid "Install on the free space?"
 msgstr "Duke instaluar programin"
 
-#: src/components/storage/InstallationScenario.jsx:206
+#: src/components/storage/InstallationScenario.jsx:226
 #, fuzzy
 msgid "Install using the configured storage?"
 msgstr "Duke instaluar programin"
@@ -411,7 +410,7 @@ msgstr "Duke instaluar programin"
 msgid "Installation failed"
 msgstr "Instalimi"
 
-#: src/components/storage/InstallationMethod.jsx:96
+#: src/components/storage/InstallationMethod.jsx:98
 #, fuzzy
 msgid "Installation method"
 msgstr "Instalimi"
@@ -421,7 +420,7 @@ msgstr "Instalimi"
 msgid "Installation of the system failed: $0"
 msgstr "Instalimi"
 
-#: src/components/review/ReviewConfiguration.jsx:154
+#: src/components/review/ReviewConfiguration.jsx:113
 #, fuzzy
 msgid "Installation type"
 msgstr "Instalimi"
@@ -440,7 +439,7 @@ msgstr "Duke instaluar %s"
 msgid "Keep current disk layout and only install into available space."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:134
+#: src/components/review/ReviewConfiguration.jsx:93
 #, fuzzy
 msgid "Language"
 msgstr "Gjuhët"
@@ -454,12 +453,12 @@ msgstr "Konfiguroni pajisjen %s"
 msgid "Log"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:673
+#: src/components/storage/MountPointMapping.jsx:680
 #, fuzzy
 msgid "Manual disk configuration"
 msgstr "Konfigurimi i pajisjes"
 
-#: src/components/storage/MountPointMapping.jsx:675
+#: src/components/storage/MountPointMapping.jsx:682
 #, fuzzy
 msgid "Manual disk configuration: Mount point mapping"
 msgstr "Konfigurimi i pajisjes"
@@ -481,12 +480,12 @@ msgstr ""
 msgid "Modify storage"
 msgstr "_Modifiko Shpërndarjen e Depos"
 
-#: src/components/storage/MountPointMapping.jsx:548
+#: src/components/storage/MountPointMapping.jsx:555
 msgid "Mount point"
 msgstr "Pika e montimit"
 
-#: src/components/storage/MountPointMapping.jsx:546
-#: src/components/storage/InstallationScenario.jsx:182
+#: src/components/storage/MountPointMapping.jsx:553
+#: src/components/storage/InstallationScenario.jsx:202
 #, fuzzy
 msgid "Mount point assignment"
 msgstr "Pika e montimit"
@@ -506,7 +505,7 @@ msgstr ""
 msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 
-#: src/components/AnacondaWizard.jsx:405
+#: src/components/AnacondaWizard.jsx:410
 msgid "Next"
 msgstr ""
 
@@ -515,7 +514,7 @@ msgstr ""
 msgid "No additional disks detected"
 msgstr "Nuk ka disqe të zgjedhur"
 
-#: src/components/storage/MountPointMapping.jsx:553
+#: src/components/storage/MountPointMapping.jsx:560
 #, fuzzy
 msgid "No devices"
 msgstr "Shtoni pajisje"
@@ -525,7 +524,7 @@ msgstr "Shtoni pajisje"
 msgid "No results found"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:91
+#: src/components/storage/InstallationScenario.jsx:93
 #, fuzzy
 msgid "No usable devices on the selected disks."
 msgstr "Hapësirë jo e mjaftueshme në diskun e përzgjedhur."
@@ -535,12 +534,12 @@ msgstr "Hapësirë jo e mjaftueshme në diskun e përzgjedhur."
 msgid "No usable disks detected"
 msgstr "Nuk ka disqe të zgjedhur"
 
-#: src/components/storage/InstallationScenario.jsx:73
+#: src/components/storage/InstallationScenario.jsx:75
 #, fuzzy
 msgid "Not enough free space on the selected disks."
 msgstr "Hapësirë jo e mjaftueshme në diskun e përzgjedhur."
 
-#: src/components/storage/InstallationScenario.jsx:52
+#: src/components/storage/InstallationScenario.jsx:54
 #, fuzzy
 msgid "Not enough space on selected disks."
 msgstr "Hapësirë jo e mjaftueshme në diskun e përzgjedhur."
@@ -558,12 +557,12 @@ msgid ""
 "untouched."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:124
+#: src/components/review/ReviewConfiguration.jsx:83
 #, fuzzy
 msgid "Operating system"
 msgstr "Duke krijuar përdorues"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:503
+#: src/components/storage/CockpitStorageIntegration.jsx:541
 msgid "Partitions (advanced)"
 msgstr ""
 
@@ -604,19 +603,19 @@ msgstr ""
 msgid "Preparing report"
 msgstr "Duke përgatitur shpërndarjen e %s"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:413
+#: src/components/storage/CockpitStorageIntegration.jsx:444
 #, fuzzy
 #| msgid "Failed to set up installation source"
 msgid "Proceed with installation"
 msgstr "Dështoi vendosja e burimit të instaluesit"
 
 #: src/components/installation/InstallationProgress.jsx:222
-#: src/components/AnacondaWizard.jsx:453 src/components/AnacondaWizard.jsx:476
+#: src/components/AnacondaWizard.jsx:458 src/components/AnacondaWizard.jsx:481
 #: src/components/Error.jsx:224
 msgid "Quit"
 msgstr "Dil"
 
-#: src/components/AnacondaWizard.jsx:488
+#: src/components/AnacondaWizard.jsx:493
 #, fuzzy
 msgid "Quit installer?"
 msgstr "_Dil nga instaluesi"
@@ -625,11 +624,11 @@ msgstr "_Dil nga instaluesi"
 msgid "Re-scan"
 msgstr ""
 
-#: src/components/app.jsx:114
+#: src/components/app.jsx:123
 msgid "Reading information about the computer failed."
 msgstr ""
 
-#: src/components/app.jsx:119
+#: src/components/app.jsx:128
 #, fuzzy
 msgid "Reading installer configuration failed."
 msgstr "konfigurimi i memorjes dështoi: %s"
@@ -640,30 +639,30 @@ msgid "Reading installer version information failed."
 msgstr "Lidhja dështoi"
 
 #: src/components/installation/InstallationProgress.jsx:222
-#: src/components/AnacondaWizard.jsx:453 src/components/AnacondaWizard.jsx:476
+#: src/components/AnacondaWizard.jsx:458 src/components/AnacondaWizard.jsx:481
 #: src/components/Error.jsx:224
 msgid "Reboot"
 msgstr ""
 
-#: src/components/AnacondaWizard.jsx:488
+#: src/components/AnacondaWizard.jsx:493
 #, fuzzy
 msgid "Reboot system?"
 msgstr "/boot sistemi i skedarëve"
 
-#: src/components/storage/MountPointMapping.jsx:241
+#: src/components/storage/MountPointMapping.jsx:243
 msgid "Recommended"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:480
+#: src/components/storage/CockpitStorageIntegration.jsx:518
 msgid "Recommended partitions:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:345
-#: src/components/storage/MountPointMapping.jsx:550
+#: src/components/storage/MountPointMapping.jsx:347
+#: src/components/storage/MountPointMapping.jsx:557
 msgid "Reformat"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:372
+#: src/components/storage/MountPointMapping.jsx:374
 #, fuzzy
 msgid "Remove"
 msgstr "Hiq"
@@ -688,12 +687,12 @@ msgid ""
 "edit the attached log to remove any sensitive information."
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:240
+#: src/components/storage/MountPointMapping.jsx:242
 #, fuzzy
 msgid "Required"
 msgstr "Madhësi e pandryshueshme"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:492
+#: src/components/storage/CockpitStorageIntegration.jsx:530
 #, fuzzy
 msgid "Requirements"
 msgstr "Madhësi e pandryshueshme"
@@ -707,18 +706,18 @@ msgstr "Shpëtim"
 msgid "Rescanning of the disks failed."
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:83
+#: src/components/storage/CockpitStorageIntegration.jsx:84
 #, fuzzy
 msgid "Return to installation"
 msgstr "Instalimi"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:398
+#: src/components/storage/CockpitStorageIntegration.jsx:429
 #, fuzzy
 msgid "Return to storage editor"
 msgstr "Instalimi"
 
-#: src/components/review/ReviewConfiguration.jsx:248
-#: src/components/review/ReviewConfiguration.jsx:249
+#: src/components/review/ReviewConfiguration.jsx:203
+#: src/components/review/ReviewConfiguration.jsx:204
 #, fuzzy
 msgid "Review and install"
 msgstr "_Fillo Instalimin"
@@ -727,7 +726,7 @@ msgstr "_Fillo Instalimin"
 msgid "Scan the QR code with your phone or visit:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:286
+#: src/components/storage/MountPointMapping.jsx:288
 #, fuzzy
 msgid "Select a device"
 msgstr "Pajisja e Zgjedhur"
@@ -776,11 +775,11 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:94
+#: src/components/storage/InstallationScenario.jsx:96
 msgid "Some devices use the same name: $0."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:175
+#: src/components/review/ReviewConfiguration.jsx:134
 #, fuzzy
 msgid "Storage"
 msgstr "Mundësitë e depozitimit"
@@ -800,7 +799,13 @@ msgstr ""
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "Ringarko konfigurimin e depos nga disku."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:366
+#: src/components/storage/CockpitStorageIntegration.jsx:105
+#, fuzzy
+#| msgid "Node login failed."
+msgid "Storage plugin failed"
+msgstr "Kyçja në nyje dështoi."
+
+#: src/components/storage/CockpitStorageIntegration.jsx:397
 msgid "Storage requirements not met"
 msgstr ""
 
@@ -859,18 +864,18 @@ msgid ""
 "provide additional details."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:54
+#: src/components/storage/InstallationScenario.jsx:56
 msgid "The installation needs $1 of disk space; "
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:179
+#: src/components/storage/InstallationScenario.jsx:199
 msgid ""
 "The installation will use the available space on your devices and will not "
 "erase any device data."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:193
-#: src/components/storage/InstallationScenario.jsx:207
+#: src/components/storage/InstallationScenario.jsx:213
+#: src/components/storage/InstallationScenario.jsx:227
 msgid "The installation will use your configured partitioning layout."
 msgstr ""
 
@@ -890,7 +895,7 @@ msgid ""
 "be able to switch between keyboard layouts when typing it."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:165
+#: src/components/storage/InstallationScenario.jsx:185
 msgid ""
 "The selected disks will be erased, this cannot be undone. Are you sure you "
 "want to continue with the installation?"
@@ -915,7 +920,7 @@ msgstr "Kjo është e paqëndrueshme, program i palançuar ende."
 msgid "This may take a moment"
 msgstr "Duke skanuar disqet. Kjo mund t'ju marrë pak kohë..."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:360
+#: src/components/storage/CockpitStorageIntegration.jsx:391
 #, fuzzy
 msgid "This will take a few moments"
 msgstr "Duke skanuar disqet. Kjo mund t'ju marrë pak kohë..."
@@ -924,24 +929,24 @@ msgstr "Duke skanuar disqet. Kjo mund t'ju marrë pak kohë..."
 msgid "To begin using $0, reboot your system."
 msgstr ""
 
-#: src/components/storage/InstallationMethod.jsx:88
+#: src/components/storage/InstallationMethod.jsx:90
 #, fuzzy
 msgid "To continue, select the devices to install to."
 msgstr ""
 "Asnjë disk i selektuar; ju lutem selektoni të paktën një disk për ta "
 "instaluar."
 
-#: src/components/storage/InstallationScenario.jsx:176
-#: src/components/storage/InstallationScenario.jsx:190
-#: src/components/storage/InstallationScenario.jsx:204
+#: src/components/storage/InstallationScenario.jsx:196
+#: src/components/storage/InstallationScenario.jsx:210
+#: src/components/storage/InstallationScenario.jsx:224
 msgid "To prevent loss, make sure to backup your data."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:95
+#: src/components/storage/InstallationScenario.jsx:97
 msgid "To use this option, rename devices to have unique names."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:75
+#: src/components/storage/InstallationScenario.jsx:77
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -962,12 +967,12 @@ msgstr "Konfiguroni pajisjen %s"
 msgid "Unlock encrypted devices"
 msgstr "Pajisja e Zgjedhur"
 
-#: src/components/storage/InstallationScenario.jsx:196
+#: src/components/storage/InstallationScenario.jsx:216
 #, fuzzy
 msgid "Use configured storage"
 msgstr "_Modifiko Shpërndarjen e Depos"
 
-#: src/components/storage/InstallationScenario.jsx:168
+#: src/components/storage/InstallationScenario.jsx:188
 #, fuzzy
 msgid "Use free space for the installation"
 msgstr "Dështoi vendosja e burimit të instaluesit"
@@ -1008,17 +1013,17 @@ msgstr ""
 msgid "Welcome to $0"
 msgstr "Mirëserdhët në $0"
 
-#: src/components/storage/InstallationMethod.jsx:97
+#: src/components/storage/InstallationMethod.jsx:99
 msgid "Welcome. Let's install $0 now."
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:498
+#: src/components/storage/CockpitStorageIntegration.jsx:536
 msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
 msgstr ""
 
-#: src/components/AnacondaWizard.jsx:492
+#: src/components/AnacondaWizard.jsx:497
 msgid "Your progress will not be saved."
 msgstr ""
 
@@ -1031,11 +1036,11 @@ msgstr "I plotë!"
 msgid "current step"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:70
+#: src/components/review/StorageReview.jsx:54
 msgid "format as $0"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:71
+#: src/components/review/StorageReview.jsx:55
 #, fuzzy
 msgid "mount"
 msgstr "Shto Faqosje"
@@ -1043,6 +1048,14 @@ msgstr "Shto Faqosje"
 #: src/components/installation/InstallationProgress.jsx:172
 msgid "pending step"
 msgstr ""
+
+#, fuzzy
+#~| msgid ""
+#~| "You need to configure the network to use a network installation source."
+#~ msgid "Current configuration can be used for installation."
+#~ msgstr ""
+#~ "Ju duhet të konfiguroni rrjetin për të përdorur një burim instalimi nga "
+#~ "rrjeti."
 
 #, fuzzy
 #~ msgid "Modifying the storage failed."
@@ -2846,9 +2859,6 @@ msgstr ""
 
 #~ msgid "Node Name"
 #~ msgstr "Emri i Nyjes"
-
-#~ msgid "Node login failed."
-#~ msgstr "Kyçja në nyje dështoi."
 
 #~ msgid "None"
 #~ msgstr "Asnjë"
