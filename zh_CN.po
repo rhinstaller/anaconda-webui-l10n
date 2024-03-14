@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-13 02:48+0000\n"
+"POT-Creation-Date: 2024-03-14 02:48+0000\n"
 "PO-Revision-Date: 2023-11-06 12:23+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -58,7 +58,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.1.1\n"
 
-#: src/components/app.jsx:157
+#: src/components/app.jsx:164
 msgid "$0 installation"
 msgstr "$0 安装"
 
@@ -66,13 +66,13 @@ msgstr "$0 安装"
 msgid "$0 installer"
 msgstr "$0 安装程序"
 
-#: src/components/storage/MountPointMapping.jsx:200
+#: src/components/storage/MountPointMapping.jsx:204
 #, fuzzy
 #| msgid "%s cannot be on an encrypted block device."
 msgid "'$0' filesystem cannot be on an ecnrypted block device"
 msgstr "%s 不能位于加密的块设备上。"
 
-#: src/components/storage/MountPointMapping.jsx:194
+#: src/components/storage/MountPointMapping.jsx:198
 msgid "'$0' must be on a device formatted to '$1'"
 msgstr "'$0' 必须位于格式化为 '$1' 的设备上"
 
@@ -80,20 +80,14 @@ msgstr "'$0' 必须位于格式化为 '$1' 的设备上"
 msgid "About"
 msgstr "关于"
 
-#: src/components/review/ReviewConfiguration.jsx:101
+#: src/components/review/ReviewConfiguration.jsx:119
 #, fuzzy
 #| msgctxt "GUI|Subscription|Authentication|Account"
 #| msgid "_Account"
 msgid "Account"
 msgstr "帐户(_A)"
 
-#: src/components/AnacondaWizard.jsx:394
-#, fuzzy
-#| msgid "Connection failed"
-msgid "Account setting failed."
-msgstr "连接失败"
-
-#: src/components/storage/MountPointMapping.jsx:577
+#: src/components/storage/MountPointMapping.jsx:581
 msgid "Add mount"
 msgstr "添加挂载"
 
@@ -133,8 +127,8 @@ msgstr "应用挂载点分配并安装"
 msgid "Applying new disk selection..."
 msgstr "正在应用新的磁盘选择..."
 
-#: src/components/review/ReviewConfiguration.jsx:170
-#: src/components/AnacondaWizard.jsx:435
+#: src/components/review/ReviewConfiguration.jsx:188
+#: src/components/AnacondaWizardFooter.jsx:90
 msgid "Back"
 msgstr "返回"
 
@@ -204,8 +198,8 @@ msgstr "设置存储设备"
 msgid "Configure storage again"
 msgstr "设置存储设备"
 
-#: src/components/storage/DiskEncryption.jsx:95
-#: src/components/users/Accounts.jsx:195 src/components/users/Accounts.jsx:294
+#: src/components/storage/DiskEncryption.jsx:98
+#: src/components/users/Accounts.jsx:198 src/components/users/Accounts.jsx:297
 msgid "Confirm passphrase"
 msgstr "确认密码"
 
@@ -213,7 +207,7 @@ msgstr "确认密码"
 msgid "Continue"
 msgstr "继续"
 
-#: src/components/AnacondaWizard.jsx:487
+#: src/components/AnacondaWizardFooter.jsx:138
 msgid "Continue installation"
 msgstr "继续安装"
 
@@ -223,14 +217,14 @@ msgstr "继续安装"
 msgid "Continue with installation"
 msgstr "继续安装"
 
-#: src/components/users/Accounts.jsx:353
+#: src/components/users/Accounts.jsx:374
 #, fuzzy
 #| msgctxt "GUI|Spoke"
 #| msgid "_Root Account"
 msgid "Create Account"
 msgstr "_Root 帐户"
 
-#: src/components/users/Accounts.jsx:211
+#: src/components/users/Accounts.jsx:214
 #, fuzzy
 #| msgid "Lock root account"
 msgid "Create account"
@@ -244,7 +238,7 @@ msgstr "关键错误"
 msgid "Current selections"
 msgstr "当前选择"
 
-#: src/components/storage/MountPointMapping.jsx:241
+#: src/components/storage/MountPointMapping.jsx:245
 msgid "Custom"
 msgstr "自定义"
 
@@ -256,7 +250,7 @@ msgstr "目标位置"
 msgid "Detected valid storage layout:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:553
+#: src/components/storage/MountPointMapping.jsx:557
 msgid "Device"
 msgstr "设备"
 
@@ -264,43 +258,43 @@ msgstr "设备"
 msgid "Devices should be unlocked before assigning mount points."
 msgstr "在分配挂载点之前应解锁设备。"
 
-#: src/components/review/ReviewConfiguration.jsx:125
+#: src/components/review/ReviewConfiguration.jsx:143
 msgid "Disabled"
 msgstr "禁用"
 
-#: src/components/AnacondaWizard.jsx:134
+#: src/components/AnacondaWizard.jsx:103
 msgid "Disk configuration"
 msgstr "磁盘配置"
 
-#: src/components/storage/DiskEncryption.jsx:138
-#: src/components/review/ReviewConfiguration.jsx:122
+#: src/components/storage/DiskEncryption.jsx:159
+#: src/components/review/ReviewConfiguration.jsx:140
 msgid "Disk encryption"
 msgstr "磁盘加密"
 
-#: src/components/storage/MountPointMapping.jsx:324
+#: src/components/storage/MountPointMapping.jsx:328
 msgid "Duplicate device."
 msgstr "重复的设备。"
 
-#: src/components/storage/MountPointMapping.jsx:247
+#: src/components/storage/MountPointMapping.jsx:251
 msgid "Duplicate mount point."
 msgstr "重复的挂载点。"
 
-#: src/components/users/Accounts.jsx:278
+#: src/components/users/Accounts.jsx:281
 #, fuzzy
 #| msgctxt "GUI|Password"
 #| msgid "_Enable root account"
 msgid "Enable root account"
 msgstr "启用 root 帐户(_E)"
 
-#: src/components/review/ReviewConfiguration.jsx:125
+#: src/components/review/ReviewConfiguration.jsx:143
 msgid "Enabled"
 msgstr "已启用"
 
-#: src/components/storage/DiskEncryption.jsx:79
+#: src/components/storage/DiskEncryption.jsx:82
 msgid "Encrypt my data"
 msgstr "加密我的数据"
 
-#: src/components/storage/DiskEncryption.jsx:139
+#: src/components/storage/DiskEncryption.jsx:160
 msgid "Encrypt the selected devices?"
 msgstr "加密所选设备？"
 
@@ -308,7 +302,7 @@ msgstr "加密所选设备？"
 msgid "Encrypted devices are locked"
 msgstr "加密设备已锁定"
 
-#: src/components/storage/DiskEncryption.jsx:121
+#: src/components/storage/DiskEncryption.jsx:116
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr "加密有助于保护您的数据，防止其他人访问它。"
 
@@ -329,7 +323,7 @@ msgstr "擦除数据是不能撤销的。请务必有备份。"
 msgid "Error details"
 msgstr "错误详情"
 
-#: src/components/AnacondaWizard.jsx:262
+#: src/components/AnacondaWizard.jsx:217
 msgid "Error was hit when going back from $0."
 msgstr "从 $0 返回时出错。"
 
@@ -355,11 +349,11 @@ msgstr "查找语言"
 msgid "Free space requirements met"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:215
+#: src/components/users/Accounts.jsx:218
 msgid "Full name"
 msgstr "全名"
 
-#: src/components/users/Accounts.jsx:181
+#: src/components/users/Accounts.jsx:184
 msgid "Full name cannot contain colon characters"
 msgstr "全名不能含有冒号"
 
@@ -392,7 +386,7 @@ msgstr "如果您不了解或不接受此风险，请点击 \"退出\" 按钮退
 msgid "In progress"
 msgstr "进行中"
 
-#: src/components/app.jsx:149
+#: src/components/app.jsx:156
 #, fuzzy
 #| msgid "Installing."
 msgid "Initializing..."
@@ -421,7 +415,7 @@ msgstr "安装在可用空间上？"
 msgid "Installation failed"
 msgstr "安装失败"
 
-#: src/components/storage/InstallationMethod.jsx:98
+#: src/components/storage/InstallationMethod.jsx:100
 msgid "Installation method"
 msgstr "安装方案"
 
@@ -429,7 +423,7 @@ msgstr "安装方案"
 msgid "Installation of the system failed: $0"
 msgstr "系统安装失败：$0"
 
-#: src/components/review/ReviewConfiguration.jsx:111
+#: src/components/review/ReviewConfiguration.jsx:129
 msgid "Installation type"
 msgstr "安装类型"
 
@@ -445,7 +439,7 @@ msgstr "安装到 $0 ($1)"
 msgid "Keep current disk layout and only install into available space."
 msgstr "保持当前磁盘布局并仅安装到剩余空间中。"
 
-#: src/components/review/ReviewConfiguration.jsx:91
+#: src/components/review/ReviewConfiguration.jsx:109
 msgid "Language"
 msgstr "语言"
 
@@ -457,11 +451,11 @@ msgstr "锁定的设备"
 msgid "Log"
 msgstr "日志"
 
-#: src/components/storage/MountPointMapping.jsx:678
+#: src/components/storage/MountPointMapping.jsx:718
 msgid "Manual disk configuration"
 msgstr "手动配置磁盘"
 
-#: src/components/storage/MountPointMapping.jsx:679
+#: src/components/storage/MountPointMapping.jsx:719
 msgid "Manual disk configuration: Mount point mapping"
 msgstr "手动磁盘配置：挂载点映射"
 
@@ -473,7 +467,7 @@ msgstr "手动选择安装的存储位置。"
 msgid "Medium"
 msgstr "媒介"
 
-#: src/components/storage/MountPointMapping.jsx:136
+#: src/components/storage/MountPointMapping.jsx:140
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr "父设备和子设备重新格式化选择不匹配。"
 
@@ -481,11 +475,11 @@ msgstr "父设备和子设备重新格式化选择不匹配。"
 msgid "Modify storage"
 msgstr "修改存储"
 
-#: src/components/storage/MountPointMapping.jsx:552
+#: src/components/storage/MountPointMapping.jsx:556
 msgid "Mount point"
 msgstr "挂载点"
 
-#: src/components/storage/MountPointMapping.jsx:550
+#: src/components/storage/MountPointMapping.jsx:554
 #: src/components/storage/InstallationScenario.jsx:231
 msgid "Mount point assignment"
 msgstr "挂载点配置"
@@ -505,7 +499,7 @@ msgstr "网络不可用。在顶部栏菜单中配置网络以报告问题。"
 msgid "Network not available. Configure the network to report the issue."
 msgstr "网络不可用。在顶部栏菜单中配置网络以报告问题。"
 
-#: src/components/AnacondaWizard.jsx:409
+#: src/components/AnacondaWizardFooter.jsx:97
 msgid "Next"
 msgstr "下一个"
 
@@ -513,7 +507,7 @@ msgstr "下一个"
 msgid "No additional disks detected"
 msgstr "没有检测到额外的磁盘"
 
-#: src/components/storage/MountPointMapping.jsx:557
+#: src/components/storage/MountPointMapping.jsx:561
 msgid "No devices"
 msgstr "无设备"
 
@@ -547,13 +541,13 @@ msgstr ""
 "注意：该预发行软件仅用于开发和测试。绝不要在任何关键工作及生产环境中使用此软"
 "件。"
 
-#: src/components/storage/DiskEncryption.jsx:124
+#: src/components/storage/DiskEncryption.jsx:119
 msgid ""
 "Only new partitions will be encrypted. Existing partitions will remain "
 "untouched."
 msgstr "仅新分区才会被加密。 现有分区将保持原样。"
 
-#: src/components/review/ReviewConfiguration.jsx:81
+#: src/components/review/ReviewConfiguration.jsx:99
 msgid "Operating system"
 msgstr "操作系统"
 
@@ -561,10 +555,10 @@ msgstr "操作系统"
 msgid "Partitions (advanced)"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:92
+#: src/components/storage/DiskEncryption.jsx:95
 #: src/components/storage/EncryptedDevices.jsx:175
 #: src/components/storage/EncryptedDevices.jsx:182
-#: src/components/users/Accounts.jsx:192 src/components/users/Accounts.jsx:291
+#: src/components/users/Accounts.jsx:195 src/components/users/Accounts.jsx:294
 msgid "Passphrase"
 msgstr "密码"
 
@@ -603,12 +597,12 @@ msgid "Proceed with installation"
 msgstr "继续安装失败。"
 
 #: src/components/installation/InstallationProgress.jsx:225
-#: src/components/Error.jsx:223 src/components/AnacondaWizard.jsx:457
-#: src/components/AnacondaWizard.jsx:480
+#: src/components/Error.jsx:223 src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131
 msgid "Quit"
 msgstr "退出"
 
-#: src/components/AnacondaWizard.jsx:492
+#: src/components/AnacondaWizardFooter.jsx:143
 msgid "Quit installer?"
 msgstr "退出安装程序？"
 
@@ -616,17 +610,17 @@ msgstr "退出安装程序？"
 msgid "Re-scan"
 msgstr "重新扫描"
 
-#: src/components/app.jsx:234
+#: src/components/app.jsx:242
 #, fuzzy
 #| msgid "Reading information about the computer failed."
 msgid "Reading information about the OS failed."
 msgstr "读取计算机信息失败。"
 
-#: src/components/app.jsx:139
+#: src/components/app.jsx:146
 msgid "Reading information about the computer failed."
 msgstr "读取计算机信息失败。"
 
-#: src/components/app.jsx:224
+#: src/components/app.jsx:232
 msgid "Reading installer configuration failed."
 msgstr "读取安装程序配置失败。"
 
@@ -635,16 +629,16 @@ msgid "Reading installer version information failed."
 msgstr "读取安装程序版本信息失败。"
 
 #: src/components/installation/InstallationProgress.jsx:225
-#: src/components/Error.jsx:223 src/components/AnacondaWizard.jsx:457
-#: src/components/AnacondaWizard.jsx:480
+#: src/components/Error.jsx:223 src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131
 msgid "Reboot"
 msgstr "重启"
 
-#: src/components/AnacondaWizard.jsx:492
+#: src/components/AnacondaWizardFooter.jsx:143
 msgid "Reboot system?"
 msgstr "重启系统？"
 
-#: src/components/storage/MountPointMapping.jsx:240
+#: src/components/storage/MountPointMapping.jsx:244
 msgid "Recommended"
 msgstr ""
 
@@ -652,12 +646,12 @@ msgstr ""
 msgid "Recommended partitions:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:344
-#: src/components/storage/MountPointMapping.jsx:554
+#: src/components/storage/MountPointMapping.jsx:348
+#: src/components/storage/MountPointMapping.jsx:558
 msgid "Reformat"
 msgstr "重新格式化"
 
-#: src/components/storage/MountPointMapping.jsx:371
+#: src/components/storage/MountPointMapping.jsx:375
 msgid "Remove"
 msgstr "删除"
 
@@ -682,7 +676,7 @@ msgid ""
 msgstr ""
 "报告问题将通过网络发送信息。 请查看并编辑随附的日志以删除任何敏感信息。"
 
-#: src/components/storage/MountPointMapping.jsx:239
+#: src/components/storage/MountPointMapping.jsx:243
 msgid "Required"
 msgstr "必需的"
 
@@ -712,8 +706,8 @@ msgstr "$0 安装"
 msgid "Return to storage editor"
 msgstr "启动 Blivet-gui 存储编辑器"
 
-#: src/components/review/ReviewConfiguration.jsx:202
-#: src/components/review/ReviewConfiguration.jsx:205
+#: src/components/review/ReviewConfiguration.jsx:245
+#: src/components/review/ReviewConfiguration.jsx:248
 msgid "Review and install"
 msgstr "检查并安装"
 
@@ -721,7 +715,7 @@ msgstr "检查并安装"
 msgid "Scan the QR code with your phone or visit:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:285
+#: src/components/storage/MountPointMapping.jsx:289
 msgid "Select a device"
 msgstr "所选一个设备"
 
@@ -729,7 +723,7 @@ msgstr "所选一个设备"
 msgid "Select a disk"
 msgstr "选择磁盘"
 
-#: src/components/storage/MountPointMapping.jsx:119
+#: src/components/storage/MountPointMapping.jsx:123
 msgid "Selected device's format '$0' cannot be reformatted."
 msgstr "无法重新格式化所选设备的格式 '$0'。"
 
@@ -773,7 +767,7 @@ msgstr "有些设备使用相同的名称：$0。"
 msgid "Some required partitions are missing: $0"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:132
+#: src/components/review/ReviewConfiguration.jsx:150
 msgid "Storage"
 msgstr "存储"
 
@@ -813,7 +807,7 @@ msgstr "安装成功"
 msgid "Successfully unlocked $0."
 msgstr "成功解锁 $0。"
 
-#: src/components/users/Accounts.jsx:306
+#: src/components/users/Accounts.jsx:309
 #, fuzzy
 #| msgid "File System"
 msgid "System"
@@ -876,7 +870,7 @@ msgstr "安装程序由于严重错误而无法继续。"
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "安装程序由于严重错误而无法继续：$0"
 
-#: src/components/storage/DiskEncryption.jsx:43
+#: src/components/storage/DiskEncryption.jsx:47
 msgid ""
 "The passphrase you have provided contains non-ASCII characters. You may not "
 "be able to switch between keyboard layouts when typing it."
@@ -894,7 +888,7 @@ msgstr "所选磁盘的内容将被清除，且无法取消。您确定要继续
 msgid "The usable disks have changed"
 msgstr "未检测到可用磁盘"
 
-#: src/components/users/Accounts.jsx:213
+#: src/components/users/Accounts.jsx:216
 msgid "This account will have administration priviledge with sudo."
 msgstr ""
 
@@ -916,7 +910,7 @@ msgstr "这可能需要些时间"
 msgid "To begin using $0, reboot your system."
 msgstr "要使用 $0，请重新启动系统。"
 
-#: src/components/storage/InstallationMethod.jsx:89
+#: src/components/storage/InstallationMethod.jsx:87
 msgid "To continue, select the devices to install to."
 msgstr "要想继续，请选择要安装的设备。"
 
@@ -958,23 +952,23 @@ msgstr "设置存储设备"
 msgid "Use free space for the installation"
 msgstr "使用可用空间进行安装"
 
-#: src/components/users/Accounts.jsx:234
+#: src/components/users/Accounts.jsx:237
 msgid "User name"
 msgstr "用户名"
 
-#: src/components/users/Accounts.jsx:169
+#: src/components/users/Accounts.jsx:172
 msgid ""
 "User name may only contain: letters from a-z, digits 0-9, dash $0, period "
 "$1, underscore $2"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:166
+#: src/components/users/Accounts.jsx:169
 #, fuzzy
 #| msgid "User name is reserved for system: %s"
 msgid "User name must not be a reserved word"
 msgstr "用户名为系统预留：%s"
 
-#: src/components/users/Accounts.jsx:163
+#: src/components/users/Accounts.jsx:166
 #, fuzzy
 #| msgid "Name must be shorter than 33 characters."
 msgid "User names must be shorter than 33 characters"
@@ -984,15 +978,15 @@ msgstr "名称必须小于 33 个字符。"
 msgid "Weak"
 msgstr "弱"
 
-#: src/components/localization/InstallationLanguage.jsx:333
+#: src/components/localization/InstallationLanguage.jsx:337
 msgid "Welcome"
 msgstr "欢迎"
 
-#: src/components/localization/InstallationLanguage.jsx:334
+#: src/components/localization/InstallationLanguage.jsx:338
 msgid "Welcome to $0"
 msgstr "欢迎使用 $0"
 
-#: src/components/storage/InstallationMethod.jsx:99
+#: src/components/storage/InstallationMethod.jsx:101
 msgid "Welcome. Let's install $0 now."
 msgstr "欢迎。现在就来安装 $0 吧。"
 
@@ -1002,7 +996,7 @@ msgid ""
 "rest or manually set up partitions."
 msgstr ""
 
-#: src/components/AnacondaWizard.jsx:496
+#: src/components/AnacondaWizardFooter.jsx:147
 msgid "Your progress will not be saved."
 msgstr "您的进度将不会被保存。"
 
@@ -1025,6 +1019,11 @@ msgstr "挂载"
 #: src/components/installation/InstallationProgress.jsx:175
 msgid "pending step"
 msgstr "待执行操作"
+
+#, fuzzy
+#~| msgid "Connection failed"
+#~ msgid "Account setting failed."
+#~ msgstr "连接失败"
 
 #, fuzzy
 #~| msgid ""
