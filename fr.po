@@ -69,16 +69,16 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-19 02:48+0000\n"
-"PO-Revision-Date: 2023-11-06 12:17+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: French <https://translate.fedoraproject.org/projects/anaconda-"
-"webui/anaconda-webui/fr/>\n"
+"PO-Revision-Date: 2024-03-19 08:21+0000\n"
+"Last-Translator: William Modave <willymdv@gmail.com>\n"
+"Language-Team: French <https://translate.fedoraproject.org/projects/"
+"anaconda-webui/anaconda-webui/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.4\n"
 
 #: src/components/app.jsx:169
 msgid "$0 installation"
@@ -89,15 +89,14 @@ msgid "$0 installer"
 msgstr "Installeur $0"
 
 #: src/components/storage/MountPointMapping.jsx:208
-#, fuzzy
-#| msgid "%s cannot be on an encrypted block device."
 msgid "'$0' filesystem cannot be on an ecnrypted block device"
-msgstr "%s ne peut pas être sur un périphérique chiffré."
+msgstr ""
+"Le système de fichiers $0 ne peut pas être sur un périphérique de blocs "
+"chiffré"
 
 #: src/components/storage/MountPointMapping.jsx:202
-#, fuzzy
 msgid "'$0' must be on a device formatted to '$1'"
-msgstr "{fs} doit être sur un périphérique de type {type}"
+msgstr "'$0' doit être sur un périphérique de type '$1'"
 
 #: src/components/HeaderKebab.jsx:129
 msgid "About"
@@ -125,9 +124,8 @@ msgid "Anaconda"
 msgstr "Programme d’installation Anaconda"
 
 #: src/index.html:20
-#, fuzzy
 msgid "Anaconda Web UI"
-msgstr "Page du projet Anaconda"
+msgstr "Interface web d'Anaconda"
 
 #: org.cockpit-project.anaconda-webui.metainfo.xml:6
 msgid "Anaconda installer"
@@ -138,6 +136,8 @@ msgid ""
 "Anaconda is the OS installer used by Fedora, RHEL, CentOS and other Linux "
 "distributions."
 msgstr ""
+"Anaconda est le programme d'installation du système d'exploitation utilisé "
+"par Fedora, RHEL, CentOS et d'autres distributions Linux."
 
 #: src/components/HeaderKebab.jsx:100
 msgid "Anaconda project page"
@@ -176,6 +176,8 @@ msgstr "Annuler"
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
+"Les modifications apportées ici auront immédiatement un effet sur le "
+"système. Aucun « retour en arrière » n'est possible."
 
 #: src/components/storage/CockpitStorageIntegration.jsx:391
 #: src/components/storage/CockpitStorageIntegration.jsx:403
@@ -203,6 +205,8 @@ msgstr "Fermer"
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
+"Cockpit Storage n'a pas fourni la phrase secrète pour déverrouiller le "
+"périphérique chiffré."
 
 #: src/components/localization/InstallationLanguage.jsx:149
 msgid "Common languages"
@@ -275,7 +279,7 @@ msgstr "Destination"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:463
 msgid "Detected valid storage layout:"
-msgstr ""
+msgstr "Modèle de stockage valide détecté :"
 
 #: src/components/storage/MountPointMapping.jsx:561
 msgid "Device"
@@ -362,7 +366,7 @@ msgstr "Une erreur s’est produite lorsque du retour depuis $0."
 
 #: src/components/storage/CockpitStorageIntegration.jsx:534
 msgid "Fedora linux requires at least $0 of disk space."
-msgstr ""
+msgstr "Fedora Linux nécessite au moins $0 d'espace disque."
 
 #: src/components/installation/InstallationProgress.jsx:141
 msgid "Finalization"
@@ -382,7 +386,7 @@ msgstr "Trouver la langue"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:467
 msgid "Free space requirements met"
-msgstr ""
+msgstr "Les conditions d'espace disponible sont respectées"
 
 #: src/components/users/Accounts.jsx:219
 msgid "Full name"
@@ -411,7 +415,7 @@ msgstr "Comment souhaitez-vous installer ?"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:510
 msgid "If you are configuring partitions the following are required:"
-msgstr ""
+msgstr "Si vous configurez des partitions, les éléments suivants sont requis :"
 
 #: src/components/AnacondaHeader.jsx:79
 msgid ""
@@ -605,7 +609,7 @@ msgstr "Système d’exploitation"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:542
 msgid "Partitions (advanced)"
-msgstr ""
+msgstr "Partitions (avancé)"
 
 #: src/components/storage/DiskEncryption.jsx:97
 #: src/components/storage/EncryptedDevices.jsx:178
@@ -616,7 +620,7 @@ msgstr "Phrase de passe"
 
 #: src/components/storage/EncryptedDevices.jsx:136
 msgid "Passphrase did not match any locked device"
-msgstr ""
+msgstr "Aucun périphérique verrouillé ne correspond à la phrase secrète saisie"
 
 #: src/components/Password.jsx:256
 msgid "Passphrases must match"
@@ -697,7 +701,7 @@ msgstr ""
 
 #: src/components/storage/CockpitStorageIntegration.jsx:519
 msgid "Recommended partitions:"
-msgstr ""
+msgstr "Partitions conseillées :"
 
 #: src/components/storage/MountPointMapping.jsx:352
 #: src/components/storage/MountPointMapping.jsx:562
@@ -771,7 +775,7 @@ msgstr "Vérifier et démarrer l'installation"
 
 #: src/components/installation/Feedback.jsx:38
 msgid "Scan the QR code with your phone or visit:"
-msgstr ""
+msgstr "Scannez le code QR avec votre smartphone ou visitez :"
 
 #: src/components/storage/MountPointMapping.jsx:293
 msgid "Select a device"
@@ -784,6 +788,7 @@ msgstr "Sélectionnez un disque"
 #: src/components/storage/MountPointMapping.jsx:127
 msgid "Selected device's format '$0' cannot be reformatted."
 msgstr ""
+"Le format du périphérique sélectionné « $0 » ne peut pas être reformaté."
 
 #: src/components/installation/Feedback.jsx:37
 #, fuzzy
@@ -822,11 +827,11 @@ msgstr ""
 
 #: src/components/storage/InstallationScenario.jsx:117
 msgid "Some devices use the same name: $0."
-msgstr ""
+msgstr "Certains périphériques utilisent le même nom : $0."
 
 #: src/components/storage/InstallationScenario.jsx:114
 msgid "Some required partitions are missing: $0"
-msgstr ""
+msgstr "Certaines partitions requises sont manquantes : $0"
 
 #: src/components/review/ReviewConfiguration.jsx:152
 msgid "Storage"
@@ -854,7 +859,7 @@ msgstr "La connexion au nœud a échoué."
 
 #: src/components/storage/CockpitStorageIntegration.jsx:398
 msgid "Storage requirements not met"
-msgstr ""
+msgstr "Les exigences de stockage ne sont pas respectées"
 
 #: src/components/Password.jsx:86
 msgid "Strong"
@@ -898,8 +903,8 @@ msgstr ""
 #: src/components/storage/InstallationDestination.jsx:504
 msgid "The following disk is no longer available: $0"
 msgid_plural "The following disks are no longer available: $0"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Le disque suivant n'est plus disponible : $0"
+msgstr[1] "Les disques suivant se sont plus disponibles : $0"
 
 #: src/components/storage/InstallationDestination.jsx:487
 #, fuzzy
@@ -919,7 +924,7 @@ msgstr ""
 
 #: src/components/storage/InstallationScenario.jsx:56
 msgid "The installation needs $1 of disk space; "
-msgstr ""
+msgstr "L'installation nécessite $1 d'espace disque ; "
 
 #: src/components/storage/InstallationScenario.jsx:214
 msgid ""
@@ -970,7 +975,7 @@ msgstr "Aucun disque utilisable détecté"
 
 #: src/components/users/Accounts.jsx:217
 msgid "This account will have administration priviledge with sudo."
-msgstr ""
+msgstr "Ce compte disposera des privilèges d'administration avec sudo."
 
 #: src/components/AnacondaHeader.jsx:67
 msgid "This is unstable, pre-release software"
@@ -1005,12 +1010,16 @@ msgstr "Pour eviter les pertes, assurez-vous de sauvegarder vos données."
 #: src/components/storage/InstallationScenario.jsx:118
 msgid "To use this option, rename devices to have unique names."
 msgstr ""
+"Pour utiliser cette option, renommez les périphériques pour leur donner des "
+"noms uniques."
 
 #: src/components/storage/InstallationScenario.jsx:77
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
 msgstr ""
+"Pour utiliser cette option, redimensionnez ou supprimez les partitions "
+"existantes afin de libérer au moins $0."
 
 #: src/components/storage/EncryptedDevices.jsx:162
 msgid "Unlock"
@@ -1043,6 +1052,8 @@ msgid ""
 "User name may only contain: letters from a-z, digits 0-9, dash $0, period "
 "$1, underscore $2"
 msgstr ""
+"Le nom d'utilisateur ne peut contenir que : des lettres de a à z, des "
+"chiffres de 0 à 9, des tirets $0, des points $1, des tirets bas $2"
 
 #: src/components/users/Accounts.jsx:170
 #, fuzzy
@@ -1077,6 +1088,8 @@ msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
 msgstr ""
+"Vous pouvez soit libérer suffisamment d'espace ici et laisser l'installateur "
+"gérer le reste, soit configurer manuellement les partitions."
 
 #: src/components/AnacondaWizardFooter.jsx:149
 msgid "Your progress will not be saved."
