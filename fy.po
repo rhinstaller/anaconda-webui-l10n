@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 35.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-23 02:48+0000\n"
+"POT-Creation-Date: 2024-05-24 02:48+0000\n"
 "PO-Revision-Date: 2023-11-06 12:17+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Frisian <https://translate.fedoraproject.org/projects/"
@@ -47,6 +47,13 @@ msgstr ""
 #, fuzzy
 msgid "Account"
 msgstr "Yndieling tafoegje"
+
+#: src/components/review/StorageReview.jsx:116
+#, fuzzy
+#| msgctxt "GUI|Keyboard Layout"
+#| msgid "_Options"
+msgid "Actions"
+msgstr "_Opsjes"
 
 #: src/components/storage/MountPointMapping.jsx:589
 #, fuzzy
@@ -92,7 +99,7 @@ msgid "Applying new disk selection..."
 msgstr ""
 
 #: src/components/review/ReviewConfiguration.jsx:190
-#: src/components/AnacondaWizardFooter.jsx:92
+#: src/components/AnacondaWizardFooter.jsx:90
 msgid "Back"
 msgstr ""
 
@@ -174,7 +181,7 @@ msgstr "Opslach oan it ynstellen"
 msgid "Configure storage again"
 msgstr "Opslach oan it ynstellen"
 
-#: src/components/storage/DiskEncryption.jsx:100
+#: src/components/storage/DiskEncryption.jsx:104
 #: src/components/users/Accounts.jsx:183 src/components/users/Accounts.jsx:282
 msgid "Confirm passphrase"
 msgstr ""
@@ -183,7 +190,7 @@ msgstr ""
 msgid "Continue"
 msgstr "Trochgean"
 
-#: src/components/AnacondaWizardFooter.jsx:140
+#: src/components/AnacondaWizardFooter.jsx:138
 #, fuzzy
 msgid "Continue installation"
 msgstr "Pre-ynstallaasje taken oan it útfieren"
@@ -227,6 +234,7 @@ msgstr "om mei de ynstallaasje útein te setten"
 msgid "Detected valid storage layout:"
 msgstr ""
 
+#: src/components/review/StorageReview.jsx:114
 #: src/components/storage/MountPointMapping.jsx:565
 msgid "Device"
 msgstr ""
@@ -245,7 +253,7 @@ msgid "Disk configuration"
 msgstr "Apparaat konfiguraasje"
 
 #: src/components/review/ReviewConfiguration.jsx:145
-#: src/components/storage/DiskEncryption.jsx:162
+#: src/components/storage/DiskEncryption.jsx:166
 msgid "Disk encryption"
 msgstr ""
 
@@ -267,20 +275,25 @@ msgstr ""
 msgid "Enabled"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:84
+#: src/components/storage/DiskEncryption.jsx:88
 #, fuzzy
 msgid "Encrypt my data"
 msgstr "Fersiferje myn gegevens."
 
-#: src/components/storage/DiskEncryption.jsx:163
+#: src/components/storage/DiskEncryption.jsx:167
 msgid "Encrypt the selected devices?"
 msgstr ""
+
+#: src/components/review/StorageReview.jsx:117
+#, fuzzy
+msgid "Encrypted"
+msgstr "Fersiferje myn gegevens."
 
 #: src/components/storage/EncryptedDevices.jsx:69
 msgid "Encrypted devices are locked"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:118
+#: src/components/storage/DiskEncryption.jsx:122
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 
@@ -486,6 +499,7 @@ msgstr ""
 msgid "Modify storage"
 msgstr "Opslach oan it kontrolearjen..."
 
+#: src/components/review/StorageReview.jsx:113
 #: src/components/storage/MountPointMapping.jsx:564
 msgid "Mount point"
 msgstr ""
@@ -510,7 +524,7 @@ msgstr ""
 msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 
-#: src/components/AnacondaWizardFooter.jsx:99
+#: src/components/AnacondaWizardFooter.jsx:97
 msgid "Next"
 msgstr ""
 
@@ -556,7 +570,7 @@ msgid ""
 "production environments."
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:121
+#: src/components/storage/DiskEncryption.jsx:125
 msgid ""
 "Only new partitions will be encrypted. Existing partitions will remain "
 "untouched."
@@ -571,7 +585,7 @@ msgstr "Brûkers oanmeitsje"
 msgid "Partitions (advanced)"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:97
+#: src/components/storage/DiskEncryption.jsx:101
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
@@ -615,12 +629,12 @@ msgid "Proceed with installation"
 msgstr "Kin net troch gean mei de ynstallaasje."
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Quit"
 msgstr "Ofslute"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 #, fuzzy
 msgid "Quit installer?"
 msgstr "Anaconda Ynstallearder"
@@ -659,13 +673,13 @@ msgid "Real hostname must be 64 characters or less"
 msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 #, fuzzy
 msgid "Reboot"
 msgstr "Stopje (Opnij opstarte)"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 #, fuzzy
 msgid "Reboot system?"
 msgstr "Stopje (Opnij opstarte)"
@@ -789,6 +803,10 @@ msgstr "Wachtwurd sjen litte."
 #, fuzzy
 msgid "Show password"
 msgstr "Wachtwurd sjen litte."
+
+#: src/components/review/StorageReview.jsx:115
+msgid "Size"
+msgstr ""
 
 #: src/components/storage/EncryptedDevices.jsx:87
 msgid "Skip"
@@ -1054,7 +1072,7 @@ msgid ""
 "rest or manually set up partitions."
 msgstr ""
 
-#: src/components/AnacondaWizardFooter.jsx:149
+#: src/components/AnacondaWizardFooter.jsx:147
 msgid "Your progress will not be saved."
 msgstr ""
 
@@ -1070,11 +1088,19 @@ msgstr ""
 msgid "edit"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:59
+#: src/components/review/StorageReview.jsx:85
+msgid "encrypt"
+msgstr ""
+
+#: src/components/review/StorageReview.jsx:85
+msgid "encrypted"
+msgstr ""
+
+#: src/components/review/StorageReview.jsx:64
 msgid "format as $0"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:60
+#: src/components/review/StorageReview.jsx:65
 #, fuzzy
 msgid "mount"
 msgstr "Yndieling tafoegje"
@@ -2892,10 +2918,6 @@ msgstr ""
 #~ msgctxt "GUI|Summary|Warning Dialog"
 #~ msgid "_OK"
 #~ msgstr "_OK"
-
-#~ msgctxt "GUI|Keyboard Layout"
-#~ msgid "_Options"
-#~ msgstr "_Opsjes"
 
 #~ msgctxt "GUI|Keyboard Layout"
 #~ msgid "_Preview layout"

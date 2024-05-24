@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-23 02:48+0000\n"
+"POT-Creation-Date: 2024-05-24 02:48+0000\n"
 "PO-Revision-Date: 2023-11-06 12:18+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/"
@@ -75,6 +75,12 @@ msgstr "Névjegy"
 #| msgid "_Account"
 msgid "Account"
 msgstr "_Fiók"
+
+#: src/components/review/StorageReview.jsx:116
+#, fuzzy
+#| msgid "Action"
+msgid "Actions"
+msgstr "Művelet"
 
 #: src/components/storage/MountPointMapping.jsx:589
 msgid "Add mount"
@@ -118,7 +124,7 @@ msgid "Applying new disk selection..."
 msgstr "Új lemezkijelölés alkalmazása..."
 
 #: src/components/review/ReviewConfiguration.jsx:190
-#: src/components/AnacondaWizardFooter.jsx:92
+#: src/components/AnacondaWizardFooter.jsx:90
 msgid "Back"
 msgstr "Vissza"
 
@@ -203,7 +209,7 @@ msgstr "Tárhely beállítása"
 msgid "Configure storage again"
 msgstr "Tárhely beállítása"
 
-#: src/components/storage/DiskEncryption.jsx:100
+#: src/components/storage/DiskEncryption.jsx:104
 #: src/components/users/Accounts.jsx:183 src/components/users/Accounts.jsx:282
 msgid "Confirm passphrase"
 msgstr "Erősítse meg a jelszavát"
@@ -212,7 +218,7 @@ msgstr "Erősítse meg a jelszavát"
 msgid "Continue"
 msgstr "Folytatás"
 
-#: src/components/AnacondaWizardFooter.jsx:140
+#: src/components/AnacondaWizardFooter.jsx:138
 msgid "Continue installation"
 msgstr "Telepítés folytatása"
 
@@ -256,6 +262,7 @@ msgstr "Cél"
 msgid "Detected valid storage layout:"
 msgstr ""
 
+#: src/components/review/StorageReview.jsx:114
 #: src/components/storage/MountPointMapping.jsx:565
 msgid "Device"
 msgstr "Eszköz"
@@ -273,7 +280,7 @@ msgid "Disk configuration"
 msgstr "Lemez beállítások"
 
 #: src/components/review/ReviewConfiguration.jsx:145
-#: src/components/storage/DiskEncryption.jsx:162
+#: src/components/storage/DiskEncryption.jsx:166
 msgid "Disk encryption"
 msgstr "Lemez titkosítás"
 
@@ -296,19 +303,25 @@ msgstr "Rendszergazdai fiók _engedélyezése"
 msgid "Enabled"
 msgstr "Engedélyezve"
 
-#: src/components/storage/DiskEncryption.jsx:84
+#: src/components/storage/DiskEncryption.jsx:88
 msgid "Encrypt my data"
 msgstr "Saját adatok titkosítása"
 
-#: src/components/storage/DiskEncryption.jsx:163
+#: src/components/storage/DiskEncryption.jsx:167
 msgid "Encrypt the selected devices?"
 msgstr "Titkosítsuk a kiválasztott eszközöket?"
+
+#: src/components/review/StorageReview.jsx:117
+#, fuzzy
+#| msgid "Encrypt"
+msgid "Encrypted"
+msgstr "Titkosítás"
 
 #: src/components/storage/EncryptedDevices.jsx:69
 msgid "Encrypted devices are locked"
 msgstr "Titkosított eszközök zárolva"
 
-#: src/components/storage/DiskEncryption.jsx:118
+#: src/components/storage/DiskEncryption.jsx:122
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr "A titkosítás segít megvédeni adatait, hogy mások ne férjenek hozzá."
 
@@ -501,6 +514,7 @@ msgstr ""
 msgid "Modify storage"
 msgstr "Tárhely módosítása"
 
+#: src/components/review/StorageReview.jsx:113
 #: src/components/storage/MountPointMapping.jsx:564
 msgid "Mount point"
 msgstr "Csatolási pont"
@@ -530,7 +544,7 @@ msgstr ""
 "A hálózat nem elérhető. A probléma bejelentéséhez konfigurálja a hálózatot a "
 "felső sáv menüjében."
 
-#: src/components/AnacondaWizardFooter.jsx:99
+#: src/components/AnacondaWizardFooter.jsx:97
 msgid "Next"
 msgstr "Következő"
 
@@ -573,7 +587,7 @@ msgstr ""
 "tesztelési célokra készült. NE használja kritikus munkára vagy éles "
 "rendszerekhez."
 
-#: src/components/storage/DiskEncryption.jsx:121
+#: src/components/storage/DiskEncryption.jsx:125
 msgid ""
 "Only new partitions will be encrypted. Existing partitions will remain "
 "untouched."
@@ -589,7 +603,7 @@ msgstr "Operációs rendszer"
 msgid "Partitions (advanced)"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:97
+#: src/components/storage/DiskEncryption.jsx:101
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
@@ -631,12 +645,12 @@ msgid "Proceed with installation"
 msgstr "A telepítés folytatása sikertelen."
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Quit"
 msgstr "Kilépés"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 msgid "Quit installer?"
 msgstr "Kilépés a telepítőből?"
 
@@ -675,12 +689,12 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "A gépnév 64 vagy kevesebb karakter lehet."
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Reboot"
 msgstr "Újraindítás"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 msgid "Reboot system?"
 msgstr "Rendszer újraindítása?"
 
@@ -808,6 +822,10 @@ msgstr "Jelszó megjelenítése"
 #: src/components/Password.jsx:215
 msgid "Show password"
 msgstr "Jelszó megjelenítése"
+
+#: src/components/review/StorageReview.jsx:115
+msgid "Size"
+msgstr ""
 
 #: src/components/storage/EncryptedDevices.jsx:87
 msgid "Skip"
@@ -1086,7 +1104,7 @@ msgid ""
 "rest or manually set up partitions."
 msgstr ""
 
-#: src/components/AnacondaWizardFooter.jsx:149
+#: src/components/AnacondaWizardFooter.jsx:147
 msgid "Your progress will not be saved."
 msgstr "A folyamat pillanatnyi állapota nem kerül mentésre."
 
@@ -1102,11 +1120,23 @@ msgstr "jelenlegi lépés"
 msgid "edit"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:59
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypt"
+msgstr "Titkosítás"
+
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypted"
+msgstr "Titkosítás"
+
+#: src/components/review/StorageReview.jsx:64
 msgid "format as $0"
 msgstr "formázás mint $0"
 
-#: src/components/review/StorageReview.jsx:60
+#: src/components/review/StorageReview.jsx:65
 msgid "mount"
 msgstr "Csatlakoztatás"
 
@@ -1632,9 +1662,6 @@ msgstr "függőben lévő lépés"
 #~ msgctxt "GUI|Storage"
 #~ msgid "A_utomatic"
 #~ msgstr "A_utomatikus"
-
-#~ msgid "Action"
-#~ msgstr "Művelet"
 
 #~ msgid "Activation Key"
 #~ msgstr "Aktiváló kulcs"
@@ -2479,9 +2506,6 @@ msgstr "függőben lévő lépés"
 #~ "A rendszergazdai fiók engedélyezése lehetővé teszi, hogy jelszót állítson "
 #~ "be, és válaszhatóan engedélyezze a távoli rendszergazdai hozzáférést a "
 #~ "rendszeren."
-
-#~ msgid "Encrypt"
-#~ msgstr "Titkosítás"
 
 #~ msgctxt "GUI|Custom Partitioning|Autopart Page"
 #~ msgid "Encrypt my data."

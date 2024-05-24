@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-23 02:48+0000\n"
+"POT-Creation-Date: 2024-05-24 02:48+0000\n"
 "PO-Revision-Date: 2023-11-06 12:20+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/anaconda-"
@@ -75,6 +75,12 @@ msgstr "Over Fedora"
 #| msgid "_Account"
 msgid "Account"
 msgstr "_Account"
+
+#: src/components/review/StorageReview.jsx:116
+#, fuzzy
+#| msgid "Action"
+msgid "Actions"
+msgstr "Actie"
 
 #: src/components/storage/MountPointMapping.jsx:589
 msgid "Add mount"
@@ -117,7 +123,7 @@ msgid "Applying new disk selection..."
 msgstr "Nieuwe schijfselectie toepassen..."
 
 #: src/components/review/ReviewConfiguration.jsx:190
-#: src/components/AnacondaWizardFooter.jsx:92
+#: src/components/AnacondaWizardFooter.jsx:90
 msgid "Back"
 msgstr "Terug"
 
@@ -202,7 +208,7 @@ msgstr "Configuratie-opslag"
 msgid "Configure storage again"
 msgstr "Configuratie-opslag"
 
-#: src/components/storage/DiskEncryption.jsx:100
+#: src/components/storage/DiskEncryption.jsx:104
 #: src/components/users/Accounts.jsx:183 src/components/users/Accounts.jsx:282
 msgid "Confirm passphrase"
 msgstr "Bevestig wachtwoordzin"
@@ -211,7 +217,7 @@ msgstr "Bevestig wachtwoordzin"
 msgid "Continue"
 msgstr "Doorgaan"
 
-#: src/components/AnacondaWizardFooter.jsx:140
+#: src/components/AnacondaWizardFooter.jsx:138
 msgid "Continue installation"
 msgstr "Installatie vervolgen"
 
@@ -254,6 +260,7 @@ msgstr "Bestemming"
 msgid "Detected valid storage layout:"
 msgstr ""
 
+#: src/components/review/StorageReview.jsx:114
 #: src/components/storage/MountPointMapping.jsx:565
 msgid "Device"
 msgstr "Apparaat"
@@ -273,7 +280,7 @@ msgid "Disk configuration"
 msgstr "Schijfconfiguratie"
 
 #: src/components/review/ReviewConfiguration.jsx:145
-#: src/components/storage/DiskEncryption.jsx:162
+#: src/components/storage/DiskEncryption.jsx:166
 msgid "Disk encryption"
 msgstr "Schijfversleuteling"
 
@@ -296,19 +303,25 @@ msgstr "Rootaccount inschakelen"
 msgid "Enabled"
 msgstr "Aangezet"
 
-#: src/components/storage/DiskEncryption.jsx:84
+#: src/components/storage/DiskEncryption.jsx:88
 msgid "Encrypt my data"
 msgstr "Versleutel mijn data"
 
-#: src/components/storage/DiskEncryption.jsx:163
+#: src/components/storage/DiskEncryption.jsx:167
 msgid "Encrypt the selected devices?"
 msgstr "De geselecteerde apparaten versleutelen?"
+
+#: src/components/review/StorageReview.jsx:117
+#, fuzzy
+#| msgid "Encrypt"
+msgid "Encrypted"
+msgstr "Versleutelen"
 
 #: src/components/storage/EncryptedDevices.jsx:69
 msgid "Encrypted devices are locked"
 msgstr "Versleutelde apparaten zijn vergrendeld"
 
-#: src/components/storage/DiskEncryption.jsx:118
+#: src/components/storage/DiskEncryption.jsx:122
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 "Versleuteling helpt bij het beveiligen van je gegevens, om te voorkomen dat "
@@ -502,6 +515,7 @@ msgstr ""
 msgid "Modify storage"
 msgstr "Wijzigen opslag"
 
+#: src/components/review/StorageReview.jsx:113
 #: src/components/storage/MountPointMapping.jsx:564
 msgid "Mount point"
 msgstr "Koppelpunt"
@@ -530,7 +544,7 @@ msgstr ""
 "Netwerk niet beschikbaar. Configureer het netwerk in het bovenste balkmenu "
 "om het probleem te melden."
 
-#: src/components/AnacondaWizardFooter.jsx:99
+#: src/components/AnacondaWizardFooter.jsx:97
 msgid "Next"
 msgstr "Volgende"
 
@@ -573,7 +587,7 @@ msgstr ""
 "ontwikkelings- en testdoeleinden. Gebruik deze software NIET voor belangrijk "
 "werk of voor productieomgevingen."
 
-#: src/components/storage/DiskEncryption.jsx:121
+#: src/components/storage/DiskEncryption.jsx:125
 msgid ""
 "Only new partitions will be encrypted. Existing partitions will remain "
 "untouched."
@@ -589,7 +603,7 @@ msgstr "Besturingssysteem"
 msgid "Partitions (advanced)"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:97
+#: src/components/storage/DiskEncryption.jsx:101
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
@@ -631,12 +645,12 @@ msgid "Proceed with installation"
 msgstr "Verdergaan met de installatie mislukte."
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Quit"
 msgstr "Afsluiten"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 msgid "Quit installer?"
 msgstr "Installatieprogramma afsluiten?"
 
@@ -675,12 +689,12 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "Hostnaam moet 64 -of minder- karakters lang zijn."
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Reboot"
 msgstr "Herstarten"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 msgid "Reboot system?"
 msgstr "Systeem herstarten?"
 
@@ -808,6 +822,10 @@ msgstr "Toon wachtzin"
 #: src/components/Password.jsx:215
 msgid "Show password"
 msgstr "Toon wachtwoord"
+
+#: src/components/review/StorageReview.jsx:115
+msgid "Size"
+msgstr ""
 
 #: src/components/storage/EncryptedDevices.jsx:87
 msgid "Skip"
@@ -1086,7 +1104,7 @@ msgid ""
 "rest or manually set up partitions."
 msgstr ""
 
-#: src/components/AnacondaWizardFooter.jsx:149
+#: src/components/AnacondaWizardFooter.jsx:147
 msgid "Your progress will not be saved."
 msgstr "Je voortgang wordt niet opgeslagen."
 
@@ -1102,11 +1120,23 @@ msgstr "huidige stap"
 msgid "edit"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:59
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypt"
+msgstr "Versleutelen"
+
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypted"
+msgstr "Versleutelen"
+
+#: src/components/review/StorageReview.jsx:64
 msgid "format as $0"
 msgstr "formatteren als $0"
 
-#: src/components/review/StorageReview.jsx:60
+#: src/components/review/StorageReview.jsx:65
 msgid "mount"
 msgstr "aankoppelen"
 
@@ -1634,9 +1664,6 @@ msgstr "stap in afwachting"
 #~ msgctxt "GUI|Storage"
 #~ msgid "A_utomatic"
 #~ msgstr "A_utomatisch"
-
-#~ msgid "Action"
-#~ msgstr "Actie"
 
 #~ msgid "Activation Key"
 #~ msgstr "Activatiesleutel"
@@ -2487,9 +2514,6 @@ msgstr "stap in afwachting"
 #~ "Door het rootaccount in te schakelen, kun je een rootwachtwoord instellen "
 #~ "en optioneel externe toegang tot het rootaccount op dit systeem "
 #~ "inschakelen."
-
-#~ msgid "Encrypt"
-#~ msgstr "Versleutelen"
 
 #~ msgctxt "GUI|Custom Partitioning|Autopart Page"
 #~ msgid "Encrypt my data."

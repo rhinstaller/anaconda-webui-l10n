@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-23 02:48+0000\n"
+"POT-Creation-Date: 2024-05-24 02:48+0000\n"
 "PO-Revision-Date: 2023-11-06 12:18+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Croatian <https://translate.fedoraproject.org/projects/"
@@ -60,6 +60,12 @@ msgstr ""
 #| msgid "_Account"
 msgid "Account"
 msgstr "_Račun"
+
+#: src/components/review/StorageReview.jsx:116
+#, fuzzy
+#| msgid "Action"
+msgid "Actions"
+msgstr "Radnja"
 
 #: src/components/storage/MountPointMapping.jsx:589
 #, fuzzy
@@ -105,7 +111,7 @@ msgid "Applying new disk selection..."
 msgstr ""
 
 #: src/components/review/ReviewConfiguration.jsx:190
-#: src/components/AnacondaWizardFooter.jsx:92
+#: src/components/AnacondaWizardFooter.jsx:90
 msgid "Back"
 msgstr "Natrag"
 
@@ -192,7 +198,7 @@ msgstr "Podešavanje uređaja pohrane"
 msgid "Configure storage again"
 msgstr "Podešavanje uređaja pohrane"
 
-#: src/components/storage/DiskEncryption.jsx:100
+#: src/components/storage/DiskEncryption.jsx:104
 #: src/components/users/Accounts.jsx:183 src/components/users/Accounts.jsx:282
 #, fuzzy
 msgid "Confirm passphrase"
@@ -202,7 +208,7 @@ msgstr "_Potvrdi lozinku"
 msgid "Continue"
 msgstr "Nastavi"
 
-#: src/components/AnacondaWizardFooter.jsx:140
+#: src/components/AnacondaWizardFooter.jsx:138
 #, fuzzy
 msgid "Continue installation"
 msgstr "Pokretanje predinstalacijskih zadataka"
@@ -248,6 +254,7 @@ msgstr "Opis"
 msgid "Detected valid storage layout:"
 msgstr ""
 
+#: src/components/review/StorageReview.jsx:114
 #: src/components/storage/MountPointMapping.jsx:565
 msgid "Device"
 msgstr "Uređaj"
@@ -266,7 +273,7 @@ msgid "Disk configuration"
 msgstr "Podešavanje uređaja"
 
 #: src/components/review/ReviewConfiguration.jsx:145
-#: src/components/storage/DiskEncryption.jsx:162
+#: src/components/storage/DiskEncryption.jsx:166
 #, fuzzy
 msgid "Disk encryption"
 msgstr "Šifriranje"
@@ -292,20 +299,26 @@ msgstr "_Omogući korijenski račun"
 msgid "Enabled"
 msgstr "Omogućeno"
 
-#: src/components/storage/DiskEncryption.jsx:84
+#: src/components/storage/DiskEncryption.jsx:88
 #, fuzzy
 msgid "Encrypt my data"
 msgstr "Šifriraj moje podatke."
 
-#: src/components/storage/DiskEncryption.jsx:163
+#: src/components/storage/DiskEncryption.jsx:167
 msgid "Encrypt the selected devices?"
 msgstr ""
+
+#: src/components/review/StorageReview.jsx:117
+#, fuzzy
+#| msgid "Encrypt"
+msgid "Encrypted"
+msgstr "Šifriraj"
 
 #: src/components/storage/EncryptedDevices.jsx:69
 msgid "Encrypted devices are locked"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:118
+#: src/components/storage/DiskEncryption.jsx:122
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 
@@ -510,6 +523,7 @@ msgstr ""
 msgid "Modify storage"
 msgstr "_Promijeni raspored uređaja pohrane"
 
+#: src/components/review/StorageReview.jsx:113
 #: src/components/storage/MountPointMapping.jsx:564
 msgid "Mount point"
 msgstr "Točka montiranja"
@@ -535,7 +549,7 @@ msgstr ""
 msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 
-#: src/components/AnacondaWizardFooter.jsx:99
+#: src/components/AnacondaWizardFooter.jsx:97
 msgid "Next"
 msgstr ""
 
@@ -583,7 +597,7 @@ msgstr ""
 "koristite ovaj softver za bilo kakav kritičan rad ili za proizvodno "
 "okruženje."
 
-#: src/components/storage/DiskEncryption.jsx:121
+#: src/components/storage/DiskEncryption.jsx:125
 msgid ""
 "Only new partitions will be encrypted. Existing partitions will remain "
 "untouched."
@@ -598,7 +612,7 @@ msgstr "korak na čekanju"
 msgid "Partitions (advanced)"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:97
+#: src/components/storage/DiskEncryption.jsx:101
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
@@ -642,12 +656,12 @@ msgid "Proceed with installation"
 msgstr "Neuspjeli nastavak instalacije."
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Quit"
 msgstr "Zatvori"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 #, fuzzy
 msgid "Quit installer?"
 msgstr "_Zatvori program instalacije"
@@ -688,12 +702,12 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "Naziv računala mora biti dugačak 255 znakova ili manje."
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Reboot"
 msgstr "Ponovno pokreni"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 #, fuzzy
 msgid "Reboot system?"
 msgstr "_Ponovno pokreni sustav"
@@ -820,6 +834,10 @@ msgstr "_Potvrdi lozinku"
 #, fuzzy
 msgid "Show password"
 msgstr "Prikaži lozinku."
+
+#: src/components/review/StorageReview.jsx:115
+msgid "Size"
+msgstr ""
 
 #: src/components/storage/EncryptedDevices.jsx:87
 msgid "Skip"
@@ -1101,7 +1119,7 @@ msgid ""
 "rest or manually set up partitions."
 msgstr ""
 
-#: src/components/AnacondaWizardFooter.jsx:149
+#: src/components/AnacondaWizardFooter.jsx:147
 msgid "Your progress will not be saved."
 msgstr ""
 
@@ -1117,12 +1135,24 @@ msgstr "trenutni korak"
 msgid "edit"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:59
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypt"
+msgstr "Šifriraj"
+
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypted"
+msgstr "Šifriraj"
+
+#: src/components/review/StorageReview.jsx:64
 #, fuzzy
 msgid "format as $0"
 msgstr "Ponovno formatiraj"
 
-#: src/components/review/StorageReview.jsx:60
+#: src/components/review/StorageReview.jsx:65
 #, fuzzy
 msgid "mount"
 msgstr "Dodaj raspored"
@@ -1625,9 +1655,6 @@ msgstr "korak na čekanju"
 #~ msgctxt "GUI|Storage"
 #~ msgid "A_utomatic"
 #~ msgstr "A_utomatski"
-
-#~ msgid "Action"
-#~ msgstr "Radnja"
 
 #~ msgid "Activation Key"
 #~ msgstr "Ključ aktivacije"
@@ -2469,9 +2496,6 @@ msgstr "korak na čekanju"
 #~ "Omogućavanje korijenskog računa dopustit će vam postavljanje korijenske "
 #~ "lozinke i neobavezno omogućavanje udaljenog pristupa korijenskom računu "
 #~ "ovog sustava."
-
-#~ msgid "Encrypt"
-#~ msgstr "Šifriraj"
 
 #~ msgctxt "GUI|Custom Partitioning|Autopart Page"
 #~ msgid "Encrypt my data."

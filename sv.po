@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-23 02:48+0000\n"
+"POT-Creation-Date: 2024-05-24 02:48+0000\n"
 "PO-Revision-Date: 2024-05-14 02:47+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
@@ -64,6 +64,12 @@ msgstr "Om"
 #: src/components/review/ReviewConfiguration.jsx:116
 msgid "Account"
 msgstr "Konto"
+
+#: src/components/review/StorageReview.jsx:116
+#, fuzzy
+#| msgid "Action"
+msgid "Actions"
+msgstr "Åtgärd"
 
 #: src/components/storage/MountPointMapping.jsx:589
 msgid "Add mount"
@@ -106,7 +112,7 @@ msgid "Applying new disk selection..."
 msgstr "Tillämpar nytt diskval..."
 
 #: src/components/review/ReviewConfiguration.jsx:190
-#: src/components/AnacondaWizardFooter.jsx:92
+#: src/components/AnacondaWizardFooter.jsx:90
 msgid "Back"
 msgstr "Tillbaka"
 
@@ -184,7 +190,7 @@ msgstr "Konfigurera lagring"
 msgid "Configure storage again"
 msgstr "Konfigurera lagring igen"
 
-#: src/components/storage/DiskEncryption.jsx:100
+#: src/components/storage/DiskEncryption.jsx:104
 #: src/components/users/Accounts.jsx:183 src/components/users/Accounts.jsx:282
 msgid "Confirm passphrase"
 msgstr "Bekräfta lösenfras"
@@ -193,7 +199,7 @@ msgstr "Bekräfta lösenfras"
 msgid "Continue"
 msgstr "Fortsätt"
 
-#: src/components/AnacondaWizardFooter.jsx:140
+#: src/components/AnacondaWizardFooter.jsx:138
 msgid "Continue installation"
 msgstr "Fortsätt installation"
 
@@ -229,6 +235,7 @@ msgstr "Destination"
 msgid "Detected valid storage layout:"
 msgstr "Upptäckt giltig lagringslayout:"
 
+#: src/components/review/StorageReview.jsx:114
 #: src/components/storage/MountPointMapping.jsx:565
 msgid "Device"
 msgstr "Enhet"
@@ -246,7 +253,7 @@ msgid "Disk configuration"
 msgstr "Diskkonfiguration"
 
 #: src/components/review/ReviewConfiguration.jsx:145
-#: src/components/storage/DiskEncryption.jsx:162
+#: src/components/storage/DiskEncryption.jsx:166
 msgid "Disk encryption"
 msgstr "Diskkryptering"
 
@@ -266,19 +273,25 @@ msgstr "Aktivera root-konto"
 msgid "Enabled"
 msgstr "Aktiverat"
 
-#: src/components/storage/DiskEncryption.jsx:84
+#: src/components/storage/DiskEncryption.jsx:88
 msgid "Encrypt my data"
 msgstr "Kryptera min data"
 
-#: src/components/storage/DiskEncryption.jsx:163
+#: src/components/storage/DiskEncryption.jsx:167
 msgid "Encrypt the selected devices?"
 msgstr "Kryptera de valda enheterna?"
+
+#: src/components/review/StorageReview.jsx:117
+#, fuzzy
+#| msgid "Encrypt"
+msgid "Encrypted"
+msgstr "Kryptera"
 
 #: src/components/storage/EncryptedDevices.jsx:69
 msgid "Encrypted devices are locked"
 msgstr "Krypterade enheter är låsta"
 
-#: src/components/storage/DiskEncryption.jsx:118
+#: src/components/storage/DiskEncryption.jsx:122
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 "Kryptering hjälper till att säkra din data, och att förhindra att andra "
@@ -466,6 +479,7 @@ msgstr ""
 msgid "Modify storage"
 msgstr "Modifera lagring"
 
+#: src/components/review/StorageReview.jsx:113
 #: src/components/storage/MountPointMapping.jsx:564
 msgid "Mount point"
 msgstr "Monteringspunkt"
@@ -492,7 +506,7 @@ msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 "Nätverk ej tillgängligt. Konfigurera nätverket för att rapportera problemet."
 
-#: src/components/AnacondaWizardFooter.jsx:99
+#: src/components/AnacondaWizardFooter.jsx:97
 msgid "Next"
 msgstr "Nästa"
 
@@ -535,7 +549,7 @@ msgstr ""
 "utvecklings- och testsyften. Använd INTE denna programvara för kritiskt "
 "arbete eller för produktionsmiljöer."
 
-#: src/components/storage/DiskEncryption.jsx:121
+#: src/components/storage/DiskEncryption.jsx:125
 msgid ""
 "Only new partitions will be encrypted. Existing partitions will remain "
 "untouched."
@@ -551,7 +565,7 @@ msgstr "Operativsystem"
 msgid "Partitions (advanced)"
 msgstr "Partitioner (avancerat)"
 
-#: src/components/storage/DiskEncryption.jsx:97
+#: src/components/storage/DiskEncryption.jsx:101
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
@@ -591,12 +605,12 @@ msgid "Proceed with installation"
 msgstr "Fortsätt med installation."
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Quit"
 msgstr "Avsluta"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 msgid "Quit installer?"
 msgstr "Avsluta installationsprogrammet?"
 
@@ -633,12 +647,12 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "Riktiga värdnamn måste bestå av 64 tecken eller mindre"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Reboot"
 msgstr "Starta om"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 msgid "Reboot system?"
 msgstr "Starta om systemet?"
 
@@ -752,6 +766,10 @@ msgstr "Visa lösenfras"
 #: src/components/Password.jsx:215
 msgid "Show password"
 msgstr "Visa lösenord"
+
+#: src/components/review/StorageReview.jsx:115
+msgid "Size"
+msgstr ""
 
 #: src/components/storage/EncryptedDevices.jsx:87
 msgid "Skip"
@@ -1017,7 +1035,7 @@ msgstr ""
 "Du kan antingen frigöra tillräckligt med utrymme här och låta "
 "installationsprogrammet sköta resten eller manuellt sätta upp partitioner."
 
-#: src/components/AnacondaWizardFooter.jsx:149
+#: src/components/AnacondaWizardFooter.jsx:147
 msgid "Your progress will not be saved."
 msgstr "Ditt förlopp kommer inte att sparas."
 
@@ -1033,11 +1051,23 @@ msgstr "aktuellt steg"
 msgid "edit"
 msgstr "redigera"
 
-#: src/components/review/StorageReview.jsx:59
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypt"
+msgstr "Kryptera"
+
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypted"
+msgstr "Kryptera"
+
+#: src/components/review/StorageReview.jsx:64
 msgid "format as $0"
 msgstr "Formatera som $0"
 
-#: src/components/review/StorageReview.jsx:60
+#: src/components/review/StorageReview.jsx:65
 msgid "mount"
 msgstr "montering"
 
@@ -1550,9 +1580,6 @@ msgstr "väntande steg"
 #~ msgctxt "GUI|Storage"
 #~ msgid "A_utomatic"
 #~ msgstr "A_utomatisk"
-
-#~ msgid "Action"
-#~ msgstr "Åtgärd"
 
 #~ msgid "Activation Key"
 #~ msgstr "Aktiveringsnyckel"
@@ -2391,9 +2418,6 @@ msgstr "väntande steg"
 #~ "Att aktivera root-kontot kommer tillåta dig att sätta ett root-lösenord "
 #~ "och ger möjligheten att aktivera fjärråtkomst till root-kontot på detta "
 #~ "system."
-
-#~ msgid "Encrypt"
-#~ msgstr "Kryptera"
 
 #~ msgctxt "GUI|Custom Partitioning|Autopart Page"
 #~ msgid "Encrypt my data."

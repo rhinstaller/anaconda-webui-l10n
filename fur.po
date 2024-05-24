@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-23 02:48+0000\n"
+"POT-Creation-Date: 2024-05-24 02:48+0000\n"
 "PO-Revision-Date: 2024-02-11 02:42+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/"
@@ -41,6 +41,12 @@ msgstr "Informazions"
 #: src/components/review/ReviewConfiguration.jsx:116
 msgid "Account"
 msgstr "Account"
+
+#: src/components/review/StorageReview.jsx:116
+#, fuzzy
+#| msgid "Action"
+msgid "Actions"
+msgstr "Azion"
 
 #: src/components/storage/MountPointMapping.jsx:589
 msgid "Add mount"
@@ -83,7 +89,7 @@ msgid "Applying new disk selection..."
 msgstr "Aplicazion de selezion dal gnûf disc..."
 
 #: src/components/review/ReviewConfiguration.jsx:190
-#: src/components/AnacondaWizardFooter.jsx:92
+#: src/components/AnacondaWizardFooter.jsx:90
 msgid "Back"
 msgstr "Indaûr"
 
@@ -168,7 +174,7 @@ msgstr "Configure la memorie di archiviazion"
 msgid "Configure storage again"
 msgstr "Configure la memorie di archiviazion"
 
-#: src/components/storage/DiskEncryption.jsx:100
+#: src/components/storage/DiskEncryption.jsx:104
 #: src/components/users/Accounts.jsx:183 src/components/users/Accounts.jsx:282
 msgid "Confirm passphrase"
 msgstr "Conferme passphrase"
@@ -177,7 +183,7 @@ msgstr "Conferme passphrase"
 msgid "Continue"
 msgstr "Continue"
 
-#: src/components/AnacondaWizardFooter.jsx:140
+#: src/components/AnacondaWizardFooter.jsx:138
 msgid "Continue installation"
 msgstr "Continue la instalazion"
 
@@ -215,6 +221,7 @@ msgstr "Destinazion"
 msgid "Detected valid storage layout:"
 msgstr ""
 
+#: src/components/review/StorageReview.jsx:114
 #: src/components/storage/MountPointMapping.jsx:565
 msgid "Device"
 msgstr "Dispositîf"
@@ -234,7 +241,7 @@ msgid "Disk configuration"
 msgstr "Configurazion disc"
 
 #: src/components/review/ReviewConfiguration.jsx:145
-#: src/components/storage/DiskEncryption.jsx:162
+#: src/components/storage/DiskEncryption.jsx:166
 msgid "Disk encryption"
 msgstr "Cifradure disc"
 
@@ -254,19 +261,25 @@ msgstr "Abilite l'account di root"
 msgid "Enabled"
 msgstr "Abilitât"
 
-#: src/components/storage/DiskEncryption.jsx:84
+#: src/components/storage/DiskEncryption.jsx:88
 msgid "Encrypt my data"
 msgstr "Cifre i miei dâts"
 
-#: src/components/storage/DiskEncryption.jsx:163
+#: src/components/storage/DiskEncryption.jsx:167
 msgid "Encrypt the selected devices?"
 msgstr "Cifrâ i dispositîfs selezionâts?"
+
+#: src/components/review/StorageReview.jsx:117
+#, fuzzy
+#| msgid "Encrypt"
+msgid "Encrypted"
+msgstr "Cifrâ"
 
 #: src/components/storage/EncryptedDevices.jsx:69
 msgid "Encrypted devices are locked"
 msgstr "I dispositîfs cifrâts a son blocâts"
 
-#: src/components/storage/DiskEncryption.jsx:118
+#: src/components/storage/DiskEncryption.jsx:122
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 "La cifradure e jude a tignî al sigûr i tiei dâts, cussì di impedî a altris "
@@ -459,6 +472,7 @@ msgstr ""
 msgid "Modify storage"
 msgstr "Modifiche memorie di archiviazion"
 
+#: src/components/review/StorageReview.jsx:113
 #: src/components/storage/MountPointMapping.jsx:564
 msgid "Mount point"
 msgstr "Pont di montaç"
@@ -484,7 +498,7 @@ msgstr ""
 msgid "Network not available. Configure the network to report the issue."
 msgstr "Rêt no disponibile. Configure la rêt par segnalâ il probleme."
 
-#: src/components/AnacondaWizardFooter.jsx:99
+#: src/components/AnacondaWizardFooter.jsx:97
 msgid "Next"
 msgstr "Indevant"
 
@@ -527,7 +541,7 @@ msgstr ""
 "finalitâts di disvilup e prove. NO stait a doprâ chest software par un "
 "cualsisei lavôr critic o par ambients di produzion."
 
-#: src/components/storage/DiskEncryption.jsx:121
+#: src/components/storage/DiskEncryption.jsx:125
 msgid ""
 "Only new partitions will be encrypted. Existing partitions will remain "
 "untouched."
@@ -543,7 +557,7 @@ msgstr "Sisteme operatîf"
 msgid "Partitions (advanced)"
 msgstr "Partizions (avanzadis)"
 
-#: src/components/storage/DiskEncryption.jsx:97
+#: src/components/storage/DiskEncryption.jsx:101
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
@@ -585,12 +599,12 @@ msgid "Proceed with installation"
 msgstr "Impussibil lâ indenant cu la instalazion."
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Quit"
 msgstr "Abandone"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 msgid "Quit installer?"
 msgstr "Bandonâ l'instaladôr?"
 
@@ -629,12 +643,12 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "Il non host al à di vê une lungjece di 64 caratars o mancul."
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Reboot"
 msgstr "Torne invie"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 msgid "Reboot system?"
 msgstr "Tornâ a inviâ il sisteme?"
 
@@ -756,6 +770,10 @@ msgstr "Mostre passphrase"
 #: src/components/Password.jsx:215
 msgid "Show password"
 msgstr "Mostre password"
+
+#: src/components/review/StorageReview.jsx:115
+msgid "Size"
+msgstr ""
 
 #: src/components/storage/EncryptedDevices.jsx:87
 msgid "Skip"
@@ -1028,7 +1046,7 @@ msgstr ""
 "Tu puedis liberâ il spazi necessari achì e lassâ che l'instaladôr al "
 "gjestissi il rest opûr configurâ a man lis partizions."
 
-#: src/components/AnacondaWizardFooter.jsx:149
+#: src/components/AnacondaWizardFooter.jsx:147
 msgid "Your progress will not be saved."
 msgstr "I progrès no vignaran salvâts."
 
@@ -1044,11 +1062,23 @@ msgstr "passaç corint"
 msgid "edit"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:59
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypt"
+msgstr "Cifrâ"
+
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypted"
+msgstr "Cifrâ"
+
+#: src/components/review/StorageReview.jsx:64
 msgid "format as $0"
 msgstr "formate come $0"
 
-#: src/components/review/StorageReview.jsx:60
+#: src/components/review/StorageReview.jsx:65
 msgid "mount"
 msgstr "monte"
 
@@ -1565,9 +1595,6 @@ msgstr "passaçs in spiete"
 #~ msgctxt "GUI|Storage"
 #~ msgid "A_utomatic"
 #~ msgstr "A_utomatiche"
-
-#~ msgid "Action"
-#~ msgstr "Azion"
 
 #~ msgid "Activation Key"
 #~ msgstr "Clâf di ativazion"
@@ -2414,9 +2441,6 @@ msgstr "passaçs in spiete"
 #~ "Abilitant l'account di root tu permetarâs di stabilî une password di root "
 #~ "e, in mût opzionâl, abilitâ l'acès al account di root su chest sistme "
 #~ "rivant di une postazion lontane/esterne."
-
-#~ msgid "Encrypt"
-#~ msgstr "Cifrâ"
 
 #~ msgctxt "GUI|Custom Partitioning|Autopart Page"
 #~ msgid "Encrypt my data."

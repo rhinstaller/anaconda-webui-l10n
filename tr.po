@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-23 02:48+0000\n"
+"POT-Creation-Date: 2024-05-24 02:48+0000\n"
 "PO-Revision-Date: 2024-05-10 02:48+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
@@ -63,6 +63,12 @@ msgstr "Hakkında"
 #: src/components/review/ReviewConfiguration.jsx:116
 msgid "Account"
 msgstr "Hesap"
+
+#: src/components/review/StorageReview.jsx:116
+#, fuzzy
+#| msgid "Action"
+msgid "Actions"
+msgstr "Eylem"
 
 #: src/components/storage/MountPointMapping.jsx:589
 msgid "Add mount"
@@ -105,7 +111,7 @@ msgid "Applying new disk selection..."
 msgstr "Yeni disk seçimi uygulanıyor..."
 
 #: src/components/review/ReviewConfiguration.jsx:190
-#: src/components/AnacondaWizardFooter.jsx:92
+#: src/components/AnacondaWizardFooter.jsx:90
 msgid "Back"
 msgstr "Geri"
 
@@ -184,7 +190,7 @@ msgstr "Depolamayı yapılandır"
 msgid "Configure storage again"
 msgstr "Depolamayı tekrar yapılandır"
 
-#: src/components/storage/DiskEncryption.jsx:100
+#: src/components/storage/DiskEncryption.jsx:104
 #: src/components/users/Accounts.jsx:183 src/components/users/Accounts.jsx:282
 msgid "Confirm passphrase"
 msgstr "Parolayı onayla"
@@ -193,7 +199,7 @@ msgstr "Parolayı onayla"
 msgid "Continue"
 msgstr "Sürdür"
 
-#: src/components/AnacondaWizardFooter.jsx:140
+#: src/components/AnacondaWizardFooter.jsx:138
 msgid "Continue installation"
 msgstr "Kuruluma devam et"
 
@@ -229,6 +235,7 @@ msgstr "Hedef"
 msgid "Detected valid storage layout:"
 msgstr "Algılanan geçerli depolama düzeni:"
 
+#: src/components/review/StorageReview.jsx:114
 #: src/components/storage/MountPointMapping.jsx:565
 msgid "Device"
 msgstr "Aygıt"
@@ -246,7 +253,7 @@ msgid "Disk configuration"
 msgstr "Disk yapılandırması"
 
 #: src/components/review/ReviewConfiguration.jsx:145
-#: src/components/storage/DiskEncryption.jsx:162
+#: src/components/storage/DiskEncryption.jsx:166
 msgid "Disk encryption"
 msgstr "Disk şifreleme"
 
@@ -266,19 +273,25 @@ msgstr "Kök hesabını etkinleştir"
 msgid "Enabled"
 msgstr "Etkin"
 
-#: src/components/storage/DiskEncryption.jsx:84
+#: src/components/storage/DiskEncryption.jsx:88
 msgid "Encrypt my data"
 msgstr "Verilerimi şifrele"
 
-#: src/components/storage/DiskEncryption.jsx:163
+#: src/components/storage/DiskEncryption.jsx:167
 msgid "Encrypt the selected devices?"
 msgstr "Seçilen aygıtlar şifrelensin mi?"
+
+#: src/components/review/StorageReview.jsx:117
+#, fuzzy
+#| msgid "Encrypt"
+msgid "Encrypted"
+msgstr "Şifrele"
 
 #: src/components/storage/EncryptedDevices.jsx:69
 msgid "Encrypted devices are locked"
 msgstr "Şifreli aygıtlar kilitli"
 
-#: src/components/storage/DiskEncryption.jsx:118
+#: src/components/storage/DiskEncryption.jsx:122
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 "Şifreleme, başkalarının erişmesini önlemek için verilerinizin güvenliğini "
@@ -465,6 +478,7 @@ msgstr ""
 msgid "Modify storage"
 msgstr "Depolamayı değiştir"
 
+#: src/components/review/StorageReview.jsx:113
 #: src/components/storage/MountPointMapping.jsx:564
 msgid "Mount point"
 msgstr "Bağlama noktası"
@@ -490,7 +504,7 @@ msgstr ""
 msgid "Network not available. Configure the network to report the issue."
 msgstr "Ağ kullanılabilir değil. Sorunu bildirmek için ağı yapılandırın."
 
-#: src/components/AnacondaWizardFooter.jsx:99
+#: src/components/AnacondaWizardFooter.jsx:97
 msgid "Next"
 msgstr "Sonraki"
 
@@ -533,7 +547,7 @@ msgstr ""
 "yazılımdır. Bu yazılımı herhangi bir önemli iş veya üretim ortamı için "
 "KULLANMAYIN."
 
-#: src/components/storage/DiskEncryption.jsx:121
+#: src/components/storage/DiskEncryption.jsx:125
 msgid ""
 "Only new partitions will be encrypted. Existing partitions will remain "
 "untouched."
@@ -548,7 +562,7 @@ msgstr "İşletim sistemi"
 msgid "Partitions (advanced)"
 msgstr "Bölümler (gelişmiş)"
 
-#: src/components/storage/DiskEncryption.jsx:97
+#: src/components/storage/DiskEncryption.jsx:101
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
@@ -588,12 +602,12 @@ msgid "Proceed with installation"
 msgstr "Kuruluma devam et"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Quit"
 msgstr "Çık"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 msgid "Quit installer?"
 msgstr "Kurucudan çıkılsın mı?"
 
@@ -630,12 +644,12 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "Gerçek ana makine adı 64 karakter veya daha az olmalıdır"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Reboot"
 msgstr "Yeniden başlat"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 msgid "Reboot system?"
 msgstr "Sistem yeniden başlatılsın mı?"
 
@@ -748,6 +762,10 @@ msgstr "Parolayı göster"
 #: src/components/Password.jsx:215
 msgid "Show password"
 msgstr "Parolayı göster"
+
+#: src/components/review/StorageReview.jsx:115
+msgid "Size"
+msgstr ""
 
 #: src/components/storage/EncryptedDevices.jsx:87
 msgid "Skip"
@@ -1009,7 +1027,7 @@ msgstr ""
 "Burada yeterince yer ayırıp geri kalanını kurucuya bırakabilir veya "
 "bölümleri elle ayarlayabilirsiniz."
 
-#: src/components/AnacondaWizardFooter.jsx:149
+#: src/components/AnacondaWizardFooter.jsx:147
 msgid "Your progress will not be saved."
 msgstr "İlerlemeniz kaydedilmeyecek."
 
@@ -1025,11 +1043,23 @@ msgstr "geçerli adım"
 msgid "edit"
 msgstr "düzenle"
 
-#: src/components/review/StorageReview.jsx:59
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypt"
+msgstr "Şifrele"
+
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypted"
+msgstr "Şifrele"
+
+#: src/components/review/StorageReview.jsx:64
 msgid "format as $0"
 msgstr "$0 olarak biçimlendir"
 
-#: src/components/review/StorageReview.jsx:60
+#: src/components/review/StorageReview.jsx:65
 msgid "mount"
 msgstr "bağla"
 
@@ -1544,9 +1574,6 @@ msgstr "bekleyen adım"
 #~ msgctxt "GUI|Storage"
 #~ msgid "A_utomatic"
 #~ msgstr "K_endiliğinden"
-
-#~ msgid "Action"
-#~ msgstr "Eylem"
 
 #~ msgid "Activation Key"
 #~ msgstr "Etkinleştirme Anahtarı"
@@ -2379,9 +2406,6 @@ msgstr "bekleyen adım"
 #~ "Kök hesabını etkinleştirmek, kök parolası belirlemenizi ve isteğe bağlı "
 #~ "olarak bu sistemdeki kök hesabına uzaktan erişimi etkinleştirmenizi "
 #~ "sağlayacaktır."
-
-#~ msgid "Encrypt"
-#~ msgstr "Şifrele"
 
 #~ msgctxt "GUI|Custom Partitioning|Autopart Page"
 #~ msgid "Encrypt my data."

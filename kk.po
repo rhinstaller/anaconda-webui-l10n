@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-23 02:48+0000\n"
+"POT-Creation-Date: 2024-05-24 02:48+0000\n"
 "PO-Revision-Date: 2023-11-06 12:19+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Kazakh <https://translate.fedoraproject.org/projects/anaconda-"
@@ -52,6 +52,12 @@ msgstr "Осы туралы"
 #| msgid "_Account"
 msgid "Account"
 msgstr "_Тіркелгі"
+
+#: src/components/review/StorageReview.jsx:116
+#, fuzzy
+#| msgid "Action"
+msgid "Actions"
+msgstr "Әрекет"
 
 #: src/components/storage/MountPointMapping.jsx:589
 msgid "Add mount"
@@ -94,7 +100,7 @@ msgid "Applying new disk selection..."
 msgstr "Жаңа диск таңдауын іске асыру..."
 
 #: src/components/review/ReviewConfiguration.jsx:190
-#: src/components/AnacondaWizardFooter.jsx:92
+#: src/components/AnacondaWizardFooter.jsx:90
 msgid "Back"
 msgstr "Артқа"
 
@@ -180,7 +186,7 @@ msgstr "Сақтау құрылғыларын баптау"
 msgid "Configure storage again"
 msgstr "Сақтау құрылғыларын баптау"
 
-#: src/components/storage/DiskEncryption.jsx:100
+#: src/components/storage/DiskEncryption.jsx:104
 #: src/components/users/Accounts.jsx:183 src/components/users/Accounts.jsx:282
 msgid "Confirm passphrase"
 msgstr "Кілттік фразаны растау"
@@ -189,7 +195,7 @@ msgstr "Кілттік фразаны растау"
 msgid "Continue"
 msgstr "Жалғастыру"
 
-#: src/components/AnacondaWizardFooter.jsx:140
+#: src/components/AnacondaWizardFooter.jsx:138
 msgid "Continue installation"
 msgstr "Орнату жалғастыру"
 
@@ -232,6 +238,7 @@ msgstr "Мақсаты"
 msgid "Detected valid storage layout:"
 msgstr ""
 
+#: src/components/review/StorageReview.jsx:114
 #: src/components/storage/MountPointMapping.jsx:565
 msgid "Device"
 msgstr "Құрылғы"
@@ -250,7 +257,7 @@ msgid "Disk configuration"
 msgstr "Диск баптаулары"
 
 #: src/components/review/ReviewConfiguration.jsx:145
-#: src/components/storage/DiskEncryption.jsx:162
+#: src/components/storage/DiskEncryption.jsx:166
 msgid "Disk encryption"
 msgstr "Диск шифрлеуі"
 
@@ -273,19 +280,25 @@ msgstr "Root тіркелгісін іск_е қосу"
 msgid "Enabled"
 msgstr "Іске қосылған"
 
-#: src/components/storage/DiskEncryption.jsx:84
+#: src/components/storage/DiskEncryption.jsx:88
 msgid "Encrypt my data"
 msgstr "Менің деректерімді шифрлеу"
 
-#: src/components/storage/DiskEncryption.jsx:163
+#: src/components/storage/DiskEncryption.jsx:167
 msgid "Encrypt the selected devices?"
 msgstr "Таңдалған құрылғыларды шифрлеу керек пе?"
+
+#: src/components/review/StorageReview.jsx:117
+#, fuzzy
+#| msgid "Encrypt"
+msgid "Encrypted"
+msgstr "Шифрлеу"
 
 #: src/components/storage/EncryptedDevices.jsx:69
 msgid "Encrypted devices are locked"
 msgstr "Шифрленген құрылғылар құлыпталған"
 
-#: src/components/storage/DiskEncryption.jsx:118
+#: src/components/storage/DiskEncryption.jsx:122
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 "Шифрлеу басқалардың оған қол жеткізуіне жол бермеу үшін деректеріңізді "
@@ -478,6 +491,7 @@ msgstr ""
 msgid "Modify storage"
 msgstr "Сақтау құрылғыларды өзгерту"
 
+#: src/components/review/StorageReview.jsx:113
 #: src/components/storage/MountPointMapping.jsx:564
 msgid "Mount point"
 msgstr "Тіркеу нүктесі"
@@ -506,7 +520,7 @@ msgstr ""
 "Желі қолжетімді емес. Мәселені хабарлау үшін жоғарыдағы панель мәзірінде "
 "желіні баптаңыз."
 
-#: src/components/AnacondaWizardFooter.jsx:99
+#: src/components/AnacondaWizardFooter.jsx:97
 msgid "Next"
 msgstr "Келесі"
 
@@ -549,7 +563,7 @@ msgstr ""
 "шығарылған бағдарламалық қамтама. Бұл бағдарламалық қамтаманы кез келген "
 "маңызды жұмыс немесе өндіріс ортасы үшін ҚОЛДАНБАҢЫЗ."
 
-#: src/components/storage/DiskEncryption.jsx:121
+#: src/components/storage/DiskEncryption.jsx:125
 msgid ""
 "Only new partitions will be encrypted. Existing partitions will remain "
 "untouched."
@@ -563,7 +577,7 @@ msgstr "Операциялық жүйе"
 msgid "Partitions (advanced)"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:97
+#: src/components/storage/DiskEncryption.jsx:101
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
@@ -605,12 +619,12 @@ msgid "Proceed with installation"
 msgstr "Орнатуды жалғастыру сәтсіз аяқталды."
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Quit"
 msgstr "Шығу"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 msgid "Quit installer?"
 msgstr "Орнатқыштан шығу керек пе?"
 
@@ -649,12 +663,12 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "Хост аты 64 не одан аз таңбадан тұруы тиіс."
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Reboot"
 msgstr "Қайта жүктеу"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 msgid "Reboot system?"
 msgstr "Жүйені қайта іске қосу керек пе?"
 
@@ -781,6 +795,10 @@ msgstr "Кілттік фразаны көрсету"
 #: src/components/Password.jsx:215
 msgid "Show password"
 msgstr "Парольді көрсету"
+
+#: src/components/review/StorageReview.jsx:115
+msgid "Size"
+msgstr ""
 
 #: src/components/storage/EncryptedDevices.jsx:87
 msgid "Skip"
@@ -1053,7 +1071,7 @@ msgid ""
 "rest or manually set up partitions."
 msgstr ""
 
-#: src/components/AnacondaWizardFooter.jsx:149
+#: src/components/AnacondaWizardFooter.jsx:147
 msgid "Your progress will not be saved."
 msgstr "Сіздің үрдісіңіз сақталмайды."
 
@@ -1069,11 +1087,23 @@ msgstr "ағымдағы қадам"
 msgid "edit"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:59
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypt"
+msgstr "Шифрлеу"
+
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypted"
+msgstr "Шифрлеу"
+
+#: src/components/review/StorageReview.jsx:64
 msgid "format as $0"
 msgstr "$0 ретінде пішімдеу"
 
-#: src/components/review/StorageReview.jsx:60
+#: src/components/review/StorageReview.jsx:65
 msgid "mount"
 msgstr "тіркеу"
 
@@ -1587,9 +1617,6 @@ msgstr "күту қадамы"
 #~ msgctxt "GUI|Storage"
 #~ msgid "A_utomatic"
 #~ msgstr "А_втоматты түрде"
-
-#~ msgid "Action"
-#~ msgstr "Әрекет"
 
 #~ msgid "Activation Key"
 #~ msgstr "Белсендіру кілті"
@@ -2433,9 +2460,6 @@ msgstr "күту қадамы"
 #~ msgstr ""
 #~ "Root тіркелгісін іске қосу root паролін орнатуды және, таңдау бойынша, "
 #~ "root тіркелгісіне қашықтан кіру мүмкіндігін іске қосады."
-
-#~ msgid "Encrypt"
-#~ msgstr "Шифрлеу"
 
 #~ msgctxt "GUI|Custom Partitioning|Autopart Page"
 #~ msgid "Encrypt my data."

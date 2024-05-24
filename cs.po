@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-23 02:48+0000\n"
+"POT-Creation-Date: 2024-05-24 02:48+0000\n"
 "PO-Revision-Date: 2024-04-02 02:38+0000\n"
 "Last-Translator: Josef Hruska <hrusjos@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/anaconda-"
@@ -81,6 +81,12 @@ msgstr "O aplikaci"
 #: src/components/review/ReviewConfiguration.jsx:116
 msgid "Account"
 msgstr "Účet"
+
+#: src/components/review/StorageReview.jsx:116
+#, fuzzy
+#| msgid "Action"
+msgid "Actions"
+msgstr "Akce"
 
 #: src/components/storage/MountPointMapping.jsx:589
 msgid "Add mount"
@@ -123,7 +129,7 @@ msgid "Applying new disk selection..."
 msgstr "Uplatňování výběru nového disku…"
 
 #: src/components/review/ReviewConfiguration.jsx:190
-#: src/components/AnacondaWizardFooter.jsx:92
+#: src/components/AnacondaWizardFooter.jsx:90
 msgid "Back"
 msgstr "Zpět"
 
@@ -207,7 +213,7 @@ msgstr "Nastavení úložiště"
 msgid "Configure storage again"
 msgstr "Znovu nastavit úložiště"
 
-#: src/components/storage/DiskEncryption.jsx:100
+#: src/components/storage/DiskEncryption.jsx:104
 #: src/components/users/Accounts.jsx:183 src/components/users/Accounts.jsx:282
 msgid "Confirm passphrase"
 msgstr "Zopakování heslové fráze"
@@ -216,7 +222,7 @@ msgstr "Zopakování heslové fráze"
 msgid "Continue"
 msgstr "Pokračovat"
 
-#: src/components/AnacondaWizardFooter.jsx:140
+#: src/components/AnacondaWizardFooter.jsx:138
 msgid "Continue installation"
 msgstr "Pokračovat v instalaci"
 
@@ -252,6 +258,7 @@ msgstr "Cíl"
 msgid "Detected valid storage layout:"
 msgstr "Nalezeno platné rozvržení úložiště:"
 
+#: src/components/review/StorageReview.jsx:114
 #: src/components/storage/MountPointMapping.jsx:565
 msgid "Device"
 msgstr "Zařízení"
@@ -270,7 +277,7 @@ msgid "Disk configuration"
 msgstr "Nastavení jednotky"
 
 #: src/components/review/ReviewConfiguration.jsx:145
-#: src/components/storage/DiskEncryption.jsx:162
+#: src/components/storage/DiskEncryption.jsx:166
 msgid "Disk encryption"
 msgstr "Šifrování disku"
 
@@ -290,19 +297,25 @@ msgstr "Povolit účet správce"
 msgid "Enabled"
 msgstr "Zapnuto"
 
-#: src/components/storage/DiskEncryption.jsx:84
+#: src/components/storage/DiskEncryption.jsx:88
 msgid "Encrypt my data"
 msgstr "Šifrovat má data"
 
-#: src/components/storage/DiskEncryption.jsx:163
+#: src/components/storage/DiskEncryption.jsx:167
 msgid "Encrypt the selected devices?"
 msgstr "Šifrovat vybraná zařízení?"
+
+#: src/components/review/StorageReview.jsx:117
+#, fuzzy
+#| msgid "Encrypt"
+msgid "Encrypted"
+msgstr "Šifrovat"
 
 #: src/components/storage/EncryptedDevices.jsx:69
 msgid "Encrypted devices are locked"
 msgstr "Šifrovaná zařízení jsou uzamčená"
 
-#: src/components/storage/DiskEncryption.jsx:118
+#: src/components/storage/DiskEncryption.jsx:122
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 "Šifrování pomáhá zabezpečit vaše data a zabránit ostatním v přístupu k nim."
@@ -490,6 +503,7 @@ msgstr ""
 msgid "Modify storage"
 msgstr "Upravit úložiště"
 
+#: src/components/review/StorageReview.jsx:113
 #: src/components/storage/MountPointMapping.jsx:564
 msgid "Mount point"
 msgstr "Přípojný bod"
@@ -515,7 +529,7 @@ msgstr ""
 msgid "Network not available. Configure the network to report the issue."
 msgstr "Síť není k dispozici. Aby bylo možné chybu nahlásit, nastavte síť."
 
-#: src/components/AnacondaWizardFooter.jsx:99
+#: src/components/AnacondaWizardFooter.jsx:97
 msgid "Next"
 msgstr "Další"
 
@@ -558,7 +572,7 @@ msgstr ""
 "vývoje a testování. Tento software NEpoužívejte pro jakoukoli kritickou "
 "práci nebo pro produkční prostředí."
 
-#: src/components/storage/DiskEncryption.jsx:121
+#: src/components/storage/DiskEncryption.jsx:125
 msgid ""
 "Only new partitions will be encrypted. Existing partitions will remain "
 "untouched."
@@ -574,7 +588,7 @@ msgstr "Operační systém"
 msgid "Partitions (advanced)"
 msgstr "Rozdělení disku (pokročilé)"
 
-#: src/components/storage/DiskEncryption.jsx:97
+#: src/components/storage/DiskEncryption.jsx:101
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
@@ -614,12 +628,12 @@ msgid "Proceed with installation"
 msgstr "Pokračovat v instalaci"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Quit"
 msgstr "Ukončit"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 msgid "Quit installer?"
 msgstr "Ukončit instalátor?"
 
@@ -656,12 +670,12 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "Je třeba, aby délka názvu stroje nepřesahovala 64 znaků."
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Reboot"
 msgstr "Restartovat"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 msgid "Reboot system?"
 msgstr "Restartovat systém?"
 
@@ -780,6 +794,10 @@ msgstr "Zobrazit heslovou frázi"
 #: src/components/Password.jsx:215
 msgid "Show password"
 msgstr "Zobrazit heslo"
+
+#: src/components/review/StorageReview.jsx:115
+msgid "Size"
+msgstr ""
 
 #: src/components/storage/EncryptedDevices.jsx:87
 msgid "Skip"
@@ -1043,7 +1061,7 @@ msgstr ""
 "instalační program, ať se postará o zbývající části, nebo ručně nastavit "
 "rozdělení disku."
 
-#: src/components/AnacondaWizardFooter.jsx:149
+#: src/components/AnacondaWizardFooter.jsx:147
 msgid "Your progress will not be saved."
 msgstr "To, co jste doposud udělali, nebude uloženo."
 
@@ -1059,11 +1077,23 @@ msgstr "stávající krok"
 msgid "edit"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:59
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypt"
+msgstr "Šifrovat"
+
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypted"
+msgstr "Šifrovat"
+
+#: src/components/review/StorageReview.jsx:64
 msgid "format as $0"
 msgstr "vytvořit souborový systém $0"
 
-#: src/components/review/StorageReview.jsx:60
+#: src/components/review/StorageReview.jsx:65
 msgid "mount"
 msgstr "připojení"
 
@@ -1590,9 +1620,6 @@ msgstr "čekající krok"
 #~ msgctxt "GUI|Storage"
 #~ msgid "A_utomatic"
 #~ msgstr "A_utomaticky"
-
-#~ msgid "Action"
-#~ msgstr "Akce"
 
 #~ msgid "Activation Key"
 #~ msgstr "Aktivační klíč"
@@ -2431,9 +2458,6 @@ msgstr "čekající krok"
 #~ msgstr ""
 #~ "Povolení účtu správce (root) vám umožní nastavit heslo uživatele root a "
 #~ "volitelně také povolit vzdálený přístup na účet root v tomto systému."
-
-#~ msgid "Encrypt"
-#~ msgstr "Šifrovat"
 
 #~ msgctxt "GUI|Custom Partitioning|Autopart Page"
 #~ msgid "Encrypt my data."

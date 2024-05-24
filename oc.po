@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 36.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-23 02:48+0000\n"
+"POT-Creation-Date: 2024-05-24 02:48+0000\n"
 "PO-Revision-Date: 2023-11-06 12:20+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Occitan <https://translate.fedoraproject.org/projects/"
@@ -47,6 +47,12 @@ msgstr ""
 #| msgid "_Account"
 msgid "Account"
 msgstr "_Compte"
+
+#: src/components/review/StorageReview.jsx:116
+#, fuzzy
+#| msgid "Action"
+msgid "Actions"
+msgstr "Accion"
 
 #: src/components/storage/MountPointMapping.jsx:589
 #, fuzzy
@@ -91,7 +97,7 @@ msgid "Applying new disk selection..."
 msgstr ""
 
 #: src/components/review/ReviewConfiguration.jsx:190
-#: src/components/AnacondaWizardFooter.jsx:92
+#: src/components/AnacondaWizardFooter.jsx:90
 msgid "Back"
 msgstr ""
 
@@ -176,7 +182,7 @@ msgstr "Frasa secreta"
 msgid "Configure storage again"
 msgstr "Frasa secreta"
 
-#: src/components/storage/DiskEncryption.jsx:100
+#: src/components/storage/DiskEncryption.jsx:104
 #: src/components/users/Accounts.jsx:183 src/components/users/Accounts.jsx:282
 #, fuzzy
 msgid "Confirm passphrase"
@@ -186,7 +192,7 @@ msgstr "Frasa secreta"
 msgid "Continue"
 msgstr "Contunhar"
 
-#: src/components/AnacondaWizardFooter.jsx:140
+#: src/components/AnacondaWizardFooter.jsx:138
 #, fuzzy
 msgid "Continue installation"
 msgstr "Installacion"
@@ -230,6 +236,7 @@ msgstr "Descripcion"
 msgid "Detected valid storage layout:"
 msgstr ""
 
+#: src/components/review/StorageReview.jsx:114
 #: src/components/storage/MountPointMapping.jsx:565
 msgid "Device"
 msgstr "Aparelh"
@@ -248,7 +255,7 @@ msgid "Disk configuration"
 msgstr "URL de _configuracion"
 
 #: src/components/review/ReviewConfiguration.jsx:145
-#: src/components/storage/DiskEncryption.jsx:162
+#: src/components/storage/DiskEncryption.jsx:166
 #, fuzzy
 msgid "Disk encryption"
 msgstr "Chiframent"
@@ -270,20 +277,26 @@ msgstr ""
 msgid "Enabled"
 msgstr "Activat"
 
-#: src/components/storage/DiskEncryption.jsx:84
+#: src/components/storage/DiskEncryption.jsx:88
 #, fuzzy
 msgid "Encrypt my data"
 msgstr "Chifrar"
 
-#: src/components/storage/DiskEncryption.jsx:163
+#: src/components/storage/DiskEncryption.jsx:167
 msgid "Encrypt the selected devices?"
 msgstr ""
+
+#: src/components/review/StorageReview.jsx:117
+#, fuzzy
+#| msgid "Encrypt"
+msgid "Encrypted"
+msgstr "Chifrar"
 
 #: src/components/storage/EncryptedDevices.jsx:69
 msgid "Encrypted devices are locked"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:118
+#: src/components/storage/DiskEncryption.jsx:122
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 
@@ -482,6 +495,7 @@ msgstr ""
 msgid "Modify storage"
 msgstr ""
 
+#: src/components/review/StorageReview.jsx:113
 #: src/components/storage/MountPointMapping.jsx:564
 msgid "Mount point"
 msgstr "Punt de montatge"
@@ -506,7 +520,7 @@ msgstr ""
 msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 
-#: src/components/AnacondaWizardFooter.jsx:99
+#: src/components/AnacondaWizardFooter.jsx:97
 msgid "Next"
 msgstr ""
 
@@ -550,7 +564,7 @@ msgid ""
 "production environments."
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:121
+#: src/components/storage/DiskEncryption.jsx:125
 msgid ""
 "Only new partitions will be encrypted. Existing partitions will remain "
 "untouched."
@@ -564,7 +578,7 @@ msgstr ""
 msgid "Partitions (advanced)"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:97
+#: src/components/storage/DiskEncryption.jsx:101
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
@@ -607,12 +621,12 @@ msgid "Proceed with installation"
 msgstr "Fracàs de l’installacion."
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Quit"
 msgstr "Sortir"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 #, fuzzy
 msgid "Quit installer?"
 msgstr "_Quitar l’installador"
@@ -650,12 +664,12 @@ msgid "Real hostname must be 64 characters or less"
 msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Reboot"
 msgstr ""
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 #, fuzzy
 msgid "Reboot system?"
 msgstr "sistèma de fichièrs /boot"
@@ -778,6 +792,10 @@ msgstr "Frasa secreta"
 #, fuzzy
 msgid "Show password"
 msgstr "Senhal del grop"
+
+#: src/components/review/StorageReview.jsx:115
+msgid "Size"
+msgstr ""
 
 #: src/components/storage/EncryptedDevices.jsx:87
 msgid "Skip"
@@ -1031,7 +1049,7 @@ msgid ""
 "rest or manually set up partitions."
 msgstr ""
 
-#: src/components/AnacondaWizardFooter.jsx:149
+#: src/components/AnacondaWizardFooter.jsx:147
 msgid "Your progress will not be saved."
 msgstr ""
 
@@ -1048,11 +1066,23 @@ msgstr ""
 msgid "edit"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:59
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypt"
+msgstr "Chifrar"
+
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypted"
+msgstr "Chifrar"
+
+#: src/components/review/StorageReview.jsx:64
 msgid "format as $0"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:60
+#: src/components/review/StorageReview.jsx:65
 #, fuzzy
 msgid "mount"
 msgstr "Apondre una disposicion"
@@ -1090,9 +1120,6 @@ msgstr ""
 #~ msgctxt "GUI|Software Source"
 #~ msgid "A_dd"
 #~ msgstr "Apon_dre"
-
-#~ msgid "Action"
-#~ msgstr "Accion"
 
 #~ msgid "Add"
 #~ msgstr "Ajustar"
@@ -1259,9 +1286,6 @@ msgstr ""
 #~| msgid "NTP servers:"
 #~ msgid "Empty server"
 #~ msgstr "Servidor NTP :"
-
-#~ msgid "Encrypt"
-#~ msgstr "Chifrar"
 
 #, fuzzy
 #~| msgid "Encrypt"

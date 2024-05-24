@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-23 02:48+0000\n"
+"POT-Creation-Date: 2024-05-24 02:48+0000\n"
 "PO-Revision-Date: 2024-05-10 02:48+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -73,6 +73,12 @@ msgstr "정보"
 #: src/components/review/ReviewConfiguration.jsx:116
 msgid "Account"
 msgstr "계정"
+
+#: src/components/review/StorageReview.jsx:116
+#, fuzzy
+#| msgid "Action"
+msgid "Actions"
+msgstr "동작"
 
 #: src/components/storage/MountPointMapping.jsx:589
 msgid "Add mount"
@@ -115,7 +121,7 @@ msgid "Applying new disk selection..."
 msgstr "신규 디스크 선택을 적용 중..."
 
 #: src/components/review/ReviewConfiguration.jsx:190
-#: src/components/AnacondaWizardFooter.jsx:92
+#: src/components/AnacondaWizardFooter.jsx:90
 msgid "Back"
 msgstr "뒤로"
 
@@ -192,7 +198,7 @@ msgstr "저장소 구성"
 msgid "Configure storage again"
 msgstr "저장소를 다시 구성합니다"
 
-#: src/components/storage/DiskEncryption.jsx:100
+#: src/components/storage/DiskEncryption.jsx:104
 #: src/components/users/Accounts.jsx:183 src/components/users/Accounts.jsx:282
 msgid "Confirm passphrase"
 msgstr "암호문을 확인합니다"
@@ -201,7 +207,7 @@ msgstr "암호문을 확인합니다"
 msgid "Continue"
 msgstr "진행"
 
-#: src/components/AnacondaWizardFooter.jsx:140
+#: src/components/AnacondaWizardFooter.jsx:138
 msgid "Continue installation"
 msgstr "설치를 계속합니다"
 
@@ -237,6 +243,7 @@ msgstr "대상"
 msgid "Detected valid storage layout:"
 msgstr "탐지된 유효 저장소 배열:"
 
+#: src/components/review/StorageReview.jsx:114
 #: src/components/storage/MountPointMapping.jsx:565
 msgid "Device"
 msgstr "장치"
@@ -254,7 +261,7 @@ msgid "Disk configuration"
 msgstr "장치 구성"
 
 #: src/components/review/ReviewConfiguration.jsx:145
-#: src/components/storage/DiskEncryption.jsx:162
+#: src/components/storage/DiskEncryption.jsx:166
 msgid "Disk encryption"
 msgstr "디스크 암호화"
 
@@ -274,19 +281,25 @@ msgstr "root 계정 활성화"
 msgid "Enabled"
 msgstr "활성화됨"
 
-#: src/components/storage/DiskEncryption.jsx:84
+#: src/components/storage/DiskEncryption.jsx:88
 msgid "Encrypt my data"
 msgstr "자료를 암호화합니다"
 
-#: src/components/storage/DiskEncryption.jsx:163
+#: src/components/storage/DiskEncryption.jsx:167
 msgid "Encrypt the selected devices?"
 msgstr "선택한 장치를 암호화할까요?"
+
+#: src/components/review/StorageReview.jsx:117
+#, fuzzy
+#| msgid "Encrypt"
+msgid "Encrypted"
+msgstr "암호화"
 
 #: src/components/storage/EncryptedDevices.jsx:69
 msgid "Encrypted devices are locked"
 msgstr "암호화된 장치가 잠금 되었습니다"
 
-#: src/components/storage/DiskEncryption.jsx:118
+#: src/components/storage/DiskEncryption.jsx:122
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 "암호화는 다른 사람이 접근하지 못하도록 자신의 자료를 보호하는 데 도움이 됩니"
@@ -468,6 +481,7 @@ msgstr "상위 장치와 하위 장치 재-초기화 선택이 일치하지 않�
 msgid "Modify storage"
 msgstr "저장소를 수정합니다"
 
+#: src/components/review/StorageReview.jsx:113
 #: src/components/storage/MountPointMapping.jsx:564
 msgid "Mount point"
 msgstr "적재 지점"
@@ -493,7 +507,7 @@ msgstr ""
 msgid "Network not available. Configure the network to report the issue."
 msgstr "네트워크를 사용 할 수 없습니다. 네트워크를 구성하고 문제를 보고하세요."
 
-#: src/components/AnacondaWizardFooter.jsx:99
+#: src/components/AnacondaWizardFooter.jsx:97
 msgid "Next"
 msgstr "다음"
 
@@ -535,7 +549,7 @@ msgstr ""
 "주의: 이 배포판은 개발과 시험 목적을 위해서만 의도된 사전-출시된 것입니다. 심"
 "각한 작업 또는 생산환경에서 이 소프트웨를 사용하지 않도록 합니다."
 
-#: src/components/storage/DiskEncryption.jsx:121
+#: src/components/storage/DiskEncryption.jsx:125
 msgid ""
 "Only new partitions will be encrypted. Existing partitions will remain "
 "untouched."
@@ -549,7 +563,7 @@ msgstr "운영 체제"
 msgid "Partitions (advanced)"
 msgstr "파티션 (고급)"
 
-#: src/components/storage/DiskEncryption.jsx:97
+#: src/components/storage/DiskEncryption.jsx:101
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
@@ -589,12 +603,12 @@ msgid "Proceed with installation"
 msgstr "설치로 진행합니다"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Quit"
 msgstr "종료"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 msgid "Quit installer?"
 msgstr "설치자 종료?"
 
@@ -631,12 +645,12 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "실제 호스트이름은 길이로 64 자 이하의 문자여야 합니다"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Reboot"
 msgstr "재시작"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 msgid "Reboot system?"
 msgstr "시스템 재시작?"
 
@@ -749,6 +763,10 @@ msgstr "암호문을 표시합니다"
 #: src/components/Password.jsx:215
 msgid "Show password"
 msgstr "비밀번호 표시"
+
+#: src/components/review/StorageReview.jsx:115
+msgid "Size"
+msgstr ""
 
 #: src/components/storage/EncryptedDevices.jsx:87
 msgid "Skip"
@@ -1004,7 +1022,7 @@ msgstr ""
 "당신은 여기에서 충분한 공간을 확보하고 설치자가 잔여 부분을 다루거나 파티션"
 "을 수동으로 설정 할 수 있습니다."
 
-#: src/components/AnacondaWizardFooter.jsx:149
+#: src/components/AnacondaWizardFooter.jsx:147
 msgid "Your progress will not be saved."
 msgstr "당신의 진행 상황은 저장되지 않습니다."
 
@@ -1020,11 +1038,23 @@ msgstr "현재 단계"
 msgid "edit"
 msgstr "편집"
 
-#: src/components/review/StorageReview.jsx:59
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypt"
+msgstr "암호화"
+
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypted"
+msgstr "암호화"
+
+#: src/components/review/StorageReview.jsx:64
 msgid "format as $0"
 msgstr "$0로 초기화"
 
-#: src/components/review/StorageReview.jsx:60
+#: src/components/review/StorageReview.jsx:65
 msgid "mount"
 msgstr "적재"
 
@@ -1524,9 +1554,6 @@ msgstr "보류 단계"
 #~ msgctxt "GUI|Storage"
 #~ msgid "A_utomatic"
 #~ msgstr "자동 설정(_A)"
-
-#~ msgid "Action"
-#~ msgstr "동작"
 
 #~ msgid "Activation Key"
 #~ msgstr "활성키"
@@ -2355,9 +2382,6 @@ msgstr "보류 단계"
 #~ msgstr ""
 #~ "root 계정을 활성화 하는 것은 당신에게 root 비밀번호를 설정하도록 하고 추가"
 #~ "적으로 이 시스템에서 원격 접근을 root 계정으로 접근 할 수 있도록 합니다."
-
-#~ msgid "Encrypt"
-#~ msgstr "암호화"
 
 #~ msgctxt "GUI|Custom Partitioning|Autopart Page"
 #~ msgid "Encrypt my data."

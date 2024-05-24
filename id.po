@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-23 02:48+0000\n"
+"POT-Creation-Date: 2024-05-24 02:48+0000\n"
 "PO-Revision-Date: 2024-05-21 02:47+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
@@ -69,6 +69,12 @@ msgstr "Ihwal"
 #: src/components/review/ReviewConfiguration.jsx:116
 msgid "Account"
 msgstr "Akun"
+
+#: src/components/review/StorageReview.jsx:116
+#, fuzzy
+#| msgid "Action"
+msgid "Actions"
+msgstr "Aksi"
 
 #: src/components/storage/MountPointMapping.jsx:589
 msgid "Add mount"
@@ -111,7 +117,7 @@ msgid "Applying new disk selection..."
 msgstr "Menerapkan pilihan disk baru..."
 
 #: src/components/review/ReviewConfiguration.jsx:190
-#: src/components/AnacondaWizardFooter.jsx:92
+#: src/components/AnacondaWizardFooter.jsx:90
 msgid "Back"
 msgstr "Mundur"
 
@@ -191,7 +197,7 @@ msgstr "Konfigurasikan penyimpanan"
 msgid "Configure storage again"
 msgstr "Konfigurasikan penyimpanan lagi"
 
-#: src/components/storage/DiskEncryption.jsx:100
+#: src/components/storage/DiskEncryption.jsx:104
 #: src/components/users/Accounts.jsx:183 src/components/users/Accounts.jsx:282
 msgid "Confirm passphrase"
 msgstr "Konfirmasi frasa sandi"
@@ -200,7 +206,7 @@ msgstr "Konfirmasi frasa sandi"
 msgid "Continue"
 msgstr "Lanjutkan"
 
-#: src/components/AnacondaWizardFooter.jsx:140
+#: src/components/AnacondaWizardFooter.jsx:138
 msgid "Continue installation"
 msgstr "Lanjutkan instalasi"
 
@@ -236,6 +242,7 @@ msgstr "Tujuan"
 msgid "Detected valid storage layout:"
 msgstr "Tata letak penyimpanan valid yang terdeteksi:"
 
+#: src/components/review/StorageReview.jsx:114
 #: src/components/storage/MountPointMapping.jsx:565
 msgid "Device"
 msgstr "Peranti"
@@ -253,7 +260,7 @@ msgid "Disk configuration"
 msgstr "Konfigurasi disk"
 
 #: src/components/review/ReviewConfiguration.jsx:145
-#: src/components/storage/DiskEncryption.jsx:162
+#: src/components/storage/DiskEncryption.jsx:166
 msgid "Disk encryption"
 msgstr "Enkripsi disk"
 
@@ -273,19 +280,25 @@ msgstr "Fungsikan akun root"
 msgid "Enabled"
 msgstr "Difungsikan"
 
-#: src/components/storage/DiskEncryption.jsx:84
+#: src/components/storage/DiskEncryption.jsx:88
 msgid "Encrypt my data"
 msgstr "Enkripsikan data saya"
 
-#: src/components/storage/DiskEncryption.jsx:163
+#: src/components/storage/DiskEncryption.jsx:167
 msgid "Encrypt the selected devices?"
 msgstr "Enkripsikan perangkat yang dipilih?"
+
+#: src/components/review/StorageReview.jsx:117
+#, fuzzy
+#| msgid "Encrypt"
+msgid "Encrypted"
+msgstr "Enkrip"
 
 #: src/components/storage/EncryptedDevices.jsx:69
 msgid "Encrypted devices are locked"
 msgstr "Perangkat terenkripsi itu terkunci"
 
-#: src/components/storage/DiskEncryption.jsx:118
+#: src/components/storage/DiskEncryption.jsx:122
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 "Enkripsi membantu mengamankan data Anda, untuk mencegah orang lain "
@@ -473,6 +486,7 @@ msgstr ""
 msgid "Modify storage"
 msgstr "Ubah penyimpanan"
 
+#: src/components/review/StorageReview.jsx:113
 #: src/components/storage/MountPointMapping.jsx:564
 msgid "Mount point"
 msgstr "Titik kait"
@@ -499,7 +513,7 @@ msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 "Jaringan tidak tersedia. Konfigurasikan jaringan untuk melaporkan masalah."
 
-#: src/components/AnacondaWizardFooter.jsx:99
+#: src/components/AnacondaWizardFooter.jsx:97
 msgid "Next"
 msgstr "Selanjutnya"
 
@@ -542,7 +556,7 @@ msgstr ""
 "untuk tujuan pengembangan dan pengujian. JANGAN gunakan perangkat lunak ini "
 "untuk pekerjaan penting apa pun atau untuk lingkungan produksi."
 
-#: src/components/storage/DiskEncryption.jsx:121
+#: src/components/storage/DiskEncryption.jsx:125
 msgid ""
 "Only new partitions will be encrypted. Existing partitions will remain "
 "untouched."
@@ -558,7 +572,7 @@ msgstr "Sistem operasi"
 msgid "Partitions (advanced)"
 msgstr "Partisi (tingkat lanjut)"
 
-#: src/components/storage/DiskEncryption.jsx:97
+#: src/components/storage/DiskEncryption.jsx:101
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
@@ -598,12 +612,12 @@ msgid "Proceed with installation"
 msgstr "Lanjutkan dengan instalasi"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Quit"
 msgstr "Keluar"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 msgid "Quit installer?"
 msgstr "Keluar pemasang?"
 
@@ -640,12 +654,12 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "Panjang nama host nyata mesti 64 karakter atau kurang"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Reboot"
 msgstr "Boot ulang"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 msgid "Reboot system?"
 msgstr "Boot ulang sistem?"
 
@@ -758,6 +772,10 @@ msgstr "Tampilkan frasa sandi"
 #: src/components/Password.jsx:215
 msgid "Show password"
 msgstr "Tampilkan kata sandi"
+
+#: src/components/review/StorageReview.jsx:115
+msgid "Size"
+msgstr ""
 
 #: src/components/storage/EncryptedDevices.jsx:87
 msgid "Skip"
@@ -1019,7 +1037,7 @@ msgstr ""
 "Anda dapat membebaskan cukup ruang di sini dan membiarkan pemasang menangani "
 "sisanya atau secara manual menyiapkan partisi."
 
-#: src/components/AnacondaWizardFooter.jsx:149
+#: src/components/AnacondaWizardFooter.jsx:147
 msgid "Your progress will not be saved."
 msgstr "Kemajuan Anda tidak akan disimpan."
 
@@ -1035,11 +1053,23 @@ msgstr "langkah kini"
 msgid "edit"
 msgstr "sunting"
 
-#: src/components/review/StorageReview.jsx:59
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypt"
+msgstr "Enkrip"
+
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypted"
+msgstr "Enkrip"
+
+#: src/components/review/StorageReview.jsx:64
 msgid "format as $0"
 msgstr "format sebagai $0"
 
-#: src/components/review/StorageReview.jsx:60
+#: src/components/review/StorageReview.jsx:65
 msgid "mount"
 msgstr "kait"
 
@@ -1556,9 +1586,6 @@ msgstr "langkah tertunda"
 #~ msgctxt "GUI|Storage"
 #~ msgid "A_utomatic"
 #~ msgstr "_Otomatis"
-
-#~ msgid "Action"
-#~ msgstr "Aksi"
 
 #~ msgid "Activation Key"
 #~ msgstr "Kunci Aktivasi"
@@ -2398,9 +2425,6 @@ msgstr "langkah tertunda"
 #~ "Memfungsikan akun root akan mengizinkan Anda menata kata sandi root dan "
 #~ "secara opsional memfungsikan akses jarak jauh ke akun root pada sistem "
 #~ "ini."
-
-#~ msgid "Encrypt"
-#~ msgstr "Enkrip"
 
 #~ msgctxt "GUI|Custom Partitioning|Autopart Page"
 #~ msgid "Encrypt my data."

@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-23 02:48+0000\n"
+"POT-Creation-Date: 2024-05-24 02:48+0000\n"
 "PO-Revision-Date: 2023-11-06 12:15+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Bulgarian <https://translate.fedoraproject.org/projects/"
@@ -64,6 +64,12 @@ msgstr ""
 #, fuzzy
 msgid "Account"
 msgstr "Добавяне подредба"
+
+#: src/components/review/StorageReview.jsx:116
+#, fuzzy
+#| msgid "Action"
+msgid "Actions"
+msgstr "Действие"
 
 #: src/components/storage/MountPointMapping.jsx:589
 #, fuzzy
@@ -110,7 +116,7 @@ msgid "Applying new disk selection..."
 msgstr ""
 
 #: src/components/review/ReviewConfiguration.jsx:190
-#: src/components/AnacondaWizardFooter.jsx:92
+#: src/components/AnacondaWizardFooter.jsx:90
 msgid "Back"
 msgstr "Назад"
 
@@ -197,7 +203,7 @@ msgstr "Конфигуриране на уст-ва за съхранение (�
 msgid "Configure storage again"
 msgstr "Конфигуриране на уст-ва за съхранение (дискове)"
 
-#: src/components/storage/DiskEncryption.jsx:100
+#: src/components/storage/DiskEncryption.jsx:104
 #: src/components/users/Accounts.jsx:183 src/components/users/Accounts.jsx:282
 #, fuzzy
 msgid "Confirm passphrase"
@@ -207,7 +213,7 @@ msgstr "П_аролата отново"
 msgid "Continue"
 msgstr "Продължение"
 
-#: src/components/AnacondaWizardFooter.jsx:140
+#: src/components/AnacondaWizardFooter.jsx:138
 #, fuzzy
 msgid "Continue installation"
 msgstr "Започ_ни инсталирането"
@@ -251,6 +257,7 @@ msgstr "Описание"
 msgid "Detected valid storage layout:"
 msgstr ""
 
+#: src/components/review/StorageReview.jsx:114
 #: src/components/storage/MountPointMapping.jsx:565
 msgid "Device"
 msgstr "Устройство"
@@ -270,7 +277,7 @@ msgid "Disk configuration"
 msgstr "Конфигурация на устройство"
 
 #: src/components/review/ReviewConfiguration.jsx:145
-#: src/components/storage/DiskEncryption.jsx:162
+#: src/components/storage/DiskEncryption.jsx:166
 #, fuzzy
 msgid "Disk encryption"
 msgstr "Криптиране"
@@ -293,20 +300,26 @@ msgstr ""
 msgid "Enabled"
 msgstr "Разрешен"
 
-#: src/components/storage/DiskEncryption.jsx:84
+#: src/components/storage/DiskEncryption.jsx:88
 #, fuzzy
 msgid "Encrypt my data"
 msgstr "Криптирай"
 
-#: src/components/storage/DiskEncryption.jsx:163
+#: src/components/storage/DiskEncryption.jsx:167
 msgid "Encrypt the selected devices?"
 msgstr ""
+
+#: src/components/review/StorageReview.jsx:117
+#, fuzzy
+#| msgid "Encrypt"
+msgid "Encrypted"
+msgstr "Криптирай"
 
 #: src/components/storage/EncryptedDevices.jsx:69
 msgid "Encrypted devices are locked"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:118
+#: src/components/storage/DiskEncryption.jsx:122
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 
@@ -513,6 +526,7 @@ msgstr ""
 msgid "Modify storage"
 msgstr "Про_мяна използването на дисковете"
 
+#: src/components/review/StorageReview.jsx:113
 #: src/components/storage/MountPointMapping.jsx:564
 msgid "Mount point"
 msgstr "Точка на монтиране"
@@ -538,7 +552,7 @@ msgstr ""
 msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 
-#: src/components/AnacondaWizardFooter.jsx:99
+#: src/components/AnacondaWizardFooter.jsx:97
 msgid "Next"
 msgstr ""
 
@@ -584,7 +598,7 @@ msgid ""
 "production environments."
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:121
+#: src/components/storage/DiskEncryption.jsx:125
 msgid ""
 "Only new partitions will be encrypted. Existing partitions will remain "
 "untouched."
@@ -599,7 +613,7 @@ msgstr "Създаване на потребители"
 msgid "Partitions (advanced)"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:97
+#: src/components/storage/DiskEncryption.jsx:101
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
@@ -643,12 +657,12 @@ msgid "Proceed with installation"
 msgstr "Неуспех при задаване източника за инсталиране"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Quit"
 msgstr "Изход"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 #, fuzzy
 msgid "Quit installer?"
 msgstr "_Изход от инсталатора"
@@ -687,12 +701,12 @@ msgid "Real hostname must be 64 characters or less"
 msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Reboot"
 msgstr ""
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 #, fuzzy
 msgid "Reboot system?"
 msgstr "_Рестартиране"
@@ -821,6 +835,10 @@ msgstr "П_аролата отново"
 #, fuzzy
 msgid "Show password"
 msgstr "Парола на root"
+
+#: src/components/review/StorageReview.jsx:115
+msgid "Size"
+msgstr ""
 
 #: src/components/storage/EncryptedDevices.jsx:87
 msgid "Skip"
@@ -1096,7 +1114,7 @@ msgid ""
 "rest or manually set up partitions."
 msgstr ""
 
-#: src/components/AnacondaWizardFooter.jsx:149
+#: src/components/AnacondaWizardFooter.jsx:147
 msgid "Your progress will not be saved."
 msgstr ""
 
@@ -1113,11 +1131,23 @@ msgstr ""
 msgid "edit"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:59
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypt"
+msgstr "Криптирай"
+
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypted"
+msgstr "Криптирай"
+
+#: src/components/review/StorageReview.jsx:64
 msgid "format as $0"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:60
+#: src/components/review/StorageReview.jsx:65
 #, fuzzy
 msgid "mount"
 msgstr "Добавяне подредба"
@@ -1618,9 +1648,6 @@ msgstr ""
 #~ msgctxt "GUI|Storage"
 #~ msgid "A_utomatic"
 #~ msgstr "Автоматично"
-
-#~ msgid "Action"
-#~ msgstr "Действие"
 
 #~ msgid "Activation Key"
 #~ msgstr "Активиращ Ключ"
@@ -2350,9 +2377,6 @@ msgstr ""
 #~| msgid "NTP servers:"
 #~ msgid "Empty server"
 #~ msgstr "NTP сървъри:"
-
-#~ msgid "Encrypt"
-#~ msgstr "Криптирай"
 
 #, fuzzy
 #~| msgid "Encrypt"

@@ -38,7 +38,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-23 02:48+0000\n"
+"POT-Creation-Date: 2024-05-24 02:48+0000\n"
 "PO-Revision-Date: 2023-11-06 12:21+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.fedoraproject.org/projects/"
@@ -81,6 +81,12 @@ msgstr ""
 #| msgid "_Account"
 msgid "Account"
 msgstr "Cont_a"
+
+#: src/components/review/StorageReview.jsx:116
+#, fuzzy
+#| msgid "Action"
+msgid "Actions"
+msgstr "Acção"
 
 #: src/components/storage/MountPointMapping.jsx:589
 #, fuzzy
@@ -126,7 +132,7 @@ msgid "Applying new disk selection..."
 msgstr ""
 
 #: src/components/review/ReviewConfiguration.jsx:190
-#: src/components/AnacondaWizardFooter.jsx:92
+#: src/components/AnacondaWizardFooter.jsx:90
 msgid "Back"
 msgstr ""
 
@@ -224,7 +230,7 @@ msgstr "A definir o armazenamento"
 msgid "Configure storage again"
 msgstr "A definir o armazenamento"
 
-#: src/components/storage/DiskEncryption.jsx:100
+#: src/components/storage/DiskEncryption.jsx:104
 #: src/components/users/Accounts.jsx:183 src/components/users/Accounts.jsx:282
 #, fuzzy
 msgid "Confirm passphrase"
@@ -234,7 +240,7 @@ msgstr "_Confirmar palavra-passe"
 msgid "Continue"
 msgstr "Continuar"
 
-#: src/components/AnacondaWizardFooter.jsx:140
+#: src/components/AnacondaWizardFooter.jsx:138
 #, fuzzy
 msgid "Continue installation"
 msgstr "A correr os guiães pré-instalação"
@@ -280,6 +286,7 @@ msgstr "Descrição"
 msgid "Detected valid storage layout:"
 msgstr ""
 
+#: src/components/review/StorageReview.jsx:114
 #: src/components/storage/MountPointMapping.jsx:565
 msgid "Device"
 msgstr "Dispositivo"
@@ -298,7 +305,7 @@ msgid "Disk configuration"
 msgstr "Configuração de dispositivo"
 
 #: src/components/review/ReviewConfiguration.jsx:145
-#: src/components/storage/DiskEncryption.jsx:162
+#: src/components/storage/DiskEncryption.jsx:166
 #, fuzzy
 msgid "Disk encryption"
 msgstr "Cifrado"
@@ -323,20 +330,26 @@ msgstr "Bloquear conta \"root\""
 msgid "Enabled"
 msgstr "Ativado"
 
-#: src/components/storage/DiskEncryption.jsx:84
+#: src/components/storage/DiskEncryption.jsx:88
 #, fuzzy
 msgid "Encrypt my data"
 msgstr "Cifrar meus dados."
 
-#: src/components/storage/DiskEncryption.jsx:163
+#: src/components/storage/DiskEncryption.jsx:167
 msgid "Encrypt the selected devices?"
 msgstr ""
+
+#: src/components/review/StorageReview.jsx:117
+#, fuzzy
+#| msgid "Encrypt"
+msgid "Encrypted"
+msgstr "Cifrar"
 
 #: src/components/storage/EncryptedDevices.jsx:69
 msgid "Encrypted devices are locked"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:118
+#: src/components/storage/DiskEncryption.jsx:122
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 
@@ -542,6 +555,7 @@ msgstr ""
 msgid "Modify storage"
 msgstr "_Modificar Disposição de Armazenamento"
 
+#: src/components/review/StorageReview.jsx:113
 #: src/components/storage/MountPointMapping.jsx:564
 msgid "Mount point"
 msgstr "Ponto de Montagem"
@@ -567,7 +581,7 @@ msgstr ""
 msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 
-#: src/components/AnacondaWizardFooter.jsx:99
+#: src/components/AnacondaWizardFooter.jsx:97
 msgid "Next"
 msgstr ""
 
@@ -613,7 +627,7 @@ msgid ""
 "production environments."
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:121
+#: src/components/storage/DiskEncryption.jsx:125
 msgid ""
 "Only new partitions will be encrypted. Existing partitions will remain "
 "untouched."
@@ -628,7 +642,7 @@ msgstr "A criar usuários"
 msgid "Partitions (advanced)"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:97
+#: src/components/storage/DiskEncryption.jsx:101
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
@@ -672,12 +686,12 @@ msgid "Proceed with installation"
 msgstr "Falha ao prosseguir com a instalação."
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Quit"
 msgstr "Sair"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 #, fuzzy
 msgid "Quit installer?"
 msgstr "_Sair do instalador"
@@ -718,12 +732,12 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "O nome da máquina deve ter 64 ou menos caracteres de comprimento."
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:133 src/components/Error.jsx:227
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Reboot"
 msgstr "Reiniciar"
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/AnacondaWizardFooter.jsx:143
 #, fuzzy
 msgid "Reboot system?"
 msgstr "_Reiniciar Sistema"
@@ -851,6 +865,10 @@ msgstr "_Confirmar palavra-passe"
 #, fuzzy
 msgid "Show password"
 msgstr "Exibir palavra-passe."
+
+#: src/components/review/StorageReview.jsx:115
+msgid "Size"
+msgstr ""
 
 #: src/components/storage/EncryptedDevices.jsx:87
 msgid "Skip"
@@ -1126,7 +1144,7 @@ msgid ""
 "rest or manually set up partitions."
 msgstr ""
 
-#: src/components/AnacondaWizardFooter.jsx:149
+#: src/components/AnacondaWizardFooter.jsx:147
 msgid "Your progress will not be saved."
 msgstr ""
 
@@ -1144,12 +1162,24 @@ msgstr "Máquina atual:"
 msgid "edit"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:59
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypt"
+msgstr "Cifrar"
+
+#: src/components/review/StorageReview.jsx:85
+#, fuzzy
+#| msgid "Encrypt"
+msgid "encrypted"
+msgstr "Cifrar"
+
+#: src/components/review/StorageReview.jsx:64
 #, fuzzy
 msgid "format as $0"
 msgstr "Reformatar"
 
-#: src/components/review/StorageReview.jsx:60
+#: src/components/review/StorageReview.jsx:65
 #, fuzzy
 msgid "mount"
 msgstr "Adicionar disposição"
@@ -1635,9 +1665,6 @@ msgstr ""
 #~ msgctxt "GUI|Storage"
 #~ msgid "A_utomatic"
 #~ msgstr "A_utomática"
-
-#~ msgid "Action"
-#~ msgstr "Acção"
 
 #~ msgid "Activation Key"
 #~ msgstr "Código de Ativação"
@@ -2454,9 +2481,6 @@ msgstr ""
 
 #~ msgid "Enabled unconditionally"
 #~ msgstr "Habilitado incondicionalmente"
-
-#~ msgid "Encrypt"
-#~ msgstr "Cifrar"
 
 #~ msgctxt "GUI|Custom Partitioning|Autopart Page"
 #~ msgid "Encrypt my data."
