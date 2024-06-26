@@ -52,7 +52,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-25 02:50+0000\n"
+"POT-Creation-Date: 2024-06-26 02:50+0000\n"
 "PO-Revision-Date: 2024-06-01 02:50+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
@@ -90,7 +90,8 @@ msgstr "О программе"
 msgid "Account"
 msgstr "Учетная запись"
 
-#: src/components/review/StorageReview.jsx:116
+#: src/components/storage/ReclaimSpaceModal.jsx:115
+#: src/components/review/StorageReview.jsx:149
 msgid "Actions"
 msgstr "Действия"
 
@@ -126,13 +127,17 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Страница проекта Anaconda"
 
-#: src/components/storage/InstallationScenario.jsx:212
+#: src/components/storage/InstallationScenario.jsx:233
 msgid "Apply mount point assignment and install"
 msgstr "Применить назначение точки монтирования и установить"
 
 #: src/components/storage/InstallationDestination.jsx:218
 msgid "Applying new disk selection..."
 msgstr "Применение нового выбора диска..."
+
+#: src/components/storage/ReclaimSpaceModal.jsx:142
+msgid "Available free space: $0. Installation requires: $1."
+msgstr ""
 
 #: src/components/AnacondaWizardFooter.jsx:90
 #: src/components/review/ReviewConfiguration.jsx:191
@@ -151,6 +156,7 @@ msgstr ""
 "намереваетесь использовать его только для тестирования и разработки и готовы "
 "сообщать обо всех ошибках и проблемах, чтобы улучшить эту работу."
 
+#: src/components/storage/ReclaimSpaceModal.jsx:153
 #: src/components/Error.jsx:260 src/components/review/Hostname.jsx:106
 msgid "Cancel"
 msgstr "Отмена"
@@ -261,7 +267,7 @@ msgid "Detected valid storage layout:"
 msgstr "Обнаруженая действительная схема хранения:"
 
 #: src/components/storage/MountPointMapping.jsx:561
-#: src/components/review/StorageReview.jsx:114
+#: src/components/review/StorageReview.jsx:147
 msgid "Device"
 msgstr "Устройство"
 
@@ -307,7 +313,7 @@ msgstr "Зашифровать данные"
 msgid "Encrypt the selected devices?"
 msgstr "Зашифровать выбранные устройства?"
 
-#: src/components/review/StorageReview.jsx:117
+#: src/components/review/StorageReview.jsx:150
 msgid "Encrypted"
 msgstr "Зашифровано"
 
@@ -321,16 +327,16 @@ msgstr ""
 "Шифрование помогает защитить ваши данные и предотвратить доступ к ним других "
 "лиц."
 
-#: src/components/storage/InstallationScenario.jsx:184
-#: src/components/storage/InstallationScenario.jsx:195
+#: src/components/storage/InstallationScenario.jsx:203
+#: src/components/storage/InstallationScenario.jsx:214
 msgid "Erase data and install"
 msgstr "Стереть данные и установить"
 
-#: src/components/storage/InstallationScenario.jsx:191
+#: src/components/storage/InstallationScenario.jsx:210
 msgid "Erase data and install?"
 msgstr "Стереть данные и установить?"
 
-#: src/components/storage/InstallationScenario.jsx:196
+#: src/components/storage/InstallationScenario.jsx:215
 msgid "Erasing the data cannot be undone. Be sure to have backups."
 msgstr ""
 "Удаление данных невозможно отменить. Позаботьтесь о наличии резервных копий."
@@ -388,7 +394,7 @@ msgstr "Скрыть пароль"
 msgid "Hostname"
 msgstr "Имя узла"
 
-#: src/components/storage/InstallationScenario.jsx:400
+#: src/components/storage/InstallationScenario.jsx:422
 msgid "How would you like to install?"
 msgstr "Как бы вы хотели установить?"
 
@@ -416,20 +422,20 @@ msgstr "В ходе выполнения"
 msgid "Initializing..."
 msgstr "Инициализация..."
 
-#: src/components/storage/InstallationScenario.jsx:198
-#: src/components/storage/InstallationScenario.jsx:226
+#: src/components/storage/InstallationScenario.jsx:218
+#: src/components/storage/InstallationScenario.jsx:247
 msgid "Install"
 msgstr "Установить"
 
-#: src/components/storage/InstallationScenario.jsx:219
+#: src/components/storage/InstallationScenario.jsx:240
 msgid "Install on the custom mount points?"
 msgstr "Установить на вручную заданные точки монтирования?"
 
-#: src/components/storage/InstallationScenario.jsx:205
+#: src/components/storage/InstallationScenario.jsx:226
 msgid "Install on the free space?"
 msgstr "Установить на свободное место?"
 
-#: src/components/storage/InstallationScenario.jsx:233
+#: src/components/storage/InstallationScenario.jsx:254
 msgid "Install using the configured storage?"
 msgstr "Установить с использованием настроенного хранилища?"
 
@@ -437,7 +443,7 @@ msgstr "Установить с использованием настроенн�
 msgid "Installation failed"
 msgstr "Установка не удалась"
 
-#: src/components/storage/InstallationMethod.jsx:164
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "Installation method"
 msgstr "Метод установки"
 
@@ -465,6 +471,10 @@ msgstr ""
 #: src/components/review/ReviewConfiguration.jsx:107
 msgid "Language"
 msgstr "Язык"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:112
+msgid "Location"
+msgstr "Местоположение"
 
 #: src/components/storage/EncryptedDevices.jsx:174
 msgid "Locked devices"
@@ -505,11 +515,11 @@ msgid "Modify storage"
 msgstr "Изменить хранилище"
 
 #: src/components/storage/MountPointMapping.jsx:560
-#: src/components/review/StorageReview.jsx:113
+#: src/components/review/StorageReview.jsx:146
 msgid "Mount point"
 msgstr "Точка монтирования"
 
-#: src/components/storage/InstallationScenario.jsx:223
+#: src/components/storage/InstallationScenario.jsx:244
 #: src/components/storage/MountPointMapping.jsx:558
 msgid "Mount point assignment"
 msgstr "Назначение точки монтирования"
@@ -517,6 +527,10 @@ msgstr "Назначение точки монтирования"
 #: src/components/Password.jsx:50
 msgid "Must be at least $0 characters"
 msgstr "Должно быть не менее $0 символов"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:111
+msgid "Name"
+msgstr "Имя"
 
 #: src/components/Error.jsx:122
 msgid ""
@@ -539,6 +553,7 @@ msgid "No additional disks detected"
 msgstr "Дополнительные диски не обнаружены"
 
 #: src/components/storage/MountPointMapping.jsx:565
+#: src/components/storage/ReclaimSpaceModal.jsx:117
 msgid "No devices"
 msgstr "Нет устройств"
 
@@ -555,11 +570,11 @@ msgstr "На выбранных дисках нет пригодных для и
 msgid "No usable disks detected"
 msgstr "Не обнаружено пригодных для использования дисков"
 
-#: src/components/storage/InstallationScenario.jsx:76
+#: src/components/storage/InstallationScenario.jsx:78
 msgid "Not enough free space on the selected disks."
 msgstr "Недостаточно свободного места на выбранных дисках."
 
-#: src/components/storage/InstallationScenario.jsx:55
+#: src/components/storage/InstallationScenario.jsx:57
 msgid "Not enough space on selected disks."
 msgstr "Недостаточно места на выбранных дисках."
 
@@ -681,6 +696,29 @@ msgstr "Перезагрузка"
 msgid "Reboot system?"
 msgstr "Перезагрузить систему?"
 
+#: src/components/storage/InstallationScenario.jsx:195
+#, fuzzy
+#| msgctxt "GUI|Reclaim Dialog"
+#| msgid "_Reclaim space"
+msgid "Reclaim additional space"
+msgstr "_Освободить"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:101
+#: src/components/storage/ReclaimSpaceModal.jsx:109
+#: src/components/storage/ReclaimSpaceModal.jsx:150
+#, fuzzy
+#| msgctxt "GUI|Reclaim Dialog"
+#| msgid "_Reclaim space"
+msgid "Reclaim space"
+msgstr "_Освободить"
+
+#: src/components/storage/InstallationScenario.jsx:195
+#, fuzzy
+#| msgctxt "GUI|Reclaim Dialog"
+#| msgid "_Reclaim space"
+msgid "Reclaim space (required)"
+msgstr "_Освободить"
+
 #: src/components/storage/MountPointMapping.jsx:245
 msgid "Recommended"
 msgstr "Рекомендуется"
@@ -705,6 +743,17 @@ msgid ""
 msgstr ""
 "Удалить все разделы на выбранных устройствах, включая существующие "
 "операционные системы. Убедитесь, что вы сделали резервную копию своих данных."
+
+#: src/components/storage/ReclaimSpaceModal.jsx:87
+#, fuzzy
+#| msgid "Use free space for the installation"
+msgid "Remove existing filesystems to free up space for the installation."
+msgstr "Использовать свободное место для установки"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:90
+msgid ""
+"Removing a filesystem will permanently delete all of the data it contains. "
+msgstr ""
 
 #: src/components/HeaderKebab.jsx:132
 msgid "Report Issue"
@@ -792,7 +841,7 @@ msgstr "Показать парольную фразу"
 msgid "Show password"
 msgstr "Показать пароль"
 
-#: src/components/review/StorageReview.jsx:115
+#: src/components/review/StorageReview.jsx:148
 msgid "Size"
 msgstr "Размер"
 
@@ -819,6 +868,12 @@ msgstr "Некоторые устройства используют одно и
 #: src/components/storage/InstallationScenario.jsx:116
 msgid "Some required partitions are missing: $0"
 msgstr "Некоторые необходимые разделы отсутствуют: $0"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:114
+#, fuzzy
+#| msgid "No Space"
+msgid "Space"
+msgstr "Нет места"
 
 #: src/components/review/ReviewConfiguration.jsx:156
 msgid "Storage"
@@ -902,11 +957,11 @@ msgstr ""
 "Следующий журнал будет отправлен в систему отслеживания проблем, где вы "
 "сможете предоставить дополнительную информацию."
 
-#: src/components/storage/InstallationScenario.jsx:57
+#: src/components/storage/InstallationScenario.jsx:59
 msgid "The installation needs $1 of disk space; "
 msgstr "Для установки требуется $1 дискового пространства; "
 
-#: src/components/storage/InstallationScenario.jsx:204
+#: src/components/storage/InstallationScenario.jsx:225
 msgid ""
 "The installation will use the available space on your devices and will not "
 "erase any device data."
@@ -914,8 +969,8 @@ msgstr ""
 "При установке будет использовано все доступное пространство на ваших "
 "устройствах, но данные устройства не будут удалены."
 
-#: src/components/storage/InstallationScenario.jsx:218
-#: src/components/storage/InstallationScenario.jsx:232
+#: src/components/storage/InstallationScenario.jsx:239
+#: src/components/storage/InstallationScenario.jsx:253
 msgid "The installation will use your configured partitioning layout."
 msgstr "При установке будет использоваться настроенная вами схема разделов."
 
@@ -935,7 +990,7 @@ msgstr ""
 "Парольная фраза содержит символы, не входящие в набор ASCII. Функции "
 "переключения раскладки клавиатуры могут быть недоступны при её вводе."
 
-#: src/components/storage/InstallationScenario.jsx:190
+#: src/components/storage/InstallationScenario.jsx:209
 msgid ""
 "The selected disks will be erased, this cannot be undone. Are you sure you "
 "want to continue with the installation?"
@@ -972,13 +1027,13 @@ msgstr "Это займёт некоторое время"
 msgid "To begin using $0, reboot your system."
 msgstr "Чтобы начать использовать $0, перезагрузите систему."
 
-#: src/components/storage/InstallationMethod.jsx:151
+#: src/components/storage/InstallationMethod.jsx:187
 msgid "To continue, select the devices to install to."
 msgstr "Чтобы продолжить, выберите устройства для установки."
 
-#: src/components/storage/InstallationScenario.jsx:210
-#: src/components/storage/InstallationScenario.jsx:224
-#: src/components/storage/InstallationScenario.jsx:238
+#: src/components/storage/InstallationScenario.jsx:231
+#: src/components/storage/InstallationScenario.jsx:245
+#: src/components/storage/InstallationScenario.jsx:259
 msgid "To prevent loss, make sure to backup your data."
 msgstr "Во избежание потери данных, обязательно сделайте их резервную копию."
 
@@ -988,13 +1043,17 @@ msgstr ""
 "Чтобы использовать эту опцию, переименуйте устройства, чтобы они имели "
 "уникальные имена."
 
-#: src/components/storage/InstallationScenario.jsx:78
+#: src/components/storage/InstallationScenario.jsx:80
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
 msgstr ""
 "Чтобы воспользоваться этой опцией, измените размер или удалите существующие "
 "разделы, чтобы освободить хотя бы $0."
+
+#: src/components/storage/ReclaimSpaceModal.jsx:113
+msgid "Type"
+msgstr "Тип"
 
 #: src/components/storage/EncryptedDevices.jsx:161
 msgid "Unlock"
@@ -1008,11 +1067,11 @@ msgstr "Разблокировать устройства"
 msgid "Unlock encrypted devices"
 msgstr "Разблокировать зашифрованые устройства"
 
-#: src/components/storage/InstallationScenario.jsx:237
+#: src/components/storage/InstallationScenario.jsx:258
 msgid "Use configured storage"
 msgstr "Использовать настроенное хранилище"
 
-#: src/components/storage/InstallationScenario.jsx:209
+#: src/components/storage/InstallationScenario.jsx:230
 msgid "Use free space for the installation"
 msgstr "Использовать свободное место для установки"
 
@@ -1048,7 +1107,7 @@ msgstr "Приветствие"
 msgid "Welcome to $0"
 msgstr "Вас приветствует $0"
 
-#: src/components/storage/InstallationMethod.jsx:165
+#: src/components/storage/InstallationMethod.jsx:201
 msgid "Welcome. Let's install $0 now."
 msgstr "Добро пожаловать. Давайте установим $0."
 
@@ -1071,6 +1130,14 @@ msgstr "завершённый шаг"
 #: src/components/installation/InstallationProgress.jsx:190
 msgid "current step"
 msgstr "текущий шаг"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:248
+#: src/components/storage/ReclaimSpaceModal.jsx:256
+#: src/components/review/StorageReview.jsx:93
+#, fuzzy
+#| msgid "Delete"
+msgid "delete"
+msgstr "Удалить"
 
 #: src/components/review/Hostname.jsx:97
 msgid "edit"
@@ -1095,6 +1162,10 @@ msgstr "монтировать"
 #: src/components/installation/InstallationProgress.jsx:179
 msgid "pending step"
 msgstr "предстоящий шаг"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:257
+msgid "undo"
+msgstr ""
 
 #~ msgid "Error was hit when going back from $0."
 #~ msgstr "Произошла ошибка при возврате из $0."
@@ -2234,9 +2305,6 @@ msgstr "предстоящий шаг"
 #~ msgid "Default spoke title"
 #~ msgstr "Заголовок секции по умолчанию"
 
-#~ msgid "Delete"
-#~ msgstr "Удалить"
-
 #~ msgctxt "GUI|Reclaim Dialog"
 #~ msgid "Delete _all"
 #~ msgstr "Удалить _все"
@@ -3161,9 +3229,6 @@ msgstr "предстоящий шаг"
 #~ msgid "Locales"
 #~ msgstr "Языковые стандарты"
 
-#~ msgid "Location"
-#~ msgstr "Местоположение"
-
 #~ msgid "Logical volume \"{}\" given in logvol command does not exist."
 #~ msgstr ""
 #~ "Логический том «{}», указанный в строке команды logvol, не существует."
@@ -3288,9 +3353,6 @@ msgstr "предстоящий шаг"
 #~ msgid "N_FS mount options:"
 #~ msgstr "Параметры _монтирования NFS:"
 
-#~ msgid "Name"
-#~ msgstr "Имя"
-
 #~ msgid "Name '$' is not allowed."
 #~ msgstr "Не разрешается имя «$»."
 
@@ -3362,9 +3424,6 @@ msgstr "предстоящий шаг"
 
 #~ msgid "No *.iso files found in device root folder"
 #~ msgstr "Нет файлов *.iso в корневом каталоге устройства"
-
-#~ msgid "No Space"
-#~ msgstr "Нет места"
 
 #~ msgid "No additional software to select."
 #~ msgstr "Нет дополнительного программного обеспечения для выбора."
@@ -5213,9 +5272,6 @@ msgstr "предстоящий шаг"
 #~ "Попытка использования неопределенного раздела «{}» в спецификации группы "
 #~ "томов"
 
-#~ msgid "Type"
-#~ msgstr "Тип"
-
 #~ msgid "Type here to search."
 #~ msgstr "Введите текст для поиска."
 
@@ -6464,10 +6520,6 @@ msgstr "предстоящий шаг"
 #~ msgctxt "GUI|Progress"
 #~ msgid "_Reboot System"
 #~ msgstr "_Перезагрузка системы"
-
-#~ msgctxt "GUI|Reclaim Dialog"
-#~ msgid "_Reclaim space"
-#~ msgstr "_Освободить"
 
 #~ msgctxt "GUI|Storage|Need Space Dialog"
 #~ msgid "_Reclaim space"

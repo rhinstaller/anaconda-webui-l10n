@@ -63,7 +63,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-25 02:50+0000\n"
+"POT-Creation-Date: 2024-06-26 02:50+0000\n"
 "PO-Revision-Date: 2024-03-26 02:38+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -101,7 +101,8 @@ msgstr "About"
 msgid "Account"
 msgstr "アカウント"
 
-#: src/components/review/StorageReview.jsx:116
+#: src/components/storage/ReclaimSpaceModal.jsx:115
+#: src/components/review/StorageReview.jsx:149
 #, fuzzy
 #| msgid "Action"
 msgid "Actions"
@@ -139,13 +140,17 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Anacondaプロジェクトページ"
 
-#: src/components/storage/InstallationScenario.jsx:212
+#: src/components/storage/InstallationScenario.jsx:233
 msgid "Apply mount point assignment and install"
 msgstr "マウントポイントの割り当てを適用してインストールする"
 
 #: src/components/storage/InstallationDestination.jsx:218
 msgid "Applying new disk selection..."
 msgstr "新しいディスク選択を適用しています..."
+
+#: src/components/storage/ReclaimSpaceModal.jsx:142
+msgid "Available free space: $0. Installation requires: $1."
+msgstr ""
 
 #: src/components/AnacondaWizardFooter.jsx:90
 #: src/components/review/ReviewConfiguration.jsx:191
@@ -164,6 +169,7 @@ msgstr ""
 "用して、このソフトウェアを強化するためにバグや問題を率先して報告するものとし"
 "ます。"
 
+#: src/components/storage/ReclaimSpaceModal.jsx:153
 #: src/components/Error.jsx:260 src/components/review/Hostname.jsx:106
 msgid "Cancel"
 msgstr "取り消し"
@@ -278,7 +284,7 @@ msgid "Detected valid storage layout:"
 msgstr "無効なストレージ構成が見つかりました:"
 
 #: src/components/storage/MountPointMapping.jsx:561
-#: src/components/review/StorageReview.jsx:114
+#: src/components/review/StorageReview.jsx:147
 msgid "Device"
 msgstr "デバイス"
 
@@ -324,7 +330,7 @@ msgstr "データを暗号化する"
 msgid "Encrypt the selected devices?"
 msgstr "選択されたデバイスを暗号化しますか？"
 
-#: src/components/review/StorageReview.jsx:117
+#: src/components/review/StorageReview.jsx:150
 #, fuzzy
 #| msgid "Encrypt"
 msgid "Encrypted"
@@ -338,16 +344,16 @@ msgstr "暗号化されたデバイスはロックされました"
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr "暗号化はデータを保護し、他人がデータにアクセスするのを防ぎます。"
 
-#: src/components/storage/InstallationScenario.jsx:184
-#: src/components/storage/InstallationScenario.jsx:195
+#: src/components/storage/InstallationScenario.jsx:203
+#: src/components/storage/InstallationScenario.jsx:214
 msgid "Erase data and install"
 msgstr "データを消去してインストールします"
 
-#: src/components/storage/InstallationScenario.jsx:191
+#: src/components/storage/InstallationScenario.jsx:210
 msgid "Erase data and install?"
 msgstr "データを消去してインストールしますか？"
 
-#: src/components/storage/InstallationScenario.jsx:196
+#: src/components/storage/InstallationScenario.jsx:215
 msgid "Erasing the data cannot be undone. Be sure to have backups."
 msgstr ""
 "データを消去すると元に戻すことはできません。必ずバックアップを取ってくださ"
@@ -409,7 +415,7 @@ msgstr "パスワードを非表示にする"
 msgid "Hostname"
 msgstr "ホスト名"
 
-#: src/components/storage/InstallationScenario.jsx:400
+#: src/components/storage/InstallationScenario.jsx:422
 msgid "How would you like to install?"
 msgstr "どのようにインストールしますか？"
 
@@ -434,20 +440,20 @@ msgstr "進行中"
 msgid "Initializing..."
 msgstr "初期化中..."
 
-#: src/components/storage/InstallationScenario.jsx:198
-#: src/components/storage/InstallationScenario.jsx:226
+#: src/components/storage/InstallationScenario.jsx:218
+#: src/components/storage/InstallationScenario.jsx:247
 msgid "Install"
 msgstr "インストール"
 
-#: src/components/storage/InstallationScenario.jsx:219
+#: src/components/storage/InstallationScenario.jsx:240
 msgid "Install on the custom mount points?"
 msgstr "カスタムマウントポイント上にインストールしますか？"
 
-#: src/components/storage/InstallationScenario.jsx:205
+#: src/components/storage/InstallationScenario.jsx:226
 msgid "Install on the free space?"
 msgstr "空き領域にインストールしますか？"
 
-#: src/components/storage/InstallationScenario.jsx:233
+#: src/components/storage/InstallationScenario.jsx:254
 msgid "Install using the configured storage?"
 msgstr "構成したストレージにインストールしますか？"
 
@@ -455,7 +461,7 @@ msgstr "構成したストレージにインストールしますか？"
 msgid "Installation failed"
 msgstr "インストールに失敗しました"
 
-#: src/components/storage/InstallationMethod.jsx:164
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "Installation method"
 msgstr "インストール方法"
 
@@ -484,6 +490,10 @@ msgstr ""
 #: src/components/review/ReviewConfiguration.jsx:107
 msgid "Language"
 msgstr "言語"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:112
+msgid "Location"
+msgstr "場所"
 
 #: src/components/storage/EncryptedDevices.jsx:174
 msgid "Locked devices"
@@ -522,11 +532,11 @@ msgid "Modify storage"
 msgstr "ストレージの変更"
 
 #: src/components/storage/MountPointMapping.jsx:560
-#: src/components/review/StorageReview.jsx:113
+#: src/components/review/StorageReview.jsx:146
 msgid "Mount point"
 msgstr "マウントポイント"
 
-#: src/components/storage/InstallationScenario.jsx:223
+#: src/components/storage/InstallationScenario.jsx:244
 #: src/components/storage/MountPointMapping.jsx:558
 msgid "Mount point assignment"
 msgstr "マウントポイントの割り当て"
@@ -534,6 +544,10 @@ msgstr "マウントポイントの割り当て"
 #: src/components/Password.jsx:50
 msgid "Must be at least $0 characters"
 msgstr "$0文字以上である必要があります"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:111
+msgid "Name"
+msgstr "名前"
 
 #: src/components/Error.jsx:122
 msgid ""
@@ -558,6 +572,7 @@ msgid "No additional disks detected"
 msgstr "検出された追加のディスクがありません"
 
 #: src/components/storage/MountPointMapping.jsx:565
+#: src/components/storage/ReclaimSpaceModal.jsx:117
 msgid "No devices"
 msgstr "デバイスがありません"
 
@@ -574,11 +589,11 @@ msgstr "選択したディスクには使用可能なデバイスがありませ
 msgid "No usable disks detected"
 msgstr "使用可能なディスクが検出されていません。"
 
-#: src/components/storage/InstallationScenario.jsx:76
+#: src/components/storage/InstallationScenario.jsx:78
 msgid "Not enough free space on the selected disks."
 msgstr "選択したディスクには十分な空き領域がありません。"
 
-#: src/components/storage/InstallationScenario.jsx:55
+#: src/components/storage/InstallationScenario.jsx:57
 msgid "Not enough space on selected disks."
 msgstr "選択したディスクには十分な空き領域がありません。"
 
@@ -698,6 +713,29 @@ msgstr "再起動"
 msgid "Reboot system?"
 msgstr "システムを再起動しますか？"
 
+#: src/components/storage/InstallationScenario.jsx:195
+#, fuzzy
+#| msgctxt "GUI|Reclaim Dialog"
+#| msgid "_Reclaim space"
+msgid "Reclaim additional space"
+msgstr "領域の再利用(_R)"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:101
+#: src/components/storage/ReclaimSpaceModal.jsx:109
+#: src/components/storage/ReclaimSpaceModal.jsx:150
+#, fuzzy
+#| msgctxt "GUI|Reclaim Dialog"
+#| msgid "_Reclaim space"
+msgid "Reclaim space"
+msgstr "領域の再利用(_R)"
+
+#: src/components/storage/InstallationScenario.jsx:195
+#, fuzzy
+#| msgctxt "GUI|Reclaim Dialog"
+#| msgid "_Reclaim space"
+msgid "Reclaim space (required)"
+msgstr "領域の再利用(_R)"
+
 #: src/components/storage/MountPointMapping.jsx:245
 msgid "Recommended"
 msgstr "推奨"
@@ -722,6 +760,17 @@ msgid ""
 msgstr ""
 "既存のオペレーティング システムを含む、選択したデバイス上のすべてのパーティ"
 "ションを削除します。 データをバックアップしていることを確認してください。"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:87
+#, fuzzy
+#| msgid "Use free space for the installation"
+msgid "Remove existing filesystems to free up space for the installation."
+msgstr "空き領域をインストールに使用します"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:90
+msgid ""
+"Removing a filesystem will permanently delete all of the data it contains. "
+msgstr ""
 
 #: src/components/HeaderKebab.jsx:132
 msgid "Report Issue"
@@ -813,7 +862,7 @@ msgstr "パスフレーズを表示する"
 msgid "Show password"
 msgstr "パスワードを表示する"
 
-#: src/components/review/StorageReview.jsx:115
+#: src/components/review/StorageReview.jsx:148
 msgid "Size"
 msgstr ""
 
@@ -840,6 +889,12 @@ msgstr "複数のデバイスが同じ名前を使用しています: $0。"
 #: src/components/storage/InstallationScenario.jsx:116
 msgid "Some required partitions are missing: $0"
 msgstr "いくつかのパーティションが見つかりません: $0"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:114
+#, fuzzy
+#| msgid "No Space"
+msgid "Space"
+msgstr "空きがありません"
 
 #: src/components/review/ReviewConfiguration.jsx:156
 msgid "Storage"
@@ -919,11 +974,11 @@ msgid ""
 "provide additional details."
 msgstr "次のログはIssue追跡システムに送信され、追加の詳細を提供できます。"
 
-#: src/components/storage/InstallationScenario.jsx:57
+#: src/components/storage/InstallationScenario.jsx:59
 msgid "The installation needs $1 of disk space; "
 msgstr "インストールは $1 のディスク領域を必要とします; "
 
-#: src/components/storage/InstallationScenario.jsx:204
+#: src/components/storage/InstallationScenario.jsx:225
 msgid ""
 "The installation will use the available space on your devices and will not "
 "erase any device data."
@@ -931,8 +986,8 @@ msgstr ""
 "インストール時にデバイス上の利用可能な空き容量が使用され、デバイス上のデータ"
 "は消去されません。"
 
-#: src/components/storage/InstallationScenario.jsx:218
-#: src/components/storage/InstallationScenario.jsx:232
+#: src/components/storage/InstallationScenario.jsx:239
+#: src/components/storage/InstallationScenario.jsx:253
 msgid "The installation will use your configured partitioning layout."
 msgstr "インストールでは、構成されたパーティションレイアウトが使用されます。"
 
@@ -952,7 +1007,7 @@ msgstr ""
 "入力した パスフレーズに ASCII 以外の文字が含まれています。入力する際、キー"
 "ボードレイアウトの切り替えができない場合があります。"
 
-#: src/components/storage/InstallationScenario.jsx:190
+#: src/components/storage/InstallationScenario.jsx:209
 msgid ""
 "The selected disks will be erased, this cannot be undone. Are you sure you "
 "want to continue with the installation?"
@@ -990,13 +1045,13 @@ msgstr "これには少し時間がかかります"
 msgid "To begin using $0, reboot your system."
 msgstr "$0の使用を開始するには、システムを再起動します。"
 
-#: src/components/storage/InstallationMethod.jsx:151
+#: src/components/storage/InstallationMethod.jsx:187
 msgid "To continue, select the devices to install to."
 msgstr "続行するには、インストール先のデバイスを選択します。"
 
-#: src/components/storage/InstallationScenario.jsx:210
-#: src/components/storage/InstallationScenario.jsx:224
-#: src/components/storage/InstallationScenario.jsx:238
+#: src/components/storage/InstallationScenario.jsx:231
+#: src/components/storage/InstallationScenario.jsx:245
+#: src/components/storage/InstallationScenario.jsx:259
 msgid "To prevent loss, make sure to backup your data."
 msgstr "損失を防ぐには、必ずデータのバックアップを作成してください。"
 
@@ -1004,13 +1059,17 @@ msgstr "損失を防ぐには、必ずデータのバックアップを作成し
 msgid "To use this option, rename devices to have unique names."
 msgstr "このオプションを使うことで、デバイスを固有の名前に変更できます。"
 
-#: src/components/storage/InstallationScenario.jsx:78
+#: src/components/storage/InstallationScenario.jsx:80
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
 msgstr ""
 "このオプションを使用して、既存のパーティションをリサイズ・削除することで、少"
 "なくとも $0 の容量を解放できます。"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:113
+msgid "Type"
+msgstr "タイプ"
 
 #: src/components/storage/EncryptedDevices.jsx:161
 msgid "Unlock"
@@ -1024,11 +1083,11 @@ msgstr "デバイスをロック解除する"
 msgid "Unlock encrypted devices"
 msgstr "暗号化されたデバイスのロック解除を行います"
 
-#: src/components/storage/InstallationScenario.jsx:237
+#: src/components/storage/InstallationScenario.jsx:258
 msgid "Use configured storage"
 msgstr "構成したストレージを使用する"
 
-#: src/components/storage/InstallationScenario.jsx:209
+#: src/components/storage/InstallationScenario.jsx:230
 msgid "Use free space for the installation"
 msgstr "空き領域をインストールに使用します"
 
@@ -1064,7 +1123,7 @@ msgstr "ようこそ"
 msgid "Welcome to $0"
 msgstr "$0 へようこそ"
 
-#: src/components/storage/InstallationMethod.jsx:165
+#: src/components/storage/InstallationMethod.jsx:201
 msgid "Welcome. Let's install $0 now."
 msgstr "ようこそ。今すぐ $0 をインストールしましょう。"
 
@@ -1087,6 +1146,14 @@ msgstr "完了した手順"
 #: src/components/installation/InstallationProgress.jsx:190
 msgid "current step"
 msgstr "現在の手順"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:248
+#: src/components/storage/ReclaimSpaceModal.jsx:256
+#: src/components/review/StorageReview.jsx:93
+#, fuzzy
+#| msgid "Delete"
+msgid "delete"
+msgstr "削除"
 
 #: src/components/review/Hostname.jsx:97
 msgid "edit"
@@ -1115,6 +1182,10 @@ msgstr "マウント"
 #: src/components/installation/InstallationProgress.jsx:179
 msgid "pending step"
 msgstr "保留中の手順"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:257
+msgid "undo"
+msgstr ""
 
 #~ msgid "Error was hit when going back from $0."
 #~ msgstr "$0 から戻るときにエラーが発生しました。"
@@ -2247,9 +2318,6 @@ msgstr "保留中の手順"
 #~ msgid "Default spoke title"
 #~ msgstr "デフォルトのスポークタイトル"
 
-#~ msgid "Delete"
-#~ msgstr "削除"
-
 #~ msgctxt "GUI|Reclaim Dialog"
 #~ msgid "Delete _all"
 #~ msgstr "すべて削除(_A)"
@@ -3176,9 +3244,6 @@ msgstr "保留中の手順"
 #~ msgid "Locales"
 #~ msgstr "ロケール"
 
-#~ msgid "Location"
-#~ msgstr "場所"
-
 #~ msgid "Logical volume \"{}\" given in logvol command does not exist."
 #~ msgstr "logvol コマンドで指定された論理ボリューム \"{}\" は存在しません。"
 
@@ -3305,9 +3370,6 @@ msgstr "保留中の手順"
 #~ msgid "N_FS mount options:"
 #~ msgstr "NFS マウントオプション(_F):"
 
-#~ msgid "Name"
-#~ msgstr "名前"
-
 #~ msgid "Name '$' is not allowed."
 #~ msgstr "ユーザー名 '$' は許可されません。"
 
@@ -3379,9 +3441,6 @@ msgstr "保留中の手順"
 
 #~ msgid "No *.iso files found in device root folder"
 #~ msgstr "拡張子 *.iso のファイルがデバイスのルートフォルダーで見つかりません"
-
-#~ msgid "No Space"
-#~ msgstr "空きがありません"
 
 #~ msgid "No additional software to select."
 #~ msgstr "選択できる他のソフトウェアはありません。"
@@ -5236,9 +5295,6 @@ msgstr "保留中の手順"
 #~ msgstr ""
 #~ "ボリュームグループ仕様の未定義パーティション \"{}\" の使用を試みました"
 
-#~ msgid "Type"
-#~ msgstr "タイプ"
-
 #~ msgid "Type here to search."
 #~ msgstr "ここに入力して検索します。"
 
@@ -6485,10 +6541,6 @@ msgstr "保留中の手順"
 #~ msgctxt "GUI|Progress"
 #~ msgid "_Reboot System"
 #~ msgstr "システムの再起動(_R)"
-
-#~ msgctxt "GUI|Reclaim Dialog"
-#~ msgid "_Reclaim space"
-#~ msgstr "領域の再利用(_R)"
 
 #~ msgctxt "GUI|Storage|Need Space Dialog"
 #~ msgid "_Reclaim space"

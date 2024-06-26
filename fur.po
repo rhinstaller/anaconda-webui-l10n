@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-25 02:50+0000\n"
+"POT-Creation-Date: 2024-06-26 02:50+0000\n"
 "PO-Revision-Date: 2024-02-11 02:42+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/"
@@ -42,7 +42,8 @@ msgstr "Informazions"
 msgid "Account"
 msgstr "Account"
 
-#: src/components/review/StorageReview.jsx:116
+#: src/components/storage/ReclaimSpaceModal.jsx:115
+#: src/components/review/StorageReview.jsx:149
 #, fuzzy
 #| msgid "Action"
 msgid "Actions"
@@ -80,13 +81,17 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Pagjine dal progjet Anaconda"
 
-#: src/components/storage/InstallationScenario.jsx:212
+#: src/components/storage/InstallationScenario.jsx:233
 msgid "Apply mount point assignment and install"
 msgstr "Apliche la assegnazion dal pont di montaç e instale"
 
 #: src/components/storage/InstallationDestination.jsx:218
 msgid "Applying new disk selection..."
 msgstr "Aplicazion de selezion dal gnûf disc..."
+
+#: src/components/storage/ReclaimSpaceModal.jsx:142
+msgid "Available free space: $0. Installation requires: $1."
+msgstr ""
 
 #: src/components/AnacondaWizardFooter.jsx:90
 #: src/components/review/ReviewConfiguration.jsx:191
@@ -105,6 +110,7 @@ msgstr ""
 "finalitâts di prove e di disvilup e che tu desideris segnalâ cualsisei erôr "
 "o probleme par podê miorâ chest lavôr."
 
+#: src/components/storage/ReclaimSpaceModal.jsx:153
 #: src/components/Error.jsx:260 src/components/review/Hostname.jsx:106
 msgid "Cancel"
 msgstr "Anule"
@@ -222,7 +228,7 @@ msgid "Detected valid storage layout:"
 msgstr ""
 
 #: src/components/storage/MountPointMapping.jsx:561
-#: src/components/review/StorageReview.jsx:114
+#: src/components/review/StorageReview.jsx:147
 msgid "Device"
 msgstr "Dispositîf"
 
@@ -269,7 +275,7 @@ msgstr "Cifre i miei dâts"
 msgid "Encrypt the selected devices?"
 msgstr "Cifrâ i dispositîfs selezionâts?"
 
-#: src/components/review/StorageReview.jsx:117
+#: src/components/review/StorageReview.jsx:150
 #, fuzzy
 #| msgid "Encrypt"
 msgid "Encrypted"
@@ -285,16 +291,16 @@ msgstr ""
 "La cifradure e jude a tignî al sigûr i tiei dâts, cussì di impedî a altris "
 "di doprâju."
 
-#: src/components/storage/InstallationScenario.jsx:184
-#: src/components/storage/InstallationScenario.jsx:195
+#: src/components/storage/InstallationScenario.jsx:203
+#: src/components/storage/InstallationScenario.jsx:214
 msgid "Erase data and install"
 msgstr "Scancele i dâts e instale"
 
-#: src/components/storage/InstallationScenario.jsx:191
+#: src/components/storage/InstallationScenario.jsx:210
 msgid "Erase data and install?"
 msgstr "Scancelâ i dâts e instalâ?"
 
-#: src/components/storage/InstallationScenario.jsx:196
+#: src/components/storage/InstallationScenario.jsx:215
 msgid "Erasing the data cannot be undone. Be sure to have backups."
 msgstr ""
 "Nol sarà pussibil tornâ indaûr e ripristinâ i dâts une volte che a son stâts "
@@ -355,7 +361,7 @@ msgstr "Plate password"
 msgid "Hostname"
 msgstr "Non host"
 
-#: src/components/storage/InstallationScenario.jsx:400
+#: src/components/storage/InstallationScenario.jsx:422
 msgid "How would you like to install?"
 msgstr "Cemût desideristu instalâ?"
 
@@ -382,20 +388,20 @@ msgstr "In cors"
 msgid "Initializing..."
 msgstr "Daûr a inizializâ..."
 
-#: src/components/storage/InstallationScenario.jsx:198
-#: src/components/storage/InstallationScenario.jsx:226
+#: src/components/storage/InstallationScenario.jsx:218
+#: src/components/storage/InstallationScenario.jsx:247
 msgid "Install"
 msgstr "Instale"
 
-#: src/components/storage/InstallationScenario.jsx:219
+#: src/components/storage/InstallationScenario.jsx:240
 msgid "Install on the custom mount points?"
 msgstr "Instalâ sui ponts di montaç personalizâts?"
 
-#: src/components/storage/InstallationScenario.jsx:205
+#: src/components/storage/InstallationScenario.jsx:226
 msgid "Install on the free space?"
 msgstr "Instalâ sul spazi libar?"
 
-#: src/components/storage/InstallationScenario.jsx:233
+#: src/components/storage/InstallationScenario.jsx:254
 #, fuzzy
 #| msgid "Install on the free space?"
 msgid "Install using the configured storage?"
@@ -405,7 +411,7 @@ msgstr "Instalâ sul spazi libar?"
 msgid "Installation failed"
 msgstr "Instalazion falide"
 
-#: src/components/storage/InstallationMethod.jsx:164
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "Installation method"
 msgstr "Metodi di instalazion"
 
@@ -433,6 +439,10 @@ msgstr ""
 #: src/components/review/ReviewConfiguration.jsx:107
 msgid "Language"
 msgstr "Lenghe"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:112
+msgid "Location"
+msgstr "Posizion"
 
 #: src/components/storage/EncryptedDevices.jsx:174
 msgid "Locked devices"
@@ -473,11 +483,11 @@ msgid "Modify storage"
 msgstr "Modifiche memorie di archiviazion"
 
 #: src/components/storage/MountPointMapping.jsx:560
-#: src/components/review/StorageReview.jsx:113
+#: src/components/review/StorageReview.jsx:146
 msgid "Mount point"
 msgstr "Pont di montaç"
 
-#: src/components/storage/InstallationScenario.jsx:223
+#: src/components/storage/InstallationScenario.jsx:244
 #: src/components/storage/MountPointMapping.jsx:558
 msgid "Mount point assignment"
 msgstr "Assegnazion ponts di montaç"
@@ -485,6 +495,10 @@ msgstr "Assegnazion ponts di montaç"
 #: src/components/Password.jsx:50
 msgid "Must be at least $0 characters"
 msgstr "E scugne vê almancul $0 caratars"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:111
+msgid "Name"
+msgstr "Non"
 
 #: src/components/Error.jsx:122
 msgid ""
@@ -507,6 +521,7 @@ msgid "No additional disks detected"
 msgstr "Nissun disc in plui rilevât."
 
 #: src/components/storage/MountPointMapping.jsx:565
+#: src/components/storage/ReclaimSpaceModal.jsx:117
 msgid "No devices"
 msgstr "Nissun dispositîf"
 
@@ -523,11 +538,11 @@ msgstr "Nissun dispositîf che si pues doprâ sui discs selezionâts."
 msgid "No usable disks detected"
 msgstr "Nissun disc utilizabil rilevât"
 
-#: src/components/storage/InstallationScenario.jsx:76
+#: src/components/storage/InstallationScenario.jsx:78
 msgid "Not enough free space on the selected disks."
 msgstr "No vonde spazi libar sui discs selezionâts."
 
-#: src/components/storage/InstallationScenario.jsx:55
+#: src/components/storage/InstallationScenario.jsx:57
 msgid "Not enough space on selected disks."
 msgstr "No vonde spazi sui discs selezionâts."
 
@@ -652,6 +667,29 @@ msgstr "Torne invie"
 msgid "Reboot system?"
 msgstr "Tornâ a inviâ il sisteme?"
 
+#: src/components/storage/InstallationScenario.jsx:195
+#, fuzzy
+#| msgctxt "GUI|Reclaim Dialog"
+#| msgid "_Reclaim space"
+msgid "Reclaim additional space"
+msgstr "_Recupere spazi"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:101
+#: src/components/storage/ReclaimSpaceModal.jsx:109
+#: src/components/storage/ReclaimSpaceModal.jsx:150
+#, fuzzy
+#| msgctxt "GUI|Reclaim Dialog"
+#| msgid "_Reclaim space"
+msgid "Reclaim space"
+msgstr "_Recupere spazi"
+
+#: src/components/storage/InstallationScenario.jsx:195
+#, fuzzy
+#| msgctxt "GUI|Reclaim Dialog"
+#| msgid "_Reclaim space"
+msgid "Reclaim space (required)"
+msgstr "_Recupere spazi"
+
 #: src/components/storage/MountPointMapping.jsx:245
 msgid "Recommended"
 msgstr "Conseât"
@@ -677,6 +715,17 @@ msgstr ""
 "Dutis lis partizions sui dispositîfs selezionâts, includûts i sistemis "
 "operatîfs esistents, a vignaran gjavadis. Controle di vê fat une copie di "
 "backup dai dâts."
+
+#: src/components/storage/ReclaimSpaceModal.jsx:87
+#, fuzzy
+#| msgid "Use free space for the installation"
+msgid "Remove existing filesystems to free up space for the installation."
+msgstr "Dopre il spazi libar pe instalazion"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:90
+msgid ""
+"Removing a filesystem will permanently delete all of the data it contains. "
+msgstr ""
 
 #: src/components/HeaderKebab.jsx:132
 msgid "Report Issue"
@@ -771,7 +820,7 @@ msgstr "Mostre passphrase"
 msgid "Show password"
 msgstr "Mostre password"
 
-#: src/components/review/StorageReview.jsx:115
+#: src/components/review/StorageReview.jsx:148
 msgid "Size"
 msgstr ""
 
@@ -798,6 +847,12 @@ msgstr "Cualchi dispositîf al dopre il stes non: $0."
 #: src/components/storage/InstallationScenario.jsx:116
 msgid "Some required partitions are missing: $0"
 msgstr ""
+
+#: src/components/storage/ReclaimSpaceModal.jsx:114
+#, fuzzy
+#| msgid "No Space"
+msgid "Space"
+msgstr "NIssun spazi"
 
 #: src/components/review/ReviewConfiguration.jsx:156
 msgid "Storage"
@@ -885,11 +940,11 @@ msgstr ""
 "Chest regjistri al vignarà mandât al sisteme di gjestion dai problemis, là "
 "tu podarâs dâ plui detais."
 
-#: src/components/storage/InstallationScenario.jsx:57
+#: src/components/storage/InstallationScenario.jsx:59
 msgid "The installation needs $1 of disk space; "
 msgstr "La instalazion e à bisugne di $1 di spazi su disc; "
 
-#: src/components/storage/InstallationScenario.jsx:204
+#: src/components/storage/InstallationScenario.jsx:225
 msgid ""
 "The installation will use the available space on your devices and will not "
 "erase any device data."
@@ -897,8 +952,8 @@ msgstr ""
 "La instalazion e doprarà il spazi disponibil sui dispositîfs e nol "
 "scancelarà nissun dât."
 
-#: src/components/storage/InstallationScenario.jsx:218
-#: src/components/storage/InstallationScenario.jsx:232
+#: src/components/storage/InstallationScenario.jsx:239
+#: src/components/storage/InstallationScenario.jsx:253
 msgid "The installation will use your configured partitioning layout."
 msgstr "La instalazion e doprarà la disposizion des partizions configurade."
 
@@ -919,7 +974,7 @@ msgstr ""
 "no tu podarâs passâ di une disposizion di tastiere a chê altre, cuant che tu "
 "le scrivarâs."
 
-#: src/components/storage/InstallationScenario.jsx:190
+#: src/components/storage/InstallationScenario.jsx:209
 msgid ""
 "The selected disks will be erased, this cannot be undone. Are you sure you "
 "want to continue with the installation?"
@@ -957,13 +1012,13 @@ msgstr "Chest al podarès tirâle a dilunc"
 msgid "To begin using $0, reboot your system."
 msgstr "Par scomençâ a doprâ $0, torne invie il sisteme."
 
-#: src/components/storage/InstallationMethod.jsx:151
+#: src/components/storage/InstallationMethod.jsx:187
 msgid "To continue, select the devices to install to."
 msgstr "Par continuâ, selezione i dispositîfs dulà lâ a instalâ."
 
-#: src/components/storage/InstallationScenario.jsx:210
-#: src/components/storage/InstallationScenario.jsx:224
-#: src/components/storage/InstallationScenario.jsx:238
+#: src/components/storage/InstallationScenario.jsx:231
+#: src/components/storage/InstallationScenario.jsx:245
+#: src/components/storage/InstallationScenario.jsx:259
 msgid "To prevent loss, make sure to backup your data."
 msgstr "Par evitâ pierditis, siguriti di fâ une copie di backup dai dâts."
 
@@ -972,13 +1027,17 @@ msgid "To use this option, rename devices to have unique names."
 msgstr ""
 "Par doprâ cheste opzion, cambie non ai dispositîfs in mût di vê nons univocs."
 
-#: src/components/storage/InstallationScenario.jsx:78
+#: src/components/storage/InstallationScenario.jsx:80
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
 msgstr ""
 "Par doprâ cheste opzion, ridimensione o gjave lis partizions esistentis par "
 "liberâ almancul $0 di spazi."
+
+#: src/components/storage/ReclaimSpaceModal.jsx:113
+msgid "Type"
+msgstr "Gjenar"
 
 #: src/components/storage/EncryptedDevices.jsx:161
 msgid "Unlock"
@@ -992,13 +1051,13 @@ msgstr "Sbloche i dispositîfs"
 msgid "Unlock encrypted devices"
 msgstr "Sbloche i dispositîfs cifrâts"
 
-#: src/components/storage/InstallationScenario.jsx:237
+#: src/components/storage/InstallationScenario.jsx:258
 #, fuzzy
 #| msgid "Configure storage"
 msgid "Use configured storage"
 msgstr "Configure la memorie di archiviazion"
 
-#: src/components/storage/InstallationScenario.jsx:209
+#: src/components/storage/InstallationScenario.jsx:230
 msgid "Use free space for the installation"
 msgstr "Dopre il spazi libar pe instalazion"
 
@@ -1034,7 +1093,7 @@ msgstr "Benvignûts"
 msgid "Welcome to $0"
 msgstr "Benvignûts su $0"
 
-#: src/components/storage/InstallationMethod.jsx:165
+#: src/components/storage/InstallationMethod.jsx:201
 msgid "Welcome. Let's install $0 now."
 msgstr "Benvignûts. Anìn a instalâ $0."
 
@@ -1057,6 +1116,14 @@ msgstr "passaçs completâts"
 #: src/components/installation/InstallationProgress.jsx:190
 msgid "current step"
 msgstr "passaç corint"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:248
+#: src/components/storage/ReclaimSpaceModal.jsx:256
+#: src/components/review/StorageReview.jsx:93
+#, fuzzy
+#| msgid "Delete"
+msgid "delete"
+msgstr "Elimine"
 
 #: src/components/review/Hostname.jsx:97
 msgid "edit"
@@ -1085,6 +1152,10 @@ msgstr "monte"
 #: src/components/installation/InstallationProgress.jsx:179
 msgid "pending step"
 msgstr "passaçs in spiete"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:257
+msgid "undo"
+msgstr ""
 
 #~ msgid "Error was hit when going back from $0."
 #~ msgstr "Al è vignût fûr l'erôr tornant indaûr di $0."
@@ -2221,9 +2292,6 @@ msgstr "passaçs in spiete"
 #~ msgid "Default spoke title"
 #~ msgstr "Titul sezion predefinît"
 
-#~ msgid "Delete"
-#~ msgstr "Elimine"
-
 #~ msgctxt "GUI|Reclaim Dialog"
 #~ msgid "Delete _all"
 #~ msgstr "Elimine _dut"
@@ -3153,9 +3221,6 @@ msgstr "passaçs in spiete"
 #~ msgid "Locales"
 #~ msgstr "Localitâts"
 
-#~ msgid "Location"
-#~ msgstr "Posizion"
-
 #~ msgid "Logical volume \"{}\" given in logvol command does not exist."
 #~ msgstr "Il volum logjic \"{}\", indicât tal comant logvol, nol esist."
 
@@ -3282,9 +3347,6 @@ msgstr "passaçs in spiete"
 #~ msgid "N_FS mount options:"
 #~ msgstr "Opzions di montaç N_FS:"
 
-#~ msgid "Name"
-#~ msgstr "Non"
-
 #~ msgid "Name '$' is not allowed."
 #~ msgstr "Il non '$' nol è permetût."
 
@@ -3356,9 +3418,6 @@ msgstr "passaçs in spiete"
 
 #~ msgid "No *.iso files found in device root folder"
 #~ msgstr "Nissun file *.iso cjatât inte cartele lidrîs dal dispositîf"
-
-#~ msgid "No Space"
-#~ msgstr "NIssun spazi"
 
 #~ msgid "No additional software to select."
 #~ msgstr "Nissun software adiionâl di selezionâ."
@@ -5224,9 +5283,6 @@ msgstr "passaçs in spiete"
 #~ "Si à cirût di doprâ la partizion no definide \"{}\" inte specificazion "
 #~ "dal Grup di Volums"
 
-#~ msgid "Type"
-#~ msgstr "Gjenar"
-
 #~ msgid "Type here to search."
 #~ msgstr "Scrîf chi par cirî."
 
@@ -6488,10 +6544,6 @@ msgstr "passaçs in spiete"
 #~ msgctxt "GUI|Progress"
 #~ msgid "_Reboot System"
 #~ msgstr "_Torne invie il sisteme"
-
-#~ msgctxt "GUI|Reclaim Dialog"
-#~ msgid "_Reclaim space"
-#~ msgstr "_Recupere spazi"
 
 #~ msgctxt "GUI|Storage|Need Space Dialog"
 #~ msgid "_Reclaim space"

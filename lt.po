@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-25 02:50+0000\n"
+"POT-Creation-Date: 2024-06-26 02:50+0000\n"
 "PO-Revision-Date: 2023-11-06 12:19+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Lithuanian <https://translate.fedoraproject.org/projects/"
@@ -66,7 +66,8 @@ msgstr "Apie"
 msgid "Account"
 msgstr "_Paskyra"
 
-#: src/components/review/StorageReview.jsx:116
+#: src/components/storage/ReclaimSpaceModal.jsx:115
+#: src/components/review/StorageReview.jsx:149
 #, fuzzy
 #| msgid "Action"
 msgid "Actions"
@@ -104,13 +105,17 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Anaconda projekto puslapis"
 
-#: src/components/storage/InstallationScenario.jsx:212
+#: src/components/storage/InstallationScenario.jsx:233
 msgid "Apply mount point assignment and install"
 msgstr "Pritaikyti prijungimo taško priskyrimą ir įdiegti"
 
 #: src/components/storage/InstallationDestination.jsx:218
 msgid "Applying new disk selection..."
 msgstr "Pritaikomas naujas disko pasirinkimas..."
+
+#: src/components/storage/ReclaimSpaceModal.jsx:142
+msgid "Available free space: $0. Installation requires: $1."
+msgstr ""
 
 #: src/components/AnacondaWizardFooter.jsx:90
 #: src/components/review/ReviewConfiguration.jsx:191
@@ -129,6 +134,7 @@ msgstr ""
 "reikmėms ir pageidaujate pranešti apie bet kokias klaidas ar problemas, taip "
 "pagerinant šį darbą."
 
+#: src/components/storage/ReclaimSpaceModal.jsx:153
 #: src/components/Error.jsx:260 src/components/review/Hostname.jsx:106
 msgid "Cancel"
 msgstr "Atsisakyti"
@@ -252,7 +258,7 @@ msgid "Detected valid storage layout:"
 msgstr ""
 
 #: src/components/storage/MountPointMapping.jsx:561
-#: src/components/review/StorageReview.jsx:114
+#: src/components/review/StorageReview.jsx:147
 msgid "Device"
 msgstr "Įrenginys"
 
@@ -300,7 +306,7 @@ msgstr "Šifruoti mano duomenis"
 msgid "Encrypt the selected devices?"
 msgstr "Šifruoti pasirinktus įrenginius?"
 
-#: src/components/review/StorageReview.jsx:117
+#: src/components/review/StorageReview.jsx:150
 #, fuzzy
 #| msgid "Encrypt"
 msgid "Encrypted"
@@ -315,16 +321,16 @@ msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 "Šifravimas padeda apsaugoti jūsų duomenis, neleidžia jų prieiti kitiems."
 
-#: src/components/storage/InstallationScenario.jsx:184
-#: src/components/storage/InstallationScenario.jsx:195
+#: src/components/storage/InstallationScenario.jsx:203
+#: src/components/storage/InstallationScenario.jsx:214
 msgid "Erase data and install"
 msgstr "Ištrinti duomenis ir įdiegti"
 
-#: src/components/storage/InstallationScenario.jsx:191
+#: src/components/storage/InstallationScenario.jsx:210
 msgid "Erase data and install?"
 msgstr "Ištrinti duomenis ir įdiegti?"
 
-#: src/components/storage/InstallationScenario.jsx:196
+#: src/components/storage/InstallationScenario.jsx:215
 msgid "Erasing the data cannot be undone. Be sure to have backups."
 msgstr ""
 "Duomenų ištrynimo negalima atstatyti. Įsitikinkite, kad turite atsargines "
@@ -386,7 +392,7 @@ msgstr "Slėpti slaptažodį"
 msgid "Hostname"
 msgstr "Serverio pavadinimas"
 
-#: src/components/storage/InstallationScenario.jsx:400
+#: src/components/storage/InstallationScenario.jsx:422
 msgid "How would you like to install?"
 msgstr "Kaip norite įdiegti?"
 
@@ -413,20 +419,20 @@ msgstr "Vyksta"
 msgid "Initializing..."
 msgstr "Diegiama."
 
-#: src/components/storage/InstallationScenario.jsx:198
-#: src/components/storage/InstallationScenario.jsx:226
+#: src/components/storage/InstallationScenario.jsx:218
+#: src/components/storage/InstallationScenario.jsx:247
 msgid "Install"
 msgstr "Diegti"
 
-#: src/components/storage/InstallationScenario.jsx:219
+#: src/components/storage/InstallationScenario.jsx:240
 msgid "Install on the custom mount points?"
 msgstr "Įdiegti pasirinktiniuose prijungimo taškuose?"
 
-#: src/components/storage/InstallationScenario.jsx:205
+#: src/components/storage/InstallationScenario.jsx:226
 msgid "Install on the free space?"
 msgstr "Įdiegti laisvoje vietoje?"
 
-#: src/components/storage/InstallationScenario.jsx:233
+#: src/components/storage/InstallationScenario.jsx:254
 #, fuzzy
 #| msgid "Install on the free space?"
 msgid "Install using the configured storage?"
@@ -436,7 +442,7 @@ msgstr "Įdiegti laisvoje vietoje?"
 msgid "Installation failed"
 msgstr "Diegimas nepavyko"
 
-#: src/components/storage/InstallationMethod.jsx:164
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "Installation method"
 msgstr "Diegimo metodas"
 
@@ -464,6 +470,10 @@ msgstr "Išlaiko dabartinį diskų išdėstymą ir naudoja tik prieinamą vietą
 #: src/components/review/ReviewConfiguration.jsx:107
 msgid "Language"
 msgstr "Kalbos"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:112
+msgid "Location"
+msgstr "Vieta"
 
 #: src/components/storage/EncryptedDevices.jsx:174
 #, fuzzy
@@ -505,11 +515,11 @@ msgid "Modify storage"
 msgstr "Keisti saugyklą"
 
 #: src/components/storage/MountPointMapping.jsx:560
-#: src/components/review/StorageReview.jsx:113
+#: src/components/review/StorageReview.jsx:146
 msgid "Mount point"
 msgstr "Prijungimo taškas"
 
-#: src/components/storage/InstallationScenario.jsx:223
+#: src/components/storage/InstallationScenario.jsx:244
 #: src/components/storage/MountPointMapping.jsx:558
 msgid "Mount point assignment"
 msgstr "Prijungimo taškų priskyrimas"
@@ -518,6 +528,10 @@ msgstr "Prijungimo taškų priskyrimas"
 #, fuzzy
 msgid "Must be at least $0 characters"
 msgstr "Turi būti bent 8 simbolių ilgio"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:111
+msgid "Name"
+msgstr "Pavadinimas"
 
 #: src/components/Error.jsx:122
 msgid ""
@@ -543,6 +557,7 @@ msgid "No additional disks detected"
 msgstr "Neaptikta papildomų diskų"
 
 #: src/components/storage/MountPointMapping.jsx:565
+#: src/components/storage/ReclaimSpaceModal.jsx:117
 msgid "No devices"
 msgstr "Nėra įrenginių"
 
@@ -559,12 +574,12 @@ msgstr "Pasirinktuose diskuose nėra panaudojamų įrenginių."
 msgid "No usable disks detected"
 msgstr "Neaptikta panaudojamų diskų"
 
-#: src/components/storage/InstallationScenario.jsx:76
+#: src/components/storage/InstallationScenario.jsx:78
 #, fuzzy
 msgid "Not enough free space on the selected disks."
 msgstr "Pasirinktuose diskuose nepakanka vietos."
 
-#: src/components/storage/InstallationScenario.jsx:55
+#: src/components/storage/InstallationScenario.jsx:57
 msgid "Not enough space on selected disks."
 msgstr "Pasirinktuose diskuose nepakanka vietos."
 
@@ -687,6 +702,29 @@ msgstr "Perleisti"
 msgid "Reboot system?"
 msgstr "Perleisti sistemą?"
 
+#: src/components/storage/InstallationScenario.jsx:195
+#, fuzzy
+#| msgctxt "GUI|Reclaim Dialog"
+#| msgid "_Reclaim space"
+msgid "Reclaim additional space"
+msgstr "_Atkovoti vietą"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:101
+#: src/components/storage/ReclaimSpaceModal.jsx:109
+#: src/components/storage/ReclaimSpaceModal.jsx:150
+#, fuzzy
+#| msgctxt "GUI|Reclaim Dialog"
+#| msgid "_Reclaim space"
+msgid "Reclaim space"
+msgstr "_Atkovoti vietą"
+
+#: src/components/storage/InstallationScenario.jsx:195
+#, fuzzy
+#| msgctxt "GUI|Reclaim Dialog"
+#| msgid "_Reclaim space"
+msgid "Reclaim space (required)"
+msgstr "_Atkovoti vietą"
+
 #: src/components/storage/MountPointMapping.jsx:245
 msgid "Recommended"
 msgstr ""
@@ -711,6 +749,17 @@ msgid ""
 msgstr ""
 "Pašalinti visus skaidinius pasirinktuose įrenginiuose, įskaitant operacines "
 "sistema. Įsitikinkite, kad turite duomenų atsarginę kopiją."
+
+#: src/components/storage/ReclaimSpaceModal.jsx:87
+#, fuzzy
+#| msgid "Use free space for the installation"
+msgid "Remove existing filesystems to free up space for the installation."
+msgstr "Naudoti laisvą vietą diegimui"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:90
+msgid ""
+"Removing a filesystem will permanently delete all of the data it contains. "
+msgstr ""
 
 #: src/components/HeaderKebab.jsx:132
 msgid "Report Issue"
@@ -811,7 +860,7 @@ msgstr "Patvirtinti slaptafrazę"
 msgid "Show password"
 msgstr "Rodyti slaptažodį"
 
-#: src/components/review/StorageReview.jsx:115
+#: src/components/review/StorageReview.jsx:148
 msgid "Size"
 msgstr ""
 
@@ -838,6 +887,12 @@ msgstr ""
 #: src/components/storage/InstallationScenario.jsx:116
 msgid "Some required partitions are missing: $0"
 msgstr ""
+
+#: src/components/storage/ReclaimSpaceModal.jsx:114
+#, fuzzy
+#| msgid "No Space"
+msgid "Space"
+msgstr "Nėra vietos"
 
 #: src/components/review/ReviewConfiguration.jsx:156
 msgid "Storage"
@@ -929,11 +984,11 @@ msgstr ""
 "Šis žurnalas bus išsiųstas į problemų sekimo sistemą, kur jums reikės "
 "pateikti papildomą informaciją."
 
-#: src/components/storage/InstallationScenario.jsx:57
+#: src/components/storage/InstallationScenario.jsx:59
 msgid "The installation needs $1 of disk space; "
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:204
+#: src/components/storage/InstallationScenario.jsx:225
 msgid ""
 "The installation will use the available space on your devices and will not "
 "erase any device data."
@@ -941,8 +996,8 @@ msgstr ""
 "Diegimas naudos jūsų įrenginiuose esamą vietą ir neištrins jokio įrenginio "
 "duomenų."
 
-#: src/components/storage/InstallationScenario.jsx:218
-#: src/components/storage/InstallationScenario.jsx:232
+#: src/components/storage/InstallationScenario.jsx:239
+#: src/components/storage/InstallationScenario.jsx:253
 msgid "The installation will use your configured partitioning layout."
 msgstr "Diegimas naudos jūsų sukonfigūruotą skaidinių išdėstymą."
 
@@ -962,7 +1017,7 @@ msgstr ""
 "Jūsų pateiktoje slaptafrazėje yra ne ASCII simbolių. Gali būti, kad "
 "negalėsite keisti klaviatūros išdėstymų ąį įvesdami."
 
-#: src/components/storage/InstallationScenario.jsx:190
+#: src/components/storage/InstallationScenario.jsx:209
 msgid ""
 "The selected disks will be erased, this cannot be undone. Are you sure you "
 "want to continue with the installation?"
@@ -1004,13 +1059,13 @@ msgid "To begin using $0, reboot your system."
 msgstr ""
 "Norėdami pradėti naudoti Fedora 39 (darbalaukio leidimą) perleiskite sistemą."
 
-#: src/components/storage/InstallationMethod.jsx:151
+#: src/components/storage/InstallationMethod.jsx:187
 msgid "To continue, select the devices to install to."
 msgstr "Norėdami tęsti, pasirinkite įrenginius diegimui."
 
-#: src/components/storage/InstallationScenario.jsx:210
-#: src/components/storage/InstallationScenario.jsx:224
-#: src/components/storage/InstallationScenario.jsx:238
+#: src/components/storage/InstallationScenario.jsx:231
+#: src/components/storage/InstallationScenario.jsx:245
+#: src/components/storage/InstallationScenario.jsx:259
 msgid "To prevent loss, make sure to backup your data."
 msgstr ""
 "Siekiant išvengti praradimų, įsitikinkite, kada pasidarėte atsarginę duomenų "
@@ -1020,11 +1075,15 @@ msgstr ""
 msgid "To use this option, rename devices to have unique names."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:78
+#: src/components/storage/InstallationScenario.jsx:80
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
 msgstr ""
+
+#: src/components/storage/ReclaimSpaceModal.jsx:113
+msgid "Type"
+msgstr "Tipas"
 
 #: src/components/storage/EncryptedDevices.jsx:161
 msgid "Unlock"
@@ -1038,13 +1097,13 @@ msgstr "Atrakinti įrenginius"
 msgid "Unlock encrypted devices"
 msgstr "Atrakinti šifruotus įrenginius"
 
-#: src/components/storage/InstallationScenario.jsx:237
+#: src/components/storage/InstallationScenario.jsx:258
 #, fuzzy
 #| msgid "Configuring storage"
 msgid "Use configured storage"
 msgstr "Konfigūruojama saugykla"
 
-#: src/components/storage/InstallationScenario.jsx:209
+#: src/components/storage/InstallationScenario.jsx:230
 msgid "Use free space for the installation"
 msgstr "Naudoti laisvą vietą diegimui"
 
@@ -1082,7 +1141,7 @@ msgstr "Sveiki"
 msgid "Welcome to $0"
 msgstr "Sveiki pradėję naudoti $0"
 
-#: src/components/storage/InstallationMethod.jsx:165
+#: src/components/storage/InstallationMethod.jsx:201
 msgid "Welcome. Let's install $0 now."
 msgstr "Sveiki. Įdiekime $0."
 
@@ -1103,6 +1162,14 @@ msgstr "užbaigtas žingsnis"
 #: src/components/installation/InstallationProgress.jsx:190
 msgid "current step"
 msgstr "dabartinis žingsnis"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:248
+#: src/components/storage/ReclaimSpaceModal.jsx:256
+#: src/components/review/StorageReview.jsx:93
+#, fuzzy
+#| msgid "Delete"
+msgid "delete"
+msgstr "Ištrinti"
 
 #: src/components/review/Hostname.jsx:97
 msgid "edit"
@@ -1131,6 +1198,10 @@ msgstr "prijungti"
 #: src/components/installation/InstallationProgress.jsx:179
 msgid "pending step"
 msgstr "laukiantis žingsnis"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:257
+msgid "undo"
+msgstr ""
 
 #~ msgid "Error was hit when going back from $0."
 #~ msgstr "Kilo klaida grįžtant iš $0."
@@ -2257,9 +2328,6 @@ msgstr "laukiantis žingsnis"
 #~ msgid "Default spoke title"
 #~ msgstr "Numatytasis frazės pavadinimas"
 
-#~ msgid "Delete"
-#~ msgstr "Ištrinti"
-
 #~ msgctxt "GUI|Reclaim Dialog"
 #~ msgid "Delete _all"
 #~ msgstr "Ištrinti _viską"
@@ -3181,9 +3249,6 @@ msgstr "laukiantis žingsnis"
 #~ msgid "Locales"
 #~ msgstr "Lokalės"
 
-#~ msgid "Location"
-#~ msgstr "Vieta"
-
 #~ msgid "Logical volume \"{}\" given in logvol command does not exist."
 #~ msgstr "Nėra loginio tomo „[]“, pateikto logvol komandoje."
 
@@ -3307,9 +3372,6 @@ msgstr "laukiantis žingsnis"
 #~ msgid "N_FS mount options:"
 #~ msgstr "N_FS prijungimo parametrai:"
 
-#~ msgid "Name"
-#~ msgstr "Pavadinimas"
-
 #~ msgid "Name '$' is not allowed."
 #~ msgstr "Vardas „$“ neleidžiamas."
 
@@ -3381,9 +3443,6 @@ msgstr "laukiantis žingsnis"
 
 #~ msgid "No *.iso files found in device root folder"
 #~ msgstr "Nėra *.iso failų įrenginio šakniniame aplanke"
-
-#~ msgid "No Space"
-#~ msgstr "Nėra vietos"
 
 #~ msgid "No additional software to select."
 #~ msgstr "Nėra papildomos programinės įrangos."
@@ -5220,9 +5279,6 @@ msgstr "laukiantis žingsnis"
 #~ msgstr ""
 #~ "Bandyta naudoti neapibrėžtą skaidinį „{}“ tomų grupės specifikacijoje"
 
-#~ msgid "Type"
-#~ msgstr "Tipas"
-
 #~ msgid "Type here to search."
 #~ msgstr "Rašykite čia paieškai."
 
@@ -6466,10 +6522,6 @@ msgstr "laukiantis žingsnis"
 #~ msgctxt "GUI|Progress"
 #~ msgid "_Reboot System"
 #~ msgstr "_Restartuoti sistemą"
-
-#~ msgctxt "GUI|Reclaim Dialog"
-#~ msgid "_Reclaim space"
-#~ msgstr "_Atkovoti vietą"
 
 #~ msgctxt "GUI|Storage|Need Space Dialog"
 #~ msgid "_Reclaim space"
