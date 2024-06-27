@@ -47,16 +47,16 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-27 02:50+0000\n"
-"PO-Revision-Date: 2024-04-02 02:38+0000\n"
+"PO-Revision-Date: 2024-06-28 00:53+0000\n"
 "Last-Translator: Josef Hruska <hrusjos@gmail.com>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/anaconda-"
-"webui/anaconda-webui/cs/>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"anaconda-webui/anaconda-webui/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.4\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: src/components/app.jsx:83
 msgid "$0 installation"
@@ -84,8 +84,6 @@ msgstr "Účet"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:115
 #: src/components/review/StorageReview.jsx:149
-#, fuzzy
-#| msgid "Action"
 msgid "Actions"
 msgstr "Akce"
 
@@ -131,7 +129,7 @@ msgstr "Uplatňování výběru nového disku…"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:142
 msgid "Available free space: $0. Installation requires: $1."
-msgstr ""
+msgstr "Volný diskový prostor: $0. Instalace požaduje: $1."
 
 #: src/components/AnacondaWizardFooter.jsx:90
 #: src/components/review/ReviewConfiguration.jsx:191
@@ -156,17 +154,12 @@ msgid "Cancel"
 msgstr "Zrušit"
 
 #: src/components/review/Hostname.jsx:104
-#, fuzzy
-#| msgctxt "GUI|Advanced User"
-#| msgid "_Save Changes"
 msgid "Change"
-msgstr "_Uložit změny"
+msgstr "Změnit"
 
 #: src/components/review/Hostname.jsx:113
-#, fuzzy
-#| msgid "Set host name"
 msgid "Change hostname"
-msgstr "Nastavit název stroje"
+msgstr "Změnit název stroje"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:119
 msgid ""
@@ -312,10 +305,8 @@ msgid "Encrypt the selected devices?"
 msgstr "Šifrovat vybraná zařízení?"
 
 #: src/components/review/StorageReview.jsx:150
-#, fuzzy
-#| msgid "Encrypt"
 msgid "Encrypted"
-msgstr "Šifrovat"
+msgstr "Šifrovaný"
 
 #: src/components/storage/EncryptedDevices.jsx:69
 msgid "Encrypted devices are locked"
@@ -389,8 +380,6 @@ msgstr "Skrýt heslo"
 
 #: src/components/review/Hostname.jsx:117
 #: src/components/review/Hostname.jsx:163
-#, fuzzy
-#| msgid "Host Name"
 msgid "Hostname"
 msgstr "Název stroje"
 
@@ -401,6 +390,8 @@ msgstr "Jak si přejete nainstalovat?"
 #: src/components/review/Hostname.jsx:140
 msgid "If empty, hostname will be transient and set by network information."
 msgstr ""
+"Necháte-li nevyplněn, název stroje bude dočasný a nastaven pomocí informací "
+"ze sítě."
 
 #: src/components/storage/CockpitStorageIntegration.jsx:499
 msgid "If you are configuring partitions the following are required:"
@@ -498,7 +489,7 @@ msgstr "Vybrat umístění úložiště pro instalaci."
 
 #: src/components/review/Hostname.jsx:137
 msgid "May contain letters, numbers, and dashes."
-msgstr ""
+msgstr "Může obsahovat písmena, číslice a pomlčky."
 
 #: src/components/Password.jsx:75
 msgid "Medium"
@@ -677,12 +668,12 @@ msgid ""
 "Real hostname can only contain characters, digits, dashes (not starting or "
 "ending a character) and dots"
 msgstr ""
+"Skutečný název stroje může obsahovat pouze písmena, číslice, pomlčky (ne "
+"však jako zahajovací nebo ukončující znak) a tečky"
 
 #: src/components/review/Hostname.jsx:51
-#, fuzzy
-#| msgid "Host name must be 64 or fewer characters in length."
 msgid "Real hostname must be 64 characters or less"
-msgstr "Je třeba, aby délka názvu stroje nepřesahovala 64 znaků."
+msgstr "Délka názvu stroje nesmí přesáhnout 64 znaků"
 
 #: src/components/AnacondaWizardFooter.jsx:108
 #: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
@@ -695,27 +686,18 @@ msgid "Reboot system?"
 msgstr "Restartovat systém?"
 
 #: src/components/storage/InstallationScenario.jsx:195
-#, fuzzy
-#| msgctxt "GUI|Reclaim Dialog"
-#| msgid "_Reclaim space"
 msgid "Reclaim additional space"
-msgstr "Uvolnit p_rostor"
+msgstr "Získat více místa"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:101
 #: src/components/storage/ReclaimSpaceModal.jsx:109
 #: src/components/storage/ReclaimSpaceModal.jsx:150
-#, fuzzy
-#| msgctxt "GUI|Reclaim Dialog"
-#| msgid "_Reclaim space"
 msgid "Reclaim space"
-msgstr "Uvolnit p_rostor"
+msgstr "Uvolnit místo"
 
 #: src/components/storage/InstallationScenario.jsx:195
-#, fuzzy
-#| msgctxt "GUI|Reclaim Dialog"
-#| msgid "_Reclaim space"
 msgid "Reclaim space (required)"
-msgstr "Uvolnit p_rostor"
+msgstr "Uvolnit místo (vyžadováno)"
 
 #: src/components/storage/MountPointMapping.jsx:245
 msgid "Recommended"
@@ -743,15 +725,14 @@ msgstr ""
 "operačních systémů. Zajistěte, že jsou data z nich zazálohována."
 
 #: src/components/storage/ReclaimSpaceModal.jsx:87
-#, fuzzy
-#| msgid "Use free space for the installation"
 msgid "Remove existing filesystems to free up space for the installation."
-msgstr "Pro instalaci použít volné místo"
+msgstr ""
+"Uvolnit místo pro instalaci odstraněním existujících souborových systémů."
 
 #: src/components/storage/ReclaimSpaceModal.jsx:90
 msgid ""
 "Removing a filesystem will permanently delete all of the data it contains. "
-msgstr ""
+msgstr "Odstranění souborového systému smaže všechna data, která obsahuje. "
 
 #: src/components/HeaderKebab.jsx:132
 msgid "Report Issue"
@@ -800,11 +781,8 @@ msgid "Review and install"
 msgstr "Zkontrolovat a nainstalovat"
 
 #: src/components/review/Hostname.jsx:104
-#, fuzzy
-#| msgctxt "GUI|Custom Partitioning|Container Dialog"
-#| msgid "_Save"
 msgid "Save"
-msgstr "_Uložit"
+msgstr "Uložit"
 
 #: src/components/installation/Feedback.jsx:38
 msgid "Scan the QR code with your phone or visit:"
@@ -827,10 +805,8 @@ msgid "Send us feedback on your installation"
 msgstr "Pošlete nám zpětnou vazbu o vaší instalaci"
 
 #: src/components/review/Hostname.jsx:113
-#, fuzzy
-#| msgid "Set host name"
 msgid "Set custom hostname"
-msgstr "Nastavit název stroje"
+msgstr "Nastavit vlastní název stroje"
 
 #: src/components/Password.jsx:242
 msgid "Show confirmed password"
@@ -846,7 +822,7 @@ msgstr "Zobrazit heslo"
 
 #: src/components/review/StorageReview.jsx:148
 msgid "Size"
-msgstr ""
+msgstr "Velikost"
 
 #: src/components/storage/EncryptedDevices.jsx:87
 msgid "Skip"
@@ -873,10 +849,8 @@ msgid "Some required partitions are missing: $0"
 msgstr "Chybí některé vyžadované oddíly: $0"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:114
-#, fuzzy
-#| msgid "No Space"
 msgid "Space"
-msgstr "Žádné místo"
+msgstr "Místo"
 
 #: src/components/review/ReviewConfiguration.jsx:156
 msgid "Storage"
@@ -1009,7 +983,7 @@ msgstr "Tento účet bude mít oprávnění správce se sudo."
 
 #: src/components/review/Hostname.jsx:71
 msgid "This hostname can't be submitted"
-msgstr ""
+msgstr "Takový název stroje nelze nastavit"
 
 #: src/components/AnacondaHeader.jsx:67
 msgid "This is unstable, pre-release software"
@@ -1135,26 +1109,20 @@ msgstr "stávající krok"
 #: src/components/storage/ReclaimSpaceModal.jsx:248
 #: src/components/storage/ReclaimSpaceModal.jsx:256
 #: src/components/review/StorageReview.jsx:93
-#, fuzzy
-#| msgid "Delete"
 msgid "delete"
-msgstr "Smazat"
+msgstr "smazat"
 
 #: src/components/review/Hostname.jsx:97
 msgid "edit"
-msgstr ""
+msgstr "upravit"
 
 #: src/components/review/StorageReview.jsx:85
-#, fuzzy
-#| msgid "Encrypt"
 msgid "encrypt"
-msgstr "Šifrovat"
+msgstr "šifrovat"
 
 #: src/components/review/StorageReview.jsx:85
-#, fuzzy
-#| msgid "Encrypt"
 msgid "encrypted"
-msgstr "Šifrovat"
+msgstr "šifrováno"
 
 #: src/components/review/StorageReview.jsx:64
 msgid "format as $0"
@@ -1170,7 +1138,7 @@ msgstr "čekající krok"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:257
 msgid "undo"
-msgstr ""
+msgstr "zpět"
 
 #~ msgid "Error was hit when going back from $0."
 #~ msgstr "Při přechodu zpět z $0 se narazilo na chybu."
