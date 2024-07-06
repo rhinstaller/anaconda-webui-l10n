@@ -68,7 +68,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-05 02:50+0000\n"
+"POT-Creation-Date: 2024-07-06 02:49+0000\n"
 "PO-Revision-Date: 2024-07-05 02:45+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/anaconda-"
@@ -88,6 +88,12 @@ msgstr "Installation de $0"
 msgid "$0 installer"
 msgstr "Programme d'installation du système $0"
 
+#: src/components/review/StorageReview.jsx:240
+#, fuzzy
+#| msgid "No user will be created"
+msgid "$0 will be deleted"
+msgstr "Aucun utilisateur ne sera créé"
+
 #: src/components/storage/MountPointMapping.jsx:205
 msgid "'$0' filesystem cannot be on an ecnrypted block device"
 msgstr ""
@@ -102,12 +108,12 @@ msgstr "'$0' doit être sur un périphérique au format '$1'"
 msgid "About"
 msgstr "À propos"
 
-#: src/components/review/ReviewConfiguration.jsx:116
+#: src/components/review/ReviewConfiguration.jsx:110
 msgid "Account"
 msgstr "Compte"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:116
-#: src/components/review/StorageReview.jsx:176
+#: src/components/review/StorageReview.jsx:177
 msgid "Actions"
 msgstr "Actions"
 
@@ -144,11 +150,11 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Page du projet Anaconda"
 
-#: src/components/storage/InstallationScenario.jsx:233
+#: src/components/storage/InstallationScenario.jsx:241
 msgid "Apply mount point assignment and install"
 msgstr "Appliquer l'affectation des points de montage et installer"
 
-#: src/components/storage/InstallationDestination.jsx:218
+#: src/components/storage/InstallationDestination.jsx:219
 msgid "Applying new disk selection..."
 msgstr "Application de la nouvelle sélection de disques..."
 
@@ -158,7 +164,7 @@ msgstr ""
 "Espace libre disponible : $0. Espace nécessaire pour l'installation : $1."
 
 #: src/components/AnacondaWizardFooter.jsx:90
-#: src/components/review/ReviewConfiguration.jsx:190
+#: src/components/review/ReviewConfiguration.jsx:175
 msgid "Back"
 msgstr "Retour"
 
@@ -188,7 +194,7 @@ msgstr "Modifier"
 msgid "Change hostname"
 msgstr "Modifier le nom d'hôte"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:139
+#: src/components/storage/CockpitStorageIntegration.jsx:145
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
@@ -196,8 +202,8 @@ msgstr ""
 "Aucun retour en arrière n'est possible."
 
 #: src/components/storage/DiskEncryption.jsx:54
-#: src/components/storage/CockpitStorageIntegration.jsx:399
-#: src/components/storage/CockpitStorageIntegration.jsx:411
+#: src/components/storage/CockpitStorageIntegration.jsx:405
+#: src/components/storage/CockpitStorageIntegration.jsx:417
 msgid "Checking storage configuration"
 msgstr "Vérification de la configuration du stockage"
 
@@ -209,7 +215,7 @@ msgstr "Choisissez une langue"
 msgid "Chosen language: "
 msgstr "Langue choisie : "
 
-#: src/components/storage/InstallationDestination.jsx:239
+#: src/components/storage/InstallationDestination.jsx:240
 msgid "Clear input value"
 msgstr "Effacer la valeur saisie"
 
@@ -217,7 +223,7 @@ msgstr "Effacer la valeur saisie"
 msgid "Close"
 msgstr "Fermer"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:317
+#: src/components/storage/CockpitStorageIntegration.jsx:323
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
@@ -232,11 +238,11 @@ msgstr "Langues"
 msgid "Completed"
 msgstr "Terminé"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:129
+#: src/components/storage/CockpitStorageIntegration.jsx:135
 msgid "Configure storage"
 msgstr "Configurer le stockage"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:448
+#: src/components/storage/CockpitStorageIntegration.jsx:454
 msgid "Configure storage again"
 msgstr "Configurer le stockage à nouveau"
 
@@ -245,7 +251,7 @@ msgstr "Configurer le stockage à nouveau"
 msgid "Confirm passphrase"
 msgstr "Confirmer la phrase secrète"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:433
+#: src/components/storage/CockpitStorageIntegration.jsx:439
 msgid "Continue"
 msgstr "Continuer"
 
@@ -253,7 +259,7 @@ msgstr "Continuer"
 msgid "Continue installation"
 msgstr "Continuer l'installation"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:408
+#: src/components/storage/CockpitStorageIntegration.jsx:414
 msgid "Continue with installation"
 msgstr "Continuer avec l'installation"
 
@@ -269,7 +275,7 @@ msgstr "Créer un compte"
 msgid "Critical error"
 msgstr "Erreur critique"
 
-#: src/components/storage/InstallationDestination.jsx:222
+#: src/components/storage/InstallationDestination.jsx:223
 msgid "Current selections"
 msgstr "Sélections actuelles"
 
@@ -277,16 +283,20 @@ msgstr "Sélections actuelles"
 msgid "Custom"
 msgstr "Personnalisé"
 
-#: src/components/storage/InstallationDestination.jsx:406
+#: src/components/review/StorageReview.jsx:246
+msgid "Deletion of certain partitions may prevent $0 from booting: $1"
+msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:407
 msgid "Destination"
 msgstr "Destination"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:473
+#: src/components/storage/CockpitStorageIntegration.jsx:479
 msgid "Detected valid storage layout:"
 msgstr "Schéma de stockage valide détecté :"
 
 #: src/components/storage/MountPointMapping.jsx:561
-#: src/components/review/StorageReview.jsx:174
+#: src/components/review/StorageReview.jsx:175
 msgid "Device"
 msgstr "Périphérique"
 
@@ -296,7 +306,7 @@ msgstr ""
 "Les périphériques doivent être déverrouillés avant d'attribuer les points de "
 "montage."
 
-#: src/components/review/ReviewConfiguration.jsx:148
+#: src/components/review/ReviewConfiguration.jsx:134
 msgid "Disabled"
 msgstr "Désactivé"
 
@@ -305,7 +315,7 @@ msgid "Disk configuration"
 msgstr "Configuration des disques"
 
 #: src/components/storage/DiskEncryption.jsx:198
-#: src/components/review/ReviewConfiguration.jsx:145
+#: src/components/review/ReviewConfiguration.jsx:133
 msgid "Disk encryption"
 msgstr "Chiffrement des disques"
 
@@ -321,7 +331,7 @@ msgstr "Point de montage en double."
 msgid "Enable root account"
 msgstr "Activer le compte root"
 
-#: src/components/review/ReviewConfiguration.jsx:148
+#: src/components/review/ReviewConfiguration.jsx:134
 msgid "Enabled"
 msgstr "Activé"
 
@@ -333,7 +343,7 @@ msgstr "Chiffrer mes données"
 msgid "Encrypt the selected devices?"
 msgstr "Chiffrer les périphériques sélectionnés ?"
 
-#: src/components/review/StorageReview.jsx:177
+#: src/components/review/StorageReview.jsx:178
 msgid "Encrypted"
 msgstr "Chiffré"
 
@@ -347,16 +357,16 @@ msgstr ""
 "Le chiffrement permet de sécuriser vos données et d'empêcher d'autres "
 "personnes d'y accéder."
 
-#: src/components/storage/InstallationScenario.jsx:203
-#: src/components/storage/InstallationScenario.jsx:214
+#: src/components/storage/InstallationScenario.jsx:211
+#: src/components/storage/InstallationScenario.jsx:222
 msgid "Erase data and install"
 msgstr "Effacer les données et installer"
 
-#: src/components/storage/InstallationScenario.jsx:210
+#: src/components/storage/InstallationScenario.jsx:218
 msgid "Erase data and install?"
 msgstr "Effacer les données et installer ?"
 
-#: src/components/storage/InstallationScenario.jsx:215
+#: src/components/storage/InstallationScenario.jsx:223
 msgid "Erasing the data cannot be undone. Be sure to have backups."
 msgstr ""
 "Il est impossible d'annuler l'effacement des données. Assurez-vous d'avoir "
@@ -366,7 +376,7 @@ msgstr ""
 msgid "Error details"
 msgstr "Détails de l'erreur"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:544
+#: src/components/storage/CockpitStorageIntegration.jsx:550
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora Linux requiert au moins $0 d'espace disque."
 
@@ -386,7 +396,7 @@ msgstr ""
 msgid "Find a language"
 msgstr "Rechercher une langue"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:477
+#: src/components/storage/CockpitStorageIntegration.jsx:483
 msgid "Free space requirements met"
 msgstr "Prérequis d'espace libre respectés"
 
@@ -415,7 +425,7 @@ msgstr "Masquer le mot de passe"
 msgid "Hostname"
 msgstr "Nom d'hôte"
 
-#: src/components/storage/InstallationScenario.jsx:423
+#: src/components/storage/InstallationScenario.jsx:431
 msgid "How would you like to install?"
 msgstr "Comment souhaitez-vous effectuer l'installation ?"
 
@@ -425,7 +435,7 @@ msgstr ""
 "Si le champ est vide, le nom d'hôte sera transitoire et défini par les "
 "informations du réseau."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:520
+#: src/components/storage/CockpitStorageIntegration.jsx:526
 msgid "If you are configuring partitions the following are required:"
 msgstr "Si vous configurez des partitions, les éléments suivants sont requis :"
 
@@ -444,20 +454,20 @@ msgstr "En cours"
 msgid "Initializing..."
 msgstr "Initialisation..."
 
-#: src/components/storage/InstallationScenario.jsx:218
-#: src/components/storage/InstallationScenario.jsx:247
+#: src/components/storage/InstallationScenario.jsx:226
+#: src/components/storage/InstallationScenario.jsx:255
 msgid "Install"
 msgstr "Installer"
 
-#: src/components/storage/InstallationScenario.jsx:240
+#: src/components/storage/InstallationScenario.jsx:248
 msgid "Install on the custom mount points?"
 msgstr "Installer en utilisant les points de montage personnalisés ?"
 
-#: src/components/storage/InstallationScenario.jsx:226
+#: src/components/storage/InstallationScenario.jsx:234
 msgid "Install on the free space?"
 msgstr "Installer dans l'espace libre ?"
 
-#: src/components/storage/InstallationScenario.jsx:254
+#: src/components/storage/InstallationScenario.jsx:262
 msgid "Install using the configured storage?"
 msgstr "Installer en utilisant le stockage configuré ?"
 
@@ -473,7 +483,7 @@ msgstr "Méthode d'installation"
 msgid "Installation of the system failed: $0"
 msgstr "Échec de l'installation du système : $0"
 
-#: src/components/review/ReviewConfiguration.jsx:134
+#: src/components/review/ReviewConfiguration.jsx:125
 msgid "Installation type"
 msgstr "Type d'installation"
 
@@ -481,7 +491,7 @@ msgstr "Type d'installation"
 msgid "Installing"
 msgstr "Installation"
 
-#: src/components/storage/InstallationDestination.jsx:425
+#: src/components/storage/InstallationDestination.jsx:426
 msgid "Installing to $0 ($1)"
 msgstr "Installation sur $0 ($1)"
 
@@ -491,7 +501,7 @@ msgstr ""
 "Conserver la configuration actuelle des disques et installer uniquement dans "
 "l'espace disponible."
 
-#: src/components/review/ReviewConfiguration.jsx:106
+#: src/components/review/ReviewConfiguration.jsx:103
 msgid "Language"
 msgstr "Langue"
 
@@ -540,11 +550,11 @@ msgid "Modify storage"
 msgstr "Modifier le stockage"
 
 #: src/components/storage/MountPointMapping.jsx:560
-#: src/components/review/StorageReview.jsx:173
+#: src/components/review/StorageReview.jsx:174
 msgid "Mount point"
 msgstr "Point de montage"
 
-#: src/components/storage/InstallationScenario.jsx:244
+#: src/components/storage/InstallationScenario.jsx:252
 #: src/components/storage/MountPointMapping.jsx:558
 msgid "Mount point assignment"
 msgstr "Attribution des points de montage"
@@ -573,7 +583,7 @@ msgstr "Réseau non disponible. Configurez le réseau pour signaler le problème
 msgid "Next"
 msgstr "Suivant"
 
-#: src/components/storage/InstallationDestination.jsx:472
+#: src/components/storage/InstallationDestination.jsx:473
 msgid "No additional disks detected"
 msgstr "Aucun disque supplémentaire détecté"
 
@@ -582,26 +592,30 @@ msgstr "Aucun disque supplémentaire détecté"
 msgid "No devices"
 msgstr "Aucun périphérique"
 
-#: src/components/storage/InstallationDestination.jsx:120
+#: src/components/storage/InstallationDestination.jsx:121
 #: src/components/localization/InstallationLanguage.jsx:192
 msgid "No results found"
 msgstr "Aucun résultat trouvé"
 
-#: src/components/storage/InstallationScenario.jsx:113
+#: src/components/storage/InstallationScenario.jsx:121
 msgid "No usable devices on the selected disks."
 msgstr "Aucun périphérique utilisable sur les disques sélectionnés."
 
-#: src/components/storage/InstallationDestination.jsx:435
+#: src/components/storage/InstallationDestination.jsx:436
 msgid "No usable disks detected"
 msgstr "Aucun disque utilisable détecté"
 
-#: src/components/storage/InstallationScenario.jsx:78
+#: src/components/storage/InstallationScenario.jsx:86
 msgid "Not enough free space on the selected disks."
 msgstr "Pas assez d'espace libre sur les disques sélectionnés."
 
-#: src/components/storage/InstallationScenario.jsx:57
+#: src/components/storage/InstallationScenario.jsx:65
 msgid "Not enough space on selected disks."
 msgstr "Pas assez d'espace sur les disques sélectionnés."
+
+#: src/components/review/StorageReview.jsx:262
+msgid "Note"
+msgstr ""
 
 #: src/components/AnacondaHeader.jsx:73
 msgid ""
@@ -625,7 +639,7 @@ msgstr ""
 msgid "Operating system"
 msgstr "Système d'exploitation"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:552
+#: src/components/storage/CockpitStorageIntegration.jsx:558
 msgid "Partitions (advanced)"
 msgstr "Partitions (avancé)"
 
@@ -664,7 +678,7 @@ msgstr "Préversion"
 msgid "Preparing report"
 msgstr "Préparation du rapport"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:455
+#: src/components/storage/CockpitStorageIntegration.jsx:461
 msgid "Proceed with installation"
 msgstr "Poursuivre l'installation"
 
@@ -678,7 +692,7 @@ msgstr "Quitter"
 msgid "Quit installer?"
 msgstr "Quitter le programme d'installation ?"
 
-#: src/components/storage/InstallationDestination.jsx:379
+#: src/components/storage/InstallationDestination.jsx:380
 msgid "Re-scan"
 msgstr "Nouveau scan"
 
@@ -722,7 +736,7 @@ msgstr "Redémarrer"
 msgid "Reboot system?"
 msgstr "Redémarrer le système ?"
 
-#: src/components/storage/InstallationScenario.jsx:195
+#: src/components/storage/InstallationScenario.jsx:203
 msgid "Reclaim additional space"
 msgstr "Récupérer plus d'espace"
 
@@ -732,7 +746,7 @@ msgstr "Récupérer plus d'espace"
 msgid "Reclaim space"
 msgstr "Récupérer de l'espace"
 
-#: src/components/storage/InstallationScenario.jsx:195
+#: src/components/storage/InstallationScenario.jsx:203
 msgid "Reclaim space (required)"
 msgstr "Récupérer de l'espace (requis)"
 
@@ -740,7 +754,7 @@ msgstr "Récupérer de l'espace (requis)"
 msgid "Recommended"
 msgstr "Recommandé"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:529
+#: src/components/storage/CockpitStorageIntegration.jsx:535
 msgid "Recommended partitions:"
 msgstr "Partitions recommandées :"
 
@@ -796,28 +810,28 @@ msgstr ""
 msgid "Required"
 msgstr "Requis"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:541
+#: src/components/storage/CockpitStorageIntegration.jsx:547
 msgid "Requirements"
 msgstr "Prérequis"
 
-#: src/components/storage/InstallationDestination.jsx:388
+#: src/components/storage/InstallationDestination.jsx:389
 msgid "Rescan"
 msgstr "Nouveau scan"
 
-#: src/components/storage/InstallationDestination.jsx:367
+#: src/components/storage/InstallationDestination.jsx:368
 msgid "Rescanning of the disks failed."
 msgstr "Échec du nouveau scan des disques."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:85
+#: src/components/storage/CockpitStorageIntegration.jsx:91
 msgid "Return to installation"
 msgstr "Retour vers l'installation"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:439
+#: src/components/storage/CockpitStorageIntegration.jsx:445
 msgid "Return to storage editor"
 msgstr "Revenir dans l'éditeur de stockage"
 
-#: src/components/review/ReviewConfiguration.jsx:247
-#: src/components/review/ReviewConfiguration.jsx:248
+#: src/components/review/ReviewConfiguration.jsx:232
+#: src/components/review/ReviewConfiguration.jsx:233
 msgid "Review and install"
 msgstr "Examiner et installer"
 
@@ -833,7 +847,7 @@ msgstr "Scannez le code QR avec votre smartphone ou visitez :"
 msgid "Select a device"
 msgstr "Sélectionnez un périphérique"
 
-#: src/components/storage/InstallationDestination.jsx:218
+#: src/components/storage/InstallationDestination.jsx:219
 msgid "Select a disk"
 msgstr "Sélectionnez un disque"
 
@@ -861,7 +875,7 @@ msgstr "Afficher la phrase secrète"
 msgid "Show password"
 msgstr "Afficher le mot de passe"
 
-#: src/components/review/StorageReview.jsx:175
+#: src/components/review/StorageReview.jsx:176
 msgid "Size"
 msgstr "Taille"
 
@@ -881,11 +895,11 @@ msgstr ""
 "Installation des logiciels : Configuration du stockage terminée. Les "
 "logiciels sont maintenant en cours d'installation sur votre appareil."
 
-#: src/components/storage/InstallationScenario.jsx:119
+#: src/components/storage/InstallationScenario.jsx:127
 msgid "Some devices use the same name: $0."
 msgstr "Plusieurs périphériques utilisent le même nom : $0."
 
-#: src/components/storage/InstallationScenario.jsx:116
+#: src/components/storage/InstallationScenario.jsx:124
 msgid "Some required partitions are missing: $0"
 msgstr "Certaines partitions requises sont manquantes : $0"
 
@@ -893,7 +907,7 @@ msgstr "Certaines partitions requises sont manquantes : $0"
 msgid "Space"
 msgstr "Espace"
 
-#: src/components/review/ReviewConfiguration.jsx:155
+#: src/components/review/ReviewConfiguration.jsx:140
 msgid "Storage"
 msgstr "Stockage"
 
@@ -910,11 +924,11 @@ msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr ""
 "Le stockage est basé sur la configuration du menu 'Modifier le stockage'."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:122
+#: src/components/storage/CockpitStorageIntegration.jsx:128
 msgid "Storage plugin failed"
 msgstr "Échec du plugin de stockage"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:406
+#: src/components/storage/CockpitStorageIntegration.jsx:412
 msgid "Storage requirements not met"
 msgstr "Prérequis de stockage non respectés"
 
@@ -954,13 +968,13 @@ msgstr ""
 "La langue choisie sera utilisée pour l'installation et dans les logiciels "
 "installés. "
 
-#: src/components/storage/InstallationDestination.jsx:504
+#: src/components/storage/InstallationDestination.jsx:505
 msgid "The following disk is no longer available: $0"
 msgid_plural "The following disks are no longer available: $0"
 msgstr[0] "Le disque suivant n'est plus disponible : $0"
 msgstr[1] "Les disques suivants ne sont plus disponibles : $0"
 
-#: src/components/storage/InstallationDestination.jsx:487
+#: src/components/storage/InstallationDestination.jsx:488
 msgid "The following disk was detected: $0"
 msgid_plural "The following disks were detected: $0"
 msgstr[0] "Le disque suivant a été détecté : $0"
@@ -974,11 +988,11 @@ msgstr ""
 "Le journal suivant sera envoyé au système de suivi des problèmes où vous "
 "pourrez fournir des détails supplémentaires."
 
-#: src/components/storage/InstallationScenario.jsx:59
+#: src/components/storage/InstallationScenario.jsx:67
 msgid "The installation needs $1 of disk space; "
 msgstr "L'installation nécessite $1 d'espace disque ; "
 
-#: src/components/storage/InstallationScenario.jsx:225
+#: src/components/storage/InstallationScenario.jsx:233
 msgid ""
 "The installation will use the available space on your devices and will not "
 "erase any device data."
@@ -986,8 +1000,8 @@ msgstr ""
 "L'installation utilisera l'espace disponible sur vos périphériques et "
 "n'effacera aucune donnée de votre appareil."
 
-#: src/components/storage/InstallationScenario.jsx:239
-#: src/components/storage/InstallationScenario.jsx:253
+#: src/components/storage/InstallationScenario.jsx:247
+#: src/components/storage/InstallationScenario.jsx:261
 msgid "The installation will use your configured partitioning layout."
 msgstr ""
 "L'installation utilisera le schéma de partitionnement que vous avez "
@@ -1014,7 +1028,7 @@ msgstr ""
 "Vous pourriez ne pas être en mesure de changer de disposition de clavier au "
 "moment de le taper."
 
-#: src/components/storage/InstallationScenario.jsx:209
+#: src/components/storage/InstallationScenario.jsx:217
 msgid ""
 "The selected disks will be erased, this cannot be undone. Are you sure you "
 "want to continue with the installation?"
@@ -1022,7 +1036,7 @@ msgstr ""
 "Les disques sélectionnés seront effacés ; cette opération ne peut pas être "
 "annulée. Voulez-vous vraiment poursuivre l'installation ?"
 
-#: src/components/storage/InstallationDestination.jsx:479
+#: src/components/storage/InstallationDestination.jsx:480
 msgid "The usable disks have changed"
 msgstr "Les disques utilisables ont changé"
 
@@ -1042,7 +1056,7 @@ msgstr "Ce logiciel est en préversion et instable"
 msgid "This may take a moment"
 msgstr "Cela peut prendre un court instant"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:400
+#: src/components/storage/CockpitStorageIntegration.jsx:406
 msgid "This will take a few moments"
 msgstr "Cela prendra quelques instants"
 
@@ -1056,19 +1070,19 @@ msgstr ""
 "Pour continuer, sélectionnez les périphériques sur lesquels effectuer "
 "l'installation."
 
-#: src/components/storage/InstallationScenario.jsx:231
-#: src/components/storage/InstallationScenario.jsx:245
-#: src/components/storage/InstallationScenario.jsx:259
+#: src/components/storage/InstallationScenario.jsx:239
+#: src/components/storage/InstallationScenario.jsx:253
+#: src/components/storage/InstallationScenario.jsx:267
 msgid "To prevent loss, make sure to backup your data."
 msgstr "Pour éviter les pertes de données, assurez-vous de les sauvegarder."
 
-#: src/components/storage/InstallationScenario.jsx:120
+#: src/components/storage/InstallationScenario.jsx:128
 msgid "To use this option, rename devices to have unique names."
 msgstr ""
 "Pour utiliser cette option, renommez les périphériques pour qu'ils aient "
 "chacun un nom unique."
 
-#: src/components/storage/InstallationScenario.jsx:80
+#: src/components/storage/InstallationScenario.jsx:88
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -1092,11 +1106,11 @@ msgstr "Déverrouiller les périphériques"
 msgid "Unlock encrypted devices"
 msgstr "Déverrouiller les périphériques chiffrés"
 
-#: src/components/storage/InstallationScenario.jsx:258
+#: src/components/storage/InstallationScenario.jsx:266
 msgid "Use configured storage"
 msgstr "Utiliser le stockage configuré"
 
-#: src/components/storage/InstallationScenario.jsx:230
+#: src/components/storage/InstallationScenario.jsx:238
 msgid "Use free space for the installation"
 msgstr "Utiliser l'espace libre pour l'installation"
 
@@ -1136,7 +1150,7 @@ msgstr "Bienvenue dans $0"
 msgid "Welcome. Let's install $0 now."
 msgstr "Bienvenue, installons ensemble $0."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:547
+#: src/components/storage/CockpitStorageIntegration.jsx:553
 msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
@@ -1159,7 +1173,7 @@ msgstr "étape actuelle"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:250
 #: src/components/storage/ReclaimSpaceModal.jsx:258
-#: src/components/review/StorageReview.jsx:117
+#: src/components/review/StorageReview.jsx:120
 msgid "delete"
 msgstr "supprimer"
 
@@ -1167,19 +1181,19 @@ msgstr "supprimer"
 msgid "edit"
 msgstr "modifier"
 
-#: src/components/review/StorageReview.jsx:109
+#: src/components/review/StorageReview.jsx:112
 msgid "encrypt"
 msgstr "chiffrer"
 
-#: src/components/review/StorageReview.jsx:109
+#: src/components/review/StorageReview.jsx:112
 msgid "encrypted"
 msgstr "chiffré"
 
-#: src/components/review/StorageReview.jsx:88
+#: src/components/review/StorageReview.jsx:91
 msgid "format as $0"
 msgstr "formater au format $0"
 
-#: src/components/review/StorageReview.jsx:89
+#: src/components/review/StorageReview.jsx:92
 msgid "mount"
 msgstr "monter"
 
@@ -3590,9 +3604,6 @@ msgstr "annuler"
 
 #~ msgid "No usable disks."
 #~ msgstr "Pas de disques utilisables."
-
-#~ msgid "No user will be created"
-#~ msgstr "Aucun utilisateur ne sera créé"
 
 #~ msgid "No valid boot loader target device found. See below for details."
 #~ msgstr ""
