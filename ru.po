@@ -52,7 +52,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-23 02:52+0000\n"
+"POT-Creation-Date: 2024-07-24 02:52+0000\n"
 "PO-Revision-Date: 2024-07-15 02:48+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
@@ -95,7 +95,7 @@ msgid "Account"
 msgstr "Учетная запись"
 
 #: src/components/review/StorageReview.jsx:194
-#: src/components/storage/ReclaimSpaceModal.jsx:144
+#: src/components/storage/ReclaimSpaceModal.jsx:148
 msgid "Actions"
 msgstr "Действия"
 
@@ -139,7 +139,7 @@ msgstr "Применить назначение точки монтирован�
 msgid "Applying new disk selection..."
 msgstr "Применение нового выбора диска..."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:195
+#: src/components/storage/ReclaimSpaceModal.jsx:199
 msgid "Available free space: $0. Installation requires: $1."
 msgstr "Доступное пространство: $0. Требуется для установки: $1."
 
@@ -161,7 +161,7 @@ msgstr ""
 "сообщать обо всех ошибках и проблемах, чтобы улучшить эту работу."
 
 #: src/components/review/Hostname.jsx:106
-#: src/components/storage/ReclaimSpaceModal.jsx:206
+#: src/components/storage/ReclaimSpaceModal.jsx:210
 #: src/components/Error.jsx:260
 msgid "Cancel"
 msgstr "Отмена"
@@ -472,7 +472,7 @@ msgstr ""
 msgid "Language"
 msgstr "Язык"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:141
+#: src/components/storage/ReclaimSpaceModal.jsx:145
 msgid "Location"
 msgstr "Местоположение"
 
@@ -528,7 +528,7 @@ msgstr "Назначение точки монтирования"
 msgid "Must be at least $0 characters"
 msgstr "Должно быть не менее $0 символов"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:140
+#: src/components/storage/ReclaimSpaceModal.jsx:144
 msgid "Name"
 msgstr "Имя"
 
@@ -553,7 +553,7 @@ msgid "No additional disks detected"
 msgstr "Дополнительные диски не обнаружены"
 
 #: src/components/storage/MountPointMapping.jsx:565
-#: src/components/storage/ReclaimSpaceModal.jsx:146
+#: src/components/storage/ReclaimSpaceModal.jsx:150
 msgid "No devices"
 msgstr "Нет устройств"
 
@@ -696,6 +696,10 @@ msgstr "Настоящее имя узла должно состоять из 64
 msgid "Reboot"
 msgstr "Перезагрузка"
 
+#: src/components/storage/ReclaimSpaceModal.jsx:465
+msgid "Reboot into Windows to resize BitLocker-encrypted partitions. "
+msgstr ""
+
 #: src/components/AnacondaWizardFooter.jsx:143
 msgid "Reboot system?"
 msgstr "Перезагрузить систему?"
@@ -704,9 +708,9 @@ msgstr "Перезагрузить систему?"
 msgid "Reclaim additional space"
 msgstr "Освободите дополнительное пространство"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:128
-#: src/components/storage/ReclaimSpaceModal.jsx:138
-#: src/components/storage/ReclaimSpaceModal.jsx:203
+#: src/components/storage/ReclaimSpaceModal.jsx:132
+#: src/components/storage/ReclaimSpaceModal.jsx:142
+#: src/components/storage/ReclaimSpaceModal.jsx:207
 msgid "Reclaim space"
 msgstr "Освободить"
 
@@ -739,7 +743,7 @@ msgstr ""
 "Удалить все разделы на выбранных устройствах, включая существующие "
 "операционные системы. Убедитесь, что вы сделали резервную копию своих данных."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:113
+#: src/components/storage/ReclaimSpaceModal.jsx:115
 #, fuzzy
 #| msgid "Remove existing filesystems to free up space for the installation."
 msgid ""
@@ -747,7 +751,7 @@ msgid ""
 msgstr ""
 "Удалить существующие файловые системы, чтобы освободить место для установки."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:116
+#: src/components/storage/ReclaimSpaceModal.jsx:118
 msgid ""
 "Removing a filesystem will permanently delete all of the data it contains. "
 msgstr ""
@@ -787,7 +791,7 @@ msgstr "Повторное сканирование"
 msgid "Rescanning of the disks failed."
 msgstr "Повторное сканирование дисков не удалось."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:430
+#: src/components/storage/ReclaimSpaceModal.jsx:445
 #, fuzzy
 #| msgctxt "GUI|Advanced Storage|NVDIMM|Reconfigure"
 #| msgid "_Sector size:"
@@ -875,7 +879,7 @@ msgstr "Некоторые устройства используют одно и
 msgid "Some required partitions are missing: $0"
 msgstr "Некоторые необходимые разделы отсутствуют: $0"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:143
+#: src/components/storage/ReclaimSpaceModal.jsx:147
 msgid "Space"
 msgstr "Пространство"
 
@@ -1055,15 +1059,15 @@ msgstr ""
 "Чтобы воспользоваться этой опцией, измените размер или удалите существующие "
 "разделы, чтобы освободить хотя бы $0."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:142
+#: src/components/storage/ReclaimSpaceModal.jsx:146
 msgid "Type"
 msgstr "Тип"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:88
+#: src/components/storage/ReclaimSpaceModal.jsx:89
 msgid "Unable to schedule deletion of $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:90
+#: src/components/storage/ReclaimSpaceModal.jsx:91
 msgid "Unable to schedule resizing of $0"
 msgstr ""
 
@@ -1123,6 +1127,10 @@ msgstr "Вас приветствует $0"
 msgid "Welcome. Let's install $0 now."
 msgstr "Добро пожаловать. Давайте установим $0."
 
+#: src/components/storage/ReclaimSpaceModal.jsx:463
+msgid "Windows partitions with BitLocker encryption cannot be resized"
+msgstr ""
+
 #: src/components/storage/CockpitStorageIntegration.jsx:553
 msgid ""
 "You can either free up enough space here and let the installer handle the "
@@ -1144,8 +1152,8 @@ msgid "current step"
 msgstr "текущий шаг"
 
 #: src/components/review/StorageReview.jsx:128
-#: src/components/storage/ReclaimSpaceModal.jsx:317
-#: src/components/storage/ReclaimSpaceModal.jsx:330
+#: src/components/storage/ReclaimSpaceModal.jsx:332
+#: src/components/storage/ReclaimSpaceModal.jsx:345
 msgid "delete"
 msgstr "удалить"
 
@@ -1177,18 +1185,18 @@ msgstr "предстоящий шаг"
 msgid "resized from $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:393
-#: src/components/storage/ReclaimSpaceModal.jsx:397
+#: src/components/storage/ReclaimSpaceModal.jsx:408
+#: src/components/storage/ReclaimSpaceModal.jsx:412
 #, fuzzy
 #| msgid "Shrink"
 msgid "shrink"
 msgstr "Уменьшить"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:351
+#: src/components/storage/ReclaimSpaceModal.jsx:366
 msgid "shrink to $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:311
+#: src/components/storage/ReclaimSpaceModal.jsx:326
 msgid "undo"
 msgstr "отменить"
 

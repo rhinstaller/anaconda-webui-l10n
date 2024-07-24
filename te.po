@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-23 02:52+0000\n"
+"POT-Creation-Date: 2024-07-24 02:52+0000\n"
 "PO-Revision-Date: 2024-02-11 02:42+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Telugu <https://translate.fedoraproject.org/projects/anaconda-"
@@ -62,7 +62,7 @@ msgid "Account"
 msgstr ""
 
 #: src/components/review/StorageReview.jsx:194
-#: src/components/storage/ReclaimSpaceModal.jsx:144
+#: src/components/storage/ReclaimSpaceModal.jsx:148
 #, fuzzy
 #| msgid "Action"
 msgid "Actions"
@@ -110,7 +110,7 @@ msgstr "సంస్థాపిక నందు స్వయంచాలకం�
 msgid "Applying new disk selection..."
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:195
+#: src/components/storage/ReclaimSpaceModal.jsx:199
 msgid "Available free space: $0. Installation requires: $1."
 msgstr ""
 
@@ -128,7 +128,7 @@ msgid ""
 msgstr ""
 
 #: src/components/review/Hostname.jsx:106
-#: src/components/storage/ReclaimSpaceModal.jsx:206
+#: src/components/storage/ReclaimSpaceModal.jsx:210
 #: src/components/Error.jsx:260
 msgid "Cancel"
 msgstr ""
@@ -459,7 +459,7 @@ msgstr ""
 msgid "Language"
 msgstr "ఎంపికచేసిన పరికరం"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:141
+#: src/components/storage/ReclaimSpaceModal.jsx:145
 #, fuzzy
 #| msgid "Action"
 msgid "Location"
@@ -520,7 +520,7 @@ msgstr ""
 msgid "Must be at least $0 characters"
 msgstr "సంకేతపదం తప్పకుండా కనీసం ఆరు అక్షరాల పొడవుండాలి."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:140
+#: src/components/storage/ReclaimSpaceModal.jsx:144
 msgid "Name"
 msgstr "పేరు"
 
@@ -544,7 +544,7 @@ msgid "No additional disks detected"
 msgstr "ఏ డిస్కులు యెంపికకాలేదు"
 
 #: src/components/storage/MountPointMapping.jsx:565
-#: src/components/storage/ReclaimSpaceModal.jsx:146
+#: src/components/storage/ReclaimSpaceModal.jsx:150
 #, fuzzy
 msgid "No devices"
 msgstr "పరికరం జతచేయి"
@@ -692,6 +692,10 @@ msgstr ""
 msgid "Reboot"
 msgstr ""
 
+#: src/components/storage/ReclaimSpaceModal.jsx:465
+msgid "Reboot into Windows to resize BitLocker-encrypted partitions. "
+msgstr ""
+
 #: src/components/AnacondaWizardFooter.jsx:143
 msgid "Reboot system?"
 msgstr ""
@@ -702,9 +706,9 @@ msgstr ""
 msgid "Reclaim additional space"
 msgstr "తిరితేగల జాగా"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:128
-#: src/components/storage/ReclaimSpaceModal.jsx:138
-#: src/components/storage/ReclaimSpaceModal.jsx:203
+#: src/components/storage/ReclaimSpaceModal.jsx:132
+#: src/components/storage/ReclaimSpaceModal.jsx:142
+#: src/components/storage/ReclaimSpaceModal.jsx:207
 #, fuzzy
 #| msgid "Reclaimable Space"
 msgid "Reclaim space"
@@ -737,13 +741,13 @@ msgid ""
 "systems. Make sure you have backed up your data."
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:113
+#: src/components/storage/ReclaimSpaceModal.jsx:115
 #, fuzzy
 msgid ""
 "Remove or resize existing filesystems to free up space for the installation."
 msgstr "సంస్థాపనా మూలం అమర్చుటకు విఫలమైంది"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:116
+#: src/components/storage/ReclaimSpaceModal.jsx:118
 msgid ""
 "Removing a filesystem will permanently delete all of the data it contains. "
 msgstr ""
@@ -781,7 +785,7 @@ msgstr "పరిరక్షించు"
 msgid "Rescanning of the disks failed."
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:430
+#: src/components/storage/ReclaimSpaceModal.jsx:445
 msgid "Resize"
 msgstr ""
 
@@ -874,7 +878,7 @@ msgstr ""
 msgid "Some required partitions are missing: $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:143
+#: src/components/storage/ReclaimSpaceModal.jsx:147
 msgid "Space"
 msgstr ""
 
@@ -1045,15 +1049,15 @@ msgid ""
 "$0."
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:142
+#: src/components/storage/ReclaimSpaceModal.jsx:146
 msgid "Type"
 msgstr "రకం"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:88
+#: src/components/storage/ReclaimSpaceModal.jsx:89
 msgid "Unable to schedule deletion of $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:90
+#: src/components/storage/ReclaimSpaceModal.jsx:91
 msgid "Unable to schedule resizing of $0"
 msgstr ""
 
@@ -1116,6 +1120,10 @@ msgstr "ఫెడోరాకు స్వాగతం"
 msgid "Welcome. Let's install $0 now."
 msgstr ""
 
+#: src/components/storage/ReclaimSpaceModal.jsx:463
+msgid "Windows partitions with BitLocker encryption cannot be resized"
+msgstr ""
+
 #: src/components/storage/CockpitStorageIntegration.jsx:553
 msgid ""
 "You can either free up enough space here and let the installer handle the "
@@ -1136,8 +1144,8 @@ msgid "current step"
 msgstr ""
 
 #: src/components/review/StorageReview.jsx:128
-#: src/components/storage/ReclaimSpaceModal.jsx:317
-#: src/components/storage/ReclaimSpaceModal.jsx:330
+#: src/components/storage/ReclaimSpaceModal.jsx:332
+#: src/components/storage/ReclaimSpaceModal.jsx:345
 #, fuzzy
 #| msgid "Delete"
 msgid "delete"
@@ -1175,18 +1183,18 @@ msgstr ""
 msgid "resized from $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:393
-#: src/components/storage/ReclaimSpaceModal.jsx:397
+#: src/components/storage/ReclaimSpaceModal.jsx:408
+#: src/components/storage/ReclaimSpaceModal.jsx:412
 #, fuzzy
 #| msgid "Shrink"
 msgid "shrink"
 msgstr "కుచించు"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:351
+#: src/components/storage/ReclaimSpaceModal.jsx:366
 msgid "shrink to $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:311
+#: src/components/storage/ReclaimSpaceModal.jsx:326
 msgid "undo"
 msgstr ""
 

@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-23 02:52+0000\n"
+"POT-Creation-Date: 2024-07-24 02:52+0000\n"
 "PO-Revision-Date: 2023-11-06 12:18+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/"
@@ -83,7 +83,7 @@ msgid "Account"
 msgstr "_Fiók"
 
 #: src/components/review/StorageReview.jsx:194
-#: src/components/storage/ReclaimSpaceModal.jsx:144
+#: src/components/storage/ReclaimSpaceModal.jsx:148
 #, fuzzy
 #| msgid "Action"
 msgid "Actions"
@@ -130,7 +130,7 @@ msgstr "Alkalmazza a csatlakozási pont hozzárendelését és telepítse"
 msgid "Applying new disk selection..."
 msgstr "Új lemezkijelölés alkalmazása..."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:195
+#: src/components/storage/ReclaimSpaceModal.jsx:199
 msgid "Available free space: $0. Installation requires: $1."
 msgstr ""
 
@@ -152,7 +152,7 @@ msgstr ""
 "problémákat, hogy javítson ezen a munkán."
 
 #: src/components/review/Hostname.jsx:106
-#: src/components/storage/ReclaimSpaceModal.jsx:206
+#: src/components/storage/ReclaimSpaceModal.jsx:210
 #: src/components/Error.jsx:260
 msgid "Cancel"
 msgstr "Mégse"
@@ -485,7 +485,7 @@ msgstr ""
 msgid "Language"
 msgstr "Nyelv"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:141
+#: src/components/storage/ReclaimSpaceModal.jsx:145
 msgid "Location"
 msgstr "Hely"
 
@@ -541,7 +541,7 @@ msgstr "Csatlakozási pont hozzárendelése"
 msgid "Must be at least $0 characters"
 msgstr "Legalább 8 karakterből kell állnia"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:140
+#: src/components/storage/ReclaimSpaceModal.jsx:144
 msgid "Name"
 msgstr "Név"
 
@@ -569,7 +569,7 @@ msgid "No additional disks detected"
 msgstr "Nem észleltek további lemezeket"
 
 #: src/components/storage/MountPointMapping.jsx:565
-#: src/components/storage/ReclaimSpaceModal.jsx:146
+#: src/components/storage/ReclaimSpaceModal.jsx:150
 msgid "No devices"
 msgstr "Nincsenek eszközök"
 
@@ -715,6 +715,10 @@ msgstr "A gépnév 64 vagy kevesebb karakter lehet."
 msgid "Reboot"
 msgstr "Újraindítás"
 
+#: src/components/storage/ReclaimSpaceModal.jsx:465
+msgid "Reboot into Windows to resize BitLocker-encrypted partitions. "
+msgstr ""
+
 #: src/components/AnacondaWizardFooter.jsx:143
 msgid "Reboot system?"
 msgstr "Rendszer újraindítása?"
@@ -726,9 +730,9 @@ msgstr "Rendszer újraindítása?"
 msgid "Reclaim additional space"
 msgstr "Lemezte_rület visszanyerése"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:128
-#: src/components/storage/ReclaimSpaceModal.jsx:138
-#: src/components/storage/ReclaimSpaceModal.jsx:203
+#: src/components/storage/ReclaimSpaceModal.jsx:132
+#: src/components/storage/ReclaimSpaceModal.jsx:142
+#: src/components/storage/ReclaimSpaceModal.jsx:207
 #, fuzzy
 #| msgctxt "GUI|Reclaim Dialog"
 #| msgid "_Reclaim space"
@@ -768,14 +772,14 @@ msgstr ""
 "meglévő operációs rendszereket is. Győződjön meg róla, hogy biztonsági "
 "másolatot készített az adatairól."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:113
+#: src/components/storage/ReclaimSpaceModal.jsx:115
 #, fuzzy
 #| msgid "Use free space for the installation"
 msgid ""
 "Remove or resize existing filesystems to free up space for the installation."
 msgstr "Használjon szabad helyet a telepítéshez"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:116
+#: src/components/storage/ReclaimSpaceModal.jsx:118
 msgid ""
 "Removing a filesystem will permanently delete all of the data it contains. "
 msgstr ""
@@ -815,7 +819,7 @@ msgstr "Újravizsgál"
 msgid "Rescanning of the disks failed."
 msgstr "A lemezek újraellenőrzése nem sikerült."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:430
+#: src/components/storage/ReclaimSpaceModal.jsx:445
 #, fuzzy
 #| msgctxt "GUI|Advanced Storage|NVDIMM|Reconfigure"
 #| msgid "_Sector size:"
@@ -914,7 +918,7 @@ msgstr "Egyes eszközök ugyanazt a nevet használják: $0."
 msgid "Some required partitions are missing: $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:143
+#: src/components/storage/ReclaimSpaceModal.jsx:147
 #, fuzzy
 #| msgid "No Space"
 msgid "Space"
@@ -1107,15 +1111,15 @@ msgstr ""
 "Ennek az opciónak a használatához méretezze át vagy távolítsa el a meglévő "
 "partíciókat, hogy legalább $0 szabadítson fel."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:142
+#: src/components/storage/ReclaimSpaceModal.jsx:146
 msgid "Type"
 msgstr "Típus"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:88
+#: src/components/storage/ReclaimSpaceModal.jsx:89
 msgid "Unable to schedule deletion of $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:90
+#: src/components/storage/ReclaimSpaceModal.jsx:91
 msgid "Unable to schedule resizing of $0"
 msgstr ""
 
@@ -1179,6 +1183,10 @@ msgstr "Üdvözli a $0"
 msgid "Welcome. Let's install $0 now."
 msgstr "Üdvözöljük. Most telepítsük a $0-t."
 
+#: src/components/storage/ReclaimSpaceModal.jsx:463
+msgid "Windows partitions with BitLocker encryption cannot be resized"
+msgstr ""
+
 #: src/components/storage/CockpitStorageIntegration.jsx:553
 msgid ""
 "You can either free up enough space here and let the installer handle the "
@@ -1198,8 +1206,8 @@ msgid "current step"
 msgstr "jelenlegi lépés"
 
 #: src/components/review/StorageReview.jsx:128
-#: src/components/storage/ReclaimSpaceModal.jsx:317
-#: src/components/storage/ReclaimSpaceModal.jsx:330
+#: src/components/storage/ReclaimSpaceModal.jsx:332
+#: src/components/storage/ReclaimSpaceModal.jsx:345
 #, fuzzy
 #| msgid "Delete"
 msgid "delete"
@@ -1237,18 +1245,18 @@ msgstr "függőben lévő lépés"
 msgid "resized from $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:393
-#: src/components/storage/ReclaimSpaceModal.jsx:397
+#: src/components/storage/ReclaimSpaceModal.jsx:408
+#: src/components/storage/ReclaimSpaceModal.jsx:412
 #, fuzzy
 #| msgid "Shrink"
 msgid "shrink"
 msgstr "Zsugorítás"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:351
+#: src/components/storage/ReclaimSpaceModal.jsx:366
 msgid "shrink to $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:311
+#: src/components/storage/ReclaimSpaceModal.jsx:326
 msgid "undo"
 msgstr ""
 

@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-23 02:52+0000\n"
+"POT-Creation-Date: 2024-07-24 02:52+0000\n"
 "PO-Revision-Date: 2024-07-22 00:58+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
@@ -70,7 +70,7 @@ msgid "Account"
 msgstr "Konto"
 
 #: src/components/review/StorageReview.jsx:194
-#: src/components/storage/ReclaimSpaceModal.jsx:144
+#: src/components/storage/ReclaimSpaceModal.jsx:148
 msgid "Actions"
 msgstr "Åtgärder"
 
@@ -114,7 +114,7 @@ msgstr "Tillämpa monteringspunktstilldelningar och installera"
 msgid "Applying new disk selection..."
 msgstr "Tillämpar nytt diskval..."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:195
+#: src/components/storage/ReclaimSpaceModal.jsx:199
 msgid "Available free space: $0. Installation requires: $1."
 msgstr "Tillgängligt fritt utrymme: $0. Installationen behöver: $1."
 
@@ -136,7 +136,7 @@ msgstr ""
 "buggar eller problem för att förbättra detta arbete."
 
 #: src/components/review/Hostname.jsx:106
-#: src/components/storage/ReclaimSpaceModal.jsx:206
+#: src/components/storage/ReclaimSpaceModal.jsx:210
 #: src/components/Error.jsx:260
 msgid "Cancel"
 msgstr "Avbryt"
@@ -443,7 +443,7 @@ msgstr ""
 msgid "Language"
 msgstr "Språk"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:141
+#: src/components/storage/ReclaimSpaceModal.jsx:145
 msgid "Location"
 msgstr "Plats"
 
@@ -499,7 +499,7 @@ msgstr "Monteringspunkt tilldelning"
 msgid "Must be at least $0 characters"
 msgstr "Måste vara minst $0 tecken"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:140
+#: src/components/storage/ReclaimSpaceModal.jsx:144
 msgid "Name"
 msgstr "Namn"
 
@@ -525,7 +525,7 @@ msgid "No additional disks detected"
 msgstr "Inga ytterligare diskar upptäcktes"
 
 #: src/components/storage/MountPointMapping.jsx:565
-#: src/components/storage/ReclaimSpaceModal.jsx:146
+#: src/components/storage/ReclaimSpaceModal.jsx:150
 msgid "No devices"
 msgstr "Inga enheter"
 
@@ -667,6 +667,10 @@ msgstr "Riktiga värdnamn måste bestå av 64 tecken eller mindre"
 msgid "Reboot"
 msgstr "Starta om"
 
+#: src/components/storage/ReclaimSpaceModal.jsx:465
+msgid "Reboot into Windows to resize BitLocker-encrypted partitions. "
+msgstr ""
+
 #: src/components/AnacondaWizardFooter.jsx:143
 msgid "Reboot system?"
 msgstr "Starta om systemet?"
@@ -675,9 +679,9 @@ msgstr "Starta om systemet?"
 msgid "Reclaim additional space"
 msgstr "Återvinn ytterligare utrymme"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:128
-#: src/components/storage/ReclaimSpaceModal.jsx:138
-#: src/components/storage/ReclaimSpaceModal.jsx:203
+#: src/components/storage/ReclaimSpaceModal.jsx:132
+#: src/components/storage/ReclaimSpaceModal.jsx:142
+#: src/components/storage/ReclaimSpaceModal.jsx:207
 msgid "Reclaim space"
 msgstr "Återvinn utrymme"
 
@@ -710,14 +714,14 @@ msgstr ""
 "Ta bort alla partitioner på de valda enheterna, inklusive befintliga "
 "operativsystem. Se till att du har säkerhetskopierat din data."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:113
+#: src/components/storage/ReclaimSpaceModal.jsx:115
 msgid ""
 "Remove or resize existing filesystems to free up space for the installation."
 msgstr ""
 "Ta bort eller byt storlek på befintliga filsystem för att frigöra utrymme "
 "för installationen."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:116
+#: src/components/storage/ReclaimSpaceModal.jsx:118
 msgid ""
 "Removing a filesystem will permanently delete all of the data it contains. "
 msgstr ""
@@ -757,7 +761,7 @@ msgstr "Skanna om"
 msgid "Rescanning of the disks failed."
 msgstr "Omsökning av diskarna misslyckades."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:430
+#: src/components/storage/ReclaimSpaceModal.jsx:445
 msgid "Resize"
 msgstr "Ändra storlek"
 
@@ -842,7 +846,7 @@ msgstr "Vissa enheter använder samma namn: $0."
 msgid "Some required partitions are missing: $0"
 msgstr "Vissa nödvändiga partitioner saknas: $0"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:143
+#: src/components/storage/ReclaimSpaceModal.jsx:147
 msgid "Space"
 msgstr "Utrymme"
 
@@ -1022,15 +1026,15 @@ msgstr ""
 "För att använda det här alternativet, ändra storlek på eller ta bort "
 "befintliga partitioner för att frigöra minst $0."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:142
+#: src/components/storage/ReclaimSpaceModal.jsx:146
 msgid "Type"
 msgstr "Typ"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:88
+#: src/components/storage/ReclaimSpaceModal.jsx:89
 msgid "Unable to schedule deletion of $0"
 msgstr "Det gick inte att schemalägga borttagning av $0"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:90
+#: src/components/storage/ReclaimSpaceModal.jsx:91
 msgid "Unable to schedule resizing of $0"
 msgstr "Det gick inte att schemalägga storleksändring av $0"
 
@@ -1090,6 +1094,10 @@ msgstr "Välkommen till $0"
 msgid "Welcome. Let's install $0 now."
 msgstr "Välkommen. Låt oss installera $0 nu."
 
+#: src/components/storage/ReclaimSpaceModal.jsx:463
+msgid "Windows partitions with BitLocker encryption cannot be resized"
+msgstr ""
+
 #: src/components/storage/CockpitStorageIntegration.jsx:553
 msgid ""
 "You can either free up enough space here and let the installer handle the "
@@ -1111,8 +1119,8 @@ msgid "current step"
 msgstr "aktuellt steg"
 
 #: src/components/review/StorageReview.jsx:128
-#: src/components/storage/ReclaimSpaceModal.jsx:317
-#: src/components/storage/ReclaimSpaceModal.jsx:330
+#: src/components/storage/ReclaimSpaceModal.jsx:332
+#: src/components/storage/ReclaimSpaceModal.jsx:345
 msgid "delete"
 msgstr "ta bort"
 
@@ -1144,16 +1152,16 @@ msgstr "väntande steg"
 msgid "resized from $0"
 msgstr "storleksändrad från $0"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:393
-#: src/components/storage/ReclaimSpaceModal.jsx:397
+#: src/components/storage/ReclaimSpaceModal.jsx:408
+#: src/components/storage/ReclaimSpaceModal.jsx:412
 msgid "shrink"
 msgstr "krymp"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:351
+#: src/components/storage/ReclaimSpaceModal.jsx:366
 msgid "shrink to $0"
 msgstr "krymp till $0"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:311
+#: src/components/storage/ReclaimSpaceModal.jsx:326
 msgid "undo"
 msgstr "ångra"
 
