@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 02:52+0000\n"
+"POT-Creation-Date: 2024-07-25 02:52+0000\n"
 "PO-Revision-Date: 2024-07-25 02:46+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -33,7 +33,7 @@ msgstr "$0-ის დაყენება"
 msgid "$0 installer"
 msgstr "$0-ის დაყენების პროგრამა"
 
-#: src/components/review/StorageReview.jsx:257
+#: src/components/review/StorageReview.jsx:234
 msgid "$0 will be deleted"
 msgstr "$0 წაიშლება"
 
@@ -140,9 +140,9 @@ msgstr ""
 "აქ განხორციელებული ცვლილებები სისტემას დაუყოვნებლივ ეხება. ქმედებები "
 "შეუქცევადია."
 
+#: src/components/storage/DiskEncryption.jsx:54
 #: src/components/storage/CockpitStorageIntegration.jsx:405
 #: src/components/storage/CockpitStorageIntegration.jsx:417
-#: src/components/storage/DiskEncryption.jsx:54
 msgid "Checking storage configuration"
 msgstr "საცავის კონფიგურაციის შემოწმება"
 
@@ -222,7 +222,7 @@ msgstr "მიმდინარე მონიშნულები"
 msgid "Custom"
 msgstr "ხელით"
 
-#: src/components/review/StorageReview.jsx:263
+#: src/components/review/StorageReview.jsx:291
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "ზოგიერთი დანაყოფის წაშლამ, შეიძლება, $0-ს ჩატვირთვას ხელი შეუშალოს: $1"
 
@@ -539,7 +539,7 @@ msgstr "მონიშნულ დისკებზე საკმარი�
 msgid "Not enough space on selected disks."
 msgstr "მონიშნულ დისკებზე საკმარისი ადგილი არაა."
 
-#: src/components/review/StorageReview.jsx:279
+#: src/components/review/StorageReview.jsx:335
 msgid "Note"
 msgstr "შენიშვნა"
 
@@ -566,9 +566,9 @@ msgstr "ოპერაციული სისტემა"
 msgid "Partitions (advanced)"
 msgstr "დანაყოფები (დამატებით)"
 
+#: src/components/storage/DiskEncryption.jsx:114
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
-#: src/components/storage/DiskEncryption.jsx:114
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
 msgid "Passphrase"
 msgstr "საკვანძო ფრაზა"
@@ -606,8 +606,8 @@ msgid "Proceed with installation"
 msgstr "დაყენების გაგრძელება"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/Error.jsx:227 src/components/AnacondaWizardFooter.jsx:108
-#: src/components/AnacondaWizardFooter.jsx:131
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Quit"
 msgstr "გასვლა"
 
@@ -648,8 +648,8 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "ჰოსტის რეალური სახელი 64 სიმბოლოზე დიდი არ უნდა იყოს"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/Error.jsx:227 src/components/AnacondaWizardFooter.jsx:108
-#: src/components/AnacondaWizardFooter.jsx:131
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Reboot"
 msgstr "გადატვირთვა"
 
@@ -751,6 +751,10 @@ msgstr "დისკების თავიდან სკანირებ�
 #: src/components/storage/ReclaimSpaceModal.jsx:445
 msgid "Resize"
 msgstr "ზომის შეცვლა"
+
+#: src/components/review/StorageReview.jsx:297
+msgid "Resizing the following partitions from $0: $1"
+msgstr ""
 
 #: src/components/storage/CockpitStorageIntegration.jsx:91
 msgid "Return to installation"

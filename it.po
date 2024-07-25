@@ -47,7 +47,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 02:52+0000\n"
+"POT-Creation-Date: 2024-07-25 02:52+0000\n"
 "PO-Revision-Date: 2024-04-21 02:37+0000\n"
 "Last-Translator: Alessandro Bugliazzini <yattatux@posteo.net>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
@@ -67,7 +67,7 @@ msgstr "Installazione $0"
 msgid "$0 installer"
 msgstr "$0 installer"
 
-#: src/components/review/StorageReview.jsx:257
+#: src/components/review/StorageReview.jsx:234
 #, fuzzy
 #| msgid "No user will be created"
 msgid "$0 will be deleted"
@@ -188,9 +188,9 @@ msgstr ""
 "Le modifiche apportate qui avranno effetto immediato sul sistema. Non è "
 "possibile annullare l'operazione."
 
+#: src/components/storage/DiskEncryption.jsx:54
 #: src/components/storage/CockpitStorageIntegration.jsx:405
 #: src/components/storage/CockpitStorageIntegration.jsx:417
-#: src/components/storage/DiskEncryption.jsx:54
 msgid "Checking storage configuration"
 msgstr "Controllo della configurazione dello storage"
 
@@ -270,7 +270,7 @@ msgstr "Selezioni correnti"
 msgid "Custom"
 msgstr "Personalizzata"
 
-#: src/components/review/StorageReview.jsx:263
+#: src/components/review/StorageReview.jsx:291
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
@@ -587,7 +587,7 @@ msgstr "Spazio insufficiente sui dischi selezionati."
 msgid "Not enough space on selected disks."
 msgstr "Spazio insufficiente sui dischi selezionati."
 
-#: src/components/review/StorageReview.jsx:279
+#: src/components/review/StorageReview.jsx:335
 #, fuzzy
 #| msgid "Notebook"
 msgid "Note"
@@ -619,9 +619,9 @@ msgstr "Sistema Operativo"
 msgid "Partitions (advanced)"
 msgstr "Partizioni (avanzate)"
 
+#: src/components/storage/DiskEncryption.jsx:114
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
-#: src/components/storage/DiskEncryption.jsx:114
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
 msgid "Passphrase"
 msgstr "Password"
@@ -659,8 +659,8 @@ msgid "Proceed with installation"
 msgstr "Procedere con l'installazione."
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/Error.jsx:227 src/components/AnacondaWizardFooter.jsx:108
-#: src/components/AnacondaWizardFooter.jsx:131
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Quit"
 msgstr "Abbandona"
 
@@ -703,8 +703,8 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "Il nome host può avere un massimo di 64 caratteri."
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/Error.jsx:227 src/components/AnacondaWizardFooter.jsx:108
-#: src/components/AnacondaWizardFooter.jsx:131
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Reboot"
 msgstr "Riavvio"
 
@@ -816,6 +816,10 @@ msgstr "Nuova scansione dei dischi fallita."
 #| msgid "_Sector size:"
 msgid "Resize"
 msgstr "_ Dimensioni del settore:"
+
+#: src/components/review/StorageReview.jsx:297
+msgid "Resizing the following partitions from $0: $1"
+msgstr ""
 
 #: src/components/storage/CockpitStorageIntegration.jsx:91
 msgid "Return to installation"

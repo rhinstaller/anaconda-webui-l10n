@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 02:52+0000\n"
+"POT-Creation-Date: 2024-07-25 02:52+0000\n"
 "PO-Revision-Date: 2024-07-25 02:46+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
@@ -48,7 +48,7 @@ msgstr "$0 kurulumu"
 msgid "$0 installer"
 msgstr "$0 kurucusu"
 
-#: src/components/review/StorageReview.jsx:257
+#: src/components/review/StorageReview.jsx:234
 msgid "$0 will be deleted"
 msgstr "$0 silinecek"
 
@@ -155,9 +155,9 @@ msgstr ""
 "Burada yapılan değişiklikler sistemi hemen etkileyecektir. 'Geri al' "
 "seçeneği yoktur."
 
+#: src/components/storage/DiskEncryption.jsx:54
 #: src/components/storage/CockpitStorageIntegration.jsx:405
 #: src/components/storage/CockpitStorageIntegration.jsx:417
-#: src/components/storage/DiskEncryption.jsx:54
 msgid "Checking storage configuration"
 msgstr "Depolama yapılandırması denetleniyor"
 
@@ -236,7 +236,7 @@ msgstr "Geçerli seçimler"
 msgid "Custom"
 msgstr "Özel"
 
-#: src/components/review/StorageReview.jsx:263
+#: src/components/review/StorageReview.jsx:291
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Belirli bölümlerin silinmesi $0 önyüklenmesini engelleyebilir: $1"
 
@@ -548,7 +548,7 @@ msgstr "Seçilen disklerde yeterli boş alan yok."
 msgid "Not enough space on selected disks."
 msgstr "Seçilen disklerde yeterli alan yok."
 
-#: src/components/review/StorageReview.jsx:279
+#: src/components/review/StorageReview.jsx:335
 msgid "Note"
 msgstr "Not"
 
@@ -577,9 +577,9 @@ msgstr "İşletim sistemi"
 msgid "Partitions (advanced)"
 msgstr "Bölümler (gelişmiş)"
 
+#: src/components/storage/DiskEncryption.jsx:114
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
-#: src/components/storage/DiskEncryption.jsx:114
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
 msgid "Passphrase"
 msgstr "Parola"
@@ -617,8 +617,8 @@ msgid "Proceed with installation"
 msgstr "Kuruluma devam et"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/Error.jsx:227 src/components/AnacondaWizardFooter.jsx:108
-#: src/components/AnacondaWizardFooter.jsx:131
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Quit"
 msgstr "Çık"
 
@@ -659,8 +659,8 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "Gerçek ana makine adı 64 karakter veya daha az olmalıdır"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/Error.jsx:227 src/components/AnacondaWizardFooter.jsx:108
-#: src/components/AnacondaWizardFooter.jsx:131
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Reboot"
 msgstr "Yeniden başlat"
 
@@ -762,6 +762,10 @@ msgstr "Disklerin yeniden taranması başarısız oldu."
 #: src/components/storage/ReclaimSpaceModal.jsx:445
 msgid "Resize"
 msgstr "Yeniden boyutlandır"
+
+#: src/components/review/StorageReview.jsx:297
+msgid "Resizing the following partitions from $0: $1"
+msgstr ""
 
 #: src/components/storage/CockpitStorageIntegration.jsx:91
 msgid "Return to installation"

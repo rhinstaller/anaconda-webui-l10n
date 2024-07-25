@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 02:52+0000\n"
+"POT-Creation-Date: 2024-07-25 02:52+0000\n"
 "PO-Revision-Date: 2024-05-21 02:47+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
@@ -54,7 +54,7 @@ msgstr "Instalasi $0"
 msgid "$0 installer"
 msgstr "Pemasang $0"
 
-#: src/components/review/StorageReview.jsx:257
+#: src/components/review/StorageReview.jsx:234
 #, fuzzy
 #| msgid "No user will be created"
 msgid "$0 will be deleted"
@@ -165,9 +165,9 @@ msgstr ""
 "Perubahan yang dibuat di sini seketika memengaruhi sistem. Tidak ada 'tak "
 "jadi'."
 
+#: src/components/storage/DiskEncryption.jsx:54
 #: src/components/storage/CockpitStorageIntegration.jsx:405
 #: src/components/storage/CockpitStorageIntegration.jsx:417
-#: src/components/storage/DiskEncryption.jsx:54
 msgid "Checking storage configuration"
 msgstr "Memeriksa konfigurasi penyimpanan"
 
@@ -247,7 +247,7 @@ msgstr "Pilihan saat ini"
 msgid "Custom"
 msgstr "Ubahan"
 
-#: src/components/review/StorageReview.jsx:263
+#: src/components/review/StorageReview.jsx:291
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
@@ -563,7 +563,7 @@ msgstr "Tidak cukup ruang bebas pada disk yang dipilih."
 msgid "Not enough space on selected disks."
 msgstr "Tidak cukup ruang bebas pada disk yang dipilih."
 
-#: src/components/review/StorageReview.jsx:279
+#: src/components/review/StorageReview.jsx:335
 #, fuzzy
 #| msgid "Notebook"
 msgid "Note"
@@ -595,9 +595,9 @@ msgstr "Sistem operasi"
 msgid "Partitions (advanced)"
 msgstr "Partisi (tingkat lanjut)"
 
+#: src/components/storage/DiskEncryption.jsx:114
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
-#: src/components/storage/DiskEncryption.jsx:114
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
 msgid "Passphrase"
 msgstr "Frasa sandi"
@@ -635,8 +635,8 @@ msgid "Proceed with installation"
 msgstr "Lanjutkan dengan instalasi"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/Error.jsx:227 src/components/AnacondaWizardFooter.jsx:108
-#: src/components/AnacondaWizardFooter.jsx:131
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Quit"
 msgstr "Keluar"
 
@@ -677,8 +677,8 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "Panjang nama host nyata mesti 64 karakter atau kurang"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/Error.jsx:227 src/components/AnacondaWizardFooter.jsx:108
-#: src/components/AnacondaWizardFooter.jsx:131
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Reboot"
 msgstr "Boot ulang"
 
@@ -787,6 +787,10 @@ msgstr "Pemindaian ulang disk gagal."
 #| msgid "Page size:"
 msgid "Resize"
 msgstr "Ukuran halaman:"
+
+#: src/components/review/StorageReview.jsx:297
+msgid "Resizing the following partitions from $0: $1"
+msgstr ""
 
 #: src/components/storage/CockpitStorageIntegration.jsx:91
 msgid "Return to installation"

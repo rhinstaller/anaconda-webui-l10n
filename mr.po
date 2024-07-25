@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 02:52+0000\n"
+"POT-Creation-Date: 2024-07-25 02:52+0000\n"
 "PO-Revision-Date: 2023-11-06 12:20+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Marathi <https://translate.fedoraproject.org/projects/"
@@ -43,7 +43,7 @@ msgstr "इंस्टॉलेशन"
 msgid "$0 installer"
 msgstr "ॲनाकाँडा साधने"
 
-#: src/components/review/StorageReview.jsx:257
+#: src/components/review/StorageReview.jsx:234
 #, fuzzy
 #| msgid "No user will be created"
 msgid "$0 will be deleted"
@@ -154,9 +154,9 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
+#: src/components/storage/DiskEncryption.jsx:54
 #: src/components/storage/CockpitStorageIntegration.jsx:405
 #: src/components/storage/CockpitStorageIntegration.jsx:417
-#: src/components/storage/DiskEncryption.jsx:54
 #, fuzzy
 msgid "Checking storage configuration"
 msgstr "स्टोरेज संरचना तपासत आहे..."
@@ -243,7 +243,7 @@ msgstr "सॉफ्टवेअर नीवड"
 msgid "Custom"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:263
+#: src/components/review/StorageReview.jsx:291
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
@@ -582,7 +582,7 @@ msgstr "नीवडलेल्या डिस्क्स्वर अति�
 msgid "Not enough space on selected disks."
 msgstr "नीवडलेल्या डिस्क्स्वर अतिरिक्त मोकळी जागा आढळली नाही."
 
-#: src/components/review/StorageReview.jsx:279
+#: src/components/review/StorageReview.jsx:335
 msgid "Note"
 msgstr ""
 
@@ -608,9 +608,9 @@ msgstr "वापरकर्ते निर्माण करत आहे"
 msgid "Partitions (advanced)"
 msgstr ""
 
+#: src/components/storage/DiskEncryption.jsx:114
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
-#: src/components/storage/DiskEncryption.jsx:114
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
 msgid "Passphrase"
 msgstr ""
@@ -652,8 +652,8 @@ msgid "Proceed with installation"
 msgstr "इंस्टॉलेश स्रोत ठरवण्यास अपयशी"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/Error.jsx:227 src/components/AnacondaWizardFooter.jsx:108
-#: src/components/AnacondaWizardFooter.jsx:131
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Quit"
 msgstr ""
 
@@ -696,8 +696,8 @@ msgid "Real hostname must be 64 characters or less"
 msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/Error.jsx:227 src/components/AnacondaWizardFooter.jsx:108
-#: src/components/AnacondaWizardFooter.jsx:131
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Reboot"
 msgstr ""
 
@@ -797,6 +797,10 @@ msgstr ""
 
 #: src/components/storage/ReclaimSpaceModal.jsx:445
 msgid "Resize"
+msgstr ""
+
+#: src/components/review/StorageReview.jsx:297
+msgid "Resizing the following partitions from $0: $1"
 msgstr ""
 
 #: src/components/storage/CockpitStorageIntegration.jsx:91

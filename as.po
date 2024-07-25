@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 02:52+0000\n"
+"POT-Creation-Date: 2024-07-25 02:52+0000\n"
 "PO-Revision-Date: 2023-11-06 12:15+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Assamese <https://translate.fedoraproject.org/projects/"
@@ -40,7 +40,7 @@ msgstr "ইনস্টলেষণ"
 msgid "$0 installer"
 msgstr "ইনস্টলাৰ প্ৰস্থান কৰক (_Q)"
 
-#: src/components/review/StorageReview.jsx:257
+#: src/components/review/StorageReview.jsx:234
 #, fuzzy
 #| msgid "No user will be created"
 msgid "$0 will be deleted"
@@ -157,9 +157,9 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
+#: src/components/storage/DiskEncryption.jsx:54
 #: src/components/storage/CockpitStorageIntegration.jsx:405
 #: src/components/storage/CockpitStorageIntegration.jsx:417
-#: src/components/storage/DiskEncryption.jsx:54
 #, fuzzy
 msgid "Checking storage configuration"
 msgstr "সংৰক্ষণ সংৰূপ নিৰীক্ষণ কৰা হৈছে..."
@@ -248,7 +248,7 @@ msgstr "চফ্টৱেৰ নিৰ্বাচন"
 msgid "Custom"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:263
+#: src/components/review/StorageReview.jsx:291
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
@@ -594,7 +594,7 @@ msgstr "নিৰ্বাচিত ডিস্কসমূহত পৰ্য�
 msgid "Not enough space on selected disks."
 msgstr "নিৰ্বাচিত ডিস্কসমূহত পৰ্যাপ্ত খালি ঠাই নাই।"
 
-#: src/components/review/StorageReview.jsx:279
+#: src/components/review/StorageReview.jsx:335
 msgid "Note"
 msgstr ""
 
@@ -620,9 +620,9 @@ msgstr "ব্যৱহাৰকাৰীসমূহ সৃষ্টি কৰ�
 msgid "Partitions (advanced)"
 msgstr ""
 
+#: src/components/storage/DiskEncryption.jsx:114
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
-#: src/components/storage/DiskEncryption.jsx:114
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
 msgid "Passphrase"
 msgstr "পাচফ্ৰেইছ"
@@ -664,8 +664,8 @@ msgid "Proceed with installation"
 msgstr "ইনস্টলেষণ উৎস সংস্থাপন কৰিবলে ব্যৰ্থ"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/Error.jsx:227 src/components/AnacondaWizardFooter.jsx:108
-#: src/components/AnacondaWizardFooter.jsx:131
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Quit"
 msgstr "প্ৰস্থান কৰক"
 
@@ -708,8 +708,8 @@ msgid "Real hostname must be 64 characters or less"
 msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/Error.jsx:227 src/components/AnacondaWizardFooter.jsx:108
-#: src/components/AnacondaWizardFooter.jsx:131
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Reboot"
 msgstr ""
 
@@ -815,6 +815,10 @@ msgstr ""
 
 #: src/components/storage/ReclaimSpaceModal.jsx:445
 msgid "Resize"
+msgstr ""
+
+#: src/components/review/StorageReview.jsx:297
+msgid "Resizing the following partitions from $0: $1"
 msgstr ""
 
 #: src/components/storage/CockpitStorageIntegration.jsx:91

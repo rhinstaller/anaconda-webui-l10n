@@ -37,11 +37,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 02:52+0000\n"
+"POT-Creation-Date: 2024-07-25 02:52+0000\n"
 "PO-Revision-Date: 2024-07-25 02:46+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
-"anaconda-webui/anaconda-webui/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/anaconda-"
+"webui/anaconda-webui/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,7 +57,7 @@ msgstr "$0 설치"
 msgid "$0 installer"
 msgstr "$0 설치자"
 
-#: src/components/review/StorageReview.jsx:257
+#: src/components/review/StorageReview.jsx:234
 msgid "$0 will be deleted"
 msgstr "$0가 삭제됩니다"
 
@@ -162,9 +162,9 @@ msgid ""
 msgstr ""
 "여기에서 변경을 했으면 시스템에 즉시 영향을 미칩니다. '실행취소' 가 없습니다."
 
+#: src/components/storage/DiskEncryption.jsx:54
 #: src/components/storage/CockpitStorageIntegration.jsx:405
 #: src/components/storage/CockpitStorageIntegration.jsx:417
-#: src/components/storage/DiskEncryption.jsx:54
 msgid "Checking storage configuration"
 msgstr "저장소 구성 확인 중"
 
@@ -243,7 +243,7 @@ msgstr "현재 선택"
 msgid "Custom"
 msgstr "사용자 지정"
 
-#: src/components/review/StorageReview.jsx:263
+#: src/components/review/StorageReview.jsx:291
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "특정 파티션의 삭제는 부팅에서 $0를 예방합니다: $1"
 
@@ -550,7 +550,7 @@ msgstr "선택한 디스크에 여유 공간이 충분하지 않습니다."
 msgid "Not enough space on selected disks."
 msgstr "선택한 디스크에 공간이 충분하지 않습니다."
 
-#: src/components/review/StorageReview.jsx:279
+#: src/components/review/StorageReview.jsx:335
 msgid "Note"
 msgstr "기록"
 
@@ -577,9 +577,9 @@ msgstr "운영 체제"
 msgid "Partitions (advanced)"
 msgstr "파티션 (고급)"
 
+#: src/components/storage/DiskEncryption.jsx:114
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
-#: src/components/storage/DiskEncryption.jsx:114
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
 msgid "Passphrase"
 msgstr "암호문"
@@ -617,8 +617,8 @@ msgid "Proceed with installation"
 msgstr "설치로 진행합니다"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/Error.jsx:227 src/components/AnacondaWizardFooter.jsx:108
-#: src/components/AnacondaWizardFooter.jsx:131
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Quit"
 msgstr "종료"
 
@@ -659,8 +659,8 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "실제 호스트이름은 길이로 64 자 이하의 문자여야 합니다"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/Error.jsx:227 src/components/AnacondaWizardFooter.jsx:108
-#: src/components/AnacondaWizardFooter.jsx:131
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Reboot"
 msgstr "재시작"
 
@@ -758,6 +758,10 @@ msgstr "디스크 재검색이 실패함."
 #: src/components/storage/ReclaimSpaceModal.jsx:445
 msgid "Resize"
 msgstr "크기조정"
+
+#: src/components/review/StorageReview.jsx:297
+msgid "Resizing the following partitions from $0: $1"
+msgstr ""
 
 #: src/components/storage/CockpitStorageIntegration.jsx:91
 msgid "Return to installation"

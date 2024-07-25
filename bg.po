@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 02:52+0000\n"
+"POT-Creation-Date: 2024-07-25 02:52+0000\n"
 "PO-Revision-Date: 2023-11-06 12:15+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Bulgarian <https://translate.fedoraproject.org/projects/"
@@ -46,7 +46,7 @@ msgstr "Инсталация"
 msgid "$0 installer"
 msgstr "_Изход от инсталатора"
 
-#: src/components/review/StorageReview.jsx:257
+#: src/components/review/StorageReview.jsx:234
 #, fuzzy
 #| msgid "No user will be created"
 msgid "$0 will be deleted"
@@ -164,9 +164,9 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
+#: src/components/storage/DiskEncryption.jsx:54
 #: src/components/storage/CockpitStorageIntegration.jsx:405
 #: src/components/storage/CockpitStorageIntegration.jsx:417
-#: src/components/storage/DiskEncryption.jsx:54
 #, fuzzy
 msgid "Checking storage configuration"
 msgstr "Проверка конфигурацията на устройствата за съхранение на данни..."
@@ -261,7 +261,7 @@ msgstr "Отхвъ_рли промените в избора"
 msgid "Custom"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:263
+#: src/components/review/StorageReview.jsx:291
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
@@ -609,7 +609,7 @@ msgstr "На избраните дискове няма достатъчно с�
 msgid "Not enough space on selected disks."
 msgstr "На избраните дискове няма достатъчно свободно пространство."
 
-#: src/components/review/StorageReview.jsx:279
+#: src/components/review/StorageReview.jsx:335
 msgid "Note"
 msgstr ""
 
@@ -635,9 +635,9 @@ msgstr "Създаване на потребители"
 msgid "Partitions (advanced)"
 msgstr ""
 
+#: src/components/storage/DiskEncryption.jsx:114
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
-#: src/components/storage/DiskEncryption.jsx:114
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
 msgid "Passphrase"
 msgstr "Парола"
@@ -679,8 +679,8 @@ msgid "Proceed with installation"
 msgstr "Неуспех при задаване източника за инсталиране"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/Error.jsx:227 src/components/AnacondaWizardFooter.jsx:108
-#: src/components/AnacondaWizardFooter.jsx:131
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Quit"
 msgstr "Изход"
 
@@ -723,8 +723,8 @@ msgid "Real hostname must be 64 characters or less"
 msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/Error.jsx:227 src/components/AnacondaWizardFooter.jsx:108
-#: src/components/AnacondaWizardFooter.jsx:131
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Reboot"
 msgstr ""
 
@@ -831,6 +831,10 @@ msgstr "Повторното сканиране на дискове завърш
 
 #: src/components/storage/ReclaimSpaceModal.jsx:445
 msgid "Resize"
+msgstr ""
+
+#: src/components/review/StorageReview.jsx:297
+msgid "Resizing the following partitions from $0: $1"
 msgstr ""
 
 #: src/components/storage/CockpitStorageIntegration.jsx:91
