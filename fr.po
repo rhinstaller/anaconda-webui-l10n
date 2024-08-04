@@ -68,7 +68,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-03 02:52+0000\n"
+"POT-Creation-Date: 2024-08-04 02:54+0000\n"
 "PO-Revision-Date: 2024-08-01 02:49+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/anaconda-"
@@ -148,6 +148,14 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Page du projet Anaconda"
 
+#: src/components/storage/CockpitStorageIntegration.jsx:142
+#, fuzzy
+#| msgid "Changes made in Blivet-gui will directly affect your storage."
+msgid "Any changes you make will immediately affect your storage."
+msgstr ""
+"Les modifications apportées dans Blivet-gui auront une incidence directe sur "
+"votre stockage."
+
 #: src/components/storage/InstallationScenario.jsx:241
 msgid "Apply mount point assignment and install"
 msgstr "Appliquer l'affectation des points de montage et installer"
@@ -179,6 +187,7 @@ msgstr ""
 "d'améliorer ce logiciel, vous vous engagez à signaler tout bug ou problème "
 "rencontré."
 
+#: src/components/storage/CockpitStorageIntegration.jsx:134
 #: src/components/storage/ReclaimSpaceModal.jsx:210
 #: src/components/Error.jsx:260 src/components/review/Hostname.jsx:106
 msgid "Cancel"
@@ -192,15 +201,15 @@ msgstr "Modifier"
 msgid "Change hostname"
 msgstr "Modifier le nom d'hôte"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:145
+#: src/components/storage/CockpitStorageIntegration.jsx:196
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 "Les modifications apportées ici auront un effet immédiat sur le système. "
 "Aucun retour en arrière n'est possible."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:405
-#: src/components/storage/CockpitStorageIntegration.jsx:417
+#: src/components/storage/CockpitStorageIntegration.jsx:457
+#: src/components/storage/CockpitStorageIntegration.jsx:469
 #: src/components/storage/DiskEncryption.jsx:54
 msgid "Checking storage configuration"
 msgstr "Vérification de la configuration du stockage"
@@ -221,7 +230,7 @@ msgstr "Effacer la valeur saisie"
 msgid "Close"
 msgstr "Fermer"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:323
+#: src/components/storage/CockpitStorageIntegration.jsx:375
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
@@ -236,11 +245,11 @@ msgstr "Langues"
 msgid "Completed"
 msgstr "Terminé"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:135
+#: src/components/storage/CockpitStorageIntegration.jsx:186
 msgid "Configure storage"
 msgstr "Configurer le stockage"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:454
+#: src/components/storage/CockpitStorageIntegration.jsx:506
 msgid "Configure storage again"
 msgstr "Configurer le stockage à nouveau"
 
@@ -249,7 +258,7 @@ msgstr "Configurer le stockage à nouveau"
 msgid "Confirm passphrase"
 msgstr "Confirmez la phrase secrète"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:439
+#: src/components/storage/CockpitStorageIntegration.jsx:491
 msgid "Continue"
 msgstr "Continuer"
 
@@ -257,7 +266,7 @@ msgstr "Continuer"
 msgid "Continue installation"
 msgstr "Continuer l'installation"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:414
+#: src/components/storage/CockpitStorageIntegration.jsx:466
 msgid "Continue with installation"
 msgstr "Continuer avec l'installation"
 
@@ -290,7 +299,7 @@ msgstr ""
 msgid "Destination"
 msgstr "Destination"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:479
+#: src/components/storage/CockpitStorageIntegration.jsx:531
 msgid "Detected valid storage layout:"
 msgstr "Schéma de stockage valide détecté :"
 
@@ -366,7 +375,7 @@ msgstr ""
 msgid "Error details"
 msgstr "Détails de l'erreur"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:550
+#: src/components/storage/CockpitStorageIntegration.jsx:602
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora Linux requiert au moins $0 d'espace disque."
 
@@ -386,7 +395,7 @@ msgstr ""
 msgid "Find a language"
 msgstr "Rechercher une langue"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:483
+#: src/components/storage/CockpitStorageIntegration.jsx:535
 msgid "Free space requirements met"
 msgstr "Prérequis d'espace libre respectés"
 
@@ -425,7 +434,7 @@ msgstr ""
 "Si le champ est vide, le nom d'hôte sera transitoire et défini par les "
 "informations du réseau."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:526
+#: src/components/storage/CockpitStorageIntegration.jsx:578
 msgid "If you are configuring partitions the following are required:"
 msgstr ""
 "Si vous décidez d'effectuer la configuration manuellement, les partitions "
@@ -497,6 +506,12 @@ msgstr ""
 msgid "Language"
 msgstr "Langue"
 
+#: src/components/storage/CockpitStorageIntegration.jsx:127
+#, fuzzy
+#| msgid "Return to storage editor"
+msgid "Launch storage editor"
+msgstr "Revenir dans l'éditeur de stockage"
+
 #: src/components/storage/ReclaimSpaceModal.jsx:145
 msgid "Location"
 msgstr "Emplacement"
@@ -537,6 +552,7 @@ msgstr ""
 "Problème de correspondance dans la sélection des périphériques parent et "
 "enfant à reformater."
 
+#: src/components/storage/CockpitStorageIntegration.jsx:118
 #: src/components/storage/ModifyStorage.jsx:56
 msgid "Modify storage"
 msgstr "Modifier le stockage"
@@ -631,7 +647,7 @@ msgstr ""
 msgid "Operating system"
 msgstr "Système d'exploitation"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:558
+#: src/components/storage/CockpitStorageIntegration.jsx:610
 msgid "Partitions (advanced)"
 msgstr "Partitions (avancé)"
 
@@ -670,7 +686,7 @@ msgstr "Préversion"
 msgid "Preparing report"
 msgstr "Préparation du rapport"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:461
+#: src/components/storage/CockpitStorageIntegration.jsx:513
 msgid "Proceed with installation"
 msgstr "Poursuivre l'installation"
 
@@ -752,7 +768,7 @@ msgstr "Récupérer de l'espace (requis)"
 msgid "Recommended"
 msgstr "Recommandé"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:535
+#: src/components/storage/CockpitStorageIntegration.jsx:587
 msgid "Recommended partitions:"
 msgstr "Partitions recommandées :"
 
@@ -809,7 +825,7 @@ msgstr ""
 msgid "Required"
 msgstr "Requis"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:547
+#: src/components/storage/CockpitStorageIntegration.jsx:599
 msgid "Requirements"
 msgstr "Prérequis"
 
@@ -834,7 +850,7 @@ msgstr ""
 msgid "Return to installation"
 msgstr "Retour vers l'installation"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:445
+#: src/components/storage/CockpitStorageIntegration.jsx:497
 msgid "Return to storage editor"
 msgstr "Revenir dans l'éditeur de stockage"
 
@@ -932,11 +948,11 @@ msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr ""
 "Le stockage est basé sur la configuration du menu 'Modifier le stockage'."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:128
+#: src/components/storage/CockpitStorageIntegration.jsx:163
 msgid "Storage plugin failed"
 msgstr "Échec du plugin de stockage"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:412
+#: src/components/storage/CockpitStorageIntegration.jsx:464
 msgid "Storage requirements not met"
 msgstr "Prérequis de stockage non respectés"
 
@@ -967,6 +983,19 @@ msgid ""
 msgstr ""
 "Configuration du système : L'installation des logiciels est terminée. Le "
 "système est maintenant en cours de configuration."
+
+#: src/components/storage/CockpitStorageIntegration.jsx:140
+#, fuzzy
+#| msgid ""
+#| "Blivet-gui is an advanced storage editor that lets you resize, delete, "
+#| "and create partitions. It can set up LVM and much more."
+msgid ""
+"The advanced storage editor lets you resize, delete, and create partitions. "
+"It can set up LVM and much more."
+msgstr ""
+"Blivet-gui est un éditeur de stockage avancé qui vous permet de "
+"redimensionner, supprimer et créer des partitions. Il peut configurer LVM et "
+"bien plus encore."
 
 #: src/components/localization/InstallationLanguage.jsx:311
 msgid ""
@@ -1064,7 +1093,7 @@ msgstr "Ce logiciel est en préversion et instable"
 msgid "This may take a moment"
 msgstr "Cela peut prendre un court instant"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:406
+#: src/components/storage/CockpitStorageIntegration.jsx:458
 msgid "This will take a few moments"
 msgstr "Cela prendra quelques instants"
 
@@ -1172,7 +1201,7 @@ msgstr ""
 "Les partitions Windows avec chiffrement BitLocker ne peuvent pas être "
 "redimensionnées"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:553
+#: src/components/storage/CockpitStorageIntegration.jsx:605
 msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
@@ -1266,19 +1295,6 @@ msgstr "annuler"
 #~ msgstr ""
 #~ "La partition racine est toujours reformatée par le programme "
 #~ "d’installation."
-
-#~ msgid ""
-#~ "Blivet-gui is an advanced storage editor that lets you resize, delete, "
-#~ "and create partitions. It can set up LVM and much more."
-#~ msgstr ""
-#~ "Blivet-gui est un éditeur de stockage avancé qui vous permet de "
-#~ "redimensionner, supprimer et créer des partitions. Il peut configurer LVM "
-#~ "et bien plus encore."
-
-#~ msgid "Changes made in Blivet-gui will directly affect your storage."
-#~ msgstr ""
-#~ "Les modifications apportées dans Blivet-gui auront une incidence directe "
-#~ "sur votre stockage."
 
 #~ msgid ""
 #~ "If you have made changes on partitions or disks, please rescan storage."

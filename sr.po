@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-03 02:52+0000\n"
+"POT-Creation-Date: 2024-08-04 02:54+0000\n"
 "PO-Revision-Date: 2023-11-06 12:22+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/"
@@ -106,6 +106,10 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Anaconda инсталатер"
 
+#: src/components/storage/CockpitStorageIntegration.jsx:142
+msgid "Any changes you make will immediately affect your storage."
+msgstr ""
+
 #: src/components/storage/InstallationScenario.jsx:241
 #, fuzzy
 msgid "Apply mount point assignment and install"
@@ -144,6 +148,7 @@ msgstr ""
 "Уколико не разумете или не прихватате ризике, изађите из овог програма "
 "бирањем опције „Желим да изађем“ да бисте поново покренули ваш систем."
 
+#: src/components/storage/CockpitStorageIntegration.jsx:134
 #: src/components/storage/ReclaimSpaceModal.jsx:210
 #: src/components/Error.jsx:260 src/components/review/Hostname.jsx:106
 #, fuzzy
@@ -163,13 +168,13 @@ msgstr "_Сачувај измене"
 msgid "Change hostname"
 msgstr "Постави host name"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:145
+#: src/components/storage/CockpitStorageIntegration.jsx:196
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:405
-#: src/components/storage/CockpitStorageIntegration.jsx:417
+#: src/components/storage/CockpitStorageIntegration.jsx:457
+#: src/components/storage/CockpitStorageIntegration.jsx:469
 #: src/components/storage/DiskEncryption.jsx:54
 #, fuzzy
 msgid "Checking storage configuration"
@@ -193,7 +198,7 @@ msgstr ""
 msgid "Close"
 msgstr "Затвори"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:323
+#: src/components/storage/CockpitStorageIntegration.jsx:375
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
@@ -208,13 +213,13 @@ msgstr "Језици"
 msgid "Completed"
 msgstr "Завршено!"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:135
+#: src/components/storage/CockpitStorageIntegration.jsx:186
 #, fuzzy
 #| msgid "Configuring storage"
 msgid "Configure storage"
 msgstr "Подешавам складиште"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:454
+#: src/components/storage/CockpitStorageIntegration.jsx:506
 #, fuzzy
 #| msgid "Configuring storage"
 msgid "Configure storage again"
@@ -226,7 +231,7 @@ msgstr "Подешавам складиште"
 msgid "Confirm passphrase"
 msgstr "_Потврди лозинку"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:439
+#: src/components/storage/CockpitStorageIntegration.jsx:491
 msgid "Continue"
 msgstr "Настави"
 
@@ -235,7 +240,7 @@ msgstr "Настави"
 msgid "Continue installation"
 msgstr "Извршавам задатке пре инсталације"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:414
+#: src/components/storage/CockpitStorageIntegration.jsx:466
 #, fuzzy
 msgid "Continue with installation"
 msgstr "Извршавам задатке пре инсталације"
@@ -275,7 +280,7 @@ msgstr ""
 msgid "Destination"
 msgstr "Опис"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:479
+#: src/components/storage/CockpitStorageIntegration.jsx:531
 msgid "Detected valid storage layout:"
 msgstr ""
 
@@ -356,7 +361,7 @@ msgstr ""
 msgid "Error details"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:550
+#: src/components/storage/CockpitStorageIntegration.jsx:602
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr ""
 
@@ -376,7 +381,7 @@ msgstr ""
 msgid "Find a language"
 msgstr "Означи све"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:483
+#: src/components/storage/CockpitStorageIntegration.jsx:535
 msgid "Free space requirements met"
 msgstr ""
 
@@ -421,7 +426,7 @@ msgstr ""
 msgid "If empty, hostname will be transient and set by network information."
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:526
+#: src/components/storage/CockpitStorageIntegration.jsx:578
 msgid "If you are configuring partitions the following are required:"
 msgstr ""
 
@@ -500,6 +505,11 @@ msgstr ""
 msgid "Language"
 msgstr "Језици"
 
+#: src/components/storage/CockpitStorageIntegration.jsx:127
+#, fuzzy
+msgid "Launch storage editor"
+msgstr "Инсталација"
+
 #: src/components/storage/ReclaimSpaceModal.jsx:145
 #, fuzzy
 #| msgid "Action"
@@ -541,6 +551,7 @@ msgstr ""
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 
+#: src/components/storage/CockpitStorageIntegration.jsx:118
 #: src/components/storage/ModifyStorage.jsx:56
 #, fuzzy
 msgid "Modify storage"
@@ -638,7 +649,7 @@ msgstr ""
 msgid "Operating system"
 msgstr "Правим кориснике"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:558
+#: src/components/storage/CockpitStorageIntegration.jsx:610
 msgid "Partitions (advanced)"
 msgstr ""
 
@@ -679,7 +690,7 @@ msgstr ""
 msgid "Preparing report"
 msgstr "Припремам успостављање %s"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:461
+#: src/components/storage/CockpitStorageIntegration.jsx:513
 #, fuzzy
 #| msgid "Failed to set up installation source"
 msgid "Proceed with installation"
@@ -774,7 +785,7 @@ msgstr "_Ослободи простор"
 msgid "Recommended"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:535
+#: src/components/storage/CockpitStorageIntegration.jsx:587
 msgid "Recommended partitions:"
 msgstr ""
 
@@ -824,7 +835,7 @@ msgstr ""
 msgid "Required"
 msgstr "Непромењив простор"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:547
+#: src/components/storage/CockpitStorageIntegration.jsx:599
 #, fuzzy
 msgid "Requirements"
 msgstr "Непромењив простор"
@@ -855,7 +866,7 @@ msgstr ""
 msgid "Return to installation"
 msgstr "Инсталација"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:445
+#: src/components/storage/CockpitStorageIntegration.jsx:497
 #, fuzzy
 msgid "Return to storage editor"
 msgstr "Инсталација"
@@ -970,13 +981,13 @@ msgstr ""
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "Поново учитај подешавање складиштења са диска."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:128
+#: src/components/storage/CockpitStorageIntegration.jsx:163
 #, fuzzy
 #| msgid "Node login failed."
 msgid "Storage plugin failed"
 msgstr "Неуспешна пријава на чвор."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:412
+#: src/components/storage/CockpitStorageIntegration.jsx:464
 msgid "Storage requirements not met"
 msgstr ""
 
@@ -1007,6 +1018,12 @@ msgstr "Подешавање складишта"
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
+msgstr ""
+
+#: src/components/storage/CockpitStorageIntegration.jsx:140
+msgid ""
+"The advanced storage editor lets you resize, delete, and create partitions. "
+"It can set up LVM and much more."
 msgstr ""
 
 #: src/components/localization/InstallationLanguage.jsx:311
@@ -1099,7 +1116,7 @@ msgstr "Ово је нестабилни, софтвер пре издања."
 msgid "This may take a moment"
 msgstr "Ово може потрајати."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:406
+#: src/components/storage/CockpitStorageIntegration.jsx:458
 #, fuzzy
 msgid "This will take a few moments"
 msgstr "Ово може потрајати."
@@ -1215,7 +1232,7 @@ msgstr ""
 msgid "Windows partitions with BitLocker encryption cannot be resized"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:553
+#: src/components/storage/CockpitStorageIntegration.jsx:605
 msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
