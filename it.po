@@ -47,7 +47,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-06 02:53+0000\n"
+"POT-Creation-Date: 2024-08-07 02:53+0000\n"
 "PO-Revision-Date: 2024-04-21 02:37+0000\n"
 "Last-Translator: Alessandro Bugliazzini <yattatux@posteo.net>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
@@ -99,9 +99,13 @@ msgstr "_Account"
 msgid "Actions"
 msgstr "Azione"
 
-#: src/components/storage/MountPointMapping.jsx:585
+#: src/components/storage/MountPointMapping.jsx:588
 msgid "Add mount"
 msgstr "Aggiungi punto di mount"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:145
+msgid "All changes made in the storage editor take effect immediately."
+msgstr ""
 
 #: src/components/storage/EncryptedDevices.jsx:154
 msgid "All devices using this passphrase will be unlocked"
@@ -131,12 +135,6 @@ msgstr ""
 #: src/components/HeaderKebab.jsx:100
 msgid "Anaconda project page"
 msgstr "Pagina web del progetto Anaconda"
-
-#: src/components/storage/CockpitStorageIntegration.jsx:142
-#, fuzzy
-#| msgid "Changes made in Blivet-gui will directly affect your storage."
-msgid "Any changes you make will immediately affect your storage."
-msgstr "Le modifiche fatte con Blivet-gui verranno applicate immediatamente."
 
 #: src/components/storage/InstallationScenario.jsx:241
 msgid "Apply mount point assignment and install"
@@ -187,15 +185,15 @@ msgstr "_Salva modifiche"
 msgid "Change hostname"
 msgstr "Imposta nome host"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:196
+#: src/components/storage/CockpitStorageIntegration.jsx:200
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 "Le modifiche apportate qui avranno effetto immediato sul sistema. Non è "
 "possibile annullare l'operazione."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:457
-#: src/components/storage/CockpitStorageIntegration.jsx:469
+#: src/components/storage/CockpitStorageIntegration.jsx:470
+#: src/components/storage/CockpitStorageIntegration.jsx:482
 #: src/components/storage/DiskEncryption.jsx:54
 msgid "Checking storage configuration"
 msgstr "Controllo della configurazione dello storage"
@@ -216,7 +214,7 @@ msgstr "Cancella il valore inserito"
 msgid "Close"
 msgstr "Chiudi"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:375
+#: src/components/storage/CockpitStorageIntegration.jsx:388
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
@@ -231,11 +229,11 @@ msgstr "Lingue comuni"
 msgid "Completed"
 msgstr "Completato"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:186
+#: src/components/storage/CockpitStorageIntegration.jsx:190
 msgid "Configure storage"
 msgstr "Configurare l'archiviazione"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:506
+#: src/components/storage/CockpitStorageIntegration.jsx:519
 msgid "Configure storage again"
 msgstr "Configurare di nuovo l'archiviazione"
 
@@ -244,7 +242,7 @@ msgstr "Configurare di nuovo l'archiviazione"
 msgid "Confirm passphrase"
 msgstr "Conferma la password"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:491
+#: src/components/storage/CockpitStorageIntegration.jsx:504
 msgid "Continue"
 msgstr "Continua"
 
@@ -252,7 +250,7 @@ msgstr "Continua"
 msgid "Continue installation"
 msgstr "Continua l'installazione"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:466
+#: src/components/storage/CockpitStorageIntegration.jsx:479
 msgid "Continue with installation"
 msgstr "Continua con l'installazione"
 
@@ -276,7 +274,7 @@ msgstr "Selezioni correnti"
 msgid "Custom"
 msgstr "Personalizzata"
 
-#: src/components/review/StorageReview.jsx:291
+#: src/components/review/StorageReview.jsx:292
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
@@ -284,11 +282,11 @@ msgstr ""
 msgid "Destination"
 msgstr "Destinazione"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:531
+#: src/components/storage/CockpitStorageIntegration.jsx:544
 msgid "Detected valid storage layout:"
 msgstr "Rilevato layout di archiviazione valido:"
 
-#: src/components/storage/MountPointMapping.jsx:561
+#: src/components/storage/MountPointMapping.jsx:564
 #: src/components/review/StorageReview.jsx:192
 msgid "Device"
 msgstr "Dispositivo"
@@ -306,7 +304,7 @@ msgstr "Configurazione del disco"
 msgid "Disk encryption"
 msgstr "Cifratura del disco"
 
-#: src/components/storage/MountPointMapping.jsx:329
+#: src/components/storage/MountPointMapping.jsx:332
 msgid "Duplicate device."
 msgstr "Dispositivo duplicato."
 
@@ -361,7 +359,7 @@ msgstr ""
 msgid "Error details"
 msgstr "Dettagli dell'errore"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:602
+#: src/components/storage/CockpitStorageIntegration.jsx:615
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora Linux richiede almeno $0 di spazio su disco."
 
@@ -381,7 +379,7 @@ msgstr ""
 msgid "Find a language"
 msgstr "Seleziona una lingua"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:535
+#: src/components/storage/CockpitStorageIntegration.jsx:548
 msgid "Free space requirements met"
 msgstr "Requisiti di spazio libero soddisfatti"
 
@@ -420,7 +418,7 @@ msgstr "Come vuoi effettuare l'installazione?"
 msgid "If empty, hostname will be transient and set by network information."
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:578
+#: src/components/storage/CockpitStorageIntegration.jsx:591
 msgid "If you are configuring partitions the following are required:"
 msgstr "Se stai configurando le partizioni è richiesto quanto segue:"
 
@@ -504,11 +502,11 @@ msgstr "Dispositivi bloccati"
 msgid "Log"
 msgstr "Log"
 
-#: src/components/storage/MountPointMapping.jsx:741
+#: src/components/storage/MountPointMapping.jsx:744
 msgid "Manual disk configuration"
 msgstr "Configurazione manuale del disco"
 
-#: src/components/storage/MountPointMapping.jsx:743
+#: src/components/storage/MountPointMapping.jsx:746
 msgid "Manual disk configuration: Mount point mapping"
 msgstr "Configurazione manuale del disco: definizione del punto di mount"
 
@@ -536,12 +534,12 @@ msgstr ""
 msgid "Modify storage"
 msgstr "Modifica lo storage"
 
-#: src/components/storage/MountPointMapping.jsx:560
+#: src/components/storage/MountPointMapping.jsx:563
 #: src/components/review/StorageReview.jsx:191
 msgid "Mount point"
 msgstr "Punto di mount"
 
-#: src/components/storage/MountPointMapping.jsx:558
+#: src/components/storage/MountPointMapping.jsx:561
 #: src/components/storage/InstallationScenario.jsx:252
 msgid "Mount point assignment"
 msgstr "Assegnazione del punto di mount"
@@ -575,7 +573,7 @@ msgid "No additional disks detected"
 msgstr "Non sono stati rilevati dischi aggiuntivi"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:150
-#: src/components/storage/MountPointMapping.jsx:565
+#: src/components/storage/MountPointMapping.jsx:568
 msgid "No devices"
 msgstr "Nessun dispositivo"
 
@@ -600,7 +598,7 @@ msgstr "Spazio insufficiente sui dischi selezionati."
 msgid "Not enough space on selected disks."
 msgstr "Spazio insufficiente sui dischi selezionati."
 
-#: src/components/review/StorageReview.jsx:335
+#: src/components/review/StorageReview.jsx:336
 #, fuzzy
 #| msgid "Notebook"
 msgid "Note"
@@ -628,7 +626,7 @@ msgstr ""
 msgid "Operating system"
 msgstr "Sistema Operativo"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:610
+#: src/components/storage/CockpitStorageIntegration.jsx:623
 msgid "Partitions (advanced)"
 msgstr "Partizioni (avanzate)"
 
@@ -667,7 +665,7 @@ msgstr "pre-rilascio"
 msgid "Preparing report"
 msgstr "Preparazione del rapporto"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:513
+#: src/components/storage/CockpitStorageIntegration.jsx:526
 msgid "Proceed with installation"
 msgstr "Procedere con l'installazione."
 
@@ -721,7 +719,7 @@ msgstr "Il nome host può avere un massimo di 64 caratteri."
 msgid "Reboot"
 msgstr "Riavvio"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:476
+#: src/components/storage/ReclaimSpaceModal.jsx:477
 msgid "Reboot into Windows to resize BitLocker-encrypted partitions. "
 msgstr ""
 
@@ -756,16 +754,16 @@ msgstr "_Recupera spazio"
 msgid "Recommended"
 msgstr "Consigliato"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:587
+#: src/components/storage/CockpitStorageIntegration.jsx:600
 msgid "Recommended partitions:"
 msgstr "Partizioni consigliate:"
 
-#: src/components/storage/MountPointMapping.jsx:349
-#: src/components/storage/MountPointMapping.jsx:562
+#: src/components/storage/MountPointMapping.jsx:352
+#: src/components/storage/MountPointMapping.jsx:565
 msgid "Reformat"
 msgstr "Riformattare"
 
-#: src/components/storage/MountPointMapping.jsx:376
+#: src/components/storage/MountPointMapping.jsx:379
 msgid "Remove"
 msgstr "Rimuovi"
 
@@ -811,7 +809,7 @@ msgstr ""
 msgid "Required"
 msgstr "Richiesto"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:599
+#: src/components/storage/CockpitStorageIntegration.jsx:612
 msgid "Requirements"
 msgstr "Requisiti"
 
@@ -823,14 +821,14 @@ msgstr "Effettua una nuova scansione"
 msgid "Rescanning of the disks failed."
 msgstr "Nuova scansione dei dischi fallita."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:456
+#: src/components/storage/ReclaimSpaceModal.jsx:457
 #, fuzzy
 #| msgctxt "GUI|Advanced Storage|NVDIMM|Reconfigure"
 #| msgid "_Sector size:"
 msgid "Resize"
 msgstr "_ Dimensioni del settore:"
 
-#: src/components/review/StorageReview.jsx:297
+#: src/components/review/StorageReview.jsx:298
 msgid "Resizing the following partitions from $0: $1"
 msgstr ""
 
@@ -838,7 +836,7 @@ msgstr ""
 msgid "Return to installation"
 msgstr "Torna all'installazione"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:497
+#: src/components/storage/CockpitStorageIntegration.jsx:510
 msgid "Return to storage editor"
 msgstr "Torna all'editor di archiviazione"
 
@@ -858,7 +856,7 @@ msgstr "_Salva"
 msgid "Scan the QR code with your phone or visit:"
 msgstr "Scansiona il codice QR con il tuo telefono o visita:"
 
-#: src/components/storage/MountPointMapping.jsx:290
+#: src/components/storage/MountPointMapping.jsx:292
 msgid "Select a device"
 msgstr "Seleziona un dispositivo"
 
@@ -944,11 +942,11 @@ msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr ""
 "L'archiviazione si basa sulla configurazione di \"Modifica archiviazione\"."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:163
+#: src/components/storage/CockpitStorageIntegration.jsx:167
 msgid "Storage plugin failed"
 msgstr "Plug-in di archiviazione non riuscito"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:464
+#: src/components/storage/CockpitStorageIntegration.jsx:477
 msgid "Storage requirements not met"
 msgstr "Requisiti di archiviazione non soddisfatti"
 
@@ -979,18 +977,6 @@ msgid ""
 msgstr ""
 "Configurazione del sistema: Installazione del software completata. Il "
 "sistema viene ora configurato."
-
-#: src/components/storage/CockpitStorageIntegration.jsx:140
-#, fuzzy
-#| msgid ""
-#| "Blivet-gui is an advanced storage editor that lets you resize, delete, "
-#| "and create partitions. It can set up LVM and much more."
-msgid ""
-"The advanced storage editor lets you resize, delete, and create partitions. "
-"It can set up LVM and much more."
-msgstr ""
-"Blivet-gui è un gestore di dischi avanzato che consente di ridimensionare, "
-"eliminare e creare partizioni. Può configurare LVM e molto altro ancora."
 
 #: src/components/localization/InstallationLanguage.jsx:311
 msgid ""
@@ -1063,6 +1049,16 @@ msgstr ""
 "I dischi selezionati saranno cancellati, questo non può essere annullato. "
 "Sei sicuro di voler continuare l'installazione?"
 
+#: src/components/storage/CockpitStorageIntegration.jsx:140
+#, fuzzy
+#| msgid ""
+#| "Blivet-gui is an advanced storage editor that lets you resize, delete, "
+#| "and create partitions. It can set up LVM and much more."
+msgid "The storage editor lets you resize, delete, and create partitions. "
+msgstr ""
+"Blivet-gui è un gestore di dischi avanzato che consente di ridimensionare, "
+"eliminare e creare partizioni. Può configurare LVM e molto altro ancora."
+
 #: src/components/storage/InstallationDestination.jsx:480
 msgid "The usable disks have changed"
 msgstr "I dischi utilizzabili sono cambiati"
@@ -1083,7 +1079,7 @@ msgstr "Questo software è una pre-rilascio instabile"
 msgid "This may take a moment"
 msgstr "Attendere prego"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:458
+#: src/components/storage/CockpitStorageIntegration.jsx:471
 msgid "This will take a few moments"
 msgstr "L'operazione richiederà alcuni istanti"
 
@@ -1184,11 +1180,11 @@ msgstr "Benvenut@ su $0"
 msgid "Welcome. Let's install $0 now."
 msgstr "Benvenut@. Installiamo $0."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:474
+#: src/components/storage/ReclaimSpaceModal.jsx:475
 msgid "Windows partitions with BitLocker encryption cannot be resized"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:605
+#: src/components/storage/CockpitStorageIntegration.jsx:618
 msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
@@ -1208,8 +1204,8 @@ msgstr "Step completati"
 msgid "current step"
 msgstr "step corrente"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:343
-#: src/components/storage/ReclaimSpaceModal.jsx:356
+#: src/components/storage/ReclaimSpaceModal.jsx:344
+#: src/components/storage/ReclaimSpaceModal.jsx:357
 #: src/components/review/StorageReview.jsx:128
 #, fuzzy
 #| msgid "Delete"
@@ -1248,20 +1244,26 @@ msgstr "step mancanti"
 msgid "resized from $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:419
-#: src/components/storage/ReclaimSpaceModal.jsx:423
+#: src/components/storage/ReclaimSpaceModal.jsx:420
+#: src/components/storage/ReclaimSpaceModal.jsx:424
 #, fuzzy
 #| msgid "Shrink"
 msgid "shrink"
 msgstr "Riduci"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:377
+#: src/components/storage/ReclaimSpaceModal.jsx:378
 msgid "shrink to $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:337
+#: src/components/storage/ReclaimSpaceModal.jsx:338
 msgid "undo"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Changes made in Blivet-gui will directly affect your storage."
+#~ msgid "Any changes you make will immediately affect your storage."
+#~ msgstr ""
+#~ "Le modifiche fatte con Blivet-gui verranno applicate immediatamente."
 
 #~ msgid "Disabled"
 #~ msgstr "Disabilitato"

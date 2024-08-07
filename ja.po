@@ -63,7 +63,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-06 02:53+0000\n"
+"POT-Creation-Date: 2024-08-07 02:53+0000\n"
 "PO-Revision-Date: 2024-07-22 00:58+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -114,9 +114,13 @@ msgstr "アカウント"
 msgid "Actions"
 msgstr "アクション"
 
-#: src/components/storage/MountPointMapping.jsx:585
+#: src/components/storage/MountPointMapping.jsx:588
 msgid "Add mount"
 msgstr "マウントの追加"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:145
+msgid "All changes made in the storage editor take effect immediately."
+msgstr ""
 
 #: src/components/storage/EncryptedDevices.jsx:154
 msgid "All devices using this passphrase will be unlocked"
@@ -145,12 +149,6 @@ msgstr ""
 #: src/components/HeaderKebab.jsx:100
 msgid "Anaconda project page"
 msgstr "Anacondaプロジェクトページ"
-
-#: src/components/storage/CockpitStorageIntegration.jsx:142
-#, fuzzy
-#| msgid "Changes made in Blivet-gui will directly affect your storage."
-msgid "Any changes you make will immediately affect your storage."
-msgstr "Blivet-guiで行われた変更はストレージに直接影響します。"
 
 #: src/components/storage/InstallationScenario.jsx:241
 msgid "Apply mount point assignment and install"
@@ -200,15 +198,15 @@ msgstr "変更を保存(_S)"
 msgid "Change hostname"
 msgstr "ホスト名の指定"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:196
+#: src/components/storage/CockpitStorageIntegration.jsx:200
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 "ここで行う変更はシステムに直ちに影響を及ぼします。操作を'元に戻す'ことはでき"
 "ません。"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:457
-#: src/components/storage/CockpitStorageIntegration.jsx:469
+#: src/components/storage/CockpitStorageIntegration.jsx:470
+#: src/components/storage/CockpitStorageIntegration.jsx:482
 #: src/components/storage/DiskEncryption.jsx:54
 msgid "Checking storage configuration"
 msgstr "ストレージ設定をチェック中..."
@@ -229,7 +227,7 @@ msgstr "入力した値をクリアします"
 msgid "Close"
 msgstr "閉じる"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:375
+#: src/components/storage/CockpitStorageIntegration.jsx:388
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
@@ -243,11 +241,11 @@ msgstr "共通言語"
 msgid "Completed"
 msgstr "完了しました"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:186
+#: src/components/storage/CockpitStorageIntegration.jsx:190
 msgid "Configure storage"
 msgstr "ストレージの設定"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:506
+#: src/components/storage/CockpitStorageIntegration.jsx:519
 msgid "Configure storage again"
 msgstr "ストレージを再度設定"
 
@@ -256,7 +254,7 @@ msgstr "ストレージを再度設定"
 msgid "Confirm passphrase"
 msgstr "パスフレーズの確認"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:491
+#: src/components/storage/CockpitStorageIntegration.jsx:504
 msgid "Continue"
 msgstr "続行"
 
@@ -264,7 +262,7 @@ msgstr "続行"
 msgid "Continue installation"
 msgstr "インストールを続行する"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:466
+#: src/components/storage/CockpitStorageIntegration.jsx:479
 msgid "Continue with installation"
 msgstr "インストールを続行する"
 
@@ -288,7 +286,7 @@ msgstr "現在の選択内容"
 msgid "Custom"
 msgstr "カスタム"
 
-#: src/components/review/StorageReview.jsx:291
+#: src/components/review/StorageReview.jsx:292
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
@@ -296,11 +294,11 @@ msgstr ""
 msgid "Destination"
 msgstr "インストール先"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:531
+#: src/components/storage/CockpitStorageIntegration.jsx:544
 msgid "Detected valid storage layout:"
 msgstr "無効なストレージ構成が見つかりました:"
 
-#: src/components/storage/MountPointMapping.jsx:561
+#: src/components/storage/MountPointMapping.jsx:564
 #: src/components/review/StorageReview.jsx:192
 msgid "Device"
 msgstr "デバイス"
@@ -318,7 +316,7 @@ msgstr "ディスクの設定"
 msgid "Disk encryption"
 msgstr "ディスク暗号化"
 
-#: src/components/storage/MountPointMapping.jsx:329
+#: src/components/storage/MountPointMapping.jsx:332
 msgid "Duplicate device."
 msgstr "重複されたデバイスです。"
 
@@ -371,7 +369,7 @@ msgstr ""
 msgid "Error details"
 msgstr "エラーの詳細"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:602
+#: src/components/storage/CockpitStorageIntegration.jsx:615
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora Linux は最低でも $0 のディスク領域を必要とします。"
 
@@ -391,7 +389,7 @@ msgstr ""
 msgid "Find a language"
 msgstr "言語を探す"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:535
+#: src/components/storage/CockpitStorageIntegration.jsx:548
 #, fuzzy
 msgid "Free space requirements met"
 msgstr "空き領域の要件を満たしています"
@@ -431,7 +429,7 @@ msgstr "どのようにインストールしますか？"
 msgid "If empty, hostname will be transient and set by network information."
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:578
+#: src/components/storage/CockpitStorageIntegration.jsx:591
 msgid "If you are configuring partitions the following are required:"
 msgstr "パーティション構成をする場合は以下が必要になります:"
 
@@ -517,11 +515,11 @@ msgstr "ロックされたデバイス"
 msgid "Log"
 msgstr "ログ"
 
-#: src/components/storage/MountPointMapping.jsx:741
+#: src/components/storage/MountPointMapping.jsx:744
 msgid "Manual disk configuration"
 msgstr "手動のディスク構成"
 
-#: src/components/storage/MountPointMapping.jsx:743
+#: src/components/storage/MountPointMapping.jsx:746
 msgid "Manual disk configuration: Mount point mapping"
 msgstr "手動のディスク構成: マウントポイントの割り当て"
 
@@ -546,12 +544,12 @@ msgstr "親デバイスと子デバイスの再フォーマットの選択が一
 msgid "Modify storage"
 msgstr "ストレージの変更"
 
-#: src/components/storage/MountPointMapping.jsx:560
+#: src/components/storage/MountPointMapping.jsx:563
 #: src/components/review/StorageReview.jsx:191
 msgid "Mount point"
 msgstr "マウントポイント"
 
-#: src/components/storage/MountPointMapping.jsx:558
+#: src/components/storage/MountPointMapping.jsx:561
 #: src/components/storage/InstallationScenario.jsx:252
 msgid "Mount point assignment"
 msgstr "マウントポイントの割り当て"
@@ -587,7 +585,7 @@ msgid "No additional disks detected"
 msgstr "検出された追加のディスクがありません"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:150
-#: src/components/storage/MountPointMapping.jsx:565
+#: src/components/storage/MountPointMapping.jsx:568
 msgid "No devices"
 msgstr "デバイスがありません"
 
@@ -612,7 +610,7 @@ msgstr "選択したディスクには十分な空き領域がありません。
 msgid "Not enough space on selected disks."
 msgstr "選択したディスクには十分な空き領域がありません。"
 
-#: src/components/review/StorageReview.jsx:335
+#: src/components/review/StorageReview.jsx:336
 msgid "Note"
 msgstr ""
 
@@ -637,7 +635,7 @@ msgstr ""
 msgid "Operating system"
 msgstr "オペレーティングシステム"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:610
+#: src/components/storage/CockpitStorageIntegration.jsx:623
 msgid "Partitions (advanced)"
 msgstr "パーティション (上級者向け)"
 
@@ -676,7 +674,7 @@ msgstr "プレリリース"
 msgid "Preparing report"
 msgstr "報告の準備中..."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:513
+#: src/components/storage/CockpitStorageIntegration.jsx:526
 msgid "Proceed with installation"
 msgstr "インストールを継続"
 
@@ -728,7 +726,7 @@ msgstr "ホスト名は、64 文字以下の長さにする必要があります
 msgid "Reboot"
 msgstr "再起動"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:476
+#: src/components/storage/ReclaimSpaceModal.jsx:477
 msgid "Reboot into Windows to resize BitLocker-encrypted partitions. "
 msgstr ""
 
@@ -763,16 +761,16 @@ msgstr "領域の再利用(_R)"
 msgid "Recommended"
 msgstr "推奨"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:587
+#: src/components/storage/CockpitStorageIntegration.jsx:600
 msgid "Recommended partitions:"
 msgstr "推奨されるパーティション:"
 
-#: src/components/storage/MountPointMapping.jsx:349
-#: src/components/storage/MountPointMapping.jsx:562
+#: src/components/storage/MountPointMapping.jsx:352
+#: src/components/storage/MountPointMapping.jsx:565
 msgid "Reformat"
 msgstr "再フォーマット"
 
-#: src/components/storage/MountPointMapping.jsx:376
+#: src/components/storage/MountPointMapping.jsx:379
 msgid "Remove"
 msgstr "削除"
 
@@ -816,7 +814,7 @@ msgstr ""
 msgid "Required"
 msgstr "必要です"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:599
+#: src/components/storage/CockpitStorageIntegration.jsx:612
 msgid "Requirements"
 msgstr "必要条件"
 
@@ -828,11 +826,11 @@ msgstr "再スキャン"
 msgid "Rescanning of the disks failed."
 msgstr "ディスクの再スキャンに失敗しました。"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:456
+#: src/components/storage/ReclaimSpaceModal.jsx:457
 msgid "Resize"
 msgstr "サイズの変更"
 
-#: src/components/review/StorageReview.jsx:297
+#: src/components/review/StorageReview.jsx:298
 msgid "Resizing the following partitions from $0: $1"
 msgstr ""
 
@@ -840,7 +838,7 @@ msgstr ""
 msgid "Return to installation"
 msgstr "インストールに戻る"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:497
+#: src/components/storage/CockpitStorageIntegration.jsx:510
 msgid "Return to storage editor"
 msgstr "ストレージエディターに戻る"
 
@@ -860,7 +858,7 @@ msgstr "保存(_S)"
 msgid "Scan the QR code with your phone or visit:"
 msgstr "携帯電話でQRコードを読み取るか、こちらをご覧ください:"
 
-#: src/components/storage/MountPointMapping.jsx:290
+#: src/components/storage/MountPointMapping.jsx:292
 msgid "Select a device"
 msgstr "デバイスを選択する"
 
@@ -944,13 +942,13 @@ msgstr "ストレージの構成: ストレージは現在構成中です。"
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "ストレージは「ストレージの変更」の設定に基づいています。"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:163
+#: src/components/storage/CockpitStorageIntegration.jsx:167
 #, fuzzy
 #| msgid "Node login failed."
 msgid "Storage plugin failed"
 msgstr "ストレージプラグインが失敗しました"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:464
+#: src/components/storage/CockpitStorageIntegration.jsx:477
 msgid "Storage requirements not met"
 msgstr "ストレージ要件が満たされていません"
 
@@ -981,18 +979,6 @@ msgid ""
 msgstr ""
 "システムの構成: ソフトウェアのインストールが完了しました。 現在システムを構成"
 "中です。"
-
-#: src/components/storage/CockpitStorageIntegration.jsx:140
-#, fuzzy
-#| msgid ""
-#| "Blivet-gui is an advanced storage editor that lets you resize, delete, "
-#| "and create partitions. It can set up LVM and much more."
-msgid ""
-"The advanced storage editor lets you resize, delete, and create partitions. "
-"It can set up LVM and much more."
-msgstr ""
-"Blivet-guiはパーティションのサイズ変更、削除、作成を行うことができる高度なス"
-"トレージ エディターです。LVMなどをセットアップできます。"
 
 #: src/components/localization/InstallationLanguage.jsx:311
 msgid ""
@@ -1059,6 +1045,16 @@ msgstr ""
 "選択したディスクは消去され、元に戻すことはできません。インストールを続行して"
 "もよろしいですか?"
 
+#: src/components/storage/CockpitStorageIntegration.jsx:140
+#, fuzzy
+#| msgid ""
+#| "Blivet-gui is an advanced storage editor that lets you resize, delete, "
+#| "and create partitions. It can set up LVM and much more."
+msgid "The storage editor lets you resize, delete, and create partitions. "
+msgstr ""
+"Blivet-guiはパーティションのサイズ変更、削除、作成を行うことができる高度なス"
+"トレージ エディターです。LVMなどをセットアップできます。"
+
 #: src/components/storage/InstallationDestination.jsx:480
 #, fuzzy
 #| msgid "No usable disks detected"
@@ -1081,7 +1077,7 @@ msgstr "これは、プレリリースの不安定なソフトウェアです"
 msgid "This may take a moment"
 msgstr "これには少し時間がかかる場合があります"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:458
+#: src/components/storage/CockpitStorageIntegration.jsx:471
 msgid "This will take a few moments"
 msgstr "これには少し時間がかかります"
 
@@ -1179,11 +1175,11 @@ msgstr "$0 へようこそ"
 msgid "Welcome. Let's install $0 now."
 msgstr "ようこそ。今すぐ $0 をインストールしましょう。"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:474
+#: src/components/storage/ReclaimSpaceModal.jsx:475
 msgid "Windows partitions with BitLocker encryption cannot be resized"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:605
+#: src/components/storage/CockpitStorageIntegration.jsx:618
 msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
@@ -1203,8 +1199,8 @@ msgstr "完了した手順"
 msgid "current step"
 msgstr "現在の手順"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:343
-#: src/components/storage/ReclaimSpaceModal.jsx:356
+#: src/components/storage/ReclaimSpaceModal.jsx:344
+#: src/components/storage/ReclaimSpaceModal.jsx:357
 #: src/components/review/StorageReview.jsx:128
 #, fuzzy
 #| msgid "Delete"
@@ -1243,20 +1239,25 @@ msgstr "保留中の手順"
 msgid "resized from $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:419
-#: src/components/storage/ReclaimSpaceModal.jsx:423
+#: src/components/storage/ReclaimSpaceModal.jsx:420
+#: src/components/storage/ReclaimSpaceModal.jsx:424
 #, fuzzy
 #| msgid "Shrink"
 msgid "shrink"
 msgstr "縮小"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:377
+#: src/components/storage/ReclaimSpaceModal.jsx:378
 msgid "shrink to $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:337
+#: src/components/storage/ReclaimSpaceModal.jsx:338
 msgid "undo"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Changes made in Blivet-gui will directly affect your storage."
+#~ msgid "Any changes you make will immediately affect your storage."
+#~ msgstr "Blivet-guiで行われた変更はストレージに直接影響します。"
 
 #~ msgid "Disabled"
 #~ msgstr "無効"
