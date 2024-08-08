@@ -74,7 +74,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-07 02:53+0000\n"
+"POT-Creation-Date: 2024-08-08 02:59+0000\n"
 "PO-Revision-Date: 2024-02-21 02:41+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -118,8 +118,8 @@ msgstr "Sobre"
 msgid "Account"
 msgstr "Conta"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:148
 #: src/components/review/StorageReview.jsx:194
+#: src/components/storage/ReclaimSpaceModal.jsx:148
 #, fuzzy
 #| msgid "Action"
 msgid "Actions"
@@ -173,8 +173,8 @@ msgstr "Aplicando nova seleção de disco..."
 msgid "Available free space: $0. Installation requires: $1."
 msgstr ""
 
-#: src/components/AnacondaWizardFooter.jsx:90
 #: src/components/review/ReviewConfiguration.jsx:168
+#: src/components/AnacondaWizardFooter.jsx:90
 msgid "Back"
 msgstr "Voltar"
 
@@ -190,9 +190,10 @@ msgstr ""
 "fins de testes e desenvolvimento e está disposto a relatar quaisquer bugs ou "
 "problemas para aprimorar este trabalho."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:134
+#: src/components/review/Hostname.jsx:106
 #: src/components/storage/ReclaimSpaceModal.jsx:210
-#: src/components/Error.jsx:260 src/components/review/Hostname.jsx:106
+#: src/components/storage/CockpitStorageIntegration.jsx:134
+#: src/components/Error.jsx:260
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -216,9 +217,9 @@ msgstr ""
 "As mudanças feitas aqui irão afetar o sistema imediatamente. Não há "
 "'desfazer'."
 
+#: src/components/storage/DiskEncryption.jsx:54
 #: src/components/storage/CockpitStorageIntegration.jsx:470
 #: src/components/storage/CockpitStorageIntegration.jsx:482
-#: src/components/storage/DiskEncryption.jsx:54
 msgid "Checking storage configuration"
 msgstr "Checando configurações de armazenamento"
 
@@ -261,8 +262,8 @@ msgstr "Configurar o armazenamento"
 msgid "Configure storage again"
 msgstr "Configurar o armazenamento novamente"
 
-#: src/components/storage/DiskEncryption.jsx:117
 #: src/components/users/Accounts.jsx:183 src/components/users/Accounts.jsx:282
+#: src/components/storage/DiskEncryption.jsx:117
 msgid "Confirm passphrase"
 msgstr "Confirmar palavra-passe"
 
@@ -310,8 +311,8 @@ msgstr "Destinação"
 msgid "Detected valid storage layout:"
 msgstr "Detectado layout válido de armazenamento:"
 
-#: src/components/storage/MountPointMapping.jsx:564
 #: src/components/review/StorageReview.jsx:192
+#: src/components/storage/MountPointMapping.jsx:564
 msgid "Device"
 msgstr "Dispositivo"
 
@@ -551,18 +552,18 @@ msgstr ""
 "Incompatibilidade entre o dispositivo pai e a seleção de reformatação do "
 "dispositivo filho."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:118
 #: src/components/storage/ModifyStorage.jsx:56
+#: src/components/storage/CockpitStorageIntegration.jsx:118
 msgid "Modify storage"
 msgstr "Modificar o armazenamento"
 
-#: src/components/storage/MountPointMapping.jsx:563
 #: src/components/review/StorageReview.jsx:191
+#: src/components/storage/MountPointMapping.jsx:563
 msgid "Mount point"
 msgstr "Ponto de montagem"
 
-#: src/components/storage/MountPointMapping.jsx:561
 #: src/components/storage/InstallationScenario.jsx:252
+#: src/components/storage/MountPointMapping.jsx:561
 msgid "Mount point assignment"
 msgstr "Atribuição de ponto de montagem"
 
@@ -599,8 +600,8 @@ msgstr "Nenhum disco adicional detectado"
 msgid "No devices"
 msgstr "Nenhum dispositivo"
 
-#: src/components/storage/InstallationDestination.jsx:121
 #: src/components/localization/InstallationLanguage.jsx:192
+#: src/components/storage/InstallationDestination.jsx:121
 msgid "No results found"
 msgstr "Nenhum resultado encontrado"
 
@@ -650,10 +651,10 @@ msgstr "Sistema Operacional"
 msgid "Partitions (advanced)"
 msgstr "Partições (avançado)"
 
+#: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
 #: src/components/storage/DiskEncryption.jsx:114
-#: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
 msgid "Passphrase"
 msgstr "Senha"
 
@@ -690,8 +691,8 @@ msgid "Proceed with installation"
 msgstr "Prosseguir com a instalação"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/Error.jsx:227 src/components/AnacondaWizardFooter.jsx:108
-#: src/components/AnacondaWizardFooter.jsx:131
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Quit"
 msgstr "Sair"
 
@@ -734,8 +735,8 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "O nome do host deve ter no máximo 64 caracteres."
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/Error.jsx:227 src/components/AnacondaWizardFooter.jsx:108
-#: src/components/AnacondaWizardFooter.jsx:131
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Reboot"
 msgstr "Reiniciar"
 
@@ -1221,9 +1222,9 @@ msgstr "etapa concluída"
 msgid "current step"
 msgstr "etapa atual"
 
+#: src/components/review/StorageReview.jsx:128
 #: src/components/storage/ReclaimSpaceModal.jsx:344
 #: src/components/storage/ReclaimSpaceModal.jsx:357
-#: src/components/review/StorageReview.jsx:128
 #, fuzzy
 #| msgid "Delete"
 msgid "delete"

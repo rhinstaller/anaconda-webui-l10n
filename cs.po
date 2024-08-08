@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-07 02:53+0000\n"
+"POT-Creation-Date: 2024-08-08 02:59+0000\n"
 "PO-Revision-Date: 2024-06-28 00:53+0000\n"
 "Last-Translator: Josef Hruska <hrusjos@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/anaconda-"
@@ -88,8 +88,8 @@ msgstr "O aplikaci"
 msgid "Account"
 msgstr "Účet"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:148
 #: src/components/review/StorageReview.jsx:194
+#: src/components/storage/ReclaimSpaceModal.jsx:148
 msgid "Actions"
 msgstr "Akce"
 
@@ -141,8 +141,8 @@ msgstr "Uplatňování výběru nového disku…"
 msgid "Available free space: $0. Installation requires: $1."
 msgstr "Volný diskový prostor: $0. Instalace požaduje: $1."
 
-#: src/components/AnacondaWizardFooter.jsx:90
 #: src/components/review/ReviewConfiguration.jsx:168
+#: src/components/AnacondaWizardFooter.jsx:90
 msgid "Back"
 msgstr "Zpět"
 
@@ -158,9 +158,10 @@ msgstr ""
 "pouze pro testovací a vývojové účely a jste ochotni hlásit jakékoli chyby "
 "nebo problémy za účelem zlepšení tohoto díla."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:134
+#: src/components/review/Hostname.jsx:106
 #: src/components/storage/ReclaimSpaceModal.jsx:210
-#: src/components/Error.jsx:260 src/components/review/Hostname.jsx:106
+#: src/components/storage/CockpitStorageIntegration.jsx:134
+#: src/components/Error.jsx:260
 msgid "Cancel"
 msgstr "Zrušit"
 
@@ -178,9 +179,9 @@ msgid ""
 msgstr ""
 "Změny zde provedené budou mít okamžitý vliv na systém. Nelze je vzít 'zpět'."
 
+#: src/components/storage/DiskEncryption.jsx:54
 #: src/components/storage/CockpitStorageIntegration.jsx:470
 #: src/components/storage/CockpitStorageIntegration.jsx:482
-#: src/components/storage/DiskEncryption.jsx:54
 msgid "Checking storage configuration"
 msgstr "Zjišťuje se uspořádání úložiště"
 
@@ -223,8 +224,8 @@ msgstr "Nastavení úložiště"
 msgid "Configure storage again"
 msgstr "Znovu nastavit úložiště"
 
-#: src/components/storage/DiskEncryption.jsx:117
 #: src/components/users/Accounts.jsx:183 src/components/users/Accounts.jsx:282
+#: src/components/storage/DiskEncryption.jsx:117
 msgid "Confirm passphrase"
 msgstr "Zopakování heslové fráze"
 
@@ -272,8 +273,8 @@ msgstr "Cíl"
 msgid "Detected valid storage layout:"
 msgstr "Nalezeno platné rozvržení úložiště:"
 
-#: src/components/storage/MountPointMapping.jsx:564
 #: src/components/review/StorageReview.jsx:192
+#: src/components/storage/MountPointMapping.jsx:564
 msgid "Device"
 msgstr "Zařízení"
 
@@ -512,18 +513,18 @@ msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 "Neshoda mezi výběrem přeformátování u nadřazeného a podřízeného zařízení."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:118
 #: src/components/storage/ModifyStorage.jsx:56
+#: src/components/storage/CockpitStorageIntegration.jsx:118
 msgid "Modify storage"
 msgstr "Upravit úložiště"
 
-#: src/components/storage/MountPointMapping.jsx:563
 #: src/components/review/StorageReview.jsx:191
+#: src/components/storage/MountPointMapping.jsx:563
 msgid "Mount point"
 msgstr "Přípojný bod"
 
-#: src/components/storage/MountPointMapping.jsx:561
 #: src/components/storage/InstallationScenario.jsx:252
+#: src/components/storage/MountPointMapping.jsx:561
 msgid "Mount point assignment"
 msgstr "Přiřazení přípojného bodu"
 
@@ -560,8 +561,8 @@ msgstr "Nezjištěny žádné další jednotky"
 msgid "No devices"
 msgstr "Žádná zařízení"
 
-#: src/components/storage/InstallationDestination.jsx:121
 #: src/components/localization/InstallationLanguage.jsx:192
+#: src/components/storage/InstallationDestination.jsx:121
 msgid "No results found"
 msgstr "Nenalezeny žádné výsledky"
 
@@ -611,10 +612,10 @@ msgstr "Operační systém"
 msgid "Partitions (advanced)"
 msgstr "Rozdělení disku (pokročilé)"
 
+#: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
 #: src/components/storage/DiskEncryption.jsx:114
-#: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:279
 msgid "Passphrase"
 msgstr "Heslová fráze"
 
@@ -651,8 +652,8 @@ msgid "Proceed with installation"
 msgstr "Pokračovat v instalaci"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/Error.jsx:227 src/components/AnacondaWizardFooter.jsx:108
-#: src/components/AnacondaWizardFooter.jsx:131
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Quit"
 msgstr "Ukončit"
 
@@ -693,8 +694,8 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "Délka názvu stroje nesmí přesáhnout 64 znaků"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#: src/components/Error.jsx:227 src/components/AnacondaWizardFooter.jsx:108
-#: src/components/AnacondaWizardFooter.jsx:131
+#: src/components/AnacondaWizardFooter.jsx:108
+#: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:227
 msgid "Reboot"
 msgstr "Restartovat"
 
@@ -1163,9 +1164,9 @@ msgstr "dokončený krok"
 msgid "current step"
 msgstr "stávající krok"
 
+#: src/components/review/StorageReview.jsx:128
 #: src/components/storage/ReclaimSpaceModal.jsx:344
 #: src/components/storage/ReclaimSpaceModal.jsx:357
-#: src/components/review/StorageReview.jsx:128
 msgid "delete"
 msgstr "smazat"
 
