@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-08 02:59+0000\n"
+"POT-Creation-Date: 2024-08-09 02:54+0000\n"
 "PO-Revision-Date: 2024-07-02 02:46+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
@@ -69,12 +69,12 @@ msgstr "{fs}:n on oltava laitteella tyyppiä {type}"
 msgid "About"
 msgstr "Aiheesta"
 
-#: src/components/review/ReviewConfiguration.jsx:111
+#: src/components/review/ReviewConfiguration.jsx:109
 msgid "Account"
 msgstr "Tili"
 
 #: src/components/review/StorageReview.jsx:194
-#: src/components/storage/ReclaimSpaceModal.jsx:148
+#: src/components/storage/ReclaimSpaceModal.jsx:154
 msgid "Actions"
 msgstr "Toimet"
 
@@ -113,7 +113,7 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Anaconda-projektin sivu"
 
-#: src/components/storage/InstallationScenario.jsx:241
+#: src/components/storage/InstallationScenario.jsx:233
 msgid "Apply mount point assignment and install"
 msgstr "Käytä kiinnityspisteiden määritystä ja asenna"
 
@@ -121,11 +121,10 @@ msgstr "Käytä kiinnityspisteiden määritystä ja asenna"
 msgid "Applying new disk selection..."
 msgstr "Otetaan uutta levyvalintaa käyttöön..."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:199
+#: src/components/storage/ReclaimSpaceModal.jsx:207
 msgid "Available free space: $0. Installation requires: $1."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:168
 #: src/components/AnacondaWizardFooter.jsx:90
 msgid "Back"
 msgstr "Takaisin"
@@ -143,7 +142,7 @@ msgstr ""
 "parantaaksesi tätä ohjelmistoa."
 
 #: src/components/review/Hostname.jsx:106
-#: src/components/storage/ReclaimSpaceModal.jsx:210
+#: src/components/storage/ReclaimSpaceModal.jsx:218
 #: src/components/storage/CockpitStorageIntegration.jsx:134
 #: src/components/Error.jsx:260
 msgid "Cancel"
@@ -274,7 +273,7 @@ msgstr "Laite"
 msgid "Devices should be unlocked before assigning mount points."
 msgstr "Laitteiden lukitus tulee avata ennen liitospisteiden määrittämistä."
 
-#: src/components/steps.js:18
+#: src/components/steps.js:19
 msgid "Disk configuration"
 msgstr "Laitteen asetukset"
 
@@ -316,19 +315,9 @@ msgstr ""
 "Salaus auttaa suojaamaan tietosi, jotta muut eivät pääse niihin käsiksi."
 
 #: src/components/storage/InstallationScenario.jsx:211
-#: src/components/storage/InstallationScenario.jsx:222
+#: src/components/storage/InstallationScenario.jsx:219
 msgid "Erase data and install"
 msgstr "Tyhjennä levyt ja asenna"
-
-#: src/components/storage/InstallationScenario.jsx:218
-msgid "Erase data and install?"
-msgstr "Tyhjennetäänkö levyt ja asennetaanko?"
-
-#: src/components/storage/InstallationScenario.jsx:223
-msgid "Erasing the data cannot be undone. Be sure to have backups."
-msgstr ""
-"Tietojen tyhjentämistä ei voi kumota. Varmistu, että sinulla on "
-"varmuuskopiot."
 
 #: src/components/Error.jsx:248
 msgid "Error details"
@@ -383,9 +372,26 @@ msgstr "Piilota salasana"
 msgid "Hostname"
 msgstr "Koneen nimi"
 
-#: src/components/storage/InstallationScenario.jsx:431
+#: src/components/storage/InstallationScenario.jsx:415
 msgid "How would you like to install?"
 msgstr "Miten haluaisit asentaa?"
+
+#: src/components/review/ReviewConfiguration.jsx:167
+msgid "I understand that all existing data will be erased"
+msgstr ""
+
+#: src/components/review/ReviewConfiguration.jsx:168
+msgid ""
+"I understand that all existing data will be erased from the selected disks"
+msgstr ""
+
+#: src/components/review/ReviewConfiguration.jsx:172
+msgid "I understand that some existing data will be erased"
+msgstr ""
+
+#: src/components/review/ReviewConfiguration.jsx:173
+msgid "I understand that some partitions will be modified"
+msgstr ""
 
 #: src/components/review/Hostname.jsx:140
 msgid "If empty, hostname will be transient and set by network information."
@@ -408,24 +414,10 @@ msgstr "Meneillään"
 msgid "Initializing..."
 msgstr "Alustetaan ..."
 
-#: src/components/storage/InstallationScenario.jsx:226
-#: src/components/storage/InstallationScenario.jsx:255
+#: src/components/storage/InstallationScenario.jsx:222
+#: src/components/storage/InstallationScenario.jsx:243
 msgid "Install"
 msgstr "Asenna"
-
-#: src/components/storage/InstallationScenario.jsx:248
-msgid "Install on the custom mount points?"
-msgstr "Asennetaanko mukautettuihin liitospisteisiin?"
-
-#: src/components/storage/InstallationScenario.jsx:234
-msgid "Install on the free space?"
-msgstr "Asennetaanko vapaaseen tilaan?"
-
-#: src/components/storage/InstallationScenario.jsx:262
-#, fuzzy
-#| msgid "Install on the free space?"
-msgid "Install using the configured storage?"
-msgstr "Asennetaanko vapaaseen tilaan?"
 
 #: src/components/installation/InstallationProgress.jsx:156
 msgid "Installation failed"
@@ -439,7 +431,7 @@ msgstr "Asennustapa"
 msgid "Installation of the system failed: $0"
 msgstr "Järjestelmän asennus epäonnistui: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:126
+#: src/components/review/ReviewConfiguration.jsx:124
 msgid "Installation type"
 msgstr "Asennustyyppi"
 
@@ -456,7 +448,7 @@ msgstr "Asennetaan kohteeseen $0 ($1)"
 msgid "Keep current disk layout and only install into available space."
 msgstr "Säilyttää nykyisen levyasettelun ja käyttää vain vapaata tilaa."
 
-#: src/components/review/ReviewConfiguration.jsx:102
+#: src/components/review/ReviewConfiguration.jsx:100
 msgid "Language"
 msgstr "Kieli"
 
@@ -466,7 +458,7 @@ msgstr "Kieli"
 msgid "Launch storage editor"
 msgstr "Käynnistä Blivet-gui-tallennuseditori"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:145
+#: src/components/storage/ReclaimSpaceModal.jsx:151
 msgid "Location"
 msgstr "Sijainti"
 
@@ -513,7 +505,7 @@ msgstr "Muokkaa tallennustilaa"
 msgid "Mount point"
 msgstr "Liitospiste"
 
-#: src/components/storage/InstallationScenario.jsx:252
+#: src/components/storage/InstallationScenario.jsx:241
 #: src/components/storage/MountPointMapping.jsx:561
 msgid "Mount point assignment"
 msgstr "Liitospisteen määrittely"
@@ -522,7 +514,7 @@ msgstr "Liitospisteen määrittely"
 msgid "Must be at least $0 characters"
 msgstr "Salasanan on oltava vähintään $0 merkkiä pitkä"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:144
+#: src/components/storage/ReclaimSpaceModal.jsx:150
 msgid "Name"
 msgstr "Nimi"
 
@@ -549,7 +541,7 @@ msgstr "Seuraava"
 msgid "No additional disks detected"
 msgstr "Ylimääräisiä levyjä ei havaittu"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:150
+#: src/components/storage/ReclaimSpaceModal.jsx:156
 #: src/components/storage/MountPointMapping.jsx:568
 msgid "No devices"
 msgstr "Ei laiteita"
@@ -597,7 +589,7 @@ msgid ""
 "untouched."
 msgstr "Vain uudet osiot salataan. Olemassa olevat osiot säilyvät ennallaan."
 
-#: src/components/review/ReviewConfiguration.jsx:91
+#: src/components/review/ReviewConfiguration.jsx:89
 msgid "Operating system"
 msgstr "Käyttöjärjestelmä"
 
@@ -696,7 +688,7 @@ msgstr "Konenimi voi sisältää korkeintaan 64 merkkiä."
 msgid "Reboot"
 msgstr "Käynnistä uudelleen"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:477
+#: src/components/storage/ReclaimSpaceModal.jsx:485
 msgid "Reboot into Windows to resize BitLocker-encrypted partitions. "
 msgstr ""
 
@@ -711,9 +703,9 @@ msgstr "Käynnistä järjestelmä uudelleen?"
 msgid "Reclaim additional space"
 msgstr "_Vapauta tilaa"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:132
-#: src/components/storage/ReclaimSpaceModal.jsx:142
-#: src/components/storage/ReclaimSpaceModal.jsx:207
+#: src/components/storage/ReclaimSpaceModal.jsx:138
+#: src/components/storage/ReclaimSpaceModal.jsx:148
+#: src/components/storage/ReclaimSpaceModal.jsx:215
 msgid "Reclaim space"
 msgstr "Vapauta tilaa"
 
@@ -749,14 +741,14 @@ msgstr ""
 "Poista kaikki osiot valituista laitteista, mukaan lukien olemassa olevat "
 "käyttöjärjestelmät. Varmista, että olet varmuuskopioinut tietosi."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:115
+#: src/components/storage/ReclaimSpaceModal.jsx:121
 #, fuzzy
 #| msgid "Use free space for the installation"
 msgid ""
 "Remove or resize existing filesystems to free up space for the installation."
 msgstr "Käytä vapaata tilaa asennukseen"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:118
+#: src/components/storage/ReclaimSpaceModal.jsx:124
 msgid ""
 "Removing a filesystem will permanently delete all of the data it contains. "
 msgstr ""
@@ -795,7 +787,7 @@ msgstr "Päivitä"
 msgid "Rescanning of the disks failed."
 msgstr "Levyjen uudelleenskannaus epäonnistui."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:457
+#: src/components/storage/ReclaimSpaceModal.jsx:465
 #, fuzzy
 #| msgctxt "GUI|Advanced Storage|NVDIMM|Reconfigure"
 #| msgid "_Sector size:"
@@ -818,8 +810,8 @@ msgstr "$0 -asennus"
 msgid "Return to storage editor"
 msgstr "Käynnistä Blivet-gui-tallennuseditori"
 
-#: src/components/review/ReviewConfiguration.jsx:225
-#: src/components/review/ReviewConfiguration.jsx:226
+#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:224
 msgid "Review and install"
 msgstr "Arvioi ja asenna"
 
@@ -895,13 +887,13 @@ msgstr ""
 msgid "Some required partitions are missing: $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:147
+#: src/components/storage/ReclaimSpaceModal.jsx:153
 #, fuzzy
 #| msgid "No Space"
 msgid "Space"
 msgstr "Ei tilaa"
 
-#: src/components/review/ReviewConfiguration.jsx:133
+#: src/components/review/ReviewConfiguration.jsx:131
 msgid "Storage"
 msgstr "Tallennustila"
 
@@ -990,18 +982,6 @@ msgstr ""
 msgid "The installation needs $1 of disk space; "
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:233
-msgid ""
-"The installation will use the available space on your devices and will not "
-"erase any device data."
-msgstr ""
-"Asennus käyttää laitteidesi vapaata tilaa eikä poista laitteen tietoja."
-
-#: src/components/storage/InstallationScenario.jsx:247
-#: src/components/storage/InstallationScenario.jsx:261
-msgid "The installation will use your configured partitioning layout."
-msgstr "Asennus käyttää määritettyä osiointiasettelua."
-
 #: src/components/Error.jsx:237
 msgid "The installer cannot continue due to a critical error."
 msgstr "Asennuksen jatkaminen ei onnistu kriittisen virheen vuoksi."
@@ -1017,14 +997,6 @@ msgid ""
 msgstr ""
 "Antamasi salalause sisältää merkkejä, jotka eivät ole ASCII:ta. Jos "
 "näppäimistöasettelua vaihdetaan, kirjautuminen ei ehkä onnistu."
-
-#: src/components/storage/InstallationScenario.jsx:217
-msgid ""
-"The selected disks will be erased, this cannot be undone. Are you sure you "
-"want to continue with the installation?"
-msgstr ""
-"Valitut levyt tyhjennetään, tätä ei voi kumota. Haluatko varmasti jatkaa "
-"asennusta?"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:140
 #, fuzzy
@@ -1072,12 +1044,6 @@ msgstr "Aloita $0 käyttö käynnistämällä järjestelmä uudelleen."
 msgid "To continue, select the devices to install to."
 msgstr "Jatka valitsemalla laitteet, joihin haluat asentaa."
 
-#: src/components/storage/InstallationScenario.jsx:239
-#: src/components/storage/InstallationScenario.jsx:253
-#: src/components/storage/InstallationScenario.jsx:267
-msgid "To prevent loss, make sure to backup your data."
-msgstr "Muista varmuuskopioida tiedot, jotta ne eivät katoa."
-
 #: src/components/storage/InstallationScenario.jsx:128
 msgid "To use this option, rename devices to have unique names."
 msgstr ""
@@ -1088,15 +1054,15 @@ msgid ""
 "$0."
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:146
+#: src/components/storage/ReclaimSpaceModal.jsx:152
 msgid "Type"
 msgstr "Tyyppi"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:89
+#: src/components/storage/ReclaimSpaceModal.jsx:95
 msgid "Unable to schedule deletion of $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:91
+#: src/components/storage/ReclaimSpaceModal.jsx:97
 msgid "Unable to schedule resizing of $0"
 msgstr ""
 
@@ -1112,13 +1078,13 @@ msgstr "Avaa laite"
 msgid "Unlock encrypted devices"
 msgstr "Avaa salatut laitteet"
 
-#: src/components/storage/InstallationScenario.jsx:266
+#: src/components/storage/InstallationScenario.jsx:251
 #, fuzzy
 #| msgid "Configuring storage"
 msgid "Use configured storage"
 msgstr "Määritetään tallennustilaa"
 
-#: src/components/storage/InstallationScenario.jsx:238
+#: src/components/storage/InstallationScenario.jsx:231
 msgid "Use free space for the installation"
 msgstr "Käytä vapaata tilaa asennukseen"
 
@@ -1160,7 +1126,7 @@ msgstr "Tervetuloa $0an"
 msgid "Welcome. Let's install $0 now."
 msgstr "Tervetuloa. Asennataan nyt $0."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:475
+#: src/components/storage/ReclaimSpaceModal.jsx:483
 msgid "Windows partitions with BitLocker encryption cannot be resized"
 msgstr ""
 
@@ -1183,8 +1149,8 @@ msgid "current step"
 msgstr "nykyinen vaihe"
 
 #: src/components/review/StorageReview.jsx:128
-#: src/components/storage/ReclaimSpaceModal.jsx:344
-#: src/components/storage/ReclaimSpaceModal.jsx:357
+#: src/components/storage/ReclaimSpaceModal.jsx:352
+#: src/components/storage/ReclaimSpaceModal.jsx:365
 msgid "delete"
 msgstr "poista"
 
@@ -1216,20 +1182,58 @@ msgstr "käsittelyä odottava vaihe"
 msgid "resized from $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:420
-#: src/components/storage/ReclaimSpaceModal.jsx:424
+#: src/components/storage/ReclaimSpaceModal.jsx:428
+#: src/components/storage/ReclaimSpaceModal.jsx:432
 #, fuzzy
 #| msgid "Shrink"
 msgid "shrink"
 msgstr "Kutista"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:378
+#: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "shrink to $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:338
+#: src/components/storage/ReclaimSpaceModal.jsx:346
 msgid "undo"
 msgstr ""
+
+#~ msgid "Erase data and install?"
+#~ msgstr "Tyhjennetäänkö levyt ja asennetaanko?"
+
+#~ msgid "Erasing the data cannot be undone. Be sure to have backups."
+#~ msgstr ""
+#~ "Tietojen tyhjentämistä ei voi kumota. Varmistu, että sinulla on "
+#~ "varmuuskopiot."
+
+#~ msgid "Install on the custom mount points?"
+#~ msgstr "Asennetaanko mukautettuihin liitospisteisiin?"
+
+#~ msgid "Install on the free space?"
+#~ msgstr "Asennetaanko vapaaseen tilaan?"
+
+#, fuzzy
+#~| msgid "Install on the free space?"
+#~ msgid "Install using the configured storage?"
+#~ msgstr "Asennetaanko vapaaseen tilaan?"
+
+#~ msgid ""
+#~ "The installation will use the available space on your devices and will "
+#~ "not erase any device data."
+#~ msgstr ""
+#~ "Asennus käyttää laitteidesi vapaata tilaa eikä poista laitteen tietoja."
+
+#~ msgid "The installation will use your configured partitioning layout."
+#~ msgstr "Asennus käyttää määritettyä osiointiasettelua."
+
+#~ msgid ""
+#~ "The selected disks will be erased, this cannot be undone. Are you sure "
+#~ "you want to continue with the installation?"
+#~ msgstr ""
+#~ "Valitut levyt tyhjennetään, tätä ei voi kumota. Haluatko varmasti jatkaa "
+#~ "asennusta?"
+
+#~ msgid "To prevent loss, make sure to backup your data."
+#~ msgstr "Muista varmuuskopioida tiedot, jotta ne eivät katoa."
 
 #, fuzzy
 #~| msgid "Changes made in Blivet-gui will directly affect your storage."

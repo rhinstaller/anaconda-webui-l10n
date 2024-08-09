@@ -25,7 +25,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-08 02:59+0000\n"
+"POT-Creation-Date: 2024-08-09 02:54+0000\n"
 "PO-Revision-Date: 2023-11-06 12:21+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/anaconda-"
@@ -68,7 +68,7 @@ msgstr "{fs} musí byť na zariadení typu {type}"
 msgid "About"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:111
+#: src/components/review/ReviewConfiguration.jsx:109
 #, fuzzy
 #| msgctxt "GUI|Subscription|Authentication|Account"
 #| msgid "_Account"
@@ -76,7 +76,7 @@ msgid "Account"
 msgstr "Úč_et"
 
 #: src/components/review/StorageReview.jsx:194
-#: src/components/storage/ReclaimSpaceModal.jsx:148
+#: src/components/storage/ReclaimSpaceModal.jsx:154
 #, fuzzy
 #| msgid "Action"
 msgid "Actions"
@@ -120,7 +120,7 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Inštalátor Anaconda"
 
-#: src/components/storage/InstallationScenario.jsx:241
+#: src/components/storage/InstallationScenario.jsx:233
 #, fuzzy
 msgid "Apply mount point assignment and install"
 msgstr "Použiť konfiguráciu v inštalátore"
@@ -129,11 +129,10 @@ msgstr "Použiť konfiguráciu v inštalátore"
 msgid "Applying new disk selection..."
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:199
+#: src/components/storage/ReclaimSpaceModal.jsx:207
 msgid "Available free space: $0. Installation requires: $1."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:168
 #: src/components/AnacondaWizardFooter.jsx:90
 msgid "Back"
 msgstr "Späť"
@@ -150,7 +149,7 @@ msgstr ""
 "účely, a ste ochotní hlásiť akékoľvek chyby za účelom zlepšenia tejto práce."
 
 #: src/components/review/Hostname.jsx:106
-#: src/components/storage/ReclaimSpaceModal.jsx:210
+#: src/components/storage/ReclaimSpaceModal.jsx:218
 #: src/components/storage/CockpitStorageIntegration.jsx:134
 #: src/components/Error.jsx:260
 #, fuzzy
@@ -293,7 +292,7 @@ msgstr "Zariadenie"
 msgid "Devices should be unlocked before assigning mount points."
 msgstr ""
 
-#: src/components/steps.js:18
+#: src/components/steps.js:19
 #, fuzzy
 msgid "Disk configuration"
 msgstr "Konfigurácia zariadenia"
@@ -344,20 +343,10 @@ msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 
 #: src/components/storage/InstallationScenario.jsx:211
-#: src/components/storage/InstallationScenario.jsx:222
+#: src/components/storage/InstallationScenario.jsx:219
 #, fuzzy
 msgid "Erase data and install"
 msgstr "Vymazať disky a nainštalovať"
-
-#: src/components/storage/InstallationScenario.jsx:218
-#, fuzzy
-msgid "Erase data and install?"
-msgstr "Vymazať disky a nainštalovať?"
-
-#: src/components/storage/InstallationScenario.jsx:223
-#, fuzzy
-msgid "Erasing the data cannot be undone. Be sure to have backups."
-msgstr "Vymazanie diskov sa nedá vrátiť späť."
 
 #: src/components/Error.jsx:248
 #, fuzzy
@@ -418,12 +407,29 @@ msgstr "Skryť heslo"
 msgid "Hostname"
 msgstr "Názov počítača"
 
-#: src/components/storage/InstallationScenario.jsx:431
+#: src/components/storage/InstallationScenario.jsx:415
 #, fuzzy
 msgid "How would you like to install?"
 msgstr ""
 "\n"
 "Chcete ho aj tak použiť?"
+
+#: src/components/review/ReviewConfiguration.jsx:167
+msgid "I understand that all existing data will be erased"
+msgstr ""
+
+#: src/components/review/ReviewConfiguration.jsx:168
+msgid ""
+"I understand that all existing data will be erased from the selected disks"
+msgstr ""
+
+#: src/components/review/ReviewConfiguration.jsx:172
+msgid "I understand that some existing data will be erased"
+msgstr ""
+
+#: src/components/review/ReviewConfiguration.jsx:173
+msgid "I understand that some partitions will be modified"
+msgstr ""
 
 #: src/components/review/Hostname.jsx:140
 msgid "If empty, hostname will be transient and set by network information."
@@ -449,25 +455,10 @@ msgstr "Prebieha"
 msgid "Initializing..."
 msgstr "Inštaluje sa."
 
-#: src/components/storage/InstallationScenario.jsx:226
-#: src/components/storage/InstallationScenario.jsx:255
+#: src/components/storage/InstallationScenario.jsx:222
+#: src/components/storage/InstallationScenario.jsx:243
 msgid "Install"
 msgstr "Inštalácia"
-
-#: src/components/storage/InstallationScenario.jsx:248
-#, fuzzy
-msgid "Install on the custom mount points?"
-msgstr "Ručne priradiť body pripojenia"
-
-#: src/components/storage/InstallationScenario.jsx:234
-#, fuzzy
-msgid "Install on the free space?"
-msgstr "Inštaluje sa softvér"
-
-#: src/components/storage/InstallationScenario.jsx:262
-#, fuzzy
-msgid "Install using the configured storage?"
-msgstr "Inštaluje sa softvér"
 
 #: src/components/installation/InstallationProgress.jsx:156
 msgid "Installation failed"
@@ -483,7 +474,7 @@ msgstr "Inštalácia je dokončená"
 msgid "Installation of the system failed: $0"
 msgstr "Inštalácia zlyhala"
 
-#: src/components/review/ReviewConfiguration.jsx:126
+#: src/components/review/ReviewConfiguration.jsx:124
 #, fuzzy
 msgid "Installation type"
 msgstr "Inštalácia"
@@ -501,7 +492,7 @@ msgstr "Inštaluje sa {}"
 msgid "Keep current disk layout and only install into available space."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:102
+#: src/components/review/ReviewConfiguration.jsx:100
 msgid "Language"
 msgstr "Jazyk"
 
@@ -510,7 +501,7 @@ msgstr "Jazyk"
 msgid "Launch storage editor"
 msgstr "Inštalácia"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:145
+#: src/components/storage/ReclaimSpaceModal.jsx:151
 msgid "Location"
 msgstr "Umiestnenie"
 
@@ -560,7 +551,7 @@ msgstr "_Upraviť rozloženie úložiska"
 msgid "Mount point"
 msgstr "Bod pripojenia"
 
-#: src/components/storage/InstallationScenario.jsx:252
+#: src/components/storage/InstallationScenario.jsx:241
 #: src/components/storage/MountPointMapping.jsx:561
 #, fuzzy
 msgid "Mount point assignment"
@@ -571,7 +562,7 @@ msgstr "Bod pripojenia"
 msgid "Must be at least $0 characters"
 msgstr "Heslo musí mať aspoň šesť znakov."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:144
+#: src/components/storage/ReclaimSpaceModal.jsx:150
 msgid "Name"
 msgstr "Názov"
 
@@ -593,7 +584,7 @@ msgstr ""
 msgid "No additional disks detected"
 msgstr "Neboli zistené žiadne dodatočné disky"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:150
+#: src/components/storage/ReclaimSpaceModal.jsx:156
 #: src/components/storage/MountPointMapping.jsx:568
 #, fuzzy
 msgid "No devices"
@@ -644,7 +635,7 @@ msgid ""
 "untouched."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:91
+#: src/components/review/ReviewConfiguration.jsx:89
 #, fuzzy
 msgid "Operating system"
 msgstr "čakajúci krok"
@@ -748,7 +739,7 @@ msgstr "Názov počítača musí mať menej ako 64 znakov."
 msgid "Reboot"
 msgstr "Reštartovať"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:477
+#: src/components/storage/ReclaimSpaceModal.jsx:485
 msgid "Reboot into Windows to resize BitLocker-encrypted partitions. "
 msgstr ""
 
@@ -764,9 +755,9 @@ msgstr "_Reštartovať systém"
 msgid "Reclaim additional space"
 msgstr "_Získať miesto"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:132
-#: src/components/storage/ReclaimSpaceModal.jsx:142
-#: src/components/storage/ReclaimSpaceModal.jsx:207
+#: src/components/storage/ReclaimSpaceModal.jsx:138
+#: src/components/storage/ReclaimSpaceModal.jsx:148
+#: src/components/storage/ReclaimSpaceModal.jsx:215
 #, fuzzy
 #| msgctxt "GUI|Reclaim Dialog"
 #| msgid "_Reclaim space"
@@ -803,13 +794,13 @@ msgid ""
 "systems. Make sure you have backed up your data."
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:115
+#: src/components/storage/ReclaimSpaceModal.jsx:121
 #, fuzzy
 msgid ""
 "Remove or resize existing filesystems to free up space for the installation."
 msgstr "Nepodarilo sa pokračovať v inštalácii."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:118
+#: src/components/storage/ReclaimSpaceModal.jsx:124
 msgid ""
 "Removing a filesystem will permanently delete all of the data it contains. "
 msgstr ""
@@ -848,7 +839,7 @@ msgstr "Záchrana"
 msgid "Rescanning of the disks failed."
 msgstr "Prehľadanie diskov bolo dokončené."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:457
+#: src/components/storage/ReclaimSpaceModal.jsx:465
 #, fuzzy
 #| msgctxt "GUI|Advanced Storage|NVDIMM|Reconfigure"
 #| msgid "_Sector size:"
@@ -869,8 +860,8 @@ msgstr "Inštalácia"
 msgid "Return to storage editor"
 msgstr "Inštalácia"
 
-#: src/components/review/ReviewConfiguration.jsx:225
-#: src/components/review/ReviewConfiguration.jsx:226
+#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:224
 msgid "Review and install"
 msgstr "Skontrolovať a nainštalovať"
 
@@ -953,13 +944,13 @@ msgstr ""
 msgid "Some required partitions are missing: $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:147
+#: src/components/storage/ReclaimSpaceModal.jsx:153
 #, fuzzy
 #| msgid "No Space"
 msgid "Space"
 msgstr "Žiadne miesto"
 
-#: src/components/review/ReviewConfiguration.jsx:133
+#: src/components/review/ReviewConfiguration.jsx:131
 #, fuzzy
 msgid "Storage"
 msgstr "Voľby úložiska"
@@ -1050,17 +1041,6 @@ msgstr ""
 msgid "The installation needs $1 of disk space; "
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:233
-msgid ""
-"The installation will use the available space on your devices and will not "
-"erase any device data."
-msgstr ""
-
-#: src/components/storage/InstallationScenario.jsx:247
-#: src/components/storage/InstallationScenario.jsx:261
-msgid "The installation will use your configured partitioning layout."
-msgstr ""
-
 #: src/components/Error.jsx:237
 #, fuzzy
 msgid "The installer cannot continue due to a critical error."
@@ -1078,14 +1058,6 @@ msgid ""
 msgstr ""
 "Heslo, ktoré ste zadali, obsahuje znaky mimo kódovania ASCII. Možno nebudete "
 "schopný pri jeho zadávaní prepínať medzi rozloženiami klávesnice."
-
-#: src/components/storage/InstallationScenario.jsx:217
-msgid ""
-"The selected disks will be erased, this cannot be undone. Are you sure you "
-"want to continue with the installation?"
-msgstr ""
-"Vybraté disky budú vymazané. Táto akcia sa nedá vrátiť späť. Naozaj chcete "
-"pokračovať v inštalácii?"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:140
 msgid "The storage editor lets you resize, delete, and create partitions. "
@@ -1131,12 +1103,6 @@ msgid "To continue, select the devices to install to."
 msgstr ""
 "Nie sú vybrané žiadne disky. Prosím, vyberte aspoň jeden disk pre inštaláciu."
 
-#: src/components/storage/InstallationScenario.jsx:239
-#: src/components/storage/InstallationScenario.jsx:253
-#: src/components/storage/InstallationScenario.jsx:267
-msgid "To prevent loss, make sure to backup your data."
-msgstr "Aby nedošlo k strate dát, nezabudnite odzálohovať svoje dáta."
-
 #: src/components/storage/InstallationScenario.jsx:128
 msgid "To use this option, rename devices to have unique names."
 msgstr ""
@@ -1147,15 +1113,15 @@ msgid ""
 "$0."
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:146
+#: src/components/storage/ReclaimSpaceModal.jsx:152
 msgid "Type"
 msgstr "Typ"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:89
+#: src/components/storage/ReclaimSpaceModal.jsx:95
 msgid "Unable to schedule deletion of $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:91
+#: src/components/storage/ReclaimSpaceModal.jsx:97
 msgid "Unable to schedule resizing of $0"
 msgstr ""
 
@@ -1174,13 +1140,13 @@ msgstr "prehľadať zariadenia"
 msgid "Unlock encrypted devices"
 msgstr "Zlyhalo odblokovanie zašifrovaného blokového zariadenia."
 
-#: src/components/storage/InstallationScenario.jsx:266
+#: src/components/storage/InstallationScenario.jsx:251
 #, fuzzy
 #| msgid "Configuring storage"
 msgid "Use configured storage"
 msgstr "Konfiguruje sa úložisko"
 
-#: src/components/storage/InstallationScenario.jsx:238
+#: src/components/storage/InstallationScenario.jsx:231
 #, fuzzy
 msgid "Use free space for the installation"
 msgstr "Nepodarilo sa pokračovať v inštalácii."
@@ -1224,7 +1190,7 @@ msgstr "Vitajte v systéme $0"
 msgid "Welcome. Let's install $0 now."
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:475
+#: src/components/storage/ReclaimSpaceModal.jsx:483
 msgid "Windows partitions with BitLocker encryption cannot be resized"
 msgstr ""
 
@@ -1247,8 +1213,8 @@ msgid "current step"
 msgstr "aktuálny krok"
 
 #: src/components/review/StorageReview.jsx:128
-#: src/components/storage/ReclaimSpaceModal.jsx:344
-#: src/components/storage/ReclaimSpaceModal.jsx:357
+#: src/components/storage/ReclaimSpaceModal.jsx:352
+#: src/components/storage/ReclaimSpaceModal.jsx:365
 #, fuzzy
 #| msgid "Delete"
 msgid "delete"
@@ -1288,20 +1254,50 @@ msgstr "čakajúci krok"
 msgid "resized from $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:420
-#: src/components/storage/ReclaimSpaceModal.jsx:424
+#: src/components/storage/ReclaimSpaceModal.jsx:428
+#: src/components/storage/ReclaimSpaceModal.jsx:432
 #, fuzzy
 #| msgid "Shrink"
 msgid "shrink"
 msgstr "Zmenšiť"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:378
+#: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "shrink to $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:338
+#: src/components/storage/ReclaimSpaceModal.jsx:346
 msgid "undo"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Erase data and install?"
+#~ msgstr "Vymazať disky a nainštalovať?"
+
+#, fuzzy
+#~ msgid "Erasing the data cannot be undone. Be sure to have backups."
+#~ msgstr "Vymazanie diskov sa nedá vrátiť späť."
+
+#, fuzzy
+#~ msgid "Install on the custom mount points?"
+#~ msgstr "Ručne priradiť body pripojenia"
+
+#, fuzzy
+#~ msgid "Install on the free space?"
+#~ msgstr "Inštaluje sa softvér"
+
+#, fuzzy
+#~ msgid "Install using the configured storage?"
+#~ msgstr "Inštaluje sa softvér"
+
+#~ msgid ""
+#~ "The selected disks will be erased, this cannot be undone. Are you sure "
+#~ "you want to continue with the installation?"
+#~ msgstr ""
+#~ "Vybraté disky budú vymazané. Táto akcia sa nedá vrátiť späť. Naozaj "
+#~ "chcete pokračovať v inštalácii?"
+
+#~ msgid "To prevent loss, make sure to backup your data."
+#~ msgstr "Aby nedošlo k strate dát, nezabudnite odzálohovať svoje dáta."
 
 #~ msgid "Disabled"
 #~ msgstr "Zakázaný"

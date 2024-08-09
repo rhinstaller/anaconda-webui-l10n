@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-08 02:59+0000\n"
+"POT-Creation-Date: 2024-08-09 02:54+0000\n"
 "PO-Revision-Date: 2024-08-08 02:52+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
@@ -65,12 +65,12 @@ msgstr "\"$0\" måste vara på en enhet som är formaterad till \"$1\""
 msgid "About"
 msgstr "Om"
 
-#: src/components/review/ReviewConfiguration.jsx:111
+#: src/components/review/ReviewConfiguration.jsx:109
 msgid "Account"
 msgstr "Konto"
 
 #: src/components/review/StorageReview.jsx:194
-#: src/components/storage/ReclaimSpaceModal.jsx:148
+#: src/components/storage/ReclaimSpaceModal.jsx:154
 msgid "Actions"
 msgstr "Åtgärder"
 
@@ -111,7 +111,7 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Anaconda projekt sida"
 
-#: src/components/storage/InstallationScenario.jsx:241
+#: src/components/storage/InstallationScenario.jsx:233
 msgid "Apply mount point assignment and install"
 msgstr "Tillämpa monteringspunktstilldelningar och installera"
 
@@ -119,11 +119,10 @@ msgstr "Tillämpa monteringspunktstilldelningar och installera"
 msgid "Applying new disk selection..."
 msgstr "Tillämpar nytt diskval..."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:199
+#: src/components/storage/ReclaimSpaceModal.jsx:207
 msgid "Available free space: $0. Installation requires: $1."
 msgstr "Tillgängligt fritt utrymme: $0. Installationen behöver: $1."
 
-#: src/components/review/ReviewConfiguration.jsx:168
 #: src/components/AnacondaWizardFooter.jsx:90
 msgid "Back"
 msgstr "Tillbaka"
@@ -141,7 +140,7 @@ msgstr ""
 "buggar eller problem för att förbättra detta arbete."
 
 #: src/components/review/Hostname.jsx:106
-#: src/components/storage/ReclaimSpaceModal.jsx:210
+#: src/components/storage/ReclaimSpaceModal.jsx:218
 #: src/components/storage/CockpitStorageIntegration.jsx:134
 #: src/components/Error.jsx:260
 msgid "Cancel"
@@ -263,7 +262,7 @@ msgstr "Enhet"
 msgid "Devices should be unlocked before assigning mount points."
 msgstr "Enheter bör låsas upp innan monteringspunkter tilldelas."
 
-#: src/components/steps.js:18
+#: src/components/steps.js:19
 msgid "Disk configuration"
 msgstr "Diskkonfiguration"
 
@@ -306,17 +305,9 @@ msgstr ""
 "kommer åt den."
 
 #: src/components/storage/InstallationScenario.jsx:211
-#: src/components/storage/InstallationScenario.jsx:222
+#: src/components/storage/InstallationScenario.jsx:219
 msgid "Erase data and install"
 msgstr "Radera data och installera"
-
-#: src/components/storage/InstallationScenario.jsx:218
-msgid "Erase data and install?"
-msgstr "Radera data och installera?"
-
-#: src/components/storage/InstallationScenario.jsx:223
-msgid "Erasing the data cannot be undone. Be sure to have backups."
-msgstr "Att radera data kan inte göras ogjort. Se till att ha säkerhetskopior."
 
 #: src/components/Error.jsx:248
 msgid "Error details"
@@ -371,9 +362,26 @@ msgstr "Dölj lösenord"
 msgid "Hostname"
 msgstr "Värdnamn"
 
-#: src/components/storage/InstallationScenario.jsx:431
+#: src/components/storage/InstallationScenario.jsx:415
 msgid "How would you like to install?"
 msgstr "Hur vill du installera?"
+
+#: src/components/review/ReviewConfiguration.jsx:167
+msgid "I understand that all existing data will be erased"
+msgstr ""
+
+#: src/components/review/ReviewConfiguration.jsx:168
+msgid ""
+"I understand that all existing data will be erased from the selected disks"
+msgstr ""
+
+#: src/components/review/ReviewConfiguration.jsx:172
+msgid "I understand that some existing data will be erased"
+msgstr ""
+
+#: src/components/review/ReviewConfiguration.jsx:173
+msgid "I understand that some partitions will be modified"
+msgstr ""
 
 #: src/components/review/Hostname.jsx:140
 msgid "If empty, hostname will be transient and set by network information."
@@ -399,22 +407,10 @@ msgstr "Pågående"
 msgid "Initializing..."
 msgstr "Initialiserar..."
 
-#: src/components/storage/InstallationScenario.jsx:226
-#: src/components/storage/InstallationScenario.jsx:255
+#: src/components/storage/InstallationScenario.jsx:222
+#: src/components/storage/InstallationScenario.jsx:243
 msgid "Install"
 msgstr "Installera"
-
-#: src/components/storage/InstallationScenario.jsx:248
-msgid "Install on the custom mount points?"
-msgstr "Installera på de anpassade monteringspunkterna?"
-
-#: src/components/storage/InstallationScenario.jsx:234
-msgid "Install on the free space?"
-msgstr "Installera på ledigt utrymme?"
-
-#: src/components/storage/InstallationScenario.jsx:262
-msgid "Install using the configured storage?"
-msgstr "Installera med den konfigurerade lagringen?"
 
 #: src/components/installation/InstallationProgress.jsx:156
 msgid "Installation failed"
@@ -428,7 +424,7 @@ msgstr "Installationsmetod"
 msgid "Installation of the system failed: $0"
 msgstr "installationen av systemet misslyckades: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:126
+#: src/components/review/ReviewConfiguration.jsx:124
 msgid "Installation type"
 msgstr "Installationstyp"
 
@@ -445,7 +441,7 @@ msgid "Keep current disk layout and only install into available space."
 msgstr ""
 "Behåll nuvarande disklayout och installera endast i tillgängligt utrymme."
 
-#: src/components/review/ReviewConfiguration.jsx:102
+#: src/components/review/ReviewConfiguration.jsx:100
 msgid "Language"
 msgstr "Språk"
 
@@ -453,7 +449,7 @@ msgstr "Språk"
 msgid "Launch storage editor"
 msgstr "Starta lagringsredigerare"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:145
+#: src/components/storage/ReclaimSpaceModal.jsx:151
 msgid "Location"
 msgstr "Plats"
 
@@ -501,7 +497,7 @@ msgstr "Modifera lagring"
 msgid "Mount point"
 msgstr "Monteringspunkt"
 
-#: src/components/storage/InstallationScenario.jsx:252
+#: src/components/storage/InstallationScenario.jsx:241
 #: src/components/storage/MountPointMapping.jsx:561
 msgid "Mount point assignment"
 msgstr "Monteringspunkt tilldelning"
@@ -510,7 +506,7 @@ msgstr "Monteringspunkt tilldelning"
 msgid "Must be at least $0 characters"
 msgstr "Måste vara minst $0 tecken"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:144
+#: src/components/storage/ReclaimSpaceModal.jsx:150
 msgid "Name"
 msgstr "Namn"
 
@@ -535,7 +531,7 @@ msgstr "Nästa"
 msgid "No additional disks detected"
 msgstr "Inga ytterligare diskar upptäcktes"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:150
+#: src/components/storage/ReclaimSpaceModal.jsx:156
 #: src/components/storage/MountPointMapping.jsx:568
 msgid "No devices"
 msgstr "Inga enheter"
@@ -583,7 +579,7 @@ msgstr ""
 "Endast nya partitioner kommer att krypteras. Befintliga partitioner kommer "
 "att förbli orörda."
 
-#: src/components/review/ReviewConfiguration.jsx:91
+#: src/components/review/ReviewConfiguration.jsx:89
 msgid "Operating system"
 msgstr "Operativsystem"
 
@@ -678,7 +674,7 @@ msgstr "Riktiga värdnamn måste bestå av 64 tecken eller mindre"
 msgid "Reboot"
 msgstr "Starta om"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:477
+#: src/components/storage/ReclaimSpaceModal.jsx:485
 msgid "Reboot into Windows to resize BitLocker-encrypted partitions. "
 msgstr ""
 "Starta om till Windows för att ändra storlek på BitLocker-krypterade "
@@ -692,9 +688,9 @@ msgstr "Starta om systemet?"
 msgid "Reclaim additional space"
 msgstr "Återvinn ytterligare utrymme"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:132
-#: src/components/storage/ReclaimSpaceModal.jsx:142
-#: src/components/storage/ReclaimSpaceModal.jsx:207
+#: src/components/storage/ReclaimSpaceModal.jsx:138
+#: src/components/storage/ReclaimSpaceModal.jsx:148
+#: src/components/storage/ReclaimSpaceModal.jsx:215
 msgid "Reclaim space"
 msgstr "Återvinn utrymme"
 
@@ -727,14 +723,14 @@ msgstr ""
 "Ta bort alla partitioner på de valda enheterna, inklusive befintliga "
 "operativsystem. Se till att du har säkerhetskopierat din data."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:115
+#: src/components/storage/ReclaimSpaceModal.jsx:121
 msgid ""
 "Remove or resize existing filesystems to free up space for the installation."
 msgstr ""
 "Ta bort eller byt storlek på befintliga filsystem för att frigöra utrymme "
 "för installationen."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:118
+#: src/components/storage/ReclaimSpaceModal.jsx:124
 msgid ""
 "Removing a filesystem will permanently delete all of the data it contains. "
 msgstr ""
@@ -774,7 +770,7 @@ msgstr "Skanna om"
 msgid "Rescanning of the disks failed."
 msgstr "Omsökning av diskarna misslyckades."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:457
+#: src/components/storage/ReclaimSpaceModal.jsx:465
 msgid "Resize"
 msgstr "Ändra storlek"
 
@@ -790,8 +786,8 @@ msgstr "Återgå till installation"
 msgid "Return to storage editor"
 msgstr "Återgå till lagringsredigerare"
 
-#: src/components/review/ReviewConfiguration.jsx:225
-#: src/components/review/ReviewConfiguration.jsx:226
+#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:224
 msgid "Review and install"
 msgstr "Granska och installera"
 
@@ -863,11 +859,11 @@ msgstr "Vissa enheter använder samma namn: $0."
 msgid "Some required partitions are missing: $0"
 msgstr "Vissa nödvändiga partitioner saknas: $0"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:147
+#: src/components/storage/ReclaimSpaceModal.jsx:153
 msgid "Space"
 msgstr "Utrymme"
 
-#: src/components/review/ReviewConfiguration.jsx:133
+#: src/components/review/ReviewConfiguration.jsx:131
 msgid "Storage"
 msgstr "Lagring"
 
@@ -951,20 +947,6 @@ msgstr ""
 msgid "The installation needs $1 of disk space; "
 msgstr "Installationen behöver $1 diskutrymme; "
 
-#: src/components/storage/InstallationScenario.jsx:233
-msgid ""
-"The installation will use the available space on your devices and will not "
-"erase any device data."
-msgstr ""
-"Installationen kommer att använda det tillgängliga utrymmet på dina enheter "
-"och kommer inte att radera någon enhetsdata."
-
-#: src/components/storage/InstallationScenario.jsx:247
-#: src/components/storage/InstallationScenario.jsx:261
-msgid "The installation will use your configured partitioning layout."
-msgstr ""
-"Installationen kommer att använda din konfigurerade partitioneringslayout."
-
 #: src/components/Error.jsx:237
 msgid "The installer cannot continue due to a critical error."
 msgstr ""
@@ -982,14 +964,6 @@ msgid ""
 msgstr ""
 "Lösenfrasen du har gett innehåller icke-ASCII-tecken. Du kan kanske inte "
 "byta mellan tangentbordslayouter när du skriver den."
-
-#: src/components/storage/InstallationScenario.jsx:217
-msgid ""
-"The selected disks will be erased, this cannot be undone. Are you sure you "
-"want to continue with the installation?"
-msgstr ""
-"De valda diskarna kommer att raderas, detta kan inte ångras. Är du säker på "
-"att du vill fortsätta med installationen?"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:140
 msgid "The storage editor lets you resize, delete, and create partitions. "
@@ -1028,12 +1002,6 @@ msgstr "För att börja använda $0, starta om ditt system."
 msgid "To continue, select the devices to install to."
 msgstr "För att fortsätta, välj enheterna att installera på."
 
-#: src/components/storage/InstallationScenario.jsx:239
-#: src/components/storage/InstallationScenario.jsx:253
-#: src/components/storage/InstallationScenario.jsx:267
-msgid "To prevent loss, make sure to backup your data."
-msgstr "För att förhindra förlust, se till att säkerhetskopier dina data."
-
 #: src/components/storage/InstallationScenario.jsx:128
 msgid "To use this option, rename devices to have unique names."
 msgstr ""
@@ -1048,15 +1016,15 @@ msgstr ""
 "För att använda det här alternativet, ändra storlek på eller ta bort "
 "befintliga partitioner för att frigöra minst $0."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:146
+#: src/components/storage/ReclaimSpaceModal.jsx:152
 msgid "Type"
 msgstr "Typ"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:89
+#: src/components/storage/ReclaimSpaceModal.jsx:95
 msgid "Unable to schedule deletion of $0"
 msgstr "Det gick inte att schemalägga borttagning av $0"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:91
+#: src/components/storage/ReclaimSpaceModal.jsx:97
 msgid "Unable to schedule resizing of $0"
 msgstr "Det gick inte att schemalägga storleksändring av $0"
 
@@ -1072,11 +1040,11 @@ msgstr "Lås upp enheter"
 msgid "Unlock encrypted devices"
 msgstr "Lås upp krypterade enheter"
 
-#: src/components/storage/InstallationScenario.jsx:266
+#: src/components/storage/InstallationScenario.jsx:251
 msgid "Use configured storage"
 msgstr "Använd konfigurerad lagring"
 
-#: src/components/storage/InstallationScenario.jsx:238
+#: src/components/storage/InstallationScenario.jsx:231
 msgid "Use free space for the installation"
 msgstr "Använd ledigt utrymme för installationen"
 
@@ -1116,7 +1084,7 @@ msgstr "Välkommen till $0"
 msgid "Welcome. Let's install $0 now."
 msgstr "Välkommen. Låt oss installera $0 nu."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:475
+#: src/components/storage/ReclaimSpaceModal.jsx:483
 msgid "Windows partitions with BitLocker encryption cannot be resized"
 msgstr ""
 "Det går inte att ändra storlek på Windows partitioner med BitLocker "
@@ -1143,8 +1111,8 @@ msgid "current step"
 msgstr "aktuellt steg"
 
 #: src/components/review/StorageReview.jsx:128
-#: src/components/storage/ReclaimSpaceModal.jsx:344
-#: src/components/storage/ReclaimSpaceModal.jsx:357
+#: src/components/storage/ReclaimSpaceModal.jsx:352
+#: src/components/storage/ReclaimSpaceModal.jsx:365
 msgid "delete"
 msgstr "ta bort"
 
@@ -1176,18 +1144,55 @@ msgstr "väntande steg"
 msgid "resized from $0"
 msgstr "storleksändrad från $0"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:420
-#: src/components/storage/ReclaimSpaceModal.jsx:424
+#: src/components/storage/ReclaimSpaceModal.jsx:428
+#: src/components/storage/ReclaimSpaceModal.jsx:432
 msgid "shrink"
 msgstr "krymp"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:378
+#: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "shrink to $0"
 msgstr "krymp till $0"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:338
+#: src/components/storage/ReclaimSpaceModal.jsx:346
 msgid "undo"
 msgstr "ångra"
+
+#~ msgid "Erase data and install?"
+#~ msgstr "Radera data och installera?"
+
+#~ msgid "Erasing the data cannot be undone. Be sure to have backups."
+#~ msgstr ""
+#~ "Att radera data kan inte göras ogjort. Se till att ha säkerhetskopior."
+
+#~ msgid "Install on the custom mount points?"
+#~ msgstr "Installera på de anpassade monteringspunkterna?"
+
+#~ msgid "Install on the free space?"
+#~ msgstr "Installera på ledigt utrymme?"
+
+#~ msgid "Install using the configured storage?"
+#~ msgstr "Installera med den konfigurerade lagringen?"
+
+#~ msgid ""
+#~ "The installation will use the available space on your devices and will "
+#~ "not erase any device data."
+#~ msgstr ""
+#~ "Installationen kommer att använda det tillgängliga utrymmet på dina "
+#~ "enheter och kommer inte att radera någon enhetsdata."
+
+#~ msgid "The installation will use your configured partitioning layout."
+#~ msgstr ""
+#~ "Installationen kommer att använda din konfigurerade partitioneringslayout."
+
+#~ msgid ""
+#~ "The selected disks will be erased, this cannot be undone. Are you sure "
+#~ "you want to continue with the installation?"
+#~ msgstr ""
+#~ "De valda diskarna kommer att raderas, detta kan inte ångras. Är du säker "
+#~ "på att du vill fortsätta med installationen?"
+
+#~ msgid "To prevent loss, make sure to backup your data."
+#~ msgstr "För att förhindra förlust, se till att säkerhetskopier dina data."
 
 #~ msgid "Any changes you make will immediately affect your storage."
 #~ msgstr "Alla ändringar du gör kommer omedelbart att påverka din lagring."

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-08 02:59+0000\n"
+"POT-Creation-Date: 2024-08-09 02:54+0000\n"
 "PO-Revision-Date: 2023-11-06 12:20+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Odia <https://translate.fedoraproject.org/projects/anaconda-"
@@ -53,12 +53,12 @@ msgstr ""
 msgid "About"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:111
+#: src/components/review/ReviewConfiguration.jsx:109
 msgid "Account"
 msgstr ""
 
 #: src/components/review/StorageReview.jsx:194
-#: src/components/storage/ReclaimSpaceModal.jsx:148
+#: src/components/storage/ReclaimSpaceModal.jsx:154
 #, fuzzy
 #| msgid "Action"
 msgid "Actions"
@@ -101,7 +101,7 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "ସ୍ଥାପନ"
 
-#: src/components/storage/InstallationScenario.jsx:241
+#: src/components/storage/InstallationScenario.jsx:233
 #, fuzzy
 msgid "Apply mount point assignment and install"
 msgstr "ସ୍ଥାପକରେ ବିନ୍ୟାସକୁ ପ୍ରୟୋଗ କରନ୍ତୁ"
@@ -110,11 +110,10 @@ msgstr "ସ୍ଥାପକରେ ବିନ୍ୟାସକୁ ପ୍ରୟୋଗ 
 msgid "Applying new disk selection..."
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:199
+#: src/components/storage/ReclaimSpaceModal.jsx:207
 msgid "Available free space: $0. Installation requires: $1."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:168
 #: src/components/AnacondaWizardFooter.jsx:90
 msgid "Back"
 msgstr ""
@@ -128,7 +127,7 @@ msgid ""
 msgstr ""
 
 #: src/components/review/Hostname.jsx:106
-#: src/components/storage/ReclaimSpaceModal.jsx:210
+#: src/components/storage/ReclaimSpaceModal.jsx:218
 #: src/components/storage/CockpitStorageIntegration.jsx:134
 #: src/components/Error.jsx:260
 msgid "Cancel"
@@ -258,7 +257,7 @@ msgstr ""
 msgid "Devices should be unlocked before assigning mount points."
 msgstr ""
 
-#: src/components/steps.js:18
+#: src/components/steps.js:19
 #, fuzzy
 msgid "Disk configuration"
 msgstr "ଉପକରଣ ସଂରଚନା"
@@ -306,19 +305,10 @@ msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 
 #: src/components/storage/InstallationScenario.jsx:211
-#: src/components/storage/InstallationScenario.jsx:222
+#: src/components/storage/InstallationScenario.jsx:219
 #, fuzzy
 msgid "Erase data and install"
 msgstr "ସ୍ଥାପନ"
-
-#: src/components/storage/InstallationScenario.jsx:218
-#, fuzzy
-msgid "Erase data and install?"
-msgstr "ସ୍ଥାପନ"
-
-#: src/components/storage/InstallationScenario.jsx:223
-msgid "Erasing the data cannot be undone. Be sure to have backups."
-msgstr ""
 
 #: src/components/Error.jsx:248
 msgid "Error details"
@@ -376,8 +366,25 @@ msgstr "ଖାଲି ପ୍ରବେଶ ସଂକେତ"
 msgid "Hostname"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:431
+#: src/components/storage/InstallationScenario.jsx:415
 msgid "How would you like to install?"
+msgstr ""
+
+#: src/components/review/ReviewConfiguration.jsx:167
+msgid "I understand that all existing data will be erased"
+msgstr ""
+
+#: src/components/review/ReviewConfiguration.jsx:168
+msgid ""
+"I understand that all existing data will be erased from the selected disks"
+msgstr ""
+
+#: src/components/review/ReviewConfiguration.jsx:172
+msgid "I understand that some existing data will be erased"
+msgstr ""
+
+#: src/components/review/ReviewConfiguration.jsx:173
+msgid "I understand that some partitions will be modified"
 msgstr ""
 
 #: src/components/review/Hostname.jsx:140
@@ -402,24 +409,10 @@ msgstr "ପ୍ରଗତି"
 msgid "Initializing..."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:226
-#: src/components/storage/InstallationScenario.jsx:255
+#: src/components/storage/InstallationScenario.jsx:222
+#: src/components/storage/InstallationScenario.jsx:243
 msgid "Install"
 msgstr "ସ୍ଥାପନ କରନ୍ତୁ"
-
-#: src/components/storage/InstallationScenario.jsx:248
-msgid "Install on the custom mount points?"
-msgstr ""
-
-#: src/components/storage/InstallationScenario.jsx:234
-#, fuzzy
-msgid "Install on the free space?"
-msgstr "ସଫ୍ଟୱେର ସ୍ଥାପନ କରୁଅଛି"
-
-#: src/components/storage/InstallationScenario.jsx:262
-#, fuzzy
-msgid "Install using the configured storage?"
-msgstr "ସଫ୍ଟୱେର ସ୍ଥାପନ କରୁଅଛି"
 
 #: src/components/installation/InstallationProgress.jsx:156
 #, fuzzy
@@ -436,7 +429,7 @@ msgstr "ସ୍ଥାପନ"
 msgid "Installation of the system failed: $0"
 msgstr "ସ୍ଥାପନ"
 
-#: src/components/review/ReviewConfiguration.jsx:126
+#: src/components/review/ReviewConfiguration.jsx:124
 #, fuzzy
 msgid "Installation type"
 msgstr "ସ୍ଥାପନ"
@@ -455,7 +448,7 @@ msgstr "ସ୍ଥାପନ"
 msgid "Keep current disk layout and only install into available space."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:102
+#: src/components/review/ReviewConfiguration.jsx:100
 #, fuzzy
 msgid "Language"
 msgstr "ବଚ୍ଛିତ ଉପକରଣ"
@@ -465,7 +458,7 @@ msgstr "ବଚ୍ଛିତ ଉପକରଣ"
 msgid "Launch storage editor"
 msgstr "ସ୍ଥାପନ"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:145
+#: src/components/storage/ReclaimSpaceModal.jsx:151
 #, fuzzy
 #| msgid "Action"
 msgid "Location"
@@ -517,7 +510,7 @@ msgstr "ସଂରକ୍ଷଣ ସ୍ଥାନ ଯାଞ୍ଚ କରୁଅଛି
 msgid "Mount point"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:252
+#: src/components/storage/InstallationScenario.jsx:241
 #: src/components/storage/MountPointMapping.jsx:561
 msgid "Mount point assignment"
 msgstr ""
@@ -527,7 +520,7 @@ msgstr ""
 msgid "Must be at least $0 characters"
 msgstr "ପ୍ରବେଶ ସଙ୍କେତଟି ଅତିକମରେ ୬ ଅକ୍ଷର ବିଶିଷ୍ଟ ହେବା ଉଚିତ।"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:144
+#: src/components/storage/ReclaimSpaceModal.jsx:150
 msgid "Name"
 msgstr "ନାମ"
 
@@ -550,7 +543,7 @@ msgstr ""
 msgid "No additional disks detected"
 msgstr "କୌଣସି ଡିସ୍କ ବଛାହୋଇନାହିଁ"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:150
+#: src/components/storage/ReclaimSpaceModal.jsx:156
 #: src/components/storage/MountPointMapping.jsx:568
 #, fuzzy
 msgid "No devices"
@@ -598,7 +591,7 @@ msgid ""
 "untouched."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:91
+#: src/components/review/ReviewConfiguration.jsx:89
 #, fuzzy
 msgid "Operating system"
 msgstr "ବ୍ୟବହାରକାରୀ ସୃଷ୍ଟି କରୁଅଛି"
@@ -700,7 +693,7 @@ msgstr ""
 msgid "Reboot"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:477
+#: src/components/storage/ReclaimSpaceModal.jsx:485
 msgid "Reboot into Windows to resize BitLocker-encrypted partitions. "
 msgstr ""
 
@@ -714,9 +707,9 @@ msgstr ""
 msgid "Reclaim additional space"
 msgstr "ପୁନର୍ଧାରଣ କରିବାଯୋଗ୍ୟ ସ୍ଥାନ"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:132
-#: src/components/storage/ReclaimSpaceModal.jsx:142
-#: src/components/storage/ReclaimSpaceModal.jsx:207
+#: src/components/storage/ReclaimSpaceModal.jsx:138
+#: src/components/storage/ReclaimSpaceModal.jsx:148
+#: src/components/storage/ReclaimSpaceModal.jsx:215
 #, fuzzy
 #| msgid "Reclaimable Space"
 msgid "Reclaim space"
@@ -749,13 +742,13 @@ msgid ""
 "systems. Make sure you have backed up your data."
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:115
+#: src/components/storage/ReclaimSpaceModal.jsx:121
 #, fuzzy
 msgid ""
 "Remove or resize existing filesystems to free up space for the installation."
 msgstr "ସ୍ଥାପନ ଉତ୍ସ ବ୍ୟବସ୍ଥା କରିବାରେ ବିଫଳ"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:118
+#: src/components/storage/ReclaimSpaceModal.jsx:124
 msgid ""
 "Removing a filesystem will permanently delete all of the data it contains. "
 msgstr ""
@@ -793,7 +786,7 @@ msgstr "ଉଦ୍ଧାର କରନ୍ତୁ"
 msgid "Rescanning of the disks failed."
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:457
+#: src/components/storage/ReclaimSpaceModal.jsx:465
 msgid "Resize"
 msgstr ""
 
@@ -811,8 +804,8 @@ msgstr "ସ୍ଥାପନ"
 msgid "Return to storage editor"
 msgstr "ସ୍ଥାପନ"
 
-#: src/components/review/ReviewConfiguration.jsx:225
-#: src/components/review/ReviewConfiguration.jsx:226
+#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:224
 #, fuzzy
 msgid "Review and install"
 msgstr "ସ୍ଥାପନ"
@@ -890,11 +883,11 @@ msgstr ""
 msgid "Some required partitions are missing: $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:147
+#: src/components/storage/ReclaimSpaceModal.jsx:153
 msgid "Space"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:133
+#: src/components/review/ReviewConfiguration.jsx:131
 msgid "Storage"
 msgstr ""
 
@@ -979,17 +972,6 @@ msgstr ""
 msgid "The installation needs $1 of disk space; "
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:233
-msgid ""
-"The installation will use the available space on your devices and will not "
-"erase any device data."
-msgstr ""
-
-#: src/components/storage/InstallationScenario.jsx:247
-#: src/components/storage/InstallationScenario.jsx:261
-msgid "The installation will use your configured partitioning layout."
-msgstr ""
-
 #: src/components/Error.jsx:237
 msgid "The installer cannot continue due to a critical error."
 msgstr ""
@@ -1002,12 +984,6 @@ msgstr ""
 msgid ""
 "The passphrase you have provided contains non-ASCII characters. You may not "
 "be able to switch between keyboard layouts when typing it."
-msgstr ""
-
-#: src/components/storage/InstallationScenario.jsx:217
-msgid ""
-"The selected disks will be erased, this cannot be undone. Are you sure you "
-"want to continue with the installation?"
 msgstr ""
 
 #: src/components/storage/CockpitStorageIntegration.jsx:140
@@ -1051,12 +1027,6 @@ msgstr ""
 msgid "To continue, select the devices to install to."
 msgstr "କୌଣସି ଡିସ୍କ ବଛାହୋଇ ନାହିଁ; ଦୟାକରି ସ୍ଥାପନ କରିବା ପାଇଁ ଅତିକମରେ ଗୋଟିଏ ଡିସ୍କକୁ ବାଛନ୍ତୁ।"
 
-#: src/components/storage/InstallationScenario.jsx:239
-#: src/components/storage/InstallationScenario.jsx:253
-#: src/components/storage/InstallationScenario.jsx:267
-msgid "To prevent loss, make sure to backup your data."
-msgstr ""
-
 #: src/components/storage/InstallationScenario.jsx:128
 msgid "To use this option, rename devices to have unique names."
 msgstr ""
@@ -1067,15 +1037,15 @@ msgid ""
 "$0."
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:146
+#: src/components/storage/ReclaimSpaceModal.jsx:152
 msgid "Type"
 msgstr "ପ୍ରକାର"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:89
+#: src/components/storage/ReclaimSpaceModal.jsx:95
 msgid "Unable to schedule deletion of $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:91
+#: src/components/storage/ReclaimSpaceModal.jsx:97
 msgid "Unable to schedule resizing of $0"
 msgstr ""
 
@@ -1093,12 +1063,12 @@ msgstr "ଉପକରଣ %s କୁ ବିନ୍ଯାସ କରନ୍ତୁ"
 msgid "Unlock encrypted devices"
 msgstr "ବଚ୍ଛିତ ଉପକରଣ"
 
-#: src/components/storage/InstallationScenario.jsx:266
+#: src/components/storage/InstallationScenario.jsx:251
 #, fuzzy
 msgid "Use configured storage"
 msgstr "ସଂରକ୍ଷଣ ସ୍ଥାନ ଯାଞ୍ଚ କରୁଅଛି ..."
 
-#: src/components/storage/InstallationScenario.jsx:238
+#: src/components/storage/InstallationScenario.jsx:231
 #, fuzzy
 msgid "Use free space for the installation"
 msgstr "ସ୍ଥାପନ ଉତ୍ସ ବ୍ୟବସ୍ଥା କରିବାରେ ବିଫଳ"
@@ -1140,7 +1110,7 @@ msgstr "$0 ରେ ଆପଣଙ୍କୁ ସ୍ୱାଗତ"
 msgid "Welcome. Let's install $0 now."
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:475
+#: src/components/storage/ReclaimSpaceModal.jsx:483
 msgid "Windows partitions with BitLocker encryption cannot be resized"
 msgstr ""
 
@@ -1164,8 +1134,8 @@ msgid "current step"
 msgstr ""
 
 #: src/components/review/StorageReview.jsx:128
-#: src/components/storage/ReclaimSpaceModal.jsx:344
-#: src/components/storage/ReclaimSpaceModal.jsx:357
+#: src/components/storage/ReclaimSpaceModal.jsx:352
+#: src/components/storage/ReclaimSpaceModal.jsx:365
 #, fuzzy
 #| msgid "Delete"
 msgid "delete"
@@ -1203,20 +1173,32 @@ msgstr ""
 msgid "resized from $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:420
-#: src/components/storage/ReclaimSpaceModal.jsx:424
+#: src/components/storage/ReclaimSpaceModal.jsx:428
+#: src/components/storage/ReclaimSpaceModal.jsx:432
 #, fuzzy
 #| msgid "Shrink"
 msgid "shrink"
 msgstr "ସଙ୍କୁଚିତକରନ୍ତୁ"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:378
+#: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "shrink to $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:338
+#: src/components/storage/ReclaimSpaceModal.jsx:346
 msgid "undo"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Erase data and install?"
+#~ msgstr "ସ୍ଥାପନ"
+
+#, fuzzy
+#~ msgid "Install on the free space?"
+#~ msgstr "ସଫ୍ଟୱେର ସ୍ଥାପନ କରୁଅଛି"
+
+#, fuzzy
+#~ msgid "Install using the configured storage?"
+#~ msgstr "ସଫ୍ଟୱେର ସ୍ଥାପନ କରୁଅଛି"
 
 #, fuzzy
 #~ msgid "Disabled"
