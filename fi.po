@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-12 02:59+0000\n"
-"PO-Revision-Date: 2024-09-12 11:52+0000\n"
+"PO-Revision-Date: 2024-09-13 00:39+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/fi/>\n"
@@ -53,10 +53,8 @@ msgid "$0 will be deleted"
 msgstr "$0 poistetaan"
 
 #: src/components/storage/MountPointMapping.jsx:205
-#, fuzzy
-#| msgid "%s cannot be on an encrypted block device."
 msgid "'$0' filesystem cannot be on an ecnrypted block device"
-msgstr "%s ei voi olla salatulla lohkolaitteella."
+msgstr "Tiedostojärjestelmä $0 ei voi olla salatussa lohkolaitteessa"
 
 #: src/components/storage/MountPointMapping.jsx:199
 msgid "'$0' must be on a device formatted to '$1'"
@@ -865,20 +863,16 @@ msgid "Storage configuration: Storage is currently being configured."
 msgstr "Tallennustilan määritys: Tallennustilaa konfiguroidaan parhaillaan."
 
 #: src/components/storage/HelpAutopartOptions.jsx:11
-#, fuzzy
-#| msgid "Reload storage configuration from disk."
 msgid "Storage is based on the configuration from 'Modify storage'."
-msgstr "Lataa uudelleen tallennusmääritykset levyltä."
+msgstr "Tallennus perustuu 'Muokkaa tallennustilaa':n kokoonpanoon."
 
 #: src/components/storage/CockpitStorageIntegration.jsx:169
-#, fuzzy
-#| msgid "Node login failed."
 msgid "Storage plugin failed"
-msgstr "Solmun sisäänkirjautuminen epäonnistui."
+msgstr "Tallennustilalaajennus epäonnistui"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:480
 msgid "Storage requirements not met"
-msgstr ""
+msgstr "Tallennustilavaatimukset eivät täyty"
 
 #: src/components/Password.jsx:87
 msgid "Strong"
@@ -889,9 +883,8 @@ msgid "Successfully installed"
 msgstr "Asennus onnistui"
 
 #: src/components/storage/EncryptedDevices.jsx:130
-#, fuzzy
 msgid "Successfully unlocked $0."
-msgstr "Asennus onnistui"
+msgstr "$0:n lukituksen avattu onnistuneesti."
 
 #: src/components/users/Accounts.jsx:296
 msgid "System"
@@ -918,16 +911,14 @@ msgstr "Valittua kieltä käytetään asennuksessa ja asennetussa ohjelmistossa.
 #: src/components/storage/InstallationDestination.jsx:505
 msgid "The following disk is no longer available: $0"
 msgid_plural "The following disks are no longer available: $0"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Seuraava levy ei ole enää käytettävissä: $0"
+msgstr[1] "Seuraavat levyt eivät ole enää käytettävissä: $0"
 
 #: src/components/storage/InstallationDestination.jsx:488
-#, fuzzy
-#| msgid "The following mandatory spokes are not completed:"
 msgid "The following disk was detected: $0"
 msgid_plural "The following disks were detected: $0"
-msgstr[0] "Seuraavat pakolliset vaiheet ovat kesken:"
-msgstr[1] "Seuraavat pakolliset vaiheet ovat kesken:"
+msgstr[0] "Seuraava levy havaittiin: $0"
+msgstr[1] "Seuraavat levyt havaittiin: $0"
 
 #: src/components/Error.jsx:268
 msgid ""
@@ -939,7 +930,7 @@ msgstr ""
 
 #: src/components/storage/InstallationScenario.jsx:66
 msgid "The installation needs $1 of disk space; "
-msgstr ""
+msgstr "Asennus vaatii $1 levytilaa; "
 
 #: src/components/Error.jsx:237
 msgid "The installer cannot continue due to a critical error."
@@ -958,28 +949,21 @@ msgstr ""
 "näppäimistöasettelua vaihdetaan, kirjautuminen ei ehkä onnistu."
 
 #: src/components/storage/CockpitStorageIntegration.jsx:140
-#, fuzzy
-#| msgid ""
-#| "Blivet-gui is an advanced storage editor that lets you resize, delete, "
-#| "and create partitions. It can set up LVM and much more."
 msgid "The storage editor lets you resize, delete, and create partitions. "
 msgstr ""
-"Blivet-gui on edistynyt tallennuseditori, jonka avulla voit muuttaa kokoa, "
-"poistaa ja luoda osioita. Se voi määrittää LVM:n ja paljon muuta."
+"Tallennusmuokkaimen avulla voit muuttaa kokoa, poistaa ja luoda osioita. "
 
 #: src/components/storage/InstallationDestination.jsx:480
-#, fuzzy
-#| msgid "No usable disks detected"
 msgid "The usable disks have changed"
-msgstr "Yhtään käyttökelpoista levyä ei löytynyt"
+msgstr "Käytettävissä olevat levyt ovat muuttuneet"
 
 #: src/components/users/Accounts.jsx:202
 msgid "This account will have administration privilege with sudo."
-msgstr ""
+msgstr "Tällä tilillä on järjestelmänvalvojan oikeudet 'sudo':n kanssa."
 
 #: src/components/review/Hostname.jsx:71
 msgid "This hostname can't be submitted"
-msgstr ""
+msgstr "Tätä isäntänimeä ei voi lähettää"
 
 #: src/components/AnacondaHeader.jsx:67
 msgid "This is unstable, pre-release software"
@@ -990,10 +974,8 @@ msgid "This may take a moment"
 msgstr "Tämä saattaa kestää hetken"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:474
-#, fuzzy
-#| msgid "This may take a moment"
 msgid "This will take a few moments"
-msgstr "Tämä saattaa kestää hetken"
+msgstr "Tämä kestää hetken"
 
 #: src/components/installation/InstallationProgress.jsx:171
 msgid "To begin using $0, reboot your system."
@@ -1008,6 +990,8 @@ msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
 msgstr ""
+"Tämän vaihtoehdon käyttämiseksi, muuta olemassa olevien osioiden kokoja tai "
+"poista ne vapauttaaksesi vähintään $0."
 
 #: src/components/storage/ReclaimSpaceModal.jsx:152
 msgid "Type"
@@ -1015,11 +999,11 @@ msgstr "Tyyppi"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:95
 msgid "Unable to schedule deletion of $0"
-msgstr ""
+msgstr "$0:n poistoa ei voi ajoittaa"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:97
 msgid "Unable to schedule resizing of $0"
-msgstr ""
+msgstr "$0:n koon muuttamista ei voi ajoittaa"
 
 #: src/components/storage/EncryptedDevices.jsx:161
 msgid "Unlock"
@@ -1034,10 +1018,8 @@ msgid "Unlock encrypted devices"
 msgstr "Avaa salatut laitteet"
 
 #: src/components/storage/InstallationScenario.jsx:246
-#, fuzzy
-#| msgid "Configuring storage"
 msgid "Use configured storage"
-msgstr "Määritetään tallennustilaa"
+msgstr "Käytä määritettyä tallennustilaa"
 
 #: src/components/storage/InstallationScenario.jsx:226
 msgid "Use free space for the installation"
@@ -1052,18 +1034,16 @@ msgid ""
 "User name may only contain: letters from a-z, digits 0-9, dash $0, period "
 "$1, underscore $2"
 msgstr ""
+"Käyttäjänimi saa sisältää vain: kirjaimia a–z, numeroita 0–9, viiva $0, "
+"piste $1, alaviiva $2"
 
 #: src/components/users/Accounts.jsx:154
-#, fuzzy
-#| msgid "User name is reserved for system: %s"
 msgid "User name must not be a reserved word"
-msgstr "Käyttäjätunnus on varattu järjestelmälle: %s"
+msgstr "Käyttäjänimi ei saa olla varattu sana"
 
 #: src/components/users/Accounts.jsx:151
-#, fuzzy
-#| msgid "Name must be shorter than 33 characters."
 msgid "User names must be shorter than 33 characters"
-msgstr "Nimi voi sisältää korkeintaan 33 merkkiä."
+msgstr "Käyttäjänimien tulee olla lyhyempiä kuin 33 merkkiä"
 
 #: src/components/Password.jsx:65
 msgid "Weak"
@@ -1083,13 +1063,15 @@ msgstr "Tervetuloa. Asennataan nyt $0."
 
 #: src/components/storage/ReclaimSpaceModal.jsx:485
 msgid "Windows partitions with BitLocker encryption cannot be resized"
-msgstr ""
+msgstr "BitLocker-salauksella olevien Windows-osioiden kokoa ei voi muuttaa"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:621
 msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
 msgstr ""
+"Voit joko vapauttaa tarpeeksi tilaa täällä ja antaa asentajan hoitaa loput "
+"tai määrittää osiot manuaalisesti."
 
 #: src/components/AnacondaWizardFooter.jsx:147
 msgid "Your progress will not be saved."
@@ -1135,7 +1117,7 @@ msgstr "käsittelyä odottava vaihe"
 
 #: src/components/review/StorageReview.jsx:133
 msgid "resized from $0"
-msgstr ""
+msgstr "koko muutettu $0:sta"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:430
 #: src/components/storage/ReclaimSpaceModal.jsx:434
@@ -1146,11 +1128,11 @@ msgstr "Kutista"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:388
 msgid "shrink to $0"
-msgstr ""
+msgstr "kutista $0:een"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:348
 msgid "undo"
-msgstr ""
+msgstr "kumoa"
 
 #~ msgid "Erase data and install?"
 #~ msgstr "Tyhjennetäänkö levyt ja asennetaanko?"
