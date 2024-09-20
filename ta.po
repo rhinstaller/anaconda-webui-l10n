@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-19 03:01+0000\n"
+"POT-Creation-Date: 2024-09-20 03:01+0000\n"
 "PO-Revision-Date: 2023-11-06 12:22+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Tamil <https://translate.fedoraproject.org/projects/anaconda-"
@@ -30,6 +30,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.1.1\n"
+
+#: src/components/storage/InstallationDestination.jsx:178
+#: src/components/storage/InstallationDestination.jsx:311
+msgid "$0 $1"
+msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:198
+#: src/components/storage/InstallationDestination.jsx:304
+msgid "$0 ($1)"
+msgstr ""
 
 #: src/components/app.jsx:76
 #, fuzzy
@@ -73,7 +83,7 @@ msgstr "லேயவுட்டைச் சேர்"
 msgid "Actions"
 msgstr "செயல்"
 
-#: src/components/storage/MountPointMapping.jsx:606
+#: src/components/storage/MountPointMapping.jsx:616
 #, fuzzy
 msgid "Add mount"
 msgstr "லேயவுட்டைச் சேர்"
@@ -111,14 +121,10 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "நிறுவலைத் தொடங்கு (_B)"
 
-#: src/components/storage/InstallationScenario.jsx:228
+#: src/components/storage/InstallationScenario.jsx:229
 #, fuzzy
 msgid "Apply mount point assignment and install"
 msgstr "நிறுவியில் உள்ள அமைவாக்கத்தைப் பயன்படுத்து"
-
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Applying new disk selection..."
-msgstr ""
 
 #: src/components/storage/ReclaimSpaceModal.jsx:208
 msgid "Available free space: $0. Installation requires: $1."
@@ -137,6 +143,7 @@ msgid ""
 msgstr ""
 
 #: src/components/storage/CockpitStorageIntegration.jsx:134
+#: src/components/storage/InstallationDestination.jsx:357
 #: src/components/storage/ReclaimSpaceModal.jsx:219
 #: src/components/review/Hostname.jsx:106 src/components/Error.jsx:259
 #, fuzzy
@@ -149,6 +156,11 @@ msgstr "ரத்து (_C)"
 #| msgid "_Save Changes"
 msgid "Change"
 msgstr "மாற்றங்களை சேமி (_S)"
+
+#: src/components/storage/InstallationDestination.jsx:342
+#, fuzzy
+msgid "Change destination"
+msgstr "விளக்கம்"
 
 #: src/components/review/Hostname.jsx:113
 #, fuzzy
@@ -178,11 +190,8 @@ msgstr "மொழிகள்"
 msgid "Chosen language: "
 msgstr "மொழிகள்"
 
-#: src/components/storage/InstallationDestination.jsx:240
-msgid "Clear input value"
-msgstr ""
-
 #: src/components/storage/EncryptedDevices.jsx:164
+#: src/components/storage/InstallationDestination.jsx:362
 msgid "Close"
 msgstr "மூடு"
 
@@ -243,10 +252,9 @@ msgstr ""
 msgid "Critical error"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:223
-#, fuzzy
-msgid "Current selections"
-msgstr "மென்பொருள் தேர்வு"
+#: src/components/storage/InstallationDestination.jsx:101
+msgid "Currently installed: $0"
+msgstr ""
 
 #: src/components/storage/MountPointMapping.jsx:246
 msgid "Custom"
@@ -256,7 +264,7 @@ msgstr ""
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:407
+#: src/components/storage/InstallationDestination.jsx:286
 #, fuzzy
 msgid "Destination"
 msgstr "விளக்கம்"
@@ -265,7 +273,7 @@ msgstr "விளக்கம்"
 msgid "Detected valid storage layout:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:582
+#: src/components/storage/MountPointMapping.jsx:592
 #: src/components/review/StorageReview.jsx:192
 msgid "Device"
 msgstr "சாதனம்"
@@ -284,7 +292,7 @@ msgstr "சாதன அமைவாக்கம்"
 msgid "Disk encryption"
 msgstr "குறியாக்கம்"
 
-#: src/components/storage/MountPointMapping.jsx:350
+#: src/components/storage/MountPointMapping.jsx:360
 #, fuzzy
 msgid "Duplicate device."
 msgstr "பலபாதை சாதனங்கள் (_M)"
@@ -321,8 +329,8 @@ msgstr ""
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:206
-#: src/components/storage/InstallationScenario.jsx:214
+#: src/components/storage/InstallationScenario.jsx:207
+#: src/components/storage/InstallationScenario.jsx:215
 #, fuzzy
 msgid "Erase data and install"
 msgstr "நிறுவலைத் தொடங்கு (_B)"
@@ -388,7 +396,7 @@ msgstr "வெற்று கடவுச்சொல்"
 msgid "Hostname"
 msgstr "வழங்கி பெயர்"
 
-#: src/components/storage/InstallationScenario.jsx:407
+#: src/components/storage/InstallationScenario.jsx:408
 msgid "How would you like to install?"
 msgstr ""
 
@@ -431,8 +439,8 @@ msgstr "முன்னேற்றம்"
 msgid "Initializing..."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:217
-#: src/components/storage/InstallationScenario.jsx:238
+#: src/components/storage/InstallationScenario.jsx:218
+#: src/components/storage/InstallationScenario.jsx:239
 msgid "Install"
 msgstr "நிறுவு"
 
@@ -459,11 +467,6 @@ msgstr "நிறுவல்"
 #: src/components/installation/InstallationProgress.jsx:158
 #, fuzzy
 msgid "Installing"
-msgstr "%s ஐ நிறுவுகிறது"
-
-#: src/components/storage/InstallationDestination.jsx:426
-#, fuzzy
-msgid "Installing to $0 ($1)"
 msgstr "%s ஐ நிறுவுகிறது"
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
@@ -495,12 +498,12 @@ msgstr "சாதனம் %s ஐ அமைவாக்கம் செய்ய
 msgid "Log"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:762
+#: src/components/storage/MountPointMapping.jsx:772
 #, fuzzy
 msgid "Manual disk configuration"
 msgstr "சாதன அமைவாக்கம்"
 
-#: src/components/storage/MountPointMapping.jsx:764
+#: src/components/storage/MountPointMapping.jsx:774
 #, fuzzy
 msgid "Manual disk configuration: Mount point mapping"
 msgstr "சாதன அமைவாக்கம்"
@@ -527,13 +530,13 @@ msgstr ""
 msgid "Modify storage"
 msgstr "சேமிப்பக லேயவுட்டை மாற்றியமை (_M)"
 
-#: src/components/storage/MountPointMapping.jsx:581
+#: src/components/storage/MountPointMapping.jsx:591
 #: src/components/review/StorageReview.jsx:191
 msgid "Mount point"
 msgstr "மவுன்ட் புள்ளி"
 
-#: src/components/storage/InstallationScenario.jsx:236
-#: src/components/storage/MountPointMapping.jsx:579
+#: src/components/storage/InstallationScenario.jsx:237
+#: src/components/storage/MountPointMapping.jsx:589
 #, fuzzy
 msgid "Mount point assignment"
 msgstr "மவுன்ட் புள்ளி"
@@ -561,38 +564,37 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:473
-#, fuzzy
-msgid "No additional disks detected"
-msgstr "வட்டுகள் எதுவும் தேர்ந்தெடுக்கப்படவில்லை"
-
-#: src/components/storage/MountPointMapping.jsx:586
+#: src/components/storage/MountPointMapping.jsx:596
 #: src/components/storage/ReclaimSpaceModal.jsx:156
 #, fuzzy
 msgid "No devices"
 msgstr "சாதனத்தைச் சேர் "
 
-#: src/components/storage/InstallationDestination.jsx:121
+#: src/components/storage/InstallationDestination.jsx:160
+#, fuzzy
+#| msgid "Unavailable"
+msgid "No disks available"
+msgstr "கிடைக்கவில்லை"
+
+#: src/components/storage/InstallationDestination.jsx:297
+msgid "No disks selected"
+msgstr "வட்டுகள் எதுவும் தேர்ந்தெடுக்கப்படவில்லை"
+
 #: src/components/localization/InstallationLanguage.jsx:192
 msgid "No results found"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:120
+#: src/components/storage/InstallationScenario.jsx:121
 #, fuzzy
 msgid "No usable devices on the selected disks."
 msgstr "தேர்ந்தெடுத்த வட்டுகளில் போதிய காலி இடம் இல்லை."
 
-#: src/components/storage/InstallationDestination.jsx:436
-#, fuzzy
-msgid "No usable disks detected"
-msgstr "வட்டுகள் எதுவும் தேர்ந்தெடுக்கப்படவில்லை"
-
-#: src/components/storage/InstallationScenario.jsx:85
+#: src/components/storage/InstallationScenario.jsx:86
 #, fuzzy
 msgid "Not enough free space on the selected disks."
 msgstr "தேர்ந்தெடுத்த வட்டுகளில் போதிய காலி இடம் இல்லை."
 
-#: src/components/storage/InstallationScenario.jsx:64
+#: src/components/storage/InstallationScenario.jsx:65
 #, fuzzy
 msgid "Not enough space on selected disks."
 msgstr "தேர்ந்தெடுத்த வட்டுகளில் போதிய காலி இடம் இல்லை."
@@ -678,10 +680,6 @@ msgstr "வெளியேறு"
 msgid "Quit installer?"
 msgstr "நிறுவியிலிருந்து வெளியேறு (_Q)"
 
-#: src/components/storage/InstallationDestination.jsx:380
-msgid "Re-scan"
-msgstr ""
-
 #: src/components/app.jsx:113
 #, fuzzy
 msgid "Reading information about the OS failed."
@@ -727,7 +725,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "/boot கோப்பு முறைமை"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 #, fuzzy
 #| msgctxt "GUI|Reclaim Dialog"
 #| msgid "_Reclaim space"
@@ -743,7 +741,7 @@ msgstr "இடத்தை மீட்டுப் பெறு (_R)"
 msgid "Reclaim space"
 msgstr "இடத்தை மீட்டுப் பெறு (_R)"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 #, fuzzy
 #| msgctxt "GUI|Reclaim Dialog"
 #| msgid "_Reclaim space"
@@ -758,12 +756,12 @@ msgstr ""
 msgid "Recommended partitions:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:370
-#: src/components/storage/MountPointMapping.jsx:583
+#: src/components/storage/MountPointMapping.jsx:380
+#: src/components/storage/MountPointMapping.jsx:593
 msgid "Reformat"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:397
+#: src/components/storage/MountPointMapping.jsx:407
 #, fuzzy
 msgid "Remove"
 msgstr "நீக்கு"
@@ -809,12 +807,13 @@ msgstr "மறுஅளவு செய்யக்கூடியதல்ல"
 msgid "Requirements"
 msgstr "மறுஅளவு செய்யக்கூடியதல்ல"
 
-#: src/components/storage/InstallationDestination.jsx:389
+#: src/components/storage/InstallationDestination.jsx:151
 #, fuzzy
-msgid "Rescan"
-msgstr "மீட்பு"
+#| msgid "Configure device %s"
+msgid "Rescan devices"
+msgstr "சாதனம் %s ஐ அமைவாக்கம் செய்யவும்"
 
-#: src/components/storage/InstallationDestination.jsx:368
+#: src/components/storage/InstallationDestination.jsx:132
 msgid "Rescanning of the disks failed."
 msgstr ""
 
@@ -853,15 +852,22 @@ msgstr "சேமி (_S)"
 msgid "Scan the QR code with your phone or visit:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:299
+#: src/components/storage/InstallationDestination.jsx:354
+#, fuzzy
+#| msgctxt "GUI|Custom Partitioning|Configure Dialog"
+#| msgid "_Select"
+msgid "Select"
+msgstr "தேர்ந்தெடு (_S)"
+
+#: src/components/storage/MountPointMapping.jsx:309
 #, fuzzy
 msgid "Select a device"
 msgstr "தேர்ந்தெடுத்த சாதனம்"
 
-#: src/components/storage/InstallationDestination.jsx:219
+#: src/components/storage/InstallationDestination.jsx:348
 #, fuzzy
-msgid "Select a disk"
-msgstr "தேர்ந்தெடுத்த சாதனம்"
+msgid "Select destination"
+msgstr "விளக்கம்"
 
 #: src/components/storage/MountPointMapping.jsx:124
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -912,7 +918,7 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:123
+#: src/components/storage/InstallationScenario.jsx:124
 msgid "Some required partitions are missing: $0"
 msgstr ""
 
@@ -987,27 +993,13 @@ msgid ""
 "software. "
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:505
-msgid "The following disk is no longer available: $0"
-msgid_plural "The following disks are no longer available: $0"
-msgstr[0] ""
-msgstr[1] ""
-
-#: src/components/storage/InstallationDestination.jsx:488
-#, fuzzy
-#| msgid "The following mandatory spokes are not completed:"
-msgid "The following disk was detected: $0"
-msgid_plural "The following disks were detected: $0"
-msgstr[0] "பின்வரும் அவசியமான செயல் படிகளை நிறைவு செய்யவில்லை:"
-msgstr[1] "பின்வரும் அவசியமான செயல் படிகளை நிறைவு செய்யவில்லை:"
-
 #: src/components/Error.jsx:267
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
 "provide additional details."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:66
+#: src/components/storage/InstallationScenario.jsx:67
 msgid "The installation needs $1 of disk space; "
 msgstr ""
 
@@ -1028,11 +1020,6 @@ msgstr ""
 #: src/components/storage/CockpitStorageIntegration.jsx:140
 msgid "The storage editor lets you resize, delete, and create partitions. "
 msgstr ""
-
-#: src/components/storage/InstallationDestination.jsx:480
-#, fuzzy
-msgid "The usable disks have changed"
-msgstr "வட்டுகள் எதுவும் தேர்ந்தெடுக்கப்படவில்லை"
 
 #: src/components/users/Accounts.jsx:202
 msgid "This account will have administration privilege with sudo."
@@ -1068,7 +1055,7 @@ msgstr ""
 "வட்டுகள் எதுவும் தேர்ந்தெடுக்கப்படவில்லை; நிறுவுவதற்கு குறைந்தது ஒரு வட்டையேனும் "
 "தேர்ந்தெடுக்கவும்."
 
-#: src/components/storage/InstallationScenario.jsx:87
+#: src/components/storage/InstallationScenario.jsx:88
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -1101,12 +1088,12 @@ msgstr "சாதனம் %s ஐ அமைவாக்கம் செய்ய
 msgid "Unlock encrypted devices"
 msgstr "தேர்ந்தெடுத்த சாதனம்"
 
-#: src/components/storage/InstallationScenario.jsx:246
+#: src/components/storage/InstallationScenario.jsx:247
 #, fuzzy
 msgid "Use configured storage"
 msgstr "சேமிப்பக லேயவுட்டை மாற்றியமை (_M)"
 
-#: src/components/storage/InstallationScenario.jsx:226
+#: src/components/storage/InstallationScenario.jsx:227
 #, fuzzy
 msgid "Use free space for the installation"
 msgstr "நிறுவல் மூலத்தை அமைப்பதில் தோல்வி"
@@ -1229,6 +1216,41 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:348
 msgid "undo"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Current selections"
+#~ msgstr "மென்பொருள் தேர்வு"
+
+#, fuzzy
+#~ msgid "Installing to $0 ($1)"
+#~ msgstr "%s ஐ நிறுவுகிறது"
+
+#, fuzzy
+#~ msgid "No additional disks detected"
+#~ msgstr "வட்டுகள் எதுவும் தேர்ந்தெடுக்கப்படவில்லை"
+
+#, fuzzy
+#~ msgid "No usable disks detected"
+#~ msgstr "வட்டுகள் எதுவும் தேர்ந்தெடுக்கப்படவில்லை"
+
+#, fuzzy
+#~ msgid "Rescan"
+#~ msgstr "மீட்பு"
+
+#, fuzzy
+#~ msgid "Select a disk"
+#~ msgstr "தேர்ந்தெடுத்த சாதனம்"
+
+#, fuzzy
+#~| msgid "The following mandatory spokes are not completed:"
+#~ msgid "The following disk was detected: $0"
+#~ msgid_plural "The following disks were detected: $0"
+#~ msgstr[0] "பின்வரும் அவசியமான செயல் படிகளை நிறைவு செய்யவில்லை:"
+#~ msgstr[1] "பின்வரும் அவசியமான செயல் படிகளை நிறைவு செய்யவில்லை:"
+
+#, fuzzy
+#~ msgid "The usable disks have changed"
+#~ msgstr "வட்டுகள் எதுவும் தேர்ந்தெடுக்கப்படவில்லை"
 
 #, fuzzy
 #~ msgid "Erase data and install?"
@@ -2764,9 +2786,6 @@ msgstr ""
 #~ msgstr ""
 #~ "வட்டுகள் எதுவும் தேர்ந்தெடுக்கப்படவில்லை. நிறுவலை முடிக்க கணினியை இயக்கம் "
 #~ "நிறுத்திவிட்டு குறைந்தது ஒரு வட்டையாவது இணைத்து கணினியை மறுதொடக்கம் செய்யவும்."
-
-#~ msgid "No disks selected"
-#~ msgstr "வட்டுகள் எதுவும் தேர்ந்தெடுக்கப்படவில்லை"
 
 #, fuzzy
 #~| msgid "No disks selected"
@@ -4911,10 +4930,6 @@ msgstr ""
 #~ msgid "_Save Passphrase"
 #~ msgstr "கடவு வாக்கியத்தைச் சேமி (_S)"
 
-#~ msgctxt "GUI|Custom Partitioning|Configure Dialog"
-#~ msgid "_Select"
-#~ msgstr "தேர்ந்தெடு (_S)"
-
 #, fuzzy
 #~| msgctxt "GUI|Software Source"
 #~| msgid "_On the network:"
@@ -5058,11 +5073,6 @@ msgstr ""
 #~ msgid "malformed URL, cannot parse it."
 #~ msgstr "URL வடிவமைப்பு சரியில்லை, அதைப் பாகுபடுத்த முடியாது."
 
-#, fuzzy
-#~| msgid "Unavailable"
-#~ msgid "not available"
-#~ msgstr "கிடைக்கவில்லை"
-
 #~ msgid "part --noformat must also use the --onpart option."
 #~ msgstr "part --noformat கட்டளையானது --onpart விருப்பத்தையும் பயன்படுத்த வேண்டும்."
 
@@ -5074,11 +5084,6 @@ msgstr ""
 
 #~ msgid "testing status..."
 #~ msgstr "நிலையை சோதிக்கிறது..."
-
-#, fuzzy
-#~| msgid "Configure device %s"
-#~ msgid "to rescan devices"
-#~ msgstr "சாதனம் %s ஐ அமைவாக்கம் செய்யவும்"
 
 #, fuzzy
 #~| msgid "Unknown"

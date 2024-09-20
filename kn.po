@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-19 03:01+0000\n"
+"POT-Creation-Date: 2024-09-20 03:01+0000\n"
 "PO-Revision-Date: 2023-11-06 12:19+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Kannada <https://translate.fedoraproject.org/projects/"
@@ -35,6 +35,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Weblate 5.1.1\n"
+
+#: src/components/storage/InstallationDestination.jsx:178
+#: src/components/storage/InstallationDestination.jsx:311
+msgid "$0 $1"
+msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:198
+#: src/components/storage/InstallationDestination.jsx:304
+msgid "$0 ($1)"
+msgstr ""
 
 #: src/components/app.jsx:76
 #, fuzzy
@@ -78,7 +88,7 @@ msgstr "ವಿನ್ಯಾಸವನ್ನು (ಲೇಔಟ್) ಸೇರಿಸ�
 msgid "Actions"
 msgstr "ಕ್ರಿಯೆ"
 
-#: src/components/storage/MountPointMapping.jsx:606
+#: src/components/storage/MountPointMapping.jsx:616
 #, fuzzy
 msgid "Add mount"
 msgstr "ವಿನ್ಯಾಸವನ್ನು (ಲೇಔಟ್) ಸೇರಿಸು"
@@ -116,14 +126,10 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "ಅನುಸ್ಥಾಪನೆಯನ್ನು ಆರಂಭಿಸು (_B)"
 
-#: src/components/storage/InstallationScenario.jsx:228
+#: src/components/storage/InstallationScenario.jsx:229
 #, fuzzy
 msgid "Apply mount point assignment and install"
 msgstr "ಅನುಸ್ಥಾಪಕದಲ್ಲಿ ಸಂರಚನೆಯನ್ನು ಅನ್ವಯಿಸು"
-
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Applying new disk selection..."
-msgstr ""
 
 #: src/components/storage/ReclaimSpaceModal.jsx:208
 msgid "Available free space: $0. Installation requires: $1."
@@ -142,6 +148,7 @@ msgid ""
 msgstr ""
 
 #: src/components/storage/CockpitStorageIntegration.jsx:134
+#: src/components/storage/InstallationDestination.jsx:357
 #: src/components/storage/ReclaimSpaceModal.jsx:219
 #: src/components/review/Hostname.jsx:106 src/components/Error.jsx:259
 #, fuzzy
@@ -154,6 +161,11 @@ msgstr "ರದ್ದುಗೊಳಿಸು (_C)"
 #| msgid "_Save Changes"
 msgid "Change"
 msgstr "ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸು (_S)"
+
+#: src/components/storage/InstallationDestination.jsx:342
+#, fuzzy
+msgid "Change destination"
+msgstr "ವಿವರಣೆ"
 
 #: src/components/review/Hostname.jsx:113
 #, fuzzy
@@ -183,11 +195,8 @@ msgstr "ಭಾಷೆಗಳು"
 msgid "Chosen language: "
 msgstr "ಭಾಷೆಗಳು"
 
-#: src/components/storage/InstallationDestination.jsx:240
-msgid "Clear input value"
-msgstr ""
-
 #: src/components/storage/EncryptedDevices.jsx:164
+#: src/components/storage/InstallationDestination.jsx:362
 msgid "Close"
 msgstr "ಮುಚ್ಚು"
 
@@ -248,10 +257,9 @@ msgstr ""
 msgid "Critical error"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:223
-#, fuzzy
-msgid "Current selections"
-msgstr "ತಂತ್ರಾಂಶದ ಆಯ್ಕೆ"
+#: src/components/storage/InstallationDestination.jsx:101
+msgid "Currently installed: $0"
+msgstr ""
 
 #: src/components/storage/MountPointMapping.jsx:246
 msgid "Custom"
@@ -261,7 +269,7 @@ msgstr ""
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:407
+#: src/components/storage/InstallationDestination.jsx:286
 #, fuzzy
 msgid "Destination"
 msgstr "ವಿವರಣೆ"
@@ -270,7 +278,7 @@ msgstr "ವಿವರಣೆ"
 msgid "Detected valid storage layout:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:582
+#: src/components/storage/MountPointMapping.jsx:592
 #: src/components/review/StorageReview.jsx:192
 msgid "Device"
 msgstr ""
@@ -289,7 +297,7 @@ msgstr "ಸಾಧನದ ಸಂರಚನೆ"
 msgid "Disk encryption"
 msgstr "ಗೂಢಲಿಪೀಕರಣ"
 
-#: src/components/storage/MountPointMapping.jsx:350
+#: src/components/storage/MountPointMapping.jsx:360
 #, fuzzy
 msgid "Duplicate device."
 msgstr "ಮಲ್ಟಿಪಾತ್ ಸಾಧನಗಳು (_M)"
@@ -326,8 +334,8 @@ msgstr ""
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:206
-#: src/components/storage/InstallationScenario.jsx:214
+#: src/components/storage/InstallationScenario.jsx:207
+#: src/components/storage/InstallationScenario.jsx:215
 #, fuzzy
 msgid "Erase data and install"
 msgstr "ಅನುಸ್ಥಾಪನೆಯನ್ನು ಆರಂಭಿಸು (_B)"
@@ -391,7 +399,7 @@ msgstr "ಗುಪ್ತಪದವಿಲ್ಲ"
 msgid "Hostname"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:407
+#: src/components/storage/InstallationScenario.jsx:408
 msgid "How would you like to install?"
 msgstr ""
 
@@ -434,8 +442,8 @@ msgstr "ಮುನ್ನಡೆ"
 msgid "Initializing..."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:217
-#: src/components/storage/InstallationScenario.jsx:238
+#: src/components/storage/InstallationScenario.jsx:218
+#: src/components/storage/InstallationScenario.jsx:239
 msgid "Install"
 msgstr "ಅನುಸ್ಥಾಪಿಸು"
 
@@ -462,11 +470,6 @@ msgstr "ಅನುಸ್ಥಾಪನೆ"
 #: src/components/installation/InstallationProgress.jsx:158
 #, fuzzy
 msgid "Installing"
-msgstr "%s ಅನುಸ್ಥಾಪಿಸಲಾಗುತ್ತಿದೆ"
-
-#: src/components/storage/InstallationDestination.jsx:426
-#, fuzzy
-msgid "Installing to $0 ($1)"
 msgstr "%s ಅನುಸ್ಥಾಪಿಸಲಾಗುತ್ತಿದೆ"
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
@@ -498,12 +501,12 @@ msgstr "%s ಸಾಧನವನ್ನು ಸಂರಚಿಸಿ"
 msgid "Log"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:762
+#: src/components/storage/MountPointMapping.jsx:772
 #, fuzzy
 msgid "Manual disk configuration"
 msgstr "ಸಾಧನದ ಸಂರಚನೆ"
 
-#: src/components/storage/MountPointMapping.jsx:764
+#: src/components/storage/MountPointMapping.jsx:774
 #, fuzzy
 msgid "Manual disk configuration: Mount point mapping"
 msgstr "ಸಾಧನದ ಸಂರಚನೆ"
@@ -530,13 +533,13 @@ msgstr ""
 msgid "Modify storage"
 msgstr "ಶೇಖರಣಾ ವಿನ್ಯಾಸವನ್ನು ಮಾರ್ಪಡಿಸು (_M)"
 
-#: src/components/storage/MountPointMapping.jsx:581
+#: src/components/storage/MountPointMapping.jsx:591
 #: src/components/review/StorageReview.jsx:191
 msgid "Mount point"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:236
-#: src/components/storage/MountPointMapping.jsx:579
+#: src/components/storage/InstallationScenario.jsx:237
+#: src/components/storage/MountPointMapping.jsx:589
 msgid "Mount point assignment"
 msgstr ""
 
@@ -563,38 +566,37 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:473
-#, fuzzy
-msgid "No additional disks detected"
-msgstr "ಯಾವುದೆ ಡಿಸ್ಕುಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ"
-
-#: src/components/storage/MountPointMapping.jsx:586
+#: src/components/storage/MountPointMapping.jsx:596
 #: src/components/storage/ReclaimSpaceModal.jsx:156
 #, fuzzy
 msgid "No devices"
 msgstr "ಸಾಧನವನ್ನು ಸೇರಿಸು"
 
-#: src/components/storage/InstallationDestination.jsx:121
+#: src/components/storage/InstallationDestination.jsx:160
+#, fuzzy
+#| msgid "Unavailable"
+msgid "No disks available"
+msgstr "ಲಭ್ಯವಿಲ್ಲ"
+
+#: src/components/storage/InstallationDestination.jsx:297
+msgid "No disks selected"
+msgstr "ಯಾವುದೆ ಡಿಸ್ಕುಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ"
+
 #: src/components/localization/InstallationLanguage.jsx:192
 msgid "No results found"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:120
+#: src/components/storage/InstallationScenario.jsx:121
 #, fuzzy
 msgid "No usable devices on the selected disks."
 msgstr "ಆಯ್ಕೆ ಮಾಡಿದ ಡಿಸ್ಕುಗಳಲ್ಲಿ ಸಾಕಷ್ಟು ಸ್ಥಳಾವಕಾಶವಿಲ್ಲ."
 
-#: src/components/storage/InstallationDestination.jsx:436
-#, fuzzy
-msgid "No usable disks detected"
-msgstr "ಯಾವುದೆ ಡಿಸ್ಕುಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ"
-
-#: src/components/storage/InstallationScenario.jsx:85
+#: src/components/storage/InstallationScenario.jsx:86
 #, fuzzy
 msgid "Not enough free space on the selected disks."
 msgstr "ಆಯ್ಕೆ ಮಾಡಿದ ಡಿಸ್ಕುಗಳಲ್ಲಿ ಸಾಕಷ್ಟು ಸ್ಥಳಾವಕಾಶವಿಲ್ಲ."
 
-#: src/components/storage/InstallationScenario.jsx:64
+#: src/components/storage/InstallationScenario.jsx:65
 #, fuzzy
 msgid "Not enough space on selected disks."
 msgstr "ಆಯ್ಕೆ ಮಾಡಿದ ಡಿಸ್ಕುಗಳಲ್ಲಿ ಸಾಕಷ್ಟು ಸ್ಥಳಾವಕಾಶವಿಲ್ಲ."
@@ -680,10 +682,6 @@ msgstr "ನಿರ್ಗಮಿಸು"
 msgid "Quit installer?"
 msgstr "ಅನುಸ್ಥಾಪಕದಿಂದ ನಿರ್ಗಮಿಸು (_Q)"
 
-#: src/components/storage/InstallationDestination.jsx:380
-msgid "Re-scan"
-msgstr ""
-
 #: src/components/app.jsx:113
 #, fuzzy
 msgid "Reading information about the OS failed."
@@ -728,7 +726,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 #, fuzzy
 #| msgctxt "GUI|Reclaim Dialog"
 #| msgid "_Reclaim space"
@@ -744,7 +742,7 @@ msgstr "ಖಾಲಿಸ್ಥಳವನ್ನು ಹಿಂಪಡೆ (_R)"
 msgid "Reclaim space"
 msgstr "ಖಾಲಿಸ್ಥಳವನ್ನು ಹಿಂಪಡೆ (_R)"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 #, fuzzy
 #| msgctxt "GUI|Reclaim Dialog"
 #| msgid "_Reclaim space"
@@ -759,12 +757,12 @@ msgstr ""
 msgid "Recommended partitions:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:370
-#: src/components/storage/MountPointMapping.jsx:583
+#: src/components/storage/MountPointMapping.jsx:380
+#: src/components/storage/MountPointMapping.jsx:593
 msgid "Reformat"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:397
+#: src/components/storage/MountPointMapping.jsx:407
 #, fuzzy
 msgid "Remove"
 msgstr "ತೆಗೆದುಹಾಕು (_R)"
@@ -810,12 +808,13 @@ msgstr "ಮರುಗಾತ್ರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ"
 msgid "Requirements"
 msgstr "ಮರುಗಾತ್ರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ"
 
-#: src/components/storage/InstallationDestination.jsx:389
+#: src/components/storage/InstallationDestination.jsx:151
 #, fuzzy
-msgid "Rescan"
-msgstr "ಪಾರುಗಾಣಿಸು"
+#| msgid "Configure device %s"
+msgid "Rescan devices"
+msgstr "%s ಸಾಧನವನ್ನು ಸಂರಚಿಸಿ"
 
-#: src/components/storage/InstallationDestination.jsx:368
+#: src/components/storage/InstallationDestination.jsx:132
 msgid "Rescanning of the disks failed."
 msgstr ""
 
@@ -854,15 +853,22 @@ msgstr "ಉಳಿಸು (_S)"
 msgid "Scan the QR code with your phone or visit:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:299
+#: src/components/storage/InstallationDestination.jsx:354
+#, fuzzy
+#| msgctxt "GUI|Custom Partitioning|Configure Dialog"
+#| msgid "_Select"
+msgid "Select"
+msgstr "ಆರಿಸು (_S)"
+
+#: src/components/storage/MountPointMapping.jsx:309
 #, fuzzy
 msgid "Select a device"
 msgstr "ಆಯ್ಕೆ ಮಾಡಿದ ಸಾಧನ"
 
-#: src/components/storage/InstallationDestination.jsx:219
+#: src/components/storage/InstallationDestination.jsx:348
 #, fuzzy
-msgid "Select a disk"
-msgstr "ಆಯ್ಕೆ ಮಾಡಿದ ಸಾಧನ"
+msgid "Select destination"
+msgstr "ವಿವರಣೆ"
 
 #: src/components/storage/MountPointMapping.jsx:124
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -911,7 +917,7 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:123
+#: src/components/storage/InstallationScenario.jsx:124
 msgid "Some required partitions are missing: $0"
 msgstr ""
 
@@ -987,27 +993,13 @@ msgid ""
 "software. "
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:505
-msgid "The following disk is no longer available: $0"
-msgid_plural "The following disks are no longer available: $0"
-msgstr[0] ""
-msgstr[1] ""
-
-#: src/components/storage/InstallationDestination.jsx:488
-#, fuzzy
-#| msgid "The following mandatory spokes are not completed:"
-msgid "The following disk was detected: $0"
-msgid_plural "The following disks were detected: $0"
-msgstr[0] "ಈ ಕೆಳಗಿನ ಕಡ್ಡಾಯ ಸ್ಪೋಕ್‌ಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಲಾಗಿದೆ:"
-msgstr[1] "ಈ ಕೆಳಗಿನ ಕಡ್ಡಾಯ ಸ್ಪೋಕ್‌ಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಲಾಗಿದೆ:"
-
 #: src/components/Error.jsx:267
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
 "provide additional details."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:66
+#: src/components/storage/InstallationScenario.jsx:67
 msgid "The installation needs $1 of disk space; "
 msgstr ""
 
@@ -1028,11 +1020,6 @@ msgstr ""
 #: src/components/storage/CockpitStorageIntegration.jsx:140
 msgid "The storage editor lets you resize, delete, and create partitions. "
 msgstr ""
-
-#: src/components/storage/InstallationDestination.jsx:480
-#, fuzzy
-msgid "The usable disks have changed"
-msgstr "ಯಾವುದೆ ಡಿಸ್ಕುಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ"
 
 #: src/components/users/Accounts.jsx:202
 msgid "This account will have administration privilege with sudo."
@@ -1067,7 +1054,7 @@ msgid "To continue, select the devices to install to."
 msgstr ""
 "ಯಾವುದೆ ಡಿಸ್ಕುಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ. ಅನುಸ್ಥಾಪಿಸಲು ದಯವಿಟ್ಟು ಒಂದು ಡಿಸ್ಕನ್ನು ಆಯ್ಕೆ ಮಾಡಿ."
 
-#: src/components/storage/InstallationScenario.jsx:87
+#: src/components/storage/InstallationScenario.jsx:88
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -1100,12 +1087,12 @@ msgstr "%s ಸಾಧನವನ್ನು ಸಂರಚಿಸಿ"
 msgid "Unlock encrypted devices"
 msgstr "ಆಯ್ಕೆ ಮಾಡಿದ ಸಾಧನ"
 
-#: src/components/storage/InstallationScenario.jsx:246
+#: src/components/storage/InstallationScenario.jsx:247
 #, fuzzy
 msgid "Use configured storage"
 msgstr "ಶೇಖರಣಾ ವಿನ್ಯಾಸವನ್ನು ಮಾರ್ಪಡಿಸು (_M)"
 
-#: src/components/storage/InstallationScenario.jsx:226
+#: src/components/storage/InstallationScenario.jsx:227
 #, fuzzy
 msgid "Use free space for the installation"
 msgstr "ಅನುಸ್ಥಾಪನಾ ಆಕರವನ್ನು ಸಿದ್ಧಗೊಳಿಸುವಲ್ಲಿ ವಿಫಲತೆ"
@@ -1225,6 +1212,41 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:348
 msgid "undo"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Current selections"
+#~ msgstr "ತಂತ್ರಾಂಶದ ಆಯ್ಕೆ"
+
+#, fuzzy
+#~ msgid "Installing to $0 ($1)"
+#~ msgstr "%s ಅನುಸ್ಥಾಪಿಸಲಾಗುತ್ತಿದೆ"
+
+#, fuzzy
+#~ msgid "No additional disks detected"
+#~ msgstr "ಯಾವುದೆ ಡಿಸ್ಕುಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ"
+
+#, fuzzy
+#~ msgid "No usable disks detected"
+#~ msgstr "ಯಾವುದೆ ಡಿಸ್ಕುಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ"
+
+#, fuzzy
+#~ msgid "Rescan"
+#~ msgstr "ಪಾರುಗಾಣಿಸು"
+
+#, fuzzy
+#~ msgid "Select a disk"
+#~ msgstr "ಆಯ್ಕೆ ಮಾಡಿದ ಸಾಧನ"
+
+#, fuzzy
+#~| msgid "The following mandatory spokes are not completed:"
+#~ msgid "The following disk was detected: $0"
+#~ msgid_plural "The following disks were detected: $0"
+#~ msgstr[0] "ಈ ಕೆಳಗಿನ ಕಡ್ಡಾಯ ಸ್ಪೋಕ್‌ಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಲಾಗಿದೆ:"
+#~ msgstr[1] "ಈ ಕೆಳಗಿನ ಕಡ್ಡಾಯ ಸ್ಪೋಕ್‌ಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಲಾಗಿದೆ:"
+
+#, fuzzy
+#~ msgid "The usable disks have changed"
+#~ msgstr "ಯಾವುದೆ ಡಿಸ್ಕುಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ"
 
 #, fuzzy
 #~ msgid "Erase data and install?"
@@ -2657,9 +2679,6 @@ msgstr ""
 #~ msgstr ""
 #~ "ಯಾವುದೆ ಡಿಸ್ಕುಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಗಣಕವನ್ನು ಸ್ಥಗಿತಗೊಳಿಸಿ, ಕನಿಷ್ಟ "
 #~ "ಒಂದು ಡಿಸ್ಕನ್ನು ಜೋಡಿಸಿ ನಂತರ ಅನುಸ್ಥಾಪನೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ."
-
-#~ msgid "No disks selected"
-#~ msgstr "ಯಾವುದೆ ಡಿಸ್ಕುಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ"
 
 #, fuzzy
 #~| msgid "No disks selected"
@@ -4601,10 +4620,6 @@ msgstr ""
 #~ msgid "_Save Passphrase"
 #~ msgstr "ಗುಪ್ತವಾಕ್ಯಾಂಶವನ್ನು ಉಳಿಸು (_S)"
 
-#~ msgctxt "GUI|Custom Partitioning|Configure Dialog"
-#~ msgid "_Select"
-#~ msgstr "ಆರಿಸು (_S)"
-
 #, fuzzy
 #~| msgctxt "GUI|Software Source"
 #~| msgid "_On the network:"
@@ -4715,11 +4730,6 @@ msgstr ""
 #~ msgid "malformed URL, cannot parse it."
 #~ msgstr "ತಪ್ಪಾದ URL, ಅದನ್ನು ಪಾರ್ಸ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ."
 
-#, fuzzy
-#~| msgid "Unavailable"
-#~ msgid "not available"
-#~ msgstr "ಲಭ್ಯವಿಲ್ಲ"
-
 #~ msgid "part --noformat must also use the --onpart option."
 #~ msgstr "part --noformat ಎನ್ನುವುದು --onpart= ಆಯ್ಕೆಯನ್ನೂ ಸಹ ಬಳಸುತ್ತಿರಬೇಕು."
 
@@ -4731,11 +4741,6 @@ msgstr ""
 
 #~ msgid "testing status..."
 #~ msgstr "ಸ್ಥಿತಿಯನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ..."
-
-#, fuzzy
-#~| msgid "Configure device %s"
-#~ msgid "to rescan devices"
-#~ msgstr "%s ಸಾಧನವನ್ನು ಸಂರಚಿಸಿ"
 
 #, fuzzy
 #~| msgid "Unknown"

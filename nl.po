@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-19 03:01+0000\n"
+"POT-Creation-Date: 2024-09-20 03:01+0000\n"
 "PO-Revision-Date: 2023-11-06 12:20+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/anaconda-"
@@ -46,6 +46,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.1.1\n"
+
+#: src/components/storage/InstallationDestination.jsx:178
+#: src/components/storage/InstallationDestination.jsx:311
+msgid "$0 $1"
+msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:198
+#: src/components/storage/InstallationDestination.jsx:304
+msgid "$0 ($1)"
+msgstr ""
 
 #: src/components/app.jsx:76
 msgid "$0 installation"
@@ -89,7 +99,7 @@ msgstr "_Account"
 msgid "Actions"
 msgstr "Actie"
 
-#: src/components/storage/MountPointMapping.jsx:606
+#: src/components/storage/MountPointMapping.jsx:616
 msgid "Add mount"
 msgstr "Aankoppeling toevoegen"
 
@@ -125,13 +135,9 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Anaconda projectpagina"
 
-#: src/components/storage/InstallationScenario.jsx:228
+#: src/components/storage/InstallationScenario.jsx:229
 msgid "Apply mount point assignment and install"
 msgstr "Aankoppelpunttoewijzing toepassen en installeren"
-
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Applying new disk selection..."
-msgstr "Nieuwe schijfselectie toepassen..."
 
 #: src/components/storage/ReclaimSpaceModal.jsx:208
 msgid "Available free space: $0. Installation requires: $1."
@@ -154,6 +160,7 @@ msgstr ""
 "eventuele bugs of problemen te melden om dit werk te verbeteren."
 
 #: src/components/storage/CockpitStorageIntegration.jsx:134
+#: src/components/storage/InstallationDestination.jsx:357
 #: src/components/storage/ReclaimSpaceModal.jsx:219
 #: src/components/review/Hostname.jsx:106 src/components/Error.jsx:259
 msgid "Cancel"
@@ -165,6 +172,12 @@ msgstr "Annuleren"
 #| msgid "_Save Changes"
 msgid "Change"
 msgstr "_Sla de veranderingen op"
+
+#: src/components/storage/InstallationDestination.jsx:342
+#, fuzzy
+#| msgid "Destination"
+msgid "Change destination"
+msgstr "Bestemming"
 
 #: src/components/review/Hostname.jsx:113
 #, fuzzy
@@ -191,11 +204,8 @@ msgstr "Kies een taal"
 msgid "Chosen language: "
 msgstr "Gekozen taal: "
 
-#: src/components/storage/InstallationDestination.jsx:240
-msgid "Clear input value"
-msgstr "Invoerwaarde wissen"
-
 #: src/components/storage/EncryptedDevices.jsx:164
+#: src/components/storage/InstallationDestination.jsx:362
 msgid "Close"
 msgstr "Sluiten"
 
@@ -260,9 +270,11 @@ msgstr "Root-account vergrendelen"
 msgid "Critical error"
 msgstr "Kritische fout"
 
-#: src/components/storage/InstallationDestination.jsx:223
-msgid "Current selections"
-msgstr "Huidige selecties"
+#: src/components/storage/InstallationDestination.jsx:101
+#, fuzzy
+#| msgid "Current host name:"
+msgid "Currently installed: $0"
+msgstr "Huidige hostnaam:"
 
 #: src/components/storage/MountPointMapping.jsx:246
 msgid "Custom"
@@ -272,7 +284,7 @@ msgstr "Aangepast"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:407
+#: src/components/storage/InstallationDestination.jsx:286
 msgid "Destination"
 msgstr "Bestemming"
 
@@ -280,7 +292,7 @@ msgstr "Bestemming"
 msgid "Detected valid storage layout:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:582
+#: src/components/storage/MountPointMapping.jsx:592
 #: src/components/review/StorageReview.jsx:192
 msgid "Device"
 msgstr "Apparaat"
@@ -299,7 +311,7 @@ msgstr "Schijfconfiguratie"
 msgid "Disk encryption"
 msgstr "Schijfversleuteling"
 
-#: src/components/storage/MountPointMapping.jsx:350
+#: src/components/storage/MountPointMapping.jsx:360
 msgid "Duplicate device."
 msgstr "Dupliceer apparaat."
 
@@ -338,8 +350,8 @@ msgstr ""
 "Versleuteling helpt bij het beveiligen van je gegevens, om te voorkomen dat "
 "anderen er toegang toe krijgen."
 
-#: src/components/storage/InstallationScenario.jsx:206
-#: src/components/storage/InstallationScenario.jsx:214
+#: src/components/storage/InstallationScenario.jsx:207
+#: src/components/storage/InstallationScenario.jsx:215
 msgid "Erase data and install"
 msgstr "Data wissen en installeren"
 
@@ -398,7 +410,7 @@ msgstr "Verberg wachtwoord"
 msgid "Hostname"
 msgstr "Hostnaam"
 
-#: src/components/storage/InstallationScenario.jsx:407
+#: src/components/storage/InstallationScenario.jsx:408
 msgid "How would you like to install?"
 msgstr "Hoe wil je installeren?"
 
@@ -443,8 +455,8 @@ msgstr "Bezig"
 msgid "Initializing..."
 msgstr "Bezig met installleren."
 
-#: src/components/storage/InstallationScenario.jsx:217
-#: src/components/storage/InstallationScenario.jsx:238
+#: src/components/storage/InstallationScenario.jsx:218
+#: src/components/storage/InstallationScenario.jsx:239
 msgid "Install"
 msgstr "Installeren"
 
@@ -467,10 +479,6 @@ msgstr "Installatietype"
 #: src/components/installation/InstallationProgress.jsx:158
 msgid "Installing"
 msgstr "Installeren"
-
-#: src/components/storage/InstallationDestination.jsx:426
-msgid "Installing to $0 ($1)"
-msgstr "Bezig met installeren naar $0 ($1)"
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
 msgid "Keep current disk layout and only install into available space."
@@ -499,11 +507,11 @@ msgstr "Vergrendelde apparaten"
 msgid "Log"
 msgstr "Logboek"
 
-#: src/components/storage/MountPointMapping.jsx:762
+#: src/components/storage/MountPointMapping.jsx:772
 msgid "Manual disk configuration"
 msgstr "Handmatige schijfconfiguratie"
 
-#: src/components/storage/MountPointMapping.jsx:764
+#: src/components/storage/MountPointMapping.jsx:774
 msgid "Manual disk configuration: Mount point mapping"
 msgstr "Handmatige schijfconfiguratie: aankoppelpunttoewijzing"
 
@@ -530,13 +538,13 @@ msgstr ""
 msgid "Modify storage"
 msgstr "Wijzigen opslag"
 
-#: src/components/storage/MountPointMapping.jsx:581
+#: src/components/storage/MountPointMapping.jsx:591
 #: src/components/review/StorageReview.jsx:191
 msgid "Mount point"
 msgstr "Koppelpunt"
 
-#: src/components/storage/InstallationScenario.jsx:236
-#: src/components/storage/MountPointMapping.jsx:579
+#: src/components/storage/InstallationScenario.jsx:237
+#: src/components/storage/MountPointMapping.jsx:589
 msgid "Mount point assignment"
 msgstr "Aankoppelpunttoewijzing"
 
@@ -567,33 +575,34 @@ msgstr ""
 msgid "Next"
 msgstr "Volgende"
 
-#: src/components/storage/InstallationDestination.jsx:473
-msgid "No additional disks detected"
-msgstr "Geen extra schijven gedetecteerd"
-
-#: src/components/storage/MountPointMapping.jsx:586
+#: src/components/storage/MountPointMapping.jsx:596
 #: src/components/storage/ReclaimSpaceModal.jsx:156
 msgid "No devices"
 msgstr "Geen apparaten"
 
-#: src/components/storage/InstallationDestination.jsx:121
+#: src/components/storage/InstallationDestination.jsx:160
+#, fuzzy
+#| msgid "not available"
+msgid "No disks available"
+msgstr "niet beschikbaar"
+
+#: src/components/storage/InstallationDestination.jsx:297
+msgid "No disks selected"
+msgstr "Geen schijven geselecteerd"
+
 #: src/components/localization/InstallationLanguage.jsx:192
 msgid "No results found"
 msgstr "Geen resultaten gevonden"
 
-#: src/components/storage/InstallationScenario.jsx:120
+#: src/components/storage/InstallationScenario.jsx:121
 msgid "No usable devices on the selected disks."
 msgstr "Geen bruikbare apparaten op de geselecteerde schijven."
 
-#: src/components/storage/InstallationDestination.jsx:436
-msgid "No usable disks detected"
-msgstr "Geen bruikbare schijven gedetecteerd"
-
-#: src/components/storage/InstallationScenario.jsx:85
+#: src/components/storage/InstallationScenario.jsx:86
 msgid "Not enough free space on the selected disks."
 msgstr "Onvoldoende vrije ruimte op de geselecteerde schijven."
 
-#: src/components/storage/InstallationScenario.jsx:64
+#: src/components/storage/InstallationScenario.jsx:65
 msgid "Not enough space on selected disks."
 msgstr "Onvoldoende ruimte op de geselecteerde schijven."
 
@@ -681,10 +690,6 @@ msgstr "Afsluiten"
 msgid "Quit installer?"
 msgstr "Installatieprogramma afsluiten?"
 
-#: src/components/storage/InstallationDestination.jsx:380
-msgid "Re-scan"
-msgstr "Opnieuw scannen"
-
 #: src/components/app.jsx:113
 #, fuzzy
 #| msgid "Reading information about the computer failed."
@@ -730,7 +735,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "Systeem herstarten?"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 #, fuzzy
 #| msgctxt "GUI|Reclaim Dialog"
 #| msgid "_Reclaim space"
@@ -746,7 +751,7 @@ msgstr "Terug_vorderen ruimte"
 msgid "Reclaim space"
 msgstr "Terug_vorderen ruimte"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 #, fuzzy
 #| msgctxt "GUI|Reclaim Dialog"
 #| msgid "_Reclaim space"
@@ -761,12 +766,12 @@ msgstr ""
 msgid "Recommended partitions:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:370
-#: src/components/storage/MountPointMapping.jsx:583
+#: src/components/storage/MountPointMapping.jsx:380
+#: src/components/storage/MountPointMapping.jsx:593
 msgid "Reformat"
 msgstr "Formatteer opnieuw"
 
-#: src/components/storage/MountPointMapping.jsx:397
+#: src/components/storage/MountPointMapping.jsx:407
 msgid "Remove"
 msgstr "Verwijderen"
 
@@ -817,11 +822,13 @@ msgstr "Vereist"
 msgid "Requirements"
 msgstr "Vereist"
 
-#: src/components/storage/InstallationDestination.jsx:389
-msgid "Rescan"
-msgstr "Opnieuw scannen"
+#: src/components/storage/InstallationDestination.jsx:151
+#, fuzzy
+#| msgid "to rescan devices"
+msgid "Rescan devices"
+msgstr "scan apparaten opnieuw"
 
-#: src/components/storage/InstallationDestination.jsx:368
+#: src/components/storage/InstallationDestination.jsx:132
 msgid "Rescanning of the disks failed."
 msgstr "Het opnieuw scannen van de schijven mislukte."
 
@@ -863,13 +870,22 @@ msgstr "_Opslaan"
 msgid "Scan the QR code with your phone or visit:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:299
+#: src/components/storage/InstallationDestination.jsx:354
+#, fuzzy
+#| msgctxt "GUI|Custom Partitioning|Configure Dialog"
+#| msgid "_Select"
+msgid "Select"
+msgstr "_Selecteren"
+
+#: src/components/storage/MountPointMapping.jsx:309
 msgid "Select a device"
 msgstr "Selecteer een apparaat"
 
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Select a disk"
-msgstr "Selecteer een schijf"
+#: src/components/storage/InstallationDestination.jsx:348
+#, fuzzy
+#| msgid "Destination"
+msgid "Select destination"
+msgstr "Bestemming"
 
 #: src/components/storage/MountPointMapping.jsx:124
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -920,7 +936,7 @@ msgstr ""
 "Software-installatie: Opslagconfiguratie voltooid. De software wordt nu op "
 "je apparaat geïnstalleerd."
 
-#: src/components/storage/InstallationScenario.jsx:123
+#: src/components/storage/InstallationScenario.jsx:124
 msgid "Some required partitions are missing: $0"
 msgstr ""
 
@@ -996,20 +1012,6 @@ msgstr ""
 "De geselecteerde taal wordt gebruikt voor de installatie en in de "
 "geïnstalleerde software. "
 
-#: src/components/storage/InstallationDestination.jsx:505
-msgid "The following disk is no longer available: $0"
-msgid_plural "The following disks are no longer available: $0"
-msgstr[0] ""
-msgstr[1] ""
-
-#: src/components/storage/InstallationDestination.jsx:488
-#, fuzzy
-#| msgid "The following mandatory spokes are not completed:"
-msgid "The following disk was detected: $0"
-msgid_plural "The following disks were detected: $0"
-msgstr[0] "De volgende verplichte spaken zijn niet afgemaakt:"
-msgstr[1] "De volgende verplichte spaken zijn niet afgemaakt:"
-
 #: src/components/Error.jsx:267
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
@@ -1018,7 +1020,7 @@ msgstr ""
 "Het volgende logboek wordt naar het probleemvolgsysteem verzonden, waar je "
 "aanvullende details kunt verstrekken."
 
-#: src/components/storage/InstallationScenario.jsx:66
+#: src/components/storage/InstallationScenario.jsx:67
 msgid "The installation needs $1 of disk space; "
 msgstr "De installatie heeft $1 schijfruimte nodig; "
 
@@ -1049,12 +1051,6 @@ msgstr ""
 "Blivet-gui is een geavanceerde opslageditor waarmee je partities kunt "
 "vergroten of verkleinen, verwijderen en aanmaken. Het kan LVM instellen en "
 "nog veel meer."
-
-#: src/components/storage/InstallationDestination.jsx:480
-#, fuzzy
-#| msgid "No usable disks detected"
-msgid "The usable disks have changed"
-msgstr "Geen bruikbare schijven gedetecteerd"
 
 #: src/components/users/Accounts.jsx:202
 msgid "This account will have administration privilege with sudo."
@@ -1087,7 +1083,7 @@ msgid "To continue, select the devices to install to."
 msgstr ""
 "Selecteer de apparaten waarop je wilt installeren om door te kunnen gaan."
 
-#: src/components/storage/InstallationScenario.jsx:87
+#: src/components/storage/InstallationScenario.jsx:88
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -1119,13 +1115,13 @@ msgstr "Ontgrendel apparaten"
 msgid "Unlock encrypted devices"
 msgstr "Ontgrendel versleutelde apparaten"
 
-#: src/components/storage/InstallationScenario.jsx:246
+#: src/components/storage/InstallationScenario.jsx:247
 #, fuzzy
 #| msgid "Configuring storage"
 msgid "Use configured storage"
 msgstr "Configuratie-opslag"
 
-#: src/components/storage/InstallationScenario.jsx:226
+#: src/components/storage/InstallationScenario.jsx:227
 msgid "Use free space for the installation"
 msgstr "Gebruik vrije ruimte voor de installatie"
 
@@ -1243,6 +1239,45 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:348
 msgid "undo"
 msgstr ""
+
+#~ msgid "Applying new disk selection..."
+#~ msgstr "Nieuwe schijfselectie toepassen..."
+
+#~ msgid "Clear input value"
+#~ msgstr "Invoerwaarde wissen"
+
+#~ msgid "Current selections"
+#~ msgstr "Huidige selecties"
+
+#~ msgid "Installing to $0 ($1)"
+#~ msgstr "Bezig met installeren naar $0 ($1)"
+
+#~ msgid "No additional disks detected"
+#~ msgstr "Geen extra schijven gedetecteerd"
+
+#~ msgid "No usable disks detected"
+#~ msgstr "Geen bruikbare schijven gedetecteerd"
+
+#~ msgid "Re-scan"
+#~ msgstr "Opnieuw scannen"
+
+#~ msgid "Rescan"
+#~ msgstr "Opnieuw scannen"
+
+#~ msgid "Select a disk"
+#~ msgstr "Selecteer een schijf"
+
+#, fuzzy
+#~| msgid "The following mandatory spokes are not completed:"
+#~ msgid "The following disk was detected: $0"
+#~ msgid_plural "The following disks were detected: $0"
+#~ msgstr[0] "De volgende verplichte spaken zijn niet afgemaakt:"
+#~ msgstr[1] "De volgende verplichte spaken zijn niet afgemaakt:"
+
+#, fuzzy
+#~| msgid "No usable disks detected"
+#~ msgid "The usable disks have changed"
+#~ msgstr "Geen bruikbare schijven gedetecteerd"
 
 #~ msgid "Some devices use the same name: $0."
 #~ msgstr "Sommige apparaten gebruiken dezelfde naam: $0."
@@ -2383,9 +2418,6 @@ msgstr ""
 
 #~ msgid "Creating users"
 #~ msgstr "Aanmaken gebruikers"
-
-#~ msgid "Current host name:"
-#~ msgstr "Huidige hostnaam:"
 
 #, python-format
 #~ msgid "Current host name: %s\n"
@@ -3591,9 +3623,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Geen schijven ontdekt.  Zet de computer uit, verbind tenminste één schijf "
 #~ "en start de installatie opnieuw op."
-
-#~ msgid "No disks selected"
-#~ msgstr "Geen schijven geselecteerd"
 
 #~ msgid "No disks selected."
 #~ msgstr "Geen schijven geselecteerd."
@@ -6781,10 +6810,6 @@ msgstr ""
 #~ msgid "_Sector size:"
 #~ msgstr "_Sectorgrootte:"
 
-#~ msgctxt "GUI|Custom Partitioning|Configure Dialog"
-#~ msgid "_Select"
-#~ msgstr "_Selecteren"
-
 #~ msgctxt "GUI|Network|Wireless"
 #~ msgid "_Select network"
 #~ msgstr "_Selecteer netwerk"
@@ -7006,9 +7031,6 @@ msgstr ""
 #~ msgid "none"
 #~ msgstr "geen"
 
-#~ msgid "not available"
-#~ msgstr "niet beschikbaar"
-
 #~ msgid "not configured"
 #~ msgstr "niet geconfigureerd"
 
@@ -7048,9 +7070,6 @@ msgstr ""
 
 #~ msgid "to go back to region list"
 #~ msgstr "terug naar de regiolijst"
-
-#~ msgid "to rescan devices"
-#~ msgstr "scan apparaten opnieuw"
 
 #~ msgid "to return to language list"
 #~ msgstr "om terug te gaan naar de taallijst"

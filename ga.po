@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-19 03:01+0000\n"
+"POT-Creation-Date: 2024-09-20 03:01+0000\n"
 "PO-Revision-Date: 2024-08-14 02:46+0000\n"
 "Last-Translator: Aindriu Mac Giolla Eoin <aindriu80@gmail.com>\n"
 "Language-Team: Irish <https://translate.fedoraproject.org/projects/anaconda-"
@@ -17,6 +17,16 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4);\n"
 "X-Generator: Weblate 5.6.2\n"
+
+#: src/components/storage/InstallationDestination.jsx:178
+#: src/components/storage/InstallationDestination.jsx:311
+msgid "$0 $1"
+msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:198
+#: src/components/storage/InstallationDestination.jsx:304
+msgid "$0 ($1)"
+msgstr ""
 
 #: src/components/app.jsx:76
 msgid "$0 installation"
@@ -51,7 +61,7 @@ msgstr "Cuntas"
 msgid "Actions"
 msgstr "Gníomhartha"
 
-#: src/components/storage/MountPointMapping.jsx:606
+#: src/components/storage/MountPointMapping.jsx:616
 msgid "Add mount"
 msgstr "Cuir mount"
 
@@ -88,13 +98,9 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Leathanach tionscadail Anaconda"
 
-#: src/components/storage/InstallationScenario.jsx:228
+#: src/components/storage/InstallationScenario.jsx:229
 msgid "Apply mount point assignment and install"
 msgstr "Cuir sannadh pointe mount i bhfeidhm agus suiteáil"
-
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Applying new disk selection..."
-msgstr "Roghnú diosca nua á chur i bhfeidhm..."
 
 #: src/components/storage/ReclaimSpaceModal.jsx:208
 msgid "Available free space: $0. Installation requires: $1."
@@ -118,6 +124,7 @@ msgstr ""
 "obair seo a fheabhsú."
 
 #: src/components/storage/CockpitStorageIntegration.jsx:134
+#: src/components/storage/InstallationDestination.jsx:357
 #: src/components/storage/ReclaimSpaceModal.jsx:219
 #: src/components/review/Hostname.jsx:106 src/components/Error.jsx:259
 msgid "Cancel"
@@ -126,6 +133,12 @@ msgstr "Cealaigh"
 #: src/components/review/Hostname.jsx:104
 msgid "Change"
 msgstr "Athrú"
+
+#: src/components/storage/InstallationDestination.jsx:342
+#, fuzzy
+#| msgid "Destination"
+msgid "Change destination"
+msgstr "Ceann Scríbe"
 
 #: src/components/review/Hostname.jsx:113
 msgid "Change hostname"
@@ -152,11 +165,8 @@ msgstr "Roghnaigh teanga"
 msgid "Chosen language: "
 msgstr "Teanga roghnaithe: "
 
-#: src/components/storage/InstallationDestination.jsx:240
-msgid "Clear input value"
-msgstr "Luach ionchuir soiléir"
-
 #: src/components/storage/EncryptedDevices.jsx:164
+#: src/components/storage/InstallationDestination.jsx:362
 msgid "Close"
 msgstr "Dún"
 
@@ -212,9 +222,11 @@ msgstr "Cruthaigh cuntas"
 msgid "Critical error"
 msgstr "Earráid chriticiúil"
 
-#: src/components/storage/InstallationDestination.jsx:223
-msgid "Current selections"
-msgstr "Roghanna reatha"
+#: src/components/storage/InstallationDestination.jsx:101
+#, fuzzy
+#| msgid "Successfully installed"
+msgid "Currently installed: $0"
+msgstr "Suiteáilte go rathúil"
 
 #: src/components/storage/MountPointMapping.jsx:246
 msgid "Custom"
@@ -225,7 +237,7 @@ msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 "Má scriostar deighiltí áirithe b'fhéidir go gcuirfí bac ar $0 a bhrú: $1"
 
-#: src/components/storage/InstallationDestination.jsx:407
+#: src/components/storage/InstallationDestination.jsx:286
 msgid "Destination"
 msgstr "Ceann Scríbe"
 
@@ -233,7 +245,7 @@ msgstr "Ceann Scríbe"
 msgid "Detected valid storage layout:"
 msgstr "Braitheadh leagan amach bailí stórála:"
 
-#: src/components/storage/MountPointMapping.jsx:582
+#: src/components/storage/MountPointMapping.jsx:592
 #: src/components/review/StorageReview.jsx:192
 msgid "Device"
 msgstr "Gléas"
@@ -250,7 +262,7 @@ msgstr "Cumraíocht diosca"
 msgid "Disk encryption"
 msgstr "Criptiú diosca"
 
-#: src/components/storage/MountPointMapping.jsx:350
+#: src/components/storage/MountPointMapping.jsx:360
 msgid "Duplicate device."
 msgstr "Gléas dúblach."
 
@@ -284,8 +296,8 @@ msgstr ""
 "Cuidíonn criptiú le do shonraí a dhaingniú, chun daoine eile a chosc ó "
 "rochtain a fháil orthu."
 
-#: src/components/storage/InstallationScenario.jsx:206
-#: src/components/storage/InstallationScenario.jsx:214
+#: src/components/storage/InstallationScenario.jsx:207
+#: src/components/storage/InstallationScenario.jsx:215
 msgid "Erase data and install"
 msgstr "Scrios sonraí agus suiteáil"
 
@@ -342,7 +354,7 @@ msgstr "Folaigh pasfhocal"
 msgid "Hostname"
 msgstr "Óstainm"
 
-#: src/components/storage/InstallationScenario.jsx:407
+#: src/components/storage/InstallationScenario.jsx:408
 msgid "How would you like to install?"
 msgstr "Conas ba mhaith leat a shuiteáil?"
 
@@ -389,8 +401,8 @@ msgstr "Ar siúl"
 msgid "Initializing..."
 msgstr "Ag tosú..."
 
-#: src/components/storage/InstallationScenario.jsx:217
-#: src/components/storage/InstallationScenario.jsx:238
+#: src/components/storage/InstallationScenario.jsx:218
+#: src/components/storage/InstallationScenario.jsx:239
 msgid "Install"
 msgstr "Suiteáil"
 
@@ -413,10 +425,6 @@ msgstr "Cineál suiteála"
 #: src/components/installation/InstallationProgress.jsx:158
 msgid "Installing"
 msgstr "Suiteáil"
-
-#: src/components/storage/InstallationDestination.jsx:426
-msgid "Installing to $0 ($1)"
-msgstr "Suiteáil ar $0 ($1)"
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
 msgid "Keep current disk layout and only install into available space."
@@ -444,11 +452,11 @@ msgstr "Gléasanna faoi ghlas"
 msgid "Log"
 msgstr "Loga"
 
-#: src/components/storage/MountPointMapping.jsx:762
+#: src/components/storage/MountPointMapping.jsx:772
 msgid "Manual disk configuration"
 msgstr "Cumraíocht diosca láimhe"
 
-#: src/components/storage/MountPointMapping.jsx:764
+#: src/components/storage/MountPointMapping.jsx:774
 msgid "Manual disk configuration: Mount point mapping"
 msgstr "Cumraíocht diosca láimhe: mount mapáil pointe"
 
@@ -475,13 +483,13 @@ msgstr ""
 msgid "Modify storage"
 msgstr "Stóráil a mhodhnú"
 
-#: src/components/storage/MountPointMapping.jsx:581
+#: src/components/storage/MountPointMapping.jsx:591
 #: src/components/review/StorageReview.jsx:191
 msgid "Mount point"
 msgstr "Pointe gléasta"
 
-#: src/components/storage/InstallationScenario.jsx:236
-#: src/components/storage/MountPointMapping.jsx:579
+#: src/components/storage/InstallationScenario.jsx:237
+#: src/components/storage/MountPointMapping.jsx:589
 msgid "Mount point assignment"
 msgstr "Suiteáil pointe sannadh"
 
@@ -510,33 +518,34 @@ msgstr ""
 msgid "Next"
 msgstr "Ar aghaidh"
 
-#: src/components/storage/InstallationDestination.jsx:473
-msgid "No additional disks detected"
-msgstr "Níor aimsíodh dioscaí breise"
-
-#: src/components/storage/MountPointMapping.jsx:586
+#: src/components/storage/MountPointMapping.jsx:596
 #: src/components/storage/ReclaimSpaceModal.jsx:156
 msgid "No devices"
 msgstr "Gan feistí"
 
-#: src/components/storage/InstallationDestination.jsx:121
+#: src/components/storage/InstallationDestination.jsx:160
+msgid "No disks available"
+msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:297
+#, fuzzy
+#| msgid "No usable disks detected"
+msgid "No disks selected"
+msgstr "Níor aimsíodh aon dioscaí inúsáidte"
+
 #: src/components/localization/InstallationLanguage.jsx:192
 msgid "No results found"
 msgstr "Níor aimsíodh aon torthaí"
 
-#: src/components/storage/InstallationScenario.jsx:120
+#: src/components/storage/InstallationScenario.jsx:121
 msgid "No usable devices on the selected disks."
 msgstr "Níl aon ghléasanna inúsáidte ar na dioscaí roghnaithe."
 
-#: src/components/storage/InstallationDestination.jsx:436
-msgid "No usable disks detected"
-msgstr "Níor aimsíodh aon dioscaí inúsáidte"
-
-#: src/components/storage/InstallationScenario.jsx:85
+#: src/components/storage/InstallationScenario.jsx:86
 msgid "Not enough free space on the selected disks."
 msgstr "Níl go leor spáis saor in aisce ar na dioscaí roghnaithe."
 
-#: src/components/storage/InstallationScenario.jsx:64
+#: src/components/storage/InstallationScenario.jsx:65
 msgid "Not enough space on selected disks."
 msgstr "Níl go leor spáis ar dhioscaí roghnaithe."
 
@@ -620,10 +629,6 @@ msgstr "Scoir"
 msgid "Quit installer?"
 msgstr "An bhfuil fonn ort an suiteálaí a scor?"
 
-#: src/components/storage/InstallationDestination.jsx:380
-msgid "Re-scan"
-msgstr "Athscanadh"
-
 #: src/components/app.jsx:113
 msgid "Reading information about the OS failed."
 msgstr "Theip ar léamh faisnéise faoin OS."
@@ -668,7 +673,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "Atosaigh an córas?"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 msgid "Reclaim additional space"
 msgstr "Íosluchtaigh spás breise"
 
@@ -678,7 +683,7 @@ msgstr "Íosluchtaigh spás breise"
 msgid "Reclaim space"
 msgstr "Faigh spás ar ais"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 msgid "Reclaim space (required)"
 msgstr "Faigh spás ar ais (riachtanach)"
 
@@ -690,12 +695,12 @@ msgstr "Molta"
 msgid "Recommended partitions:"
 msgstr "Deighiltí molta:"
 
-#: src/components/storage/MountPointMapping.jsx:370
-#: src/components/storage/MountPointMapping.jsx:583
+#: src/components/storage/MountPointMapping.jsx:380
+#: src/components/storage/MountPointMapping.jsx:593
 msgid "Reformat"
 msgstr "Athfhormáid"
 
-#: src/components/storage/MountPointMapping.jsx:397
+#: src/components/storage/MountPointMapping.jsx:407
 msgid "Remove"
 msgstr "Bain"
 
@@ -746,11 +751,13 @@ msgstr "Ag teastáil"
 msgid "Requirements"
 msgstr "Riachtanais"
 
-#: src/components/storage/InstallationDestination.jsx:389
-msgid "Rescan"
-msgstr "Athscanadh"
+#: src/components/storage/InstallationDestination.jsx:151
+#, fuzzy
+#| msgid "Configure device %s"
+msgid "Rescan devices"
+msgstr "Cumraigh gléas %s"
 
-#: src/components/storage/InstallationDestination.jsx:368
+#: src/components/storage/InstallationDestination.jsx:132
 msgid "Rescanning of the disks failed."
 msgstr "Theip ar athscanadh na dioscaí."
 
@@ -783,13 +790,22 @@ msgstr "Sábháil"
 msgid "Scan the QR code with your phone or visit:"
 msgstr "Scan an cód QR le do ghuthán nó tabhair cuairt ar:"
 
-#: src/components/storage/MountPointMapping.jsx:299
+#: src/components/storage/InstallationDestination.jsx:354
+#, fuzzy
+#| msgctxt "GUI|Custom Partitioning|Configure Dialog"
+#| msgid "_Select"
+msgid "Select"
+msgstr "_Roghnaigh"
+
+#: src/components/storage/MountPointMapping.jsx:309
 msgid "Select a device"
 msgstr "Roghnaigh gléas"
 
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Select a disk"
-msgstr "Roghnaigh diosca"
+#: src/components/storage/InstallationDestination.jsx:348
+#, fuzzy
+#| msgid "Destination"
+msgid "Select destination"
+msgstr "Ceann Scríbe"
 
 #: src/components/storage/MountPointMapping.jsx:124
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -835,7 +851,7 @@ msgstr ""
 "Suiteáil bogearraí: cumraíocht stórála críochnaithe. Tá na bogearraí á "
 "shuiteáil ar do ghléas anois."
 
-#: src/components/storage/InstallationScenario.jsx:123
+#: src/components/storage/InstallationScenario.jsx:124
 msgid "Some required partitions are missing: $0"
 msgstr "Tá roinnt deighiltí riachtanacha in easnamh: $0"
 
@@ -902,24 +918,6 @@ msgid ""
 msgstr ""
 "Úsáidfear an teanga roghnaithe don suiteáil agus sna bogearraí suiteáilte. "
 
-#: src/components/storage/InstallationDestination.jsx:505
-msgid "The following disk is no longer available: $0"
-msgid_plural "The following disks are no longer available: $0"
-msgstr[0] "Níl an diosca seo a leanas ar fáil a thuilleadh: $0"
-msgstr[1] "Níl an dioscaí seo a leanas ar fáil a thuilleadh: $0"
-msgstr[2] "Níl an dioscaí seo a leanas ar fáil a thuilleadh: $0"
-msgstr[3] "Níl an dioscaí seo a leanas ar fáil a thuilleadh: $0"
-msgstr[4] "Níl an dioscaí seo a leanas ar fáil a thuilleadh: $0"
-
-#: src/components/storage/InstallationDestination.jsx:488
-msgid "The following disk was detected: $0"
-msgid_plural "The following disks were detected: $0"
-msgstr[0] "Braitheadh an diosca seo a leanas: $0"
-msgstr[1] "Braitheadh an dioscaí seo a leanas: $0"
-msgstr[2] "Braitheadh an dioscaí seo a leanas: $0"
-msgstr[3] "Braitheadh an dioscaí seo a leanas: $0"
-msgstr[4] "Braitheadh an dioscaí seo a leanas: $0"
-
 #: src/components/Error.jsx:267
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
@@ -928,7 +926,7 @@ msgstr ""
 "Seolfar an logáil a leanas chuig an gcóras rianaithe eisiúna áit ar féidir "
 "leat sonraí breise a sholáthar."
 
-#: src/components/storage/InstallationScenario.jsx:66
+#: src/components/storage/InstallationScenario.jsx:67
 msgid "The installation needs $1 of disk space; "
 msgstr "Teastaíonn $1 de spás diosca don suiteáil; "
 
@@ -958,10 +956,6 @@ msgstr ""
 "Ligeann an t-eagarthóir stórála duit deighiltí a athrú, a scriosadh agus a "
 "chruthú. "
 
-#: src/components/storage/InstallationDestination.jsx:480
-msgid "The usable disks have changed"
-msgstr "Tá na dioscaí inúsáidte athraithe"
-
 #: src/components/users/Accounts.jsx:202
 msgid "This account will have administration privilege with sudo."
 msgstr "Beidh pribhléid riaracháin ag an gcuntas seo le sudo."
@@ -990,7 +984,7 @@ msgstr "Chun $0 a úsáid, atosaigh do chóras."
 msgid "To continue, select the devices to install to."
 msgstr "Chun leanúint ar aghaidh, roghnaigh na feistí a shuiteáil go."
 
-#: src/components/storage/InstallationScenario.jsx:87
+#: src/components/storage/InstallationScenario.jsx:88
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -1022,11 +1016,11 @@ msgstr "Díghlasáil feistí"
 msgid "Unlock encrypted devices"
 msgstr "Díghlasáil gléasanna criptithe"
 
-#: src/components/storage/InstallationScenario.jsx:246
+#: src/components/storage/InstallationScenario.jsx:247
 msgid "Use configured storage"
 msgstr "Úsáid stóras cumraithe"
 
-#: src/components/storage/InstallationScenario.jsx:226
+#: src/components/storage/InstallationScenario.jsx:227
 msgid "Use free space for the installation"
 msgstr "Úsáid spás saor in aisce don suiteáil"
 
@@ -1136,6 +1130,49 @@ msgstr "Laghdaigh go $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:348
 msgid "undo"
 msgstr "cealaigh"
+
+#~ msgid "Applying new disk selection..."
+#~ msgstr "Roghnú diosca nua á chur i bhfeidhm..."
+
+#~ msgid "Clear input value"
+#~ msgstr "Luach ionchuir soiléir"
+
+#~ msgid "Current selections"
+#~ msgstr "Roghanna reatha"
+
+#~ msgid "Installing to $0 ($1)"
+#~ msgstr "Suiteáil ar $0 ($1)"
+
+#~ msgid "No additional disks detected"
+#~ msgstr "Níor aimsíodh dioscaí breise"
+
+#~ msgid "Re-scan"
+#~ msgstr "Athscanadh"
+
+#~ msgid "Rescan"
+#~ msgstr "Athscanadh"
+
+#~ msgid "Select a disk"
+#~ msgstr "Roghnaigh diosca"
+
+#~ msgid "The following disk is no longer available: $0"
+#~ msgid_plural "The following disks are no longer available: $0"
+#~ msgstr[0] "Níl an diosca seo a leanas ar fáil a thuilleadh: $0"
+#~ msgstr[1] "Níl an dioscaí seo a leanas ar fáil a thuilleadh: $0"
+#~ msgstr[2] "Níl an dioscaí seo a leanas ar fáil a thuilleadh: $0"
+#~ msgstr[3] "Níl an dioscaí seo a leanas ar fáil a thuilleadh: $0"
+#~ msgstr[4] "Níl an dioscaí seo a leanas ar fáil a thuilleadh: $0"
+
+#~ msgid "The following disk was detected: $0"
+#~ msgid_plural "The following disks were detected: $0"
+#~ msgstr[0] "Braitheadh an diosca seo a leanas: $0"
+#~ msgstr[1] "Braitheadh an dioscaí seo a leanas: $0"
+#~ msgstr[2] "Braitheadh an dioscaí seo a leanas: $0"
+#~ msgstr[3] "Braitheadh an dioscaí seo a leanas: $0"
+#~ msgstr[4] "Braitheadh an dioscaí seo a leanas: $0"
+
+#~ msgid "The usable disks have changed"
+#~ msgstr "Tá na dioscaí inúsáidte athraithe"
 
 #~ msgid "Some devices use the same name: $0."
 #~ msgstr "Úsáideann roinnt gléasanna an t-ainm céanna: $0."
@@ -2053,10 +2090,6 @@ msgstr "cealaigh"
 #~ msgid "_Root Password:"
 #~ msgstr "Focal Faire an _Fhréamhúsáideora:"
 
-#~ msgctxt "GUI|Custom Partitioning|Configure Dialog"
-#~ msgid "_Select"
-#~ msgstr "_Roghnaigh"
-
 #, fuzzy
 #~| msgctxt "GUI|Software Source"
 #~| msgid "_On the network:"
@@ -2089,11 +2122,6 @@ msgstr "cealaigh"
 
 #~ msgid "summary"
 #~ msgstr "achoimre"
-
-#, fuzzy
-#~| msgid "Configure device %s"
-#~ msgid "to rescan devices"
-#~ msgstr "Cumraigh gléas %s"
 
 #, fuzzy
 #~| msgid "Unknown"

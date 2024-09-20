@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-19 03:01+0000\n"
+"POT-Creation-Date: 2024-09-20 03:01+0000\n"
 "PO-Revision-Date: 2024-02-11 02:42+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/"
@@ -17,6 +17,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.3.1\n"
+
+#: src/components/storage/InstallationDestination.jsx:178
+#: src/components/storage/InstallationDestination.jsx:311
+msgid "$0 $1"
+msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:198
+#: src/components/storage/InstallationDestination.jsx:304
+msgid "$0 ($1)"
+msgstr ""
 
 #: src/components/app.jsx:76
 msgid "$0 installation"
@@ -55,7 +65,7 @@ msgstr "Account"
 msgid "Actions"
 msgstr "Azion"
 
-#: src/components/storage/MountPointMapping.jsx:606
+#: src/components/storage/MountPointMapping.jsx:616
 msgid "Add mount"
 msgstr "Zonte pont di montaç"
 
@@ -91,13 +101,9 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Pagjine dal progjet Anaconda"
 
-#: src/components/storage/InstallationScenario.jsx:228
+#: src/components/storage/InstallationScenario.jsx:229
 msgid "Apply mount point assignment and install"
 msgstr "Apliche la assegnazion dal pont di montaç e instale"
-
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Applying new disk selection..."
-msgstr "Aplicazion de selezion dal gnûf disc..."
 
 #: src/components/storage/ReclaimSpaceModal.jsx:208
 msgid "Available free space: $0. Installation requires: $1."
@@ -120,6 +126,7 @@ msgstr ""
 "o probleme par podê miorâ chest lavôr."
 
 #: src/components/storage/CockpitStorageIntegration.jsx:134
+#: src/components/storage/InstallationDestination.jsx:357
 #: src/components/storage/ReclaimSpaceModal.jsx:219
 #: src/components/review/Hostname.jsx:106 src/components/Error.jsx:259
 msgid "Cancel"
@@ -131,6 +138,12 @@ msgstr "Anule"
 #| msgid "_Save Changes"
 msgid "Change"
 msgstr "_Salve modifichis"
+
+#: src/components/storage/InstallationDestination.jsx:342
+#, fuzzy
+#| msgid "Destination"
+msgid "Change destination"
+msgstr "Destinazion"
 
 #: src/components/review/Hostname.jsx:113
 #, fuzzy
@@ -159,11 +172,8 @@ msgstr "Sielç une lenghe"
 msgid "Chosen language: "
 msgstr "Lenghe sielte: "
 
-#: src/components/storage/InstallationDestination.jsx:240
-msgid "Clear input value"
-msgstr "Nete il valôr inserît"
-
 #: src/components/storage/EncryptedDevices.jsx:164
+#: src/components/storage/InstallationDestination.jsx:362
 msgid "Close"
 msgstr "Siere"
 
@@ -221,9 +231,11 @@ msgstr "Cree account"
 msgid "Critical error"
 msgstr "Erôr critic"
 
-#: src/components/storage/InstallationDestination.jsx:223
-msgid "Current selections"
-msgstr "Selezions atuâls"
+#: src/components/storage/InstallationDestination.jsx:101
+#, fuzzy
+#| msgid "Current host name:"
+msgid "Currently installed: $0"
+msgstr "Non host atuâl:"
 
 #: src/components/storage/MountPointMapping.jsx:246
 msgid "Custom"
@@ -233,7 +245,7 @@ msgstr "Personalizade"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:407
+#: src/components/storage/InstallationDestination.jsx:286
 msgid "Destination"
 msgstr "Destinazion"
 
@@ -241,7 +253,7 @@ msgstr "Destinazion"
 msgid "Detected valid storage layout:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:582
+#: src/components/storage/MountPointMapping.jsx:592
 #: src/components/review/StorageReview.jsx:192
 msgid "Device"
 msgstr "Dispositîf"
@@ -260,7 +272,7 @@ msgstr "Configurazion disc"
 msgid "Disk encryption"
 msgstr "Cifradure disc"
 
-#: src/components/storage/MountPointMapping.jsx:350
+#: src/components/storage/MountPointMapping.jsx:360
 msgid "Duplicate device."
 msgstr "Dispositîfs duplicât."
 
@@ -296,8 +308,8 @@ msgstr ""
 "La cifradure e jude a tignî al sigûr i tiei dâts, cussì di impedî a altris "
 "di doprâju."
 
-#: src/components/storage/InstallationScenario.jsx:206
-#: src/components/storage/InstallationScenario.jsx:214
+#: src/components/storage/InstallationScenario.jsx:207
+#: src/components/storage/InstallationScenario.jsx:215
 msgid "Erase data and install"
 msgstr "Scancele i dâts e instale"
 
@@ -356,7 +368,7 @@ msgstr "Plate password"
 msgid "Hostname"
 msgstr "Non host"
 
-#: src/components/storage/InstallationScenario.jsx:407
+#: src/components/storage/InstallationScenario.jsx:408
 msgid "How would you like to install?"
 msgstr "Cemût desideristu instalâ?"
 
@@ -400,8 +412,8 @@ msgstr "In cors"
 msgid "Initializing..."
 msgstr "Daûr a inizializâ..."
 
-#: src/components/storage/InstallationScenario.jsx:217
-#: src/components/storage/InstallationScenario.jsx:238
+#: src/components/storage/InstallationScenario.jsx:218
+#: src/components/storage/InstallationScenario.jsx:239
 msgid "Install"
 msgstr "Instale"
 
@@ -424,10 +436,6 @@ msgstr "Gjenar di instalazion"
 #: src/components/installation/InstallationProgress.jsx:158
 msgid "Installing"
 msgstr "Daûr a instalâ"
-
-#: src/components/storage/InstallationDestination.jsx:426
-msgid "Installing to $0 ($1)"
-msgstr "Instalazion su $0 ($1)"
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
 msgid "Keep current disk layout and only install into available space."
@@ -456,11 +464,11 @@ msgstr "Dispositîfs blocâts"
 msgid "Log"
 msgstr "Regjistri"
 
-#: src/components/storage/MountPointMapping.jsx:762
+#: src/components/storage/MountPointMapping.jsx:772
 msgid "Manual disk configuration"
 msgstr "Configurazion manuâl dal disc"
 
-#: src/components/storage/MountPointMapping.jsx:764
+#: src/components/storage/MountPointMapping.jsx:774
 msgid "Manual disk configuration: Mount point mapping"
 msgstr "Configurazion manuâl dal disc: mape dai ponts di montaç"
 
@@ -487,13 +495,13 @@ msgstr ""
 msgid "Modify storage"
 msgstr "Modifiche memorie di archiviazion"
 
-#: src/components/storage/MountPointMapping.jsx:581
+#: src/components/storage/MountPointMapping.jsx:591
 #: src/components/review/StorageReview.jsx:191
 msgid "Mount point"
 msgstr "Pont di montaç"
 
-#: src/components/storage/InstallationScenario.jsx:236
-#: src/components/storage/MountPointMapping.jsx:579
+#: src/components/storage/InstallationScenario.jsx:237
+#: src/components/storage/MountPointMapping.jsx:589
 msgid "Mount point assignment"
 msgstr "Assegnazion ponts di montaç"
 
@@ -521,33 +529,34 @@ msgstr "Rêt no disponibile. Configure la rêt par segnalâ il probleme."
 msgid "Next"
 msgstr "Indevant"
 
-#: src/components/storage/InstallationDestination.jsx:473
-msgid "No additional disks detected"
-msgstr "Nissun disc in plui rilevât."
-
-#: src/components/storage/MountPointMapping.jsx:586
+#: src/components/storage/MountPointMapping.jsx:596
 #: src/components/storage/ReclaimSpaceModal.jsx:156
 msgid "No devices"
 msgstr "Nissun dispositîf"
 
-#: src/components/storage/InstallationDestination.jsx:121
+#: src/components/storage/InstallationDestination.jsx:160
+#, fuzzy
+#| msgid "not available"
+msgid "No disks available"
+msgstr "no disponibil"
+
+#: src/components/storage/InstallationDestination.jsx:297
+msgid "No disks selected"
+msgstr "Nissun disc selezionât"
+
 #: src/components/localization/InstallationLanguage.jsx:192
 msgid "No results found"
 msgstr "Nissun risultât cjatât"
 
-#: src/components/storage/InstallationScenario.jsx:120
+#: src/components/storage/InstallationScenario.jsx:121
 msgid "No usable devices on the selected disks."
 msgstr "Nissun dispositîf che si pues doprâ sui discs selezionâts."
 
-#: src/components/storage/InstallationDestination.jsx:436
-msgid "No usable disks detected"
-msgstr "Nissun disc utilizabil rilevât"
-
-#: src/components/storage/InstallationScenario.jsx:85
+#: src/components/storage/InstallationScenario.jsx:86
 msgid "Not enough free space on the selected disks."
 msgstr "No vonde spazi libar sui discs selezionâts."
 
-#: src/components/storage/InstallationScenario.jsx:64
+#: src/components/storage/InstallationScenario.jsx:65
 msgid "Not enough space on selected disks."
 msgstr "No vonde spazi sui discs selezionâts."
 
@@ -633,10 +642,6 @@ msgstr "Abandone"
 msgid "Quit installer?"
 msgstr "Bandonâ l'instaladôr?"
 
-#: src/components/storage/InstallationDestination.jsx:380
-msgid "Re-scan"
-msgstr "Ripet la scansion"
-
 #: src/components/app.jsx:113
 #, fuzzy
 #| msgid "Reading information about the computer failed."
@@ -682,7 +687,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "Tornâ a inviâ il sisteme?"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 #, fuzzy
 #| msgctxt "GUI|Reclaim Dialog"
 #| msgid "_Reclaim space"
@@ -698,7 +703,7 @@ msgstr "_Recupere spazi"
 msgid "Reclaim space"
 msgstr "_Recupere spazi"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 #, fuzzy
 #| msgctxt "GUI|Reclaim Dialog"
 #| msgid "_Reclaim space"
@@ -713,12 +718,12 @@ msgstr "Conseât"
 msgid "Recommended partitions:"
 msgstr "Partizions racomandadis:"
 
-#: src/components/storage/MountPointMapping.jsx:370
-#: src/components/storage/MountPointMapping.jsx:583
+#: src/components/storage/MountPointMapping.jsx:380
+#: src/components/storage/MountPointMapping.jsx:593
 msgid "Reformat"
 msgstr "Torne formate"
 
-#: src/components/storage/MountPointMapping.jsx:397
+#: src/components/storage/MountPointMapping.jsx:407
 msgid "Remove"
 msgstr "Gjave"
 
@@ -767,11 +772,13 @@ msgstr "Necessari"
 msgid "Requirements"
 msgstr "Recuisîts"
 
-#: src/components/storage/InstallationDestination.jsx:389
-msgid "Rescan"
-msgstr "Gnove scansion"
+#: src/components/storage/InstallationDestination.jsx:151
+#, fuzzy
+#| msgid "to rescan devices"
+msgid "Rescan devices"
+msgstr "par tornâ a analizâ i dispositîfs"
 
-#: src/components/storage/InstallationDestination.jsx:368
+#: src/components/storage/InstallationDestination.jsx:132
 msgid "Rescanning of the disks failed."
 msgstr "Gnove scansion dai discs falide."
 
@@ -812,13 +819,22 @@ msgstr "_Salve"
 msgid "Scan the QR code with your phone or visit:"
 msgstr "Scansione il codiç QR cul to telefon o visite:"
 
-#: src/components/storage/MountPointMapping.jsx:299
+#: src/components/storage/InstallationDestination.jsx:354
+#, fuzzy
+#| msgctxt "GUI|Custom Partitioning|Configure Dialog"
+#| msgid "_Select"
+msgid "Select"
+msgstr "_Selezione"
+
+#: src/components/storage/MountPointMapping.jsx:309
 msgid "Select a device"
 msgstr "Selezione un dispositîf"
 
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Select a disk"
-msgstr "Selezione un disc"
+#: src/components/storage/InstallationDestination.jsx:348
+#, fuzzy
+#| msgid "Destination"
+msgid "Select destination"
+msgstr "Destinazion"
 
 #: src/components/storage/MountPointMapping.jsx:124
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -867,7 +883,7 @@ msgstr ""
 "Instalazion dal software: configurazion de memorie di archiviazion "
 "completade. Cumò il software al ven instalât sul dispositîf."
 
-#: src/components/storage/InstallationScenario.jsx:123
+#: src/components/storage/InstallationScenario.jsx:124
 msgid "Some required partitions are missing: $0"
 msgstr ""
 
@@ -943,18 +959,6 @@ msgstr ""
 "La lenghe selezionade e vignarà doprade pe instalazion e tal software "
 "instalât. "
 
-#: src/components/storage/InstallationDestination.jsx:505
-msgid "The following disk is no longer available: $0"
-msgid_plural "The following disks are no longer available: $0"
-msgstr[0] "Chest disc nol è plui disponibil: $0"
-msgstr[1] "Chescj discs no son plui disponibii: $0"
-
-#: src/components/storage/InstallationDestination.jsx:488
-msgid "The following disk was detected: $0"
-msgid_plural "The following disks were detected: $0"
-msgstr[0] "Al è stât rilevât chest disc: $0"
-msgstr[1] "A son stâts rilevâts chescj discs: $0"
-
 #: src/components/Error.jsx:267
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
@@ -963,7 +967,7 @@ msgstr ""
 "Chest regjistri al vignarà mandât al sisteme di gjestion dai problemis, là "
 "tu podarâs dâ plui detais."
 
-#: src/components/storage/InstallationScenario.jsx:66
+#: src/components/storage/InstallationScenario.jsx:67
 msgid "The installation needs $1 of disk space; "
 msgstr "La instalazion e à bisugne di $1 di spazi su disc; "
 
@@ -993,10 +997,6 @@ msgid "The storage editor lets you resize, delete, and create partitions. "
 msgstr ""
 "Blivet-gui al è un gjestôr di discs avanzât che al permet di ridimensionâ, "
 "eliminâ e creâ partizions. Al pues configurâ LVM e tante altre robe."
-
-#: src/components/storage/InstallationDestination.jsx:480
-msgid "The usable disks have changed"
-msgstr "I discs utilizabii a son stâts modificâts"
 
 #: src/components/users/Accounts.jsx:202
 #, fuzzy
@@ -1030,7 +1030,7 @@ msgstr "Par scomençâ a doprâ $0, torne invie il sisteme."
 msgid "To continue, select the devices to install to."
 msgstr "Par continuâ, selezione i dispositîfs dulà lâ a instalâ."
 
-#: src/components/storage/InstallationScenario.jsx:87
+#: src/components/storage/InstallationScenario.jsx:88
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -1062,13 +1062,13 @@ msgstr "Sbloche i dispositîfs"
 msgid "Unlock encrypted devices"
 msgstr "Sbloche i dispositîfs cifrâts"
 
-#: src/components/storage/InstallationScenario.jsx:246
+#: src/components/storage/InstallationScenario.jsx:247
 #, fuzzy
 #| msgid "Configure storage"
 msgid "Use configured storage"
 msgstr "Configure la memorie di archiviazion"
 
-#: src/components/storage/InstallationScenario.jsx:226
+#: src/components/storage/InstallationScenario.jsx:227
 msgid "Use free space for the installation"
 msgstr "Dopre il spazi libar pe instalazion"
 
@@ -1186,6 +1186,46 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:348
 msgid "undo"
 msgstr ""
+
+#~ msgid "Applying new disk selection..."
+#~ msgstr "Aplicazion de selezion dal gnûf disc..."
+
+#~ msgid "Clear input value"
+#~ msgstr "Nete il valôr inserît"
+
+#~ msgid "Current selections"
+#~ msgstr "Selezions atuâls"
+
+#~ msgid "Installing to $0 ($1)"
+#~ msgstr "Instalazion su $0 ($1)"
+
+#~ msgid "No additional disks detected"
+#~ msgstr "Nissun disc in plui rilevât."
+
+#~ msgid "No usable disks detected"
+#~ msgstr "Nissun disc utilizabil rilevât"
+
+#~ msgid "Re-scan"
+#~ msgstr "Ripet la scansion"
+
+#~ msgid "Rescan"
+#~ msgstr "Gnove scansion"
+
+#~ msgid "Select a disk"
+#~ msgstr "Selezione un disc"
+
+#~ msgid "The following disk is no longer available: $0"
+#~ msgid_plural "The following disks are no longer available: $0"
+#~ msgstr[0] "Chest disc nol è plui disponibil: $0"
+#~ msgstr[1] "Chescj discs no son plui disponibii: $0"
+
+#~ msgid "The following disk was detected: $0"
+#~ msgid_plural "The following disks were detected: $0"
+#~ msgstr[0] "Al è stât rilevât chest disc: $0"
+#~ msgstr[1] "A son stâts rilevâts chescj discs: $0"
+
+#~ msgid "The usable disks have changed"
+#~ msgstr "I discs utilizabii a son stâts modificâts"
 
 #~ msgid "Some devices use the same name: $0."
 #~ msgstr "Cualchi dispositîf al dopre il stes non: $0."
@@ -2312,9 +2352,6 @@ msgstr ""
 
 #~ msgid "Creating users"
 #~ msgstr "Creazion dai utents"
-
-#~ msgid "Current host name:"
-#~ msgstr "Non host atuâl:"
 
 #, python-format
 #~ msgid "Current host name: %s\n"
@@ -3521,9 +3558,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Nissun disc rilevât. Distude il computer, tache almancul un disc e torne "
 #~ "invie par completâ la instalazion."
-
-#~ msgid "No disks selected"
-#~ msgstr "Nissun disc selezionât"
 
 #~ msgid "No disks selected."
 #~ msgstr "Nissun disc selezionât."
@@ -6692,10 +6726,6 @@ msgstr ""
 #~ msgid "_Sector size:"
 #~ msgstr "Dimension di _setôr:"
 
-#~ msgctxt "GUI|Custom Partitioning|Configure Dialog"
-#~ msgid "_Select"
-#~ msgstr "_Selezione"
-
 #~ msgctxt "GUI|Network|Wireless"
 #~ msgid "_Select network"
 #~ msgstr "_Selezione rêt"
@@ -6918,9 +6948,6 @@ msgstr ""
 #~ msgid "none"
 #~ msgstr "nissun"
 
-#~ msgid "not available"
-#~ msgstr "no disponibil"
-
 #~ msgid "not configured"
 #~ msgstr "no configurât"
 
@@ -6960,9 +6987,6 @@ msgstr ""
 
 #~ msgid "to go back to region list"
 #~ msgstr "par tornâ indaûr ae liste des regjons"
-
-#~ msgid "to rescan devices"
-#~ msgstr "par tornâ a analizâ i dispositîfs"
 
 #~ msgid "to return to language list"
 #~ msgstr "par tornâ ae liste des lenghis"

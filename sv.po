@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-19 03:01+0000\n"
+"POT-Creation-Date: 2024-09-20 03:01+0000\n"
 "PO-Revision-Date: 2024-08-13 05:36+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
@@ -40,6 +40,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.6.2\n"
+
+#: src/components/storage/InstallationDestination.jsx:178
+#: src/components/storage/InstallationDestination.jsx:311
+msgid "$0 $1"
+msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:198
+#: src/components/storage/InstallationDestination.jsx:304
+msgid "$0 ($1)"
+msgstr ""
 
 #: src/components/app.jsx:76
 msgid "$0 installation"
@@ -74,7 +84,7 @@ msgstr "Konto"
 msgid "Actions"
 msgstr "Åtgärder"
 
-#: src/components/storage/MountPointMapping.jsx:606
+#: src/components/storage/MountPointMapping.jsx:616
 msgid "Add mount"
 msgstr "Lägg till montering"
 
@@ -111,13 +121,9 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Anaconda projekt sida"
 
-#: src/components/storage/InstallationScenario.jsx:228
+#: src/components/storage/InstallationScenario.jsx:229
 msgid "Apply mount point assignment and install"
 msgstr "Tillämpa monteringspunktstilldelningar och installera"
-
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Applying new disk selection..."
-msgstr "Tillämpar nytt diskval..."
 
 #: src/components/storage/ReclaimSpaceModal.jsx:208
 msgid "Available free space: $0. Installation requires: $1."
@@ -140,6 +146,7 @@ msgstr ""
 "buggar eller problem för att förbättra detta arbete."
 
 #: src/components/storage/CockpitStorageIntegration.jsx:134
+#: src/components/storage/InstallationDestination.jsx:357
 #: src/components/storage/ReclaimSpaceModal.jsx:219
 #: src/components/review/Hostname.jsx:106 src/components/Error.jsx:259
 msgid "Cancel"
@@ -148,6 +155,12 @@ msgstr "Avbryt"
 #: src/components/review/Hostname.jsx:104
 msgid "Change"
 msgstr "Ändra"
+
+#: src/components/storage/InstallationDestination.jsx:342
+#, fuzzy
+#| msgid "Destination"
+msgid "Change destination"
+msgstr "Destination"
 
 #: src/components/review/Hostname.jsx:113
 msgid "Change hostname"
@@ -174,11 +187,8 @@ msgstr "Välj ett språk"
 msgid "Chosen language: "
 msgstr "Valt språk: "
 
-#: src/components/storage/InstallationDestination.jsx:240
-msgid "Clear input value"
-msgstr "Rensa inmatningsvärde"
-
 #: src/components/storage/EncryptedDevices.jsx:164
+#: src/components/storage/InstallationDestination.jsx:362
 msgid "Close"
 msgstr "Stäng"
 
@@ -232,9 +242,11 @@ msgstr "Skapa konto"
 msgid "Critical error"
 msgstr "Kritiskt fel"
 
-#: src/components/storage/InstallationDestination.jsx:223
-msgid "Current selections"
-msgstr "Nuvarande val"
+#: src/components/storage/InstallationDestination.jsx:101
+#, fuzzy
+#| msgid "Current host name:"
+msgid "Currently installed: $0"
+msgstr "Aktuellt värdnamn:"
 
 #: src/components/storage/MountPointMapping.jsx:246
 msgid "Custom"
@@ -244,7 +256,7 @@ msgstr "Anpassad"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Att radera vissa partitioner kan hindra $0 från att starta: $1"
 
-#: src/components/storage/InstallationDestination.jsx:407
+#: src/components/storage/InstallationDestination.jsx:286
 msgid "Destination"
 msgstr "Destination"
 
@@ -252,7 +264,7 @@ msgstr "Destination"
 msgid "Detected valid storage layout:"
 msgstr "Upptäckt giltig lagringslayout:"
 
-#: src/components/storage/MountPointMapping.jsx:582
+#: src/components/storage/MountPointMapping.jsx:592
 #: src/components/review/StorageReview.jsx:192
 msgid "Device"
 msgstr "Enhet"
@@ -269,7 +281,7 @@ msgstr "Diskkonfiguration"
 msgid "Disk encryption"
 msgstr "Diskkryptering"
 
-#: src/components/storage/MountPointMapping.jsx:350
+#: src/components/storage/MountPointMapping.jsx:360
 msgid "Duplicate device."
 msgstr "Duplicera enhet."
 
@@ -303,8 +315,8 @@ msgstr ""
 "Kryptering hjälper till att säkra din data, och att förhindra att andra "
 "kommer åt den."
 
-#: src/components/storage/InstallationScenario.jsx:206
-#: src/components/storage/InstallationScenario.jsx:214
+#: src/components/storage/InstallationScenario.jsx:207
+#: src/components/storage/InstallationScenario.jsx:215
 msgid "Erase data and install"
 msgstr "Radera data och installera"
 
@@ -361,7 +373,7 @@ msgstr "Dölj lösenord"
 msgid "Hostname"
 msgstr "Värdnamn"
 
-#: src/components/storage/InstallationScenario.jsx:407
+#: src/components/storage/InstallationScenario.jsx:408
 msgid "How would you like to install?"
 msgstr "Hur vill du installera?"
 
@@ -407,8 +419,8 @@ msgstr "Pågående"
 msgid "Initializing..."
 msgstr "Initialiserar..."
 
-#: src/components/storage/InstallationScenario.jsx:217
-#: src/components/storage/InstallationScenario.jsx:238
+#: src/components/storage/InstallationScenario.jsx:218
+#: src/components/storage/InstallationScenario.jsx:239
 msgid "Install"
 msgstr "Installera"
 
@@ -431,10 +443,6 @@ msgstr "Installationstyp"
 #: src/components/installation/InstallationProgress.jsx:158
 msgid "Installing"
 msgstr "Installerar"
-
-#: src/components/storage/InstallationDestination.jsx:426
-msgid "Installing to $0 ($1)"
-msgstr "Installerar till $0 ($1)"
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
 msgid "Keep current disk layout and only install into available space."
@@ -461,11 +469,11 @@ msgstr "Upplåsta enheter"
 msgid "Log"
 msgstr "Logg"
 
-#: src/components/storage/MountPointMapping.jsx:762
+#: src/components/storage/MountPointMapping.jsx:772
 msgid "Manual disk configuration"
 msgstr "Manuell diskkonfiguration"
 
-#: src/components/storage/MountPointMapping.jsx:764
+#: src/components/storage/MountPointMapping.jsx:774
 msgid "Manual disk configuration: Mount point mapping"
 msgstr "Manuell diskkonfiguration: Mappning av monteringspunkter"
 
@@ -492,13 +500,13 @@ msgstr ""
 msgid "Modify storage"
 msgstr "Modifera lagring"
 
-#: src/components/storage/MountPointMapping.jsx:581
+#: src/components/storage/MountPointMapping.jsx:591
 #: src/components/review/StorageReview.jsx:191
 msgid "Mount point"
 msgstr "Monteringspunkt"
 
-#: src/components/storage/InstallationScenario.jsx:236
-#: src/components/storage/MountPointMapping.jsx:579
+#: src/components/storage/InstallationScenario.jsx:237
+#: src/components/storage/MountPointMapping.jsx:589
 msgid "Mount point assignment"
 msgstr "Monteringspunkt tilldelning"
 
@@ -527,33 +535,34 @@ msgstr ""
 msgid "Next"
 msgstr "Nästa"
 
-#: src/components/storage/InstallationDestination.jsx:473
-msgid "No additional disks detected"
-msgstr "Inga ytterligare diskar upptäcktes"
-
-#: src/components/storage/MountPointMapping.jsx:586
+#: src/components/storage/MountPointMapping.jsx:596
 #: src/components/storage/ReclaimSpaceModal.jsx:156
 msgid "No devices"
 msgstr "Inga enheter"
 
-#: src/components/storage/InstallationDestination.jsx:121
+#: src/components/storage/InstallationDestination.jsx:160
+#, fuzzy
+#| msgid "not available"
+msgid "No disks available"
+msgstr "inte tillgängligt"
+
+#: src/components/storage/InstallationDestination.jsx:297
+msgid "No disks selected"
+msgstr "Inga diskar valda"
+
 #: src/components/localization/InstallationLanguage.jsx:192
 msgid "No results found"
 msgstr "Inga resultat funna"
 
-#: src/components/storage/InstallationScenario.jsx:120
+#: src/components/storage/InstallationScenario.jsx:121
 msgid "No usable devices on the selected disks."
 msgstr "Inga användbara enheter på de valda diskarna."
 
-#: src/components/storage/InstallationDestination.jsx:436
-msgid "No usable disks detected"
-msgstr "Inga användbara diskar upptäcktes"
-
-#: src/components/storage/InstallationScenario.jsx:85
+#: src/components/storage/InstallationScenario.jsx:86
 msgid "Not enough free space on the selected disks."
 msgstr "Inte tillräckligt med ledigt utrymme på de valda diskarna."
 
-#: src/components/storage/InstallationScenario.jsx:64
+#: src/components/storage/InstallationScenario.jsx:65
 msgid "Not enough space on selected disks."
 msgstr "Inte tillräckligt med utrymme på de valda diskarna."
 
@@ -637,10 +646,6 @@ msgstr "Avsluta"
 msgid "Quit installer?"
 msgstr "Avsluta installationsprogrammet?"
 
-#: src/components/storage/InstallationDestination.jsx:380
-msgid "Re-scan"
-msgstr "Skanna igen"
-
 #: src/components/app.jsx:113
 msgid "Reading information about the OS failed."
 msgstr "Misslyckades att läsa information om operativsystemet."
@@ -686,7 +691,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "Starta om systemet?"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 msgid "Reclaim additional space"
 msgstr "Återvinn ytterligare utrymme"
 
@@ -696,7 +701,7 @@ msgstr "Återvinn ytterligare utrymme"
 msgid "Reclaim space"
 msgstr "Återvinn utrymme"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 msgid "Reclaim space (required)"
 msgstr "Återvinn utrymme (nödvändigt)"
 
@@ -708,12 +713,12 @@ msgstr "Rekommenderad"
 msgid "Recommended partitions:"
 msgstr "Rekommenderade partitioner:"
 
-#: src/components/storage/MountPointMapping.jsx:370
-#: src/components/storage/MountPointMapping.jsx:583
+#: src/components/storage/MountPointMapping.jsx:380
+#: src/components/storage/MountPointMapping.jsx:593
 msgid "Reformat"
 msgstr "Formatera om"
 
-#: src/components/storage/MountPointMapping.jsx:397
+#: src/components/storage/MountPointMapping.jsx:407
 msgid "Remove"
 msgstr "Ta bort"
 
@@ -764,11 +769,13 @@ msgstr "Krävs"
 msgid "Requirements"
 msgstr "Krav"
 
-#: src/components/storage/InstallationDestination.jsx:389
-msgid "Rescan"
-msgstr "Skanna om"
+#: src/components/storage/InstallationDestination.jsx:151
+#, fuzzy
+#| msgid "to rescan devices"
+msgid "Rescan devices"
+msgstr "för att söka om enheter"
 
-#: src/components/storage/InstallationDestination.jsx:368
+#: src/components/storage/InstallationDestination.jsx:132
 msgid "Rescanning of the disks failed."
 msgstr "Omsökning av diskarna misslyckades."
 
@@ -801,13 +808,22 @@ msgstr "Spara"
 msgid "Scan the QR code with your phone or visit:"
 msgstr "Skanna QR-koden med din telefon eller besök:"
 
-#: src/components/storage/MountPointMapping.jsx:299
+#: src/components/storage/InstallationDestination.jsx:354
+#, fuzzy
+#| msgctxt "GUI|Custom Partitioning|Configure Dialog"
+#| msgid "_Select"
+msgid "Select"
+msgstr "_Välj"
+
+#: src/components/storage/MountPointMapping.jsx:309
 msgid "Select a device"
 msgstr "Välj en enhet"
 
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Select a disk"
-msgstr "Välj en disk"
+#: src/components/storage/InstallationDestination.jsx:348
+#, fuzzy
+#| msgid "Destination"
+msgid "Select destination"
+msgstr "Destination"
 
 #: src/components/storage/MountPointMapping.jsx:124
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -853,7 +869,7 @@ msgstr ""
 "Programvaruinstallation: Lagringskonfigurationen är klar. Programvaran "
 "installeras nu på din enhet."
 
-#: src/components/storage/InstallationScenario.jsx:123
+#: src/components/storage/InstallationScenario.jsx:124
 msgid "Some required partitions are missing: $0"
 msgstr "Vissa nödvändiga partitioner saknas: $0"
 
@@ -921,18 +937,6 @@ msgstr ""
 "Det valda språket kommer att användas för installationen och i den "
 "installerade programvaran. "
 
-#: src/components/storage/InstallationDestination.jsx:505
-msgid "The following disk is no longer available: $0"
-msgid_plural "The following disks are no longer available: $0"
-msgstr[0] "Följande disk är inte längre tillgänglig: $0"
-msgstr[1] "Följande diskar är inte längre tillgängliga: $0"
-
-#: src/components/storage/InstallationDestination.jsx:488
-msgid "The following disk was detected: $0"
-msgid_plural "The following disks were detected: $0"
-msgstr[0] "Följande disk upptäcktes: $0"
-msgstr[1] "Följande diskar upptäcktes: $0"
-
 #: src/components/Error.jsx:267
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
@@ -941,7 +945,7 @@ msgstr ""
 "Följande logg kommer att skickas till problemspårningssystemet där du kan ge "
 "ytterligare information."
 
-#: src/components/storage/InstallationScenario.jsx:66
+#: src/components/storage/InstallationScenario.jsx:67
 msgid "The installation needs $1 of disk space; "
 msgstr "Installationen behöver $1 diskutrymme; "
 
@@ -967,10 +971,6 @@ msgstr ""
 msgid "The storage editor lets you resize, delete, and create partitions. "
 msgstr ""
 "Lagringsredigeraren låter dig byta storlek, ta bort och skapa partitioner. "
-
-#: src/components/storage/InstallationDestination.jsx:480
-msgid "The usable disks have changed"
-msgstr "De användbara diskarna har ändrats"
 
 #: src/components/users/Accounts.jsx:202
 msgid "This account will have administration privilege with sudo."
@@ -1000,7 +1000,7 @@ msgstr "För att börja använda $0, starta om ditt system."
 msgid "To continue, select the devices to install to."
 msgstr "För att fortsätta, välj enheterna att installera på."
 
-#: src/components/storage/InstallationScenario.jsx:87
+#: src/components/storage/InstallationScenario.jsx:88
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -1032,11 +1032,11 @@ msgstr "Lås upp enheter"
 msgid "Unlock encrypted devices"
 msgstr "Lås upp krypterade enheter"
 
-#: src/components/storage/InstallationScenario.jsx:246
+#: src/components/storage/InstallationScenario.jsx:247
 msgid "Use configured storage"
 msgstr "Använd konfigurerad lagring"
 
-#: src/components/storage/InstallationScenario.jsx:226
+#: src/components/storage/InstallationScenario.jsx:227
 msgid "Use free space for the installation"
 msgstr "Använd ledigt utrymme för installationen"
 
@@ -1148,6 +1148,46 @@ msgstr "krymp till $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:348
 msgid "undo"
 msgstr "ångra"
+
+#~ msgid "Applying new disk selection..."
+#~ msgstr "Tillämpar nytt diskval..."
+
+#~ msgid "Clear input value"
+#~ msgstr "Rensa inmatningsvärde"
+
+#~ msgid "Current selections"
+#~ msgstr "Nuvarande val"
+
+#~ msgid "Installing to $0 ($1)"
+#~ msgstr "Installerar till $0 ($1)"
+
+#~ msgid "No additional disks detected"
+#~ msgstr "Inga ytterligare diskar upptäcktes"
+
+#~ msgid "No usable disks detected"
+#~ msgstr "Inga användbara diskar upptäcktes"
+
+#~ msgid "Re-scan"
+#~ msgstr "Skanna igen"
+
+#~ msgid "Rescan"
+#~ msgstr "Skanna om"
+
+#~ msgid "Select a disk"
+#~ msgstr "Välj en disk"
+
+#~ msgid "The following disk is no longer available: $0"
+#~ msgid_plural "The following disks are no longer available: $0"
+#~ msgstr[0] "Följande disk är inte längre tillgänglig: $0"
+#~ msgstr[1] "Följande diskar är inte längre tillgängliga: $0"
+
+#~ msgid "The following disk was detected: $0"
+#~ msgid_plural "The following disks were detected: $0"
+#~ msgstr[0] "Följande disk upptäcktes: $0"
+#~ msgstr[1] "Följande diskar upptäcktes: $0"
+
+#~ msgid "The usable disks have changed"
+#~ msgstr "De användbara diskarna har ändrats"
 
 #~ msgid "Some devices use the same name: $0."
 #~ msgstr "Vissa enheter använder samma namn: $0."
@@ -2259,9 +2299,6 @@ msgstr "ångra"
 
 #~ msgid "Creating users"
 #~ msgstr "Skapar användare"
-
-#~ msgid "Current host name:"
-#~ msgstr "Aktuellt värdnamn:"
 
 #, python-format
 #~ msgid "Current host name: %s\n"
@@ -3462,9 +3499,6 @@ msgstr "ångra"
 #~ msgstr ""
 #~ "Inga diskar upptäcktes.  Stäng av datorn, anslut åtminstone en disk, och "
 #~ "starta om för att fullfölja installationen."
-
-#~ msgid "No disks selected"
-#~ msgstr "Inga diskar valda"
 
 #~ msgid "No disks selected."
 #~ msgstr "Inga diskar valda."
@@ -6604,10 +6638,6 @@ msgstr "ångra"
 #~ msgid "_Sector size:"
 #~ msgstr "_Sektorstorlek:"
 
-#~ msgctxt "GUI|Custom Partitioning|Configure Dialog"
-#~ msgid "_Select"
-#~ msgstr "_Välj"
-
 #~ msgctxt "GUI|Network|Wireless"
 #~ msgid "_Select network"
 #~ msgstr "_Välj nätverk"
@@ -6828,9 +6858,6 @@ msgstr "ångra"
 #~ msgid "none"
 #~ msgstr "inget"
 
-#~ msgid "not available"
-#~ msgstr "inte tillgängligt"
-
 #~ msgid "not configured"
 #~ msgstr "inte konfigurerad"
 
@@ -6870,9 +6897,6 @@ msgstr "ångra"
 
 #~ msgid "to go back to region list"
 #~ msgstr "för att gå tillbaka till regionlistan"
-
-#~ msgid "to rescan devices"
-#~ msgstr "för att söka om enheter"
 
 #~ msgid "to return to language list"
 #~ msgstr "för att gå tillbaka till språklistan"

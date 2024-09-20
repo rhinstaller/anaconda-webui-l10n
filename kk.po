@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-19 03:01+0000\n"
+"POT-Creation-Date: 2024-09-20 03:01+0000\n"
 "PO-Revision-Date: 2023-11-06 12:19+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Kazakh <https://translate.fedoraproject.org/projects/anaconda-"
@@ -23,6 +23,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.1.1\n"
+
+#: src/components/storage/InstallationDestination.jsx:178
+#: src/components/storage/InstallationDestination.jsx:311
+msgid "$0 $1"
+msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:198
+#: src/components/storage/InstallationDestination.jsx:304
+msgid "$0 ($1)"
+msgstr ""
 
 #: src/components/app.jsx:76
 msgid "$0 installation"
@@ -66,7 +76,7 @@ msgstr "_Тіркелгі"
 msgid "Actions"
 msgstr "Әрекет"
 
-#: src/components/storage/MountPointMapping.jsx:606
+#: src/components/storage/MountPointMapping.jsx:616
 msgid "Add mount"
 msgstr "Тіркелу нүктесін қосу"
 
@@ -102,13 +112,9 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Anaconda жобасының парағы"
 
-#: src/components/storage/InstallationScenario.jsx:228
+#: src/components/storage/InstallationScenario.jsx:229
 msgid "Apply mount point assignment and install"
 msgstr "Тіркеу нүктелерді тағайындауды іске асыру және орнату"
-
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Applying new disk selection..."
-msgstr "Жаңа диск таңдауын іске асыру..."
 
 #: src/components/storage/ReclaimSpaceModal.jsx:208
 msgid "Available free space: $0. Installation requires: $1."
@@ -132,6 +138,7 @@ msgstr ""
 "туралы хабарлауға дайын боласыз."
 
 #: src/components/storage/CockpitStorageIntegration.jsx:134
+#: src/components/storage/InstallationDestination.jsx:357
 #: src/components/storage/ReclaimSpaceModal.jsx:219
 #: src/components/review/Hostname.jsx:106 src/components/Error.jsx:259
 msgid "Cancel"
@@ -143,6 +150,12 @@ msgstr "Бас тарту"
 #| msgid "_Save Changes"
 msgid "Change"
 msgstr "Өзгерістерді _сақтау"
+
+#: src/components/storage/InstallationDestination.jsx:342
+#, fuzzy
+#| msgid "Destination"
+msgid "Change destination"
+msgstr "Мақсаты"
 
 #: src/components/review/Hostname.jsx:113
 #, fuzzy
@@ -169,11 +182,8 @@ msgstr "Тілді таңдау"
 msgid "Chosen language: "
 msgstr "Таңдалған тіл: "
 
-#: src/components/storage/InstallationDestination.jsx:240
-msgid "Clear input value"
-msgstr "Енгізу мәнін тазарту"
-
 #: src/components/storage/EncryptedDevices.jsx:164
+#: src/components/storage/InstallationDestination.jsx:362
 msgid "Close"
 msgstr "Жабу"
 
@@ -238,9 +248,11 @@ msgstr "Root тіркелгісін бұғаттау"
 msgid "Critical error"
 msgstr "Қатаң қате"
 
-#: src/components/storage/InstallationDestination.jsx:223
-msgid "Current selections"
-msgstr "Ағымдағы таңдаулар"
+#: src/components/storage/InstallationDestination.jsx:101
+#, fuzzy
+#| msgid "Current host name:"
+msgid "Currently installed: $0"
+msgstr "Ағымдағы хост аты:"
 
 #: src/components/storage/MountPointMapping.jsx:246
 msgid "Custom"
@@ -250,7 +262,7 @@ msgstr "Таңдауыңызша"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:407
+#: src/components/storage/InstallationDestination.jsx:286
 msgid "Destination"
 msgstr "Мақсаты"
 
@@ -258,7 +270,7 @@ msgstr "Мақсаты"
 msgid "Detected valid storage layout:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:582
+#: src/components/storage/MountPointMapping.jsx:592
 #: src/components/review/StorageReview.jsx:192
 msgid "Device"
 msgstr "Құрылғы"
@@ -276,7 +288,7 @@ msgstr "Диск баптаулары"
 msgid "Disk encryption"
 msgstr "Диск шифрлеуі"
 
-#: src/components/storage/MountPointMapping.jsx:350
+#: src/components/storage/MountPointMapping.jsx:360
 msgid "Duplicate device."
 msgstr "Қайталанатын құрылғы."
 
@@ -315,8 +327,8 @@ msgstr ""
 "Шифрлеу басқалардың оған қол жеткізуіне жол бермеу үшін деректеріңізді "
 "қорғауға көмектеседі."
 
-#: src/components/storage/InstallationScenario.jsx:206
-#: src/components/storage/InstallationScenario.jsx:214
+#: src/components/storage/InstallationScenario.jsx:207
+#: src/components/storage/InstallationScenario.jsx:215
 msgid "Erase data and install"
 msgstr "Деректерді өшіру және орнату"
 
@@ -374,7 +386,7 @@ msgstr "Парольді жасыру"
 msgid "Hostname"
 msgstr "Хост аты"
 
-#: src/components/storage/InstallationScenario.jsx:407
+#: src/components/storage/InstallationScenario.jsx:408
 msgid "How would you like to install?"
 msgstr "Қалай орнатуды қалайсыз?"
 
@@ -420,8 +432,8 @@ msgstr "Орындалу үстінде"
 msgid "Initializing..."
 msgstr "Орнатылуда."
 
-#: src/components/storage/InstallationScenario.jsx:217
-#: src/components/storage/InstallationScenario.jsx:238
+#: src/components/storage/InstallationScenario.jsx:218
+#: src/components/storage/InstallationScenario.jsx:239
 msgid "Install"
 msgstr "Орнату"
 
@@ -444,10 +456,6 @@ msgstr "Орнату түрі"
 #: src/components/installation/InstallationProgress.jsx:158
 msgid "Installing"
 msgstr "Орнатылуда"
-
-#: src/components/storage/InstallationDestination.jsx:426
-msgid "Installing to $0 ($1)"
-msgstr "$0 ($1) жеріне орнату"
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
 msgid "Keep current disk layout and only install into available space."
@@ -475,11 +483,11 @@ msgstr "Құлыпталған құрылғылар"
 msgid "Log"
 msgstr "Журнал"
 
-#: src/components/storage/MountPointMapping.jsx:762
+#: src/components/storage/MountPointMapping.jsx:772
 msgid "Manual disk configuration"
 msgstr "Дисктерді қолмен баптау"
 
-#: src/components/storage/MountPointMapping.jsx:764
+#: src/components/storage/MountPointMapping.jsx:774
 msgid "Manual disk configuration: Mount point mapping"
 msgstr "Дисктерді қолмен баптау: Тіркеу нүктелерін сәйкестендіру"
 
@@ -506,13 +514,13 @@ msgstr ""
 msgid "Modify storage"
 msgstr "Сақтау құрылғыларды өзгерту"
 
-#: src/components/storage/MountPointMapping.jsx:581
+#: src/components/storage/MountPointMapping.jsx:591
 #: src/components/review/StorageReview.jsx:191
 msgid "Mount point"
 msgstr "Тіркеу нүктесі"
 
-#: src/components/storage/InstallationScenario.jsx:236
-#: src/components/storage/MountPointMapping.jsx:579
+#: src/components/storage/InstallationScenario.jsx:237
+#: src/components/storage/MountPointMapping.jsx:589
 msgid "Mount point assignment"
 msgstr "Тіркеу нүктелерін тағайындау"
 
@@ -543,33 +551,34 @@ msgstr ""
 msgid "Next"
 msgstr "Келесі"
 
-#: src/components/storage/InstallationDestination.jsx:473
-msgid "No additional disks detected"
-msgstr "Қосымша дисктер табылмады"
-
-#: src/components/storage/MountPointMapping.jsx:586
+#: src/components/storage/MountPointMapping.jsx:596
 #: src/components/storage/ReclaimSpaceModal.jsx:156
 msgid "No devices"
 msgstr "Құрылғылар жоқ"
 
-#: src/components/storage/InstallationDestination.jsx:121
+#: src/components/storage/InstallationDestination.jsx:160
+#, fuzzy
+#| msgid "not available"
+msgid "No disks available"
+msgstr "қолжетімсіз"
+
+#: src/components/storage/InstallationDestination.jsx:297
+msgid "No disks selected"
+msgstr "Дисктер таңдалмады"
+
 #: src/components/localization/InstallationLanguage.jsx:192
 msgid "No results found"
 msgstr "Нәтижелер жоқ"
 
-#: src/components/storage/InstallationScenario.jsx:120
+#: src/components/storage/InstallationScenario.jsx:121
 msgid "No usable devices on the selected disks."
 msgstr "Таңдалған дисктерде қолдануға болатын құрылғылар жоқ."
 
-#: src/components/storage/InstallationDestination.jsx:436
-msgid "No usable disks detected"
-msgstr "Қолдануға болатын дисктер анықталмады"
-
-#: src/components/storage/InstallationScenario.jsx:85
+#: src/components/storage/InstallationScenario.jsx:86
 msgid "Not enough free space on the selected disks."
 msgstr "Таңдалған дисктерде бос орын жеткіліксіз."
 
-#: src/components/storage/InstallationScenario.jsx:64
+#: src/components/storage/InstallationScenario.jsx:65
 msgid "Not enough space on selected disks."
 msgstr "Таңдалған дисктерде орын жеткіліксіз."
 
@@ -653,10 +662,6 @@ msgstr "Шығу"
 msgid "Quit installer?"
 msgstr "Орнатқыштан шығу керек пе?"
 
-#: src/components/storage/InstallationDestination.jsx:380
-msgid "Re-scan"
-msgstr "Қайта сканерлеу"
-
 #: src/components/app.jsx:113
 #, fuzzy
 #| msgid "Reading information about the computer failed."
@@ -702,7 +707,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "Жүйені қайта іске қосу керек пе?"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 #, fuzzy
 #| msgctxt "GUI|Reclaim Dialog"
 #| msgid "_Reclaim space"
@@ -718,7 +723,7 @@ msgstr "Ор_ынды қайта бөлу"
 msgid "Reclaim space"
 msgstr "Ор_ынды қайта бөлу"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 #, fuzzy
 #| msgctxt "GUI|Reclaim Dialog"
 #| msgid "_Reclaim space"
@@ -733,12 +738,12 @@ msgstr ""
 msgid "Recommended partitions:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:370
-#: src/components/storage/MountPointMapping.jsx:583
+#: src/components/storage/MountPointMapping.jsx:380
+#: src/components/storage/MountPointMapping.jsx:593
 msgid "Reformat"
 msgstr "Қайта пішімдеу"
 
-#: src/components/storage/MountPointMapping.jsx:397
+#: src/components/storage/MountPointMapping.jsx:407
 msgid "Remove"
 msgstr "Өшіру"
 
@@ -789,11 +794,13 @@ msgstr "Міндетті"
 msgid "Requirements"
 msgstr "Міндетті"
 
-#: src/components/storage/InstallationDestination.jsx:389
-msgid "Rescan"
-msgstr "Қайта сканерлеу"
+#: src/components/storage/InstallationDestination.jsx:151
+#, fuzzy
+#| msgid "to rescan devices"
+msgid "Rescan devices"
+msgstr "құрылғыларды қайта сканерлеу"
 
-#: src/components/storage/InstallationDestination.jsx:368
+#: src/components/storage/InstallationDestination.jsx:132
 msgid "Rescanning of the disks failed."
 msgstr "Дисктерді қайта сканерлеу сәтсіз аяқталды."
 
@@ -836,13 +843,22 @@ msgstr "_Сақтау"
 msgid "Scan the QR code with your phone or visit:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:299
+#: src/components/storage/InstallationDestination.jsx:354
+#, fuzzy
+#| msgctxt "GUI|Custom Partitioning|Configure Dialog"
+#| msgid "_Select"
+msgid "Select"
+msgstr "Таң_дау"
+
+#: src/components/storage/MountPointMapping.jsx:309
 msgid "Select a device"
 msgstr "Құрылғыны таңдау"
 
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Select a disk"
-msgstr "Дискті таңдау"
+#: src/components/storage/InstallationDestination.jsx:348
+#, fuzzy
+#| msgid "Destination"
+msgid "Select destination"
+msgstr "Мақсаты"
 
 #: src/components/storage/MountPointMapping.jsx:124
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -892,7 +908,7 @@ msgstr ""
 "Бағд. қамтаманы орнату: Сақтауышты баптау аяқталды. Енді бағдарламалық "
 "қамтама құрылғыңызға орнатылып жатыр."
 
-#: src/components/storage/InstallationScenario.jsx:123
+#: src/components/storage/InstallationScenario.jsx:124
 msgid "Some required partitions are missing: $0"
 msgstr ""
 
@@ -966,18 +982,6 @@ msgstr ""
 "Таңдалған тіл орнату үшін және орнатылған бағдарламалық қамтамада "
 "пайдаланылады. "
 
-#: src/components/storage/InstallationDestination.jsx:505
-msgid "The following disk is no longer available: $0"
-msgid_plural "The following disks are no longer available: $0"
-msgstr[0] ""
-
-#: src/components/storage/InstallationDestination.jsx:488
-#, fuzzy
-#| msgid "The following mandatory spokes are not completed:"
-msgid "The following disk was detected: $0"
-msgid_plural "The following disks were detected: $0"
-msgstr[0] "Келесі міндетті қадамдар аяқталмады:"
-
 #: src/components/Error.jsx:267
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
@@ -986,7 +990,7 @@ msgstr ""
 "Келесі журнал мәселені бақылау жүйесіне жіберіледі, онда сіз қосымша "
 "мәліметтерді бере аласыз."
 
-#: src/components/storage/InstallationScenario.jsx:66
+#: src/components/storage/InstallationScenario.jsx:67
 msgid "The installation needs $1 of disk space; "
 msgstr "Бұл орнату $1 диск орнын талап етеді; "
 
@@ -1016,12 +1020,6 @@ msgstr ""
 "Blivet-gui - бөлімдер өлшемдерін өзгертуге, өшіруге және жасауға мүмкіндік "
 "беретін кеңейтілген сақтау құрылғылар редакторы. Ол LVM және т.б. орната "
 "алады."
-
-#: src/components/storage/InstallationDestination.jsx:480
-#, fuzzy
-#| msgid "No usable disks detected"
-msgid "The usable disks have changed"
-msgstr "Қолдануға болатын дисктер анықталмады"
 
 #: src/components/users/Accounts.jsx:202
 msgid "This account will have administration privilege with sudo."
@@ -1053,7 +1051,7 @@ msgstr "$0 пайдалануды бастау үшін жүйені қайта 
 msgid "To continue, select the devices to install to."
 msgstr "Жалғастыру үшін, жүйе орнатылатын құрылғыларды таңдаңыз."
 
-#: src/components/storage/InstallationScenario.jsx:87
+#: src/components/storage/InstallationScenario.jsx:88
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -1085,13 +1083,13 @@ msgstr "Құрылғыларды босату"
 msgid "Unlock encrypted devices"
 msgstr "Шифрленген құрылғыларды босату"
 
-#: src/components/storage/InstallationScenario.jsx:246
+#: src/components/storage/InstallationScenario.jsx:247
 #, fuzzy
 #| msgid "Configuring storage"
 msgid "Use configured storage"
 msgstr "Сақтау құрылғыларын баптау"
 
-#: src/components/storage/InstallationScenario.jsx:226
+#: src/components/storage/InstallationScenario.jsx:227
 msgid "Use free space for the installation"
 msgstr "Орнату үшін бос орынды қолдану"
 
@@ -1209,6 +1207,44 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:348
 msgid "undo"
 msgstr ""
+
+#~ msgid "Applying new disk selection..."
+#~ msgstr "Жаңа диск таңдауын іске асыру..."
+
+#~ msgid "Clear input value"
+#~ msgstr "Енгізу мәнін тазарту"
+
+#~ msgid "Current selections"
+#~ msgstr "Ағымдағы таңдаулар"
+
+#~ msgid "Installing to $0 ($1)"
+#~ msgstr "$0 ($1) жеріне орнату"
+
+#~ msgid "No additional disks detected"
+#~ msgstr "Қосымша дисктер табылмады"
+
+#~ msgid "No usable disks detected"
+#~ msgstr "Қолдануға болатын дисктер анықталмады"
+
+#~ msgid "Re-scan"
+#~ msgstr "Қайта сканерлеу"
+
+#~ msgid "Rescan"
+#~ msgstr "Қайта сканерлеу"
+
+#~ msgid "Select a disk"
+#~ msgstr "Дискті таңдау"
+
+#, fuzzy
+#~| msgid "The following mandatory spokes are not completed:"
+#~ msgid "The following disk was detected: $0"
+#~ msgid_plural "The following disks were detected: $0"
+#~ msgstr[0] "Келесі міндетті қадамдар аяқталмады:"
+
+#, fuzzy
+#~| msgid "No usable disks detected"
+#~ msgid "The usable disks have changed"
+#~ msgstr "Қолдануға болатын дисктер анықталмады"
 
 #~ msgid "Some devices use the same name: $0."
 #~ msgstr "Кейбір құрылғылар бірдей атауды қолданып тұр: $0."
@@ -2329,9 +2365,6 @@ msgstr ""
 
 #~ msgid "Creating users"
 #~ msgstr "Пайдаланушыларды жасау"
-
-#~ msgid "Current host name:"
-#~ msgstr "Ағымдағы хост аты:"
 
 #, python-format
 #~ msgid "Current host name: %s\n"
@@ -3528,9 +3561,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Бірде-бір диск табылмады. Компьютерді өшіріп, кем дегенде бір диск "
 #~ "қосыңыз, одан кейін компьютерді қайта іске қосыңыз."
-
-#~ msgid "No disks selected"
-#~ msgstr "Дисктер таңдалмады"
 
 #~ msgid "No disks selected."
 #~ msgstr "Дисктер таңдалмады."
@@ -6671,10 +6701,6 @@ msgstr ""
 #~ msgid "_Sector size:"
 #~ msgstr "_Сектор өлшемі:"
 
-#~ msgctxt "GUI|Custom Partitioning|Configure Dialog"
-#~ msgid "_Select"
-#~ msgstr "Таң_дау"
-
 #~ msgctxt "GUI|Network|Wireless"
 #~ msgid "_Select network"
 #~ msgstr "Желіні _таңдау"
@@ -6896,9 +6922,6 @@ msgstr ""
 #~ msgid "none"
 #~ msgstr "жоқ"
 
-#~ msgid "not available"
-#~ msgstr "қолжетімсіз"
-
 #~ msgid "not configured"
 #~ msgstr "бапталмаған"
 
@@ -6938,9 +6961,6 @@ msgstr ""
 
 #~ msgid "to go back to region list"
 #~ msgstr "аймақтар тізіміне оралу"
-
-#~ msgid "to rescan devices"
-#~ msgstr "құрылғыларды қайта сканерлеу"
 
 #~ msgid "to return to language list"
 #~ msgstr "тілдер тізіміне оралу үшін"

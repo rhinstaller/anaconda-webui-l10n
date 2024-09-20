@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-19 03:01+0000\n"
+"POT-Creation-Date: 2024-09-20 03:01+0000\n"
 "PO-Revision-Date: 2023-11-06 12:22+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/"
@@ -27,6 +27,16 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.1.1\n"
+
+#: src/components/storage/InstallationDestination.jsx:178
+#: src/components/storage/InstallationDestination.jsx:311
+msgid "$0 $1"
+msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:198
+#: src/components/storage/InstallationDestination.jsx:304
+msgid "$0 ($1)"
+msgstr ""
 
 #: src/components/app.jsx:76
 #, fuzzy
@@ -71,7 +81,7 @@ msgstr "Закључај рут налог"
 msgid "Actions"
 msgstr "Акција"
 
-#: src/components/storage/MountPointMapping.jsx:606
+#: src/components/storage/MountPointMapping.jsx:616
 #, fuzzy
 msgid "Add mount"
 msgstr "Додај распоред"
@@ -110,14 +120,10 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Anaconda инсталатер"
 
-#: src/components/storage/InstallationScenario.jsx:228
+#: src/components/storage/InstallationScenario.jsx:229
 #, fuzzy
 msgid "Apply mount point assignment and install"
 msgstr "Примени подешавања у инсталатеру"
-
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Applying new disk selection..."
-msgstr ""
 
 #: src/components/storage/ReclaimSpaceModal.jsx:208
 msgid "Available free space: $0. Installation requires: $1."
@@ -148,6 +154,7 @@ msgstr ""
 "бирањем опције „Желим да изађем“ да бисте поново покренули ваш систем."
 
 #: src/components/storage/CockpitStorageIntegration.jsx:134
+#: src/components/storage/InstallationDestination.jsx:357
 #: src/components/storage/ReclaimSpaceModal.jsx:219
 #: src/components/review/Hostname.jsx:106 src/components/Error.jsx:259
 #, fuzzy
@@ -160,6 +167,11 @@ msgstr "_Откажи"
 #| msgid "_Save Changes"
 msgid "Change"
 msgstr "_Сачувај измене"
+
+#: src/components/storage/InstallationDestination.jsx:342
+#, fuzzy
+msgid "Change destination"
+msgstr "Опис"
 
 #: src/components/review/Hostname.jsx:113
 #, fuzzy
@@ -189,11 +201,8 @@ msgstr "Језици"
 msgid "Chosen language: "
 msgstr "Језици"
 
-#: src/components/storage/InstallationDestination.jsx:240
-msgid "Clear input value"
-msgstr ""
-
 #: src/components/storage/EncryptedDevices.jsx:164
+#: src/components/storage/InstallationDestination.jsx:362
 msgid "Close"
 msgstr "Затвори"
 
@@ -260,10 +269,11 @@ msgstr "Закључај рут налог"
 msgid "Critical error"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:223
+#: src/components/storage/InstallationDestination.jsx:101
 #, fuzzy
-msgid "Current selections"
-msgstr "_Поништи избор"
+#| msgid "Current host name:"
+msgid "Currently installed: $0"
+msgstr "Тренутно име машине:"
 
 #: src/components/storage/MountPointMapping.jsx:246
 #, fuzzy
@@ -274,7 +284,7 @@ msgstr "Прила_гођено"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:407
+#: src/components/storage/InstallationDestination.jsx:286
 #, fuzzy
 msgid "Destination"
 msgstr "Опис"
@@ -283,7 +293,7 @@ msgstr "Опис"
 msgid "Detected valid storage layout:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:582
+#: src/components/storage/MountPointMapping.jsx:592
 #: src/components/review/StorageReview.jsx:192
 msgid "Device"
 msgstr "Уређај"
@@ -302,7 +312,7 @@ msgstr "Подешавање уређаја"
 msgid "Disk encryption"
 msgstr "Шифровање"
 
-#: src/components/storage/MountPointMapping.jsx:350
+#: src/components/storage/MountPointMapping.jsx:360
 #, fuzzy
 msgid "Duplicate device."
 msgstr "_Вишелинијски уређаји"
@@ -341,8 +351,8 @@ msgstr ""
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:206
-#: src/components/storage/InstallationScenario.jsx:214
+#: src/components/storage/InstallationScenario.jsx:207
+#: src/components/storage/InstallationScenario.jsx:215
 #, fuzzy
 msgid "Erase data and install"
 msgstr "_Започни инсталацију"
@@ -405,7 +415,7 @@ msgstr "Сакриј лозинку."
 msgid "Hostname"
 msgstr "Host Name"
 
-#: src/components/storage/InstallationScenario.jsx:407
+#: src/components/storage/InstallationScenario.jsx:408
 #, fuzzy
 msgid "How would you like to install?"
 msgstr ""
@@ -453,8 +463,8 @@ msgstr "Напредовање"
 msgid "Initializing..."
 msgstr "Инсталирам."
 
-#: src/components/storage/InstallationScenario.jsx:217
-#: src/components/storage/InstallationScenario.jsx:238
+#: src/components/storage/InstallationScenario.jsx:218
+#: src/components/storage/InstallationScenario.jsx:239
 msgid "Install"
 msgstr "Инсталирај"
 
@@ -482,11 +492,6 @@ msgstr "Инсталација"
 #, fuzzy
 msgid "Installing"
 msgstr "Инсталирам."
-
-#: src/components/storage/InstallationDestination.jsx:426
-#, fuzzy
-msgid "Installing to $0 ($1)"
-msgstr "Инсталирам %s"
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
 msgid "Keep current disk layout and only install into available space."
@@ -517,12 +522,12 @@ msgstr "поново скенирај уређаје"
 msgid "Log"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:762
+#: src/components/storage/MountPointMapping.jsx:772
 #, fuzzy
 msgid "Manual disk configuration"
 msgstr "Подешавање уређаја"
 
-#: src/components/storage/MountPointMapping.jsx:764
+#: src/components/storage/MountPointMapping.jsx:774
 #, fuzzy
 msgid "Manual disk configuration: Mount point mapping"
 msgstr "Подешавање уређаја"
@@ -549,13 +554,13 @@ msgstr ""
 msgid "Modify storage"
 msgstr "_Променити распоред складишта"
 
-#: src/components/storage/MountPointMapping.jsx:581
+#: src/components/storage/MountPointMapping.jsx:591
 #: src/components/review/StorageReview.jsx:191
 msgid "Mount point"
 msgstr "Тачка монтирања"
 
-#: src/components/storage/InstallationScenario.jsx:236
-#: src/components/storage/MountPointMapping.jsx:579
+#: src/components/storage/InstallationScenario.jsx:237
+#: src/components/storage/MountPointMapping.jsx:589
 #, fuzzy
 msgid "Mount point assignment"
 msgstr "Тачка монтирања"
@@ -583,38 +588,37 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:473
-#, fuzzy
-msgid "No additional disks detected"
-msgstr "Нема одабраних дискова"
-
-#: src/components/storage/MountPointMapping.jsx:586
+#: src/components/storage/MountPointMapping.jsx:596
 #: src/components/storage/ReclaimSpaceModal.jsx:156
 #, fuzzy
 msgid "No devices"
 msgstr "Додај уређај"
 
-#: src/components/storage/InstallationDestination.jsx:121
+#: src/components/storage/InstallationDestination.jsx:160
+#, fuzzy
+#| msgid "Unavailable"
+msgid "No disks available"
+msgstr "Недоступно"
+
+#: src/components/storage/InstallationDestination.jsx:297
+msgid "No disks selected"
+msgstr "Нема одабраних дискова"
+
 #: src/components/localization/InstallationLanguage.jsx:192
 msgid "No results found"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:120
+#: src/components/storage/InstallationScenario.jsx:121
 #, fuzzy
 msgid "No usable devices on the selected disks."
 msgstr "Нема довољно простора на одабраним дисковима."
 
-#: src/components/storage/InstallationDestination.jsx:436
-#, fuzzy
-msgid "No usable disks detected"
-msgstr "Нема одабраних дискова"
-
-#: src/components/storage/InstallationScenario.jsx:85
+#: src/components/storage/InstallationScenario.jsx:86
 #, fuzzy
 msgid "Not enough free space on the selected disks."
 msgstr "Нема довољно простора на одабраним дисковима."
 
-#: src/components/storage/InstallationScenario.jsx:64
+#: src/components/storage/InstallationScenario.jsx:65
 #, fuzzy
 msgid "Not enough space on selected disks."
 msgstr "Нема довољно простора на одабраним дисковима."
@@ -700,10 +704,6 @@ msgstr "Излаз"
 msgid "Quit installer?"
 msgstr "_Напусти инсталатер"
 
-#: src/components/storage/InstallationDestination.jsx:380
-msgid "Re-scan"
-msgstr ""
-
 #: src/components/app.jsx:113
 #, fuzzy
 msgid "Reading information about the OS failed."
@@ -752,7 +752,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "/boot систем датотека"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 #, fuzzy
 #| msgctxt "GUI|Reclaim Dialog"
 #| msgid "_Reclaim space"
@@ -768,7 +768,7 @@ msgstr "_Ослободи простор"
 msgid "Reclaim space"
 msgstr "_Ослободи простор"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 #, fuzzy
 #| msgctxt "GUI|Reclaim Dialog"
 #| msgid "_Reclaim space"
@@ -783,12 +783,12 @@ msgstr ""
 msgid "Recommended partitions:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:370
-#: src/components/storage/MountPointMapping.jsx:583
+#: src/components/storage/MountPointMapping.jsx:380
+#: src/components/storage/MountPointMapping.jsx:593
 msgid "Reformat"
 msgstr "Поново форматирај"
 
-#: src/components/storage/MountPointMapping.jsx:397
+#: src/components/storage/MountPointMapping.jsx:407
 #, fuzzy
 msgid "Remove"
 msgstr "Уклони"
@@ -834,12 +834,13 @@ msgstr "Непромењив простор"
 msgid "Requirements"
 msgstr "Непромењив простор"
 
-#: src/components/storage/InstallationDestination.jsx:389
+#: src/components/storage/InstallationDestination.jsx:151
 #, fuzzy
-msgid "Rescan"
-msgstr "Спаси"
+#| msgid "rescan devices"
+msgid "Rescan devices"
+msgstr "поново скенирај уређаје"
 
-#: src/components/storage/InstallationDestination.jsx:368
+#: src/components/storage/InstallationDestination.jsx:132
 #, fuzzy
 msgid "Rescanning of the disks failed."
 msgstr "Поновно скенирање дискова завршено."
@@ -882,15 +883,22 @@ msgstr "Са_чувај"
 msgid "Scan the QR code with your phone or visit:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:299
+#: src/components/storage/InstallationDestination.jsx:354
+#, fuzzy
+#| msgctxt "GUI|Custom Partitioning|Configure Dialog"
+#| msgid "_Select"
+msgid "Select"
+msgstr "_Изабери"
+
+#: src/components/storage/MountPointMapping.jsx:309
 #, fuzzy
 msgid "Select a device"
 msgstr "Изабрани уређај"
 
-#: src/components/storage/InstallationDestination.jsx:219
+#: src/components/storage/InstallationDestination.jsx:348
 #, fuzzy
-msgid "Select a disk"
-msgstr "Изабрани уређај"
+msgid "Select destination"
+msgstr "Опис"
 
 #: src/components/storage/MountPointMapping.jsx:124
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -941,7 +949,7 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:123
+#: src/components/storage/InstallationScenario.jsx:124
 msgid "Some required partitions are missing: $0"
 msgstr ""
 
@@ -1016,29 +1024,13 @@ msgid ""
 "software. "
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:505
-msgid "The following disk is no longer available: $0"
-msgid_plural "The following disks are no longer available: $0"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#: src/components/storage/InstallationDestination.jsx:488
-#, fuzzy
-#| msgid "The following mandatory spokes are not completed:"
-msgid "The following disk was detected: $0"
-msgid_plural "The following disks were detected: $0"
-msgstr[0] "Следеће обавезне жбице нису потпуне:"
-msgstr[1] "Следеће обавезне жбице нису потпуне:"
-msgstr[2] "Следеће обавезне жбице нису потпуне:"
-
 #: src/components/Error.jsx:267
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
 "provide additional details."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:66
+#: src/components/storage/InstallationScenario.jsx:67
 msgid "The installation needs $1 of disk space; "
 msgstr ""
 
@@ -1063,11 +1055,6 @@ msgstr ""
 #: src/components/storage/CockpitStorageIntegration.jsx:140
 msgid "The storage editor lets you resize, delete, and create partitions. "
 msgstr ""
-
-#: src/components/storage/InstallationDestination.jsx:480
-#, fuzzy
-msgid "The usable disks have changed"
-msgstr "Нема одабраних дискова"
 
 #: src/components/users/Accounts.jsx:202
 msgid "This account will have administration privilege with sudo."
@@ -1106,7 +1093,7 @@ msgstr ""
 "Нема одабраних дискова. Изаберите најмање један диск на који треба "
 "инсталирати."
 
-#: src/components/storage/InstallationScenario.jsx:87
+#: src/components/storage/InstallationScenario.jsx:88
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -1139,13 +1126,13 @@ msgstr "поново скенирај уређаје"
 msgid "Unlock encrypted devices"
 msgstr "Изабрани уређај"
 
-#: src/components/storage/InstallationScenario.jsx:246
+#: src/components/storage/InstallationScenario.jsx:247
 #, fuzzy
 #| msgid "Configuring storage"
 msgid "Use configured storage"
 msgstr "Подешавам складиште"
 
-#: src/components/storage/InstallationScenario.jsx:226
+#: src/components/storage/InstallationScenario.jsx:227
 #, fuzzy
 msgid "Use free space for the installation"
 msgstr "Неуспешно успостављање извора инсталације"
@@ -1269,6 +1256,42 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:348
 msgid "undo"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Current selections"
+#~ msgstr "_Поништи избор"
+
+#, fuzzy
+#~ msgid "Installing to $0 ($1)"
+#~ msgstr "Инсталирам %s"
+
+#, fuzzy
+#~ msgid "No additional disks detected"
+#~ msgstr "Нема одабраних дискова"
+
+#, fuzzy
+#~ msgid "No usable disks detected"
+#~ msgstr "Нема одабраних дискова"
+
+#, fuzzy
+#~ msgid "Rescan"
+#~ msgstr "Спаси"
+
+#, fuzzy
+#~ msgid "Select a disk"
+#~ msgstr "Изабрани уређај"
+
+#, fuzzy
+#~| msgid "The following mandatory spokes are not completed:"
+#~ msgid "The following disk was detected: $0"
+#~ msgid_plural "The following disks were detected: $0"
+#~ msgstr[0] "Следеће обавезне жбице нису потпуне:"
+#~ msgstr[1] "Следеће обавезне жбице нису потпуне:"
+#~ msgstr[2] "Следеће обавезне жбице нису потпуне:"
+
+#, fuzzy
+#~ msgid "The usable disks have changed"
+#~ msgstr "Нема одабраних дискова"
 
 #, fuzzy
 #~ msgid "Erase data and install?"
@@ -2270,9 +2293,6 @@ msgstr ""
 
 #~ msgid "Creating users"
 #~ msgstr "Правим кориснике"
-
-#~ msgid "Current host name:"
-#~ msgstr "Тренутно име машине:"
 
 #, python-format
 #~ msgid "Current host name: %s\n"
@@ -3329,9 +3349,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Нема одабраних дискова. Искључите рачунар, повежите макар један диск и "
 #~ "поново покрените да довршите инсталацију."
-
-#~ msgid "No disks selected"
-#~ msgstr "Нема одабраних дискова"
 
 #~ msgid "No disks selected."
 #~ msgstr "Нема одабраних дискова."
@@ -6181,10 +6198,6 @@ msgstr ""
 #~ msgid "_Sector size:"
 #~ msgstr "Величина _сектора:"
 
-#~ msgctxt "GUI|Custom Partitioning|Configure Dialog"
-#~ msgid "_Select"
-#~ msgstr "_Изабери"
-
 #, fuzzy
 #~| msgctxt "GUI|Software Source"
 #~| msgid "_On the network:"
@@ -6388,11 +6401,6 @@ msgstr ""
 #~ msgid "none"
 #~ msgstr "ништа"
 
-#, fuzzy
-#~| msgid "Unavailable"
-#~ msgid "not available"
-#~ msgstr "Недоступно"
-
 #~ msgid "not configured"
 #~ msgstr "неподешено"
 
@@ -6427,11 +6435,6 @@ msgstr ""
 #~| msgid "back to region list"
 #~ msgid "to go back to region list"
 #~ msgstr "назад на списак региона"
-
-#, fuzzy
-#~| msgid "rescan devices"
-#~ msgid "to rescan devices"
-#~ msgstr "поново скенирај уређаје"
 
 #~ msgid "to return to language list"
 #~ msgstr "за повратак на списак језика"

@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-19 03:01+0000\n"
+"POT-Creation-Date: 2024-09-20 03:01+0000\n"
 "PO-Revision-Date: 2023-11-06 12:23+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -47,6 +47,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.1.1\n"
+
+#: src/components/storage/InstallationDestination.jsx:178
+#: src/components/storage/InstallationDestination.jsx:311
+msgid "$0 $1"
+msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:198
+#: src/components/storage/InstallationDestination.jsx:304
+msgid "$0 ($1)"
+msgstr ""
 
 #: src/components/app.jsx:76
 #, fuzzy
@@ -93,7 +103,7 @@ msgstr "帳號(_A)"
 msgid "Actions"
 msgstr "動作"
 
-#: src/components/storage/MountPointMapping.jsx:606
+#: src/components/storage/MountPointMapping.jsx:616
 #, fuzzy
 msgid "Add mount"
 msgstr "加入鍵盤配置"
@@ -131,14 +141,10 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Anaconda 安裝程式"
 
-#: src/components/storage/InstallationScenario.jsx:228
+#: src/components/storage/InstallationScenario.jsx:229
 #, fuzzy
 msgid "Apply mount point assignment and install"
 msgstr "套用安裝程式中的組態"
-
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Applying new disk selection..."
-msgstr ""
 
 #: src/components/storage/ReclaimSpaceModal.jsx:208
 msgid "Available free space: $0. Installation requires: $1."
@@ -159,6 +165,7 @@ msgstr ""
 "試和開發目的，並願意報告任何錯誤或問題以改進此工作。"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:134
+#: src/components/storage/InstallationDestination.jsx:357
 #: src/components/storage/ReclaimSpaceModal.jsx:219
 #: src/components/review/Hostname.jsx:106 src/components/Error.jsx:259
 msgid "Cancel"
@@ -170,6 +177,11 @@ msgstr "取消"
 #| msgid "_Save Changes"
 msgid "Change"
 msgstr "儲存變更(_S)"
+
+#: src/components/storage/InstallationDestination.jsx:342
+#, fuzzy
+msgid "Change destination"
+msgstr "細節"
 
 #: src/components/review/Hostname.jsx:113
 #, fuzzy
@@ -199,11 +211,8 @@ msgstr "語言"
 msgid "Chosen language: "
 msgstr "語言"
 
-#: src/components/storage/InstallationDestination.jsx:240
-msgid "Clear input value"
-msgstr ""
-
 #: src/components/storage/EncryptedDevices.jsx:164
+#: src/components/storage/InstallationDestination.jsx:362
 msgid "Close"
 msgstr "關閉"
 
@@ -271,10 +280,11 @@ msgstr "鎖定 root 帳號"
 msgid "Critical error"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:223
+#: src/components/storage/InstallationDestination.jsx:101
 #, fuzzy
-msgid "Current selections"
-msgstr "重設選取項目(_R)"
+#| msgid "Current host name:"
+msgid "Currently installed: $0"
+msgstr "目前主機名稱："
 
 #: src/components/storage/MountPointMapping.jsx:246
 msgid "Custom"
@@ -284,7 +294,7 @@ msgstr "自訂"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:407
+#: src/components/storage/InstallationDestination.jsx:286
 #, fuzzy
 msgid "Destination"
 msgstr "細節"
@@ -293,7 +303,7 @@ msgstr "細節"
 msgid "Detected valid storage layout:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:582
+#: src/components/storage/MountPointMapping.jsx:592
 #: src/components/review/StorageReview.jsx:192
 msgid "Device"
 msgstr "裝置"
@@ -312,7 +322,7 @@ msgstr "裝置組態"
 msgid "Disk encryption"
 msgstr "加密"
 
-#: src/components/storage/MountPointMapping.jsx:350
+#: src/components/storage/MountPointMapping.jsx:360
 #, fuzzy
 msgid "Duplicate device."
 msgstr "Multipath 裝置(_M)"
@@ -351,8 +361,8 @@ msgstr ""
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:206
-#: src/components/storage/InstallationScenario.jsx:214
+#: src/components/storage/InstallationScenario.jsx:207
+#: src/components/storage/InstallationScenario.jsx:215
 #, fuzzy
 msgid "Erase data and install"
 msgstr "检查和安装(_R)"
@@ -416,7 +426,7 @@ msgstr "隱藏密碼。"
 msgid "Hostname"
 msgstr "主機名稱"
 
-#: src/components/storage/InstallationScenario.jsx:407
+#: src/components/storage/InstallationScenario.jsx:408
 #, fuzzy
 msgid "How would you like to install?"
 msgstr ""
@@ -464,8 +474,8 @@ msgstr "進度"
 msgid "Initializing..."
 msgstr "安裝中。"
 
-#: src/components/storage/InstallationScenario.jsx:217
-#: src/components/storage/InstallationScenario.jsx:238
+#: src/components/storage/InstallationScenario.jsx:218
+#: src/components/storage/InstallationScenario.jsx:239
 msgid "Install"
 msgstr "安裝"
 
@@ -491,11 +501,6 @@ msgstr "安裝"
 #: src/components/installation/InstallationProgress.jsx:158
 msgid "Installing"
 msgstr "安裝中"
-
-#: src/components/storage/InstallationDestination.jsx:426
-#, fuzzy
-msgid "Installing to $0 ($1)"
-msgstr "正在安裝 {}"
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
 msgid "Keep current disk layout and only install into available space."
@@ -523,12 +528,12 @@ msgstr "重新掃描裝置"
 msgid "Log"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:762
+#: src/components/storage/MountPointMapping.jsx:772
 #, fuzzy
 msgid "Manual disk configuration"
 msgstr "裝置組態"
 
-#: src/components/storage/MountPointMapping.jsx:764
+#: src/components/storage/MountPointMapping.jsx:774
 #, fuzzy
 msgid "Manual disk configuration: Mount point mapping"
 msgstr "裝置組態"
@@ -555,13 +560,13 @@ msgstr ""
 msgid "Modify storage"
 msgstr "修改儲存配置(_M)"
 
-#: src/components/storage/MountPointMapping.jsx:581
+#: src/components/storage/MountPointMapping.jsx:591
 #: src/components/review/StorageReview.jsx:191
 msgid "Mount point"
 msgstr "掛載點"
 
-#: src/components/storage/InstallationScenario.jsx:236
-#: src/components/storage/MountPointMapping.jsx:579
+#: src/components/storage/InstallationScenario.jsx:237
+#: src/components/storage/MountPointMapping.jsx:589
 #, fuzzy
 msgid "Mount point assignment"
 msgstr "掛載點"
@@ -589,38 +594,37 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:473
-#, fuzzy
-msgid "No additional disks detected"
-msgstr "未選取任何可用硬碟。"
-
-#: src/components/storage/MountPointMapping.jsx:586
+#: src/components/storage/MountPointMapping.jsx:596
 #: src/components/storage/ReclaimSpaceModal.jsx:156
 #, fuzzy
 msgid "No devices"
 msgstr "加入裝置"
 
-#: src/components/storage/InstallationDestination.jsx:121
+#: src/components/storage/InstallationDestination.jsx:160
+#, fuzzy
+#| msgid "not available"
+msgid "No disks available"
+msgstr "無法使用"
+
+#: src/components/storage/InstallationDestination.jsx:297
+msgid "No disks selected"
+msgstr "尚未選取磁碟"
+
 #: src/components/localization/InstallationLanguage.jsx:192
 msgid "No results found"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:120
+#: src/components/storage/InstallationScenario.jsx:121
 #, fuzzy
 msgid "No usable devices on the selected disks."
 msgstr "所選磁碟上的可用空間不足。"
 
-#: src/components/storage/InstallationDestination.jsx:436
-#, fuzzy
-msgid "No usable disks detected"
-msgstr "未選取任何可用硬碟。"
-
-#: src/components/storage/InstallationScenario.jsx:85
+#: src/components/storage/InstallationScenario.jsx:86
 #, fuzzy
 msgid "Not enough free space on the selected disks."
 msgstr "所選磁碟上的可用空間不足。"
 
-#: src/components/storage/InstallationScenario.jsx:64
+#: src/components/storage/InstallationScenario.jsx:65
 #, fuzzy
 msgid "Not enough space on selected disks."
 msgstr "所選磁碟上的可用空間不足。"
@@ -706,10 +710,6 @@ msgstr "退出"
 msgid "Quit installer?"
 msgstr "退出安裝程式(_Q)"
 
-#: src/components/storage/InstallationDestination.jsx:380
-msgid "Re-scan"
-msgstr ""
-
 #: src/components/app.jsx:113
 #, fuzzy
 msgid "Reading information about the OS failed."
@@ -757,7 +757,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "重新啟動系統(_R)"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 #, fuzzy
 #| msgctxt "GUI|Reclaim Dialog"
 #| msgid "_Reclaim space"
@@ -773,7 +773,7 @@ msgstr "取回空間(_R)"
 msgid "Reclaim space"
 msgstr "取回空間(_R)"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 #, fuzzy
 #| msgctxt "GUI|Reclaim Dialog"
 #| msgid "_Reclaim space"
@@ -788,12 +788,12 @@ msgstr ""
 msgid "Recommended partitions:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:370
-#: src/components/storage/MountPointMapping.jsx:583
+#: src/components/storage/MountPointMapping.jsx:380
+#: src/components/storage/MountPointMapping.jsx:593
 msgid "Reformat"
 msgstr "重新格式化"
 
-#: src/components/storage/MountPointMapping.jsx:397
+#: src/components/storage/MountPointMapping.jsx:407
 msgid "Remove"
 msgstr "移除"
 
@@ -838,12 +838,13 @@ msgstr "未註冊。"
 msgid "Requirements"
 msgstr "未註冊。"
 
-#: src/components/storage/InstallationDestination.jsx:389
+#: src/components/storage/InstallationDestination.jsx:151
 #, fuzzy
-msgid "Rescan"
-msgstr "救援模式"
+#| msgid "to rescan devices"
+msgid "Rescan devices"
+msgstr "重新掃描裝置"
 
-#: src/components/storage/InstallationDestination.jsx:368
+#: src/components/storage/InstallationDestination.jsx:132
 #, fuzzy
 msgid "Rescanning of the disks failed."
 msgstr "重新掃描磁碟完成。"
@@ -885,15 +886,22 @@ msgstr "儲存(_S)"
 msgid "Scan the QR code with your phone or visit:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:299
+#: src/components/storage/InstallationDestination.jsx:354
+#, fuzzy
+#| msgctxt "GUI|Custom Partitioning|Configure Dialog"
+#| msgid "_Select"
+msgid "Select"
+msgstr "選取(_S)"
+
+#: src/components/storage/MountPointMapping.jsx:309
 #, fuzzy
 msgid "Select a device"
 msgstr "選取的裝置"
 
-#: src/components/storage/InstallationDestination.jsx:219
+#: src/components/storage/InstallationDestination.jsx:348
 #, fuzzy
-msgid "Select a disk"
-msgstr "選擇所有磁碟"
+msgid "Select destination"
+msgstr "細節"
 
 #: src/components/storage/MountPointMapping.jsx:124
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -944,7 +952,7 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:123
+#: src/components/storage/InstallationScenario.jsx:124
 msgid "Some required partitions are missing: $0"
 msgstr ""
 
@@ -1017,25 +1025,13 @@ msgid ""
 "software. "
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:505
-msgid "The following disk is no longer available: $0"
-msgid_plural "The following disks are no longer available: $0"
-msgstr[0] ""
-
-#: src/components/storage/InstallationDestination.jsx:488
-#, fuzzy
-#| msgid "The following mandatory spokes are not completed:"
-msgid "The following disk was detected: $0"
-msgid_plural "The following disks were detected: $0"
-msgstr[0] "下列必要的輻驟項目尚未完成："
-
 #: src/components/Error.jsx:267
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
 "provide additional details."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:66
+#: src/components/storage/InstallationScenario.jsx:67
 msgid "The installation needs $1 of disk space; "
 msgstr ""
 
@@ -1058,11 +1054,6 @@ msgstr "您提供的密語包含非 ASCII 字符。您將無法在輸入它時�
 #: src/components/storage/CockpitStorageIntegration.jsx:140
 msgid "The storage editor lets you resize, delete, and create partitions. "
 msgstr ""
-
-#: src/components/storage/InstallationDestination.jsx:480
-#, fuzzy
-msgid "The usable disks have changed"
-msgstr "未選取任何可用硬碟。"
 
 #: src/components/users/Accounts.jsx:202
 msgid "This account will have administration privilege with sudo."
@@ -1095,7 +1086,7 @@ msgstr "若要開始使用 $0，請重新開機您的系統。"
 msgid "To continue, select the devices to install to."
 msgstr "尚未選取磁碟；請選擇至少一個磁碟以便安裝。"
 
-#: src/components/storage/InstallationScenario.jsx:87
+#: src/components/storage/InstallationScenario.jsx:88
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -1128,13 +1119,13 @@ msgstr "重新掃描裝置"
 msgid "Unlock encrypted devices"
 msgstr "無法解鎖加密的區塊裝置。"
 
-#: src/components/storage/InstallationScenario.jsx:246
+#: src/components/storage/InstallationScenario.jsx:247
 #, fuzzy
 #| msgid "Configuring storage"
 msgid "Use configured storage"
 msgstr "正在設定儲存裝置"
 
-#: src/components/storage/InstallationScenario.jsx:226
+#: src/components/storage/InstallationScenario.jsx:227
 #, fuzzy
 msgid "Use free space for the installation"
 msgstr "無法繼續安裝。"
@@ -1255,6 +1246,40 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:348
 msgid "undo"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Current selections"
+#~ msgstr "重設選取項目(_R)"
+
+#, fuzzy
+#~ msgid "Installing to $0 ($1)"
+#~ msgstr "正在安裝 {}"
+
+#, fuzzy
+#~ msgid "No additional disks detected"
+#~ msgstr "未選取任何可用硬碟。"
+
+#, fuzzy
+#~ msgid "No usable disks detected"
+#~ msgstr "未選取任何可用硬碟。"
+
+#, fuzzy
+#~ msgid "Rescan"
+#~ msgstr "救援模式"
+
+#, fuzzy
+#~ msgid "Select a disk"
+#~ msgstr "選擇所有磁碟"
+
+#, fuzzy
+#~| msgid "The following mandatory spokes are not completed:"
+#~ msgid "The following disk was detected: $0"
+#~ msgid_plural "The following disks were detected: $0"
+#~ msgstr[0] "下列必要的輻驟項目尚未完成："
+
+#, fuzzy
+#~ msgid "The usable disks have changed"
+#~ msgstr "未選取任何可用硬碟。"
 
 #, fuzzy
 #~ msgid "Erase data and install?"
@@ -2281,9 +2306,6 @@ msgstr ""
 
 #~ msgid "Creating users"
 #~ msgstr "正在建立使用者"
-
-#~ msgid "Current host name:"
-#~ msgstr "目前主機名稱："
 
 #, python-format
 #~ msgid "Current host name: %s\n"
@@ -3440,9 +3462,6 @@ msgstr ""
 #~ "No disks detected.  Please shut down the computer, connect at least one "
 #~ "disk, and restart to complete installation."
 #~ msgstr "未偵測到磁碟。請關閉電腦，接上至少一顆硬碟，並重新啟動完成安裝。"
-
-#~ msgid "No disks selected"
-#~ msgstr "尚未選取磁碟"
 
 #~ msgid "No disks selected."
 #~ msgstr "尚未選取磁碟。"
@@ -6372,10 +6391,6 @@ msgstr ""
 #~ msgid "_Sector size:"
 #~ msgstr "扇區大小(_S)："
 
-#~ msgctxt "GUI|Custom Partitioning|Configure Dialog"
-#~ msgid "_Select"
-#~ msgstr "選取(_S)"
-
 #~ msgctxt "GUI|Network|Wireless"
 #~ msgid "_Select network"
 #~ msgstr "選擇網絡(_S)："
@@ -6585,9 +6600,6 @@ msgstr ""
 #~ msgid "none"
 #~ msgstr "無"
 
-#~ msgid "not available"
-#~ msgstr "無法使用"
-
 #~ msgid "not configured"
 #~ msgstr "尚未設定"
 
@@ -6627,9 +6639,6 @@ msgstr ""
 
 #~ msgid "to go back to region list"
 #~ msgstr "返回地區列表"
-
-#~ msgid "to rescan devices"
-#~ msgstr "重新掃描裝置"
 
 #~ msgid "to return to language list"
 #~ msgstr "返回語言列表"

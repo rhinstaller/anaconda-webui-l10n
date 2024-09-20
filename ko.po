@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-19 03:01+0000\n"
+"POT-Creation-Date: 2024-09-20 03:01+0000\n"
 "PO-Revision-Date: 2024-08-13 05:36+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/anaconda-"
@@ -48,6 +48,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.6.2\n"
+
+#: src/components/storage/InstallationDestination.jsx:178
+#: src/components/storage/InstallationDestination.jsx:311
+msgid "$0 $1"
+msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:198
+#: src/components/storage/InstallationDestination.jsx:304
+msgid "$0 ($1)"
+msgstr ""
 
 #: src/components/app.jsx:76
 msgid "$0 installation"
@@ -82,7 +92,7 @@ msgstr "계정"
 msgid "Actions"
 msgstr "동작"
 
-#: src/components/storage/MountPointMapping.jsx:606
+#: src/components/storage/MountPointMapping.jsx:616
 msgid "Add mount"
 msgstr "적재를 추가합니다"
 
@@ -118,13 +128,9 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "아나콘다 프로젝트 부분"
 
-#: src/components/storage/InstallationScenario.jsx:228
+#: src/components/storage/InstallationScenario.jsx:229
 msgid "Apply mount point assignment and install"
 msgstr "적재 지점 할당을 적용하고 설치합니다"
-
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Applying new disk selection..."
-msgstr "신규 디스크 선택을 적용 중..."
 
 #: src/components/storage/ReclaimSpaceModal.jsx:208
 msgid "Available free space: $0. Installation requires: $1."
@@ -146,6 +152,7 @@ msgstr ""
 "소프트웨어와 관련된 위험을 이해하고 수용합니다."
 
 #: src/components/storage/CockpitStorageIntegration.jsx:134
+#: src/components/storage/InstallationDestination.jsx:357
 #: src/components/storage/ReclaimSpaceModal.jsx:219
 #: src/components/review/Hostname.jsx:106 src/components/Error.jsx:259
 msgid "Cancel"
@@ -154,6 +161,12 @@ msgstr "취소"
 #: src/components/review/Hostname.jsx:104
 msgid "Change"
 msgstr "변경"
+
+#: src/components/storage/InstallationDestination.jsx:342
+#, fuzzy
+#| msgid "Destination"
+msgid "Change destination"
+msgstr "대상"
 
 #: src/components/review/Hostname.jsx:113
 msgid "Change hostname"
@@ -179,11 +192,8 @@ msgstr "언어를 선택합니다"
 msgid "Chosen language: "
 msgstr "선택한 언어: "
 
-#: src/components/storage/InstallationDestination.jsx:240
-msgid "Clear input value"
-msgstr "입력 값 초기화"
-
 #: src/components/storage/EncryptedDevices.jsx:164
+#: src/components/storage/InstallationDestination.jsx:362
 msgid "Close"
 msgstr "종료"
 
@@ -238,9 +248,11 @@ msgstr "계정 생성"
 msgid "Critical error"
 msgstr "심각한 오류"
 
-#: src/components/storage/InstallationDestination.jsx:223
-msgid "Current selections"
-msgstr "현재 선택"
+#: src/components/storage/InstallationDestination.jsx:101
+#, fuzzy
+#| msgid "Current host name:"
+msgid "Currently installed: $0"
+msgstr "현재 호스트 이름:"
 
 #: src/components/storage/MountPointMapping.jsx:246
 msgid "Custom"
@@ -250,7 +262,7 @@ msgstr "사용자 지정"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "특정 파티션의 삭제는 부팅에서 $0를 예방합니다: $1"
 
-#: src/components/storage/InstallationDestination.jsx:407
+#: src/components/storage/InstallationDestination.jsx:286
 msgid "Destination"
 msgstr "대상"
 
@@ -258,7 +270,7 @@ msgstr "대상"
 msgid "Detected valid storage layout:"
 msgstr "탐지된 유효 저장소 배열:"
 
-#: src/components/storage/MountPointMapping.jsx:582
+#: src/components/storage/MountPointMapping.jsx:592
 #: src/components/review/StorageReview.jsx:192
 msgid "Device"
 msgstr "장치"
@@ -275,7 +287,7 @@ msgstr "장치 구성"
 msgid "Disk encryption"
 msgstr "디스크 암호화"
 
-#: src/components/storage/MountPointMapping.jsx:350
+#: src/components/storage/MountPointMapping.jsx:360
 msgid "Duplicate device."
 msgstr "중복 장치."
 
@@ -309,8 +321,8 @@ msgstr ""
 "암호화는 다른 사람이 접근하지 못하도록 자신의 자료를 보호하는 데 도움이 됩니"
 "다."
 
-#: src/components/storage/InstallationScenario.jsx:206
-#: src/components/storage/InstallationScenario.jsx:214
+#: src/components/storage/InstallationScenario.jsx:207
+#: src/components/storage/InstallationScenario.jsx:215
 msgid "Erase data and install"
 msgstr "자료를 지우고 설치합니다"
 
@@ -366,7 +378,7 @@ msgstr "비밀번호 숨기기"
 msgid "Hostname"
 msgstr "호스트이름"
 
-#: src/components/storage/InstallationScenario.jsx:407
+#: src/components/storage/InstallationScenario.jsx:408
 msgid "How would you like to install?"
 msgstr "설치 하시겠습니까?"
 
@@ -410,8 +422,8 @@ msgstr "진행 중"
 msgid "Initializing..."
 msgstr "초기화 중..."
 
-#: src/components/storage/InstallationScenario.jsx:217
-#: src/components/storage/InstallationScenario.jsx:238
+#: src/components/storage/InstallationScenario.jsx:218
+#: src/components/storage/InstallationScenario.jsx:239
 msgid "Install"
 msgstr "설치"
 
@@ -434,10 +446,6 @@ msgstr "설치 유형"
 #: src/components/installation/InstallationProgress.jsx:158
 msgid "Installing"
 msgstr "설치 중"
-
-#: src/components/storage/InstallationDestination.jsx:426
-msgid "Installing to $0 ($1)"
-msgstr "$0 ($1)에 설치 중"
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
 msgid "Keep current disk layout and only install into available space."
@@ -463,11 +471,11 @@ msgstr "잠금된 장치"
 msgid "Log"
 msgstr "로그"
 
-#: src/components/storage/MountPointMapping.jsx:762
+#: src/components/storage/MountPointMapping.jsx:772
 msgid "Manual disk configuration"
 msgstr "사용자 정의 디스크 구성"
 
-#: src/components/storage/MountPointMapping.jsx:764
+#: src/components/storage/MountPointMapping.jsx:774
 msgid "Manual disk configuration: Mount point mapping"
 msgstr "사용자 정의 디스크 구성: 적재 지점 대응"
 
@@ -492,13 +500,13 @@ msgstr "상위 장치와 하위 장치 재-초기화 선택이 일치하지 않�
 msgid "Modify storage"
 msgstr "저장소를 수정합니다"
 
-#: src/components/storage/MountPointMapping.jsx:581
+#: src/components/storage/MountPointMapping.jsx:591
 #: src/components/review/StorageReview.jsx:191
 msgid "Mount point"
 msgstr "적재 지점"
 
-#: src/components/storage/InstallationScenario.jsx:236
-#: src/components/storage/MountPointMapping.jsx:579
+#: src/components/storage/InstallationScenario.jsx:237
+#: src/components/storage/MountPointMapping.jsx:589
 msgid "Mount point assignment"
 msgstr "적재 지점 지정"
 
@@ -526,33 +534,34 @@ msgstr "네트워크를 사용 할 수 없습니다. 네트워크를 구성하�
 msgid "Next"
 msgstr "다음"
 
-#: src/components/storage/InstallationDestination.jsx:473
-msgid "No additional disks detected"
-msgstr "탐지된 추가 디스크가 없습니다"
-
-#: src/components/storage/MountPointMapping.jsx:586
+#: src/components/storage/MountPointMapping.jsx:596
 #: src/components/storage/ReclaimSpaceModal.jsx:156
 msgid "No devices"
 msgstr "장치 없음"
 
-#: src/components/storage/InstallationDestination.jsx:121
+#: src/components/storage/InstallationDestination.jsx:160
+#, fuzzy
+#| msgid "not available"
+msgid "No disks available"
+msgstr "사용 불가"
+
+#: src/components/storage/InstallationDestination.jsx:297
+msgid "No disks selected"
+msgstr "선택한 디스크가 없음"
+
 #: src/components/localization/InstallationLanguage.jsx:192
 msgid "No results found"
 msgstr "결과를 찾을 수 없습니다"
 
-#: src/components/storage/InstallationScenario.jsx:120
+#: src/components/storage/InstallationScenario.jsx:121
 msgid "No usable devices on the selected disks."
 msgstr "선택한 디스크에 사용 할 수 있는 장치가 없습니다."
 
-#: src/components/storage/InstallationDestination.jsx:436
-msgid "No usable disks detected"
-msgstr "사용 가능한 디스크가 탐지 되지 않았습니다"
-
-#: src/components/storage/InstallationScenario.jsx:85
+#: src/components/storage/InstallationScenario.jsx:86
 msgid "Not enough free space on the selected disks."
 msgstr "선택한 디스크에 여유 공간이 충분하지 않습니다."
 
-#: src/components/storage/InstallationScenario.jsx:64
+#: src/components/storage/InstallationScenario.jsx:65
 msgid "Not enough space on selected disks."
 msgstr "선택한 디스크에 공간이 충분하지 않습니다."
 
@@ -633,10 +642,6 @@ msgstr "종료"
 msgid "Quit installer?"
 msgstr "설치자 종료?"
 
-#: src/components/storage/InstallationDestination.jsx:380
-msgid "Re-scan"
-msgstr "다시-스캔"
-
 #: src/components/app.jsx:113
 msgid "Reading information about the OS failed."
 msgstr "OS에 대한 정보 읽기를 실패함."
@@ -680,7 +685,7 @@ msgstr "BitLocker-암호화된 파티션의 크기를 조절하려면 윈도우�
 msgid "Reboot system?"
 msgstr "시스템 재시작?"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 msgid "Reclaim additional space"
 msgstr "추가 공간 확보"
 
@@ -690,7 +695,7 @@ msgstr "추가 공간 확보"
 msgid "Reclaim space"
 msgstr "공간 확보"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 msgid "Reclaim space (required)"
 msgstr "공간 확보(필수)"
 
@@ -702,12 +707,12 @@ msgstr "권장 사항"
 msgid "Recommended partitions:"
 msgstr "권장 파티션:"
 
-#: src/components/storage/MountPointMapping.jsx:370
-#: src/components/storage/MountPointMapping.jsx:583
+#: src/components/storage/MountPointMapping.jsx:380
+#: src/components/storage/MountPointMapping.jsx:593
 msgid "Reformat"
 msgstr "다시초기화함"
 
-#: src/components/storage/MountPointMapping.jsx:397
+#: src/components/storage/MountPointMapping.jsx:407
 msgid "Remove"
 msgstr "제거"
 
@@ -755,11 +760,13 @@ msgstr "요구 사항"
 msgid "Requirements"
 msgstr "요구 사항"
 
-#: src/components/storage/InstallationDestination.jsx:389
-msgid "Rescan"
-msgstr "다시 스캔"
+#: src/components/storage/InstallationDestination.jsx:151
+#, fuzzy
+#| msgid "to rescan devices"
+msgid "Rescan devices"
+msgstr "장치를 재검색 하려면"
 
-#: src/components/storage/InstallationDestination.jsx:368
+#: src/components/storage/InstallationDestination.jsx:132
 msgid "Rescanning of the disks failed."
 msgstr "디스크 재검색이 실패함."
 
@@ -792,13 +799,22 @@ msgstr "저장"
 msgid "Scan the QR code with your phone or visit:"
 msgstr "자신의 폰으로 QR 코드를 스캔하거나 방문하세요:"
 
-#: src/components/storage/MountPointMapping.jsx:299
+#: src/components/storage/InstallationDestination.jsx:354
+#, fuzzy
+#| msgctxt "GUI|Custom Partitioning|Configure Dialog"
+#| msgid "_Select"
+msgid "Select"
+msgstr "선택(_S)"
+
+#: src/components/storage/MountPointMapping.jsx:309
 msgid "Select a device"
 msgstr "장치를 선택합니다"
 
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Select a disk"
-msgstr "디스크 선택"
+#: src/components/storage/InstallationDestination.jsx:348
+#, fuzzy
+#| msgid "Destination"
+msgid "Select destination"
+msgstr "대상"
 
 #: src/components/storage/MountPointMapping.jsx:124
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -844,7 +860,7 @@ msgstr ""
 "소프트웨어 설치: 저장소 구성 완료. 소프트웨어는 이제 자신의 장치에 설치되어 "
 "있습니다."
 
-#: src/components/storage/InstallationScenario.jsx:123
+#: src/components/storage/InstallationScenario.jsx:124
 msgid "Some required partitions are missing: $0"
 msgstr "일부 필수 파티션이 누락되었습니다: $0"
 
@@ -908,16 +924,6 @@ msgid ""
 "software. "
 msgstr "선택된 언어는 설치와 설치된 소프트웨어를 위해 사용됩니다. "
 
-#: src/components/storage/InstallationDestination.jsx:505
-msgid "The following disk is no longer available: $0"
-msgid_plural "The following disks are no longer available: $0"
-msgstr[0] "다음 디스크는 더 이상 사용 할 수 없습니다: $0"
-
-#: src/components/storage/InstallationDestination.jsx:488
-msgid "The following disk was detected: $0"
-msgid_plural "The following disks were detected: $0"
-msgstr[0] "다음 디스크가 탐지되었습니다: $0"
-
 #: src/components/Error.jsx:267
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
@@ -926,7 +932,7 @@ msgstr ""
 "다음 기록은 추가적인 상세 정보를 제공 할 수 있는 문제 추적 시스템으로 전송됩"
 "니다."
 
-#: src/components/storage/InstallationScenario.jsx:66
+#: src/components/storage/InstallationScenario.jsx:67
 msgid "The installation needs $1 of disk space; "
 msgstr "설치는 $1 디스크 공간이 필요합니다; "
 
@@ -949,10 +955,6 @@ msgstr ""
 #: src/components/storage/CockpitStorageIntegration.jsx:140
 msgid "The storage editor lets you resize, delete, and create partitions. "
 msgstr "저장소 편집기는 파티션 크기 조정, 삭제 및 생성하도록 합니다. "
-
-#: src/components/storage/InstallationDestination.jsx:480
-msgid "The usable disks have changed"
-msgstr "사용 가능한 디스크가 변경되었습니다"
 
 #: src/components/users/Accounts.jsx:202
 msgid "This account will have administration privilege with sudo."
@@ -982,7 +984,7 @@ msgstr "$0를 사용하여 시작하려면, 시스템을 재시작하세요."
 msgid "To continue, select the devices to install to."
 msgstr "계속하려면, 설치하려는 장치를 선택하세요."
 
-#: src/components/storage/InstallationScenario.jsx:87
+#: src/components/storage/InstallationScenario.jsx:88
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -1014,11 +1016,11 @@ msgstr "장치를 잠금해제합니다"
 msgid "Unlock encrypted devices"
 msgstr "암호화된 장치를 해제합니다"
 
-#: src/components/storage/InstallationScenario.jsx:246
+#: src/components/storage/InstallationScenario.jsx:247
 msgid "Use configured storage"
 msgstr "구성된 저장소 사용"
 
-#: src/components/storage/InstallationScenario.jsx:226
+#: src/components/storage/InstallationScenario.jsx:227
 msgid "Use free space for the installation"
 msgstr "설치를 위해 여유 공간을 사용합니다"
 
@@ -1128,6 +1130,44 @@ msgstr "$0로 축소"
 #: src/components/storage/ReclaimSpaceModal.jsx:348
 msgid "undo"
 msgstr "실행취소"
+
+#~ msgid "Applying new disk selection..."
+#~ msgstr "신규 디스크 선택을 적용 중..."
+
+#~ msgid "Clear input value"
+#~ msgstr "입력 값 초기화"
+
+#~ msgid "Current selections"
+#~ msgstr "현재 선택"
+
+#~ msgid "Installing to $0 ($1)"
+#~ msgstr "$0 ($1)에 설치 중"
+
+#~ msgid "No additional disks detected"
+#~ msgstr "탐지된 추가 디스크가 없습니다"
+
+#~ msgid "No usable disks detected"
+#~ msgstr "사용 가능한 디스크가 탐지 되지 않았습니다"
+
+#~ msgid "Re-scan"
+#~ msgstr "다시-스캔"
+
+#~ msgid "Rescan"
+#~ msgstr "다시 스캔"
+
+#~ msgid "Select a disk"
+#~ msgstr "디스크 선택"
+
+#~ msgid "The following disk is no longer available: $0"
+#~ msgid_plural "The following disks are no longer available: $0"
+#~ msgstr[0] "다음 디스크는 더 이상 사용 할 수 없습니다: $0"
+
+#~ msgid "The following disk was detected: $0"
+#~ msgid_plural "The following disks were detected: $0"
+#~ msgstr[0] "다음 디스크가 탐지되었습니다: $0"
+
+#~ msgid "The usable disks have changed"
+#~ msgstr "사용 가능한 디스크가 변경되었습니다"
 
 #~ msgid "Some devices use the same name: $0."
 #~ msgstr "몇몇 장치는 동일한 이름을 사용합니다: $0."
@@ -2214,9 +2254,6 @@ msgstr "실행취소"
 
 #~ msgid "Creating users"
 #~ msgstr "사용자 생성 중"
-
-#~ msgid "Current host name:"
-#~ msgstr "현재 호스트 이름:"
 
 #, python-format
 #~ msgid "Current host name: %s\n"
@@ -3401,9 +3438,6 @@ msgstr "실행취소"
 #~ msgstr ""
 #~ "디스크를 검색할 수 없습니다.  컴퓨터를 종료하고 최소 1 개의 디스크에 연결"
 #~ "한 후 설치 완료를 위해 다시 시작합니다."
-
-#~ msgid "No disks selected"
-#~ msgstr "선택한 디스크가 없음"
 
 #~ msgid "No disks selected."
 #~ msgstr "선택한 디스크가 없음."
@@ -6487,10 +6521,6 @@ msgstr "실행취소"
 #~ msgid "_Sector size:"
 #~ msgstr "섹터 크기(S):"
 
-#~ msgctxt "GUI|Custom Partitioning|Configure Dialog"
-#~ msgid "_Select"
-#~ msgstr "선택(_S)"
-
 #~ msgctxt "GUI|Network|Wireless"
 #~ msgid "_Select network"
 #~ msgstr "네트워크 선택(_S)"
@@ -6711,9 +6741,6 @@ msgstr "실행취소"
 #~ msgid "none"
 #~ msgstr "없음"
 
-#~ msgid "not available"
-#~ msgstr "사용 불가"
-
 #~ msgid "not configured"
 #~ msgstr "설정되어 있지 않음"
 
@@ -6753,9 +6780,6 @@ msgstr "실행취소"
 
 #~ msgid "to go back to region list"
 #~ msgstr "지역 목록으로 돌아가기"
-
-#~ msgid "to rescan devices"
-#~ msgstr "장치를 재검색 하려면"
 
 #~ msgid "to return to language list"
 #~ msgstr "언어 목록으로 돌아가기"

@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-19 03:01+0000\n"
+"POT-Creation-Date: 2024-09-20 03:01+0000\n"
 "PO-Revision-Date: 2024-08-13 05:36+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
@@ -39,6 +39,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
 "X-Generator: Weblate 5.6.2\n"
+
+#: src/components/storage/InstallationDestination.jsx:178
+#: src/components/storage/InstallationDestination.jsx:311
+msgid "$0 $1"
+msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:198
+#: src/components/storage/InstallationDestination.jsx:304
+msgid "$0 ($1)"
+msgstr ""
 
 #: src/components/app.jsx:76
 msgid "$0 installation"
@@ -73,7 +83,7 @@ msgstr "Hesap"
 msgid "Actions"
 msgstr "Eylemler"
 
-#: src/components/storage/MountPointMapping.jsx:606
+#: src/components/storage/MountPointMapping.jsx:616
 msgid "Add mount"
 msgstr "Bağlama noktası ekle"
 
@@ -110,13 +120,9 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Anaconda projesi sayfası"
 
-#: src/components/storage/InstallationScenario.jsx:228
+#: src/components/storage/InstallationScenario.jsx:229
 msgid "Apply mount point assignment and install"
 msgstr "Bağlama noktası atamasını uygula ve kur"
-
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Applying new disk selection..."
-msgstr "Yeni disk seçimi uygulanıyor..."
 
 #: src/components/storage/ReclaimSpaceModal.jsx:208
 msgid "Available free space: $0. Installation requires: $1."
@@ -139,6 +145,7 @@ msgstr ""
 "bildirmeye hazır olduğunuzu kabul edersiniz."
 
 #: src/components/storage/CockpitStorageIntegration.jsx:134
+#: src/components/storage/InstallationDestination.jsx:357
 #: src/components/storage/ReclaimSpaceModal.jsx:219
 #: src/components/review/Hostname.jsx:106 src/components/Error.jsx:259
 msgid "Cancel"
@@ -147,6 +154,12 @@ msgstr "İptal"
 #: src/components/review/Hostname.jsx:104
 msgid "Change"
 msgstr "Değiştir"
+
+#: src/components/storage/InstallationDestination.jsx:342
+#, fuzzy
+#| msgid "Destination"
+msgid "Change destination"
+msgstr "Hedef"
 
 #: src/components/review/Hostname.jsx:113
 msgid "Change hostname"
@@ -173,11 +186,8 @@ msgstr "Bir dil seçin"
 msgid "Chosen language: "
 msgstr "Seçilen dil: "
 
-#: src/components/storage/InstallationDestination.jsx:240
-msgid "Clear input value"
-msgstr "Giriş değerini temizle"
-
 #: src/components/storage/EncryptedDevices.jsx:164
+#: src/components/storage/InstallationDestination.jsx:362
 msgid "Close"
 msgstr "Kapat"
 
@@ -232,9 +242,11 @@ msgstr "Hesap oluştur"
 msgid "Critical error"
 msgstr "Önemli hata"
 
-#: src/components/storage/InstallationDestination.jsx:223
-msgid "Current selections"
-msgstr "Geçerli seçimler"
+#: src/components/storage/InstallationDestination.jsx:101
+#, fuzzy
+#| msgid "Current host name:"
+msgid "Currently installed: $0"
+msgstr "Geçerli ana makine adı:"
 
 #: src/components/storage/MountPointMapping.jsx:246
 msgid "Custom"
@@ -244,7 +256,7 @@ msgstr "Özel"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Belirli bölümlerin silinmesi $0 önyüklenmesini engelleyebilir: $1"
 
-#: src/components/storage/InstallationDestination.jsx:407
+#: src/components/storage/InstallationDestination.jsx:286
 msgid "Destination"
 msgstr "Hedef"
 
@@ -252,7 +264,7 @@ msgstr "Hedef"
 msgid "Detected valid storage layout:"
 msgstr "Algılanan geçerli depolama düzeni:"
 
-#: src/components/storage/MountPointMapping.jsx:582
+#: src/components/storage/MountPointMapping.jsx:592
 #: src/components/review/StorageReview.jsx:192
 msgid "Device"
 msgstr "Aygıt"
@@ -269,7 +281,7 @@ msgstr "Disk yapılandırması"
 msgid "Disk encryption"
 msgstr "Disk şifreleme"
 
-#: src/components/storage/MountPointMapping.jsx:350
+#: src/components/storage/MountPointMapping.jsx:360
 msgid "Duplicate device."
 msgstr "Yinelenen aygıt."
 
@@ -303,8 +315,8 @@ msgstr ""
 "Şifreleme, başkalarının erişmesini önlemek için verilerinizin güvenliğini "
 "sağlamaya yardımcı olur."
 
-#: src/components/storage/InstallationScenario.jsx:206
-#: src/components/storage/InstallationScenario.jsx:214
+#: src/components/storage/InstallationScenario.jsx:207
+#: src/components/storage/InstallationScenario.jsx:215
 msgid "Erase data and install"
 msgstr "Verileri sil ve kur"
 
@@ -361,7 +373,7 @@ msgstr "Parolayı gizle"
 msgid "Hostname"
 msgstr "Ana makine adı"
 
-#: src/components/storage/InstallationScenario.jsx:407
+#: src/components/storage/InstallationScenario.jsx:408
 msgid "How would you like to install?"
 msgstr "Nasıl kurmak istersiniz?"
 
@@ -406,8 +418,8 @@ msgstr "Sürüyor"
 msgid "Initializing..."
 msgstr "Başlatılıyor..."
 
-#: src/components/storage/InstallationScenario.jsx:217
-#: src/components/storage/InstallationScenario.jsx:238
+#: src/components/storage/InstallationScenario.jsx:218
+#: src/components/storage/InstallationScenario.jsx:239
 msgid "Install"
 msgstr "Kur"
 
@@ -430,10 +442,6 @@ msgstr "Kurulum türü"
 #: src/components/installation/InstallationProgress.jsx:158
 msgid "Installing"
 msgstr "Kuruluyor"
-
-#: src/components/storage/InstallationDestination.jsx:426
-msgid "Installing to $0 ($1)"
-msgstr "$0 ($1) aygıtına kuruluyor"
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
 msgid "Keep current disk layout and only install into available space."
@@ -459,11 +467,11 @@ msgstr "Kilitli aygıtlar"
 msgid "Log"
 msgstr "Günlük"
 
-#: src/components/storage/MountPointMapping.jsx:762
+#: src/components/storage/MountPointMapping.jsx:772
 msgid "Manual disk configuration"
 msgstr "Elle disk yapılandırması"
 
-#: src/components/storage/MountPointMapping.jsx:764
+#: src/components/storage/MountPointMapping.jsx:774
 msgid "Manual disk configuration: Mount point mapping"
 msgstr "Elle disk yapılandırması: Bağlama noktası eşlemesi"
 
@@ -489,13 +497,13 @@ msgstr ""
 msgid "Modify storage"
 msgstr "Depolamayı değiştir"
 
-#: src/components/storage/MountPointMapping.jsx:581
+#: src/components/storage/MountPointMapping.jsx:591
 #: src/components/review/StorageReview.jsx:191
 msgid "Mount point"
 msgstr "Bağlama noktası"
 
-#: src/components/storage/InstallationScenario.jsx:236
-#: src/components/storage/MountPointMapping.jsx:579
+#: src/components/storage/InstallationScenario.jsx:237
+#: src/components/storage/MountPointMapping.jsx:589
 msgid "Mount point assignment"
 msgstr "Bağlama noktası ataması"
 
@@ -523,33 +531,34 @@ msgstr "Ağ kullanılabilir değil. Sorunu bildirmek için ağı yapılandırın
 msgid "Next"
 msgstr "Sonraki"
 
-#: src/components/storage/InstallationDestination.jsx:473
-msgid "No additional disks detected"
-msgstr "Ek disk algılanmadı"
-
-#: src/components/storage/MountPointMapping.jsx:586
+#: src/components/storage/MountPointMapping.jsx:596
 #: src/components/storage/ReclaimSpaceModal.jsx:156
 msgid "No devices"
 msgstr "Aygıt yok"
 
-#: src/components/storage/InstallationDestination.jsx:121
+#: src/components/storage/InstallationDestination.jsx:160
+#, fuzzy
+#| msgid "not available"
+msgid "No disks available"
+msgstr "yok"
+
+#: src/components/storage/InstallationDestination.jsx:297
+msgid "No disks selected"
+msgstr "Hiçbir disk seçilmedi"
+
 #: src/components/localization/InstallationLanguage.jsx:192
 msgid "No results found"
 msgstr "Sonuç bulunamadı"
 
-#: src/components/storage/InstallationScenario.jsx:120
+#: src/components/storage/InstallationScenario.jsx:121
 msgid "No usable devices on the selected disks."
 msgstr "Seçilen disklerde kullanılabilir aygıt yok."
 
-#: src/components/storage/InstallationDestination.jsx:436
-msgid "No usable disks detected"
-msgstr "Kullanılabilir disk algılanmadı"
-
-#: src/components/storage/InstallationScenario.jsx:85
+#: src/components/storage/InstallationScenario.jsx:86
 msgid "Not enough free space on the selected disks."
 msgstr "Seçilen disklerde yeterli boş alan yok."
 
-#: src/components/storage/InstallationScenario.jsx:64
+#: src/components/storage/InstallationScenario.jsx:65
 msgid "Not enough space on selected disks."
 msgstr "Seçilen disklerde yeterli alan yok."
 
@@ -632,10 +641,6 @@ msgstr "Çık"
 msgid "Quit installer?"
 msgstr "Kurucudan çıkılsın mı?"
 
-#: src/components/storage/InstallationDestination.jsx:380
-msgid "Re-scan"
-msgstr "Yeniden tara"
-
 #: src/components/app.jsx:113
 msgid "Reading information about the OS failed."
 msgstr "İşletim sistemi hakkında bilgilerin okunması başarısız oldu."
@@ -681,7 +686,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "Sistem yeniden başlatılsın mı?"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 msgid "Reclaim additional space"
 msgstr "Ek alan kazan"
 
@@ -691,7 +696,7 @@ msgstr "Ek alan kazan"
 msgid "Reclaim space"
 msgstr "Alanı geri kazan"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 msgid "Reclaim space (required)"
 msgstr "Alanı geri kazan (gerekli)"
 
@@ -703,12 +708,12 @@ msgstr "Tavsiye edilir"
 msgid "Recommended partitions:"
 msgstr "Tavsiye edilen bölümler:"
 
-#: src/components/storage/MountPointMapping.jsx:370
-#: src/components/storage/MountPointMapping.jsx:583
+#: src/components/storage/MountPointMapping.jsx:380
+#: src/components/storage/MountPointMapping.jsx:593
 msgid "Reformat"
 msgstr "Yeniden biçimlendir"
 
-#: src/components/storage/MountPointMapping.jsx:397
+#: src/components/storage/MountPointMapping.jsx:407
 msgid "Remove"
 msgstr "Kaldır"
 
@@ -758,11 +763,13 @@ msgstr "Gerekli"
 msgid "Requirements"
 msgstr "Gereksinimler"
 
-#: src/components/storage/InstallationDestination.jsx:389
-msgid "Rescan"
-msgstr "Yeniden tara"
+#: src/components/storage/InstallationDestination.jsx:151
+#, fuzzy
+#| msgid "to rescan devices"
+msgid "Rescan devices"
+msgstr "aygıtları yeniden tara"
 
-#: src/components/storage/InstallationDestination.jsx:368
+#: src/components/storage/InstallationDestination.jsx:132
 msgid "Rescanning of the disks failed."
 msgstr "Disklerin yeniden taranması başarısız oldu."
 
@@ -795,13 +802,22 @@ msgstr "Kaydet"
 msgid "Scan the QR code with your phone or visit:"
 msgstr "QR kodunu telefonunuzla tarayın veya ziyaret edin:"
 
-#: src/components/storage/MountPointMapping.jsx:299
+#: src/components/storage/InstallationDestination.jsx:354
+#, fuzzy
+#| msgctxt "GUI|Custom Partitioning|Configure Dialog"
+#| msgid "_Select"
+msgid "Select"
+msgstr "_Seç"
+
+#: src/components/storage/MountPointMapping.jsx:309
 msgid "Select a device"
 msgstr "Bir aygıt seçin"
 
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Select a disk"
-msgstr "Bir disk seçin"
+#: src/components/storage/InstallationDestination.jsx:348
+#, fuzzy
+#| msgid "Destination"
+msgid "Select destination"
+msgstr "Hedef"
 
 #: src/components/storage/MountPointMapping.jsx:124
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -847,7 +863,7 @@ msgstr ""
 "Yazılım kurulumu: Depolama yapılandırması tamamlandı. Yazılım şimdi "
 "aygıtınıza kuruluyor."
 
-#: src/components/storage/InstallationScenario.jsx:123
+#: src/components/storage/InstallationScenario.jsx:124
 msgid "Some required partitions are missing: $0"
 msgstr "Bazı gerekli bölümler eksik: $0"
 
@@ -914,18 +930,6 @@ msgid ""
 "software. "
 msgstr "Seçilen dil kurulum için ve kurulu yazılımlarda kullanılacaktır. "
 
-#: src/components/storage/InstallationDestination.jsx:505
-msgid "The following disk is no longer available: $0"
-msgid_plural "The following disks are no longer available: $0"
-msgstr[0] "Şu disk artık kullanılabilir değil: $0"
-msgstr[1] "Şu diskler artık kullanılabilir değil: $0"
-
-#: src/components/storage/InstallationDestination.jsx:488
-msgid "The following disk was detected: $0"
-msgid_plural "The following disks were detected: $0"
-msgstr[0] "Şu disk algılandı: $0"
-msgstr[1] "Şu diskler algılandı: $0"
-
 #: src/components/Error.jsx:267
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
@@ -934,7 +938,7 @@ msgstr ""
 "Aşağıdaki günlük, ek ayrıntılar sağlayabileceğiniz sorun izleme sistemine "
 "gönderilecektir."
 
-#: src/components/storage/InstallationScenario.jsx:66
+#: src/components/storage/InstallationScenario.jsx:67
 msgid "The installation needs $1 of disk space; "
 msgstr "Kurulum için $1 disk alanı gerekli; "
 
@@ -959,10 +963,6 @@ msgid "The storage editor lets you resize, delete, and create partitions. "
 msgstr ""
 "Depolama düzenleyicisi bölümleri yeniden boyutlandırmanızı, silmenizi ve "
 "oluşturmanızı sağlar. "
-
-#: src/components/storage/InstallationDestination.jsx:480
-msgid "The usable disks have changed"
-msgstr "Kullanılabilir diskler değişti"
 
 #: src/components/users/Accounts.jsx:202
 msgid "This account will have administration privilege with sudo."
@@ -992,7 +992,7 @@ msgstr "$0 kullanmaya başlamak için sisteminizi yeniden başlatın."
 msgid "To continue, select the devices to install to."
 msgstr "Devam etmek için kurulum yapılacak aygıtları seçin."
 
-#: src/components/storage/InstallationScenario.jsx:87
+#: src/components/storage/InstallationScenario.jsx:88
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -1024,11 +1024,11 @@ msgstr "Aygıtların kilidini aç"
 msgid "Unlock encrypted devices"
 msgstr "Şifrelenen aygıtların kilidini aç"
 
-#: src/components/storage/InstallationScenario.jsx:246
+#: src/components/storage/InstallationScenario.jsx:247
 msgid "Use configured storage"
 msgstr "Yapılandırılan depolamayı kullan"
 
-#: src/components/storage/InstallationScenario.jsx:226
+#: src/components/storage/InstallationScenario.jsx:227
 msgid "Use free space for the installation"
 msgstr "Kurulum için boş alanı kullan"
 
@@ -1138,6 +1138,46 @@ msgstr "$0 olacak şekilde küçült"
 #: src/components/storage/ReclaimSpaceModal.jsx:348
 msgid "undo"
 msgstr "geri al"
+
+#~ msgid "Applying new disk selection..."
+#~ msgstr "Yeni disk seçimi uygulanıyor..."
+
+#~ msgid "Clear input value"
+#~ msgstr "Giriş değerini temizle"
+
+#~ msgid "Current selections"
+#~ msgstr "Geçerli seçimler"
+
+#~ msgid "Installing to $0 ($1)"
+#~ msgstr "$0 ($1) aygıtına kuruluyor"
+
+#~ msgid "No additional disks detected"
+#~ msgstr "Ek disk algılanmadı"
+
+#~ msgid "No usable disks detected"
+#~ msgstr "Kullanılabilir disk algılanmadı"
+
+#~ msgid "Re-scan"
+#~ msgstr "Yeniden tara"
+
+#~ msgid "Rescan"
+#~ msgstr "Yeniden tara"
+
+#~ msgid "Select a disk"
+#~ msgstr "Bir disk seçin"
+
+#~ msgid "The following disk is no longer available: $0"
+#~ msgid_plural "The following disks are no longer available: $0"
+#~ msgstr[0] "Şu disk artık kullanılabilir değil: $0"
+#~ msgstr[1] "Şu diskler artık kullanılabilir değil: $0"
+
+#~ msgid "The following disk was detected: $0"
+#~ msgid_plural "The following disks were detected: $0"
+#~ msgstr[0] "Şu disk algılandı: $0"
+#~ msgstr[1] "Şu diskler algılandı: $0"
+
+#~ msgid "The usable disks have changed"
+#~ msgstr "Kullanılabilir diskler değişti"
 
 #~ msgid "Some devices use the same name: $0."
 #~ msgstr "Bazı aygıtlar aynı adı kullanıyor: $0."
@@ -2243,9 +2283,6 @@ msgstr "geri al"
 
 #~ msgid "Creating users"
 #~ msgstr "Kullanıcılar oluşturuluyor"
-
-#~ msgid "Current host name:"
-#~ msgstr "Geçerli ana makine adı:"
 
 #, python-format
 #~ msgid "Current host name: %s\n"
@@ -3454,9 +3491,6 @@ msgstr "geri al"
 #~ msgstr ""
 #~ "Disk algılanmadı.  Lütfen bilgisayarı kapatın, en az bir disk bağlayın ve "
 #~ "kurulumu tamamlamak için yeniden başlatın."
-
-#~ msgid "No disks selected"
-#~ msgstr "Hiçbir disk seçilmedi"
 
 #~ msgid "No disks selected."
 #~ msgstr "Hiçbir disk seçilmedi."
@@ -6595,10 +6629,6 @@ msgstr "geri al"
 #~ msgid "_Sector size:"
 #~ msgstr "_Sektör boyutu:"
 
-#~ msgctxt "GUI|Custom Partitioning|Configure Dialog"
-#~ msgid "_Select"
-#~ msgstr "_Seç"
-
 #~ msgctxt "GUI|Network|Wireless"
 #~ msgid "_Select network"
 #~ msgstr "Ağ _seç"
@@ -6810,9 +6840,6 @@ msgstr "geri al"
 #~ msgid "none"
 #~ msgstr "hiçbiri"
 
-#~ msgid "not available"
-#~ msgstr "yok"
-
 #~ msgid "not configured"
 #~ msgstr "yapılandırılmadı"
 
@@ -6852,9 +6879,6 @@ msgstr "geri al"
 
 #~ msgid "to go back to region list"
 #~ msgstr "bölge listesine geri dön"
-
-#~ msgid "to rescan devices"
-#~ msgstr "aygıtları yeniden tara"
 
 #~ msgid "to return to language list"
 #~ msgstr "dil listesine dönmek için"

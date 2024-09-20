@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-19 03:01+0000\n"
+"POT-Creation-Date: 2024-09-20 03:01+0000\n"
 "PO-Revision-Date: 2023-11-06 12:17+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Filipino <https://translate.fedoraproject.org/projects/"
@@ -15,6 +15,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Weblate 5.1.1\n"
+
+#: src/components/storage/InstallationDestination.jsx:178
+#: src/components/storage/InstallationDestination.jsx:311
+msgid "$0 $1"
+msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:198
+#: src/components/storage/InstallationDestination.jsx:304
+msgid "$0 ($1)"
+msgstr ""
 
 #: src/components/app.jsx:76
 #, fuzzy
@@ -50,7 +60,7 @@ msgstr ""
 msgid "Actions"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:606
+#: src/components/storage/MountPointMapping.jsx:616
 msgid "Add mount"
 msgstr ""
 
@@ -87,12 +97,8 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Isinasaayos ang installation source..."
 
-#: src/components/storage/InstallationScenario.jsx:228
+#: src/components/storage/InstallationScenario.jsx:229
 msgid "Apply mount point assignment and install"
-msgstr ""
-
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Applying new disk selection..."
 msgstr ""
 
 #: src/components/storage/ReclaimSpaceModal.jsx:208
@@ -112,6 +118,7 @@ msgid ""
 msgstr ""
 
 #: src/components/storage/CockpitStorageIntegration.jsx:134
+#: src/components/storage/InstallationDestination.jsx:357
 #: src/components/storage/ReclaimSpaceModal.jsx:219
 #: src/components/review/Hostname.jsx:106 src/components/Error.jsx:259
 #, fuzzy
@@ -121,6 +128,12 @@ msgstr "_Kanselahin"
 #: src/components/review/Hostname.jsx:104
 msgid "Change"
 msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:342
+#, fuzzy
+#| msgid "Connection failed"
+msgid "Change destination"
+msgstr "Nabigo ang Koneksyon"
 
 #: src/components/review/Hostname.jsx:113
 msgid "Change hostname"
@@ -145,11 +158,8 @@ msgstr ""
 msgid "Chosen language: "
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:240
-msgid "Clear input value"
-msgstr ""
-
 #: src/components/storage/EncryptedDevices.jsx:164
+#: src/components/storage/InstallationDestination.jsx:362
 msgid "Close"
 msgstr "Isara"
 
@@ -206,8 +216,8 @@ msgstr ""
 msgid "Critical error"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:223
-msgid "Current selections"
+#: src/components/storage/InstallationDestination.jsx:101
+msgid "Currently installed: $0"
 msgstr ""
 
 #: src/components/storage/MountPointMapping.jsx:246
@@ -218,7 +228,7 @@ msgstr ""
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:407
+#: src/components/storage/InstallationDestination.jsx:286
 msgid "Destination"
 msgstr ""
 
@@ -226,7 +236,7 @@ msgstr ""
 msgid "Detected valid storage layout:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:582
+#: src/components/storage/MountPointMapping.jsx:592
 #: src/components/review/StorageReview.jsx:192
 msgid "Device"
 msgstr ""
@@ -243,7 +253,7 @@ msgstr ""
 msgid "Disk encryption"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:350
+#: src/components/storage/MountPointMapping.jsx:360
 msgid "Duplicate device."
 msgstr ""
 
@@ -276,8 +286,8 @@ msgstr ""
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:206
-#: src/components/storage/InstallationScenario.jsx:214
+#: src/components/storage/InstallationScenario.jsx:207
+#: src/components/storage/InstallationScenario.jsx:215
 #, fuzzy
 msgid "Erase data and install"
 msgstr "Isinasaayos ang installation source..."
@@ -335,7 +345,7 @@ msgstr "Password: "
 msgid "Hostname"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:407
+#: src/components/storage/InstallationScenario.jsx:408
 msgid "How would you like to install?"
 msgstr ""
 
@@ -377,8 +387,8 @@ msgstr ""
 msgid "Initializing..."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:217
-#: src/components/storage/InstallationScenario.jsx:238
+#: src/components/storage/InstallationScenario.jsx:218
+#: src/components/storage/InstallationScenario.jsx:239
 msgid "Install"
 msgstr ""
 
@@ -406,11 +416,6 @@ msgstr "Nabigo ang Koneksyon"
 msgid "Installing"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:426
-#, fuzzy
-msgid "Installing to $0 ($1)"
-msgstr "Nabigo ang Koneksyon"
-
 #: src/components/storage/HelpAutopartOptions.jsx:7
 msgid "Keep current disk layout and only install into available space."
 msgstr ""
@@ -436,11 +441,11 @@ msgstr ""
 msgid "Log"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:762
+#: src/components/storage/MountPointMapping.jsx:772
 msgid "Manual disk configuration"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:764
+#: src/components/storage/MountPointMapping.jsx:774
 msgid "Manual disk configuration: Mount point mapping"
 msgstr ""
 
@@ -465,13 +470,13 @@ msgstr ""
 msgid "Modify storage"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:581
+#: src/components/storage/MountPointMapping.jsx:591
 #: src/components/review/StorageReview.jsx:191
 msgid "Mount point"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:236
-#: src/components/storage/MountPointMapping.jsx:579
+#: src/components/storage/InstallationScenario.jsx:237
+#: src/components/storage/MountPointMapping.jsx:589
 msgid "Mount point assignment"
 msgstr ""
 
@@ -497,37 +502,38 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:473
-#, fuzzy
-msgid "No additional disks detected"
-msgstr "Walang napili"
-
-#: src/components/storage/MountPointMapping.jsx:586
+#: src/components/storage/MountPointMapping.jsx:596
 #: src/components/storage/ReclaimSpaceModal.jsx:156
 msgid "No devices"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:121
+#: src/components/storage/InstallationDestination.jsx:160
+#, fuzzy
+#| msgid "Nothing selected"
+msgid "No disks available"
+msgstr "Walang napili"
+
+#: src/components/storage/InstallationDestination.jsx:297
+#, fuzzy
+#| msgid "Nothing selected"
+msgid "No disks selected"
+msgstr "Walang napili"
+
 #: src/components/localization/InstallationLanguage.jsx:192
 msgid "No results found"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:120
+#: src/components/storage/InstallationScenario.jsx:121
 #, fuzzy
 msgid "No usable devices on the selected disks."
 msgstr "Walang napili"
 
-#: src/components/storage/InstallationDestination.jsx:436
-#, fuzzy
-msgid "No usable disks detected"
-msgstr "Walang napili"
-
-#: src/components/storage/InstallationScenario.jsx:85
+#: src/components/storage/InstallationScenario.jsx:86
 #, fuzzy
 msgid "Not enough free space on the selected disks."
 msgstr "Walang napili"
 
-#: src/components/storage/InstallationScenario.jsx:64
+#: src/components/storage/InstallationScenario.jsx:65
 msgid "Not enough space on selected disks."
 msgstr ""
 
@@ -607,10 +613,6 @@ msgstr ""
 msgid "Quit installer?"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:380
-msgid "Re-scan"
-msgstr ""
-
 #: src/components/app.jsx:113
 #, fuzzy
 msgid "Reading information about the OS failed."
@@ -655,7 +657,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 msgid "Reclaim additional space"
 msgstr ""
 
@@ -667,7 +669,7 @@ msgstr ""
 msgid "Reclaim space"
 msgstr "Libreng espasyo"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 msgid "Reclaim space (required)"
 msgstr ""
 
@@ -679,12 +681,12 @@ msgstr ""
 msgid "Recommended partitions:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:370
-#: src/components/storage/MountPointMapping.jsx:583
+#: src/components/storage/MountPointMapping.jsx:380
+#: src/components/storage/MountPointMapping.jsx:593
 msgid "Reformat"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:397
+#: src/components/storage/MountPointMapping.jsx:407
 msgid "Remove"
 msgstr ""
 
@@ -729,11 +731,12 @@ msgstr "Hindi mapalitan ang sukat"
 msgid "Requirements"
 msgstr "Hindi mapalitan ang sukat"
 
-#: src/components/storage/InstallationDestination.jsx:389
-msgid "Rescan"
-msgstr ""
+#: src/components/storage/InstallationDestination.jsx:151
+#, fuzzy
+msgid "Rescan devices"
+msgstr "_Set na Boot Device"
 
-#: src/components/storage/InstallationDestination.jsx:368
+#: src/components/storage/InstallationDestination.jsx:132
 msgid "Rescanning of the disks failed."
 msgstr ""
 
@@ -769,15 +772,21 @@ msgstr ""
 msgid "Scan the QR code with your phone or visit:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:299
+#: src/components/storage/InstallationDestination.jsx:354
+#, fuzzy
+msgid "Select"
+msgstr "_Set na Boot Device"
+
+#: src/components/storage/MountPointMapping.jsx:309
 #, fuzzy
 msgid "Select a device"
 msgstr "_Set na Boot Device"
 
-#: src/components/storage/InstallationDestination.jsx:219
+#: src/components/storage/InstallationDestination.jsx:348
 #, fuzzy
-msgid "Select a disk"
-msgstr "_Set na Boot Device"
+#| msgid "Connection failed"
+msgid "Select destination"
+msgstr "Nabigo ang Koneksyon"
 
 #: src/components/storage/MountPointMapping.jsx:124
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -825,7 +834,7 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:123
+#: src/components/storage/InstallationScenario.jsx:124
 msgid "Some required partitions are missing: $0"
 msgstr ""
 
@@ -890,25 +899,13 @@ msgid ""
 "software. "
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:505
-msgid "The following disk is no longer available: $0"
-msgid_plural "The following disks are no longer available: $0"
-msgstr[0] ""
-msgstr[1] ""
-
-#: src/components/storage/InstallationDestination.jsx:488
-msgid "The following disk was detected: $0"
-msgid_plural "The following disks were detected: $0"
-msgstr[0] ""
-msgstr[1] ""
-
 #: src/components/Error.jsx:267
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
 "provide additional details."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:66
+#: src/components/storage/InstallationScenario.jsx:67
 msgid "The installation needs $1 of disk space; "
 msgstr ""
 
@@ -929,11 +926,6 @@ msgstr ""
 #: src/components/storage/CockpitStorageIntegration.jsx:140
 msgid "The storage editor lets you resize, delete, and create partitions. "
 msgstr ""
-
-#: src/components/storage/InstallationDestination.jsx:480
-#, fuzzy
-msgid "The usable disks have changed"
-msgstr "Walang napili"
 
 #: src/components/users/Accounts.jsx:202
 msgid "This account will have administration privilege with sudo."
@@ -963,7 +955,7 @@ msgstr ""
 msgid "To continue, select the devices to install to."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:87
+#: src/components/storage/InstallationScenario.jsx:88
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -993,11 +985,11 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:246
+#: src/components/storage/InstallationScenario.jsx:247
 msgid "Use configured storage"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:226
+#: src/components/storage/InstallationScenario.jsx:227
 #, fuzzy
 msgid "Use free space for the installation"
 msgstr "Isinasaayos ang installation source..."
@@ -1111,6 +1103,22 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:348
 msgid "undo"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Installing to $0 ($1)"
+#~ msgstr "Nabigo ang Koneksyon"
+
+#, fuzzy
+#~ msgid "No additional disks detected"
+#~ msgstr "Walang napili"
+
+#, fuzzy
+#~ msgid "No usable disks detected"
+#~ msgstr "Walang napili"
+
+#, fuzzy
+#~ msgid "The usable disks have changed"
+#~ msgstr "Walang napili"
 
 #, fuzzy
 #~ msgid "Erase data and install?"
@@ -1320,11 +1328,6 @@ msgstr ""
 
 #~ msgid "MANUAL PARTITIONING"
 #~ msgstr "MANO-MANONG PARTITIONING"
-
-#, fuzzy
-#~| msgid "Nothing selected"
-#~ msgid "No disks selected."
-#~ msgstr "Walang napili"
 
 #~ msgid "No disks selected. Keeping previous disk set."
 #~ msgstr "Walang disks na pinili. Pinanatili ang dati ng disk set."
@@ -1645,11 +1648,6 @@ msgstr ""
 #~ msgid_plural "$0 selected"
 #~ msgstr[0] "Walang napili"
 #~ msgstr[1] "Walang napili"
-
-#, fuzzy
-#~| msgid "Connection failed"
-#~ msgid "Installation destination"
-#~ msgstr "Nabigo ang Koneksyon"
 
 #~ msgid ""
 #~ "You are currently running Fedora from live media.\n"

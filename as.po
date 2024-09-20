@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-19 03:01+0000\n"
+"POT-Creation-Date: 2024-09-20 03:01+0000\n"
 "PO-Revision-Date: 2023-11-06 12:15+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Assamese <https://translate.fedoraproject.org/projects/"
@@ -29,6 +29,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Weblate 5.1.1\n"
+
+#: src/components/storage/InstallationDestination.jsx:178
+#: src/components/storage/InstallationDestination.jsx:311
+msgid "$0 $1"
+msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:198
+#: src/components/storage/InstallationDestination.jsx:304
+msgid "$0 ($1)"
+msgstr ""
 
 #: src/components/app.jsx:76
 #, fuzzy
@@ -72,7 +82,7 @@ msgstr "বিন্যাস যোগ কৰক"
 msgid "Actions"
 msgstr "কাৰ্য্য"
 
-#: src/components/storage/MountPointMapping.jsx:606
+#: src/components/storage/MountPointMapping.jsx:616
 #, fuzzy
 msgid "Add mount"
 msgstr "বিন্যাস যোগ কৰক"
@@ -110,14 +120,10 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "ইনস্টলেষণ আৰম্ভ কৰক (_B)"
 
-#: src/components/storage/InstallationScenario.jsx:228
+#: src/components/storage/InstallationScenario.jsx:229
 #, fuzzy
 msgid "Apply mount point assignment and install"
 msgstr "ইনস্টলাৰত সংৰূপ প্ৰয়োগ কৰক"
-
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Applying new disk selection..."
-msgstr ""
 
 #: src/components/storage/ReclaimSpaceModal.jsx:208
 msgid "Available free space: $0. Installation requires: $1."
@@ -136,6 +142,7 @@ msgid ""
 msgstr ""
 
 #: src/components/storage/CockpitStorageIntegration.jsx:134
+#: src/components/storage/InstallationDestination.jsx:357
 #: src/components/storage/ReclaimSpaceModal.jsx:219
 #: src/components/review/Hostname.jsx:106 src/components/Error.jsx:259
 #, fuzzy
@@ -148,6 +155,11 @@ msgstr "বাতিল কৰক (_C)"
 #| msgid "_Save Changes"
 msgid "Change"
 msgstr "পৰিবৰ্তনসমূহ সংৰক্ষণ কৰক (_S)"
+
+#: src/components/storage/InstallationDestination.jsx:342
+#, fuzzy
+msgid "Change destination"
+msgstr "বিৱৰণ"
 
 #: src/components/review/Hostname.jsx:113
 #, fuzzy
@@ -177,11 +189,8 @@ msgstr "ভাষাসমূহ"
 msgid "Chosen language: "
 msgstr "ভাষাসমূহ"
 
-#: src/components/storage/InstallationDestination.jsx:240
-msgid "Clear input value"
-msgstr ""
-
 #: src/components/storage/EncryptedDevices.jsx:164
+#: src/components/storage/InstallationDestination.jsx:362
 msgid "Close"
 msgstr "বন্ধ কৰক"
 
@@ -242,10 +251,9 @@ msgstr ""
 msgid "Critical error"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:223
-#, fuzzy
-msgid "Current selections"
-msgstr "চফ্টৱেৰ নিৰ্বাচন"
+#: src/components/storage/InstallationDestination.jsx:101
+msgid "Currently installed: $0"
+msgstr ""
 
 #: src/components/storage/MountPointMapping.jsx:246
 msgid "Custom"
@@ -255,7 +263,7 @@ msgstr ""
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:407
+#: src/components/storage/InstallationDestination.jsx:286
 #, fuzzy
 msgid "Destination"
 msgstr "বিৱৰণ"
@@ -264,7 +272,7 @@ msgstr "বিৱৰণ"
 msgid "Detected valid storage layout:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:582
+#: src/components/storage/MountPointMapping.jsx:592
 #: src/components/review/StorageReview.jsx:192
 msgid "Device"
 msgstr "ডিভাইচ"
@@ -283,7 +291,7 @@ msgstr "ডিভাইচৰ সংৰূপ"
 msgid "Disk encryption"
 msgstr "ইনক্ৰিপষণ"
 
-#: src/components/storage/MountPointMapping.jsx:350
+#: src/components/storage/MountPointMapping.jsx:360
 #, fuzzy
 msgid "Duplicate device."
 msgstr "বহুপথ ডিভাইচসমূহ (_M)"
@@ -320,8 +328,8 @@ msgstr ""
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:206
-#: src/components/storage/InstallationScenario.jsx:214
+#: src/components/storage/InstallationScenario.jsx:207
+#: src/components/storage/InstallationScenario.jsx:215
 #, fuzzy
 msgid "Erase data and install"
 msgstr "ইনস্টলেষণ আৰম্ভ কৰক (_B)"
@@ -387,7 +395,7 @@ msgstr "ৰিক্ত পাছৱৰ্ড"
 msgid "Hostname"
 msgstr "হস্টৰ নাম"
 
-#: src/components/storage/InstallationScenario.jsx:407
+#: src/components/storage/InstallationScenario.jsx:408
 msgid "How would you like to install?"
 msgstr ""
 
@@ -430,8 +438,8 @@ msgstr "প্ৰগ্ৰতি"
 msgid "Initializing..."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:217
-#: src/components/storage/InstallationScenario.jsx:238
+#: src/components/storage/InstallationScenario.jsx:218
+#: src/components/storage/InstallationScenario.jsx:239
 msgid "Install"
 msgstr "ইনস্টল"
 
@@ -458,11 +466,6 @@ msgstr "ইনস্টলেষণ"
 #: src/components/installation/InstallationProgress.jsx:158
 #, fuzzy
 msgid "Installing"
-msgstr "%s ইনস্টল কৰা হৈছে"
-
-#: src/components/storage/InstallationDestination.jsx:426
-#, fuzzy
-msgid "Installing to $0 ($1)"
 msgstr "%s ইনস্টল কৰা হৈছে"
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
@@ -494,12 +497,12 @@ msgstr "ডিভাইচ %s সংৰূপণ কৰক"
 msgid "Log"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:762
+#: src/components/storage/MountPointMapping.jsx:772
 #, fuzzy
 msgid "Manual disk configuration"
 msgstr "ডিভাইচৰ সংৰূপ"
 
-#: src/components/storage/MountPointMapping.jsx:764
+#: src/components/storage/MountPointMapping.jsx:774
 #, fuzzy
 msgid "Manual disk configuration: Mount point mapping"
 msgstr "ডিভাইচৰ সংৰূপ"
@@ -526,13 +529,13 @@ msgstr ""
 msgid "Modify storage"
 msgstr "সংৰক্ষণ বিন্যাস পৰিবৰ্তন কৰক (_M)"
 
-#: src/components/storage/MountPointMapping.jsx:581
+#: src/components/storage/MountPointMapping.jsx:591
 #: src/components/review/StorageReview.jsx:191
 msgid "Mount point"
 msgstr "মাউণ্ট বিন্দু"
 
-#: src/components/storage/InstallationScenario.jsx:236
-#: src/components/storage/MountPointMapping.jsx:579
+#: src/components/storage/InstallationScenario.jsx:237
+#: src/components/storage/MountPointMapping.jsx:589
 #, fuzzy
 msgid "Mount point assignment"
 msgstr "মাউণ্ট বিন্দু"
@@ -560,38 +563,37 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:473
-#, fuzzy
-msgid "No additional disks detected"
-msgstr "কোনো ডিস্ক নিৰ্বাচন কৰা হোৱা নাই"
-
-#: src/components/storage/MountPointMapping.jsx:586
+#: src/components/storage/MountPointMapping.jsx:596
 #: src/components/storage/ReclaimSpaceModal.jsx:156
 #, fuzzy
 msgid "No devices"
 msgstr "ডিভাইচ যোগ কৰক"
 
-#: src/components/storage/InstallationDestination.jsx:121
+#: src/components/storage/InstallationDestination.jsx:160
+#, fuzzy
+#| msgid "Unavailable"
+msgid "No disks available"
+msgstr "উপলব্ধ নাই"
+
+#: src/components/storage/InstallationDestination.jsx:297
+msgid "No disks selected"
+msgstr "কোনো ডিস্ক নিৰ্বাচন কৰা হোৱা নাই"
+
 #: src/components/localization/InstallationLanguage.jsx:192
 msgid "No results found"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:120
+#: src/components/storage/InstallationScenario.jsx:121
 #, fuzzy
 msgid "No usable devices on the selected disks."
 msgstr "নিৰ্বাচিত ডিস্কসমূহত পৰ্যাপ্ত খালি ঠাই নাই।"
 
-#: src/components/storage/InstallationDestination.jsx:436
-#, fuzzy
-msgid "No usable disks detected"
-msgstr "কোনো ডিস্ক নিৰ্বাচন কৰা হোৱা নাই"
-
-#: src/components/storage/InstallationScenario.jsx:85
+#: src/components/storage/InstallationScenario.jsx:86
 #, fuzzy
 msgid "Not enough free space on the selected disks."
 msgstr "নিৰ্বাচিত ডিস্কসমূহত পৰ্যাপ্ত খালি ঠাই নাই।"
 
-#: src/components/storage/InstallationScenario.jsx:64
+#: src/components/storage/InstallationScenario.jsx:65
 #, fuzzy
 msgid "Not enough space on selected disks."
 msgstr "নিৰ্বাচিত ডিস্কসমূহত পৰ্যাপ্ত খালি ঠাই নাই।"
@@ -677,10 +679,6 @@ msgstr "প্ৰস্থান কৰক"
 msgid "Quit installer?"
 msgstr "ইনস্টলাৰ প্ৰস্থান কৰক (_Q)"
 
-#: src/components/storage/InstallationDestination.jsx:380
-msgid "Re-scan"
-msgstr ""
-
 #: src/components/app.jsx:113
 #, fuzzy
 msgid "Reading information about the OS failed."
@@ -726,7 +724,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "/boot ফাইল চিস্টেম"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 #, fuzzy
 #| msgctxt "GUI|Reclaim Dialog"
 #| msgid "_Reclaim space"
@@ -742,7 +740,7 @@ msgstr "স্থান পুনৰুদ্ধাৰ কৰক (_R)"
 msgid "Reclaim space"
 msgstr "স্থান পুনৰুদ্ধাৰ কৰক (_R)"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 #, fuzzy
 #| msgctxt "GUI|Reclaim Dialog"
 #| msgid "_Reclaim space"
@@ -757,12 +755,12 @@ msgstr ""
 msgid "Recommended partitions:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:370
-#: src/components/storage/MountPointMapping.jsx:583
+#: src/components/storage/MountPointMapping.jsx:380
+#: src/components/storage/MountPointMapping.jsx:593
 msgid "Reformat"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:397
+#: src/components/storage/MountPointMapping.jsx:407
 #, fuzzy
 msgid "Remove"
 msgstr "আতৰাওক"
@@ -808,12 +806,13 @@ msgstr "পুনৰ আকাৰ দিব নোৱাৰি"
 msgid "Requirements"
 msgstr "পুনৰ আকাৰ দিব নোৱাৰি"
 
-#: src/components/storage/InstallationDestination.jsx:389
+#: src/components/storage/InstallationDestination.jsx:151
 #, fuzzy
-msgid "Rescan"
-msgstr "উদ্ধাৰ"
+#| msgid "Configure device %s"
+msgid "Rescan devices"
+msgstr "ডিভাইচ %s সংৰূপণ কৰক"
 
-#: src/components/storage/InstallationDestination.jsx:368
+#: src/components/storage/InstallationDestination.jsx:132
 msgid "Rescanning of the disks failed."
 msgstr ""
 
@@ -852,15 +851,22 @@ msgstr "সংৰক্ষণ কৰক (_S)"
 msgid "Scan the QR code with your phone or visit:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:299
+#: src/components/storage/InstallationDestination.jsx:354
+#, fuzzy
+#| msgctxt "GUI|Custom Partitioning|Configure Dialog"
+#| msgid "_Select"
+msgid "Select"
+msgstr "বাছক (_S)"
+
+#: src/components/storage/MountPointMapping.jsx:309
 #, fuzzy
 msgid "Select a device"
 msgstr "নিৰ্বাচিত ডিভাইচ"
 
-#: src/components/storage/InstallationDestination.jsx:219
+#: src/components/storage/InstallationDestination.jsx:348
 #, fuzzy
-msgid "Select a disk"
-msgstr "নিৰ্বাচিত ডিভাইচ"
+msgid "Select destination"
+msgstr "বিৱৰণ"
 
 #: src/components/storage/MountPointMapping.jsx:124
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -911,7 +917,7 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:123
+#: src/components/storage/InstallationScenario.jsx:124
 msgid "Some required partitions are missing: $0"
 msgstr ""
 
@@ -986,27 +992,13 @@ msgid ""
 "software. "
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:505
-msgid "The following disk is no longer available: $0"
-msgid_plural "The following disks are no longer available: $0"
-msgstr[0] ""
-msgstr[1] ""
-
-#: src/components/storage/InstallationDestination.jsx:488
-#, fuzzy
-#| msgid "The following mandatory spokes are not completed:"
-msgid "The following disk was detected: $0"
-msgid_plural "The following disks were detected: $0"
-msgstr[0] "নিম্নলিখিত বাধ্যতামূলক স্পৌকবোৰ সম্পূৰ্ণ হোৱা নাই:"
-msgstr[1] "নিম্নলিখিত বাধ্যতামূলক স্পৌকবোৰ সম্পূৰ্ণ হোৱা নাই:"
-
 #: src/components/Error.jsx:267
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
 "provide additional details."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:66
+#: src/components/storage/InstallationScenario.jsx:67
 msgid "The installation needs $1 of disk space; "
 msgstr ""
 
@@ -1027,11 +1019,6 @@ msgstr ""
 #: src/components/storage/CockpitStorageIntegration.jsx:140
 msgid "The storage editor lets you resize, delete, and create partitions. "
 msgstr ""
-
-#: src/components/storage/InstallationDestination.jsx:480
-#, fuzzy
-msgid "The usable disks have changed"
-msgstr "কোনো ডিস্ক নিৰ্বাচন কৰা হোৱা নাই"
 
 #: src/components/users/Accounts.jsx:202
 msgid "This account will have administration privilege with sudo."
@@ -1066,7 +1053,7 @@ msgid "To continue, select the devices to install to."
 msgstr ""
 "কোনো ডিস্ক নিৰ্বাচন কৰা হোৱা নাই; অনুগ্ৰহ কৰি ইনস্টল কৰিবলে অন্তত এটা ডিস্ক বাছক।"
 
-#: src/components/storage/InstallationScenario.jsx:87
+#: src/components/storage/InstallationScenario.jsx:88
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -1099,12 +1086,12 @@ msgstr "ডিভাইচ %s সংৰূপণ কৰক"
 msgid "Unlock encrypted devices"
 msgstr "নিৰ্বাচিত ডিভাইচ"
 
-#: src/components/storage/InstallationScenario.jsx:246
+#: src/components/storage/InstallationScenario.jsx:247
 #, fuzzy
 msgid "Use configured storage"
 msgstr "সংৰক্ষণ বিন্যাস পৰিবৰ্তন কৰক (_M)"
 
-#: src/components/storage/InstallationScenario.jsx:226
+#: src/components/storage/InstallationScenario.jsx:227
 #, fuzzy
 msgid "Use free space for the installation"
 msgstr "ইনস্টলেষণ উৎস সংস্থাপন কৰিবলে ব্যৰ্থ"
@@ -1227,6 +1214,41 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:348
 msgid "undo"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Current selections"
+#~ msgstr "চফ্টৱেৰ নিৰ্বাচন"
+
+#, fuzzy
+#~ msgid "Installing to $0 ($1)"
+#~ msgstr "%s ইনস্টল কৰা হৈছে"
+
+#, fuzzy
+#~ msgid "No additional disks detected"
+#~ msgstr "কোনো ডিস্ক নিৰ্বাচন কৰা হোৱা নাই"
+
+#, fuzzy
+#~ msgid "No usable disks detected"
+#~ msgstr "কোনো ডিস্ক নিৰ্বাচন কৰা হোৱা নাই"
+
+#, fuzzy
+#~ msgid "Rescan"
+#~ msgstr "উদ্ধাৰ"
+
+#, fuzzy
+#~ msgid "Select a disk"
+#~ msgstr "নিৰ্বাচিত ডিভাইচ"
+
+#, fuzzy
+#~| msgid "The following mandatory spokes are not completed:"
+#~ msgid "The following disk was detected: $0"
+#~ msgid_plural "The following disks were detected: $0"
+#~ msgstr[0] "নিম্নলিখিত বাধ্যতামূলক স্পৌকবোৰ সম্পূৰ্ণ হোৱা নাই:"
+#~ msgstr[1] "নিম্নলিখিত বাধ্যতামূলক স্পৌকবোৰ সম্পূৰ্ণ হোৱা নাই:"
+
+#, fuzzy
+#~ msgid "The usable disks have changed"
+#~ msgstr "কোনো ডিস্ক নিৰ্বাচন কৰা হোৱা নাই"
 
 #, fuzzy
 #~ msgid "Erase data and install?"
@@ -2798,9 +2820,6 @@ msgstr ""
 #~ msgstr ""
 #~ "কোনো ডিস্ক নিৰ্বাচন কৰা হোৱা নাই। অনুগ্ৰহ কৰি কমপিউটাৰ বন্ধ কৰক, অন্তত এটা ডিস্ক "
 #~ "সংযোগ কৰক, আৰু ইনস্টলেষণ সম্পূৰ্ণ কৰিবলে পুনৰাম্ভ কৰক।"
-
-#~ msgid "No disks selected"
-#~ msgstr "কোনো ডিস্ক নিৰ্বাচন কৰা হোৱা নাই"
 
 #, fuzzy
 #~| msgid "No disks selected"
@@ -4946,10 +4965,6 @@ msgstr ""
 #~ msgid "_Save Passphrase"
 #~ msgstr "পাচফ্ৰেইছ সংৰক্ষণ কৰক (_S)"
 
-#~ msgctxt "GUI|Custom Partitioning|Configure Dialog"
-#~ msgid "_Select"
-#~ msgstr "বাছক (_S)"
-
 #, fuzzy
 #~| msgctxt "GUI|Software Source"
 #~| msgid "_On the network:"
@@ -5093,11 +5108,6 @@ msgstr ""
 #~ msgid "malformed URL, cannot parse it."
 #~ msgstr "ক্ষতিগ্ৰস্থ URL, ইয়াক বিশ্লেষণ কৰিব নোৱাৰি।"
 
-#, fuzzy
-#~| msgid "Unavailable"
-#~ msgid "not available"
-#~ msgstr "উপলব্ধ নাই"
-
 #~ msgid "part --noformat must also use the --onpart option."
 #~ msgstr "part --noformat এ --onpart বিকল্পও ব্যৱহাৰ কৰিব লাগিব।"
 
@@ -5109,11 +5119,6 @@ msgstr ""
 
 #~ msgid "testing status..."
 #~ msgstr "অৱস্থা পৰিক্ষা কৰা হৈছে..."
-
-#, fuzzy
-#~| msgid "Configure device %s"
-#~ msgid "to rescan devices"
-#~ msgstr "ডিভাইচ %s সংৰূপণ কৰক"
 
 #, fuzzy
 #~| msgid "Unknown"

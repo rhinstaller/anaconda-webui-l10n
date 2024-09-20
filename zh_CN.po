@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-19 03:01+0000\n"
+"POT-Creation-Date: 2024-09-20 03:01+0000\n"
 "PO-Revision-Date: 2024-07-16 02:46+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -58,6 +58,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.6.2\n"
+
+#: src/components/storage/InstallationDestination.jsx:178
+#: src/components/storage/InstallationDestination.jsx:311
+msgid "$0 $1"
+msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:198
+#: src/components/storage/InstallationDestination.jsx:304
+msgid "$0 ($1)"
+msgstr ""
 
 #: src/components/app.jsx:76
 msgid "$0 installation"
@@ -92,7 +102,7 @@ msgstr "帐户"
 msgid "Actions"
 msgstr "操作"
 
-#: src/components/storage/MountPointMapping.jsx:606
+#: src/components/storage/MountPointMapping.jsx:616
 msgid "Add mount"
 msgstr "添加挂载"
 
@@ -127,13 +137,9 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Anaconda 项目页面"
 
-#: src/components/storage/InstallationScenario.jsx:228
+#: src/components/storage/InstallationScenario.jsx:229
 msgid "Apply mount point assignment and install"
 msgstr "应用挂载点分配并安装"
-
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Applying new disk selection..."
-msgstr "正在应用新的磁盘选择..."
 
 #: src/components/storage/ReclaimSpaceModal.jsx:208
 msgid "Available free space: $0. Installation requires: $1."
@@ -154,6 +160,7 @@ msgstr ""
 "并且愿意报告所有程序错误或问题，以便改进本软件。"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:134
+#: src/components/storage/InstallationDestination.jsx:357
 #: src/components/storage/ReclaimSpaceModal.jsx:219
 #: src/components/review/Hostname.jsx:106 src/components/Error.jsx:259
 msgid "Cancel"
@@ -162,6 +169,12 @@ msgstr "取消"
 #: src/components/review/Hostname.jsx:104
 msgid "Change"
 msgstr "变更"
+
+#: src/components/storage/InstallationDestination.jsx:342
+#, fuzzy
+#| msgid "Destination"
+msgid "Change destination"
+msgstr "目标位置"
 
 #: src/components/review/Hostname.jsx:113
 msgid "Change hostname"
@@ -186,11 +199,8 @@ msgstr "选择语言"
 msgid "Chosen language: "
 msgstr "所选语言: "
 
-#: src/components/storage/InstallationDestination.jsx:240
-msgid "Clear input value"
-msgstr "清空输入值"
-
 #: src/components/storage/EncryptedDevices.jsx:164
+#: src/components/storage/InstallationDestination.jsx:362
 msgid "Close"
 msgstr "关闭"
 
@@ -255,9 +265,11 @@ msgstr "锁定 root 账户"
 msgid "Critical error"
 msgstr "关键错误"
 
-#: src/components/storage/InstallationDestination.jsx:223
-msgid "Current selections"
-msgstr "当前选择"
+#: src/components/storage/InstallationDestination.jsx:101
+#, fuzzy
+#| msgid "Current host name:"
+msgid "Currently installed: $0"
+msgstr "当前主机名："
 
 #: src/components/storage/MountPointMapping.jsx:246
 msgid "Custom"
@@ -267,7 +279,7 @@ msgstr "自定义"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:407
+#: src/components/storage/InstallationDestination.jsx:286
 msgid "Destination"
 msgstr "目标位置"
 
@@ -275,7 +287,7 @@ msgstr "目标位置"
 msgid "Detected valid storage layout:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:582
+#: src/components/storage/MountPointMapping.jsx:592
 #: src/components/review/StorageReview.jsx:192
 msgid "Device"
 msgstr "设备"
@@ -292,7 +304,7 @@ msgstr "磁盘配置"
 msgid "Disk encryption"
 msgstr "磁盘加密"
 
-#: src/components/storage/MountPointMapping.jsx:350
+#: src/components/storage/MountPointMapping.jsx:360
 msgid "Duplicate device."
 msgstr "重复的设备。"
 
@@ -329,8 +341,8 @@ msgstr "加密设备已锁定"
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr "加密有助于保护您的数据，防止其他人访问它。"
 
-#: src/components/storage/InstallationScenario.jsx:206
-#: src/components/storage/InstallationScenario.jsx:214
+#: src/components/storage/InstallationScenario.jsx:207
+#: src/components/storage/InstallationScenario.jsx:215
 msgid "Erase data and install"
 msgstr "删除数据内容并安装"
 
@@ -387,7 +399,7 @@ msgstr "隐藏密码"
 msgid "Hostname"
 msgstr "主机名"
 
-#: src/components/storage/InstallationScenario.jsx:407
+#: src/components/storage/InstallationScenario.jsx:408
 msgid "How would you like to install?"
 msgstr "您想如何安装？"
 
@@ -431,8 +443,8 @@ msgstr "进行中"
 msgid "Initializing..."
 msgstr "正在安装。"
 
-#: src/components/storage/InstallationScenario.jsx:217
-#: src/components/storage/InstallationScenario.jsx:238
+#: src/components/storage/InstallationScenario.jsx:218
+#: src/components/storage/InstallationScenario.jsx:239
 msgid "Install"
 msgstr "安装"
 
@@ -455,10 +467,6 @@ msgstr "安装类型"
 #: src/components/installation/InstallationProgress.jsx:158
 msgid "Installing"
 msgstr "正在安装"
-
-#: src/components/storage/InstallationDestination.jsx:426
-msgid "Installing to $0 ($1)"
-msgstr "安装到 $0 ($1)"
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
 msgid "Keep current disk layout and only install into available space."
@@ -486,11 +494,11 @@ msgstr "锁定的设备"
 msgid "Log"
 msgstr "日志"
 
-#: src/components/storage/MountPointMapping.jsx:762
+#: src/components/storage/MountPointMapping.jsx:772
 msgid "Manual disk configuration"
 msgstr "手动配置磁盘"
 
-#: src/components/storage/MountPointMapping.jsx:764
+#: src/components/storage/MountPointMapping.jsx:774
 msgid "Manual disk configuration: Mount point mapping"
 msgstr "手动磁盘配置：挂载点映射"
 
@@ -515,13 +523,13 @@ msgstr "父设备和子设备重新格式化选择不匹配。"
 msgid "Modify storage"
 msgstr "修改存储"
 
-#: src/components/storage/MountPointMapping.jsx:581
+#: src/components/storage/MountPointMapping.jsx:591
 #: src/components/review/StorageReview.jsx:191
 msgid "Mount point"
 msgstr "挂载点"
 
-#: src/components/storage/InstallationScenario.jsx:236
-#: src/components/storage/MountPointMapping.jsx:579
+#: src/components/storage/InstallationScenario.jsx:237
+#: src/components/storage/MountPointMapping.jsx:589
 msgid "Mount point assignment"
 msgstr "挂载点配置"
 
@@ -548,33 +556,34 @@ msgstr "网络不可用。在顶部栏菜单中配置网络以报告问题。"
 msgid "Next"
 msgstr "下一个"
 
-#: src/components/storage/InstallationDestination.jsx:473
-msgid "No additional disks detected"
-msgstr "没有检测到额外的磁盘"
-
-#: src/components/storage/MountPointMapping.jsx:586
+#: src/components/storage/MountPointMapping.jsx:596
 #: src/components/storage/ReclaimSpaceModal.jsx:156
 msgid "No devices"
 msgstr "无设备"
 
-#: src/components/storage/InstallationDestination.jsx:121
+#: src/components/storage/InstallationDestination.jsx:160
+#, fuzzy
+#| msgid "not available"
+msgid "No disks available"
+msgstr "不可用"
+
+#: src/components/storage/InstallationDestination.jsx:297
+msgid "No disks selected"
+msgstr "未选择任何磁盘"
+
 #: src/components/localization/InstallationLanguage.jsx:192
 msgid "No results found"
 msgstr "未找到结果"
 
-#: src/components/storage/InstallationScenario.jsx:120
+#: src/components/storage/InstallationScenario.jsx:121
 msgid "No usable devices on the selected disks."
 msgstr "所选磁盘上没有可用的设备。"
 
-#: src/components/storage/InstallationDestination.jsx:436
-msgid "No usable disks detected"
-msgstr "未检测到可用磁盘"
-
-#: src/components/storage/InstallationScenario.jsx:85
+#: src/components/storage/InstallationScenario.jsx:86
 msgid "Not enough free space on the selected disks."
 msgstr "所选磁盘中没有足够剩余空间。"
 
-#: src/components/storage/InstallationScenario.jsx:64
+#: src/components/storage/InstallationScenario.jsx:65
 msgid "Not enough space on selected disks."
 msgstr "所选磁盘中没有足够空间。"
 
@@ -657,10 +666,6 @@ msgstr "退出"
 msgid "Quit installer?"
 msgstr "退出安装程序？"
 
-#: src/components/storage/InstallationDestination.jsx:380
-msgid "Re-scan"
-msgstr "重新扫描"
-
 #: src/components/app.jsx:113
 #, fuzzy
 #| msgid "Reading information about the computer failed."
@@ -706,7 +711,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "重启系统？"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 #, fuzzy
 #| msgctxt "GUI|Reclaim Dialog"
 #| msgid "_Reclaim space"
@@ -722,7 +727,7 @@ msgstr "回收空间(_R)"
 msgid "Reclaim space"
 msgstr "回收空间(_R)"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 #, fuzzy
 #| msgctxt "GUI|Reclaim Dialog"
 #| msgid "_Reclaim space"
@@ -737,12 +742,12 @@ msgstr ""
 msgid "Recommended partitions:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:370
-#: src/components/storage/MountPointMapping.jsx:583
+#: src/components/storage/MountPointMapping.jsx:380
+#: src/components/storage/MountPointMapping.jsx:593
 msgid "Reformat"
 msgstr "重新格式化"
 
-#: src/components/storage/MountPointMapping.jsx:397
+#: src/components/storage/MountPointMapping.jsx:407
 msgid "Remove"
 msgstr "删除"
 
@@ -789,11 +794,13 @@ msgstr "必需的"
 msgid "Requirements"
 msgstr "必需的"
 
-#: src/components/storage/InstallationDestination.jsx:389
-msgid "Rescan"
-msgstr "重新扫描"
+#: src/components/storage/InstallationDestination.jsx:151
+#, fuzzy
+#| msgid "to rescan devices"
+msgid "Rescan devices"
+msgstr "重新扫描设备"
 
-#: src/components/storage/InstallationDestination.jsx:368
+#: src/components/storage/InstallationDestination.jsx:132
 msgid "Rescanning of the disks failed."
 msgstr "重新扫描磁盘失败。"
 
@@ -835,13 +842,22 @@ msgstr "保存(_S)"
 msgid "Scan the QR code with your phone or visit:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:299
+#: src/components/storage/InstallationDestination.jsx:354
+#, fuzzy
+#| msgctxt "GUI|Custom Partitioning|Configure Dialog"
+#| msgid "_Select"
+msgid "Select"
+msgstr "选择(_S)"
+
+#: src/components/storage/MountPointMapping.jsx:309
 msgid "Select a device"
 msgstr "所选一个设备"
 
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Select a disk"
-msgstr "选择磁盘"
+#: src/components/storage/InstallationDestination.jsx:348
+#, fuzzy
+#| msgid "Destination"
+msgid "Select destination"
+msgstr "目标位置"
 
 #: src/components/storage/MountPointMapping.jsx:124
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -889,7 +905,7 @@ msgid ""
 "being installed onto your device."
 msgstr "软件安装：存储配置完成。该软件现在正在安装到您的设备上。"
 
-#: src/components/storage/InstallationScenario.jsx:123
+#: src/components/storage/InstallationScenario.jsx:124
 msgid "Some required partitions are missing: $0"
 msgstr ""
 
@@ -961,25 +977,13 @@ msgid ""
 "software. "
 msgstr "所选语言将用于安装进程和已安装的软件。 "
 
-#: src/components/storage/InstallationDestination.jsx:505
-msgid "The following disk is no longer available: $0"
-msgid_plural "The following disks are no longer available: $0"
-msgstr[0] ""
-
-#: src/components/storage/InstallationDestination.jsx:488
-#, fuzzy
-#| msgid "The following mandatory spokes are not completed:"
-msgid "The following disk was detected: $0"
-msgid_plural "The following disks were detected: $0"
-msgstr[0] "以下必须的分部还没有完成："
-
 #: src/components/Error.jsx:267
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
 "provide additional details."
 msgstr "以下日志将发送到问题跟踪系统，您可以在其中提供其他详细信息。"
 
-#: src/components/storage/InstallationScenario.jsx:66
+#: src/components/storage/InstallationScenario.jsx:67
 msgid "The installation needs $1 of disk space; "
 msgstr "安装需要 $1 磁盘空间； "
 
@@ -1006,12 +1010,6 @@ msgid "The storage editor lets you resize, delete, and create partitions. "
 msgstr ""
 "Blivet-gui 是一个高级存储编辑器，可让您调整大小、删除和创建分区。 它可以设置 "
 "LVM 等等。"
-
-#: src/components/storage/InstallationDestination.jsx:480
-#, fuzzy
-#| msgid "No usable disks detected"
-msgid "The usable disks have changed"
-msgstr "未检测到可用磁盘"
 
 #: src/components/users/Accounts.jsx:202
 msgid "This account will have administration privilege with sudo."
@@ -1043,7 +1041,7 @@ msgstr "要使用 $0，请重新启动系统。"
 msgid "To continue, select the devices to install to."
 msgstr "要想继续，请选择要安装的设备。"
 
-#: src/components/storage/InstallationScenario.jsx:87
+#: src/components/storage/InstallationScenario.jsx:88
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -1073,13 +1071,13 @@ msgstr "解锁设备"
 msgid "Unlock encrypted devices"
 msgstr "解锁加密设备"
 
-#: src/components/storage/InstallationScenario.jsx:246
+#: src/components/storage/InstallationScenario.jsx:247
 #, fuzzy
 #| msgid "Configuring storage"
 msgid "Use configured storage"
 msgstr "设置存储设备"
 
-#: src/components/storage/InstallationScenario.jsx:226
+#: src/components/storage/InstallationScenario.jsx:227
 msgid "Use free space for the installation"
 msgstr "使用可用空间进行安装"
 
@@ -1197,6 +1195,44 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:348
 msgid "undo"
 msgstr ""
+
+#~ msgid "Applying new disk selection..."
+#~ msgstr "正在应用新的磁盘选择..."
+
+#~ msgid "Clear input value"
+#~ msgstr "清空输入值"
+
+#~ msgid "Current selections"
+#~ msgstr "当前选择"
+
+#~ msgid "Installing to $0 ($1)"
+#~ msgstr "安装到 $0 ($1)"
+
+#~ msgid "No additional disks detected"
+#~ msgstr "没有检测到额外的磁盘"
+
+#~ msgid "No usable disks detected"
+#~ msgstr "未检测到可用磁盘"
+
+#~ msgid "Re-scan"
+#~ msgstr "重新扫描"
+
+#~ msgid "Rescan"
+#~ msgstr "重新扫描"
+
+#~ msgid "Select a disk"
+#~ msgstr "选择磁盘"
+
+#, fuzzy
+#~| msgid "The following mandatory spokes are not completed:"
+#~ msgid "The following disk was detected: $0"
+#~ msgid_plural "The following disks were detected: $0"
+#~ msgstr[0] "以下必须的分部还没有完成："
+
+#, fuzzy
+#~| msgid "No usable disks detected"
+#~ msgid "The usable disks have changed"
+#~ msgstr "未检测到可用磁盘"
 
 #~ msgid "Some devices use the same name: $0."
 #~ msgstr "有些设备使用相同的名称：$0。"
@@ -2261,9 +2297,6 @@ msgstr ""
 
 #~ msgid "Creating users"
 #~ msgstr "创建用户"
-
-#~ msgid "Current host name:"
-#~ msgstr "当前主机名："
 
 #, python-format
 #~ msgid "Current host name: %s\n"
@@ -3417,9 +3450,6 @@ msgstr ""
 #~ "disk, and restart to complete installation."
 #~ msgstr ""
 #~ "没有检测到磁盘。请关闭计算机并至少连接一块磁盘后，重新启动进行安装。"
-
-#~ msgid "No disks selected"
-#~ msgstr "未选择任何磁盘"
 
 #~ msgid "No disks selected."
 #~ msgstr "未选择任何磁盘。"
@@ -6384,10 +6414,6 @@ msgstr ""
 #~ msgid "_Sector size:"
 #~ msgstr "Sector 大小 (_S)："
 
-#~ msgctxt "GUI|Custom Partitioning|Configure Dialog"
-#~ msgid "_Select"
-#~ msgstr "选择(_S)"
-
 #~ msgctxt "GUI|Network|Wireless"
 #~ msgid "_Select network"
 #~ msgstr "选择网络(_S)"
@@ -6606,9 +6632,6 @@ msgstr ""
 #~ msgid "none"
 #~ msgstr "无"
 
-#~ msgid "not available"
-#~ msgstr "不可用"
-
 #~ msgid "not configured"
 #~ msgstr "未配置"
 
@@ -6648,9 +6671,6 @@ msgstr ""
 
 #~ msgid "to go back to region list"
 #~ msgstr "返回到地区列表"
-
-#~ msgid "to rescan devices"
-#~ msgstr "重新扫描设备"
 
 #~ msgid "to return to language list"
 #~ msgstr "返回语言列表"

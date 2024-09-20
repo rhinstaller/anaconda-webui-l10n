@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-19 03:01+0000\n"
+"POT-Creation-Date: 2024-09-20 03:01+0000\n"
 "PO-Revision-Date: 2023-11-06 12:19+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Latvian <https://translate.fedoraproject.org/projects/"
@@ -25,6 +25,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
 "X-Generator: Weblate 5.1.1\n"
+
+#: src/components/storage/InstallationDestination.jsx:178
+#: src/components/storage/InstallationDestination.jsx:311
+msgid "$0 $1"
+msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:198
+#: src/components/storage/InstallationDestination.jsx:304
+msgid "$0 ($1)"
+msgstr ""
 
 #: src/components/app.jsx:76
 #, fuzzy
@@ -61,7 +71,7 @@ msgstr ""
 msgid "Actions"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:606
+#: src/components/storage/MountPointMapping.jsx:616
 msgid "Add mount"
 msgstr ""
 
@@ -98,12 +108,8 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Palaiž pirmsinstalēšanas skriptus"
 
-#: src/components/storage/InstallationScenario.jsx:228
+#: src/components/storage/InstallationScenario.jsx:229
 msgid "Apply mount point assignment and install"
-msgstr ""
-
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Applying new disk selection..."
 msgstr ""
 
 #: src/components/storage/ReclaimSpaceModal.jsx:208
@@ -123,6 +129,7 @@ msgid ""
 msgstr ""
 
 #: src/components/storage/CockpitStorageIntegration.jsx:134
+#: src/components/storage/InstallationDestination.jsx:357
 #: src/components/storage/ReclaimSpaceModal.jsx:219
 #: src/components/review/Hostname.jsx:106 src/components/Error.jsx:259
 msgid "Cancel"
@@ -131,6 +138,12 @@ msgstr ""
 #: src/components/review/Hostname.jsx:104
 msgid "Change"
 msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:342
+#, fuzzy
+#| msgid "Install"
+msgid "Change destination"
+msgstr "Instalēt"
 
 #: src/components/review/Hostname.jsx:113
 msgid "Change hostname"
@@ -156,11 +169,8 @@ msgstr ""
 msgid "Chosen language: "
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:240
-msgid "Clear input value"
-msgstr ""
-
 #: src/components/storage/EncryptedDevices.jsx:164
+#: src/components/storage/InstallationDestination.jsx:362
 msgid "Close"
 msgstr ""
 
@@ -220,8 +230,8 @@ msgstr ""
 msgid "Critical error"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:223
-msgid "Current selections"
+#: src/components/storage/InstallationDestination.jsx:101
+msgid "Currently installed: $0"
 msgstr ""
 
 #: src/components/storage/MountPointMapping.jsx:246
@@ -232,7 +242,7 @@ msgstr ""
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:407
+#: src/components/storage/InstallationDestination.jsx:286
 msgid "Destination"
 msgstr ""
 
@@ -240,7 +250,7 @@ msgstr ""
 msgid "Detected valid storage layout:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:582
+#: src/components/storage/MountPointMapping.jsx:592
 #: src/components/review/StorageReview.jsx:192
 msgid "Device"
 msgstr ""
@@ -257,7 +267,7 @@ msgstr ""
 msgid "Disk encryption"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:350
+#: src/components/storage/MountPointMapping.jsx:360
 msgid "Duplicate device."
 msgstr ""
 
@@ -289,8 +299,8 @@ msgstr ""
 msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:206
-#: src/components/storage/InstallationScenario.jsx:214
+#: src/components/storage/InstallationScenario.jsx:207
+#: src/components/storage/InstallationScenario.jsx:215
 #, fuzzy
 msgid "Erase data and install"
 msgstr "Palaiž pirmsinstalēšanas skriptus"
@@ -346,7 +356,7 @@ msgstr ""
 msgid "Hostname"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:407
+#: src/components/storage/InstallationScenario.jsx:408
 msgid "How would you like to install?"
 msgstr ""
 
@@ -389,8 +399,8 @@ msgstr "Instalēt"
 msgid "Initializing..."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:217
-#: src/components/storage/InstallationScenario.jsx:238
+#: src/components/storage/InstallationScenario.jsx:218
+#: src/components/storage/InstallationScenario.jsx:239
 msgid "Install"
 msgstr "Instalēt"
 
@@ -419,11 +429,6 @@ msgstr "Instalēt"
 msgid "Installing"
 msgstr "Instalēt"
 
-#: src/components/storage/InstallationDestination.jsx:426
-#, fuzzy
-msgid "Installing to $0 ($1)"
-msgstr "Instalēt"
-
 #: src/components/storage/HelpAutopartOptions.jsx:7
 msgid "Keep current disk layout and only install into available space."
 msgstr ""
@@ -449,12 +454,12 @@ msgstr ""
 msgid "Log"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:762
+#: src/components/storage/MountPointMapping.jsx:772
 #, fuzzy
 msgid "Manual disk configuration"
 msgstr "Mainot iekārtas %s izmēru gadījās kļūda."
 
-#: src/components/storage/MountPointMapping.jsx:764
+#: src/components/storage/MountPointMapping.jsx:774
 #, fuzzy
 msgid "Manual disk configuration: Mount point mapping"
 msgstr "Mainot iekārtas %s izmēru gadījās kļūda."
@@ -480,13 +485,13 @@ msgstr ""
 msgid "Modify storage"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:581
+#: src/components/storage/MountPointMapping.jsx:591
 #: src/components/review/StorageReview.jsx:191
 msgid "Mount point"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:236
-#: src/components/storage/MountPointMapping.jsx:579
+#: src/components/storage/InstallationScenario.jsx:237
+#: src/components/storage/MountPointMapping.jsx:589
 msgid "Mount point assignment"
 msgstr ""
 
@@ -513,34 +518,33 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:473
-msgid "No additional disks detected"
-msgstr ""
-
-#: src/components/storage/MountPointMapping.jsx:586
+#: src/components/storage/MountPointMapping.jsx:596
 #: src/components/storage/ReclaimSpaceModal.jsx:156
 msgid "No devices"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:121
+#: src/components/storage/InstallationDestination.jsx:160
+msgid "No disks available"
+msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:297
+msgid "No disks selected"
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:192
 msgid "No results found"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:120
+#: src/components/storage/InstallationScenario.jsx:121
 msgid "No usable devices on the selected disks."
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:436
-msgid "No usable disks detected"
-msgstr ""
-
-#: src/components/storage/InstallationScenario.jsx:85
+#: src/components/storage/InstallationScenario.jsx:86
 #, fuzzy
 msgid "Not enough free space on the selected disks."
 msgstr "Nepietiek RAM"
 
-#: src/components/storage/InstallationScenario.jsx:64
+#: src/components/storage/InstallationScenario.jsx:65
 msgid "Not enough space on selected disks."
 msgstr ""
 
@@ -623,10 +627,6 @@ msgstr ""
 msgid "Quit installer?"
 msgstr "Instalēt"
 
-#: src/components/storage/InstallationDestination.jsx:380
-msgid "Re-scan"
-msgstr ""
-
 #: src/components/app.jsx:113
 #, fuzzy
 msgid "Reading information about the OS failed."
@@ -670,7 +670,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 msgid "Reclaim additional space"
 msgstr ""
 
@@ -680,7 +680,7 @@ msgstr ""
 msgid "Reclaim space"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 msgid "Reclaim space (required)"
 msgstr ""
 
@@ -692,12 +692,12 @@ msgstr ""
 msgid "Recommended partitions:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:370
-#: src/components/storage/MountPointMapping.jsx:583
+#: src/components/storage/MountPointMapping.jsx:380
+#: src/components/storage/MountPointMapping.jsx:593
 msgid "Reformat"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:397
+#: src/components/storage/MountPointMapping.jsx:407
 msgid "Remove"
 msgstr ""
 
@@ -740,12 +740,12 @@ msgstr ""
 msgid "Requirements"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:389
+#: src/components/storage/InstallationDestination.jsx:151
 #, fuzzy
-msgid "Rescan"
+msgid "Rescan devices"
 msgstr "Glābt"
 
-#: src/components/storage/InstallationDestination.jsx:368
+#: src/components/storage/InstallationDestination.jsx:132
 msgid "Rescanning of the disks failed."
 msgstr ""
 
@@ -781,13 +781,19 @@ msgstr ""
 msgid "Scan the QR code with your phone or visit:"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:299
+#: src/components/storage/InstallationDestination.jsx:354
+msgid "Select"
+msgstr ""
+
+#: src/components/storage/MountPointMapping.jsx:309
 msgid "Select a device"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Select a disk"
-msgstr ""
+#: src/components/storage/InstallationDestination.jsx:348
+#, fuzzy
+#| msgid "Install"
+msgid "Select destination"
+msgstr "Instalēt"
 
 #: src/components/storage/MountPointMapping.jsx:124
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -833,7 +839,7 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:123
+#: src/components/storage/InstallationScenario.jsx:124
 msgid "Some required partitions are missing: $0"
 msgstr ""
 
@@ -898,27 +904,13 @@ msgid ""
 "software. "
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:505
-msgid "The following disk is no longer available: $0"
-msgid_plural "The following disks are no longer available: $0"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#: src/components/storage/InstallationDestination.jsx:488
-msgid "The following disk was detected: $0"
-msgid_plural "The following disks were detected: $0"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
 #: src/components/Error.jsx:267
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
 "provide additional details."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:66
+#: src/components/storage/InstallationScenario.jsx:67
 msgid "The installation needs $1 of disk space; "
 msgstr ""
 
@@ -938,10 +930,6 @@ msgstr ""
 
 #: src/components/storage/CockpitStorageIntegration.jsx:140
 msgid "The storage editor lets you resize, delete, and create partitions. "
-msgstr ""
-
-#: src/components/storage/InstallationDestination.jsx:480
-msgid "The usable disks have changed"
 msgstr ""
 
 #: src/components/users/Accounts.jsx:202
@@ -972,7 +960,7 @@ msgstr ""
 msgid "To continue, select the devices to install to."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:87
+#: src/components/storage/InstallationScenario.jsx:88
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -1002,13 +990,13 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:246
+#: src/components/storage/InstallationScenario.jsx:247
 #, fuzzy
 #| msgid "Configuring addons"
 msgid "Use configured storage"
 msgstr "Konfigurē papildinājumus"
 
-#: src/components/storage/InstallationScenario.jsx:226
+#: src/components/storage/InstallationScenario.jsx:227
 #, fuzzy
 msgid "Use free space for the installation"
 msgstr "Palaiž pirmsinstalēšanas skriptus"
@@ -1115,6 +1103,10 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:348
 msgid "undo"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Installing to $0 ($1)"
+#~ msgstr "Instalēt"
 
 #, fuzzy
 #~ msgid "Erase data and install?"
@@ -1439,11 +1431,6 @@ msgstr ""
 #, fuzzy
 #~| msgid "Install"
 #~ msgid "Install Fedora…"
-#~ msgstr "Instalēt"
-
-#, fuzzy
-#~| msgid "Install"
-#~ msgid "Installation destination"
 #~ msgstr "Instalēt"
 
 #, fuzzy

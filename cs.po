@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-19 03:01+0000\n"
+"POT-Creation-Date: 2024-09-20 03:01+0000\n"
 "PO-Revision-Date: 2024-09-07 02:49+0000\n"
 "Last-Translator: Daniel Rusek <mail@asciiwolf.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/anaconda-"
@@ -57,6 +57,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 5.7.2\n"
+
+#: src/components/storage/InstallationDestination.jsx:178
+#: src/components/storage/InstallationDestination.jsx:311
+msgid "$0 $1"
+msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:198
+#: src/components/storage/InstallationDestination.jsx:304
+msgid "$0 ($1)"
+msgstr ""
 
 #: src/components/app.jsx:76
 msgid "$0 installation"
@@ -93,7 +103,7 @@ msgstr "Účet"
 msgid "Actions"
 msgstr "Akce"
 
-#: src/components/storage/MountPointMapping.jsx:606
+#: src/components/storage/MountPointMapping.jsx:616
 msgid "Add mount"
 msgstr "Přidat přípojný"
 
@@ -129,13 +139,9 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "Stránka projektu Anaconda"
 
-#: src/components/storage/InstallationScenario.jsx:228
+#: src/components/storage/InstallationScenario.jsx:229
 msgid "Apply mount point assignment and install"
 msgstr "Uplatnit přiřazení přípojného bodu a nainstalovat"
-
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Applying new disk selection..."
-msgstr "Uplatňování výběru nového disku…"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:208
 msgid "Available free space: $0. Installation requires: $1."
@@ -158,6 +164,7 @@ msgstr ""
 "nebo problémy za účelem zlepšení tohoto díla."
 
 #: src/components/storage/CockpitStorageIntegration.jsx:134
+#: src/components/storage/InstallationDestination.jsx:357
 #: src/components/storage/ReclaimSpaceModal.jsx:219
 #: src/components/review/Hostname.jsx:106 src/components/Error.jsx:259
 msgid "Cancel"
@@ -166,6 +173,12 @@ msgstr "Zrušit"
 #: src/components/review/Hostname.jsx:104
 msgid "Change"
 msgstr "Změnit"
+
+#: src/components/storage/InstallationDestination.jsx:342
+#, fuzzy
+#| msgid "Destination"
+msgid "Change destination"
+msgstr "Cíl"
 
 #: src/components/review/Hostname.jsx:113
 msgid "Change hostname"
@@ -191,11 +204,8 @@ msgstr "Výběr jazyka"
 msgid "Chosen language: "
 msgstr "Zvolený jazyk: "
 
-#: src/components/storage/InstallationDestination.jsx:240
-msgid "Clear input value"
-msgstr "Vymazat vstupní hodnotu"
-
 #: src/components/storage/EncryptedDevices.jsx:164
+#: src/components/storage/InstallationDestination.jsx:362
 msgid "Close"
 msgstr "Zavřít"
 
@@ -251,9 +261,11 @@ msgstr "Vytvořit účet"
 msgid "Critical error"
 msgstr "Kritická chyba"
 
-#: src/components/storage/InstallationDestination.jsx:223
-msgid "Current selections"
-msgstr "Stávající výběr"
+#: src/components/storage/InstallationDestination.jsx:101
+#, fuzzy
+#| msgid "Current host name:"
+msgid "Currently installed: $0"
+msgstr "Stávající název stroje:"
 
 #: src/components/storage/MountPointMapping.jsx:246
 msgid "Custom"
@@ -263,7 +275,7 @@ msgstr "Uživatelsky určené"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:407
+#: src/components/storage/InstallationDestination.jsx:286
 msgid "Destination"
 msgstr "Cíl"
 
@@ -271,7 +283,7 @@ msgstr "Cíl"
 msgid "Detected valid storage layout:"
 msgstr "Nalezeno platné rozvržení úložiště:"
 
-#: src/components/storage/MountPointMapping.jsx:582
+#: src/components/storage/MountPointMapping.jsx:592
 #: src/components/review/StorageReview.jsx:192
 msgid "Device"
 msgstr "Zařízení"
@@ -289,7 +301,7 @@ msgstr "Nastavení jednotky"
 msgid "Disk encryption"
 msgstr "Šifrování disku"
 
-#: src/components/storage/MountPointMapping.jsx:350
+#: src/components/storage/MountPointMapping.jsx:360
 msgid "Duplicate device."
 msgstr "Zduplikovat zařízení."
 
@@ -322,8 +334,8 @@ msgid "Encryption helps secure your data, to prevent others from accessing it."
 msgstr ""
 "Šifrování pomáhá zabezpečit vaše data a zabránit ostatním v přístupu k nim."
 
-#: src/components/storage/InstallationScenario.jsx:206
-#: src/components/storage/InstallationScenario.jsx:214
+#: src/components/storage/InstallationScenario.jsx:207
+#: src/components/storage/InstallationScenario.jsx:215
 msgid "Erase data and install"
 msgstr "Vymazat data a nainstalovat"
 
@@ -380,7 +392,7 @@ msgstr "Skrýt heslo"
 msgid "Hostname"
 msgstr "Název stroje"
 
-#: src/components/storage/InstallationScenario.jsx:407
+#: src/components/storage/InstallationScenario.jsx:408
 msgid "How would you like to install?"
 msgstr "Jak si přejete nainstalovat?"
 
@@ -426,8 +438,8 @@ msgstr "Probíhá"
 msgid "Initializing..."
 msgstr "Inicializace…"
 
-#: src/components/storage/InstallationScenario.jsx:217
-#: src/components/storage/InstallationScenario.jsx:238
+#: src/components/storage/InstallationScenario.jsx:218
+#: src/components/storage/InstallationScenario.jsx:239
 msgid "Install"
 msgstr "Nainstalovat"
 
@@ -450,10 +462,6 @@ msgstr "Typ instalace"
 #: src/components/installation/InstallationProgress.jsx:158
 msgid "Installing"
 msgstr "Instaluje se"
-
-#: src/components/storage/InstallationDestination.jsx:426
-msgid "Installing to $0 ($1)"
-msgstr "Instaluje se na $0 ($1)"
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
 msgid "Keep current disk layout and only install into available space."
@@ -483,11 +491,11 @@ msgstr "Uzamčená zařízení"
 msgid "Log"
 msgstr "Záznam událostí"
 
-#: src/components/storage/MountPointMapping.jsx:762
+#: src/components/storage/MountPointMapping.jsx:772
 msgid "Manual disk configuration"
 msgstr "Ruční nastavení jednotky"
 
-#: src/components/storage/MountPointMapping.jsx:764
+#: src/components/storage/MountPointMapping.jsx:774
 msgid "Manual disk configuration: Mount point mapping"
 msgstr "Ruční nastavení pro jednotku: mapování přípojného bodu"
 
@@ -513,13 +521,13 @@ msgstr ""
 msgid "Modify storage"
 msgstr "Upravit úložiště"
 
-#: src/components/storage/MountPointMapping.jsx:581
+#: src/components/storage/MountPointMapping.jsx:591
 #: src/components/review/StorageReview.jsx:191
 msgid "Mount point"
 msgstr "Přípojný bod"
 
-#: src/components/storage/InstallationScenario.jsx:236
-#: src/components/storage/MountPointMapping.jsx:579
+#: src/components/storage/InstallationScenario.jsx:237
+#: src/components/storage/MountPointMapping.jsx:589
 msgid "Mount point assignment"
 msgstr "Přiřazení přípojného bodu"
 
@@ -547,33 +555,34 @@ msgstr "Síť není k dispozici. Aby bylo možné chybu nahlásit, nastavte sí�
 msgid "Next"
 msgstr "Další"
 
-#: src/components/storage/InstallationDestination.jsx:473
-msgid "No additional disks detected"
-msgstr "Nezjištěny žádné další jednotky"
-
-#: src/components/storage/MountPointMapping.jsx:586
+#: src/components/storage/MountPointMapping.jsx:596
 #: src/components/storage/ReclaimSpaceModal.jsx:156
 msgid "No devices"
 msgstr "Žádná zařízení"
 
-#: src/components/storage/InstallationDestination.jsx:121
+#: src/components/storage/InstallationDestination.jsx:160
+#, fuzzy
+#| msgid "not available"
+msgid "No disks available"
+msgstr "není k dispozici"
+
+#: src/components/storage/InstallationDestination.jsx:297
+msgid "No disks selected"
+msgstr "Nevybrány žádné jednotky"
+
 #: src/components/localization/InstallationLanguage.jsx:192
 msgid "No results found"
 msgstr "Nenalezeny žádné výsledky"
 
-#: src/components/storage/InstallationScenario.jsx:120
+#: src/components/storage/InstallationScenario.jsx:121
 msgid "No usable devices on the selected disks."
 msgstr "Na vybraných jednotkách nejsou žádná použitelná zařízení."
 
-#: src/components/storage/InstallationDestination.jsx:436
-msgid "No usable disks detected"
-msgstr "Nevybrány žádné použitelné jednotky"
-
-#: src/components/storage/InstallationScenario.jsx:85
+#: src/components/storage/InstallationScenario.jsx:86
 msgid "Not enough free space on the selected disks."
 msgstr "Na vybraných jednotkách není dostatek volného místa."
 
-#: src/components/storage/InstallationScenario.jsx:64
+#: src/components/storage/InstallationScenario.jsx:65
 msgid "Not enough space on selected disks."
 msgstr "Na vybraných jednotkách není dostatek prostoru."
 
@@ -657,10 +666,6 @@ msgstr "Ukončit"
 msgid "Quit installer?"
 msgstr "Ukončit instalátor?"
 
-#: src/components/storage/InstallationDestination.jsx:380
-msgid "Re-scan"
-msgstr "Znovu prohledat"
-
 #: src/components/app.jsx:113
 msgid "Reading information about the OS failed."
 msgstr "Načítání informací o OS se nezdařilo."
@@ -704,7 +709,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "Restartovat systém?"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 msgid "Reclaim additional space"
 msgstr "Získat více místa"
 
@@ -714,7 +719,7 @@ msgstr "Získat více místa"
 msgid "Reclaim space"
 msgstr "Uvolnit místo"
 
-#: src/components/storage/InstallationScenario.jsx:198
+#: src/components/storage/InstallationScenario.jsx:199
 msgid "Reclaim space (required)"
 msgstr "Uvolnit místo (vyžadováno)"
 
@@ -726,12 +731,12 @@ msgstr "Doporučeno"
 msgid "Recommended partitions:"
 msgstr "Doporučené oddíly:"
 
-#: src/components/storage/MountPointMapping.jsx:370
-#: src/components/storage/MountPointMapping.jsx:583
+#: src/components/storage/MountPointMapping.jsx:380
+#: src/components/storage/MountPointMapping.jsx:593
 msgid "Reformat"
 msgstr "Znovu vytvořit souborový systém"
 
-#: src/components/storage/MountPointMapping.jsx:397
+#: src/components/storage/MountPointMapping.jsx:407
 msgid "Remove"
 msgstr "Odstranit"
 
@@ -781,11 +786,13 @@ msgstr "Vyžadováno"
 msgid "Requirements"
 msgstr "Požadavky"
 
-#: src/components/storage/InstallationDestination.jsx:389
-msgid "Rescan"
-msgstr "Znovu prohledat"
+#: src/components/storage/InstallationDestination.jsx:151
+#, fuzzy
+#| msgid "to rescan devices"
+msgid "Rescan devices"
+msgstr "pokud chcete znovu proskenovat zařízení"
 
-#: src/components/storage/InstallationDestination.jsx:368
+#: src/components/storage/InstallationDestination.jsx:132
 msgid "Rescanning of the disks failed."
 msgstr "Opětovné naskenování jednotek datového úložiště se nezdařilo."
 
@@ -820,13 +827,22 @@ msgstr "Uložit"
 msgid "Scan the QR code with your phone or visit:"
 msgstr "Načtěte QR kód vaším telefonem nebo navštivte:"
 
-#: src/components/storage/MountPointMapping.jsx:299
+#: src/components/storage/InstallationDestination.jsx:354
+#, fuzzy
+#| msgctxt "GUI|Custom Partitioning|Configure Dialog"
+#| msgid "_Select"
+msgid "Select"
+msgstr "_Vybrat"
+
+#: src/components/storage/MountPointMapping.jsx:309
 msgid "Select a device"
 msgstr "Vybrat zařízení"
 
-#: src/components/storage/InstallationDestination.jsx:219
-msgid "Select a disk"
-msgstr "Vyberte jednotku"
+#: src/components/storage/InstallationDestination.jsx:348
+#, fuzzy
+#| msgid "Destination"
+msgid "Select destination"
+msgstr "Cíl"
 
 #: src/components/storage/MountPointMapping.jsx:124
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -872,7 +888,7 @@ msgstr ""
 "Instalace softwaru: Nastavování úložiště dokončeno. Software se nyní "
 "instaluje do vašeho zařízení."
 
-#: src/components/storage/InstallationScenario.jsx:123
+#: src/components/storage/InstallationScenario.jsx:124
 msgid "Some required partitions are missing: $0"
 msgstr "Chybí některé vyžadované oddíly: $0"
 
@@ -937,20 +953,6 @@ msgid ""
 "software. "
 msgstr "Vybraný jazyk bude použit pro instalaci a v nainstalovaném softwaru. "
 
-#: src/components/storage/InstallationDestination.jsx:505
-msgid "The following disk is no longer available: $0"
-msgid_plural "The following disks are no longer available: $0"
-msgstr[0] "Následující disk již není k dispozici: $0"
-msgstr[1] "Následující disky již nejsou k dispozici: $0"
-msgstr[2] "Následující disky již nejsou k dispozici: $0"
-
-#: src/components/storage/InstallationDestination.jsx:488
-msgid "The following disk was detected: $0"
-msgid_plural "The following disks were detected: $0"
-msgstr[0] "Nalezen následující disk: $0"
-msgstr[1] "Nalezeny následující disky: $0"
-msgstr[2] "Nalezeny následující disky: $0"
-
 #: src/components/Error.jsx:267
 msgid ""
 "The following log will be sent to the issue tracking system where you may "
@@ -959,7 +961,7 @@ msgstr ""
 "Následující záznam událostí bude odeslán do systému správy hlášení chyb, ve "
 "kterém můžete doplnit další podrobnosti."
 
-#: src/components/storage/InstallationScenario.jsx:66
+#: src/components/storage/InstallationScenario.jsx:67
 msgid "The installation needs $1 of disk space; "
 msgstr "Instalace potřebuje $1 prostoru na disku; "
 
@@ -991,10 +993,6 @@ msgstr ""
 "smazání a vytváření oddílů. Dál podporuje nastavování LVM svazků a mnoho "
 "dalšího."
 
-#: src/components/storage/InstallationDestination.jsx:480
-msgid "The usable disks have changed"
-msgstr "Použitelné disky byly změněny"
-
 #: src/components/users/Accounts.jsx:202
 msgid "This account will have administration privilege with sudo."
 msgstr "Tento účet bude mít oprávnění správce se sudo."
@@ -1023,7 +1021,7 @@ msgstr "Aby bylo možné začít $0 používat, počítač restartujte."
 msgid "To continue, select the devices to install to."
 msgstr "Aby bylo možné pokračovat, vyberte zařízení, na která instalovat."
 
-#: src/components/storage/InstallationScenario.jsx:87
+#: src/components/storage/InstallationScenario.jsx:88
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -1055,11 +1053,11 @@ msgstr "Odemknout zařízení"
 msgid "Unlock encrypted devices"
 msgstr "Odemknout šifrovaná zařízení"
 
-#: src/components/storage/InstallationScenario.jsx:246
+#: src/components/storage/InstallationScenario.jsx:247
 msgid "Use configured storage"
 msgstr "Použít nastavené úložiště"
 
-#: src/components/storage/InstallationScenario.jsx:226
+#: src/components/storage/InstallationScenario.jsx:227
 msgid "Use free space for the installation"
 msgstr "Pro instalaci použít volné místo"
 
@@ -1170,6 +1168,48 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:348
 msgid "undo"
 msgstr "zpět"
+
+#~ msgid "Applying new disk selection..."
+#~ msgstr "Uplatňování výběru nového disku…"
+
+#~ msgid "Clear input value"
+#~ msgstr "Vymazat vstupní hodnotu"
+
+#~ msgid "Current selections"
+#~ msgstr "Stávající výběr"
+
+#~ msgid "Installing to $0 ($1)"
+#~ msgstr "Instaluje se na $0 ($1)"
+
+#~ msgid "No additional disks detected"
+#~ msgstr "Nezjištěny žádné další jednotky"
+
+#~ msgid "No usable disks detected"
+#~ msgstr "Nevybrány žádné použitelné jednotky"
+
+#~ msgid "Re-scan"
+#~ msgstr "Znovu prohledat"
+
+#~ msgid "Rescan"
+#~ msgstr "Znovu prohledat"
+
+#~ msgid "Select a disk"
+#~ msgstr "Vyberte jednotku"
+
+#~ msgid "The following disk is no longer available: $0"
+#~ msgid_plural "The following disks are no longer available: $0"
+#~ msgstr[0] "Následující disk již není k dispozici: $0"
+#~ msgstr[1] "Následující disky již nejsou k dispozici: $0"
+#~ msgstr[2] "Následující disky již nejsou k dispozici: $0"
+
+#~ msgid "The following disk was detected: $0"
+#~ msgid_plural "The following disks were detected: $0"
+#~ msgstr[0] "Nalezen následující disk: $0"
+#~ msgstr[1] "Nalezeny následující disky: $0"
+#~ msgstr[2] "Nalezeny následující disky: $0"
+
+#~ msgid "The usable disks have changed"
+#~ msgstr "Použitelné disky byly změněny"
 
 #~ msgid "Some devices use the same name: $0."
 #~ msgstr "Některá zařízení používají stejný název: $0."
@@ -2297,9 +2337,6 @@ msgstr "zpět"
 
 #~ msgid "Creating users"
 #~ msgstr "Vytváření uživatelů"
-
-#~ msgid "Current host name:"
-#~ msgstr "Stávající název stroje:"
 
 #, python-format
 #~ msgid "Current host name: %s\n"
@@ -3500,9 +3537,6 @@ msgstr "zpět"
 #~ msgstr ""
 #~ "Nezjištěny žádné jednotky. Stroj prosím vypněte, připojte do něho alespoň "
 #~ "jednu jednotku datového úložiště a znovu spusťte instalaci."
-
-#~ msgid "No disks selected"
-#~ msgstr "Nevybrány žádné jednotky"
 
 #~ msgid "No disks selected."
 #~ msgstr "Nevybrány žádné jednotky."
@@ -6657,10 +6691,6 @@ msgstr "zpět"
 #~ msgid "_Sector size:"
 #~ msgstr "Velikost _sektoru:"
 
-#~ msgctxt "GUI|Custom Partitioning|Configure Dialog"
-#~ msgid "_Select"
-#~ msgstr "_Vybrat"
-
 #~ msgctxt "GUI|Network|Wireless"
 #~ msgid "_Select network"
 #~ msgstr "Vybrat _síť"
@@ -6885,9 +6915,6 @@ msgstr "zpět"
 #~ msgid "none"
 #~ msgstr "nic"
 
-#~ msgid "not available"
-#~ msgstr "není k dispozici"
-
 #~ msgid "not configured"
 #~ msgstr "nenastaveny"
 
@@ -6927,9 +6954,6 @@ msgstr "zpět"
 
 #~ msgid "to go back to region list"
 #~ msgstr "pokud se chcete vrátit zpět k seznamu oblastí"
-
-#~ msgid "to rescan devices"
-#~ msgstr "pokud chcete znovu proskenovat zařízení"
 
 #~ msgid "to return to language list"
 #~ msgstr "pokud se chcete vrátit na seznam jazyků"
