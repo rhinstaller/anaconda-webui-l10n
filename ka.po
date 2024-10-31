@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-30 03:06+0000\n"
+"POT-Creation-Date: 2024-10-31 03:07+0000\n"
 "PO-Revision-Date: 2024-10-27 22:11+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -540,10 +540,6 @@ msgstr "არცერთი დისკი მონიშნული არ
 msgid "No results found"
 msgstr "შედეგების გარეშე"
 
-#: src/components/storage/InstallationScenario.jsx:130
-msgid "No usable devices on the selected disks."
-msgstr "მონიშნულ დისკებზე გამოყენებადი მოწყობილობები არაა."
-
 #: src/components/storage/InstallationScenario.jsx:95
 msgid "Not enough free space on the selected disks."
 msgstr "მონიშნულ დისკებზე საკმარისი თავისუფალი ადგილი არაა."
@@ -711,9 +707,13 @@ msgid "Remove"
 msgstr "წაშლა"
 
 #: src/components/storage/HelpAutopartOptions.jsx:5
+#, fuzzy
+#| msgid ""
+#| "Remove all partitions on the selected devices, including existing "
+#| "operating systems. Make sure you have backed up your data."
 msgid ""
 "Remove all partitions on the selected devices, including existing operating "
-"systems. Make sure you have backed up your data."
+"systems."
 msgstr ""
 "მონიშნული დისკებიდან ყველა დანაყოფის, არსებული ოპერაციული სისტემების "
 "ჩათვლით, წაშლა. დარწმუნდით, რომ თქვენი მონაცემები უსაფრთხო ადგილასაა."
@@ -1141,6 +1141,9 @@ msgstr "$0-მდე შემცირება"
 #: src/components/storage/ReclaimSpaceModal.jsx:348
 msgid "undo"
 msgstr "გაუქმება"
+
+#~ msgid "No usable devices on the selected disks."
+#~ msgstr "მონიშნულ დისკებზე გამოყენებადი მოწყობილობები არაა."
 
 #~ msgid "Manually select storage locations for installation."
 #~ msgstr "დაყენებისთვის საცავის მდებარეობების ხელით მითითება."
