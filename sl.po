@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 40.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-31 03:07+0000\n"
+"POT-Creation-Date: 2024-11-01 03:21+0000\n"
 "PO-Revision-Date: 2024-10-18 02:54+0000\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <https://translate.fedoraproject.org/projects/"
@@ -161,7 +161,7 @@ msgstr ""
 
 #: src/components/storage/CockpitStorageIntegration.jsx:471
 #: src/components/storage/CockpitStorageIntegration.jsx:483
-#: src/components/storage/DiskEncryption.jsx:54
+#: src/components/storage/DiskEncryption.jsx:53
 msgid "Checking storage configuration"
 msgstr "Preverjanje prilagoditve hrambe"
 
@@ -200,7 +200,7 @@ msgstr "Prilagodi hrambo"
 msgid "Configure storage again"
 msgstr "Znova prilagodi hrambo"
 
-#: src/components/storage/DiskEncryption.jsx:117
+#: src/components/storage/DiskEncryption.jsx:97
 #: src/components/users/Accounts.jsx:183 src/components/users/Accounts.jsx:284
 msgid "Confirm passphrase"
 msgstr "Potrdi šifrirno geslo"
@@ -258,14 +258,6 @@ msgstr "Naprava"
 msgid "Devices should be unlocked before assigning mount points."
 msgstr "Naprave je treba odkleniti, preden dodelite točke priklopa."
 
-#: src/components/steps.js:24
-msgid "Disk configuration"
-msgstr "Konfiguracija diska"
-
-#: src/components/storage/DiskEncryption.jsx:198
-msgid "Disk encryption"
-msgstr "Šifriranje diska"
-
 #: src/components/storage/MountPointMapping.jsx:388
 msgid "Duplicate device."
 msgstr "Podvoji napravo."
@@ -278,13 +270,9 @@ msgstr "Podvoji priklopno točko."
 msgid "Enable root account"
 msgstr "Omogoči korenski račun"
 
-#: src/components/storage/DiskEncryption.jsx:101
+#: src/components/storage/DiskEncryption.jsx:81
 msgid "Encrypt my data"
 msgstr "Šifriraj moje podatke"
-
-#: src/components/storage/DiskEncryption.jsx:199
-msgid "Encrypt the selected devices?"
-msgstr "Želite šifrirati izbrane naprave?"
 
 #: src/components/review/StorageReview.jsx:202
 msgid "Encrypted"
@@ -294,10 +282,9 @@ msgstr "Šifrirano"
 msgid "Encrypted devices are locked"
 msgstr "Šifrirane naprave so zaklenjene"
 
-#: src/components/storage/DiskEncryption.jsx:127
-msgid "Encryption helps secure your data, to prevent others from accessing it."
-msgstr ""
-"Šifriranje pomaga zaščititi vaše podatke in preprečiti drugim dostop do njih."
+#: src/components/storage/DiskEncryption.jsx:106
+msgid "Encryption"
+msgstr "Šifriranje"
 
 #: src/components/storage/InstallationScenario.jsx:289
 msgid "Erase data and install"
@@ -554,14 +541,6 @@ msgstr ""
 "razvoju in testiranju. *Ne* uporabljajte te programske opreme za kakršnokoli "
 "kritično delo ali v produkcijskem okolju."
 
-#: src/components/storage/DiskEncryption.jsx:130
-msgid ""
-"Only new partitions will be encrypted. Existing partitions will remain "
-"untouched."
-msgstr ""
-"Šifrirani bodo samo novi razdelki. Obstoječi razdelki bodo ostali "
-"nedotaknjeni."
-
 #: src/components/review/ReviewConfiguration.jsx:89
 msgid "Operating system"
 msgstr "operacijski sistem"
@@ -570,7 +549,7 @@ msgstr "operacijski sistem"
 msgid "Partitions (advanced)"
 msgstr "Razdelki (napredno)"
 
-#: src/components/storage/DiskEncryption.jsx:114
+#: src/components/storage/DiskEncryption.jsx:94
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:281
@@ -794,6 +773,11 @@ msgstr "Shrani"
 msgid "Scan the QR code with your phone or visit:"
 msgstr "Optično preberite QR-kodo s telefonom ali obiščite:"
 
+#: src/components/storage/DiskEncryption.jsx:110
+msgid ""
+"Secure your data using disk-based encryption. Only applies to new partitions"
+msgstr ""
+
 #: src/components/storage/InstallationDestination.jsx:345
 msgid "Select"
 msgstr "Izberi"
@@ -866,7 +850,10 @@ msgstr "Prostor"
 msgid "Storage"
 msgstr "Shramba"
 
+#: src/components/storage/StorageConfiguration.jsx:124
+#: src/components/storage/StorageConfiguration.jsx:125
 #: src/components/installation/InstallationProgress.jsx:54
+#: src/components/steps.js:22
 msgid "Storage configuration"
 msgstr "Konfiguracija hrambe"
 
@@ -945,7 +932,7 @@ msgstr "Namestilnik ne more nadaljevati zaradi kritične napake."
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "Namestilnik ne more nadaljevati zaradi kritične napake: $0"
 
-#: src/components/storage/DiskEncryption.jsx:49
+#: src/components/storage/DiskEncryption.jsx:48
 msgid ""
 "The passphrase you have provided contains non-ASCII characters. You may not "
 "be able to switch between keyboard layouts when typing it."
@@ -971,7 +958,7 @@ msgstr "Tega imena gostitelja ni mogoče poslati"
 msgid "This is unstable, pre-release software"
 msgstr "To je nestabilno programje pred izdajo"
 
-#: src/components/storage/DiskEncryption.jsx:58
+#: src/components/storage/DiskEncryption.jsx:57
 msgid "This may take a moment"
 msgstr "To utegne nekaj časa trajati"
 
@@ -1136,6 +1123,28 @@ msgstr "skrči na $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:348
 msgid "undo"
 msgstr "razveljavi"
+
+#~ msgid "Disk configuration"
+#~ msgstr "Konfiguracija diska"
+
+#~ msgid "Disk encryption"
+#~ msgstr "Šifriranje diska"
+
+#~ msgid "Encrypt the selected devices?"
+#~ msgstr "Želite šifrirati izbrane naprave?"
+
+#~ msgid ""
+#~ "Encryption helps secure your data, to prevent others from accessing it."
+#~ msgstr ""
+#~ "Šifriranje pomaga zaščititi vaše podatke in preprečiti drugim dostop do "
+#~ "njih."
+
+#~ msgid ""
+#~ "Only new partitions will be encrypted. Existing partitions will remain "
+#~ "untouched."
+#~ msgstr ""
+#~ "Šifrirani bodo samo novi razdelki. Obstoječi razdelki bodo ostali "
+#~ "nedotaknjeni."
 
 #~ msgid "No usable devices on the selected disks."
 #~ msgstr "Na izbranih diskih ni uporabnih naprav."
@@ -2523,9 +2532,6 @@ msgstr "razveljavi"
 #~ msgctxt "GUI|Custom Partitioning|Autopart Page"
 #~ msgid "Encrypt my data."
 #~ msgstr "Šifriraj moje podatke."
-
-#~ msgid "Encryption"
-#~ msgstr "Šifriranje"
 
 #, python-format
 #~ msgid ""

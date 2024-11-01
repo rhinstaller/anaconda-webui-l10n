@@ -63,7 +63,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-31 03:07+0000\n"
+"POT-Creation-Date: 2024-11-01 03:21+0000\n"
 "PO-Revision-Date: 2024-07-22 00:58+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -226,7 +226,7 @@ msgstr ""
 
 #: src/components/storage/CockpitStorageIntegration.jsx:471
 #: src/components/storage/CockpitStorageIntegration.jsx:483
-#: src/components/storage/DiskEncryption.jsx:54
+#: src/components/storage/DiskEncryption.jsx:53
 msgid "Checking storage configuration"
 msgstr "ストレージ設定をチェック中..."
 
@@ -265,7 +265,7 @@ msgstr "ストレージの設定"
 msgid "Configure storage again"
 msgstr "ストレージを再度設定"
 
-#: src/components/storage/DiskEncryption.jsx:117
+#: src/components/storage/DiskEncryption.jsx:97
 #: src/components/users/Accounts.jsx:183 src/components/users/Accounts.jsx:284
 msgid "Confirm passphrase"
 msgstr "パスフレーズの確認"
@@ -326,14 +326,6 @@ msgid "Devices should be unlocked before assigning mount points."
 msgstr ""
 "マウントポイントを割り当てる前に、デバイスのロック解除する必要があります。"
 
-#: src/components/steps.js:24
-msgid "Disk configuration"
-msgstr "ディスクの設定"
-
-#: src/components/storage/DiskEncryption.jsx:198
-msgid "Disk encryption"
-msgstr "ディスク暗号化"
-
 #: src/components/storage/MountPointMapping.jsx:388
 msgid "Duplicate device."
 msgstr "重複されたデバイスです。"
@@ -346,13 +338,9 @@ msgstr "重複されたマウントポイントです。"
 msgid "Enable root account"
 msgstr "rootアカウントを有効化"
 
-#: src/components/storage/DiskEncryption.jsx:101
+#: src/components/storage/DiskEncryption.jsx:81
 msgid "Encrypt my data"
 msgstr "データを暗号化する"
-
-#: src/components/storage/DiskEncryption.jsx:199
-msgid "Encrypt the selected devices?"
-msgstr "選択されたデバイスを暗号化しますか？"
 
 #: src/components/review/StorageReview.jsx:202
 #, fuzzy
@@ -364,9 +352,9 @@ msgstr "暗号化"
 msgid "Encrypted devices are locked"
 msgstr "暗号化されたデバイスはロックされました"
 
-#: src/components/storage/DiskEncryption.jsx:127
-msgid "Encryption helps secure your data, to prevent others from accessing it."
-msgstr "暗号化はデータを保護し、他人がデータにアクセスするのを防ぎます。"
+#: src/components/storage/DiskEncryption.jsx:106
+msgid "Encryption"
+msgstr "暗号化"
 
 #: src/components/storage/InstallationScenario.jsx:289
 msgid "Erase data and install"
@@ -628,14 +616,6 @@ msgstr ""
 "注記: これは、開発およびテストのみを目的としたプレリリースのソフトウェアで"
 "す。このソフトウェアは、重要な作業や実稼働環境では使用しないでください。"
 
-#: src/components/storage/DiskEncryption.jsx:130
-msgid ""
-"Only new partitions will be encrypted. Existing partitions will remain "
-"untouched."
-msgstr ""
-"新しいパーティションのみが暗号化されます。 既存のパーティションはそのまま残り"
-"ます。"
-
 #: src/components/review/ReviewConfiguration.jsx:89
 msgid "Operating system"
 msgstr "オペレーティングシステム"
@@ -644,7 +624,7 @@ msgstr "オペレーティングシステム"
 msgid "Partitions (advanced)"
 msgstr "パーティション (上級者向け)"
 
-#: src/components/storage/DiskEncryption.jsx:114
+#: src/components/storage/DiskEncryption.jsx:94
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:281
@@ -880,6 +860,11 @@ msgstr "保存(_S)"
 msgid "Scan the QR code with your phone or visit:"
 msgstr "携帯電話でQRコードを読み取るか、こちらをご覧ください:"
 
+#: src/components/storage/DiskEncryption.jsx:110
+msgid ""
+"Secure your data using disk-based encryption. Only applies to new partitions"
+msgstr ""
+
 #: src/components/storage/InstallationDestination.jsx:345
 #, fuzzy
 #| msgctxt "GUI|Custom Partitioning|Configure Dialog"
@@ -961,7 +946,10 @@ msgstr "空きがありません"
 msgid "Storage"
 msgstr "ストレージ"
 
+#: src/components/storage/StorageConfiguration.jsx:124
+#: src/components/storage/StorageConfiguration.jsx:125
 #: src/components/installation/InstallationProgress.jsx:54
+#: src/components/steps.js:22
 msgid "Storage configuration"
 msgstr "ストレージの設定"
 
@@ -1043,7 +1031,7 @@ msgstr "重大なエラーが発生したため、インストーラーは続行
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "重大なエラーが発生したため、インストーラーは続行できません: $0"
 
-#: src/components/storage/DiskEncryption.jsx:49
+#: src/components/storage/DiskEncryption.jsx:48
 msgid ""
 "The passphrase you have provided contains non-ASCII characters. You may not "
 "be able to switch between keyboard layouts when typing it."
@@ -1075,7 +1063,7 @@ msgstr ""
 msgid "This is unstable, pre-release software"
 msgstr "これは、プレリリースの不安定なソフトウェアです"
 
-#: src/components/storage/DiskEncryption.jsx:58
+#: src/components/storage/DiskEncryption.jsx:57
 msgid "This may take a moment"
 msgstr "これには少し時間がかかる場合があります"
 
@@ -1248,6 +1236,26 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:348
 msgid "undo"
 msgstr ""
+
+#~ msgid "Disk configuration"
+#~ msgstr "ディスクの設定"
+
+#~ msgid "Disk encryption"
+#~ msgstr "ディスク暗号化"
+
+#~ msgid "Encrypt the selected devices?"
+#~ msgstr "選択されたデバイスを暗号化しますか？"
+
+#~ msgid ""
+#~ "Encryption helps secure your data, to prevent others from accessing it."
+#~ msgstr "暗号化はデータを保護し、他人がデータにアクセスするのを防ぎます。"
+
+#~ msgid ""
+#~ "Only new partitions will be encrypted. Existing partitions will remain "
+#~ "untouched."
+#~ msgstr ""
+#~ "新しいパーティションのみが暗号化されます。 既存のパーティションはそのまま"
+#~ "残ります。"
 
 #~ msgid "No usable devices on the selected disks."
 #~ msgstr "選択したディスクには使用可能なデバイスがありません。"
@@ -2691,9 +2699,6 @@ msgstr ""
 #~ msgctxt "GUI|Custom Partitioning|Autopart Page"
 #~ msgid "Encrypt my data."
 #~ msgstr "データを暗号化する。"
-
-#~ msgid "Encryption"
-#~ msgstr "暗号化"
 
 #, python-format
 #~ msgid ""

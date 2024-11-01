@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-31 03:07+0000\n"
+"POT-Creation-Date: 2024-11-01 03:21+0000\n"
 "PO-Revision-Date: 2024-10-21 03:03+0000\n"
 "Last-Translator: ButterflyOfFire <butterflyoffire@users.noreply.translate."
 "fedoraproject.org>\n"
@@ -167,7 +167,7 @@ msgstr "Isenfal yettwagen dagi ad ṭṭfen imir ɣef unagraw. Ulac akk 'asefsex
 
 #: src/components/storage/CockpitStorageIntegration.jsx:471
 #: src/components/storage/CockpitStorageIntegration.jsx:483
-#: src/components/storage/DiskEncryption.jsx:54
+#: src/components/storage/DiskEncryption.jsx:53
 msgid "Checking storage configuration"
 msgstr "Asenqed n usesteb n uḥraz"
 
@@ -207,7 +207,7 @@ msgstr "Sesteb aḥraz"
 msgid "Configure storage again"
 msgstr "Sesteb aḥraz i tikkelt niḍen"
 
-#: src/components/storage/DiskEncryption.jsx:117
+#: src/components/storage/DiskEncryption.jsx:97
 #: src/components/users/Accounts.jsx:183 src/components/users/Accounts.jsx:284
 msgid "Confirm passphrase"
 msgstr "Sentem tafyirt n uɛeddi"
@@ -265,14 +265,6 @@ msgstr "Ibenk"
 msgid "Devices should be unlocked before assigning mount points."
 msgstr "Ibenkan ilaq ad ldin send amuddu n tenqiḍin n userkeb."
 
-#: src/components/steps.js:24
-msgid "Disk configuration"
-msgstr "Tawila n uḍebsi"
-
-#: src/components/storage/DiskEncryption.jsx:198
-msgid "Disk encryption"
-msgstr "Awgelhen n uḍebsi"
-
 #: src/components/storage/MountPointMapping.jsx:388
 msgid "Duplicate device."
 msgstr "Yettuεawed-d yibenk."
@@ -285,13 +277,9 @@ msgstr "Tettuεawed-d tenqiḍt n userkeb."
 msgid "Enable root account"
 msgstr "Rmed amiḍan aẓar"
 
-#: src/components/storage/DiskEncryption.jsx:101
+#: src/components/storage/DiskEncryption.jsx:81
 msgid "Encrypt my data"
 msgstr "Wgelhen isefka-w"
-
-#: src/components/storage/DiskEncryption.jsx:199
-msgid "Encrypt the selected devices?"
-msgstr "Wgelhen ibenkan i yettwafernen?"
 
 #: src/components/review/StorageReview.jsx:202
 msgid "Encrypted"
@@ -301,10 +289,11 @@ msgstr "Yettwawgelhen"
 msgid "Encrypted devices are locked"
 msgstr "Ibenkan yettwawgelhen sekkṛen"
 
-#: src/components/storage/DiskEncryption.jsx:127
-msgid "Encryption helps secure your data, to prevent others from accessing it."
-msgstr ""
-"Awgelhen yettall taɣelist n yisefka-k, i usewḥel n wiyaḍ ad kecmen ɣer-sen."
+#: src/components/storage/DiskEncryption.jsx:106
+#, fuzzy
+#| msgid "Encrypted"
+msgid "Encryption"
+msgstr "Yettwawgelhen"
 
 #: src/components/storage/InstallationScenario.jsx:289
 msgid "Erase data and install"
@@ -557,14 +546,6 @@ msgid ""
 "production environments."
 msgstr "Ulac ibenkan ara yettwaseqdacen ɣef yiḍebsiyen i yettwafernen."
 
-#: src/components/storage/DiskEncryption.jsx:130
-msgid ""
-"Only new partitions will be encrypted. Existing partitions will remain "
-"untouched."
-msgstr ""
-"Slid iḥricen imaynuten ara yettwawgelhen. Iḥricen i yellan yakan ur "
-"ttwasenfalent ara."
-
 #: src/components/review/ReviewConfiguration.jsx:89
 msgid "Operating system"
 msgstr "Anagraw n wammud"
@@ -573,7 +554,7 @@ msgstr "Anagraw n wammud"
 msgid "Partitions (advanced)"
 msgstr "Iḥricen (talqayt)"
 
-#: src/components/storage/DiskEncryption.jsx:114
+#: src/components/storage/DiskEncryption.jsx:94
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:281
@@ -793,6 +774,11 @@ msgstr "Sekles"
 msgid "Scan the QR code with your phone or visit:"
 msgstr "Ḍumm tangalt QR s tiliɣri-ik neɣ rzu ɣer:"
 
+#: src/components/storage/DiskEncryption.jsx:110
+msgid ""
+"Secure your data using disk-based encryption. Only applies to new partitions"
+msgstr ""
+
 #: src/components/storage/InstallationDestination.jsx:345
 msgid "Select"
 msgstr "Fren"
@@ -865,7 +851,10 @@ msgstr "Tallunt"
 msgid "Storage"
 msgstr "Aḥraz"
 
+#: src/components/storage/StorageConfiguration.jsx:124
+#: src/components/storage/StorageConfiguration.jsx:125
 #: src/components/installation/InstallationProgress.jsx:54
+#: src/components/steps.js:22
 msgid "Storage configuration"
 msgstr "Tawila n uḥraz"
 
@@ -943,7 +932,7 @@ msgid "The installer cannot continue due to a critical error: $0"
 msgstr ""
 "Aseɣẓan n usbeddi ur yezmir ara ad ikemmel ssebba n tuccḍan tuzɣint: $0"
 
-#: src/components/storage/DiskEncryption.jsx:49
+#: src/components/storage/DiskEncryption.jsx:48
 msgid ""
 "The passphrase you have provided contains non-ASCII characters. You may not "
 "be able to switch between keyboard layouts when typing it."
@@ -969,7 +958,7 @@ msgstr "Isem-a n usenneftaɣ ur yezmir ara ad yettwazen"
 msgid "This is unstable, pre-release software"
 msgstr "Iseɣẓanen-a n lqem uzwir ur rkiden ara"
 
-#: src/components/storage/DiskEncryption.jsx:58
+#: src/components/storage/DiskEncryption.jsx:57
 msgid "This may take a moment"
 msgstr "Aya yezmer ad yeṭṭef cwiṭ n wakud"
 
@@ -1132,6 +1121,28 @@ msgstr "semẓẓiy ɣer $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:348
 msgid "undo"
 msgstr "sefsex"
+
+#~ msgid "Disk configuration"
+#~ msgstr "Tawila n uḍebsi"
+
+#~ msgid "Disk encryption"
+#~ msgstr "Awgelhen n uḍebsi"
+
+#~ msgid "Encrypt the selected devices?"
+#~ msgstr "Wgelhen ibenkan i yettwafernen?"
+
+#~ msgid ""
+#~ "Encryption helps secure your data, to prevent others from accessing it."
+#~ msgstr ""
+#~ "Awgelhen yettall taɣelist n yisefka-k, i usewḥel n wiyaḍ ad kecmen ɣer-"
+#~ "sen."
+
+#~ msgid ""
+#~ "Only new partitions will be encrypted. Existing partitions will remain "
+#~ "untouched."
+#~ msgstr ""
+#~ "Slid iḥricen imaynuten ara yettwawgelhen. Iḥricen i yellan yakan ur "
+#~ "ttwasenfalent ara."
 
 #~ msgid "No usable devices on the selected disks."
 #~ msgstr "Ulac ibenkan ara yettwaseqdacen ɣef yiḍebsiyen i yettwafernen."

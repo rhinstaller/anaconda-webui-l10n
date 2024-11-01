@@ -52,7 +52,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-31 03:07+0000\n"
+"POT-Creation-Date: 2024-11-01 03:21+0000\n"
 "PO-Revision-Date: 2024-09-22 14:16+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
@@ -205,7 +205,7 @@ msgstr ""
 
 #: src/components/storage/CockpitStorageIntegration.jsx:471
 #: src/components/storage/CockpitStorageIntegration.jsx:483
-#: src/components/storage/DiskEncryption.jsx:54
+#: src/components/storage/DiskEncryption.jsx:53
 msgid "Checking storage configuration"
 msgstr "Проверка настроек устройств хранения"
 
@@ -245,7 +245,7 @@ msgstr "Настройка хранилища"
 msgid "Configure storage again"
 msgstr "Снова настройте хранилище"
 
-#: src/components/storage/DiskEncryption.jsx:117
+#: src/components/storage/DiskEncryption.jsx:97
 #: src/components/users/Accounts.jsx:183 src/components/users/Accounts.jsx:284
 msgid "Confirm passphrase"
 msgstr "Подтвердите парольную фразу"
@@ -304,14 +304,6 @@ msgid "Devices should be unlocked before assigning mount points."
 msgstr ""
 "Перед назначением точек монтирования устройства следует разблокировать."
 
-#: src/components/steps.js:24
-msgid "Disk configuration"
-msgstr "Конфигурация диска"
-
-#: src/components/storage/DiskEncryption.jsx:198
-msgid "Disk encryption"
-msgstr "Шифрование диска"
-
 #: src/components/storage/MountPointMapping.jsx:388
 msgid "Duplicate device."
 msgstr "Дублирование устройства."
@@ -324,13 +316,9 @@ msgstr "Дублирование точки монтирования."
 msgid "Enable root account"
 msgstr "Включить учётную запись root"
 
-#: src/components/storage/DiskEncryption.jsx:101
+#: src/components/storage/DiskEncryption.jsx:81
 msgid "Encrypt my data"
 msgstr "Зашифровать данные"
-
-#: src/components/storage/DiskEncryption.jsx:199
-msgid "Encrypt the selected devices?"
-msgstr "Зашифровать выбранные устройства?"
 
 #: src/components/review/StorageReview.jsx:202
 msgid "Encrypted"
@@ -340,11 +328,9 @@ msgstr "Зашифровано"
 msgid "Encrypted devices are locked"
 msgstr "Зашифрованные устройства заблокированы"
 
-#: src/components/storage/DiskEncryption.jsx:127
-msgid "Encryption helps secure your data, to prevent others from accessing it."
-msgstr ""
-"Шифрование помогает защитить ваши данные и предотвратить доступ к ним других "
-"лиц."
+#: src/components/storage/DiskEncryption.jsx:106
+msgid "Encryption"
+msgstr "Шифрование"
 
 #: src/components/storage/InstallationScenario.jsx:289
 msgid "Erase data and install"
@@ -606,14 +592,6 @@ msgstr ""
 "это программное обеспечение для какой-либо важной работы или в условиях "
 "производства."
 
-#: src/components/storage/DiskEncryption.jsx:130
-msgid ""
-"Only new partitions will be encrypted. Existing partitions will remain "
-"untouched."
-msgstr ""
-"Зашифрованы будут только новые разделы. Существующие разделы останутся "
-"нетронутыми."
-
 #: src/components/review/ReviewConfiguration.jsx:89
 msgid "Operating system"
 msgstr "Операционная система"
@@ -622,7 +600,7 @@ msgstr "Операционная система"
 msgid "Partitions (advanced)"
 msgstr "Разделы (расширенный)"
 
-#: src/components/storage/DiskEncryption.jsx:114
+#: src/components/storage/DiskEncryption.jsx:94
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:281
@@ -849,6 +827,11 @@ msgstr "Сохранить"
 msgid "Scan the QR code with your phone or visit:"
 msgstr "Отсканируйте QR-код с телефона или посетите сайт:"
 
+#: src/components/storage/DiskEncryption.jsx:110
+msgid ""
+"Secure your data using disk-based encryption. Only applies to new partitions"
+msgstr ""
+
 #: src/components/storage/InstallationDestination.jsx:345
 msgid "Select"
 msgstr "Выбрать"
@@ -921,7 +904,10 @@ msgstr "Пространство"
 msgid "Storage"
 msgstr "Хранилище"
 
+#: src/components/storage/StorageConfiguration.jsx:124
+#: src/components/storage/StorageConfiguration.jsx:125
 #: src/components/installation/InstallationProgress.jsx:54
+#: src/components/steps.js:22
 msgid "Storage configuration"
 msgstr "Конфигурация устройств хранения"
 
@@ -1003,7 +989,7 @@ msgstr "Установка не может быть продолжена из-з
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "Установка не может быть продолжена из-за критической ошибки: $0"
 
-#: src/components/storage/DiskEncryption.jsx:49
+#: src/components/storage/DiskEncryption.jsx:48
 msgid ""
 "The passphrase you have provided contains non-ASCII characters. You may not "
 "be able to switch between keyboard layouts when typing it."
@@ -1028,7 +1014,7 @@ msgstr "Это имя узла не может быть представлено
 msgid "This is unstable, pre-release software"
 msgstr "Стабильность предварительной версии дистрибутива не гарантируется"
 
-#: src/components/storage/DiskEncryption.jsx:58
+#: src/components/storage/DiskEncryption.jsx:57
 msgid "This may take a moment"
 msgstr "Это может занять некоторое время"
 
@@ -1194,6 +1180,28 @@ msgstr "уменьшить до $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:348
 msgid "undo"
 msgstr "отменить"
+
+#~ msgid "Disk configuration"
+#~ msgstr "Конфигурация диска"
+
+#~ msgid "Disk encryption"
+#~ msgstr "Шифрование диска"
+
+#~ msgid "Encrypt the selected devices?"
+#~ msgstr "Зашифровать выбранные устройства?"
+
+#~ msgid ""
+#~ "Encryption helps secure your data, to prevent others from accessing it."
+#~ msgstr ""
+#~ "Шифрование помогает защитить ваши данные и предотвратить доступ к ним "
+#~ "других лиц."
+
+#~ msgid ""
+#~ "Only new partitions will be encrypted. Existing partitions will remain "
+#~ "untouched."
+#~ msgstr ""
+#~ "Зашифрованы будут только новые разделы. Существующие разделы останутся "
+#~ "нетронутыми."
 
 #~ msgid "No usable devices on the selected disks."
 #~ msgstr "На выбранных дисках нет пригодных для использования устройств."
@@ -2647,9 +2655,6 @@ msgstr "отменить"
 #~ msgctxt "GUI|Custom Partitioning|Autopart Page"
 #~ msgid "Encrypt my data."
 #~ msgstr "Зашифровать данные."
-
-#~ msgid "Encryption"
-#~ msgstr "Шифрование"
 
 #, python-format
 #~ msgid ""

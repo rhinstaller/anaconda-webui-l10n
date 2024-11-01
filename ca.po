@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-31 03:07+0000\n"
+"POT-Creation-Date: 2024-11-01 03:21+0000\n"
 "PO-Revision-Date: 2024-10-28 18:43+0000\n"
 "Last-Translator: naly zzwd <xeanhort007@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/"
@@ -182,7 +182,7 @@ msgstr ""
 
 #: src/components/storage/CockpitStorageIntegration.jsx:471
 #: src/components/storage/CockpitStorageIntegration.jsx:483
-#: src/components/storage/DiskEncryption.jsx:54
+#: src/components/storage/DiskEncryption.jsx:53
 msgid "Checking storage configuration"
 msgstr "S'està comprovant la configuració de l'emmagatzematge"
 
@@ -222,7 +222,7 @@ msgstr "Configura l'emmagatzematge"
 msgid "Configure storage again"
 msgstr "Torneu a configurar l'emmagatzematge"
 
-#: src/components/storage/DiskEncryption.jsx:117
+#: src/components/storage/DiskEncryption.jsx:97
 #: src/components/users/Accounts.jsx:183 src/components/users/Accounts.jsx:284
 msgid "Confirm passphrase"
 msgstr "Confirmeu la paraula de pas"
@@ -281,14 +281,6 @@ msgid "Devices should be unlocked before assigning mount points."
 msgstr ""
 "Els dispositius s'han de desbloquejar abans d'assignar punts de muntatge."
 
-#: src/components/steps.js:24
-msgid "Disk configuration"
-msgstr "Configuració del disc"
-
-#: src/components/storage/DiskEncryption.jsx:198
-msgid "Disk encryption"
-msgstr "Xifratge de disc"
-
 #: src/components/storage/MountPointMapping.jsx:388
 msgid "Duplicate device."
 msgstr "Dispositiu duplicat."
@@ -301,13 +293,9 @@ msgstr "Punt de muntatge duplicat."
 msgid "Enable root account"
 msgstr "Habilita el compte root"
 
-#: src/components/storage/DiskEncryption.jsx:101
+#: src/components/storage/DiskEncryption.jsx:81
 msgid "Encrypt my data"
 msgstr "Xifra les meves dades"
-
-#: src/components/storage/DiskEncryption.jsx:199
-msgid "Encrypt the selected devices?"
-msgstr "Voleu encriptar els dispositius seleccionats?"
 
 #: src/components/review/StorageReview.jsx:202
 msgid "Encrypted"
@@ -317,11 +305,9 @@ msgstr "Xifrat"
 msgid "Encrypted devices are locked"
 msgstr "Els dispositius encriptats estan bloquejats"
 
-#: src/components/storage/DiskEncryption.jsx:127
-msgid "Encryption helps secure your data, to prevent others from accessing it."
-msgstr ""
-"L'encriptatge ajuda a assegurar les vostres dades, per evitar que altres hi "
-"accedeixin."
+#: src/components/storage/DiskEncryption.jsx:106
+msgid "Encryption"
+msgstr "Xifratge"
 
 #: src/components/storage/InstallationScenario.jsx:289
 msgid "Erase data and install"
@@ -579,14 +565,6 @@ msgstr ""
 "propòsits de desenvolupament i proves. No utilitzeu aquest programari per a "
 "cap treball crític ni per a entorns de producció."
 
-#: src/components/storage/DiskEncryption.jsx:130
-msgid ""
-"Only new partitions will be encrypted. Existing partitions will remain "
-"untouched."
-msgstr ""
-"Només s'encriptaran les particions noves. Les particions existents romandran "
-"intactes."
-
 #: src/components/review/ReviewConfiguration.jsx:89
 msgid "Operating system"
 msgstr "Sistema operatiu"
@@ -595,7 +573,7 @@ msgstr "Sistema operatiu"
 msgid "Partitions (advanced)"
 msgstr "Particions (avançades)"
 
-#: src/components/storage/DiskEncryption.jsx:114
+#: src/components/storage/DiskEncryption.jsx:94
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:281
@@ -818,6 +796,11 @@ msgstr "Desa"
 msgid "Scan the QR code with your phone or visit:"
 msgstr "Escaneja el codi QR amb el teu telèfon o visita:"
 
+#: src/components/storage/DiskEncryption.jsx:110
+msgid ""
+"Secure your data using disk-based encryption. Only applies to new partitions"
+msgstr ""
+
 #: src/components/storage/InstallationDestination.jsx:345
 msgid "Select"
 msgstr "Selecciona"
@@ -890,7 +873,10 @@ msgstr "Espai"
 msgid "Storage"
 msgstr "Emmagatzematge"
 
+#: src/components/storage/StorageConfiguration.jsx:124
+#: src/components/storage/StorageConfiguration.jsx:125
 #: src/components/installation/InstallationProgress.jsx:54
+#: src/components/steps.js:22
 msgid "Storage configuration"
 msgstr "Configuració d'emmagatzematge"
 
@@ -973,7 +959,7 @@ msgstr "L'instal·lador no pot continuar a causa d'un error crític."
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "L'instal·lador no pot continuar a causa d'un error crític: $0"
 
-#: src/components/storage/DiskEncryption.jsx:49
+#: src/components/storage/DiskEncryption.jsx:48
 msgid ""
 "The passphrase you have provided contains non-ASCII characters. You may not "
 "be able to switch between keyboard layouts when typing it."
@@ -999,7 +985,7 @@ msgstr "Aquest nom d'amfitrió no es pot enviar"
 msgid "This is unstable, pre-release software"
 msgstr "Aquesta és una versió de programari inestable i prèvia al llançament"
 
-#: src/components/storage/DiskEncryption.jsx:58
+#: src/components/storage/DiskEncryption.jsx:57
 msgid "This may take a moment"
 msgstr "Això pot trigar una estona"
 
@@ -1163,6 +1149,28 @@ msgstr "encongeix a $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:348
 msgid "undo"
 msgstr "desfer"
+
+#~ msgid "Disk configuration"
+#~ msgstr "Configuració del disc"
+
+#~ msgid "Disk encryption"
+#~ msgstr "Xifratge de disc"
+
+#~ msgid "Encrypt the selected devices?"
+#~ msgstr "Voleu encriptar els dispositius seleccionats?"
+
+#~ msgid ""
+#~ "Encryption helps secure your data, to prevent others from accessing it."
+#~ msgstr ""
+#~ "L'encriptatge ajuda a assegurar les vostres dades, per evitar que altres "
+#~ "hi accedeixin."
+
+#~ msgid ""
+#~ "Only new partitions will be encrypted. Existing partitions will remain "
+#~ "untouched."
+#~ msgstr ""
+#~ "Només s'encriptaran les particions noves. Les particions existents "
+#~ "romandran intactes."
 
 #~ msgid "No usable devices on the selected disks."
 #~ msgstr "No hi ha dispositius utilitzables als discs seleccionats."
@@ -2547,9 +2555,6 @@ msgstr "desfer"
 #~ msgctxt "GUI|Custom Partitioning|Autopart Page"
 #~ msgid "Encrypt my data."
 #~ msgstr "_Xifra les meves dades."
-
-#~ msgid "Encryption"
-#~ msgstr "Xifratge"
 
 #, python-format
 #~ msgid ""

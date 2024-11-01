@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-31 03:07+0000\n"
+"POT-Creation-Date: 2024-11-01 03:21+0000\n"
 "PO-Revision-Date: 2023-11-06 12:15+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Bulgarian <https://translate.fedoraproject.org/projects/"
@@ -188,7 +188,7 @@ msgstr ""
 
 #: src/components/storage/CockpitStorageIntegration.jsx:471
 #: src/components/storage/CockpitStorageIntegration.jsx:483
-#: src/components/storage/DiskEncryption.jsx:54
+#: src/components/storage/DiskEncryption.jsx:53
 #, fuzzy
 msgid "Checking storage configuration"
 msgstr "Проверка конфигурацията на устройствата за съхранение на данни..."
@@ -235,7 +235,7 @@ msgstr "Конфигуриране на уст-ва за съхранение (�
 msgid "Configure storage again"
 msgstr "Конфигуриране на уст-ва за съхранение (дискове)"
 
-#: src/components/storage/DiskEncryption.jsx:117
+#: src/components/storage/DiskEncryption.jsx:97
 #: src/components/users/Accounts.jsx:183 src/components/users/Accounts.jsx:284
 #, fuzzy
 msgid "Confirm passphrase"
@@ -303,16 +303,6 @@ msgstr "Устройство"
 msgid "Devices should be unlocked before assigning mount points."
 msgstr ""
 
-#: src/components/steps.js:24
-#, fuzzy
-msgid "Disk configuration"
-msgstr "Конфигурация на устройство"
-
-#: src/components/storage/DiskEncryption.jsx:198
-#, fuzzy
-msgid "Disk encryption"
-msgstr "Криптиране"
-
 #: src/components/storage/MountPointMapping.jsx:388
 #, fuzzy
 msgid "Duplicate device."
@@ -327,14 +317,10 @@ msgstr "Добавяне нова точка на монтиране"
 msgid "Enable root account"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:101
+#: src/components/storage/DiskEncryption.jsx:81
 #, fuzzy
 msgid "Encrypt my data"
 msgstr "Криптирай"
-
-#: src/components/storage/DiskEncryption.jsx:199
-msgid "Encrypt the selected devices?"
-msgstr ""
 
 #: src/components/review/StorageReview.jsx:202
 #, fuzzy
@@ -346,9 +332,9 @@ msgstr "Криптирай"
 msgid "Encrypted devices are locked"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:127
-msgid "Encryption helps secure your data, to prevent others from accessing it."
-msgstr ""
+#: src/components/storage/DiskEncryption.jsx:106
+msgid "Encryption"
+msgstr "Криптиране"
 
 #: src/components/storage/InstallationScenario.jsx:289
 #, fuzzy
@@ -623,12 +609,6 @@ msgid ""
 "production environments."
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:130
-msgid ""
-"Only new partitions will be encrypted. Existing partitions will remain "
-"untouched."
-msgstr ""
-
 #: src/components/review/ReviewConfiguration.jsx:89
 #, fuzzy
 msgid "Operating system"
@@ -638,7 +618,7 @@ msgstr "Създаване на потребители"
 msgid "Partitions (advanced)"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:114
+#: src/components/storage/DiskEncryption.jsx:94
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:281
@@ -879,6 +859,11 @@ msgstr "_Запис"
 msgid "Scan the QR code with your phone or visit:"
 msgstr ""
 
+#: src/components/storage/DiskEncryption.jsx:110
+msgid ""
+"Secure your data using disk-based encryption. Only applies to new partitions"
+msgstr ""
+
 #: src/components/storage/InstallationDestination.jsx:345
 #, fuzzy
 #| msgctxt "GUI|Custom Partitioning|Configure Dialog"
@@ -966,7 +951,10 @@ msgstr "Няма пространство"
 msgid "Storage"
 msgstr "Опции на мястото за съхранение"
 
+#: src/components/storage/StorageConfiguration.jsx:124
+#: src/components/storage/StorageConfiguration.jsx:125
 #: src/components/installation/InstallationProgress.jsx:54
+#: src/components/steps.js:22
 #, fuzzy
 msgid "Storage configuration"
 msgstr "Конфигуриране на мрежа"
@@ -1053,7 +1041,7 @@ msgstr "Инсталирането не може да продължи. Сист
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "Инсталирането не може да продължи. Системата ще бъде рестартирана."
 
-#: src/components/storage/DiskEncryption.jsx:49
+#: src/components/storage/DiskEncryption.jsx:48
 msgid ""
 "The passphrase you have provided contains non-ASCII characters. You may not "
 "be able to switch between keyboard layouts when typing it."
@@ -1076,7 +1064,7 @@ msgstr ""
 msgid "This is unstable, pre-release software"
 msgstr "Това е нестабилна, предварителна версия."
 
-#: src/components/storage/DiskEncryption.jsx:58
+#: src/components/storage/DiskEncryption.jsx:57
 #, fuzzy
 msgid "This may take a moment"
 msgstr "Това може да отнеме време."
@@ -1261,6 +1249,14 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:348
 msgid "undo"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Disk configuration"
+#~ msgstr "Конфигурация на устройство"
+
+#, fuzzy
+#~ msgid "Disk encryption"
+#~ msgstr "Криптиране"
 
 #, fuzzy
 #~ msgid "No usable devices on the selected disks."
@@ -2546,9 +2542,6 @@ msgstr ""
 #~ msgctxt "GUI|Custom Partitioning|Autopart Page"
 #~ msgid "Encrypt my data."
 #~ msgstr "Криптирай"
-
-#~ msgid "Encryption"
-#~ msgstr "Криптиране"
 
 #, python-format
 #~ msgid ""
