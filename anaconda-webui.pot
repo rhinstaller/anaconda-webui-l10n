@@ -22,7 +22,7 @@ msgstr ""
 "#-#-#-#-#  anaconda-webui.js.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-31 03:07+0000\n"
+"POT-Creation-Date: 2024-11-01 03:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,7 @@ msgstr ""
 "#-#-#-#-#  anaconda-webui.metainfo.pot (PACKAGE VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-31 03:07+0000\n"
+"POT-Creation-Date: 2024-11-01 03:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -178,7 +178,7 @@ msgstr ""
 
 #: src/components/storage/CockpitStorageIntegration.jsx:471
 #: src/components/storage/CockpitStorageIntegration.jsx:483
-#: src/components/storage/DiskEncryption.jsx:54
+#: src/components/storage/DiskEncryption.jsx:53
 msgid "Checking storage configuration"
 msgstr ""
 
@@ -216,7 +216,7 @@ msgstr ""
 msgid "Configure storage again"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:117
+#: src/components/storage/DiskEncryption.jsx:97
 #: src/components/users/Accounts.jsx:183 src/components/users/Accounts.jsx:284
 msgid "Confirm passphrase"
 msgstr ""
@@ -274,14 +274,6 @@ msgstr ""
 msgid "Devices should be unlocked before assigning mount points."
 msgstr ""
 
-#: src/components/steps.js:24
-msgid "Disk configuration"
-msgstr ""
-
-#: src/components/storage/DiskEncryption.jsx:198
-msgid "Disk encryption"
-msgstr ""
-
 #: src/components/storage/MountPointMapping.jsx:388
 msgid "Duplicate device."
 msgstr ""
@@ -294,12 +286,8 @@ msgstr ""
 msgid "Enable root account"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:101
+#: src/components/storage/DiskEncryption.jsx:81
 msgid "Encrypt my data"
-msgstr ""
-
-#: src/components/storage/DiskEncryption.jsx:199
-msgid "Encrypt the selected devices?"
 msgstr ""
 
 #: src/components/review/StorageReview.jsx:202
@@ -310,8 +298,8 @@ msgstr ""
 msgid "Encrypted devices are locked"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:127
-msgid "Encryption helps secure your data, to prevent others from accessing it."
+#: src/components/storage/DiskEncryption.jsx:106
+msgid "Encryption"
 msgstr ""
 
 #: src/components/storage/InstallationScenario.jsx:289
@@ -555,12 +543,6 @@ msgid ""
 "production environments."
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:130
-msgid ""
-"Only new partitions will be encrypted. Existing partitions will remain "
-"untouched."
-msgstr ""
-
 #: src/components/review/ReviewConfiguration.jsx:89
 msgid "Operating system"
 msgstr ""
@@ -569,7 +551,7 @@ msgstr ""
 msgid "Partitions (advanced)"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:114
+#: src/components/storage/DiskEncryption.jsx:94
 #: src/components/storage/EncryptedDevices.jsx:177
 #: src/components/storage/EncryptedDevices.jsx:184
 #: src/components/users/Accounts.jsx:180 src/components/users/Accounts.jsx:281
@@ -775,6 +757,11 @@ msgstr ""
 msgid "Scan the QR code with your phone or visit:"
 msgstr ""
 
+#: src/components/storage/DiskEncryption.jsx:110
+msgid ""
+"Secure your data using disk-based encryption. Only applies to new partitions"
+msgstr ""
+
 #: src/components/storage/InstallationDestination.jsx:345
 msgid "Select"
 msgstr ""
@@ -845,7 +832,10 @@ msgstr ""
 msgid "Storage"
 msgstr ""
 
+#: src/components/storage/StorageConfiguration.jsx:124
+#: src/components/storage/StorageConfiguration.jsx:125
 #: src/components/installation/InstallationProgress.jsx:54
+#: src/components/steps.js:22
 msgid "Storage configuration"
 msgstr ""
 
@@ -919,7 +909,7 @@ msgstr ""
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:49
+#: src/components/storage/DiskEncryption.jsx:48
 msgid ""
 "The passphrase you have provided contains non-ASCII characters. You may not "
 "be able to switch between keyboard layouts when typing it."
@@ -941,7 +931,7 @@ msgstr ""
 msgid "This is unstable, pre-release software"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:58
+#: src/components/storage/DiskEncryption.jsx:57
 msgid "This may take a moment"
 msgstr ""
 
