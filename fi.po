@@ -29,9 +29,8 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-11-20 03:18+0000\n"
-"PO-Revision-Date: 2024-10-30 17:42+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"PO-Revision-Date: 2024-11-20 20:48+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/fi/>\n"
 "Language: fi\n"
@@ -39,7 +38,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #: src/components/storage/InstallationDestination.jsx:177
 #: src/components/storage/InstallationDestination.jsx:302
@@ -65,16 +64,17 @@ msgid ""
 "$0 is an MBR extended partition that contains logical partitions. Removing "
 "all logical partitions will also automatically remove the extended partition."
 msgstr ""
+"$0 on MBR-laajennettu osio, joka sisältää loogisia osioita. Kaikkien "
+"loogisten osioiden poistaminen poistaa automaattisesti myös laajennetun "
+"osion."
 
 #: src/components/review/StorageReview.jsx:247
 msgid "$0 will be deleted"
 msgstr "$0 poistetaan"
 
 #: src/components/storage/MountPointMapping.jsx:206
-#, fuzzy
-#| msgid "'$0' filesystem cannot be on an ecnrypted block device"
 msgid "'$0' filesystem cannot be on an encrypted block device"
-msgstr "Tiedostojärjestelmä $0 ei voi olla salatussa lohkolaitteessa"
+msgstr "Tiedostojärjestelmä '$0' ei voi olla salatussa lohkolaitteessa"
 
 #: src/components/storage/MountPointMapping.jsx:200
 msgid "'$0' must be on a device formatted to '$1'"
@@ -138,6 +138,8 @@ msgstr "Käytä kiinnityspisteiden määritystä ja asenna"
 msgid ""
 "Assign partitions to mount points. Useful for pre-configured custom layouts."
 msgstr ""
+"Määritä osiot liitoskohdille. Hyödyllinen esikonfiguroiduille mukautetuille "
+"asetteluille."
 
 #: src/components/storage/ReclaimSpaceModal.jsx:215
 msgid "Available free space: $0. Installation requires: $1."
@@ -172,10 +174,8 @@ msgid "Change"
 msgstr "Vaihda"
 
 #: src/components/storage/InstallationDestination.jsx:333
-#, fuzzy
-#| msgid "Destination"
 msgid "Change destination"
-msgstr "Kohde"
+msgstr "Muuta kohdetta"
 
 #: src/components/review/Hostname.jsx:113
 msgid "Change hostname"
@@ -260,10 +260,8 @@ msgid "Critical error"
 msgstr "Kriittinen virhe"
 
 #: src/components/storage/InstallationDestination.jsx:100
-#, fuzzy
-#| msgid "Current host name:"
 msgid "Currently installed: $0"
-msgstr "Nykyinen konenimi:"
+msgstr "Tällä hetkellä asennettuna: $0"
 
 #: src/components/storage/MountPointMapping.jsx:247
 msgid "Custom"
@@ -327,17 +325,13 @@ msgid "Error details"
 msgstr "Virheen tiedot"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#, fuzzy
-#| msgid "Low profile desktop"
 msgid "Exit to live desktop"
-msgstr "Matalan profiilin työpöytä"
+msgstr "Poistu reaaliaikaiseen työpöytään"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:256
 #: src/components/storage/ReclaimSpaceModal.jsx:263
-#, fuzzy
-#| msgid "Recommended partitions:"
 msgid "Extended partition"
-msgstr "Suositellut osiot:"
+msgstr "Laajennettu osio"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:617
 msgid "Fedora linux requires at least $0 of disk space."
@@ -457,12 +451,12 @@ msgid "Installing"
 msgstr "Asennetaan"
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
-#, fuzzy
-#| msgid "Keep current disk layout and only install into available space."
 msgid ""
 "Keep current disk layout and use available space, to dual-boot with another "
 "OS."
-msgstr "Säilytä nykyinen levyasettelu ja asenna vain vapaaseen tilaan."
+msgstr ""
+"Säilytä nykyinen levyasettelu ja käytä käytettävissä olevaa tilaa "
+"kaksoiskäynnistykseen toisen käyttöjärjestelmän kanssa."
 
 #: src/components/review/ReviewConfiguration.jsx:100
 msgid "Language"
@@ -546,10 +540,8 @@ msgid "No devices"
 msgstr "Ei laiteita"
 
 #: src/components/storage/InstallationDestination.jsx:159
-#, fuzzy
-#| msgid "not available"
 msgid "No disks available"
-msgstr "Ei käytettävissä"
+msgstr "Levyjä ei saatavilla"
 
 #: src/components/storage/InstallationDestination.jsx:288
 msgid "No disks selected"
@@ -681,10 +673,8 @@ msgid "Reboot system?"
 msgstr "Käynnistä järjestelmä uudelleen?"
 
 #: src/components/installation/InstallationProgress.jsx:229
-#, fuzzy
-#| msgid "/boot file system"
 msgid "Reboot to installed system"
-msgstr "/boot-tiedostojärjestelmä"
+msgstr "Käynnistä uudelleen asennettuun järjestelmään"
 
 #: src/components/storage/InstallationScenario.jsx:271
 msgid "Reclaim additional space"
@@ -715,26 +705,20 @@ msgstr "Alusta uudelleen"
 
 #: src/components/storage/InstallationScenario.jsx:279
 #: src/components/storage/InstallationScenario.jsx:287
-#, fuzzy
-#| msgid "Install Fedora…"
 msgid "Reinstall Fedora"
-msgstr "Asenna Fedora…"
+msgstr "Asenna Fedora uudelleen"
 
 #: src/components/storage/MountPointMapping.jsx:435
 msgid "Remove"
 msgstr "Poista"
 
 #: src/components/storage/HelpAutopartOptions.jsx:5
-#, fuzzy
-#| msgid ""
-#| "Remove all partitions on the selected devices, including existing "
-#| "operating systems. Make sure you have backed up your data."
 msgid ""
 "Remove all partitions on the selected devices, including existing operating "
 "systems."
 msgstr ""
 "Poista kaikki osiot valituista laitteista, mukaan lukien olemassa olevat "
-"käyttöjärjestelmät. Varmista, että olet varmuuskopioinut tietosi."
+"käyttöjärjestelmät."
 
 #: src/components/storage/ReclaimSpaceModal.jsx:128
 msgid ""
@@ -752,7 +736,7 @@ msgstr ""
 
 #: src/components/storage/HelpAutopartOptions.jsx:11
 msgid "Replace current installation, but keep files in home."
-msgstr ""
+msgstr "Korvaa nykyinen asennus, mutta säilytä tiedostot kotona."
 
 #: src/components/HeaderKebab.jsx:139
 msgid "Report Issue"
@@ -819,6 +803,7 @@ msgstr "Skannaa QR-koodi puhelimellasi tai käy:"
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
+"Suojaa tietosi levypohjaisella salauksella. Soveltuu vain uusiin osioihin"
 
 #: src/components/storage/InstallationDestination.jsx:345
 msgid "Select"
@@ -829,10 +814,8 @@ msgid "Select a device"
 msgstr "Valitse laite"
 
 #: src/components/storage/InstallationDestination.jsx:339
-#, fuzzy
-#| msgid "Destination"
 msgid "Select destination"
-msgstr "Kohde"
+msgstr "Valitse kohde"
 
 #: src/components/storage/MountPointMapping.jsx:125
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -848,7 +831,7 @@ msgstr "Määritä mukautettu isäntänimi"
 
 #: src/components/storage/InstallationScenario.jsx:309
 msgid "Share disk with other operating system"
-msgstr ""
+msgstr "Jaa levy toisen käyttöjärjestelmän kanssa"
 
 #: src/components/Password.jsx:243
 msgid "Show confirmed password"
@@ -906,10 +889,8 @@ msgid "Storage configuration: Storage is currently being configured."
 msgstr "Tallennustilan määritys: Tallennustilaa konfiguroidaan parhaillaan."
 
 #: src/components/storage/CockpitStorageIntegration.jsx:120
-#, fuzzy
-#| msgid "Launch storage editor"
 msgid "Storage editor"
-msgstr "Käynnistä tallennusmuokkain"
+msgstr "Tallennusmuokkkain"
 
 #: src/components/storage/HelpAutopartOptions.jsx:13
 msgid "Storage is based on the configuration from 'Modify storage'."
@@ -1055,10 +1036,8 @@ msgid "Use configured storage"
 msgstr "Käytä määritettyä tallennustilaa"
 
 #: src/components/storage/InstallationScenario.jsx:297
-#, fuzzy
-#| msgid "Selected disks"
 msgid "Use entire disk"
-msgstr "Valitut levyt"
+msgstr "Käytä koko levyä"
 
 #: src/components/users/Accounts.jsx:223
 msgid "User name"
@@ -1139,10 +1118,8 @@ msgid "encrypted"
 msgstr "salattu"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:252
-#, fuzzy
-#| msgid "Recommended partitions:"
 msgid "extended partition"
-msgstr "Suositellut osiot:"
+msgstr "laajennettu osio"
 
 #: src/components/review/StorageReview.jsx:100
 msgid "format as $0"
