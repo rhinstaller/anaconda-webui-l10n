@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-19 03:19+0000\n"
+"POT-Creation-Date: 2024-11-20 03:18+0000\n"
 "PO-Revision-Date: 2024-11-14 03:03+0000\n"
 "Last-Translator: Abdullah Albaroty <albaroty@gmail.com>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/anaconda-"
@@ -64,6 +64,12 @@ msgstr "$0 تثبيت"
 msgid "$0 installer"
 msgstr "$0 مثبت"
 
+#: src/components/storage/ReclaimSpaceModal.jsx:259
+msgid ""
+"$0 is an MBR extended partition that contains logical partitions. Removing "
+"all logical partitions will also automatically remove the extended partition."
+msgstr ""
+
 #: src/components/review/StorageReview.jsx:247
 msgid "$0 will be deleted"
 msgstr "$0 سيحذف"
@@ -87,7 +93,7 @@ msgid "Account"
 msgstr "حساب"
 
 #: src/components/review/StorageReview.jsx:206
-#: src/components/storage/ReclaimSpaceModal.jsx:154
+#: src/components/storage/ReclaimSpaceModal.jsx:161
 msgid "Actions"
 msgstr "إجراءات"
 
@@ -136,7 +142,7 @@ msgid ""
 "Assign partitions to mount points. Useful for pre-configured custom layouts."
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:208
+#: src/components/storage/ReclaimSpaceModal.jsx:215
 msgid "Available free space: $0. Installation requires: $1."
 msgstr ""
 
@@ -155,7 +161,7 @@ msgstr ""
 #: src/components/review/Hostname.jsx:106
 #: src/components/storage/CockpitStorageIntegration.jsx:136
 #: src/components/storage/InstallationDestination.jsx:348
-#: src/components/storage/ReclaimSpaceModal.jsx:219
+#: src/components/storage/ReclaimSpaceModal.jsx:226
 #: src/components/Error.jsx:270
 msgid "Cancel"
 msgstr "ألغِ"
@@ -315,6 +321,13 @@ msgstr ""
 msgid "Exit to live desktop"
 msgstr ""
 
+#: src/components/storage/ReclaimSpaceModal.jsx:256
+#: src/components/storage/ReclaimSpaceModal.jsx:263
+#, fuzzy
+#| msgid "Standard Partition"
+msgid "Extended partition"
+msgstr "قسم عادي"
+
 #: src/components/storage/CockpitStorageIntegration.jsx:617
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr ""
@@ -444,7 +457,7 @@ msgstr "اللّغة"
 msgid "Launch storage editor"
 msgstr "شغل محرر التخزين"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:150
+#: src/components/storage/ReclaimSpaceModal.jsx:157
 msgid "Location"
 msgstr "الموقع"
 
@@ -490,7 +503,7 @@ msgstr ""
 msgid "Must be at least $0 characters"
 msgstr "يجب ألا يقل عدد المحارف عن $0"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:151
+#: src/components/storage/ReclaimSpaceModal.jsx:158
 msgid "Name"
 msgstr "الاسم"
 
@@ -509,7 +522,7 @@ msgid "Next"
 msgstr "التالي"
 
 #: src/components/storage/MountPointMapping.jsx:624
-#: src/components/storage/ReclaimSpaceModal.jsx:156
+#: src/components/storage/ReclaimSpaceModal.jsx:163
 msgid "No devices"
 msgstr "لا يوجد أجهزة"
 
@@ -631,7 +644,7 @@ msgstr "ينبغي أن يكون طول اسم المضيف ٦٤ حرفا أو �
 msgid "Reboot"
 msgstr "أعد الإقلاع"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:487
+#: src/components/storage/ReclaimSpaceModal.jsx:527
 msgid "Reboot into Windows to resize BitLocker-encrypted partitions. "
 msgstr ""
 
@@ -647,9 +660,9 @@ msgstr "أعد التشغيل إلى النظام المثبت"
 msgid "Reclaim additional space"
 msgstr "استعادة مساحة إضافية"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:138
-#: src/components/storage/ReclaimSpaceModal.jsx:148
-#: src/components/storage/ReclaimSpaceModal.jsx:216
+#: src/components/storage/ReclaimSpaceModal.jsx:145
+#: src/components/storage/ReclaimSpaceModal.jsx:155
+#: src/components/storage/ReclaimSpaceModal.jsx:223
 msgid "Reclaim space"
 msgstr "استرداد المساحة"
 
@@ -685,12 +698,12 @@ msgid ""
 "systems."
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:121
+#: src/components/storage/ReclaimSpaceModal.jsx:128
 msgid ""
 "Remove or resize existing filesystems to free up space for the installation."
 msgstr "أزل أنظمة الملفات الموجودة أو غير حجمها لتحرير مساحة للتثبيت."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:124
+#: src/components/storage/ReclaimSpaceModal.jsx:131
 msgid ""
 "Removing a filesystem will permanently delete all of the data it contains. "
 msgstr ""
@@ -729,7 +742,7 @@ msgstr "أعد فحص الأجهزة"
 msgid "Rescanning of the disks failed."
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:467
+#: src/components/storage/ReclaimSpaceModal.jsx:507
 msgid "Resize"
 msgstr ""
 
@@ -826,7 +839,7 @@ msgstr ""
 msgid "Some required partitions are missing: $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:153
+#: src/components/storage/ReclaimSpaceModal.jsx:160
 msgid "Space"
 msgstr ""
 
@@ -966,15 +979,15 @@ msgid ""
 "$0."
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:152
+#: src/components/storage/ReclaimSpaceModal.jsx:159
 msgid "Type"
 msgstr "النّوع"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:95
+#: src/components/storage/ReclaimSpaceModal.jsx:102
 msgid "Unable to schedule deletion of $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:97
+#: src/components/storage/ReclaimSpaceModal.jsx:104
 msgid "Unable to schedule resizing of $0"
 msgstr ""
 
@@ -1040,7 +1053,7 @@ msgstr "مرحبا بكم في $0"
 msgid "Welcome. Let's install $0 now."
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:485
+#: src/components/storage/ReclaimSpaceModal.jsx:525
 msgid "Windows partitions with BitLocker encryption cannot be resized"
 msgstr ""
 
@@ -1063,8 +1076,8 @@ msgid "current step"
 msgstr ""
 
 #: src/components/review/StorageReview.jsx:141
-#: src/components/storage/ReclaimSpaceModal.jsx:354
-#: src/components/storage/ReclaimSpaceModal.jsx:367
+#: src/components/storage/ReclaimSpaceModal.jsx:394
+#: src/components/storage/ReclaimSpaceModal.jsx:407
 msgid "delete"
 msgstr "احذف"
 
@@ -1079,6 +1092,12 @@ msgstr "شفّر"
 #: src/components/review/StorageReview.jsx:124
 msgid "encrypted"
 msgstr "مشفَّر"
+
+#: src/components/storage/ReclaimSpaceModal.jsx:252
+#, fuzzy
+#| msgid "Standard Partition"
+msgid "extended partition"
+msgstr "قسم عادي"
 
 #: src/components/review/StorageReview.jsx:100
 msgid "format as $0"
@@ -1098,16 +1117,16 @@ msgstr ""
 msgid "resized from $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:430
-#: src/components/storage/ReclaimSpaceModal.jsx:434
+#: src/components/storage/ReclaimSpaceModal.jsx:470
+#: src/components/storage/ReclaimSpaceModal.jsx:474
 msgid "shrink"
 msgstr "قلّص"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:388
+#: src/components/storage/ReclaimSpaceModal.jsx:428
 msgid "shrink to $0"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:348
+#: src/components/storage/ReclaimSpaceModal.jsx:388
 msgid "undo"
 msgstr ""
 
@@ -3408,9 +3427,6 @@ msgstr ""
 
 #~ msgid "Speed"
 #~ msgstr "السرعة"
-
-#~ msgid "Standard Partition"
-#~ msgstr "قسم عادي"
 
 #~ msgid "Start VNC"
 #~ msgstr "إبدأ VNC"
