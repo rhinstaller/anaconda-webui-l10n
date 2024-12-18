@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-17 03:23+0000\n"
+"POT-Creation-Date: 2024-12-18 03:18+0000\n"
 "PO-Revision-Date: 2024-12-04 07:07+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -92,6 +92,12 @@ msgstr "Дії"
 #: src/components/storage/MountPointMapping.jsx:646
 msgid "Add mount"
 msgstr "Додати монтування"
+
+#: src/components/localization/InstallationLanguage.jsx:186
+#, fuzzy
+#| msgid "Available languages"
+msgid "Additional languages"
+msgstr "Доступні мови"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:147
 msgid "All changes made in the storage editor take effect immediately."
@@ -188,13 +194,15 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr "Перевіряємо налаштування носія"
 
-#: src/components/localization/InstallationLanguage.jsx:306
+#: src/components/localization/InstallationLanguage.jsx:309
 msgid "Choose a language"
 msgstr "Виберіть мову"
 
-#: src/components/localization/InstallationLanguage.jsx:315
-msgid "Chosen language: "
-msgstr "Вибрана мова: "
+#: src/components/localization/InstallationLanguage.jsx:271
+#, fuzzy
+#| msgid "Clear input value"
+msgid "Clear search input"
+msgstr "Вилучити введене значення"
 
 #: src/components/storage/InstallationDestination.jsx:353
 #: src/components/storage/EncryptedDevices.jsx:159
@@ -206,10 +214,6 @@ msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
 "Сховище Cockpit не надало пароль для розблокування зашифрованого пристрою."
-
-#: src/components/localization/InstallationLanguage.jsx:149
-msgid "Common languages"
-msgstr "Поширені мови"
 
 #: src/components/installation/InstallationProgress.jsx:186
 msgid "Completed"
@@ -337,10 +341,6 @@ msgid ""
 msgstr ""
 "Завершення: налаштовування системи завершено. Потрібно ще трохи часу на "
 "завершення встановлення."
-
-#: src/components/localization/InstallationLanguage.jsx:273
-msgid "Find a language"
-msgstr "Знайти мову"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:550
 msgid "Free space requirements met"
@@ -540,7 +540,7 @@ msgstr "Немає доступних дисків"
 msgid "No disks selected"
 msgstr "Не позначено жодного диска"
 
-#: src/components/localization/InstallationLanguage.jsx:192
+#: src/components/localization/InstallationLanguage.jsx:204
 msgid "No results found"
 msgstr "Нічого не знайдено"
 
@@ -795,6 +795,12 @@ msgstr ""
 "Виконайте сканування QR-коду за допомогою вашого телефону або відвідайте цю "
 "сторінку:"
 
+#: src/components/localization/InstallationLanguage.jsx:264
+#, fuzzy
+#| msgid "Choose a language"
+msgid "Search for a language"
+msgstr "Виберіть мову"
+
 #: src/components/storage/DiskEncryption.jsx:110
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
@@ -917,6 +923,12 @@ msgstr "Успішно встановлено"
 msgid "Successfully unlocked $0."
 msgstr "Успішно розблоковано $0."
 
+#: src/components/localization/InstallationLanguage.jsx:161
+#, fuzzy
+#| msgid "Choose a language"
+msgid "Suggested languages"
+msgstr "Виберіть мову"
+
 #: src/components/users/Accounts.jsx:296
 msgid "System"
 msgstr "Система"
@@ -932,13 +944,6 @@ msgid ""
 msgstr ""
 "Налаштовування системи: встановлення програмного забезпечення завершено. "
 "Тепер виконуємо налаштовування системи."
-
-#: src/components/localization/InstallationLanguage.jsx:317
-msgid ""
-"The chosen language will be used for installation and in the installed "
-"software. "
-msgstr ""
-"Вибрану мову буде використано для встановлення і у встановлених програмах. "
 
 #: src/components/Error.jsx:278
 msgid ""
@@ -1073,11 +1078,11 @@ msgstr "Довжина імені користувача не повинна п�
 msgid "Weak"
 msgstr "Простий"
 
-#: src/components/localization/InstallationLanguage.jsx:348
+#: src/components/localization/InstallationLanguage.jsx:339
 msgid "Welcome"
 msgstr "Вітаємо"
 
-#: src/components/localization/InstallationLanguage.jsx:340
+#: src/components/localization/InstallationLanguage.jsx:331
 msgid "Welcome to $0"
 msgstr "Вітаємо у $0"
 
@@ -1161,6 +1166,22 @@ msgstr "стиснути до $0"
 msgid "undo"
 msgstr "скасувати"
 
+#~ msgid "Chosen language: "
+#~ msgstr "Вибрана мова: "
+
+#~ msgid "Common languages"
+#~ msgstr "Поширені мови"
+
+#~ msgid "Find a language"
+#~ msgstr "Знайти мову"
+
+#~ msgid ""
+#~ "The chosen language will be used for installation and in the installed "
+#~ "software. "
+#~ msgstr ""
+#~ "Вибрану мову буде використано для встановлення і у встановлених "
+#~ "програмах. "
+
 #~ msgid "Devices should be unlocked before assigning mount points."
 #~ msgstr "До призначення точок монтування пристрої має бути розблоковано."
 
@@ -1208,9 +1229,6 @@ msgstr "скасувати"
 
 #~ msgid "Applying new disk selection..."
 #~ msgstr "Застосовуємо новий вибір дисків…"
-
-#~ msgid "Clear input value"
-#~ msgstr "Вилучити введене значення"
 
 #~ msgid "Current selections"
 #~ msgstr "Поточне позначене"
@@ -2040,9 +2058,6 @@ msgstr "скасувати"
 
 #~ msgid "Available Layouts"
 #~ msgstr "Доступні розкладки"
-
-#~ msgid "Available languages"
-#~ msgstr "Доступні мови"
 
 #~ msgid "Available locales"
 #~ msgstr "Доступні локалі"

@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-17 03:23+0000\n"
+"POT-Creation-Date: 2024-12-18 03:18+0000\n"
 "PO-Revision-Date: 2024-11-20 20:48+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
@@ -96,6 +96,12 @@ msgstr "Toimet"
 #: src/components/storage/MountPointMapping.jsx:646
 msgid "Add mount"
 msgstr "Lisää liitos"
+
+#: src/components/localization/InstallationLanguage.jsx:186
+#, fuzzy
+#| msgid "Available languages"
+msgid "Additional languages"
+msgstr "Saatavilla olevat kielet"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:147
 msgid "All changes made in the storage editor take effect immediately."
@@ -193,13 +199,15 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr "Tarkistetaan tallennustilan asetuksia"
 
-#: src/components/localization/InstallationLanguage.jsx:306
+#: src/components/localization/InstallationLanguage.jsx:309
 msgid "Choose a language"
 msgstr "Valitse kieli"
 
-#: src/components/localization/InstallationLanguage.jsx:315
-msgid "Chosen language: "
-msgstr "Valittu kieli: "
+#: src/components/localization/InstallationLanguage.jsx:271
+#, fuzzy
+#| msgid "Clear input value"
+msgid "Clear search input"
+msgstr "Tyhjennä syöttöarvo"
 
 #: src/components/storage/InstallationDestination.jsx:353
 #: src/components/storage/EncryptedDevices.jsx:159
@@ -212,10 +220,6 @@ msgid ""
 msgstr ""
 "Cockpit-tallennustila ei tarjonnut pääsylausetta salatun laitteen lukituksen "
 "avaamiseen."
-
-#: src/components/localization/InstallationLanguage.jsx:149
-msgid "Common languages"
-msgstr "Yleiset kielet"
 
 #: src/components/installation/InstallationProgress.jsx:186
 msgid "Completed"
@@ -345,10 +349,6 @@ msgid ""
 msgstr ""
 "Viimeistely: Järjestelmän konfigurointi on valmis. Asennuksen viimeistely "
 "voi kestää hetken."
-
-#: src/components/localization/InstallationLanguage.jsx:273
-msgid "Find a language"
-msgstr "Etsi kieli"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:550
 msgid "Free space requirements met"
@@ -544,7 +544,7 @@ msgstr "Levyjä ei saatavilla"
 msgid "No disks selected"
 msgstr "Yhtään levyä ei ole valittu"
 
-#: src/components/localization/InstallationLanguage.jsx:192
+#: src/components/localization/InstallationLanguage.jsx:204
 msgid "No results found"
 msgstr "Tuloksia ei löytynyt"
 
@@ -796,6 +796,12 @@ msgstr "Tallenna"
 msgid "Scan the QR code with your phone or visit:"
 msgstr "Skannaa QR-koodi puhelimellasi tai käy:"
 
+#: src/components/localization/InstallationLanguage.jsx:264
+#, fuzzy
+#| msgid "Choose a language"
+msgid "Search for a language"
+msgstr "Valitse kieli"
+
 #: src/components/storage/DiskEncryption.jsx:110
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
@@ -913,6 +919,12 @@ msgstr "Asennus onnistui"
 msgid "Successfully unlocked $0."
 msgstr "$0:n lukituksen avattu onnistuneesti."
 
+#: src/components/localization/InstallationLanguage.jsx:161
+#, fuzzy
+#| msgid "Choose a language"
+msgid "Suggested languages"
+msgstr "Valitse kieli"
+
 #: src/components/users/Accounts.jsx:296
 msgid "System"
 msgstr "Järjestelmä"
@@ -928,12 +940,6 @@ msgid ""
 msgstr ""
 "Järjestelmän konfigurointi: Ohjelmiston asennus valmis. Järjestelmää "
 "konfiguroidaan nyt."
-
-#: src/components/localization/InstallationLanguage.jsx:317
-msgid ""
-"The chosen language will be used for installation and in the installed "
-"software. "
-msgstr "Valittua kieltä käytetään asennuksessa ja asennetussa ohjelmistossa. "
 
 #: src/components/Error.jsx:278
 msgid ""
@@ -1063,11 +1069,11 @@ msgstr "Käyttäjänimien tulee olla lyhyempiä kuin 33 merkkiä"
 msgid "Weak"
 msgstr "Heikko"
 
-#: src/components/localization/InstallationLanguage.jsx:348
+#: src/components/localization/InstallationLanguage.jsx:339
 msgid "Welcome"
 msgstr "Tervetuloa"
 
-#: src/components/localization/InstallationLanguage.jsx:340
+#: src/components/localization/InstallationLanguage.jsx:331
 msgid "Welcome to $0"
 msgstr "Tervetuloa $0an"
 
@@ -1150,6 +1156,21 @@ msgstr "kutista $0:een"
 msgid "undo"
 msgstr "kumoa"
 
+#~ msgid "Chosen language: "
+#~ msgstr "Valittu kieli: "
+
+#~ msgid "Common languages"
+#~ msgstr "Yleiset kielet"
+
+#~ msgid "Find a language"
+#~ msgstr "Etsi kieli"
+
+#~ msgid ""
+#~ "The chosen language will be used for installation and in the installed "
+#~ "software. "
+#~ msgstr ""
+#~ "Valittua kieltä käytetään asennuksessa ja asennetussa ohjelmistossa. "
+
 #~ msgid "Devices should be unlocked before assigning mount points."
 #~ msgstr "Laitteiden lukitus tulee avata ennen liitospisteiden määrittämistä."
 
@@ -1196,9 +1217,6 @@ msgstr "kumoa"
 
 #~ msgid "Applying new disk selection..."
 #~ msgstr "Otetaan uutta levyvalintaa käyttöön..."
-
-#~ msgid "Clear input value"
-#~ msgstr "Tyhjennä syöttöarvo"
 
 #~ msgid "Current selections"
 #~ msgstr "Nykyiset valinnat"
@@ -2008,9 +2026,6 @@ msgstr "kumoa"
 
 #~ msgid "Available Layouts"
 #~ msgstr "Saatavilla olevat asettelut"
-
-#~ msgid "Available languages"
-#~ msgstr "Saatavilla olevat kielet"
 
 #~ msgid "Available locales"
 #~ msgstr "Saatavilla olevat maa-asetustot"

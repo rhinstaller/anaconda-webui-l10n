@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-17 03:23+0000\n"
+"POT-Creation-Date: 2024-12-18 03:18+0000\n"
 "PO-Revision-Date: 2024-12-03 11:29+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
@@ -96,6 +96,12 @@ msgstr "Eylemler"
 #: src/components/storage/MountPointMapping.jsx:646
 msgid "Add mount"
 msgstr "Bağlama noktası ekle"
+
+#: src/components/localization/InstallationLanguage.jsx:186
+#, fuzzy
+#| msgid "Available languages"
+msgid "Additional languages"
+msgstr "Kullanılabilir diller"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:147
 msgid "All changes made in the storage editor take effect immediately."
@@ -193,13 +199,15 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr "Depolama yapılandırması denetleniyor"
 
-#: src/components/localization/InstallationLanguage.jsx:306
+#: src/components/localization/InstallationLanguage.jsx:309
 msgid "Choose a language"
 msgstr "Bir dil seçin"
 
-#: src/components/localization/InstallationLanguage.jsx:315
-msgid "Chosen language: "
-msgstr "Seçilen dil: "
+#: src/components/localization/InstallationLanguage.jsx:271
+#, fuzzy
+#| msgid "Clear input value"
+msgid "Clear search input"
+msgstr "Giriş değerini temizle"
 
 #: src/components/storage/InstallationDestination.jsx:353
 #: src/components/storage/EncryptedDevices.jsx:159
@@ -211,10 +219,6 @@ msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
 "Cockpit depolaması, şifrelenen aygıtın kilidini açmak için parola sağlamadı."
-
-#: src/components/localization/InstallationLanguage.jsx:149
-msgid "Common languages"
-msgstr "Yaygın diller"
 
 #: src/components/installation/InstallationProgress.jsx:186
 msgid "Completed"
@@ -342,10 +346,6 @@ msgid ""
 msgstr ""
 "Sonlandırılıyor: Sistem yapılandırması tamamlandı. Kurulumun sonlandırılması "
 "birkaç dakika sürebilir."
-
-#: src/components/localization/InstallationLanguage.jsx:273
-msgid "Find a language"
-msgstr "Dil bul"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:550
 msgid "Free space requirements met"
@@ -543,7 +543,7 @@ msgstr "Kullanılabilir disk yok"
 msgid "No disks selected"
 msgstr "Hiçbir disk seçilmedi"
 
-#: src/components/localization/InstallationLanguage.jsx:192
+#: src/components/localization/InstallationLanguage.jsx:204
 msgid "No results found"
 msgstr "Sonuç bulunamadı"
 
@@ -795,6 +795,12 @@ msgstr "Kaydet"
 msgid "Scan the QR code with your phone or visit:"
 msgstr "QR kodunu telefonunuzla tarayın veya ziyaret edin:"
 
+#: src/components/localization/InstallationLanguage.jsx:264
+#, fuzzy
+#| msgid "Choose a language"
+msgid "Search for a language"
+msgstr "Bir dil seçin"
+
 #: src/components/storage/DiskEncryption.jsx:110
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
@@ -915,6 +921,12 @@ msgstr "Başarıyla kuruldu"
 msgid "Successfully unlocked $0."
 msgstr "$0 kilidi başarıyla açıldı."
 
+#: src/components/localization/InstallationLanguage.jsx:161
+#, fuzzy
+#| msgid "Choose a language"
+msgid "Suggested languages"
+msgstr "Bir dil seçin"
+
 #: src/components/users/Accounts.jsx:296
 msgid "System"
 msgstr "Sistem"
@@ -930,12 +942,6 @@ msgid ""
 msgstr ""
 "Sistem yapılandırması: Yazılım kurulumu tamamlandı. Sistem şimdi "
 "yapılandırılıyor."
-
-#: src/components/localization/InstallationLanguage.jsx:317
-msgid ""
-"The chosen language will be used for installation and in the installed "
-"software. "
-msgstr "Seçilen dil kurulum için ve kurulu yazılımlarda kullanılacaktır. "
 
 #: src/components/Error.jsx:278
 msgid ""
@@ -1068,11 +1074,11 @@ msgstr "Kullanıc adları 33 karakterden kısa olmalıdır"
 msgid "Weak"
 msgstr "Zayıf"
 
-#: src/components/localization/InstallationLanguage.jsx:348
+#: src/components/localization/InstallationLanguage.jsx:339
 msgid "Welcome"
 msgstr "Hoş Geldiniz"
 
-#: src/components/localization/InstallationLanguage.jsx:340
+#: src/components/localization/InstallationLanguage.jsx:331
 msgid "Welcome to $0"
 msgstr "$0'ya hoş geldiniz"
 
@@ -1155,6 +1161,20 @@ msgstr "$0 olacak şekilde küçült"
 msgid "undo"
 msgstr "geri al"
 
+#~ msgid "Chosen language: "
+#~ msgstr "Seçilen dil: "
+
+#~ msgid "Common languages"
+#~ msgstr "Yaygın diller"
+
+#~ msgid "Find a language"
+#~ msgstr "Dil bul"
+
+#~ msgid ""
+#~ "The chosen language will be used for installation and in the installed "
+#~ "software. "
+#~ msgstr "Seçilen dil kurulum için ve kurulu yazılımlarda kullanılacaktır. "
+
 #~ msgid "Devices should be unlocked before assigning mount points."
 #~ msgstr "Bağlama noktaları atanmadan önce aygıtların kilidi açılmalıdır."
 
@@ -1202,9 +1222,6 @@ msgstr "geri al"
 
 #~ msgid "Applying new disk selection..."
 #~ msgstr "Yeni disk seçimi uygulanıyor..."
-
-#~ msgid "Clear input value"
-#~ msgstr "Giriş değerini temizle"
 
 #~ msgid "Current selections"
 #~ msgstr "Geçerli seçimler"
@@ -2011,9 +2028,6 @@ msgstr "geri al"
 
 #~ msgid "Available Layouts"
 #~ msgstr "Kullanılabilir Düzenler"
-
-#~ msgid "Available languages"
-#~ msgstr "Kullanılabilir diller"
 
 #~ msgid "Available locales"
 #~ msgstr "Kullanılabilir yerel ayarlar"
