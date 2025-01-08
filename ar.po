@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-07 03:06+0000\n"
+"POT-Creation-Date: 2025-01-08 03:04+0000\n"
 "PO-Revision-Date: 2024-11-26 03:18+0000\n"
 "Last-Translator: Abdullah Albaroty <albaroty@gmail.com>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/anaconda-"
@@ -105,7 +105,7 @@ msgstr "أضِف نقطة وصل"
 msgid "Additional languages"
 msgstr "اللغات المتاحة"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:149
+#: src/components/storage/CockpitStorageIntegration.jsx:150
 msgid "All changes made in the storage editor take effect immediately."
 msgstr ""
 
@@ -137,7 +137,7 @@ msgstr ""
 msgid "Anaconda project page"
 msgstr "صفحة مشروع أناكوندا"
 
-#: src/components/storage/InstallationScenario.jsx:344
+#: src/components/storage/scenarios/MountPointMapping.jsx:61
 msgid "Apply mount point assignment and install"
 msgstr "طبق تعيين نقطة الوصل وثبت"
 
@@ -163,7 +163,7 @@ msgid ""
 msgstr ""
 
 #: src/components/storage/ReclaimSpaceModal.jsx:227
-#: src/components/storage/CockpitStorageIntegration.jsx:138
+#: src/components/storage/CockpitStorageIntegration.jsx:139
 #: src/components/storage/InstallationDestination.jsx:349
 #: src/components/review/Hostname.jsx:106 src/components/Error.jsx:270
 msgid "Cancel"
@@ -181,13 +181,13 @@ msgstr "غيّر الوجهة"
 msgid "Change hostname"
 msgstr "غيّر اسم المضيف"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:205
+#: src/components/storage/CockpitStorageIntegration.jsx:206
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:476
-#: src/components/storage/CockpitStorageIntegration.jsx:488
+#: src/components/storage/CockpitStorageIntegration.jsx:477
+#: src/components/storage/CockpitStorageIntegration.jsx:489
 #: src/components/storage/DiskEncryption.jsx:58
 msgid "Checking storage configuration"
 msgstr "التحقق من إعدادات وحدة التخزين"
@@ -205,7 +205,7 @@ msgstr ""
 msgid "Close"
 msgstr "أغلق"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:388
+#: src/components/storage/CockpitStorageIntegration.jsx:389
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
@@ -214,11 +214,11 @@ msgstr ""
 msgid "Completed"
 msgstr "اكتمل"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:195
+#: src/components/storage/CockpitStorageIntegration.jsx:196
 msgid "Configure storage"
 msgstr "أعدّ التخزين"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:524
+#: src/components/storage/CockpitStorageIntegration.jsx:525
 msgid "Configure storage again"
 msgstr "أعدّ التخزين مرة أخرى"
 
@@ -227,7 +227,7 @@ msgstr "أعدّ التخزين مرة أخرى"
 msgid "Confirm passphrase"
 msgstr "أكّد عبارة المرور"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:509
+#: src/components/storage/CockpitStorageIntegration.jsx:510
 msgid "Continue"
 msgstr "استمر"
 
@@ -235,7 +235,7 @@ msgstr "استمر"
 msgid "Continue installation"
 msgstr "مواصلة التثبيت"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:485
+#: src/components/storage/CockpitStorageIntegration.jsx:486
 msgid "Continue with installation"
 msgstr "واصل مع التثبيت"
 
@@ -273,7 +273,7 @@ msgstr "الوجهة"
 msgid "Destination is encrypted"
 msgstr "الوجهة"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:548
+#: src/components/storage/CockpitStorageIntegration.jsx:549
 msgid "Detected valid storage layout:"
 msgstr ""
 
@@ -306,7 +306,7 @@ msgstr "مشفّر"
 msgid "Encryption"
 msgstr "التشفير"
 
-#: src/components/storage/InstallationScenario.jsx:322
+#: src/components/storage/scenarios/EraseAll.jsx:45
 msgid "Erase data and install"
 msgstr "أمحو البيانات وثبّت"
 
@@ -323,7 +323,7 @@ msgstr ""
 msgid "Extended partition"
 msgstr "قسم ممتد"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:619
+#: src/components/storage/CockpitStorageIntegration.jsx:620
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr ""
 
@@ -337,7 +337,7 @@ msgid ""
 "may take a few moments."
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:552
+#: src/components/storage/CockpitStorageIntegration.jsx:553
 msgid "Free space requirements met"
 msgstr ""
 
@@ -366,7 +366,7 @@ msgstr "أخفِ كلمة المرور"
 msgid "Hostname"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:537
+#: src/components/storage/InstallationScenario.jsx:231
 msgid "How would you like to install?"
 msgstr "كيف تريد التثبيت؟"
 
@@ -391,7 +391,7 @@ msgstr ""
 msgid "If empty, hostname will be transient and set by network information."
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:595
+#: src/components/storage/CockpitStorageIntegration.jsx:596
 msgid "If you are configuring partitions the following are required:"
 msgstr ""
 
@@ -408,8 +408,8 @@ msgstr "يجري العمل"
 msgid "Initializing..."
 msgstr "التهيئة..."
 
-#: src/components/storage/InstallationScenario.jsx:333
-#: src/components/storage/InstallationScenario.jsx:354
+#: src/components/storage/scenarios/UseFreeSpace.jsx:72
+#: src/components/storage/scenarios/UseConfiguredStorage.jsx:88
 msgid "Install"
 msgstr "ثبّت"
 
@@ -417,7 +417,7 @@ msgstr "ثبّت"
 msgid "Installation failed"
 msgstr "فشل التثبيت"
 
-#: src/components/storage/InstallationMethod.jsx:234
+#: src/components/storage/InstallationMethod.jsx:235
 msgid "Installation method"
 msgstr "طريقة التثبيت"
 
@@ -443,8 +443,8 @@ msgstr ""
 msgid "Language"
 msgstr "اللّغة"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:131
-#: src/components/storage/CockpitStorageIntegration.jsx:666
+#: src/components/storage/CockpitStorageIntegration.jsx:132
+#: src/components/storage/CockpitStorageIntegration.jsx:667
 msgid "Launch storage editor"
 msgstr "شغل محرر التخزين"
 
@@ -485,7 +485,7 @@ msgstr ""
 msgid "Mount point"
 msgstr "نقطة الارتباط"
 
-#: src/components/storage/InstallationScenario.jsx:352
+#: src/components/storage/scenarios/MountPointMapping.jsx:69
 #: src/components/storage/MountPointMapping.jsx:621
 msgid "Mount point assignment"
 msgstr ""
@@ -529,11 +529,11 @@ msgstr "لم يُنتقَ أيّ قرص"
 msgid "No results found"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:103
+#: src/components/storage/scenarios/UseFreeSpace.jsx:42
 msgid "Not enough free space on the selected disks."
 msgstr "لا تتوفر المساحة الكافية في الأقراص المُحددة."
 
-#: src/components/storage/InstallationScenario.jsx:82
+#: src/components/storage/scenarios/EraseAll.jsx:34
 msgid "Not enough space on selected disks."
 msgstr "لا تتوفر المساحة الكافية في الأقراص المُنتقاة."
 
@@ -552,7 +552,7 @@ msgstr ""
 msgid "Operating system"
 msgstr "نظام التشغيل"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:627
+#: src/components/storage/CockpitStorageIntegration.jsx:628
 msgid "Partitions (advanced)"
 msgstr ""
 
@@ -591,7 +591,7 @@ msgstr "الإصدار الأولي"
 msgid "Preparing report"
 msgstr "إعداد التقرير"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:530
+#: src/components/storage/CockpitStorageIntegration.jsx:531
 msgid "Proceed with installation"
 msgstr "متابعة التثبيت"
 
@@ -647,7 +647,7 @@ msgstr "إعادة إقلاع النظام؟"
 msgid "Reboot to installed system"
 msgstr "أعد التشغيل إلى النظام المثبت"
 
-#: src/components/storage/InstallationScenario.jsx:304
+#: src/components/storage/scenarios/UseFreeSpace.jsx:63
 msgid "Reclaim additional space"
 msgstr "استعادة مساحة إضافية"
 
@@ -657,7 +657,7 @@ msgstr "استعادة مساحة إضافية"
 msgid "Reclaim space"
 msgstr "استرداد المساحة"
 
-#: src/components/storage/InstallationScenario.jsx:304
+#: src/components/storage/scenarios/UseFreeSpace.jsx:63
 msgid "Reclaim space (required)"
 msgstr ""
 
@@ -665,7 +665,7 @@ msgstr ""
 msgid "Recommended"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:604
+#: src/components/storage/CockpitStorageIntegration.jsx:605
 msgid "Recommended partitions:"
 msgstr ""
 
@@ -674,8 +674,8 @@ msgstr ""
 msgid "Reformat"
 msgstr "أعِد التهيئة"
 
-#: src/components/storage/InstallationScenario.jsx:312
-#: src/components/storage/InstallationScenario.jsx:320
+#: src/components/storage/scenarios/ReinstallFedora.jsx:119
+#: src/components/storage/scenarios/ReinstallFedora.jsx:127
 msgid "Reinstall Fedora"
 msgstr "إعادة تثبيت فيدورا"
 
@@ -721,7 +721,7 @@ msgstr ""
 msgid "Required"
 msgstr "مطلوب"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:616
+#: src/components/storage/CockpitStorageIntegration.jsx:617
 msgid "Requirements"
 msgstr "متطلبات"
 
@@ -741,11 +741,11 @@ msgstr ""
 msgid "Resizing the following partitions from $0: $1"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:95
+#: src/components/storage/CockpitStorageIntegration.jsx:96
 msgid "Return to installation"
 msgstr "عد إلى التثبيت"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:515
+#: src/components/storage/CockpitStorageIntegration.jsx:516
 msgid "Return to storage editor"
 msgstr "عد إلى محرر التخزين"
 
@@ -797,7 +797,7 @@ msgstr "أرسل لنا تعليقاتك حول التثبيت الخاص بك"
 msgid "Set custom hostname"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:342
+#: src/components/storage/scenarios/UseFreeSpace.jsx:81
 msgid "Share disk with other operating system"
 msgstr ""
 
@@ -827,7 +827,7 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:141
+#: src/components/storage/scenarios/MountPointMapping.jsx:41
 msgid "Some required partitions are missing: $0"
 msgstr ""
 
@@ -850,11 +850,11 @@ msgstr "إعدادات التخزين"
 msgid "Storage configuration: Storage is currently being configured."
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:122
+#: src/components/storage/CockpitStorageIntegration.jsx:123
 msgid "Storage editor"
 msgstr "محرر التخزين"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:676
+#: src/components/storage/CockpitStorageIntegration.jsx:677
 msgid "Storage editor is available only in the `Installation method` step."
 msgstr ""
 
@@ -864,13 +864,13 @@ msgstr ""
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "أعِد تحميل إعدادات التّخزين من القرص."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:172
+#: src/components/storage/CockpitStorageIntegration.jsx:173
 #, fuzzy
 #| msgid "storage configuration failed: %s"
 msgid "Storage plugin failed"
 msgstr "فشل إعداد التخزين: %s"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:483
+#: src/components/storage/CockpitStorageIntegration.jsx:484
 msgid "Storage requirements not met"
 msgstr ""
 
@@ -912,7 +912,7 @@ msgid ""
 "provide additional details."
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:84
+#: src/components/storage/scenarios/EraseAll.jsx:36
 msgid "The installation needs $1 of disk space; "
 msgstr ""
 
@@ -932,7 +932,7 @@ msgstr ""
 "عبارة المرور التي أدخلتها تحتوي حروفا ليست أسكي (لاتينية). قد لا تتمكن من "
 "تغيير من تغيير مخطط لوحة المفاتيح عند كتابتها."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:144
+#: src/components/storage/CockpitStorageIntegration.jsx:145
 msgid "The storage editor lets you resize, delete, and create partitions. "
 msgstr ""
 
@@ -952,7 +952,7 @@ msgstr "هذه برمجيّات ما قبل الإصدار وهي غير مست�
 msgid "This may take a moment"
 msgstr "قد تأخذ قليلًا من الوقت"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:477
+#: src/components/storage/CockpitStorageIntegration.jsx:478
 msgid "This will take a few moments"
 msgstr "سيستغرق ذلك بضع لحظات"
 
@@ -960,11 +960,11 @@ msgstr "سيستغرق ذلك بضع لحظات"
 msgid "To begin using $0, reboot your system."
 msgstr "لبدء استخدام $0, أعد تشغيل الجهاز."
 
-#: src/components/storage/InstallationMethod.jsx:197
+#: src/components/storage/InstallationMethod.jsx:198
 msgid "To continue, select the devices to install to."
 msgstr "للمتابعة، حدد الأجهزة المراد التثبيت عليها."
 
-#: src/components/storage/InstallationScenario.jsx:105
+#: src/components/storage/scenarios/UseFreeSpace.jsx:44
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -998,13 +998,13 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "الجهاز المُنتقى"
 
-#: src/components/storage/InstallationScenario.jsx:362
+#: src/components/storage/scenarios/UseConfiguredStorage.jsx:96
 #, fuzzy
 #| msgid "Configuring storage"
 msgid "Use configured storage"
 msgstr "يعدّ التخزين"
 
-#: src/components/storage/InstallationScenario.jsx:330
+#: src/components/storage/scenarios/EraseAll.jsx:53
 #, fuzzy
 #| msgid "Selected disks"
 msgid "Use entire disk"
@@ -1042,7 +1042,7 @@ msgstr ""
 msgid "Welcome to $0"
 msgstr "مرحبا بكم في $0"
 
-#: src/components/storage/InstallationMethod.jsx:227
+#: src/components/storage/InstallationMethod.jsx:228
 msgid "Welcome. Let's install $0 now."
 msgstr ""
 
@@ -1050,7 +1050,7 @@ msgstr ""
 msgid "Windows partitions with BitLocker encryption cannot be resized"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:622
+#: src/components/storage/CockpitStorageIntegration.jsx:623
 msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
