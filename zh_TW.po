@@ -37,8 +37,8 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-19 03:19+0000\n"
-"PO-Revision-Date: 2025-02-09 12:30+0000\n"
-"Last-Translator: Shihfu Juan <xlion@xlion.tw>\n"
+"PO-Revision-Date: 2025-03-20 03:18+0000\n"
+"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/anaconda-webui/anaconda-webui/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -46,7 +46,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: src/components/storage/InstallationDestination.jsx:178
 #: src/components/storage/InstallationDestination.jsx:303
@@ -76,11 +76,8 @@ msgstr ""
 "區也會自動移除。"
 
 #: src/components/localization/Keyboard.jsx:111
-#, fuzzy
-#| msgid "$0 selected"
-#| msgid_plural "$0 selected"
 msgid "$0 layouts detected"
-msgstr "已選擇 $0"
+msgstr "偵測到 $0 配置"
 
 #: src/components/review/StorageReview.jsx:248
 msgid "$0 will be deleted"
@@ -195,7 +192,7 @@ msgstr "更改主機名稱"
 
 #: src/components/localization/Keyboard.jsx:123
 msgid "Change system keyboard layout"
-msgstr ""
+msgstr "變更系統鍵盤配置"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:211
 msgid ""
@@ -447,6 +444,10 @@ msgid ""
 "filesystem or format (e.g., LVM PV). Any existing partitions on this array "
 "will be ignored."
 msgstr ""
+"偵測到無效的 RAID 設定。 如果您的 RAID "
+"陣列直接建立在磁碟上，則必須在陣列上建立磁碟分割表。 如果 RAID "
+"陣列是建立在磁碟分割之上，則必須包含單一檔案系統或格式 (例如 LVM PV)。 "
+"陣列上任何現有的磁碟分割都會被忽略。"
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
 msgid ""
@@ -455,15 +456,12 @@ msgid ""
 msgstr "保持目前硬碟佈局並使用可用空間，以與其他作業系統進行雙重開機。"
 
 #: src/components/localization/InstallationLanguage.jsx:328
-#, fuzzy
-#| msgctxt "GUI|Spoke"
-#| msgid "_Keyboard"
 msgid "Keyboard"
-msgstr "鍵盤(_K)"
+msgstr "鍵盤"
 
 #: src/components/storage/DiskEncryption.jsx:98
 msgid "Keyboard layout during boot"
-msgstr ""
+msgstr "開機時的鍵盤配置"
 
 #: src/components/review/ReviewConfiguration.jsx:104
 #: src/components/localization/InstallationLanguage.jsx:311
@@ -509,7 +507,7 @@ msgstr "父裝置與子裝置的重新格式化選擇不匹配。"
 
 #: src/components/localization/Keyboard.jsx:92
 msgid "More than one layout detected. Remove additional layouts to proceed"
-msgstr ""
+msgstr "偵測到多於一個佈局。 請移除其他佈局以繼續"
 
 #: src/components/storage/MountPointMapping.jsx:625
 #: src/components/review/StorageReview.jsx:209
@@ -669,12 +667,11 @@ msgid "Reboot"
 msgstr "重新開機"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:524
-#, fuzzy
-#| msgid "Reboot into Windows to resize BitLocker-encrypted partitions. "
 msgid ""
 "Reboot into Windows to resize BitLocker-encrypted partitions. Make at least "
 "$0 of free space available for installation."
-msgstr "重新啟動至 Windows 以調整由 BitLocker 加密的分割區。 "
+msgstr "重新開機進入 Windows 以調整 BitLocker 加密磁碟分割的大小。 至少預留 $0 "
+"的可用空間供以安裝系統使用。"
 
 #: src/components/AnacondaWizardFooter.jsx:143
 msgid "Reboot system?"
@@ -738,6 +735,9 @@ msgid ""
 "Resizing a partition can free up unused space, but is not risk-free. Be sure "
 "to have backups of anything important before reclaiming space."
 msgstr ""
+"移除檔案系統將會永久刪除其中包含的在該裝置的所有資料。 "
+"調整磁碟分割大小可釋放未使用的空間，但並非毫無風險。 "
+"請在回收空間之前，務必先備份重要的資料。"
 
 #: src/components/storage/HelpAutopartOptions.jsx:11
 msgid "Replace current installation, but keep files in home."
@@ -898,8 +898,6 @@ msgid "Storage editor is available only in the `Installation method` step."
 msgstr "儲存編輯器只於「安裝方法」 步驟可用。"
 
 #: src/components/storage/HelpAutopartOptions.jsx:13
-#, fuzzy
-#| msgid "Reload storage configuration from disk."
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "儲存空間設定依據「修改儲存空間」中的配置。"
 
@@ -951,7 +949,7 @@ msgstr "以下日誌將被發送至問題追蹤系統，您可以在其中提供
 msgid ""
 "The installation needs $1 of disk space; however, the capacity of the "
 "selected disks is only $0."
-msgstr ""
+msgstr "安裝需要 $1 的磁碟空間；但是，所選擇的磁碟容量只有 $0 。"
 
 #: src/components/Error.jsx:247
 msgid "The installer cannot continue due to a critical error."
@@ -972,7 +970,8 @@ msgid ""
 "The storage editor lets you resize, delete, and create partitions. It can "
 "set up LVM and much more. It is meant to be used as an advanced utility and "
 "not intended to be used in a typical installation."
-msgstr ""
+msgstr "存儲編輯器可讓您調整、刪除及建立磁碟分割。 它可以設定 LVM "
+"以及更多針對磁碟變動的功能。 它是用來作為進階的公用程式，而非用於一般的安裝。"
 
 #: src/components/users/Accounts.jsx:203
 msgid "This account will have administration privilege with sudo."
@@ -988,7 +987,7 @@ msgstr "這是尚未穩定的預先發行軟體"
 
 #: src/components/storage/DiskEncryption.jsx:109
 msgid "This layout will be used for unlocking your system on boot"
-msgstr ""
+msgstr "此配置將用於啟動時解鎖系統"
 
 #: src/components/storage/DiskEncryption.jsx:65
 msgid "This may take a moment"
@@ -1025,10 +1024,8 @@ msgid "Unable to schedule resizing of $0"
 msgstr "無法安排調整 $0 的大小"
 
 #: src/components/localization/Keyboard.jsx:63
-#, fuzzy
-#| msgid "Unknown Linux"
 msgid "Unknown layout"
-msgstr "未知 Linux"
+msgstr "未知的配置"
 
 #: src/components/storage/EncryptedDevices.jsx:74
 #: src/components/storage/EncryptedDevices.jsx:156
@@ -1043,13 +1040,11 @@ msgstr "解鎖 LUKS 加密分割區以保留現有資料並顯示更多安裝方
 
 #: src/components/storage/EncryptedDevices.jsx:152
 msgid "Unlock encrypted devices"
-msgstr "解鎖加密裝置。"
+msgstr "解鎖加密裝置"
 
 #: src/components/localization/Keyboard.jsx:110
-#, fuzzy
-#| msgid "Available Layouts"
 msgid "Unusable layout"
-msgstr "可用的鍵盤配置"
+msgstr "無法使用的配置"
 
 #: src/components/storage/scenarios/UseConfiguredStorage.jsx:95
 msgid "Use configured storage"
@@ -1066,10 +1061,8 @@ msgid "Use free space"
 msgstr "使用可用的空間"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:649
-#, fuzzy
-#| msgid "No big enough free space on disks for automatic partitioning"
 msgid "Use the RAID device for automatic partitioning"
-msgstr "磁碟上沒有足夠大的剩餘空間用於自動磁碟分割"
+msgstr "使用 RAID 裝置進行自動分割"
 
 #: src/components/users/Accounts.jsx:224
 msgid "User name"
