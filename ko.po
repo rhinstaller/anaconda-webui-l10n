@@ -38,16 +38,16 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-20 03:18+0000\n"
-"PO-Revision-Date: 2024-12-19 03:16+0000\n"
+"PO-Revision-Date: 2025-03-20 09:46+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
-"Language-Team: Korean <https://translate.fedoraproject.org/projects/anaconda-"
-"webui/anaconda-webui/ko/>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/"
+"anaconda-webui/anaconda-webui/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.9.1\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: src/components/storage/InstallationDestination.jsx:178
 #: src/components/storage/InstallationDestination.jsx:303
@@ -77,11 +77,8 @@ msgstr ""
 "기는 확장된 파티션도 자동으로 제거합니다."
 
 #: src/components/localization/Keyboard.jsx:111
-#, fuzzy
-#| msgid "$0 selected"
-#| msgid_plural "$0 selected"
 msgid "$0 layouts detected"
-msgstr "$0 선택됨"
+msgstr "$0 배열이 탐지됨"
 
 #: src/components/review/StorageReview.jsx:248
 msgid "$0 will be deleted"
@@ -199,7 +196,7 @@ msgstr "호스트이름 변경"
 
 #: src/components/localization/Keyboard.jsx:123
 msgid "Change system keyboard layout"
-msgstr ""
+msgstr "시스템 키보드 배열을 변경합니다"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:209
 msgid ""
@@ -456,6 +453,11 @@ msgid ""
 "filesystem or format (e.g., LVM PV). Any existing partitions on this array "
 "will be ignored."
 msgstr ""
+"유효하지 않은 레이드 구성이 탐지되었습니다. 만약 자신의 레이드 배열이 "
+"디스크의 상단에서 직접 생성되었으면, 파티션 테이블은 배열에서 생성되어야만 "
+"합니다. 만약 자신의 레이드 배열이 파티션의 상단에서 생성되었으면, 이는 단일 "
+"파일시스템 또는 초기화를 포함합니다(예: LVM PV). 이와 같은 배열에서 기존 "
+"파티션은 무시됩니다."
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
 msgid ""
@@ -471,7 +473,7 @@ msgstr "키보드"
 
 #: src/components/storage/DiskEncryption.jsx:98
 msgid "Keyboard layout during boot"
-msgstr ""
+msgstr "부팅 중에 키보드 나열"
 
 #: src/components/review/ReviewConfiguration.jsx:104
 #: src/components/localization/InstallationLanguage.jsx:311
@@ -517,7 +519,7 @@ msgstr "상위 장치와 하위 장치 재-초기화 선택이 일치하지 않�
 
 #: src/components/localization/Keyboard.jsx:92
 msgid "More than one layout detected. Remove additional layouts to proceed"
-msgstr ""
+msgstr "하나 이상의 나열이 탐지되었습니다. 진행하려면 추가된 나열을 제거하세요"
 
 #: src/components/storage/MountPointMapping.jsx:625
 #: src/components/review/StorageReview.jsx:209
@@ -681,12 +683,12 @@ msgid "Reboot"
 msgstr "재시작"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:524
-#, fuzzy
-#| msgid "Reboot into Windows to resize BitLocker-encrypted partitions. "
 msgid ""
 "Reboot into Windows to resize BitLocker-encrypted partitions. Make at least "
 "$0 of free space available for installation."
-msgstr "BitLocker-암호화된 파티션의 크기를 조절하려면 윈도우로 재시작 합니다. "
+msgstr ""
+"BitLocker-암호화된 파티션의 크기를 조절하려면 윈도우로 재시작 합니다. 설치를 "
+"위해 사용 가능한 여유 공간이 적어도 $0 를 만들어야 합니다."
 
 #: src/components/AnacondaWizardFooter.jsx:143
 msgid "Reboot system?"
@@ -752,6 +754,9 @@ msgid ""
 "Resizing a partition can free up unused space, but is not risk-free. Be sure "
 "to have backups of anything important before reclaiming space."
 msgstr ""
+"파일시스템 제거하기는 포함된 모든 자료를 영구적으로 제거합니다. 파티션 크기 "
+"조정하기는 사용하지 않는 공간을 확보 할 수 있지만, 위험이 존재합니다. 공간을 "
+"재할당 하기 전에 중요한 것은 백업을 해야 합니다."
 
 #: src/components/storage/HelpAutopartOptions.jsx:11
 msgid "Replace current installation, but keep files in home."
@@ -967,16 +972,11 @@ msgstr ""
 "니다."
 
 #: src/components/storage/scenarios/EraseAll.jsx:36
-#, fuzzy
-#| msgid ""
-#| "There is not enough space on the disks to install. The installation needs "
-#| "$1 of disk space; however, the capacity of the selected disks is only $0."
 msgid ""
 "The installation needs $1 of disk space; however, the capacity of the "
 "selected disks is only $0."
-msgstr ""
-"설치하려는 디스크에 충분한 공간이 없습니다. 설치는 디스크 공간의 $1가 필요합"
-"니다; 하지만, 선택된 디스크의 공간은 $0만 있습니다."
+msgstr "설치는 디스크 공간의 $1가 필요합니다; 하지만, 선택된 디스크의 공간은 $0만 "
+"있습니다."
 
 #: src/components/Error.jsx:247
 msgid "The installer cannot continue due to a critical error."
@@ -1091,8 +1091,6 @@ msgid "Use entire disk"
 msgstr "전체 디스크 사용"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:647
-#, fuzzy
-#| msgid "Use Free Space"
 msgid "Use free space"
 msgstr "여유 공간 사용"
 
