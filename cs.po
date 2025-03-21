@@ -47,16 +47,16 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-21 03:20+0000\n"
-"PO-Revision-Date: 2025-02-22 16:19+0000\n"
-"Last-Translator: Jonáš Loskot <fedoraproject.org@alius.cz>\n"
-"Language-Team: Czech <https://translate.fedoraproject.org/projects/anaconda-"
-"webui/anaconda-webui/cs/>\n"
+"PO-Revision-Date: 2025-03-21 13:21+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/"
+"anaconda-webui/anaconda-webui/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.10\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: src/components/storage/InstallationDestination.jsx:178
 #: src/components/storage/InstallationDestination.jsx:303
@@ -87,11 +87,8 @@ msgstr ""
 "rozšířeného oddílu."
 
 #: src/components/localization/Keyboard.jsx:111
-#, fuzzy
-#| msgid "$0 selected"
-#| msgid_plural "$0 selected"
 msgid "$0 layouts detected"
-msgstr "$0 vybrán"
+msgstr "zjištěno $0 rozvržení"
 
 #: src/components/review/StorageReview.jsx:248
 msgid "$0 will be deleted"
@@ -211,7 +208,7 @@ msgstr "Změnit název stroje"
 
 #: src/components/localization/Keyboard.jsx:123
 msgid "Change system keyboard layout"
-msgstr ""
+msgstr "Změnit rozvržení systémové klávesnice"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:209
 msgid ""
@@ -472,6 +469,10 @@ msgid ""
 "filesystem or format (e.g., LVM PV). Any existing partitions on this array "
 "will be ignored."
 msgstr ""
+"Zjištěno neplatné uspořádání RAID. Pokud je RAID pole vytvořeno přímo nad "
+"disky, pak je třeba nad ním vytvořit oddíl. Pokud je pole vytvořeno nad "
+"oddíly, je třeba, aby obsahovalo jediný souborový systém nebo formát (např. "
+"LVM fyz. svazek). Jakékoli existující oddíly na tomto poli budou ignorovány."
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
 msgid ""
@@ -487,7 +488,7 @@ msgstr "Klávesnice"
 
 #: src/components/storage/DiskEncryption.jsx:98
 msgid "Keyboard layout during boot"
-msgstr ""
+msgstr "Rozvržení klávesnice v průběhu startu systému"
 
 #: src/components/review/ReviewConfiguration.jsx:104
 #: src/components/localization/InstallationLanguage.jsx:311
@@ -535,6 +536,8 @@ msgstr ""
 #: src/components/localization/Keyboard.jsx:92
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
+"Zjištěno více než jedno rozvržení klávesnice. Aby bylo možné pokračovat, "
+"odeberte nadbytečná rozvržení"
 
 #: src/components/storage/MountPointMapping.jsx:625
 #: src/components/review/StorageReview.jsx:209
@@ -699,14 +702,12 @@ msgid "Reboot"
 msgstr "Restartovat"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:524
-#, fuzzy
-#| msgid "Reboot into Windows to resize BitLocker-encrypted partitions. "
 msgid ""
 "Reboot into Windows to resize BitLocker-encrypted partitions. Make at least "
 "$0 of free space available for installation."
 msgstr ""
 "Restartujte do Windows aby bylo možné změnit velikost oddílů šifrovaných "
-"pomocí BitLocker. "
+"pomocí BitLocker. Pro instalaci uvolněte alespoň $0 prostoru."
 
 #: src/components/AnacondaWizardFooter.jsx:143
 msgid "Reboot system?"
@@ -774,6 +775,9 @@ msgid ""
 "Resizing a partition can free up unused space, but is not risk-free. Be sure "
 "to have backups of anything important before reclaiming space."
 msgstr ""
+"Odebrání souborového systému smaže veškerá data, která obsahuje. Změna "
+"velikosti oddílu může uvolnit nevyužívaný prostor, ale není bez rizika. "
+"Ověřte, že máte zálohy všeho důležitého a až poté prostor uvolňujte."
 
 #: src/components/storage/HelpAutopartOptions.jsx:11
 msgid "Replace current installation, but keep files in home."
@@ -990,16 +994,11 @@ msgstr ""
 "kterém můžete doplnit další podrobnosti."
 
 #: src/components/storage/scenarios/EraseAll.jsx:36
-#, fuzzy
-#| msgid ""
-#| "There is not enough space on the disks to install. The installation needs "
-#| "$1 of disk space; however, the capacity of the selected disks is only $0."
 msgid ""
 "The installation needs $1 of disk space; however, the capacity of the "
 "selected disks is only $0."
 msgstr ""
-"Na jednotce není k dispozici dostatek prostoru pro instalaci. Je zapotřebí "
-"$1 prostoru, ale kapacita vybraných jednotek je pouze $0."
+"Instalace potřebuje $1 prostoru, ale kapacita vybraných jednotek je pouze $0."
 
 #: src/components/Error.jsx:247
 msgid "The installer cannot continue due to a critical error."
@@ -1024,6 +1023,9 @@ msgid ""
 "set up LVM and much more. It is meant to be used as an advanced utility and "
 "not intended to be used in a typical installation."
 msgstr ""
+"Editor úložiště umožňuje měnit velikost, mazat a vytvářet oddíly. Také je "
+"možné nastavovat LVM a mnoho dalšího. Je zamýšlen být použit až jako "
+"pokročilý nástroj a ne pro typickou instalaci."
 
 #: src/components/users/Accounts.jsx:203
 msgid "This account will have administration privilege with sudo."
@@ -1040,6 +1042,7 @@ msgstr "Toto je nestabilní, předprodukční software"
 #: src/components/storage/DiskEncryption.jsx:109
 msgid "This layout will be used for unlocking your system on boot"
 msgstr ""
+"Toto rozvržení bude použito pro odemykání vašeho systému při startu systému"
 
 #: src/components/storage/DiskEncryption.jsx:65
 msgid "This may take a moment"
@@ -1078,10 +1081,8 @@ msgid "Unable to schedule resizing of $0"
 msgstr "Není možné naplánovat změnu velikosti $0"
 
 #: src/components/localization/Keyboard.jsx:63
-#, fuzzy
-#| msgid "Unknown Linux"
 msgid "Unknown layout"
-msgstr "Neznámý Linux"
+msgstr "Neznámé rozvržení"
 
 #: src/components/storage/EncryptedDevices.jsx:74
 #: src/components/storage/EncryptedDevices.jsx:156
@@ -1101,10 +1102,8 @@ msgid "Unlock encrypted devices"
 msgstr "Odemknout šifrovaná zařízení"
 
 #: src/components/localization/Keyboard.jsx:110
-#, fuzzy
-#| msgid "Available Layouts"
 msgid "Unusable layout"
-msgstr "Rozložení k dispozici"
+msgstr "Nepoužitelné rozvržení"
 
 #: src/components/storage/scenarios/UseConfiguredStorage.jsx:95
 msgid "Use configured storage"
@@ -1115,16 +1114,12 @@ msgid "Use entire disk"
 msgstr "Použít celý disk"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:647
-#, fuzzy
-#| msgid "Use Free Space"
 msgid "Use free space"
 msgstr "Využít volný prostor"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:647
-#, fuzzy
-#| msgid "No big enough free space on disks for automatic partitioning"
 msgid "Use the RAID device for automatic partitioning"
-msgstr "Na jednotkách není dostatek volného místa pro automatické rozdělení"
+msgstr "Použít RAID zařízení pro automatické rozdělení"
 
 #: src/components/users/Accounts.jsx:224
 msgid "User name"
