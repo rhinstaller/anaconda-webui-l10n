@@ -67,7 +67,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-23 03:24+0000\n"
-"PO-Revision-Date: 2025-03-23 17:19+0000\n"
+"PO-Revision-Date: 2025-03-24 03:26+0000\n"
 "Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/es/>\n"
@@ -81,13 +81,13 @@ msgstr ""
 #: src/components/storage/InstallationDestination.jsx:178
 #: src/components/storage/InstallationDestination.jsx:303
 msgid "$0 $1"
-msgstr ""
+msgstr "$0 $1"
 
 #: src/components/storage/MountPointMapping.jsx:355
 #: src/components/storage/InstallationDestination.jsx:198
 #: src/components/storage/InstallationDestination.jsx:296
 msgid "$0 ($1)"
-msgstr ""
+msgstr "$0 ($1)"
 
 #: src/components/app.jsx:97
 msgid "$0 installation"
@@ -102,13 +102,13 @@ msgid ""
 "$0 is an MBR extended partition that contains logical partitions. Removing "
 "all logical partitions will also automatically remove the extended partition."
 msgstr ""
+"$0 es una partición expandida de MBR que contiene particiones lógicas. "
+"Quitar todas las particiones lógicas además quitará automáticamente la "
+"partición extendida."
 
 #: src/components/localization/Keyboard.jsx:111
-#, fuzzy
-#| msgid "$0 selected"
-#| msgid_plural "$0 selected"
 msgid "$0 layouts detected"
-msgstr "$0 seleccionado"
+msgstr "$0 disposiciones detectadas"
 
 #: src/components/review/StorageReview.jsx:248
 msgid "$0 will be deleted"
@@ -140,10 +140,8 @@ msgid "Add mount"
 msgstr "Agregar montaje"
 
 #: src/components/localization/InstallationLanguage.jsx:187
-#, fuzzy
-#| msgid "Available languages"
 msgid "Additional languages"
-msgstr "Idiomas disponibles"
+msgstr "Idiomas adicionales"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:154
 msgid "All changes made in the storage editor take effect immediately."
@@ -162,7 +160,7 @@ msgstr "Anaconda"
 
 #: src/index.html:20
 msgid "Anaconda Web UI"
-msgstr "Anaconda Web UI"
+msgstr "IU Web de Anaconda"
 
 #: org.cockpit-project.anaconda-webui.metainfo.xml:6
 msgid "Anaconda installer"
@@ -181,14 +179,15 @@ msgid "Anaconda project page"
 msgstr "Página del proyecto Anaconda"
 
 #: src/components/storage/scenarios/MountPointMapping.jsx:61
-#, fuzzy
 msgid "Apply mount point assignment and install"
-msgstr "Aplicar configuración en el instalador"
+msgstr "Aplicar asignación del punto de montaje e instalación"
 
 #: src/components/storage/HelpAutopartOptions.jsx:9
 msgid ""
 "Assign partitions to mount points. Useful for pre-configured custom layouts."
 msgstr ""
+"Asigne particiones para puntos de montaje. Útil para despliegues personales "
+"pre-configurados."
 
 #: src/components/storage/ReclaimSpaceModal.jsx:212
 msgid "Available free space: $0. Installation requires: $1."
@@ -222,18 +221,16 @@ msgid "Change"
 msgstr "Modificar"
 
 #: src/components/storage/InstallationDestination.jsx:334
-#, fuzzy
-#| msgid "Destination"
 msgid "Change destination"
-msgstr "Destino"
+msgstr "Modificar destino"
 
 #: src/components/review/Hostname.jsx:113
 msgid "Change hostname"
-msgstr "Cambiar el nombre de host"
+msgstr "Modificar nombre de anfitrión"
 
 #: src/components/localization/Keyboard.jsx:123
 msgid "Change system keyboard layout"
-msgstr ""
+msgstr "Modificar distribución de teclado del sistema"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:210
 msgid ""
@@ -246,13 +243,11 @@ msgstr ""
 #: src/components/storage/CockpitStorageIntegration.jsx:606
 #: src/components/storage/DiskEncryption.jsx:61
 msgid "Checking storage configuration"
-msgstr "Probando la configuración de almacenamiento…"
+msgstr "Probando la configuración de almacenamiento"
 
 #: src/components/localization/InstallationLanguage.jsx:272
-#, fuzzy
-#| msgid "Clear input value"
 msgid "Clear search input"
-msgstr "Borrar valor de entrada"
+msgstr "Vaciar valor de entrada"
 
 #: src/components/storage/EncryptedDevices.jsx:159
 #: src/components/storage/InstallationDestination.jsx:354
@@ -308,10 +303,8 @@ msgid "Critical error"
 msgstr "Error crítico"
 
 #: src/components/storage/InstallationDestination.jsx:101
-#, fuzzy
-#| msgid "Current host name:"
 msgid "Currently installed: $0"
-msgstr "Nombre actual del sistema:"
+msgstr "Instalado actualmente: $0"
 
 #: src/components/storage/MountPointMapping.jsx:250
 msgid "Custom"
@@ -369,18 +362,16 @@ msgstr "Borrar los datos e instalar"
 
 #: src/components/Error.jsx:258
 msgid "Error details"
-msgstr "Detalle del error:"
+msgstr "Detalles del error"
 
 #: src/components/installation/InstallationProgress.jsx:230
 msgid "Exit to live desktop"
-msgstr ""
+msgstr "Sale al escritorio vivo"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:253
 #: src/components/storage/ReclaimSpaceModal.jsx:260
-#, fuzzy
-#| msgid "Standard Partition"
 msgid "Extended partition"
-msgstr "Partición estándar"
+msgstr "Partición extendida"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:739
 msgid "Fedora linux requires at least $0 of disk space."
@@ -504,6 +495,11 @@ msgid ""
 "filesystem or format (e.g., LVM PV). Any existing partitions on this array "
 "will be ignored."
 msgstr ""
+"Detectada configuración RAID no válida. Si su colección RAID se crea "
+"directamente en la cima de discos, debe crearse una tabla de partición en la "
+"colección. Si su colección RAID se crea en la cima de las particiones, debe "
+"contener un único sistema de archivos o formato (p.ej. LVM PV). Cualquiera "
+"de las particiones existentes en esta colección serán ignoradas."
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
 msgid ""
@@ -702,27 +698,27 @@ msgstr "¿Salir del instalador?"
 
 #: src/components/app.jsx:141
 msgid "Reading information about the OS failed."
-msgstr "Lectura del información sobre el SO incorrecta."
+msgstr "Lectura incorrecta de información sobre el SO."
 
 #: src/components/app.jsx:87
 msgid "Reading information about the computer failed."
-msgstr ""
+msgstr "Lectura de información sobre el equipo incorrecta."
 
 #: src/components/app.jsx:131
-#, fuzzy
 msgid "Reading installer configuration failed."
-msgstr "Falló la reconfiguración de dispositivos."
+msgstr "Lectura de configuración del instalador incorrecta."
 
 #: src/components/AnacondaHeader.jsx:48
-#, fuzzy
 msgid "Reading installer version information failed."
-msgstr "Falló el registro."
+msgstr "Lectura la información de la versión del instalador incorrecta."
 
 #: src/components/review/Hostname.jsx:55
 msgid ""
 "Real hostname can only contain characters, digits, dashes (not starting or "
 "ending a character) and dots"
 msgstr ""
+"Nombre de hospedaje real solo pude contener caracteres, dígitos, guiones (no "
+"comenzando o terminando un carácter) y puntos"
 
 #: src/components/review/Hostname.jsx:51
 msgid "Real hostname must be 64 characters or less"
@@ -738,48 +734,38 @@ msgid ""
 "Reboot into Windows to resize BitLocker-encrypted partitions. Make at least "
 "$0 of free space available for installation."
 msgstr ""
+"Reinicia a Windows para redimensionar particiones cifradas BitLocker. Haga "
+"al menos $0 de espacio libre disponible para la instalación."
 
 #: src/components/AnacondaWizardFooter.jsx:143
-#, fuzzy
 msgid "Reboot system?"
-msgstr "_Reinicio del sistema"
+msgstr "¿Reinicio el sistema?"
 
 #: src/components/installation/InstallationProgress.jsx:230
-#, fuzzy
-#| msgid "/boot file system"
 msgid "Reboot to installed system"
-msgstr "sistema de archivos /boot"
+msgstr "Reiniciar al sistema instalado"
 
 #: src/components/storage/scenarios/UseFreeSpace.jsx:67
-#, fuzzy
-#| msgctxt "GUI|Reclaim Dialog"
-#| msgid "_Reclaim space"
 msgid "Reclaim additional space"
-msgstr "_Reclamar espacio"
+msgstr "Reclamar espacio adicional"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:142
 #: src/components/storage/ReclaimSpaceModal.jsx:152
 #: src/components/storage/ReclaimSpaceModal.jsx:220
-#, fuzzy
-#| msgctxt "GUI|Reclaim Dialog"
-#| msgid "_Reclaim space"
 msgid "Reclaim space"
-msgstr "_Reclamar espacio"
+msgstr "Reclamar espacio"
 
 #: src/components/storage/scenarios/UseFreeSpace.jsx:67
-#, fuzzy
-#| msgctxt "GUI|Reclaim Dialog"
-#| msgid "_Reclaim space"
 msgid "Reclaim space (required)"
-msgstr "_Reclamar espacio"
+msgstr "Reclamar espacio (requerido)"
 
 #: src/components/storage/MountPointMapping.jsx:249
 msgid "Recommended"
-msgstr ""
+msgstr "Recomendado"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:724
 msgid "Recommended partitions:"
-msgstr ""
+msgstr "Particiones recomendadas:"
 
 #: src/components/storage/MountPointMapping.jsx:411
 #: src/components/storage/MountPointMapping.jsx:627
@@ -788,10 +774,8 @@ msgstr "Reformatear"
 
 #: src/components/storage/scenarios/ReinstallFedora.jsx:119
 #: src/components/storage/scenarios/ReinstallFedora.jsx:126
-#, fuzzy
-#| msgid "Installed"
 msgid "Reinstall Fedora"
-msgstr "Instalado"
+msgstr "Reinstalar Fedora"
 
 #: src/components/storage/MountPointMapping.jsx:438
 #: src/components/storage/MountPointMapping.jsx:628
@@ -803,12 +787,15 @@ msgid ""
 "Remove all partitions on the selected devices, including existing operating "
 "systems."
 msgstr ""
+"Quitar todas las particiones en el mismo dispositivo, incluyendo el sistema "
+"operativo existente."
 
 #: src/components/storage/ReclaimSpaceModal.jsx:129
-#, fuzzy
 msgid ""
 "Remove or resize existing filesystems to free up space for the installation."
-msgstr "Fallo al llevar adelante la instalación."
+msgstr ""
+"Quita o redimensiona el sistema de archivos existente para liberar espacio "
+"para la instalación."
 
 #: src/components/storage/ReclaimSpaceModal.jsx:131
 msgid ""
@@ -816,66 +803,63 @@ msgid ""
 "Resizing a partition can free up unused space, but is not risk-free. Be sure "
 "to have backups of anything important before reclaiming space."
 msgstr ""
+"Quitar un sistema de archivos eliminará permanentemente todos los datos que "
+"contiene. Redimensionar una partición puede liberar espacio no utilizado, "
+"pero no está libre de riesgos. Asegúrese que tenga copias de respaldo de "
+"cualquier cosa importante antes de reclamar espacio."
 
 #: src/components/storage/HelpAutopartOptions.jsx:11
 msgid "Replace current installation, but keep files in home."
 msgstr ""
+"Remplazar la instalación actual, pero conserva los archivos dentro de /home."
 
 #: src/components/HeaderKebab.jsx:140
 msgid "Report Issue"
-msgstr ""
+msgstr "Informar un defecto"
 
 #: src/components/Error.jsx:162 src/components/Error.jsx:281
 msgid "Report issue"
-msgstr ""
+msgstr "Informar defecto"
 
 #: src/components/Error.jsx:149
 msgid ""
 "Reporting an issue will send information over the network. Please review and "
 "edit the attached log to remove any sensitive information."
 msgstr ""
+"Informar un defecto enviará información sobre la red. Revise y edite el "
+"boletín adjuntado para quitar cualquier información sensible."
 
 #: src/components/storage/MountPointMapping.jsx:248
-#, fuzzy
 msgid "Required"
-msgstr "No requerido"
+msgstr "Requerido"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:736
-#, fuzzy
 msgid "Requirements"
-msgstr "No requerido"
+msgstr "Requerimientos"
 
 #: src/components/storage/InstallationDestination.jsx:151
-#, fuzzy
-#| msgid "to rescan devices"
 msgid "Rescan devices"
-msgstr "volver a analizar los dispositivos"
+msgstr "Reanalizar dispositivos"
 
 #: src/components/storage/InstallationDestination.jsx:132
-#, fuzzy
 msgid "Rescanning of the disks failed."
-msgstr "Finalizó el análisis de discos."
+msgstr "Reanalizado de discos incorrecto."
 
 #: src/components/storage/ReclaimSpaceModal.jsx:504
-#, fuzzy
-#| msgctxt "GUI|Advanced Storage|NVDIMM|Reconfigure"
-#| msgid "_Sector size:"
 msgid "Resize"
-msgstr "Tamaño de _sector:"
+msgstr "Redimensionar"
 
 #: src/components/review/StorageReview.jsx:312
 msgid "Resizing the following partitions from $0: $1"
-msgstr ""
+msgstr "Redimensione las siguientes particiones desde $0: $1"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:102
-#, fuzzy
 msgid "Return to installation"
-msgstr "Instalación"
+msgstr "Volver a la instalación"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:633
-#, fuzzy
 msgid "Return to storage editor"
-msgstr "Instalación"
+msgstr "Volver al editor de almaceaje"
 
 #: src/components/review/ReviewConfiguration.jsx:226
 #: src/components/review/ReviewConfiguration.jsx:227
@@ -883,72 +867,59 @@ msgid "Review and install"
 msgstr "Revisar e instalar"
 
 #: src/components/review/Hostname.jsx:104
-#, fuzzy
-#| msgctxt "GUI|Custom Partitioning|Container Dialog"
-#| msgid "_Save"
 msgid "Save"
-msgstr "_Guardar"
+msgstr "Guardar"
 
 #: src/components/installation/Feedback.jsx:42
 msgid "Scan the QR code with your phone or visit:"
-msgstr ""
+msgstr "Analizar el código QR con su teléfono o visite:"
 
 #: src/components/localization/InstallationLanguage.jsx:265
-#, fuzzy
-#| msgid "Choose a language"
 msgid "Search for a language"
-msgstr "Elija un idioma"
+msgstr "Buscar un idioma"
 
 #: src/components/storage/DiskEncryption.jsx:134
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
+"Asegure sus datos utilizando discos basados en cifrado. Solo aplique a "
+"particiones nuevas"
 
 #: src/components/storage/InstallationDestination.jsx:346
-#, fuzzy
-#| msgctxt "GUI|Custom Partitioning|Configure Dialog"
-#| msgid "_Select"
 msgid "Select"
-msgstr "_Seleccionar"
+msgstr "Seleccionar"
 
 #: src/components/storage/MountPointMapping.jsx:322
-#, fuzzy
 msgid "Select a device"
-msgstr "Dispositivo seleccionado"
+msgstr "Seleccione un dispositivo"
 
 #: src/components/storage/InstallationDestination.jsx:340
-#, fuzzy
-#| msgid "Destination"
 msgid "Select destination"
-msgstr "Destino"
+msgstr "Seleccionar destino"
 
 #: src/components/storage/MountPointMapping.jsx:128
 msgid "Selected device's format '$0' cannot be reformatted."
-msgstr ""
+msgstr "El formato del dispositivo '$0' seleccionado no puede ser reformateado."
 
 #: src/components/installation/Feedback.jsx:41
 msgid "Send us feedback on your installation"
 msgstr "Envíenos un informe en su instalación"
 
 #: src/components/review/Hostname.jsx:113
-#, fuzzy
-#| msgid "Set host name"
 msgid "Set custom hostname"
-msgstr "Ingresar nombre del sistema"
+msgstr "Fijar nombre de hospedaje personal"
 
 #: src/components/storage/scenarios/UseFreeSpace.jsx:84
 msgid "Share disk with other operating system"
-msgstr ""
+msgstr "Compartir disco con otro sistema operativo"
 
 #: src/components/Password.jsx:243
-#, fuzzy
 msgid "Show confirmed password"
-msgstr "_Confirmar la contraseña"
+msgstr "Mostrar contraseña confirmada"
 
 #: src/components/storage/EncryptedDevices.jsx:188
-#, fuzzy
 msgid "Show passphrase"
-msgstr "_Confirmar la contraseña"
+msgstr "Mostrar frase-secreta"
 
 #: src/components/Password.jsx:216
 msgid "Show password"
@@ -956,7 +927,7 @@ msgstr "Mostrar contraseña"
 
 #: src/components/review/StorageReview.jsx:206
 msgid "Size"
-msgstr ""
+msgstr "Tamaño"
 
 #: src/components/installation/InstallationProgress.jsx:60
 msgid "Software installation"
@@ -972,18 +943,15 @@ msgstr ""
 
 #: src/components/storage/scenarios/MountPointMapping.jsx:41
 msgid "Some required partitions are missing: $0"
-msgstr ""
+msgstr "Algunas particiones requeridas faltan: $0"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:157
-#, fuzzy
-#| msgid "No Space"
 msgid "Space"
-msgstr "Sin espacio"
+msgstr "Espacio"
 
 #: src/components/review/ReviewConfiguration.jsx:134
-#, fuzzy
 msgid "Storage"
-msgstr "Opciones de almacenamiento"
+msgstr "Almacenaje"
 
 #: src/components/storage/StorageConfiguration.jsx:123
 #: src/components/storage/StorageConfiguration.jsx:124
@@ -998,20 +966,18 @@ msgstr ""
 "Configuración de almacenamiento: Se está configurando el almacenamiento."
 
 #: src/components/storage/CockpitStorageIntegration.jsx:129
-#, fuzzy
-#| msgid "Launch storage editor"
 msgid "Storage editor"
-msgstr "Iniciar el editor de almacenamiento"
+msgstr "Editor de almacenaje"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:796
 msgid "Storage editor is available only in the `Installation method` step."
 msgstr ""
+"Solo está disponible el editor de almacenaje en el paso `Método de "
+"instalación`."
 
 #: src/components/storage/HelpAutopartOptions.jsx:13
-#, fuzzy
-#| msgid "Reload storage configuration from disk."
 msgid "Storage is based on the configuration from 'Modify storage'."
-msgstr "Recargar la configuración de almacenamiento del disco."
+msgstr "El almacén está basado en la configuración de «Modificar almacenaje»."
 
 #: src/components/storage/CockpitStorageIntegration.jsx:177
 msgid "Storage plugin failed"
@@ -1019,7 +985,7 @@ msgstr "Complemento de almacenaje incorrecto"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:601
 msgid "Storage requirements not met"
-msgstr ""
+msgstr "No se obtuvieron los requisitos de almacenaje"
 
 #: src/components/Password.jsx:87
 msgid "Strong"
@@ -1027,23 +993,19 @@ msgstr "Robusta"
 
 #: src/components/installation/InstallationProgress.jsx:154
 msgid "Successfully installed"
-msgstr ""
+msgstr "Instalado correctamente"
 
 #: src/components/storage/EncryptedDevices.jsx:125
 msgid "Successfully unlocked $0."
-msgstr ""
+msgstr "$0 desbloqueado correctamente."
 
 #: src/components/localization/InstallationLanguage.jsx:162
-#, fuzzy
-#| msgid "Choose a language"
 msgid "Suggested languages"
-msgstr "Elija un idioma"
+msgstr "Idiomas sugeridos"
 
 #: src/components/users/Accounts.jsx:297
-#, fuzzy
-#| msgid "File System"
 msgid "System"
-msgstr "Sistema de archivos"
+msgstr "Sistema"
 
 #: src/components/installation/InstallationProgress.jsx:65
 msgid "System configuration"
@@ -1062,21 +1024,24 @@ msgid ""
 "The following log will be sent to the issue tracking system where you may "
 "provide additional details."
 msgstr ""
+"Los boletines siguientes serán enviados al sistema de seguimiento de "
+"defectos donde puede proporcionar detalles adicionales."
 
 #: src/components/storage/scenarios/EraseAll.jsx:36
 msgid ""
 "The installation needs $1 of disk space; however, the capacity of the "
 "selected disks is only $0."
 msgstr ""
+"La instalación necesita $1 de espacio del disco; sin embargo, la capacidad "
+"de los discos seleccionados solo es de $0."
 
 #: src/components/Error.jsx:247
 msgid "The installer cannot continue due to a critical error."
 msgstr "El instalador no puede continuar debido a un error crítico."
 
 #: src/components/Error.jsx:246
-#, fuzzy
 msgid "The installer cannot continue due to a critical error: $0"
-msgstr "La instalación no puede continuar y el sistema se reiniciará"
+msgstr "El instalador no puede continuar debido a un error crítico: $0"
 
 #: src/components/storage/DiskEncryption.jsx:56
 msgid ""
@@ -1093,14 +1058,17 @@ msgid ""
 "set up LVM and much more. It is meant to be used as an advanced utility and "
 "not intended to be used in a typical installation."
 msgstr ""
+"El editor de almacenaje le permite redimensionar, borrar y crear "
+"particiones. Puede configurar LVM y mucho más. Esto significa que puede ser "
+"una utilidad avanzada y ni intente usarse en una típica instalación."
 
 #: src/components/users/Accounts.jsx:203
 msgid "This account will have administration privilege with sudo."
-msgstr ""
+msgstr "La cuentas tendrá privilegios de administración con ‘sudo’."
 
 #: src/components/review/Hostname.jsx:71
 msgid "This hostname can't be submitted"
-msgstr ""
+msgstr "Este nombre de hospedaje no pude ser enviado"
 
 #: src/components/AnacondaHeader.jsx:80
 msgid "This is unstable, pre-release software"
@@ -1109,31 +1077,31 @@ msgstr "Este software es previo al lanzamiento e inestable"
 #: src/components/storage/DiskEncryption.jsx:109
 msgid "This layout will be used for unlocking your system on boot"
 msgstr ""
+"Esta distribución será utilizada para desbloquear su sistema al arrancar"
 
 #: src/components/storage/DiskEncryption.jsx:65
 msgid "This may take a moment"
 msgstr "Esto puede tardar un rato"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:595
-#, fuzzy
-#| msgid "This may take a moment"
 msgid "This will take a few moments"
-msgstr "Esto puede tardar un rato"
+msgstr "Esto tomará un poco de rato"
 
 #: src/components/installation/InstallationProgress.jsx:172
 msgid "To begin using $0, reboot your system."
 msgstr "Para comenzar utilizando $0, reinicie sus sistema."
 
 #: src/components/storage/InstallationMethod.jsx:200
-#, fuzzy
 msgid "To continue, select the devices to install to."
-msgstr "No se seleccionó un disco. Seleccione al menos uno en donde instalar."
+msgstr "Para continuar, seleccione los dispositivos para donde instalar."
 
 #: src/components/storage/scenarios/UseFreeSpace.jsx:43
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
 msgstr ""
+"Para utilizar esta opción, redimensione o quite particiones existentes para "
+"liberar al menos $0."
 
 #: src/components/storage/ReclaimSpaceModal.jsx:156
 msgid "Type"
@@ -1141,65 +1109,52 @@ msgstr "Tipo"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:103
 msgid "Unable to schedule deletion of $0"
-msgstr ""
+msgstr "No es capaz de planificar el borrado de $0"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:105
 msgid "Unable to schedule resizing of $0"
-msgstr ""
+msgstr "No es capaz de planificar el redimensionado de $0"
 
 #: src/components/localization/Keyboard.jsx:63
-#, fuzzy
-#| msgid "Unknown Linux"
 msgid "Unknown layout"
-msgstr "Linux desconocido"
+msgstr "Distribución desconocida"
 
 #: src/components/storage/EncryptedDevices.jsx:74
 #: src/components/storage/EncryptedDevices.jsx:156
-#, fuzzy
 msgid "Unlock"
-msgstr "_Desbloquear"
+msgstr "Desbloquear"
 
 #: src/components/storage/EncryptedDevices.jsx:80
 msgid ""
 "Unlock LUKS-encrypted partitions to keep existing data and show more "
 "installation methods."
 msgstr ""
+"Desbloquee particiones cifradas de LUKS para conservar datos existentes y "
+"mostrar más métodos de instalación."
 
 #: src/components/storage/EncryptedDevices.jsx:152
 msgid "Unlock encrypted devices"
 msgstr "Desbloquea dispositivos cifrados"
 
 #: src/components/localization/Keyboard.jsx:110
-#, fuzzy
-#| msgid "Available Layouts"
 msgid "Unusable layout"
-msgstr "Diseños disponibles"
+msgstr "Distribución no utilizable"
 
 #: src/components/storage/scenarios/UseConfiguredStorage.jsx:95
-#, fuzzy
-#| msgid "Configuring storage"
 msgid "Use configured storage"
-msgstr "Configurando almacenamiento"
+msgstr "Utilice el almacenaje configurado"
 
 #: src/components/storage/scenarios/EraseAll.jsx:51
-#, fuzzy
-#| msgid "Selected disks"
 msgid "Use entire disk"
-msgstr "Discos seleccionados"
+msgstr "Utilice el disco completo"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:671
-#, fuzzy
-#| msgid "Use Free Space"
 msgid "Use free space"
-msgstr "Usar el espacio libre"
+msgstr "Utilizar el espacio libre"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:671
-#, fuzzy
-#| msgid "No big enough free space on disks for automatic partitioning"
 msgid "Use the RAID device for automatic partitioning"
-msgstr ""
-"No hay suficiente espacio libre en los discos para un particionamiento "
-"automático"
+msgstr "Utilice el dispositivo RAID para particionamiento automático"
 
 #: src/components/users/Accounts.jsx:224
 msgid "User name"
@@ -1210,12 +1165,12 @@ msgid ""
 "User name may only contain: letters from a-z, digits 0-9, dash $0, period "
 "$1, underscore $2"
 msgstr ""
+"El nombre de usuario solo puede contener: letras desde a-z, dígitos 0-9, "
+"guion $0, punto $1, guión bajo $2"
 
 #: src/components/users/Accounts.jsx:155
-#, fuzzy
-#| msgid "User name is reserved for system: %s"
 msgid "User name must not be a reserved word"
-msgstr "Nombre de usuario reservado para el sistema: %s"
+msgstr "El nombre de usuario no debe ser una palabra reservada"
 
 #: src/components/users/Accounts.jsx:152
 msgid "User names must be shorter than 33 characters"
@@ -1231,21 +1186,25 @@ msgstr "Bienvenido"
 
 #: src/components/AnacondaPage.jsx:80
 msgid "Welcome. Let's install $0 now."
-msgstr ""
+msgstr "Bienvenido/a. Ahora le instalamos $0."
 
 #: src/components/storage/ReclaimSpaceModal.jsx:522
 msgid "Windows partitions with BitLocker encryption cannot be resized"
 msgstr ""
+"Las particiones de Windows con cifrado BitLocker no pueden ser "
+"redimensionadas"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:742
 msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
 msgstr ""
+"Puede liberar suficiente espacio aquí y dejar que el instalador manipule el "
+"resto o configurar manualmente las particiones."
 
 #: src/components/AnacondaWizardFooter.jsx:147
 msgid "Your progress will not be saved."
-msgstr ""
+msgstr "Su progreso no será guardado."
 
 #: src/components/installation/InstallationProgress.jsx:186
 msgid "completed step"
@@ -1258,42 +1217,32 @@ msgstr "paso actual"
 #: src/components/storage/ReclaimSpaceModal.jsx:391
 #: src/components/storage/ReclaimSpaceModal.jsx:404
 #: src/components/review/StorageReview.jsx:142
-#, fuzzy
-#| msgid "Delete"
 msgid "delete"
-msgstr "Eliminar"
+msgstr "eliminar"
 
 #: src/components/review/Hostname.jsx:97
 msgid "edit"
-msgstr ""
+msgstr "editar"
 
 #: src/components/review/StorageReview.jsx:125
-#, fuzzy
-#| msgid "Encrypt"
 msgid "encrypt"
-msgstr "Cifrado"
+msgstr "cifrar"
 
 #: src/components/review/StorageReview.jsx:125
-#, fuzzy
-#| msgid "Encrypt"
 msgid "encrypted"
-msgstr "Cifrado"
+msgstr "cifrado"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:249
-#, fuzzy
-#| msgid "Standard Partition"
 msgid "extended partition"
-msgstr "Partición estándar"
+msgstr "partición expandida"
 
 #: src/components/review/StorageReview.jsx:101
-#, fuzzy
 msgid "format as $0"
-msgstr "Reformatear"
+msgstr "dar formato como $0"
 
 #: src/components/review/StorageReview.jsx:105
-#, fuzzy
 msgid "mount"
-msgstr "Agregar diseño"
+msgstr "montar"
 
 #: src/components/installation/InstallationProgress.jsx:180
 msgid "pending step"
@@ -1301,22 +1250,20 @@ msgstr "paso pendiente"
 
 #: src/components/review/StorageReview.jsx:147
 msgid "resized from $0"
-msgstr ""
+msgstr "redimensionado desde $0"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:467
 #: src/components/storage/ReclaimSpaceModal.jsx:471
-#, fuzzy
-#| msgid "Shrink"
 msgid "shrink"
-msgstr "Reducir"
+msgstr "reducir"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:425
 msgid "shrink to $0"
-msgstr ""
+msgstr "reducir a $0"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:385
 msgid "undo"
-msgstr ""
+msgstr "deshacer"
 
 #~ msgid "Choose a language"
 #~ msgstr "Elija un idioma"
