@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-30 03:28+0000\n"
-"PO-Revision-Date: 2024-12-20 03:01+0000\n"
+"PO-Revision-Date: 2025-03-30 11:23+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/uk/>\n"
@@ -35,7 +35,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.9.1\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: src/components/storage/InstallationDestination.jsx:178
 #: src/components/storage/InstallationDestination.jsx:303
@@ -65,11 +65,8 @@ msgstr ""
 "логічних розділів автоматично вилучить і розширений розділ."
 
 #: src/components/localization/Keyboard.jsx:111
-#, fuzzy
-#| msgid "$0 selected"
-#| msgid_plural "$0 selected"
 msgid "$0 layouts detected"
-msgstr "$0 вибраний"
+msgstr "Виявлено $0 розкладок"
 
 #: src/components/review/StorageReview.jsx:249
 msgid "$0 will be deleted"
@@ -88,6 +85,8 @@ msgid ""
 "'$0' partition on MDRAID device $1 found. Bootloader partitions on MDRAID "
 "devices are not supported."
 msgstr ""
+"Знайдено розділ «$0» на пристрої MDRAID $1. Підтримки розділів завантажувача "
+"на пристроях MDRAID не передбачено."
 
 #: src/components/HeaderKebab.jsx:137
 msgid "About"
@@ -195,7 +194,7 @@ msgstr "Змінити назву вузла"
 
 #: src/components/localization/Keyboard.jsx:123
 msgid "Change system keyboard layout"
-msgstr ""
+msgstr "Змінити загальносистемну розкладку клавіатури"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:211
 msgid ""
@@ -455,6 +454,11 @@ msgid ""
 "filesystem or format (e.g., LVM PV). Any existing partitions on this array "
 "will be ignored."
 msgstr ""
+"Виявлено некоректні налаштування RAID. Якщо ваш масив RAID створено "
+"безпосередньо на основі дисків, на масиві має бути створено таблицю "
+"розділів. Якщо вас масив RAID створено на основі розділів, у ньому має "
+"міститися єдина файлова система або формат (наприклад, PV LVM). Усі наявні "
+"розділи у цьому масиві буде проігноровано."
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
 msgid ""
@@ -470,7 +474,7 @@ msgstr "Клавіатура"
 
 #: src/components/storage/DiskEncryption.jsx:98
 msgid "Keyboard layout during boot"
-msgstr ""
+msgstr "Розкладка клавіатури під час завантаження"
 
 #: src/components/review/ReviewConfiguration.jsx:105
 #: src/components/localization/InstallationLanguage.jsx:311
@@ -519,6 +523,7 @@ msgstr ""
 #: src/components/localization/Keyboard.jsx:92
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
+"Виявлено декілька розкладок. Вилучіть додаткові розкладки, щоб продовжити"
 
 #: src/components/storage/MountPointMapping.jsx:625
 #: src/components/review/StorageReview.jsx:210
@@ -683,14 +688,12 @@ msgid "Reboot"
 msgstr "Перезавантажити"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:524
-#, fuzzy
-#| msgid "Reboot into Windows to resize BitLocker-encrypted partitions. "
 msgid ""
 "Reboot into Windows to resize BitLocker-encrypted partitions. Make at least "
 "$0 of free space available for installation."
 msgstr ""
 "Перезавантажтеся у Windows, щоб змінити розмір зашифрованих BitLocker "
-"розділів. "
+"розділів. Звільніть принаймні $0 для встановлення."
 
 #: src/components/AnacondaWizardFooter.jsx:143
 msgid "Reboot system?"
@@ -758,6 +761,10 @@ msgid ""
 "Resizing a partition can free up unused space, but is not risk-free. Be sure "
 "to have backups of anything important before reclaiming space."
 msgstr ""
+"Вилучення файлової системи призведе до остаточного знищення усіх даних, що "
+"на ній містяться. Зміна розмірів розділу може вивільнити місце, але вона не "
+"є абсолютно безпечною. Переконайтеся, що створено резервні копії усіх "
+"важливих даних до вивільнення місця."
 
 #: src/components/storage/HelpAutopartOptions.jsx:11
 msgid "Replace current installation, but keep files in home."
@@ -982,16 +989,12 @@ msgstr ""
 "зможете надати додаткові подробиці."
 
 #: src/components/storage/scenarios/EraseAll.jsx:36
-#, fuzzy
-#| msgid ""
-#| "There is not enough space on the disks to install. The installation needs "
-#| "$1 of disk space; however, the capacity of the selected disks is only $0."
 msgid ""
 "The installation needs $1 of disk space; however, the capacity of the "
 "selected disks is only $0."
 msgstr ""
-"На дисках недостатньо місця для встановлення. Для встановлення потрібно $1 "
-"місця на дисках; втім, місткість вибраних дисків складає лише $0."
+"Для встановлення потрібно $1 місця на дисках; втім, місткість вибраних "
+"дисків складає лише $0."
 
 #: src/components/Error.jsx:247
 msgid "The installer cannot continue due to a critical error."
@@ -1015,6 +1018,10 @@ msgid ""
 "set up LVM and much more. It is meant to be used as an advanced utility and "
 "not intended to be used in a typical installation."
 msgstr ""
+"За допомогою редактора сховищ даних ви можете змінювати розміри розділів, "
+"вилучати і створювати їх. Редактор може визначати LVM тощо. Ним слід "
+"користуватися як інструментом для досвідчених користувачів, його не "
+"призначено для використання під час стандартного встановлення."
 
 #: src/components/users/Accounts.jsx:203
 msgid "This account will have administration privilege with sudo."
@@ -1033,6 +1040,7 @@ msgstr "Це нестабільне програмне забезпечення 
 #: src/components/storage/DiskEncryption.jsx:109
 msgid "This layout will be used for unlocking your system on boot"
 msgstr ""
+"Цю розкладку буде використано для розблокування системи під час завантаження"
 
 #: src/components/storage/DiskEncryption.jsx:65
 msgid "This may take a moment"
@@ -1071,10 +1079,8 @@ msgid "Unable to schedule resizing of $0"
 msgstr "Не вдалося запланувати зміну розмірів $0"
 
 #: src/components/localization/Keyboard.jsx:63
-#, fuzzy
-#| msgid "Unknown Linux"
 msgid "Unknown layout"
-msgstr "Невідомий Linux"
+msgstr "Невідома розкладка"
 
 #: src/components/storage/EncryptedDevices.jsx:74
 #: src/components/storage/EncryptedDevices.jsx:156
@@ -1094,10 +1100,8 @@ msgid "Unlock encrypted devices"
 msgstr "Розблокувати зашифровані пристрої"
 
 #: src/components/localization/Keyboard.jsx:110
-#, fuzzy
-#| msgid "Available Layouts"
 msgid "Unusable layout"
-msgstr "Доступні розкладки"
+msgstr "Непридатна розкладка"
 
 #: src/components/storage/scenarios/UseConfiguredStorage.jsx:92
 msgid "Use configured storage"
@@ -1108,16 +1112,12 @@ msgid "Use entire disk"
 msgstr "Використати увесь диск"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:693
-#, fuzzy
-#| msgid "Use Free Space"
 msgid "Use free space"
 msgstr "Використати вільне місце"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:693
-#, fuzzy
-#| msgid "No big enough free space on disks for automatic partitioning"
 msgid "Use the RAID device for automatic partitioning"
-msgstr "Не дисках недостатньо вільного місця для автоматичного розподілу"
+msgstr "Використати пристрій RAID для автоматичного поділу на розділи"
 
 #: src/components/users/Accounts.jsx:224
 msgid "User name"
