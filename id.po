@@ -35,7 +35,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-31 03:27+0000\n"
-"PO-Revision-Date: 2025-01-09 22:49+0000\n"
+"PO-Revision-Date: 2025-03-31 20:19+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/id/>\n"
@@ -44,7 +44,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: src/components/storage/InstallationDestination.jsx:178
 #: src/components/storage/InstallationDestination.jsx:303
@@ -75,21 +75,16 @@ msgstr ""
 "diperluas."
 
 #: src/components/localization/Keyboard.jsx:111
-#, fuzzy
-#| msgid "$0 selected"
-#| msgid_plural "$0 selected"
 msgid "$0 layouts detected"
-msgstr "$0 dipilih"
+msgstr "Tata letak $0 terdeteksi"
 
 #: src/components/review/StorageReview.jsx:249
 msgid "$0 will be deleted"
 msgstr "$0 akan dihapus"
 
 #: src/components/storage/MountPointMapping.jsx:209
-#, fuzzy
-#| msgid "'$0' filesystem cannot be on an ecnrypted block device"
 msgid "'$0' filesystem cannot be on an encrypted block device"
-msgstr "sistem berkas '$0' tidak boleh berada pada peranti blok terenkripsi"
+msgstr "Sistem berkas '$0' tidak dapat berada di perangkat blok yang dienkripsi"
 
 #: src/components/storage/MountPointMapping.jsx:203
 msgid "'$0' must be on a device formatted to '$1'"
@@ -100,6 +95,8 @@ msgid ""
 "'$0' partition on MDRAID device $1 found. Bootloader partitions on MDRAID "
 "devices are not supported."
 msgstr ""
+"Partisi '$0' pada perangkat MDRAID $1 ditemukan. Partisi bootloader pada "
+"perangkat MDRAID tidak didukung."
 
 #: src/components/HeaderKebab.jsx:137
 msgid "About"
@@ -119,10 +116,8 @@ msgid "Add mount"
 msgstr "Tambah kait"
 
 #: src/components/localization/InstallationLanguage.jsx:187
-#, fuzzy
-#| msgid "Available languages"
 msgid "Additional languages"
-msgstr "Bahasa yang tersedia"
+msgstr "Bahasa tambahan"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:155
 msgid "All changes made in the storage editor take effect immediately."
@@ -209,7 +204,7 @@ msgstr "Ubah nama host"
 
 #: src/components/localization/Keyboard.jsx:123
 msgid "Change system keyboard layout"
-msgstr ""
+msgstr "Mengubah tata letak keyboard sistem"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:211
 msgid ""
@@ -225,10 +220,8 @@ msgid "Checking storage configuration"
 msgstr "Memeriksa konfigurasi penyimpanan"
 
 #: src/components/localization/InstallationLanguage.jsx:272
-#, fuzzy
-#| msgid "Clear input value"
 msgid "Clear search input"
-msgstr "Bersihkan nilai masukan"
+msgstr "Menghapus input pencarian"
 
 #: src/components/storage/EncryptedDevices.jsx:159
 #: src/components/storage/InstallationDestination.jsx:354
@@ -285,7 +278,7 @@ msgstr "Kesalahan kritis"
 
 #: src/components/storage/InstallationDestination.jsx:101
 msgid "Currently installed: $0"
-msgstr "Saat ini terinstal: $ 0"
+msgstr "Saat ini terinstal: $0"
 
 #: src/components/storage/MountPointMapping.jsx:250
 msgid "Custom"
@@ -300,10 +293,8 @@ msgid "Destination"
 msgstr "Tujuan"
 
 #: src/components/storage/EncryptedDevices.jsx:68
-#, fuzzy
-#| msgid "The container is encrypted."
 msgid "Destination is encrypted"
-msgstr "Kontainer terenkripsi."
+msgstr "Tujuan terenkripsi"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:688
 msgid "Detected valid storage layout:"
@@ -352,10 +343,8 @@ msgstr "Keluar ke live desktop"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:253
 #: src/components/storage/ReclaimSpaceModal.jsx:260
-#, fuzzy
-#| msgid "Recommended partitions:"
 msgid "Extended partition"
-msgstr "Partisi yang disarankan:"
+msgstr "Partisi yang diperluas"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:761
 msgid "Fedora linux requires at least $0 of disk space."
@@ -477,6 +466,11 @@ msgid ""
 "filesystem or format (e.g., LVM PV). Any existing partitions on this array "
 "will be ignored."
 msgstr ""
+"Konfigurasi RAID yang tidak valid terdeteksi. Jika array RAID Anda dibuat "
+"langsung di atas disk, tabel partisi harus dibuat di atas array tersebut. "
+"Jika array RAID Anda dibuat di atas partisi, array tersebut harus berisi "
+"satu sistem berkas atau format (mis., LVM PV). Setiap partisi yang ada pada "
+"array ini akan diabaikan."
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
 msgid ""
@@ -492,7 +486,7 @@ msgstr "Papan Ketik"
 
 #: src/components/storage/DiskEncryption.jsx:98
 msgid "Keyboard layout during boot"
-msgstr ""
+msgstr "Tata letak keyboard selama boot"
 
 #: src/components/review/ReviewConfiguration.jsx:105
 #: src/components/localization/InstallationLanguage.jsx:311
@@ -540,6 +534,8 @@ msgstr ""
 #: src/components/localization/Keyboard.jsx:92
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
+"Lebih dari satu tata letak terdeteksi. Hapus tata letak tambahan untuk "
+"melanjutkan"
 
 #: src/components/storage/MountPointMapping.jsx:625
 #: src/components/review/StorageReview.jsx:210
@@ -705,14 +701,12 @@ msgid "Reboot"
 msgstr "Boot ulang"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:524
-#, fuzzy
-#| msgid "Reboot into Windows to resize BitLocker-encrypted partitions. "
 msgid ""
 "Reboot into Windows to resize BitLocker-encrypted partitions. Make at least "
 "$0 of free space available for installation."
 msgstr ""
-"Mulai ulang ke Windows untuk mengubah ukuran partisi yang dienkripsi "
-"BitLocker. "
+"Mulai ulang Windows untuk mengubah ukuran partisi yang dienkripsi BitLocker. "
+"Sediakan setidaknya $0 ruang kosong untuk instalasi."
 
 #: src/components/AnacondaWizardFooter.jsx:143
 msgid "Reboot system?"
@@ -780,6 +774,10 @@ msgid ""
 "Resizing a partition can free up unused space, but is not risk-free. Be sure "
 "to have backups of anything important before reclaiming space."
 msgstr ""
+"Menghapus sistem berkas akan menghapus semua data yang ada di dalamnya "
+"secara permanen. Mengubah ukuran partisi dapat mengosongkan ruang yang tidak "
+"terpakai, namun tidak bebas risiko. Pastikan Anda memiliki cadangan dari "
+"segala sesuatu yang penting sebelum mengklaim ulang kapasitas."
 
 #: src/components/storage/HelpAutopartOptions.jsx:11
 msgid "Replace current installation, but keep files in home."
@@ -847,10 +845,8 @@ msgid "Scan the QR code with your phone or visit:"
 msgstr "Pindai kode QR dengan telepon Anda atau kunjungi:"
 
 #: src/components/localization/InstallationLanguage.jsx:265
-#, fuzzy
-#| msgid "Choose a language"
 msgid "Search for a language"
-msgstr "Pilih suatu bahasa"
+msgstr "Mencari bahasa"
 
 #: src/components/storage/DiskEncryption.jsx:134
 msgid ""
@@ -944,7 +940,7 @@ msgstr "Editor penyimpanan"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:818
 msgid "Storage editor is available only in the `Installation method` step."
-msgstr ""
+msgstr "Editor penyimpanan hanya tersedia dalam langkah `Metode instalasi`."
 
 #: src/components/storage/HelpAutopartOptions.jsx:13
 msgid "Storage is based on the configuration from 'Modify storage'."
@@ -971,10 +967,8 @@ msgid "Successfully unlocked $0."
 msgstr "Berhasil membuka $0."
 
 #: src/components/localization/InstallationLanguage.jsx:162
-#, fuzzy
-#| msgid "Choose a language"
 msgid "Suggested languages"
-msgstr "Pilih suatu bahasa"
+msgstr "Bahasa yang disarankan"
 
 #: src/components/users/Accounts.jsx:297
 msgid "System"
@@ -1005,6 +999,8 @@ msgid ""
 "The installation needs $1 of disk space; however, the capacity of the "
 "selected disks is only $0."
 msgstr ""
+"Instalasi membutuhkan ruang disk sebesar $1; namun, kapasitas disk yang "
+"dipilih hanya $0."
 
 #: src/components/Error.jsx:247
 msgid "The installer cannot continue due to a critical error."
@@ -1028,6 +1024,10 @@ msgid ""
 "set up LVM and much more. It is meant to be used as an advanced utility and "
 "not intended to be used in a typical installation."
 msgstr ""
+"Editor penyimpanan memungkinkan Anda mengubah ukuran, menghapus, dan membuat "
+"partisi. Selain itu, Anda juga dapat mengatur LVM dan masih banyak lagi. Hal "
+"ini dimaksudkan untuk digunakan sebagai utilitas tingkat lanjut dan tidak "
+"dimaksudkan untuk digunakan dalam instalasi biasa."
 
 #: src/components/users/Accounts.jsx:203
 msgid "This account will have administration privilege with sudo."
@@ -1043,7 +1043,7 @@ msgstr "Ini perangkat lunak pra-rilis yang tidak stabil"
 
 #: src/components/storage/DiskEncryption.jsx:109
 msgid "This layout will be used for unlocking your system on boot"
-msgstr ""
+msgstr "Tata letak ini akan digunakan untuk membuka kunci sistem Anda saat boot"
 
 #: src/components/storage/DiskEncryption.jsx:65
 msgid "This may take a moment"
@@ -1082,10 +1082,8 @@ msgid "Unable to schedule resizing of $0"
 msgstr "Tidak dapat menjadwalkan pengubahan ukuran $0"
 
 #: src/components/localization/Keyboard.jsx:63
-#, fuzzy
-#| msgid "Unknown Linux"
 msgid "Unknown layout"
-msgstr "Linux tidak dikenal"
+msgstr "Tata letak tidak diketahui"
 
 #: src/components/storage/EncryptedDevices.jsx:74
 #: src/components/storage/EncryptedDevices.jsx:156
@@ -1097,16 +1095,16 @@ msgid ""
 "Unlock LUKS-encrypted partitions to keep existing data and show more "
 "installation methods."
 msgstr ""
+"Buka kunci partisi terenkripsi LUKS untuk menyimpan data yang ada dan "
+"menampilkan lebih banyak metode instalasi."
 
 #: src/components/storage/EncryptedDevices.jsx:152
 msgid "Unlock encrypted devices"
 msgstr "Buka kunci perangkat terenkripsi"
 
 #: src/components/localization/Keyboard.jsx:110
-#, fuzzy
-#| msgid "Available Layouts"
 msgid "Unusable layout"
-msgstr "Layout Tersedia"
+msgstr "Tata letak tidak dapat digunakan"
 
 #: src/components/storage/scenarios/UseConfiguredStorage.jsx:92
 msgid "Use configured storage"
@@ -1117,17 +1115,12 @@ msgid "Use entire disk"
 msgstr "Gunakan seluruh disk"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:693
-#, fuzzy
-#| msgid "Use Free Space"
 msgid "Use free space"
-msgstr "Pakai Ruang Bebas"
+msgstr "Gunakan ruang kosong"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:693
-#, fuzzy
-#| msgid "No big enough free space on disks for automatic partitioning"
 msgid "Use the RAID device for automatic partitioning"
-msgstr ""
-"Tidak ada ruang bebas yang cukup besar pada disk untuk pemartisian otomatis"
+msgstr "Gunakan perangkat RAID untuk partisi otomatis"
 
 #: src/components/users/Accounts.jsx:224
 msgid "User name"
@@ -1204,10 +1197,8 @@ msgid "encrypted"
 msgstr "terenkripsi"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:249
-#, fuzzy
-#| msgid "Recommended partitions:"
 msgid "extended partition"
-msgstr "Partisi yang disarankan:"
+msgstr "partisi yang diperluas"
 
 #: src/components/review/StorageReview.jsx:101
 msgid "format as $0"
