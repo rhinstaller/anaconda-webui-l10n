@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-24 03:32+0000\n"
-"PO-Revision-Date: 2025-04-24 14:17+0000\n"
+"PO-Revision-Date: 2025-04-24 16:20+0000\n"
 "Last-Translator: Ondrej Sulek <feonsu@gmail.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/sk/>\n"
@@ -61,36 +61,32 @@ msgid ""
 "$0 is an MBR extended partition that contains logical partitions. Removing "
 "all logical partitions will also automatically remove the extended partition."
 msgstr ""
+"$0 je rozšírený oddiel MBR, ktorý obsahuje logické oddiely. Odstránenie "
+"všetkých logických oddielov automaticky odstráni aj rozšírený oddiel."
 
 #: src/components/localization/Keyboard.jsx:111
-#, fuzzy
-#| msgid "$0 selected"
-#| msgid_plural "$0 selected"
 msgid "$0 layouts detected"
-msgstr "$0 vybraný"
+msgstr "zistených $0 rozložení"
 
 #: src/components/review/StorageReview.jsx:249
-#, fuzzy
-#| msgid "No user will be created"
 msgid "$0 will be deleted"
-msgstr "Nebude vytvorený žiadny používateľ"
+msgstr "$0 bude odstránené"
 
 #: src/components/storage/MountPointMapping.jsx:209
-#, fuzzy
-#| msgid "%s cannot be on an encrypted block device."
 msgid "'$0' filesystem cannot be on an encrypted block device"
-msgstr "%s nemôže byť na zašifrovanom blokovom zariadení."
+msgstr "'$0' nemôže byť na šifrovanom blokovom zariadení"
 
 #: src/components/storage/MountPointMapping.jsx:203
-#, fuzzy
 msgid "'$0' must be on a device formatted to '$1'"
-msgstr "{fs} musí byť na zariadení typu {type}"
+msgstr "'$0' musí byť na zariadení naformátovanom na '$1'"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:489
 msgid ""
 "'$0' partition on MDRAID device $1 found. Bootloader partitions on MDRAID "
 "devices are not supported."
 msgstr ""
+"Na zariadení MDRAID $1 bol nájdený oddiel '$0'. Oddiely zavádzača systému na "
+"zariadeniach MDRAID nie sú podporované."
 
 #: src/components/HeaderKebab.jsx:137
 msgid "About"
@@ -106,23 +102,20 @@ msgid "Actions"
 msgstr "Akcie"
 
 #: src/components/storage/MountPointMapping.jsx:650
-#, fuzzy
 msgid "Add mount"
-msgstr "Pridanie rozloženia"
+msgstr "Pridať bod pripojenia"
 
 #: src/components/localization/InstallationLanguage.jsx:187
-#, fuzzy
-#| msgid "Available languages"
 msgid "Additional languages"
-msgstr "Dostupné jazyky"
+msgstr "Dodatočné jazyky"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:159
 msgid "All changes made in the storage editor take effect immediately."
-msgstr ""
+msgstr "Všetky zmeny vykonané v editore úložiska sa prejavia okamžite."
 
 #: src/components/storage/EncryptedDevices.jsx:149
 msgid "All devices using this passphrase will be unlocked"
-msgstr ""
+msgstr "Všetky zariadenia používajúce toto heslo budú odomknuté"
 
 #: src/manifest.json:0 org.cockpit-project.anaconda-webui.metainfo.xml:5
 msgid "Anaconda"
@@ -141,11 +134,12 @@ msgid ""
 "Anaconda is the OS installer used by Fedora, RHEL, CentOS and other Linux "
 "distributions."
 msgstr ""
+"Anaconda je inštalátor operačného systému používaný v distribúciách Fedora, "
+"RHEL, CentOS a iných Linuxových distribúciách."
 
 #: src/components/HeaderKebab.jsx:103
-#, fuzzy
 msgid "Anaconda project page"
-msgstr "Inštalátor Anaconda"
+msgstr "Stránka projektu Anaconda"
 
 #: src/components/storage/scenarios/MountPointMapping.jsx:63
 #, fuzzy
@@ -156,6 +150,8 @@ msgstr "Použiť konfiguráciu v inštalátore"
 msgid ""
 "Assign partitions to mount points. Useful for pre-configured custom layouts."
 msgstr ""
+"Priradiť oddiely k bodom pripojenia. Užitočné pre predkonfigurované vlastné "
+"rozloženia."
 
 #: src/components/storage/ReclaimSpaceModal.jsx:213
 msgid "Available free space: $0. Installation requires: $1."
@@ -203,6 +199,7 @@ msgstr "Zmeniť systémové rozloženie klávesnice"
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
+"Tu vykonané zmeny okamžite ovplyvnia systém. Neexistuje žiadne 'vrátiť späť'."
 
 #: src/components/storage/DiskEncryption.jsx:61
 #: src/components/storage/CockpitStorageIntegration.jsx:716
@@ -243,9 +240,8 @@ msgstr "Konfiguruje sa úložisko"
 
 #: src/components/storage/DiskEncryption.jsx:120
 #: src/components/users/Accounts.jsx:184 src/components/users/Accounts.jsx:285
-#, fuzzy
 msgid "Confirm passphrase"
-msgstr "_Potvrdenie hesla"
+msgstr "Potvrdenie hesla"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:749
 msgid "Continue"
@@ -304,7 +300,7 @@ msgstr "Cieľ je zašifrovaný"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:788
 msgid "Detected valid storage layout:"
-msgstr ""
+msgstr "Zistené platné rozloženie úložiska:"
 
 #: src/components/storage/MountPointMapping.jsx:626
 #: src/components/review/StorageReview.jsx:206
@@ -363,7 +359,7 @@ msgstr "Štandardný oddiel"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:861
 msgid "Fedora linux requires at least $0 of disk space."
-msgstr ""
+msgstr "Fedora linux vyžaduje aspoň $0 miesta na disku"
 
 #: src/components/installation/InstallationProgress.jsx:158
 msgid "Finalization"
@@ -391,9 +387,8 @@ msgid "Hide confirmed password"
 msgstr "_Potvrdenie hesla"
 
 #: src/components/storage/EncryptedDevices.jsx:188
-#, fuzzy
 msgid "Hide passphrase"
-msgstr "_Potvrdenie hesla"
+msgstr "Skryť heslo"
 
 #: src/components/Password.jsx:216
 #, fuzzy
@@ -474,9 +469,8 @@ msgid "Installation of the system failed: $0"
 msgstr "Inštalácia zlyhala"
 
 #: src/components/review/ReviewConfiguration.jsx:128
-#, fuzzy
 msgid "Installation type"
-msgstr "Inštalácia"
+msgstr "Typ Inštalácie"
 
 #: src/components/installation/InstallationProgress.jsx:136
 msgid "Installing"
@@ -512,9 +506,8 @@ msgstr "Jazyk"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:143
 #: src/components/storage/CockpitStorageIntegration.jsx:908
-#, fuzzy
 msgid "Launch storage editor"
-msgstr "Inštalácia"
+msgstr "Spustiť editor úložiska"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:155
 msgid "Location"
@@ -562,9 +555,8 @@ msgstr "Bod pripojenia"
 
 #: src/components/storage/scenarios/MountPointMapping.jsx:65
 #: src/components/storage/MountPointMapping.jsx:623
-#, fuzzy
 msgid "Mount point assignment"
-msgstr "Bod pripojenia"
+msgstr "Priradenie bodov pripojenia"
 
 #: src/components/Password.jsx:51
 msgid "Must be at least $0 characters"
@@ -633,13 +625,12 @@ msgstr ""
 "ani pre produkčné prostredia."
 
 #: src/components/review/ReviewConfiguration.jsx:94
-#, fuzzy
 msgid "Operating system"
-msgstr "čakajúci krok"
+msgstr "Operačný systém"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:869
 msgid "Partitions (advanced)"
-msgstr ""
+msgstr "Oddiely (pokročilé)"
 
 #: src/components/storage/DiskEncryption.jsx:117
 #: src/components/storage/EncryptedDevices.jsx:172
@@ -650,12 +641,11 @@ msgstr "Heslo"
 
 #: src/components/storage/EncryptedDevices.jsx:130
 msgid "Passphrase did not match any locked device"
-msgstr ""
+msgstr "Heslo sa nezhoduje s žiadnym zamknutým zariadením"
 
 #: src/components/Password.jsx:257
-#, fuzzy
 msgid "Passphrases must match"
-msgstr "Heslá sa nezhodujú."
+msgstr "Heslá sa musia zhodovať"
 
 #: src/components/installation/InstallationProgress.jsx:181
 msgid "Pending"
@@ -667,7 +657,7 @@ msgstr ""
 
 #: src/components/HeaderKebab.jsx:74
 msgid "Powered by Anaconda"
-msgstr ""
+msgstr "Poháňané Anacondou"
 
 #: src/components/AnacondaHeader.jsx:76
 msgid "Pre-release"
@@ -720,10 +710,8 @@ msgid ""
 msgstr ""
 
 #: src/components/review/Hostname.jsx:51
-#, fuzzy
-#| msgid "Host name must be 64 or fewer characters in length."
 msgid "Real hostname must be 64 characters or less"
-msgstr "Názov počítača musí mať menej ako 64 znakov."
+msgstr "Názov počítača musí mať 64 znakov alebo menej"
 
 #: src/components/AnacondaWizardFooter.jsx:108
 #: src/components/AnacondaWizardFooter.jsx:131 src/components/Error.jsx:236
@@ -776,7 +764,7 @@ msgstr ""
 
 #: src/components/storage/CockpitStorageIntegration.jsx:846
 msgid "Recommended partitions:"
-msgstr ""
+msgstr "Odporúčané oddiely:"
 
 #: src/components/storage/MountPointMapping.jsx:411
 #: src/components/storage/MountPointMapping.jsx:627
@@ -815,6 +803,10 @@ msgid ""
 "Resizing a partition can free up unused space, but is not risk-free. Be sure "
 "to have backups of anything important before reclaiming space."
 msgstr ""
+"Odstránenie súborového systému trvalo vymaže všetky údaje, ktoré obsahuje. "
+"Zmena veľkosti oddielu môže uvoľniť nevyužité miesto, ale nie je bez rizika. "
+"Uistite sa, že máte zálohy všetkého dôležitého pred tým, ako získate miesto "
+"späť."
 
 #: src/components/storage/HelpAutopartOptions.jsx:11
 msgid "Replace current installation, but keep files in home."
@@ -835,14 +827,12 @@ msgid ""
 msgstr ""
 
 #: src/components/storage/MountPointMapping.jsx:248
-#, fuzzy
 msgid "Required"
-msgstr "Nevyžaduje sa"
+msgstr "Požadované"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:858
-#, fuzzy
 msgid "Requirements"
-msgstr "Nevyžaduje sa"
+msgstr "Požiadavky"
 
 #: src/components/storage/InstallationDestination.jsx:151
 msgid "Rescan devices"
@@ -869,9 +859,8 @@ msgid "Return to installation"
 msgstr "Inštalácia"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:755
-#, fuzzy
 msgid "Return to storage editor"
-msgstr "Inštalácia"
+msgstr "Návrat do editora úložiska"
 
 #: src/components/review/ReviewConfiguration.jsx:228
 #: src/components/review/ReviewConfiguration.jsx:229
@@ -931,7 +920,7 @@ msgstr "Nastaviť názov počítača"
 
 #: src/components/storage/scenarios/UseFreeSpace.jsx:81
 msgid "Share disk with other operating system"
-msgstr ""
+msgstr "Zdieľať disk s iným operačným systémom"
 
 #: src/components/Password.jsx:243
 #, fuzzy
@@ -939,9 +928,8 @@ msgid "Show confirmed password"
 msgstr "_Potvrdenie hesla"
 
 #: src/components/storage/EncryptedDevices.jsx:188
-#, fuzzy
 msgid "Show passphrase"
-msgstr "_Potvrdenie hesla"
+msgstr "Zobraziť heslo"
 
 #: src/components/Password.jsx:216
 #, fuzzy
@@ -966,7 +954,7 @@ msgstr ""
 
 #: src/components/storage/scenarios/MountPointMapping.jsx:41
 msgid "Some required partitions are missing: $0"
-msgstr ""
+msgstr "Chýbajú niektoré požadované oddiely: $0"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:158
 #, fuzzy
@@ -975,9 +963,8 @@ msgid "Space"
 msgstr "Žiadne miesto"
 
 #: src/components/review/ReviewConfiguration.jsx:135
-#, fuzzy
 msgid "Storage"
-msgstr "Voľby úložiska"
+msgstr "Úložisko"
 
 #: src/components/storage/StorageConfiguration.jsx:123
 #: src/components/storage/StorageConfiguration.jsx:124
@@ -991,9 +978,8 @@ msgid "Storage configuration: Storage is currently being configured."
 msgstr "Konfigurácia úložiska: Momentálne prebieha konfigurácia úložiska."
 
 #: src/components/storage/CockpitStorageIntegration.jsx:134
-#, fuzzy
 msgid "Storage editor"
-msgstr "Inštalácia"
+msgstr "Editor úložiska"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:918
 msgid "Storage editor is available only in the `Installation method` step."
@@ -1013,7 +999,7 @@ msgstr "Prihlásenie k uzlu zlyhalo."
 
 #: src/components/storage/CockpitStorageIntegration.jsx:723
 msgid "Storage requirements not met"
-msgstr ""
+msgstr "Požiadavky na úložisko neboli splnené"
 
 #: src/components/Password.jsx:87
 msgid "Strong"
@@ -1087,6 +1073,9 @@ msgid ""
 "set up LVM and much more. It is meant to be used as an advanced utility and "
 "not intended to be used in a typical installation."
 msgstr ""
+"Editor úložiska umožňuje zmeniť veľkosť, odstrániť a vytvoriť oddiely. "
+"Umožňuje nastaviť LVM a oveľa viac. Je určený na použitie ako pokročilý "
+"nástroj a nie je určený na použitie v typickej inštalácii."
 
 #: src/components/users/Accounts.jsx:203
 msgid "This account will have administration privilege with sudo."
@@ -1133,6 +1122,8 @@ msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
 msgstr ""
+"Aby ste mohli použiť túto možnosť, zmeňte veľkosť alebo odstráňte existujúce "
+"oddiely, aby ste uvoľnili aspoň $0."
 
 #: src/components/storage/ReclaimSpaceModal.jsx:157
 msgid "Type"
@@ -1187,8 +1178,6 @@ msgid "Use entire disk"
 msgstr "Použiť celý disk"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:793
-#, fuzzy
-#| msgid "Use Free Space"
 msgid "Use free space"
 msgstr "Použiť voľné miesto"
 
@@ -1312,7 +1301,7 @@ msgstr ""
 
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
-msgstr ""
+msgstr "späť"
 
 #~ msgid "Choose a language"
 #~ msgstr "Vyberte jazyk"
