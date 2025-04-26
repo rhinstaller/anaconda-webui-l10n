@@ -39,8 +39,8 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-26 03:22+0000\n"
-"PO-Revision-Date: 2025-03-08 20:25+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"PO-Revision-Date: 2025-04-26 12:16+0000\n"
+"Last-Translator: Hugo Costa <hugo.a.costa@outlook.pt>\n"
 "Language-Team: Portuguese <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/pt/>\n"
 "Language: pt\n"
@@ -48,7 +48,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.10.2\n"
+"X-Generator: Weblate 5.11\n"
 
 #: src/components/storage/InstallationDestination.jsx:178
 #: src/components/storage/InstallationDestination.jsx:303
@@ -78,10 +78,8 @@ msgstr ""
 "as partições lógicas também removerá automaticamente a partição estendida."
 
 #: src/components/localization/Keyboard.jsx:111
-#, fuzzy
-#| msgid "Nothing selected"
 msgid "$0 layouts detected"
-msgstr "Nada selecionado"
+msgstr "$0 layouts detectados"
 
 #: src/components/review/StorageReview.jsx:249
 msgid "$0 will be deleted"
@@ -102,6 +100,8 @@ msgid ""
 "'$0' partition on MDRAID device $1 found. Bootloader partitions on MDRAID "
 "devices are not supported."
 msgstr ""
+"Partição '$0' no dispositivo MDRAID '$1' encontrada. Partições do carregador "
+"de arranque em dispositivos MDRAID não são suportadas."
 
 #: src/components/HeaderKebab.jsx:137
 msgid "About"
@@ -210,7 +210,7 @@ msgstr "Alterar o nome de anfitrião"
 
 #: src/components/localization/Keyboard.jsx:123
 msgid "Change system keyboard layout"
-msgstr ""
+msgstr "Alterar o layout de teclado do sistema"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:214
 msgid ""
@@ -472,6 +472,11 @@ msgid ""
 "filesystem or format (e.g., LVM PV). Any existing partitions on this array "
 "will be ignored."
 msgstr ""
+"Configuração de RAID inválida detetada. Se o array RAID for criado "
+"diretamente sobre discos, deverá ser criada uma tabela de partições no "
+"array. Se o array RAID for criado sobre partições, deve conter um único "
+"sistema de ficheiros ou formato (por exemplo, LVM PV). Quaisquer partições "
+"existentes neste array serão ignoradas."
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
 msgid ""
@@ -490,7 +495,7 @@ msgstr "_Teclado"
 
 #: src/components/storage/DiskEncryption.jsx:98
 msgid "Keyboard layout during boot"
-msgstr ""
+msgstr "Layout de teclado durante o arranque"
 
 #: src/components/review/ReviewConfiguration.jsx:105
 #: src/components/localization/InstallationLanguage.jsx:311
@@ -538,7 +543,7 @@ msgstr ""
 
 #: src/components/localization/Keyboard.jsx:92
 msgid "More than one layout detected. Remove additional layouts to proceed"
-msgstr ""
+msgstr "Mais de um layout detetado. Remova os layouts adicionais para continuar"
 
 #: src/components/storage/MountPointMapping.jsx:625
 #: src/components/review/StorageReview.jsx:210
@@ -703,14 +708,12 @@ msgid "Reboot"
 msgstr "Reiniciar"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:525
-#, fuzzy
-#| msgid "Reboot into Windows to resize BitLocker-encrypted partitions. "
 msgid ""
 "Reboot into Windows to resize BitLocker-encrypted partitions. Make at least "
 "$0 of free space available for installation."
 msgstr ""
-"Utilize o Windows para redimensionar partições criptografadas com o "
-"BitLocker. "
+"Reinicie no Windows para redimensionar as partições encriptadas com "
+"BitLocker. Liberte pelo menos $0 de espaço livre para a instalação."
 
 #: src/components/AnacondaWizardFooter.jsx:143
 msgid "Reboot system?"
@@ -778,6 +781,10 @@ msgid ""
 "Resizing a partition can free up unused space, but is not risk-free. Be sure "
 "to have backups of anything important before reclaiming space."
 msgstr ""
+"Remover um sistema de ficheiros irá apagar permanentemente todos os dados "
+"que ele contém. Redimensionar uma partição pode libertar espaço não "
+"utilizado, mas não é isento de riscos. Certifique-se de ter cópias de "
+"segurança de tudo o que for importante antes de recuperar espaço."
 
 #: src/components/storage/HelpAutopartOptions.jsx:11
 msgid "Replace current installation, but keep files in home."
@@ -1002,6 +1009,8 @@ msgid ""
 "The installation needs $1 of disk space; however, the capacity of the "
 "selected disks is only $0."
 msgstr ""
+"A instalação necessita de $1 de espaço em disco; no entanto, a capacidade "
+"dos discos selecionados é apenas $0."
 
 #: src/components/Error.jsx:247
 msgid "The installer cannot continue due to a critical error."
@@ -1025,6 +1034,10 @@ msgid ""
 "set up LVM and much more. It is meant to be used as an advanced utility and "
 "not intended to be used in a typical installation."
 msgstr ""
+"O editor de armazenamento permite redimensionar, eliminar e criar partições. "
+"Pode configurar LVM e muito mais. Destina-se a ser utilizado como uma "
+"ferramenta avançada e não é recomendado para ser usado numa instalação "
+"típica."
 
 #: src/components/users/Accounts.jsx:203
 msgid "This account will have administration privilege with sudo."
@@ -1041,6 +1054,7 @@ msgstr "Este é um software instável de pré-lançamento"
 #: src/components/storage/DiskEncryption.jsx:109
 msgid "This layout will be used for unlocking your system on boot"
 msgstr ""
+"Este layout será utilizado para desbloquear o seu sistema durante o arranque"
 
 #: src/components/storage/DiskEncryption.jsx:65
 msgid "This may take a moment"
@@ -1079,10 +1093,8 @@ msgid "Unable to schedule resizing of $0"
 msgstr "Incapaz de agendar redimensionamento de $0"
 
 #: src/components/localization/Keyboard.jsx:63
-#, fuzzy
-#| msgid "Unknown Linux"
 msgid "Unknown layout"
-msgstr "Linux desconhecido"
+msgstr "Layout desconhecido"
 
 #: src/components/storage/EncryptedDevices.jsx:74
 #: src/components/storage/EncryptedDevices.jsx:156
@@ -1102,10 +1114,8 @@ msgid "Unlock encrypted devices"
 msgstr "Desbloquear dispositivos cifrados"
 
 #: src/components/localization/Keyboard.jsx:110
-#, fuzzy
-#| msgid "Available Layouts"
 msgid "Unusable layout"
-msgstr "Disposições disponíveis"
+msgstr "Layout inutilizável"
 
 #: src/components/storage/scenarios/UseConfiguredStorage.jsx:92
 msgid "Use configured storage"
@@ -1116,17 +1126,12 @@ msgid "Use entire disk"
 msgstr "Usar disco inteiro"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:793
-#, fuzzy
-#| msgid "Use Free Space"
 msgid "Use free space"
-msgstr "UTILIZAR ESPAÇO LIVRE"
+msgstr "Utilizar espaço livre"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:793
-#, fuzzy
-#| msgid "No big enough free space on disks for automatic partitioning"
 msgid "Use the RAID device for automatic partitioning"
-msgstr ""
-"Sem espaço livre o suficiente nos discos para o particionamento automático"
+msgstr "Utilizar o dispositivo RAID para partição automática"
 
 #: src/components/users/Accounts.jsx:224
 msgid "User name"
