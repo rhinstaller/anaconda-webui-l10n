@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-14 03:34+0000\n"
+"POT-Creation-Date: 2025-05-15 03:32+0000\n"
 "PO-Revision-Date: 2025-04-03 15:51+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
@@ -45,9 +45,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
+#: src/components/storage/MountPointMapping.jsx:366
 #: src/components/storage/InstallationDestination.jsx:200
 #: src/components/storage/InstallationDestination.jsx:298
-#: src/components/storage/MountPointMapping.jsx:366
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -68,7 +68,7 @@ msgstr ""
 "loogisten osioiden poistaminen poistaa automaattisesti myös laajennetun "
 "osion."
 
-#: src/components/localization/Keyboard.jsx:111
+#: src/components/localization/Keyboard.jsx:182
 msgid "$0 layouts detected"
 msgstr "$0 asettelua havaittu"
 
@@ -100,16 +100,16 @@ msgstr "Aiheesta"
 msgid "Account"
 msgstr "Tili"
 
-#: src/components/review/StorageReview.jsx:219
 #: src/components/storage/ReclaimSpaceModal.jsx:160
+#: src/components/review/StorageReview.jsx:219
 msgid "Actions"
 msgstr "Toimet"
 
-#: src/components/storage/MountPointMapping.jsx:659
+#: src/components/storage/MountPointMapping.jsx:660
 msgid "Add mount"
 msgstr "Lisää liitos"
 
-#: src/components/localization/InstallationLanguage.jsx:187
+#: src/components/localization/InstallationLanguage.jsx:180
 msgid "Additional languages"
 msgstr "Lisäkielet"
 
@@ -177,10 +177,11 @@ msgstr ""
 "testaustarkoituksiin, ja olet halukas ilmoittamaan mahdollisista ongelmista "
 "parantaaksesi tätä ohjelmistoa."
 
-#: src/components/Error.jsx:271 src/components/review/Hostname.jsx:108
+#: src/components/Error.jsx:271
+#: src/components/storage/CockpitStorageIntegration.jsx:150
 #: src/components/storage/InstallationDestination.jsx:351
 #: src/components/storage/ReclaimSpaceModal.jsx:225
-#: src/components/storage/CockpitStorageIntegration.jsx:150
+#: src/components/review/Hostname.jsx:108
 msgid "Cancel"
 msgstr "Peru"
 
@@ -196,7 +197,7 @@ msgstr "Muuta kohdetta"
 msgid "Change hostname"
 msgstr "Vaihda isäntänimi"
 
-#: src/components/localization/Keyboard.jsx:123
+#: src/components/localization/Keyboard.jsx:194
 msgid "Change system keyboard layout"
 msgstr "Vaihda järjestelmän näppäimistön asettelu"
 
@@ -207,18 +208,24 @@ msgstr ""
 "Täällä tehdyt muutokset vaikuttavat välittömästi järjestelmään. \"Kumoa\" ei "
 "ole."
 
-#: src/components/storage/DiskEncryption.jsx:57
+#: src/components/storage/DiskEncryption.jsx:58
 #: src/components/storage/CockpitStorageIntegration.jsx:720
 #: src/components/storage/CockpitStorageIntegration.jsx:732
 msgid "Checking storage configuration"
 msgstr "Tarkistetaan tallennustilan asetuksia"
 
-#: src/components/localization/InstallationLanguage.jsx:273
+#: src/components/localization/Keyboard.jsx:128
+#, fuzzy
+#| msgid "Clear search input"
+msgid "Clear search"
+msgstr "Tyhjennä hakusyöte"
+
+#: src/components/localization/InstallationLanguage.jsx:251
 msgid "Clear search input"
 msgstr "Tyhjennä hakusyöte"
 
-#: src/components/storage/EncryptedDevices.jsx:161
 #: src/components/storage/InstallationDestination.jsx:356
+#: src/components/storage/EncryptedDevices.jsx:161
 msgid "Close"
 msgstr "Sulje"
 
@@ -241,8 +248,8 @@ msgstr "Määritä tallennustila"
 msgid "Configure storage again"
 msgstr "Määritä tallennustila uudelleen"
 
-#: src/components/storage/DiskEncryption.jsx:116
 #: src/components/users/Accounts.jsx:184 src/components/users/Accounts.jsx:285
+#: src/components/storage/DiskEncryption.jsx:124
 msgid "Confirm passphrase"
 msgstr "Vahvista salalause"
 
@@ -294,8 +301,8 @@ msgstr "Määränpää on salattu"
 msgid "Detected valid storage layout:"
 msgstr "Havaittu kelvollinen tallennusasettelu:"
 
+#: src/components/storage/MountPointMapping.jsx:636
 #: src/components/review/StorageReview.jsx:217
-#: src/components/storage/MountPointMapping.jsx:635
 msgid "Device"
 msgstr "Laite"
 
@@ -311,7 +318,7 @@ msgstr "Monista liitoskohta."
 msgid "Enable root account"
 msgstr "Ota root-tili käyttöön"
 
-#: src/components/storage/DiskEncryption.jsx:80
+#: src/components/storage/DiskEncryption.jsx:83
 msgid "Encrypt my data"
 msgstr "Salaa tietoni"
 
@@ -319,7 +326,7 @@ msgstr "Salaa tietoni"
 msgid "Encrypted"
 msgstr "Salattu"
 
-#: src/components/storage/DiskEncryption.jsx:126
+#: src/components/storage/DiskEncryption.jsx:134
 msgid "Encryption"
 msgstr "Salaus"
 
@@ -340,7 +347,7 @@ msgstr "Poistu reaaliaikaiseen työpöytään"
 msgid "Extended partition"
 msgstr "Laajennettu osio"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:865
+#: src/components/storage/CockpitStorageIntegration.jsx:868
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora Linux vaatii vähintään $0 levytilaa."
 
@@ -407,7 +414,7 @@ msgstr "Ymmärrän, että joitain osioita muutetaan"
 msgid "If empty, hostname will be transient and set by network information."
 msgstr "Jos tyhjänä, isäntänimi on ohimenevä ja verkon tietojen määräämä."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:841
+#: src/components/storage/CockpitStorageIntegration.jsx:844
 msgid "If you are configuring partitions the following are required:"
 msgstr "Jos määrität osioita, seuraavat vaaditaan:"
 
@@ -470,21 +477,21 @@ msgstr ""
 "Säilytä nykyinen levyasettelu ja käytä käytettävissä olevaa tilaa "
 "kaksoiskäynnistykseen toisen käyttöjärjestelmän kanssa."
 
-#: src/components/localization/InstallationLanguage.jsx:327
+#: src/components/localization/InstallationLanguage.jsx:295
 msgid "Keyboard"
 msgstr "Näppäimistö"
 
-#: src/components/storage/DiskEncryption.jsx:94
+#: src/components/storage/DiskEncryption.jsx:95
 msgid "Keyboard layout during boot"
 msgstr "Näppäimistön asettelu käynnistyksen aikana"
 
+#: src/components/localization/InstallationLanguage.jsx:279
 #: src/components/review/ReviewConfiguration.jsx:105
-#: src/components/localization/InstallationLanguage.jsx:310
 msgid "Language"
 msgstr "Kieli"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:143
-#: src/components/storage/CockpitStorageIntegration.jsx:912
+#: src/components/storage/CockpitStorageIntegration.jsx:916
 msgid "Launch storage editor"
 msgstr "Käynnistä tallennusmuokkain"
 
@@ -500,11 +507,11 @@ msgstr "Lukitut laitteet"
 msgid "Log"
 msgstr "Loki"
 
-#: src/components/storage/MountPointMapping.jsx:772
+#: src/components/storage/MountPointMapping.jsx:773
 msgid "Manual disk configuration"
 msgstr "Manuaalinen levyn konfigurointi"
 
-#: src/components/storage/MountPointMapping.jsx:774
+#: src/components/storage/MountPointMapping.jsx:775
 msgid "Manual disk configuration: Mount point mapping"
 msgstr "Manuaalinen levyjen määritys: Liitoskohtien kartoitus"
 
@@ -521,17 +528,17 @@ msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 "Isäntälaitteen ja alalaitteen uudelleenmuotoilun valinta ei vastaa toisiaan."
 
-#: src/components/localization/Keyboard.jsx:92
+#: src/components/localization/Keyboard.jsx:163
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr "Useampi kuin yksi asettelu havaittu. Poista lisäasettelut jatkaaksesi"
 
+#: src/components/storage/MountPointMapping.jsx:635
 #: src/components/review/StorageReview.jsx:221
-#: src/components/storage/MountPointMapping.jsx:634
 msgid "Mount point"
 msgstr "Liitoskohta"
 
+#: src/components/storage/MountPointMapping.jsx:633
 #: src/components/storage/scenarios/MountPointMapping.jsx:65
-#: src/components/storage/MountPointMapping.jsx:632
 msgid "Mount point assignment"
 msgstr "Liitoskohdan määrittely"
 
@@ -559,8 +566,8 @@ msgstr "Verkko ei ole käytettävissä. Määritä verkko ilmoittaaksesi viasta.
 msgid "Next"
 msgstr "Seuraava"
 
+#: src/components/storage/MountPointMapping.jsx:640
 #: src/components/storage/ReclaimSpaceModal.jsx:162
-#: src/components/storage/MountPointMapping.jsx:639
 msgid "No devices"
 msgstr "Ei laiteita"
 
@@ -572,7 +579,7 @@ msgstr "Levyjä ei saatavilla"
 msgid "No disks selected"
 msgstr "Yhtään levyä ei ole valittu"
 
-#: src/components/localization/InstallationLanguage.jsx:205
+#: src/components/localization/InstallationLanguage.jsx:198
 msgid "No results found"
 msgstr "Tuloksia ei löytynyt"
 
@@ -602,14 +609,20 @@ msgstr ""
 msgid "Operating system"
 msgstr "Käyttöjärjestelmä"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:873
+#: src/components/localization/Keyboard.jsx:118
+#, fuzzy
+#| msgid "Keyboard"
+msgid "Other keyboards"
+msgstr "Näppäimistö"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:876
 msgid "Partitions (advanced)"
 msgstr "Osiot (edistynyt)"
 
-#: src/components/storage/DiskEncryption.jsx:113
+#: src/components/users/Accounts.jsx:181 src/components/users/Accounts.jsx:282
+#: src/components/storage/DiskEncryption.jsx:121
 #: src/components/storage/EncryptedDevices.jsx:174
 #: src/components/storage/EncryptedDevices.jsx:181
-#: src/components/users/Accounts.jsx:181 src/components/users/Accounts.jsx:282
 msgid "Passphrase"
 msgstr "Tunnuslause"
 
@@ -645,8 +658,8 @@ msgstr "Raporttia valmistellaan"
 msgid "Proceed with installation"
 msgstr "Jatka asentamista"
 
-#: src/components/AnacondaWizardFooter.jsx:119
-#: src/components/AnacondaWizardFooter.jsx:144 src/components/Error.jsx:237
+#: src/components/Error.jsx:237 src/components/AnacondaWizardFooter.jsx:119
+#: src/components/AnacondaWizardFooter.jsx:144
 msgid "Quit"
 msgstr "Lopeta"
 
@@ -682,8 +695,8 @@ msgstr ""
 msgid "Real hostname must be 64 characters or less"
 msgstr "Oikea isäntänimi saa olla enintään 64 merkkiä pitkä"
 
-#: src/components/AnacondaWizardFooter.jsx:119
-#: src/components/AnacondaWizardFooter.jsx:144 src/components/Error.jsx:237
+#: src/components/Error.jsx:237 src/components/AnacondaWizardFooter.jsx:119
+#: src/components/AnacondaWizardFooter.jsx:144
 msgid "Reboot"
 msgstr "Käynnistä uudelleen"
 
@@ -721,12 +734,12 @@ msgstr "Pyydä tila takaisin (pakollinen)"
 msgid "Recommended"
 msgstr "Suositeltu"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:850
+#: src/components/storage/CockpitStorageIntegration.jsx:853
 msgid "Recommended partitions:"
 msgstr "Suositellut osiot:"
 
 #: src/components/storage/MountPointMapping.jsx:421
-#: src/components/storage/MountPointMapping.jsx:636
+#: src/components/storage/MountPointMapping.jsx:637
 msgid "Reformat"
 msgstr "Alusta uudelleen"
 
@@ -736,7 +749,7 @@ msgid "Reinstall Fedora"
 msgstr "Asenna Fedora uudelleen"
 
 #: src/components/storage/MountPointMapping.jsx:448
-#: src/components/storage/MountPointMapping.jsx:637
+#: src/components/storage/MountPointMapping.jsx:638
 msgid "Remove"
 msgstr "Poista"
 
@@ -790,7 +803,7 @@ msgstr ""
 msgid "Required"
 msgstr "Vaaditaan"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:862
+#: src/components/storage/CockpitStorageIntegration.jsx:865
 msgid "Requirements"
 msgstr "Vaatimukset"
 
@@ -831,11 +844,17 @@ msgstr "Tallenna"
 msgid "Scan the QR code with your phone or visit:"
 msgstr "Skannaa QR-koodi puhelimellasi tai käy:"
 
-#: src/components/localization/InstallationLanguage.jsx:265
+#: src/components/localization/InstallationLanguage.jsx:252
 msgid "Search for a language"
 msgstr "Hae kieli"
 
-#: src/components/storage/DiskEncryption.jsx:130
+#: src/components/localization/Keyboard.jsx:127
+#, fuzzy
+#| msgid "Change system keyboard layout"
+msgid "Search keyboard layout"
+msgstr "Vaihda järjestelmän näppäimistön asettelu"
+
+#: src/components/storage/DiskEncryption.jsx:138
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
@@ -910,10 +929,10 @@ msgstr "Tila"
 msgid "Storage"
 msgstr "Tallennustila"
 
+#: src/components/steps.js:25
 #: src/components/installation/InstallationProgress.jsx:143
 #: src/components/storage/StorageConfiguration.jsx:123
 #: src/components/storage/StorageConfiguration.jsx:124
-#: src/components/steps.js:25
 msgid "Storage configuration"
 msgstr "Tallennustilan määritykset"
 
@@ -925,7 +944,7 @@ msgstr "Tallennustilan määritys: Tallennustilaa konfiguroidaan parhaillaan."
 msgid "Storage editor"
 msgstr "Tallennusmuokkkain"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:922
+#: src/components/storage/CockpitStorageIntegration.jsx:926
 msgid "Storage editor is available only in the `Installation method` step."
 msgstr ""
 "Tallennusmuokkain on käytettävissä vain \"Asennusmenetelmä\"-vaiheessa."
@@ -954,7 +973,13 @@ msgstr "Asennus onnistui"
 msgid "Successfully unlocked $0."
 msgstr "$0:n lukituksen avattu onnistuneesti."
 
-#: src/components/localization/InstallationLanguage.jsx:162
+#: src/components/localization/Keyboard.jsx:110
+#, fuzzy
+#| msgid "Suggested languages"
+msgid "Suggested keyboards"
+msgstr "Ehdotetut kielet"
+
+#: src/components/localization/InstallationLanguage.jsx:155
 msgid "Suggested languages"
 msgstr "Ehdotetut kielet"
 
@@ -998,7 +1023,7 @@ msgstr "Asennuksen jatkaminen ei onnistu kriittisen virheen vuoksi."
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "Asennusprosessia ei voi jatkaa kriittisen virheen vuoksi: $0"
 
-#: src/components/storage/DiskEncryption.jsx:53
+#: src/components/storage/DiskEncryption.jsx:54
 msgid ""
 "The passphrase you have provided contains non-ASCII characters. You may not "
 "be able to switch between keyboard layouts when typing it."
@@ -1029,13 +1054,13 @@ msgstr "Tätä isäntänimeä ei voi lähettää"
 msgid "This is unstable, pre-release software"
 msgstr "Tämä on epävakaa esijulkaisuversio ohjelmistosta"
 
-#: src/components/storage/DiskEncryption.jsx:105
+#: src/components/storage/DiskEncryption.jsx:115
 msgid "This layout will be used for unlocking your system on boot"
 msgstr ""
 "Tätä asettelua käytetään järjestelmän lukituksen avaamiseen käynnistyksen "
 "yhteydessä"
 
-#: src/components/storage/DiskEncryption.jsx:61
+#: src/components/storage/DiskEncryption.jsx:62
 msgid "This may take a moment"
 msgstr "Tämä saattaa kestää hetken"
 
@@ -1071,10 +1096,6 @@ msgstr "$0:n poistoa ei voi ajoittaa"
 msgid "Unable to schedule resizing of $0"
 msgstr "$0:n koon muuttamista ei voi ajoittaa"
 
-#: src/components/localization/Keyboard.jsx:63
-msgid "Unknown layout"
-msgstr "Tuntematon asettelu"
-
 #: src/components/storage/EncryptedDevices.jsx:76
 #: src/components/storage/EncryptedDevices.jsx:158
 msgid "Unlock"
@@ -1092,7 +1113,7 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "Avaa salatut laitteet"
 
-#: src/components/localization/Keyboard.jsx:110
+#: src/components/localization/Keyboard.jsx:181
 msgid "Unusable layout"
 msgstr "Käyttämätön asettelu"
 
@@ -1136,7 +1157,7 @@ msgstr "Käyttäjänimien tulee olla lyhyempiä kuin 33 merkkiä"
 msgid "Weak"
 msgstr "Heikko"
 
-#: src/components/localization/InstallationLanguage.jsx:344
+#: src/components/localization/InstallationLanguage.jsx:313
 msgid "Welcome"
 msgstr "Tervetuloa"
 
@@ -1148,7 +1169,7 @@ msgstr "Tervetuloa. Asennataan nyt $0."
 msgid "Windows partitions with BitLocker encryption cannot be resized"
 msgstr "BitLocker-salauksella olevien Windows-osioiden kokoa ei voi muuttaa"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:868
+#: src/components/storage/CockpitStorageIntegration.jsx:871
 msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
@@ -1168,9 +1189,9 @@ msgstr "suoritettu vaihe"
 msgid "current step"
 msgstr "nykyinen vaihe"
 
-#: src/components/review/StorageReview.jsx:143
 #: src/components/storage/ReclaimSpaceModal.jsx:393
 #: src/components/storage/ReclaimSpaceModal.jsx:406
+#: src/components/review/StorageReview.jsx:143
 msgid "delete"
 msgstr "poista"
 
@@ -1218,6 +1239,9 @@ msgstr "kutista $0:ksi"
 #: src/components/storage/ReclaimSpaceModal.jsx:387
 msgid "undo"
 msgstr "kumoa"
+
+#~ msgid "Unknown layout"
+#~ msgstr "Tuntematon asettelu"
 
 #~ msgid "Choose a language"
 #~ msgstr "Valitse kieli"

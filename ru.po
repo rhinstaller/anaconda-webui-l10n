@@ -52,7 +52,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-14 03:34+0000\n"
+"POT-Creation-Date: 2025-05-15 03:32+0000\n"
 "PO-Revision-Date: 2025-05-10 13:07+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
@@ -70,9 +70,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
+#: src/components/storage/MountPointMapping.jsx:366
 #: src/components/storage/InstallationDestination.jsx:200
 #: src/components/storage/InstallationDestination.jsx:298
-#: src/components/storage/MountPointMapping.jsx:366
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -92,7 +92,7 @@ msgstr ""
 "$0 - это расширенный раздел MBR, содержащий логические разделы. Удаление "
 "всех логических разделов также автоматически удалит расширенный раздел."
 
-#: src/components/localization/Keyboard.jsx:111
+#: src/components/localization/Keyboard.jsx:182
 msgid "$0 layouts detected"
 msgstr "Раскладок обнаружено $0"
 
@@ -125,16 +125,16 @@ msgstr "О программе"
 msgid "Account"
 msgstr "Учетная запись"
 
-#: src/components/review/StorageReview.jsx:219
 #: src/components/storage/ReclaimSpaceModal.jsx:160
+#: src/components/review/StorageReview.jsx:219
 msgid "Actions"
 msgstr "Действия"
 
-#: src/components/storage/MountPointMapping.jsx:659
+#: src/components/storage/MountPointMapping.jsx:660
 msgid "Add mount"
 msgstr "Добавить точку монтирования"
 
-#: src/components/localization/InstallationLanguage.jsx:187
+#: src/components/localization/InstallationLanguage.jsx:180
 msgid "Additional languages"
 msgstr "Дополнительные языки"
 
@@ -202,10 +202,11 @@ msgstr ""
 "намереваетесь использовать его только для тестирования и разработки и готовы "
 "сообщать обо всех ошибках и проблемах, чтобы улучшить эту работу."
 
-#: src/components/Error.jsx:271 src/components/review/Hostname.jsx:108
+#: src/components/Error.jsx:271
+#: src/components/storage/CockpitStorageIntegration.jsx:150
 #: src/components/storage/InstallationDestination.jsx:351
 #: src/components/storage/ReclaimSpaceModal.jsx:225
-#: src/components/storage/CockpitStorageIntegration.jsx:150
+#: src/components/review/Hostname.jsx:108
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -221,7 +222,7 @@ msgstr "Изменить назначение"
 msgid "Change hostname"
 msgstr "Изменить имя узла"
 
-#: src/components/localization/Keyboard.jsx:123
+#: src/components/localization/Keyboard.jsx:194
 msgid "Change system keyboard layout"
 msgstr "Изменить системную раскладку клавиатуры"
 
@@ -232,18 +233,24 @@ msgstr ""
 "Изменения, внесенные здесь, немедленно отразятся на системе. Опции отмены "
 "нет."
 
-#: src/components/storage/DiskEncryption.jsx:57
+#: src/components/storage/DiskEncryption.jsx:58
 #: src/components/storage/CockpitStorageIntegration.jsx:720
 #: src/components/storage/CockpitStorageIntegration.jsx:732
 msgid "Checking storage configuration"
 msgstr "Проверка настроек устройств хранения"
 
-#: src/components/localization/InstallationLanguage.jsx:273
+#: src/components/localization/Keyboard.jsx:128
+#, fuzzy
+#| msgid "Clear search input"
+msgid "Clear search"
+msgstr "Очистить ввод поиска"
+
+#: src/components/localization/InstallationLanguage.jsx:251
 msgid "Clear search input"
 msgstr "Очистить ввод поиска"
 
-#: src/components/storage/EncryptedDevices.jsx:161
 #: src/components/storage/InstallationDestination.jsx:356
+#: src/components/storage/EncryptedDevices.jsx:161
 msgid "Close"
 msgstr "Закрыть"
 
@@ -266,8 +273,8 @@ msgstr "Настройка хранилища"
 msgid "Configure storage again"
 msgstr "Снова настройте хранилище"
 
-#: src/components/storage/DiskEncryption.jsx:116
 #: src/components/users/Accounts.jsx:184 src/components/users/Accounts.jsx:285
+#: src/components/storage/DiskEncryption.jsx:124
 msgid "Confirm passphrase"
 msgstr "Подтвердите парольную фразу"
 
@@ -319,8 +326,8 @@ msgstr "Место назначения зашифровано"
 msgid "Detected valid storage layout:"
 msgstr "Обнаруженая действительная схема хранения:"
 
+#: src/components/storage/MountPointMapping.jsx:636
 #: src/components/review/StorageReview.jsx:217
-#: src/components/storage/MountPointMapping.jsx:635
 msgid "Device"
 msgstr "Устройство"
 
@@ -336,7 +343,7 @@ msgstr "Дублирование точки монтирования."
 msgid "Enable root account"
 msgstr "Включить учётную запись root"
 
-#: src/components/storage/DiskEncryption.jsx:80
+#: src/components/storage/DiskEncryption.jsx:83
 msgid "Encrypt my data"
 msgstr "Зашифровать данные"
 
@@ -344,7 +351,7 @@ msgstr "Зашифровать данные"
 msgid "Encrypted"
 msgstr "Зашифровано"
 
-#: src/components/storage/DiskEncryption.jsx:126
+#: src/components/storage/DiskEncryption.jsx:134
 msgid "Encryption"
 msgstr "Шифрование"
 
@@ -365,7 +372,7 @@ msgstr "Выйти на рабочий стол"
 msgid "Extended partition"
 msgstr "Расширенный раздел"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:865
+#: src/components/storage/CockpitStorageIntegration.jsx:868
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora linux требует не менее $0 дискового пространства."
 
@@ -433,7 +440,7 @@ msgid "If empty, hostname will be transient and set by network information."
 msgstr ""
 "Если пусто, имя узла будет временным и будет задаваться информацией о сети."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:841
+#: src/components/storage/CockpitStorageIntegration.jsx:844
 msgid "If you are configuring partitions the following are required:"
 msgstr "Если Вы настраиваете разделы, необходимо следующее:"
 
@@ -499,21 +506,21 @@ msgstr ""
 "Сохранить текущую схему диска и использовать свободное пространство для "
 "двойной загрузки с другой ОС."
 
-#: src/components/localization/InstallationLanguage.jsx:327
+#: src/components/localization/InstallationLanguage.jsx:295
 msgid "Keyboard"
 msgstr "Клавиатура"
 
-#: src/components/storage/DiskEncryption.jsx:94
+#: src/components/storage/DiskEncryption.jsx:95
 msgid "Keyboard layout during boot"
 msgstr "Раскладка клавиатуры при запуске"
 
+#: src/components/localization/InstallationLanguage.jsx:279
 #: src/components/review/ReviewConfiguration.jsx:105
-#: src/components/localization/InstallationLanguage.jsx:310
 msgid "Language"
 msgstr "Язык"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:143
-#: src/components/storage/CockpitStorageIntegration.jsx:912
+#: src/components/storage/CockpitStorageIntegration.jsx:916
 msgid "Launch storage editor"
 msgstr "Запустить редактор хранилища"
 
@@ -529,11 +536,11 @@ msgstr "Заблокированные устройства"
 msgid "Log"
 msgstr "Журнал"
 
-#: src/components/storage/MountPointMapping.jsx:772
+#: src/components/storage/MountPointMapping.jsx:773
 msgid "Manual disk configuration"
 msgstr "Настройка диска вручную"
 
-#: src/components/storage/MountPointMapping.jsx:774
+#: src/components/storage/MountPointMapping.jsx:775
 msgid "Manual disk configuration: Mount point mapping"
 msgstr "Настройка диска вручную: распределение точек монтирования"
 
@@ -551,19 +558,19 @@ msgstr ""
 "Несоответствие между выбором форматирования родительского и дочернего "
 "устройств."
 
-#: src/components/localization/Keyboard.jsx:92
+#: src/components/localization/Keyboard.jsx:163
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 "Обнаружено более одной раскладки. Удалите дополнительные раскладки, чтобы "
 "продолжить"
 
+#: src/components/storage/MountPointMapping.jsx:635
 #: src/components/review/StorageReview.jsx:221
-#: src/components/storage/MountPointMapping.jsx:634
 msgid "Mount point"
 msgstr "Точка монтирования"
 
+#: src/components/storage/MountPointMapping.jsx:633
 #: src/components/storage/scenarios/MountPointMapping.jsx:65
-#: src/components/storage/MountPointMapping.jsx:632
 msgid "Mount point assignment"
 msgstr "Назначение точки монтирования"
 
@@ -591,8 +598,8 @@ msgstr "Сеть недоступна. Настройте сеть, чтобы �
 msgid "Next"
 msgstr "Далее"
 
+#: src/components/storage/MountPointMapping.jsx:640
 #: src/components/storage/ReclaimSpaceModal.jsx:162
-#: src/components/storage/MountPointMapping.jsx:639
 msgid "No devices"
 msgstr "Нет устройств"
 
@@ -604,7 +611,7 @@ msgstr "Нет доступных дисков"
 msgid "No disks selected"
 msgstr "Ни одного диска не выбрано"
 
-#: src/components/localization/InstallationLanguage.jsx:205
+#: src/components/localization/InstallationLanguage.jsx:198
 msgid "No results found"
 msgstr "Нет результатов"
 
@@ -635,14 +642,20 @@ msgstr ""
 msgid "Operating system"
 msgstr "Операционная система"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:873
+#: src/components/localization/Keyboard.jsx:118
+#, fuzzy
+#| msgid "Keyboard"
+msgid "Other keyboards"
+msgstr "Клавиатура"
+
+#: src/components/storage/CockpitStorageIntegration.jsx:876
 msgid "Partitions (advanced)"
 msgstr "Разделы (расширенный)"
 
-#: src/components/storage/DiskEncryption.jsx:113
+#: src/components/users/Accounts.jsx:181 src/components/users/Accounts.jsx:282
+#: src/components/storage/DiskEncryption.jsx:121
 #: src/components/storage/EncryptedDevices.jsx:174
 #: src/components/storage/EncryptedDevices.jsx:181
-#: src/components/users/Accounts.jsx:181 src/components/users/Accounts.jsx:282
 msgid "Passphrase"
 msgstr "Парольная фраза"
 
@@ -678,8 +691,8 @@ msgstr "Подготовка отчета"
 msgid "Proceed with installation"
 msgstr "Приступить к установке"
 
-#: src/components/AnacondaWizardFooter.jsx:119
-#: src/components/AnacondaWizardFooter.jsx:144 src/components/Error.jsx:237
+#: src/components/Error.jsx:237 src/components/AnacondaWizardFooter.jsx:119
+#: src/components/AnacondaWizardFooter.jsx:144
 msgid "Quit"
 msgstr "Выход"
 
@@ -715,8 +728,8 @@ msgstr ""
 msgid "Real hostname must be 64 characters or less"
 msgstr "Настоящее имя узла должно состоять из 64 символов или меньше"
 
-#: src/components/AnacondaWizardFooter.jsx:119
-#: src/components/AnacondaWizardFooter.jsx:144 src/components/Error.jsx:237
+#: src/components/Error.jsx:237 src/components/AnacondaWizardFooter.jsx:119
+#: src/components/AnacondaWizardFooter.jsx:144
 msgid "Reboot"
 msgstr "Перезагрузка"
 
@@ -754,12 +767,12 @@ msgstr "Освободить пространство (требуется)"
 msgid "Recommended"
 msgstr "Рекомендуется"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:850
+#: src/components/storage/CockpitStorageIntegration.jsx:853
 msgid "Recommended partitions:"
 msgstr "Рекомендуемые разделы:"
 
 #: src/components/storage/MountPointMapping.jsx:421
-#: src/components/storage/MountPointMapping.jsx:636
+#: src/components/storage/MountPointMapping.jsx:637
 msgid "Reformat"
 msgstr "Переформатирование"
 
@@ -769,7 +782,7 @@ msgid "Reinstall Fedora"
 msgstr "Переустановить Fedora"
 
 #: src/components/storage/MountPointMapping.jsx:448
-#: src/components/storage/MountPointMapping.jsx:637
+#: src/components/storage/MountPointMapping.jsx:638
 msgid "Remove"
 msgstr "Удалить"
 
@@ -824,7 +837,7 @@ msgstr ""
 msgid "Required"
 msgstr "Необходимо"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:862
+#: src/components/storage/CockpitStorageIntegration.jsx:865
 msgid "Requirements"
 msgstr "Требования"
 
@@ -865,11 +878,17 @@ msgstr "Сохранить"
 msgid "Scan the QR code with your phone or visit:"
 msgstr "Отсканируйте QR-код с телефона или посетите сайт:"
 
-#: src/components/localization/InstallationLanguage.jsx:265
+#: src/components/localization/InstallationLanguage.jsx:252
 msgid "Search for a language"
 msgstr "Поиск языка"
 
-#: src/components/storage/DiskEncryption.jsx:130
+#: src/components/localization/Keyboard.jsx:127
+#, fuzzy
+#| msgid "Change system keyboard layout"
+msgid "Search keyboard layout"
+msgstr "Изменить системную раскладку клавиатуры"
+
+#: src/components/storage/DiskEncryption.jsx:138
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
@@ -945,10 +964,10 @@ msgstr "Пространство"
 msgid "Storage"
 msgstr "Хранилище"
 
+#: src/components/steps.js:25
 #: src/components/installation/InstallationProgress.jsx:143
 #: src/components/storage/StorageConfiguration.jsx:123
 #: src/components/storage/StorageConfiguration.jsx:124
-#: src/components/steps.js:25
 msgid "Storage configuration"
 msgstr "Конфигурация устройств хранения"
 
@@ -960,7 +979,7 @@ msgstr "Конфигурация хранилища: в настоящее вр�
 msgid "Storage editor"
 msgstr "Редактор хранилища"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:922
+#: src/components/storage/CockpitStorageIntegration.jsx:926
 msgid "Storage editor is available only in the `Installation method` step."
 msgstr "Редактор хранилища доступен только на шаге `Метод установки`."
 
@@ -988,7 +1007,13 @@ msgstr "Установка завершена успешно"
 msgid "Successfully unlocked $0."
 msgstr "Успешно разблокировано $0."
 
-#: src/components/localization/InstallationLanguage.jsx:162
+#: src/components/localization/Keyboard.jsx:110
+#, fuzzy
+#| msgid "Suggested languages"
+msgid "Suggested keyboards"
+msgstr "Предлагаемые языки"
+
+#: src/components/localization/InstallationLanguage.jsx:155
 msgid "Suggested languages"
 msgstr "Предлагаемые языки"
 
@@ -1032,7 +1057,7 @@ msgstr "Установка не может быть продолжена из-з
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "Установка не может быть продолжена из-за критической ошибки: $0"
 
-#: src/components/storage/DiskEncryption.jsx:53
+#: src/components/storage/DiskEncryption.jsx:54
 msgid ""
 "The passphrase you have provided contains non-ASCII characters. You may not "
 "be able to switch between keyboard layouts when typing it."
@@ -1064,12 +1089,12 @@ msgstr "Это имя узла не может быть представлено
 msgid "This is unstable, pre-release software"
 msgstr "Стабильность предварительной версии дистрибутива не гарантируется"
 
-#: src/components/storage/DiskEncryption.jsx:105
+#: src/components/storage/DiskEncryption.jsx:115
 msgid "This layout will be used for unlocking your system on boot"
 msgstr ""
 "Эта раскладка будет использоваться для разблокировки системы при запуске"
 
-#: src/components/storage/DiskEncryption.jsx:61
+#: src/components/storage/DiskEncryption.jsx:62
 msgid "This may take a moment"
 msgstr "Это может занять некоторое время"
 
@@ -1105,10 +1130,6 @@ msgstr "Невозможно запланировать удаление $0"
 msgid "Unable to schedule resizing of $0"
 msgstr "Невозможно запланировать изменение размера $0"
 
-#: src/components/localization/Keyboard.jsx:63
-msgid "Unknown layout"
-msgstr "Неизвестная раскладка"
-
 #: src/components/storage/EncryptedDevices.jsx:76
 #: src/components/storage/EncryptedDevices.jsx:158
 msgid "Unlock"
@@ -1126,7 +1147,7 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "Разблокировать зашифрованые устройства"
 
-#: src/components/localization/Keyboard.jsx:110
+#: src/components/localization/Keyboard.jsx:181
 msgid "Unusable layout"
 msgstr "Непригодная раскладка"
 
@@ -1170,7 +1191,7 @@ msgstr "Имена пользователей должны быть короче
 msgid "Weak"
 msgstr "Простой"
 
-#: src/components/localization/InstallationLanguage.jsx:344
+#: src/components/localization/InstallationLanguage.jsx:313
 msgid "Welcome"
 msgstr "Приветствие"
 
@@ -1183,7 +1204,7 @@ msgid "Windows partitions with BitLocker encryption cannot be resized"
 msgstr ""
 "Разделы Windows с шифрованием BitLocker не могут быть изменены в размере"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:868
+#: src/components/storage/CockpitStorageIntegration.jsx:871
 msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
@@ -1203,9 +1224,9 @@ msgstr "завершённый шаг"
 msgid "current step"
 msgstr "текущий шаг"
 
-#: src/components/review/StorageReview.jsx:143
 #: src/components/storage/ReclaimSpaceModal.jsx:393
 #: src/components/storage/ReclaimSpaceModal.jsx:406
+#: src/components/review/StorageReview.jsx:143
 msgid "delete"
 msgstr "удалить"
 
@@ -1253,6 +1274,9 @@ msgstr "уменьшить до $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:387
 msgid "undo"
 msgstr "отменить"
+
+#~ msgid "Unknown layout"
+#~ msgstr "Неизвестная раскладка"
 
 #~ msgid "Choose a language"
 #~ msgstr "Выберите язык"
