@@ -36,7 +36,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-30 03:34+0000\n"
-"PO-Revision-Date: 2025-05-30 15:04+0000\n"
+"PO-Revision-Date: 2025-05-30 15:56+0000\n"
 "Last-Translator: Marvin Parlevliet <mrvnp@msn.com>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/nl/>\n"
@@ -211,6 +211,8 @@ msgstr "Verander systeemtoetsenbordindeling"
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
+"Veranderingen die hier gemaakt worden, zullen direct toegepast worden op het "
+"systeem. Er is geen 'ongedaan maken'."
 
 #: src/components/storage/DiskEncryption.jsx:58
 #: src/components/storage/CockpitStorageIntegration.jsx:675
@@ -219,16 +221,12 @@ msgid "Checking storage configuration"
 msgstr "Bezig met controleren van opslagconfiguratie"
 
 #: src/components/localization/Keyboard.jsx:128
-#, fuzzy
-#| msgid "Clear input value"
 msgid "Clear search"
-msgstr "Invoerwaarde wissen"
+msgstr "Zoekopdracht wissen"
 
 #: src/components/localization/InstallationLanguage.jsx:251
-#, fuzzy
-#| msgid "Clear input value"
 msgid "Clear search input"
-msgstr "Invoerwaarde wissen"
+msgstr "Zoekopdracht wissen"
 
 #: src/components/storage/InstallationDestination.jsx:356
 #: src/components/storage/EncryptedDevices.jsx:161
@@ -239,22 +237,20 @@ msgstr "Sluiten"
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
+"Cockpit-opslag heeft geen wachtwoordzin verstrekt om het versleutelde "
+"apparaat te ontgrendelen."
 
 #: src/components/installation/InstallationProgress.jsx:189
 msgid "Completed"
 msgstr "Voltooid"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:202
-#, fuzzy
-#| msgid "Configuring storage"
 msgid "Configure storage"
-msgstr "Configuratie-opslag"
+msgstr "Opslag configureren"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:723
-#, fuzzy
-#| msgid "Configuring storage"
 msgid "Configure storage again"
-msgstr "Configuratie-opslag"
+msgstr "Opslag opnieuw configureren"
 
 #: src/components/users/Accounts.jsx:184 src/components/users/Accounts.jsx:285
 #: src/components/storage/DiskEncryption.jsx:124
@@ -270,33 +266,24 @@ msgid "Continue installation"
 msgstr "Installatie vervolgen"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:684
-#, fuzzy
-#| msgid "Continue installation"
 msgid "Continue with installation"
-msgstr "Installatie vervolgen"
+msgstr "Verdergaan met installatie"
 
 #: src/components/users/Accounts.jsx:358
-#, fuzzy
-#| msgctxt "GUI|Spoke"
-#| msgid "_Root Account"
 msgid "Create Account"
-msgstr "_Rootaccount"
+msgstr "Account Aanmaken"
 
 #: src/components/users/Accounts.jsx:201
-#, fuzzy
-#| msgid "Lock root account"
 msgid "Create account"
-msgstr "Root-account vergrendelen"
+msgstr "Account aanmaken"
 
 #: src/components/Error.jsx:256
 msgid "Critical error"
 msgstr "Kritische fout"
 
 #: src/components/storage/InstallationDestination.jsx:103
-#, fuzzy
-#| msgid "Current host name:"
 msgid "Currently installed: $0"
-msgstr "Huidige hostnaam:"
+msgstr "Momenteel geïnstalleerd: $0"
 
 #: src/components/storage/MountPointMapping.jsx:248
 msgid "Custom"
@@ -305,16 +292,16 @@ msgstr "Aangepast"
 #: src/components/review/StorageReview.jsx:318
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
+"Het verwijderen van bepaalde partities kan ervoor zorgen dat $0 niet opstart:"
+" $1"
 
 #: src/components/storage/InstallationDestination.jsx:285
 msgid "Destination"
 msgstr "Bestemming"
 
 #: src/components/storage/EncryptedDevices.jsx:70
-#, fuzzy
-#| msgid "The container is encrypted."
 msgid "Destination is encrypted"
-msgstr "De container is versleuteld."
+msgstr "Bestemming is versleuteld"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:747
 msgid "Detected valid storage layout:"
@@ -345,10 +332,8 @@ msgid "Encrypt my data"
 msgstr "Versleutel mijn data"
 
 #: src/components/review/StorageReview.jsx:220
-#, fuzzy
-#| msgid "Encrypt"
 msgid "Encrypted"
-msgstr "Versleutelen"
+msgstr "Versleuteld"
 
 #: src/components/storage/DiskEncryption.jsx:134
 msgid "Encryption"
@@ -363,21 +348,17 @@ msgid "Error details"
 msgstr "Foutdetails"
 
 #: src/components/installation/InstallationProgress.jsx:232
-#, fuzzy
-#| msgid "Low profile desktop"
 msgid "Exit to live desktop"
-msgstr "Bureaublad met laag profiel"
+msgstr "Afsluiten naar live desktop"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:254
 #: src/components/storage/ReclaimSpaceModal.jsx:261
-#, fuzzy
-#| msgid "Standard Partition"
 msgid "Extended partition"
-msgstr "Standaardpartitie"
+msgstr "Uitgebreide partitie"
 
 #: src/components/storage/CockpitStorageIntegration.jsx:820
 msgid "Fedora linux requires at least $0 of disk space."
-msgstr ""
+msgstr "Fedora Linux heeft minstens $0 schijfruimte nodig."
 
 #: src/components/installation/InstallationProgress.jsx:158
 msgid "Finalization"
@@ -424,20 +405,22 @@ msgstr "Hoe wil je installeren?"
 
 #: src/components/review/ReviewConfiguration.jsx:171
 msgid "I understand that all existing data will be erased"
-msgstr ""
+msgstr "Ik begrijp dat alle bestaande data wordt verwijderd"
 
 #: src/components/review/ReviewConfiguration.jsx:172
 msgid ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr ""
+"Ik begrijp dat alle bestaande data wordt verwijderd van de geselecteerde "
+"schijven"
 
 #: src/components/review/ReviewConfiguration.jsx:176
 msgid "I understand that some existing data will be erased"
-msgstr ""
+msgstr "Ik begrijp dat sommige bestaande data zal worden verwijderd"
 
 #: src/components/review/ReviewConfiguration.jsx:177
 msgid "I understand that some partitions will be modified"
-msgstr ""
+msgstr "Ik begrijp dat sommige partities worden gewijzigd"
 
 #: src/components/review/Hostname.jsx:142
 msgid "If empty, hostname will be transient and set by network information."
@@ -458,10 +441,8 @@ msgid "In progress"
 msgstr "Bezig"
 
 #: src/components/app.jsx:45
-#, fuzzy
-#| msgid "Installing."
 msgid "Initializing..."
-msgstr "Bezig met installleren."
+msgstr "Initialiseren..."
 
 #: src/components/storage/scenarios/UseFreeSpace.jsx:105
 #: src/components/storage/scenarios/UseConfiguredStorage.jsx:104
@@ -470,7 +451,7 @@ msgstr "Installeren"
 
 #: src/components/installation/InstallationProgress.jsx:134
 msgid "Installation failed"
-msgstr "Installatie mislukte"
+msgstr "Installatie mislukt"
 
 #: src/components/storage/InstallationMethod.jsx:229
 msgid "Installation method"
@@ -478,7 +459,7 @@ msgstr "Installatiemethode"
 
 #: src/components/installation/InstallationProgress.jsx:99
 msgid "Installation of the system failed: $0"
-msgstr "Installatie van het systeem mislukte: $0"
+msgstr "Installatie van het systeem mislukt: $0"
 
 #: src/components/review/ReviewConfiguration.jsx:128
 msgid "Installation type"
@@ -496,15 +477,19 @@ msgid ""
 "filesystem or format (e.g., LVM PV). Any existing partitions on this array "
 "will be ignored."
 msgstr ""
+"Ongeldige RAID-configuratie gedetecteerd. Als de RAID-array direct op "
+"schijven aangemaakt is, dient er een partitietabel te worden aangemaakt op "
+"de array. Als de RAID-array aangemaakt is op de partities, dient deze één "
+"bestandssysteem of formaat te bevatten (bijv. LVM PV). Alle bestaande "
+"partities op dit array worden genegeerd."
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
-#, fuzzy
-#| msgid "Keep current disk layout and only install into available space."
 msgid ""
 "Keep current disk layout and use available space, to dual-boot with another "
 "OS."
 msgstr ""
-"Behoud de huidige schijfindeling en installeer alleen in beschikbare ruimte."
+"Behoud de huidige schijfindeling en installeer alleen in beschikbare ruimte, "
+"om te dual-booten met een ander OS."
 
 #: src/components/localization/InstallationLanguage.jsx:295
 msgid "Keyboard"
@@ -512,7 +497,7 @@ msgstr "Toetsenbord"
 
 #: src/components/storage/DiskEncryption.jsx:95
 msgid "Keyboard layout during boot"
-msgstr ""
+msgstr "Toetsenbordindeling tijdens het opstarten"
 
 #: src/components/localization/InstallationLanguage.jsx:279
 #: src/components/review/ReviewConfiguration.jsx:105
@@ -546,7 +531,7 @@ msgstr "Handmatige schijfconfiguratie: aankoppelpunttoewijzing"
 
 #: src/components/review/Hostname.jsx:139
 msgid "May contain letters, numbers, and dashes."
-msgstr ""
+msgstr "Kan letters, nummers en koppeltekens bevatten."
 
 #: src/components/Password.jsx:76
 msgid "Medium"
@@ -561,6 +546,8 @@ msgstr ""
 #: src/components/localization/Keyboard.jsx:163
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
+"Meer dan één indeling gedetecteerd. Verwijder aanvullende indelingen om door "
+"te gaan"
 
 #: src/components/storage/MountPointMapping.jsx:635
 #: src/components/review/StorageReview.jsx:221
@@ -605,10 +592,8 @@ msgid "No devices"
 msgstr "Geen apparaten"
 
 #: src/components/storage/InstallationDestination.jsx:162
-#, fuzzy
-#| msgid "not available"
 msgid "No disks available"
-msgstr "niet beschikbaar"
+msgstr "Geen schijven beschikbaar"
 
 #: src/components/storage/InstallationDestination.jsx:291
 msgid "No disks selected"
@@ -627,10 +612,8 @@ msgid "Not enough space on selected disks."
 msgstr "Onvoldoende ruimte op de geselecteerde schijven."
 
 #: src/components/review/StorageReview.jsx:362
-#, fuzzy
-#| msgid "Notebook"
 msgid "Note"
-msgstr "Notitieboek"
+msgstr "Opmerking"
 
 #: src/components/AnacondaHeader.jsx:85
 msgid ""
