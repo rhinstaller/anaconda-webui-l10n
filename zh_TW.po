@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-30 03:34+0000\n"
+"POT-Creation-Date: 2025-05-31 03:32+0000\n"
 "PO-Revision-Date: 2025-04-01 07:35+0000\n"
 "Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -53,9 +53,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/MountPointMapping.jsx:366
 #: src/components/storage/InstallationDestination.jsx:200
 #: src/components/storage/InstallationDestination.jsx:298
+#: src/components/storage/MountPointMapping.jsx:366
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -107,8 +107,8 @@ msgstr "關於"
 msgid "Account"
 msgstr "帳號"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:160
 #: src/components/review/StorageReview.jsx:219
+#: src/components/storage/ReclaimSpaceModal.jsx:160
 msgid "Actions"
 msgstr "動作"
 
@@ -179,11 +179,10 @@ msgstr ""
 "繼續使用此軟體，即表示您了解並接受與預發佈軟體相關的風險，您打算僅將其用於測"
 "試和開發目的，並願意報告任何錯誤或問題以改進此軟體。"
 
-#: src/components/Error.jsx:271
-#: src/components/storage/CockpitStorageIntegration.jsx:148
-#: src/components/storage/InstallationDestination.jsx:351
+#: src/components/review/Hostname.jsx:108 src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
-#: src/components/review/Hostname.jsx:108
+#: src/components/storage/InstallationDestination.jsx:351
+#: src/components/storage/CockpitStorageIntegration.jsx:148
 msgid "Cancel"
 msgstr "取消"
 
@@ -224,8 +223,8 @@ msgstr "清空搜尋欄"
 msgid "Clear search input"
 msgstr "清空搜尋欄"
 
-#: src/components/storage/InstallationDestination.jsx:356
 #: src/components/storage/EncryptedDevices.jsx:161
+#: src/components/storage/InstallationDestination.jsx:356
 msgid "Close"
 msgstr "關閉"
 
@@ -299,8 +298,8 @@ msgstr "目的地已加密"
 msgid "Detected valid storage layout:"
 msgstr "已偵測到有效的儲存空間佈局："
 
-#: src/components/storage/MountPointMapping.jsx:636
 #: src/components/review/StorageReview.jsx:217
+#: src/components/storage/MountPointMapping.jsx:636
 msgid "Device"
 msgstr "裝置"
 
@@ -477,8 +476,8 @@ msgstr "鍵盤"
 msgid "Keyboard layout during boot"
 msgstr "開機時的鍵盤配置"
 
-#: src/components/localization/InstallationLanguage.jsx:279
 #: src/components/review/ReviewConfiguration.jsx:105
+#: src/components/localization/InstallationLanguage.jsx:279
 msgid "Language"
 msgstr "語言"
 
@@ -523,13 +522,13 @@ msgstr "父裝置與子裝置的重新格式化選擇不匹配。"
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr "偵測到多於一個佈局。 請移除其他佈局以繼續"
 
-#: src/components/storage/MountPointMapping.jsx:635
 #: src/components/review/StorageReview.jsx:221
+#: src/components/storage/MountPointMapping.jsx:635
 msgid "Mount point"
 msgstr "掛載點"
 
-#: src/components/storage/MountPointMapping.jsx:633
 #: src/components/storage/scenarios/MountPointMapping.jsx:91
+#: src/components/storage/MountPointMapping.jsx:633
 msgid "Mount point assignment"
 msgstr "掛載點分配"
 
@@ -555,8 +554,8 @@ msgstr "網路不可用。 設定網路以回報問題。"
 msgid "Next"
 msgstr "下一步"
 
-#: src/components/storage/MountPointMapping.jsx:640
 #: src/components/storage/ReclaimSpaceModal.jsx:162
+#: src/components/storage/MountPointMapping.jsx:640
 msgid "No devices"
 msgstr "沒有裝置"
 
@@ -646,8 +645,8 @@ msgstr "準備報告"
 msgid "Proceed with installation"
 msgstr "繼續安裝"
 
-#: src/components/Error.jsx:237 src/components/AnacondaWizardFooter.jsx:119
-#: src/components/AnacondaWizardFooter.jsx:144
+#: src/components/AnacondaWizardFooter.jsx:119
+#: src/components/AnacondaWizardFooter.jsx:144 src/components/Error.jsx:237
 msgid "Quit"
 msgstr "退出"
 
@@ -681,8 +680,8 @@ msgstr "真實主機名稱只能包含字母、數字、連字號（不可作為
 msgid "Real hostname must be 64 characters or less"
 msgstr "真實主機名稱長度必須為 64 個或更少個字元"
 
-#: src/components/Error.jsx:237 src/components/AnacondaWizardFooter.jsx:119
-#: src/components/AnacondaWizardFooter.jsx:144
+#: src/components/AnacondaWizardFooter.jsx:119
+#: src/components/AnacondaWizardFooter.jsx:144 src/components/Error.jsx:237
 msgid "Reboot"
 msgstr "重新開機"
 
@@ -905,8 +904,8 @@ msgstr "空間"
 msgid "Storage"
 msgstr "儲存"
 
-#: src/components/steps.js:25
 #: src/components/installation/InstallationProgress.jsx:143
+#: src/components/steps.js:25
 #: src/components/storage/StorageConfiguration.jsx:117
 #: src/components/storage/StorageConfiguration.jsx:118
 msgid "Storage configuration"
@@ -1146,9 +1145,9 @@ msgstr "完成步驟"
 msgid "current step"
 msgstr "目前步驟"
 
+#: src/components/review/StorageReview.jsx:143
 #: src/components/storage/ReclaimSpaceModal.jsx:392
 #: src/components/storage/ReclaimSpaceModal.jsx:405
-#: src/components/review/StorageReview.jsx:143
 msgid "delete"
 msgstr "刪除"
 
