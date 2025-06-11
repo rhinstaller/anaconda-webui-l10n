@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-10 03:39+0000\n"
+"POT-Creation-Date: 2025-06-11 03:39+0000\n"
 "PO-Revision-Date: 2025-05-15 08:08+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -68,7 +68,7 @@ msgstr "ფაილური სისტემა '$0' დაშიფრუ�
 msgid "'$0' must be on a device formatted to '$1'"
 msgstr "'$0' '$1'-ით დაფორმატებულ მოწყობილობაზე უნდა იყოს"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:491
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:252
 msgid ""
 "'$0' partition on MDRAID device $1 found. Bootloader partitions on MDRAID "
 "devices are not supported."
@@ -84,8 +84,8 @@ msgstr "შესახებ"
 msgid "Account"
 msgstr "ანგარიში"
 
-#: src/components/review/StorageReview.jsx:219
 #: src/components/storage/ReclaimSpaceModal.jsx:160
+#: src/components/review/StorageReview.jsx:219
 msgid "Actions"
 msgstr "ქმედებები"
 
@@ -97,7 +97,7 @@ msgstr "მიმაგრების დამატება"
 msgid "Additional languages"
 msgstr "დამატებითი ენები"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:157
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
 msgid "All changes made in the storage editor take effect immediately."
 msgstr "საცავის რედაქტორში შეტანილი ცვლილებები ძალაში დაუყოვნებლივ შევა."
 
@@ -160,10 +160,11 @@ msgstr ""
 "ტესტირებისთვის და მზად ხართ, გამოგვიგზავნოთ ანგარიში ნებისმიერი შეცდომის "
 "შესახებ."
 
-#: src/components/review/Hostname.jsx:108 src/components/Error.jsx:271
+#: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
 #: src/components/storage/InstallationDestination.jsx:351
-#: src/components/storage/CockpitStorageIntegration.jsx:148
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
+#: src/components/review/Hostname.jsx:108
 msgid "Cancel"
 msgstr "გაუქმება"
 
@@ -183,7 +184,7 @@ msgstr "ჰოსტის სახელის დაყენება"
 msgid "Change system keyboard layout"
 msgstr "სისტემის კლავიატურის განლაგების შეცვლა"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:215
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:172
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
@@ -191,8 +192,8 @@ msgstr ""
 "შეუქცევადია."
 
 #: src/components/storage/DiskEncryption.jsx:58
-#: src/components/storage/CockpitStorageIntegration.jsx:675
-#: src/components/storage/CockpitStorageIntegration.jsx:687
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:441
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:447
 msgid "Checking storage configuration"
 msgstr "საცავის კონფიგურაციის შემოწმება"
 
@@ -209,7 +210,7 @@ msgstr "შეყვანილი ძებნის გასუფთავ�
 msgid "Close"
 msgstr "დაკეტვა"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:438
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:296
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
@@ -220,11 +221,11 @@ msgstr ""
 msgid "Completed"
 msgstr "დასრულებულია"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:202
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:159
 msgid "Configure storage"
 msgstr "საცავის მორგება"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:723
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:595
 msgid "Configure storage again"
 msgstr "საცავის თავიდან მორგება"
 
@@ -233,7 +234,7 @@ msgstr "საცავის თავიდან მორგება"
 msgid "Confirm passphrase"
 msgstr "დაადასტურეთ საკვანძო ფრაზა"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:708
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:580
 msgid "Continue"
 msgstr "გაგრძელება"
 
@@ -241,7 +242,7 @@ msgstr "გაგრძელება"
 msgid "Continue installation"
 msgstr "დაყენებს გაგრძელება"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:684
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:561
 msgid "Continue with installation"
 msgstr "დაყენების გაგრძელება"
 
@@ -277,12 +278,12 @@ msgstr "სამიზნე"
 msgid "Destination is encrypted"
 msgstr "სამიზნე დაშიფრულია"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:747
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:615
 msgid "Detected valid storage layout:"
 msgstr "აღმოჩენილია სწორი საცავის განლაგება:"
 
-#: src/components/review/StorageReview.jsx:217
 #: src/components/storage/MountPointMapping.jsx:639
+#: src/components/review/StorageReview.jsx:217
 msgid "Device"
 msgstr "მოწყობილობა"
 
@@ -327,7 +328,7 @@ msgstr "გასვლა ცოცხალ სამუშაო მაგი
 msgid "Extended partition"
 msgstr "გაფართოებული განაყოფი"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:820
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:98
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora linux-ს დისკზე მინიმუმ $0 ადგილი სჭირდება."
 
@@ -368,7 +369,7 @@ msgstr "პაროლის დამალვა"
 msgid "Hostname"
 msgstr "ჰოსტის სახელი"
 
-#: src/components/storage/InstallationScenario.jsx:162
+#: src/components/storage/InstallationScenario.jsx:160
 msgid "How would you like to install?"
 msgstr "როგორ გნებავთ, დააყენოთ?"
 
@@ -395,7 +396,7 @@ msgstr ""
 "თუ ცარიელია, ჰოსტის სახელი ცვლადი იქნება და დაყენდება ქსელის ინფორმაციის "
 "მიერ."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:796
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:74
 msgid "If you are configuring partitions the following are required:"
 msgstr "თუ ირგებთ დანაყოფებს, აუცილებელია შემდეგი:"
 
@@ -415,8 +416,8 @@ msgstr "მიმდინარეობს"
 msgid "Initializing..."
 msgstr "ინიციალიზაცია..."
 
+#: src/components/storage/scenarios/UseConfiguredStorage.jsx:101
 #: src/components/storage/scenarios/UseFreeSpace.jsx:105
-#: src/components/storage/scenarios/UseConfiguredStorage.jsx:104
 msgid "Install"
 msgstr "დაყენება"
 
@@ -440,7 +441,7 @@ msgstr "დაყენების ტიპი"
 msgid "Installing"
 msgstr "დაყენება"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:396
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
 "Invalid RAID configuration detected. If your RAID array is created directly "
 "on top of disks, a partition table must be created on the array. If your "
@@ -470,13 +471,13 @@ msgstr "კლავიატურა"
 msgid "Keyboard layout during boot"
 msgstr "კლავიატურის განლაგება ჩატვირთვისას"
 
-#: src/components/review/ReviewConfiguration.jsx:105
 #: src/components/localization/InstallationLanguage.jsx:279
+#: src/components/review/ReviewConfiguration.jsx:105
 msgid "Language"
 msgstr "ენა"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:141
-#: src/components/storage/CockpitStorageIntegration.jsx:867
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:98
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:226
 msgid "Launch storage editor"
 msgstr "საცავის რედაქტორის გაშვება"
 
@@ -520,8 +521,8 @@ msgstr ""
 "აღმოჩენილია ერთზე მეტი განლაგება. გასაგრძელებლად წაშალეთ დამატებითი "
 "განლაგებები"
 
-#: src/components/review/StorageReview.jsx:221
 #: src/components/storage/MountPointMapping.jsx:638
+#: src/components/review/StorageReview.jsx:221
 msgid "Mount point"
 msgstr "მიმაგრების წერტილი"
 
@@ -600,14 +601,14 @@ msgstr "ოპერაციული სისტემა"
 msgid "Other keyboards"
 msgstr "სხვა კლავიატურები"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:828
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:106
 msgid "Partitions (advanced)"
 msgstr "დანაყოფები (დამატებით)"
 
 #: src/components/users/Accounts.jsx:181 src/components/users/Accounts.jsx:282
-#: src/components/storage/DiskEncryption.jsx:121
 #: src/components/storage/EncryptedDevices.jsx:174
 #: src/components/storage/EncryptedDevices.jsx:181
+#: src/components/storage/DiskEncryption.jsx:121
 msgid "Passphrase"
 msgstr "საკვანძო ფრაზა"
 
@@ -639,12 +640,12 @@ msgstr "პრე-რელიზი"
 msgid "Preparing report"
 msgstr "ანგარიშის მომზადება"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:729
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:601
 msgid "Proceed with installation"
 msgstr "დაყენების გაგრძელება"
 
-#: src/components/AnacondaWizardFooter.jsx:119
-#: src/components/AnacondaWizardFooter.jsx:144 src/components/Error.jsx:237
+#: src/components/Error.jsx:237 src/components/AnacondaWizardFooter.jsx:119
+#: src/components/AnacondaWizardFooter.jsx:144
 msgid "Quit"
 msgstr "გასვლა"
 
@@ -680,8 +681,8 @@ msgstr ""
 msgid "Real hostname must be 64 characters or less"
 msgstr "ჰოსტის რეალური სახელი 64 სიმბოლოზე დიდი არ უნდა იყოს"
 
-#: src/components/AnacondaWizardFooter.jsx:119
-#: src/components/AnacondaWizardFooter.jsx:144 src/components/Error.jsx:237
+#: src/components/Error.jsx:237 src/components/AnacondaWizardFooter.jsx:119
+#: src/components/AnacondaWizardFooter.jsx:144
 msgid "Reboot"
 msgstr "გადატვირთვა"
 
@@ -720,7 +721,7 @@ msgstr "ადგილის გამოთხოვა (აუცილებ
 msgid "Recommended"
 msgstr "რეკომენდებულია"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:805
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:83
 msgid "Recommended partitions:"
 msgstr "რეკომენდებული დანაყოფები:"
 
@@ -791,7 +792,7 @@ msgstr ""
 msgid "Required"
 msgstr "აუცილებელია"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:817
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:95
 msgid "Requirements"
 msgstr "მოთხოვნები"
 
@@ -811,11 +812,11 @@ msgstr "ზომის შეცვლა"
 msgid "Resizing the following partitions from $0: $1"
 msgstr "ზომის შეცვლა შემდეგი დანაყოფებისთვის $0-დან: $1"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:105
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:62
 msgid "Return to installation"
 msgstr "დაყენებაზე დაბრუნება"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:714
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:586
 msgid "Return to storage editor"
 msgstr "დაბრუნება საცავის რედაქტორზე"
 
@@ -926,11 +927,11 @@ msgstr "საცავის მორგება"
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "საცავის კონფიგურაცია: მიმდინარეობს საცავის კონფიგურაცია."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:132
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:89
 msgid "Storage editor"
 msgstr "საცავის რედაქტორი"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:877
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:236
 msgid "Storage editor is available only in the `Installation method` step."
 msgstr "საცავის რედაქტორი, მხოლოდ, 'დაყენების მეთოდის' ნაბიჯზეა ხელმისაწვდომი."
 
@@ -939,11 +940,11 @@ msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr ""
 "საცავი ეყრდნობა კონფიგურაციას, რომელიც მივიღეთ ფანჯრიდან 'საცავის ჩასწორება'."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:179
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:136
 msgid "Storage plugin failed"
 msgstr "საცავის დამატება ჩავარდა"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:682
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:559
 msgid "Storage requirements not met"
 msgstr "საცავის მოთხოვნები დაყენებული არაა"
 
@@ -1015,7 +1016,7 @@ msgstr ""
 "საკვანძო ფრაზა, რომელიც შეიყვანეთ, სპეციალურ სიმბოლოებს შეიცავს. მისით "
 "აკრეფისას შეიძლება კლავიატურის განლაგებებს შორის გადართვა ვერ შეძლოთ."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:154
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:111
 msgid ""
 "The storage editor lets you resize, delete, and create partitions. It can "
 "set up LVM and much more. It is meant to be used as an advanced utility and "
@@ -1048,7 +1049,7 @@ msgstr ""
 msgid "This may take a moment"
 msgstr "ამას შეიძლება რაღაც დრო დასჭირდეს"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:676
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:442
 msgid "This will take a few moments"
 msgstr "ამას, შეიძლება, რაღაც დრო დასჭირდეს"
 
@@ -1101,7 +1102,7 @@ msgstr "დაშიფრული მოწყობილობების �
 msgid "Unusable layout"
 msgstr "არაგამოყენებადი განლაგება"
 
-#: src/components/storage/scenarios/UseConfiguredStorage.jsx:106
+#: src/components/storage/scenarios/UseConfiguredStorage.jsx:103
 msgid "Use configured storage"
 msgstr "მორგებული საცავის გამოყენება"
 
@@ -1109,11 +1110,11 @@ msgstr "მორგებული საცავის გამოყენ�
 msgid "Use entire disk"
 msgstr "მთელი დისკის გამოყენება"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:752
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:620
 msgid "Use free space"
 msgstr "თავისუფალი ადგილის გამოყენება"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:752
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:620
 msgid "Use the RAID device for automatic partitioning"
 msgstr "RAID მოწყობილობის გამოყენება ავტომატური დაყოფისთვის"
 
@@ -1154,7 +1155,7 @@ msgid "Windows partitions with BitLocker encryption cannot be resized"
 msgstr ""
 "BitLocker-ის დაშიფვრის მქონე Windows-ის დანაყოფის ზომის შეცვლა შეუძლებელია"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:823
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:101
 msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
@@ -1174,9 +1175,9 @@ msgstr "ნაბიჯი დასრულდა"
 msgid "current step"
 msgstr "მიმდინარე ბიჯი"
 
-#: src/components/review/StorageReview.jsx:143
 #: src/components/storage/ReclaimSpaceModal.jsx:392
 #: src/components/storage/ReclaimSpaceModal.jsx:405
+#: src/components/review/StorageReview.jsx:143
 msgid "delete"
 msgstr "წაშლა"
 

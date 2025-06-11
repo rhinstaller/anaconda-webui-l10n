@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-10 03:39+0000\n"
+"POT-Creation-Date: 2025-06-11 03:39+0000\n"
 "PO-Revision-Date: 2025-02-16 06:42+0000\n"
 "Last-Translator: Iver Son <ivercoder@proton.me>\n"
 "Language-Team: Filipino <https://translate.fedoraproject.org/projects/"
@@ -63,7 +63,7 @@ msgstr ""
 msgid "'$0' must be on a device formatted to '$1'"
 msgstr "Dapat nasa device na naka-format sa '$1' ang '$0'"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:491
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:252
 msgid ""
 "'$0' partition on MDRAID device $1 found. Bootloader partitions on MDRAID "
 "devices are not supported."
@@ -77,8 +77,8 @@ msgstr "Tungkol"
 msgid "Account"
 msgstr "Account"
 
-#: src/components/review/StorageReview.jsx:219
 #: src/components/storage/ReclaimSpaceModal.jsx:160
+#: src/components/review/StorageReview.jsx:219
 msgid "Actions"
 msgstr "Mga aksyon"
 
@@ -90,7 +90,7 @@ msgstr "Magdagdag ng mount"
 msgid "Additional languages"
 msgstr "Karagdagang wika"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:157
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
 msgid "All changes made in the storage editor take effect immediately."
 msgstr "Agad na eepekto lahat ng mga pagbabagong ginawa sa storage editor."
 
@@ -153,10 +153,11 @@ msgstr ""
 "testing at development mo lang ito balak gamitin, at handa kang mag-ulat ng "
 "mga bug o problema para mas pahusayin ang produktong ito."
 
-#: src/components/review/Hostname.jsx:108 src/components/Error.jsx:271
+#: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
 #: src/components/storage/InstallationDestination.jsx:351
-#: src/components/storage/CockpitStorageIntegration.jsx:148
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
+#: src/components/review/Hostname.jsx:108
 msgid "Cancel"
 msgstr "Kanselahin"
 
@@ -176,7 +177,7 @@ msgstr "Baguhin ang hostname"
 msgid "Change system keyboard layout"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:215
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:172
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
@@ -184,8 +185,8 @@ msgstr ""
 "nang bawian, walang 'undo'."
 
 #: src/components/storage/DiskEncryption.jsx:58
-#: src/components/storage/CockpitStorageIntegration.jsx:675
-#: src/components/storage/CockpitStorageIntegration.jsx:687
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:441
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:447
 msgid "Checking storage configuration"
 msgstr "Sinusuri ang configuration ng storage"
 
@@ -204,7 +205,7 @@ msgstr "I-clear ang search input"
 msgid "Close"
 msgstr "Isara"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:438
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:296
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
@@ -215,11 +216,11 @@ msgstr ""
 msgid "Completed"
 msgstr "Kumpleto"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:202
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:159
 msgid "Configure storage"
 msgstr "I-configure ang storage"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:723
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:595
 msgid "Configure storage again"
 msgstr "I-configure ulit ang storage"
 
@@ -228,7 +229,7 @@ msgstr "I-configure ulit ang storage"
 msgid "Confirm passphrase"
 msgstr "Kumpirmahin ang passphrase"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:708
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:580
 msgid "Continue"
 msgstr "Tumuloy"
 
@@ -236,7 +237,7 @@ msgstr "Tumuloy"
 msgid "Continue installation"
 msgstr "Ituloy ang installation"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:684
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:561
 msgid "Continue with installation"
 msgstr "Tumuloy sa installation"
 
@@ -273,12 +274,12 @@ msgstr "Destinasyon"
 msgid "Destination is encrypted"
 msgstr "Naka-encrypt ang destinasyon"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:747
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:615
 msgid "Detected valid storage layout:"
 msgstr "Naka-detect ng valid na storage layout:"
 
-#: src/components/review/StorageReview.jsx:217
 #: src/components/storage/MountPointMapping.jsx:639
+#: src/components/review/StorageReview.jsx:217
 msgid "Device"
 msgstr "Device"
 
@@ -323,7 +324,7 @@ msgstr "Umalis papuntang live desktop"
 msgid "Extended partition"
 msgstr "Extended partition"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:820
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:98
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Kailangan ng Fedora Linux ng hindi bababa sa $0 na espasyo sa disk."
 
@@ -364,7 +365,7 @@ msgstr "Itago ang password"
 msgid "Hostname"
 msgstr "Hostname"
 
-#: src/components/storage/InstallationScenario.jsx:162
+#: src/components/storage/InstallationScenario.jsx:160
 msgid "How would you like to install?"
 msgstr "Paano mo gustong mag-install?"
 
@@ -393,7 +394,7 @@ msgstr ""
 "Kung walang laman, magiging panandalian lang at nakabase sa impormasyon ng "
 "network ang hostname."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:796
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:74
 msgid "If you are configuring partitions the following are required:"
 msgstr "Kailangan ang mga sumusunod kung magko-configure ka ng mga partition:"
 
@@ -412,8 +413,8 @@ msgstr "Umaandar"
 msgid "Initializing..."
 msgstr "Inihahanda..."
 
+#: src/components/storage/scenarios/UseConfiguredStorage.jsx:101
 #: src/components/storage/scenarios/UseFreeSpace.jsx:105
-#: src/components/storage/scenarios/UseConfiguredStorage.jsx:104
 msgid "Install"
 msgstr "I-install"
 
@@ -437,7 +438,7 @@ msgstr "Uri ng installation"
 msgid "Installing"
 msgstr "Ini-install"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:396
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
 "Invalid RAID configuration detected. If your RAID array is created directly "
 "on top of disks, a partition table must be created on the array. If your "
@@ -462,13 +463,13 @@ msgstr ""
 msgid "Keyboard layout during boot"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:105
 #: src/components/localization/InstallationLanguage.jsx:279
+#: src/components/review/ReviewConfiguration.jsx:105
 msgid "Language"
 msgstr "Wika"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:141
-#: src/components/storage/CockpitStorageIntegration.jsx:867
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:98
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:226
 msgid "Launch storage editor"
 msgstr "Buksan ang editor ng storage"
 
@@ -510,8 +511,8 @@ msgstr ""
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:221
 #: src/components/storage/MountPointMapping.jsx:638
+#: src/components/review/StorageReview.jsx:221
 msgid "Mount point"
 msgstr "Mount point"
 
@@ -593,14 +594,14 @@ msgstr "Operating system"
 msgid "Other keyboards"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:828
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:106
 msgid "Partitions (advanced)"
 msgstr "Mga partition (advanced)"
 
 #: src/components/users/Accounts.jsx:181 src/components/users/Accounts.jsx:282
-#: src/components/storage/DiskEncryption.jsx:121
 #: src/components/storage/EncryptedDevices.jsx:174
 #: src/components/storage/EncryptedDevices.jsx:181
+#: src/components/storage/DiskEncryption.jsx:121
 msgid "Passphrase"
 msgstr "Passphrase"
 
@@ -632,12 +633,12 @@ msgstr "Pre-release"
 msgid "Preparing report"
 msgstr "Inihahanda ang ulat"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:729
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:601
 msgid "Proceed with installation"
 msgstr "Tumuloy sa installation"
 
-#: src/components/AnacondaWizardFooter.jsx:119
-#: src/components/AnacondaWizardFooter.jsx:144 src/components/Error.jsx:237
+#: src/components/Error.jsx:237 src/components/AnacondaWizardFooter.jsx:119
+#: src/components/AnacondaWizardFooter.jsx:144
 msgid "Quit"
 msgstr "Umalis"
 
@@ -673,8 +674,8 @@ msgstr ""
 msgid "Real hostname must be 64 characters or less"
 msgstr "Dapat hindi lalagpas sa 64 karakter ang tunay na hostname"
 
-#: src/components/AnacondaWizardFooter.jsx:119
-#: src/components/AnacondaWizardFooter.jsx:144 src/components/Error.jsx:237
+#: src/components/Error.jsx:237 src/components/AnacondaWizardFooter.jsx:119
+#: src/components/AnacondaWizardFooter.jsx:144
 msgid "Reboot"
 msgstr "Mag-reboot"
 
@@ -714,7 +715,7 @@ msgstr "I-reclaim ang espasyo (kinakailangan)"
 msgid "Recommended"
 msgstr "Inirerekomenda"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:805
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:83
 msgid "Recommended partitions:"
 msgstr "Mga inirerekomendang partition:"
 
@@ -781,7 +782,7 @@ msgstr ""
 msgid "Required"
 msgstr "Kinakailangan"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:817
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:95
 msgid "Requirements"
 msgstr "Mga requirement"
 
@@ -801,11 +802,11 @@ msgstr "I-resize"
 msgid "Resizing the following partitions from $0: $1"
 msgstr "Ire-resize ang mga sumusunod na partition mula sa $0: $1"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:105
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:62
 msgid "Return to installation"
 msgstr "Bumalik sa installation"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:714
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:586
 msgid "Return to storage editor"
 msgstr "Bumalik sa editor ng storage"
 
@@ -919,11 +920,11 @@ msgstr "Configuration ng storage"
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "Configuration ng storage: Kasalukuyang kino-configure ang storage."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:132
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:89
 msgid "Storage editor"
 msgstr "Editor ng storage"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:877
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:236
 msgid "Storage editor is available only in the `Installation method` step."
 msgstr ""
 "Available lamang ang storage editor sa hakbang na `Paraan sa pag-install`."
@@ -932,11 +933,11 @@ msgstr ""
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "Nakabase ang storage sa configuration mula sa 'Baguhin ang storage'."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:179
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:136
 msgid "Storage plugin failed"
 msgstr "Nagkaproblema sa storage plugin"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:682
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:559
 msgid "Storage requirements not met"
 msgstr "Hindi natugunan ang mga kinakailangan sa storage"
 
@@ -1009,7 +1010,7 @@ msgstr ""
 "Maaaring hindi ka makalilipat sa iba't-ibang keyboard layout habang tina-"
 "type ito."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:154
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:111
 msgid ""
 "The storage editor lets you resize, delete, and create partitions. It can "
 "set up LVM and much more. It is meant to be used as an advanced utility and "
@@ -1038,7 +1039,7 @@ msgstr ""
 msgid "This may take a moment"
 msgstr "Maaaring abutin ito ng ilang segundo"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:676
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:442
 msgid "This will take a few moments"
 msgstr "Maaaring abutin ito ng ilang saglit"
 
@@ -1091,7 +1092,7 @@ msgstr "I-unlock ang mga naka-encrypt na device"
 msgid "Unusable layout"
 msgstr ""
 
-#: src/components/storage/scenarios/UseConfiguredStorage.jsx:106
+#: src/components/storage/scenarios/UseConfiguredStorage.jsx:103
 msgid "Use configured storage"
 msgstr "Gamitin ang naka-configure na storage"
 
@@ -1099,12 +1100,12 @@ msgstr "Gamitin ang naka-configure na storage"
 msgid "Use entire disk"
 msgstr "Gamitin ang buong disk"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:752
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:620
 #, fuzzy
 msgid "Use free space"
 msgstr "Nabigo ang Koneksyon"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:752
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:620
 msgid "Use the RAID device for automatic partitioning"
 msgstr ""
 
@@ -1144,7 +1145,7 @@ msgstr "Maligayang pagdating. I-install na natin ang $0."
 msgid "Windows partitions with BitLocker encryption cannot be resized"
 msgstr "Hindi mare-resize ang mga Windows partition na na-encrypt ng BitLocker"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:823
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:101
 msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
@@ -1164,9 +1165,9 @@ msgstr "kumpletong hakbang"
 msgid "current step"
 msgstr "kasalukuyang hakbang"
 
-#: src/components/review/StorageReview.jsx:143
 #: src/components/storage/ReclaimSpaceModal.jsx:392
 #: src/components/storage/ReclaimSpaceModal.jsx:405
+#: src/components/review/StorageReview.jsx:143
 msgid "delete"
 msgstr "burahin"
 

@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-10 03:39+0000\n"
+"POT-Creation-Date: 2025-06-11 03:39+0000\n"
 "PO-Revision-Date: 2025-05-31 12:40+0000\n"
 "Last-Translator: Marvin Parlevliet <mrvnp@msn.com>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/anaconda-"
@@ -91,7 +91,7 @@ msgstr "'$0' bestandssysteem kan niet op een versleuteld blokapparaat staan"
 msgid "'$0' must be on a device formatted to '$1'"
 msgstr "'$0' moet zich bevinden op een apparaat geformatteerd naar '$1'"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:491
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:252
 msgid ""
 "'$0' partition on MDRAID device $1 found. Bootloader partitions on MDRAID "
 "devices are not supported."
@@ -107,8 +107,8 @@ msgstr "Over Fedora"
 msgid "Account"
 msgstr "Account"
 
-#: src/components/review/StorageReview.jsx:219
 #: src/components/storage/ReclaimSpaceModal.jsx:160
+#: src/components/review/StorageReview.jsx:219
 msgid "Actions"
 msgstr "Acties"
 
@@ -120,7 +120,7 @@ msgstr "Aankoppelingspunt toevoegen"
 msgid "Additional languages"
 msgstr "Aanvullende talen"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:157
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
 msgid "All changes made in the storage editor take effect immediately."
 msgstr "Alle wijzigingen in de opslageditor worden onmiddellijk toegepast."
 
@@ -183,10 +183,11 @@ msgstr ""
 "deze alleen voor test- en ontwikkelingsdoeleinden te gebruiken en u bereid "
 "bent om eventuele bugs of problemen te melden om dit werk te verbeteren."
 
-#: src/components/review/Hostname.jsx:108 src/components/Error.jsx:271
+#: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
 #: src/components/storage/InstallationDestination.jsx:351
-#: src/components/storage/CockpitStorageIntegration.jsx:148
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
+#: src/components/review/Hostname.jsx:108
 msgid "Cancel"
 msgstr "Annuleren"
 
@@ -206,7 +207,7 @@ msgstr "Hostnaam veranderen"
 msgid "Change system keyboard layout"
 msgstr "Verander systeemtoetsenbordindeling"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:215
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:172
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
@@ -214,8 +215,8 @@ msgstr ""
 "systeem. Er is geen 'ongedaan maken'."
 
 #: src/components/storage/DiskEncryption.jsx:58
-#: src/components/storage/CockpitStorageIntegration.jsx:675
-#: src/components/storage/CockpitStorageIntegration.jsx:687
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:441
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:447
 msgid "Checking storage configuration"
 msgstr "Bezig met controleren van opslagconfiguratie"
 
@@ -232,7 +233,7 @@ msgstr "Zoekveld wissen"
 msgid "Close"
 msgstr "Sluiten"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:438
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:296
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
@@ -243,11 +244,11 @@ msgstr ""
 msgid "Completed"
 msgstr "Voltooid"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:202
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:159
 msgid "Configure storage"
 msgstr "Opslag configureren"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:723
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:595
 msgid "Configure storage again"
 msgstr "Opslag opnieuw configureren"
 
@@ -256,7 +257,7 @@ msgstr "Opslag opnieuw configureren"
 msgid "Confirm passphrase"
 msgstr "Bevestig wachtwoordzin"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:708
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:580
 msgid "Continue"
 msgstr "Doorgaan"
 
@@ -264,7 +265,7 @@ msgstr "Doorgaan"
 msgid "Continue installation"
 msgstr "Installatie vervolgen"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:684
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:561
 msgid "Continue with installation"
 msgstr "Verdergaan met installatie"
 
@@ -302,12 +303,12 @@ msgstr "Bestemming"
 msgid "Destination is encrypted"
 msgstr "Bestemming is versleuteld"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:747
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:615
 msgid "Detected valid storage layout:"
 msgstr "Gedetecteerde geldige opslagindeling:"
 
-#: src/components/review/StorageReview.jsx:217
 #: src/components/storage/MountPointMapping.jsx:639
+#: src/components/review/StorageReview.jsx:217
 msgid "Device"
 msgstr "Apparaat"
 
@@ -352,7 +353,7 @@ msgstr "Afsluiten naar live desktop"
 msgid "Extended partition"
 msgstr "Uitgebreide partitie"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:820
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:98
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora Linux heeft minstens $0 schijfruimte nodig."
 
@@ -393,7 +394,7 @@ msgstr "Verberg wachtwoord"
 msgid "Hostname"
 msgstr "Hostnaam"
 
-#: src/components/storage/InstallationScenario.jsx:162
+#: src/components/storage/InstallationScenario.jsx:160
 msgid "How would you like to install?"
 msgstr "Hoe wilt u installeren?"
 
@@ -422,7 +423,7 @@ msgstr ""
 "Wanneer leeg, wordt de hostnaam tijdelijk en toegewezen op basis van de "
 "netwerkinformatie."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:796
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:74
 msgid "If you are configuring partitions the following are required:"
 msgstr "Wanneer u partities configureert, is het volgende vereist:"
 
@@ -440,8 +441,8 @@ msgstr "Bezig"
 msgid "Initializing..."
 msgstr "Initialiseren..."
 
+#: src/components/storage/scenarios/UseConfiguredStorage.jsx:101
 #: src/components/storage/scenarios/UseFreeSpace.jsx:105
-#: src/components/storage/scenarios/UseConfiguredStorage.jsx:104
 msgid "Install"
 msgstr "Installeren"
 
@@ -465,7 +466,7 @@ msgstr "Installatietype"
 msgid "Installing"
 msgstr "Installeren"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:396
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
 "Invalid RAID configuration detected. If your RAID array is created directly "
 "on top of disks, a partition table must be created on the array. If your "
@@ -495,13 +496,13 @@ msgstr "Toetsenbord"
 msgid "Keyboard layout during boot"
 msgstr "Toetsenbordindeling tijdens het opstarten"
 
-#: src/components/review/ReviewConfiguration.jsx:105
 #: src/components/localization/InstallationLanguage.jsx:279
+#: src/components/review/ReviewConfiguration.jsx:105
 msgid "Language"
 msgstr "Taal"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:141
-#: src/components/storage/CockpitStorageIntegration.jsx:867
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:98
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:226
 msgid "Launch storage editor"
 msgstr "Start opslageditor"
 
@@ -545,8 +546,8 @@ msgstr ""
 "Meer dan één indeling gedetecteerd. Verwijder aanvullende indelingen om door "
 "te gaan"
 
-#: src/components/review/StorageReview.jsx:221
 #: src/components/storage/MountPointMapping.jsx:638
+#: src/components/review/StorageReview.jsx:221
 msgid "Mount point"
 msgstr "Koppelpunt"
 
@@ -627,14 +628,14 @@ msgstr "Besturingssysteem"
 msgid "Other keyboards"
 msgstr "Andere toetsenborden"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:828
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:106
 msgid "Partitions (advanced)"
 msgstr "Partities (geavanceerd)"
 
 #: src/components/users/Accounts.jsx:181 src/components/users/Accounts.jsx:282
-#: src/components/storage/DiskEncryption.jsx:121
 #: src/components/storage/EncryptedDevices.jsx:174
 #: src/components/storage/EncryptedDevices.jsx:181
+#: src/components/storage/DiskEncryption.jsx:121
 msgid "Passphrase"
 msgstr "Wachtzin"
 
@@ -666,12 +667,12 @@ msgstr "Pre-release"
 msgid "Preparing report"
 msgstr "Rapport voorbereiden"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:729
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:601
 msgid "Proceed with installation"
 msgstr "Doorgaan met installatie"
 
-#: src/components/AnacondaWizardFooter.jsx:119
-#: src/components/AnacondaWizardFooter.jsx:144 src/components/Error.jsx:237
+#: src/components/Error.jsx:237 src/components/AnacondaWizardFooter.jsx:119
+#: src/components/AnacondaWizardFooter.jsx:144
 msgid "Quit"
 msgstr "Afsluiten"
 
@@ -707,8 +708,8 @@ msgstr ""
 msgid "Real hostname must be 64 characters or less"
 msgstr "Een echte hostnaam moet 64 karakters of minder bevatten"
 
-#: src/components/AnacondaWizardFooter.jsx:119
-#: src/components/AnacondaWizardFooter.jsx:144 src/components/Error.jsx:237
+#: src/components/Error.jsx:237 src/components/AnacondaWizardFooter.jsx:119
+#: src/components/AnacondaWizardFooter.jsx:144
 msgid "Reboot"
 msgstr "Herstarten"
 
@@ -747,7 +748,7 @@ msgstr "Ruimte terugvorderen (vereist)"
 msgid "Recommended"
 msgstr "Aanbevolen"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:805
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:83
 msgid "Recommended partitions:"
 msgstr "Aanbevolen partities:"
 
@@ -817,7 +818,7 @@ msgstr ""
 msgid "Required"
 msgstr "Vereist"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:817
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:95
 msgid "Requirements"
 msgstr "Vereisten"
 
@@ -837,11 +838,11 @@ msgstr "Grootte veranderen"
 msgid "Resizing the following partitions from $0: $1"
 msgstr "Verander de grootte van de volgende partities van $0: $1"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:105
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:62
 msgid "Return to installation"
 msgstr "Terugkeren naar installatie"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:714
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:586
 msgid "Return to storage editor"
 msgstr "Terug naar opslageditor"
 
@@ -954,11 +955,11 @@ msgstr "Opslagconfiguratie"
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "Opslagconfiguratie: opslag wordt momenteel geconfigureerd."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:132
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:89
 msgid "Storage editor"
 msgstr "Opslageditor"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:877
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:236
 msgid "Storage editor is available only in the `Installation method` step."
 msgstr "Opslageditor is alleen beschikbaar in de stap `Installatiemethode`."
 
@@ -966,11 +967,11 @@ msgstr "Opslageditor is alleen beschikbaar in de stap `Installatiemethode`."
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "Opslag is gebaseerd op de configuratie van 'Opslag bewerken'."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:179
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:136
 msgid "Storage plugin failed"
 msgstr "Fout opgetreden in opslag-plugin"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:682
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:559
 msgid "Storage requirements not met"
 msgstr "Opslag voldoet niet aan de eisen"
 
@@ -1044,7 +1045,7 @@ msgstr ""
 "voorkomen dat u niet kunt omschakelen tussen toetsenbordindelingen tijdens "
 "het intypen ervan."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:154
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:111
 msgid ""
 "The storage editor lets you resize, delete, and create partitions. It can "
 "set up LVM and much more. It is meant to be used as an advanced utility and "
@@ -1077,7 +1078,7 @@ msgstr ""
 msgid "This may take a moment"
 msgstr "Dit kan heel even duren"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:676
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:442
 msgid "This will take a few moments"
 msgstr "Dit kan even duren"
 
@@ -1131,7 +1132,7 @@ msgstr "Ontgrendel versleutelde apparaten"
 msgid "Unusable layout"
 msgstr "Onbruikbare indeling"
 
-#: src/components/storage/scenarios/UseConfiguredStorage.jsx:106
+#: src/components/storage/scenarios/UseConfiguredStorage.jsx:103
 msgid "Use configured storage"
 msgstr "Gebruik geconfigureerde opslag"
 
@@ -1139,11 +1140,11 @@ msgstr "Gebruik geconfigureerde opslag"
 msgid "Use entire disk"
 msgstr "Gebruik gehele schijf"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:752
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:620
 msgid "Use free space"
 msgstr "Gebruik vrije ruimte"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:752
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:620
 msgid "Use the RAID device for automatic partitioning"
 msgstr "Gebruik het RAID-apparaat voor automatisch partitioneren"
 
@@ -1185,7 +1186,7 @@ msgstr ""
 "Windows-partities met BitLocker-versleuteling kunnen niet van grootte "
 "aangepast worden"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:823
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:101
 msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
@@ -1205,9 +1206,9 @@ msgstr "voltooide stap"
 msgid "current step"
 msgstr "huidige stap"
 
-#: src/components/review/StorageReview.jsx:143
 #: src/components/storage/ReclaimSpaceModal.jsx:392
 #: src/components/storage/ReclaimSpaceModal.jsx:405
+#: src/components/review/StorageReview.jsx:143
 msgid "delete"
 msgstr "verwijderen"
 

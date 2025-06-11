@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-10 03:39+0000\n"
+"POT-Creation-Date: 2025-06-11 03:39+0000\n"
 "PO-Revision-Date: 2023-11-06 12:21+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/"
@@ -80,7 +80,7 @@ msgstr "%s nu poate fi pe un dispozitiv criptat de tip bloc."
 msgid "'$0' must be on a device formatted to '$1'"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:491
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:252
 msgid ""
 "'$0' partition on MDRAID device $1 found. Bootloader partitions on MDRAID "
 "devices are not supported."
@@ -95,8 +95,8 @@ msgstr ""
 msgid "Account"
 msgstr "Adaugă aranjament"
 
-#: src/components/review/StorageReview.jsx:219
 #: src/components/storage/ReclaimSpaceModal.jsx:160
+#: src/components/review/StorageReview.jsx:219
 #, fuzzy
 #| msgid "Action"
 msgid "Actions"
@@ -113,7 +113,7 @@ msgstr "Adaugă aranjament"
 msgid "Additional languages"
 msgstr "Limbi disponibile"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:157
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
 msgid "All changes made in the storage editor take effect immediately."
 msgstr ""
 
@@ -173,10 +173,11 @@ msgid ""
 "issues in order to enhance this work."
 msgstr ""
 
-#: src/components/review/Hostname.jsx:108 src/components/Error.jsx:271
+#: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
 #: src/components/storage/InstallationDestination.jsx:351
-#: src/components/storage/CockpitStorageIntegration.jsx:148
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
+#: src/components/review/Hostname.jsx:108
 #, fuzzy
 msgid "Cancel"
 msgstr "_Renunță"
@@ -203,14 +204,14 @@ msgstr "Setați host name"
 msgid "Change system keyboard layout"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:215
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:172
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
 #: src/components/storage/DiskEncryption.jsx:58
-#: src/components/storage/CockpitStorageIntegration.jsx:675
-#: src/components/storage/CockpitStorageIntegration.jsx:687
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:441
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:447
 #, fuzzy
 msgid "Checking storage configuration"
 msgstr "Se verifică configurația de stocare..."
@@ -228,7 +229,7 @@ msgstr ""
 msgid "Close"
 msgstr "Închide"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:438
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:296
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
@@ -238,13 +239,13 @@ msgstr ""
 msgid "Completed"
 msgstr "Gata!"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:202
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:159
 #, fuzzy
 #| msgid "Configuring storage"
 msgid "Configure storage"
 msgstr "Se configurează spațiul de stocare"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:723
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:595
 #, fuzzy
 #| msgid "Configuring storage"
 msgid "Configure storage again"
@@ -256,7 +257,7 @@ msgstr "Se configurează spațiul de stocare"
 msgid "Confirm passphrase"
 msgstr "_Confirmă parola"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:708
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:580
 msgid "Continue"
 msgstr "Continuă"
 
@@ -265,7 +266,7 @@ msgstr "Continuă"
 msgid "Continue installation"
 msgstr "Se execută sarcini de pre-instalare"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:684
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:561
 #, fuzzy
 msgid "Continue with installation"
 msgstr "Se execută sarcini de pre-instalare"
@@ -311,12 +312,12 @@ msgstr "Descriere"
 msgid "Destination is encrypted"
 msgstr "Containerul este criptat."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:747
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:615
 msgid "Detected valid storage layout:"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:217
 #: src/components/storage/MountPointMapping.jsx:639
+#: src/components/review/StorageReview.jsx:217
 msgid "Device"
 msgstr "Dispozitiv"
 
@@ -369,7 +370,7 @@ msgstr ""
 msgid "Extended partition"
 msgstr "Partiție standard"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:820
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:98
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr ""
 
@@ -414,7 +415,7 @@ msgstr "Folosește o parolă"
 msgid "Hostname"
 msgstr "Nume host"
 
-#: src/components/storage/InstallationScenario.jsx:162
+#: src/components/storage/InstallationScenario.jsx:160
 #, fuzzy
 msgid "How would you like to install?"
 msgstr ""
@@ -442,7 +443,7 @@ msgstr ""
 msgid "If empty, hostname will be transient and set by network information."
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:796
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:74
 msgid "If you are configuring partitions the following are required:"
 msgstr ""
 
@@ -462,8 +463,8 @@ msgstr "Progres"
 msgid "Initializing..."
 msgstr "Se instalează."
 
+#: src/components/storage/scenarios/UseConfiguredStorage.jsx:101
 #: src/components/storage/scenarios/UseFreeSpace.jsx:105
-#: src/components/storage/scenarios/UseConfiguredStorage.jsx:104
 msgid "Install"
 msgstr "Instalează"
 
@@ -492,7 +493,7 @@ msgstr "Instalare"
 msgid "Installing"
 msgstr "Se instalează."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:396
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
 "Invalid RAID configuration detected. If your RAID array is created directly "
 "on top of disks, a partition table must be created on the array. If your "
@@ -518,14 +519,14 @@ msgstr "_Tastatură"
 msgid "Keyboard layout during boot"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:105
 #: src/components/localization/InstallationLanguage.jsx:279
+#: src/components/review/ReviewConfiguration.jsx:105
 #, fuzzy
 msgid "Language"
 msgstr "Limbi"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:141
-#: src/components/storage/CockpitStorageIntegration.jsx:867
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:98
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:226
 #, fuzzy
 msgid "Launch storage editor"
 msgstr "Instalare"
@@ -571,8 +572,8 @@ msgstr ""
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:221
 #: src/components/storage/MountPointMapping.jsx:638
+#: src/components/review/StorageReview.jsx:221
 msgid "Mount point"
 msgstr "Punct de montare"
 
@@ -658,14 +659,14 @@ msgstr "Se creează utilizatori"
 msgid "Other keyboards"
 msgstr "_Tastatură"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:828
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:106
 msgid "Partitions (advanced)"
 msgstr ""
 
 #: src/components/users/Accounts.jsx:181 src/components/users/Accounts.jsx:282
-#: src/components/storage/DiskEncryption.jsx:121
 #: src/components/storage/EncryptedDevices.jsx:174
 #: src/components/storage/EncryptedDevices.jsx:181
+#: src/components/storage/DiskEncryption.jsx:121
 msgid "Passphrase"
 msgstr "Frază secretă"
 
@@ -699,14 +700,14 @@ msgstr ""
 msgid "Preparing report"
 msgstr "Se pregătește implementarea pentru %s"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:729
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:601
 #, fuzzy
 #| msgid "Failed to set up installation source"
 msgid "Proceed with installation"
 msgstr "Nu s-a putut stabili sursa de instalare."
 
-#: src/components/AnacondaWizardFooter.jsx:119
-#: src/components/AnacondaWizardFooter.jsx:144 src/components/Error.jsx:237
+#: src/components/Error.jsx:237 src/components/AnacondaWizardFooter.jsx:119
+#: src/components/AnacondaWizardFooter.jsx:144
 msgid "Quit"
 msgstr "Ieșire"
 
@@ -744,8 +745,8 @@ msgstr ""
 msgid "Real hostname must be 64 characters or less"
 msgstr ""
 
-#: src/components/AnacondaWizardFooter.jsx:119
-#: src/components/AnacondaWizardFooter.jsx:144 src/components/Error.jsx:237
+#: src/components/Error.jsx:237 src/components/AnacondaWizardFooter.jsx:119
+#: src/components/AnacondaWizardFooter.jsx:144
 #, fuzzy
 msgid "Reboot"
 msgstr "Repornire"
@@ -794,7 +795,7 @@ msgstr "Re_cuperare spațiu"
 msgid "Recommended"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:805
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:83
 msgid "Recommended partitions:"
 msgstr ""
 
@@ -858,7 +859,7 @@ msgstr ""
 msgid "Required"
 msgstr "Nu e redimensionabil"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:817
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:95
 #, fuzzy
 msgid "Requirements"
 msgstr "Nu e redimensionabil"
@@ -882,12 +883,12 @@ msgstr ""
 msgid "Resizing the following partitions from $0: $1"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:105
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:62
 #, fuzzy
 msgid "Return to installation"
 msgstr "Instalare"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:714
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:586
 #, fuzzy
 msgid "Return to storage editor"
 msgstr "Instalare"
@@ -1018,12 +1019,12 @@ msgstr "Configurare rețea"
 msgid "Storage configuration: Storage is currently being configured."
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:132
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:89
 #, fuzzy
 msgid "Storage editor"
 msgstr "Instalare"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:877
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:236
 msgid "Storage editor is available only in the `Installation method` step."
 msgstr ""
 
@@ -1033,13 +1034,13 @@ msgstr ""
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "Reîncarcă configurația de stocare de pe disc."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:179
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:136
 #, fuzzy
 #| msgid "Node login failed."
 msgid "Storage plugin failed"
 msgstr "Autentificare în nod eșuată."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:682
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:559
 msgid "Storage requirements not met"
 msgstr ""
 
@@ -1110,7 +1111,7 @@ msgid ""
 "be able to switch between keyboard layouts when typing it."
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:154
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:111
 msgid ""
 "The storage editor lets you resize, delete, and create partitions. It can "
 "set up LVM and much more. It is meant to be used as an advanced utility and "
@@ -1139,7 +1140,7 @@ msgstr ""
 msgid "This may take a moment"
 msgstr "Aceasta ar putea dura o vreme."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:676
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:442
 #, fuzzy
 msgid "This will take a few moments"
 msgstr "Aceasta ar putea dura o vreme."
@@ -1196,7 +1197,7 @@ msgstr "Dispozitiv selectat"
 msgid "Unusable layout"
 msgstr "Aranjamente disponibile"
 
-#: src/components/storage/scenarios/UseConfiguredStorage.jsx:106
+#: src/components/storage/scenarios/UseConfiguredStorage.jsx:103
 #, fuzzy
 #| msgid "Configuring storage"
 msgid "Use configured storage"
@@ -1208,13 +1209,13 @@ msgstr "Se configurează spațiul de stocare"
 msgid "Use entire disk"
 msgstr "Dispozitiv selectat"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:752
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:620
 #, fuzzy
 #| msgid "Use Free Space"
 msgid "Use free space"
 msgstr "Folosește spațiul liber"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:752
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:620
 msgid "Use the RAID device for automatic partitioning"
 msgstr ""
 
@@ -1254,7 +1255,7 @@ msgstr ""
 msgid "Windows partitions with BitLocker encryption cannot be resized"
 msgstr ""
 
-#: src/components/storage/CockpitStorageIntegration.jsx:823
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:101
 msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
@@ -1273,9 +1274,9 @@ msgstr "Gata!"
 msgid "current step"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:143
 #: src/components/storage/ReclaimSpaceModal.jsx:392
 #: src/components/storage/ReclaimSpaceModal.jsx:405
+#: src/components/review/StorageReview.jsx:143
 #, fuzzy
 #| msgid "Delete"
 msgid "delete"

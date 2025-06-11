@@ -47,7 +47,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-10 03:39+0000\n"
+"POT-Creation-Date: 2025-06-11 03:39+0000\n"
 "PO-Revision-Date: 2025-05-28 19:44+0000\n"
 "Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
@@ -105,7 +105,7 @@ msgstr ""
 msgid "'$0' must be on a device formatted to '$1'"
 msgstr "'$0' dev'essere su un dispositivo formattato '$1'"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:491
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:252
 msgid ""
 "'$0' partition on MDRAID device $1 found. Bootloader partitions on MDRAID "
 "devices are not supported."
@@ -121,8 +121,8 @@ msgstr "Informazioni"
 msgid "Account"
 msgstr "Account"
 
-#: src/components/review/StorageReview.jsx:219
 #: src/components/storage/ReclaimSpaceModal.jsx:160
+#: src/components/review/StorageReview.jsx:219
 msgid "Actions"
 msgstr "Azioni"
 
@@ -134,7 +134,7 @@ msgstr "Aggiungi punto di mount"
 msgid "Additional languages"
 msgstr "Lingue aggiuntive"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:157
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
 msgid "All changes made in the storage editor take effect immediately."
 msgstr ""
 "Tutte le modifiche apportate nell'editor di archiviazione hanno effetto "
@@ -200,10 +200,11 @@ msgstr ""
 "sviluppo e sei disposto a segnalare qualsiasi bug o problema per migliorare "
 "questo lavoro."
 
-#: src/components/review/Hostname.jsx:108 src/components/Error.jsx:271
+#: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
 #: src/components/storage/InstallationDestination.jsx:351
-#: src/components/storage/CockpitStorageIntegration.jsx:148
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
+#: src/components/review/Hostname.jsx:108
 msgid "Cancel"
 msgstr "Annulla"
 
@@ -223,7 +224,7 @@ msgstr "Cambia nome host"
 msgid "Change system keyboard layout"
 msgstr "Cambia layout della tastiera di sistema"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:215
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:172
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
@@ -231,8 +232,8 @@ msgstr ""
 "possibile annullare l'operazione."
 
 #: src/components/storage/DiskEncryption.jsx:58
-#: src/components/storage/CockpitStorageIntegration.jsx:675
-#: src/components/storage/CockpitStorageIntegration.jsx:687
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:441
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:447
 msgid "Checking storage configuration"
 msgstr "Controllo della configurazione dello storage"
 
@@ -249,7 +250,7 @@ msgstr "Cancella input di ricerca"
 msgid "Close"
 msgstr "Chiudi"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:438
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:296
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
@@ -260,11 +261,11 @@ msgstr ""
 msgid "Completed"
 msgstr "Completato"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:202
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:159
 msgid "Configure storage"
 msgstr "Configurare l'archiviazione"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:723
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:595
 msgid "Configure storage again"
 msgstr "Configurare di nuovo l'archiviazione"
 
@@ -273,7 +274,7 @@ msgstr "Configurare di nuovo l'archiviazione"
 msgid "Confirm passphrase"
 msgstr "Conferma la password"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:708
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:580
 msgid "Continue"
 msgstr "Continua"
 
@@ -281,7 +282,7 @@ msgstr "Continua"
 msgid "Continue installation"
 msgstr "Continua l'installazione"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:684
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:561
 msgid "Continue with installation"
 msgstr "Continua con l'installazione"
 
@@ -318,12 +319,12 @@ msgstr "Destinazione"
 msgid "Destination is encrypted"
 msgstr "La destinazione è crittografata"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:747
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:615
 msgid "Detected valid storage layout:"
 msgstr "Rilevato layout di archiviazione valido:"
 
-#: src/components/review/StorageReview.jsx:217
 #: src/components/storage/MountPointMapping.jsx:639
+#: src/components/review/StorageReview.jsx:217
 msgid "Device"
 msgstr "Dispositivo"
 
@@ -368,7 +369,7 @@ msgstr "Esci sul desktop live"
 msgid "Extended partition"
 msgstr "Partizione estesa"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:820
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:98
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora Linux richiede almeno $0 di spazio su disco."
 
@@ -409,7 +410,7 @@ msgstr "Nascondi la password"
 msgid "Hostname"
 msgstr "Hostname"
 
-#: src/components/storage/InstallationScenario.jsx:162
+#: src/components/storage/InstallationScenario.jsx:160
 msgid "How would you like to install?"
 msgstr "Come vuoi effettuare l'installazione?"
 
@@ -438,7 +439,7 @@ msgstr ""
 "Se vuoto, il nome host sarà temporaneo e impostato dalle informazioni di "
 "rete."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:796
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:74
 msgid "If you are configuring partitions the following are required:"
 msgstr "Se stai configurando le partizioni è richiesto quanto segue:"
 
@@ -455,8 +456,8 @@ msgstr "Avanzamento"
 msgid "Initializing..."
 msgstr "Inizializzazione..."
 
+#: src/components/storage/scenarios/UseConfiguredStorage.jsx:101
 #: src/components/storage/scenarios/UseFreeSpace.jsx:105
-#: src/components/storage/scenarios/UseConfiguredStorage.jsx:104
 msgid "Install"
 msgstr "Installa"
 
@@ -480,7 +481,7 @@ msgstr "Tipo di installazione"
 msgid "Installing"
 msgstr "Installazione in corso"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:396
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
 "Invalid RAID configuration detected. If your RAID array is created directly "
 "on top of disks, a partition table must be created on the array. If your "
@@ -510,13 +511,13 @@ msgstr "Tastiera"
 msgid "Keyboard layout during boot"
 msgstr "Layout della tastiera durante l'avvio"
 
-#: src/components/review/ReviewConfiguration.jsx:105
 #: src/components/localization/InstallationLanguage.jsx:279
+#: src/components/review/ReviewConfiguration.jsx:105
 msgid "Language"
 msgstr "Lingua"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:141
-#: src/components/storage/CockpitStorageIntegration.jsx:867
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:98
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:226
 msgid "Launch storage editor"
 msgstr "Avvia l'editor di archiviazione"
 
@@ -558,8 +559,8 @@ msgstr ""
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr "Rilevato più di un layout. Rimuovi i layout aggiuntivi per procedere"
 
-#: src/components/review/StorageReview.jsx:221
 #: src/components/storage/MountPointMapping.jsx:638
+#: src/components/review/StorageReview.jsx:221
 msgid "Mount point"
 msgstr "Punto di mount"
 
@@ -639,14 +640,14 @@ msgstr "Sistema Operativo"
 msgid "Other keyboards"
 msgstr "Altre tastiere"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:828
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:106
 msgid "Partitions (advanced)"
 msgstr "Partizioni (avanzate)"
 
 #: src/components/users/Accounts.jsx:181 src/components/users/Accounts.jsx:282
-#: src/components/storage/DiskEncryption.jsx:121
 #: src/components/storage/EncryptedDevices.jsx:174
 #: src/components/storage/EncryptedDevices.jsx:181
+#: src/components/storage/DiskEncryption.jsx:121
 msgid "Passphrase"
 msgstr "Password"
 
@@ -678,12 +679,12 @@ msgstr "pre-rilascio"
 msgid "Preparing report"
 msgstr "Preparazione del rapporto"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:729
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:601
 msgid "Proceed with installation"
 msgstr "Procedere con l'installazione"
 
-#: src/components/AnacondaWizardFooter.jsx:119
-#: src/components/AnacondaWizardFooter.jsx:144 src/components/Error.jsx:237
+#: src/components/Error.jsx:237 src/components/AnacondaWizardFooter.jsx:119
+#: src/components/AnacondaWizardFooter.jsx:144
 msgid "Quit"
 msgstr "Abbandona"
 
@@ -721,8 +722,8 @@ msgstr ""
 msgid "Real hostname must be 64 characters or less"
 msgstr "Il nome host reale deve contenere al massimo 64 caratteri"
 
-#: src/components/AnacondaWizardFooter.jsx:119
-#: src/components/AnacondaWizardFooter.jsx:144 src/components/Error.jsx:237
+#: src/components/Error.jsx:237 src/components/AnacondaWizardFooter.jsx:119
+#: src/components/AnacondaWizardFooter.jsx:144
 msgid "Reboot"
 msgstr "Riavvio"
 
@@ -760,7 +761,7 @@ msgstr "Recupera spazio (richiesto)"
 msgid "Recommended"
 msgstr "Consigliato"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:805
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:83
 msgid "Recommended partitions:"
 msgstr "Partizioni consigliate:"
 
@@ -830,7 +831,7 @@ msgstr ""
 msgid "Required"
 msgstr "Richiesto"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:817
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:95
 msgid "Requirements"
 msgstr "Requisiti"
 
@@ -850,11 +851,11 @@ msgstr "Ridimensiona"
 msgid "Resizing the following partitions from $0: $1"
 msgstr "Ridimensionare le seguenti partizioni da $0: $1"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:105
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:62
 msgid "Return to installation"
 msgstr "Torna all'installazione"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:714
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:586
 msgid "Return to storage editor"
 msgstr "Torna all'editor di archiviazione"
 
@@ -967,11 +968,11 @@ msgstr "Configurazione dello Storage"
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "Configurazione dello storage: Lo storage è in corso di configurazione."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:132
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:89
 msgid "Storage editor"
 msgstr "Editor di archiviazione"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:877
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:236
 msgid "Storage editor is available only in the `Installation method` step."
 msgstr ""
 "L'editor di archiviazione è disponibile solo nella fase \"Metodo di "
@@ -982,11 +983,11 @@ msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr ""
 "L'archiviazione si basa sulla configurazione di \"Modifica archiviazione\"."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:179
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:136
 msgid "Storage plugin failed"
 msgstr "Plug-in di archiviazione non riuscito"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:682
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:559
 msgid "Storage requirements not met"
 msgstr "Requisiti di archiviazione non soddisfatti"
 
@@ -1059,7 +1060,7 @@ msgstr ""
 "essere in grado di passare da un layout di tastiera all'altro quando lo "
 "digiti."
 
-#: src/components/storage/CockpitStorageIntegration.jsx:154
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:111
 msgid ""
 "The storage editor lets you resize, delete, and create partitions. It can "
 "set up LVM and much more. It is meant to be used as an advanced utility and "
@@ -1089,7 +1090,7 @@ msgstr "Questo layout verrà utilizzato per sbloccare il tuo sistema all'avvio"
 msgid "This may take a moment"
 msgstr "Attendere prego"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:676
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:442
 msgid "This will take a few moments"
 msgstr "L'operazione richiederà alcuni istanti"
 
@@ -1143,7 +1144,7 @@ msgstr "Sblocca i dispositivi cifrati"
 msgid "Unusable layout"
 msgstr "Layout inutilizzabile"
 
-#: src/components/storage/scenarios/UseConfiguredStorage.jsx:106
+#: src/components/storage/scenarios/UseConfiguredStorage.jsx:103
 msgid "Use configured storage"
 msgstr "Utilizza spazio di archiviazione configurato"
 
@@ -1151,11 +1152,11 @@ msgstr "Utilizza spazio di archiviazione configurato"
 msgid "Use entire disk"
 msgstr "Utilizza l'intero disco"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:752
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:620
 msgid "Use free space"
 msgstr "Usa spazio libero"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:752
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:620
 msgid "Use the RAID device for automatic partitioning"
 msgstr "Usa il dispositivo RAID per il partizionamento automatico"
 
@@ -1197,7 +1198,7 @@ msgstr ""
 "Le partizioni Windows con crittografia BitLocker non possono essere "
 "ridimensionate"
 
-#: src/components/storage/CockpitStorageIntegration.jsx:823
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:101
 msgid ""
 "You can either free up enough space here and let the installer handle the "
 "rest or manually set up partitions."
@@ -1217,9 +1218,9 @@ msgstr "Step completati"
 msgid "current step"
 msgstr "step corrente"
 
-#: src/components/review/StorageReview.jsx:143
 #: src/components/storage/ReclaimSpaceModal.jsx:392
 #: src/components/storage/ReclaimSpaceModal.jsx:405
+#: src/components/review/StorageReview.jsx:143
 msgid "delete"
 msgstr "cancella"
 
