@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 36.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-16 03:43+0000\n"
+"POT-Creation-Date: 2025-06-17 03:39+0000\n"
 "PO-Revision-Date: 2024-10-06 20:49+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan <https://translate.fedoraproject.org/projects/"
@@ -19,13 +19,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 5.7.2\n"
 
-#: src/components/storage/InstallationDestination.jsx:180
-#: src/components/storage/InstallationDestination.jsx:305
+#: src/components/storage/InstallationDestination.jsx:186
+#: src/components/storage/InstallationDestination.jsx:307
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/InstallationDestination.jsx:200
-#: src/components/storage/InstallationDestination.jsx:298
+#: src/components/storage/InstallationDestination.jsx:206
+#: src/components/storage/InstallationDestination.jsx:300
 #: src/components/storage/MountPointMapping.jsx:369
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
@@ -157,7 +157,7 @@ msgstr ""
 
 #: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
-#: src/components/storage/InstallationDestination.jsx:351
+#: src/components/storage/InstallationDestination.jsx:386
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
 #: src/components/review/Hostname.jsx:108
 #, fuzzy
@@ -171,7 +171,7 @@ msgstr "_Anullar"
 msgid "Change"
 msgstr "_Enregistrar las modificacions"
 
-#: src/components/storage/InstallationDestination.jsx:336
+#: src/components/storage/InstallationDestination.jsx:371
 #, fuzzy
 msgid "Change destination"
 msgstr "Descripcion"
@@ -207,7 +207,7 @@ msgid "Clear search input"
 msgstr ""
 
 #: src/components/storage/EncryptedDevices.jsx:161
-#: src/components/storage/InstallationDestination.jsx:356
+#: src/components/storage/InstallationDestination.jsx:391
 msgid "Close"
 msgstr "Tancar"
 
@@ -267,7 +267,7 @@ msgstr "Crear un utilizaire"
 msgid "Critical error"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:103
+#: src/components/storage/InstallationDestination.jsx:109
 msgid "Currently installed: $0"
 msgstr ""
 
@@ -279,7 +279,7 @@ msgstr ""
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:285
+#: src/components/storage/InstallationDestination.jsx:292
 #, fuzzy
 msgid "Destination"
 msgstr "Descripcion"
@@ -326,7 +326,7 @@ msgstr "Chifrar"
 msgid "Encryption"
 msgstr "Chiframent"
 
-#: src/components/storage/scenarios/EraseAll.jsx:72
+#: src/components/storage/scenarios/EraseAll.jsx:53
 #, fuzzy
 msgid "Erase data and install"
 msgstr "Installacion"
@@ -390,7 +390,7 @@ msgstr "Senhal"
 msgid "Hostname"
 msgstr "Nom d'òste"
 
-#: src/components/storage/InstallationScenario.jsx:160
+#: src/components/storage/InstallationScenario.jsx:158
 msgid "How would you like to install?"
 msgstr ""
 
@@ -443,7 +443,7 @@ msgstr "Installar"
 msgid "Installation failed"
 msgstr "Installacion"
 
-#: src/components/storage/InstallationMethod.jsx:229
+#: src/components/storage/InstallationMethod.jsx:237
 #, fuzzy
 msgid "Installation method"
 msgstr "Installacion acabada"
@@ -462,6 +462,10 @@ msgstr "Installacion"
 #, fuzzy
 msgid "Installing"
 msgstr "Installar"
+
+#: src/components/storage/InstallationDestination.jsx:338
+msgid "Insufficient disk space"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
@@ -532,6 +536,10 @@ msgstr ""
 msgid "Medium"
 msgstr ""
 
+#: src/components/storage/InstallationDestination.jsx:341
+msgid "Minimum of $0 required"
+msgstr ""
+
 #: src/components/storage/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
@@ -579,13 +587,13 @@ msgstr ""
 msgid "No devices"
 msgstr "Apondre un periferic"
 
-#: src/components/storage/InstallationDestination.jsx:162
+#: src/components/storage/InstallationDestination.jsx:168
 #, fuzzy
 #| msgid "not available"
 msgid "No disks available"
 msgstr "pas disponible"
 
-#: src/components/storage/InstallationDestination.jsx:291
+#: src/components/storage/InstallationDestination.jsx:350
 #, fuzzy
 msgid "No disks selected"
 msgstr "Desactivat"
@@ -598,10 +606,6 @@ msgstr ""
 #, fuzzy
 msgid "Not enough free space on the selected disks."
 msgstr "Desactivat"
-
-#: src/components/storage/scenarios/EraseAll.jsx:57
-msgid "Not enough space on selected disks."
-msgstr ""
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -651,6 +655,10 @@ msgstr ""
 
 #: src/components/Error.jsx:89
 msgid "Please attach the log file $0 to the issue."
+msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:353
+msgid "Please select at least one disk to continue"
 msgstr ""
 
 #: src/components/HeaderKebab.jsx:74
@@ -760,8 +768,8 @@ msgstr ""
 msgid "Reformat"
 msgstr ""
 
-#: src/components/storage/scenarios/ReinstallFedora.jsx:149
-#: src/components/storage/scenarios/ReinstallFedora.jsx:151
+#: src/components/storage/scenarios/ReinstallFedora.jsx:155
+#: src/components/storage/scenarios/ReinstallFedora.jsx:157
 #, fuzzy
 #| msgid "Install"
 msgid "Reinstall Fedora"
@@ -817,12 +825,12 @@ msgstr ""
 msgid "Requirements"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:153
+#: src/components/storage/InstallationDestination.jsx:159
 #, fuzzy
 msgid "Rescan devices"
 msgstr "_Seleccionar tot"
 
-#: src/components/storage/InstallationDestination.jsx:134
+#: src/components/storage/InstallationDestination.jsx:140
 msgid "Rescanning of the disks failed."
 msgstr ""
 
@@ -876,7 +884,7 @@ msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:348
+#: src/components/storage/InstallationDestination.jsx:383
 #, fuzzy
 #| msgctxt "GUI|Custom Partitioning|Configure Dialog"
 #| msgid "_Select"
@@ -889,7 +897,7 @@ msgstr "_Seleccion"
 msgid "Select a device"
 msgstr "_Seleccionar tot"
 
-#: src/components/storage/InstallationDestination.jsx:342
+#: src/components/storage/InstallationDestination.jsx:377
 #, fuzzy
 msgid "Select destination"
 msgstr "Descripcion"
@@ -1033,12 +1041,6 @@ msgid ""
 "provide additional details."
 msgstr ""
 
-#: src/components/storage/scenarios/EraseAll.jsx:59
-msgid ""
-"The installation needs $1 of disk space; however, the capacity of the "
-"selected disks is only $0."
-msgstr ""
-
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr ""
@@ -1088,7 +1090,7 @@ msgstr ""
 msgid "To begin using $0, reboot your system."
 msgstr ""
 
-#: src/components/storage/InstallationMethod.jsx:198
+#: src/components/storage/InstallationMethod.jsx:206
 msgid "To continue, select the devices to install to."
 msgstr ""
 
@@ -1135,7 +1137,7 @@ msgstr ""
 msgid "Use configured storage"
 msgstr "Frasa secreta"
 
-#: src/components/storage/scenarios/EraseAll.jsx:74
+#: src/components/storage/scenarios/EraseAll.jsx:55
 #, fuzzy
 #| msgid "Disabled"
 msgid "Use entire disk"

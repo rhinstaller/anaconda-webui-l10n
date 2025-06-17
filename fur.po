@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-16 03:43+0000\n"
+"POT-Creation-Date: 2025-06-17 03:39+0000\n"
 "PO-Revision-Date: 2024-02-11 02:42+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/"
@@ -18,13 +18,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.3.1\n"
 
-#: src/components/storage/InstallationDestination.jsx:180
-#: src/components/storage/InstallationDestination.jsx:305
+#: src/components/storage/InstallationDestination.jsx:186
+#: src/components/storage/InstallationDestination.jsx:307
 msgid "$0 $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:200
-#: src/components/storage/InstallationDestination.jsx:298
+#: src/components/storage/InstallationDestination.jsx:206
+#: src/components/storage/InstallationDestination.jsx:300
 #: src/components/storage/MountPointMapping.jsx:369
 msgid "$0 ($1)"
 msgstr ""
@@ -160,7 +160,7 @@ msgstr ""
 
 #: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
-#: src/components/storage/InstallationDestination.jsx:351
+#: src/components/storage/InstallationDestination.jsx:386
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
 #: src/components/review/Hostname.jsx:108
 msgid "Cancel"
@@ -173,7 +173,7 @@ msgstr "Anule"
 msgid "Change"
 msgstr "_Salve modifichis"
 
-#: src/components/storage/InstallationDestination.jsx:336
+#: src/components/storage/InstallationDestination.jsx:371
 #, fuzzy
 #| msgid "Destination"
 msgid "Change destination"
@@ -215,7 +215,7 @@ msgid "Clear search input"
 msgstr "Nete il valôr inserît"
 
 #: src/components/storage/EncryptedDevices.jsx:161
-#: src/components/storage/InstallationDestination.jsx:356
+#: src/components/storage/InstallationDestination.jsx:391
 msgid "Close"
 msgstr "Siere"
 
@@ -269,7 +269,7 @@ msgstr "Cree account"
 msgid "Critical error"
 msgstr "Erôr critic"
 
-#: src/components/storage/InstallationDestination.jsx:103
+#: src/components/storage/InstallationDestination.jsx:109
 #, fuzzy
 #| msgid "Current host name:"
 msgid "Currently installed: $0"
@@ -283,7 +283,7 @@ msgstr "Personalizade"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:285
+#: src/components/storage/InstallationDestination.jsx:292
 msgid "Destination"
 msgstr "Destinazion"
 
@@ -328,7 +328,7 @@ msgstr "Cifrâ"
 msgid "Encryption"
 msgstr "Cifradure"
 
-#: src/components/storage/scenarios/EraseAll.jsx:72
+#: src/components/storage/scenarios/EraseAll.jsx:53
 msgid "Erase data and install"
 msgstr "Scancele i dâts e instale"
 
@@ -390,7 +390,7 @@ msgstr "Plate password"
 msgid "Hostname"
 msgstr "Non host"
 
-#: src/components/storage/InstallationScenario.jsx:160
+#: src/components/storage/InstallationScenario.jsx:158
 msgid "How would you like to install?"
 msgstr "Cemût desideristu instalâ?"
 
@@ -443,7 +443,7 @@ msgstr "Instale"
 msgid "Installation failed"
 msgstr "Instalazion falide"
 
-#: src/components/storage/InstallationMethod.jsx:229
+#: src/components/storage/InstallationMethod.jsx:237
 msgid "Installation method"
 msgstr "Metodi di instalazion"
 
@@ -458,6 +458,10 @@ msgstr "Gjenar di instalazion"
 #: src/components/installation/InstallationProgress.jsx:136
 msgid "Installing"
 msgstr "Daûr a instalâ"
+
+#: src/components/storage/InstallationDestination.jsx:338
+msgid "Insufficient disk space"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
@@ -528,6 +532,10 @@ msgstr ""
 msgid "Medium"
 msgstr "Supuart"
 
+#: src/components/storage/InstallationDestination.jsx:341
+msgid "Minimum of $0 required"
+msgstr ""
+
 #: src/components/storage/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
@@ -577,13 +585,13 @@ msgstr "Indevant"
 msgid "No devices"
 msgstr "Nissun dispositîf"
 
-#: src/components/storage/InstallationDestination.jsx:162
+#: src/components/storage/InstallationDestination.jsx:168
 #, fuzzy
 #| msgid "not available"
 msgid "No disks available"
 msgstr "no disponibil"
 
-#: src/components/storage/InstallationDestination.jsx:291
+#: src/components/storage/InstallationDestination.jsx:350
 msgid "No disks selected"
 msgstr "Nissun disc selezionât"
 
@@ -594,10 +602,6 @@ msgstr "Nissun risultât cjatât"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "No vonde spazi libar sui discs selezionâts."
-
-#: src/components/storage/scenarios/EraseAll.jsx:57
-msgid "Not enough space on selected disks."
-msgstr "No vonde spazi sui discs selezionâts."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -650,6 +654,12 @@ msgstr "In spiete"
 #: src/components/Error.jsx:89
 msgid "Please attach the log file $0 to the issue."
 msgstr "Par plasê, zonte il file di regjistri $0 al probleme."
+
+#: src/components/storage/InstallationDestination.jsx:353
+#, fuzzy
+#| msgid "No disks selected; please select at least one disk to install to."
+msgid "Please select at least one disk to continue"
+msgstr "Nissun disc selezionât; Selezionâ almancul un disc pe instalazion."
 
 #: src/components/HeaderKebab.jsx:74
 msgid "Powered by Anaconda"
@@ -765,8 +775,8 @@ msgstr "Partizions racomandadis:"
 msgid "Reformat"
 msgstr "Torne formate"
 
-#: src/components/storage/scenarios/ReinstallFedora.jsx:149
-#: src/components/storage/scenarios/ReinstallFedora.jsx:151
+#: src/components/storage/scenarios/ReinstallFedora.jsx:155
+#: src/components/storage/scenarios/ReinstallFedora.jsx:157
 #, fuzzy
 #| msgid "Install Fedora…"
 msgid "Reinstall Fedora"
@@ -832,13 +842,13 @@ msgstr "Necessari"
 msgid "Requirements"
 msgstr "Recuisîts"
 
-#: src/components/storage/InstallationDestination.jsx:153
+#: src/components/storage/InstallationDestination.jsx:159
 #, fuzzy
 #| msgid "to rescan devices"
 msgid "Rescan devices"
 msgstr "par tornâ a analizâ i dispositîfs"
 
-#: src/components/storage/InstallationDestination.jsx:134
+#: src/components/storage/InstallationDestination.jsx:140
 msgid "Rescanning of the disks failed."
 msgstr "Gnove scansion dai discs falide."
 
@@ -896,7 +906,7 @@ msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:348
+#: src/components/storage/InstallationDestination.jsx:383
 #, fuzzy
 #| msgctxt "GUI|Custom Partitioning|Configure Dialog"
 #| msgid "_Select"
@@ -908,7 +918,7 @@ msgstr "_Selezione"
 msgid "Select a device"
 msgstr "Selezione un dispositîf"
 
-#: src/components/storage/InstallationDestination.jsx:342
+#: src/components/storage/InstallationDestination.jsx:377
 #, fuzzy
 #| msgid "Destination"
 msgid "Select destination"
@@ -1062,12 +1072,6 @@ msgstr ""
 "Chest regjistri al vignarà mandât al sisteme di gjestion dai problemis, là "
 "tu podarâs dâ plui detais."
 
-#: src/components/storage/scenarios/EraseAll.jsx:59
-msgid ""
-"The installation needs $1 of disk space; however, the capacity of the "
-"selected disks is only $0."
-msgstr ""
-
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "L'instaladôr nol pues continuâ par vie di un erôr critic."
@@ -1124,7 +1128,7 @@ msgstr "Chest al podarès tirâle a dilunc"
 msgid "To begin using $0, reboot your system."
 msgstr "Par scomençâ a doprâ $0, torne invie il sisteme."
 
-#: src/components/storage/InstallationMethod.jsx:198
+#: src/components/storage/InstallationMethod.jsx:206
 msgid "To continue, select the devices to install to."
 msgstr "Par continuâ, selezione i dispositîfs dulà lâ a instalâ."
 
@@ -1175,7 +1179,7 @@ msgstr "Disposizions disponibilis"
 msgid "Use configured storage"
 msgstr "Configure la memorie di archiviazion"
 
-#: src/components/storage/scenarios/EraseAll.jsx:74
+#: src/components/storage/scenarios/EraseAll.jsx:55
 #, fuzzy
 #| msgid "Selected disks"
 msgid "Use entire disk"
@@ -1309,6 +1313,9 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr ""
+
+#~ msgid "Not enough space on selected disks."
+#~ msgstr "No vonde spazi sui discs selezionâts."
 
 #, fuzzy
 #~| msgid "Unknown Linux"
@@ -3757,9 +3764,6 @@ msgstr ""
 
 #~ msgid "No disks selected. Keeping previous disk set."
 #~ msgstr "Nissun disc selezionât. Si ten la cumbinazion di discs precedente."
-
-#~ msgid "No disks selected; please select at least one disk to install to."
-#~ msgstr "Nissun disc selezionât; Selezionâ almancul un disc pe instalazion."
 
 #~ msgid "No format on device '{}'"
 #~ msgstr "Nissun formât sul dispositîf '{}'"

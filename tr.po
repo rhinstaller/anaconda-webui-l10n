@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-16 03:43+0000\n"
+"POT-Creation-Date: 2025-06-17 03:39+0000\n"
 "PO-Revision-Date: 2024-12-19 03:16+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
@@ -40,13 +40,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
 "X-Generator: Weblate 5.9.1\n"
 
-#: src/components/storage/InstallationDestination.jsx:180
-#: src/components/storage/InstallationDestination.jsx:305
+#: src/components/storage/InstallationDestination.jsx:186
+#: src/components/storage/InstallationDestination.jsx:307
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/InstallationDestination.jsx:200
-#: src/components/storage/InstallationDestination.jsx:298
+#: src/components/storage/InstallationDestination.jsx:206
+#: src/components/storage/InstallationDestination.jsx:300
 #: src/components/storage/MountPointMapping.jsx:369
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
@@ -180,7 +180,7 @@ msgstr ""
 
 #: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
-#: src/components/storage/InstallationDestination.jsx:351
+#: src/components/storage/InstallationDestination.jsx:386
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
 #: src/components/review/Hostname.jsx:108
 msgid "Cancel"
@@ -190,7 +190,7 @@ msgstr "İptal"
 msgid "Change"
 msgstr "Değiştir"
 
-#: src/components/storage/InstallationDestination.jsx:336
+#: src/components/storage/InstallationDestination.jsx:371
 msgid "Change destination"
 msgstr "Hedefi değiştir"
 
@@ -226,7 +226,7 @@ msgid "Clear search input"
 msgstr "Arama girişini temizle"
 
 #: src/components/storage/EncryptedDevices.jsx:161
-#: src/components/storage/InstallationDestination.jsx:356
+#: src/components/storage/InstallationDestination.jsx:391
 msgid "Close"
 msgstr "Kapat"
 
@@ -277,7 +277,7 @@ msgstr "Hesap oluştur"
 msgid "Critical error"
 msgstr "Önemli hata"
 
-#: src/components/storage/InstallationDestination.jsx:103
+#: src/components/storage/InstallationDestination.jsx:109
 msgid "Currently installed: $0"
 msgstr "Şu anda kurulu: $0"
 
@@ -289,7 +289,7 @@ msgstr "Özel"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Belirli bölümlerin silinmesi $0 önyüklenmesini engelleyebilir: $1"
 
-#: src/components/storage/InstallationDestination.jsx:285
+#: src/components/storage/InstallationDestination.jsx:292
 msgid "Destination"
 msgstr "Hedef"
 
@@ -330,7 +330,7 @@ msgstr "Şifrelendi"
 msgid "Encryption"
 msgstr "Şifreleme"
 
-#: src/components/storage/scenarios/EraseAll.jsx:72
+#: src/components/storage/scenarios/EraseAll.jsx:53
 msgid "Erase data and install"
 msgstr "Verileri sil ve kur"
 
@@ -388,7 +388,7 @@ msgstr "Parolayı gizle"
 msgid "Hostname"
 msgstr "Ana makine adı"
 
-#: src/components/storage/InstallationScenario.jsx:160
+#: src/components/storage/InstallationScenario.jsx:158
 msgid "How would you like to install?"
 msgstr "Nasıl kurmak istersiniz?"
 
@@ -442,7 +442,7 @@ msgstr "Kur"
 msgid "Installation failed"
 msgstr "Kurulum başarısız"
 
-#: src/components/storage/InstallationMethod.jsx:229
+#: src/components/storage/InstallationMethod.jsx:237
 msgid "Installation method"
 msgstr "Kurulum yöntemi"
 
@@ -457,6 +457,10 @@ msgstr "Kurulum türü"
 #: src/components/installation/InstallationProgress.jsx:136
 msgid "Installing"
 msgstr "Kuruluyor"
+
+#: src/components/storage/InstallationDestination.jsx:338
+msgid "Insufficient disk space"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
@@ -521,6 +525,10 @@ msgstr "Harf, rakam ve tire işareti içerebilir."
 msgid "Medium"
 msgstr "Ortam"
 
+#: src/components/storage/InstallationDestination.jsx:341
+msgid "Minimum of $0 required"
+msgstr ""
+
 #: src/components/storage/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
@@ -569,11 +577,11 @@ msgstr "Sonraki"
 msgid "No devices"
 msgstr "Aygıt yok"
 
-#: src/components/storage/InstallationDestination.jsx:162
+#: src/components/storage/InstallationDestination.jsx:168
 msgid "No disks available"
 msgstr "Kullanılabilir disk yok"
 
-#: src/components/storage/InstallationDestination.jsx:291
+#: src/components/storage/InstallationDestination.jsx:350
 msgid "No disks selected"
 msgstr "Hiçbir disk seçilmedi"
 
@@ -584,10 +592,6 @@ msgstr "Sonuç bulunamadı"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "Seçilen disklerde yeterli boş alan yok."
-
-#: src/components/storage/scenarios/EraseAll.jsx:57
-msgid "Not enough space on selected disks."
-msgstr "Seçilen disklerde yeterli alan yok."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -639,6 +643,12 @@ msgstr "Bekliyor"
 #: src/components/Error.jsx:89
 msgid "Please attach the log file $0 to the issue."
 msgstr "Lütfen $0 günlük dosyasını soruna ekleyin."
+
+#: src/components/storage/InstallationDestination.jsx:353
+#, fuzzy
+#| msgid "No disks selected; please select at least one disk to install to."
+msgid "Please select at least one disk to continue"
+msgstr "Hiçbir disk seçilmedi; lütfen kurulum yapılacak en az bir disk seçin."
 
 #: src/components/HeaderKebab.jsx:74
 msgid "Powered by Anaconda"
@@ -743,8 +753,8 @@ msgstr "Tavsiye edilen bölümler:"
 msgid "Reformat"
 msgstr "Yeniden biçimlendir"
 
-#: src/components/storage/scenarios/ReinstallFedora.jsx:149
-#: src/components/storage/scenarios/ReinstallFedora.jsx:151
+#: src/components/storage/scenarios/ReinstallFedora.jsx:155
+#: src/components/storage/scenarios/ReinstallFedora.jsx:157
 msgid "Reinstall Fedora"
 msgstr "Fedora'yı Yeniden Kur"
 
@@ -803,11 +813,11 @@ msgstr "Gerekli"
 msgid "Requirements"
 msgstr "Gereksinimler"
 
-#: src/components/storage/InstallationDestination.jsx:153
+#: src/components/storage/InstallationDestination.jsx:159
 msgid "Rescan devices"
 msgstr "Aygıtları yeniden tara"
 
-#: src/components/storage/InstallationDestination.jsx:134
+#: src/components/storage/InstallationDestination.jsx:140
 msgid "Rescanning of the disks failed."
 msgstr "Disklerin yeniden taranması başarısız oldu."
 
@@ -857,7 +867,7 @@ msgstr ""
 "Disk tabanlı şifreleme kullanarak verilerinizi güvende tutun. Yalnızca yeni "
 "bölümler için geçerlidir"
 
-#: src/components/storage/InstallationDestination.jsx:348
+#: src/components/storage/InstallationDestination.jsx:383
 msgid "Select"
 msgstr "Seç"
 
@@ -866,7 +876,7 @@ msgstr "Seç"
 msgid "Select a device"
 msgstr "Bir aygıt seçin"
 
-#: src/components/storage/InstallationDestination.jsx:342
+#: src/components/storage/InstallationDestination.jsx:377
 msgid "Select destination"
 msgstr "Hedefi seç"
 
@@ -1005,12 +1015,6 @@ msgstr ""
 "Aşağıdaki günlük, ek ayrıntılar sağlayabileceğiniz sorun izleme sistemine "
 "gönderilecektir."
 
-#: src/components/storage/scenarios/EraseAll.jsx:59
-msgid ""
-"The installation needs $1 of disk space; however, the capacity of the "
-"selected disks is only $0."
-msgstr ""
-
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "Kurucu önemli bir hata nedeniyle devam edemiyor."
@@ -1062,7 +1066,7 @@ msgstr "Bu biraz zaman alacak"
 msgid "To begin using $0, reboot your system."
 msgstr "$0 kullanmaya başlamak için sisteminizi yeniden başlatın."
 
-#: src/components/storage/InstallationMethod.jsx:198
+#: src/components/storage/InstallationMethod.jsx:206
 msgid "To continue, select the devices to install to."
 msgstr "Devam etmek için kurulum yapılacak aygıtları seçin."
 
@@ -1113,7 +1117,7 @@ msgstr "Kullanılabilir Düzenler"
 msgid "Use configured storage"
 msgstr "Yapılandırılan depolamayı kullan"
 
-#: src/components/storage/scenarios/EraseAll.jsx:74
+#: src/components/storage/scenarios/EraseAll.jsx:55
 msgid "Use entire disk"
 msgstr "Tüm diski kullan"
 
@@ -1235,6 +1239,9 @@ msgstr "$0 olacak şekilde küçült"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "geri al"
+
+#~ msgid "Not enough space on selected disks."
+#~ msgstr "Seçilen disklerde yeterli alan yok."
 
 #, fuzzy
 #~| msgid "Unknown Linux"
@@ -3664,10 +3671,6 @@ msgstr "geri al"
 
 #~ msgid "No disks selected. Keeping previous disk set."
 #~ msgstr "Herhangi bir disk seçilmedi. Önceki disk takımı saklanıyor."
-
-#~ msgid "No disks selected; please select at least one disk to install to."
-#~ msgstr ""
-#~ "Hiçbir disk seçilmedi; lütfen kurulum yapılacak en az bir disk seçin."
 
 #~ msgid "No format on device '{}'"
 #~ msgstr "'{}' aygıtında biçim yok"

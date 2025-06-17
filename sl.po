@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 40.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-16 03:43+0000\n"
+"POT-Creation-Date: 2025-06-17 03:39+0000\n"
 "PO-Revision-Date: 2025-06-08 14:25+0000\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <https://translate.fedoraproject.org/projects/"
@@ -21,13 +21,13 @@ msgstr ""
 "n%100==4 ? 2 : 3;\n"
 "X-Generator: Weblate 5.11.4\n"
 
-#: src/components/storage/InstallationDestination.jsx:180
-#: src/components/storage/InstallationDestination.jsx:305
+#: src/components/storage/InstallationDestination.jsx:186
+#: src/components/storage/InstallationDestination.jsx:307
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/InstallationDestination.jsx:200
-#: src/components/storage/InstallationDestination.jsx:298
+#: src/components/storage/InstallationDestination.jsx:206
+#: src/components/storage/InstallationDestination.jsx:300
 #: src/components/storage/MountPointMapping.jsx:369
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
@@ -158,7 +158,7 @@ msgstr ""
 
 #: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
-#: src/components/storage/InstallationDestination.jsx:351
+#: src/components/storage/InstallationDestination.jsx:386
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
 #: src/components/review/Hostname.jsx:108
 msgid "Cancel"
@@ -168,7 +168,7 @@ msgstr "Prekliči"
 msgid "Change"
 msgstr "Spremeni"
 
-#: src/components/storage/InstallationDestination.jsx:336
+#: src/components/storage/InstallationDestination.jsx:371
 msgid "Change destination"
 msgstr "Spremeni cilj"
 
@@ -202,7 +202,7 @@ msgid "Clear search input"
 msgstr "Počisti iskani vnos"
 
 #: src/components/storage/EncryptedDevices.jsx:161
-#: src/components/storage/InstallationDestination.jsx:356
+#: src/components/storage/InstallationDestination.jsx:391
 msgid "Close"
 msgstr "Zapri"
 
@@ -253,7 +253,7 @@ msgstr "Ustvari račun"
 msgid "Critical error"
 msgstr "Kritična napaka"
 
-#: src/components/storage/InstallationDestination.jsx:103
+#: src/components/storage/InstallationDestination.jsx:109
 msgid "Currently installed: $0"
 msgstr "Trenutno nameščeno: $0"
 
@@ -265,7 +265,7 @@ msgstr "Po meri"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Brisanje določenih razdelkov lahko prepreči zagon $0: $1"
 
-#: src/components/storage/InstallationDestination.jsx:285
+#: src/components/storage/InstallationDestination.jsx:292
 msgid "Destination"
 msgstr "Cilj"
 
@@ -306,7 +306,7 @@ msgstr "Šifrirano"
 msgid "Encryption"
 msgstr "Šifriranje"
 
-#: src/components/storage/scenarios/EraseAll.jsx:72
+#: src/components/storage/scenarios/EraseAll.jsx:53
 msgid "Erase data and install"
 msgstr "Izbriši podatke in namesti"
 
@@ -364,7 +364,7 @@ msgstr "Skrij geslo"
 msgid "Hostname"
 msgstr "Ime gostitelja"
 
-#: src/components/storage/InstallationScenario.jsx:160
+#: src/components/storage/InstallationScenario.jsx:158
 msgid "How would you like to install?"
 msgstr "Kako želite namestiti?"
 
@@ -418,7 +418,7 @@ msgstr "Namesti"
 msgid "Installation failed"
 msgstr "Nameščanje ni uspelo"
 
-#: src/components/storage/InstallationMethod.jsx:229
+#: src/components/storage/InstallationMethod.jsx:237
 msgid "Installation method"
 msgstr "Način namestitve"
 
@@ -433,6 +433,10 @@ msgstr "Vrsta namestitve"
 #: src/components/installation/InstallationProgress.jsx:136
 msgid "Installing"
 msgstr "Nameščanje"
+
+#: src/components/storage/InstallationDestination.jsx:338
+msgid "Insufficient disk space"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
@@ -497,6 +501,10 @@ msgstr "Lahko vsebuje črke, števke in pomišljaje."
 msgid "Medium"
 msgstr "Medij"
 
+#: src/components/storage/InstallationDestination.jsx:341
+msgid "Minimum of $0 required"
+msgstr ""
+
 #: src/components/storage/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
@@ -547,11 +555,11 @@ msgstr "Naprej"
 msgid "No devices"
 msgstr "Ni naprav"
 
-#: src/components/storage/InstallationDestination.jsx:162
+#: src/components/storage/InstallationDestination.jsx:168
 msgid "No disks available"
 msgstr "Noben disk ni na voljo"
 
-#: src/components/storage/InstallationDestination.jsx:291
+#: src/components/storage/InstallationDestination.jsx:350
 msgid "No disks selected"
 msgstr "Ni izbranih diskov"
 
@@ -562,10 +570,6 @@ msgstr "Ni zadetkov"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "Na izbranih diskih ni dovolj prostega prostora."
-
-#: src/components/storage/scenarios/EraseAll.jsx:57
-msgid "Not enough space on selected disks."
-msgstr "Premalo prostora na izbranih diskih."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -615,6 +619,12 @@ msgstr "V teku"
 #: src/components/Error.jsx:89
 msgid "Please attach the log file $0 to the issue."
 msgstr "Priložite zapisniško datoteko $0 k prijavi."
+
+#: src/components/storage/InstallationDestination.jsx:353
+#, fuzzy
+#| msgid "No disks selected; please select at least one disk to install to."
+msgid "Please select at least one disk to continue"
+msgstr "Ni izbranih diskov; izberite vsaj en disk kot cilj namestitve."
 
 #: src/components/HeaderKebab.jsx:74
 msgid "Powered by Anaconda"
@@ -717,8 +727,8 @@ msgstr "Priporočeni razdelki:"
 msgid "Reformat"
 msgstr "Ponovno formatiraj"
 
-#: src/components/storage/scenarios/ReinstallFedora.jsx:149
-#: src/components/storage/scenarios/ReinstallFedora.jsx:151
+#: src/components/storage/scenarios/ReinstallFedora.jsx:155
+#: src/components/storage/scenarios/ReinstallFedora.jsx:157
 msgid "Reinstall Fedora"
 msgstr "Ponovno namesti Fedoro"
 
@@ -782,11 +792,11 @@ msgstr "Obvezno"
 msgid "Requirements"
 msgstr "Zahteve"
 
-#: src/components/storage/InstallationDestination.jsx:153
+#: src/components/storage/InstallationDestination.jsx:159
 msgid "Rescan devices"
 msgstr "Ponovno prečeši naprave"
 
-#: src/components/storage/InstallationDestination.jsx:134
+#: src/components/storage/InstallationDestination.jsx:140
 msgid "Rescanning of the disks failed."
 msgstr "Ponovno pregledovanje diskov ni uspelo."
 
@@ -834,7 +844,7 @@ msgstr ""
 "Zavarujte svoje podatke z uporabo šifriranja na ravni diska. Velja le za "
 "nove razdelke"
 
-#: src/components/storage/InstallationDestination.jsx:348
+#: src/components/storage/InstallationDestination.jsx:383
 msgid "Select"
 msgstr "Izberi"
 
@@ -843,7 +853,7 @@ msgstr "Izberi"
 msgid "Select a device"
 msgstr "Izberite napravo"
 
-#: src/components/storage/InstallationDestination.jsx:342
+#: src/components/storage/InstallationDestination.jsx:377
 msgid "Select destination"
 msgstr "Izberite cilj"
 
@@ -978,14 +988,6 @@ msgstr ""
 "Naslednji zapisnik bo poslan v sistem za sledenje težavam, kjer lahko "
 "navedete dodatne podrobnosti."
 
-#: src/components/storage/scenarios/EraseAll.jsx:59
-msgid ""
-"The installation needs $1 of disk space; however, the capacity of the "
-"selected disks is only $0."
-msgstr ""
-"Za namestitev je potrebnih $1 prostora, kapaciteta izbranih diskov je zgolj "
-"$0."
-
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "Namestilnik ne more nadaljevati zaradi kritične napake."
@@ -1037,7 +1039,7 @@ msgstr "To utegne trajati nekaj časa"
 msgid "To begin using $0, reboot your system."
 msgstr "Če želite začeti uporabljati $0, znova zaženite sistem."
 
-#: src/components/storage/InstallationMethod.jsx:198
+#: src/components/storage/InstallationMethod.jsx:206
 msgid "To continue, select the devices to install to."
 msgstr "Če želite nadaljevati, izberite naprave, v katere želite nameščati."
 
@@ -1086,7 +1088,7 @@ msgstr "Neuporabne postavitve"
 msgid "Use configured storage"
 msgstr "Uporabi nastavljeno hrambo"
 
-#: src/components/storage/scenarios/EraseAll.jsx:74
+#: src/components/storage/scenarios/EraseAll.jsx:55
 msgid "Use entire disk"
 msgstr "Uporabi celoten disk"
 
@@ -1206,6 +1208,16 @@ msgstr "skrči na $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "razveljavi"
+
+#~ msgid "Not enough space on selected disks."
+#~ msgstr "Premalo prostora na izbranih diskih."
+
+#~ msgid ""
+#~ "The installation needs $1 of disk space; however, the capacity of the "
+#~ "selected disks is only $0."
+#~ msgstr ""
+#~ "Za namestitev je potrebnih $1 prostora, kapaciteta izbranih diskov je "
+#~ "zgolj $0."
 
 #~ msgid "Unknown layout"
 #~ msgstr "Neznana postavitev"
@@ -3569,9 +3581,6 @@ msgstr "razveljavi"
 
 #~ msgid "No disks selected. Keeping previous disk set."
 #~ msgstr "Ni izbranega nobenega diska. Ohranjam prejšnji nabor diskov."
-
-#~ msgid "No disks selected; please select at least one disk to install to."
-#~ msgstr "Ni izbranih diskov; izberite vsaj en disk kot cilj namestitve."
 
 #~ msgid "No format on device '{}'"
 #~ msgstr "Ni formata na napravi '{}'"

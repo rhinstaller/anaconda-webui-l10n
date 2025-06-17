@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-16 03:43+0000\n"
+"POT-Creation-Date: 2025-06-17 03:39+0000\n"
 "PO-Revision-Date: 2025-05-18 13:20+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -45,13 +45,13 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.11.3\n"
 
-#: src/components/storage/InstallationDestination.jsx:180
-#: src/components/storage/InstallationDestination.jsx:305
+#: src/components/storage/InstallationDestination.jsx:186
+#: src/components/storage/InstallationDestination.jsx:307
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/InstallationDestination.jsx:200
-#: src/components/storage/InstallationDestination.jsx:298
+#: src/components/storage/InstallationDestination.jsx:206
+#: src/components/storage/InstallationDestination.jsx:300
 #: src/components/storage/MountPointMapping.jsx:369
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
@@ -185,7 +185,7 @@ msgstr ""
 
 #: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
-#: src/components/storage/InstallationDestination.jsx:351
+#: src/components/storage/InstallationDestination.jsx:386
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
 #: src/components/review/Hostname.jsx:108
 msgid "Cancel"
@@ -195,7 +195,7 @@ msgstr "Anuluj"
 msgid "Change"
 msgstr "Zmień"
 
-#: src/components/storage/InstallationDestination.jsx:336
+#: src/components/storage/InstallationDestination.jsx:371
 msgid "Change destination"
 msgstr "Zmień miejsce docelowe"
 
@@ -229,7 +229,7 @@ msgid "Clear search input"
 msgstr "Usuń wpisaną wartość wyszukiwania"
 
 #: src/components/storage/EncryptedDevices.jsx:161
-#: src/components/storage/InstallationDestination.jsx:356
+#: src/components/storage/InstallationDestination.jsx:391
 msgid "Close"
 msgstr "Zamknij"
 
@@ -281,7 +281,7 @@ msgstr "Utwórz konto"
 msgid "Critical error"
 msgstr "Błąd krytyczny"
 
-#: src/components/storage/InstallationDestination.jsx:103
+#: src/components/storage/InstallationDestination.jsx:109
 msgid "Currently installed: $0"
 msgstr "Obecnie zainstalowane: $0"
 
@@ -294,7 +294,7 @@ msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 "Usunięcie pewnych partycji może uniemożliwić uruchomienie systemu $0: $1"
 
-#: src/components/storage/InstallationDestination.jsx:285
+#: src/components/storage/InstallationDestination.jsx:292
 msgid "Destination"
 msgstr "Miejsce docelowe"
 
@@ -335,7 +335,7 @@ msgstr "Zaszyfrowane"
 msgid "Encryption"
 msgstr "Szyfrowanie"
 
-#: src/components/storage/scenarios/EraseAll.jsx:72
+#: src/components/storage/scenarios/EraseAll.jsx:53
 msgid "Erase data and install"
 msgstr "Usuń dane i zainstaluj"
 
@@ -393,7 +393,7 @@ msgstr "Ukryj hasło"
 msgid "Hostname"
 msgstr "Nazwa komputera"
 
-#: src/components/storage/InstallationScenario.jsx:160
+#: src/components/storage/InstallationScenario.jsx:158
 msgid "How would you like to install?"
 msgstr "W jaki sposób zainstalować?"
 
@@ -449,7 +449,7 @@ msgstr "Zainstaluj"
 msgid "Installation failed"
 msgstr "Instalacja się nie powiodła"
 
-#: src/components/storage/InstallationMethod.jsx:229
+#: src/components/storage/InstallationMethod.jsx:237
 msgid "Installation method"
 msgstr "Metoda instalacji"
 
@@ -464,6 +464,10 @@ msgstr "Typ instalacji"
 #: src/components/installation/InstallationProgress.jsx:136
 msgid "Installing"
 msgstr "Instalowanie"
+
+#: src/components/storage/InstallationDestination.jsx:338
+msgid "Insufficient disk space"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
@@ -533,6 +537,10 @@ msgstr "Może zawierać litery, cyfry i myślniki."
 msgid "Medium"
 msgstr "Średnie"
 
+#: src/components/storage/InstallationDestination.jsx:341
+msgid "Minimum of $0 required"
+msgstr ""
+
 #: src/components/storage/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
@@ -584,11 +592,11 @@ msgstr "Dalej"
 msgid "No devices"
 msgstr "Brak urządzeń"
 
-#: src/components/storage/InstallationDestination.jsx:162
+#: src/components/storage/InstallationDestination.jsx:168
 msgid "No disks available"
 msgstr "Brak dostępnych dysków"
 
-#: src/components/storage/InstallationDestination.jsx:291
+#: src/components/storage/InstallationDestination.jsx:350
 msgid "No disks selected"
 msgstr "Nie wybrano dysków"
 
@@ -599,10 +607,6 @@ msgstr "Brak wyników"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "Za mało wolnego miejsca na wybranych dyskach."
-
-#: src/components/storage/scenarios/EraseAll.jsx:57
-msgid "Not enough space on selected disks."
-msgstr "Za mało miejsca na wybranych dyskach."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -652,6 +656,13 @@ msgstr "Nieukończone"
 #: src/components/Error.jsx:89
 msgid "Please attach the log file $0 to the issue."
 msgstr "Proszę załączyć plik dziennika $0 w zgłoszeniu."
+
+#: src/components/storage/InstallationDestination.jsx:353
+#, fuzzy
+#| msgid "No disks selected; please select at least one disk to install to."
+msgid "Please select at least one disk to continue"
+msgstr ""
+"Nie wybrano dysków. Proszę wybrać co najmniej jeden dysk do instalacji."
 
 #: src/components/HeaderKebab.jsx:74
 msgid "Powered by Anaconda"
@@ -755,8 +766,8 @@ msgstr "Zalecane partycje:"
 msgid "Reformat"
 msgstr "Ponowne formatowanie"
 
-#: src/components/storage/scenarios/ReinstallFedora.jsx:149
-#: src/components/storage/scenarios/ReinstallFedora.jsx:151
+#: src/components/storage/scenarios/ReinstallFedora.jsx:155
+#: src/components/storage/scenarios/ReinstallFedora.jsx:157
 msgid "Reinstall Fedora"
 msgstr "Ponownie zainstaluj Fedorę"
 
@@ -819,11 +830,11 @@ msgstr "Wymagany"
 msgid "Requirements"
 msgstr "Wymagania"
 
-#: src/components/storage/InstallationDestination.jsx:153
+#: src/components/storage/InstallationDestination.jsx:159
 msgid "Rescan devices"
 msgstr "Ponownie skanuj urządzenia"
 
-#: src/components/storage/InstallationDestination.jsx:134
+#: src/components/storage/InstallationDestination.jsx:140
 msgid "Rescanning of the disks failed."
 msgstr "Ponowne skanowanie dysków się nie powiodło."
 
@@ -871,7 +882,7 @@ msgstr ""
 "Zabezpiecza dane za pomocą szyfrowania na poziomie dysku. Ma zastosowanie "
 "tylko do nowych partycji"
 
-#: src/components/storage/InstallationDestination.jsx:348
+#: src/components/storage/InstallationDestination.jsx:383
 msgid "Select"
 msgstr "Wybierz"
 
@@ -880,7 +891,7 @@ msgstr "Wybierz"
 msgid "Select a device"
 msgstr "Wybierz urządzenie"
 
-#: src/components/storage/InstallationDestination.jsx:342
+#: src/components/storage/InstallationDestination.jsx:377
 msgid "Select destination"
 msgstr "Wybierz miejsce docelowe"
 
@@ -1019,12 +1030,6 @@ msgstr ""
 "Poniższy dziennik zostanie wysłany do systemu śledzenia błędów, gdzie można "
 "podać dodatkowe informacje."
 
-#: src/components/storage/scenarios/EraseAll.jsx:59
-msgid ""
-"The installation needs $1 of disk space; however, the capacity of the "
-"selected disks is only $0."
-msgstr "Wymagane miejsce na dysku: $1, pojemność wybranych dysków: $0."
-
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "Instalator nie może kontynuować z powodu krytycznego błędu."
@@ -1081,7 +1086,7 @@ msgstr "To zajmie chwilę"
 msgid "To begin using $0, reboot your system."
 msgstr "Uruchom komputer ponownie, aby zacząć korzystać z systemu $0."
 
-#: src/components/storage/InstallationMethod.jsx:198
+#: src/components/storage/InstallationMethod.jsx:206
 msgid "To continue, select the devices to install to."
 msgstr "Aby kontynuować, proszę wybrać urządzenia, na których zainstalować."
 
@@ -1130,7 +1135,7 @@ msgstr "Nieużywalny układ"
 msgid "Use configured storage"
 msgstr "Użyj skonfigurowanych urządzeń do przechowywania danych"
 
-#: src/components/storage/scenarios/EraseAll.jsx:74
+#: src/components/storage/scenarios/EraseAll.jsx:55
 msgid "Use entire disk"
 msgstr "Użyj całego dysku"
 
@@ -1249,6 +1254,14 @@ msgstr "zmniejsz do $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "cofnij"
+
+#~ msgid "Not enough space on selected disks."
+#~ msgstr "Za mało miejsca na wybranych dyskach."
+
+#~ msgid ""
+#~ "The installation needs $1 of disk space; however, the capacity of the "
+#~ "selected disks is only $0."
+#~ msgstr "Wymagane miejsce na dysku: $1, pojemność wybranych dysków: $0."
 
 #~ msgid "Unknown layout"
 #~ msgstr "Nieznany układ"
@@ -3721,10 +3734,6 @@ msgstr "cofnij"
 
 #~ msgid "No disks selected. Keeping previous disk set."
 #~ msgstr "Nie wybrano dysków. Utrzymany zostanie poprzedni zestaw dysków."
-
-#~ msgid "No disks selected; please select at least one disk to install to."
-#~ msgstr ""
-#~ "Nie wybrano dysków. Proszę wybrać co najmniej jeden dysk do instalacji."
 
 #~ msgid "No format on device '{}'"
 #~ msgstr "Brak formatu na urządzeniu „{}”"

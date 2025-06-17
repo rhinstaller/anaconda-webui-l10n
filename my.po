@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-16 03:43+0000\n"
+"POT-Creation-Date: 2025-06-17 03:39+0000\n"
 "PO-Revision-Date: 2023-11-06 12:20+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Burmese <https://translate.fedoraproject.org/projects/"
@@ -19,13 +19,13 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.1.1\n"
 
-#: src/components/storage/InstallationDestination.jsx:180
-#: src/components/storage/InstallationDestination.jsx:305
+#: src/components/storage/InstallationDestination.jsx:186
+#: src/components/storage/InstallationDestination.jsx:307
 msgid "$0 $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:200
-#: src/components/storage/InstallationDestination.jsx:298
+#: src/components/storage/InstallationDestination.jsx:206
+#: src/components/storage/InstallationDestination.jsx:300
 #: src/components/storage/MountPointMapping.jsx:369
 msgid "$0 ($1)"
 msgstr ""
@@ -152,7 +152,7 @@ msgstr ""
 
 #: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
-#: src/components/storage/InstallationDestination.jsx:351
+#: src/components/storage/InstallationDestination.jsx:386
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
 #: src/components/review/Hostname.jsx:108
 msgid "Cancel"
@@ -162,7 +162,7 @@ msgstr ""
 msgid "Change"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:336
+#: src/components/storage/InstallationDestination.jsx:371
 #, fuzzy
 msgid "Change destination"
 msgstr "လုပ်ဆောင်ချက်"
@@ -196,7 +196,7 @@ msgid "Clear search input"
 msgstr ""
 
 #: src/components/storage/EncryptedDevices.jsx:161
-#: src/components/storage/InstallationDestination.jsx:356
+#: src/components/storage/InstallationDestination.jsx:391
 msgid "Close"
 msgstr "ပိတ်ပါ။"
 
@@ -249,7 +249,7 @@ msgstr ""
 msgid "Critical error"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:103
+#: src/components/storage/InstallationDestination.jsx:109
 msgid "Currently installed: $0"
 msgstr ""
 
@@ -261,7 +261,7 @@ msgstr ""
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:285
+#: src/components/storage/InstallationDestination.jsx:292
 #, fuzzy
 msgid "Destination"
 msgstr "လုပ်ဆောင်ချက်"
@@ -307,7 +307,7 @@ msgstr ""
 msgid "Encryption"
 msgstr "Device ဖော်ပြချက်"
 
-#: src/components/storage/scenarios/EraseAll.jsx:72
+#: src/components/storage/scenarios/EraseAll.jsx:53
 #, fuzzy
 msgid "Erase data and install"
 msgstr "လုပ်ဆောင်ချက်"
@@ -367,7 +367,7 @@ msgstr "CHAP _Password:"
 msgid "Hostname"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:160
+#: src/components/storage/InstallationScenario.jsx:158
 msgid "How would you like to install?"
 msgstr ""
 
@@ -420,7 +420,7 @@ msgstr "ထည့်သွင်းပါ"
 msgid "Installation failed"
 msgstr "ထည့်သွင်းပါ"
 
-#: src/components/storage/InstallationMethod.jsx:229
+#: src/components/storage/InstallationMethod.jsx:237
 #, fuzzy
 msgid "Installation method"
 msgstr "ထည့်သွင်းပါ"
@@ -439,6 +439,10 @@ msgstr "ထည့်သွင်းပါ"
 #, fuzzy
 msgid "Installing"
 msgstr "ထည့်သွင်းပါ"
+
+#: src/components/storage/InstallationDestination.jsx:338
+msgid "Insufficient disk space"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
@@ -508,6 +512,10 @@ msgstr ""
 msgid "Medium"
 msgstr ""
 
+#: src/components/storage/InstallationDestination.jsx:341
+msgid "Minimum of $0 required"
+msgstr ""
+
 #: src/components/storage/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
@@ -553,11 +561,11 @@ msgstr ""
 msgid "No devices"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:162
+#: src/components/storage/InstallationDestination.jsx:168
 msgid "No disks available"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:291
+#: src/components/storage/InstallationDestination.jsx:350
 #, fuzzy
 msgid "No disks selected"
 msgstr "ရွေးချယ်ထားသော Device"
@@ -570,10 +578,6 @@ msgstr ""
 #, fuzzy
 msgid "Not enough free space on the selected disks."
 msgstr "ရွေးချယ်ထားသော Device"
-
-#: src/components/storage/scenarios/EraseAll.jsx:57
-msgid "Not enough space on selected disks."
-msgstr ""
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -619,6 +623,10 @@ msgstr ""
 
 #: src/components/Error.jsx:89
 msgid "Please attach the log file $0 to the issue."
+msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:353
+msgid "Please select at least one disk to continue"
 msgstr ""
 
 #: src/components/HeaderKebab.jsx:74
@@ -728,8 +736,8 @@ msgstr ""
 msgid "Reformat"
 msgstr ""
 
-#: src/components/storage/scenarios/ReinstallFedora.jsx:149
-#: src/components/storage/scenarios/ReinstallFedora.jsx:151
+#: src/components/storage/scenarios/ReinstallFedora.jsx:155
+#: src/components/storage/scenarios/ReinstallFedora.jsx:157
 #, fuzzy
 #| msgid "Install"
 msgid "Reinstall Fedora"
@@ -786,12 +794,12 @@ msgstr ""
 msgid "Requirements"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:153
+#: src/components/storage/InstallationDestination.jsx:159
 #, fuzzy
 msgid "Rescan devices"
 msgstr "ရွေးချယ်ထားသော Device"
 
-#: src/components/storage/InstallationDestination.jsx:134
+#: src/components/storage/InstallationDestination.jsx:140
 msgid "Rescanning of the disks failed."
 msgstr ""
 
@@ -842,7 +850,7 @@ msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:348
+#: src/components/storage/InstallationDestination.jsx:383
 #, fuzzy
 msgid "Select"
 msgstr "ရွေးချယ်ထားသော Device"
@@ -853,7 +861,7 @@ msgstr "ရွေးချယ်ထားသော Device"
 msgid "Select a device"
 msgstr "ရွေးချယ်ထားသော Device"
 
-#: src/components/storage/InstallationDestination.jsx:342
+#: src/components/storage/InstallationDestination.jsx:377
 #, fuzzy
 msgid "Select destination"
 msgstr "လုပ်ဆောင်ချက်"
@@ -991,12 +999,6 @@ msgid ""
 "provide additional details."
 msgstr ""
 
-#: src/components/storage/scenarios/EraseAll.jsx:59
-msgid ""
-"The installation needs $1 of disk space; however, the capacity of the "
-"selected disks is only $0."
-msgstr ""
-
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr ""
@@ -1048,7 +1050,7 @@ msgstr "Disk များကိုစစ်ဆေးနေပါသည်။ အ
 msgid "To begin using $0, reboot your system."
 msgstr ""
 
-#: src/components/storage/InstallationMethod.jsx:198
+#: src/components/storage/InstallationMethod.jsx:206
 msgid "To continue, select the devices to install to."
 msgstr ""
 
@@ -1094,7 +1096,7 @@ msgstr ""
 msgid "Use configured storage"
 msgstr ""
 
-#: src/components/storage/scenarios/EraseAll.jsx:74
+#: src/components/storage/scenarios/EraseAll.jsx:55
 #, fuzzy
 #| msgid "Selected Device"
 msgid "Use entire disk"

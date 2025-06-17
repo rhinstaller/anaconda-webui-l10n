@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-16 03:43+0000\n"
+"POT-Creation-Date: 2025-06-17 03:39+0000\n"
 "PO-Revision-Date: 2025-05-19 22:08+0000\n"
 "Last-Translator: joo es <jonnyse@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/anaconda-"
@@ -45,13 +45,13 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 5.11.3\n"
 
-#: src/components/storage/InstallationDestination.jsx:180
-#: src/components/storage/InstallationDestination.jsx:305
+#: src/components/storage/InstallationDestination.jsx:186
+#: src/components/storage/InstallationDestination.jsx:307
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/InstallationDestination.jsx:200
-#: src/components/storage/InstallationDestination.jsx:298
+#: src/components/storage/InstallationDestination.jsx:206
+#: src/components/storage/InstallationDestination.jsx:300
 #: src/components/storage/MountPointMapping.jsx:369
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
@@ -179,7 +179,7 @@ msgstr ""
 
 #: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
-#: src/components/storage/InstallationDestination.jsx:351
+#: src/components/storage/InstallationDestination.jsx:386
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
 #: src/components/review/Hostname.jsx:108
 msgid "Cancel"
@@ -189,7 +189,7 @@ msgstr "ألغِ"
 msgid "Change"
 msgstr "غيّر"
 
-#: src/components/storage/InstallationDestination.jsx:336
+#: src/components/storage/InstallationDestination.jsx:371
 msgid "Change destination"
 msgstr "غيّر الوجهة"
 
@@ -221,7 +221,7 @@ msgid "Clear search input"
 msgstr "امسح مدخلات البحث"
 
 #: src/components/storage/EncryptedDevices.jsx:161
-#: src/components/storage/InstallationDestination.jsx:356
+#: src/components/storage/InstallationDestination.jsx:391
 msgid "Close"
 msgstr "أغلق"
 
@@ -271,7 +271,7 @@ msgstr "أنشئ حساباً"
 msgid "Critical error"
 msgstr "خطأ فادح"
 
-#: src/components/storage/InstallationDestination.jsx:103
+#: src/components/storage/InstallationDestination.jsx:109
 msgid "Currently installed: $0"
 msgstr "المثبتة حاليًا: $0"
 
@@ -283,7 +283,7 @@ msgstr "مخصّص"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "قد يؤدي حذف بعض الأقسام إلى منع $0 من الإقلاع: $1"
 
-#: src/components/storage/InstallationDestination.jsx:285
+#: src/components/storage/InstallationDestination.jsx:292
 msgid "Destination"
 msgstr "الوجهة"
 
@@ -324,7 +324,7 @@ msgstr "مُعمَّاة"
 msgid "Encryption"
 msgstr "التعمية"
 
-#: src/components/storage/scenarios/EraseAll.jsx:72
+#: src/components/storage/scenarios/EraseAll.jsx:53
 msgid "Erase data and install"
 msgstr "أمحو البيانات وثبّت"
 
@@ -381,7 +381,7 @@ msgstr "أخفِ كلمة السر"
 msgid "Hostname"
 msgstr "اسم المضيف"
 
-#: src/components/storage/InstallationScenario.jsx:160
+#: src/components/storage/InstallationScenario.jsx:158
 msgid "How would you like to install?"
 msgstr "كيف تريد التثبيت؟"
 
@@ -433,7 +433,7 @@ msgstr "ثبِّت"
 msgid "Installation failed"
 msgstr "فشل التثبيت"
 
-#: src/components/storage/InstallationMethod.jsx:229
+#: src/components/storage/InstallationMethod.jsx:237
 msgid "Installation method"
 msgstr "طريقة التثبيت"
 
@@ -448,6 +448,10 @@ msgstr "نوع التثبيت"
 #: src/components/installation/InstallationProgress.jsx:136
 msgid "Installing"
 msgstr "جارِ التثبيت"
+
+#: src/components/storage/InstallationDestination.jsx:338
+msgid "Insufficient disk space"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
@@ -516,6 +520,10 @@ msgstr "قد يحتوي على حروف وأرقام وشرطات."
 msgid "Medium"
 msgstr "متوسط"
 
+#: src/components/storage/InstallationDestination.jsx:341
+msgid "Minimum of $0 required"
+msgstr ""
+
 #: src/components/storage/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr "عدم تطابق بين الجهاز الأصل وتحديد إعادة تهيئة الجهاز الفرعي."
@@ -562,11 +570,11 @@ msgstr "التالي"
 msgid "No devices"
 msgstr "لا يوجد أجهزة"
 
-#: src/components/storage/InstallationDestination.jsx:162
+#: src/components/storage/InstallationDestination.jsx:168
 msgid "No disks available"
 msgstr "لا توجد أقراص متاحة"
 
-#: src/components/storage/InstallationDestination.jsx:291
+#: src/components/storage/InstallationDestination.jsx:350
 msgid "No disks selected"
 msgstr "لم تحدّد أيّ قرص"
 
@@ -577,10 +585,6 @@ msgstr "لم يُعثر على نتائج"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "لا تتوفر مساحة خالية كافية في الأقراص المُحدّدة."
-
-#: src/components/storage/scenarios/EraseAll.jsx:57
-msgid "Not enough space on selected disks."
-msgstr "لا تتوفر المساحة الكافية في الأقراص المُحدّدة."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -629,6 +633,12 @@ msgstr "منتظر"
 #: src/components/Error.jsx:89
 msgid "Please attach the log file $0 to the issue."
 msgstr "يُرجى إرفاق ملف السجل $0 للمشكلة."
+
+#: src/components/storage/InstallationDestination.jsx:353
+#, fuzzy
+#| msgid "No disks selected; please select at least one disk to install to."
+msgid "Please select at least one disk to continue"
+msgstr "لم يُنتقَ أي قرص ، قم من فضلك بانتقاء واحدٍ على الأقل للتثبيت عليه."
 
 #: src/components/HeaderKebab.jsx:74
 msgid "Powered by Anaconda"
@@ -731,8 +741,8 @@ msgstr "التقسيمات الموصى بها:"
 msgid "Reformat"
 msgstr "أعِد التهيئة"
 
-#: src/components/storage/scenarios/ReinstallFedora.jsx:149
-#: src/components/storage/scenarios/ReinstallFedora.jsx:151
+#: src/components/storage/scenarios/ReinstallFedora.jsx:155
+#: src/components/storage/scenarios/ReinstallFedora.jsx:157
 msgid "Reinstall Fedora"
 msgstr "أعد تثبيت فيدورا"
 
@@ -792,11 +802,11 @@ msgstr "مطلوب"
 msgid "Requirements"
 msgstr "متطلبات"
 
-#: src/components/storage/InstallationDestination.jsx:153
+#: src/components/storage/InstallationDestination.jsx:159
 msgid "Rescan devices"
 msgstr "أعد فحص الأجهزة"
 
-#: src/components/storage/InstallationDestination.jsx:134
+#: src/components/storage/InstallationDestination.jsx:140
 msgid "Rescanning of the disks failed."
 msgstr "فشلت عملية إعادة فحص الأقراص."
 
@@ -844,7 +854,7 @@ msgstr ""
 "أمّن بياناتك باستخدام التعمية المستندة إلى القرص. ينطبق فقط على الأقسام "
 "الجديدة"
 
-#: src/components/storage/InstallationDestination.jsx:348
+#: src/components/storage/InstallationDestination.jsx:383
 msgid "Select"
 msgstr "حدّد"
 
@@ -853,7 +863,7 @@ msgstr "حدّد"
 msgid "Select a device"
 msgstr "الجهاز المُحدّد"
 
-#: src/components/storage/InstallationDestination.jsx:342
+#: src/components/storage/InstallationDestination.jsx:377
 msgid "Select destination"
 msgstr "حدّد الهدف"
 
@@ -984,14 +994,6 @@ msgid ""
 msgstr ""
 "سيتم إرسال السجل التالي إلى نظام تتبُع المشكلات حيث يمكنك تقديم تفاصيل إضافية."
 
-#: src/components/storage/scenarios/EraseAll.jsx:59
-msgid ""
-"The installation needs $1 of disk space; however, the capacity of the "
-"selected disks is only $0."
-msgstr ""
-"يحتاج التثبيت إلى $1 من مساحة القرص؛ ومع ذلك، فإن سعة الأقراص المُحدّدة هي $0 "
-"فقط."
-
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "يتعذر على المثبِّت المتابعة بسبب خطأ فادح."
@@ -1046,7 +1048,7 @@ msgstr "سيستغرق ذلك بضع لحظات"
 msgid "To begin using $0, reboot your system."
 msgstr "لبدء استخدام $0، أعد تشغيل الجهاز."
 
-#: src/components/storage/InstallationMethod.jsx:198
+#: src/components/storage/InstallationMethod.jsx:206
 msgid "To continue, select the devices to install to."
 msgstr "للمتابعة، حدّد الأجهزة المراد التثبيت عليها."
 
@@ -1094,7 +1096,7 @@ msgstr "تخطيط غير قابل للاستخدام"
 msgid "Use configured storage"
 msgstr "استخدام التخزين المضبط"
 
-#: src/components/storage/scenarios/EraseAll.jsx:74
+#: src/components/storage/scenarios/EraseAll.jsx:55
 msgid "Use entire disk"
 msgstr "استخدم القرص بأكمله"
 
@@ -1212,6 +1214,16 @@ msgstr "قلص إلى $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "تراجع"
+
+#~ msgid "Not enough space on selected disks."
+#~ msgstr "لا تتوفر المساحة الكافية في الأقراص المُحدّدة."
+
+#~ msgid ""
+#~ "The installation needs $1 of disk space; however, the capacity of the "
+#~ "selected disks is only $0."
+#~ msgstr ""
+#~ "يحتاج التثبيت إلى $1 من مساحة القرص؛ ومع ذلك، فإن سعة الأقراص المُحدّدة هي "
+#~ "$0 فقط."
 
 #~ msgid "Unknown layout"
 #~ msgstr "تخطيط غير معروف"
@@ -3002,9 +3014,6 @@ msgstr "تراجع"
 
 #~ msgid "No disks selected."
 #~ msgstr "لم يُنتقَ أيّ قرص."
-
-#~ msgid "No disks selected; please select at least one disk to install to."
-#~ msgstr "لم يُنتقَ أي قرص ، قم من فضلك بانتقاء واحدٍ على الأقل للتثبيت عليه."
 
 #~ msgid "No host url"
 #~ msgstr "لا يوجد رابط للمضيف"

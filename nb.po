@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-16 03:43+0000\n"
+"POT-Creation-Date: 2025-06-17 03:39+0000\n"
 "PO-Revision-Date: 2025-04-15 00:02+0000\n"
 "Last-Translator: paddis paddis <turtle@turtle.garden>\n"
 "Language-Team: Norwegian Bokmål <https://translate.fedoraproject.org/"
@@ -30,13 +30,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.10.4\n"
 
-#: src/components/storage/InstallationDestination.jsx:180
-#: src/components/storage/InstallationDestination.jsx:305
+#: src/components/storage/InstallationDestination.jsx:186
+#: src/components/storage/InstallationDestination.jsx:307
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/InstallationDestination.jsx:200
-#: src/components/storage/InstallationDestination.jsx:298
+#: src/components/storage/InstallationDestination.jsx:206
+#: src/components/storage/InstallationDestination.jsx:300
 #: src/components/storage/MountPointMapping.jsx:369
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
@@ -168,7 +168,7 @@ msgstr ""
 
 #: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
-#: src/components/storage/InstallationDestination.jsx:351
+#: src/components/storage/InstallationDestination.jsx:386
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
 #: src/components/review/Hostname.jsx:108
 msgid "Cancel"
@@ -178,7 +178,7 @@ msgstr "Avbryt"
 msgid "Change"
 msgstr "Endre"
 
-#: src/components/storage/InstallationDestination.jsx:336
+#: src/components/storage/InstallationDestination.jsx:371
 msgid "Change destination"
 msgstr "Endre destinasjon"
 
@@ -214,7 +214,7 @@ msgid "Clear search input"
 msgstr "Rens søksinnmatning"
 
 #: src/components/storage/EncryptedDevices.jsx:161
-#: src/components/storage/InstallationDestination.jsx:356
+#: src/components/storage/InstallationDestination.jsx:391
 msgid "Close"
 msgstr "Lukk"
 
@@ -266,7 +266,7 @@ msgstr "Opprett konto"
 msgid "Critical error"
 msgstr "Kritisk feil"
 
-#: src/components/storage/InstallationDestination.jsx:103
+#: src/components/storage/InstallationDestination.jsx:109
 msgid "Currently installed: $0"
 msgstr "Nåværende installasjon på disk: $0"
 
@@ -278,7 +278,7 @@ msgstr "Egendefinert"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Å fjerne visse partisjoner kan hindre $0 i å starte opp: $1"
 
-#: src/components/storage/InstallationDestination.jsx:285
+#: src/components/storage/InstallationDestination.jsx:292
 msgid "Destination"
 msgstr "Destinasjon"
 
@@ -319,7 +319,7 @@ msgstr "Kryptert"
 msgid "Encryption"
 msgstr "Kryptering"
 
-#: src/components/storage/scenarios/EraseAll.jsx:72
+#: src/components/storage/scenarios/EraseAll.jsx:53
 msgid "Erase data and install"
 msgstr "Fjern dataene og installer"
 
@@ -377,7 +377,7 @@ msgstr "Skjul passord"
 msgid "Hostname"
 msgstr "Vertsnavn"
 
-#: src/components/storage/InstallationScenario.jsx:160
+#: src/components/storage/InstallationScenario.jsx:158
 msgid "How would you like to install?"
 msgstr "Hvordan vil du installere systemet?"
 
@@ -432,7 +432,7 @@ msgstr "Installer"
 msgid "Installation failed"
 msgstr "Installasjon mislyktes"
 
-#: src/components/storage/InstallationMethod.jsx:229
+#: src/components/storage/InstallationMethod.jsx:237
 msgid "Installation method"
 msgstr "Installasjonsmetode"
 
@@ -447,6 +447,10 @@ msgstr "Installasjonstype"
 #: src/components/installation/InstallationProgress.jsx:136
 msgid "Installing"
 msgstr "Installerer"
+
+#: src/components/storage/InstallationDestination.jsx:338
+msgid "Insufficient disk space"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
@@ -516,6 +520,10 @@ msgstr "Kan inneholde bokstaver (uten æ, ø og å), tall og bindestrek."
 msgid "Medium"
 msgstr "Medie"
 
+#: src/components/storage/InstallationDestination.jsx:341
+msgid "Minimum of $0 required"
+msgstr ""
+
 #: src/components/storage/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
@@ -567,11 +575,11 @@ msgstr "Neste"
 msgid "No devices"
 msgstr "Ingen enheter"
 
-#: src/components/storage/InstallationDestination.jsx:162
+#: src/components/storage/InstallationDestination.jsx:168
 msgid "No disks available"
 msgstr "Ingen tilgjengelige disker"
 
-#: src/components/storage/InstallationDestination.jsx:291
+#: src/components/storage/InstallationDestination.jsx:350
 msgid "No disks selected"
 msgstr "Ingen disker valgt"
 
@@ -582,10 +590,6 @@ msgstr "Ingen treff"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "Ikke nok ledig lagringsplass på de valgte diskene."
-
-#: src/components/storage/scenarios/EraseAll.jsx:57
-msgid "Not enough space on selected disks."
-msgstr "Ikke nok lagringsplass på de valgte diskene."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -637,6 +641,12 @@ msgstr "Ventende"
 #: src/components/Error.jsx:89
 msgid "Please attach the log file $0 to the issue."
 msgstr "Vennligst tilføy loggfilen $0 til feilrapporteringen."
+
+#: src/components/storage/InstallationDestination.jsx:353
+#, fuzzy
+#| msgid "No disks selected; please select at least one disk to install to."
+msgid "Please select at least one disk to continue"
+msgstr "Ingen disker valgt. Vennligst velg minst en disk å installere til."
 
 #: src/components/HeaderKebab.jsx:74
 msgid "Powered by Anaconda"
@@ -739,8 +749,8 @@ msgstr "Anbefalte partisjoner:"
 msgid "Reformat"
 msgstr "Gjenformater"
 
-#: src/components/storage/scenarios/ReinstallFedora.jsx:149
-#: src/components/storage/scenarios/ReinstallFedora.jsx:151
+#: src/components/storage/scenarios/ReinstallFedora.jsx:155
+#: src/components/storage/scenarios/ReinstallFedora.jsx:157
 msgid "Reinstall Fedora"
 msgstr "Installer Fedora på nytt"
 
@@ -803,11 +813,11 @@ msgstr "Påkrevd"
 msgid "Requirements"
 msgstr "Krav"
 
-#: src/components/storage/InstallationDestination.jsx:153
+#: src/components/storage/InstallationDestination.jsx:159
 msgid "Rescan devices"
 msgstr "Skanner enheter på nytt"
 
-#: src/components/storage/InstallationDestination.jsx:134
+#: src/components/storage/InstallationDestination.jsx:140
 msgid "Rescanning of the disks failed."
 msgstr "Mislyktes i å skannere diskene på nytt."
 
@@ -857,7 +867,7 @@ msgstr ""
 "Trygg dataene dine ved hjelp av diskbasert kryptering. Gjelder kun nye "
 "partisjoner"
 
-#: src/components/storage/InstallationDestination.jsx:348
+#: src/components/storage/InstallationDestination.jsx:383
 msgid "Select"
 msgstr "Velg"
 
@@ -866,7 +876,7 @@ msgstr "Velg"
 msgid "Select a device"
 msgstr "Velg en enhet"
 
-#: src/components/storage/InstallationDestination.jsx:342
+#: src/components/storage/InstallationDestination.jsx:377
 msgid "Select destination"
 msgstr "Velg destinasjon"
 
@@ -1005,14 +1015,6 @@ msgstr ""
 "Den følgende loggen skal sendes til feilsporingssystemet der du kan oppgi "
 "ytterligere opplysninger."
 
-#: src/components/storage/scenarios/EraseAll.jsx:59
-msgid ""
-"The installation needs $1 of disk space; however, the capacity of the "
-"selected disks is only $0."
-msgstr ""
-"Installasjon krever $1 med lagringsplass; størrelsen av de valgte diskene er "
-"derimot bare $0."
-
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "Installereren kan ikke fortsette grunnet en kritisk feil."
@@ -1068,7 +1070,7 @@ msgstr "Dette kan ta en stund"
 msgid "To begin using $0, reboot your system."
 msgstr "For å begynne med å bruke $0, start systemet ditt på nytt."
 
-#: src/components/storage/InstallationMethod.jsx:198
+#: src/components/storage/InstallationMethod.jsx:206
 msgid "To continue, select the devices to install to."
 msgstr "Velg enhetene du skal installere på for å fortsette."
 
@@ -1117,7 +1119,7 @@ msgstr "Ubrukelig oppsett"
 msgid "Use configured storage"
 msgstr "Bruk konfigurert lagring"
 
-#: src/components/storage/scenarios/EraseAll.jsx:74
+#: src/components/storage/scenarios/EraseAll.jsx:55
 msgid "Use entire disk"
 msgstr "Bruk hele disken"
 
@@ -1236,6 +1238,16 @@ msgstr "krymp til $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "angre"
+
+#~ msgid "Not enough space on selected disks."
+#~ msgstr "Ikke nok lagringsplass på de valgte diskene."
+
+#~ msgid ""
+#~ "The installation needs $1 of disk space; however, the capacity of the "
+#~ "selected disks is only $0."
+#~ msgstr ""
+#~ "Installasjon krever $1 med lagringsplass; størrelsen av de valgte diskene "
+#~ "er derimot bare $0."
 
 #~ msgid "Unknown layout"
 #~ msgstr "Ukjent oppsett"
@@ -2526,9 +2538,6 @@ msgstr "angre"
 #~| msgid "No disks selected"
 #~ msgid "No disks selected."
 #~ msgstr "Ingen disker valgt"
-
-#~ msgid "No disks selected; please select at least one disk to install to."
-#~ msgstr "Ingen disker valgt. Vennligst velg minst en disk å installere til."
 
 #~ msgid "No host url"
 #~ msgstr "Ingen URL til vert"

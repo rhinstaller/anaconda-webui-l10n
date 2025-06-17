@@ -63,7 +63,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-16 03:43+0000\n"
+"POT-Creation-Date: 2025-06-17 03:39+0000\n"
 "PO-Revision-Date: 2025-04-29 09:44+0000\n"
 "Last-Translator: Ooyama Yosiyuki <qqke6wd9k@apricot.ocn.ne.jp>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -75,13 +75,13 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.11\n"
 
-#: src/components/storage/InstallationDestination.jsx:180
-#: src/components/storage/InstallationDestination.jsx:305
+#: src/components/storage/InstallationDestination.jsx:186
+#: src/components/storage/InstallationDestination.jsx:307
 msgid "$0 $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:200
-#: src/components/storage/InstallationDestination.jsx:298
+#: src/components/storage/InstallationDestination.jsx:206
+#: src/components/storage/InstallationDestination.jsx:300
 #: src/components/storage/MountPointMapping.jsx:369
 msgid "$0 ($1)"
 msgstr ""
@@ -218,7 +218,7 @@ msgstr ""
 
 #: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
-#: src/components/storage/InstallationDestination.jsx:351
+#: src/components/storage/InstallationDestination.jsx:386
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
 #: src/components/review/Hostname.jsx:108
 msgid "Cancel"
@@ -231,7 +231,7 @@ msgstr "取り消し"
 msgid "Change"
 msgstr "変更を保存(_S)"
 
-#: src/components/storage/InstallationDestination.jsx:336
+#: src/components/storage/InstallationDestination.jsx:371
 #, fuzzy
 #| msgid "Destination"
 msgid "Change destination"
@@ -273,7 +273,7 @@ msgid "Clear search input"
 msgstr "入力した値をクリアします"
 
 #: src/components/storage/EncryptedDevices.jsx:161
-#: src/components/storage/InstallationDestination.jsx:356
+#: src/components/storage/InstallationDestination.jsx:391
 msgid "Close"
 msgstr "閉じる"
 
@@ -324,7 +324,7 @@ msgstr "アカウントを作成"
 msgid "Critical error"
 msgstr "重大なエラー"
 
-#: src/components/storage/InstallationDestination.jsx:103
+#: src/components/storage/InstallationDestination.jsx:109
 #, fuzzy
 #| msgid "Current host name:"
 msgid "Currently installed: $0"
@@ -338,7 +338,7 @@ msgstr "カスタム"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:285
+#: src/components/storage/InstallationDestination.jsx:292
 msgid "Destination"
 msgstr "インストール先"
 
@@ -383,7 +383,7 @@ msgstr "暗号化"
 msgid "Encryption"
 msgstr "暗号化"
 
-#: src/components/storage/scenarios/EraseAll.jsx:72
+#: src/components/storage/scenarios/EraseAll.jsx:53
 msgid "Erase data and install"
 msgstr "データを消去してインストールします"
 
@@ -445,7 +445,7 @@ msgstr "パスワードを非表示にする"
 msgid "Hostname"
 msgstr "ホスト名"
 
-#: src/components/storage/InstallationScenario.jsx:160
+#: src/components/storage/InstallationScenario.jsx:158
 msgid "How would you like to install?"
 msgstr "どのようにインストールしますか？"
 
@@ -496,7 +496,7 @@ msgstr "インストール"
 msgid "Installation failed"
 msgstr "インストールに失敗しました"
 
-#: src/components/storage/InstallationMethod.jsx:229
+#: src/components/storage/InstallationMethod.jsx:237
 msgid "Installation method"
 msgstr "インストール方法"
 
@@ -511,6 +511,10 @@ msgstr "インストールタイプ"
 #: src/components/installation/InstallationProgress.jsx:136
 msgid "Installing"
 msgstr "インストール中"
+
+#: src/components/storage/InstallationDestination.jsx:338
+msgid "Insufficient disk space"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
@@ -582,6 +586,10 @@ msgstr ""
 msgid "Medium"
 msgstr "まあまあ"
 
+#: src/components/storage/InstallationDestination.jsx:341
+msgid "Minimum of $0 required"
+msgstr ""
+
 #: src/components/storage/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr "親デバイスと子デバイスの再フォーマットの選択が一致していません。"
@@ -631,13 +639,13 @@ msgstr "次へ"
 msgid "No devices"
 msgstr "デバイスがありません"
 
-#: src/components/storage/InstallationDestination.jsx:162
+#: src/components/storage/InstallationDestination.jsx:168
 #, fuzzy
 #| msgid "not available"
 msgid "No disks available"
 msgstr "利用できません"
 
-#: src/components/storage/InstallationDestination.jsx:291
+#: src/components/storage/InstallationDestination.jsx:350
 msgid "No disks selected"
 msgstr "ディスクが選択されていません"
 
@@ -647,10 +655,6 @@ msgstr "結果が見つかりません"
 
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
-msgstr "選択したディスクには十分な空き領域がありません。"
-
-#: src/components/storage/scenarios/EraseAll.jsx:57
-msgid "Not enough space on selected disks."
 msgstr "選択したディスクには十分な空き領域がありません。"
 
 #: src/components/review/StorageReview.jsx:362
@@ -703,6 +707,14 @@ msgstr "保留中"
 #: src/components/Error.jsx:89
 msgid "Please attach the log file $0 to the issue."
 msgstr "ログファイル $0 をIssueに添付してください。"
+
+#: src/components/storage/InstallationDestination.jsx:353
+#, fuzzy
+#| msgid "No disks selected; please select at least one disk to install to."
+msgid "Please select at least one disk to continue"
+msgstr ""
+"ディスクが選択されていません。インストール先として少なくともディスクを 1 つ選"
+"択してください。"
 
 #: src/components/HeaderKebab.jsx:74
 msgid "Powered by Anaconda"
@@ -814,8 +826,8 @@ msgstr "推奨されるパーティション:"
 msgid "Reformat"
 msgstr "再フォーマット"
 
-#: src/components/storage/scenarios/ReinstallFedora.jsx:149
-#: src/components/storage/scenarios/ReinstallFedora.jsx:151
+#: src/components/storage/scenarios/ReinstallFedora.jsx:155
+#: src/components/storage/scenarios/ReinstallFedora.jsx:157
 #, fuzzy
 #| msgid "Installed"
 msgid "Reinstall Fedora"
@@ -880,11 +892,11 @@ msgstr "必要です"
 msgid "Requirements"
 msgstr "必要条件"
 
-#: src/components/storage/InstallationDestination.jsx:153
+#: src/components/storage/InstallationDestination.jsx:159
 msgid "Rescan devices"
 msgstr "デバイスの再スキャン"
 
-#: src/components/storage/InstallationDestination.jsx:134
+#: src/components/storage/InstallationDestination.jsx:140
 msgid "Rescanning of the disks failed."
 msgstr "ディスクの再スキャンに失敗しました。"
 
@@ -937,7 +949,7 @@ msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:348
+#: src/components/storage/InstallationDestination.jsx:383
 #, fuzzy
 #| msgctxt "GUI|Custom Partitioning|Configure Dialog"
 #| msgid "_Select"
@@ -949,7 +961,7 @@ msgstr "選択(_S)"
 msgid "Select a device"
 msgstr "デバイスを選択する"
 
-#: src/components/storage/InstallationDestination.jsx:342
+#: src/components/storage/InstallationDestination.jsx:377
 #, fuzzy
 #| msgid "Destination"
 msgid "Select destination"
@@ -1096,12 +1108,6 @@ msgid ""
 "provide additional details."
 msgstr "次のログはIssue追跡システムに送信され、追加の詳細を提供できます。"
 
-#: src/components/storage/scenarios/EraseAll.jsx:59
-msgid ""
-"The installation needs $1 of disk space; however, the capacity of the "
-"selected disks is only $0."
-msgstr ""
-
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "重大なエラーが発生したため、インストーラーは続行できません。"
@@ -1155,7 +1161,7 @@ msgstr "これには少し時間がかかります"
 msgid "To begin using $0, reboot your system."
 msgstr "$0の使用を開始するには、システムを再起動します。"
 
-#: src/components/storage/InstallationMethod.jsx:198
+#: src/components/storage/InstallationMethod.jsx:206
 msgid "To continue, select the devices to install to."
 msgstr "続行するには、インストール先のデバイスを選択します。"
 
@@ -1204,7 +1210,7 @@ msgstr "利用可能なレイアウト"
 msgid "Use configured storage"
 msgstr "構成したストレージを使用する"
 
-#: src/components/storage/scenarios/EraseAll.jsx:74
+#: src/components/storage/scenarios/EraseAll.jsx:55
 #, fuzzy
 #| msgid "Selected disks"
 msgid "Use entire disk"
@@ -1338,6 +1344,9 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr ""
+
+#~ msgid "Not enough space on selected disks."
+#~ msgstr "選択したディスクには十分な空き領域がありません。"
 
 #, fuzzy
 #~| msgid "Unknown Linux"
@@ -3777,11 +3786,6 @@ msgstr ""
 
 #~ msgid "No disks selected. Keeping previous disk set."
 #~ msgstr "ディスクが選択されていません。以前のディスクセットを保持します。"
-
-#~ msgid "No disks selected; please select at least one disk to install to."
-#~ msgstr ""
-#~ "ディスクが選択されていません。インストール先として少なくともディスクを 1 "
-#~ "つ選択してください。"
 
 #~ msgid "No format on device '{}'"
 #~ msgstr "デバイス '{}' にディスク形式が存在しません"

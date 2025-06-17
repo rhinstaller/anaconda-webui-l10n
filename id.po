@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-16 03:43+0000\n"
+"POT-Creation-Date: 2025-06-17 03:39+0000\n"
 "PO-Revision-Date: 2025-05-30 05:30+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
@@ -46,13 +46,13 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.11.4\n"
 
-#: src/components/storage/InstallationDestination.jsx:180
-#: src/components/storage/InstallationDestination.jsx:305
+#: src/components/storage/InstallationDestination.jsx:186
+#: src/components/storage/InstallationDestination.jsx:307
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/InstallationDestination.jsx:200
-#: src/components/storage/InstallationDestination.jsx:298
+#: src/components/storage/InstallationDestination.jsx:206
+#: src/components/storage/InstallationDestination.jsx:300
 #: src/components/storage/MountPointMapping.jsx:369
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
@@ -186,7 +186,7 @@ msgstr ""
 
 #: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
-#: src/components/storage/InstallationDestination.jsx:351
+#: src/components/storage/InstallationDestination.jsx:386
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
 #: src/components/review/Hostname.jsx:108
 msgid "Cancel"
@@ -196,7 +196,7 @@ msgstr "Batal"
 msgid "Change"
 msgstr "Ubah"
 
-#: src/components/storage/InstallationDestination.jsx:336
+#: src/components/storage/InstallationDestination.jsx:371
 msgid "Change destination"
 msgstr "Ubah tujuan"
 
@@ -230,7 +230,7 @@ msgid "Clear search input"
 msgstr "Menghapus input pencarian"
 
 #: src/components/storage/EncryptedDevices.jsx:161
-#: src/components/storage/InstallationDestination.jsx:356
+#: src/components/storage/InstallationDestination.jsx:391
 msgid "Close"
 msgstr "Tutup"
 
@@ -282,7 +282,7 @@ msgstr "Buat akun"
 msgid "Critical error"
 msgstr "Kesalahan kritis"
 
-#: src/components/storage/InstallationDestination.jsx:103
+#: src/components/storage/InstallationDestination.jsx:109
 msgid "Currently installed: $0"
 msgstr "Saat ini terinstal: $0"
 
@@ -294,7 +294,7 @@ msgstr "Ubahan"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Penghapusan partisi tertentu dapat mencegah $0 melakukan booting: $1"
 
-#: src/components/storage/InstallationDestination.jsx:285
+#: src/components/storage/InstallationDestination.jsx:292
 msgid "Destination"
 msgstr "Tujuan"
 
@@ -335,7 +335,7 @@ msgstr "Terenkripsi"
 msgid "Encryption"
 msgstr "Enkripsi"
 
-#: src/components/storage/scenarios/EraseAll.jsx:72
+#: src/components/storage/scenarios/EraseAll.jsx:53
 msgid "Erase data and install"
 msgstr "Hapus data dan pasang"
 
@@ -393,7 +393,7 @@ msgstr "Sembunyikan kata sandi"
 msgid "Hostname"
 msgstr "Nama host"
 
-#: src/components/storage/InstallationScenario.jsx:160
+#: src/components/storage/InstallationScenario.jsx:158
 msgid "How would you like to install?"
 msgstr "Bagaimana Anda ingin memasang?"
 
@@ -448,7 +448,7 @@ msgstr "Pasang"
 msgid "Installation failed"
 msgstr "Instalasi gagal"
 
-#: src/components/storage/InstallationMethod.jsx:229
+#: src/components/storage/InstallationMethod.jsx:237
 msgid "Installation method"
 msgstr "Metode instalasi"
 
@@ -463,6 +463,10 @@ msgstr "Tipe instalasi"
 #: src/components/installation/InstallationProgress.jsx:136
 msgid "Installing"
 msgstr "Memasang"
+
+#: src/components/storage/InstallationDestination.jsx:338
+msgid "Insufficient disk space"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
@@ -532,6 +536,10 @@ msgstr "Boleh memuat huruf, angka, dan strip."
 msgid "Medium"
 msgstr "Medium"
 
+#: src/components/storage/InstallationDestination.jsx:341
+msgid "Minimum of $0 required"
+msgstr ""
+
 #: src/components/storage/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
@@ -583,11 +591,11 @@ msgstr "Selanjutnya"
 msgid "No devices"
 msgstr "Tidak ada perangkat"
 
-#: src/components/storage/InstallationDestination.jsx:162
+#: src/components/storage/InstallationDestination.jsx:168
 msgid "No disks available"
 msgstr "Tidak tersedia disk"
 
-#: src/components/storage/InstallationDestination.jsx:291
+#: src/components/storage/InstallationDestination.jsx:350
 msgid "No disks selected"
 msgstr "Tidak ada disk yang dipilih"
 
@@ -597,10 +605,6 @@ msgstr "Tidak ditemukan hasil"
 
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
-msgstr "Tidak cukup ruang bebas pada disk yang dipilih."
-
-#: src/components/storage/scenarios/EraseAll.jsx:57
-msgid "Not enough space on selected disks."
 msgstr "Tidak cukup ruang bebas pada disk yang dipilih."
 
 #: src/components/review/StorageReview.jsx:362
@@ -651,6 +655,14 @@ msgstr "Tertunda"
 #: src/components/Error.jsx:89
 msgid "Please attach the log file $0 to the issue."
 msgstr "Harap lampirkan berkas log $0 ke masalah."
+
+#: src/components/storage/InstallationDestination.jsx:353
+#, fuzzy
+#| msgid "No disks selected; please select at least one disk to install to."
+msgid "Please select at least one disk to continue"
+msgstr ""
+"Tidak ada disk yang dipilih, silakan pilih setidaknya satu disk untuk "
+"dipasangi."
 
 #: src/components/HeaderKebab.jsx:74
 msgid "Powered by Anaconda"
@@ -753,8 +765,8 @@ msgstr "Partisi yang disarankan:"
 msgid "Reformat"
 msgstr "Format ulang"
 
-#: src/components/storage/scenarios/ReinstallFedora.jsx:149
-#: src/components/storage/scenarios/ReinstallFedora.jsx:151
+#: src/components/storage/scenarios/ReinstallFedora.jsx:155
+#: src/components/storage/scenarios/ReinstallFedora.jsx:157
 msgid "Reinstall Fedora"
 msgstr "Instal ulang Fedora"
 
@@ -817,11 +829,11 @@ msgstr "Diperlukan"
 msgid "Requirements"
 msgstr "Persyaratan"
 
-#: src/components/storage/InstallationDestination.jsx:153
+#: src/components/storage/InstallationDestination.jsx:159
 msgid "Rescan devices"
 msgstr "Memindai ulang perangkat"
 
-#: src/components/storage/InstallationDestination.jsx:134
+#: src/components/storage/InstallationDestination.jsx:140
 msgid "Rescanning of the disks failed."
 msgstr "Pemindaian ulang disk gagal."
 
@@ -869,7 +881,7 @@ msgstr ""
 "Amankan data Anda menggunakan enkripsi berbasis disk. Hanya berlaku untuk "
 "partisi baru"
 
-#: src/components/storage/InstallationDestination.jsx:348
+#: src/components/storage/InstallationDestination.jsx:383
 msgid "Select"
 msgstr "Pilih"
 
@@ -878,7 +890,7 @@ msgstr "Pilih"
 msgid "Select a device"
 msgstr "Pilih suatu perangkat"
 
-#: src/components/storage/InstallationDestination.jsx:342
+#: src/components/storage/InstallationDestination.jsx:377
 msgid "Select destination"
 msgstr "Pilih tujuan"
 
@@ -1013,14 +1025,6 @@ msgstr ""
 "Log berikut akan dikirim ke sistem pelacakan masalah dimana Anda dapat "
 "memberikan rincian tambahan."
 
-#: src/components/storage/scenarios/EraseAll.jsx:59
-msgid ""
-"The installation needs $1 of disk space; however, the capacity of the "
-"selected disks is only $0."
-msgstr ""
-"Instalasi membutuhkan ruang disk sebesar $1; namun, kapasitas disk yang "
-"dipilih hanya $0."
-
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "Pemasang tidak dapat melanjutkan karena suatu kesalahan kritis."
@@ -1077,7 +1081,7 @@ msgstr "Ini akan makan waktu beberapa saat"
 msgid "To begin using $0, reboot your system."
 msgstr "Untuk mulai memakai $0, boot ulang sistem Anda."
 
-#: src/components/storage/InstallationMethod.jsx:198
+#: src/components/storage/InstallationMethod.jsx:206
 msgid "To continue, select the devices to install to."
 msgstr "Untuk melanjutkan, pilih perangkat untuk dipasangi."
 
@@ -1126,7 +1130,7 @@ msgstr "Tata letak tidak dapat digunakan"
 msgid "Use configured storage"
 msgstr "Gunakan penyimpanan yang dikonfigurasi"
 
-#: src/components/storage/scenarios/EraseAll.jsx:74
+#: src/components/storage/scenarios/EraseAll.jsx:55
 msgid "Use entire disk"
 msgstr "Gunakan seluruh disk"
 
@@ -1244,6 +1248,16 @@ msgstr "mengecil menjadi $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "batalkan"
+
+#~ msgid "Not enough space on selected disks."
+#~ msgstr "Tidak cukup ruang bebas pada disk yang dipilih."
+
+#~ msgid ""
+#~ "The installation needs $1 of disk space; however, the capacity of the "
+#~ "selected disks is only $0."
+#~ msgstr ""
+#~ "Instalasi membutuhkan ruang disk sebesar $1; namun, kapasitas disk yang "
+#~ "dipilih hanya $0."
 
 #~ msgid "Unknown layout"
 #~ msgstr "Tata letak tidak diketahui"
@@ -3675,11 +3689,6 @@ msgstr "batalkan"
 
 #~ msgid "No disks selected. Keeping previous disk set."
 #~ msgstr "Tidak ada disk yang dipilih. Mempertahankan set disk sebelumnya."
-
-#~ msgid "No disks selected; please select at least one disk to install to."
-#~ msgstr ""
-#~ "Tidak ada disk yang dipilih, silakan pilih setidaknya satu disk untuk "
-#~ "dipasangi."
 
 #~ msgid "No format on device '{}'"
 #~ msgstr "Tidak ada format pada peranti '{}s'"

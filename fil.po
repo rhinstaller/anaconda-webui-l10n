@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-16 03:43+0000\n"
+"POT-Creation-Date: 2025-06-17 03:39+0000\n"
 "PO-Revision-Date: 2025-02-16 06:42+0000\n"
 "Last-Translator: Iver Son <ivercoder@proton.me>\n"
 "Language-Team: Filipino <https://translate.fedoraproject.org/projects/"
@@ -16,13 +16,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Weblate 5.9.2\n"
 
-#: src/components/storage/InstallationDestination.jsx:180
-#: src/components/storage/InstallationDestination.jsx:305
+#: src/components/storage/InstallationDestination.jsx:186
+#: src/components/storage/InstallationDestination.jsx:307
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/InstallationDestination.jsx:200
-#: src/components/storage/InstallationDestination.jsx:298
+#: src/components/storage/InstallationDestination.jsx:206
+#: src/components/storage/InstallationDestination.jsx:300
 #: src/components/storage/MountPointMapping.jsx:369
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
@@ -155,7 +155,7 @@ msgstr ""
 
 #: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
-#: src/components/storage/InstallationDestination.jsx:351
+#: src/components/storage/InstallationDestination.jsx:386
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
 #: src/components/review/Hostname.jsx:108
 msgid "Cancel"
@@ -165,7 +165,7 @@ msgstr "Kanselahin"
 msgid "Change"
 msgstr "Baguhin"
 
-#: src/components/storage/InstallationDestination.jsx:336
+#: src/components/storage/InstallationDestination.jsx:371
 msgid "Change destination"
 msgstr "Palitan ang destinasyon"
 
@@ -201,7 +201,7 @@ msgid "Clear search input"
 msgstr "I-clear ang search input"
 
 #: src/components/storage/EncryptedDevices.jsx:161
-#: src/components/storage/InstallationDestination.jsx:356
+#: src/components/storage/InstallationDestination.jsx:391
 msgid "Close"
 msgstr "Isara"
 
@@ -253,7 +253,7 @@ msgstr "Gumawa ng account"
 msgid "Critical error"
 msgstr "Kritikal na error"
 
-#: src/components/storage/InstallationDestination.jsx:103
+#: src/components/storage/InstallationDestination.jsx:109
 msgid "Currently installed: $0"
 msgstr "Kasalukuyang naka-install: $0"
 
@@ -266,7 +266,7 @@ msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 "Maaaring hindi maka-boot ang $0 kung tatanggalin ang ilang partition: $1"
 
-#: src/components/storage/InstallationDestination.jsx:285
+#: src/components/storage/InstallationDestination.jsx:292
 msgid "Destination"
 msgstr "Destinasyon"
 
@@ -307,7 +307,7 @@ msgstr "Naka-encrypt"
 msgid "Encryption"
 msgstr "Encryption"
 
-#: src/components/storage/scenarios/EraseAll.jsx:72
+#: src/components/storage/scenarios/EraseAll.jsx:53
 msgid "Erase data and install"
 msgstr "Burahin ang data at i-install"
 
@@ -365,7 +365,7 @@ msgstr "Itago ang password"
 msgid "Hostname"
 msgstr "Hostname"
 
-#: src/components/storage/InstallationScenario.jsx:160
+#: src/components/storage/InstallationScenario.jsx:158
 msgid "How would you like to install?"
 msgstr "Paano mo gustong mag-install?"
 
@@ -422,7 +422,7 @@ msgstr "I-install"
 msgid "Installation failed"
 msgstr "Nabigo ang pag-install"
 
-#: src/components/storage/InstallationMethod.jsx:229
+#: src/components/storage/InstallationMethod.jsx:237
 msgid "Installation method"
 msgstr "Paraan sa pag-install"
 
@@ -437,6 +437,10 @@ msgstr "Uri ng installation"
 #: src/components/installation/InstallationProgress.jsx:136
 msgid "Installing"
 msgstr "Ini-install"
+
+#: src/components/storage/InstallationDestination.jsx:338
+msgid "Insufficient disk space"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
@@ -501,6 +505,10 @@ msgstr "Pwedeng may mga letra, numero, at gitling."
 msgid "Medium"
 msgstr "Medium"
 
+#: src/components/storage/InstallationDestination.jsx:341
+msgid "Minimum of $0 required"
+msgstr ""
+
 #: src/components/storage/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
@@ -552,11 +560,11 @@ msgstr "Susunod"
 msgid "No devices"
 msgstr "Walang device"
 
-#: src/components/storage/InstallationDestination.jsx:162
+#: src/components/storage/InstallationDestination.jsx:168
 msgid "No disks available"
 msgstr "Walang magagamit na disk"
 
-#: src/components/storage/InstallationDestination.jsx:291
+#: src/components/storage/InstallationDestination.jsx:350
 msgid "No disks selected"
 msgstr "Walang napiling disk"
 
@@ -567,10 +575,6 @@ msgstr "Walang nakitang resulta"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "Hindi sapat ang bakanteng espasyo sa mga napiling disk."
-
-#: src/components/storage/scenarios/EraseAll.jsx:57
-msgid "Not enough space on selected disks."
-msgstr "Hindi sapat ang espasyo sa mga napiling disk."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -620,6 +624,10 @@ msgstr "Nakabinbin"
 #: src/components/Error.jsx:89
 msgid "Please attach the log file $0 to the issue."
 msgstr "Paki-attach ang log file na $0 sa issue."
+
+#: src/components/storage/InstallationDestination.jsx:353
+msgid "Please select at least one disk to continue"
+msgstr ""
 
 #: src/components/HeaderKebab.jsx:74
 msgid "Powered by Anaconda"
@@ -724,8 +732,8 @@ msgstr "Mga inirerekomendang partition:"
 msgid "Reformat"
 msgstr "I-reformat"
 
-#: src/components/storage/scenarios/ReinstallFedora.jsx:149
-#: src/components/storage/scenarios/ReinstallFedora.jsx:151
+#: src/components/storage/scenarios/ReinstallFedora.jsx:155
+#: src/components/storage/scenarios/ReinstallFedora.jsx:157
 msgid "Reinstall Fedora"
 msgstr "I-reinstall ang Fedora"
 
@@ -786,11 +794,11 @@ msgstr "Kinakailangan"
 msgid "Requirements"
 msgstr "Mga requirement"
 
-#: src/components/storage/InstallationDestination.jsx:153
+#: src/components/storage/InstallationDestination.jsx:159
 msgid "Rescan devices"
 msgstr "Mag-rescan ng mga device"
 
-#: src/components/storage/InstallationDestination.jsx:134
+#: src/components/storage/InstallationDestination.jsx:140
 msgid "Rescanning of the disks failed."
 msgstr "Nagkaproblema sa pagre-rescan ng mga disk."
 
@@ -840,7 +848,7 @@ msgstr ""
 "I-secure ang data mo gamit ang disk-based encryption. Ilalapat lang sa mga "
 "bagong partition"
 
-#: src/components/storage/InstallationDestination.jsx:348
+#: src/components/storage/InstallationDestination.jsx:383
 msgid "Select"
 msgstr "Pumili"
 
@@ -849,7 +857,7 @@ msgstr "Pumili"
 msgid "Select a device"
 msgstr "Pumili ng device"
 
-#: src/components/storage/InstallationDestination.jsx:342
+#: src/components/storage/InstallationDestination.jsx:377
 msgid "Select destination"
 msgstr "Pumili ng destinasyon"
 
@@ -987,12 +995,6 @@ msgstr ""
 "Ipapadala ang sumusunod na log sa issue tracking system kung saan ka "
 "makakapagbigay ng karagdagang detalye."
 
-#: src/components/storage/scenarios/EraseAll.jsx:59
-msgid ""
-"The installation needs $1 of disk space; however, the capacity of the "
-"selected disks is only $0."
-msgstr ""
-
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "Hindi makatuloy ang installer dahil sa isang kritikal na error."
@@ -1047,7 +1049,7 @@ msgstr "Maaaring abutin ito ng ilang saglit"
 msgid "To begin using $0, reboot your system."
 msgstr "Mag-reboot para simulang gamitin ang $0."
 
-#: src/components/storage/InstallationMethod.jsx:198
+#: src/components/storage/InstallationMethod.jsx:206
 msgid "To continue, select the devices to install to."
 msgstr "Para tumuloy, piliin ang mga device na i-installan."
 
@@ -1096,7 +1098,7 @@ msgstr ""
 msgid "Use configured storage"
 msgstr "Gamitin ang naka-configure na storage"
 
-#: src/components/storage/scenarios/EraseAll.jsx:74
+#: src/components/storage/scenarios/EraseAll.jsx:55
 msgid "Use entire disk"
 msgstr "Gamitin ang buong disk"
 
@@ -1215,6 +1217,9 @@ msgstr "paliitin sa $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "i-undo"
+
+#~ msgid "Not enough space on selected disks."
+#~ msgstr "Hindi sapat ang espasyo sa mga napiling disk."
 
 #, fuzzy
 #~| msgid "Unknown"

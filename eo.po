@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-16 03:43+0000\n"
+"POT-Creation-Date: 2025-06-17 03:39+0000\n"
 "PO-Revision-Date: 2023-11-06 12:16+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Esperanto <https://translate.fedoraproject.org/projects/"
@@ -21,13 +21,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.1.1\n"
 
-#: src/components/storage/InstallationDestination.jsx:180
-#: src/components/storage/InstallationDestination.jsx:305
+#: src/components/storage/InstallationDestination.jsx:186
+#: src/components/storage/InstallationDestination.jsx:307
 msgid "$0 $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:200
-#: src/components/storage/InstallationDestination.jsx:298
+#: src/components/storage/InstallationDestination.jsx:206
+#: src/components/storage/InstallationDestination.jsx:300
 #: src/components/storage/MountPointMapping.jsx:369
 msgid "$0 ($1)"
 msgstr ""
@@ -177,7 +177,7 @@ msgstr ""
 
 #: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
-#: src/components/storage/InstallationDestination.jsx:351
+#: src/components/storage/InstallationDestination.jsx:386
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
 #: src/components/review/Hostname.jsx:108
 #, fuzzy
@@ -191,7 +191,7 @@ msgstr "_Nuligi"
 msgid "Change"
 msgstr "Kon_servi ŝanĝojn"
 
-#: src/components/storage/InstallationDestination.jsx:336
+#: src/components/storage/InstallationDestination.jsx:371
 #, fuzzy
 msgid "Change destination"
 msgstr "Priskribo"
@@ -227,7 +227,7 @@ msgid "Clear search input"
 msgstr ""
 
 #: src/components/storage/EncryptedDevices.jsx:161
-#: src/components/storage/InstallationDestination.jsx:356
+#: src/components/storage/InstallationDestination.jsx:391
 msgid "Close"
 msgstr "Fermi"
 
@@ -289,7 +289,7 @@ msgstr "Ŝlosi administrantan konton"
 msgid "Critical error"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:103
+#: src/components/storage/InstallationDestination.jsx:109
 #, fuzzy
 #| msgid "Current host name:"
 msgid "Currently installed: $0"
@@ -304,7 +304,7 @@ msgstr "_Propre"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:285
+#: src/components/storage/InstallationDestination.jsx:292
 #, fuzzy
 msgid "Destination"
 msgstr "Priskribo"
@@ -355,7 +355,7 @@ msgstr "Ĉifri"
 msgid "Encryption"
 msgstr "Ĉifrado"
 
-#: src/components/storage/scenarios/EraseAll.jsx:72
+#: src/components/storage/scenarios/EraseAll.jsx:53
 #, fuzzy
 msgid "Erase data and install"
 msgstr "_Komenci instaladon"
@@ -420,7 +420,7 @@ msgstr "Kaŝi pasvorton."
 msgid "Hostname"
 msgstr "Gastignomo"
 
-#: src/components/storage/InstallationScenario.jsx:160
+#: src/components/storage/InstallationScenario.jsx:158
 #, fuzzy
 msgid "How would you like to install?"
 msgstr ""
@@ -478,7 +478,7 @@ msgstr "Instali"
 msgid "Installation failed"
 msgstr "Instalo"
 
-#: src/components/storage/InstallationMethod.jsx:229
+#: src/components/storage/InstallationMethod.jsx:237
 #, fuzzy
 msgid "Installation method"
 msgstr "Instalado plenumita"
@@ -497,6 +497,10 @@ msgstr "Instalo"
 #, fuzzy
 msgid "Installing"
 msgstr "Instalante."
+
+#: src/components/storage/InstallationDestination.jsx:338
+msgid "Insufficient disk space"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
@@ -569,6 +573,10 @@ msgstr ""
 msgid "Medium"
 msgstr ""
 
+#: src/components/storage/InstallationDestination.jsx:341
+msgid "Minimum of $0 required"
+msgstr ""
+
 #: src/components/storage/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
@@ -617,13 +625,13 @@ msgstr ""
 msgid "No devices"
 msgstr "Aldoni aparaton"
 
-#: src/components/storage/InstallationDestination.jsx:162
+#: src/components/storage/InstallationDestination.jsx:168
 #, fuzzy
 #| msgid "not available"
 msgid "No disks available"
 msgstr "nedisponebla"
 
-#: src/components/storage/InstallationDestination.jsx:291
+#: src/components/storage/InstallationDestination.jsx:350
 msgid "No disks selected"
 msgstr "Neniu disko elektita"
 
@@ -634,11 +642,6 @@ msgstr ""
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 #, fuzzy
 msgid "Not enough free space on the selected disks."
-msgstr "Nesufiĉe libera spaco sur elektitaj diskoj."
-
-#: src/components/storage/scenarios/EraseAll.jsx:57
-#, fuzzy
-msgid "Not enough space on selected disks."
 msgstr "Nesufiĉe libera spaco sur elektitaj diskoj."
 
 #: src/components/review/StorageReview.jsx:362
@@ -691,6 +694,14 @@ msgstr ""
 #: src/components/Error.jsx:89
 msgid "Please attach the log file $0 to the issue."
 msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:353
+#, fuzzy
+#| msgid "No disks selected; please select at least one disk to install to."
+msgid "Please select at least one disk to continue"
+msgstr ""
+"Neniu disko elektita; bonvolu elekti malpleje unu diskon al kiu vi volas "
+"instali."
 
 #: src/components/HeaderKebab.jsx:74
 msgid "Powered by Anaconda"
@@ -811,8 +822,8 @@ msgstr ""
 msgid "Reformat"
 msgstr "Restrukturi"
 
-#: src/components/storage/scenarios/ReinstallFedora.jsx:149
-#: src/components/storage/scenarios/ReinstallFedora.jsx:151
+#: src/components/storage/scenarios/ReinstallFedora.jsx:155
+#: src/components/storage/scenarios/ReinstallFedora.jsx:157
 #, fuzzy
 #| msgid "Install"
 msgid "Reinstall Fedora"
@@ -871,13 +882,13 @@ msgstr "Ne regrandigebla"
 msgid "Requirements"
 msgstr "Ne regrandigebla"
 
-#: src/components/storage/InstallationDestination.jsx:153
+#: src/components/storage/InstallationDestination.jsx:159
 #, fuzzy
 #| msgid "rescan devices"
 msgid "Rescan devices"
 msgstr "reskani aparatojn"
 
-#: src/components/storage/InstallationDestination.jsx:134
+#: src/components/storage/InstallationDestination.jsx:140
 #, fuzzy
 msgid "Rescanning of the disks failed."
 msgstr "Reskanado de diskoj finita."
@@ -935,7 +946,7 @@ msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:348
+#: src/components/storage/InstallationDestination.jsx:383
 #, fuzzy
 #| msgctxt "GUI|Custom Partitioning|Configure Dialog"
 #| msgid "_Select"
@@ -948,7 +959,7 @@ msgstr "_Elekti"
 msgid "Select a device"
 msgstr "Elektita aparato"
 
-#: src/components/storage/InstallationDestination.jsx:342
+#: src/components/storage/InstallationDestination.jsx:377
 #, fuzzy
 msgid "Select destination"
 msgstr "Priskribo"
@@ -1098,12 +1109,6 @@ msgid ""
 "provide additional details."
 msgstr ""
 
-#: src/components/storage/scenarios/EraseAll.jsx:59
-msgid ""
-"The installation needs $1 of disk space; however, the capacity of the "
-"selected disks is only $0."
-msgstr ""
-
 #: src/components/Error.jsx:248
 #, fuzzy
 msgid "The installer cannot continue due to a critical error."
@@ -1163,7 +1168,7 @@ msgstr ""
 "\n"
 "Premu [Enter] por restartigi vian sistemon.\n"
 
-#: src/components/storage/InstallationMethod.jsx:198
+#: src/components/storage/InstallationMethod.jsx:206
 #, fuzzy
 msgid "To continue, select the devices to install to."
 msgstr ""
@@ -1217,7 +1222,7 @@ msgstr "Disponeblaj aranĝoj"
 msgid "Use configured storage"
 msgstr "Agordante konservejon"
 
-#: src/components/storage/scenarios/EraseAll.jsx:74
+#: src/components/storage/scenarios/EraseAll.jsx:55
 #, fuzzy
 #| msgid "Selected Device"
 msgid "Use entire disk"
@@ -1355,6 +1360,10 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Not enough space on selected disks."
+#~ msgstr "Nesufiĉe libera spaco sur elektitaj diskoj."
 
 #, fuzzy
 #~| msgid "Unknown Linux"
@@ -3373,11 +3382,6 @@ msgstr ""
 
 #~ msgid "No disks selected. Keeping previous disk set."
 #~ msgstr "Neniu disko elektita. Tenante antaŭa diskoj."
-
-#~ msgid "No disks selected; please select at least one disk to install to."
-#~ msgstr ""
-#~ "Neniu disko elektita; bonvolu elekti malpleje unu diskon al kiu vi volas "
-#~ "instali."
 
 #, fuzzy
 #~| msgid "No format on device '%s'"

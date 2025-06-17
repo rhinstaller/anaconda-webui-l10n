@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-16 03:43+0000\n"
+"POT-Creation-Date: 2025-06-17 03:39+0000\n"
 "PO-Revision-Date: 2024-11-18 02:57+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.fedoraproject.org/projects/anaconda-"
@@ -31,13 +31,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Weblate 5.8.2\n"
 
-#: src/components/storage/InstallationDestination.jsx:180
-#: src/components/storage/InstallationDestination.jsx:305
+#: src/components/storage/InstallationDestination.jsx:186
+#: src/components/storage/InstallationDestination.jsx:307
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/InstallationDestination.jsx:200
-#: src/components/storage/InstallationDestination.jsx:298
+#: src/components/storage/InstallationDestination.jsx:206
+#: src/components/storage/InstallationDestination.jsx:300
 #: src/components/storage/MountPointMapping.jsx:369
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
@@ -166,7 +166,7 @@ msgstr ""
 
 #: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
-#: src/components/storage/InstallationDestination.jsx:351
+#: src/components/storage/InstallationDestination.jsx:386
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
 #: src/components/review/Hostname.jsx:108
 msgid "Cancel"
@@ -176,7 +176,7 @@ msgstr "ביטול"
 msgid "Change"
 msgstr "שינוי"
 
-#: src/components/storage/InstallationDestination.jsx:336
+#: src/components/storage/InstallationDestination.jsx:371
 msgid "Change destination"
 msgstr "החלפת יעד"
 
@@ -212,7 +212,7 @@ msgid "Clear search input"
 msgstr "מחיקת ערך קלט"
 
 #: src/components/storage/EncryptedDevices.jsx:161
-#: src/components/storage/InstallationDestination.jsx:356
+#: src/components/storage/InstallationDestination.jsx:391
 msgid "Close"
 msgstr "סגירה"
 
@@ -262,7 +262,7 @@ msgstr "יצירת חשבון"
 msgid "Critical error"
 msgstr "שגיאה משמעותית"
 
-#: src/components/storage/InstallationDestination.jsx:103
+#: src/components/storage/InstallationDestination.jsx:109
 msgid "Currently installed: $0"
 msgstr "מותקן כרגע: $0"
 
@@ -274,7 +274,7 @@ msgstr "מותאם אישית"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "מחיקה של מחיצות מסוימות עלולה לפגום בעלייה של $0:‏ $1"
 
-#: src/components/storage/InstallationDestination.jsx:285
+#: src/components/storage/InstallationDestination.jsx:292
 msgid "Destination"
 msgstr "יעד"
 
@@ -317,7 +317,7 @@ msgstr "מוצפן"
 msgid "Encryption"
 msgstr "הצפנה"
 
-#: src/components/storage/scenarios/EraseAll.jsx:72
+#: src/components/storage/scenarios/EraseAll.jsx:53
 msgid "Erase data and install"
 msgstr "מחיקת הנתונים והתקנה"
 
@@ -375,7 +375,7 @@ msgstr "הסתרת הסיסמה"
 msgid "Hostname"
 msgstr "שם מארח"
 
-#: src/components/storage/InstallationScenario.jsx:160
+#: src/components/storage/InstallationScenario.jsx:158
 msgid "How would you like to install?"
 msgstr "איך להתקין?"
 
@@ -426,7 +426,7 @@ msgstr "התקנה"
 msgid "Installation failed"
 msgstr "ההתקנה נכשלה"
 
-#: src/components/storage/InstallationMethod.jsx:229
+#: src/components/storage/InstallationMethod.jsx:237
 msgid "Installation method"
 msgstr "שיטת התקנה"
 
@@ -441,6 +441,10 @@ msgstr "סוג התקנה"
 #: src/components/installation/InstallationProgress.jsx:136
 msgid "Installing"
 msgstr "התקנה מתבצעת"
+
+#: src/components/storage/InstallationDestination.jsx:338
+msgid "Insufficient disk space"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
@@ -508,6 +512,10 @@ msgstr "יכול להכיל אותיות, מספרים ומינוסים."
 msgid "Medium"
 msgstr "בינונית"
 
+#: src/components/storage/InstallationDestination.jsx:341
+msgid "Minimum of $0 required"
+msgstr ""
+
 #: src/components/storage/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr "חוסר התאמה בין בחירת הפרמוט המחודש של התקן ההורה והתקן הצאצא."
@@ -555,11 +563,11 @@ msgstr "הבא"
 msgid "No devices"
 msgstr "אין התקנים"
 
-#: src/components/storage/InstallationDestination.jsx:162
+#: src/components/storage/InstallationDestination.jsx:168
 msgid "No disks available"
 msgstr "אין כוננים זמינים"
 
-#: src/components/storage/InstallationDestination.jsx:291
+#: src/components/storage/InstallationDestination.jsx:350
 msgid "No disks selected"
 msgstr "לא נבחרו כוננים"
 
@@ -570,10 +578,6 @@ msgstr "אין תוצאות"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "אין די מקום פנוי בכוננים שנבחרו."
-
-#: src/components/storage/scenarios/EraseAll.jsx:57
-msgid "Not enough space on selected disks."
-msgstr "אין די מקום בכוננים שנבחרו."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -625,6 +629,12 @@ msgstr "בהמתנה"
 #: src/components/Error.jsx:89
 msgid "Please attach the log file $0 to the issue."
 msgstr "נא להצמיד את קוב היומן ‎$0 לדיווח."
+
+#: src/components/storage/InstallationDestination.jsx:353
+#, fuzzy
+#| msgid "No disks selected; please select at least one disk to install to."
+msgid "Please select at least one disk to continue"
+msgstr "לא נבחרו כוננים; נא לבחור כונן אחד לפחות להתקנה."
 
 #: src/components/HeaderKebab.jsx:74
 msgid "Powered by Anaconda"
@@ -726,8 +736,8 @@ msgstr "מחיצות מומלצות:"
 msgid "Reformat"
 msgstr "פרמוט מחדש"
 
-#: src/components/storage/scenarios/ReinstallFedora.jsx:149
-#: src/components/storage/scenarios/ReinstallFedora.jsx:151
+#: src/components/storage/scenarios/ReinstallFedora.jsx:155
+#: src/components/storage/scenarios/ReinstallFedora.jsx:157
 msgid "Reinstall Fedora"
 msgstr "התקנת פדורה מחדש"
 
@@ -782,11 +792,11 @@ msgstr "חובה"
 msgid "Requirements"
 msgstr "דרישות"
 
-#: src/components/storage/InstallationDestination.jsx:153
+#: src/components/storage/InstallationDestination.jsx:159
 msgid "Rescan devices"
 msgstr "סריקת התקנים מחדש"
 
-#: src/components/storage/InstallationDestination.jsx:134
+#: src/components/storage/InstallationDestination.jsx:140
 msgid "Rescanning of the disks failed."
 msgstr "סריקת הכוננים מחדש נכשלה."
 
@@ -836,7 +846,7 @@ msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr "אפשר להגן על הנתונים שלך עם הצפנה מבוססת כונן. חל רק על מחיצות חדשות"
 
-#: src/components/storage/InstallationDestination.jsx:348
+#: src/components/storage/InstallationDestination.jsx:383
 msgid "Select"
 msgstr "בחירה"
 
@@ -845,7 +855,7 @@ msgstr "בחירה"
 msgid "Select a device"
 msgstr "נא לבחור התקן"
 
-#: src/components/storage/InstallationDestination.jsx:342
+#: src/components/storage/InstallationDestination.jsx:377
 msgid "Select destination"
 msgstr "בחירת יעד"
 
@@ -978,12 +988,6 @@ msgid ""
 "provide additional details."
 msgstr "היומן הבא יישלח למערכת מעקב התקלות בה ניתן לספק פרטים נוספים."
 
-#: src/components/storage/scenarios/EraseAll.jsx:59
-msgid ""
-"The installation needs $1 of disk space; however, the capacity of the "
-"selected disks is only $0."
-msgstr ""
-
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "תוכנית ההתקנה לא תוכל להמשיך עקב תקלה משמעותית."
@@ -1035,7 +1039,7 @@ msgstr "הפעולה הזאת יכולה לארוך מספר רגעים"
 msgid "To begin using $0, reboot your system."
 msgstr "כדי להתחיל להשתמש ב־$0, יש להפעיל את המערכת מחדש."
 
-#: src/components/storage/InstallationMethod.jsx:198
+#: src/components/storage/InstallationMethod.jsx:206
 msgid "To continue, select the devices to install to."
 msgstr "כדי להמשיך, נא לבחור את ההתקן להתקנה אליו."
 
@@ -1084,7 +1088,7 @@ msgstr "פריסות זמינות"
 msgid "Use configured storage"
 msgstr "להשתמש באחסון המוגדר"
 
-#: src/components/storage/scenarios/EraseAll.jsx:74
+#: src/components/storage/scenarios/EraseAll.jsx:55
 msgid "Use entire disk"
 msgstr "להשתמש בכונן כולו"
 
@@ -1207,6 +1211,9 @@ msgstr "כיווץ לכדי $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "ביטול"
+
+#~ msgid "Not enough space on selected disks."
+#~ msgstr "אין די מקום בכוננים שנבחרו."
 
 #, fuzzy
 #~| msgid "Unknown Linux"
@@ -3572,9 +3579,6 @@ msgstr "ביטול"
 
 #~ msgid "No disks selected. Keeping previous disk set."
 #~ msgstr "לא נבחרו כוננים. שומר קביעת כוננים קודמת."
-
-#~ msgid "No disks selected; please select at least one disk to install to."
-#~ msgstr "לא נבחרו כוננים; נא לבחור כונן אחד לפחות להתקנה."
 
 #~ msgid "No format on device '{}'"
 #~ msgstr "ההתקן ‚{}’ לא פורמט"

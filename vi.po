@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 38.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-16 03:43+0000\n"
+"POT-Creation-Date: 2025-06-17 03:39+0000\n"
 "PO-Revision-Date: 2024-11-13 12:41+0000\n"
 "Last-Translator: Jarema <jarema@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Vietnamese <https://translate.fedoraproject.org/projects/"
@@ -19,13 +19,13 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.8.2\n"
 
-#: src/components/storage/InstallationDestination.jsx:180
-#: src/components/storage/InstallationDestination.jsx:305
+#: src/components/storage/InstallationDestination.jsx:186
+#: src/components/storage/InstallationDestination.jsx:307
 msgid "$0 $1"
 msgstr "$0$1"
 
-#: src/components/storage/InstallationDestination.jsx:200
-#: src/components/storage/InstallationDestination.jsx:298
+#: src/components/storage/InstallationDestination.jsx:206
+#: src/components/storage/InstallationDestination.jsx:300
 #: src/components/storage/MountPointMapping.jsx:369
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
@@ -157,7 +157,7 @@ msgstr ""
 
 #: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
-#: src/components/storage/InstallationDestination.jsx:351
+#: src/components/storage/InstallationDestination.jsx:386
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
 #: src/components/review/Hostname.jsx:108
 msgid "Cancel"
@@ -167,7 +167,7 @@ msgstr "Huỷ bỏ"
 msgid "Change"
 msgstr "Thay đổi"
 
-#: src/components/storage/InstallationDestination.jsx:336
+#: src/components/storage/InstallationDestination.jsx:371
 msgid "Change destination"
 msgstr "Thay đổi đích"
 
@@ -201,7 +201,7 @@ msgid "Clear search input"
 msgstr ""
 
 #: src/components/storage/EncryptedDevices.jsx:161
-#: src/components/storage/InstallationDestination.jsx:356
+#: src/components/storage/InstallationDestination.jsx:391
 msgid "Close"
 msgstr "Đóng"
 
@@ -251,7 +251,7 @@ msgstr ""
 msgid "Critical error"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:103
+#: src/components/storage/InstallationDestination.jsx:109
 msgid "Currently installed: $0"
 msgstr ""
 
@@ -263,7 +263,7 @@ msgstr ""
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:285
+#: src/components/storage/InstallationDestination.jsx:292
 msgid "Destination"
 msgstr ""
 
@@ -304,7 +304,7 @@ msgstr ""
 msgid "Encryption"
 msgstr ""
 
-#: src/components/storage/scenarios/EraseAll.jsx:72
+#: src/components/storage/scenarios/EraseAll.jsx:53
 msgid "Erase data and install"
 msgstr ""
 
@@ -367,7 +367,7 @@ msgstr "Ẩn mật khẩu."
 msgid "Hostname"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:160
+#: src/components/storage/InstallationScenario.jsx:158
 msgid "How would you like to install?"
 msgstr ""
 
@@ -420,7 +420,7 @@ msgstr "Cài đặt"
 msgid "Installation failed"
 msgstr "Cài đặt thất bại"
 
-#: src/components/storage/InstallationMethod.jsx:229
+#: src/components/storage/InstallationMethod.jsx:237
 msgid "Installation method"
 msgstr "Phương thức cài đặt"
 
@@ -435,6 +435,10 @@ msgstr "Loại cài đặt"
 #: src/components/installation/InstallationProgress.jsx:136
 msgid "Installing"
 msgstr "Đang cài đặt"
+
+#: src/components/storage/InstallationDestination.jsx:338
+msgid "Insufficient disk space"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
@@ -497,6 +501,10 @@ msgstr "Có thể chứa chữ cái, số và dấu gạch ngang."
 msgid "Medium"
 msgstr "Trung gian"
 
+#: src/components/storage/InstallationDestination.jsx:341
+msgid "Minimum of $0 required"
+msgstr ""
+
 #: src/components/storage/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
@@ -543,11 +551,11 @@ msgstr "Tiếp tục"
 msgid "No devices"
 msgstr "Không có thiết bị"
 
-#: src/components/storage/InstallationDestination.jsx:162
+#: src/components/storage/InstallationDestination.jsx:168
 msgid "No disks available"
 msgstr "Không có thiết bị nào có sẵn"
 
-#: src/components/storage/InstallationDestination.jsx:291
+#: src/components/storage/InstallationDestination.jsx:350
 msgid "No disks selected"
 msgstr "Không có đĩa nào được chọn"
 
@@ -558,10 +566,6 @@ msgstr "Không tìm thấy kết quả"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "Các ổ đã chọn không đủ bộ nhớ."
-
-#: src/components/storage/scenarios/EraseAll.jsx:57
-msgid "Not enough space on selected disks."
-msgstr "Không đủ bộ nhớ trên các ổ đĩa đã chọn."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -611,6 +615,13 @@ msgstr "Đang chờ xử lý"
 #: src/components/Error.jsx:89
 msgid "Please attach the log file $0 to the issue."
 msgstr "Vui lòng đính kèm file nhật ký $0 vào báo cáo."
+
+#: src/components/storage/InstallationDestination.jsx:353
+#, fuzzy
+#| msgid "No disks selected; please select at least one disk to install to."
+msgid "Please select at least one disk to continue"
+msgstr ""
+"Không thể tìm thấy đĩa nào; vui lòng chọn ít nhất một đĩa để cài đặt vào."
 
 #: src/components/HeaderKebab.jsx:74
 msgid "Powered by Anaconda"
@@ -713,8 +724,8 @@ msgstr "Các phân vùng được đề xuất"
 msgid "Reformat"
 msgstr ""
 
-#: src/components/storage/scenarios/ReinstallFedora.jsx:149
-#: src/components/storage/scenarios/ReinstallFedora.jsx:151
+#: src/components/storage/scenarios/ReinstallFedora.jsx:155
+#: src/components/storage/scenarios/ReinstallFedora.jsx:157
 msgid "Reinstall Fedora"
 msgstr "Cài đặt lại Fedora"
 
@@ -769,11 +780,11 @@ msgstr "Bắt buộc"
 msgid "Requirements"
 msgstr "Yêu cầu"
 
-#: src/components/storage/InstallationDestination.jsx:153
+#: src/components/storage/InstallationDestination.jsx:159
 msgid "Rescan devices"
 msgstr "Quét lại các thiết bị"
 
-#: src/components/storage/InstallationDestination.jsx:134
+#: src/components/storage/InstallationDestination.jsx:140
 msgid "Rescanning of the disks failed."
 msgstr ""
 
@@ -823,7 +834,7 @@ msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:348
+#: src/components/storage/InstallationDestination.jsx:383
 msgid "Select"
 msgstr "Chọn"
 
@@ -832,7 +843,7 @@ msgstr "Chọn"
 msgid "Select a device"
 msgstr "Chọn môt thiết bị"
 
-#: src/components/storage/InstallationDestination.jsx:342
+#: src/components/storage/InstallationDestination.jsx:377
 msgid "Select destination"
 msgstr "Chọn đích đến"
 
@@ -965,12 +976,6 @@ msgid ""
 "provide additional details."
 msgstr ""
 
-#: src/components/storage/scenarios/EraseAll.jsx:59
-msgid ""
-"The installation needs $1 of disk space; however, the capacity of the "
-"selected disks is only $0."
-msgstr ""
-
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "Trình cài đặt không thể tiếp tục do lỗi nghiêm trọng."
@@ -1022,7 +1027,7 @@ msgstr "Việc này sẽ cần một ít phút"
 msgid "To begin using $0, reboot your system."
 msgstr "Để bắt đầu sử dụng $0, khởi động lại máy."
 
-#: src/components/storage/InstallationMethod.jsx:198
+#: src/components/storage/InstallationMethod.jsx:206
 msgid "To continue, select the devices to install to."
 msgstr "Để tiếp tục, vui lòng chọn thiết bị để cài đặt."
 
@@ -1069,7 +1074,7 @@ msgstr ""
 msgid "Use configured storage"
 msgstr ""
 
-#: src/components/storage/scenarios/EraseAll.jsx:74
+#: src/components/storage/scenarios/EraseAll.jsx:55
 msgid "Use entire disk"
 msgstr "Sử dụng toàn bộ ổ đĩa"
 
@@ -1189,6 +1194,9 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr ""
+
+#~ msgid "Not enough space on selected disks."
+#~ msgstr "Không đủ bộ nhớ trên các ổ đĩa đã chọn."
 
 #, fuzzy
 #~| msgid "Unknown"
@@ -1405,10 +1413,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Không thể tìm thấy đĩa nào.  Vui lòng tắt máy tính, kết nối ít nhất một "
 #~ "đĩa, và khởi động lại để tiếp tục cài đặt."
-
-#~ msgid "No disks selected; please select at least one disk to install to."
-#~ msgstr ""
-#~ "Không thể tìm thấy đĩa nào; vui lòng chọn ít nhất một đĩa để cài đặt vào."
 
 #, fuzzy
 #~ msgid "No host url"

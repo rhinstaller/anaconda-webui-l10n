@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-16 03:43+0000\n"
+"POT-Creation-Date: 2025-06-17 03:39+0000\n"
 "PO-Revision-Date: 2023-11-06 12:20+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Marathi <https://translate.fedoraproject.org/projects/"
@@ -33,13 +33,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Weblate 5.1.1\n"
 
-#: src/components/storage/InstallationDestination.jsx:180
-#: src/components/storage/InstallationDestination.jsx:305
+#: src/components/storage/InstallationDestination.jsx:186
+#: src/components/storage/InstallationDestination.jsx:307
 msgid "$0 $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:200
-#: src/components/storage/InstallationDestination.jsx:298
+#: src/components/storage/InstallationDestination.jsx:206
+#: src/components/storage/InstallationDestination.jsx:300
 #: src/components/storage/MountPointMapping.jsx:369
 msgid "$0 ($1)"
 msgstr ""
@@ -174,7 +174,7 @@ msgstr ""
 
 #: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
-#: src/components/storage/InstallationDestination.jsx:351
+#: src/components/storage/InstallationDestination.jsx:386
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
 #: src/components/review/Hostname.jsx:108
 #, fuzzy
@@ -185,7 +185,7 @@ msgstr "रद्द करा (_C)"
 msgid "Change"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:336
+#: src/components/storage/InstallationDestination.jsx:371
 #, fuzzy
 msgid "Change destination"
 msgstr "वर्णन"
@@ -219,7 +219,7 @@ msgid "Clear search input"
 msgstr ""
 
 #: src/components/storage/EncryptedDevices.jsx:161
-#: src/components/storage/InstallationDestination.jsx:356
+#: src/components/storage/InstallationDestination.jsx:391
 msgid "Close"
 msgstr "बंद करा"
 
@@ -275,7 +275,7 @@ msgstr ""
 msgid "Critical error"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:103
+#: src/components/storage/InstallationDestination.jsx:109
 msgid "Currently installed: $0"
 msgstr ""
 
@@ -287,7 +287,7 @@ msgstr ""
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:285
+#: src/components/storage/InstallationDestination.jsx:292
 #, fuzzy
 msgid "Destination"
 msgstr "वर्णन"
@@ -337,7 +337,7 @@ msgstr "एंक्रिप्ट करा"
 msgid "Encryption"
 msgstr "एंक्रिप्ट करा"
 
-#: src/components/storage/scenarios/EraseAll.jsx:72
+#: src/components/storage/scenarios/EraseAll.jsx:53
 #, fuzzy
 msgid "Erase data and install"
 msgstr "इंस्टॉलेशन"
@@ -400,7 +400,7 @@ msgstr "रिकामे पासवर्ड"
 msgid "Hostname"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:160
+#: src/components/storage/InstallationScenario.jsx:158
 msgid "How would you like to install?"
 msgstr ""
 
@@ -453,7 +453,7 @@ msgstr "इंस्टॉल करा"
 msgid "Installation failed"
 msgstr "इंस्टॉलेशन"
 
-#: src/components/storage/InstallationMethod.jsx:229
+#: src/components/storage/InstallationMethod.jsx:237
 #, fuzzy
 msgid "Installation method"
 msgstr "इंस्टॉलेशन"
@@ -472,6 +472,10 @@ msgstr "इंस्टॉलेशन"
 #, fuzzy
 msgid "Installing"
 msgstr "इंस्टॉलेशन"
+
+#: src/components/storage/InstallationDestination.jsx:338
+msgid "Insufficient disk space"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
@@ -541,6 +545,10 @@ msgstr ""
 msgid "Medium"
 msgstr ""
 
+#: src/components/storage/InstallationDestination.jsx:341
+msgid "Minimum of $0 required"
+msgstr ""
+
 #: src/components/storage/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
@@ -588,13 +596,13 @@ msgstr ""
 msgid "No devices"
 msgstr "साधन समावेश"
 
-#: src/components/storage/InstallationDestination.jsx:162
+#: src/components/storage/InstallationDestination.jsx:168
 #, fuzzy
 #| msgid "not available"
 msgid "No disks available"
 msgstr "अनुपलब्ध"
 
-#: src/components/storage/InstallationDestination.jsx:291
+#: src/components/storage/InstallationDestination.jsx:350
 msgid "No disks selected"
 msgstr "डिस्क्स् नीवडले नाही"
 
@@ -605,11 +613,6 @@ msgstr ""
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 #, fuzzy
 msgid "Not enough free space on the selected disks."
-msgstr "नीवडलेल्या डिस्क्स्वर अतिरिक्त मोकळी जागा आढळली नाही."
-
-#: src/components/storage/scenarios/EraseAll.jsx:57
-#, fuzzy
-msgid "Not enough space on selected disks."
 msgstr "नीवडलेल्या डिस्क्स्वर अतिरिक्त मोकळी जागा आढळली नाही."
 
 #: src/components/review/StorageReview.jsx:362
@@ -659,6 +662,12 @@ msgstr ""
 #: src/components/Error.jsx:89
 msgid "Please attach the log file $0 to the issue."
 msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:353
+#, fuzzy
+#| msgid "No disks selected; please select at least one disk to install to."
+msgid "Please select at least one disk to continue"
+msgstr "डिस्क्स् नीवडले नाही; कृपया इंस्टॉलेशनकरिता किमान एक डिस्क पसंत करा."
 
 #: src/components/HeaderKebab.jsx:74
 msgid "Powered by Anaconda"
@@ -771,8 +780,8 @@ msgstr ""
 msgid "Reformat"
 msgstr ""
 
-#: src/components/storage/scenarios/ReinstallFedora.jsx:149
-#: src/components/storage/scenarios/ReinstallFedora.jsx:151
+#: src/components/storage/scenarios/ReinstallFedora.jsx:155
+#: src/components/storage/scenarios/ReinstallFedora.jsx:157
 #, fuzzy
 #| msgid "Install"
 msgid "Reinstall Fedora"
@@ -830,13 +839,13 @@ msgstr "नवीन आकार अशक्य"
 msgid "Requirements"
 msgstr "नवीन आकार अशक्य"
 
-#: src/components/storage/InstallationDestination.jsx:153
+#: src/components/storage/InstallationDestination.jsx:159
 #, fuzzy
 #| msgid "Configure device %s"
 msgid "Rescan devices"
 msgstr "साधन %s संरचीत करा"
 
-#: src/components/storage/InstallationDestination.jsx:134
+#: src/components/storage/InstallationDestination.jsx:140
 msgid "Rescanning of the disks failed."
 msgstr ""
 
@@ -887,7 +896,7 @@ msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:348
+#: src/components/storage/InstallationDestination.jsx:383
 #, fuzzy
 #| msgid "Select all"
 msgid "Select"
@@ -899,7 +908,7 @@ msgstr "सर्व निवडा"
 msgid "Select a device"
 msgstr "नीवडलेले साधन"
 
-#: src/components/storage/InstallationDestination.jsx:342
+#: src/components/storage/InstallationDestination.jsx:377
 #, fuzzy
 msgid "Select destination"
 msgstr "वर्णन"
@@ -1042,12 +1051,6 @@ msgid ""
 "provide additional details."
 msgstr ""
 
-#: src/components/storage/scenarios/EraseAll.jsx:59
-msgid ""
-"The installation needs $1 of disk space; however, the capacity of the "
-"selected disks is only $0."
-msgstr ""
-
 #: src/components/Error.jsx:248
 #, fuzzy
 msgid "The installer cannot continue due to a critical error."
@@ -1102,7 +1105,7 @@ msgstr "डिस्क्स स्कॅन करत आहे.  याला
 msgid "To begin using $0, reboot your system."
 msgstr ""
 
-#: src/components/storage/InstallationMethod.jsx:198
+#: src/components/storage/InstallationMethod.jsx:206
 #, fuzzy
 msgid "To continue, select the devices to install to."
 msgstr "डिस्क्स् नीवडले नाही; कृपया इंस्टॉलेशनकरिता किमान एक डिस्क पसंत करा."
@@ -1150,7 +1153,7 @@ msgstr ""
 msgid "Use configured storage"
 msgstr "स्टोरेज शोधत आहे..."
 
-#: src/components/storage/scenarios/EraseAll.jsx:74
+#: src/components/storage/scenarios/EraseAll.jsx:55
 #, fuzzy
 #| msgid "Selected Device"
 msgid "Use entire disk"
@@ -1279,6 +1282,10 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Not enough space on selected disks."
+#~ msgstr "नीवडलेल्या डिस्क्स्वर अतिरिक्त मोकळी जागा आढळली नाही."
 
 #, fuzzy
 #~| msgid "Unknown"
@@ -2388,9 +2395,6 @@ msgstr ""
 #~| msgid "No disks selected"
 #~ msgid "No disks selected."
 #~ msgstr "डिस्क्स् नीवडले नाही"
-
-#~ msgid "No disks selected; please select at least one disk to install to."
-#~ msgstr "डिस्क्स् नीवडले नाही; कृपया इंस्टॉलेशनकरिता किमान एक डिस्क पसंत करा."
 
 #~ msgid "No host url"
 #~ msgstr " host url नाही आहे."

@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-16 03:43+0000\n"
+"POT-Creation-Date: 2025-06-17 03:39+0000\n"
 "PO-Revision-Date: 2025-05-31 12:40+0000\n"
 "Last-Translator: Marvin Parlevliet <mrvnp@msn.com>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/anaconda-"
@@ -47,13 +47,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.11.4\n"
 
-#: src/components/storage/InstallationDestination.jsx:180
-#: src/components/storage/InstallationDestination.jsx:305
+#: src/components/storage/InstallationDestination.jsx:186
+#: src/components/storage/InstallationDestination.jsx:307
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/InstallationDestination.jsx:200
-#: src/components/storage/InstallationDestination.jsx:298
+#: src/components/storage/InstallationDestination.jsx:206
+#: src/components/storage/InstallationDestination.jsx:300
 #: src/components/storage/MountPointMapping.jsx:369
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
@@ -185,7 +185,7 @@ msgstr ""
 
 #: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
-#: src/components/storage/InstallationDestination.jsx:351
+#: src/components/storage/InstallationDestination.jsx:386
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
 #: src/components/review/Hostname.jsx:108
 msgid "Cancel"
@@ -195,7 +195,7 @@ msgstr "Annuleren"
 msgid "Change"
 msgstr "Veranderen"
 
-#: src/components/storage/InstallationDestination.jsx:336
+#: src/components/storage/InstallationDestination.jsx:371
 msgid "Change destination"
 msgstr "Bestemming veranderen"
 
@@ -229,7 +229,7 @@ msgid "Clear search input"
 msgstr "Zoekveld wissen"
 
 #: src/components/storage/EncryptedDevices.jsx:161
-#: src/components/storage/InstallationDestination.jsx:356
+#: src/components/storage/InstallationDestination.jsx:391
 msgid "Close"
 msgstr "Sluiten"
 
@@ -281,7 +281,7 @@ msgstr "Account aanmaken"
 msgid "Critical error"
 msgstr "Kritische fout"
 
-#: src/components/storage/InstallationDestination.jsx:103
+#: src/components/storage/InstallationDestination.jsx:109
 msgid "Currently installed: $0"
 msgstr "Momenteel geïnstalleerd: $0"
 
@@ -295,7 +295,7 @@ msgstr ""
 "Het verwijderen van bepaalde partities kan ervoor zorgen dat $0 niet "
 "opstart: $1"
 
-#: src/components/storage/InstallationDestination.jsx:285
+#: src/components/storage/InstallationDestination.jsx:292
 msgid "Destination"
 msgstr "Bestemming"
 
@@ -336,7 +336,7 @@ msgstr "Versleuteld"
 msgid "Encryption"
 msgstr "Versleutelen"
 
-#: src/components/storage/scenarios/EraseAll.jsx:72
+#: src/components/storage/scenarios/EraseAll.jsx:53
 msgid "Erase data and install"
 msgstr "Data wissen en installeren"
 
@@ -394,7 +394,7 @@ msgstr "Verberg wachtwoord"
 msgid "Hostname"
 msgstr "Hostnaam"
 
-#: src/components/storage/InstallationScenario.jsx:160
+#: src/components/storage/InstallationScenario.jsx:158
 msgid "How would you like to install?"
 msgstr "Hoe wilt u installeren?"
 
@@ -450,7 +450,7 @@ msgstr "Installeren"
 msgid "Installation failed"
 msgstr "Installatie mislukt"
 
-#: src/components/storage/InstallationMethod.jsx:229
+#: src/components/storage/InstallationMethod.jsx:237
 msgid "Installation method"
 msgstr "Installatiemethode"
 
@@ -465,6 +465,10 @@ msgstr "Installatietype"
 #: src/components/installation/InstallationProgress.jsx:136
 msgid "Installing"
 msgstr "Installeren"
+
+#: src/components/storage/InstallationDestination.jsx:338
+msgid "Insufficient disk space"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
@@ -534,6 +538,10 @@ msgstr "Kan letters, nummers en koppeltekens bevatten."
 msgid "Medium"
 msgstr "Medium"
 
+#: src/components/storage/InstallationDestination.jsx:341
+msgid "Minimum of $0 required"
+msgstr ""
+
 #: src/components/storage/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
@@ -586,11 +594,11 @@ msgstr "Volgende"
 msgid "No devices"
 msgstr "Geen apparaten"
 
-#: src/components/storage/InstallationDestination.jsx:162
+#: src/components/storage/InstallationDestination.jsx:168
 msgid "No disks available"
 msgstr "Geen schijven beschikbaar"
 
-#: src/components/storage/InstallationDestination.jsx:291
+#: src/components/storage/InstallationDestination.jsx:350
 msgid "No disks selected"
 msgstr "Geen schijven geselecteerd"
 
@@ -601,10 +609,6 @@ msgstr "Geen resultaten gevonden"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "Onvoldoende vrije ruimte op de geselecteerde schijven."
-
-#: src/components/storage/scenarios/EraseAll.jsx:57
-msgid "Not enough space on selected disks."
-msgstr "Onvoldoende ruimte op de geselecteerde schijven."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -654,6 +658,14 @@ msgstr "In afwachting"
 #: src/components/Error.jsx:89
 msgid "Please attach the log file $0 to the issue."
 msgstr "Voeg het logbestand $0 toe aan het probleem."
+
+#: src/components/storage/InstallationDestination.jsx:353
+#, fuzzy
+#| msgid "No disks selected; please select at least one disk to install to."
+msgid "Please select at least one disk to continue"
+msgstr ""
+"Geen schijven geselecteerd; selecteer tenminste één schijf waarop "
+"geïnstalleerd kan worden."
 
 #: src/components/HeaderKebab.jsx:74
 msgid "Powered by Anaconda"
@@ -757,8 +769,8 @@ msgstr "Aanbevolen partities:"
 msgid "Reformat"
 msgstr "Opnieuw formatteren"
 
-#: src/components/storage/scenarios/ReinstallFedora.jsx:149
-#: src/components/storage/scenarios/ReinstallFedora.jsx:151
+#: src/components/storage/scenarios/ReinstallFedora.jsx:155
+#: src/components/storage/scenarios/ReinstallFedora.jsx:157
 msgid "Reinstall Fedora"
 msgstr "Fedora opnieuw installeren"
 
@@ -822,11 +834,11 @@ msgstr "Vereist"
 msgid "Requirements"
 msgstr "Vereisten"
 
-#: src/components/storage/InstallationDestination.jsx:153
+#: src/components/storage/InstallationDestination.jsx:159
 msgid "Rescan devices"
 msgstr "Apparaten opnieuw scannen"
 
-#: src/components/storage/InstallationDestination.jsx:134
+#: src/components/storage/InstallationDestination.jsx:140
 msgid "Rescanning of the disks failed."
 msgstr "Het opnieuw scannen van de schijven mislukte."
 
@@ -874,7 +886,7 @@ msgstr ""
 "Beveilig data met schijfgebaseerde versleuteling. Alleen van toepassing op "
 "nieuwe partities"
 
-#: src/components/storage/InstallationDestination.jsx:348
+#: src/components/storage/InstallationDestination.jsx:383
 msgid "Select"
 msgstr "Selecteren"
 
@@ -883,7 +895,7 @@ msgstr "Selecteren"
 msgid "Select a device"
 msgstr "Selecteer een apparaat"
 
-#: src/components/storage/InstallationDestination.jsx:342
+#: src/components/storage/InstallationDestination.jsx:377
 msgid "Select destination"
 msgstr "Bestemming selecteren"
 
@@ -1019,14 +1031,6 @@ msgstr ""
 "Het volgende logboek wordt naar het probleemvolgsysteem verzonden, waar u "
 "aanvullende details kunt verstrekken."
 
-#: src/components/storage/scenarios/EraseAll.jsx:59
-msgid ""
-"The installation needs $1 of disk space; however, the capacity of the "
-"selected disks is only $0."
-msgstr ""
-"De installatie vereist $1 schijfruimte; de capaciteit van de geselecteerde "
-"schijven is slechts $0."
-
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "Het installatieprogramma kan niet doorgaan vanwege een kritieke fout."
@@ -1086,7 +1090,7 @@ msgstr "Dit kan even duren"
 msgid "To begin using $0, reboot your system."
 msgstr "Herstart uw systeem om $0 te gaan gebruiken."
 
-#: src/components/storage/InstallationMethod.jsx:198
+#: src/components/storage/InstallationMethod.jsx:206
 msgid "To continue, select the devices to install to."
 msgstr ""
 "Selecteer de apparaten waarop u wilt installeren om door te kunnen gaan."
@@ -1136,7 +1140,7 @@ msgstr "Onbruikbare indeling"
 msgid "Use configured storage"
 msgstr "Gebruik geconfigureerde opslag"
 
-#: src/components/storage/scenarios/EraseAll.jsx:74
+#: src/components/storage/scenarios/EraseAll.jsx:55
 msgid "Use entire disk"
 msgstr "Gebruik gehele schijf"
 
@@ -1256,6 +1260,16 @@ msgstr "verkleinen naar $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "ongedaan maken"
+
+#~ msgid "Not enough space on selected disks."
+#~ msgstr "Onvoldoende ruimte op de geselecteerde schijven."
+
+#~ msgid ""
+#~ "The installation needs $1 of disk space; however, the capacity of the "
+#~ "selected disks is only $0."
+#~ msgstr ""
+#~ "De installatie vereist $1 schijfruimte; de capaciteit van de "
+#~ "geselecteerde schijven is slechts $0."
 
 #, fuzzy
 #~| msgid "Unknown Linux"
@@ -3715,11 +3729,6 @@ msgstr "ongedaan maken"
 #~ msgid "No disks selected. Keeping previous disk set."
 #~ msgstr ""
 #~ "Er zijn geen schijven geselecteerd. De vorige set schijven wordt gebruikt."
-
-#~ msgid "No disks selected; please select at least one disk to install to."
-#~ msgstr ""
-#~ "Geen schijven geselecteerd; selecteer tenminste één schijf waarop "
-#~ "geïnstalleerd kan worden."
 
 #~ msgid "No format on device '{}'"
 #~ msgstr "Geen formaat op apparaat '{}'"

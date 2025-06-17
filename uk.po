@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-16 03:43+0000\n"
+"POT-Creation-Date: 2025-06-17 03:39+0000\n"
 "PO-Revision-Date: 2025-03-30 11:23+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -37,13 +37,13 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.10.4\n"
 
-#: src/components/storage/InstallationDestination.jsx:180
-#: src/components/storage/InstallationDestination.jsx:305
+#: src/components/storage/InstallationDestination.jsx:186
+#: src/components/storage/InstallationDestination.jsx:307
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/InstallationDestination.jsx:200
-#: src/components/storage/InstallationDestination.jsx:298
+#: src/components/storage/InstallationDestination.jsx:206
+#: src/components/storage/InstallationDestination.jsx:300
 #: src/components/storage/MountPointMapping.jsx:369
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
@@ -175,7 +175,7 @@ msgstr ""
 
 #: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
-#: src/components/storage/InstallationDestination.jsx:351
+#: src/components/storage/InstallationDestination.jsx:386
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
 #: src/components/review/Hostname.jsx:108
 msgid "Cancel"
@@ -185,7 +185,7 @@ msgstr "Скасувати"
 msgid "Change"
 msgstr "Змінити"
 
-#: src/components/storage/InstallationDestination.jsx:336
+#: src/components/storage/InstallationDestination.jsx:371
 msgid "Change destination"
 msgstr "Змінити призначення"
 
@@ -220,7 +220,7 @@ msgid "Clear search input"
 msgstr "Вилучити ключ пошуку"
 
 #: src/components/storage/EncryptedDevices.jsx:161
-#: src/components/storage/InstallationDestination.jsx:356
+#: src/components/storage/InstallationDestination.jsx:391
 msgid "Close"
 msgstr "Закрити"
 
@@ -271,7 +271,7 @@ msgstr "Створити обліковий запис"
 msgid "Critical error"
 msgstr "Критична помилка"
 
-#: src/components/storage/InstallationDestination.jsx:103
+#: src/components/storage/InstallationDestination.jsx:109
 msgid "Currently installed: $0"
 msgstr "Зараз встановлено: $0"
 
@@ -283,7 +283,7 @@ msgstr "Нетипове"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Вилучення певних розділів може завадити завантаженню $0: $1"
 
-#: src/components/storage/InstallationDestination.jsx:285
+#: src/components/storage/InstallationDestination.jsx:292
 msgid "Destination"
 msgstr "Призначення"
 
@@ -324,7 +324,7 @@ msgstr "Зашифровано"
 msgid "Encryption"
 msgstr "Шифрування"
 
-#: src/components/storage/scenarios/EraseAll.jsx:72
+#: src/components/storage/scenarios/EraseAll.jsx:53
 msgid "Erase data and install"
 msgstr "Витерти дані і встановити"
 
@@ -382,7 +382,7 @@ msgstr "Приховати пароль"
 msgid "Hostname"
 msgstr "Назва вузла"
 
-#: src/components/storage/InstallationScenario.jsx:160
+#: src/components/storage/InstallationScenario.jsx:158
 msgid "How would you like to install?"
 msgstr "Яким способом ви хочете виконати встановлення?"
 
@@ -437,7 +437,7 @@ msgstr "Встановити"
 msgid "Installation failed"
 msgstr "Не вдалося встановити"
 
-#: src/components/storage/InstallationMethod.jsx:229
+#: src/components/storage/InstallationMethod.jsx:237
 msgid "Installation method"
 msgstr "Спосіб встановлення"
 
@@ -452,6 +452,10 @@ msgstr "Тип встановлення"
 #: src/components/installation/InstallationProgress.jsx:136
 msgid "Installing"
 msgstr "Встановлюємо"
+
+#: src/components/storage/InstallationDestination.jsx:338
+msgid "Insufficient disk space"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
@@ -521,6 +525,10 @@ msgstr "Може складатися з літер, цифр та дефісі�
 msgid "Medium"
 msgstr "Носій"
 
+#: src/components/storage/InstallationDestination.jsx:341
+msgid "Minimum of $0 required"
+msgstr ""
+
 #: src/components/storage/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
@@ -571,11 +579,11 @@ msgstr "Далі"
 msgid "No devices"
 msgstr "Немає пристроїв"
 
-#: src/components/storage/InstallationDestination.jsx:162
+#: src/components/storage/InstallationDestination.jsx:168
 msgid "No disks available"
 msgstr "Немає доступних дисків"
 
-#: src/components/storage/InstallationDestination.jsx:291
+#: src/components/storage/InstallationDestination.jsx:350
 msgid "No disks selected"
 msgstr "Не позначено жодного диска"
 
@@ -586,10 +594,6 @@ msgstr "Нічого не знайдено"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "На позначених дисках недостатньо вільного місця."
-
-#: src/components/storage/scenarios/EraseAll.jsx:57
-msgid "Not enough space on selected disks."
-msgstr "На позначених дисках недостатньо місця."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -641,6 +645,14 @@ msgstr "У черзі"
 #: src/components/Error.jsx:89
 msgid "Please attach the log file $0 to the issue."
 msgstr "Будь ласка, додайте до повідомлення про ваду файл журналу $0."
+
+#: src/components/storage/InstallationDestination.jsx:353
+#, fuzzy
+#| msgid "No disks selected; please select at least one disk to install to."
+msgid "Please select at least one disk to continue"
+msgstr ""
+"Не позначено жодного диска, будь ласка, позначте принаймні один диск, на "
+"який слід встановити систему."
 
 #: src/components/HeaderKebab.jsx:74
 msgid "Powered by Anaconda"
@@ -743,8 +755,8 @@ msgstr "Рекомендовані розділи:"
 msgid "Reformat"
 msgstr "Повторно форматувати"
 
-#: src/components/storage/scenarios/ReinstallFedora.jsx:149
-#: src/components/storage/scenarios/ReinstallFedora.jsx:151
+#: src/components/storage/scenarios/ReinstallFedora.jsx:155
+#: src/components/storage/scenarios/ReinstallFedora.jsx:157
 msgid "Reinstall Fedora"
 msgstr "Перевстановити Fedora"
 
@@ -808,11 +820,11 @@ msgstr "Обов'язковий"
 msgid "Requirements"
 msgstr "Вимоги"
 
-#: src/components/storage/InstallationDestination.jsx:153
+#: src/components/storage/InstallationDestination.jsx:159
 msgid "Rescan devices"
 msgstr "Виконати повторний пошук пристроїв"
 
-#: src/components/storage/InstallationDestination.jsx:134
+#: src/components/storage/InstallationDestination.jsx:140
 msgid "Rescanning of the disks failed."
 msgstr "Повторне сканування дисків зазнало невдачі."
 
@@ -864,7 +876,7 @@ msgstr ""
 "Захистіть ваші дані за допомогою шифрування дисків. Можна застосувати лише "
 "до нових розділів"
 
-#: src/components/storage/InstallationDestination.jsx:348
+#: src/components/storage/InstallationDestination.jsx:383
 msgid "Select"
 msgstr "Позначити"
 
@@ -873,7 +885,7 @@ msgstr "Позначити"
 msgid "Select a device"
 msgstr "Виберіть пристрій"
 
-#: src/components/storage/InstallationDestination.jsx:342
+#: src/components/storage/InstallationDestination.jsx:377
 msgid "Select destination"
 msgstr "Виберіть призначення"
 
@@ -1014,14 +1026,6 @@ msgstr ""
 "Вказаний нижче журнал буде надіслано до системи стеження за вадами, де ви "
 "зможете надати додаткові подробиці."
 
-#: src/components/storage/scenarios/EraseAll.jsx:59
-msgid ""
-"The installation needs $1 of disk space; however, the capacity of the "
-"selected disks is only $0."
-msgstr ""
-"Для встановлення потрібно $1 місця на дисках; втім, місткість вибраних "
-"дисків складає лише $0."
-
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "Продовження встановлення неможливе через критичну помилку."
@@ -1080,7 +1084,7 @@ msgstr "Зачекайте, будь ласка"
 msgid "To begin using $0, reboot your system."
 msgstr "Щоб розпочати користування $0, перезавантажте вашу систему."
 
-#: src/components/storage/InstallationMethod.jsx:198
+#: src/components/storage/InstallationMethod.jsx:206
 msgid "To continue, select the devices to install to."
 msgstr "Щоб продовжити, виберіть пристрої для встановлення на них системи."
 
@@ -1129,7 +1133,7 @@ msgstr "Непридатна розкладка"
 msgid "Use configured storage"
 msgstr "Скористатися налаштованим сховищем даних"
 
-#: src/components/storage/scenarios/EraseAll.jsx:74
+#: src/components/storage/scenarios/EraseAll.jsx:55
 msgid "Use entire disk"
 msgstr "Використати увесь диск"
 
@@ -1248,6 +1252,16 @@ msgstr "стиснути до $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "скасувати"
+
+#~ msgid "Not enough space on selected disks."
+#~ msgstr "На позначених дисках недостатньо місця."
+
+#~ msgid ""
+#~ "The installation needs $1 of disk space; however, the capacity of the "
+#~ "selected disks is only $0."
+#~ msgstr ""
+#~ "Для встановлення потрібно $1 місця на дисках; втім, місткість вибраних "
+#~ "дисків складає лише $0."
 
 #~ msgid "Unknown layout"
 #~ msgstr "Невідома розкладка"
@@ -3712,11 +3726,6 @@ msgstr "скасувати"
 
 #~ msgid "No disks selected. Keeping previous disk set."
 #~ msgstr "Не вибрано жодного диска. Зберігаємо попередній набір дисків."
-
-#~ msgid "No disks selected; please select at least one disk to install to."
-#~ msgstr ""
-#~ "Не позначено жодного диска, будь ласка, позначте принаймні один диск, на "
-#~ "який слід встановити систему."
 
 #~ msgid "No format on device '{}'"
 #~ msgstr "Пристрій «{}» не форматовано"

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-16 03:43+0000\n"
+"POT-Creation-Date: 2025-06-17 03:39+0000\n"
 "PO-Revision-Date: 2025-05-15 08:08+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -25,13 +25,13 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.11.3\n"
 
-#: src/components/storage/InstallationDestination.jsx:180
-#: src/components/storage/InstallationDestination.jsx:305
+#: src/components/storage/InstallationDestination.jsx:186
+#: src/components/storage/InstallationDestination.jsx:307
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/InstallationDestination.jsx:200
-#: src/components/storage/InstallationDestination.jsx:298
+#: src/components/storage/InstallationDestination.jsx:206
+#: src/components/storage/InstallationDestination.jsx:300
 #: src/components/storage/MountPointMapping.jsx:369
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
@@ -162,7 +162,7 @@ msgstr ""
 
 #: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
-#: src/components/storage/InstallationDestination.jsx:351
+#: src/components/storage/InstallationDestination.jsx:386
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
 #: src/components/review/Hostname.jsx:108
 msgid "Cancel"
@@ -172,7 +172,7 @@ msgstr "გაუქმება"
 msgid "Change"
 msgstr "შეცვლა"
 
-#: src/components/storage/InstallationDestination.jsx:336
+#: src/components/storage/InstallationDestination.jsx:371
 msgid "Change destination"
 msgstr "სამიზნის შეცვლა"
 
@@ -206,7 +206,7 @@ msgid "Clear search input"
 msgstr "შეყვანილი ძებნის გასუფთავება"
 
 #: src/components/storage/EncryptedDevices.jsx:161
-#: src/components/storage/InstallationDestination.jsx:356
+#: src/components/storage/InstallationDestination.jsx:391
 msgid "Close"
 msgstr "დაკეტვა"
 
@@ -258,7 +258,7 @@ msgstr "ანგარიშის შექმნა"
 msgid "Critical error"
 msgstr "კრიტიკული შეცდომა"
 
-#: src/components/storage/InstallationDestination.jsx:103
+#: src/components/storage/InstallationDestination.jsx:109
 msgid "Currently installed: $0"
 msgstr "ამჟამად დაყენებულია: $0"
 
@@ -270,7 +270,7 @@ msgstr "ხელით"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "ზოგიერთი დანაყოფის წაშლამ, შეიძლება, $0-ს ჩატვირთვას ხელი შეუშალოს: $1"
 
-#: src/components/storage/InstallationDestination.jsx:285
+#: src/components/storage/InstallationDestination.jsx:292
 msgid "Destination"
 msgstr "სამიზნე"
 
@@ -311,7 +311,7 @@ msgstr "დაშიფრულია"
 msgid "Encryption"
 msgstr "დაშიფვრა"
 
-#: src/components/storage/scenarios/EraseAll.jsx:72
+#: src/components/storage/scenarios/EraseAll.jsx:53
 msgid "Erase data and install"
 msgstr "მონაცემების წაშლა და დაყენება"
 
@@ -369,7 +369,7 @@ msgstr "პაროლის დამალვა"
 msgid "Hostname"
 msgstr "ჰოსტის სახელი"
 
-#: src/components/storage/InstallationScenario.jsx:160
+#: src/components/storage/InstallationScenario.jsx:158
 msgid "How would you like to install?"
 msgstr "როგორ გნებავთ, დააყენოთ?"
 
@@ -425,7 +425,7 @@ msgstr "დაყენება"
 msgid "Installation failed"
 msgstr "დაყენების შეცდომა"
 
-#: src/components/storage/InstallationMethod.jsx:229
+#: src/components/storage/InstallationMethod.jsx:237
 msgid "Installation method"
 msgstr "დაყენების მეთოდი"
 
@@ -440,6 +440,10 @@ msgstr "დაყენების ტიპი"
 #: src/components/installation/InstallationProgress.jsx:136
 msgid "Installing"
 msgstr "დაყენება"
+
+#: src/components/storage/InstallationDestination.jsx:338
+msgid "Insufficient disk space"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
@@ -509,6 +513,10 @@ msgstr "შეიძლება შეიცავდეს ლათინუ�
 msgid "Medium"
 msgstr "მატარებელი"
 
+#: src/components/storage/InstallationDestination.jsx:341
+msgid "Minimum of $0 required"
+msgstr ""
+
 #: src/components/storage/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
@@ -560,11 +568,11 @@ msgstr "შემდეგი"
 msgid "No devices"
 msgstr "მოწყობილობების გარეშე"
 
-#: src/components/storage/InstallationDestination.jsx:162
+#: src/components/storage/InstallationDestination.jsx:168
 msgid "No disks available"
 msgstr "დისკები ხელმისაწვდომი არაა"
 
-#: src/components/storage/InstallationDestination.jsx:291
+#: src/components/storage/InstallationDestination.jsx:350
 msgid "No disks selected"
 msgstr "არცერთი დისკი მონიშნული არაა"
 
@@ -575,10 +583,6 @@ msgstr "შედეგების გარეშე"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "მონიშნულ დისკებზე საკმარისი თავისუფალი ადგილი არაა."
-
-#: src/components/storage/scenarios/EraseAll.jsx:57
-msgid "Not enough space on selected disks."
-msgstr "მონიშნულ დისკებზე საკმარისი ადგილი არაა."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -627,6 +631,12 @@ msgstr "დარჩენილი"
 #: src/components/Error.jsx:89
 msgid "Please attach the log file $0 to the issue."
 msgstr "პრობლემას ჟურნალის ფაილი, $0 მიამაგრეთ."
+
+#: src/components/storage/InstallationDestination.jsx:353
+#, fuzzy
+#| msgid "No disks selected; please select at least one disk to install to."
+msgid "Please select at least one disk to continue"
+msgstr "დისკები არჩეული არაა. აირჩიეთ მინიმუმ ერთი დისკი."
 
 #: src/components/HeaderKebab.jsx:74
 msgid "Powered by Anaconda"
@@ -730,8 +740,8 @@ msgstr "რეკომენდებული დანაყოფები:"
 msgid "Reformat"
 msgstr "გადაფორმატება"
 
-#: src/components/storage/scenarios/ReinstallFedora.jsx:149
-#: src/components/storage/scenarios/ReinstallFedora.jsx:151
+#: src/components/storage/scenarios/ReinstallFedora.jsx:155
+#: src/components/storage/scenarios/ReinstallFedora.jsx:157
 msgid "Reinstall Fedora"
 msgstr "Fedora-ის თავიდან დაყენება"
 
@@ -796,11 +806,11 @@ msgstr "აუცილებელია"
 msgid "Requirements"
 msgstr "მოთხოვნები"
 
-#: src/components/storage/InstallationDestination.jsx:153
+#: src/components/storage/InstallationDestination.jsx:159
 msgid "Rescan devices"
 msgstr "მოწყობილობების თავიდან სკანირება"
 
-#: src/components/storage/InstallationDestination.jsx:134
+#: src/components/storage/InstallationDestination.jsx:140
 msgid "Rescanning of the disks failed."
 msgstr "დისკების თავიდან სკანირების შეცდომა."
 
@@ -847,7 +857,7 @@ msgid ""
 msgstr ""
 "დაიცავით თქვენი მონაცემები დისკის დაშიფვრით. ეხება, მხოლოდ, ახალ დანაყოფებს"
 
-#: src/components/storage/InstallationDestination.jsx:348
+#: src/components/storage/InstallationDestination.jsx:383
 msgid "Select"
 msgstr "არჩევა"
 
@@ -856,7 +866,7 @@ msgstr "არჩევა"
 msgid "Select a device"
 msgstr "აირჩიეთ მოწყობილობა"
 
-#: src/components/storage/InstallationDestination.jsx:342
+#: src/components/storage/InstallationDestination.jsx:377
 msgid "Select destination"
 msgstr "აირჩიეთ სამიზნე"
 
@@ -992,14 +1002,6 @@ msgstr ""
 "შემდეგი ჟურნალის ფაილი გადაიგზავნება შეცდომების ტრეკინგის სისტემაში, სადაც "
 "დამატებითი დეტალების მითითება შეგეძლებათ."
 
-#: src/components/storage/scenarios/EraseAll.jsx:59
-msgid ""
-"The installation needs $1 of disk space; however, the capacity of the "
-"selected disks is only $0."
-msgstr ""
-"დაყენებას დისკზე $1 ადგილი სჭირდება, მაგრამ დისკის მოცულობა, მხოლოდ, $0-ს "
-"შეადგენს."
-
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "დაყენების გაგრძელება შეუძლებელია კრიტიკული შეცდომის გამო."
@@ -1057,7 +1059,7 @@ msgstr "ამას, შეიძლება, რაღაც დრო და
 msgid "To begin using $0, reboot your system."
 msgstr "$0-ის გამოყენების დასაწყებად გადატვირთეთ თქვენი სისტემა."
 
-#: src/components/storage/InstallationMethod.jsx:198
+#: src/components/storage/InstallationMethod.jsx:206
 msgid "To continue, select the devices to install to."
 msgstr "გასაგრძელებლად აირჩიეთ მოწყობილობა, რომელზეც დაყენება გნებავთ."
 
@@ -1106,7 +1108,7 @@ msgstr "არაგამოყენებადი განლაგებ�
 msgid "Use configured storage"
 msgstr "მორგებული საცავის გამოყენება"
 
-#: src/components/storage/scenarios/EraseAll.jsx:74
+#: src/components/storage/scenarios/EraseAll.jsx:55
 msgid "Use entire disk"
 msgstr "მთელი დისკის გამოყენება"
 
@@ -1225,6 +1227,16 @@ msgstr "$0-მდე შემცირება"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "გაუქმება"
+
+#~ msgid "Not enough space on selected disks."
+#~ msgstr "მონიშნულ დისკებზე საკმარისი ადგილი არაა."
+
+#~ msgid ""
+#~ "The installation needs $1 of disk space; however, the capacity of the "
+#~ "selected disks is only $0."
+#~ msgstr ""
+#~ "დაყენებას დისკზე $1 ადგილი სჭირდება, მაგრამ დისკის მოცულობა, მხოლოდ, $0-ს "
+#~ "შეადგენს."
 
 #~ msgid "Unknown layout"
 #~ msgstr "უცნობი განლაგება"
@@ -3658,9 +3670,6 @@ msgstr "გაუქმება"
 
 #~ msgid "No disks selected. Keeping previous disk set."
 #~ msgstr "დისკები მონიშნული არაა. დავტოვებ დისკების წინა სეტს."
-
-#~ msgid "No disks selected; please select at least one disk to install to."
-#~ msgstr "დისკები არჩეული არაა. აირჩიეთ მინიმუმ ერთი დისკი."
 
 #~ msgid "No format on device '{}'"
 #~ msgstr "მოწყობილობაზე '{}' ფორმატი არ არსებობს"

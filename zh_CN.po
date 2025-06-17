@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-16 03:43+0000\n"
+"POT-Creation-Date: 2025-06-17 03:39+0000\n"
 "PO-Revision-Date: 2025-06-04 09:57+0000\n"
 "Last-Translator: z z <3397542367@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -58,13 +58,13 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.11.4\n"
 
-#: src/components/storage/InstallationDestination.jsx:180
-#: src/components/storage/InstallationDestination.jsx:305
+#: src/components/storage/InstallationDestination.jsx:186
+#: src/components/storage/InstallationDestination.jsx:307
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/InstallationDestination.jsx:200
-#: src/components/storage/InstallationDestination.jsx:298
+#: src/components/storage/InstallationDestination.jsx:206
+#: src/components/storage/InstallationDestination.jsx:300
 #: src/components/storage/MountPointMapping.jsx:369
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
@@ -188,7 +188,7 @@ msgstr ""
 
 #: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
-#: src/components/storage/InstallationDestination.jsx:351
+#: src/components/storage/InstallationDestination.jsx:386
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
 #: src/components/review/Hostname.jsx:108
 msgid "Cancel"
@@ -198,7 +198,7 @@ msgstr "取消"
 msgid "Change"
 msgstr "变更"
 
-#: src/components/storage/InstallationDestination.jsx:336
+#: src/components/storage/InstallationDestination.jsx:371
 msgid "Change destination"
 msgstr "更改目标位置"
 
@@ -230,7 +230,7 @@ msgid "Clear search input"
 msgstr "清除搜索输入"
 
 #: src/components/storage/EncryptedDevices.jsx:161
-#: src/components/storage/InstallationDestination.jsx:356
+#: src/components/storage/InstallationDestination.jsx:391
 msgid "Close"
 msgstr "关闭"
 
@@ -280,7 +280,7 @@ msgstr "创建账户"
 msgid "Critical error"
 msgstr "关键错误"
 
-#: src/components/storage/InstallationDestination.jsx:103
+#: src/components/storage/InstallationDestination.jsx:109
 msgid "Currently installed: $0"
 msgstr "目前安装：$0"
 
@@ -292,7 +292,7 @@ msgstr "自定义"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "删除某些分区可能会导致$0无法启动：$1"
 
-#: src/components/storage/InstallationDestination.jsx:285
+#: src/components/storage/InstallationDestination.jsx:292
 msgid "Destination"
 msgstr "目标位置"
 
@@ -333,7 +333,7 @@ msgstr "已加密"
 msgid "Encryption"
 msgstr "加密"
 
-#: src/components/storage/scenarios/EraseAll.jsx:72
+#: src/components/storage/scenarios/EraseAll.jsx:53
 msgid "Erase data and install"
 msgstr "删除数据内容并安装"
 
@@ -389,7 +389,7 @@ msgstr "隐藏密码"
 msgid "Hostname"
 msgstr "主机名"
 
-#: src/components/storage/InstallationScenario.jsx:160
+#: src/components/storage/InstallationScenario.jsx:158
 msgid "How would you like to install?"
 msgstr "您想如何安装？"
 
@@ -440,7 +440,7 @@ msgstr "安装"
 msgid "Installation failed"
 msgstr "安装失败"
 
-#: src/components/storage/InstallationMethod.jsx:229
+#: src/components/storage/InstallationMethod.jsx:237
 msgid "Installation method"
 msgstr "安装方案"
 
@@ -455,6 +455,10 @@ msgstr "安装类型"
 #: src/components/installation/InstallationProgress.jsx:136
 msgid "Installing"
 msgstr "正在安装"
+
+#: src/components/storage/InstallationDestination.jsx:338
+msgid "Insufficient disk space"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
@@ -520,6 +524,10 @@ msgstr "可能包含字母、数字和破折号。"
 msgid "Medium"
 msgstr "媒介"
 
+#: src/components/storage/InstallationDestination.jsx:341
+msgid "Minimum of $0 required"
+msgstr ""
+
 #: src/components/storage/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr "父设备和子设备重新格式化选择不匹配。"
@@ -565,11 +573,11 @@ msgstr "下一个"
 msgid "No devices"
 msgstr "无设备"
 
-#: src/components/storage/InstallationDestination.jsx:162
+#: src/components/storage/InstallationDestination.jsx:168
 msgid "No disks available"
 msgstr "没有可用的磁盘"
 
-#: src/components/storage/InstallationDestination.jsx:291
+#: src/components/storage/InstallationDestination.jsx:350
 msgid "No disks selected"
 msgstr "未选择任何磁盘"
 
@@ -580,10 +588,6 @@ msgstr "未找到结果"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "所选磁盘中没有足够剩余空间。"
-
-#: src/components/storage/scenarios/EraseAll.jsx:57
-msgid "Not enough space on selected disks."
-msgstr "所选磁盘中没有足够空间。"
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -632,6 +636,12 @@ msgstr "待办的"
 #: src/components/Error.jsx:89
 msgid "Please attach the log file $0 to the issue."
 msgstr "请将日志文件 $0 附加到问题中。"
+
+#: src/components/storage/InstallationDestination.jsx:353
+#, fuzzy
+#| msgid "No disks selected; please select at least one disk to install to."
+msgid "Please select at least one disk to continue"
+msgstr "尚未选择磁盘，要安装系统请至少选择一个磁盘。"
 
 #: src/components/HeaderKebab.jsx:74
 msgid "Powered by Anaconda"
@@ -732,8 +742,8 @@ msgstr "建议的分区："
 msgid "Reformat"
 msgstr "重新格式化"
 
-#: src/components/storage/scenarios/ReinstallFedora.jsx:149
-#: src/components/storage/scenarios/ReinstallFedora.jsx:151
+#: src/components/storage/scenarios/ReinstallFedora.jsx:155
+#: src/components/storage/scenarios/ReinstallFedora.jsx:157
 msgid "Reinstall Fedora"
 msgstr "重新安装 Fedora"
 
@@ -789,11 +799,11 @@ msgstr "必需的"
 msgid "Requirements"
 msgstr "需要"
 
-#: src/components/storage/InstallationDestination.jsx:153
+#: src/components/storage/InstallationDestination.jsx:159
 msgid "Rescan devices"
 msgstr "重新扫描设备"
 
-#: src/components/storage/InstallationDestination.jsx:134
+#: src/components/storage/InstallationDestination.jsx:140
 msgid "Rescanning of the disks failed."
 msgstr "重新扫描磁盘失败。"
 
@@ -839,7 +849,7 @@ msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr "使用基于磁盘的加密保护您的数据。仅适用于新分区"
 
-#: src/components/storage/InstallationDestination.jsx:348
+#: src/components/storage/InstallationDestination.jsx:383
 msgid "Select"
 msgstr "选择"
 
@@ -848,7 +858,7 @@ msgstr "选择"
 msgid "Select a device"
 msgstr "所选一个设备"
 
-#: src/components/storage/InstallationDestination.jsx:342
+#: src/components/storage/InstallationDestination.jsx:377
 msgid "Select destination"
 msgstr "选择目标位置"
 
@@ -977,12 +987,6 @@ msgid ""
 "provide additional details."
 msgstr "以下日志将发送到问题跟踪系统，您可以在其中提供其他详细信息。"
 
-#: src/components/storage/scenarios/EraseAll.jsx:59
-msgid ""
-"The installation needs $1 of disk space; however, the capacity of the "
-"selected disks is only $0."
-msgstr "安装需要$1的磁盘空间；但是所选磁盘的容量只有$0。"
-
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "安装程序由于严重错误而无法继续。"
@@ -1034,7 +1038,7 @@ msgstr "这需要一些时间"
 msgid "To begin using $0, reboot your system."
 msgstr "要使用 $0，请重新启动系统。"
 
-#: src/components/storage/InstallationMethod.jsx:198
+#: src/components/storage/InstallationMethod.jsx:206
 msgid "To continue, select the devices to install to."
 msgstr "要想继续，请选择要安装的设备。"
 
@@ -1079,7 +1083,7 @@ msgstr "布局不可用"
 msgid "Use configured storage"
 msgstr "使用配置的存储"
 
-#: src/components/storage/scenarios/EraseAll.jsx:74
+#: src/components/storage/scenarios/EraseAll.jsx:55
 msgid "Use entire disk"
 msgstr "使用整个磁盘"
 
@@ -1193,6 +1197,14 @@ msgstr "缩小至 $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "撤消"
+
+#~ msgid "Not enough space on selected disks."
+#~ msgstr "所选磁盘中没有足够空间。"
+
+#~ msgid ""
+#~ "The installation needs $1 of disk space; however, the capacity of the "
+#~ "selected disks is only $0."
+#~ msgstr "安装需要$1的磁盘空间；但是所选磁盘的容量只有$0。"
 
 #~ msgid "Unknown layout"
 #~ msgstr "未知布局"
@@ -3513,9 +3525,6 @@ msgstr "撤消"
 
 #~ msgid "No disks selected. Keeping previous disk set."
 #~ msgstr "未选择磁盘。保留之前的磁盘选择。"
-
-#~ msgid "No disks selected; please select at least one disk to install to."
-#~ msgstr "尚未选择磁盘，要安装系统请至少选择一个磁盘。"
 
 #~ msgid "No format on device '{}'"
 #~ msgstr "设备 '{}' 上没有格式"

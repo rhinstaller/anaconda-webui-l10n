@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-16 03:43+0000\n"
+"POT-Creation-Date: 2025-06-17 03:39+0000\n"
 "PO-Revision-Date: 2025-04-03 15:51+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
@@ -40,13 +40,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.10.4\n"
 
-#: src/components/storage/InstallationDestination.jsx:180
-#: src/components/storage/InstallationDestination.jsx:305
+#: src/components/storage/InstallationDestination.jsx:186
+#: src/components/storage/InstallationDestination.jsx:307
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/InstallationDestination.jsx:200
-#: src/components/storage/InstallationDestination.jsx:298
+#: src/components/storage/InstallationDestination.jsx:206
+#: src/components/storage/InstallationDestination.jsx:300
 #: src/components/storage/MountPointMapping.jsx:369
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
@@ -179,7 +179,7 @@ msgstr ""
 
 #: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
-#: src/components/storage/InstallationDestination.jsx:351
+#: src/components/storage/InstallationDestination.jsx:386
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
 #: src/components/review/Hostname.jsx:108
 msgid "Cancel"
@@ -189,7 +189,7 @@ msgstr "Peru"
 msgid "Change"
 msgstr "Vaihda"
 
-#: src/components/storage/InstallationDestination.jsx:336
+#: src/components/storage/InstallationDestination.jsx:371
 msgid "Change destination"
 msgstr "Muuta kohdetta"
 
@@ -225,7 +225,7 @@ msgid "Clear search input"
 msgstr "Tyhjennä hakusyöte"
 
 #: src/components/storage/EncryptedDevices.jsx:161
-#: src/components/storage/InstallationDestination.jsx:356
+#: src/components/storage/InstallationDestination.jsx:391
 msgid "Close"
 msgstr "Sulje"
 
@@ -277,7 +277,7 @@ msgstr "Luo tili"
 msgid "Critical error"
 msgstr "Kriittinen virhe"
 
-#: src/components/storage/InstallationDestination.jsx:103
+#: src/components/storage/InstallationDestination.jsx:109
 msgid "Currently installed: $0"
 msgstr "Tällä hetkellä asennettuna: $0"
 
@@ -289,7 +289,7 @@ msgstr "Mukautettu"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Tiettyjen osioiden poistaminen voi estää $0:n käynnistymisen: $1"
 
-#: src/components/storage/InstallationDestination.jsx:285
+#: src/components/storage/InstallationDestination.jsx:292
 msgid "Destination"
 msgstr "Kohde"
 
@@ -330,7 +330,7 @@ msgstr "Salattu"
 msgid "Encryption"
 msgstr "Salaus"
 
-#: src/components/storage/scenarios/EraseAll.jsx:72
+#: src/components/storage/scenarios/EraseAll.jsx:53
 msgid "Erase data and install"
 msgstr "Tyhjennä levyt ja asenna"
 
@@ -388,7 +388,7 @@ msgstr "Piilota salasana"
 msgid "Hostname"
 msgstr "Koneen nimi"
 
-#: src/components/storage/InstallationScenario.jsx:160
+#: src/components/storage/InstallationScenario.jsx:158
 msgid "How would you like to install?"
 msgstr "Miten haluaisit asentaa?"
 
@@ -440,7 +440,7 @@ msgstr "Asenna"
 msgid "Installation failed"
 msgstr "Asennus epäonnistui"
 
-#: src/components/storage/InstallationMethod.jsx:229
+#: src/components/storage/InstallationMethod.jsx:237
 msgid "Installation method"
 msgstr "Asennustapa"
 
@@ -455,6 +455,10 @@ msgstr "Asennustyyppi"
 #: src/components/installation/InstallationProgress.jsx:136
 msgid "Installing"
 msgstr "Asennetaan"
+
+#: src/components/storage/InstallationDestination.jsx:338
+msgid "Insufficient disk space"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
@@ -523,6 +527,10 @@ msgstr "Saattaa sisältää kirjaimia, numeroita ja viivoja."
 msgid "Medium"
 msgstr "Väline"
 
+#: src/components/storage/InstallationDestination.jsx:341
+msgid "Minimum of $0 required"
+msgstr ""
+
 #: src/components/storage/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
@@ -571,11 +579,11 @@ msgstr "Seuraava"
 msgid "No devices"
 msgstr "Ei laiteita"
 
-#: src/components/storage/InstallationDestination.jsx:162
+#: src/components/storage/InstallationDestination.jsx:168
 msgid "No disks available"
 msgstr "Levyjä ei saatavilla"
 
-#: src/components/storage/InstallationDestination.jsx:291
+#: src/components/storage/InstallationDestination.jsx:350
 msgid "No disks selected"
 msgstr "Yhtään levyä ei ole valittu"
 
@@ -585,10 +593,6 @@ msgstr "Tuloksia ei löytynyt"
 
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
-msgstr "Valituilla levyillä ei ole riittävästi vapaata tilaa."
-
-#: src/components/storage/scenarios/EraseAll.jsx:57
-msgid "Not enough space on selected disks."
 msgstr "Valituilla levyillä ei ole riittävästi vapaata tilaa."
 
 #: src/components/review/StorageReview.jsx:362
@@ -641,6 +645,14 @@ msgstr "Odottaa"
 #: src/components/Error.jsx:89
 msgid "Please attach the log file $0 to the issue."
 msgstr "Liitä lokitiedosto $0 vikaraporttiin."
+
+#: src/components/storage/InstallationDestination.jsx:353
+#, fuzzy
+#| msgid "No disks selected; please select at least one disk to install to."
+msgid "Please select at least one disk to continue"
+msgstr ""
+"Yhtään levyä ei ole valittuna. Valitse ainakin yksi levy, jolle asennus "
+"tehdään."
 
 #: src/components/HeaderKebab.jsx:74
 msgid "Powered by Anaconda"
@@ -743,8 +755,8 @@ msgstr "Suositellut osiot:"
 msgid "Reformat"
 msgstr "Alusta uudelleen"
 
-#: src/components/storage/scenarios/ReinstallFedora.jsx:149
-#: src/components/storage/scenarios/ReinstallFedora.jsx:151
+#: src/components/storage/scenarios/ReinstallFedora.jsx:155
+#: src/components/storage/scenarios/ReinstallFedora.jsx:157
 msgid "Reinstall Fedora"
 msgstr "Asenna Fedora uudelleen"
 
@@ -807,11 +819,11 @@ msgstr "Vaaditaan"
 msgid "Requirements"
 msgstr "Vaatimukset"
 
-#: src/components/storage/InstallationDestination.jsx:153
+#: src/components/storage/InstallationDestination.jsx:159
 msgid "Rescan devices"
 msgstr "tutki laitteet uudelleen"
 
-#: src/components/storage/InstallationDestination.jsx:134
+#: src/components/storage/InstallationDestination.jsx:140
 msgid "Rescanning of the disks failed."
 msgstr "Levyjen uudelleenskannaus epäonnistui."
 
@@ -860,7 +872,7 @@ msgid ""
 msgstr ""
 "Suojaa tietosi levypohjaisella salauksella. Soveltuu vain uusiin osioihin"
 
-#: src/components/storage/InstallationDestination.jsx:348
+#: src/components/storage/InstallationDestination.jsx:383
 msgid "Select"
 msgstr "Valitse"
 
@@ -869,7 +881,7 @@ msgstr "Valitse"
 msgid "Select a device"
 msgstr "Valitse laite"
 
-#: src/components/storage/InstallationDestination.jsx:342
+#: src/components/storage/InstallationDestination.jsx:377
 msgid "Select destination"
 msgstr "Valitse kohde"
 
@@ -1007,14 +1019,6 @@ msgstr ""
 "Seuraava loki lähetetään ongelmanseurantajärjestelmään, jossa voit antaa "
 "lisätietoja."
 
-#: src/components/storage/scenarios/EraseAll.jsx:59
-msgid ""
-"The installation needs $1 of disk space; however, the capacity of the "
-"selected disks is only $0."
-msgstr ""
-"Asennus vaatii $1 levytilaa; valittujen levyjen kapasiteetti on kuitenkin "
-"vain $0."
-
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "Asennuksen jatkaminen ei onnistu kriittisen virheen vuoksi."
@@ -1072,7 +1076,7 @@ msgstr "Tämä kestää hetken"
 msgid "To begin using $0, reboot your system."
 msgstr "Aloita $0:n käyttö käynnistämällä järjestelmä uudelleen."
 
-#: src/components/storage/InstallationMethod.jsx:198
+#: src/components/storage/InstallationMethod.jsx:206
 msgid "To continue, select the devices to install to."
 msgstr "Jatka valitsemalla laitteet, joihin haluat asentaa."
 
@@ -1121,7 +1125,7 @@ msgstr "Käyttämätön asettelu"
 msgid "Use configured storage"
 msgstr "Käytä määritettyä tallennustilaa"
 
-#: src/components/storage/scenarios/EraseAll.jsx:74
+#: src/components/storage/scenarios/EraseAll.jsx:55
 msgid "Use entire disk"
 msgstr "Käytä koko levyä"
 
@@ -1239,6 +1243,16 @@ msgstr "kutista $0:ksi"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "kumoa"
+
+#~ msgid "Not enough space on selected disks."
+#~ msgstr "Valituilla levyillä ei ole riittävästi vapaata tilaa."
+
+#~ msgid ""
+#~ "The installation needs $1 of disk space; however, the capacity of the "
+#~ "selected disks is only $0."
+#~ msgstr ""
+#~ "Asennus vaatii $1 levytilaa; valittujen levyjen kapasiteetti on kuitenkin "
+#~ "vain $0."
 
 #~ msgid "Unknown layout"
 #~ msgstr "Tuntematon asettelu"
@@ -3670,11 +3684,6 @@ msgstr "kumoa"
 
 #~ msgid "No disks selected. Keeping previous disk set."
 #~ msgstr "Ei levyjä valittu. Pidetään edellisen levyn asetukset."
-
-#~ msgid "No disks selected; please select at least one disk to install to."
-#~ msgstr ""
-#~ "Yhtään levyä ei ole valittuna. Valitse ainakin yksi levy, jolle asennus "
-#~ "tehdään."
 
 #~ msgid "No format on device '{}'"
 #~ msgstr "Laitteessa \"{}\" ei ole alustaa"

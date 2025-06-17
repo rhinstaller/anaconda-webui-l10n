@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-16 03:43+0000\n"
+"POT-Creation-Date: 2025-06-17 03:39+0000\n"
 "PO-Revision-Date: 2023-11-06 12:18+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Galician <https://translate.fedoraproject.org/projects/"
@@ -25,13 +25,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.1.1\n"
 
-#: src/components/storage/InstallationDestination.jsx:180
-#: src/components/storage/InstallationDestination.jsx:305
+#: src/components/storage/InstallationDestination.jsx:186
+#: src/components/storage/InstallationDestination.jsx:307
 msgid "$0 $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:200
-#: src/components/storage/InstallationDestination.jsx:298
+#: src/components/storage/InstallationDestination.jsx:206
+#: src/components/storage/InstallationDestination.jsx:300
 #: src/components/storage/MountPointMapping.jsx:369
 msgid "$0 ($1)"
 msgstr ""
@@ -162,7 +162,7 @@ msgstr ""
 
 #: src/components/Error.jsx:271
 #: src/components/storage/ReclaimSpaceModal.jsx:224
-#: src/components/storage/InstallationDestination.jsx:351
+#: src/components/storage/InstallationDestination.jsx:386
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:105
 #: src/components/review/Hostname.jsx:108
 #, fuzzy
@@ -173,7 +173,7 @@ msgstr "_Cancelar"
 msgid "Change"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:336
+#: src/components/storage/InstallationDestination.jsx:371
 #, fuzzy
 msgid "Change destination"
 msgstr "Descrición"
@@ -209,7 +209,7 @@ msgid "Clear search input"
 msgstr ""
 
 #: src/components/storage/EncryptedDevices.jsx:161
-#: src/components/storage/InstallationDestination.jsx:356
+#: src/components/storage/InstallationDestination.jsx:391
 msgid "Close"
 msgstr "Fechar"
 
@@ -265,7 +265,7 @@ msgstr ""
 msgid "Critical error"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:103
+#: src/components/storage/InstallationDestination.jsx:109
 msgid "Currently installed: $0"
 msgstr ""
 
@@ -277,7 +277,7 @@ msgstr ""
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:285
+#: src/components/storage/InstallationDestination.jsx:292
 #, fuzzy
 msgid "Destination"
 msgstr "Descrición"
@@ -328,7 +328,7 @@ msgstr "Cifrar"
 msgid "Encryption"
 msgstr "Cifrar"
 
-#: src/components/storage/scenarios/EraseAll.jsx:72
+#: src/components/storage/scenarios/EraseAll.jsx:53
 #, fuzzy
 msgid "Erase data and install"
 msgstr "Instalación"
@@ -391,7 +391,7 @@ msgstr "O contrasinal está baleiro"
 msgid "Hostname"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:160
+#: src/components/storage/InstallationScenario.jsx:158
 msgid "How would you like to install?"
 msgstr ""
 
@@ -444,7 +444,7 @@ msgstr "Instalar"
 msgid "Installation failed"
 msgstr "Instalación"
 
-#: src/components/storage/InstallationMethod.jsx:229
+#: src/components/storage/InstallationMethod.jsx:237
 #, fuzzy
 msgid "Installation method"
 msgstr "Instalación"
@@ -463,6 +463,10 @@ msgstr "Instalación"
 #, fuzzy
 msgid "Installing"
 msgstr "Instalación"
+
+#: src/components/storage/InstallationDestination.jsx:338
+msgid "Insufficient disk space"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:235
 msgid ""
@@ -532,6 +536,10 @@ msgstr ""
 msgid "Medium"
 msgstr ""
 
+#: src/components/storage/InstallationDestination.jsx:341
+msgid "Minimum of $0 required"
+msgstr ""
+
 #: src/components/storage/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
@@ -579,13 +587,13 @@ msgstr ""
 msgid "No devices"
 msgstr "Engadir un dispositivo"
 
-#: src/components/storage/InstallationDestination.jsx:162
+#: src/components/storage/InstallationDestination.jsx:168
 #, fuzzy
 #| msgid "Unavailable"
 msgid "No disks available"
 msgstr "Non disponible"
 
-#: src/components/storage/InstallationDestination.jsx:291
+#: src/components/storage/InstallationDestination.jsx:350
 msgid "No disks selected"
 msgstr "Non hai ningún disco seleccionado"
 
@@ -596,11 +604,6 @@ msgstr ""
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 #, fuzzy
 msgid "Not enough free space on the selected disks."
-msgstr "Non hai espazo libre abondo nos discos seleccionados."
-
-#: src/components/storage/scenarios/EraseAll.jsx:57
-#, fuzzy
-msgid "Not enough space on selected disks."
 msgstr "Non hai espazo libre abondo nos discos seleccionados."
 
 #: src/components/review/StorageReview.jsx:362
@@ -650,6 +653,14 @@ msgstr ""
 #: src/components/Error.jsx:89
 msgid "Please attach the log file $0 to the issue."
 msgstr ""
+
+#: src/components/storage/InstallationDestination.jsx:353
+#, fuzzy
+#| msgid "No disks selected; please select at least one disk to install to."
+msgid "Please select at least one disk to continue"
+msgstr ""
+"Non se seleccionou ningún disco; seleccione ao menos un disco no que "
+"instalar."
 
 #: src/components/HeaderKebab.jsx:74
 msgid "Powered by Anaconda"
@@ -759,8 +770,8 @@ msgstr ""
 msgid "Reformat"
 msgstr ""
 
-#: src/components/storage/scenarios/ReinstallFedora.jsx:149
-#: src/components/storage/scenarios/ReinstallFedora.jsx:151
+#: src/components/storage/scenarios/ReinstallFedora.jsx:155
+#: src/components/storage/scenarios/ReinstallFedora.jsx:157
 #, fuzzy
 #| msgid "Install"
 msgid "Reinstall Fedora"
@@ -818,12 +829,12 @@ msgstr "Non redimensionable."
 msgid "Requirements"
 msgstr "Non redimensionable."
 
-#: src/components/storage/InstallationDestination.jsx:153
+#: src/components/storage/InstallationDestination.jsx:159
 #, fuzzy
 msgid "Rescan devices"
 msgstr "Activado"
 
-#: src/components/storage/InstallationDestination.jsx:134
+#: src/components/storage/InstallationDestination.jsx:140
 msgid "Rescanning of the disks failed."
 msgstr ""
 
@@ -874,7 +885,7 @@ msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:348
+#: src/components/storage/InstallationDestination.jsx:383
 #, fuzzy
 msgid "Select"
 msgstr "Activado"
@@ -885,7 +896,7 @@ msgstr "Activado"
 msgid "Select a device"
 msgstr "Activado"
 
-#: src/components/storage/InstallationDestination.jsx:342
+#: src/components/storage/InstallationDestination.jsx:377
 #, fuzzy
 msgid "Select destination"
 msgstr "Descrición"
@@ -1024,12 +1035,6 @@ msgid ""
 "provide additional details."
 msgstr ""
 
-#: src/components/storage/scenarios/EraseAll.jsx:59
-msgid ""
-"The installation needs $1 of disk space; however, the capacity of the "
-"selected disks is only $0."
-msgstr ""
-
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr ""
@@ -1079,7 +1084,7 @@ msgstr ""
 msgid "To begin using $0, reboot your system."
 msgstr ""
 
-#: src/components/storage/InstallationMethod.jsx:198
+#: src/components/storage/InstallationMethod.jsx:206
 #, fuzzy
 msgid "To continue, select the devices to install to."
 msgstr ""
@@ -1128,7 +1133,7 @@ msgstr ""
 msgid "Use configured storage"
 msgstr "A examinar o almacenamento..."
 
-#: src/components/storage/scenarios/EraseAll.jsx:74
+#: src/components/storage/scenarios/EraseAll.jsx:55
 #, fuzzy
 #| msgid "Use text mode"
 msgid "Use entire disk"
@@ -1257,6 +1262,10 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Not enough space on selected disks."
+#~ msgstr "Non hai espazo libre abondo nos discos seleccionados."
 
 #, fuzzy
 #~| msgid "Unknown"
@@ -2006,11 +2015,6 @@ msgstr ""
 
 #~ msgid "No disks selected. Keeping previous disk set."
 #~ msgstr "Non hai discos seleccionados. Mantendo conxunto de discos anterior."
-
-#~ msgid "No disks selected; please select at least one disk to install to."
-#~ msgstr ""
-#~ "Non se seleccionou ningún disco; seleccione ao menos un disco no que "
-#~ "instalar."
 
 #, fuzzy
 #~| msgid "Layout switching not configured."
