@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 03:39+0000\n"
+"POT-Creation-Date: 2025-06-20 03:38+0000\n"
 "PO-Revision-Date: 2025-06-17 06:31+0000\n"
 "Last-Translator: joo es <jonnyse@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/anaconda-"
@@ -324,7 +324,7 @@ msgstr "مُعمَّاة"
 msgid "Encryption"
 msgstr "التعمية"
 
-#: src/components/storage/scenarios/EraseAll.jsx:53
+#: src/components/storage/scenarios/EraseAll.jsx:72
 msgid "Erase data and install"
 msgstr "أمحو البيانات وثبّت"
 
@@ -381,7 +381,7 @@ msgstr "أخفِ كلمة السر"
 msgid "Hostname"
 msgstr "اسم المضيف"
 
-#: src/components/storage/InstallationScenario.jsx:158
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "How would you like to install?"
 msgstr "كيف تريد التثبيت؟"
 
@@ -433,7 +433,7 @@ msgstr "ثبِّت"
 msgid "Installation failed"
 msgstr "فشل التثبيت"
 
-#: src/components/storage/InstallationMethod.jsx:237
+#: src/components/storage/InstallationMethod.jsx:231
 msgid "Installation method"
 msgstr "طريقة التثبيت"
 
@@ -585,6 +585,10 @@ msgstr "لم يُعثر على نتائج"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "لا تتوفر مساحة خالية كافية في الأقراص المُحدّدة."
+
+#: src/components/storage/scenarios/EraseAll.jsx:57
+msgid "Not enough space on selected disks."
+msgstr "لا تتوفر المساحة الكافية في الأقراص المُحدّدة."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -992,6 +996,18 @@ msgid ""
 msgstr ""
 "سيتم إرسال السجل التالي إلى نظام تتبُع المشكلات حيث يمكنك تقديم تفاصيل إضافية."
 
+#: src/components/storage/scenarios/EraseAll.jsx:59
+#, fuzzy
+#| msgid ""
+#| "The installation needs $1 of disk space; however, the capacity of the "
+#| "selected disks is only $0."
+msgid ""
+"The installation needs $0 of disk space; however, the capacity of the "
+"selected disks is only $1."
+msgstr ""
+"يحتاج التثبيت إلى $1 من مساحة القرص؛ ومع ذلك، فإن سعة الأقراص المُحدّدة هي $0 "
+"فقط."
+
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "يتعذر على المثبِّت المتابعة بسبب خطأ فادح."
@@ -1046,7 +1062,7 @@ msgstr "سيستغرق ذلك بضع لحظات"
 msgid "To begin using $0, reboot your system."
 msgstr "لبدء استخدام $0، أعد تشغيل الجهاز."
 
-#: src/components/storage/InstallationMethod.jsx:206
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "To continue, select the devices to install to."
 msgstr "للمتابعة، حدّد الأجهزة المراد التثبيت عليها."
 
@@ -1094,7 +1110,7 @@ msgstr "تخطيط غير قابل للاستخدام"
 msgid "Use configured storage"
 msgstr "استخدام التخزين المضبط"
 
-#: src/components/storage/scenarios/EraseAll.jsx:55
+#: src/components/storage/scenarios/EraseAll.jsx:74
 msgid "Use entire disk"
 msgstr "استخدم القرص بأكمله"
 
@@ -1212,16 +1228,6 @@ msgstr "قلص إلى $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "تراجع"
-
-#~ msgid "Not enough space on selected disks."
-#~ msgstr "لا تتوفر المساحة الكافية في الأقراص المُحدّدة."
-
-#~ msgid ""
-#~ "The installation needs $1 of disk space; however, the capacity of the "
-#~ "selected disks is only $0."
-#~ msgstr ""
-#~ "يحتاج التثبيت إلى $1 من مساحة القرص؛ ومع ذلك، فإن سعة الأقراص المُحدّدة هي "
-#~ "$0 فقط."
 
 #~ msgid "Unknown layout"
 #~ msgstr "تخطيط غير معروف"

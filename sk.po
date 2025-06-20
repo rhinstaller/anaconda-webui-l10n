@@ -25,7 +25,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 03:39+0000\n"
+"POT-Creation-Date: 2025-06-20 03:38+0000\n"
 "PO-Revision-Date: 2025-04-24 21:02+0000\n"
 "Last-Translator: Ondrej Sulek <feonsu@gmail.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/anaconda-"
@@ -322,7 +322,7 @@ msgstr "Šifrované"
 msgid "Encryption"
 msgstr "Šifrovanie"
 
-#: src/components/storage/scenarios/EraseAll.jsx:53
+#: src/components/storage/scenarios/EraseAll.jsx:72
 msgid "Erase data and install"
 msgstr "Vymazať údaje a nainštalovať"
 
@@ -380,7 +380,7 @@ msgstr "Skryť heslo"
 msgid "Hostname"
 msgstr "Názov počítača"
 
-#: src/components/storage/InstallationScenario.jsx:158
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "How would you like to install?"
 msgstr "Ako chcete inštalovať?"
 
@@ -434,7 +434,7 @@ msgstr "Inštalácia"
 msgid "Installation failed"
 msgstr "Inštalácia zlyhala"
 
-#: src/components/storage/InstallationMethod.jsx:237
+#: src/components/storage/InstallationMethod.jsx:231
 msgid "Installation method"
 msgstr "Metóda inštalácie"
 
@@ -590,6 +590,10 @@ msgstr "Neboli nájdené žiadne výsledky"
 
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
+msgstr "Nedostatok voľného miesta na vybraných diskoch."
+
+#: src/components/storage/scenarios/EraseAll.jsx:57
+msgid "Not enough space on selected disks."
 msgstr "Nedostatok voľného miesta na vybraných diskoch."
 
 #: src/components/review/StorageReview.jsx:362
@@ -1015,6 +1019,18 @@ msgstr ""
 "Nasledujúci log bude odoslaný do systému na sledovanie problémov, kde môžete "
 "poskytnúť ďalšie podrobnosti."
 
+#: src/components/storage/scenarios/EraseAll.jsx:59
+#, fuzzy
+#| msgid ""
+#| "The installation needs $1 of disk space; however, the capacity of the "
+#| "selected disks is only $0."
+msgid ""
+"The installation needs $0 of disk space; however, the capacity of the "
+"selected disks is only $1."
+msgstr ""
+"Inštalácia potrebuje $1 miesta na disku, ale kapacita vybraných diskov je "
+"však iba $0."
+
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "Inštalátor nemôže pokračovať kvôli kritickej chybe."
@@ -1070,7 +1086,7 @@ msgstr "Chvíľu to potrvá"
 msgid "To begin using $0, reboot your system."
 msgstr "Ak chcete začať používať $0, reštartujte svoj systém."
 
-#: src/components/storage/InstallationMethod.jsx:206
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "To continue, select the devices to install to."
 msgstr "Ak chcete pokračovať, vyberte zariadenia, na ktoré chcete inštalovať."
 
@@ -1119,7 +1135,7 @@ msgstr "Nepoužiteľné rozloženie"
 msgid "Use configured storage"
 msgstr "Použiť nakonfigurované úložisko"
 
-#: src/components/storage/scenarios/EraseAll.jsx:55
+#: src/components/storage/scenarios/EraseAll.jsx:74
 msgid "Use entire disk"
 msgstr "Použiť celý disk"
 
@@ -1237,16 +1253,6 @@ msgstr "zmenšiť na $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "späť"
-
-#~ msgid "Not enough space on selected disks."
-#~ msgstr "Nedostatok voľného miesta na vybraných diskoch."
-
-#~ msgid ""
-#~ "The installation needs $1 of disk space; however, the capacity of the "
-#~ "selected disks is only $0."
-#~ msgstr ""
-#~ "Inštalácia potrebuje $1 miesta na disku, ale kapacita vybraných diskov je "
-#~ "však iba $0."
 
 #~ msgid "Unknown layout"
 #~ msgstr "Neznáme rozloženie"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 35.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 03:39+0000\n"
+"POT-Creation-Date: 2025-06-20 03:38+0000\n"
 "PO-Revision-Date: 2023-11-06 12:17+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Frisian <https://translate.fedoraproject.org/projects/"
@@ -333,7 +333,7 @@ msgstr "Fersiferje myn gegevens."
 msgid "Encryption"
 msgstr "Fersiferje myn gegevens."
 
-#: src/components/storage/scenarios/EraseAll.jsx:53
+#: src/components/storage/scenarios/EraseAll.jsx:72
 #, fuzzy
 msgid "Erase data and install"
 msgstr "om mei de ynstallaasje útein te setten"
@@ -398,7 +398,7 @@ msgstr "Wachtwurd beside bergje."
 msgid "Hostname"
 msgstr "Host Namme"
 
-#: src/components/storage/InstallationScenario.jsx:158
+#: src/components/storage/InstallationScenario.jsx:168
 #, fuzzy
 msgid "How would you like to install?"
 msgstr ""
@@ -456,7 +456,7 @@ msgstr "Ynstallearje"
 msgid "Installation failed"
 msgstr "Ynstallaasje"
 
-#: src/components/storage/InstallationMethod.jsx:237
+#: src/components/storage/InstallationMethod.jsx:231
 #, fuzzy
 msgid "Installation method"
 msgstr "Ynstallaasje ôfrûn"
@@ -622,6 +622,11 @@ msgstr ""
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 #, fuzzy
 msgid "Not enough free space on the selected disks."
+msgstr "Net genôch frije romte op selektearre skiven."
+
+#: src/components/storage/scenarios/EraseAll.jsx:57
+#, fuzzy
+msgid "Not enough space on selected disks."
 msgstr "Net genôch frije romte op selektearre skiven."
 
 #: src/components/review/StorageReview.jsx:362
@@ -1062,6 +1067,12 @@ msgid ""
 "provide additional details."
 msgstr ""
 
+#: src/components/storage/scenarios/EraseAll.jsx:59
+msgid ""
+"The installation needs $0 of disk space; however, the capacity of the "
+"selected disks is only $1."
+msgstr ""
+
 #: src/components/Error.jsx:248
 #, fuzzy
 msgid "The installer cannot continue due to a critical error."
@@ -1120,7 +1131,7 @@ msgstr ""
 "\n"
 "Druk op [Enter] om jo systeem opnij te starten.\n"
 
-#: src/components/storage/InstallationMethod.jsx:206
+#: src/components/storage/InstallationMethod.jsx:200
 #, fuzzy
 msgid "To continue, select the devices to install to."
 msgstr ""
@@ -1170,7 +1181,7 @@ msgstr ""
 msgid "Use configured storage"
 msgstr "Opslach oan it ynstellen"
 
-#: src/components/storage/scenarios/EraseAll.jsx:55
+#: src/components/storage/scenarios/EraseAll.jsx:74
 #, fuzzy
 #| msgid "Use text mode"
 msgid "Use entire disk"
@@ -1299,10 +1310,6 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr ""
-
-#, fuzzy
-#~ msgid "Not enough space on selected disks."
-#~ msgstr "Net genôch frije romte op selektearre skiven."
 
 #, fuzzy
 #~| msgid "Unknown"

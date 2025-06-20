@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 37.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 03:39+0000\n"
+"POT-Creation-Date: 2025-06-20 03:38+0000\n"
 "PO-Revision-Date: 2023-11-06 12:18+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Icelandic <https://translate.fedoraproject.org/projects/"
@@ -313,7 +313,7 @@ msgstr "_Dulrita"
 msgid "Encryption"
 msgstr "_Dulrita"
 
-#: src/components/storage/scenarios/EraseAll.jsx:53
+#: src/components/storage/scenarios/EraseAll.jsx:72
 msgid "Erase data and install"
 msgstr ""
 
@@ -371,7 +371,7 @@ msgstr "Tómt lykilorð."
 msgid "Hostname"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:158
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "How would you like to install?"
 msgstr ""
 
@@ -422,7 +422,7 @@ msgstr "Setja upp"
 msgid "Installation failed"
 msgstr ""
 
-#: src/components/storage/InstallationMethod.jsx:237
+#: src/components/storage/InstallationMethod.jsx:231
 msgid "Installation method"
 msgstr ""
 
@@ -573,6 +573,11 @@ msgstr ""
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 #, fuzzy
 msgid "Not enough free space on the selected disks."
+msgstr "Ekki nægt minni"
+
+#: src/components/storage/scenarios/EraseAll.jsx:57
+#, fuzzy
+msgid "Not enough space on selected disks."
 msgstr "Ekki nægt minni"
 
 #: src/components/review/StorageReview.jsx:362
@@ -987,6 +992,12 @@ msgid ""
 "provide additional details."
 msgstr ""
 
+#: src/components/storage/scenarios/EraseAll.jsx:59
+msgid ""
+"The installation needs $0 of disk space; however, the capacity of the "
+"selected disks is only $1."
+msgstr ""
+
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr ""
@@ -1036,7 +1047,7 @@ msgstr ""
 msgid "To begin using $0, reboot your system."
 msgstr ""
 
-#: src/components/storage/InstallationMethod.jsx:206
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "To continue, select the devices to install to."
 msgstr ""
 
@@ -1084,7 +1095,7 @@ msgstr ""
 msgid "Use configured storage"
 msgstr "Stilla"
 
-#: src/components/storage/scenarios/EraseAll.jsx:55
+#: src/components/storage/scenarios/EraseAll.jsx:74
 #, fuzzy
 #| msgid "Use text mode"
 msgid "Use entire disk"

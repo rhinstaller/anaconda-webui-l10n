@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 03:39+0000\n"
+"POT-Creation-Date: 2025-06-20 03:38+0000\n"
 "PO-Revision-Date: 2024-11-18 02:57+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.fedoraproject.org/projects/anaconda-"
@@ -317,7 +317,7 @@ msgstr "מוצפן"
 msgid "Encryption"
 msgstr "הצפנה"
 
-#: src/components/storage/scenarios/EraseAll.jsx:53
+#: src/components/storage/scenarios/EraseAll.jsx:72
 msgid "Erase data and install"
 msgstr "מחיקת הנתונים והתקנה"
 
@@ -375,7 +375,7 @@ msgstr "הסתרת הסיסמה"
 msgid "Hostname"
 msgstr "שם מארח"
 
-#: src/components/storage/InstallationScenario.jsx:158
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "How would you like to install?"
 msgstr "איך להתקין?"
 
@@ -426,7 +426,7 @@ msgstr "התקנה"
 msgid "Installation failed"
 msgstr "ההתקנה נכשלה"
 
-#: src/components/storage/InstallationMethod.jsx:237
+#: src/components/storage/InstallationMethod.jsx:231
 msgid "Installation method"
 msgstr "שיטת התקנה"
 
@@ -578,6 +578,10 @@ msgstr "אין תוצאות"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "אין די מקום פנוי בכוננים שנבחרו."
+
+#: src/components/storage/scenarios/EraseAll.jsx:57
+msgid "Not enough space on selected disks."
+msgstr "אין די מקום בכוננים שנבחרו."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -988,6 +992,12 @@ msgid ""
 "provide additional details."
 msgstr "היומן הבא יישלח למערכת מעקב התקלות בה ניתן לספק פרטים נוספים."
 
+#: src/components/storage/scenarios/EraseAll.jsx:59
+msgid ""
+"The installation needs $0 of disk space; however, the capacity of the "
+"selected disks is only $1."
+msgstr ""
+
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "תוכנית ההתקנה לא תוכל להמשיך עקב תקלה משמעותית."
@@ -1039,7 +1049,7 @@ msgstr "הפעולה הזאת יכולה לארוך מספר רגעים"
 msgid "To begin using $0, reboot your system."
 msgstr "כדי להתחיל להשתמש ב־$0, יש להפעיל את המערכת מחדש."
 
-#: src/components/storage/InstallationMethod.jsx:206
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "To continue, select the devices to install to."
 msgstr "כדי להמשיך, נא לבחור את ההתקן להתקנה אליו."
 
@@ -1088,7 +1098,7 @@ msgstr "פריסות זמינות"
 msgid "Use configured storage"
 msgstr "להשתמש באחסון המוגדר"
 
-#: src/components/storage/scenarios/EraseAll.jsx:55
+#: src/components/storage/scenarios/EraseAll.jsx:74
 msgid "Use entire disk"
 msgstr "להשתמש בכונן כולו"
 
@@ -1211,9 +1221,6 @@ msgstr "כיווץ לכדי $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "ביטול"
-
-#~ msgid "Not enough space on selected disks."
-#~ msgstr "אין די מקום בכוננים שנבחרו."
 
 #, fuzzy
 #~| msgid "Unknown Linux"

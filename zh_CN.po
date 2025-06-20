@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 03:39+0000\n"
+"POT-Creation-Date: 2025-06-20 03:38+0000\n"
 "PO-Revision-Date: 2025-06-04 09:57+0000\n"
 "Last-Translator: z z <3397542367@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -333,7 +333,7 @@ msgstr "已加密"
 msgid "Encryption"
 msgstr "加密"
 
-#: src/components/storage/scenarios/EraseAll.jsx:53
+#: src/components/storage/scenarios/EraseAll.jsx:72
 msgid "Erase data and install"
 msgstr "删除数据内容并安装"
 
@@ -389,7 +389,7 @@ msgstr "隐藏密码"
 msgid "Hostname"
 msgstr "主机名"
 
-#: src/components/storage/InstallationScenario.jsx:158
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "How would you like to install?"
 msgstr "您想如何安装？"
 
@@ -440,7 +440,7 @@ msgstr "安装"
 msgid "Installation failed"
 msgstr "安装失败"
 
-#: src/components/storage/InstallationMethod.jsx:237
+#: src/components/storage/InstallationMethod.jsx:231
 msgid "Installation method"
 msgstr "安装方案"
 
@@ -588,6 +588,10 @@ msgstr "未找到结果"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "所选磁盘中没有足够剩余空间。"
+
+#: src/components/storage/scenarios/EraseAll.jsx:57
+msgid "Not enough space on selected disks."
+msgstr "所选磁盘中没有足够空间。"
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -987,6 +991,16 @@ msgid ""
 "provide additional details."
 msgstr "以下日志将发送到问题跟踪系统，您可以在其中提供其他详细信息。"
 
+#: src/components/storage/scenarios/EraseAll.jsx:59
+#, fuzzy
+#| msgid ""
+#| "The installation needs $1 of disk space; however, the capacity of the "
+#| "selected disks is only $0."
+msgid ""
+"The installation needs $0 of disk space; however, the capacity of the "
+"selected disks is only $1."
+msgstr "安装需要$1的磁盘空间；但是所选磁盘的容量只有$0。"
+
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "安装程序由于严重错误而无法继续。"
@@ -1038,7 +1052,7 @@ msgstr "这需要一些时间"
 msgid "To begin using $0, reboot your system."
 msgstr "要使用 $0，请重新启动系统。"
 
-#: src/components/storage/InstallationMethod.jsx:206
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "To continue, select the devices to install to."
 msgstr "要想继续，请选择要安装的设备。"
 
@@ -1083,7 +1097,7 @@ msgstr "布局不可用"
 msgid "Use configured storage"
 msgstr "使用配置的存储"
 
-#: src/components/storage/scenarios/EraseAll.jsx:55
+#: src/components/storage/scenarios/EraseAll.jsx:74
 msgid "Use entire disk"
 msgstr "使用整个磁盘"
 
@@ -1197,14 +1211,6 @@ msgstr "缩小至 $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "撤消"
-
-#~ msgid "Not enough space on selected disks."
-#~ msgstr "所选磁盘中没有足够空间。"
-
-#~ msgid ""
-#~ "The installation needs $1 of disk space; however, the capacity of the "
-#~ "selected disks is only $0."
-#~ msgstr "安装需要$1的磁盘空间；但是所选磁盘的容量只有$0。"
 
 #~ msgid "Unknown layout"
 #~ msgstr "未知布局"

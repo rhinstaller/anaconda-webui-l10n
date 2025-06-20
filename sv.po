@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 03:39+0000\n"
+"POT-Creation-Date: 2025-06-20 03:38+0000\n"
 "PO-Revision-Date: 2025-06-17 13:11+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
@@ -327,7 +327,7 @@ msgstr "Krypterad"
 msgid "Encryption"
 msgstr "Kryptering"
 
-#: src/components/storage/scenarios/EraseAll.jsx:53
+#: src/components/storage/scenarios/EraseAll.jsx:72
 msgid "Erase data and install"
 msgstr "Radera data och installera"
 
@@ -385,7 +385,7 @@ msgstr "Dölj lösenord"
 msgid "Hostname"
 msgstr "Värdnamn"
 
-#: src/components/storage/InstallationScenario.jsx:158
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "How would you like to install?"
 msgstr "Hur vill du installera?"
 
@@ -440,7 +440,7 @@ msgstr "Installera"
 msgid "Installation failed"
 msgstr "installationen misslyckades"
 
-#: src/components/storage/InstallationMethod.jsx:237
+#: src/components/storage/InstallationMethod.jsx:231
 msgid "Installation method"
 msgstr "Installationsmetod"
 
@@ -598,6 +598,10 @@ msgstr "Inga resultat funna"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "Inte tillräckligt med ledigt utrymme på de valda diskarna."
+
+#: src/components/storage/scenarios/EraseAll.jsx:57
+msgid "Not enough space on selected disks."
+msgstr "Inte tillräckligt med utrymme på de valda diskarna."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -1016,6 +1020,18 @@ msgstr ""
 "Följande logg kommer att skickas till problemspårningssystemet där du kan ge "
 "ytterligare information."
 
+#: src/components/storage/scenarios/EraseAll.jsx:59
+#, fuzzy
+#| msgid ""
+#| "The installation needs $1 of disk space; however, the capacity of the "
+#| "selected disks is only $0."
+msgid ""
+"The installation needs $0 of disk space; however, the capacity of the "
+"selected disks is only $1."
+msgstr ""
+"Installationen behöver $1 diskutrymme; dock är kapaciteten för de valda "
+"diskarna endast $0."
+
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr ""
@@ -1073,7 +1089,7 @@ msgstr "Detta kommer att ta en stund"
 msgid "To begin using $0, reboot your system."
 msgstr "För att börja använda $0, starta om ditt system."
 
-#: src/components/storage/InstallationMethod.jsx:206
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "To continue, select the devices to install to."
 msgstr "För att fortsätta, välj enheterna att installera på."
 
@@ -1122,7 +1138,7 @@ msgstr "Oanvändbar layout"
 msgid "Use configured storage"
 msgstr "Använd konfigurerad lagring"
 
-#: src/components/storage/scenarios/EraseAll.jsx:55
+#: src/components/storage/scenarios/EraseAll.jsx:74
 msgid "Use entire disk"
 msgstr "Använd hela disken"
 
@@ -1242,16 +1258,6 @@ msgstr "krymp till $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "ångra"
-
-#~ msgid "Not enough space on selected disks."
-#~ msgstr "Inte tillräckligt med utrymme på de valda diskarna."
-
-#~ msgid ""
-#~ "The installation needs $1 of disk space; however, the capacity of the "
-#~ "selected disks is only $0."
-#~ msgstr ""
-#~ "Installationen behöver $1 diskutrymme; dock är kapaciteten för de valda "
-#~ "diskarna endast $0."
 
 #~ msgid "Unknown layout"
 #~ msgstr "Okänd layout"

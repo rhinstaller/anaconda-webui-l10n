@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 03:39+0000\n"
+"POT-Creation-Date: 2025-06-20 03:38+0000\n"
 "PO-Revision-Date: 2024-11-10 19:17+0000\n"
 "Last-Translator: Aindriu Mac Giolla Eoin <aindriu80@gmail.com>\n"
 "Language-Team: Irish <https://translate.fedoraproject.org/projects/anaconda-"
@@ -313,7 +313,7 @@ msgstr "Criptithe"
 msgid "Encryption"
 msgstr "Criptiú"
 
-#: src/components/storage/scenarios/EraseAll.jsx:53
+#: src/components/storage/scenarios/EraseAll.jsx:72
 msgid "Erase data and install"
 msgstr "Scrios sonraí agus suiteáil"
 
@@ -373,7 +373,7 @@ msgstr "Folaigh pasfhocal"
 msgid "Hostname"
 msgstr "Óstainm"
 
-#: src/components/storage/InstallationScenario.jsx:158
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "How would you like to install?"
 msgstr "Conas ba mhaith leat a shuiteáil?"
 
@@ -429,7 +429,7 @@ msgstr "Suiteáil"
 msgid "Installation failed"
 msgstr "Theip ar an tsuiteáil"
 
-#: src/components/storage/InstallationMethod.jsx:237
+#: src/components/storage/InstallationMethod.jsx:231
 msgid "Installation method"
 msgstr "Modh suiteála"
 
@@ -581,6 +581,10 @@ msgstr "Níor aimsíodh aon torthaí"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "Níl go leor spáis saor in aisce ar na dioscaí roghnaithe."
+
+#: src/components/storage/scenarios/EraseAll.jsx:57
+msgid "Not enough space on selected disks."
+msgstr "Níl go leor spáis ar dhioscaí roghnaithe."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -1002,6 +1006,12 @@ msgstr ""
 "Seolfar an logáil a leanas chuig an gcóras rianaithe eisiúna áit ar féidir "
 "leat sonraí breise a sholáthar."
 
+#: src/components/storage/scenarios/EraseAll.jsx:59
+msgid ""
+"The installation needs $0 of disk space; however, the capacity of the "
+"selected disks is only $1."
+msgstr ""
+
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr ""
@@ -1057,7 +1067,7 @@ msgstr "Tógfaidh sé seo cúpla nóiméad"
 msgid "To begin using $0, reboot your system."
 msgstr "Chun $0 a úsáid, atosaigh do chóras."
 
-#: src/components/storage/InstallationMethod.jsx:206
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "To continue, select the devices to install to."
 msgstr "Chun leanúint ar aghaidh, roghnaigh na feistí a shuiteáil go."
 
@@ -1106,7 +1116,7 @@ msgstr "Leaganacha Amach ar Fáil"
 msgid "Use configured storage"
 msgstr "Úsáid stóras cumraithe"
 
-#: src/components/storage/scenarios/EraseAll.jsx:55
+#: src/components/storage/scenarios/EraseAll.jsx:74
 msgid "Use entire disk"
 msgstr "Bain úsáid as diosca iomlán"
 
@@ -1228,9 +1238,6 @@ msgstr "Laghdaigh go $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "cealaigh"
-
-#~ msgid "Not enough space on selected disks."
-#~ msgstr "Níl go leor spáis ar dhioscaí roghnaithe."
 
 #, fuzzy
 #~| msgid "Unknown"

@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 03:39+0000\n"
+"POT-Creation-Date: 2025-06-20 03:38+0000\n"
 "PO-Revision-Date: 2025-06-01 22:01+0000\n"
 "Last-Translator: Jonáš Loskot <alius@users.noreply.translate.fedoraproject."
 "org>\n"
@@ -346,7 +346,7 @@ msgstr "Šifrováno"
 msgid "Encryption"
 msgstr "Šifrování"
 
-#: src/components/storage/scenarios/EraseAll.jsx:53
+#: src/components/storage/scenarios/EraseAll.jsx:72
 msgid "Erase data and install"
 msgstr "Vymazat data a nainstalovat"
 
@@ -404,7 +404,7 @@ msgstr "Skrýt heslo"
 msgid "Hostname"
 msgstr "Název stroje"
 
-#: src/components/storage/InstallationScenario.jsx:158
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "How would you like to install?"
 msgstr "Jak si přejete nainstalovat?"
 
@@ -459,7 +459,7 @@ msgstr "Nainstalovat"
 msgid "Installation failed"
 msgstr "Instalace se nezdařila"
 
-#: src/components/storage/InstallationMethod.jsx:237
+#: src/components/storage/InstallationMethod.jsx:231
 msgid "Installation method"
 msgstr "Metoda instalace"
 
@@ -615,6 +615,10 @@ msgstr "Nenalezeny žádné výsledky"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "Na vybraných jednotkách není dostatek volného místa."
+
+#: src/components/storage/scenarios/EraseAll.jsx:57
+msgid "Not enough space on selected disks."
+msgstr "Na vybraných jednotkách není dostatek prostoru."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -1031,6 +1035,17 @@ msgstr ""
 "Následující záznam událostí bude odeslán do systému správy hlášení chyb, ve "
 "kterém můžete doplnit další podrobnosti."
 
+#: src/components/storage/scenarios/EraseAll.jsx:59
+#, fuzzy
+#| msgid ""
+#| "The installation needs $1 of disk space; however, the capacity of the "
+#| "selected disks is only $0."
+msgid ""
+"The installation needs $0 of disk space; however, the capacity of the "
+"selected disks is only $1."
+msgstr ""
+"Instalace potřebuje $1 prostoru, ale kapacita vybraných jednotek je pouze $0."
+
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "Instalátor nemůže kvůli kritické chybě pokračovat."
@@ -1087,7 +1102,7 @@ msgstr "Chvíli to potrvá"
 msgid "To begin using $0, reboot your system."
 msgstr "Aby bylo možné začít $0 používat, počítač restartujte."
 
-#: src/components/storage/InstallationMethod.jsx:206
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "To continue, select the devices to install to."
 msgstr "Aby bylo možné pokračovat, vyberte zařízení, na která instalovat."
 
@@ -1136,7 +1151,7 @@ msgstr "Nepoužitelné rozvržení"
 msgid "Use configured storage"
 msgstr "Použít nastavené úložiště"
 
-#: src/components/storage/scenarios/EraseAll.jsx:55
+#: src/components/storage/scenarios/EraseAll.jsx:74
 msgid "Use entire disk"
 msgstr "Použít celý disk"
 
@@ -1254,16 +1269,6 @@ msgstr "zmenšit na $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "zpět"
-
-#~ msgid "Not enough space on selected disks."
-#~ msgstr "Na vybraných jednotkách není dostatek prostoru."
-
-#~ msgid ""
-#~ "The installation needs $1 of disk space; however, the capacity of the "
-#~ "selected disks is only $0."
-#~ msgstr ""
-#~ "Instalace potřebuje $1 prostoru, ale kapacita vybraných jednotek je pouze "
-#~ "$0."
 
 #~ msgid "Unknown layout"
 #~ msgstr "Neznámé rozvržení"

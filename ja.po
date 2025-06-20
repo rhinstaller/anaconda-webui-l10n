@@ -63,7 +63,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 03:39+0000\n"
+"POT-Creation-Date: 2025-06-20 03:38+0000\n"
 "PO-Revision-Date: 2025-04-29 09:44+0000\n"
 "Last-Translator: Ooyama Yosiyuki <qqke6wd9k@apricot.ocn.ne.jp>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
@@ -383,7 +383,7 @@ msgstr "暗号化"
 msgid "Encryption"
 msgstr "暗号化"
 
-#: src/components/storage/scenarios/EraseAll.jsx:53
+#: src/components/storage/scenarios/EraseAll.jsx:72
 msgid "Erase data and install"
 msgstr "データを消去してインストールします"
 
@@ -445,7 +445,7 @@ msgstr "パスワードを非表示にする"
 msgid "Hostname"
 msgstr "ホスト名"
 
-#: src/components/storage/InstallationScenario.jsx:158
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "How would you like to install?"
 msgstr "どのようにインストールしますか？"
 
@@ -496,7 +496,7 @@ msgstr "インストール"
 msgid "Installation failed"
 msgstr "インストールに失敗しました"
 
-#: src/components/storage/InstallationMethod.jsx:237
+#: src/components/storage/InstallationMethod.jsx:231
 msgid "Installation method"
 msgstr "インストール方法"
 
@@ -655,6 +655,10 @@ msgstr "結果が見つかりません"
 
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
+msgstr "選択したディスクには十分な空き領域がありません。"
+
+#: src/components/storage/scenarios/EraseAll.jsx:57
+msgid "Not enough space on selected disks."
 msgstr "選択したディスクには十分な空き領域がありません。"
 
 #: src/components/review/StorageReview.jsx:362
@@ -1108,6 +1112,12 @@ msgid ""
 "provide additional details."
 msgstr "次のログはIssue追跡システムに送信され、追加の詳細を提供できます。"
 
+#: src/components/storage/scenarios/EraseAll.jsx:59
+msgid ""
+"The installation needs $0 of disk space; however, the capacity of the "
+"selected disks is only $1."
+msgstr ""
+
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "重大なエラーが発生したため、インストーラーは続行できません。"
@@ -1161,7 +1171,7 @@ msgstr "これには少し時間がかかります"
 msgid "To begin using $0, reboot your system."
 msgstr "$0の使用を開始するには、システムを再起動します。"
 
-#: src/components/storage/InstallationMethod.jsx:206
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "To continue, select the devices to install to."
 msgstr "続行するには、インストール先のデバイスを選択します。"
 
@@ -1210,7 +1220,7 @@ msgstr "利用可能なレイアウト"
 msgid "Use configured storage"
 msgstr "構成したストレージを使用する"
 
-#: src/components/storage/scenarios/EraseAll.jsx:55
+#: src/components/storage/scenarios/EraseAll.jsx:74
 #, fuzzy
 #| msgid "Selected disks"
 msgid "Use entire disk"
@@ -1344,9 +1354,6 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr ""
-
-#~ msgid "Not enough space on selected disks."
-#~ msgstr "選択したディスクには十分な空き領域がありません。"
 
 #, fuzzy
 #~| msgid "Unknown Linux"

@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 03:39+0000\n"
+"POT-Creation-Date: 2025-06-20 03:38+0000\n"
 "PO-Revision-Date: 2024-12-19 03:16+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
@@ -330,7 +330,7 @@ msgstr "Şifrelendi"
 msgid "Encryption"
 msgstr "Şifreleme"
 
-#: src/components/storage/scenarios/EraseAll.jsx:53
+#: src/components/storage/scenarios/EraseAll.jsx:72
 msgid "Erase data and install"
 msgstr "Verileri sil ve kur"
 
@@ -388,7 +388,7 @@ msgstr "Parolayı gizle"
 msgid "Hostname"
 msgstr "Ana makine adı"
 
-#: src/components/storage/InstallationScenario.jsx:158
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "How would you like to install?"
 msgstr "Nasıl kurmak istersiniz?"
 
@@ -442,7 +442,7 @@ msgstr "Kur"
 msgid "Installation failed"
 msgstr "Kurulum başarısız"
 
-#: src/components/storage/InstallationMethod.jsx:237
+#: src/components/storage/InstallationMethod.jsx:231
 msgid "Installation method"
 msgstr "Kurulum yöntemi"
 
@@ -592,6 +592,10 @@ msgstr "Sonuç bulunamadı"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "Seçilen disklerde yeterli boş alan yok."
+
+#: src/components/storage/scenarios/EraseAll.jsx:57
+msgid "Not enough space on selected disks."
+msgstr "Seçilen disklerde yeterli alan yok."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -1015,6 +1019,12 @@ msgstr ""
 "Aşağıdaki günlük, ek ayrıntılar sağlayabileceğiniz sorun izleme sistemine "
 "gönderilecektir."
 
+#: src/components/storage/scenarios/EraseAll.jsx:59
+msgid ""
+"The installation needs $0 of disk space; however, the capacity of the "
+"selected disks is only $1."
+msgstr ""
+
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "Kurucu önemli bir hata nedeniyle devam edemiyor."
@@ -1066,7 +1076,7 @@ msgstr "Bu biraz zaman alacak"
 msgid "To begin using $0, reboot your system."
 msgstr "$0 kullanmaya başlamak için sisteminizi yeniden başlatın."
 
-#: src/components/storage/InstallationMethod.jsx:206
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "To continue, select the devices to install to."
 msgstr "Devam etmek için kurulum yapılacak aygıtları seçin."
 
@@ -1117,7 +1127,7 @@ msgstr "Kullanılabilir Düzenler"
 msgid "Use configured storage"
 msgstr "Yapılandırılan depolamayı kullan"
 
-#: src/components/storage/scenarios/EraseAll.jsx:55
+#: src/components/storage/scenarios/EraseAll.jsx:74
 msgid "Use entire disk"
 msgstr "Tüm diski kullan"
 
@@ -1239,9 +1249,6 @@ msgstr "$0 olacak şekilde küçült"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "geri al"
-
-#~ msgid "Not enough space on selected disks."
-#~ msgstr "Seçilen disklerde yeterli alan yok."
 
 #, fuzzy
 #~| msgid "Unknown Linux"

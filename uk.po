@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 03:39+0000\n"
+"POT-Creation-Date: 2025-06-20 03:38+0000\n"
 "PO-Revision-Date: 2025-06-18 05:30+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -322,7 +322,7 @@ msgstr "Зашифровано"
 msgid "Encryption"
 msgstr "Шифрування"
 
-#: src/components/storage/scenarios/EraseAll.jsx:53
+#: src/components/storage/scenarios/EraseAll.jsx:72
 msgid "Erase data and install"
 msgstr "Витерти дані і встановити"
 
@@ -380,7 +380,7 @@ msgstr "Приховати пароль"
 msgid "Hostname"
 msgstr "Назва вузла"
 
-#: src/components/storage/InstallationScenario.jsx:158
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "How would you like to install?"
 msgstr "Яким способом ви хочете виконати встановлення?"
 
@@ -435,7 +435,7 @@ msgstr "Встановити"
 msgid "Installation failed"
 msgstr "Не вдалося встановити"
 
-#: src/components/storage/InstallationMethod.jsx:237
+#: src/components/storage/InstallationMethod.jsx:231
 msgid "Installation method"
 msgstr "Спосіб встановлення"
 
@@ -592,6 +592,10 @@ msgstr "Нічого не знайдено"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "На позначених дисках недостатньо вільного місця."
+
+#: src/components/storage/scenarios/EraseAll.jsx:57
+msgid "Not enough space on selected disks."
+msgstr "На позначених дисках недостатньо місця."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -1014,6 +1018,18 @@ msgstr ""
 "Вказаний нижче журнал буде надіслано до системи стеження за вадами, де ви "
 "зможете надати додаткові подробиці."
 
+#: src/components/storage/scenarios/EraseAll.jsx:59
+#, fuzzy
+#| msgid ""
+#| "The installation needs $1 of disk space; however, the capacity of the "
+#| "selected disks is only $0."
+msgid ""
+"The installation needs $0 of disk space; however, the capacity of the "
+"selected disks is only $1."
+msgstr ""
+"Для встановлення потрібно $1 місця на дисках; втім, місткість вибраних "
+"дисків складає лише $0."
+
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "Продовження встановлення неможливе через критичну помилку."
@@ -1072,7 +1088,7 @@ msgstr "Зачекайте, будь ласка"
 msgid "To begin using $0, reboot your system."
 msgstr "Щоб розпочати користування $0, перезавантажте вашу систему."
 
-#: src/components/storage/InstallationMethod.jsx:206
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "To continue, select the devices to install to."
 msgstr "Щоб продовжити, виберіть пристрої для встановлення на них системи."
 
@@ -1121,7 +1137,7 @@ msgstr "Непридатна розкладка"
 msgid "Use configured storage"
 msgstr "Скористатися налаштованим сховищем даних"
 
-#: src/components/storage/scenarios/EraseAll.jsx:55
+#: src/components/storage/scenarios/EraseAll.jsx:74
 msgid "Use entire disk"
 msgstr "Використати увесь диск"
 
@@ -1240,16 +1256,6 @@ msgstr "стиснути до $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "скасувати"
-
-#~ msgid "Not enough space on selected disks."
-#~ msgstr "На позначених дисках недостатньо місця."
-
-#~ msgid ""
-#~ "The installation needs $1 of disk space; however, the capacity of the "
-#~ "selected disks is only $0."
-#~ msgstr ""
-#~ "Для встановлення потрібно $1 місця на дисках; втім, місткість вибраних "
-#~ "дисків складає лише $0."
 
 #~ msgid "Unknown layout"
 #~ msgstr "Невідома розкладка"

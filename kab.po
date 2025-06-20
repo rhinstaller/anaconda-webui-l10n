@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 03:39+0000\n"
+"POT-Creation-Date: 2025-06-20 03:38+0000\n"
 "PO-Revision-Date: 2025-06-13 18:07+0000\n"
 "Last-Translator: ButterflyOfFire <butterflyoffire@users.noreply.translate."
 "fedoraproject.org>\n"
@@ -309,7 +309,7 @@ msgstr "Yettwawgelhen"
 msgid "Encryption"
 msgstr "Awgelhen"
 
-#: src/components/storage/scenarios/EraseAll.jsx:53
+#: src/components/storage/scenarios/EraseAll.jsx:72
 msgid "Erase data and install"
 msgstr "Sfeḍ isefka syen sebded"
 
@@ -367,7 +367,7 @@ msgstr "Ffer awal n uɛeddi"
 msgid "Hostname"
 msgstr "Isem n usenneftaɣ"
 
-#: src/components/storage/InstallationScenario.jsx:158
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "How would you like to install?"
 msgstr "Amek i yebɣiḍ ad yeddu usbeddi?"
 
@@ -422,7 +422,7 @@ msgstr "Sbedd"
 msgid "Installation failed"
 msgstr "Yecceḍ usbeddi"
 
-#: src/components/storage/InstallationMethod.jsx:237
+#: src/components/storage/InstallationMethod.jsx:231
 msgid "Installation method"
 msgstr "Tarrayt n usbeddi"
 
@@ -573,6 +573,10 @@ msgstr "Ulac igmad yettwafen"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "Ulac ddeqs n tallunt tilellit ɣef yiḍebsiyen i yettwafernen."
+
+#: src/components/storage/scenarios/EraseAll.jsx:57
+msgid "Not enough space on selected disks."
+msgstr "Ulac ddeqs n tallunt deg yiḍebsiyen i yettwafernen."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -977,6 +981,18 @@ msgstr ""
 "Aɣmis-a ad yettwazen ɣer unagraw n uḍfar n wuguren anida ara tizmireḍ ad d-"
 "tawiḍ ugar n telqayt."
 
+#: src/components/storage/scenarios/EraseAll.jsx:59
+#, fuzzy
+#| msgid ""
+#| "The installation needs $1 of disk space; however, the capacity of the "
+#| "selected disks is only $0."
+msgid ""
+"The installation needs $0 of disk space; however, the capacity of the "
+"selected disks is only $1."
+msgstr ""
+"Asbeddi yeḥwaǧ $1 n tallunt n uḍebsi; d acu kan, ala $0 yettwafen deg "
+"ukettur n yiḍebsiyen."
+
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "Aseɣẓan n usbeddi ur yezmir ara ad ikemmel ssebba n tuccḍan tuzɣint."
@@ -1031,7 +1047,7 @@ msgstr "Ad yeṭṭef kra n wakud"
 msgid "To begin using $0, reboot your system."
 msgstr "Ales asenker i unagraw-inek·inem akken ad tebdud aseqdec n $0."
 
-#: src/components/storage/InstallationMethod.jsx:206
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "To continue, select the devices to install to."
 msgstr "I ukemmel, fren ibenkan iɣef ara tesbeddeḍ."
 
@@ -1078,7 +1094,7 @@ msgstr "Taneɣruft-a ur tettwaseqdac ara"
 msgid "Use configured storage"
 msgstr "Seqdec aḥraz yettwassetben"
 
-#: src/components/storage/scenarios/EraseAll.jsx:55
+#: src/components/storage/scenarios/EraseAll.jsx:74
 msgid "Use entire disk"
 msgstr "Seqdec akk aḍebsi"
 
@@ -1196,16 +1212,6 @@ msgstr "semẓẓiy ɣer $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "sefsex"
-
-#~ msgid "Not enough space on selected disks."
-#~ msgstr "Ulac ddeqs n tallunt deg yiḍebsiyen i yettwafernen."
-
-#~ msgid ""
-#~ "The installation needs $1 of disk space; however, the capacity of the "
-#~ "selected disks is only $0."
-#~ msgstr ""
-#~ "Asbeddi yeḥwaǧ $1 n tallunt n uḍebsi; d acu kan, ala $0 yettwafen deg "
-#~ "ukettur n yiḍebsiyen."
 
 #~ msgid "Unknown layout"
 #~ msgstr "Taneɣruft tarussint"

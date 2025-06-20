@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 03:39+0000\n"
+"POT-Creation-Date: 2025-06-20 03:38+0000\n"
 "PO-Revision-Date: 2023-11-06 12:21+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/"
@@ -350,7 +350,7 @@ msgstr "Criptare"
 msgid "Encryption"
 msgstr "Criptare"
 
-#: src/components/storage/scenarios/EraseAll.jsx:53
+#: src/components/storage/scenarios/EraseAll.jsx:72
 #, fuzzy
 msgid "Erase data and install"
 msgstr "În_cepe instalarea"
@@ -415,7 +415,7 @@ msgstr "Folosește o parolă"
 msgid "Hostname"
 msgstr "Nume host"
 
-#: src/components/storage/InstallationScenario.jsx:158
+#: src/components/storage/InstallationScenario.jsx:168
 #, fuzzy
 msgid "How would you like to install?"
 msgstr ""
@@ -473,7 +473,7 @@ msgstr "Instalează"
 msgid "Installation failed"
 msgstr "Instalare"
 
-#: src/components/storage/InstallationMethod.jsx:237
+#: src/components/storage/InstallationMethod.jsx:231
 #, fuzzy
 msgid "Installation method"
 msgstr "Instalare completă"
@@ -637,6 +637,11 @@ msgstr ""
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 #, fuzzy
 msgid "Not enough free space on the selected disks."
+msgstr "Nu este destul spațiu liber pe discurile selectate."
+
+#: src/components/storage/scenarios/EraseAll.jsx:57
+#, fuzzy
+msgid "Not enough space on selected disks."
 msgstr "Nu este destul spațiu liber pe discurile selectate."
 
 #: src/components/review/StorageReview.jsx:362
@@ -1100,6 +1105,12 @@ msgid ""
 "provide additional details."
 msgstr ""
 
+#: src/components/storage/scenarios/EraseAll.jsx:59
+msgid ""
+"The installation needs $0 of disk space; however, the capacity of the "
+"selected disks is only $1."
+msgstr ""
+
 #: src/components/Error.jsx:248
 #, fuzzy
 msgid "The installer cannot continue due to a critical error."
@@ -1154,7 +1165,7 @@ msgstr "Aceasta ar putea dura o vreme."
 msgid "To begin using $0, reboot your system."
 msgstr ""
 
-#: src/components/storage/InstallationMethod.jsx:206
+#: src/components/storage/InstallationMethod.jsx:200
 #, fuzzy
 msgid "To continue, select the devices to install to."
 msgstr ""
@@ -1208,7 +1219,7 @@ msgstr "Aranjamente disponibile"
 msgid "Use configured storage"
 msgstr "Se configurează spațiul de stocare"
 
-#: src/components/storage/scenarios/EraseAll.jsx:55
+#: src/components/storage/scenarios/EraseAll.jsx:74
 #, fuzzy
 #| msgid "Selected Device"
 msgid "Use entire disk"
@@ -1340,10 +1351,6 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr ""
-
-#, fuzzy
-#~ msgid "Not enough space on selected disks."
-#~ msgstr "Nu este destul spațiu liber pe discurile selectate."
 
 #, fuzzy
 #~| msgid "Unknown"

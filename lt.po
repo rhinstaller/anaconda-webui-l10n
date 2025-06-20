@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 03:39+0000\n"
+"POT-Creation-Date: 2025-06-20 03:38+0000\n"
 "PO-Revision-Date: 2025-03-03 23:11+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -324,7 +324,7 @@ msgstr "Šifruota"
 msgid "Encryption"
 msgstr "Šifravimas"
 
-#: src/components/storage/scenarios/EraseAll.jsx:53
+#: src/components/storage/scenarios/EraseAll.jsx:72
 msgid "Erase data and install"
 msgstr "Ištrinti duomenis ir įdiegti"
 
@@ -382,7 +382,7 @@ msgstr "Slėpti slaptažodį"
 msgid "Hostname"
 msgstr "Pagrindinio kompiuterio pavadinimas"
 
-#: src/components/storage/InstallationScenario.jsx:158
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "How would you like to install?"
 msgstr "Kaip norite įdiegti?"
 
@@ -435,7 +435,7 @@ msgstr "Diegti"
 msgid "Installation failed"
 msgstr "Diegimas nepavyko"
 
-#: src/components/storage/InstallationMethod.jsx:237
+#: src/components/storage/InstallationMethod.jsx:231
 msgid "Installation method"
 msgstr "Diegimo metodas"
 
@@ -590,6 +590,10 @@ msgstr "Rezultatų nerasta"
 
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
+msgstr "Pasirinktuose diskuose nepakanka vietos."
+
+#: src/components/storage/scenarios/EraseAll.jsx:57
+msgid "Not enough space on selected disks."
 msgstr "Pasirinktuose diskuose nepakanka vietos."
 
 #: src/components/review/StorageReview.jsx:362
@@ -1015,6 +1019,12 @@ msgstr ""
 "Šis žurnalas bus išsiųstas į problemų sekimo sistemą, kur jums reikės "
 "pateikti papildomą informaciją."
 
+#: src/components/storage/scenarios/EraseAll.jsx:59
+msgid ""
+"The installation needs $0 of disk space; however, the capacity of the "
+"selected disks is only $1."
+msgstr ""
+
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "Diegyklė negali tęsti dėl kritinės klaidos."
@@ -1066,7 +1076,7 @@ msgstr "Tai užtruks keletą akimirkų"
 msgid "To begin using $0, reboot your system."
 msgstr "Norėdami pradėti naudoti $0, iš naujo paleiskite sistemą."
 
-#: src/components/storage/InstallationMethod.jsx:206
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "To continue, select the devices to install to."
 msgstr "Norėdami tęsti, pasirinkite įrenginius diegimui."
 
@@ -1117,7 +1127,7 @@ msgstr "Galimi išdėstymai"
 msgid "Use configured storage"
 msgstr "Naudokite sukonfigūruotą saugyklą"
 
-#: src/components/storage/scenarios/EraseAll.jsx:55
+#: src/components/storage/scenarios/EraseAll.jsx:74
 msgid "Use entire disk"
 msgstr "Naudokite visą diską"
 
@@ -1239,9 +1249,6 @@ msgstr "sumažinti iki $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "anuliuoti"
-
-#~ msgid "Not enough space on selected disks."
-#~ msgstr "Pasirinktuose diskuose nepakanka vietos."
 
 #, fuzzy
 #~| msgid "Unknown Linux"

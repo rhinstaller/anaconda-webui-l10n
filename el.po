@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 03:39+0000\n"
+"POT-Creation-Date: 2025-06-20 03:38+0000\n"
 "PO-Revision-Date: 2025-06-17 09:38+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/anaconda-"
@@ -331,7 +331,7 @@ msgstr "Κρυπτογραφημένο"
 msgid "Encryption"
 msgstr "Κρυπτογράφηση"
 
-#: src/components/storage/scenarios/EraseAll.jsx:53
+#: src/components/storage/scenarios/EraseAll.jsx:72
 msgid "Erase data and install"
 msgstr "Διαγραφή δεδομένων και εγκατάσταση"
 
@@ -390,7 +390,7 @@ msgstr "Απόκρυψη κωδικού πρόσβασης"
 msgid "Hostname"
 msgstr "Όνομα υπολογιστή"
 
-#: src/components/storage/InstallationScenario.jsx:158
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "How would you like to install?"
 msgstr "Με ποιον τρόπο θέλετε να κάνετε την εγκατάσταση;"
 
@@ -447,7 +447,7 @@ msgstr "Εγκατάσταση"
 msgid "Installation failed"
 msgstr "Αποτυχία εγκατάστασης"
 
-#: src/components/storage/InstallationMethod.jsx:237
+#: src/components/storage/InstallationMethod.jsx:231
 msgid "Installation method"
 msgstr "Μέθοδος εγκατάστασης"
 
@@ -607,6 +607,10 @@ msgstr "Δεν βρέθηκαν αποτελέσματα"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "Δεν υπάρχει επαρκής ελεύθερος χώρος στους επιλεγμένους δίσκους."
+
+#: src/components/storage/scenarios/EraseAll.jsx:57
+msgid "Not enough space on selected disks."
+msgstr "Δεν υπάρχει επαρκής χώρος στους επιλεγμένους δίσκους."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -1036,6 +1040,18 @@ msgstr ""
 "Το παρακάτω αρχείο καταγραφής θα αποσταλεί στο σύστημα παρακολούθησης "
 "προβλημάτων όπου μπορείτε να παρέχετε πρόσθετες λεπτομέρειες."
 
+#: src/components/storage/scenarios/EraseAll.jsx:59
+#, fuzzy
+#| msgid ""
+#| "The installation needs $1 of disk space; however, the capacity of the "
+#| "selected disks is only $0."
+msgid ""
+"The installation needs $0 of disk space; however, the capacity of the "
+"selected disks is only $1."
+msgstr ""
+"Η εγκατάσταση απαιτεί $1 χώρου στον δίσκο, αλλά η χωρητικότητα των "
+"επιλεγμένων δίσκων είναι μόνο $0."
+
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr ""
@@ -1099,7 +1115,7 @@ msgstr "Αυτό θα διαρκέσει λίγα λεπτά"
 msgid "To begin using $0, reboot your system."
 msgstr "Για να ξεκινήσετε τη χρήση του $0, επανεκκινήστε το σύστημά σας."
 
-#: src/components/storage/InstallationMethod.jsx:206
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "To continue, select the devices to install to."
 msgstr "Για να συνεχίσετε, επιλέξτε τις συσκευές όπου θα γίνει η εγκατάσταση."
 
@@ -1148,7 +1164,7 @@ msgstr "Μη χρησιμοποιήσιμη διάταξη"
 msgid "Use configured storage"
 msgstr "Χρήση του διαμορφωμένου αποθηκευτικού χώρου"
 
-#: src/components/storage/scenarios/EraseAll.jsx:55
+#: src/components/storage/scenarios/EraseAll.jsx:74
 msgid "Use entire disk"
 msgstr "Χρήση ολόκληρου του δίσκου"
 
@@ -1269,16 +1285,6 @@ msgstr "συρρίκνωση σε $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "αναίρεση"
-
-#~ msgid "Not enough space on selected disks."
-#~ msgstr "Δεν υπάρχει επαρκής χώρος στους επιλεγμένους δίσκους."
-
-#~ msgid ""
-#~ "The installation needs $1 of disk space; however, the capacity of the "
-#~ "selected disks is only $0."
-#~ msgstr ""
-#~ "Η εγκατάσταση απαιτεί $1 χώρου στον δίσκο, αλλά η χωρητικότητα των "
-#~ "επιλεγμένων δίσκων είναι μόνο $0."
 
 #, fuzzy
 #~| msgid "Unknown Linux"

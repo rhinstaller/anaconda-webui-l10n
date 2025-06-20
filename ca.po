@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 03:39+0000\n"
+"POT-Creation-Date: 2025-06-20 03:38+0000\n"
 "PO-Revision-Date: 2025-06-17 09:25+0000\n"
 "Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/"
@@ -328,7 +328,7 @@ msgstr "Xifrat"
 msgid "Encryption"
 msgstr "Xifratge"
 
-#: src/components/storage/scenarios/EraseAll.jsx:53
+#: src/components/storage/scenarios/EraseAll.jsx:72
 msgid "Erase data and install"
 msgstr "Esborra les dades i instal·la"
 
@@ -386,7 +386,7 @@ msgstr "Oculta la contrasenya"
 msgid "Hostname"
 msgstr "Nom d'amfitrió"
 
-#: src/components/storage/InstallationScenario.jsx:158
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "How would you like to install?"
 msgstr "Com t'agradaria instal·lar?"
 
@@ -440,7 +440,7 @@ msgstr "_Instal·la"
 msgid "Installation failed"
 msgstr "La instal·lació ha fallat"
 
-#: src/components/storage/InstallationMethod.jsx:237
+#: src/components/storage/InstallationMethod.jsx:231
 msgid "Installation method"
 msgstr "Mètode d'instal·lació"
 
@@ -598,6 +598,10 @@ msgstr "No s'han trobat resultats"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "No hi ha prou espai lliure als discs seleccionats."
+
+#: src/components/storage/scenarios/EraseAll.jsx:57
+msgid "Not enough space on selected disks."
+msgstr "No hi ha prou espai als discs seleccionats."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -1019,6 +1023,18 @@ msgstr ""
 "El registre següent s'enviarà al sistema de seguiment d'incidències on "
 "podreu proporcionar detalls addicionals."
 
+#: src/components/storage/scenarios/EraseAll.jsx:59
+#, fuzzy
+#| msgid ""
+#| "The installation needs $1 of disk space; however, the capacity of the "
+#| "selected disks is only $0."
+msgid ""
+"The installation needs $0 of disk space; however, the capacity of the "
+"selected disks is only $1."
+msgstr ""
+"La instal·lació necessita $1 d'espai de disc; tanmateix, la capacitat dels "
+"discs seleccionats és de només $0."
+
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "L'instal·lador no pot continuar a causa d'un error crític."
@@ -1073,7 +1089,7 @@ msgstr "Això trigarà uns instants"
 msgid "To begin using $0, reboot your system."
 msgstr "Per començar a utilitzar $0, reinicieu el sistema."
 
-#: src/components/storage/InstallationMethod.jsx:206
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "To continue, select the devices to install to."
 msgstr "Per continuar, seleccioneu els dispositius on voleu instal·lar-lo."
 
@@ -1122,7 +1138,7 @@ msgstr "Disposició no usable"
 msgid "Use configured storage"
 msgstr "Utilitzeu l'emmagatzematge configurat"
 
-#: src/components/storage/scenarios/EraseAll.jsx:55
+#: src/components/storage/scenarios/EraseAll.jsx:74
 msgid "Use entire disk"
 msgstr "Utilitzeu el disc sencer"
 
@@ -1241,16 +1257,6 @@ msgstr "encongeix a $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "desfer"
-
-#~ msgid "Not enough space on selected disks."
-#~ msgstr "No hi ha prou espai als discs seleccionats."
-
-#~ msgid ""
-#~ "The installation needs $1 of disk space; however, the capacity of the "
-#~ "selected disks is only $0."
-#~ msgstr ""
-#~ "La instal·lació necessita $1 d'espai de disc; tanmateix, la capacitat "
-#~ "dels discs seleccionats és de només $0."
 
 #~ msgid "Unknown layout"
 #~ msgstr "Disposició desconeguda"

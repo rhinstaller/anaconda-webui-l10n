@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 38.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 03:39+0000\n"
+"POT-Creation-Date: 2025-06-20 03:38+0000\n"
 "PO-Revision-Date: 2024-11-13 12:41+0000\n"
 "Last-Translator: Jarema <jarema@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Vietnamese <https://translate.fedoraproject.org/projects/"
@@ -304,7 +304,7 @@ msgstr ""
 msgid "Encryption"
 msgstr ""
 
-#: src/components/storage/scenarios/EraseAll.jsx:53
+#: src/components/storage/scenarios/EraseAll.jsx:72
 msgid "Erase data and install"
 msgstr ""
 
@@ -367,7 +367,7 @@ msgstr "Ẩn mật khẩu."
 msgid "Hostname"
 msgstr ""
 
-#: src/components/storage/InstallationScenario.jsx:158
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "How would you like to install?"
 msgstr ""
 
@@ -420,7 +420,7 @@ msgstr "Cài đặt"
 msgid "Installation failed"
 msgstr "Cài đặt thất bại"
 
-#: src/components/storage/InstallationMethod.jsx:237
+#: src/components/storage/InstallationMethod.jsx:231
 msgid "Installation method"
 msgstr "Phương thức cài đặt"
 
@@ -566,6 +566,10 @@ msgstr "Không tìm thấy kết quả"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "Các ổ đã chọn không đủ bộ nhớ."
+
+#: src/components/storage/scenarios/EraseAll.jsx:57
+msgid "Not enough space on selected disks."
+msgstr "Không đủ bộ nhớ trên các ổ đĩa đã chọn."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -976,6 +980,12 @@ msgid ""
 "provide additional details."
 msgstr ""
 
+#: src/components/storage/scenarios/EraseAll.jsx:59
+msgid ""
+"The installation needs $0 of disk space; however, the capacity of the "
+"selected disks is only $1."
+msgstr ""
+
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "Trình cài đặt không thể tiếp tục do lỗi nghiêm trọng."
@@ -1027,7 +1037,7 @@ msgstr "Việc này sẽ cần một ít phút"
 msgid "To begin using $0, reboot your system."
 msgstr "Để bắt đầu sử dụng $0, khởi động lại máy."
 
-#: src/components/storage/InstallationMethod.jsx:206
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "To continue, select the devices to install to."
 msgstr "Để tiếp tục, vui lòng chọn thiết bị để cài đặt."
 
@@ -1074,7 +1084,7 @@ msgstr ""
 msgid "Use configured storage"
 msgstr ""
 
-#: src/components/storage/scenarios/EraseAll.jsx:55
+#: src/components/storage/scenarios/EraseAll.jsx:74
 msgid "Use entire disk"
 msgstr "Sử dụng toàn bộ ổ đĩa"
 
@@ -1194,9 +1204,6 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr ""
-
-#~ msgid "Not enough space on selected disks."
-#~ msgstr "Không đủ bộ nhớ trên các ổ đĩa đã chọn."
 
 #, fuzzy
 #~| msgid "Unknown"

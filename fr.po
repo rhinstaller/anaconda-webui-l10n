@@ -68,7 +68,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 03:39+0000\n"
+"POT-Creation-Date: 2025-06-20 03:38+0000\n"
 "PO-Revision-Date: 2025-06-17 10:28+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/anaconda-"
@@ -375,7 +375,7 @@ msgstr "Chiffré"
 msgid "Encryption"
 msgstr "Chiffrement"
 
-#: src/components/storage/scenarios/EraseAll.jsx:53
+#: src/components/storage/scenarios/EraseAll.jsx:72
 msgid "Erase data and install"
 msgstr "Effacer les données et installer"
 
@@ -433,7 +433,7 @@ msgstr "Masquer le mot de passe"
 msgid "Hostname"
 msgstr "Nom d'hôte"
 
-#: src/components/storage/InstallationScenario.jsx:158
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "How would you like to install?"
 msgstr "Comment souhaitez-vous effectuer l'installation ?"
 
@@ -492,7 +492,7 @@ msgstr "Installer"
 msgid "Installation failed"
 msgstr "Installation échouée"
 
-#: src/components/storage/InstallationMethod.jsx:237
+#: src/components/storage/InstallationMethod.jsx:231
 msgid "Installation method"
 msgstr "Méthode d'installation"
 
@@ -650,6 +650,10 @@ msgstr "Aucun résultat trouvé"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "Espace libre insuffisant sur les disques sélectionnés."
+
+#: src/components/storage/scenarios/EraseAll.jsx:57
+msgid "Not enough space on selected disks."
+msgstr "Espace insuffisant sur les disques sélectionnés."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -1076,6 +1080,18 @@ msgstr ""
 "Le journal suivant sera envoyé au système de suivi des problèmes où vous "
 "pourrez fournir des détails supplémentaires."
 
+#: src/components/storage/scenarios/EraseAll.jsx:59
+#, fuzzy
+#| msgid ""
+#| "The installation needs $1 of disk space; however, the capacity of the "
+#| "selected disks is only $0."
+msgid ""
+"The installation needs $0 of disk space; however, the capacity of the "
+"selected disks is only $1."
+msgstr ""
+"L'installation nécessite $1 d'espace disque, mais la capacité des disques "
+"sélectionnés n'est que de $0."
+
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr ""
@@ -1138,7 +1154,7 @@ msgstr "Cela prendra quelques instants"
 msgid "To begin using $0, reboot your system."
 msgstr "Redémarrez votre système pour commencer à utiliser $0."
 
-#: src/components/storage/InstallationMethod.jsx:206
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "To continue, select the devices to install to."
 msgstr ""
 "Pour continuer, sélectionnez les périphériques sur lesquels effectuer "
@@ -1189,7 +1205,7 @@ msgstr "Disposition inutilisable"
 msgid "Use configured storage"
 msgstr "Utiliser le stockage configuré"
 
-#: src/components/storage/scenarios/EraseAll.jsx:55
+#: src/components/storage/scenarios/EraseAll.jsx:74
 msgid "Use entire disk"
 msgstr "Utiliser le disque tout entier"
 
@@ -1310,16 +1326,6 @@ msgstr "réduire à $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "annuler"
-
-#~ msgid "Not enough space on selected disks."
-#~ msgstr "Espace insuffisant sur les disques sélectionnés."
-
-#~ msgid ""
-#~ "The installation needs $1 of disk space; however, the capacity of the "
-#~ "selected disks is only $0."
-#~ msgstr ""
-#~ "L'installation nécessite $1 d'espace disque, mais la capacité des disques "
-#~ "sélectionnés n'est que de $0."
 
 #~ msgid "Unknown layout"
 #~ msgstr "Disposition inconnue"

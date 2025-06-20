@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 03:39+0000\n"
+"POT-Creation-Date: 2025-06-20 03:38+0000\n"
 "PO-Revision-Date: 2024-02-11 02:42+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/"
@@ -328,7 +328,7 @@ msgstr "Cifrâ"
 msgid "Encryption"
 msgstr "Cifradure"
 
-#: src/components/storage/scenarios/EraseAll.jsx:53
+#: src/components/storage/scenarios/EraseAll.jsx:72
 msgid "Erase data and install"
 msgstr "Scancele i dâts e instale"
 
@@ -390,7 +390,7 @@ msgstr "Plate password"
 msgid "Hostname"
 msgstr "Non host"
 
-#: src/components/storage/InstallationScenario.jsx:158
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "How would you like to install?"
 msgstr "Cemût desideristu instalâ?"
 
@@ -443,7 +443,7 @@ msgstr "Instale"
 msgid "Installation failed"
 msgstr "Instalazion falide"
 
-#: src/components/storage/InstallationMethod.jsx:237
+#: src/components/storage/InstallationMethod.jsx:231
 msgid "Installation method"
 msgstr "Metodi di instalazion"
 
@@ -602,6 +602,10 @@ msgstr "Nissun risultât cjatât"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "No vonde spazi libar sui discs selezionâts."
+
+#: src/components/storage/scenarios/EraseAll.jsx:57
+msgid "Not enough space on selected disks."
+msgstr "No vonde spazi sui discs selezionâts."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -1072,6 +1076,12 @@ msgstr ""
 "Chest regjistri al vignarà mandât al sisteme di gjestion dai problemis, là "
 "tu podarâs dâ plui detais."
 
+#: src/components/storage/scenarios/EraseAll.jsx:59
+msgid ""
+"The installation needs $0 of disk space; however, the capacity of the "
+"selected disks is only $1."
+msgstr ""
+
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "L'instaladôr nol pues continuâ par vie di un erôr critic."
@@ -1128,7 +1138,7 @@ msgstr "Chest al podarès tirâle a dilunc"
 msgid "To begin using $0, reboot your system."
 msgstr "Par scomençâ a doprâ $0, torne invie il sisteme."
 
-#: src/components/storage/InstallationMethod.jsx:206
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "To continue, select the devices to install to."
 msgstr "Par continuâ, selezione i dispositîfs dulà lâ a instalâ."
 
@@ -1179,7 +1189,7 @@ msgstr "Disposizions disponibilis"
 msgid "Use configured storage"
 msgstr "Configure la memorie di archiviazion"
 
-#: src/components/storage/scenarios/EraseAll.jsx:55
+#: src/components/storage/scenarios/EraseAll.jsx:74
 #, fuzzy
 #| msgid "Selected disks"
 msgid "Use entire disk"
@@ -1313,9 +1323,6 @@ msgstr ""
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr ""
-
-#~ msgid "Not enough space on selected disks."
-#~ msgstr "No vonde spazi sui discs selezionâts."
 
 #, fuzzy
 #~| msgid "Unknown Linux"

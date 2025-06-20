@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 03:39+0000\n"
+"POT-Creation-Date: 2025-06-20 03:38+0000\n"
 "PO-Revision-Date: 2025-05-30 05:30+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
@@ -335,7 +335,7 @@ msgstr "Terenkripsi"
 msgid "Encryption"
 msgstr "Enkripsi"
 
-#: src/components/storage/scenarios/EraseAll.jsx:53
+#: src/components/storage/scenarios/EraseAll.jsx:72
 msgid "Erase data and install"
 msgstr "Hapus data dan pasang"
 
@@ -393,7 +393,7 @@ msgstr "Sembunyikan kata sandi"
 msgid "Hostname"
 msgstr "Nama host"
 
-#: src/components/storage/InstallationScenario.jsx:158
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "How would you like to install?"
 msgstr "Bagaimana Anda ingin memasang?"
 
@@ -448,7 +448,7 @@ msgstr "Pasang"
 msgid "Installation failed"
 msgstr "Instalasi gagal"
 
-#: src/components/storage/InstallationMethod.jsx:237
+#: src/components/storage/InstallationMethod.jsx:231
 msgid "Installation method"
 msgstr "Metode instalasi"
 
@@ -605,6 +605,10 @@ msgstr "Tidak ditemukan hasil"
 
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
+msgstr "Tidak cukup ruang bebas pada disk yang dipilih."
+
+#: src/components/storage/scenarios/EraseAll.jsx:57
+msgid "Not enough space on selected disks."
 msgstr "Tidak cukup ruang bebas pada disk yang dipilih."
 
 #: src/components/review/StorageReview.jsx:362
@@ -1025,6 +1029,18 @@ msgstr ""
 "Log berikut akan dikirim ke sistem pelacakan masalah dimana Anda dapat "
 "memberikan rincian tambahan."
 
+#: src/components/storage/scenarios/EraseAll.jsx:59
+#, fuzzy
+#| msgid ""
+#| "The installation needs $1 of disk space; however, the capacity of the "
+#| "selected disks is only $0."
+msgid ""
+"The installation needs $0 of disk space; however, the capacity of the "
+"selected disks is only $1."
+msgstr ""
+"Instalasi membutuhkan ruang disk sebesar $1; namun, kapasitas disk yang "
+"dipilih hanya $0."
+
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "Pemasang tidak dapat melanjutkan karena suatu kesalahan kritis."
@@ -1081,7 +1097,7 @@ msgstr "Ini akan makan waktu beberapa saat"
 msgid "To begin using $0, reboot your system."
 msgstr "Untuk mulai memakai $0, boot ulang sistem Anda."
 
-#: src/components/storage/InstallationMethod.jsx:206
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "To continue, select the devices to install to."
 msgstr "Untuk melanjutkan, pilih perangkat untuk dipasangi."
 
@@ -1130,7 +1146,7 @@ msgstr "Tata letak tidak dapat digunakan"
 msgid "Use configured storage"
 msgstr "Gunakan penyimpanan yang dikonfigurasi"
 
-#: src/components/storage/scenarios/EraseAll.jsx:55
+#: src/components/storage/scenarios/EraseAll.jsx:74
 msgid "Use entire disk"
 msgstr "Gunakan seluruh disk"
 
@@ -1248,16 +1264,6 @@ msgstr "mengecil menjadi $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "batalkan"
-
-#~ msgid "Not enough space on selected disks."
-#~ msgstr "Tidak cukup ruang bebas pada disk yang dipilih."
-
-#~ msgid ""
-#~ "The installation needs $1 of disk space; however, the capacity of the "
-#~ "selected disks is only $0."
-#~ msgstr ""
-#~ "Instalasi membutuhkan ruang disk sebesar $1; namun, kapasitas disk yang "
-#~ "dipilih hanya $0."
 
 #~ msgid "Unknown layout"
 #~ msgstr "Tata letak tidak diketahui"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 40.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 03:39+0000\n"
+"POT-Creation-Date: 2025-06-20 03:38+0000\n"
 "PO-Revision-Date: 2025-06-20 00:24+0000\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <https://translate.fedoraproject.org/projects/"
@@ -306,7 +306,7 @@ msgstr "Šifrirano"
 msgid "Encryption"
 msgstr "Šifriranje"
 
-#: src/components/storage/scenarios/EraseAll.jsx:53
+#: src/components/storage/scenarios/EraseAll.jsx:72
 msgid "Erase data and install"
 msgstr "Izbriši podatke in namesti"
 
@@ -364,7 +364,7 @@ msgstr "Skrij geslo"
 msgid "Hostname"
 msgstr "Ime gostitelja"
 
-#: src/components/storage/InstallationScenario.jsx:158
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "How would you like to install?"
 msgstr "Kako želite namestiti?"
 
@@ -418,7 +418,7 @@ msgstr "Namesti"
 msgid "Installation failed"
 msgstr "Nameščanje ni uspelo"
 
-#: src/components/storage/InstallationMethod.jsx:237
+#: src/components/storage/InstallationMethod.jsx:231
 msgid "Installation method"
 msgstr "Način namestitve"
 
@@ -570,6 +570,10 @@ msgstr "Ni zadetkov"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "Na izbranih diskih ni dovolj prostega prostora."
+
+#: src/components/storage/scenarios/EraseAll.jsx:57
+msgid "Not enough space on selected disks."
+msgstr "Premalo prostora na izbranih diskih."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -986,6 +990,18 @@ msgstr ""
 "Naslednji zapisnik bo poslan v sistem za sledenje težavam, kjer lahko "
 "navedete dodatne podrobnosti."
 
+#: src/components/storage/scenarios/EraseAll.jsx:59
+#, fuzzy
+#| msgid ""
+#| "The installation needs $1 of disk space; however, the capacity of the "
+#| "selected disks is only $0."
+msgid ""
+"The installation needs $0 of disk space; however, the capacity of the "
+"selected disks is only $1."
+msgstr ""
+"Za namestitev je potrebnih $1 prostora, kapaciteta izbranih diskov je zgolj "
+"$0."
+
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "Namestilnik ne more nadaljevati zaradi kritične napake."
@@ -1040,7 +1056,7 @@ msgstr "To utegne trajati nekaj časa"
 msgid "To begin using $0, reboot your system."
 msgstr "Če želite začeti uporabljati $0, znova zaženite sistem."
 
-#: src/components/storage/InstallationMethod.jsx:206
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "To continue, select the devices to install to."
 msgstr "Če želite nadaljevati, izberite naprave, v katere želite nameščati."
 
@@ -1089,7 +1105,7 @@ msgstr "Neuporabne postavitve"
 msgid "Use configured storage"
 msgstr "Uporabi nastavljeno hrambo"
 
-#: src/components/storage/scenarios/EraseAll.jsx:55
+#: src/components/storage/scenarios/EraseAll.jsx:74
 msgid "Use entire disk"
 msgstr "Uporabi celoten disk"
 
@@ -1209,16 +1225,6 @@ msgstr "skrči na $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "razveljavi"
-
-#~ msgid "Not enough space on selected disks."
-#~ msgstr "Premalo prostora na izbranih diskih."
-
-#~ msgid ""
-#~ "The installation needs $1 of disk space; however, the capacity of the "
-#~ "selected disks is only $0."
-#~ msgstr ""
-#~ "Za namestitev je potrebnih $1 prostora, kapaciteta izbranih diskov je "
-#~ "zgolj $0."
 
 #~ msgid "Unknown layout"
 #~ msgstr "Neznana postavitev"

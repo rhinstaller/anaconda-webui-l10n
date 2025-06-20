@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 03:39+0000\n"
+"POT-Creation-Date: 2025-06-20 03:38+0000\n"
 "PO-Revision-Date: 2025-06-17 07:54+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -311,7 +311,7 @@ msgstr "დაშიფრულია"
 msgid "Encryption"
 msgstr "დაშიფვრა"
 
-#: src/components/storage/scenarios/EraseAll.jsx:53
+#: src/components/storage/scenarios/EraseAll.jsx:72
 msgid "Erase data and install"
 msgstr "მონაცემების წაშლა და დაყენება"
 
@@ -369,7 +369,7 @@ msgstr "პაროლის დამალვა"
 msgid "Hostname"
 msgstr "ჰოსტის სახელი"
 
-#: src/components/storage/InstallationScenario.jsx:158
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "How would you like to install?"
 msgstr "როგორ გნებავთ, დააყენოთ?"
 
@@ -425,7 +425,7 @@ msgstr "დაყენება"
 msgid "Installation failed"
 msgstr "დაყენების შეცდომა"
 
-#: src/components/storage/InstallationMethod.jsx:237
+#: src/components/storage/InstallationMethod.jsx:231
 msgid "Installation method"
 msgstr "დაყენების მეთოდი"
 
@@ -583,6 +583,10 @@ msgstr "შედეგების გარეშე"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "მონიშნულ დისკებზე საკმარისი თავისუფალი ადგილი არაა."
+
+#: src/components/storage/scenarios/EraseAll.jsx:57
+msgid "Not enough space on selected disks."
+msgstr "მონიშნულ დისკებზე საკმარისი ადგილი არაა."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -1000,6 +1004,18 @@ msgstr ""
 "შემდეგი ჟურნალის ფაილი გადაიგზავნება შეცდომების ტრეკინგის სისტემაში, სადაც "
 "დამატებითი დეტალების მითითება შეგეძლებათ."
 
+#: src/components/storage/scenarios/EraseAll.jsx:59
+#, fuzzy
+#| msgid ""
+#| "The installation needs $1 of disk space; however, the capacity of the "
+#| "selected disks is only $0."
+msgid ""
+"The installation needs $0 of disk space; however, the capacity of the "
+"selected disks is only $1."
+msgstr ""
+"დაყენებას დისკზე $1 ადგილი სჭირდება, მაგრამ დისკის მოცულობა, მხოლოდ, $0-ს "
+"შეადგენს."
+
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "დაყენების გაგრძელება შეუძლებელია კრიტიკული შეცდომის გამო."
@@ -1057,7 +1073,7 @@ msgstr "ამას, შეიძლება, რაღაც დრო და
 msgid "To begin using $0, reboot your system."
 msgstr "$0-ის გამოყენების დასაწყებად გადატვირთეთ თქვენი სისტემა."
 
-#: src/components/storage/InstallationMethod.jsx:206
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "To continue, select the devices to install to."
 msgstr "გასაგრძელებლად აირჩიეთ მოწყობილობა, რომელზეც დაყენება გნებავთ."
 
@@ -1106,7 +1122,7 @@ msgstr "არაგამოყენებადი განლაგებ�
 msgid "Use configured storage"
 msgstr "მორგებული საცავის გამოყენება"
 
-#: src/components/storage/scenarios/EraseAll.jsx:55
+#: src/components/storage/scenarios/EraseAll.jsx:74
 msgid "Use entire disk"
 msgstr "მთელი დისკის გამოყენება"
 
@@ -1225,16 +1241,6 @@ msgstr "$0-მდე შემცირება"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "გაუქმება"
-
-#~ msgid "Not enough space on selected disks."
-#~ msgstr "მონიშნულ დისკებზე საკმარისი ადგილი არაა."
-
-#~ msgid ""
-#~ "The installation needs $1 of disk space; however, the capacity of the "
-#~ "selected disks is only $0."
-#~ msgstr ""
-#~ "დაყენებას დისკზე $1 ადგილი სჭირდება, მაგრამ დისკის მოცულობა, მხოლოდ, $0-ს "
-#~ "შეადგენს."
 
 #~ msgid "Unknown layout"
 #~ msgstr "უცნობი განლაგება"

@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 03:39+0000\n"
+"POT-Creation-Date: 2025-06-20 03:38+0000\n"
 "PO-Revision-Date: 2025-04-15 00:02+0000\n"
 "Last-Translator: paddis paddis <turtle@turtle.garden>\n"
 "Language-Team: Norwegian Bokmål <https://translate.fedoraproject.org/"
@@ -319,7 +319,7 @@ msgstr "Kryptert"
 msgid "Encryption"
 msgstr "Kryptering"
 
-#: src/components/storage/scenarios/EraseAll.jsx:53
+#: src/components/storage/scenarios/EraseAll.jsx:72
 msgid "Erase data and install"
 msgstr "Fjern dataene og installer"
 
@@ -377,7 +377,7 @@ msgstr "Skjul passord"
 msgid "Hostname"
 msgstr "Vertsnavn"
 
-#: src/components/storage/InstallationScenario.jsx:158
+#: src/components/storage/InstallationScenario.jsx:168
 msgid "How would you like to install?"
 msgstr "Hvordan vil du installere systemet?"
 
@@ -432,7 +432,7 @@ msgstr "Installer"
 msgid "Installation failed"
 msgstr "Installasjon mislyktes"
 
-#: src/components/storage/InstallationMethod.jsx:237
+#: src/components/storage/InstallationMethod.jsx:231
 msgid "Installation method"
 msgstr "Installasjonsmetode"
 
@@ -590,6 +590,10 @@ msgstr "Ingen treff"
 #: src/components/storage/scenarios/UseFreeSpace.jsx:64
 msgid "Not enough free space on the selected disks."
 msgstr "Ikke nok ledig lagringsplass på de valgte diskene."
+
+#: src/components/storage/scenarios/EraseAll.jsx:57
+msgid "Not enough space on selected disks."
+msgstr "Ikke nok lagringsplass på de valgte diskene."
 
 #: src/components/review/StorageReview.jsx:362
 msgid "Note"
@@ -1015,6 +1019,18 @@ msgstr ""
 "Den følgende loggen skal sendes til feilsporingssystemet der du kan oppgi "
 "ytterligere opplysninger."
 
+#: src/components/storage/scenarios/EraseAll.jsx:59
+#, fuzzy
+#| msgid ""
+#| "The installation needs $1 of disk space; however, the capacity of the "
+#| "selected disks is only $0."
+msgid ""
+"The installation needs $0 of disk space; however, the capacity of the "
+"selected disks is only $1."
+msgstr ""
+"Installasjon krever $1 med lagringsplass; størrelsen av de valgte diskene er "
+"derimot bare $0."
+
 #: src/components/Error.jsx:248
 msgid "The installer cannot continue due to a critical error."
 msgstr "Installereren kan ikke fortsette grunnet en kritisk feil."
@@ -1070,7 +1086,7 @@ msgstr "Dette kan ta en stund"
 msgid "To begin using $0, reboot your system."
 msgstr "For å begynne med å bruke $0, start systemet ditt på nytt."
 
-#: src/components/storage/InstallationMethod.jsx:206
+#: src/components/storage/InstallationMethod.jsx:200
 msgid "To continue, select the devices to install to."
 msgstr "Velg enhetene du skal installere på for å fortsette."
 
@@ -1119,7 +1135,7 @@ msgstr "Ubrukelig oppsett"
 msgid "Use configured storage"
 msgstr "Bruk konfigurert lagring"
 
-#: src/components/storage/scenarios/EraseAll.jsx:55
+#: src/components/storage/scenarios/EraseAll.jsx:74
 msgid "Use entire disk"
 msgstr "Bruk hele disken"
 
@@ -1238,16 +1254,6 @@ msgstr "krymp til $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:386
 msgid "undo"
 msgstr "angre"
-
-#~ msgid "Not enough space on selected disks."
-#~ msgstr "Ikke nok lagringsplass på de valgte diskene."
-
-#~ msgid ""
-#~ "The installation needs $1 of disk space; however, the capacity of the "
-#~ "selected disks is only $0."
-#~ msgstr ""
-#~ "Installasjon krever $1 med lagringsplass; størrelsen av de valgte diskene "
-#~ "er derimot bare $0."
 
 #~ msgid "Unknown layout"
 #~ msgstr "Ukjent oppsett"
