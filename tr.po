@@ -29,8 +29,8 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-14 03:55+0000\n"
-"PO-Revision-Date: 2024-12-19 03:16+0000\n"
-"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
+"PO-Revision-Date: 2025-07-15 03:51+0000\n"
+"Last-Translator: Ahmet Kaya <neodeveloper27@gmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/tr/>\n"
 "Language: tr\n"
@@ -38,7 +38,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 5.9.1\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: src/components/storage/InstallationDestination.jsx:190
 #: src/components/storage/InstallationDestination.jsx:311
@@ -69,11 +69,8 @@ msgstr ""
 "kaldıracaktır."
 
 #: src/components/localization/Keyboard.jsx:149
-#, fuzzy
-#| msgid "$0 selected"
-#| msgid_plural "$0 selected"
 msgid "$0 layouts detected"
-msgstr "$0 seçildi"
+msgstr "$0 görünüm seçildi"
 
 #: src/components/review/StorageReview.jsx:260
 msgid "$0 will be deleted"
@@ -92,6 +89,8 @@ msgid ""
 "'$0' partition on MDRAID device $1 found. Bootloader partitions on MDRAID "
 "devices are not supported."
 msgstr ""
+"$1 cihazındaki '$0' bölüntüsü bulundu. MDRAID cihazlarındaki önyükleyici "
+"bölüntüleri desteklenmez."
 
 #: src/components/HeaderKebab.jsx:137
 msgid "About"
@@ -118,10 +117,14 @@ msgstr "Ek diller"
 msgid ""
 "After creating the issue, click 'Add attachment' and attach file $0 and $1."
 msgstr ""
+"Sorunu oluşturduktan sonra, 'Sabitlemeyi ekle' ye tıklayın ve $0 ve $1 "
+"dosyasını ekleyin."
 
 #: src/components/Error.jsx:194
 msgid "After creating the issue, click 'Add attachment' and attach file $0."
 msgstr ""
+"Sorunu oluşturduktan sonra, 'Sabitlemeyi ekle' ye tıklayın ve $0 dosyasını "
+"ekleyin."
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:102
 msgid "All changes made in the storage editor take effect immediately."
@@ -196,7 +199,7 @@ msgstr "Ana makine adını değiştir"
 
 #: src/components/localization/Keyboard.jsx:161
 msgid "Change system keyboard layout"
-msgstr ""
+msgstr "Sistem klavye görünümünü değiştirin"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:175
 msgid ""
@@ -212,14 +215,12 @@ msgid "Checking storage configuration"
 msgstr "Depolama yapılandırması denetleniyor"
 
 #: src/components/localization/Common.jsx:119
-#, fuzzy
-#| msgid "Clear search input"
 msgid "Clear search"
-msgstr "Arama girişini temizle"
+msgstr "Aramayı temizle"
 
 #: src/components/Error.jsx:187
 msgid "Click \"$0\" to open Bugzilla in a new window."
-msgstr ""
+msgstr "Bugzilla'yı yeni bir pencerede açmak için \"$0\" a tıklayın."
 
 #: src/components/storage/InstallationDestination.jsx:408
 #: src/components/storage/EncryptedDevices.jsx:200
@@ -365,7 +366,7 @@ msgstr "Tam ad iki nokta üst üste karakterini içeremez"
 
 #: src/components/Error.jsx:183
 msgid "Help us fix the issue!"
-msgstr ""
+msgstr "Sorunu çözmemizde bize yardımcı olun!"
 
 #: src/components/Password.jsx:244
 msgid "Hide confirmed password"
@@ -445,10 +446,8 @@ msgstr "Kurulum yöntemi"
 
 #: src/components/installation/InstallationProgress.jsx:119
 #: src/components/installation/InstallationProgress.jsx:123
-#, fuzzy
-#| msgid "Installation of the system failed: $0"
 msgid "Installation of the system failed"
-msgstr "Sistem kurulumu başarısız oldu: $0"
+msgstr "Sistemin kurulumu başarısız oldu"
 
 #: src/components/installation/InstallationProgress.jsx:99
 msgid "Installation of the system failed: $0"
@@ -464,7 +463,7 @@ msgstr "Kuruluyor"
 
 #: src/components/storage/InstallationDestination.jsx:342
 msgid "Insufficient disk space"
-msgstr ""
+msgstr "Yetersiz disk alanı"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:238
 msgid ""
@@ -474,6 +473,11 @@ msgid ""
 "filesystem or format (e.g., LVM PV). Any existing partitions on this array "
 "will be ignored."
 msgstr ""
+"Geçersiz RAID konfigürasyonu tespit edildi. Eğer RAID diziniz doğrudan "
+"diskleriniz üzerine oluşturulduysa, dizide bir bölüntü tablosunun "
+"oluşturulması gerekmektedir. Eğer RAID diziniz bölüntülerin üzerine "
+"oluşturulmuşsa, tek bir dosya sistemi veya format içermelidir (örneğin LVM "
+"PV). Bu dizide var olan bölüntüler yok sayılacak."
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
 msgid ""
@@ -489,7 +493,7 @@ msgstr "Klavye"
 
 #: src/components/storage/DiskEncryption.jsx:95
 msgid "Keyboard layout during boot"
-msgstr ""
+msgstr "Önyükleme sırasında klavye görünümü"
 
 #: src/components/review/ReviewConfiguration.jsx:105
 #: src/components/localization/InstallationLanguage.jsx:237
@@ -511,13 +515,16 @@ msgstr "Kilitli aygıtlar"
 
 #: src/components/Error.jsx:190
 msgid "Log in to Bugzilla, or create a new account."
-msgstr ""
+msgstr "Bugzilla'ya giriş yapın, ya da yeni bir hesap oluşturun."
 
 #: src/components/Error.jsx:198
 msgid ""
 "Logs may contain sensitive information like IP addresses or usernames. "
 "Attachments on Bugzilla issues are marked private by default."
 msgstr ""
+"Günlükler, IP adresi veya kullanıcı adı gibi hassas bilgiler içerebilir. "
+"Bugzilla sorunlarındaki sabitlemeler, varsayılan olarak gizli olarak "
+"işaretlenir."
 
 #: src/components/storage/MountPointMapping.jsx:775
 msgid "Manual disk configuration"
@@ -537,7 +544,7 @@ msgstr "Ortam"
 
 #: src/components/storage/InstallationDestination.jsx:345
 msgid "Minimum of $0 required"
-msgstr ""
+msgstr "$0'ın en azı gereklidir"
 
 #: src/components/storage/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
@@ -547,6 +554,7 @@ msgstr ""
 #: src/components/localization/Keyboard.jsx:130
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
+"Birden fazla görünüm tespit edildi. Devam etmek için ek görünümleri kaldırın"
 
 #: src/components/storage/MountPointMapping.jsx:638
 #: src/components/review/StorageReview.jsx:221
@@ -626,10 +634,8 @@ msgid "Operating system"
 msgstr "İşletim sistemi"
 
 #: src/components/localization/Keyboard.jsx:77
-#, fuzzy
-#| msgid "Keyboard"
 msgid "Other keyboards"
-msgstr "Klavye"
+msgstr "Diğer klavyeler"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:106
 msgid "Partitions (advanced)"
@@ -659,10 +665,8 @@ msgid "Please attach the log file $0 to the issue."
 msgstr "Lütfen $0 günlük dosyasını soruna ekleyin."
 
 #: src/components/storage/InstallationDestination.jsx:357
-#, fuzzy
-#| msgid "No disks selected; please select at least one disk to install to."
 msgid "Please select at least one disk to continue"
-msgstr "Hiçbir disk seçilmedi; lütfen kurulum yapılacak en az bir disk seçin."
+msgstr "Devam etmek için en az bir disk seçin"
 
 #: src/components/HeaderKebab.jsx:74
 msgid "Powered by Anaconda"
@@ -719,14 +723,12 @@ msgid "Reboot"
 msgstr "Yeniden başlat"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:529
-#, fuzzy
-#| msgid "Reboot into Windows to resize BitLocker-encrypted partitions. "
 msgid ""
 "Reboot into Windows to resize BitLocker-encrypted partitions. Make at least "
 "$0 of free space available for installation."
 msgstr ""
 "BitLocker ile şifrelenen bölümleri yeniden boyutlandırmak için Windows'u "
-"yeniden başlatın. "
+"yeniden başlatın. Kurulum için en az $0 boş alan oluşturun."
 
 #: src/components/AnacondaWizardFooter.jsx:141
 msgid "Reboot system?"
@@ -794,6 +796,10 @@ msgid ""
 "Resizing a partition can free up unused space, but is not risk-free. Be sure "
 "to have backups of anything important before reclaiming space."
 msgstr ""
+"Bir dosya sistemini silmek, içerdiği verileri kalıcı olarak siler. Bir "
+"bölüntüyü yeniden boyutlandırmak, kullanılmayan alanı geri kazandırabilir, "
+"ama risksiz değildir. Yeniden alan kazanmadan önce önemli olan herşeyin "
+"yedeğine sahip olduğunuzdan emin olun."
 
 #: src/components/storage/HelpAutopartOptions.jsx:11
 msgid "Replace current installation, but keep files in home."
@@ -858,10 +864,8 @@ msgid "Search for a language"
 msgstr "Bir dil arayın"
 
 #: src/components/localization/Keyboard.jsx:97
-#, fuzzy
-#| msgid "Search for a language"
 msgid "Search keyboard layout"
-msgstr "Bir dil arayın"
+msgstr "Bir klavye görünümü arayın"
 
 #: src/components/storage/DiskEncryption.jsx:138
 msgid ""
@@ -896,16 +900,12 @@ msgid "Set custom hostname"
 msgstr "Özel ana makine adı ayarla"
 
 #: src/components/storage/scenarios/UseFreeSpace.jsx:108
-#, fuzzy
-#| msgid "Share disk with other operating system"
 msgid "Share disk with other operating systems"
-msgstr "Diski diğer işletim sistemleriyle paylaş"
+msgstr "Diski diğer işletim sistemleriyle paylaşın"
 
 #: src/components/storage/scenarios/UseFreeSpace.jsx:105
-#, fuzzy
-#| msgid "Share disk with other operating system"
 msgid "Share disk with other operating systems: $0"
-msgstr "Diski diğer işletim sistemleriyle paylaş"
+msgstr "Diski diğer işletim sistemleriyle paylaş: $0"
 
 #: src/components/Password.jsx:244
 msgid "Show confirmed password"
@@ -993,10 +993,8 @@ msgid "Successfully unlocked $0."
 msgstr "$0 kilidi başarıyla açıldı."
 
 #: src/components/localization/Keyboard.jsx:77
-#, fuzzy
-#| msgid "Suggested languages"
 msgid "Suggested keyboards"
-msgstr "Önerilen diller"
+msgstr "Önerilen klavyeler"
 
 #: src/components/localization/InstallationLanguage.jsx:139
 msgid "Suggested languages"
@@ -1023,6 +1021,8 @@ msgid ""
 "The installation needs $0 of disk space; however, the capacity of the "
 "selected disks is only $1."
 msgstr ""
+"Kurulum, $0 kadar disk alanına ihtayç duyar; lâkin, seçilen disklerin "
+"kapasitesi sadece $1 kadar."
 
 #: src/components/Error.jsx:267
 msgid "The installer cannot continue due to a critical error."
@@ -1046,6 +1046,9 @@ msgid ""
 "set up LVM and much more. It is meant to be used as an advanced utility and "
 "not intended to be used in a typical installation."
 msgstr ""
+"Depolama düzenleyicisi, bölüntü boyutlandırmanıza, silmenize ve "
+"oluşturmanıza olanak tanır. Gelişmiş bir araç olarak kullanılması gerekir ve "
+"tipik bir kurulumda kullanılması amaçlanmaz."
 
 #: src/components/users/Accounts.jsx:203
 msgid "This account will have administration privilege with sudo."
@@ -1061,7 +1064,7 @@ msgstr "Bu kararlı olmayan, sürüm öncesi yazılımdır"
 
 #: src/components/storage/DiskEncryption.jsx:115
 msgid "This layout will be used for unlocking your system on boot"
-msgstr ""
+msgstr "Bu görünüm, sisteminizi önyüklemede açmada kullanılacak"
 
 #: src/components/storage/DiskEncryption.jsx:62
 msgid "This may take a moment"
@@ -1117,10 +1120,8 @@ msgid "Unlock encrypted devices"
 msgstr "Şifrelenen aygıtların kilidini aç"
 
 #: src/components/localization/Keyboard.jsx:148
-#, fuzzy
-#| msgid "Available Layouts"
 msgid "Unusable layout"
-msgstr "Kullanılabilir Düzenler"
+msgstr "Kullanılamayan düzen"
 
 #: src/components/storage/scenarios/UseConfiguredStorage.jsx:103
 msgid "Use configured storage"
@@ -1131,16 +1132,12 @@ msgid "Use entire disk"
 msgstr "Tüm diski kullan"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:593
-#, fuzzy
-#| msgid "Use Free Space"
 msgid "Use free space"
-msgstr "Boş Alanı Kullan"
+msgstr "Serbest alan kullanın"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:593
-#, fuzzy
-#| msgid "No big enough free space on disks for automatic partitioning"
 msgid "Use the RAID device for automatic partitioning"
-msgstr "Kendiliğinden bölümlendirme için disklerde yeterince boş alan yok"
+msgstr "Otomatik bölüntüleme için RAID cihazını kullanın"
 
 #: src/components/users/Accounts.jsx:224
 msgid "User name"
