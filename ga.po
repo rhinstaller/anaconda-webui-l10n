@@ -6,17 +6,17 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-24 03:51+0000\n"
-"PO-Revision-Date: 2024-11-10 19:17+0000\n"
+"PO-Revision-Date: 2025-07-25 03:07+0000\n"
 "Last-Translator: Aindriu Mac Giolla Eoin <aindriu80@gmail.com>\n"
-"Language-Team: Irish <https://translate.fedoraproject.org/projects/anaconda-"
-"webui/anaconda-webui/ga/>\n"
+"Language-Team: Irish <https://translate.fedoraproject.org/projects/"
+"anaconda-webui/anaconda-webui/ga/>\n"
 "Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
 "4);\n"
-"X-Generator: Weblate 5.8.2\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: src/components/storage/InstallationDestination.jsx:190
 #: src/components/storage/InstallationDestination.jsx:311
@@ -42,20 +42,21 @@ msgid ""
 "$0 is an MBR extended partition that contains logical partitions. Removing "
 "all logical partitions will also automatically remove the extended partition."
 msgstr ""
+"Is críochdheighilt leathnaithe MBR é $0 ina bhfuil críochdheighiltí "
+"loighciúla. Má bhaintear na críochdheighiltí loighciúla go léir, bainfear an "
+"críochdheighilt leathnaithe go huathoibríoch freisin."
 
 #: src/components/localization/Keyboard.jsx:149
 msgid "$0 layouts detected"
-msgstr ""
+msgstr "$0 leagan amach braite"
 
 #: src/components/review/StorageReview.jsx:260
 msgid "$0 will be deleted"
 msgstr "Scriosfar $0"
 
 #: src/components/storage/MountPointMapping.jsx:210
-#, fuzzy
-#| msgid "'$0' filesystem cannot be on an ecnrypted block device"
 msgid "'$0' filesystem cannot be on an encrypted block device"
-msgstr "Ní féidir le córas comhad '$0' a bheith ar ghléas bloc ecnripte"
+msgstr "Ní féidir leis an gcóras comhad '$0' a bheith ar ghléas bloc criptithe"
 
 #: src/components/storage/MountPointMapping.jsx:204
 msgid "'$0' must be on a device formatted to '$1'"
@@ -66,6 +67,8 @@ msgid ""
 "'$0' partition on MDRAID device $1 found. Bootloader partitions on MDRAID "
 "devices are not supported."
 msgstr ""
+"Fuarthas an chuid '$0' ar an ngléas MDRAID $1. Ní thacaítear le cuid an "
+"luchtóra tosaithe ar ghléasanna MDRAID."
 
 #: src/components/HeaderKebab.jsx:137
 msgid "About"
@@ -85,19 +88,21 @@ msgid "Add mount"
 msgstr "Cuir mount"
 
 #: src/components/localization/InstallationLanguage.jsx:160
-#, fuzzy
-#| msgid "Available languages"
 msgid "Additional languages"
-msgstr "Teangacha ar fáil"
+msgstr "Teangacha breise"
 
 #: src/components/Error.jsx:195
 msgid ""
 "After creating the issue, click 'Add attachment' and attach file $0 and $1."
 msgstr ""
+"Tar éis an cheist a chruthú, cliceáil 'Cuir ceangaltán leis' agus ceangail "
+"comhaid $0 agus $1."
 
 #: src/components/Error.jsx:194
 msgid "After creating the issue, click 'Add attachment' and attach file $0."
 msgstr ""
+"Tar éis an cheist a chruthú, cliceáil 'Cuir ceangaltán leis' agus ceangail "
+"comhad $0."
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:102
 msgid "All changes made in the storage editor take effect immediately."
@@ -173,7 +178,7 @@ msgstr "Athraigh an t-óstainm"
 
 #: src/components/localization/Keyboard.jsx:161
 msgid "Change system keyboard layout"
-msgstr ""
+msgstr "Athraigh leagan amach méarchláir an chórais"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:175
 msgid ""
@@ -189,14 +194,12 @@ msgid "Checking storage configuration"
 msgstr "Cumraíocht stórála á seiceáil"
 
 #: src/components/localization/Common.jsx:119
-#, fuzzy
-#| msgid "Clear input value"
 msgid "Clear search"
-msgstr "Luach ionchuir soiléir"
+msgstr "Glan an cuardach"
 
 #: src/components/Error.jsx:187
 msgid "Click \"$0\" to open Bugzilla in a new window."
-msgstr ""
+msgstr "Cliceáil \"$0\" chun Bugzilla a oscailt i bhfuinneog nua."
 
 #: src/components/storage/InstallationDestination.jsx:408
 #: src/components/storage/EncryptedDevices.jsx:200
@@ -265,10 +268,8 @@ msgid "Destination"
 msgstr "Ceann Scríbe"
 
 #: src/components/storage/EncryptedDevices.jsx:71
-#, fuzzy
-#| msgid "Destination"
 msgid "Destination is encrypted"
-msgstr "Ceann Scríbe"
+msgstr "Tá an ceann scríbe criptithe"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:588
 msgid "Detected valid storage layout:"
@@ -317,10 +318,8 @@ msgstr "Scoir go dtí an deasc beo"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:258
 #: src/components/storage/ReclaimSpaceModal.jsx:265
-#, fuzzy
-#| msgid "Recommended partitions:"
 msgid "Extended partition"
-msgstr "Deighiltí molta:"
+msgstr "Deighilt leathnaithe"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:98
 msgid "Fedora linux requires at least $0 of disk space."
@@ -348,7 +347,7 @@ msgstr "Ní féidir carachtair idirstad a bheith san ainm iomlán"
 
 #: src/components/Error.jsx:183
 msgid "Help us fix the issue!"
-msgstr ""
+msgstr "Cabhraigh linn an fhadhb a réiteach!"
 
 #: src/components/Password.jsx:244
 msgid "Hide confirmed password"
@@ -430,10 +429,8 @@ msgstr "Modh suiteála"
 
 #: src/components/installation/InstallationProgress.jsx:119
 #: src/components/installation/InstallationProgress.jsx:123
-#, fuzzy
-#| msgid "Installation of the system failed: $0"
 msgid "Installation of the system failed"
-msgstr "Theip ar shuiteáil an chórais: $0"
+msgstr "Theip ar shuiteáil an chórais"
 
 #: src/components/installation/InstallationProgress.jsx:99
 msgid "Installation of the system failed: $0"
@@ -449,7 +446,7 @@ msgstr "Suiteáil"
 
 #: src/components/storage/InstallationDestination.jsx:342
 msgid "Insufficient disk space"
-msgstr ""
+msgstr "Easpa spáis diosca"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:238
 msgid ""
@@ -459,6 +456,11 @@ msgid ""
 "filesystem or format (e.g., LVM PV). Any existing partitions on this array "
 "will be ignored."
 msgstr ""
+"Braitheadh cumraíocht RAID neamhbhailí. Má chruthaítear d'eagar RAID go "
+"díreach ar bharr dioscaí, ní mór tábla deighilte a chruthú ar an eagar. Má "
+"chruthaítear d'eagar RAID ar bharr deighiltí, ní mór córas comhad nó formáid "
+"aonair a bheith ann (e.g., LVM PV). Déanfar neamhaird d'aon deighiltí atá "
+"ann cheana féin ar an eagar seo."
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
 msgid ""
@@ -470,11 +472,11 @@ msgstr ""
 
 #: src/components/localization/InstallationLanguage.jsx:253
 msgid "Keyboard"
-msgstr ""
+msgstr "Méarchlár"
 
 #: src/components/storage/DiskEncryption.jsx:95
 msgid "Keyboard layout during boot"
-msgstr ""
+msgstr "Leagan amach an mhéarchláir le linn tosaithe"
 
 #: src/components/review/ReviewConfiguration.jsx:105
 #: src/components/localization/InstallationLanguage.jsx:237
@@ -496,13 +498,16 @@ msgstr "Gléasanna faoi ghlas"
 
 #: src/components/Error.jsx:190
 msgid "Log in to Bugzilla, or create a new account."
-msgstr ""
+msgstr "Logáil isteach i Bugzilla, nó cruthaigh cuntas nua."
 
 #: src/components/Error.jsx:198
 msgid ""
 "Logs may contain sensitive information like IP addresses or usernames. "
 "Attachments on Bugzilla issues are marked private by default."
 msgstr ""
+"D’fhéadfadh faisnéis íogair amhail seoltaí IP nó ainmneacha úsáideora a "
+"bheith i logaí. De réir réamhshocraithe, déantar ceangaltáin a bhaineann le "
+"saincheisteanna Bugzilla a mharcáil mar phríobháideach."
 
 #: src/components/storage/MountPointMapping.jsx:775
 msgid "Manual disk configuration"
@@ -522,7 +527,7 @@ msgstr "Mheán"
 
 #: src/components/storage/InstallationDestination.jsx:345
 msgid "Minimum of $0 required"
-msgstr ""
+msgstr "Íosmhéid $0 ag teastáil"
 
 #: src/components/storage/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
@@ -533,6 +538,8 @@ msgstr ""
 #: src/components/localization/Keyboard.jsx:130
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
+"Níos mó ná leagan amach amháin braite. Bain leagan amach breise le dul ar "
+"aghaidh"
 
 #: src/components/storage/MountPointMapping.jsx:638
 #: src/components/review/StorageReview.jsx:221
@@ -614,7 +621,7 @@ msgstr "Córas oibriucháin"
 
 #: src/components/localization/Keyboard.jsx:77
 msgid "Other keyboards"
-msgstr ""
+msgstr "Méarchláir eile"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:106
 msgid "Partitions (advanced)"
@@ -645,7 +652,7 @@ msgstr "Ceangail an logchomhad $0 leis an gceist le do thoil."
 
 #: src/components/storage/InstallationDestination.jsx:357
 msgid "Please select at least one disk to continue"
-msgstr ""
+msgstr "Roghnaigh diosca amháin ar a laghad le leanúint ar aghaidh"
 
 #: src/components/HeaderKebab.jsx:74
 msgid "Powered by Anaconda"
@@ -702,13 +709,12 @@ msgid "Reboot"
 msgstr "Atosaigh"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:529
-#, fuzzy
-#| msgid "Reboot into Windows to resize BitLocker-encrypted partitions. "
 msgid ""
 "Reboot into Windows to resize BitLocker-encrypted partitions. Make at least "
 "$0 of free space available for installation."
 msgstr ""
-"Atosaigh isteach i Windows chun deighiltí criptithe BitLocker a athrú. "
+"Atosaigh Windows chun méid na ndeighiltí criptithe le BitLocker a athrú. "
+"Déan $0 ar a laghad de spás saor in aisce ar fáil don suiteáil."
 
 #: src/components/AnacondaWizardFooter.jsx:141
 msgid "Reboot system?"
@@ -776,6 +782,10 @@ msgid ""
 "Resizing a partition can free up unused space, but is not risk-free. Be sure "
 "to have backups of anything important before reclaiming space."
 msgstr ""
+"Scriosfar go buan na sonraí go léir atá ann má bhaintear córas comhad. Is "
+"féidir le hathrú méide críochdheighilte spás neamhúsáidte a shaoradh, ach "
+"níl sé saor ó riosca. Bí cinnte go bhfuil cúltacaí agat d'aon rud "
+"tábhachtach sula n-athghabhann tú spás."
 
 #: src/components/storage/HelpAutopartOptions.jsx:11
 msgid "Replace current installation, but keep files in home."
@@ -836,16 +846,12 @@ msgid "Scan the QR code with your phone or visit:"
 msgstr "Scan an cód QR le do ghuthán nó tabhair cuairt ar:"
 
 #: src/components/localization/InstallationLanguage.jsx:213
-#, fuzzy
-#| msgid "Choose a language"
 msgid "Search for a language"
-msgstr "Roghnaigh teanga"
+msgstr "Cuardaigh teanga"
 
 #: src/components/localization/Keyboard.jsx:97
-#, fuzzy
-#| msgid "Choose a language"
 msgid "Search keyboard layout"
-msgstr "Roghnaigh teanga"
+msgstr "Leagan amach méarchláir cuardaigh"
 
 #: src/components/storage/DiskEncryption.jsx:138
 msgid ""
@@ -880,16 +886,12 @@ msgid "Set custom hostname"
 msgstr "Socraigh óstainm saincheaptha"
 
 #: src/components/storage/scenarios/UseFreeSpace.jsx:108
-#, fuzzy
-#| msgid "Share disk with other operating system"
 msgid "Share disk with other operating systems"
-msgstr "Comhroinn diosca le córas oibriúcháin eile"
+msgstr "Comhroinn diosca le córais oibriúcháin eile"
 
 #: src/components/storage/scenarios/UseFreeSpace.jsx:105
-#, fuzzy
-#| msgid "Share disk with other operating system"
 msgid "Share disk with other operating systems: $0"
-msgstr "Comhroinn diosca le córas oibriúcháin eile"
+msgstr "Comhroinn diosca le córais oibriúcháin eile: $0"
 
 #: src/components/Password.jsx:244
 msgid "Show confirmed password"
@@ -949,6 +951,7 @@ msgstr "Eagarthóir stórála"
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:242
 msgid "Storage editor is available only in the `Installation method` step."
 msgstr ""
+"Níl an t-eagarthóir stórála ar fáil ach amháin sa chéim `Modh suiteála`."
 
 #: src/components/storage/HelpAutopartOptions.jsx:13
 msgid "Storage is based on the configuration from 'Modify storage'."
@@ -975,16 +978,12 @@ msgid "Successfully unlocked $0."
 msgstr "D'éirigh le díghlasáil $0."
 
 #: src/components/localization/Keyboard.jsx:77
-#, fuzzy
-#| msgid "Choose a language"
 msgid "Suggested keyboards"
-msgstr "Roghnaigh teanga"
+msgstr "Méarchláir molta"
 
 #: src/components/localization/InstallationLanguage.jsx:139
-#, fuzzy
-#| msgid "Choose a language"
 msgid "Suggested languages"
-msgstr "Roghnaigh teanga"
+msgstr "Teangacha molta"
 
 #: src/components/users/Accounts.jsx:310
 msgid "System"
@@ -1007,6 +1006,8 @@ msgid ""
 "The installation needs $0 of disk space; however, the capacity of the "
 "selected disks is only $1."
 msgstr ""
+"Ní theastaíonn $0 de spás diosca don suiteáil; áfach, níl ach $1 de chumas "
+"na ndioscaí roghnaithe."
 
 #: src/components/Error.jsx:267
 msgid "The installer cannot continue due to a critical error."
@@ -1034,6 +1035,10 @@ msgid ""
 "set up LVM and much more. It is meant to be used as an advanced utility and "
 "not intended to be used in a typical installation."
 msgstr ""
+"Ligeann an t-eagarthóir stórála duit méid na gcríoch a athrú, a scriosadh "
+"agus a chruthú. Is féidir leis LVM agus i bhfad níos mó a chur ar bun. Tá sé "
+"beartaithe le húsáid mar fhóntas ardleibhéil agus níl sé beartaithe le "
+"húsáid i suiteáil tipiciúil."
 
 #: src/components/users/Accounts.jsx:203
 msgid "This account will have administration privilege with sudo."
@@ -1050,6 +1055,7 @@ msgstr "Is bogearraí éagobhsaí, réamhscaoilte é seo"
 #: src/components/storage/DiskEncryption.jsx:115
 msgid "This layout will be used for unlocking your system on boot"
 msgstr ""
+"Úsáidfear an leagan amach seo chun do chóras a dhíghlasáil ag am tosaithe"
 
 #: src/components/storage/DiskEncryption.jsx:62
 msgid "This may take a moment"
@@ -1097,16 +1103,16 @@ msgid ""
 "Unlock LUKS-encrypted partitions to keep existing data and show more "
 "installation methods."
 msgstr ""
+"Díghlasáil críochdheighiltí criptithe LUKS chun sonraí atá ann cheana a "
+"choinneáil agus chun níos mó modhanna suiteála a thaispeáint."
 
 #: src/components/storage/EncryptedDevices.jsx:157
 msgid "Unlock encrypted devices"
 msgstr "Díghlasáil gléasanna criptithe"
 
 #: src/components/localization/Keyboard.jsx:148
-#, fuzzy
-#| msgid "Available Layouts"
 msgid "Unusable layout"
-msgstr "Leaganacha Amach ar Fáil"
+msgstr "Leagan amach neamhúsáidte"
 
 #: src/components/storage/scenarios/UseConfiguredStorage.jsx:103
 msgid "Use configured storage"
@@ -1117,14 +1123,12 @@ msgid "Use entire disk"
 msgstr "Bain úsáid as diosca iomlán"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:593
-#, fuzzy
-#| msgid "Install on the free space?"
 msgid "Use free space"
-msgstr "Suiteáil ar an spás saor in aisce?"
+msgstr "Úsáid spás saor in aisce"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:593
 msgid "Use the RAID device for automatic partitioning"
-msgstr ""
+msgstr "Úsáid an gléas RAID le haghaidh deighilt uathoibríoch"
 
 #: src/components/users/Accounts.jsx:224
 msgid "User name"
@@ -1201,10 +1205,8 @@ msgid "encrypted"
 msgstr "criptithe"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:254
-#, fuzzy
-#| msgid "Recommended partitions:"
 msgid "extended partition"
-msgstr "Deighiltí molta:"
+msgstr "críochdheighilt leathnaithe"
 
 #: src/components/review/StorageReview.jsx:102
 msgid "format as $0"
