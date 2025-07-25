@@ -64,8 +64,8 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-25 03:52+0000\n"
-"PO-Revision-Date: 2025-04-29 09:44+0000\n"
-"Last-Translator: Ooyama Yosiyuki <qqke6wd9k@apricot.ocn.ne.jp>\n"
+"PO-Revision-Date: 2025-07-25 17:42+0000\n"
+"Last-Translator: Takuya Wakazono <pastalian46@gmail.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/ja/>\n"
 "Language: ja\n"
@@ -73,7 +73,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: src/components/storage/InstallationDestination.jsx:190
 #: src/components/storage/InstallationDestination.jsx:311
@@ -228,10 +228,8 @@ msgid "Change"
 msgstr "変更を保存(_S)"
 
 #: src/components/storage/InstallationDestination.jsx:375
-#, fuzzy
-#| msgid "Destination"
 msgid "Change destination"
-msgstr "インストール先"
+msgstr "インストール先を変更"
 
 #: src/components/review/Hostname.jsx:110
 #, fuzzy
@@ -241,7 +239,7 @@ msgstr "ホスト名の指定"
 
 #: src/components/localization/Keyboard.jsx:161
 msgid "Change system keyboard layout"
-msgstr ""
+msgstr "システムのキーボードレイアウトを変更"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:175
 msgid ""
@@ -333,10 +331,8 @@ msgid "Destination"
 msgstr "インストール先"
 
 #: src/components/storage/EncryptedDevices.jsx:71
-#, fuzzy
-#| msgid "The container is encrypted."
 msgid "Destination is encrypted"
-msgstr "コンテナーは暗号化されています。"
+msgstr "インストール先は暗号化されています"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:588
 msgid "Detected valid storage layout:"
@@ -383,7 +379,7 @@ msgstr "エラーの詳細"
 
 #: src/components/installation/InstallationProgress.jsx:236
 msgid "Exit to live desktop"
-msgstr ""
+msgstr "ライブデスクトップに戻る"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:258
 #: src/components/storage/ReclaimSpaceModal.jsx:265
@@ -528,14 +524,12 @@ msgid ""
 msgstr ""
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
-#, fuzzy
-#| msgid "Keep current disk layout and only install into available space."
 msgid ""
 "Keep current disk layout and use available space, to dual-boot with another "
 "OS."
-msgstr ""
-"現在のディスクレイアウトを維持し、利用可能なスペースのみにインストールしま"
-"す。"
+msgstr "別の OS "
+"とデュアルブートできるように、現在のディスクレイアウトを維持し、利用可能な領"
+"域を使用します。"
 
 #: src/components/localization/InstallationLanguage.jsx:253
 #, fuzzy
@@ -546,7 +540,7 @@ msgstr "キーボード(_K)"
 
 #: src/components/storage/DiskEncryption.jsx:95
 msgid "Keyboard layout during boot"
-msgstr ""
+msgstr "起動時のキーボードレイアウト"
 
 #: src/components/review/ReviewConfiguration.jsx:105
 #: src/components/localization/InstallationLanguage.jsx:237
@@ -721,12 +715,8 @@ msgid "Please attach the log file $0 to the issue."
 msgstr "ログファイル $0 をIssueに添付してください。"
 
 #: src/components/storage/InstallationDestination.jsx:357
-#, fuzzy
-#| msgid "No disks selected; please select at least one disk to install to."
 msgid "Please select at least one disk to continue"
-msgstr ""
-"ディスクが選択されていません。インストール先として少なくともディスクを 1 つ選"
-"択してください。"
+msgstr "続行するには少なくともディスクを 1 つ選択してください"
 
 #: src/components/HeaderKebab.jsx:74
 msgid "Powered by Anaconda"
@@ -808,18 +798,12 @@ msgstr "領域の再利用(_R)"
 #: src/components/storage/ReclaimSpaceModal.jsx:134
 #: src/components/storage/ReclaimSpaceModal.jsx:154
 #: src/components/storage/ReclaimSpaceModal.jsx:225
-#, fuzzy
-#| msgctxt "GUI|Reclaim Dialog"
-#| msgid "_Reclaim space"
 msgid "Reclaim space"
-msgstr "領域の再利用(_R)"
+msgstr "領域の再利用"
 
 #: src/components/storage/scenarios/UseFreeSpace.jsx:94
-#, fuzzy
-#| msgctxt "GUI|Reclaim Dialog"
-#| msgid "_Reclaim space"
 msgid "Reclaim space (required)"
-msgstr "領域の再利用(_R)"
+msgstr "領域の再利用 (必須)"
 
 #: src/components/storage/MountPointMapping.jsx:250
 msgid "Recommended"
@@ -847,23 +831,17 @@ msgid "Remove"
 msgstr "削除"
 
 #: src/components/storage/HelpAutopartOptions.jsx:5
-#, fuzzy
-#| msgid ""
-#| "Remove all partitions on the selected devices, including existing "
-#| "operating systems. Make sure you have backed up your data."
 msgid ""
 "Remove all partitions on the selected devices, including existing operating "
 "systems."
-msgstr ""
-"既存のオペレーティング システムを含む、選択したデバイス上のすべてのパーティ"
-"ションを削除します。 データをバックアップしていることを確認してください。"
+msgstr "既存のオペレーティングシステムを含む、選択したデバイス上のすべてのパーティシ"
+"ョンを削除します。"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:138
-#, fuzzy
-#| msgid "Use free space for the installation"
 msgid ""
 "Remove or resize existing filesystems to free up space for the installation."
-msgstr "空き領域をインストールに使用します"
+msgstr "インストール用の領域を解放するために、既存のファイルシステムを削除・リサイズ"
+"してください。"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:140
 msgid ""
@@ -948,14 +926,12 @@ msgstr "言語の選択"
 #: src/components/storage/DiskEncryption.jsx:138
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
-msgstr ""
+msgstr "ディスクベースの暗号化でデータを保護します。新規パーティションにのみ適用され"
+"ます"
 
 #: src/components/storage/InstallationDestination.jsx:400
-#, fuzzy
-#| msgctxt "GUI|Custom Partitioning|Configure Dialog"
-#| msgid "_Select"
 msgid "Select"
-msgstr "選択(_S)"
+msgstr "選択"
 
 #: src/components/storage/MountPointMapping.jsx:324
 #: src/components/storage/MountPointMapping.jsx:358
@@ -963,10 +939,8 @@ msgid "Select a device"
 msgstr "デバイスを選択する"
 
 #: src/components/storage/InstallationDestination.jsx:383
-#, fuzzy
-#| msgid "Destination"
 msgid "Select destination"
-msgstr "インストール先"
+msgstr "インストール先を選択"
 
 #: src/components/storage/MountPointMapping.jsx:129
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -984,7 +958,7 @@ msgstr "ホスト名の指定"
 
 #: src/components/storage/scenarios/UseFreeSpace.jsx:108
 msgid "Share disk with other operating systems"
-msgstr ""
+msgstr "他のオペレーティングシステムとディスクを共有"
 
 #: src/components/storage/scenarios/UseFreeSpace.jsx:105
 msgid "Share disk with other operating systems: $0"
@@ -1152,7 +1126,7 @@ msgstr "これは、プレリリースの不安定なソフトウェアです"
 
 #: src/components/storage/DiskEncryption.jsx:115
 msgid "This layout will be used for unlocking your system on boot"
-msgstr ""
+msgstr "このレイアウトは起動時にシステムのロック解除で使用されます"
 
 #: src/components/storage/DiskEncryption.jsx:62
 msgid "This may take a moment"
@@ -1174,9 +1148,8 @@ msgstr "続行するには、インストール先のデバイスを選択しま
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
-msgstr ""
-"このオプションを使用して、既存のパーティションをリサイズ・削除することで、少"
-"なくとも $0 の容量を解放できます。"
+msgstr "このオプションを使用するには、既存のパーティションをリサイズ・削除して、"
+"少なくとも $0 の容量を解放してください。"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:158
 msgid "Type"
@@ -1199,27 +1172,24 @@ msgstr "ロック解除"
 msgid ""
 "Unlock LUKS-encrypted partitions to keep existing data and show more "
 "installation methods."
-msgstr ""
+msgstr "既存データを保持し、より多くのインストール方法を表示するため、LUKS "
+"で暗号化されたパーティションをロック解除してください。"
 
 #: src/components/storage/EncryptedDevices.jsx:157
 msgid "Unlock encrypted devices"
 msgstr "暗号化されたデバイスのロック解除を行います"
 
 #: src/components/localization/Keyboard.jsx:148
-#, fuzzy
-#| msgid "Available Layouts"
 msgid "Unusable layout"
-msgstr "利用可能なレイアウト"
+msgstr "使用できないレイアウト"
 
 #: src/components/storage/scenarios/UseConfiguredStorage.jsx:103
 msgid "Use configured storage"
 msgstr "構成したストレージを使用する"
 
 #: src/components/storage/scenarios/EraseAll.jsx:74
-#, fuzzy
-#| msgid "Selected disks"
 msgid "Use entire disk"
-msgstr "選択したディスク"
+msgstr "ディスク全体を使用"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:593
 #, fuzzy
@@ -1302,16 +1272,12 @@ msgid "edit"
 msgstr ""
 
 #: src/components/review/StorageReview.jsx:126
-#, fuzzy
-#| msgid "Encrypt"
 msgid "encrypt"
 msgstr "暗号化"
 
 #: src/components/review/StorageReview.jsx:126
-#, fuzzy
-#| msgid "Encrypt"
 msgid "encrypted"
-msgstr "暗号化"
+msgstr "暗号化済み"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:254
 #, fuzzy
