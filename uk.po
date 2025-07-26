@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-25 03:52+0000\n"
+"POT-Creation-Date: 2025-07-26 03:48+0000\n"
 "PO-Revision-Date: 2025-07-13 03:51+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -88,11 +88,16 @@ msgstr ""
 "Знайдено розділ «$0» на пристрої MDRAID $1. Підтримки розділів завантажувача "
 "на пристроях MDRAID не передбачено."
 
+#: src/components/users/Accounts.jsx:195
+msgid ""
+"A standard user account with admin access for making system-wide changes."
+msgstr ""
+
 #: src/components/HeaderKebab.jsx:137
 msgid "About"
 msgstr "Відомості"
 
-#: src/components/review/ReviewConfiguration.jsx:113
+#: src/components/review/ReviewConfiguration.jsx:131
 msgid "Account"
 msgstr "Обліковий запис"
 
@@ -100,6 +105,12 @@ msgstr "Обліковий запис"
 #: src/components/review/StorageReview.jsx:219
 msgid "Actions"
 msgstr "Дії"
+
+#: src/components/datetime/CustomNTPModal.jsx:236
+#, fuzzy
+#| msgid "Add NTP server"
+msgid "Add another server..."
+msgstr "Додати сервер NTP"
 
 #: src/components/storage/MountPointMapping.jsx:663
 msgid "Add mount"
@@ -153,6 +164,19 @@ msgstr ""
 "Прив'язування розділів до точок монтування. Корисно для попередньо "
 "сконфігурованих користувацьких макетів."
 
+#: src/components/datetime/DateAndTime.jsx:147
+#, fuzzy
+#| msgid "Automatically using specific NTP servers"
+msgid "Automatically set date and time, using time servers"
+msgstr "Автоматично за допомогою певних серверів NTP"
+
+#: src/components/datetime/Timezone.jsx:154
+#: src/components/datetime/Timezone.jsx:155
+#, fuzzy
+#| msgid "Automatically using NTP"
+msgid "Automatically set timezone"
+msgstr "Автоматично на основі NTP"
+
 #: src/components/storage/ReclaimSpaceModal.jsx:217
 msgid "Available free space: $0. Installation requires: $1."
 msgstr "Доступний вільний простір: $0. Для встановлення необхідно: $1."
@@ -177,6 +201,7 @@ msgstr ""
 #: src/components/storage/InstallationDestination.jsx:403
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:119
 #: src/components/storage/ReclaimSpaceModal.jsx:228
+#: src/components/datetime/CustomNTPModal.jsx:251
 #: src/components/review/Hostname.jsx:150 src/components/Error.jsx:289
 msgid "Cancel"
 msgstr "Скасувати"
@@ -232,6 +257,16 @@ msgstr ""
 msgid "Completed"
 msgstr "Завершено"
 
+#: src/components/datetime/CustomNTPModal.jsx:269
+msgid "Configure NTP servers"
+msgstr "Налаштувати сервери NTP"
+
+#: src/components/datetime/CustomNTPModal.jsx:158
+#, fuzzy
+#| msgid "Configure NTP servers"
+msgid "Configure custom NTP servers"
+msgstr "Налаштувати сервери NTP"
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:164
 msgid "Configure storage"
 msgstr "Налаштувати сховище даних"
@@ -241,7 +276,7 @@ msgid "Configure storage again"
 msgstr "Повторне налаштовування сховища даних"
 
 #: src/components/storage/DiskEncryption.jsx:124
-#: src/components/users/Accounts.jsx:186 src/components/users/Accounts.jsx:313
+#: src/components/users/Accounts.jsx:159 src/components/users/Accounts.jsx:315
 msgid "Confirm passphrase"
 msgstr "Підтвердіть пароль"
 
@@ -249,7 +284,7 @@ msgstr "Підтвердіть пароль"
 msgid "Continue"
 msgstr "Продовжити"
 
-#: src/components/AnacondaWizardFooter.jsx:163
+#: src/components/AnacondaWizardFooter.jsx:161
 msgid "Continue installation"
 msgstr "Продовжити встановлення"
 
@@ -257,11 +292,11 @@ msgstr "Продовжити встановлення"
 msgid "Continue with installation"
 msgstr "Продовжити встановлення"
 
-#: src/components/users/Accounts.jsx:386
+#: src/components/users/Accounts.jsx:389
 msgid "Create Account"
 msgstr "Створити обліковий запис"
 
-#: src/components/users/Accounts.jsx:203
+#: src/components/users/Accounts.jsx:257
 msgid "Create account"
 msgstr "Створити обліковий запис"
 
@@ -272,6 +307,17 @@ msgstr "Зараз встановлено: $0"
 #: src/components/storage/MountPointMapping.jsx:251
 msgid "Custom"
 msgstr "Нетипове"
+
+#: src/components/datetime/DateAndTime.jsx:186
+msgid "Date"
+msgstr ""
+
+#: src/components/datetime/DateAndTime.jsx:165
+#: src/components/datetime/DateAndTime.jsx:241
+#, fuzzy
+#| msgid "Set Date & Time"
+msgid "Date and time"
+msgstr "Встановити дату і час"
 
 #: src/components/review/StorageReview.jsx:318
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
@@ -302,7 +348,7 @@ msgstr "Дублювання пристрою."
 msgid "Duplicate mount point."
 msgstr "Дублювання точки монтування."
 
-#: src/components/users/Accounts.jsx:296
+#: src/components/users/Accounts.jsx:297
 msgid "Enable root account"
 msgstr "Увімкнути обліковий запис root"
 
@@ -351,11 +397,17 @@ msgstr ""
 "Завершення: налаштовування системи завершено. Потрібно ще трохи часу на "
 "завершення встановлення."
 
-#: src/components/users/Accounts.jsx:207
+#: src/components/users/Accounts.jsx:313
+msgid ""
+"For better security, avoid using the root account directly. Instead, use the "
+"local account above to manage the system."
+msgstr ""
+
+#: src/components/users/Accounts.jsx:197
 msgid "Full name"
 msgstr "Ім’я повністю"
 
-#: src/components/users/Accounts.jsx:172
+#: src/components/users/Accounts.jsx:145
 msgid "Full name cannot contain colon characters"
 msgstr "У повному імені не повинно міститися двокрапок"
 
@@ -363,7 +415,7 @@ msgstr "У повному імені не повинно міститися дв
 msgid "Help us fix the issue!"
 msgstr "Допоможіть виправити ваду!"
 
-#: src/components/Password.jsx:244
+#: src/components/Password.jsx:248
 msgid "Hide confirmed password"
 msgstr "Приховати підтверджений пароль"
 
@@ -371,7 +423,7 @@ msgstr "Приховати підтверджений пароль"
 msgid "Hide passphrase"
 msgstr "Приховати пароль"
 
-#: src/components/Password.jsx:217
+#: src/components/Password.jsx:220
 msgid "Hide password"
 msgstr "Приховати пароль"
 
@@ -384,20 +436,20 @@ msgstr "Назва вузла"
 msgid "How would you like to install?"
 msgstr "Яким способом ви хочете виконати встановлення?"
 
-#: src/components/review/ReviewConfiguration.jsx:171
+#: src/components/review/ReviewConfiguration.jsx:189
 msgid "I understand that all existing data will be erased"
 msgstr "Розумію, що усі наявні дані буде витерто"
 
-#: src/components/review/ReviewConfiguration.jsx:172
+#: src/components/review/ReviewConfiguration.jsx:190
 msgid ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr "Розумію, що усі наявні дані буде витерто з вибраних дисків"
 
-#: src/components/review/ReviewConfiguration.jsx:176
+#: src/components/review/ReviewConfiguration.jsx:194
 msgid "I understand that some existing data will be erased"
 msgstr "Розумію, що частину з наявних даних буде витерто"
 
-#: src/components/review/ReviewConfiguration.jsx:177
+#: src/components/review/ReviewConfiguration.jsx:195
 msgid "I understand that some partitions will be modified"
 msgstr "Розумію, що до деяких розділів буде внесено зміни"
 
@@ -449,7 +501,7 @@ msgstr "Не вдалося встановити систему"
 msgid "Installation of the system failed: $0"
 msgstr "Не вдалося встановити систему: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:128
+#: src/components/review/ReviewConfiguration.jsx:146
 msgid "Installation type"
 msgstr "Тип встановлення"
 
@@ -475,6 +527,12 @@ msgstr ""
 "міститися єдина файлова система або формат (наприклад, PV LVM). Усі наявні "
 "розділи у цьому масиві буде проігноровано."
 
+#: src/components/datetime/CustomNTPModal.jsx:96
+#, fuzzy
+#| msgid "Invalid host name"
+msgid "Invalid hostname"
+msgstr "Некоректна назва вузла"
+
 #: src/components/storage/HelpAutopartOptions.jsx:7
 msgid ""
 "Keep current disk layout and use available space, to dual-boot with another "
@@ -491,7 +549,7 @@ msgstr "Клавіатура"
 msgid "Keyboard layout during boot"
 msgstr "Розкладка клавіатури під час завантаження"
 
-#: src/components/review/ReviewConfiguration.jsx:105
+#: src/components/review/ReviewConfiguration.jsx:123
 #: src/components/localization/InstallationLanguage.jsx:237
 msgid "Language"
 msgstr "Мова"
@@ -567,6 +625,18 @@ msgstr "Прив'язка до точки монтування"
 msgid "Must be at least $0 characters"
 msgstr "Має складатися із принаймні $0 символів"
 
+#: src/components/datetime/CustomNTPModal.jsx:161
+#, fuzzy
+#| msgid "NTP servers:"
+msgid "NTP Servers"
+msgstr "Сервери NTP:"
+
+#: src/components/datetime/CustomNTPModal.jsx:209
+#, fuzzy
+#| msgid "DNS"
+msgid "NTS"
+msgstr "DNS"
+
 #: src/components/storage/ReclaimSpaceModal.jsx:157
 msgid "Name"
 msgstr "Назва"
@@ -604,6 +674,12 @@ msgstr "Не позначено жодного диска"
 msgid "No results found"
 msgstr "Нічого не знайдено"
 
+#: src/components/review/ReviewConfiguration.jsx:67
+#, fuzzy
+#| msgid "no NTP servers have been configured"
+msgid "No user or root account has been configured"
+msgstr "не налаштовано жодного сервера NTP"
+
 #: src/components/storage/scenarios/UseFreeSpace.jsx:65
 msgid "Not enough free space on the selected disks."
 msgstr "На позначених дисках недостатньо вільного місця."
@@ -626,9 +702,13 @@ msgstr ""
 "розробників і тестувальників. НЕ використовуйте це програмне забезпечення "
 "для виконання критично важливих завдань або у промислових середовищах."
 
-#: src/components/review/ReviewConfiguration.jsx:94
+#: src/components/review/ReviewConfiguration.jsx:112
 msgid "Operating system"
 msgstr "Операційна система"
+
+#: src/components/datetime/CustomNTPModal.jsx:165
+msgid "Options"
+msgstr "Параметри"
 
 #: src/components/localization/Keyboard.jsx:77
 msgid "Other keyboards"
@@ -641,7 +721,7 @@ msgstr "Розділи (додатково)"
 #: src/components/storage/EncryptedDevices.jsx:169
 #: src/components/storage/EncryptedDevices.jsx:176
 #: src/components/storage/DiskEncryption.jsx:121
-#: src/components/users/Accounts.jsx:183 src/components/users/Accounts.jsx:310
+#: src/components/users/Accounts.jsx:156 src/components/users/Accounts.jsx:311
 msgid "Passphrase"
 msgstr "Пароль"
 
@@ -649,7 +729,7 @@ msgstr "Пароль"
 msgid "Passphrase did not match any locked device"
 msgstr "Пароль не є відповідним до жодного заблокованого пристрою"
 
-#: src/components/Password.jsx:257
+#: src/components/Password.jsx:261
 msgid "Passphrases must match"
 msgstr "Паролі мають збігатися"
 
@@ -665,6 +745,10 @@ msgstr "Будь ласка, додайте до повідомлення про
 msgid "Please select at least one disk to continue"
 msgstr "Будь ласка, позначте принаймні один диск, щоб продовжити"
 
+#: src/components/datetime/CustomNTPModal.jsx:202
+msgid "Pool"
+msgstr "Набір"
+
 #: src/components/HeaderKebab.jsx:74
 msgid "Powered by Anaconda"
 msgstr "На основі Anaconda"
@@ -677,12 +761,12 @@ msgstr "Тестовий випуск"
 msgid "Proceed with installation"
 msgstr "Продовжити встановлення"
 
-#: src/components/AnacondaWizardFooter.jsx:120
-#: src/components/AnacondaWizardFooter.jsx:156 src/components/Error.jsx:256
+#: src/components/AnacondaWizardFooter.jsx:119
+#: src/components/AnacondaWizardFooter.jsx:154 src/components/Error.jsx:256
 msgid "Quit"
 msgstr "Вийти"
 
-#: src/components/AnacondaWizardFooter.jsx:141
+#: src/components/AnacondaWizardFooter.jsx:139
 msgid "Quit installer?"
 msgstr "Вийти зі встановлювача?"
 
@@ -714,8 +798,8 @@ msgstr ""
 msgid "Real hostname must be 64 characters or less"
 msgstr "Справжня назва вузла має складатися не більше, ніж з 64 символів"
 
-#: src/components/AnacondaWizardFooter.jsx:120
-#: src/components/AnacondaWizardFooter.jsx:156 src/components/Error.jsx:256
+#: src/components/AnacondaWizardFooter.jsx:119
+#: src/components/AnacondaWizardFooter.jsx:154 src/components/Error.jsx:256
 msgid "Reboot"
 msgstr "Перезавантажити"
 
@@ -727,7 +811,7 @@ msgstr ""
 "Перезавантажтеся у Windows, щоб змінити розмір зашифрованих BitLocker "
 "розділів. Звільніть принаймні $0 для встановлення."
 
-#: src/components/AnacondaWizardFooter.jsx:141
+#: src/components/AnacondaWizardFooter.jsx:139
 msgid "Reboot system?"
 msgstr "Перезавантажити систему?"
 
@@ -787,6 +871,12 @@ msgstr ""
 "Вилучіть наявні файлові системи або змініть їхні розміри, щоб звільнити "
 "місце для встановлення."
 
+#: src/components/datetime/CustomNTPModal.jsx:220
+#, fuzzy
+#| msgid "Remove NTP server"
+msgid "Remove server"
+msgstr "Вилучити сервер NTP"
+
 #: src/components/storage/ReclaimSpaceModal.jsx:140
 msgid ""
 "Removing a filesystem will permanently delete all of the data it contains. "
@@ -843,11 +933,22 @@ msgstr "Повернутися до встановлення"
 msgid "Return to storage editor"
 msgstr "Повернутися до редактора сховищ даних"
 
-#: src/components/review/ReviewConfiguration.jsx:228
-#: src/components/review/ReviewConfiguration.jsx:229
+#: src/components/review/ReviewConfiguration.jsx:246
+#: src/components/review/ReviewConfiguration.jsx:247
 msgid "Review and install"
 msgstr "Переглянути і встановити"
 
+#: src/components/review/ReviewConfiguration.jsx:75
+#, fuzzy
+#| msgid "Root account is disabled"
+msgid "Root account is enabled"
+msgstr "Обліковий запис root вимкнено"
+
+#: src/components/review/ReviewConfiguration.jsx:69
+msgid "Root account is enabled, but no user account has been configured"
+msgstr ""
+
+#: src/components/datetime/CustomNTPModal.jsx:248
 #: src/components/review/Hostname.jsx:148
 msgid "Save"
 msgstr "Зберегти"
@@ -882,9 +983,21 @@ msgstr "Позначити"
 msgid "Select a device"
 msgstr "Виберіть пристрій"
 
+#: src/components/datetime/Timezone.jsx:190
+#, fuzzy
+#| msgid "Select"
+msgid "Select city"
+msgstr "Позначити"
+
 #: src/components/storage/InstallationDestination.jsx:383
 msgid "Select destination"
 msgstr "Виберіть призначення"
+
+#: src/components/datetime/Timezone.jsx:171
+#, fuzzy
+#| msgid "Select none"
+msgid "Select region"
+msgstr "Не вибирати жодного"
 
 #: src/components/storage/MountPointMapping.jsx:129
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -893,6 +1006,17 @@ msgstr "Повторне форматування для вибраного фо
 #: src/components/installation/Feedback.jsx:40
 msgid "Send us feedback on your installation"
 msgstr "Надішліть нам відгук щодо встановленої системи"
+
+#: src/components/datetime/CustomNTPModal.jsx:164
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "_Server:"
+msgid "Server"
+msgstr "С_ервер:"
+
+#: src/components/datetime/CustomNTPModal.jsx:194
+msgid "Server is not reachable"
+msgstr ""
 
 #: src/components/review/Hostname.jsx:110
 msgid "Set custom hostname"
@@ -906,7 +1030,14 @@ msgstr "Надати диск у спільне використання для 
 msgid "Share disk with other operating systems: $0"
 msgstr "Надати диск у спільне використання для інших операційних систем: $0"
 
-#: src/components/Password.jsx:244
+#: src/components/datetime/DateAndTime.jsx:206
+#, fuzzy
+#| msgctxt "GUI|Date and Time"
+#| msgid "_AM/PM"
+msgid "Show AM/PM"
+msgstr "_ДО/ПО"
+
+#: src/components/Password.jsx:248
 msgid "Show confirmed password"
 msgstr "Показати підтверджений пароль"
 
@@ -914,13 +1045,19 @@ msgstr "Показати підтверджений пароль"
 msgid "Show passphrase"
 msgstr "Показати пароль"
 
-#: src/components/Password.jsx:217
+#: src/components/Password.jsx:220
 msgid "Show password"
 msgstr "Показати пароль"
 
 #: src/components/review/StorageReview.jsx:218
 msgid "Size"
 msgstr "Розмір"
+
+#: src/components/users/Accounts.jsx:379
+msgid ""
+"Skipping account creation during installation. It will happen on first boot "
+"instead."
+msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:152
 msgid "Software installation"
@@ -942,14 +1079,14 @@ msgstr "Не вистачає декількох обов'язкових роз�
 msgid "Space"
 msgstr "Місце"
 
-#: src/components/review/ReviewConfiguration.jsx:135
+#: src/components/review/ReviewConfiguration.jsx:153
 msgid "Storage"
 msgstr "Сховище даних"
 
 #: src/components/installation/InstallationProgress.jsx:147
 #: src/components/storage/StorageConfiguration.jsx:92
 #: src/components/storage/StorageConfiguration.jsx:93
-#: src/components/steps.js:25
+#: src/components/steps.js:27
 msgid "Storage configuration"
 msgstr "Налаштування сховища даних"
 
@@ -1001,7 +1138,7 @@ msgstr "Пропоновані клавіатури"
 msgid "Suggested languages"
 msgstr "Пропоновані мови"
 
-#: src/components/users/Accounts.jsx:325
+#: src/components/users/Accounts.jsx:327
 msgid "System"
 msgstr "Система"
 
@@ -1052,12 +1189,6 @@ msgstr ""
 "користуватися як інструментом для досвідчених користувачів, його не "
 "призначено для використання під час стандартного встановлення."
 
-#: src/components/users/Accounts.jsx:205
-msgid "This account will have administration privilege with sudo."
-msgstr ""
-"Цей обліковий запис матиме адміністративні права доступу з використанням "
-"sudo."
-
 #: src/components/review/Hostname.jsx:74
 msgid "This hostname can't be submitted"
 msgstr "Цю назву вузла не може бути надіслано"
@@ -1078,6 +1209,18 @@ msgstr "Зачекайте, будь ласка"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:445
 msgid "This will take a few moments"
 msgstr "Зачекайте, будь ласка"
+
+#: src/components/datetime/DateAndTime.jsx:197
+#, fuzzy
+#| msgid "Time zone"
+msgid "Time"
+msgstr "Часовий пояс"
+
+#: src/components/datetime/Timezone.jsx:144
+#, fuzzy
+#| msgid "Time zone"
+msgid "Timezone"
+msgstr "Часовий пояс"
 
 #: src/components/installation/InstallationProgress.jsx:178
 msgid "To begin using $0, reboot your system."
@@ -1140,15 +1283,21 @@ msgstr "Використати увесь диск"
 msgid "Use free space"
 msgstr "Використати вільне місце"
 
+#: src/components/users/Accounts.jsx:183
+#, fuzzy
+#| msgid "Create account"
+msgid "Use local account"
+msgstr "Створити обліковий запис"
+
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:593
 msgid "Use the RAID device for automatic partitioning"
 msgstr "Використати пристрій RAID для автоматичного поділу на розділи"
 
-#: src/components/users/Accounts.jsx:238
+#: src/components/users/Accounts.jsx:228
 msgid "User name"
 msgstr "Ім’я користувача"
 
-#: src/components/users/Accounts.jsx:160
+#: src/components/users/Accounts.jsx:133
 msgid ""
 "User name may only contain: letters from a-z, digits 0-9, dash $0, period "
 "$1, underscore $2"
@@ -1156,11 +1305,11 @@ msgstr ""
 "Ім'я користувача може складатися лише з таких символів: літер a-z, цифр 0-9, "
 "дефісів $0, крапок $1, символів підкреслення $2"
 
-#: src/components/users/Accounts.jsx:157
+#: src/components/users/Accounts.jsx:130
 msgid "User name must not be a reserved word"
 msgstr "Ім’я користувача не може бути зарезервованим словом"
 
-#: src/components/users/Accounts.jsx:154
+#: src/components/users/Accounts.jsx:127
 msgid "User names must be shorter than 33 characters"
 msgstr "Довжина імені користувача не повинна перевищувати 32 символи"
 
@@ -1189,7 +1338,11 @@ msgstr ""
 "можливість автоматично визначити параметри або налаштувати параметри "
 "розділів вручну."
 
-#: src/components/AnacondaWizardFooter.jsx:145
+#: src/components/datetime/DateAndTime.jsx:156
+msgid "You must be connected to a network to enable automatic date and time."
+msgstr ""
+
+#: src/components/AnacondaWizardFooter.jsx:143
 msgid "Your progress will not be saved."
 msgstr "Поступ не буде збережено."
 
@@ -1251,6 +1404,11 @@ msgstr "стиснути до $0"
 #: src/components/storage/ReclaimSpaceModal.jsx:390
 msgid "undo"
 msgstr "скасувати"
+
+#~ msgid "This account will have administration privilege with sudo."
+#~ msgstr ""
+#~ "Цей обліковий запис матиме адміністративні права доступу з використанням "
+#~ "sudo."
 
 #~ msgid "Clear search input"
 #~ msgstr "Вилучити ключ пошуку"
@@ -2010,9 +2168,6 @@ msgstr "скасувати"
 #~ msgid "Add Layout"
 #~ msgstr "Додавання розкладки"
 
-#~ msgid "Add NTP server"
-#~ msgstr "Додати сервер NTP"
-
 #~ msgid "Add NTP server address"
 #~ msgstr "Додати адресу сервера NTP"
 
@@ -2448,9 +2603,6 @@ msgstr "скасувати"
 #~ msgid "Configure NTP"
 #~ msgstr "Налаштувати NTP"
 
-#~ msgid "Configure NTP servers"
-#~ msgstr "Налаштувати сервери NTP"
-
 #~ msgid "Configure Network Time Servers"
 #~ msgstr "Налаштувати сервери мережевого часу"
 
@@ -2582,9 +2734,6 @@ msgstr "скасувати"
 
 #~ msgid "DISTRIBUTION INSTALLATION"
 #~ msgstr "ВСТАНОВЛЕННЯ ДИСТРИБУТИВА"
-
-#~ msgid "DNS"
-#~ msgstr "DNS"
 
 #~ msgctxt "GUI|Password"
 #~ msgid "D_isable root account"
@@ -3382,9 +3531,6 @@ msgstr "скасувати"
 #~ msgid "Invalid group name."
 #~ msgstr "Некоректна назва групи."
 
-#~ msgid "Invalid host name"
-#~ msgstr "Некоректна назва вузла"
-
 #~ msgid ""
 #~ "Invalid input. Specify the Desired Capacity in whole or decimal numbers, "
 #~ "with an appropriate unit."
@@ -3641,9 +3787,6 @@ msgstr "скасувати"
 #~ msgid "NTP configuration"
 #~ msgstr "Налаштування NTP"
 
-#~ msgid "NTP servers:"
-#~ msgstr "Сервери NTP:"
-
 #, python-brace-format
 #~ msgid "NVDIMM device {namespace}"
 #~ msgstr "Пристрій NVDIMM {namespace}"
@@ -3896,9 +4039,6 @@ msgstr "скасувати"
 #~ msgstr ""
 #~ "Необов'язковий список відокремлених комами параметрів монтування NFS"
 
-#~ msgid "Options"
-#~ msgstr "Параметри"
-
 #~ msgid ""
 #~ "Or, assign new mount points to existing partitions after selecting them "
 #~ "below."
@@ -4132,9 +4272,6 @@ msgstr "скасувати"
 
 #~ msgid "Please wait... software metadata still loading."
 #~ msgstr "Зачекайте… завантажуємо метадані програмного забезпечення."
-
-#~ msgid "Pool"
-#~ msgstr "Набір"
 
 #~ msgid "Port"
 #~ msgstr "Порт"
@@ -4395,9 +4532,6 @@ msgstr "скасувати"
 #~ msgid "Remove"
 #~ msgstr "Вилучити"
 
-#~ msgid "Remove NTP server"
-#~ msgstr "Вилучити сервер NTP"
-
 #~ msgid "Remove the selected mount point(s)."
 #~ msgstr "Вилучити позначені точки монтування."
 
@@ -4482,9 +4616,6 @@ msgstr "скасувати"
 
 #~ msgid "Root Selection"
 #~ msgstr "Вибір кореня"
-
-#~ msgid "Root account is disabled"
-#~ msgstr "Обліковий запис root вимкнено"
 
 #~ msgid "Root password"
 #~ msgstr "Пароль користувача root"
@@ -4656,9 +4787,6 @@ msgstr "скасувати"
 
 #~ msgid "Service level"
 #~ msgstr "Рівень служби"
-
-#~ msgid "Set Date & Time"
-#~ msgstr "Встановити дату і час"
 
 #~ msgctxt "GUI|Subscription|Set System Purpose"
 #~ msgid "Set System Purpose"
@@ -6298,10 +6426,6 @@ msgstr "скасувати"
 #~ "\tchroot %(mountpoint)s\n"
 #~ "\n"
 
-#~ msgctxt "GUI|Date and Time"
-#~ msgid "_AM/PM"
-#~ msgstr "_ДО/ПО"
-
 #~ msgctxt "GUI|Summary Dialog"
 #~ msgid "_Accept Changes"
 #~ msgstr "П_ідтвердити зміни"
@@ -6938,10 +7062,6 @@ msgstr "скасувати"
 #~ msgid "_Select the type of device you wish to add"
 #~ msgstr "_Вибрати тип пристрою, який слід додати"
 
-#~ msgctxt "GUI|Software Source"
-#~ msgid "_Server:"
-#~ msgstr "С_ервер:"
-
 #~ msgctxt "GUI|Selected Disks Dialog"
 #~ msgid "_Set as Boot Device"
 #~ msgstr "З_робити завантажувальним пристроєм"
@@ -7446,9 +7566,6 @@ msgstr "скасувати"
 #~ msgid "Select no disk"
 #~ msgstr "Не вибирати жодного диска"
 
-#~ msgid "Select none"
-#~ msgstr "Не вибирати жодного"
-
 #~ msgid ""
 #~ "Select the device(s) to install to. The installation requires $0 of "
 #~ "available space. Storage will be automatically partitioned."
@@ -7927,20 +8044,11 @@ msgstr "скасувати"
 #~ msgid "Log messages"
 #~ msgstr "Повідомлення журналу"
 
-#~ msgid "Time zone"
-#~ msgstr "Часовий пояс"
-
 #~ msgid "Set time"
 #~ msgstr "Встановити час"
 
 #~ msgid "Manually"
 #~ msgstr "Вручну"
-
-#~ msgid "Automatically using NTP"
-#~ msgstr "Автоматично на основі NTP"
-
-#~ msgid "Automatically using specific NTP servers"
-#~ msgstr "Автоматично за допомогою певних серверів NTP"
 
 #~ msgid "Pick date"
 #~ msgstr "Вибрати дату"
@@ -8210,9 +8318,6 @@ msgstr "скасувати"
 
 #~ msgid "org.fedoraproject.AnacondaInstaller"
 #~ msgstr "org.fedoraproject.AnacondaInstaller"
-
-#~ msgid "no NTP servers have been configured"
-#~ msgstr "не налаштовано жодного сервера NTP"
 
 #~ msgid "Error setting up installation from HDD"
 #~ msgstr "Помилка під час спроби налаштувати встановлення з HDD"
