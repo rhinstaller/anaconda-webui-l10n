@@ -64,7 +64,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-27 03:59+0000\n"
-"PO-Revision-Date: 2025-07-27 16:04+0000\n"
+"PO-Revision-Date: 2025-07-28 04:01+0000\n"
 "Last-Translator: Takuya Wakazono <pastalian46@gmail.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/ja/>\n"
@@ -78,13 +78,13 @@ msgstr ""
 #: src/components/storage/InstallationDestination.jsx:190
 #: src/components/storage/InstallationDestination.jsx:311
 msgid "$0 $1"
-msgstr ""
+msgstr "$0 $1"
 
 #: src/components/storage/InstallationDestination.jsx:210
 #: src/components/storage/InstallationDestination.jsx:304
 #: src/components/storage/MountPointMapping.jsx:369
 msgid "$0 ($1)"
-msgstr ""
+msgstr "$0 ($1)"
 
 #: src/components/app.jsx:94
 msgid "$0 installation"
@@ -99,13 +99,13 @@ msgid ""
 "$0 is an MBR extended partition that contains logical partitions. Removing "
 "all logical partitions will also automatically remove the extended partition."
 msgstr ""
+"$0 は論理パーティションを含む MBR "
+"拡張パーティションです。全ての論理パーティションを削除すると拡張パーティショ"
+"ンも自動的に削除されます。"
 
 #: src/components/localization/Keyboard.jsx:149
-#, fuzzy
-#| msgid "$0 selected"
-#| msgid_plural "$0 selected"
 msgid "$0 layouts detected"
-msgstr "$0 選択済みです"
+msgstr "$0 個レイアウトを検出"
 
 #: src/components/review/StorageReview.jsx:260
 #, fuzzy
@@ -114,11 +114,8 @@ msgid "$0 will be deleted"
 msgstr "ユーザーは作成されません"
 
 #: src/components/storage/MountPointMapping.jsx:210
-#, fuzzy
-#| msgid "'$0' filesystem cannot be on an ecnrypted block device"
 msgid "'$0' filesystem cannot be on an encrypted block device"
-msgstr ""
-"ファイルシステム '$0' は、暗号化ブロックデバイス上に置くことができません"
+msgstr "ファイルシステム '$0' は、暗号化ブロックデバイス上に置くことができません"
 
 #: src/components/storage/MountPointMapping.jsx:204
 msgid "'$0' must be on a device formatted to '$1'"
@@ -175,7 +172,7 @@ msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:102
 msgid "All changes made in the storage editor take effect immediately."
-msgstr ""
+msgstr "ストレージエディターで行った変更は全て即座に反映されます。"
 
 #: src/components/storage/EncryptedDevices.jsx:152
 msgid "All devices using this passphrase will be unlocked"
@@ -214,7 +211,7 @@ msgstr ""
 
 #: src/components/storage/ReclaimSpaceModal.jsx:217
 msgid "Available free space: $0. Installation requires: $1."
-msgstr ""
+msgstr "利用可能な空き領域: $0。 インストールに必要な領域: $1。"
 
 #: src/components/AnacondaWizardFooter.jsx:97
 msgid "Back"
@@ -599,10 +596,8 @@ msgstr "言語"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:112
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:232
-#, fuzzy
-#| msgid "Return to storage editor"
 msgid "Launch storage editor"
-msgstr "ストレージエディターに戻る"
+msgstr "ストレージエディターを起動"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:156
 msgid "Location"
@@ -648,7 +643,8 @@ msgstr "親デバイスと子デバイスの再フォーマットの選択が一
 
 #: src/components/localization/Keyboard.jsx:130
 msgid "More than one layout detected. Remove additional layouts to proceed"
-msgstr ""
+msgstr "複数のレイアウトが検出されました。続行するには余分なレイアウトを削除してくだ"
+"さい"
 
 #: src/components/storage/MountPointMapping.jsx:638
 #: src/components/review/StorageReview.jsx:221
@@ -1151,14 +1147,12 @@ msgid "Storage configuration: Storage is currently being configured."
 msgstr "ストレージの構成: ストレージは現在構成中です。"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:93
-#, fuzzy
-#| msgid "Return to storage editor"
 msgid "Storage editor"
-msgstr "ストレージエディターに戻る"
+msgstr "ストレージエディター"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:242
 msgid "Storage editor is available only in the `Installation method` step."
-msgstr ""
+msgstr "ストレージエディターは「インストール方法」のステップでのみ利用可能です。"
 
 #: src/components/storage/HelpAutopartOptions.jsx:13
 msgid "Storage is based on the configuration from 'Modify storage'."
@@ -1242,6 +1236,9 @@ msgid ""
 "set up LVM and much more. It is meant to be used as an advanced utility and "
 "not intended to be used in a typical installation."
 msgstr ""
+"ストレージエディターではパーティションのリサイズ、削除、作成が可能です。LVM "
+"の設定なども可能です。これは高度なユーティリティであり、通常のインストールで"
+"使用することは想定されていません。"
 
 #: src/components/review/Hostname.jsx:74
 msgid "This hostname can't be submitted"
@@ -1297,11 +1294,11 @@ msgstr "タイプ"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:105
 msgid "Unable to schedule deletion of $0"
-msgstr ""
+msgstr "$0 の削除を予約できません"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:107
 msgid "Unable to schedule resizing of $0"
-msgstr ""
+msgstr "$0 のリサイズを予約できません"
 
 #: src/components/storage/EncryptedDevices.jsx:77
 #: src/components/storage/EncryptedDevices.jsx:197
@@ -1384,7 +1381,7 @@ msgstr "ようこそ。今すぐ $0 をインストールしましょう。"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:527
 msgid "Windows partitions with BitLocker encryption cannot be resized"
-msgstr ""
+msgstr "BitLocker で暗号化された Windows パーティションはリサイズできません"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:101
 msgid ""
@@ -1454,14 +1451,12 @@ msgstr ""
 
 #: src/components/storage/ReclaimSpaceModal.jsx:472
 #: src/components/storage/ReclaimSpaceModal.jsx:476
-#, fuzzy
-#| msgid "Shrink"
 msgid "shrink"
 msgstr "縮小"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:430
 msgid "shrink to $0"
-msgstr ""
+msgstr "$0 に縮小"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:390
 msgid "undo"
