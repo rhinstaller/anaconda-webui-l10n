@@ -39,8 +39,8 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-08 03:57+0000\n"
-"PO-Revision-Date: 2025-05-15 22:41+0000\n"
-"Last-Translator: Rui Cruz <rmfc27@outlook.pt>\n"
+"PO-Revision-Date: 2025-08-09 03:42+0000\n"
+"Last-Translator: Hugo Costa <hugo.a.costa@outlook.pt>\n"
 "Language-Team: Portuguese <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/pt/>\n"
 "Language: pt\n"
@@ -48,7 +48,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.11.3\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: src/components/storage/InstallationDestination.jsx:190
 #: src/components/storage/InstallationDestination.jsx:311
@@ -74,8 +74,9 @@ msgid ""
 "$0 is an MBR extended partition that contains logical partitions. Removing "
 "all logical partitions will also automatically remove the extended partition."
 msgstr ""
-"$0 é uma partição estendida MBR que contém partições lógicas. Remover todas "
-"as partições lógicas também removerá automaticamente a partição estendida."
+"$0 é uma partição estendida MBR que contém partições lógicas. Ao remover "
+"todas as partições lógicas, a partição estendida será também removida "
+"automaticamente."
 
 #: src/components/localization/Keyboard.jsx:149
 msgid "$0 layouts detected"
@@ -88,8 +89,8 @@ msgstr "$0 será apagado"
 #: src/components/storage/MountPointMapping.jsx:210
 msgid "'$0' filesystem cannot be on an encrypted block device"
 msgstr ""
-"'$0' sistema de arquivo não pode ser em um dispositivo criptografado "
-"bloqueado"
+"O sistema de ficheiros '$0' não pode estar num dispositivo de bloco "
+"encriptado"
 
 #: src/components/storage/MountPointMapping.jsx:204
 msgid "'$0' must be on a device formatted to '$1'"
@@ -107,6 +108,8 @@ msgstr ""
 msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr ""
+"Uma conta de utilizador normal com acesso de administrador para efetuar "
+"alterações a nível do sistema."
 
 #: src/components/HeaderKebab.jsx:137
 msgid "About"
@@ -122,10 +125,8 @@ msgid "Actions"
 msgstr "Ação"
 
 #: src/components/datetime/CustomNTPModal.jsx:236
-#, fuzzy
-#| msgid "Add NTP server"
 msgid "Add another server..."
-msgstr "Adicionar servidor NTP"
+msgstr "Adicionar outro servidor..."
 
 #: src/components/storage/MountPointMapping.jsx:663
 msgid "Add mount"
@@ -139,10 +140,13 @@ msgstr "Idiomas adicionais"
 msgid ""
 "After creating the issue, click 'Add attachment' and attach file $0 and $1."
 msgstr ""
+"Depois de criar o pedido, clique em 'Adicionar anexo' e anexe os ficheiros $"
+"0 e $1."
 
 #: src/components/Error.jsx:194
 msgid "After creating the issue, click 'Add attachment' and attach file $0."
 msgstr ""
+"Depois de criar o pedido, clique em 'Adicionar anexo' e anexe o ficheiro $0."
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:102
 msgid "All changes made in the storage editor take effect immediately."
@@ -179,12 +183,12 @@ msgstr ""
 
 #: src/components/datetime/DateAndTime.jsx:147
 msgid "Automatically set date and time, using time servers"
-msgstr ""
+msgstr "Definir automaticamente a data e a hora, utilizando servidores de tempo"
 
 #: src/components/datetime/Timezone.jsx:158
 #: src/components/datetime/Timezone.jsx:159
 msgid "Automatically set timezone"
-msgstr ""
+msgstr "Definir automaticamente o fuso horário"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:217
 msgid "Available free space: $0. Installation requires: $1."
@@ -244,14 +248,12 @@ msgid "Checking storage configuration"
 msgstr "A verificar a configuração do armazenamento"
 
 #: src/components/localization/Common.jsx:119
-#, fuzzy
-#| msgid "Clear search input"
 msgid "Clear search"
-msgstr "Limpar entrada de pesquisa"
+msgstr "Limpar pesquisa"
 
 #: src/components/Error.jsx:187
 msgid "Click \"$0\" to open Bugzilla in a new window."
-msgstr ""
+msgstr "Clique em \"$0\" para abrir o Bugzilla numa nova janela."
 
 #: src/components/storage/InstallationDestination.jsx:408
 #: src/components/storage/EncryptedDevices.jsx:200
@@ -259,10 +261,8 @@ msgid "Close"
 msgstr "Fechar"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:178
-#, fuzzy
-#| msgid "Storage editor"
 msgid "Close storage editor"
-msgstr "Editor de armazenamento"
+msgstr "Fechar o editor de armazenamento"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:299
 msgid ""
@@ -280,10 +280,8 @@ msgid "Configure NTP servers"
 msgstr "Configurar servidores NTP"
 
 #: src/components/datetime/CustomNTPModal.jsx:158
-#, fuzzy
-#| msgid "Configure NTP servers"
 msgid "Configure custom NTP servers"
-msgstr "Configurar servidores NTP"
+msgstr "Configurar servidores NTP personalizados"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:164
 msgid "Configure storage"
@@ -332,10 +330,8 @@ msgstr ""
 
 #: src/components/datetime/DateAndTime.jsx:165
 #: src/components/datetime/DateAndTime.jsx:241
-#, fuzzy
-#| msgid "Set Date & Time"
 msgid "Date and time"
-msgstr "Configurar data e hora"
+msgstr "Data e hora"
 
 #: src/components/review/StorageReview.jsx:318
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
@@ -420,6 +416,8 @@ msgid ""
 "For better security, avoid using the root account directly. Instead, use the "
 "local account above to manage the system."
 msgstr ""
+"Para uma melhor segurança, não utilize diretamente a conta root. Use antes a "
+"conta local acima para administrar o sistema."
 
 #: src/components/users/Accounts.jsx:197
 msgid "Full name"
@@ -431,7 +429,7 @@ msgstr "O nome completo não pode conter caracteres de dois pontos"
 
 #: src/components/Error.jsx:183
 msgid "Help us fix the issue!"
-msgstr ""
+msgstr "Ajude-nos a resolver o problema!"
 
 #: src/components/Password.jsx:248
 msgid "Hide confirmed password"
@@ -512,10 +510,8 @@ msgstr "Método de instalação"
 
 #: src/components/installation/InstallationProgress.jsx:119
 #: src/components/installation/InstallationProgress.jsx:123
-#, fuzzy
-#| msgid "Installation of the system failed: $0"
 msgid "Installation of the system failed"
-msgstr "A instalação do sistema falhou: $0"
+msgstr "A instalação do sistema falhou"
 
 #: src/components/installation/InstallationProgress.jsx:99
 msgid "Installation of the system failed: $0"
@@ -531,7 +527,7 @@ msgstr "A instalar"
 
 #: src/components/storage/InstallationDestination.jsx:342
 msgid "Insufficient disk space"
-msgstr ""
+msgstr "Não há espaço suficiente no disco"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:238
 msgid ""
@@ -548,10 +544,8 @@ msgstr ""
 "existentes neste array serão ignoradas."
 
 #: src/components/datetime/CustomNTPModal.jsx:96
-#, fuzzy
-#| msgid "Invalid host name"
 msgid "Invalid hostname"
-msgstr "Hostname inválido"
+msgstr "Nome de anfitrião inválido"
 
 #: src/components/storage/HelpAutopartOptions.jsx:7
 msgid ""
@@ -589,13 +583,16 @@ msgstr "Dispositivos bloqueados"
 
 #: src/components/Error.jsx:190
 msgid "Log in to Bugzilla, or create a new account."
-msgstr ""
+msgstr "Inicie sessão no Bugzilla ou crie uma nova conta."
 
 #: src/components/Error.jsx:198
 msgid ""
 "Logs may contain sensitive information like IP addresses or usernames. "
 "Attachments on Bugzilla issues are marked private by default."
 msgstr ""
+"Os registos podem conter informações sensíveis, como endereços IP ou nomes "
+"de utilizador. Os anexos nos pedidos do Bugzilla são marcados como privados "
+"por defeito."
 
 #: src/components/storage/MountPointMapping.jsx:775
 msgid "Manual disk configuration"
@@ -615,7 +612,7 @@ msgstr "Média"
 
 #: src/components/storage/InstallationDestination.jsx:345
 msgid "Minimum of $0 required"
-msgstr ""
+msgstr "É necessário um mínimo de $0"
 
 #: src/components/storage/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
@@ -643,16 +640,12 @@ msgid "Must be at least $0 characters"
 msgstr "Deve ter pelo menos $0 caracteres"
 
 #: src/components/datetime/CustomNTPModal.jsx:161
-#, fuzzy
-#| msgid "NTP servers:"
 msgid "NTP Servers"
-msgstr "Servidores NTP:"
+msgstr "Servidores NTP"
 
 #: src/components/datetime/CustomNTPModal.jsx:209
-#, fuzzy
-#| msgid "DNS"
 msgid "NTS"
-msgstr "DNS"
+msgstr "NTS"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:157
 msgid "Name"
@@ -693,7 +686,7 @@ msgstr "Nenhum resultado encontrado"
 
 #: src/components/review/ReviewConfiguration.jsx:75
 msgid "No user or root account has been configured"
-msgstr ""
+msgstr "Nenhuma conta de utilizador ou root foi configurada"
 
 #: src/components/storage/scenarios/UseFreeSpace.jsx:65
 msgid "Not enough free space on the selected disks."
@@ -757,12 +750,8 @@ msgid "Please attach the log file $0 to the issue."
 msgstr "Por favor adicione o ficheiro de registo $0 ao problema."
 
 #: src/components/storage/InstallationDestination.jsx:357
-#, fuzzy
-#| msgid "No disks selected; please select at least one disk to install to."
 msgid "Please select at least one disk to continue"
-msgstr ""
-"Sem disco selecionado. Por favor, selecione pelo menos um disco para "
-"instalar."
+msgstr "Por favor, selecione pelo menos um disco para continuar"
 
 #: src/components/datetime/CustomNTPModal.jsx:202
 msgid "Pool"
@@ -891,10 +880,8 @@ msgstr ""
 "espaço para instalação."
 
 #: src/components/datetime/CustomNTPModal.jsx:220
-#, fuzzy
-#| msgid "Remove NTP server"
 msgid "Remove server"
-msgstr "Remover servidor NTP"
+msgstr "Remover servidor"
 
 #: src/components/storage/ReclaimSpaceModal.jsx:140
 msgid ""
@@ -958,14 +945,13 @@ msgid "Review and install"
 msgstr "Rever e instalar"
 
 #: src/components/review/ReviewConfiguration.jsx:83
-#, fuzzy
-#| msgid "Root account is disabled"
 msgid "Root account is enabled"
-msgstr "A conta \"root\" está desativada"
+msgstr "A conta root está ativada"
 
 #: src/components/review/ReviewConfiguration.jsx:77
 msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
+"A conta root está ativada, mas nenhuma conta de utilizador foi configurada"
 
 #: src/components/datetime/CustomNTPModal.jsx:248
 #: src/components/review/Hostname.jsx:148
@@ -1001,21 +987,16 @@ msgid "Select a device"
 msgstr "Selecione um dispositivo"
 
 #: src/components/datetime/Timezone.jsx:194
-#, fuzzy
-#| msgid "Select"
 msgid "Select city"
-msgstr "Selecionar"
+msgstr "Selecionar cidade"
 
 #: src/components/storage/InstallationDestination.jsx:383
 msgid "Select destination"
 msgstr "Selecione o destino"
 
 #: src/components/datetime/Timezone.jsx:175
-#, fuzzy
-#| msgctxt "GUI|Network|Wireless"
-#| msgid "_Select network"
 msgid "Select region"
-msgstr "_Selecione uma rede"
+msgstr "Selecionar região"
 
 #: src/components/storage/MountPointMapping.jsx:129
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -1026,37 +1007,28 @@ msgid "Send us feedback on your installation"
 msgstr "Envie-nos comentários sobre a sua instalação"
 
 #: src/components/datetime/CustomNTPModal.jsx:164
-#, fuzzy
-#| msgid "NTP servers:"
 msgid "Server"
-msgstr "Servidores NTP:"
+msgstr "Servidor"
 
 #: src/components/datetime/CustomNTPModal.jsx:194
 msgid "Server is not reachable"
-msgstr ""
+msgstr "Não é possível aceder ao servidor"
 
 #: src/components/review/Hostname.jsx:110
 msgid "Set custom hostname"
 msgstr "Definir nome de anfitrião personalizado"
 
 #: src/components/storage/scenarios/UseFreeSpace.jsx:108
-#, fuzzy
-#| msgid "Share disk with other operating system"
 msgid "Share disk with other operating systems"
-msgstr "Compartilhar disco com outro sistema operacional"
+msgstr "Partilhar o disco com outros sistemas operativos"
 
 #: src/components/storage/scenarios/UseFreeSpace.jsx:105
-#, fuzzy
-#| msgid "Share disk with other operating system"
 msgid "Share disk with other operating systems: $0"
-msgstr "Compartilhar disco com outro sistema operacional"
+msgstr "Partilhar o disco com outros sistemas operativos: $0"
 
 #: src/components/datetime/DateAndTime.jsx:206
-#, fuzzy
-#| msgctxt "GUI|Date and Time"
-#| msgid "_AM/PM"
 msgid "Show AM/PM"
-msgstr "_AM/PM"
+msgstr "Mostrar AM/PM"
 
 #: src/components/Password.jsx:248
 msgid "Show confirmed password"
@@ -1079,6 +1051,8 @@ msgid ""
 "Skipping account creation during installation. It will happen on first boot "
 "instead."
 msgstr ""
+"A criação de contas será ignorada durante a instalação. O processo ocorrerá "
+"no primeiro arranque."
 
 #: src/components/installation/InstallationProgress.jsx:152
 msgid "Software installation"
@@ -1175,16 +1149,12 @@ msgstr ""
 "configurado agora."
 
 #: src/components/storage/scenarios/EraseAll.jsx:59
-#, fuzzy
-#| msgid ""
-#| "The installation needs $1 of disk space; however, the capacity of the "
-#| "selected disks is only $0."
 msgid ""
 "The installation needs $0 of disk space; however, the capacity of the "
 "selected disks is only $1."
 msgstr ""
-"A instalação necessita de $1 de espaço em disco; no entanto, a capacidade "
-"dos discos selecionados é apenas $0."
+"A instalação necessita de $0 de espaço em disco; no entanto, a capacidade "
+"dos discos selecionados é apenas de $1."
 
 #: src/components/Error.jsx:267
 msgid "The installer cannot continue due to a critical error."
@@ -1235,17 +1205,13 @@ msgid "This will take a few moments"
 msgstr "Isto vai demorar alguns momentos"
 
 #: src/components/datetime/DateAndTime.jsx:197
-#, fuzzy
-#| msgid "Timezone: %s\n"
 msgid "Time"
-msgstr "Fuso horário: %s\n"
+msgstr "Hora"
 
 #: src/components/datetime/Timezone.jsx:148
 #: src/components/review/ReviewConfiguration.jsx:139
-#, fuzzy
-#| msgid "Timezone: %s\n"
 msgid "Timezone"
-msgstr "Fuso horário: %s\n"
+msgstr "Fuso horário"
 
 #: src/components/installation/InstallationProgress.jsx:178
 msgid "To begin using $0, reboot your system."
@@ -1309,10 +1275,8 @@ msgid "Use free space"
 msgstr "Utilizar espaço livre"
 
 #: src/components/users/Accounts.jsx:183
-#, fuzzy
-#| msgid "Create account"
 msgid "Use local account"
-msgstr "Criar conta"
+msgstr "Utilizar conta local"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:593
 msgid "Use the RAID device for automatic partitioning"
@@ -1366,6 +1330,8 @@ msgstr ""
 #: src/components/datetime/DateAndTime.jsx:156
 msgid "You must be connected to a network to enable automatic date and time."
 msgstr ""
+"Tem de estar ligado a uma rede para ativar a definição automática de data e "
+"hora."
 
 #: src/components/AnacondaWizardFooter.jsx:143
 msgid "Your progress will not be saved."
