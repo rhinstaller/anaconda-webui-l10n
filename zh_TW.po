@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-08 03:57+0000\n"
+"POT-Creation-Date: 2025-08-09 03:42+0000\n"
 "PO-Revision-Date: 2025-06-01 02:21+0000\n"
 "Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -48,14 +48,14 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.11.4\n"
 
-#: src/components/storage/InstallationDestination.jsx:190
-#: src/components/storage/InstallationDestination.jsx:311
+#: src/components/storage/installation-method/InstallationDestination.jsx:190
+#: src/components/storage/installation-method/InstallationDestination.jsx:311
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/InstallationDestination.jsx:210
-#: src/components/storage/InstallationDestination.jsx:304
-#: src/components/storage/MountPointMapping.jsx:369
+#: src/components/storage/installation-method/InstallationDestination.jsx:210
+#: src/components/storage/installation-method/InstallationDestination.jsx:304
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:369
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -67,7 +67,7 @@ msgstr "$0 安裝"
 msgid "$0 installer"
 msgstr "$0 安裝程式"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:261
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:261
 msgid ""
 "$0 is an MBR extended partition that contains logical partitions. Removing "
 "all logical partitions will also automatically remove the extended partition."
@@ -83,11 +83,11 @@ msgstr "偵測到 $0 配置"
 msgid "$0 will be deleted"
 msgstr "$0 將會被刪除"
 
-#: src/components/storage/MountPointMapping.jsx:210
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:210
 msgid "'$0' filesystem cannot be on an encrypted block device"
 msgstr "'$0' 檔案系統不能位於加密的區塊裝置上"
 
-#: src/components/storage/MountPointMapping.jsx:204
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:204
 msgid "'$0' must be on a device formatted to '$1'"
 msgstr "'$0' 必須位於格式化為 '$1' 的裝置上"
 
@@ -112,7 +112,7 @@ msgstr "關於"
 msgid "Account"
 msgstr "帳號"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:160
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:160
 #: src/components/review/StorageReview.jsx:219
 msgid "Actions"
 msgstr "動作"
@@ -123,7 +123,7 @@ msgstr "動作"
 msgid "Add another server..."
 msgstr "加入 NTP 伺服器"
 
-#: src/components/storage/MountPointMapping.jsx:663
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:663
 msgid "Add mount"
 msgstr "增加掛載"
 
@@ -144,7 +144,7 @@ msgstr ""
 msgid "All changes made in the storage editor take effect immediately."
 msgstr "所有於儲存空間編輯器進行的變更將立即生效。"
 
-#: src/components/storage/EncryptedDevices.jsx:152
+#: src/components/storage/installation-method/EncryptedDevices.jsx:152
 msgid "All devices using this passphrase will be unlocked"
 msgstr "所有使用此密碼的設備都將被解鎖"
 
@@ -160,11 +160,11 @@ msgstr "Anaconda Web 介面"
 msgid "Anaconda project page"
 msgstr "Anaconda 專案頁面"
 
-#: src/components/storage/scenarios/MountPointMapping.jsx:95
+#: src/components/storage/scenarios/mount-point-mapping/index.js:33
 msgid "Apply mount point assignment and install"
 msgstr "套用掛載點分配並安裝"
 
-#: src/components/storage/HelpAutopartOptions.jsx:9
+#: src/components/storage/scenarios/mount-point-mapping/index.js:34
 msgid ""
 "Assign partitions to mount points. Useful for pre-configured custom layouts."
 msgstr "將分割區指派至掛載點，適用於預先配置的自訂佈局。"
@@ -178,7 +178,7 @@ msgstr ""
 msgid "Automatically set timezone"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:217
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:217
 msgid "Available free space: $0. Installation requires: $1."
 msgstr "可用空間: $0。 安裝需要: $1。"
 
@@ -196,11 +196,11 @@ msgstr ""
 "繼續使用此軟體，即表示您了解並接受與預發佈軟體相關的風險，您打算僅將其用於測"
 "試和開發目的，並願意報告任何錯誤或問題以改進此軟體。"
 
-#: src/components/storage/InstallationDestination.jsx:403
+#: src/components/datetime/CustomNTPModal.jsx:251 src/components/Error.jsx:289
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:228
+#: src/components/storage/installation-method/InstallationDestination.jsx:403
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:119
-#: src/components/storage/ReclaimSpaceModal.jsx:228
-#: src/components/datetime/CustomNTPModal.jsx:251
-#: src/components/review/Hostname.jsx:150 src/components/Error.jsx:289
+#: src/components/review/Hostname.jsx:150
 msgid "Cancel"
 msgstr "取消"
 
@@ -208,7 +208,7 @@ msgstr "取消"
 msgid "Change"
 msgstr "改變"
 
-#: src/components/storage/InstallationDestination.jsx:375
+#: src/components/storage/installation-method/InstallationDestination.jsx:375
 msgid "Change destination"
 msgstr "更改目標位置"
 
@@ -227,7 +227,7 @@ msgstr "在此進行的變更將立即對系統生效。 這沒有反悔的機�
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:444
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:450
-#: src/components/storage/DiskEncryption.jsx:58
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:58
 msgid "Checking storage configuration"
 msgstr "正在檢查儲存組態"
 
@@ -239,8 +239,8 @@ msgstr "清除搜尋"
 msgid "Click \"$0\" to open Bugzilla in a new window."
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:408
-#: src/components/storage/EncryptedDevices.jsx:200
+#: src/components/storage/installation-method/EncryptedDevices.jsx:200
+#: src/components/storage/installation-method/InstallationDestination.jsx:408
 msgid "Close"
 msgstr "關閉"
 
@@ -277,8 +277,8 @@ msgstr "正在配置存儲"
 msgid "Configure storage again"
 msgstr "重新設定儲存裝置"
 
-#: src/components/storage/DiskEncryption.jsx:124
 #: src/components/users/Accounts.jsx:159 src/components/users/Accounts.jsx:315
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:124
 msgid "Confirm passphrase"
 msgstr "確認密碼"
 
@@ -294,7 +294,7 @@ msgstr "繼續安裝"
 msgid "Continue with installation"
 msgstr "繼續以繼續安裝"
 
-#: src/components/users/Accounts.jsx:389
+#: src/components/users/index.js:30
 msgid "Create Account"
 msgstr "建立帳號"
 
@@ -302,11 +302,11 @@ msgstr "建立帳號"
 msgid "Create account"
 msgstr "建立帳號"
 
-#: src/components/storage/InstallationDestination.jsx:113
+#: src/components/storage/installation-method/InstallationDestination.jsx:113
 msgid "Currently installed: $0"
 msgstr "目前已安裝：$0"
 
-#: src/components/storage/MountPointMapping.jsx:251
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:251
 msgid "Custom"
 msgstr "自訂"
 
@@ -315,7 +315,7 @@ msgid "Date"
 msgstr ""
 
 #: src/components/datetime/DateAndTime.jsx:165
-#: src/components/datetime/DateAndTime.jsx:241
+#: src/components/datetime/index.js:30
 #, fuzzy
 #| msgid "Set Date & Time"
 msgid "Date and time"
@@ -325,11 +325,11 @@ msgstr "設定日期與時刻"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "刪除特定分割區可能會導致 $0 無法開機：$1"
 
-#: src/components/storage/InstallationDestination.jsx:296
+#: src/components/storage/installation-method/InstallationDestination.jsx:296
 msgid "Destination"
 msgstr "目的地"
 
-#: src/components/storage/EncryptedDevices.jsx:71
+#: src/components/storage/installation-method/EncryptedDevices.jsx:71
 msgid "Destination is encrypted"
 msgstr "目的地已加密"
 
@@ -337,16 +337,16 @@ msgstr "目的地已加密"
 msgid "Detected valid storage layout:"
 msgstr "已偵測到有效的儲存空間佈局："
 
-#: src/components/storage/MountPointMapping.jsx:639
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:639
 #: src/components/review/StorageReview.jsx:217
 msgid "Device"
 msgstr "裝置"
 
-#: src/components/storage/MountPointMapping.jsx:404
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:404
 msgid "Duplicate device."
 msgstr "重複的設備。"
 
-#: src/components/storage/MountPointMapping.jsx:257
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:257
 msgid "Duplicate mount point."
 msgstr "重複的掛載點。"
 
@@ -354,7 +354,7 @@ msgstr "重複的掛載點。"
 msgid "Enable root account"
 msgstr "啟用 root 帳號(_E)"
 
-#: src/components/storage/DiskEncryption.jsx:83
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:83
 msgid "Encrypt my data"
 msgstr "加密我的資料"
 
@@ -362,11 +362,11 @@ msgstr "加密我的資料"
 msgid "Encrypted"
 msgstr "已加密"
 
-#: src/components/storage/DiskEncryption.jsx:134
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:134
 msgid "Encryption"
 msgstr "加密"
 
-#: src/components/storage/scenarios/EraseAll.jsx:77
+#: src/components/storage/scenarios/erase-all/index.js:32
 msgid "Erase data and install"
 msgstr "刪除資料並安裝"
 
@@ -378,8 +378,8 @@ msgstr "錯誤詳情："
 msgid "Exit to live desktop"
 msgstr "退出至 live 桌面"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:258
-#: src/components/storage/ReclaimSpaceModal.jsx:265
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:258
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:265
 msgid "Extended partition"
 msgstr "延伸分割區"
 
@@ -419,7 +419,7 @@ msgstr ""
 msgid "Hide confirmed password"
 msgstr "隱藏確認密碼"
 
-#: src/components/storage/EncryptedDevices.jsx:185
+#: src/components/storage/installation-method/EncryptedDevices.jsx:185
 msgid "Hide passphrase"
 msgstr "隱藏密碼"
 
@@ -432,7 +432,7 @@ msgstr "隱藏密碼"
 msgid "Hostname"
 msgstr "主機名稱"
 
-#: src/components/storage/InstallationScenario.jsx:168
+#: src/components/storage/installation-method/InstallationScenario.jsx:168
 msgid "How would you like to install?"
 msgstr "您想如何安裝？"
 
@@ -474,17 +474,17 @@ msgstr "正在進行"
 msgid "Initializing..."
 msgstr "初始化中..."
 
-#: src/components/storage/scenarios/UseFreeSpace.jsx:121
-#: src/components/storage/scenarios/UseConfiguredStorage.jsx:106
+#: src/components/storage/scenarios/use-free-space/index.js:39
+#: src/components/storage/scenarios/use-configured-storage/index.js:32
 msgid "Install"
 msgstr "安裝"
 
-#: src/components/installation/InstallationProgress.jsx:138
 #: src/components/Error.jsx:276
+#: src/components/installation/InstallationProgress.jsx:138
 msgid "Installation failed"
 msgstr "安裝失敗"
 
-#: src/components/storage/InstallationMethod.jsx:209
+#: src/components/storage/installation-method/index.js:32
 msgid "Installation method"
 msgstr "安裝方法"
 
@@ -507,7 +507,7 @@ msgstr "安裝類型"
 msgid "Installing"
 msgstr "正在安裝"
 
-#: src/components/storage/InstallationDestination.jsx:342
+#: src/components/storage/installation-method/InstallationDestination.jsx:342
 msgid "Insufficient disk space"
 msgstr ""
 
@@ -529,7 +529,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "無效的主機名稱"
 
-#: src/components/storage/HelpAutopartOptions.jsx:7
+#: src/components/storage/scenarios/use-free-space/index.js:40
 msgid ""
 "Keep current disk layout and use available space, to dual-boot with another "
 "OS."
@@ -539,12 +539,12 @@ msgstr "保持目前硬碟佈局並使用可用空間，以與其他作業系統
 msgid "Keyboard"
 msgstr "鍵盤"
 
-#: src/components/storage/DiskEncryption.jsx:95
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:95
 msgid "Keyboard layout during boot"
 msgstr "開機時的鍵盤配置"
 
-#: src/components/review/ReviewConfiguration.jsx:132
 #: src/components/localization/InstallationLanguage.jsx:237
+#: src/components/review/ReviewConfiguration.jsx:132
 msgid "Language"
 msgstr "語言"
 
@@ -553,11 +553,11 @@ msgstr "語言"
 msgid "Launch storage editor"
 msgstr "啟動儲存空間編輯器"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:156
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:156
 msgid "Location"
 msgstr "位置"
 
-#: src/components/storage/EncryptedDevices.jsx:166
+#: src/components/storage/installation-method/EncryptedDevices.jsx:166
 msgid "Locked devices"
 msgstr "鎖定的裝置"
 
@@ -571,11 +571,11 @@ msgid ""
 "Attachments on Bugzilla issues are marked private by default."
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:775
+#: src/components/storage/mount-point-mapping/index.js:31
 msgid "Manual disk configuration"
 msgstr "手動設定硬碟"
 
-#: src/components/storage/MountPointMapping.jsx:777
+#: src/components/storage/mount-point-mapping/index.js:32
 msgid "Manual disk configuration: Mount point mapping"
 msgstr "手動硬碟設定：掛載點映射"
 
@@ -587,11 +587,11 @@ msgstr "可以包含字母、數字以及連字號。"
 msgid "Medium"
 msgstr "中等"
 
-#: src/components/storage/InstallationDestination.jsx:345
+#: src/components/storage/installation-method/InstallationDestination.jsx:345
 msgid "Minimum of $0 required"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:146
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr "父裝置與子裝置的重新格式化選擇不匹配。"
 
@@ -599,13 +599,13 @@ msgstr "父裝置與子裝置的重新格式化選擇不匹配。"
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr "偵測到多於一個佈局。 請移除其他佈局以繼續"
 
-#: src/components/storage/MountPointMapping.jsx:638
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:638
 #: src/components/review/StorageReview.jsx:221
 msgid "Mount point"
 msgstr "掛載點"
 
-#: src/components/storage/scenarios/MountPointMapping.jsx:97
-#: src/components/storage/MountPointMapping.jsx:636
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:636
+#: src/components/storage/scenarios/mount-point-mapping/index.js:35
 msgid "Mount point assignment"
 msgstr "掛載點分配"
 
@@ -625,7 +625,7 @@ msgstr "NTP 伺服器："
 msgid "NTS"
 msgstr "DNS"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:157
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:157
 msgid "Name"
 msgstr "名稱"
 
@@ -643,16 +643,16 @@ msgstr "網路不可用。 設定網路以回報問題。"
 msgid "Next"
 msgstr "下一步"
 
-#: src/components/storage/MountPointMapping.jsx:643
-#: src/components/storage/ReclaimSpaceModal.jsx:162
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:162
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:643
 msgid "No devices"
 msgstr "沒有裝置"
 
-#: src/components/storage/InstallationDestination.jsx:172
+#: src/components/storage/installation-method/InstallationDestination.jsx:172
 msgid "No disks available"
 msgstr "沒有可用的硬碟"
 
-#: src/components/storage/InstallationDestination.jsx:354
+#: src/components/storage/installation-method/InstallationDestination.jsx:354
 msgid "No disks selected"
 msgstr "尚未選取磁碟"
 
@@ -666,11 +666,11 @@ msgstr "未找到結果"
 msgid "No user or root account has been configured"
 msgstr "尚未設定 NTP 伺服器"
 
-#: src/components/storage/scenarios/UseFreeSpace.jsx:65
+#: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:63
 msgid "Not enough free space on the selected disks."
 msgstr "所選取的磁碟上的可用空間不足。"
 
-#: src/components/storage/scenarios/EraseAll.jsx:57
+#: src/components/storage/scenarios/erase-all/EraseAll.jsx:55
 msgid "Not enough space on selected disks."
 msgstr "所選取的磁碟上的空間不足。"
 
@@ -703,14 +703,14 @@ msgstr "其他鍵盤"
 msgid "Partitions (advanced)"
 msgstr "分割區（進階）"
 
-#: src/components/storage/EncryptedDevices.jsx:169
-#: src/components/storage/EncryptedDevices.jsx:176
-#: src/components/storage/DiskEncryption.jsx:121
 #: src/components/users/Accounts.jsx:156 src/components/users/Accounts.jsx:311
+#: src/components/storage/installation-method/EncryptedDevices.jsx:169
+#: src/components/storage/installation-method/EncryptedDevices.jsx:176
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:121
 msgid "Passphrase"
 msgstr "密碼"
 
-#: src/components/storage/EncryptedDevices.jsx:133
+#: src/components/storage/installation-method/EncryptedDevices.jsx:133
 msgid "Passphrase did not match any locked device"
 msgstr "密碼與任何鎖定的裝置都不匹配"
 
@@ -726,7 +726,7 @@ msgstr "待處理"
 msgid "Please attach the log file $0 to the issue."
 msgstr "請將日誌文件 $0 附加到問題中。"
 
-#: src/components/storage/InstallationDestination.jsx:357
+#: src/components/storage/installation-method/InstallationDestination.jsx:357
 #, fuzzy
 #| msgid "No disks selected; please select at least one disk to install to."
 msgid "Please select at least one disk to continue"
@@ -748,8 +748,8 @@ msgstr "預先發行"
 msgid "Proceed with installation"
 msgstr "繼續安裝"
 
-#: src/components/AnacondaWizardFooter.jsx:119
-#: src/components/AnacondaWizardFooter.jsx:154 src/components/Error.jsx:256
+#: src/components/Error.jsx:256 src/components/AnacondaWizardFooter.jsx:119
+#: src/components/AnacondaWizardFooter.jsx:154
 msgid "Quit"
 msgstr "退出"
 
@@ -783,12 +783,12 @@ msgstr "真實主機名稱只能包含字母、數字、連字號（不可作為
 msgid "Real hostname must be 64 characters or less"
 msgstr "真實主機名稱長度必須為 64 個或更少個字元"
 
-#: src/components/AnacondaWizardFooter.jsx:119
-#: src/components/AnacondaWizardFooter.jsx:154 src/components/Error.jsx:256
+#: src/components/Error.jsx:256 src/components/AnacondaWizardFooter.jsx:119
+#: src/components/AnacondaWizardFooter.jsx:154
 msgid "Reboot"
 msgstr "重新開機"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:529
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:529
 msgid ""
 "Reboot into Windows to resize BitLocker-encrypted partitions. Make at least "
 "$0 of free space available for installation."
@@ -804,21 +804,21 @@ msgstr "重新啟動系統？"
 msgid "Reboot to installed system"
 msgstr "重新啟動至已安裝的系統"
 
-#: src/components/storage/scenarios/UseFreeSpace.jsx:94
+#: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:92
 msgid "Reclaim additional space"
 msgstr "取回額外空間"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:134
-#: src/components/storage/ReclaimSpaceModal.jsx:154
-#: src/components/storage/ReclaimSpaceModal.jsx:225
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:134
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:154
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:225
 msgid "Reclaim space"
 msgstr "取回磁碟空間(_R)"
 
-#: src/components/storage/scenarios/UseFreeSpace.jsx:94
+#: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:92
 msgid "Reclaim space (required)"
 msgstr "取回空間（必須）"
 
-#: src/components/storage/MountPointMapping.jsx:250
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:250
 msgid "Recommended"
 msgstr "推薦的"
 
@@ -826,28 +826,28 @@ msgstr "推薦的"
 msgid "Recommended partitions:"
 msgstr "建議分割區："
 
-#: src/components/storage/MountPointMapping.jsx:424
-#: src/components/storage/MountPointMapping.jsx:640
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:424
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:640
 msgid "Reformat"
 msgstr "重新格式化"
 
-#: src/components/storage/scenarios/ReinstallFedora.jsx:163
-#: src/components/storage/scenarios/ReinstallFedora.jsx:165
+#: src/components/storage/scenarios/reinstall-fedora/index.js:33
+#: src/components/storage/scenarios/reinstall-fedora/index.js:35
 msgid "Reinstall Fedora"
 msgstr "重新安裝 Fedora"
 
-#: src/components/storage/MountPointMapping.jsx:451
-#: src/components/storage/MountPointMapping.jsx:641
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:451
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:641
 msgid "Remove"
 msgstr "移除"
 
-#: src/components/storage/HelpAutopartOptions.jsx:5
+#: src/components/storage/scenarios/erase-all/index.js:33
 msgid ""
 "Remove all partitions on the selected devices, including existing operating "
 "systems."
 msgstr "移除所選裝置上的所有分割區，包括現有的作業系統。"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:138
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:138
 msgid ""
 "Remove or resize existing filesystems to free up space for the installation."
 msgstr "移除或調整現有檔案系統的大小，以釋放空間進行安裝。"
@@ -858,7 +858,7 @@ msgstr "移除或調整現有檔案系統的大小，以釋放空間進行安裝
 msgid "Remove server"
 msgstr "移除 NTP 伺服器"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:140
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid ""
 "Removing a filesystem will permanently delete all of the data it contains. "
 "Resizing a partition can free up unused space, but is not risk-free. Be sure "
@@ -867,7 +867,7 @@ msgstr ""
 "移除檔案系統將會永久刪除其中包含的在該裝置的所有資料。 調整磁碟分割大小可釋放"
 "未使用的空間，但並非毫無風險。 請在回收空間之前，務必先備份重要的資料。"
 
-#: src/components/storage/HelpAutopartOptions.jsx:11
+#: src/components/storage/scenarios/reinstall-fedora/index.js:34
 msgid "Replace current installation, but keep files in home."
 msgstr "取代目前的安裝，但保留家目錄中的檔案。"
 
@@ -880,7 +880,7 @@ msgstr "回報問題"
 msgid "Report issue"
 msgstr "回報問題"
 
-#: src/components/storage/MountPointMapping.jsx:249
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:249
 msgid "Required"
 msgstr "必須"
 
@@ -888,15 +888,15 @@ msgstr "必須"
 msgid "Requirements"
 msgstr "必要條件"
 
-#: src/components/storage/InstallationDestination.jsx:163
+#: src/components/storage/installation-method/InstallationDestination.jsx:163
 msgid "Rescan devices"
 msgstr "重新掃描裝置"
 
-#: src/components/storage/InstallationDestination.jsx:144
+#: src/components/storage/installation-method/InstallationDestination.jsx:144
 msgid "Rescanning of the disks failed."
 msgstr "重新掃描磁碟失敗。"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:509
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:509
 msgid "Resize"
 msgstr "調整大小"
 
@@ -912,8 +912,7 @@ msgstr "回到安裝"
 msgid "Return to storage editor"
 msgstr "回到儲存空間編輯器"
 
-#: src/components/review/ReviewConfiguration.jsx:261
-#: src/components/review/ReviewConfiguration.jsx:262
+#: src/components/review/index.js:30 src/components/review/index.js:31
 msgid "Review and install"
 msgstr "檢查並安裝"
 
@@ -944,17 +943,17 @@ msgstr "搜尋語言"
 msgid "Search keyboard layout"
 msgstr "搜尋鍵盤配置"
 
-#: src/components/storage/DiskEncryption.jsx:138
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:138
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr "使用硬碟加密來保護您的資料。 此設定僅適用於新分割區"
 
-#: src/components/storage/InstallationDestination.jsx:400
+#: src/components/storage/installation-method/InstallationDestination.jsx:400
 msgid "Select"
 msgstr "選取"
 
-#: src/components/storage/MountPointMapping.jsx:324
-#: src/components/storage/MountPointMapping.jsx:358
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:324
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:358
 msgid "Select a device"
 msgstr "選取的裝置"
 
@@ -964,7 +963,7 @@ msgstr "選取的裝置"
 msgid "Select city"
 msgstr "選取"
 
-#: src/components/storage/InstallationDestination.jsx:383
+#: src/components/storage/installation-method/InstallationDestination.jsx:383
 msgid "Select destination"
 msgstr "選取安裝目的地"
 
@@ -974,7 +973,7 @@ msgstr "選取安裝目的地"
 msgid "Select region"
 msgstr "選擇無"
 
-#: src/components/storage/MountPointMapping.jsx:129
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:129
 msgid "Selected device's format '$0' cannot be reformatted."
 msgstr "無法重新格式化所選的裝置格式 '$0' 。"
 
@@ -996,13 +995,13 @@ msgstr ""
 msgid "Set custom hostname"
 msgstr "設定自訂主機名稱"
 
-#: src/components/storage/scenarios/UseFreeSpace.jsx:108
+#: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:106
 #, fuzzy
 #| msgid "Share disk with other operating system"
 msgid "Share disk with other operating systems"
 msgstr "與其他作業系統共享硬碟"
 
-#: src/components/storage/scenarios/UseFreeSpace.jsx:105
+#: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:103
 #, fuzzy
 #| msgid "Share disk with other operating system"
 msgid "Share disk with other operating systems: $0"
@@ -1019,7 +1018,7 @@ msgstr "上午/下午(_A)"
 msgid "Show confirmed password"
 msgstr "顯示確認密碼"
 
-#: src/components/storage/EncryptedDevices.jsx:185
+#: src/components/storage/installation-method/EncryptedDevices.jsx:185
 msgid "Show passphrase"
 msgstr "顯示密碼"
 
@@ -1047,11 +1046,11 @@ msgid ""
 "being installed onto your device."
 msgstr "軟體選擇：儲存空間設定完成。 該軟體正在安裝至您的裝置上。"
 
-#: src/components/storage/scenarios/MountPointMapping.jsx:63
+#: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:61
 msgid "Some required partitions are missing: $0"
 msgstr "缺少部分必要的分割區：$0"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:159
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:159
 msgid "Space"
 msgstr "空間"
 
@@ -1059,10 +1058,10 @@ msgstr "空間"
 msgid "Storage"
 msgstr "儲存"
 
-#: src/components/installation/InstallationProgress.jsx:147
-#: src/components/storage/StorageConfiguration.jsx:92
-#: src/components/storage/StorageConfiguration.jsx:93
 #: src/components/steps.js:27
+#: src/components/storage/storage-configuration/index.js:32
+#: src/components/storage/storage-configuration/index.js:33
+#: src/components/installation/InstallationProgress.jsx:147
 msgid "Storage configuration"
 msgstr "儲存裝置組態"
 
@@ -1078,7 +1077,7 @@ msgstr "儲存編輯器"
 msgid "Storage editor is available only in the `Installation method` step."
 msgstr "儲存編輯器只於「安裝方法」 步驟可用。"
 
-#: src/components/storage/HelpAutopartOptions.jsx:13
+#: src/components/storage/scenarios/use-configured-storage/index.js:33
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "儲存空間設定依據「修改儲存空間」中的配置。"
 
@@ -1098,7 +1097,7 @@ msgstr "強"
 msgid "Successfully installed"
 msgstr "安裝成功"
 
-#: src/components/storage/EncryptedDevices.jsx:128
+#: src/components/storage/installation-method/EncryptedDevices.jsx:128
 msgid "Successfully unlocked $0."
 msgstr "已成功解鎖 $0。"
 
@@ -1124,7 +1123,7 @@ msgid ""
 "being configured."
 msgstr "系統組態：軟體安裝完成。 現在正在設定系統。"
 
-#: src/components/storage/scenarios/EraseAll.jsx:59
+#: src/components/storage/scenarios/erase-all/EraseAll.jsx:57
 #, fuzzy
 #| msgid ""
 #| "The installation needs $1 of disk space; however, the capacity of the "
@@ -1142,7 +1141,7 @@ msgstr "安裝程式由於嚴重錯誤而無法繼續。"
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "安裝程式由於嚴重錯誤而無法繼續：$0"
 
-#: src/components/storage/DiskEncryption.jsx:54
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:54
 msgid ""
 "The passphrase you have provided contains non-ASCII characters. You may not "
 "be able to switch between keyboard layouts when typing it."
@@ -1165,11 +1164,11 @@ msgstr "此主機名稱無法被提交"
 msgid "This is unstable, pre-release software"
 msgstr "這是尚未穩定的預先發行軟體"
 
-#: src/components/storage/DiskEncryption.jsx:115
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:115
 msgid "This layout will be used for unlocking your system on boot"
 msgstr "此配置將用於啟動時解鎖系統"
 
-#: src/components/storage/DiskEncryption.jsx:62
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:62
 msgid "This may take a moment"
 msgstr "這可能需要一段時間"
 
@@ -1194,40 +1193,40 @@ msgstr "時區：%s\n"
 msgid "To begin using $0, reboot your system."
 msgstr "若要開始使用 $0，請重新啟動您的系統。"
 
-#: src/components/storage/InstallationMethod.jsx:199
+#: src/components/storage/installation-method/InstallationMethod.jsx:199
 msgid "To continue, select the devices to install to."
 msgstr "若要繼續。請選擇要安裝的設備。"
 
-#: src/components/storage/scenarios/UseFreeSpace.jsx:67
+#: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:65
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
 msgstr "要使用此選項，請調整大小或移除現有分割區以釋放至少 $0。"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:158
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:158
 msgid "Type"
 msgstr "類型"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:105
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:105
 msgid "Unable to schedule deletion of $0"
 msgstr "無法安排刪除 $0"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:107
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:107
 msgid "Unable to schedule resizing of $0"
 msgstr "無法安排調整 $0 的大小"
 
-#: src/components/storage/EncryptedDevices.jsx:77
-#: src/components/storage/EncryptedDevices.jsx:197
+#: src/components/storage/installation-method/EncryptedDevices.jsx:77
+#: src/components/storage/installation-method/EncryptedDevices.jsx:197
 msgid "Unlock"
 msgstr "解除鎖定"
 
-#: src/components/storage/EncryptedDevices.jsx:83
+#: src/components/storage/installation-method/EncryptedDevices.jsx:83
 msgid ""
 "Unlock LUKS-encrypted partitions to keep existing data and show more "
 "installation methods."
 msgstr "解鎖 LUKS 加密分割區以保留現有資料並顯示更多安裝方式。"
 
-#: src/components/storage/EncryptedDevices.jsx:157
+#: src/components/storage/installation-method/EncryptedDevices.jsx:157
 msgid "Unlock encrypted devices"
 msgstr "解鎖加密裝置"
 
@@ -1235,11 +1234,11 @@ msgstr "解鎖加密裝置"
 msgid "Unusable layout"
 msgstr "無法使用的配置"
 
-#: src/components/storage/scenarios/UseConfiguredStorage.jsx:108
+#: src/components/storage/scenarios/use-configured-storage/index.js:34
 msgid "Use configured storage"
 msgstr "使用已配置的儲存空間"
 
-#: src/components/storage/scenarios/EraseAll.jsx:79
+#: src/components/storage/scenarios/erase-all/index.js:34
 msgid "Use entire disk"
 msgstr "使用整個硬碟"
 
@@ -1281,15 +1280,21 @@ msgstr "使用者名稱長度必須少於 33 個字元"
 msgid "Weak"
 msgstr "脆弱"
 
-#: src/components/localization/InstallationLanguage.jsx:270
+#: src/components/localization/index.js:30
 msgid "Welcome"
 msgstr "歡迎"
+
+#: src/components/localization/index.js:31
+#, fuzzy
+#| msgid "Welcome to Fedora"
+msgid "Welcome to Fedora Linux"
+msgstr "歡迎使用 Fedora"
 
 #: src/components/AnacondaPage.jsx:93
 msgid "Welcome. Let's install $0 now."
 msgstr "歡迎。 現在就來安裝 $0 吧。"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:527
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:527
 msgid "Windows partitions with BitLocker encryption cannot be resized"
 msgstr "含有 BitLocker 加密的 Windows 分割區無法被調整大小"
 
@@ -1315,8 +1320,8 @@ msgstr "完成步驟"
 msgid "current step"
 msgstr "目前步驟"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:396
-#: src/components/storage/ReclaimSpaceModal.jsx:409
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:396
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:409
 #: src/components/review/StorageReview.jsx:143
 msgid "delete"
 msgstr "刪除"
@@ -1333,7 +1338,7 @@ msgstr "加密"
 msgid "encrypted"
 msgstr "已加密"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:254
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:254
 msgid "extended partition"
 msgstr "延伸分割區"
 
@@ -1353,16 +1358,16 @@ msgstr "待執行步驟"
 msgid "resized from $0"
 msgstr "已從 $0 調整大小"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:472
-#: src/components/storage/ReclaimSpaceModal.jsx:476
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:472
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:476
 msgid "shrink"
 msgstr "縮小"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:430
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:430
 msgid "shrink to $0"
 msgstr "已縮小至 $0"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:390
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:390
 msgid "undo"
 msgstr "復原"
 
@@ -5550,9 +5555,6 @@ msgstr "復原"
 #~ "make software updates available for you."
 #~ msgstr ""
 #~ "我們需要存取網路以取得有關於您位置的相關資訊，並且提供您可用的軟體更新。"
-
-#~ msgid "Welcome to Fedora"
-#~ msgstr "歡迎使用 Fedora"
 
 #~ msgid "What language would you like to use during the installation process?"
 #~ msgstr "您想使用哪種語言安裝？"

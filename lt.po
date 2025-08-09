@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-08 03:57+0000\n"
+"POT-Creation-Date: 2025-08-09 03:42+0000\n"
 "PO-Revision-Date: 2025-03-03 23:11+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -37,14 +37,14 @@ msgstr ""
 "1 : 2);\n"
 "X-Generator: Weblate 5.10.2\n"
 
-#: src/components/storage/InstallationDestination.jsx:190
-#: src/components/storage/InstallationDestination.jsx:311
+#: src/components/storage/installation-method/InstallationDestination.jsx:190
+#: src/components/storage/installation-method/InstallationDestination.jsx:311
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/InstallationDestination.jsx:210
-#: src/components/storage/InstallationDestination.jsx:304
-#: src/components/storage/MountPointMapping.jsx:369
+#: src/components/storage/installation-method/InstallationDestination.jsx:210
+#: src/components/storage/installation-method/InstallationDestination.jsx:304
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:369
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -56,7 +56,7 @@ msgstr "$0 diegimas"
 msgid "$0 installer"
 msgstr "$0 diegyklė"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:261
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:261
 msgid ""
 "$0 is an MBR extended partition that contains logical partitions. Removing "
 "all logical partitions will also automatically remove the extended partition."
@@ -76,11 +76,11 @@ msgstr "Pasirinktas $0"
 msgid "$0 will be deleted"
 msgstr "$0 bus ištrinta"
 
-#: src/components/storage/MountPointMapping.jsx:210
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:210
 msgid "'$0' filesystem cannot be on an encrypted block device"
 msgstr "$0 negali būti šifruotas blokinis įrenginys"
 
-#: src/components/storage/MountPointMapping.jsx:204
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:204
 msgid "'$0' must be on a device formatted to '$1'"
 msgstr "'$0' turi būti '$1' tipo įrenginyje"
 
@@ -103,7 +103,7 @@ msgstr "Apie"
 msgid "Account"
 msgstr "Paskyra"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:160
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:160
 #: src/components/review/StorageReview.jsx:219
 msgid "Actions"
 msgstr "Veiksmai"
@@ -114,7 +114,7 @@ msgstr "Veiksmai"
 msgid "Add another server..."
 msgstr "Pridėti NTP serverį"
 
-#: src/components/storage/MountPointMapping.jsx:663
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:663
 msgid "Add mount"
 msgstr "Apie prijungimą"
 
@@ -135,7 +135,7 @@ msgstr ""
 msgid "All changes made in the storage editor take effect immediately."
 msgstr "Visi saugyklos rengyklėje atlikti pakeitimai įsigalioja nedelsiant."
 
-#: src/components/storage/EncryptedDevices.jsx:152
+#: src/components/storage/installation-method/EncryptedDevices.jsx:152
 msgid "All devices using this passphrase will be unlocked"
 msgstr "Visi įrenginiai, naudojantys šią slaptafrazę, bus atrakinti"
 
@@ -151,11 +151,11 @@ msgstr "„Anaconda“ žiniatinklio sąsaja"
 msgid "Anaconda project page"
 msgstr "Anaconda projekto puslapis"
 
-#: src/components/storage/scenarios/MountPointMapping.jsx:95
+#: src/components/storage/scenarios/mount-point-mapping/index.js:33
 msgid "Apply mount point assignment and install"
 msgstr "Pritaikyti prijungimo taško priskyrimą ir įdiegti"
 
-#: src/components/storage/HelpAutopartOptions.jsx:9
+#: src/components/storage/scenarios/mount-point-mapping/index.js:34
 msgid ""
 "Assign partitions to mount points. Useful for pre-configured custom layouts."
 msgstr ""
@@ -171,7 +171,7 @@ msgstr ""
 msgid "Automatically set timezone"
 msgstr ""
 
-#: src/components/storage/ReclaimSpaceModal.jsx:217
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:217
 msgid "Available free space: $0. Installation requires: $1."
 msgstr "Laisva vieta: $0. Įdiegimui reikalinga: $1."
 
@@ -191,11 +191,11 @@ msgstr ""
 "reikmėms ir pageidaujate pranešti apie bet kokias klaidas ar problemas, taip "
 "pagerinant šį darbą."
 
-#: src/components/storage/InstallationDestination.jsx:403
+#: src/components/datetime/CustomNTPModal.jsx:251 src/components/Error.jsx:289
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:228
+#: src/components/storage/installation-method/InstallationDestination.jsx:403
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:119
-#: src/components/storage/ReclaimSpaceModal.jsx:228
-#: src/components/datetime/CustomNTPModal.jsx:251
-#: src/components/review/Hostname.jsx:150 src/components/Error.jsx:289
+#: src/components/review/Hostname.jsx:150
 msgid "Cancel"
 msgstr "Atsisakyti"
 
@@ -203,7 +203,7 @@ msgstr "Atsisakyti"
 msgid "Change"
 msgstr "Pakeisti"
 
-#: src/components/storage/InstallationDestination.jsx:375
+#: src/components/storage/installation-method/InstallationDestination.jsx:375
 msgid "Change destination"
 msgstr "Pakeiskite paskirties vietą"
 
@@ -222,7 +222,7 @@ msgstr "Čia atlikti pakeitimai iš karto paveiks sistemą. Nėra „anuliuoti�
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:444
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:450
-#: src/components/storage/DiskEncryption.jsx:58
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:58
 msgid "Checking storage configuration"
 msgstr "Tikrinama saugyklos konfigūracija"
 
@@ -236,8 +236,8 @@ msgstr "Išvalyti paieškos įvestį"
 msgid "Click \"$0\" to open Bugzilla in a new window."
 msgstr ""
 
-#: src/components/storage/InstallationDestination.jsx:408
-#: src/components/storage/EncryptedDevices.jsx:200
+#: src/components/storage/installation-method/EncryptedDevices.jsx:200
+#: src/components/storage/installation-method/InstallationDestination.jsx:408
 msgid "Close"
 msgstr "Užverti"
 
@@ -275,8 +275,8 @@ msgstr "Konfigūruoti saugyklą"
 msgid "Configure storage again"
 msgstr "Konfigūruojti saugyklą dar kartą"
 
-#: src/components/storage/DiskEncryption.jsx:124
 #: src/components/users/Accounts.jsx:159 src/components/users/Accounts.jsx:315
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:124
 msgid "Confirm passphrase"
 msgstr "Patvirtinti slaptafrazę"
 
@@ -292,7 +292,7 @@ msgstr "Tęsti diegimą"
 msgid "Continue with installation"
 msgstr "Tęsti diegimą"
 
-#: src/components/users/Accounts.jsx:389
+#: src/components/users/index.js:30
 msgid "Create Account"
 msgstr "Sukurti paskyrą"
 
@@ -300,11 +300,11 @@ msgstr "Sukurti paskyrą"
 msgid "Create account"
 msgstr "Sukurti paskyrą"
 
-#: src/components/storage/InstallationDestination.jsx:113
+#: src/components/storage/installation-method/InstallationDestination.jsx:113
 msgid "Currently installed: $0"
 msgstr "Šiuo metu įdiegta: $0"
 
-#: src/components/storage/MountPointMapping.jsx:251
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:251
 msgid "Custom"
 msgstr "Pasirinktinis"
 
@@ -313,7 +313,7 @@ msgid "Date"
 msgstr ""
 
 #: src/components/datetime/DateAndTime.jsx:165
-#: src/components/datetime/DateAndTime.jsx:241
+#: src/components/datetime/index.js:30
 #, fuzzy
 #| msgid "Set Date & Time"
 msgid "Date and time"
@@ -323,11 +323,11 @@ msgstr "Nustatyti datą ir laiką"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Kai kurių skaidinių ištrynimas gali neleisti $0 paleisti: $1"
 
-#: src/components/storage/InstallationDestination.jsx:296
+#: src/components/storage/installation-method/InstallationDestination.jsx:296
 msgid "Destination"
 msgstr "Paskirtis"
 
-#: src/components/storage/EncryptedDevices.jsx:71
+#: src/components/storage/installation-method/EncryptedDevices.jsx:71
 msgid "Destination is encrypted"
 msgstr "Paskirties vieta yra užšifruota"
 
@@ -335,16 +335,16 @@ msgstr "Paskirties vieta yra užšifruota"
 msgid "Detected valid storage layout:"
 msgstr "Aptiktas tinkamas saugyklos išdėstymas:"
 
-#: src/components/storage/MountPointMapping.jsx:639
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:639
 #: src/components/review/StorageReview.jsx:217
 msgid "Device"
 msgstr "Įrenginys"
 
-#: src/components/storage/MountPointMapping.jsx:404
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:404
 msgid "Duplicate device."
 msgstr "Dubliuotas įrenginys."
 
-#: src/components/storage/MountPointMapping.jsx:257
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:257
 msgid "Duplicate mount point."
 msgstr "Dubliuotas prijungimo taškas."
 
@@ -352,7 +352,7 @@ msgstr "Dubliuotas prijungimo taškas."
 msgid "Enable root account"
 msgstr "Įgalinti root paskyrą"
 
-#: src/components/storage/DiskEncryption.jsx:83
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:83
 msgid "Encrypt my data"
 msgstr "Šifruoti mano duomenis"
 
@@ -360,11 +360,11 @@ msgstr "Šifruoti mano duomenis"
 msgid "Encrypted"
 msgstr "Šifruota"
 
-#: src/components/storage/DiskEncryption.jsx:134
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:134
 msgid "Encryption"
 msgstr "Šifravimas"
 
-#: src/components/storage/scenarios/EraseAll.jsx:77
+#: src/components/storage/scenarios/erase-all/index.js:32
 msgid "Erase data and install"
 msgstr "Ištrinti duomenis ir įdiegti"
 
@@ -376,8 +376,8 @@ msgstr "Detali klaida"
 msgid "Exit to live desktop"
 msgstr "Išeiti į tiesioginį darbalaukį"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:258
-#: src/components/storage/ReclaimSpaceModal.jsx:265
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:258
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:265
 msgid "Extended partition"
 msgstr "Išplėstinis skirsnis"
 
@@ -419,7 +419,7 @@ msgstr ""
 msgid "Hide confirmed password"
 msgstr "Slėpti patvirtintą slaptažodį"
 
-#: src/components/storage/EncryptedDevices.jsx:185
+#: src/components/storage/installation-method/EncryptedDevices.jsx:185
 msgid "Hide passphrase"
 msgstr "Slėpti slaptafrazę"
 
@@ -432,7 +432,7 @@ msgstr "Slėpti slaptažodį"
 msgid "Hostname"
 msgstr "Pagrindinio kompiuterio pavadinimas"
 
-#: src/components/storage/InstallationScenario.jsx:168
+#: src/components/storage/installation-method/InstallationScenario.jsx:168
 msgid "How would you like to install?"
 msgstr "Kaip norite įdiegti?"
 
@@ -476,17 +476,17 @@ msgstr "Vyksta"
 msgid "Initializing..."
 msgstr "Inicijuojama..."
 
-#: src/components/storage/scenarios/UseFreeSpace.jsx:121
-#: src/components/storage/scenarios/UseConfiguredStorage.jsx:106
+#: src/components/storage/scenarios/use-free-space/index.js:39
+#: src/components/storage/scenarios/use-configured-storage/index.js:32
 msgid "Install"
 msgstr "Diegti"
 
-#: src/components/installation/InstallationProgress.jsx:138
 #: src/components/Error.jsx:276
+#: src/components/installation/InstallationProgress.jsx:138
 msgid "Installation failed"
 msgstr "Diegimas nepavyko"
 
-#: src/components/storage/InstallationMethod.jsx:209
+#: src/components/storage/installation-method/index.js:32
 msgid "Installation method"
 msgstr "Diegimo metodas"
 
@@ -509,7 +509,7 @@ msgstr "Diegimo tipas"
 msgid "Installing"
 msgstr "Diegiama"
 
-#: src/components/storage/InstallationDestination.jsx:342
+#: src/components/storage/installation-method/InstallationDestination.jsx:342
 msgid "Insufficient disk space"
 msgstr ""
 
@@ -528,7 +528,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Netinkamas serverio vardas"
 
-#: src/components/storage/HelpAutopartOptions.jsx:7
+#: src/components/storage/scenarios/use-free-space/index.js:40
 msgid ""
 "Keep current disk layout and use available space, to dual-boot with another "
 "OS."
@@ -543,12 +543,12 @@ msgstr ""
 msgid "Keyboard"
 msgstr "_Klaviatūra"
 
-#: src/components/storage/DiskEncryption.jsx:95
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:95
 msgid "Keyboard layout during boot"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:132
 #: src/components/localization/InstallationLanguage.jsx:237
+#: src/components/review/ReviewConfiguration.jsx:132
 msgid "Language"
 msgstr "Kalbos"
 
@@ -557,11 +557,11 @@ msgstr "Kalbos"
 msgid "Launch storage editor"
 msgstr "Paleiskite saugyklos rengyklę"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:156
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:156
 msgid "Location"
 msgstr "Vieta"
 
-#: src/components/storage/EncryptedDevices.jsx:166
+#: src/components/storage/installation-method/EncryptedDevices.jsx:166
 msgid "Locked devices"
 msgstr "Užrakinti įrenginiai"
 
@@ -575,11 +575,11 @@ msgid ""
 "Attachments on Bugzilla issues are marked private by default."
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:775
+#: src/components/storage/mount-point-mapping/index.js:31
 msgid "Manual disk configuration"
 msgstr "Rankinė disko konfigūracija"
 
-#: src/components/storage/MountPointMapping.jsx:777
+#: src/components/storage/mount-point-mapping/index.js:32
 msgid "Manual disk configuration: Mount point mapping"
 msgstr "Rankinė disko konfigūracija: prijungimo taškų susiejimas"
 
@@ -591,11 +591,11 @@ msgstr "Gali būti raidžių, skaičių ir brūkšnelių."
 msgid "Medium"
 msgstr "Laikmena"
 
-#: src/components/storage/InstallationDestination.jsx:345
+#: src/components/storage/installation-method/InstallationDestination.jsx:345
 msgid "Minimum of $0 required"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:146
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:146
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 "Neatitikimas tarp tėvinio įrenginio ir vaikinio įrenginio performatavimo "
@@ -605,13 +605,13 @@ msgstr ""
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 
-#: src/components/storage/MountPointMapping.jsx:638
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:638
 #: src/components/review/StorageReview.jsx:221
 msgid "Mount point"
 msgstr "Prijungimo taškas"
 
-#: src/components/storage/scenarios/MountPointMapping.jsx:97
-#: src/components/storage/MountPointMapping.jsx:636
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:636
+#: src/components/storage/scenarios/mount-point-mapping/index.js:35
 msgid "Mount point assignment"
 msgstr "Prijungimo taškų priskyrimas"
 
@@ -631,7 +631,7 @@ msgstr "NTP serveriai:"
 msgid "NTS"
 msgstr "DNS"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:157
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:157
 msgid "Name"
 msgstr "Pavadinimas"
 
@@ -653,16 +653,16 @@ msgstr ""
 msgid "Next"
 msgstr "Kitas"
 
-#: src/components/storage/MountPointMapping.jsx:643
-#: src/components/storage/ReclaimSpaceModal.jsx:162
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:162
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:643
 msgid "No devices"
 msgstr "Nėra įrenginių"
 
-#: src/components/storage/InstallationDestination.jsx:172
+#: src/components/storage/installation-method/InstallationDestination.jsx:172
 msgid "No disks available"
 msgstr "Diskų nėra"
 
-#: src/components/storage/InstallationDestination.jsx:354
+#: src/components/storage/installation-method/InstallationDestination.jsx:354
 msgid "No disks selected"
 msgstr "Nepasirinkti diskai"
 
@@ -676,11 +676,11 @@ msgstr "Rezultatų nerasta"
 msgid "No user or root account has been configured"
 msgstr "nesukonfigūruota NTP serverių"
 
-#: src/components/storage/scenarios/UseFreeSpace.jsx:65
+#: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:63
 msgid "Not enough free space on the selected disks."
 msgstr "Pasirinktuose diskuose nepakanka vietos."
 
-#: src/components/storage/scenarios/EraseAll.jsx:57
+#: src/components/storage/scenarios/erase-all/EraseAll.jsx:55
 msgid "Not enough space on selected disks."
 msgstr "Pasirinktuose diskuose nepakanka vietos."
 
@@ -717,14 +717,14 @@ msgstr "_Klaviatūra"
 msgid "Partitions (advanced)"
 msgstr "Skirsniai (išplėstiniai)"
 
-#: src/components/storage/EncryptedDevices.jsx:169
-#: src/components/storage/EncryptedDevices.jsx:176
-#: src/components/storage/DiskEncryption.jsx:121
 #: src/components/users/Accounts.jsx:156 src/components/users/Accounts.jsx:311
+#: src/components/storage/installation-method/EncryptedDevices.jsx:169
+#: src/components/storage/installation-method/EncryptedDevices.jsx:176
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:121
 msgid "Passphrase"
 msgstr "Slaptafrazė"
 
-#: src/components/storage/EncryptedDevices.jsx:133
+#: src/components/storage/installation-method/EncryptedDevices.jsx:133
 msgid "Passphrase did not match any locked device"
 msgstr "Slaptafrazė neatitiko jokio užrakinto įrenginio"
 
@@ -740,7 +740,7 @@ msgstr "Laukia"
 msgid "Please attach the log file $0 to the issue."
 msgstr "Prisekite prie klaidos žurnalo failą $0."
 
-#: src/components/storage/InstallationDestination.jsx:357
+#: src/components/storage/installation-method/InstallationDestination.jsx:357
 #, fuzzy
 #| msgid "No disks selected; please select at least one disk to install to."
 msgid "Please select at least one disk to continue"
@@ -762,8 +762,8 @@ msgstr "Išankstinis leidimas"
 msgid "Proceed with installation"
 msgstr "Tęskite diegimą"
 
-#: src/components/AnacondaWizardFooter.jsx:119
-#: src/components/AnacondaWizardFooter.jsx:154 src/components/Error.jsx:256
+#: src/components/Error.jsx:256 src/components/AnacondaWizardFooter.jsx:119
+#: src/components/AnacondaWizardFooter.jsx:154
 msgid "Quit"
 msgstr "Išeiti"
 
@@ -800,12 +800,12 @@ msgid "Real hostname must be 64 characters or less"
 msgstr ""
 "Tikrasis kompiuterio pavadinimas turi būti ne ilgesnis nei 64 simboliai"
 
-#: src/components/AnacondaWizardFooter.jsx:119
-#: src/components/AnacondaWizardFooter.jsx:154 src/components/Error.jsx:256
+#: src/components/Error.jsx:256 src/components/AnacondaWizardFooter.jsx:119
+#: src/components/AnacondaWizardFooter.jsx:154
 msgid "Reboot"
 msgstr "Perleisti"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:529
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:529
 #, fuzzy
 #| msgid "Reboot into Windows to resize BitLocker-encrypted partitions. "
 msgid ""
@@ -823,21 +823,21 @@ msgstr "Perleisti sistemą?"
 msgid "Reboot to installed system"
 msgstr "Perkraukite į įdiegtą sistemą"
 
-#: src/components/storage/scenarios/UseFreeSpace.jsx:94
+#: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:92
 msgid "Reclaim additional space"
 msgstr "Susigrąžinkite papildomą vietą"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:134
-#: src/components/storage/ReclaimSpaceModal.jsx:154
-#: src/components/storage/ReclaimSpaceModal.jsx:225
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:134
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:154
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:225
 msgid "Reclaim space"
 msgstr "Susigrąžinkite vietą"
 
-#: src/components/storage/scenarios/UseFreeSpace.jsx:94
+#: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:92
 msgid "Reclaim space (required)"
 msgstr "Susigrąžinkite vietą (būtina)"
 
-#: src/components/storage/MountPointMapping.jsx:250
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:250
 msgid "Recommended"
 msgstr "Rekomenduojama"
 
@@ -845,22 +845,22 @@ msgstr "Rekomenduojama"
 msgid "Recommended partitions:"
 msgstr "Rekomenduojami skirsniai:"
 
-#: src/components/storage/MountPointMapping.jsx:424
-#: src/components/storage/MountPointMapping.jsx:640
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:424
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:640
 msgid "Reformat"
 msgstr "Performatuoti"
 
-#: src/components/storage/scenarios/ReinstallFedora.jsx:163
-#: src/components/storage/scenarios/ReinstallFedora.jsx:165
+#: src/components/storage/scenarios/reinstall-fedora/index.js:33
+#: src/components/storage/scenarios/reinstall-fedora/index.js:35
 msgid "Reinstall Fedora"
 msgstr "Iš naujo įdiekite „Fedora“"
 
-#: src/components/storage/MountPointMapping.jsx:451
-#: src/components/storage/MountPointMapping.jsx:641
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:451
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:641
 msgid "Remove"
 msgstr "Pašalinti"
 
-#: src/components/storage/HelpAutopartOptions.jsx:5
+#: src/components/storage/scenarios/erase-all/index.js:33
 msgid ""
 "Remove all partitions on the selected devices, including existing operating "
 "systems."
@@ -868,7 +868,7 @@ msgstr ""
 "Pašalinkite visus pasirinktų įrenginių skaidinius, įskaitant esamas "
 "operacines sistemas."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:138
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:138
 msgid ""
 "Remove or resize existing filesystems to free up space for the installation."
 msgstr ""
@@ -881,14 +881,14 @@ msgstr ""
 msgid "Remove server"
 msgstr "Pašalinti NTP serverį"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:140
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid ""
 "Removing a filesystem will permanently delete all of the data it contains. "
 "Resizing a partition can free up unused space, but is not risk-free. Be sure "
 "to have backups of anything important before reclaiming space."
 msgstr ""
 
-#: src/components/storage/HelpAutopartOptions.jsx:11
+#: src/components/storage/scenarios/reinstall-fedora/index.js:34
 msgid "Replace current installation, but keep files in home."
 msgstr "Pakeiskite esamą diegimą, bet palikite failus namuose."
 
@@ -901,7 +901,7 @@ msgstr "Pranešti apie problemą"
 msgid "Report issue"
 msgstr "Pranešti apie problemą"
 
-#: src/components/storage/MountPointMapping.jsx:249
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:249
 msgid "Required"
 msgstr "Būtina"
 
@@ -909,15 +909,15 @@ msgstr "Būtina"
 msgid "Requirements"
 msgstr "Reikalavimai"
 
-#: src/components/storage/InstallationDestination.jsx:163
+#: src/components/storage/installation-method/InstallationDestination.jsx:163
 msgid "Rescan devices"
 msgstr "Iš naujo nuskaityti įrenginius"
 
-#: src/components/storage/InstallationDestination.jsx:144
+#: src/components/storage/installation-method/InstallationDestination.jsx:144
 msgid "Rescanning of the disks failed."
 msgstr "Nepavyko perskaityti diskų."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:509
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:509
 msgid "Resize"
 msgstr "Pakeisti dydį"
 
@@ -933,8 +933,7 @@ msgstr "Grįžkite į diegimą"
 msgid "Return to storage editor"
 msgstr "Grįžti į saugyklos rengyklę"
 
-#: src/components/review/ReviewConfiguration.jsx:261
-#: src/components/review/ReviewConfiguration.jsx:262
+#: src/components/review/index.js:30 src/components/review/index.js:31
 msgid "Review and install"
 msgstr "Peržiūrėti ir įdiegti"
 
@@ -967,19 +966,19 @@ msgstr "Ieškokite kalbos"
 msgid "Search keyboard layout"
 msgstr "Ieškokite kalbos"
 
-#: src/components/storage/DiskEncryption.jsx:138
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:138
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
 "Apsaugokite savo duomenis naudodami disko šifravimą. Taikoma tik naujiems "
 "skaidiniams"
 
-#: src/components/storage/InstallationDestination.jsx:400
+#: src/components/storage/installation-method/InstallationDestination.jsx:400
 msgid "Select"
 msgstr "Pasirinkti"
 
-#: src/components/storage/MountPointMapping.jsx:324
-#: src/components/storage/MountPointMapping.jsx:358
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:324
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:358
 msgid "Select a device"
 msgstr "Pasirinkite įrenginį"
 
@@ -989,7 +988,7 @@ msgstr "Pasirinkite įrenginį"
 msgid "Select city"
 msgstr "Pasirinkti"
 
-#: src/components/storage/InstallationDestination.jsx:383
+#: src/components/storage/installation-method/InstallationDestination.jsx:383
 msgid "Select destination"
 msgstr "Pasirinkite paskirties vietą"
 
@@ -999,7 +998,7 @@ msgstr "Pasirinkite paskirties vietą"
 msgid "Select region"
 msgstr "Nežymėti nieko"
 
-#: src/components/storage/MountPointMapping.jsx:129
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:129
 msgid "Selected device's format '$0' cannot be reformatted."
 msgstr "Pasirinkto įrenginio formato „$0“ negalima suformatuoti iš naujo."
 
@@ -1022,13 +1021,13 @@ msgstr ""
 msgid "Set custom hostname"
 msgstr "Nustatyti kompiuterio pavadinimą"
 
-#: src/components/storage/scenarios/UseFreeSpace.jsx:108
+#: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:106
 #, fuzzy
 #| msgid "Share disk with other operating system"
 msgid "Share disk with other operating systems"
 msgstr "Dalykitės disku su kita operacine sistema"
 
-#: src/components/storage/scenarios/UseFreeSpace.jsx:105
+#: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:103
 #, fuzzy
 #| msgid "Share disk with other operating system"
 msgid "Share disk with other operating systems: $0"
@@ -1045,7 +1044,7 @@ msgstr "_Dien/nakt"
 msgid "Show confirmed password"
 msgstr "Rodyti patvirtintą slaptažodį"
 
-#: src/components/storage/EncryptedDevices.jsx:185
+#: src/components/storage/installation-method/EncryptedDevices.jsx:185
 msgid "Show passphrase"
 msgstr "Rodyti slaptafrazę"
 
@@ -1075,11 +1074,11 @@ msgstr ""
 "Programinės įrangos diegimas: saugyklos konfigūracija baigta. Programinė "
 "įranga dabar yra diegiama jūsų įrenginyje."
 
-#: src/components/storage/scenarios/MountPointMapping.jsx:63
+#: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:61
 msgid "Some required partitions are missing: $0"
 msgstr "Trūksta kai kurių būtinų skaidinių: $0"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:159
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:159
 msgid "Space"
 msgstr "Vieta"
 
@@ -1087,10 +1086,10 @@ msgstr "Vieta"
 msgid "Storage"
 msgstr "Saugykla"
 
-#: src/components/installation/InstallationProgress.jsx:147
-#: src/components/storage/StorageConfiguration.jsx:92
-#: src/components/storage/StorageConfiguration.jsx:93
 #: src/components/steps.js:27
+#: src/components/storage/storage-configuration/index.js:32
+#: src/components/storage/storage-configuration/index.js:33
+#: src/components/installation/InstallationProgress.jsx:147
 msgid "Storage configuration"
 msgstr "Saugyklos konfigūracija"
 
@@ -1107,7 +1106,7 @@ msgid "Storage editor is available only in the `Installation method` step."
 msgstr ""
 "Saugyklos redaktorius pasiekiamas tik atliekant veiksmą „Įdiegimo metodas“."
 
-#: src/components/storage/HelpAutopartOptions.jsx:13
+#: src/components/storage/scenarios/use-configured-storage/index.js:33
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "Saugykla pagrįsta konfigūracija iš „Keisti saugyklą“."
 
@@ -1127,7 +1126,7 @@ msgstr "Stiprus"
 msgid "Successfully installed"
 msgstr "Sėkmingai įdiegta"
 
-#: src/components/storage/EncryptedDevices.jsx:128
+#: src/components/storage/installation-method/EncryptedDevices.jsx:128
 msgid "Successfully unlocked $0."
 msgstr "Sėkmingai atrakinta $0."
 
@@ -1157,7 +1156,7 @@ msgstr ""
 "Sistemos konfigūracija: programinės įrangos diegimas baigtas. Sistema dabar "
 "yra konfigūruojama."
 
-#: src/components/storage/scenarios/EraseAll.jsx:59
+#: src/components/storage/scenarios/erase-all/EraseAll.jsx:57
 msgid ""
 "The installation needs $0 of disk space; however, the capacity of the "
 "selected disks is only $1."
@@ -1171,7 +1170,7 @@ msgstr "Diegyklė negali tęsti dėl kritinės klaidos."
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "Diegyklė negali tęsti dėl kritinės klaidos: $0"
 
-#: src/components/storage/DiskEncryption.jsx:54
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:54
 msgid ""
 "The passphrase you have provided contains non-ASCII characters. You may not "
 "be able to switch between keyboard layouts when typing it."
@@ -1194,11 +1193,11 @@ msgstr "Šio kompiuterio pavadinimo pateikti negalima"
 msgid "This is unstable, pre-release software"
 msgstr "Tai nestabili, neišleista programinė įranga"
 
-#: src/components/storage/DiskEncryption.jsx:115
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:115
 msgid "This layout will be used for unlocking your system on boot"
 msgstr ""
 
-#: src/components/storage/DiskEncryption.jsx:62
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:62
 msgid "This may take a moment"
 msgstr "Tai gali užtrukti"
 
@@ -1223,11 +1222,11 @@ msgstr "Laiko juosta: %s\n"
 msgid "To begin using $0, reboot your system."
 msgstr "Norėdami pradėti naudoti $0, iš naujo paleiskite sistemą."
 
-#: src/components/storage/InstallationMethod.jsx:199
+#: src/components/storage/installation-method/InstallationMethod.jsx:199
 msgid "To continue, select the devices to install to."
 msgstr "Norėdami tęsti, pasirinkite įrenginius diegimui."
 
-#: src/components/storage/scenarios/UseFreeSpace.jsx:67
+#: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:65
 msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
@@ -1235,24 +1234,24 @@ msgstr ""
 "Norėdami naudoti šią parinktį, pakeiskite esamų skaidinių dydį arba "
 "pašalinkite jas, kad atlaisvintumėte bent $0."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:158
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:158
 msgid "Type"
 msgstr "Tipas"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:105
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:105
 msgid "Unable to schedule deletion of $0"
 msgstr "Neįmanoma suplanuoti $0 ištrynimo"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:107
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:107
 msgid "Unable to schedule resizing of $0"
 msgstr "Neįmanoma suplanuoti $0 dydžio keitimo"
 
-#: src/components/storage/EncryptedDevices.jsx:77
-#: src/components/storage/EncryptedDevices.jsx:197
+#: src/components/storage/installation-method/EncryptedDevices.jsx:77
+#: src/components/storage/installation-method/EncryptedDevices.jsx:197
 msgid "Unlock"
 msgstr "Atrakinti"
 
-#: src/components/storage/EncryptedDevices.jsx:83
+#: src/components/storage/installation-method/EncryptedDevices.jsx:83
 msgid ""
 "Unlock LUKS-encrypted partitions to keep existing data and show more "
 "installation methods."
@@ -1260,7 +1259,7 @@ msgstr ""
 "Atrakinkite LUKS užšifruotus skaidinius, kad išsaugotumėte esamus duomenis "
 "ir parodytumėte daugiau diegimo metodų."
 
-#: src/components/storage/EncryptedDevices.jsx:157
+#: src/components/storage/installation-method/EncryptedDevices.jsx:157
 msgid "Unlock encrypted devices"
 msgstr "Atrakinti šifruotus įrenginius"
 
@@ -1270,11 +1269,11 @@ msgstr "Atrakinti šifruotus įrenginius"
 msgid "Unusable layout"
 msgstr "Galimi išdėstymai"
 
-#: src/components/storage/scenarios/UseConfiguredStorage.jsx:108
+#: src/components/storage/scenarios/use-configured-storage/index.js:34
 msgid "Use configured storage"
 msgstr "Naudokite sukonfigūruotą saugyklą"
 
-#: src/components/storage/scenarios/EraseAll.jsx:79
+#: src/components/storage/scenarios/erase-all/index.js:34
 msgid "Use entire disk"
 msgstr "Naudokite visą diską"
 
@@ -1320,15 +1319,21 @@ msgstr "Vartotojų vardai turi būti trumpesni nei 33 simboliai"
 msgid "Weak"
 msgstr "Silpnas"
 
-#: src/components/localization/InstallationLanguage.jsx:270
+#: src/components/localization/index.js:30
 msgid "Welcome"
 msgstr "Sveiki"
+
+#: src/components/localization/index.js:31
+#, fuzzy
+#| msgid "Welcome to Fedora"
+msgid "Welcome to Fedora Linux"
+msgstr "Sveiki pradėję naudoti Fedora"
 
 #: src/components/AnacondaPage.jsx:93
 msgid "Welcome. Let's install $0 now."
 msgstr "Sveiki. Įdiekime $0."
 
-#: src/components/storage/ReclaimSpaceModal.jsx:527
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:527
 msgid "Windows partitions with BitLocker encryption cannot be resized"
 msgstr "„Windows“ skaidinių su „BitLocker“ šifravimu pakeisti negalima"
 
@@ -1356,8 +1361,8 @@ msgstr "užbaigtas žingsnis"
 msgid "current step"
 msgstr "dabartinis žingsnis"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:396
-#: src/components/storage/ReclaimSpaceModal.jsx:409
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:396
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:409
 #: src/components/review/StorageReview.jsx:143
 msgid "delete"
 msgstr "ištrinti"
@@ -1374,7 +1379,7 @@ msgstr "šifruoti"
 msgid "encrypted"
 msgstr "užšifruota"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:254
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:254
 msgid "extended partition"
 msgstr "išplėstinis skirsnis"
 
@@ -1394,16 +1399,16 @@ msgstr "laukiantis žingsnis"
 msgid "resized from $0"
 msgstr "dydis pakeistas iš $0"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:472
-#: src/components/storage/ReclaimSpaceModal.jsx:476
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:472
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:476
 msgid "shrink"
 msgstr "sumažinti"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:430
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:430
 msgid "shrink to $0"
 msgstr "sumažinti iki $0"
 
-#: src/components/storage/ReclaimSpaceModal.jsx:390
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:390
 msgid "undo"
 msgstr "anuliuoti"
 
@@ -5924,9 +5929,6 @@ msgstr "anuliuoti"
 #~ msgstr ""
 #~ "Reikės tinklo prieigos informacijai apie jūsų vietą gauti ir programinės "
 #~ "įrangos atnaujinimams padaryti prieinamiems."
-
-#~ msgid "Welcome to Fedora"
-#~ msgstr "Sveiki pradėję naudoti Fedora"
 
 #~ msgid "What language would you like to use during the installation process?"
 #~ msgstr "Kokios kalbos pageidaujate instaliacijos metu?"
