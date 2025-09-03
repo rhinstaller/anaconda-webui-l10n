@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-02 03:29+0000\n"
+"POT-Creation-Date: 2025-09-03 03:18+0000\n"
 "PO-Revision-Date: 2025-08-09 09:56+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/anaconda-"
@@ -110,7 +110,7 @@ msgstr ""
 msgid "About"
 msgstr "정보"
 
-#: src/components/review/ReviewConfiguration.jsx:146
+#: src/components/review/ReviewConfiguration.jsx:144
 msgid "Account"
 msgstr "계정"
 
@@ -438,21 +438,21 @@ msgstr "호스트이름"
 msgid "How would you like to install?"
 msgstr "설치 하시겠습니까?"
 
-#: src/components/review/ReviewConfiguration.jsx:204
+#: src/components/review/ReviewConfiguration.jsx:202
 msgid "I understand that all existing data will be erased"
 msgstr "나는 모든 기존 자료가 제거 될 것이라는 점을 이해합니다"
 
-#: src/components/review/ReviewConfiguration.jsx:205
+#: src/components/review/ReviewConfiguration.jsx:203
 msgid ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr ""
 "나는 모든 기존 자료가 선택한 디스크에서 제거 될 것이라는 것을 이해합니다"
 
-#: src/components/review/ReviewConfiguration.jsx:209
+#: src/components/review/ReviewConfiguration.jsx:207
 msgid "I understand that some existing data will be erased"
 msgstr "나는 일부 기존 자료가 제거 될 것이라는 점을 이해합니다"
 
-#: src/components/review/ReviewConfiguration.jsx:210
+#: src/components/review/ReviewConfiguration.jsx:208
 msgid "I understand that some partitions will be modified"
 msgstr "나는 일부 파티션이 수정 될 것이라는 점을 이해합니다"
 
@@ -501,7 +501,7 @@ msgstr "시스템 설치에 실패했습니다"
 msgid "Installation of the system failed: $0"
 msgstr "시스템 설치에 실패했습니다: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:161
+#: src/components/review/ReviewConfiguration.jsx:159
 msgid "Installation type"
 msgstr "설치 유형"
 
@@ -547,7 +547,7 @@ msgstr "키보드"
 msgid "Keyboard layout during boot"
 msgstr "부팅 중에 키보드 나열"
 
-#: src/components/review/ReviewConfiguration.jsx:132
+#: src/components/review/ReviewConfiguration.jsx:130
 #: src/components/localization/InstallationLanguage.jsx:237
 msgid "Language"
 msgstr "언어"
@@ -664,10 +664,6 @@ msgstr "선택한 디스크가 없음"
 msgid "No results found"
 msgstr "결과를 찾을 수 없습니다"
 
-#: src/components/review/ReviewConfiguration.jsx:75
-msgid "No user or root account has been configured"
-msgstr "사용자나 root 계정이 구성되지 않았습니다"
-
 #: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:63
 msgid "Not enough free space on the selected disks."
 msgstr "선택한 디스크에 여유 공간이 충분하지 않습니다."
@@ -689,7 +685,7 @@ msgstr ""
 "주의: 이 배포판은 개발과 시험 목적을 위해서만 의도된 사전-출시된 것입니다. 심"
 "각한 작업 또는 생산환경에서 이 소프트웨를 사용하지 않도록 합니다."
 
-#: src/components/review/ReviewConfiguration.jsx:121
+#: src/components/review/ReviewConfiguration.jsx:119
 msgid "Operating system"
 msgstr "운영 체제"
 
@@ -919,11 +915,11 @@ msgstr "저장소 편집기로 돌아갑니다"
 msgid "Review and install"
 msgstr "검토하고 설치"
 
-#: src/components/review/ReviewConfiguration.jsx:83
+#: src/components/review/ReviewConfiguration.jsx:81
 msgid "Root account is enabled"
 msgstr "root 계정이 비활성화 되었습니다"
 
-#: src/components/review/ReviewConfiguration.jsx:77
+#: src/components/review/ReviewConfiguration.jsx:75
 msgid "Root account is enabled, but no user account has been configured"
 msgstr "root 계정이 활성화 되었지만, 사용자 계정이 구성되지 않았습니다"
 
@@ -1020,12 +1016,6 @@ msgstr "비밀번호 표시"
 msgid "Size"
 msgstr "크기"
 
-#: src/components/users/Accounts.jsx:379
-msgid ""
-"Skipping account creation during installation. It will happen on first boot "
-"instead."
-msgstr "설치 중에 계정 생성 건너뛰기. 대신에 처음 시작(boot)에서 발생합니다."
-
 #: src/components/installation/InstallationProgress.jsx:152
 msgid "Software installation"
 msgstr "소프트웨어 설치"
@@ -1046,7 +1036,7 @@ msgstr "일부 필수 파티션이 누락되었습니다: $0"
 msgid "Space"
 msgstr "공간"
 
-#: src/components/review/ReviewConfiguration.jsx:168
+#: src/components/review/ReviewConfiguration.jsx:166
 msgid "Storage"
 msgstr "저장소"
 
@@ -1173,7 +1163,7 @@ msgstr "시간이 좀 걸릴 수 있습니다"
 msgid "Time"
 msgstr "시간"
 
-#: src/components/review/ReviewConfiguration.jsx:139
+#: src/components/review/ReviewConfiguration.jsx:137
 #: src/components/datetime/Timezone.jsx:148
 msgid "Timezone"
 msgstr "시간대"
@@ -1295,6 +1285,12 @@ msgstr ""
 "당신은 여기에서 충분한 공간을 확보하고 설치자가 잔여 부분을 다루거나 파티션"
 "을 수동으로 설정 할 수 있습니다."
 
+#: src/components/users/Accounts.jsx:393
+msgid ""
+"You have to enable the root account or create a local user account to "
+"proceed."
+msgstr ""
+
 #: src/components/datetime/DateAndTime.jsx:156
 msgid "You must be connected to a network to enable automatic date and time."
 msgstr ""
@@ -1362,6 +1358,15 @@ msgstr "$0로 축소"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:390
 msgid "undo"
 msgstr "실행취소"
+
+#~ msgid "No user or root account has been configured"
+#~ msgstr "사용자나 root 계정이 구성되지 않았습니다"
+
+#~ msgid ""
+#~ "Skipping account creation during installation. It will happen on first "
+#~ "boot instead."
+#~ msgstr ""
+#~ "설치 중에 계정 생성 건너뛰기. 대신에 처음 시작(boot)에서 발생합니다."
 
 #~ msgid "This account will have administration privilege with sudo."
 #~ msgstr "이 계정은 sudo와 함께 관리자 권한을 갖습니다."

@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-02 03:29+0000\n"
+"POT-Creation-Date: 2025-09-03 03:18+0000\n"
 "PO-Revision-Date: 2025-08-09 09:56+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/anaconda-"
@@ -107,7 +107,7 @@ msgstr ""
 msgid "About"
 msgstr "Informacje"
 
-#: src/components/review/ReviewConfiguration.jsx:146
+#: src/components/review/ReviewConfiguration.jsx:144
 msgid "Account"
 msgstr "Konto"
 
@@ -447,21 +447,21 @@ msgstr "Nazwa komputera"
 msgid "How would you like to install?"
 msgstr "W jaki sposób zainstalować?"
 
-#: src/components/review/ReviewConfiguration.jsx:204
+#: src/components/review/ReviewConfiguration.jsx:202
 msgid "I understand that all existing data will be erased"
 msgstr "Rozumiem, że wszystkie istniejące dane zostaną usunięte"
 
-#: src/components/review/ReviewConfiguration.jsx:205
+#: src/components/review/ReviewConfiguration.jsx:203
 msgid ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr ""
 "Rozumiem, że wszystkie istniejące dane zostaną usunięte z wybranych dysków"
 
-#: src/components/review/ReviewConfiguration.jsx:209
+#: src/components/review/ReviewConfiguration.jsx:207
 msgid "I understand that some existing data will be erased"
 msgstr "Rozumiem, że część istniejących danych zostanie usunięta"
 
-#: src/components/review/ReviewConfiguration.jsx:210
+#: src/components/review/ReviewConfiguration.jsx:208
 msgid "I understand that some partitions will be modified"
 msgstr "Rozumiem, że część partycji zostanie zmodyfikowanych"
 
@@ -513,7 +513,7 @@ msgstr "Instalacja systemu się nie powiodła"
 msgid "Installation of the system failed: $0"
 msgstr "Instalacja systemu się nie powiodła: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:161
+#: src/components/review/ReviewConfiguration.jsx:159
 msgid "Installation type"
 msgstr "Typ instalacji"
 
@@ -559,7 +559,7 @@ msgstr "Klawiatura"
 msgid "Keyboard layout during boot"
 msgstr "Układ klawiatury podczas uruchamiania"
 
-#: src/components/review/ReviewConfiguration.jsx:132
+#: src/components/review/ReviewConfiguration.jsx:130
 #: src/components/localization/InstallationLanguage.jsx:237
 msgid "Language"
 msgstr "Język"
@@ -681,10 +681,6 @@ msgstr "Nie wybrano dysków"
 msgid "No results found"
 msgstr "Brak wyników"
 
-#: src/components/review/ReviewConfiguration.jsx:75
-msgid "No user or root account has been configured"
-msgstr "Nie skonfigurowano żadnego konta użytkownika ani roota"
-
 #: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:63
 msgid "Not enough free space on the selected disks."
 msgstr "Za mało wolnego miejsca na wybranych dyskach."
@@ -707,7 +703,7 @@ msgstr ""
 "i testowania. Nie należy używać tego oprogramowania w środowiskach "
 "produkcyjnych."
 
-#: src/components/review/ReviewConfiguration.jsx:121
+#: src/components/review/ReviewConfiguration.jsx:119
 msgid "Operating system"
 msgstr "System operacyjny"
 
@@ -941,11 +937,11 @@ msgstr "Wróć do edytora urządzeń do przechowywania danych"
 msgid "Review and install"
 msgstr "Przegląd i instalacja"
 
-#: src/components/review/ReviewConfiguration.jsx:83
+#: src/components/review/ReviewConfiguration.jsx:81
 msgid "Root account is enabled"
 msgstr "Konto roota jest włączone"
 
-#: src/components/review/ReviewConfiguration.jsx:77
+#: src/components/review/ReviewConfiguration.jsx:75
 msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
 "Konto roota jest włączone, ale żadne konto użytkownika nie jest "
@@ -1044,14 +1040,6 @@ msgstr "Wyświetl hasło"
 msgid "Size"
 msgstr "Rozmiar"
 
-#: src/components/users/Accounts.jsx:379
-msgid ""
-"Skipping account creation during installation. It will happen on first boot "
-"instead."
-msgstr ""
-"Pomijanie tworzenia konta podczas instalacji. Zamiast tego zostanie "
-"utworzone po pierwszym uruchomieniu."
-
 #: src/components/installation/InstallationProgress.jsx:152
 msgid "Software installation"
 msgstr "Instalacja oprogramowania"
@@ -1072,7 +1060,7 @@ msgstr "Brakuje części wymaganych partycji: $0"
 msgid "Space"
 msgstr "Miejsce"
 
-#: src/components/review/ReviewConfiguration.jsx:168
+#: src/components/review/ReviewConfiguration.jsx:166
 msgid "Storage"
 msgstr "Urządzenia do przechowywania danych"
 
@@ -1205,7 +1193,7 @@ msgstr "To zajmie chwilę"
 msgid "Time"
 msgstr "Czas"
 
-#: src/components/review/ReviewConfiguration.jsx:139
+#: src/components/review/ReviewConfiguration.jsx:137
 #: src/components/datetime/Timezone.jsx:148
 msgid "Timezone"
 msgstr "Strefa czasowa"
@@ -1328,6 +1316,12 @@ msgstr ""
 "Można zwolnić odpowiednią ilość miejsca i pozwolić instalatorowi zająć się "
 "resztą, albo ręcznie skonfigurować partycje."
 
+#: src/components/users/Accounts.jsx:393
+msgid ""
+"You have to enable the root account or create a local user account to "
+"proceed."
+msgstr ""
+
 #: src/components/datetime/DateAndTime.jsx:156
 msgid "You must be connected to a network to enable automatic date and time."
 msgstr "Włączenie automatycznej daty i czasu wymaga połączenia z siecią."
@@ -1394,6 +1388,16 @@ msgstr "zmniejsz do $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:390
 msgid "undo"
 msgstr "cofnij"
+
+#~ msgid "No user or root account has been configured"
+#~ msgstr "Nie skonfigurowano żadnego konta użytkownika ani roota"
+
+#~ msgid ""
+#~ "Skipping account creation during installation. It will happen on first "
+#~ "boot instead."
+#~ msgstr ""
+#~ "Pomijanie tworzenia konta podczas instalacji. Zamiast tego zostanie "
+#~ "utworzone po pierwszym uruchomieniu."
 
 #~ msgid "This account will have administration privilege with sudo."
 #~ msgstr "To konto będzie miało uprawnienia administratora za pomocą sudo."

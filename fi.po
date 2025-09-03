@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-02 03:29+0000\n"
+"POT-Creation-Date: 2025-09-03 03:18+0000\n"
 "PO-Revision-Date: 2025-08-02 03:47+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -104,7 +104,7 @@ msgstr ""
 msgid "About"
 msgstr "Aiheesta"
 
-#: src/components/review/ReviewConfiguration.jsx:146
+#: src/components/review/ReviewConfiguration.jsx:144
 msgid "Account"
 msgstr "Tili"
 
@@ -440,21 +440,21 @@ msgstr "Koneen nimi"
 msgid "How would you like to install?"
 msgstr "Miten haluaisit asentaa?"
 
-#: src/components/review/ReviewConfiguration.jsx:204
+#: src/components/review/ReviewConfiguration.jsx:202
 msgid "I understand that all existing data will be erased"
 msgstr "Ymmärrän, että kaikki olemassa olevat tiedot poistetaan"
 
-#: src/components/review/ReviewConfiguration.jsx:205
+#: src/components/review/ReviewConfiguration.jsx:203
 msgid ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr ""
 "Ymmärrän, että kaikki olemassa olevat tiedot poistetaan valituilta levyiltä"
 
-#: src/components/review/ReviewConfiguration.jsx:209
+#: src/components/review/ReviewConfiguration.jsx:207
 msgid "I understand that some existing data will be erased"
 msgstr "Ymmärrän, että osa olemassa olevista tiedoista poistetaan"
 
-#: src/components/review/ReviewConfiguration.jsx:210
+#: src/components/review/ReviewConfiguration.jsx:208
 msgid "I understand that some partitions will be modified"
 msgstr "Ymmärrän, että joitain osioita muutetaan"
 
@@ -502,7 +502,7 @@ msgstr "Järjestelmän asennus epäonnistui"
 msgid "Installation of the system failed: $0"
 msgstr "Järjestelmän asennus epäonnistui: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:161
+#: src/components/review/ReviewConfiguration.jsx:159
 msgid "Installation type"
 msgstr "Asennustyyppi"
 
@@ -547,7 +547,7 @@ msgstr "Näppäimistö"
 msgid "Keyboard layout during boot"
 msgstr "Näppäimistön asettelu käynnistyksen aikana"
 
-#: src/components/review/ReviewConfiguration.jsx:132
+#: src/components/review/ReviewConfiguration.jsx:130
 #: src/components/localization/InstallationLanguage.jsx:237
 msgid "Language"
 msgstr "Kieli"
@@ -666,10 +666,6 @@ msgstr "Yhtään levyä ei ole valittu"
 msgid "No results found"
 msgstr "Tuloksia ei löytynyt"
 
-#: src/components/review/ReviewConfiguration.jsx:75
-msgid "No user or root account has been configured"
-msgstr "Yhtään käyttäjää tai root-tiliä ei ole määritetty"
-
 #: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:63
 msgid "Not enough free space on the selected disks."
 msgstr "Valituilla levyillä ei ole riittävästi vapaata tilaa."
@@ -692,7 +688,7 @@ msgstr ""
 "kehitys- ja testaustarkoituksiin. ÄLÄ käytä tätä ohjelmistoa kriittisissä "
 "töissä tai tuotantoympäristöissä."
 
-#: src/components/review/ReviewConfiguration.jsx:121
+#: src/components/review/ReviewConfiguration.jsx:119
 msgid "Operating system"
 msgstr "Käyttöjärjestelmä"
 
@@ -925,11 +921,11 @@ msgstr "Palaa tallennusmuokkaimeen"
 msgid "Review and install"
 msgstr "Arvioi ja asenna"
 
-#: src/components/review/ReviewConfiguration.jsx:83
+#: src/components/review/ReviewConfiguration.jsx:81
 msgid "Root account is enabled"
 msgstr "Root-tili on otettu käyttöön"
 
-#: src/components/review/ReviewConfiguration.jsx:77
+#: src/components/review/ReviewConfiguration.jsx:75
 msgid "Root account is enabled, but no user account has been configured"
 msgstr "Root-tili on otettu käyttöön, mutta käyttäjätiliä ei ole määritetty"
 
@@ -1025,14 +1021,6 @@ msgstr "Näytä salasana"
 msgid "Size"
 msgstr "Koko"
 
-#: src/components/users/Accounts.jsx:379
-msgid ""
-"Skipping account creation during installation. It will happen on first boot "
-"instead."
-msgstr ""
-"Tilin luominen ohitetaan asennuksen aikana. Se tapahtuu sen sijaan "
-"ensimmäisen käynnistyksen yhteydessä."
-
 #: src/components/installation/InstallationProgress.jsx:152
 msgid "Software installation"
 msgstr "Ohjelmiston asennus"
@@ -1053,7 +1041,7 @@ msgstr "Jotkut pakolliset osiot puuttuvat: $0"
 msgid "Space"
 msgstr "Tila"
 
-#: src/components/review/ReviewConfiguration.jsx:168
+#: src/components/review/ReviewConfiguration.jsx:166
 msgid "Storage"
 msgstr "Tallennustila"
 
@@ -1186,7 +1174,7 @@ msgstr "Tämä kestää hetken"
 msgid "Time"
 msgstr "Aika"
 
-#: src/components/review/ReviewConfiguration.jsx:139
+#: src/components/review/ReviewConfiguration.jsx:137
 #: src/components/datetime/Timezone.jsx:148
 msgid "Timezone"
 msgstr "Aikavyöhyke"
@@ -1310,6 +1298,12 @@ msgstr ""
 "Voit joko vapauttaa tarpeeksi tilaa täällä ja antaa asentajan hoitaa loput "
 "tai määrittää osiot manuaalisesti."
 
+#: src/components/users/Accounts.jsx:393
+msgid ""
+"You have to enable the root account or create a local user account to "
+"proceed."
+msgstr ""
+
 #: src/components/datetime/DateAndTime.jsx:156
 msgid "You must be connected to a network to enable automatic date and time."
 msgstr ""
@@ -1378,6 +1372,16 @@ msgstr "kutista $0:ksi"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:390
 msgid "undo"
 msgstr "kumoa"
+
+#~ msgid "No user or root account has been configured"
+#~ msgstr "Yhtään käyttäjää tai root-tiliä ei ole määritetty"
+
+#~ msgid ""
+#~ "Skipping account creation during installation. It will happen on first "
+#~ "boot instead."
+#~ msgstr ""
+#~ "Tilin luominen ohitetaan asennuksen aikana. Se tapahtuu sen sijaan "
+#~ "ensimmäisen käynnistyksen yhteydessä."
 
 #~ msgid "This account will have administration privilege with sudo."
 #~ msgstr "Tällä tilillä on järjestelmänvalvojan oikeudet 'sudo':n kanssa."

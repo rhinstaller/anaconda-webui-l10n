@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-02 03:29+0000\n"
+"POT-Creation-Date: 2025-09-03 03:18+0000\n"
 "PO-Revision-Date: 2023-11-06 12:16+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Esperanto <https://translate.fedoraproject.org/projects/"
@@ -85,7 +85,7 @@ msgstr ""
 msgid "About"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:146
+#: src/components/review/ReviewConfiguration.jsx:144
 #, fuzzy
 #| msgid "Lock root account"
 msgid "Account"
@@ -477,20 +477,20 @@ msgstr ""
 "\n"
 "Ĉu vi volas ĝin tamen uzi?"
 
-#: src/components/review/ReviewConfiguration.jsx:204
+#: src/components/review/ReviewConfiguration.jsx:202
 msgid "I understand that all existing data will be erased"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:205
+#: src/components/review/ReviewConfiguration.jsx:203
 msgid ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:209
+#: src/components/review/ReviewConfiguration.jsx:207
 msgid "I understand that some existing data will be erased"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:210
+#: src/components/review/ReviewConfiguration.jsx:208
 msgid "I understand that some partitions will be modified"
 msgstr ""
 
@@ -545,7 +545,7 @@ msgstr "Instalo"
 msgid "Installation of the system failed: $0"
 msgstr "Instalo"
 
-#: src/components/review/ReviewConfiguration.jsx:161
+#: src/components/review/ReviewConfiguration.jsx:159
 #, fuzzy
 msgid "Installation type"
 msgstr "Instalo"
@@ -591,7 +591,7 @@ msgstr "_Klavaro"
 msgid "Keyboard layout during boot"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:132
+#: src/components/review/ReviewConfiguration.jsx:130
 #: src/components/localization/InstallationLanguage.jsx:237
 #, fuzzy
 msgid "Language"
@@ -720,12 +720,6 @@ msgstr "Neniu disko elektita"
 msgid "No results found"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:75
-#, fuzzy
-#| msgid "no NTP servers have been configured"
-msgid "No user or root account has been configured"
-msgstr "neniu NTP-servilo estas agordita"
-
 #: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:63
 #, fuzzy
 msgid "Not enough free space on the selected disks."
@@ -747,7 +741,7 @@ msgid ""
 "production environments."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:121
+#: src/components/review/ReviewConfiguration.jsx:119
 #, fuzzy
 msgid "Operating system"
 msgstr "Kreante uzantojn"
@@ -1018,13 +1012,13 @@ msgstr "Instalo"
 msgid "Review and install"
 msgstr "_Komenci instaladon"
 
-#: src/components/review/ReviewConfiguration.jsx:83
+#: src/components/review/ReviewConfiguration.jsx:81
 #, fuzzy
 #| msgid "Root account is disabled."
 msgid "Root account is enabled"
 msgstr "Administranta konto estas malŝaltita."
 
-#: src/components/review/ReviewConfiguration.jsx:77
+#: src/components/review/ReviewConfiguration.jsx:75
 msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
 
@@ -1146,12 +1140,6 @@ msgstr "Montri pasvorton."
 msgid "Size"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:379
-msgid ""
-"Skipping account creation during installation. It will happen on first boot "
-"instead."
-msgstr ""
-
 #: src/components/installation/InstallationProgress.jsx:152
 #, fuzzy
 msgid "Software installation"
@@ -1173,7 +1161,7 @@ msgstr ""
 msgid "Space"
 msgstr "Neniu spaco"
 
-#: src/components/review/ReviewConfiguration.jsx:168
+#: src/components/review/ReviewConfiguration.jsx:166
 #, fuzzy
 msgid "Storage"
 msgstr "Konservejaj agordoj"
@@ -1313,7 +1301,7 @@ msgstr "Ĉi tio povus daŭri momenton."
 msgid "Time"
 msgstr "Horzono: %s\n"
 
-#: src/components/review/ReviewConfiguration.jsx:139
+#: src/components/review/ReviewConfiguration.jsx:137
 #: src/components/datetime/Timezone.jsx:148
 #, fuzzy
 #| msgid "Timezone: %s\n"
@@ -1455,6 +1443,12 @@ msgid ""
 "rest or manually set up partitions."
 msgstr ""
 
+#: src/components/users/Accounts.jsx:393
+msgid ""
+"You have to enable the root account or create a local user account to "
+"proceed."
+msgstr ""
+
 #: src/components/datetime/DateAndTime.jsx:156
 msgid "You must be connected to a network to enable automatic date and time."
 msgstr ""
@@ -1535,6 +1529,11 @@ msgstr ""
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:390
 msgid "undo"
 msgstr ""
+
+#, fuzzy
+#~| msgid "no NTP servers have been configured"
+#~ msgid "No user or root account has been configured"
+#~ msgstr "neniu NTP-servilo estas agordita"
 
 #, fuzzy
 #~ msgid "Preparing report"

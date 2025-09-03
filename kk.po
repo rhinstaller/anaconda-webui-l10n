@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-02 03:29+0000\n"
+"POT-Creation-Date: 2025-09-03 03:18+0000\n"
 "PO-Revision-Date: 2023-11-06 12:19+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Kazakh <https://translate.fedoraproject.org/projects/anaconda-"
@@ -87,7 +87,7 @@ msgstr ""
 msgid "About"
 msgstr "Осы туралы"
 
-#: src/components/review/ReviewConfiguration.jsx:146
+#: src/components/review/ReviewConfiguration.jsx:144
 #, fuzzy
 #| msgctxt "GUI|Subscription|Authentication|Account"
 #| msgid "_Account"
@@ -461,20 +461,20 @@ msgstr "Хост аты"
 msgid "How would you like to install?"
 msgstr "Қалай орнатуды қалайсыз?"
 
-#: src/components/review/ReviewConfiguration.jsx:204
+#: src/components/review/ReviewConfiguration.jsx:202
 msgid "I understand that all existing data will be erased"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:205
+#: src/components/review/ReviewConfiguration.jsx:203
 msgid ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:209
+#: src/components/review/ReviewConfiguration.jsx:207
 msgid "I understand that some existing data will be erased"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:210
+#: src/components/review/ReviewConfiguration.jsx:208
 msgid "I understand that some partitions will be modified"
 msgstr ""
 
@@ -528,7 +528,7 @@ msgstr "Жүйені орнату сәтсіз аяқталды: $0"
 msgid "Installation of the system failed: $0"
 msgstr "Жүйені орнату сәтсіз аяқталды: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:161
+#: src/components/review/ReviewConfiguration.jsx:159
 msgid "Installation type"
 msgstr "Орнату түрі"
 
@@ -574,7 +574,7 @@ msgstr "_Пернетақта"
 msgid "Keyboard layout during boot"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:132
+#: src/components/review/ReviewConfiguration.jsx:130
 #: src/components/localization/InstallationLanguage.jsx:237
 msgid "Language"
 msgstr "Тіл"
@@ -702,12 +702,6 @@ msgstr "Дисктер таңдалмады"
 msgid "No results found"
 msgstr "Нәтижелер жоқ"
 
-#: src/components/review/ReviewConfiguration.jsx:75
-#, fuzzy
-#| msgid "no NTP servers have been configured"
-msgid "No user or root account has been configured"
-msgstr "бірде-бір NTP сервері бапталмаған"
-
 #: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:63
 msgid "Not enough free space on the selected disks."
 msgstr "Таңдалған дисктерде бос орын жеткіліксіз."
@@ -730,7 +724,7 @@ msgstr ""
 "шығарылған бағдарламалық қамтама. Бұл бағдарламалық қамтаманы кез келген "
 "маңызды жұмыс немесе өндіріс ортасы үшін ҚОЛДАНБАҢЫЗ."
 
-#: src/components/review/ReviewConfiguration.jsx:121
+#: src/components/review/ReviewConfiguration.jsx:119
 msgid "Operating system"
 msgstr "Операциялық жүйе"
 
@@ -998,13 +992,13 @@ msgstr "Blivet-gui сақтау құрылғыларын түзеткішін ж
 msgid "Review and install"
 msgstr "Қарап шығу және орнату"
 
-#: src/components/review/ReviewConfiguration.jsx:83
+#: src/components/review/ReviewConfiguration.jsx:81
 #, fuzzy
 #| msgid "Root account is disabled"
 msgid "Root account is enabled"
 msgstr "Root тіркелгісі сөндірулі"
 
-#: src/components/review/ReviewConfiguration.jsx:77
+#: src/components/review/ReviewConfiguration.jsx:75
 msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
 
@@ -1126,12 +1120,6 @@ msgstr "Парольді көрсету"
 msgid "Size"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:379
-msgid ""
-"Skipping account creation during installation. It will happen on first boot "
-"instead."
-msgstr ""
-
 #: src/components/installation/InstallationProgress.jsx:152
 msgid "Software installation"
 msgstr "Бағд. қамтаманы орнату"
@@ -1154,7 +1142,7 @@ msgstr ""
 msgid "Space"
 msgstr "Орын жоқ"
 
-#: src/components/review/ReviewConfiguration.jsx:168
+#: src/components/review/ReviewConfiguration.jsx:166
 msgid "Storage"
 msgstr "Сақтау құрылғысы"
 
@@ -1292,7 +1280,7 @@ msgstr "Бұл біраз уақытты алуы мүмкін"
 msgid "Time"
 msgstr "Уақыт белдеуі: %s\n"
 
-#: src/components/review/ReviewConfiguration.jsx:139
+#: src/components/review/ReviewConfiguration.jsx:137
 #: src/components/datetime/Timezone.jsx:148
 #, fuzzy
 #| msgid "Timezone: %s\n"
@@ -1428,6 +1416,12 @@ msgid ""
 "rest or manually set up partitions."
 msgstr ""
 
+#: src/components/users/Accounts.jsx:393
+msgid ""
+"You have to enable the root account or create a local user account to "
+"proceed."
+msgstr ""
+
 #: src/components/datetime/DateAndTime.jsx:156
 msgid "You must be connected to a network to enable automatic date and time."
 msgstr ""
@@ -1504,6 +1498,11 @@ msgstr ""
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:390
 msgid "undo"
 msgstr ""
+
+#, fuzzy
+#~| msgid "no NTP servers have been configured"
+#~ msgid "No user or root account has been configured"
+#~ msgstr "бірде-бір NTP сервері бапталмаған"
 
 #, fuzzy
 #~| msgid "Clear input value"

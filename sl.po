@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 40.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-02 03:29+0000\n"
+"POT-Creation-Date: 2025-09-03 03:18+0000\n"
 "PO-Revision-Date: 2025-08-11 03:58+0000\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <https://translate.fedoraproject.org/projects/"
@@ -83,7 +83,7 @@ msgstr ""
 msgid "About"
 msgstr "O programu"
 
-#: src/components/review/ReviewConfiguration.jsx:146
+#: src/components/review/ReviewConfiguration.jsx:144
 msgid "Account"
 msgstr "Račun"
 
@@ -418,20 +418,20 @@ msgstr "Ime gostitelja"
 msgid "How would you like to install?"
 msgstr "Kako želite namestiti?"
 
-#: src/components/review/ReviewConfiguration.jsx:204
+#: src/components/review/ReviewConfiguration.jsx:202
 msgid "I understand that all existing data will be erased"
 msgstr "Razumem, da bodo vsi obstoječi podatki izbrisani"
 
-#: src/components/review/ReviewConfiguration.jsx:205
+#: src/components/review/ReviewConfiguration.jsx:203
 msgid ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr "Razumem, da bodo vsi obstoječi podatki izbrisani z izbranih diskov"
 
-#: src/components/review/ReviewConfiguration.jsx:209
+#: src/components/review/ReviewConfiguration.jsx:207
 msgid "I understand that some existing data will be erased"
 msgstr "Razumem, da bodo nekateri obstoječi podatki izbrisani"
 
-#: src/components/review/ReviewConfiguration.jsx:210
+#: src/components/review/ReviewConfiguration.jsx:208
 msgid "I understand that some partitions will be modified"
 msgstr "Razumem, da bodo nekateri razdelki spremenjeni"
 
@@ -482,7 +482,7 @@ msgstr "Namestitev sistema ni uspela"
 msgid "Installation of the system failed: $0"
 msgstr "Namestitev sistema ni uspela: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:161
+#: src/components/review/ReviewConfiguration.jsx:159
 msgid "Installation type"
 msgstr "Vrsta namestitve"
 
@@ -528,7 +528,7 @@ msgstr "Tipkovnica"
 msgid "Keyboard layout during boot"
 msgstr "Postavitev tipkovnice med zagonom"
 
-#: src/components/review/ReviewConfiguration.jsx:132
+#: src/components/review/ReviewConfiguration.jsx:130
 #: src/components/localization/InstallationLanguage.jsx:237
 msgid "Language"
 msgstr "Jezik"
@@ -649,10 +649,6 @@ msgstr "Ni izbranih diskov"
 msgid "No results found"
 msgstr "Ni zadetkov"
 
-#: src/components/review/ReviewConfiguration.jsx:75
-msgid "No user or root account has been configured"
-msgstr "Noben uporabniški ali korenski račun ni bil nastavljen"
-
 #: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:63
 msgid "Not enough free space on the selected disks."
 msgstr "Na izbranih diskih ni dovolj prostega prostora."
@@ -675,7 +671,7 @@ msgstr ""
 "razvoju in testiranju. *Ne* uporabljajte te programske opreme za kakršnokoli "
 "kritično delo ali v produkcijskem okolju."
 
-#: src/components/review/ReviewConfiguration.jsx:121
+#: src/components/review/ReviewConfiguration.jsx:119
 msgid "Operating system"
 msgstr "operacijski sistem"
 
@@ -909,11 +905,11 @@ msgstr "Nazaj v urejevalnik hrambe"
 msgid "Review and install"
 msgstr "Pregled in nameščanje"
 
-#: src/components/review/ReviewConfiguration.jsx:83
+#: src/components/review/ReviewConfiguration.jsx:81
 msgid "Root account is enabled"
 msgstr "Korenski račun je omogočen"
 
-#: src/components/review/ReviewConfiguration.jsx:77
+#: src/components/review/ReviewConfiguration.jsx:75
 msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
 "Korenski račun je omogočen, vendar noben uporabniški račun ni bil nastavljen"
@@ -1011,14 +1007,6 @@ msgstr "Pokaži geslo"
 msgid "Size"
 msgstr "Velikost"
 
-#: src/components/users/Accounts.jsx:379
-msgid ""
-"Skipping account creation during installation. It will happen on first boot "
-"instead."
-msgstr ""
-"Preskakovanje ustvarjanja računa med namestitvijo. Namesto tega se bo "
-"izvedlo ob prvem zagonu."
-
 #: src/components/installation/InstallationProgress.jsx:152
 msgid "Software installation"
 msgstr "Nameščanje programja"
@@ -1039,7 +1027,7 @@ msgstr "Manjkajo nekateri zahtevani razdelki: $0"
 msgid "Space"
 msgstr "Prostor"
 
-#: src/components/review/ReviewConfiguration.jsx:168
+#: src/components/review/ReviewConfiguration.jsx:166
 msgid "Storage"
 msgstr "Shramba"
 
@@ -1168,7 +1156,7 @@ msgstr "To utegne trajati nekaj časa"
 msgid "Time"
 msgstr "Čas"
 
-#: src/components/review/ReviewConfiguration.jsx:139
+#: src/components/review/ReviewConfiguration.jsx:137
 #: src/components/datetime/Timezone.jsx:148
 msgid "Timezone"
 msgstr "Časovni pas"
@@ -1292,6 +1280,12 @@ msgstr ""
 "Tukaj lahko sprostite dovolj prostora in pustite, da namestitveni program "
 "poskrbi za ostalo ali ročno nastavite razdelke."
 
+#: src/components/users/Accounts.jsx:393
+msgid ""
+"You have to enable the root account or create a local user account to "
+"proceed."
+msgstr ""
+
 #: src/components/datetime/DateAndTime.jsx:156
 msgid "You must be connected to a network to enable automatic date and time."
 msgstr ""
@@ -1360,6 +1354,16 @@ msgstr "skrči na $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:390
 msgid "undo"
 msgstr "razveljavi"
+
+#~ msgid "No user or root account has been configured"
+#~ msgstr "Noben uporabniški ali korenski račun ni bil nastavljen"
+
+#~ msgid ""
+#~ "Skipping account creation during installation. It will happen on first "
+#~ "boot instead."
+#~ msgstr ""
+#~ "Preskakovanje ustvarjanja računa med namestitvijo. Namesto tega se bo "
+#~ "izvedlo ob prvem zagonu."
 
 #~ msgid "This account will have administration privilege with sudo."
 #~ msgstr "Ta račun bo imel skrbniške pravice v sudo."

@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-02 03:29+0000\n"
+"POT-Creation-Date: 2025-09-03 03:18+0000\n"
 "PO-Revision-Date: 2025-06-01 02:21+0000\n"
 "Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -108,7 +108,7 @@ msgstr ""
 msgid "About"
 msgstr "關於"
 
-#: src/components/review/ReviewConfiguration.jsx:146
+#: src/components/review/ReviewConfiguration.jsx:144
 msgid "Account"
 msgstr "帳號"
 
@@ -436,20 +436,20 @@ msgstr "主機名稱"
 msgid "How would you like to install?"
 msgstr "您想如何安裝？"
 
-#: src/components/review/ReviewConfiguration.jsx:204
+#: src/components/review/ReviewConfiguration.jsx:202
 msgid "I understand that all existing data will be erased"
 msgstr "我知曉所有現存的資料將會被清除"
 
-#: src/components/review/ReviewConfiguration.jsx:205
+#: src/components/review/ReviewConfiguration.jsx:203
 msgid ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr "我知曉已選取硬碟中的所有現存資料將會被清除"
 
-#: src/components/review/ReviewConfiguration.jsx:209
+#: src/components/review/ReviewConfiguration.jsx:207
 msgid "I understand that some existing data will be erased"
 msgstr "我知曉某些現存資料將會被清除"
 
-#: src/components/review/ReviewConfiguration.jsx:210
+#: src/components/review/ReviewConfiguration.jsx:208
 msgid "I understand that some partitions will be modified"
 msgstr "我知曉有些分割區將會被變更"
 
@@ -499,7 +499,7 @@ msgstr "系統安裝失敗：$0"
 msgid "Installation of the system failed: $0"
 msgstr "系統安裝失敗：$0"
 
-#: src/components/review/ReviewConfiguration.jsx:161
+#: src/components/review/ReviewConfiguration.jsx:159
 msgid "Installation type"
 msgstr "安裝類型"
 
@@ -543,7 +543,7 @@ msgstr "鍵盤"
 msgid "Keyboard layout during boot"
 msgstr "開機時的鍵盤配置"
 
-#: src/components/review/ReviewConfiguration.jsx:132
+#: src/components/review/ReviewConfiguration.jsx:130
 #: src/components/localization/InstallationLanguage.jsx:237
 msgid "Language"
 msgstr "語言"
@@ -660,12 +660,6 @@ msgstr "尚未選取磁碟"
 msgid "No results found"
 msgstr "未找到結果"
 
-#: src/components/review/ReviewConfiguration.jsx:75
-#, fuzzy
-#| msgid "no NTP servers have been configured"
-msgid "No user or root account has been configured"
-msgstr "尚未設定 NTP 伺服器"
-
 #: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:63
 msgid "Not enough free space on the selected disks."
 msgstr "所選取的磁碟上的可用空間不足。"
@@ -687,7 +681,7 @@ msgstr ""
 "注意：此為預發行軟體，僅供開發與測試用途。絕對不要將此軟體用於任何重要工作或"
 "生產環境。"
 
-#: src/components/review/ReviewConfiguration.jsx:121
+#: src/components/review/ReviewConfiguration.jsx:119
 msgid "Operating system"
 msgstr "作業系統"
 
@@ -916,13 +910,13 @@ msgstr "回到儲存空間編輯器"
 msgid "Review and install"
 msgstr "檢查並安裝"
 
-#: src/components/review/ReviewConfiguration.jsx:83
+#: src/components/review/ReviewConfiguration.jsx:81
 #, fuzzy
 #| msgid "Root account is disabled"
 msgid "Root account is enabled"
 msgstr "Root 帳號已停用"
 
-#: src/components/review/ReviewConfiguration.jsx:77
+#: src/components/review/ReviewConfiguration.jsx:75
 msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
 
@@ -1030,12 +1024,6 @@ msgstr "顯示密碼"
 msgid "Size"
 msgstr "大小"
 
-#: src/components/users/Accounts.jsx:379
-msgid ""
-"Skipping account creation during installation. It will happen on first boot "
-"instead."
-msgstr ""
-
 #: src/components/installation/InstallationProgress.jsx:152
 msgid "Software installation"
 msgstr "軟體選擇"
@@ -1054,7 +1042,7 @@ msgstr "缺少部分必要的分割區：$0"
 msgid "Space"
 msgstr "空間"
 
-#: src/components/review/ReviewConfiguration.jsx:168
+#: src/components/review/ReviewConfiguration.jsx:166
 msgid "Storage"
 msgstr "儲存"
 
@@ -1182,7 +1170,7 @@ msgstr "這會需要一段時間"
 msgid "Time"
 msgstr "時區：%s\n"
 
-#: src/components/review/ReviewConfiguration.jsx:139
+#: src/components/review/ReviewConfiguration.jsx:137
 #: src/components/datetime/Timezone.jsx:148
 #, fuzzy
 #| msgid "Timezone: %s\n"
@@ -1304,6 +1292,12 @@ msgid ""
 "rest or manually set up partitions."
 msgstr "您可以在此釋放足夠的空間讓安裝程式處理其餘部分，或是手動設定分割區。"
 
+#: src/components/users/Accounts.jsx:393
+msgid ""
+"You have to enable the root account or create a local user account to "
+"proceed."
+msgstr ""
+
 #: src/components/datetime/DateAndTime.jsx:156
 msgid "You must be connected to a network to enable automatic date and time."
 msgstr ""
@@ -1370,6 +1364,11 @@ msgstr "已縮小至 $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:390
 msgid "undo"
 msgstr "復原"
+
+#, fuzzy
+#~| msgid "no NTP servers have been configured"
+#~ msgid "No user or root account has been configured"
+#~ msgstr "尚未設定 NTP 伺服器"
 
 #~ msgid "This account will have administration privilege with sudo."
 #~ msgstr "這個帳號將會有 sudo 的管理權限。"
