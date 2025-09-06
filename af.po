@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-05 03:21+0000\n"
+"POT-Creation-Date: 2025-09-06 03:17+0000\n"
 "PO-Revision-Date: 2023-11-06 12:15+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Afrikaans <https://translate.fedoraproject.org/projects/"
@@ -52,13 +52,17 @@ msgid ""
 "all logical partitions will also automatically remove the extended partition."
 msgstr ""
 
+#: src/components/review/ReviewConfiguration.jsx:121
+msgid "$0 is required, but only $1 is available."
+msgstr ""
+
 #: src/components/localization/Keyboard.jsx:149
 #, fuzzy
 #| msgid "Nothing selected"
 msgid "$0 layouts detected"
 msgstr "Niks gekies nie"
 
-#: src/components/review/StorageReview.jsx:260
+#: src/components/review/StorageReview.jsx:293
 #, fuzzy
 #| msgid "No user will be created"
 msgid "$0 will be deleted"
@@ -89,13 +93,13 @@ msgstr ""
 msgid "About"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:144
+#: src/components/review/ReviewConfiguration.jsx:209
 #, fuzzy
 #| msgid "Lock root account"
 msgid "Account"
 msgstr "Sluit wortelrekening"
 
-#: src/components/review/StorageReview.jsx:219
+#: src/components/review/StorageReview.jsx:251
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:160
 #, fuzzy
 #| msgid "Action"
@@ -212,6 +216,11 @@ msgstr "Beskrywing"
 #| msgid "Set host name"
 msgid "Change hostname"
 msgstr "Stel gasheernaam in"
+
+#: src/components/review/ReviewConfiguration.jsx:138
+#, fuzzy
+msgid "Change partition layout"
+msgstr "Beskrywing"
 
 #: src/components/localization/Keyboard.jsx:161
 msgid "Change system keyboard layout"
@@ -331,7 +340,7 @@ msgstr ""
 msgid "Date and time"
 msgstr "Stel datum en tyd"
 
-#: src/components/review/StorageReview.jsx:318
+#: src/components/review/StorageReview.jsx:351
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
@@ -350,7 +359,7 @@ msgstr "Die houer is geënkripteer."
 msgid "Detected valid storage layout:"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:217
+#: src/components/review/StorageReview.jsx:249
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:639
 msgid "Device"
 msgstr "Toestel"
@@ -376,7 +385,7 @@ msgstr "Sluit wortelrekening"
 msgid "Encrypt my data"
 msgstr "_Enkripteer my data."
 
-#: src/components/review/StorageReview.jsx:220
+#: src/components/review/StorageReview.jsx:252
 #, fuzzy
 #| msgid "Encrypt"
 msgid "Encrypted"
@@ -439,6 +448,10 @@ msgstr "Volle naam kan nie dubbelpunte bevat nie"
 msgid "Help us fix the issue!"
 msgstr ""
 
+#: src/components/review/StorageReview.jsx:254
+msgid "Helper text"
+msgstr ""
+
 #: src/components/Password.jsx:248
 #, fuzzy
 msgid "Hide confirmed password"
@@ -468,20 +481,20 @@ msgstr ""
 "\n"
 "Wil u dit in elk geval gebruik?"
 
-#: src/components/review/ReviewConfiguration.jsx:202
+#: src/components/review/ReviewConfiguration.jsx:267
 msgid "I understand that all existing data will be erased"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:203
+#: src/components/review/ReviewConfiguration.jsx:268
 msgid ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:207
+#: src/components/review/ReviewConfiguration.jsx:272
 msgid "I understand that some existing data will be erased"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:208
+#: src/components/review/ReviewConfiguration.jsx:273
 msgid "I understand that some partitions will be modified"
 msgstr ""
 
@@ -535,7 +548,7 @@ msgstr "Installasie"
 msgid "Installation of the system failed: $0"
 msgstr "Installasie"
 
-#: src/components/review/ReviewConfiguration.jsx:159
+#: src/components/review/ReviewConfiguration.jsx:224
 #, fuzzy
 msgid "Installation type"
 msgstr "Installasie"
@@ -581,7 +594,7 @@ msgstr "S_leutelbord"
 msgid "Keyboard layout during boot"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:130
+#: src/components/review/ReviewConfiguration.jsx:195
 #: src/components/localization/InstallationLanguage.jsx:237
 #, fuzzy
 msgid "Language"
@@ -628,6 +641,11 @@ msgstr "Toestelopstelling"
 msgid "May contain letters, numbers, and dashes."
 msgstr ""
 
+#: src/components/review/StorageReview.jsx:103
+#, fuzzy
+msgid "May need more free space"
+msgstr "Installeer tans sagteware"
+
 #: src/components/Password.jsx:76
 msgid "Medium"
 msgstr ""
@@ -644,7 +662,7 @@ msgstr ""
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:221
+#: src/components/review/StorageReview.jsx:253
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:638
 msgid "Mount point"
 msgstr "Hegpunt"
@@ -675,6 +693,10 @@ msgstr "DNS"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:157
 msgid "Name"
 msgstr "Naam"
+
+#: src/components/review/StorageReview.jsx:101
+msgid "Needs at least $0"
+msgstr ""
 
 #: src/components/Error.jsx:160
 msgid ""
@@ -710,6 +732,12 @@ msgstr "Geen skywe gekies nie"
 msgid "No results found"
 msgstr ""
 
+#: src/components/review/ReviewConfiguration.jsx:119
+#, fuzzy
+#| msgid "Not enough RAM"
+msgid "Not enough available free space"
+msgstr "Nie genoeg geheue nie"
+
 #: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:63
 #, fuzzy
 msgid "Not enough free space on the selected disks."
@@ -720,7 +748,7 @@ msgstr "Outomatiese partisionering is gekies"
 msgid "Not enough space on selected disks."
 msgstr "Outomatiese partisionering is gekies"
 
-#: src/components/review/StorageReview.jsx:362
+#: src/components/review/StorageReview.jsx:395
 msgid "Note"
 msgstr ""
 
@@ -731,7 +759,7 @@ msgid ""
 "production environments."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:119
+#: src/components/review/ReviewConfiguration.jsx:184
 #, fuzzy
 msgid "Operating system"
 msgstr "Skep tans gebruikers"
@@ -981,7 +1009,7 @@ msgstr ""
 msgid "Resize"
 msgstr "_Sektorgrootte:"
 
-#: src/components/review/StorageReview.jsx:324
+#: src/components/review/StorageReview.jsx:357
 msgid "Resizing the following partitions from $0: $1"
 msgstr ""
 
@@ -1000,13 +1028,13 @@ msgstr "Installasie"
 msgid "Review and install"
 msgstr "_Begin installasie"
 
-#: src/components/review/ReviewConfiguration.jsx:81
+#: src/components/review/ReviewConfiguration.jsx:89
 #, fuzzy
 #| msgid "Root account is disabled."
 msgid "Root account is enabled"
 msgstr "Wortelrekening is gedeaktiveer."
 
-#: src/components/review/ReviewConfiguration.jsx:75
+#: src/components/review/ReviewConfiguration.jsx:83
 msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
 
@@ -1124,7 +1152,7 @@ msgstr "_Bevestig wagwoord"
 msgid "Show password"
 msgstr "Wys wagwoord."
 
-#: src/components/review/StorageReview.jsx:218
+#: src/components/review/StorageReview.jsx:250
 msgid "Size"
 msgstr ""
 
@@ -1149,7 +1177,7 @@ msgstr ""
 msgid "Space"
 msgstr "Geen spasie"
 
-#: src/components/review/ReviewConfiguration.jsx:166
+#: src/components/review/ReviewConfiguration.jsx:231
 #, fuzzy
 msgid "Storage"
 msgstr "Keuses vir stoorplek"
@@ -1293,7 +1321,7 @@ msgstr "Dit kan dalk ’n rukkie duur."
 msgid "Time"
 msgstr "Tydsone: %s\n"
 
-#: src/components/review/ReviewConfiguration.jsx:137
+#: src/components/review/ReviewConfiguration.jsx:202
 #: src/components/datetime/Timezone.jsx:148
 #, fuzzy
 #| msgid "Timezone: %s\n"
@@ -1417,7 +1445,7 @@ msgstr ""
 msgid "Welcome to Fedora Linux"
 msgstr "Welkom by Fedora"
 
-#: src/components/AnacondaPage.jsx:93
+#: src/components/AnacondaPage.jsx:96
 msgid "Welcome. Let's install $0 now."
 msgstr ""
 
@@ -1455,7 +1483,7 @@ msgstr "Klaar!"
 msgid "current step"
 msgstr "Huidige rekenaarnaam:"
 
-#: src/components/review/StorageReview.jsx:143
+#: src/components/review/StorageReview.jsx:174
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:396
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:409
 #, fuzzy
@@ -1467,13 +1495,13 @@ msgstr "Skrap"
 msgid "edit"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:126
+#: src/components/review/StorageReview.jsx:156
 #, fuzzy
 #| msgid "Encrypt"
 msgid "encrypt"
 msgstr "Enkripteer"
 
-#: src/components/review/StorageReview.jsx:126
+#: src/components/review/StorageReview.jsx:156
 #, fuzzy
 #| msgid "Encrypt"
 msgid "encrypted"
@@ -1485,12 +1513,12 @@ msgstr "Enkripteer"
 msgid "extended partition"
 msgstr "Gewone partisie"
 
-#: src/components/review/StorageReview.jsx:102
+#: src/components/review/StorageReview.jsx:120
 #, fuzzy
 msgid "format as $0"
 msgstr "Herformateer"
 
-#: src/components/review/StorageReview.jsx:106
+#: src/components/review/StorageReview.jsx:124
 #, fuzzy
 msgid "mount"
 msgstr "Voeg uitleg by"
@@ -1499,7 +1527,7 @@ msgstr "Voeg uitleg by"
 msgid "pending step"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:148
+#: src/components/review/StorageReview.jsx:179
 msgid "resized from $0"
 msgstr ""
 
@@ -1615,10 +1643,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Install on the custom mount points?"
 #~ msgstr "Ken hegpunte met die hand toe"
-
-#, fuzzy
-#~ msgid "Install on the free space?"
-#~ msgstr "Installeer tans sagteware"
 
 #, fuzzy
 #~ msgid "Install using the configured storage?"
@@ -5480,11 +5504,6 @@ msgstr ""
 #~| msgid "_Save Passphrase"
 #~ msgid "Incorrect passphrase"
 #~ msgstr "_Stoor wagwoordfrase"
-
-#, fuzzy
-#~| msgid "Not enough RAM"
-#~ msgid "Not enough free space."
-#~ msgstr "Nie genoeg geheue nie"
 
 #~ msgid "Starting Install to Hard Drive"
 #~ msgstr "Begin met Installeer op hardeskyf"
