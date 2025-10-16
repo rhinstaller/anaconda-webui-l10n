@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-16 03:28+0000\n"
-"PO-Revision-Date: 2025-09-07 07:08+0000\n"
+"PO-Revision-Date: 2025-10-17 03:26+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/uk/>\n"
@@ -35,7 +35,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.13.2\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:180
 #: src/components/storage/installation-method/InstallationDestination.jsx:301
@@ -389,10 +389,8 @@ msgid "Extended partition"
 msgstr "Розширений розділ"
 
 #: src/components/localization/Keyboard.jsx:207
-#, fuzzy
-#| msgid "Failed to save storage configuration"
 msgid "Failed to save layouts"
-msgstr "Не вдалося зберегти налаштування сховища даних"
+msgstr "Не вдалося зберегти компонування"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:93
 msgid "Fedora linux requires at least $0 of disk space."
@@ -411,11 +409,8 @@ msgstr ""
 "завершення встановлення."
 
 #: src/components/localization/Keyboard.jsx:223
-#, fuzzy
-#| msgctxt "GUI|Keyboard Layout"
-#| msgid "_Add layout"
 msgid "Find layout"
-msgstr "_Додати розкладку"
+msgstr "Виявити компонування"
 
 #: src/components/users/Accounts.jsx:307
 msgid ""
@@ -608,7 +603,7 @@ msgstr ""
 #: src/components/localization/Keyboard.jsx:119
 #: src/components/localization/Keyboard.jsx:123
 msgid "Make current"
-msgstr ""
+msgstr "Зробити поточним"
 
 #: src/components/storage/mount-point-mapping/index.js:31
 msgid "Manual disk configuration"
@@ -658,12 +653,12 @@ msgstr "Прив'язка до точки монтування"
 #: src/components/localization/Keyboard.jsx:141
 #: src/components/localization/Keyboard.jsx:145
 msgid "Move down"
-msgstr ""
+msgstr "Пересунути нижче"
 
 #: src/components/localization/Keyboard.jsx:130
 #: src/components/localization/Keyboard.jsx:134
 msgid "Move up"
-msgstr ""
+msgstr "Пересунути вище"
 
 #: src/components/Password.jsx:43
 msgid "Must be at least $0 characters"
@@ -715,17 +710,13 @@ msgid "No disks selected"
 msgstr "Не позначено жодного диска"
 
 #: src/components/localization/Keyboard.jsx:384
-#, fuzzy
-#| msgid "More than one layout detected. Remove additional layouts to proceed"
 msgid "No keyboard layout detected. Add at least one layout to proceed"
 msgstr ""
-"Виявлено декілька розкладок. Вилучіть додаткові розкладки, щоб продовжити"
+"Не виявлено жодної розкладки клавіатури. Додайте хоча б одну, щоб продовжити"
 
 #: src/components/localization/Keyboard.jsx:244
-#, fuzzy
-#| msgid "$0 layouts detected"
 msgid "No layouts selected yet"
-msgstr "Виявлено $0 розкладок"
+msgstr "Ще не вибрано жодної розкладки"
 
 #: src/components/localization/Common.jsx:135
 msgid "No results found"
@@ -1051,10 +1042,8 @@ msgid "Select region"
 msgstr "Виберіть регіон"
 
 #: src/components/localization/Keyboard.jsx:237
-#, fuzzy
-#| msgid "Selected Layouts"
 msgid "Selected (top = current)"
-msgstr "Вибрані розкладки"
+msgstr "Вибрані (верхня = поточна)"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:123
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -1204,6 +1193,8 @@ msgid ""
 "The active keyboard layout in the compositor differs from the default layout "
 "selected for the target system."
 msgstr ""
+"Активна розкладка клавіатури у композиторі відрізняється від типової "
+"розкладки, яку вибрано для системи призначення."
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:57
 msgid ""
@@ -1234,12 +1225,17 @@ msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
 msgstr ""
+"У вибраній типовій розкладці клавіатури не передбачено підтримки символів "
+"ASCII. Будь ласка, виберіть як типову розкладку з можливістю введення "
+"символів ASCII."
 
 #: src/components/localization/Keyboard.jsx:319
 msgid ""
 "The selected layout does not support ASCII input. Please select a different "
 "layout to proceed."
 msgstr ""
+"У вибраній розкладці не передбачено можливості введенян символів ASCII. Будь "
+"ласка, виберіть іншу розкладку."
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid ""
