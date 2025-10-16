@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-15 03:28+0000\n"
+"POT-Creation-Date: 2025-10-16 03:28+0000\n"
 "PO-Revision-Date: 2023-11-06 12:18+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Gujarati <https://translate.fedoraproject.org/projects/"
@@ -60,7 +60,7 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:161
+#: src/components/localization/Keyboard.jsx:340
 #, fuzzy
 #| msgid "Nothing selected"
 msgid "$0 layouts detected"
@@ -193,6 +193,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
+#: src/components/localization/Keyboard.jsx:284
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 #, fuzzy
 msgid "Cancel"
@@ -221,7 +222,9 @@ msgstr "યજમાન નામ સુયોજિત કરો"
 msgid "Change partition layout"
 msgstr "વર્ણન"
 
-#: src/components/localization/Keyboard.jsx:173
+#: src/components/localization/Keyboard.jsx:218
+#: src/components/localization/Keyboard.jsx:352
+#: src/components/localization/Keyboard.jsx:417
 msgid "Change system keyboard layout"
 msgstr ""
 
@@ -230,7 +233,7 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:52
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:54
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:438
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:444
 #, fuzzy
@@ -287,7 +290,7 @@ msgstr "સંગ્રહ લેઆઉટને બદલો (_M)"
 msgid "Configure storage again"
 msgstr "સંગ્રહ લેઆઉટને બદલો (_M)"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:129
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:133
 #: src/components/users/Accounts.jsx:153 src/components/users/Accounts.jsx:309
 #, fuzzy
 msgid "Confirm passphrase"
@@ -372,7 +375,7 @@ msgstr "નવાં માઉન્ટ બિંદુને ઉમેરો."
 msgid "Enable root account"
 msgstr ""
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:80
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:82
 #, fuzzy
 msgid "Encrypt my data"
 msgstr "એનક્રિપ્ટ"
@@ -383,7 +386,7 @@ msgstr "એનક્રિપ્ટ"
 msgid "Encrypted"
 msgstr "એનક્રિપ્ટ"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:139
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:143
 msgid "Encryption"
 msgstr "એનક્રિપ્શન"
 
@@ -407,6 +410,12 @@ msgstr ""
 msgid "Extended partition"
 msgstr "મૂળભૂત પાર્ટીશન"
 
+#: src/components/localization/Keyboard.jsx:207
+#, fuzzy
+#| msgid "Failed to save storage configuration..."
+msgid "Failed to save layouts"
+msgstr "સંગ્રહ રૂપરેખાંકનને સંગ્રહ કરવામાં નિષ્ફળતા..."
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:93
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr ""
@@ -421,6 +430,13 @@ msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
 msgstr ""
+
+#: src/components/localization/Keyboard.jsx:223
+#, fuzzy
+#| msgctxt "GUI|Keyboard Layout"
+#| msgid "_Add layout"
+msgid "Find layout"
+msgstr "લેઆઉટને ઉમેરો (_A)"
 
 #: src/components/users/Accounts.jsx:307
 msgid ""
@@ -578,7 +594,7 @@ msgstr ""
 msgid "Keyboard"
 msgstr ""
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:94
 msgid "Keyboard layout during boot"
 msgstr ""
 
@@ -615,6 +631,11 @@ msgid ""
 "Attachments on Bugzilla issues are marked private by default."
 msgstr ""
 
+#: src/components/localization/Keyboard.jsx:119
+#: src/components/localization/Keyboard.jsx:123
+msgid "Make current"
+msgstr ""
+
 #: src/components/storage/mount-point-mapping/index.js:31
 #, fuzzy
 msgid "Manual disk configuration"
@@ -646,7 +667,7 @@ msgstr ""
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:134
+#: src/components/localization/Keyboard.jsx:313
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 
@@ -660,6 +681,16 @@ msgstr "માઉન્ટ બિંદુ"
 #, fuzzy
 msgid "Mount point assignment"
 msgstr "માઉન્ટ બિંદુ"
+
+#: src/components/localization/Keyboard.jsx:141
+#: src/components/localization/Keyboard.jsx:145
+msgid "Move down"
+msgstr ""
+
+#: src/components/localization/Keyboard.jsx:130
+#: src/components/localization/Keyboard.jsx:134
+msgid "Move up"
+msgstr ""
 
 #: src/components/Password.jsx:43
 #, fuzzy
@@ -716,6 +747,16 @@ msgstr "બિનઉપલબ્ધ"
 msgid "No disks selected"
 msgstr "ડિસ્કો પસંદ થયેલ નથી"
 
+#: src/components/localization/Keyboard.jsx:384
+msgid "No keyboard layout detected. Add at least one layout to proceed"
+msgstr ""
+
+#: src/components/localization/Keyboard.jsx:244
+#, fuzzy
+#| msgid "Nothing selected"
+msgid "No layouts selected yet"
+msgstr "કંઇ જ પસંદ થયેલ નથી"
+
 #: src/components/localization/Common.jsx:135
 msgid "No results found"
 msgstr ""
@@ -759,7 +800,7 @@ msgstr "વપરાશકર્તાઓને બનાવી રહ્યા 
 msgid "Options"
 msgstr "વિકલ્પો (_O)"
 
-#: src/components/localization/Keyboard.jsx:79
+#: src/components/localization/Keyboard.jsx:93
 msgid "Other keyboards"
 msgstr ""
 
@@ -769,7 +810,7 @@ msgstr ""
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:162
 #: src/components/storage/installation-method/EncryptedDevices.jsx:169
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:126
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:130
 #: src/components/users/Accounts.jsx:150 src/components/users/Accounts.jsx:305
 msgid "Passphrase"
 msgstr "પાસફ્રેજ"
@@ -922,6 +963,8 @@ msgstr "સ્થાપન"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:445
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:635
+#: src/components/localization/Keyboard.jsx:152
+#: src/components/localization/Keyboard.jsx:156
 #, fuzzy
 msgid "Remove"
 msgstr "દૂર કરો"
@@ -1018,6 +1061,7 @@ msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:248
+#: src/components/localization/Keyboard.jsx:281
 #: src/components/review/Hostname.jsx:137
 #, fuzzy
 #| msgctxt "GUI|Custom Partitioning|Container Dialog"
@@ -1034,12 +1078,12 @@ msgstr ""
 msgid "Search for a language"
 msgstr "ભાષાઓ"
 
-#: src/components/localization/Keyboard.jsx:99
+#: src/components/localization/Keyboard.jsx:227
 #, fuzzy
 msgid "Search keyboard layout"
 msgstr "ભાષાઓ"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:143
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:147
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
@@ -1075,6 +1119,12 @@ msgstr "વર્ણન"
 #| msgid "_On the network:"
 msgid "Select region"
 msgstr "નેટવર્ક પર (_O):"
+
+#: src/components/localization/Keyboard.jsx:237
+#, fuzzy
+#| msgid "Selected Layouts"
+msgid "Selected (top = current)"
+msgstr "પસંદ થયેલ લેઆઉટ"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:123
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -1207,7 +1257,7 @@ msgstr ""
 msgid "Successfully unlocked $0."
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:79
+#: src/components/localization/Keyboard.jsx:93
 #, fuzzy
 msgid "Suggested keyboards"
 msgstr "ભાષાઓ"
@@ -1234,7 +1284,7 @@ msgid ""
 "being configured."
 msgstr ""
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:119
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:123
 msgid ""
 "The active keyboard layout in the compositor differs from the default layout "
 "selected for the target system."
@@ -1254,13 +1304,19 @@ msgstr ""
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr ""
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:48
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:50
 msgid ""
 "The passphrase you have provided contains non-ASCII characters. You may not "
 "be able to switch between keyboard layouts when typing it."
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:140
+#: src/components/localization/Keyboard.jsx:266
+msgid ""
+"The selected default keyboard layout does not support ASCII characters. "
+"Please choose an ASCII-capable layout as the default."
+msgstr ""
+
+#: src/components/localization/Keyboard.jsx:319
 msgid ""
 "The selected layout does not support ASCII input. Please select a different "
 "layout to proceed."
@@ -1282,11 +1338,11 @@ msgstr ""
 msgid "This is unstable, pre-release software"
 msgstr "આ અસ્થાયી છે, પૂર્વ પ્રકાશન સોફ્ટવેર."
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:113
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:116
 msgid "This layout will be used for unlocking your system on boot"
 msgstr ""
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:56
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:58
 #, fuzzy
 msgid "This may take a moment"
 msgstr "ડિસ્કને સ્કેન કરી રહ્યા છે. આ થોડો સમય લગાડી શકે છે..."
@@ -1355,7 +1411,7 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "પસંદ થયેલ ઉપકરણ"
 
-#: src/components/localization/Keyboard.jsx:160
+#: src/components/localization/Keyboard.jsx:339
 #, fuzzy
 #| msgid "Available Layouts"
 msgid "Unusable layout"
@@ -2505,11 +2561,6 @@ msgstr ""
 #~ msgstr "સંગ્રહ રૂપરેખાંકનને સંગ્રહ કરવામાં નિષ્ફળતા..."
 
 #, fuzzy
-#~| msgid "Failed to save storage configuration..."
-#~ msgid "Failed to save storage configuration"
-#~ msgstr "સંગ્રહ રૂપરેખાંકનને સંગ્રહ કરવામાં નિષ્ફળતા..."
-
-#, fuzzy
 #~| msgid "Failed to set up installation source; check the repo url"
 #~ msgid "Failed to set up installation source; check the NFS configuration."
 #~ msgstr "સ્થાપન સ્ત્રોતને સુયોજિત કરવામાં નિષ્ફળતા; રિપો url ચકાસો"
@@ -3531,9 +3582,6 @@ msgstr ""
 #~ msgid "Selected Device"
 #~ msgstr "પસંદ થયેલ ઉપકરણ"
 
-#~ msgid "Selected Layouts"
-#~ msgstr "પસંદ થયેલ લેઆઉટ"
-
 #, fuzzy
 #~| msgctxt "GUI|Installation Destination|Filter"
 #~| msgid "_zSeries Devices"
@@ -4344,10 +4392,6 @@ msgstr ""
 #~ msgctxt "GUI|Storage"
 #~ msgid "_Add a disk..."
 #~ msgstr "ડિસ્કને ઉમેરો (_A)..."
-
-#~ msgctxt "GUI|Keyboard Layout"
-#~ msgid "_Add layout"
-#~ msgstr "લેઆઉટને ઉમેરો (_A)"
 
 #~ msgctxt "GUI|Custom Partitioning|Add Dialog"
 #~ msgid "_Add mount point"

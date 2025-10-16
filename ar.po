@@ -32,11 +32,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-15 03:28+0000\n"
+"POT-Creation-Date: 2025-10-16 03:28+0000\n"
 "PO-Revision-Date: 2025-10-16 03:29+0000\n"
 "Last-Translator: joo es <jonnyse@users.noreply.translate.fedoraproject.org>\n"
-"Language-Team: Arabic <https://translate.fedoraproject.org/projects/"
-"anaconda-webui/anaconda-webui/ar/>\n"
+"Language-Team: Arabic <https://translate.fedoraproject.org/projects/anaconda-"
+"webui/anaconda-webui/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -76,7 +76,7 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr "مطلوب $0، ولكن يتوفر $1 فقط."
 
-#: src/components/localization/Keyboard.jsx:161
+#: src/components/localization/Keyboard.jsx:340
 msgid "$0 layouts detected"
 msgstr "$0 تخطيطات مكتشفة"
 
@@ -200,6 +200,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
+#: src/components/localization/Keyboard.jsx:284
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "ألغِ"
@@ -220,7 +221,9 @@ msgstr "غيّر اسم المضيف"
 msgid "Change partition layout"
 msgstr "غيّر تخطيط الأقسام"
 
-#: src/components/localization/Keyboard.jsx:173
+#: src/components/localization/Keyboard.jsx:218
+#: src/components/localization/Keyboard.jsx:352
+#: src/components/localization/Keyboard.jsx:417
 msgid "Change system keyboard layout"
 msgstr "غيّر نظام تخطيط لوحة المفاتيح"
 
@@ -229,7 +232,7 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr "ستؤثر التغييرات التي أجريت هنا على النظام فورًا. لا يوجد \"تراجع\"."
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:52
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:54
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:438
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:444
 msgid "Checking storage configuration"
@@ -277,7 +280,7 @@ msgstr "اضبط التخزين"
 msgid "Configure storage again"
 msgstr "اضبط التخزين مرة أخرى"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:129
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:133
 #: src/components/users/Accounts.jsx:153 src/components/users/Accounts.jsx:309
 msgid "Confirm passphrase"
 msgstr "أكّد عبارة السر"
@@ -352,7 +355,7 @@ msgstr "نقطة الوصل مكرّرة."
 msgid "Enable root account"
 msgstr "فعّل حساب الجذر"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:80
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:82
 msgid "Encrypt my data"
 msgstr "عمِّ «(شفّر)» بياناتي"
 
@@ -360,7 +363,7 @@ msgstr "عمِّ «(شفّر)» بياناتي"
 msgid "Encrypted"
 msgstr "مُعمَّاة"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:139
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:143
 msgid "Encryption"
 msgstr "التعمية"
 
@@ -381,6 +384,12 @@ msgstr "اخرج إلى سطح المكتب المباشر"
 msgid "Extended partition"
 msgstr "قسم ممتد"
 
+#: src/components/localization/Keyboard.jsx:207
+#, fuzzy
+#| msgid "Failed to save storage configuration"
+msgid "Failed to save layouts"
+msgstr "فشل في حفظ إعدادات التخزين"
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:93
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "يتطلب فيدورا لينكس $0 على الأقل من مساحة القرص."
@@ -395,6 +404,13 @@ msgid ""
 "may take a few moments."
 msgstr ""
 "اللمسات الأخيرة: اكتمل تضبيط النظام. قد يستغرق الانتهاء من التثبيت بضع لحظات."
+
+#: src/components/localization/Keyboard.jsx:223
+#, fuzzy
+#| msgctxt "GUI|Keyboard Layout"
+#| msgid "_Add layout"
+msgid "Find layout"
+msgstr "أضِف م_خططًا"
 
 #: src/components/users/Accounts.jsx:307
 msgid ""
@@ -544,7 +560,7 @@ msgstr ""
 msgid "Keyboard"
 msgstr "لوحة المفاتيح"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:94
 msgid "Keyboard layout during boot"
 msgstr "تخطيط لوحة المفاتيح أثناء الإقلاع"
 
@@ -578,6 +594,11 @@ msgstr ""
 "قد تحتوي السجلات على معلومات حساسة مثل عناوين IP أو أسماء المستخدمين. تُضع "
 "علامة خاصة على المرفقات في مشكلات Bugzilla بشكل افتراضي."
 
+#: src/components/localization/Keyboard.jsx:119
+#: src/components/localization/Keyboard.jsx:123
+msgid "Make current"
+msgstr ""
+
 #: src/components/storage/mount-point-mapping/index.js:31
 msgid "Manual disk configuration"
 msgstr "تضبيط القرص اليدوي"
@@ -606,7 +627,7 @@ msgstr "الحد الأدنى المطلوب هو $0"
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr "عدم تطابق بين الجهاز الأصل وتحديد إعادة تهيئة الجهاز الفرعي."
 
-#: src/components/localization/Keyboard.jsx:134
+#: src/components/localization/Keyboard.jsx:313
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr "اكتُشف أكثر من تخطيط. أزِل التخطيطات الإضافية للمواصلة"
 
@@ -619,6 +640,16 @@ msgstr "نقطة الوصل"
 #: src/components/storage/scenarios/mount-point-mapping/index.js:35
 msgid "Mount point assignment"
 msgstr "تعيين نقطة الوصل"
+
+#: src/components/localization/Keyboard.jsx:141
+#: src/components/localization/Keyboard.jsx:145
+msgid "Move down"
+msgstr ""
+
+#: src/components/localization/Keyboard.jsx:130
+#: src/components/localization/Keyboard.jsx:134
+msgid "Move up"
+msgstr ""
 
 #: src/components/Password.jsx:43
 msgid "Must be at least $0 characters"
@@ -668,6 +699,18 @@ msgstr "لا توجد أقراص متاحة"
 msgid "No disks selected"
 msgstr "لم تحدّد أيّ قرص"
 
+#: src/components/localization/Keyboard.jsx:384
+#, fuzzy
+#| msgid "More than one layout detected. Remove additional layouts to proceed"
+msgid "No keyboard layout detected. Add at least one layout to proceed"
+msgstr "اكتُشف أكثر من تخطيط. أزِل التخطيطات الإضافية للمواصلة"
+
+#: src/components/localization/Keyboard.jsx:244
+#, fuzzy
+#| msgid "$0 layouts detected"
+msgid "No layouts selected yet"
+msgstr "$0 تخطيطات مكتشفة"
+
 #: src/components/localization/Common.jsx:135
 msgid "No results found"
 msgstr "لم يُعثر على نتائج"
@@ -705,7 +748,7 @@ msgstr "نظام التشغيل"
 msgid "Options"
 msgstr "الخيارات"
 
-#: src/components/localization/Keyboard.jsx:79
+#: src/components/localization/Keyboard.jsx:93
 msgid "Other keyboards"
 msgstr "لوحات مفاتيح أخرى"
 
@@ -715,7 +758,7 @@ msgstr "التقسيمات (متقدم)"
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:162
 #: src/components/storage/installation-method/EncryptedDevices.jsx:169
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:126
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:130
 #: src/components/users/Accounts.jsx:150 src/components/users/Accounts.jsx:305
 msgid "Passphrase"
 msgstr "عبارة السر"
@@ -848,6 +891,8 @@ msgstr "أعد تثبيت فيدورا"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:445
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:635
+#: src/components/localization/Keyboard.jsx:152
+#: src/components/localization/Keyboard.jsx:156
 msgid "Remove"
 msgstr "أزِل"
 
@@ -936,6 +981,7 @@ msgid "Root account is enabled, but no user account has been configured"
 msgstr "فُعَّل حساب الجذر، ولكن لم يُضبط أي حساب مستخدم"
 
 #: src/components/datetime/CustomNTPModal.jsx:248
+#: src/components/localization/Keyboard.jsx:281
 #: src/components/review/Hostname.jsx:137
 msgid "Save"
 msgstr "احفظ"
@@ -948,11 +994,11 @@ msgstr "امسح QR باستخدام هاتفك أو زُر:"
 msgid "Search for a language"
 msgstr "ابحث عن لُغة"
 
-#: src/components/localization/Keyboard.jsx:99
+#: src/components/localization/Keyboard.jsx:227
 msgid "Search keyboard layout"
 msgstr "البحث عن تخطيط لوحة المفاتيح"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:143
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:147
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
@@ -979,6 +1025,10 @@ msgstr "حدّد الهدف"
 #: src/components/datetime/Timezone.jsx:169
 msgid "Select region"
 msgstr "حدّد منطقة"
+
+#: src/components/localization/Keyboard.jsx:237
+msgid "Selected (top = current)"
+msgstr ""
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:123
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -1094,7 +1144,7 @@ msgstr "نجح التثبيت"
 msgid "Successfully unlocked $0."
 msgstr "فُتح بنجاح $0."
 
-#: src/components/localization/Keyboard.jsx:79
+#: src/components/localization/Keyboard.jsx:93
 msgid "Suggested keyboards"
 msgstr "لوحات المفاتيح المقترحة"
 
@@ -1116,7 +1166,7 @@ msgid ""
 "being configured."
 msgstr "تضبيط النظام: اكتمل تثبيت البرنامج. يتم الآن تضبيط النظام."
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:119
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:123
 msgid ""
 "The active keyboard layout in the compositor differs from the default layout "
 "selected for the target system."
@@ -1140,7 +1190,7 @@ msgstr "يتعذر على المثبِّت المتابعة بسبب خطأ فا
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "يتعذر على المثبِّت الاستمرار بسبب خطأ فادح: $0"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:48
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:50
 msgid ""
 "The passphrase you have provided contains non-ASCII characters. You may not "
 "be able to switch between keyboard layouts when typing it."
@@ -1148,7 +1198,17 @@ msgstr ""
 "تحتوي عبارة السر التي أدخلتها على حروفا ليست ASCII (لاتينية). قد لا تتمكن من "
 "التبديل بين تخطيطات لوحة المفاتيح عند كتابتها."
 
-#: src/components/localization/Keyboard.jsx:140
+#: src/components/localization/Keyboard.jsx:266
+#, fuzzy
+#| msgid ""
+#| "The selected layout does not support ASCII input. Please select a "
+#| "different layout to proceed."
+msgid ""
+"The selected default keyboard layout does not support ASCII characters. "
+"Please choose an ASCII-capable layout as the default."
+msgstr "التخطيط المحدد لا يدعم إدخال ASCII. يُرجى تحديد تخطيط مختلف للمتابعة."
+
+#: src/components/localization/Keyboard.jsx:319
 msgid ""
 "The selected layout does not support ASCII input. Please select a different "
 "layout to proceed."
@@ -1172,11 +1232,11 @@ msgstr "لا يمكن إرسال اسم المضيف هذا"
 msgid "This is unstable, pre-release software"
 msgstr "هذه برمجيّات ما قبل الإصدار وهي غير مستقرة"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:113
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:116
 msgid "This layout will be used for unlocking your system on boot"
 msgstr "سيتم استخدام هذا التخطيط لفتح نظامك عند التمهيد"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:56
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:58
 msgid "This may take a moment"
 msgstr "قد تأخذ قليلًا من الوقت"
 
@@ -1237,7 +1297,7 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "افتح الأجهزة المُعمَّاة"
 
-#: src/components/localization/Keyboard.jsx:160
+#: src/components/localization/Keyboard.jsx:339
 msgid "Unusable layout"
 msgstr "تخطيط غير قابل للاستخدام"
 
@@ -2801,9 +2861,6 @@ msgstr "تراجع"
 #~ msgid "Failed to save boot loader configuration"
 #~ msgstr "فشل في حفظ إعدادات محمّل الإقلاع"
 
-#~ msgid "Failed to save storage configuration"
-#~ msgstr "فشل في حفظ إعدادات التخزين"
-
 #~ msgid "Failed to set up installation source; check the NFS configuration."
 #~ msgstr "فشل في إعداد مصدر التثبيت. افحص إعدادات NFS."
 
@@ -4358,10 +4415,6 @@ msgstr "تراجع"
 #~ msgctxt "GUI|Storage"
 #~ msgid "_Add a disk..."
 #~ msgstr "أ_ضِف قرصًا..."
-
-#~ msgctxt "GUI|Keyboard Layout"
-#~ msgid "_Add layout"
-#~ msgstr "أضِف م_خططًا"
 
 #~ msgctxt "GUI|Custom Partitioning|Add Dialog"
 #~ msgid "_Add mount point"

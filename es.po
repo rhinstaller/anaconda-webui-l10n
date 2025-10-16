@@ -66,7 +66,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-15 03:28+0000\n"
+"POT-Creation-Date: 2025-10-16 03:28+0000\n"
 "PO-Revision-Date: 2025-09-08 16:25+0000\n"
 "Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
@@ -110,7 +110,7 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr "$0 es requerido, pero solo $1 está disponible."
 
-#: src/components/localization/Keyboard.jsx:161
+#: src/components/localization/Keyboard.jsx:340
 msgid "$0 layouts detected"
 msgstr "$0 disposiciones detectadas"
 
@@ -246,6 +246,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
+#: src/components/localization/Keyboard.jsx:284
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "Cancelar"
@@ -266,7 +267,9 @@ msgstr "Modificar nombre de anfitrión"
 msgid "Change partition layout"
 msgstr "Cambio de distribución de partición"
 
-#: src/components/localization/Keyboard.jsx:173
+#: src/components/localization/Keyboard.jsx:218
+#: src/components/localization/Keyboard.jsx:352
+#: src/components/localization/Keyboard.jsx:417
 msgid "Change system keyboard layout"
 msgstr "Modificar distribución de teclado del sistema"
 
@@ -277,7 +280,7 @@ msgstr ""
 "Los cambios realizados aquí afectarán inmediatamente al sistema. No existe "
 "la opción «deshacer»."
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:52
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:54
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:438
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:444
 msgid "Checking storage configuration"
@@ -327,7 +330,7 @@ msgstr "Configurar el almacenamiento"
 msgid "Configure storage again"
 msgstr "Volver a configurar el almacén"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:129
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:133
 #: src/components/users/Accounts.jsx:153 src/components/users/Accounts.jsx:309
 msgid "Confirm passphrase"
 msgstr "Confirmar la frase de contraseña"
@@ -403,7 +406,7 @@ msgstr "Punto de montaje duplicado."
 msgid "Enable root account"
 msgstr "Activar cuenta root"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:80
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:82
 msgid "Encrypt my data"
 msgstr "Cifrar mis datos"
 
@@ -411,7 +414,7 @@ msgstr "Cifrar mis datos"
 msgid "Encrypted"
 msgstr "Cifrado"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:139
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:143
 msgid "Encryption"
 msgstr "Cifrado"
 
@@ -432,6 +435,12 @@ msgstr "Sale al escritorio vivo"
 msgid "Extended partition"
 msgstr "Partición extendida"
 
+#: src/components/localization/Keyboard.jsx:207
+#, fuzzy
+#| msgid "Failed to save storage configuration"
+msgid "Failed to save layouts"
+msgstr "No se ha podido guardar la configuración de almacenamiento"
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:93
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora linux requiere al menos $0 de espacio en disco."
@@ -447,6 +456,13 @@ msgid ""
 msgstr ""
 "Finalizando: La configuración del sistema se ha completado. La finalización "
 "de la instalación puede tardar unos instantes."
+
+#: src/components/localization/Keyboard.jsx:223
+#, fuzzy
+#| msgctxt "GUI|Keyboard Layout"
+#| msgid "_Add layout"
+msgid "Find layout"
+msgstr "_Añadir disposición"
 
 #: src/components/users/Accounts.jsx:307
 msgid ""
@@ -601,7 +617,7 @@ msgstr ""
 msgid "Keyboard"
 msgstr "Teclado"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:94
 msgid "Keyboard layout during boot"
 msgstr "Distribución del teclado al arrancar"
 
@@ -636,6 +652,11 @@ msgstr ""
 "nombres de usuario. Los adjuntos en los problemas de Bugzilla están marcados "
 "por defecto como privados."
 
+#: src/components/localization/Keyboard.jsx:119
+#: src/components/localization/Keyboard.jsx:123
+msgid "Make current"
+msgstr ""
+
 #: src/components/storage/mount-point-mapping/index.js:31
 msgid "Manual disk configuration"
 msgstr "Configuración manual del dispositivo"
@@ -666,7 +687,7 @@ msgstr ""
 "No coincide la selección de reformateo entre el dispositivo padre y el "
 "dispositivo hijo."
 
-#: src/components/localization/Keyboard.jsx:134
+#: src/components/localization/Keyboard.jsx:313
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 "Se ha detectado más de una distribución. Quite las distribuciones "
@@ -681,6 +702,16 @@ msgstr "Punto de montaje"
 #: src/components/storage/scenarios/mount-point-mapping/index.js:35
 msgid "Mount point assignment"
 msgstr "Asignación del punto de montaje"
+
+#: src/components/localization/Keyboard.jsx:141
+#: src/components/localization/Keyboard.jsx:145
+msgid "Move down"
+msgstr ""
+
+#: src/components/localization/Keyboard.jsx:130
+#: src/components/localization/Keyboard.jsx:134
+msgid "Move up"
+msgstr ""
 
 #: src/components/Password.jsx:43
 msgid "Must be at least $0 characters"
@@ -731,6 +762,20 @@ msgstr "Ningún disco disponible"
 msgid "No disks selected"
 msgstr "No se seleccionó ningún disco"
 
+#: src/components/localization/Keyboard.jsx:384
+#, fuzzy
+#| msgid "More than one layout detected. Remove additional layouts to proceed"
+msgid "No keyboard layout detected. Add at least one layout to proceed"
+msgstr ""
+"Se ha detectado más de una distribución. Quite las distribuciones "
+"adicionales para proceder"
+
+#: src/components/localization/Keyboard.jsx:244
+#, fuzzy
+#| msgid "$0 layouts detected"
+msgid "No layouts selected yet"
+msgstr "$0 disposiciones detectadas"
+
 #: src/components/localization/Common.jsx:135
 msgid "No results found"
 msgstr "No se encontraron resultados"
@@ -769,7 +814,7 @@ msgstr "Sistema operativo"
 msgid "Options"
 msgstr "Opciones"
 
-#: src/components/localization/Keyboard.jsx:79
+#: src/components/localization/Keyboard.jsx:93
 msgid "Other keyboards"
 msgstr "Otros teclados"
 
@@ -779,7 +824,7 @@ msgstr "Particiones (avanzado)"
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:162
 #: src/components/storage/installation-method/EncryptedDevices.jsx:169
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:126
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:130
 #: src/components/users/Accounts.jsx:150 src/components/users/Accounts.jsx:305
 msgid "Passphrase"
 msgstr "Frase contraseña"
@@ -912,6 +957,8 @@ msgstr "Reinstalar Fedora"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:445
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:635
+#: src/components/localization/Keyboard.jsx:152
+#: src/components/localization/Keyboard.jsx:156
 msgid "Remove"
 msgstr "Eliminar"
 
@@ -1006,6 +1053,7 @@ msgstr ""
 "de usuario"
 
 #: src/components/datetime/CustomNTPModal.jsx:248
+#: src/components/localization/Keyboard.jsx:281
 #: src/components/review/Hostname.jsx:137
 msgid "Save"
 msgstr "Guardar"
@@ -1018,11 +1066,11 @@ msgstr "Analizar el código QR con su teléfono o visite:"
 msgid "Search for a language"
 msgstr "Buscar un idioma"
 
-#: src/components/localization/Keyboard.jsx:99
+#: src/components/localization/Keyboard.jsx:227
 msgid "Search keyboard layout"
 msgstr "Buscar distribución del teclado"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:143
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:147
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
@@ -1049,6 +1097,12 @@ msgstr "Seleccionar destino"
 #: src/components/datetime/Timezone.jsx:169
 msgid "Select region"
 msgstr "Seleccionar región"
+
+#: src/components/localization/Keyboard.jsx:237
+#, fuzzy
+#| msgid "Selected Layouts"
+msgid "Selected (top = current)"
+msgstr "Diseños seleccionados"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:123
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -1169,7 +1223,7 @@ msgstr "Instalado correctamente"
 msgid "Successfully unlocked $0."
 msgstr "$0 desbloqueado correctamente."
 
-#: src/components/localization/Keyboard.jsx:79
+#: src/components/localization/Keyboard.jsx:93
 msgid "Suggested keyboards"
 msgstr "Teclados sugeridos"
 
@@ -1193,7 +1247,7 @@ msgstr ""
 "Configuración del sistema: Instalación del software completada. Se está "
 "configurando el sistema."
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:119
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:123
 msgid ""
 "The active keyboard layout in the compositor differs from the default layout "
 "selected for the target system."
@@ -1215,7 +1269,7 @@ msgstr "El instalador no puede continuar debido a un error crítico."
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "El instalador no puede continuar debido a un error crítico: $0"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:48
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:50
 msgid ""
 "The passphrase you have provided contains non-ASCII characters. You may not "
 "be able to switch between keyboard layouts when typing it."
@@ -1224,7 +1278,13 @@ msgstr ""
 "rango ASCII. Es probable que no sea capaz de cambiar la disposición del "
 "teclado cuando necesite escribirla."
 
-#: src/components/localization/Keyboard.jsx:140
+#: src/components/localization/Keyboard.jsx:266
+msgid ""
+"The selected default keyboard layout does not support ASCII characters. "
+"Please choose an ASCII-capable layout as the default."
+msgstr ""
+
+#: src/components/localization/Keyboard.jsx:319
 msgid ""
 "The selected layout does not support ASCII input. Please select a different "
 "layout to proceed."
@@ -1248,12 +1308,12 @@ msgstr "Este nombre de hospedaje no pude ser enviado"
 msgid "This is unstable, pre-release software"
 msgstr "Este software es previo al lanzamiento e inestable"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:113
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:116
 msgid "This layout will be used for unlocking your system on boot"
 msgstr ""
 "Esta distribución será utilizada para desbloquear su sistema al arrancar"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:56
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:58
 msgid "This may take a moment"
 msgstr "Esto puede tardar un rato"
 
@@ -1315,7 +1375,7 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "Desbloquear dispositivos cifrados"
 
-#: src/components/localization/Keyboard.jsx:160
+#: src/components/localization/Keyboard.jsx:339
 msgid "Unusable layout"
 msgstr "Distribución no utilizable"
 
@@ -3110,9 +3170,6 @@ msgstr "deshacer"
 #~ msgid "Failed to save boot loader configuration"
 #~ msgstr "Fallo al guardar la configuración del boot loader"
 
-#~ msgid "Failed to save storage configuration"
-#~ msgstr "No se ha podido guardar la configuración de almacenamiento"
-
 #~ msgid "Failed to set up installation source; check the NFS configuration."
 #~ msgstr ""
 #~ "No se pudo establecer el origen de la instalación; compruebe la "
@@ -4781,9 +4838,6 @@ msgstr "deshacer"
 #~ msgid "Selected Device"
 #~ msgstr "Dispositivo seleccionado"
 
-#~ msgid "Selected Layouts"
-#~ msgstr "Diseños seleccionados"
-
 #~ msgid ""
 #~ "Selected disks {} contain volume group '{}' that also uses further "
 #~ "unselected disks. You must select or de-select all these disks as a set."
@@ -6445,10 +6499,6 @@ msgstr "deshacer"
 #~ msgctxt "GUI|Storage"
 #~ msgid "_Add a disk..."
 #~ msgstr "_Añadir un disco…"
-
-#~ msgctxt "GUI|Keyboard Layout"
-#~ msgid "_Add layout"
-#~ msgstr "_Añadir disposición"
 
 #~ msgctxt "GUI|Custom Partitioning|Add Dialog"
 #~ msgid "_Add mount point"

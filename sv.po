@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-15 03:28+0000\n"
+"POT-Creation-Date: 2025-10-16 03:28+0000\n"
 "PO-Revision-Date: 2025-09-07 17:38+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
@@ -73,7 +73,7 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr "$0 är obligatoriskt, men endast $1 är tillgänglig."
 
-#: src/components/localization/Keyboard.jsx:161
+#: src/components/localization/Keyboard.jsx:340
 msgid "$0 layouts detected"
 msgstr "$0 layouter upptäckta"
 
@@ -207,6 +207,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
+#: src/components/localization/Keyboard.jsx:284
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "Avbryt"
@@ -227,7 +228,9 @@ msgstr "Ändra värdnamn"
 msgid "Change partition layout"
 msgstr "Ändra partitionslayout"
 
-#: src/components/localization/Keyboard.jsx:173
+#: src/components/localization/Keyboard.jsx:218
+#: src/components/localization/Keyboard.jsx:352
+#: src/components/localization/Keyboard.jsx:417
 msgid "Change system keyboard layout"
 msgstr "Ändra systemets tangentbordslayout"
 
@@ -238,7 +241,7 @@ msgstr ""
 "Ändringar som görs här kommer omedelbart att påverka systemet. Det finns "
 "ingen \"ångra\"."
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:52
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:54
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:438
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:444
 msgid "Checking storage configuration"
@@ -286,7 +289,7 @@ msgstr "Konfigurera lagring"
 msgid "Configure storage again"
 msgstr "Konfigurera lagring igen"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:129
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:133
 #: src/components/users/Accounts.jsx:153 src/components/users/Accounts.jsx:309
 msgid "Confirm passphrase"
 msgstr "Bekräfta lösenfras"
@@ -361,7 +364,7 @@ msgstr "Duplicera monteringspunkt."
 msgid "Enable root account"
 msgstr "Aktivera root-konto"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:80
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:82
 msgid "Encrypt my data"
 msgstr "Kryptera min data"
 
@@ -369,7 +372,7 @@ msgstr "Kryptera min data"
 msgid "Encrypted"
 msgstr "Krypterad"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:139
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:143
 msgid "Encryption"
 msgstr "Kryptering"
 
@@ -390,6 +393,12 @@ msgstr "Avsluta till live skrivbord"
 msgid "Extended partition"
 msgstr "Utökad partition"
 
+#: src/components/localization/Keyboard.jsx:207
+#, fuzzy
+#| msgid "Failed to save storage configuration"
+msgid "Failed to save layouts"
+msgstr "Misslyckades att spara lagringskonfigurationen"
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:93
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora linux kräver minst $0 diskutrymme."
@@ -405,6 +414,13 @@ msgid ""
 msgstr ""
 "Slutför: Systemkonfigurationen är klar. Den slutförande installationen kan "
 "ta en stund."
+
+#: src/components/localization/Keyboard.jsx:223
+#, fuzzy
+#| msgctxt "GUI|Keyboard Layout"
+#| msgid "_Add layout"
+msgid "Find layout"
+msgstr "_Lägg till layout"
 
 #: src/components/users/Accounts.jsx:307
 msgid ""
@@ -557,7 +573,7 @@ msgstr ""
 msgid "Keyboard"
 msgstr "Tangentbord"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:94
 msgid "Keyboard layout during boot"
 msgstr "Tangentbordslayout under uppstart"
 
@@ -591,6 +607,11 @@ msgstr ""
 "Loggar kan innehålla känslig information som IP-adresser eller användarnamn. "
 "Bilagor på Bugzilla-ärenden är som standard markerade som privata."
 
+#: src/components/localization/Keyboard.jsx:119
+#: src/components/localization/Keyboard.jsx:123
+msgid "Make current"
+msgstr ""
+
 #: src/components/storage/mount-point-mapping/index.js:31
 msgid "Manual disk configuration"
 msgstr "Manuell diskkonfiguration"
@@ -621,7 +642,7 @@ msgstr ""
 "Felaktig överensstämmelse mellan överordnad enhet och underordnad enhet vid "
 "omformateringsval."
 
-#: src/components/localization/Keyboard.jsx:134
+#: src/components/localization/Keyboard.jsx:313
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 "Mer än en layout har upptäckts. Ta bort ytterligare layouter för att "
@@ -636,6 +657,16 @@ msgstr "Monteringspunkt"
 #: src/components/storage/scenarios/mount-point-mapping/index.js:35
 msgid "Mount point assignment"
 msgstr "Monteringspunkt tilldelning"
+
+#: src/components/localization/Keyboard.jsx:141
+#: src/components/localization/Keyboard.jsx:145
+msgid "Move down"
+msgstr ""
+
+#: src/components/localization/Keyboard.jsx:130
+#: src/components/localization/Keyboard.jsx:134
+msgid "Move up"
+msgstr ""
 
 #: src/components/Password.jsx:43
 msgid "Must be at least $0 characters"
@@ -687,6 +718,20 @@ msgstr "Inga diskar tillgängliga"
 msgid "No disks selected"
 msgstr "Inga diskar valda"
 
+#: src/components/localization/Keyboard.jsx:384
+#, fuzzy
+#| msgid "More than one layout detected. Remove additional layouts to proceed"
+msgid "No keyboard layout detected. Add at least one layout to proceed"
+msgstr ""
+"Mer än en layout har upptäckts. Ta bort ytterligare layouter för att "
+"fortsätta"
+
+#: src/components/localization/Keyboard.jsx:244
+#, fuzzy
+#| msgid "$0 layouts detected"
+msgid "No layouts selected yet"
+msgstr "$0 layouter upptäckta"
+
 #: src/components/localization/Common.jsx:135
 msgid "No results found"
 msgstr "Inga resultat funna"
@@ -725,7 +770,7 @@ msgstr "Operativsystem"
 msgid "Options"
 msgstr "Alternativ"
 
-#: src/components/localization/Keyboard.jsx:79
+#: src/components/localization/Keyboard.jsx:93
 msgid "Other keyboards"
 msgstr "Andra tangentbord"
 
@@ -735,7 +780,7 @@ msgstr "Partitioner (avancerat)"
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:162
 #: src/components/storage/installation-method/EncryptedDevices.jsx:169
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:126
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:130
 #: src/components/users/Accounts.jsx:150 src/components/users/Accounts.jsx:305
 msgid "Passphrase"
 msgstr "Lösenfras"
@@ -869,6 +914,8 @@ msgstr "Installera om Fedora"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:445
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:635
+#: src/components/localization/Keyboard.jsx:152
+#: src/components/localization/Keyboard.jsx:156
 msgid "Remove"
 msgstr "Ta bort"
 
@@ -960,6 +1007,7 @@ msgid "Root account is enabled, but no user account has been configured"
 msgstr "Root-konto är aktiverat, men inget användarkonto har konfigurerats"
 
 #: src/components/datetime/CustomNTPModal.jsx:248
+#: src/components/localization/Keyboard.jsx:281
 #: src/components/review/Hostname.jsx:137
 msgid "Save"
 msgstr "Spara"
@@ -972,11 +1020,11 @@ msgstr "Skanna QR-koden med din telefon eller besök:"
 msgid "Search for a language"
 msgstr "Sök efter ett språk"
 
-#: src/components/localization/Keyboard.jsx:99
+#: src/components/localization/Keyboard.jsx:227
 msgid "Search keyboard layout"
 msgstr "Sök efter tangentbordslayout"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:143
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:147
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
@@ -1003,6 +1051,12 @@ msgstr "Välj destination"
 #: src/components/datetime/Timezone.jsx:169
 msgid "Select region"
 msgstr "Välj region"
+
+#: src/components/localization/Keyboard.jsx:237
+#, fuzzy
+#| msgid "Selected Layouts"
+msgid "Selected (top = current)"
+msgstr "Valda layouter"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:123
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -1120,7 +1174,7 @@ msgstr "Framgångsrikt installerat"
 msgid "Successfully unlocked $0."
 msgstr "$0 har låsts upp framgångsrikt."
 
-#: src/components/localization/Keyboard.jsx:79
+#: src/components/localization/Keyboard.jsx:93
 msgid "Suggested keyboards"
 msgstr "Föreslagna tangentbord"
 
@@ -1144,7 +1198,7 @@ msgstr ""
 "Systemkonfiguration: Programvaruinstallationen är klar. Systemet håller nu "
 "på att konfigureras."
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:119
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:123
 msgid ""
 "The active keyboard layout in the compositor differs from the default layout "
 "selected for the target system."
@@ -1168,7 +1222,7 @@ msgid "The installer cannot continue due to a critical error: $0"
 msgstr ""
 "Installationsprogrammet kan inte fortsätta på grund av ett kritiskt fel: $0"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:48
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:50
 msgid ""
 "The passphrase you have provided contains non-ASCII characters. You may not "
 "be able to switch between keyboard layouts when typing it."
@@ -1176,7 +1230,13 @@ msgstr ""
 "Lösenfrasen du har gett innehåller icke-ASCII-tecken. Du kan kanske inte "
 "byta mellan tangentbordslayouter när du skriver den."
 
-#: src/components/localization/Keyboard.jsx:140
+#: src/components/localization/Keyboard.jsx:266
+msgid ""
+"The selected default keyboard layout does not support ASCII characters. "
+"Please choose an ASCII-capable layout as the default."
+msgstr ""
+
+#: src/components/localization/Keyboard.jsx:319
 msgid ""
 "The selected layout does not support ASCII input. Please select a different "
 "layout to proceed."
@@ -1200,12 +1260,12 @@ msgstr "Detta värdnamn kan inte skickas in"
 msgid "This is unstable, pre-release software"
 msgstr "Detta är en instabil förhandsutgåva av programvaran"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:113
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:116
 msgid "This layout will be used for unlocking your system on boot"
 msgstr ""
 "Denna layout kommer att användas för att låsa upp ditt system vid uppstart"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:56
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:58
 msgid "This may take a moment"
 msgstr "Detta kan ta en stund"
 
@@ -1267,7 +1327,7 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "Lås upp krypterade enheter"
 
-#: src/components/localization/Keyboard.jsx:160
+#: src/components/localization/Keyboard.jsx:339
 msgid "Unusable layout"
 msgstr "Oanvändbar layout"
 
@@ -3080,9 +3140,6 @@ msgstr "ångra"
 #~ msgid "Failed to save boot loader configuration"
 #~ msgstr "Misslyckades att spara uppstartskonfigurationen"
 
-#~ msgid "Failed to save storage configuration"
-#~ msgstr "Misslyckades att spara lagringskonfigurationen"
-
 #~ msgid "Failed to set up installation source; check the NFS configuration."
 #~ msgstr ""
 #~ "Misslyckades att sätta upp installationskällan; kontrollera NFS-"
@@ -4730,9 +4787,6 @@ msgstr "ångra"
 #~ msgid "Selected Device"
 #~ msgstr "Vald enhet"
 
-#~ msgid "Selected Layouts"
-#~ msgstr "Valda layouter"
-
 #~ msgid ""
 #~ "Selected disks {} contain volume group '{}' that also uses further "
 #~ "unselected disks. You must select or de-select all these disks as a set."
@@ -6361,10 +6415,6 @@ msgstr "ångra"
 #~ msgctxt "GUI|Storage"
 #~ msgid "_Add a disk..."
 #~ msgstr "_Lägg till en disk..."
-
-#~ msgctxt "GUI|Keyboard Layout"
-#~ msgid "_Add layout"
-#~ msgstr "_Lägg till layout"
 
 #~ msgctxt "GUI|Custom Partitioning|Add Dialog"
 #~ msgid "_Add mount point"

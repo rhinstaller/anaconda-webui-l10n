@@ -25,7 +25,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-15 03:28+0000\n"
+"POT-Creation-Date: 2025-10-16 03:28+0000\n"
 "PO-Revision-Date: 2025-09-23 03:22+0000\n"
 "Last-Translator: Ondrej Sulek <feonsu@gmail.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/anaconda-"
@@ -68,7 +68,7 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr "Vyžaduje sa $0, ale k dispozícii je iba $1."
 
-#: src/components/localization/Keyboard.jsx:161
+#: src/components/localization/Keyboard.jsx:340
 msgid "$0 layouts detected"
 msgstr "zistených $0 rozložení"
 
@@ -198,6 +198,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
+#: src/components/localization/Keyboard.jsx:284
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "Zrušiť"
@@ -218,7 +219,9 @@ msgstr "Zmeniť názov počítača"
 msgid "Change partition layout"
 msgstr "Zmeniť rozloženie oddielov"
 
-#: src/components/localization/Keyboard.jsx:173
+#: src/components/localization/Keyboard.jsx:218
+#: src/components/localization/Keyboard.jsx:352
+#: src/components/localization/Keyboard.jsx:417
 msgid "Change system keyboard layout"
 msgstr "Zmeniť systémové rozloženie klávesnice"
 
@@ -228,7 +231,7 @@ msgid ""
 msgstr ""
 "Tu vykonané zmeny okamžite ovplyvnia systém. Neexistuje žiadne 'vrátiť späť'."
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:52
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:54
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:438
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:444
 msgid "Checking storage configuration"
@@ -277,7 +280,7 @@ msgstr "Konfigurovať úložisko"
 msgid "Configure storage again"
 msgstr "Znova konfigurovať úložisko"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:129
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:133
 #: src/components/users/Accounts.jsx:153 src/components/users/Accounts.jsx:309
 msgid "Confirm passphrase"
 msgstr "Potvrdenie hesla"
@@ -352,7 +355,7 @@ msgstr "Duplicitný bod pripojenia."
 msgid "Enable root account"
 msgstr "Povoliť účet root"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:80
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:82
 msgid "Encrypt my data"
 msgstr "Zašifrovať moje údaje"
 
@@ -360,7 +363,7 @@ msgstr "Zašifrovať moje údaje"
 msgid "Encrypted"
 msgstr "Šifrované"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:139
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:143
 msgid "Encryption"
 msgstr "Šifrovanie"
 
@@ -381,6 +384,12 @@ msgstr "Odísť do live desktopu"
 msgid "Extended partition"
 msgstr "Rozšírený oddiel"
 
+#: src/components/localization/Keyboard.jsx:207
+#, fuzzy
+#| msgid "Failed to save storage configuration"
+msgid "Failed to save layouts"
+msgstr "Zlyhalo ukladanie konfigurácie úložísk"
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:93
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora linux vyžaduje aspoň $0 miesta na disku"
@@ -396,6 +405,13 @@ msgid ""
 msgstr ""
 "Finalizácia: Konfigurácia systému je dokončená. Finalizácia inštalácie môže "
 "chvíľu trvať."
+
+#: src/components/localization/Keyboard.jsx:223
+#, fuzzy
+#| msgctxt "GUI|Keyboard Layout"
+#| msgid "_Add layout"
+msgid "Find layout"
+msgstr "_Pridať rozloženie"
 
 #: src/components/users/Accounts.jsx:307
 msgid ""
@@ -547,7 +563,7 @@ msgstr ""
 msgid "Keyboard"
 msgstr "Klávesnica"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:94
 msgid "Keyboard layout during boot"
 msgstr "Rozloženie klávesnice počas zavádzania systému"
 
@@ -581,6 +597,11 @@ msgstr ""
 "Logy môžu obsahovať citlivé informácie, ako sú IP adresy alebo používateľské "
 "mená. Prílohy k problémom v Bugzille sú štandardne označené ako súkromné."
 
+#: src/components/localization/Keyboard.jsx:119
+#: src/components/localization/Keyboard.jsx:123
+msgid "Make current"
+msgstr ""
+
 #: src/components/storage/mount-point-mapping/index.js:31
 msgid "Manual disk configuration"
 msgstr "Manuálna konfigurácia disku"
@@ -610,7 +631,7 @@ msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 "Nesúlad medzi výberom preformátovania nadradeného a podradeného zariadenia."
 
-#: src/components/localization/Keyboard.jsx:134
+#: src/components/localization/Keyboard.jsx:313
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 "Zistené viac ako jedno rozloženie. Ak chcete pokračovať, odstráňte ďalšie "
@@ -625,6 +646,16 @@ msgstr "Bod pripojenia"
 #: src/components/storage/scenarios/mount-point-mapping/index.js:35
 msgid "Mount point assignment"
 msgstr "Priradenie bodov pripojenia"
+
+#: src/components/localization/Keyboard.jsx:141
+#: src/components/localization/Keyboard.jsx:145
+msgid "Move down"
+msgstr ""
+
+#: src/components/localization/Keyboard.jsx:130
+#: src/components/localization/Keyboard.jsx:134
+msgid "Move up"
+msgstr ""
 
 #: src/components/Password.jsx:43
 msgid "Must be at least $0 characters"
@@ -676,6 +707,20 @@ msgstr "Žiadne dostupné disky"
 msgid "No disks selected"
 msgstr "Nie sú vybrané žiadne disky"
 
+#: src/components/localization/Keyboard.jsx:384
+#, fuzzy
+#| msgid "More than one layout detected. Remove additional layouts to proceed"
+msgid "No keyboard layout detected. Add at least one layout to proceed"
+msgstr ""
+"Zistené viac ako jedno rozloženie. Ak chcete pokračovať, odstráňte ďalšie "
+"rozloženia"
+
+#: src/components/localization/Keyboard.jsx:244
+#, fuzzy
+#| msgid "$0 layouts detected"
+msgid "No layouts selected yet"
+msgstr "zistených $0 rozložení"
+
 #: src/components/localization/Common.jsx:135
 msgid "No results found"
 msgstr "Neboli nájdené žiadne výsledky"
@@ -714,7 +759,7 @@ msgstr "Operačný systém"
 msgid "Options"
 msgstr "Voľby"
 
-#: src/components/localization/Keyboard.jsx:79
+#: src/components/localization/Keyboard.jsx:93
 msgid "Other keyboards"
 msgstr "Ďalšie klávesnice"
 
@@ -724,7 +769,7 @@ msgstr "Oddiely (pokročilé)"
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:162
 #: src/components/storage/installation-method/EncryptedDevices.jsx:169
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:126
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:130
 #: src/components/users/Accounts.jsx:150 src/components/users/Accounts.jsx:305
 msgid "Passphrase"
 msgstr "Heslo"
@@ -857,6 +902,8 @@ msgstr "Preinštalovať Fedoru"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:445
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:635
+#: src/components/localization/Keyboard.jsx:152
+#: src/components/localization/Keyboard.jsx:156
 msgid "Remove"
 msgstr "Odstrániť"
 
@@ -950,6 +997,7 @@ msgstr ""
 "Účet správcu je povolený, ale nebol nakonfigurovaný žiadny používateľský účet"
 
 #: src/components/datetime/CustomNTPModal.jsx:248
+#: src/components/localization/Keyboard.jsx:281
 #: src/components/review/Hostname.jsx:137
 msgid "Save"
 msgstr "Uložiť"
@@ -962,11 +1010,11 @@ msgstr "Naskenujte QR kód svojím telefónom alebo navštívte:"
 msgid "Search for a language"
 msgstr "Hľadať jazyk"
 
-#: src/components/localization/Keyboard.jsx:99
+#: src/components/localization/Keyboard.jsx:227
 msgid "Search keyboard layout"
 msgstr "Vyhľadať rozloženie klávesnice"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:143
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:147
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
@@ -992,6 +1040,12 @@ msgstr "Vyberte cieľ"
 #: src/components/datetime/Timezone.jsx:169
 msgid "Select region"
 msgstr "Vyberte región"
+
+#: src/components/localization/Keyboard.jsx:237
+#, fuzzy
+#| msgid "Selected Layouts"
+msgid "Selected (top = current)"
+msgstr "Vybraté rozloženia"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:123
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -1108,7 +1162,7 @@ msgstr "Úspešne nainštalované"
 msgid "Successfully unlocked $0."
 msgstr "Úspešne odomknuté $0."
 
-#: src/components/localization/Keyboard.jsx:79
+#: src/components/localization/Keyboard.jsx:93
 msgid "Suggested keyboards"
 msgstr "Navrhované klávesnice"
 
@@ -1132,7 +1186,7 @@ msgstr ""
 "Konfigurácia systému: Inštalácia softvéru je dokončená. Momentálne prebieha "
 "konfigurácia systému."
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:119
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:123
 msgid ""
 "The active keyboard layout in the compositor differs from the default layout "
 "selected for the target system."
@@ -1154,7 +1208,7 @@ msgstr "Inštalátor nemôže pokračovať kvôli kritickej chybe."
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "Inštalátor nemôže pokračovať kvôli kritickej chybe: $0"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:48
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:50
 msgid ""
 "The passphrase you have provided contains non-ASCII characters. You may not "
 "be able to switch between keyboard layouts when typing it."
@@ -1162,7 +1216,13 @@ msgstr ""
 "Heslo, ktoré ste zadali, obsahuje znaky mimo kódovania ASCII. Možno nebudete "
 "schopný pri jeho zadávaní prepínať medzi rozloženiami klávesnice."
 
-#: src/components/localization/Keyboard.jsx:140
+#: src/components/localization/Keyboard.jsx:266
+msgid ""
+"The selected default keyboard layout does not support ASCII characters. "
+"Please choose an ASCII-capable layout as the default."
+msgstr ""
+
+#: src/components/localization/Keyboard.jsx:319
 msgid ""
 "The selected layout does not support ASCII input. Please select a different "
 "layout to proceed."
@@ -1186,12 +1246,12 @@ msgstr "Tento názov počítača nie je možné nastaviť"
 msgid "This is unstable, pre-release software"
 msgstr "Toto je nestabilný, predčasne uvoľnený softvér"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:113
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:116
 msgid "This layout will be used for unlocking your system on boot"
 msgstr ""
 "Toto rozloženie sa použije na odomknutie vášho systému pri zavádzaní systému"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:56
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:58
 msgid "This may take a moment"
 msgstr "Môže to chvíľu trvať"
 
@@ -1253,7 +1313,7 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "Odomknúť šifrované zariadenia"
 
-#: src/components/localization/Keyboard.jsx:160
+#: src/components/localization/Keyboard.jsx:339
 msgid "Unusable layout"
 msgstr "Nepoužiteľné rozloženie"
 
@@ -2986,9 +3046,6 @@ msgstr "späť"
 #~ msgid "Failed to save boot loader configuration"
 #~ msgstr "Zlyhalo ukladanie konfigurácie zavádzača"
 
-#~ msgid "Failed to save storage configuration"
-#~ msgstr "Zlyhalo ukladanie konfigurácie úložísk"
-
 #~ msgid "Failed to set up installation source; check the NFS configuration."
 #~ msgstr ""
 #~ "Zlyhalo nastavenie zdroja inštalácie. Skontrolujte konfiguráciu NFS."
@@ -4627,9 +4684,6 @@ msgstr "späť"
 #~ msgid "Selected Device"
 #~ msgstr "Vybrané zariadenie"
 
-#~ msgid "Selected Layouts"
-#~ msgstr "Vybraté rozloženia"
-
 #~ msgid ""
 #~ "Selected disks {} contain volume group '{}' that also uses further "
 #~ "unselected disks. You must select or de-select all these disks as a set."
@@ -6259,10 +6313,6 @@ msgstr "späť"
 #~ msgctxt "GUI|Storage"
 #~ msgid "_Add a disk..."
 #~ msgstr "_Pridať disk..."
-
-#~ msgctxt "GUI|Keyboard Layout"
-#~ msgid "_Add layout"
-#~ msgstr "_Pridať rozloženie"
 
 #~ msgctxt "GUI|Custom Partitioning|Add Dialog"
 #~ msgid "_Add mount point"

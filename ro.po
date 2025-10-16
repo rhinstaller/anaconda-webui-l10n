@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-15 03:28+0000\n"
+"POT-Creation-Date: 2025-10-16 03:28+0000\n"
 "PO-Revision-Date: 2025-10-16 03:29+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -28,8 +28,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : "
-"(n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
 "X-Generator: Weblate 5.13.3\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:180
@@ -63,7 +63,7 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr "este nevoie de $0, însă doar $1 sunt disponibili."
 
-#: src/components/localization/Keyboard.jsx:161
+#: src/components/localization/Keyboard.jsx:340
 msgid "$0 layouts detected"
 msgstr "$0 aranjamente detectate"
 
@@ -134,7 +134,8 @@ msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:97
 msgid "All changes made in the storage editor take effect immediately."
-msgstr "Toate modificările făcute în editorul de stocare sunt aplicate imediat."
+msgstr ""
+"Toate modificările făcute în editorul de stocare sunt aplicate imediat."
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:145
 msgid "All devices using this passphrase will be unlocked"
@@ -197,6 +198,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
+#: src/components/localization/Keyboard.jsx:284
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "Renunță"
@@ -217,7 +219,9 @@ msgstr "Modifică numele calculatorului"
 msgid "Change partition layout"
 msgstr "Modifică aranjamentul partițiilor"
 
-#: src/components/localization/Keyboard.jsx:173
+#: src/components/localization/Keyboard.jsx:218
+#: src/components/localization/Keyboard.jsx:352
+#: src/components/localization/Keyboard.jsx:417
 msgid "Change system keyboard layout"
 msgstr "Modifică aranjamentul tastaturii de sistem"
 
@@ -228,7 +232,7 @@ msgstr ""
 "Modificările făcute aici vor afecta sistemul imediat. Revenirea la starea "
 "anterioară nu este posibilă."
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:52
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:54
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:438
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:444
 msgid "Checking storage configuration"
@@ -284,7 +288,7 @@ msgstr "Se configurează spațiul de stocare"
 msgid "Configure storage again"
 msgstr "Se configurează spațiul de stocare"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:129
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:133
 #: src/components/users/Accounts.jsx:153 src/components/users/Accounts.jsx:309
 #, fuzzy
 msgid "Confirm passphrase"
@@ -372,7 +376,7 @@ msgstr "Adaugă un nou punct de montare."
 msgid "Enable root account"
 msgstr ""
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:80
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:82
 #, fuzzy
 msgid "Encrypt my data"
 msgstr "Cript_ează datele mele."
@@ -383,7 +387,7 @@ msgstr "Cript_ează datele mele."
 msgid "Encrypted"
 msgstr "Criptare"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:139
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:143
 msgid "Encryption"
 msgstr "Criptare"
 
@@ -407,6 +411,12 @@ msgstr ""
 msgid "Extended partition"
 msgstr "Partiție standard"
 
+#: src/components/localization/Keyboard.jsx:207
+#, fuzzy
+#| msgid "Failed to save storage configuration..."
+msgid "Failed to save layouts"
+msgstr "Eșec la salvarea configurației de stocare..."
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:93
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr ""
@@ -421,6 +431,13 @@ msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
 msgstr ""
+
+#: src/components/localization/Keyboard.jsx:223
+#, fuzzy
+#| msgctxt "GUI|Keyboard Layout"
+#| msgid "_Add layout"
+msgid "Find layout"
+msgstr "_Adaugă aranjament"
 
 #: src/components/users/Accounts.jsx:307
 msgid ""
@@ -583,7 +600,7 @@ msgstr ""
 msgid "Keyboard"
 msgstr "_Tastatură"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:94
 msgid "Keyboard layout during boot"
 msgstr ""
 
@@ -620,6 +637,11 @@ msgid ""
 "Attachments on Bugzilla issues are marked private by default."
 msgstr ""
 
+#: src/components/localization/Keyboard.jsx:119
+#: src/components/localization/Keyboard.jsx:123
+msgid "Make current"
+msgstr ""
+
 #: src/components/storage/mount-point-mapping/index.js:31
 #, fuzzy
 msgid "Manual disk configuration"
@@ -651,7 +673,7 @@ msgstr ""
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:134
+#: src/components/localization/Keyboard.jsx:313
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 
@@ -665,6 +687,16 @@ msgstr "Punct de montare"
 #, fuzzy
 msgid "Mount point assignment"
 msgstr "Punct de montare"
+
+#: src/components/localization/Keyboard.jsx:141
+#: src/components/localization/Keyboard.jsx:145
+msgid "Move down"
+msgstr ""
+
+#: src/components/localization/Keyboard.jsx:130
+#: src/components/localization/Keyboard.jsx:134
+msgid "Move up"
+msgstr ""
 
 #: src/components/Password.jsx:43
 #, fuzzy
@@ -721,6 +753,16 @@ msgstr "Indisponibil"
 msgid "No disks selected"
 msgstr "Nu au fost selectate discuri"
 
+#: src/components/localization/Keyboard.jsx:384
+msgid "No keyboard layout detected. Add at least one layout to proceed"
+msgstr ""
+
+#: src/components/localization/Keyboard.jsx:244
+#, fuzzy
+#| msgid "$0 layouts detected"
+msgid "No layouts selected yet"
+msgstr "$0 aranjamente detectate"
+
 #: src/components/localization/Common.jsx:135
 msgid "No results found"
 msgstr ""
@@ -764,7 +806,7 @@ msgstr "Se creează utilizatori"
 msgid "Options"
 msgstr "_Opțiuni"
 
-#: src/components/localization/Keyboard.jsx:79
+#: src/components/localization/Keyboard.jsx:93
 #, fuzzy
 #| msgctxt "GUI|Spoke"
 #| msgid "_Keyboard"
@@ -777,7 +819,7 @@ msgstr ""
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:162
 #: src/components/storage/installation-method/EncryptedDevices.jsx:169
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:126
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:130
 #: src/components/users/Accounts.jsx:150 src/components/users/Accounts.jsx:305
 msgid "Passphrase"
 msgstr "Frază secretă"
@@ -932,6 +974,8 @@ msgstr "Instalează"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:445
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:635
+#: src/components/localization/Keyboard.jsx:152
+#: src/components/localization/Keyboard.jsx:156
 #, fuzzy
 msgid "Remove"
 msgstr "Elimină"
@@ -1029,6 +1073,7 @@ msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:248
+#: src/components/localization/Keyboard.jsx:281
 #: src/components/review/Hostname.jsx:137
 #, fuzzy
 #| msgctxt "GUI|Custom Partitioning|Container Dialog"
@@ -1045,12 +1090,12 @@ msgstr ""
 msgid "Search for a language"
 msgstr "Limbi"
 
-#: src/components/localization/Keyboard.jsx:99
+#: src/components/localization/Keyboard.jsx:227
 #, fuzzy
 msgid "Search keyboard layout"
 msgstr "Limbi"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:143
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:147
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
@@ -1086,6 +1131,12 @@ msgstr "Descriere"
 #| msgid "_On the network:"
 msgid "Select region"
 msgstr "Pe rețea_ua mea:"
+
+#: src/components/localization/Keyboard.jsx:237
+#, fuzzy
+#| msgid "Selected Layouts"
+msgid "Selected (top = current)"
+msgstr "Aranjamente selectate"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:123
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -1221,7 +1272,7 @@ msgstr ""
 msgid "Successfully unlocked $0."
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:79
+#: src/components/localization/Keyboard.jsx:93
 #, fuzzy
 msgid "Suggested keyboards"
 msgstr "Limbi"
@@ -1248,7 +1299,7 @@ msgid ""
 "being configured."
 msgstr ""
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:119
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:123
 msgid ""
 "The active keyboard layout in the compositor differs from the default layout "
 "selected for the target system."
@@ -1270,13 +1321,19 @@ msgstr "Instalarea nu poate continua și sistemul va fi repornit"
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "Instalarea nu poate continua și sistemul va fi repornit"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:48
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:50
 msgid ""
 "The passphrase you have provided contains non-ASCII characters. You may not "
 "be able to switch between keyboard layouts when typing it."
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:140
+#: src/components/localization/Keyboard.jsx:266
+msgid ""
+"The selected default keyboard layout does not support ASCII characters. "
+"Please choose an ASCII-capable layout as the default."
+msgstr ""
+
+#: src/components/localization/Keyboard.jsx:319
 msgid ""
 "The selected layout does not support ASCII input. Please select a different "
 "layout to proceed."
@@ -1298,11 +1355,11 @@ msgstr ""
 msgid "This is unstable, pre-release software"
 msgstr "Acesta este software nestabil, pre-release."
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:113
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:116
 msgid "This layout will be used for unlocking your system on boot"
 msgstr ""
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:56
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:58
 #, fuzzy
 msgid "This may take a moment"
 msgstr "Aceasta ar putea dura o vreme."
@@ -1371,7 +1428,7 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "Dispozitiv selectat"
 
-#: src/components/localization/Keyboard.jsx:160
+#: src/components/localization/Keyboard.jsx:339
 #, fuzzy
 #| msgid "Available Layouts"
 msgid "Unusable layout"
@@ -2907,11 +2964,6 @@ msgstr ""
 #~ msgstr "Eșec la salvarea configurației de stocare..."
 
 #, fuzzy
-#~| msgid "Failed to save storage configuration..."
-#~ msgid "Failed to save storage configuration"
-#~ msgstr "Eșec la salvarea configurației de stocare..."
-
-#, fuzzy
 #~| msgid "Failed to set up installation source; check the repo url."
 #~ msgid "Failed to set up installation source; check the NFS configuration."
 #~ msgstr ""
@@ -4279,9 +4331,6 @@ msgstr ""
 
 #~ msgid "Selected Device"
 #~ msgstr "Dispozitiv selectat"
-
-#~ msgid "Selected Layouts"
-#~ msgstr "Aranjamente selectate"
 
 #, fuzzy
 #~| msgid ""
@@ -5668,10 +5717,6 @@ msgstr ""
 #~ msgctxt "GUI|Storage"
 #~ msgid "_Add a disk..."
 #~ msgstr "_Adaugă un disc..."
-
-#~ msgctxt "GUI|Keyboard Layout"
-#~ msgid "_Add layout"
-#~ msgstr "_Adaugă aranjament"
 
 #~ msgctxt "GUI|Custom Partitioning|Add Dialog"
 #~ msgid "_Add mount point"
