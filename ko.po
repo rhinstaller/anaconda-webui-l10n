@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-17 03:25+0000\n"
+"POT-Creation-Date: 2025-10-18 03:19+0000\n"
 "PO-Revision-Date: 2025-09-09 05:53+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/anaconda-"
@@ -54,9 +54,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:363
 #: src/components/storage/installation-method/InstallationDestination.jsx:200
 #: src/components/storage/installation-method/InstallationDestination.jsx:294
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:363
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -80,7 +80,7 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr "$0 가 필요하나, $1 만 사용 할 수 있습니다."
 
-#: src/components/localization/Keyboard.jsx:337
+#: src/components/localization/Keyboard.jsx:330
 msgid "$0 layouts detected"
 msgstr "$0 배열이 탐지됨"
 
@@ -118,8 +118,8 @@ msgstr "정보"
 msgid "Account"
 msgstr "계정"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:152
 #: src/components/review/StorageReview.jsx:247
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:152
 msgid "Actions"
 msgstr "동작"
 
@@ -203,12 +203,13 @@ msgstr ""
 "업을 향상 시키기 위해 결점 또는 문제점을 기꺼이 보고하고자 하는 사전-출시된 "
 "소프트웨어와 관련된 위험을 이해하고 수용합니다."
 
+#: src/components/localization/Keyboard.jsx:274
+#: src/components/review/Hostname.jsx:139
 #: src/components/datetime/CustomNTPModal.jsx:251
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:281
-#: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
+#: src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "취소"
 
@@ -228,9 +229,9 @@ msgstr "호스트이름 변경"
 msgid "Change partition layout"
 msgstr "파티션 구성 변경"
 
-#: src/components/localization/Keyboard.jsx:215
-#: src/components/localization/Keyboard.jsx:349
-#: src/components/localization/Keyboard.jsx:404
+#: src/components/localization/Keyboard.jsx:208
+#: src/components/localization/Keyboard.jsx:342
+#: src/components/localization/Keyboard.jsx:410
 msgid "Change system keyboard layout"
 msgstr "시스템 키보드 배열을 변경합니다"
 
@@ -254,8 +255,8 @@ msgstr "검색 지우기"
 msgid "Click \"$0\" to open Bugzilla in a new window."
 msgstr "\"$0\" 눌러 새로운 창에 버그질라를 엽니다."
 
-#: src/components/storage/installation-method/EncryptedDevices.jsx:193
 #: src/components/storage/installation-method/InstallationDestination.jsx:398
+#: src/components/storage/installation-method/EncryptedDevices.jsx:193
 msgid "Close"
 msgstr "종료"
 
@@ -289,8 +290,8 @@ msgstr "저장소 구성"
 msgid "Configure storage again"
 msgstr "저장소를 다시 구성합니다"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:133
 #: src/components/users/Accounts.jsx:153 src/components/users/Accounts.jsx:309
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:133
 msgid "Confirm passphrase"
 msgstr "암호문을 확인합니다"
 
@@ -326,8 +327,8 @@ msgstr "사용자 지정"
 msgid "Date"
 msgstr "날짜"
 
-#: src/components/datetime/DateAndTime.jsx:163
 #: src/components/datetime/index.js:30
+#: src/components/datetime/DateAndTime.jsx:163
 msgid "Date and time"
 msgstr "날짜와 시간"
 
@@ -347,8 +348,8 @@ msgstr "대상이 암호화되었습니다"
 msgid "Detected valid storage layout:"
 msgstr "탐지된 유효 저장소 배열:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:633
 #: src/components/review/StorageReview.jsx:245
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:633
 msgid "Device"
 msgstr "장치"
 
@@ -393,7 +394,7 @@ msgstr "라이브 데스크탑으로 종료"
 msgid "Extended partition"
 msgstr "확장된 파티션"
 
-#: src/components/localization/Keyboard.jsx:204
+#: src/components/localization/Keyboard.jsx:197
 #, fuzzy
 #| msgid "Failed to save storage configuration"
 msgid "Failed to save layouts"
@@ -414,7 +415,7 @@ msgid ""
 msgstr ""
 "마무리하기: 시스템 구성이 완료되었습니다. 마무리 설치는 몇 분 걸립니다."
 
-#: src/components/localization/Keyboard.jsx:220
+#: src/components/localization/Keyboard.jsx:213
 #, fuzzy
 #| msgctxt "GUI|Keyboard Layout"
 #| msgid "_Add layout"
@@ -506,8 +507,8 @@ msgstr "진행 중"
 msgid "Initializing..."
 msgstr "초기화 중..."
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:32
 #: src/components/storage/scenarios/use-free-space/index.js:39
+#: src/components/storage/scenarios/use-configured-storage/index.js:32
 msgid "Install"
 msgstr "설치"
 
@@ -567,7 +568,7 @@ msgstr ""
 "현재의 디스크 배열을 유지하고 사용 가능한 공간을 활용하여 다른 OS와 함께 이"
 "중-부팅을 합니다."
 
-#: src/components/localization/InstallationLanguage.jsx:250
+#: src/components/localization/InstallationLanguage.jsx:251
 msgid "Keyboard"
 msgstr "키보드"
 
@@ -575,7 +576,7 @@ msgstr "키보드"
 msgid "Keyboard layout during boot"
 msgstr "부팅 중에 키보드 나열"
 
-#: src/components/localization/InstallationLanguage.jsx:234
+#: src/components/localization/InstallationLanguage.jsx:235
 #: src/components/review/ReviewConfiguration.jsx:192
 msgid "Language"
 msgstr "언어"
@@ -605,8 +606,8 @@ msgstr ""
 "기록은 IP 주소나 사용자이름과 같이 민감한 정보가 있을 수 있습니다. 버그질라 "
 "사건 첨부는 기본 값으로 비공개 표시됩니다."
 
-#: src/components/localization/Keyboard.jsx:116
-#: src/components/localization/Keyboard.jsx:120
+#: src/components/localization/Keyboard.jsx:117
+#: src/components/localization/Keyboard.jsx:121
 msgid "Make current"
 msgstr ""
 
@@ -638,12 +639,12 @@ msgstr "최소 $0 가 필요합니다"
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr "상위 장치와 하위 장치 재-초기화 선택이 일치하지 않습니다."
 
-#: src/components/localization/Keyboard.jsx:310
+#: src/components/localization/Keyboard.jsx:303
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr "하나 이상의 나열이 탐지되었습니다. 진행하려면 추가된 나열을 제거하세요"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:632
 #: src/components/review/StorageReview.jsx:249
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:632
 msgid "Mount point"
 msgstr "적재 지점"
 
@@ -652,13 +653,13 @@ msgstr "적재 지점"
 msgid "Mount point assignment"
 msgstr "적재 지점 지정"
 
-#: src/components/localization/Keyboard.jsx:138
-#: src/components/localization/Keyboard.jsx:142
+#: src/components/localization/Keyboard.jsx:139
+#: src/components/localization/Keyboard.jsx:143
 msgid "Move down"
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:127
-#: src/components/localization/Keyboard.jsx:131
+#: src/components/localization/Keyboard.jsx:128
+#: src/components/localization/Keyboard.jsx:132
 msgid "Move up"
 msgstr ""
 
@@ -698,8 +699,8 @@ msgstr "네트워크를 사용 할 수 없습니다. 네트워크를 구성하�
 msgid "Next"
 msgstr "다음"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:154
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:637
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:154
 msgid "No devices"
 msgstr "장치 없음"
 
@@ -711,13 +712,7 @@ msgstr "사용 가능한 디스크 없음"
 msgid "No disks selected"
 msgstr "선택한 디스크가 없음"
 
-#: src/components/localization/Keyboard.jsx:371
-#, fuzzy
-#| msgid "More than one layout detected. Remove additional layouts to proceed"
-msgid "No keyboard layout detected. Add at least one layout to proceed"
-msgstr "하나 이상의 나열이 탐지되었습니다. 진행하려면 추가된 나열을 제거하세요"
-
-#: src/components/localization/Keyboard.jsx:241
+#: src/components/localization/Keyboard.jsx:234
 #, fuzzy
 #| msgid "$0 layouts detected"
 msgid "No layouts selected yet"
@@ -760,7 +755,7 @@ msgstr "운영 체제"
 msgid "Options"
 msgstr "선택"
 
-#: src/components/localization/Keyboard.jsx:90
+#: src/components/localization/Keyboard.jsx:91
 msgid "Other keyboards"
 msgstr "기타 키보드"
 
@@ -768,10 +763,10 @@ msgstr "기타 키보드"
 msgid "Partitions (advanced)"
 msgstr "파티션 (고급)"
 
+#: src/components/users/Accounts.jsx:150 src/components/users/Accounts.jsx:305
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:130
 #: src/components/storage/installation-method/EncryptedDevices.jsx:162
 #: src/components/storage/installation-method/EncryptedDevices.jsx:169
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:130
-#: src/components/users/Accounts.jsx:150 src/components/users/Accounts.jsx:305
 msgid "Passphrase"
 msgstr "암호문"
 
@@ -901,10 +896,10 @@ msgstr "다시초기화함"
 msgid "Reinstall Fedora"
 msgstr "페도라를 재설치합니다"
 
+#: src/components/localization/Keyboard.jsx:150
+#: src/components/localization/Keyboard.jsx:154
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:445
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:635
-#: src/components/localization/Keyboard.jsx:149
-#: src/components/localization/Keyboard.jsx:153
 msgid "Remove"
 msgstr "제거"
 
@@ -992,9 +987,9 @@ msgstr "root 계정이 비활성화 되었습니다"
 msgid "Root account is enabled, but no user account has been configured"
 msgstr "root 계정이 활성화 되었지만, 사용자 계정이 구성되지 않았습니다"
 
-#: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:278
+#: src/components/localization/Keyboard.jsx:271
 #: src/components/review/Hostname.jsx:137
+#: src/components/datetime/CustomNTPModal.jsx:248
 msgid "Save"
 msgstr "저장"
 
@@ -1006,7 +1001,7 @@ msgstr "자신의 폰으로 QR 코드를 스캔하거나 방문하세요:"
 msgid "Search for a language"
 msgstr "언어 검색"
 
-#: src/components/localization/Keyboard.jsx:224
+#: src/components/localization/Keyboard.jsx:217
 msgid "Search keyboard layout"
 msgstr "키보드 배열을 검색합니다"
 
@@ -1038,7 +1033,7 @@ msgstr "선택 대상"
 msgid "Select region"
 msgstr "지역 선택"
 
-#: src/components/localization/Keyboard.jsx:234
+#: src/components/localization/Keyboard.jsx:227
 #, fuzzy
 #| msgid "Selected Layouts"
 msgid "Selected (top = current)"
@@ -1159,7 +1154,7 @@ msgstr "성공적으로 설치되었습니다"
 msgid "Successfully unlocked $0."
 msgstr "성공적으로 $0가 잠금되었습니다."
 
-#: src/components/localization/Keyboard.jsx:90
+#: src/components/localization/Keyboard.jsx:91
 msgid "Suggested keyboards"
 msgstr "제안된 키보드"
 
@@ -1211,13 +1206,13 @@ msgstr ""
 "입력 한 암호문에 비 ASCII 문자가 포함되어 있습니다. 키보드 레이아웃을 입력 "
 "할 때 키보드 레이아웃을 전환하지 못할 수 있습니다."
 
-#: src/components/localization/Keyboard.jsx:263
+#: src/components/localization/Keyboard.jsx:256
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:316
+#: src/components/localization/Keyboard.jsx:309
 msgid ""
 "The selected layout does not support ASCII input. Please select a different "
 "layout to proceed."
@@ -1257,8 +1252,8 @@ msgstr "시간이 좀 걸릴 수 있습니다"
 msgid "Time"
 msgstr "시간"
 
-#: src/components/datetime/Timezone.jsx:142
 #: src/components/review/ReviewConfiguration.jsx:199
+#: src/components/datetime/Timezone.jsx:142
 msgid "Timezone"
 msgstr "시간대"
 
@@ -1307,7 +1302,7 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "암호화된 장치를 해제합니다"
 
-#: src/components/localization/Keyboard.jsx:336
+#: src/components/localization/Keyboard.jsx:329
 msgid "Unusable layout"
 msgstr "사용 가능한 나열"
 
@@ -1403,9 +1398,9 @@ msgstr "완료 단계"
 msgid "current step"
 msgstr "현재 단계"
 
+#: src/components/review/StorageReview.jsx:170
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:388
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:401
-#: src/components/review/StorageReview.jsx:170
 msgid "delete"
 msgstr "삭제"
 
@@ -1453,6 +1448,12 @@ msgstr "$0로 축소"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:382
 msgid "undo"
 msgstr "실행취소"
+
+#, fuzzy
+#~| msgid "More than one layout detected. Remove additional layouts to proceed"
+#~ msgid "No keyboard layout detected. Add at least one layout to proceed"
+#~ msgstr ""
+#~ "하나 이상의 나열이 탐지되었습니다. 진행하려면 추가된 나열을 제거하세요"
 
 #~ msgid "No user or root account has been configured"
 #~ msgstr "사용자나 root 계정이 구성되지 않았습니다"

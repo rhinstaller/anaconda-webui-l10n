@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-17 03:25+0000\n"
+"POT-Creation-Date: 2025-10-18 03:19+0000\n"
 "PO-Revision-Date: 2025-07-25 03:07+0000\n"
 "Last-Translator: Aindriu Mac Giolla Eoin <aindriu80@gmail.com>\n"
 "Language-Team: Irish <https://translate.fedoraproject.org/projects/anaconda-"
@@ -23,9 +23,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:363
 #: src/components/storage/installation-method/InstallationDestination.jsx:200
 #: src/components/storage/installation-method/InstallationDestination.jsx:294
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:363
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -50,7 +50,7 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:337
+#: src/components/localization/Keyboard.jsx:330
 msgid "$0 layouts detected"
 msgstr "$0 leagan amach braite"
 
@@ -87,8 +87,8 @@ msgstr "Faoi"
 msgid "Account"
 msgstr "Cuntas"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:152
 #: src/components/review/StorageReview.jsx:247
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:152
 msgid "Actions"
 msgstr "Gníomhartha"
 
@@ -179,12 +179,13 @@ msgstr ""
 "bhfuil tú sásta aon fhabhtanna nó saincheisteanna a thuairisciú chun an "
 "obair seo a fheabhsú."
 
+#: src/components/localization/Keyboard.jsx:274
+#: src/components/review/Hostname.jsx:139
 #: src/components/datetime/CustomNTPModal.jsx:251
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:281
-#: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
+#: src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "Cealaigh"
 
@@ -206,9 +207,9 @@ msgstr "Athraigh an t-óstainm"
 msgid "Change partition layout"
 msgstr "Athraigh ceann scríbe"
 
-#: src/components/localization/Keyboard.jsx:215
-#: src/components/localization/Keyboard.jsx:349
-#: src/components/localization/Keyboard.jsx:404
+#: src/components/localization/Keyboard.jsx:208
+#: src/components/localization/Keyboard.jsx:342
+#: src/components/localization/Keyboard.jsx:410
 msgid "Change system keyboard layout"
 msgstr "Athraigh leagan amach méarchláir an chórais"
 
@@ -233,8 +234,8 @@ msgstr "Glan an cuardach"
 msgid "Click \"$0\" to open Bugzilla in a new window."
 msgstr "Cliceáil \"$0\" chun Bugzilla a oscailt i bhfuinneog nua."
 
-#: src/components/storage/installation-method/EncryptedDevices.jsx:193
 #: src/components/storage/installation-method/InstallationDestination.jsx:398
+#: src/components/storage/installation-method/EncryptedDevices.jsx:193
 msgid "Close"
 msgstr "Dún"
 
@@ -275,8 +276,8 @@ msgstr "Cumraigh stóráil"
 msgid "Configure storage again"
 msgstr "Cumraigh stóras arís"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:133
 #: src/components/users/Accounts.jsx:153 src/components/users/Accounts.jsx:309
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:133
 msgid "Confirm passphrase"
 msgstr "Deimhnigh pasfhrása"
 
@@ -312,8 +313,8 @@ msgstr "Saincheaptha"
 msgid "Date"
 msgstr ""
 
-#: src/components/datetime/DateAndTime.jsx:163
 #: src/components/datetime/index.js:30
+#: src/components/datetime/DateAndTime.jsx:163
 #, fuzzy
 #| msgid "Set Date & Time"
 msgid "Date and time"
@@ -336,8 +337,8 @@ msgstr "Tá an ceann scríbe criptithe"
 msgid "Detected valid storage layout:"
 msgstr "Braitheadh leagan amach bailí stórála:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:633
 #: src/components/review/StorageReview.jsx:245
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:633
 msgid "Device"
 msgstr "Gléas"
 
@@ -382,7 +383,7 @@ msgstr "Scoir go dtí an deasc beo"
 msgid "Extended partition"
 msgstr "Deighilt leathnaithe"
 
-#: src/components/localization/Keyboard.jsx:204
+#: src/components/localization/Keyboard.jsx:197
 #, fuzzy
 #| msgid "Configure device %s"
 msgid "Failed to save layouts"
@@ -404,7 +405,7 @@ msgstr ""
 "Críochnú: Tá cumraíocht an chórais críochnaithe. Seans go dtógfaidh sé cúpla "
 "nóiméad an tsuiteáil a thabhairt chun críche."
 
-#: src/components/localization/Keyboard.jsx:220
+#: src/components/localization/Keyboard.jsx:213
 #, fuzzy
 #| msgctxt "GUI|Keyboard Layout"
 #| msgid "_Add layout"
@@ -497,8 +498,8 @@ msgstr "Ar siúl"
 msgid "Initializing..."
 msgstr "Ag tosú..."
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:32
 #: src/components/storage/scenarios/use-free-space/index.js:39
+#: src/components/storage/scenarios/use-configured-storage/index.js:32
 msgid "Install"
 msgstr "Suiteáil"
 
@@ -560,7 +561,7 @@ msgstr ""
 "Coinnigh leagan amach reatha an diosca agus bain úsáid as an spás atá ar "
 "fáil chun dé-thosú a dhéanamh le OS eile."
 
-#: src/components/localization/InstallationLanguage.jsx:250
+#: src/components/localization/InstallationLanguage.jsx:251
 msgid "Keyboard"
 msgstr "Méarchlár"
 
@@ -568,7 +569,7 @@ msgstr "Méarchlár"
 msgid "Keyboard layout during boot"
 msgstr "Leagan amach an mhéarchláir le linn tosaithe"
 
-#: src/components/localization/InstallationLanguage.jsx:234
+#: src/components/localization/InstallationLanguage.jsx:235
 #: src/components/review/ReviewConfiguration.jsx:192
 msgid "Language"
 msgstr "Teanga"
@@ -599,8 +600,8 @@ msgstr ""
 "bheith i logaí. De réir réamhshocraithe, déantar ceangaltáin a bhaineann le "
 "saincheisteanna Bugzilla a mharcáil mar phríobháideach."
 
-#: src/components/localization/Keyboard.jsx:116
-#: src/components/localization/Keyboard.jsx:120
+#: src/components/localization/Keyboard.jsx:117
+#: src/components/localization/Keyboard.jsx:121
 msgid "Make current"
 msgstr ""
 
@@ -636,14 +637,14 @@ msgstr ""
 "Mímheaitseáil idir an tuismitheoir gléas agus an rogha athfhormáidithe gléas "
 "linbh."
 
-#: src/components/localization/Keyboard.jsx:310
+#: src/components/localization/Keyboard.jsx:303
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 "Níos mó ná leagan amach amháin braite. Bain leagan amach breise le dul ar "
 "aghaidh"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:632
 #: src/components/review/StorageReview.jsx:249
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:632
 msgid "Mount point"
 msgstr "Pointe gléasta"
 
@@ -652,13 +653,13 @@ msgstr "Pointe gléasta"
 msgid "Mount point assignment"
 msgstr "Suiteáil pointe sannadh"
 
-#: src/components/localization/Keyboard.jsx:138
-#: src/components/localization/Keyboard.jsx:142
+#: src/components/localization/Keyboard.jsx:139
+#: src/components/localization/Keyboard.jsx:143
 msgid "Move down"
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:127
-#: src/components/localization/Keyboard.jsx:131
+#: src/components/localization/Keyboard.jsx:128
+#: src/components/localization/Keyboard.jsx:132
 msgid "Move up"
 msgstr ""
 
@@ -703,8 +704,8 @@ msgstr ""
 msgid "Next"
 msgstr "Ar aghaidh"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:154
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:637
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:154
 msgid "No devices"
 msgstr "Gan feistí"
 
@@ -716,15 +717,7 @@ msgstr "Níl dioscaí ar fáil"
 msgid "No disks selected"
 msgstr "Níor roghnaíodh dioscaí"
 
-#: src/components/localization/Keyboard.jsx:371
-#, fuzzy
-#| msgid "More than one layout detected. Remove additional layouts to proceed"
-msgid "No keyboard layout detected. Add at least one layout to proceed"
-msgstr ""
-"Níos mó ná leagan amach amháin braite. Bain leagan amach breise le dul ar "
-"aghaidh"
-
-#: src/components/localization/Keyboard.jsx:241
+#: src/components/localization/Keyboard.jsx:234
 #, fuzzy
 #| msgid "$0 layouts detected"
 msgid "No layouts selected yet"
@@ -771,7 +764,7 @@ msgstr "Córas oibriucháin"
 msgid "Options"
 msgstr "_Roghanna"
 
-#: src/components/localization/Keyboard.jsx:90
+#: src/components/localization/Keyboard.jsx:91
 msgid "Other keyboards"
 msgstr "Méarchláir eile"
 
@@ -779,10 +772,10 @@ msgstr "Méarchláir eile"
 msgid "Partitions (advanced)"
 msgstr "Deighiltí (chun cinn)"
 
+#: src/components/users/Accounts.jsx:150 src/components/users/Accounts.jsx:305
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:130
 #: src/components/storage/installation-method/EncryptedDevices.jsx:162
 #: src/components/storage/installation-method/EncryptedDevices.jsx:169
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:130
-#: src/components/users/Accounts.jsx:150 src/components/users/Accounts.jsx:305
 msgid "Passphrase"
 msgstr "Pasfhocal"
 
@@ -912,10 +905,10 @@ msgstr "Athfhormáid"
 msgid "Reinstall Fedora"
 msgstr "Athshuiteáil Fedora"
 
+#: src/components/localization/Keyboard.jsx:150
+#: src/components/localization/Keyboard.jsx:154
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:445
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:635
-#: src/components/localization/Keyboard.jsx:149
-#: src/components/localization/Keyboard.jsx:153
 msgid "Remove"
 msgstr "Bain"
 
@@ -1009,9 +1002,9 @@ msgstr "Suiteáil"
 msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
 
-#: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:278
+#: src/components/localization/Keyboard.jsx:271
 #: src/components/review/Hostname.jsx:137
+#: src/components/datetime/CustomNTPModal.jsx:248
 msgid "Save"
 msgstr "Sábháil"
 
@@ -1023,7 +1016,7 @@ msgstr "Scan an cód QR le do ghuthán nó tabhair cuairt ar:"
 msgid "Search for a language"
 msgstr "Cuardaigh teanga"
 
-#: src/components/localization/Keyboard.jsx:224
+#: src/components/localization/Keyboard.jsx:217
 msgid "Search keyboard layout"
 msgstr "Leagan amach méarchláir cuardaigh"
 
@@ -1059,7 +1052,7 @@ msgstr "Roghnaigh ceann scríbe"
 msgid "Select region"
 msgstr "Roghnaigh ceann scríbe"
 
-#: src/components/localization/Keyboard.jsx:234
+#: src/components/localization/Keyboard.jsx:227
 #, fuzzy
 #| msgid "Selected Layouts"
 msgid "Selected (top = current)"
@@ -1186,7 +1179,7 @@ msgstr "Suiteáilte go rathúil"
 msgid "Successfully unlocked $0."
 msgstr "D'éirigh le díghlasáil $0."
 
-#: src/components/localization/Keyboard.jsx:90
+#: src/components/localization/Keyboard.jsx:91
 msgid "Suggested keyboards"
 msgstr "Méarchláir molta"
 
@@ -1244,13 +1237,13 @@ msgstr ""
 "Tá carachtair neamh-ASCII sa phasfhrása a sholáthair tú. Seans nach mbeidh "
 "tú in ann aistriú idir leagan amach méarchláir agus é á chlóscríobh."
 
-#: src/components/localization/Keyboard.jsx:263
+#: src/components/localization/Keyboard.jsx:256
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:316
+#: src/components/localization/Keyboard.jsx:309
 msgid ""
 "The selected layout does not support ASCII input. Please select a different "
 "layout to proceed."
@@ -1292,8 +1285,8 @@ msgstr "Tógfaidh sé seo cúpla nóiméad"
 msgid "Time"
 msgstr ""
 
-#: src/components/datetime/Timezone.jsx:142
 #: src/components/review/ReviewConfiguration.jsx:199
+#: src/components/datetime/Timezone.jsx:142
 #, fuzzy
 #| msgid "%s timezone"
 msgid "Timezone"
@@ -1344,7 +1337,7 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "Díghlasáil gléasanna criptithe"
 
-#: src/components/localization/Keyboard.jsx:336
+#: src/components/localization/Keyboard.jsx:329
 msgid "Unusable layout"
 msgstr "Leagan amach neamhúsáidte"
 
@@ -1442,9 +1435,9 @@ msgstr "chéim chríochnaithe"
 msgid "current step"
 msgstr "céim reatha"
 
+#: src/components/review/StorageReview.jsx:170
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:388
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:401
-#: src/components/review/StorageReview.jsx:170
 msgid "delete"
 msgstr "scrios"
 
@@ -1492,6 +1485,13 @@ msgstr "Laghdaigh go $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:382
 msgid "undo"
 msgstr "cealaigh"
+
+#, fuzzy
+#~| msgid "More than one layout detected. Remove additional layouts to proceed"
+#~ msgid "No keyboard layout detected. Add at least one layout to proceed"
+#~ msgstr ""
+#~ "Níos mó ná leagan amach amháin braite. Bain leagan amach breise le dul ar "
+#~ "aghaidh"
 
 #~ msgid "This account will have administration privilege with sudo."
 #~ msgstr "Beidh pribhléid riaracháin ag an gcuntas seo le sudo."

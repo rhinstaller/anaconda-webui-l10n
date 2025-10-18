@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-17 03:25+0000\n"
+"POT-Creation-Date: 2025-10-18 03:19+0000\n"
 "PO-Revision-Date: 2025-07-18 20:17+0000\n"
 "Last-Translator: Iver Son <ivercoder@proton.me>\n"
 "Language-Team: Filipino <https://translate.fedoraproject.org/projects/"
@@ -21,9 +21,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:363
 #: src/components/storage/installation-method/InstallationDestination.jsx:200
 #: src/components/storage/installation-method/InstallationDestination.jsx:294
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:363
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -48,7 +48,7 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:337
+#: src/components/localization/Keyboard.jsx:330
 msgid "$0 layouts detected"
 msgstr "Nakakita nang $0 layout"
 
@@ -86,8 +86,8 @@ msgstr "Tungkol"
 msgid "Account"
 msgstr "Account"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:152
 #: src/components/review/StorageReview.jsx:247
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:152
 msgid "Actions"
 msgstr "Mga aksyon"
 
@@ -176,12 +176,13 @@ msgstr ""
 "testing at development mo lang ito balak gamitin, at handa kang mag-ulat ng "
 "mga bug o problema para mas pahusayin ang produktong ito."
 
+#: src/components/localization/Keyboard.jsx:274
+#: src/components/review/Hostname.jsx:139
 #: src/components/datetime/CustomNTPModal.jsx:251
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:281
-#: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
+#: src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "Kanselahin"
 
@@ -203,9 +204,9 @@ msgstr "Baguhin ang hostname"
 msgid "Change partition layout"
 msgstr "Palitan ang destinasyon"
 
-#: src/components/localization/Keyboard.jsx:215
-#: src/components/localization/Keyboard.jsx:349
-#: src/components/localization/Keyboard.jsx:404
+#: src/components/localization/Keyboard.jsx:208
+#: src/components/localization/Keyboard.jsx:342
+#: src/components/localization/Keyboard.jsx:410
 msgid "Change system keyboard layout"
 msgstr "Palitan ang keyboard layout ng system"
 
@@ -230,8 +231,8 @@ msgstr "I-clear ang search"
 msgid "Click \"$0\" to open Bugzilla in a new window."
 msgstr "Pindutin ang \"$0\" para buksan ang Bugzilla sa bagong window."
 
-#: src/components/storage/installation-method/EncryptedDevices.jsx:193
 #: src/components/storage/installation-method/InstallationDestination.jsx:398
+#: src/components/storage/installation-method/EncryptedDevices.jsx:193
 msgid "Close"
 msgstr "Isara"
 
@@ -272,8 +273,8 @@ msgstr "I-configure ang storage"
 msgid "Configure storage again"
 msgstr "I-configure ulit ang storage"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:133
 #: src/components/users/Accounts.jsx:153 src/components/users/Accounts.jsx:309
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:133
 msgid "Confirm passphrase"
 msgstr "Kumpirmahin ang passphrase"
 
@@ -309,8 +310,8 @@ msgstr "Custom"
 msgid "Date"
 msgstr ""
 
-#: src/components/datetime/DateAndTime.jsx:163
 #: src/components/datetime/index.js:30
+#: src/components/datetime/DateAndTime.jsx:163
 msgid "Date and time"
 msgstr ""
 
@@ -331,8 +332,8 @@ msgstr "Naka-encrypt ang destinasyon"
 msgid "Detected valid storage layout:"
 msgstr "Naka-detect ng valid na storage layout:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:633
 #: src/components/review/StorageReview.jsx:245
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:633
 msgid "Device"
 msgstr "Device"
 
@@ -377,7 +378,7 @@ msgstr "Umalis papuntang live desktop"
 msgid "Extended partition"
 msgstr "Extended partition"
 
-#: src/components/localization/Keyboard.jsx:204
+#: src/components/localization/Keyboard.jsx:197
 msgid "Failed to save layouts"
 msgstr ""
 
@@ -397,7 +398,7 @@ msgstr ""
 "Nagfa-finalize: Tapos na ang pagko-configure sa system. Maaaring abutin ng "
 "ilang minuto ang pagfa-finalize ng installation."
 
-#: src/components/localization/Keyboard.jsx:220
+#: src/components/localization/Keyboard.jsx:213
 #, fuzzy
 #| msgid "Unknown"
 msgid "Find layout"
@@ -490,8 +491,8 @@ msgstr "Umaandar"
 msgid "Initializing..."
 msgstr "Inihahanda..."
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:32
 #: src/components/storage/scenarios/use-free-space/index.js:39
+#: src/components/storage/scenarios/use-configured-storage/index.js:32
 msgid "Install"
 msgstr "I-install"
 
@@ -553,7 +554,7 @@ msgstr ""
 "Panatilihin ang kasalukuyang layout ng disk at gamitin ang bakanteng espasyo "
 "para makipag-dual boot sa isa pang OS."
 
-#: src/components/localization/InstallationLanguage.jsx:250
+#: src/components/localization/InstallationLanguage.jsx:251
 msgid "Keyboard"
 msgstr "Keyboard"
 
@@ -561,7 +562,7 @@ msgstr "Keyboard"
 msgid "Keyboard layout during boot"
 msgstr "Keyboard layout habang nagbo-boot"
 
-#: src/components/localization/InstallationLanguage.jsx:234
+#: src/components/localization/InstallationLanguage.jsx:235
 #: src/components/review/ReviewConfiguration.jsx:192
 msgid "Language"
 msgstr "Wika"
@@ -591,8 +592,8 @@ msgstr ""
 "Maaaring may sensitibong impormasyon ang mga log tulad ng IP address o "
 "username. Nakamarka bilang pribado by default ang mga attachment sa Bugzilla."
 
-#: src/components/localization/Keyboard.jsx:116
-#: src/components/localization/Keyboard.jsx:120
+#: src/components/localization/Keyboard.jsx:117
+#: src/components/localization/Keyboard.jsx:121
 msgid "Make current"
 msgstr ""
 
@@ -627,14 +628,14 @@ msgstr ""
 "May hindi pagkakatugma sa reformat selection sa pagitan ng parent device at "
 "child device."
 
-#: src/components/localization/Keyboard.jsx:310
+#: src/components/localization/Keyboard.jsx:303
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 "Nakakita ng higit sa isang layout. Mangyaring tanggalin ang mga sobrang "
 "layout para magpatuloy"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:632
 #: src/components/review/StorageReview.jsx:249
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:632
 msgid "Mount point"
 msgstr "Mount point"
 
@@ -643,13 +644,13 @@ msgstr "Mount point"
 msgid "Mount point assignment"
 msgstr "Pagtatakda ng mount point"
 
-#: src/components/localization/Keyboard.jsx:138
-#: src/components/localization/Keyboard.jsx:142
+#: src/components/localization/Keyboard.jsx:139
+#: src/components/localization/Keyboard.jsx:143
 msgid "Move down"
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:127
-#: src/components/localization/Keyboard.jsx:131
+#: src/components/localization/Keyboard.jsx:128
+#: src/components/localization/Keyboard.jsx:132
 msgid "Move up"
 msgstr ""
 
@@ -691,8 +692,8 @@ msgstr ""
 msgid "Next"
 msgstr "Susunod"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:154
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:637
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:154
 msgid "No devices"
 msgstr "Walang device"
 
@@ -704,15 +705,7 @@ msgstr "Walang magagamit na disk"
 msgid "No disks selected"
 msgstr "Walang napiling disk"
 
-#: src/components/localization/Keyboard.jsx:371
-#, fuzzy
-#| msgid "More than one layout detected. Remove additional layouts to proceed"
-msgid "No keyboard layout detected. Add at least one layout to proceed"
-msgstr ""
-"Nakakita ng higit sa isang layout. Mangyaring tanggalin ang mga sobrang "
-"layout para magpatuloy"
-
-#: src/components/localization/Keyboard.jsx:241
+#: src/components/localization/Keyboard.jsx:234
 #, fuzzy
 #| msgid "$0 layouts detected"
 msgid "No layouts selected yet"
@@ -758,7 +751,7 @@ msgstr "Operating system"
 msgid "Options"
 msgstr "Mga aksyon"
 
-#: src/components/localization/Keyboard.jsx:90
+#: src/components/localization/Keyboard.jsx:91
 msgid "Other keyboards"
 msgstr "Iba pang mga keyboard"
 
@@ -766,10 +759,10 @@ msgstr "Iba pang mga keyboard"
 msgid "Partitions (advanced)"
 msgstr "Mga partition (advanced)"
 
+#: src/components/users/Accounts.jsx:150 src/components/users/Accounts.jsx:305
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:130
 #: src/components/storage/installation-method/EncryptedDevices.jsx:162
 #: src/components/storage/installation-method/EncryptedDevices.jsx:169
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:130
-#: src/components/users/Accounts.jsx:150 src/components/users/Accounts.jsx:305
 msgid "Passphrase"
 msgstr "Passphrase"
 
@@ -900,10 +893,10 @@ msgstr "I-reformat"
 msgid "Reinstall Fedora"
 msgstr "I-reinstall ang Fedora"
 
+#: src/components/localization/Keyboard.jsx:150
+#: src/components/localization/Keyboard.jsx:154
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:445
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:635
-#: src/components/localization/Keyboard.jsx:149
-#: src/components/localization/Keyboard.jsx:153
 msgid "Remove"
 msgstr "Tanggalin"
 
@@ -995,9 +988,9 @@ msgstr "Nabigo ang Koneksyon"
 msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
 
-#: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:278
+#: src/components/localization/Keyboard.jsx:271
 #: src/components/review/Hostname.jsx:137
+#: src/components/datetime/CustomNTPModal.jsx:248
 msgid "Save"
 msgstr "I-save"
 
@@ -1009,7 +1002,7 @@ msgstr "I-scan ang QR code gamit ang cellphone mo o pumunta sa:"
 msgid "Search for a language"
 msgstr "Maghanap ng wika"
 
-#: src/components/localization/Keyboard.jsx:224
+#: src/components/localization/Keyboard.jsx:217
 #, fuzzy
 #| msgid "Search for a language"
 msgid "Search keyboard layout"
@@ -1047,7 +1040,7 @@ msgstr "Pumili ng destinasyon"
 msgid "Select region"
 msgstr "Pumili ng destinasyon"
 
-#: src/components/localization/Keyboard.jsx:234
+#: src/components/localization/Keyboard.jsx:227
 msgid "Selected (top = current)"
 msgstr ""
 
@@ -1171,7 +1164,7 @@ msgstr "Matagumpay na na-install"
 msgid "Successfully unlocked $0."
 msgstr "Matagumpay na na-unlock ang $0."
 
-#: src/components/localization/Keyboard.jsx:90
+#: src/components/localization/Keyboard.jsx:91
 #, fuzzy
 #| msgid "Suggested languages"
 msgid "Suggested keyboards"
@@ -1226,13 +1219,13 @@ msgstr ""
 "Maaaring hindi ka makalilipat sa iba't-ibang keyboard layout habang tina-"
 "type ito."
 
-#: src/components/localization/Keyboard.jsx:263
+#: src/components/localization/Keyboard.jsx:256
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:316
+#: src/components/localization/Keyboard.jsx:309
 msgid ""
 "The selected layout does not support ASCII input. Please select a different "
 "layout to proceed."
@@ -1269,8 +1262,8 @@ msgstr "Maaaring abutin ito ng ilang saglit"
 msgid "Time"
 msgstr ""
 
-#: src/components/datetime/Timezone.jsx:142
 #: src/components/review/ReviewConfiguration.jsx:199
+#: src/components/datetime/Timezone.jsx:142
 #, fuzzy
 #| msgid "%s timezone"
 msgid "Timezone"
@@ -1321,7 +1314,7 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "I-unlock ang mga naka-encrypt na device"
 
-#: src/components/localization/Keyboard.jsx:336
+#: src/components/localization/Keyboard.jsx:329
 msgid "Unusable layout"
 msgstr ""
 
@@ -1418,9 +1411,9 @@ msgstr "kumpletong hakbang"
 msgid "current step"
 msgstr "kasalukuyang hakbang"
 
+#: src/components/review/StorageReview.jsx:170
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:388
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:401
-#: src/components/review/StorageReview.jsx:170
 msgid "delete"
 msgstr "burahin"
 
@@ -1468,6 +1461,13 @@ msgstr "paliitin sa $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:382
 msgid "undo"
 msgstr "i-undo"
+
+#, fuzzy
+#~| msgid "More than one layout detected. Remove additional layouts to proceed"
+#~ msgid "No keyboard layout detected. Add at least one layout to proceed"
+#~ msgstr ""
+#~ "Nakakita ng higit sa isang layout. Mangyaring tanggalin ang mga sobrang "
+#~ "layout para magpatuloy"
 
 #~ msgid "This account will have administration privilege with sudo."
 #~ msgstr ""

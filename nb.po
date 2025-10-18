@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-17 03:25+0000\n"
+"POT-Creation-Date: 2025-10-18 03:19+0000\n"
 "PO-Revision-Date: 2025-04-15 00:02+0000\n"
 "Last-Translator: paddis paddis <turtle@turtle.garden>\n"
 "Language-Team: Norwegian Bokmål <https://translate.fedoraproject.org/"
@@ -35,9 +35,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:363
 #: src/components/storage/installation-method/InstallationDestination.jsx:200
 #: src/components/storage/installation-method/InstallationDestination.jsx:294
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:363
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -62,7 +62,7 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:337
+#: src/components/localization/Keyboard.jsx:330
 msgid "$0 layouts detected"
 msgstr "$0 oppsett oppdaget"
 
@@ -99,8 +99,8 @@ msgstr "Om"
 msgid "Account"
 msgstr "Konto"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:152
 #: src/components/review/StorageReview.jsx:247
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:152
 msgid "Actions"
 msgstr "Handlinger"
 
@@ -185,12 +185,13 @@ msgstr ""
 "kun for prøving og utvikling og er villig til å rapportere noen som helst "
 "feil som oppstår i programvaren for å forbedre dette verket."
 
+#: src/components/localization/Keyboard.jsx:274
+#: src/components/review/Hostname.jsx:139
 #: src/components/datetime/CustomNTPModal.jsx:251
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:281
-#: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
+#: src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "Avbryt"
 
@@ -212,9 +213,9 @@ msgstr "Endre vertsnavn"
 msgid "Change partition layout"
 msgstr "Endre destinasjon"
 
-#: src/components/localization/Keyboard.jsx:215
-#: src/components/localization/Keyboard.jsx:349
-#: src/components/localization/Keyboard.jsx:404
+#: src/components/localization/Keyboard.jsx:208
+#: src/components/localization/Keyboard.jsx:342
+#: src/components/localization/Keyboard.jsx:410
 msgid "Change system keyboard layout"
 msgstr "Endre systemtastaturoppsett"
 
@@ -241,8 +242,8 @@ msgstr "Rens søksinnmatning"
 msgid "Click \"$0\" to open Bugzilla in a new window."
 msgstr ""
 
-#: src/components/storage/installation-method/EncryptedDevices.jsx:193
 #: src/components/storage/installation-method/InstallationDestination.jsx:398
+#: src/components/storage/installation-method/EncryptedDevices.jsx:193
 msgid "Close"
 msgstr "Lukk"
 
@@ -283,8 +284,8 @@ msgstr "Konfigurer lagring"
 msgid "Configure storage again"
 msgstr "Konfigurer lagring igjen"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:133
 #: src/components/users/Accounts.jsx:153 src/components/users/Accounts.jsx:309
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:133
 msgid "Confirm passphrase"
 msgstr "Bekreft passfrase"
 
@@ -320,8 +321,8 @@ msgstr "Egendefinert"
 msgid "Date"
 msgstr ""
 
-#: src/components/datetime/DateAndTime.jsx:163
 #: src/components/datetime/index.js:30
+#: src/components/datetime/DateAndTime.jsx:163
 msgid "Date and time"
 msgstr ""
 
@@ -341,8 +342,8 @@ msgstr "Destinasjonen er kryptert"
 msgid "Detected valid storage layout:"
 msgstr "Oppdaget gyldig lagringsoppsett:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:633
 #: src/components/review/StorageReview.jsx:245
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:633
 msgid "Device"
 msgstr "Enhet"
 
@@ -387,7 +388,7 @@ msgstr "Avslutt til live-skrivebord"
 msgid "Extended partition"
 msgstr "Utvidet partisjon"
 
-#: src/components/localization/Keyboard.jsx:204
+#: src/components/localization/Keyboard.jsx:197
 #, fuzzy
 #| msgid "Failed to save storage configuration..."
 msgid "Failed to save layouts"
@@ -409,7 +410,7 @@ msgstr ""
 "Sluttføring: Systemoppsettet er fullført. Det kan ta en stund å sluttføre "
 "installasjonen."
 
-#: src/components/localization/Keyboard.jsx:220
+#: src/components/localization/Keyboard.jsx:213
 #, fuzzy
 #| msgctxt "GUI|Keyboard Layout"
 #| msgid "_Add layout"
@@ -501,8 +502,8 @@ msgstr "I gang"
 msgid "Initializing..."
 msgstr "Starter…"
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:32
 #: src/components/storage/scenarios/use-free-space/index.js:39
+#: src/components/storage/scenarios/use-configured-storage/index.js:32
 msgid "Install"
 msgstr "Installer"
 
@@ -566,7 +567,7 @@ msgstr ""
 "Behold nåværende diskoppsett og bruk tilgjengelig lagringsplass for å "
 "dobbeltoppstarte med et annet operativsystem."
 
-#: src/components/localization/InstallationLanguage.jsx:250
+#: src/components/localization/InstallationLanguage.jsx:251
 msgid "Keyboard"
 msgstr "Tastatur"
 
@@ -574,7 +575,7 @@ msgstr "Tastatur"
 msgid "Keyboard layout during boot"
 msgstr "Tastaturoppsett under oppstart"
 
-#: src/components/localization/InstallationLanguage.jsx:234
+#: src/components/localization/InstallationLanguage.jsx:235
 #: src/components/review/ReviewConfiguration.jsx:192
 msgid "Language"
 msgstr "Språk"
@@ -602,8 +603,8 @@ msgid ""
 "Attachments on Bugzilla issues are marked private by default."
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:116
-#: src/components/localization/Keyboard.jsx:120
+#: src/components/localization/Keyboard.jsx:117
+#: src/components/localization/Keyboard.jsx:121
 msgid "Make current"
 msgstr ""
 
@@ -637,13 +638,13 @@ msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 "Gjenformateringsvalgene for forelderenheten og barneenheten samsvarer ikke."
 
-#: src/components/localization/Keyboard.jsx:310
+#: src/components/localization/Keyboard.jsx:303
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 "Mer enn ett oppsett oppdaget. Fjern ytterligere oppsett for å fortsette"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:632
 #: src/components/review/StorageReview.jsx:249
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:632
 msgid "Mount point"
 msgstr "Monteringspunkt"
 
@@ -652,13 +653,13 @@ msgstr "Monteringspunkt"
 msgid "Mount point assignment"
 msgstr "Monteringspunkttildeling"
 
-#: src/components/localization/Keyboard.jsx:138
-#: src/components/localization/Keyboard.jsx:142
+#: src/components/localization/Keyboard.jsx:139
+#: src/components/localization/Keyboard.jsx:143
 msgid "Move down"
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:127
-#: src/components/localization/Keyboard.jsx:131
+#: src/components/localization/Keyboard.jsx:128
+#: src/components/localization/Keyboard.jsx:132
 msgid "Move up"
 msgstr ""
 
@@ -702,8 +703,8 @@ msgstr ""
 msgid "Next"
 msgstr "Neste"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:154
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:637
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:154
 msgid "No devices"
 msgstr "Ingen enheter"
 
@@ -715,14 +716,7 @@ msgstr "Ingen tilgjengelige disker"
 msgid "No disks selected"
 msgstr "Ingen disker valgt"
 
-#: src/components/localization/Keyboard.jsx:371
-#, fuzzy
-#| msgid "More than one layout detected. Remove additional layouts to proceed"
-msgid "No keyboard layout detected. Add at least one layout to proceed"
-msgstr ""
-"Mer enn ett oppsett oppdaget. Fjern ytterligere oppsett for å fortsette"
-
-#: src/components/localization/Keyboard.jsx:241
+#: src/components/localization/Keyboard.jsx:234
 #, fuzzy
 #| msgid "$0 layouts detected"
 msgid "No layouts selected yet"
@@ -771,7 +765,7 @@ msgstr "Operativsystem"
 msgid "Options"
 msgstr "_Brukervalg"
 
-#: src/components/localization/Keyboard.jsx:90
+#: src/components/localization/Keyboard.jsx:91
 #, fuzzy
 #| msgid "Keyboard"
 msgid "Other keyboards"
@@ -781,10 +775,10 @@ msgstr "Tastatur"
 msgid "Partitions (advanced)"
 msgstr "Partisjoner (avansert)"
 
+#: src/components/users/Accounts.jsx:150 src/components/users/Accounts.jsx:305
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:130
 #: src/components/storage/installation-method/EncryptedDevices.jsx:162
 #: src/components/storage/installation-method/EncryptedDevices.jsx:169
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:130
-#: src/components/users/Accounts.jsx:150 src/components/users/Accounts.jsx:305
 msgid "Passphrase"
 msgstr "Passfrase"
 
@@ -916,10 +910,10 @@ msgstr "Gjenformater"
 msgid "Reinstall Fedora"
 msgstr "Installer Fedora på nytt"
 
+#: src/components/localization/Keyboard.jsx:150
+#: src/components/localization/Keyboard.jsx:154
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:445
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:635
-#: src/components/localization/Keyboard.jsx:149
-#: src/components/localization/Keyboard.jsx:153
 msgid "Remove"
 msgstr "Slett"
 
@@ -1014,9 +1008,9 @@ msgstr "Root-konto er slått av."
 msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
 
-#: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:278
+#: src/components/localization/Keyboard.jsx:271
 #: src/components/review/Hostname.jsx:137
+#: src/components/datetime/CustomNTPModal.jsx:248
 msgid "Save"
 msgstr "Lagre"
 
@@ -1028,7 +1022,7 @@ msgstr "Skanner QR-koden med telefonen din eller besøk:"
 msgid "Search for a language"
 msgstr "Søk etter et språk"
 
-#: src/components/localization/Keyboard.jsx:224
+#: src/components/localization/Keyboard.jsx:217
 #, fuzzy
 #| msgid "Change system keyboard layout"
 msgid "Search keyboard layout"
@@ -1067,7 +1061,7 @@ msgstr "Velg destinasjon"
 msgid "Select region"
 msgstr "På nettve_rket:"
 
-#: src/components/localization/Keyboard.jsx:234
+#: src/components/localization/Keyboard.jsx:227
 msgid "Selected (top = current)"
 msgstr ""
 
@@ -1197,7 +1191,7 @@ msgstr "Installasjon lyktes!"
 msgid "Successfully unlocked $0."
 msgstr "Lyktes i å låse opp $0."
 
-#: src/components/localization/Keyboard.jsx:90
+#: src/components/localization/Keyboard.jsx:91
 #, fuzzy
 #| msgid "Suggested languages"
 msgid "Suggested keyboards"
@@ -1258,13 +1252,13 @@ msgstr ""
 "(disse tegnene er mest sannsynlig æ, ø eller å). Det kan hende at du ikke "
 "kan bytte tastaturoppsett når du skriver den inn."
 
-#: src/components/localization/Keyboard.jsx:263
+#: src/components/localization/Keyboard.jsx:256
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:316
+#: src/components/localization/Keyboard.jsx:309
 msgid ""
 "The selected layout does not support ASCII input. Please select a different "
 "layout to proceed."
@@ -1304,8 +1298,8 @@ msgstr "Dette kan ta en stund"
 msgid "Time"
 msgstr ""
 
-#: src/components/datetime/Timezone.jsx:142
 #: src/components/review/ReviewConfiguration.jsx:199
+#: src/components/datetime/Timezone.jsx:142
 #, fuzzy
 #| msgid "%s timezone"
 msgid "Timezone"
@@ -1356,7 +1350,7 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "Lås opp krypterte enheter"
 
-#: src/components/localization/Keyboard.jsx:336
+#: src/components/localization/Keyboard.jsx:329
 msgid "Unusable layout"
 msgstr "Ubrukelig oppsett"
 
@@ -1455,9 +1449,9 @@ msgstr "fullført trinn"
 msgid "current step"
 msgstr "nåværende trinn"
 
+#: src/components/review/StorageReview.jsx:170
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:388
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:401
-#: src/components/review/StorageReview.jsx:170
 msgid "delete"
 msgstr "slett"
 
@@ -1505,6 +1499,12 @@ msgstr "krymp til $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:382
 msgid "undo"
 msgstr "angre"
+
+#, fuzzy
+#~| msgid "More than one layout detected. Remove additional layouts to proceed"
+#~ msgid "No keyboard layout detected. Add at least one layout to proceed"
+#~ msgstr ""
+#~ "Mer enn ett oppsett oppdaget. Fjern ytterligere oppsett for å fortsette"
 
 #~ msgid "This account will have administration privilege with sudo."
 #~ msgstr "Denne kontoen vil ha administrasjonstillatelse med sudo."

@@ -38,7 +38,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-17 03:25+0000\n"
+"POT-Creation-Date: 2025-10-18 03:19+0000\n"
 "PO-Revision-Date: 2025-10-11 03:18+0000\n"
 "Last-Translator: Hugo Costa <hugo.a.costa@outlook.pt>\n"
 "Language-Team: Portuguese <https://translate.fedoraproject.org/projects/"
@@ -55,9 +55,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:363
 #: src/components/storage/installation-method/InstallationDestination.jsx:200
 #: src/components/storage/installation-method/InstallationDestination.jsx:294
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:363
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -82,7 +82,7 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr "São necessários $0, mas apenas $1 estão disponíveis."
 
-#: src/components/localization/Keyboard.jsx:337
+#: src/components/localization/Keyboard.jsx:330
 msgid "$0 layouts detected"
 msgstr "$0 esquemas detetados"
 
@@ -123,8 +123,8 @@ msgstr "Sobre"
 msgid "Account"
 msgstr "Conta"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:152
 #: src/components/review/StorageReview.jsx:247
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:152
 msgid "Actions"
 msgstr "Ação"
 
@@ -215,12 +215,13 @@ msgstr ""
 "teste e desenvolvimento e que está disposto a relatar quaisquer erros ou "
 "problemas para melhorar este trabalho."
 
+#: src/components/localization/Keyboard.jsx:274
+#: src/components/review/Hostname.jsx:139
 #: src/components/datetime/CustomNTPModal.jsx:251
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:281
-#: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
+#: src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -240,9 +241,9 @@ msgstr "Alterar o nome de anfitrião"
 msgid "Change partition layout"
 msgstr "Alterar o esquema de partições"
 
-#: src/components/localization/Keyboard.jsx:215
-#: src/components/localization/Keyboard.jsx:349
-#: src/components/localization/Keyboard.jsx:404
+#: src/components/localization/Keyboard.jsx:208
+#: src/components/localization/Keyboard.jsx:342
+#: src/components/localization/Keyboard.jsx:410
 msgid "Change system keyboard layout"
 msgstr "Alterar o esquema de teclado do sistema"
 
@@ -267,8 +268,8 @@ msgstr "Limpar pesquisa"
 msgid "Click \"$0\" to open Bugzilla in a new window."
 msgstr "Clique em \"$0\" para abrir o Bugzilla numa nova janela."
 
-#: src/components/storage/installation-method/EncryptedDevices.jsx:193
 #: src/components/storage/installation-method/InstallationDestination.jsx:398
+#: src/components/storage/installation-method/EncryptedDevices.jsx:193
 msgid "Close"
 msgstr "Fechar"
 
@@ -303,8 +304,8 @@ msgstr "Configurar o armazenamento"
 msgid "Configure storage again"
 msgstr "Configurar o armazenamento novamente"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:133
 #: src/components/users/Accounts.jsx:153 src/components/users/Accounts.jsx:309
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:133
 msgid "Confirm passphrase"
 msgstr "Confirmar frase-passe"
 
@@ -340,8 +341,8 @@ msgstr "Personalizar"
 msgid "Date"
 msgstr "Data"
 
-#: src/components/datetime/DateAndTime.jsx:163
 #: src/components/datetime/index.js:30
+#: src/components/datetime/DateAndTime.jsx:163
 msgid "Date and time"
 msgstr "Data e hora"
 
@@ -361,8 +362,8 @@ msgstr "Destino está criptografado"
 msgid "Detected valid storage layout:"
 msgstr "Esquema de armazenamento válido detetado:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:633
 #: src/components/review/StorageReview.jsx:245
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:633
 msgid "Device"
 msgstr "Dispositivo"
 
@@ -407,7 +408,7 @@ msgstr "Sair para a área de trabalho"
 msgid "Extended partition"
 msgstr "Partição estendida"
 
-#: src/components/localization/Keyboard.jsx:204
+#: src/components/localization/Keyboard.jsx:197
 #, fuzzy
 #| msgid "Failed to save storage configuration"
 msgid "Failed to save layouts"
@@ -429,7 +430,7 @@ msgstr ""
 "A finalizar: A configuração do sistema está completa. A finalização da "
 "instalação pode demorar alguns momentos."
 
-#: src/components/localization/Keyboard.jsx:220
+#: src/components/localization/Keyboard.jsx:213
 #, fuzzy
 #| msgctxt "GUI|Keyboard Layout"
 #| msgid "_Add layout"
@@ -523,8 +524,8 @@ msgstr "Em progresso"
 msgid "Initializing..."
 msgstr "A instalar..."
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:32
 #: src/components/storage/scenarios/use-free-space/index.js:39
+#: src/components/storage/scenarios/use-configured-storage/index.js:32
 msgid "Install"
 msgstr "Instalar"
 
@@ -584,7 +585,7 @@ msgstr ""
 "Manter o esquema de disco atual e usar o espaço disponível para fazer dual-"
 "boot com outro sistema operativo."
 
-#: src/components/localization/InstallationLanguage.jsx:250
+#: src/components/localization/InstallationLanguage.jsx:251
 msgid "Keyboard"
 msgstr "Teclado"
 
@@ -592,7 +593,7 @@ msgstr "Teclado"
 msgid "Keyboard layout during boot"
 msgstr "Esquema de teclado durante o arranque"
 
-#: src/components/localization/InstallationLanguage.jsx:234
+#: src/components/localization/InstallationLanguage.jsx:235
 #: src/components/review/ReviewConfiguration.jsx:192
 msgid "Language"
 msgstr "Língua"
@@ -623,8 +624,8 @@ msgstr ""
 "de utilizador. Os anexos nos pedidos do Bugzilla são marcados como privados "
 "por defeito."
 
-#: src/components/localization/Keyboard.jsx:116
-#: src/components/localization/Keyboard.jsx:120
+#: src/components/localization/Keyboard.jsx:117
+#: src/components/localization/Keyboard.jsx:121
 msgid "Make current"
 msgstr ""
 
@@ -658,13 +659,13 @@ msgstr ""
 "Incompatibilidade entre a seleção de formatação do dispositivo principal e "
 "do dispositivo secundário."
 
-#: src/components/localization/Keyboard.jsx:310
+#: src/components/localization/Keyboard.jsx:303
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 "Mais de um esquema detetado. Remova os esquemas adicionais para continuar"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:632
 #: src/components/review/StorageReview.jsx:249
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:632
 msgid "Mount point"
 msgstr "Ponto de Montagem"
 
@@ -673,13 +674,13 @@ msgstr "Ponto de Montagem"
 msgid "Mount point assignment"
 msgstr "Atribuição do ponto de montagem"
 
-#: src/components/localization/Keyboard.jsx:138
-#: src/components/localization/Keyboard.jsx:142
+#: src/components/localization/Keyboard.jsx:139
+#: src/components/localization/Keyboard.jsx:143
 msgid "Move down"
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:127
-#: src/components/localization/Keyboard.jsx:131
+#: src/components/localization/Keyboard.jsx:128
+#: src/components/localization/Keyboard.jsx:132
 msgid "Move up"
 msgstr ""
 
@@ -719,8 +720,8 @@ msgstr "Rede indisponível. Configure a rede para reportar o problema."
 msgid "Next"
 msgstr "Próximo"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:154
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:637
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:154
 msgid "No devices"
 msgstr "Sem dispositivos"
 
@@ -732,14 +733,7 @@ msgstr "Sem disco disponível"
 msgid "No disks selected"
 msgstr "Nenhum disco selecionado"
 
-#: src/components/localization/Keyboard.jsx:371
-#, fuzzy
-#| msgid "More than one layout detected. Remove additional layouts to proceed"
-msgid "No keyboard layout detected. Add at least one layout to proceed"
-msgstr ""
-"Mais de um esquema detetado. Remova os esquemas adicionais para continuar"
-
-#: src/components/localization/Keyboard.jsx:241
+#: src/components/localization/Keyboard.jsx:234
 #, fuzzy
 #| msgid "$0 layouts detected"
 msgid "No layouts selected yet"
@@ -783,7 +777,7 @@ msgstr "Sistema operativo"
 msgid "Options"
 msgstr "Opções"
 
-#: src/components/localization/Keyboard.jsx:90
+#: src/components/localization/Keyboard.jsx:91
 msgid "Other keyboards"
 msgstr "Outros teclados"
 
@@ -791,10 +785,10 @@ msgstr "Outros teclados"
 msgid "Partitions (advanced)"
 msgstr "Partições (avançado)"
 
+#: src/components/users/Accounts.jsx:150 src/components/users/Accounts.jsx:305
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:130
 #: src/components/storage/installation-method/EncryptedDevices.jsx:162
 #: src/components/storage/installation-method/EncryptedDevices.jsx:169
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:130
-#: src/components/users/Accounts.jsx:150 src/components/users/Accounts.jsx:305
 msgid "Passphrase"
 msgstr "Frase-passe"
 
@@ -924,10 +918,10 @@ msgstr "Reformatar"
 msgid "Reinstall Fedora"
 msgstr "Reinstalar o Fedora"
 
+#: src/components/localization/Keyboard.jsx:150
+#: src/components/localization/Keyboard.jsx:154
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:445
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:635
-#: src/components/localization/Keyboard.jsx:149
-#: src/components/localization/Keyboard.jsx:153
 msgid "Remove"
 msgstr "Remover"
 
@@ -1019,9 +1013,9 @@ msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
 "A conta root está ativada, mas nenhuma conta de utilizador foi configurada"
 
-#: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:278
+#: src/components/localization/Keyboard.jsx:271
 #: src/components/review/Hostname.jsx:137
+#: src/components/datetime/CustomNTPModal.jsx:248
 msgid "Save"
 msgstr "Gravar"
 
@@ -1033,7 +1027,7 @@ msgstr "Digitalize o código QR com o seu telemóvel ou visite:"
 msgid "Search for a language"
 msgstr "Procurar por um idioma"
 
-#: src/components/localization/Keyboard.jsx:224
+#: src/components/localization/Keyboard.jsx:217
 msgid "Search keyboard layout"
 msgstr "Esquema do teclado de pesquisa"
 
@@ -1065,7 +1059,7 @@ msgstr "Selecione o destino"
 msgid "Select region"
 msgstr "Selecionar região"
 
-#: src/components/localization/Keyboard.jsx:234
+#: src/components/localization/Keyboard.jsx:227
 #, fuzzy
 #| msgid "Selected Layouts"
 msgid "Selected (top = current)"
@@ -1189,7 +1183,7 @@ msgstr "Instalado com sucesso"
 msgid "Successfully unlocked $0."
 msgstr "Desbloqueio bem sucedido $0."
 
-#: src/components/localization/Keyboard.jsx:90
+#: src/components/localization/Keyboard.jsx:91
 msgid "Suggested keyboards"
 msgstr "Teclados sugeridos"
 
@@ -1243,13 +1237,13 @@ msgstr ""
 "A frase-passe que forneceu contém caracteres não ASCII. Pode não ser "
 "possível alternar entre os esquemas de teclado ao digitá-la."
 
-#: src/components/localization/Keyboard.jsx:263
+#: src/components/localization/Keyboard.jsx:256
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:316
+#: src/components/localization/Keyboard.jsx:309
 msgid ""
 "The selected layout does not support ASCII input. Please select a different "
 "layout to proceed."
@@ -1291,8 +1285,8 @@ msgstr "Isto vai demorar alguns momentos"
 msgid "Time"
 msgstr "Hora"
 
-#: src/components/datetime/Timezone.jsx:142
 #: src/components/review/ReviewConfiguration.jsx:199
+#: src/components/datetime/Timezone.jsx:142
 msgid "Timezone"
 msgstr "Fuso horário"
 
@@ -1341,7 +1335,7 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "Desbloquear dispositivos cifrados"
 
-#: src/components/localization/Keyboard.jsx:336
+#: src/components/localization/Keyboard.jsx:329
 msgid "Unusable layout"
 msgstr "Esquema inutilizável"
 
@@ -1440,9 +1434,9 @@ msgstr "passo concluído"
 msgid "current step"
 msgstr "passo atual"
 
+#: src/components/review/StorageReview.jsx:170
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:388
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:401
-#: src/components/review/StorageReview.jsx:170
 msgid "delete"
 msgstr "eliminar"
 
@@ -1490,6 +1484,12 @@ msgstr "diminuir para $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:382
 msgid "undo"
 msgstr "desfazer"
+
+#, fuzzy
+#~| msgid "More than one layout detected. Remove additional layouts to proceed"
+#~ msgid "No keyboard layout detected. Add at least one layout to proceed"
+#~ msgstr ""
+#~ "Mais de um esquema detetado. Remova os esquemas adicionais para continuar"
 
 #~ msgid "No user or root account has been configured"
 #~ msgstr "Nenhuma conta de utilizador ou root foi configurada"

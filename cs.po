@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-17 03:25+0000\n"
+"POT-Creation-Date: 2025-10-18 03:19+0000\n"
 "PO-Revision-Date: 2025-09-26 19:15+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -64,9 +64,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:363
 #: src/components/storage/installation-method/InstallationDestination.jsx:200
 #: src/components/storage/installation-method/InstallationDestination.jsx:294
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:363
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -91,7 +91,7 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr "Je zapotřebí $0, ale k dispozici je pouze $1."
 
-#: src/components/localization/Keyboard.jsx:337
+#: src/components/localization/Keyboard.jsx:330
 msgid "$0 layouts detected"
 msgstr "zjištěno $0 rozvržení"
 
@@ -130,8 +130,8 @@ msgstr "O aplikaci"
 msgid "Account"
 msgstr "Účet"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:152
 #: src/components/review/StorageReview.jsx:247
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:152
 msgid "Actions"
 msgstr "Akce"
 
@@ -219,12 +219,13 @@ msgstr ""
 "pouze pro testovací a vývojové účely a jste ochotni hlásit jakékoli chyby "
 "nebo problémy za účelem zlepšení tohoto díla."
 
+#: src/components/localization/Keyboard.jsx:274
+#: src/components/review/Hostname.jsx:139
 #: src/components/datetime/CustomNTPModal.jsx:251
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:281
-#: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
+#: src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "Zrušit"
 
@@ -244,9 +245,9 @@ msgstr "Změnit název stroje"
 msgid "Change partition layout"
 msgstr "Změnit rozvržení oddílů"
 
-#: src/components/localization/Keyboard.jsx:215
-#: src/components/localization/Keyboard.jsx:349
-#: src/components/localization/Keyboard.jsx:404
+#: src/components/localization/Keyboard.jsx:208
+#: src/components/localization/Keyboard.jsx:342
+#: src/components/localization/Keyboard.jsx:410
 msgid "Change system keyboard layout"
 msgstr "Změnit rozvržení systémové klávesnice"
 
@@ -270,8 +271,8 @@ msgstr "Vymazat vyhledávání"
 msgid "Click \"$0\" to open Bugzilla in a new window."
 msgstr "Kliknutím na „$0“ otevřete systém Bugzilla v novém okně."
 
-#: src/components/storage/installation-method/EncryptedDevices.jsx:193
 #: src/components/storage/installation-method/InstallationDestination.jsx:398
+#: src/components/storage/installation-method/EncryptedDevices.jsx:193
 msgid "Close"
 msgstr "Zavřít"
 
@@ -306,8 +307,8 @@ msgstr "Nastavení úložiště"
 msgid "Configure storage again"
 msgstr "Znovu nastavit úložiště"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:133
 #: src/components/users/Accounts.jsx:153 src/components/users/Accounts.jsx:309
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:133
 msgid "Confirm passphrase"
 msgstr "Zopakování heslové fráze"
 
@@ -343,8 +344,8 @@ msgstr "Uživatelsky určené"
 msgid "Date"
 msgstr "Datum"
 
-#: src/components/datetime/DateAndTime.jsx:163
 #: src/components/datetime/index.js:30
+#: src/components/datetime/DateAndTime.jsx:163
 msgid "Date and time"
 msgstr "Datum a čas"
 
@@ -364,8 +365,8 @@ msgstr "Cíl je šifrován"
 msgid "Detected valid storage layout:"
 msgstr "Nalezeno platné rozvržení úložiště:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:633
 #: src/components/review/StorageReview.jsx:245
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:633
 msgid "Device"
 msgstr "Zařízení"
 
@@ -410,7 +411,7 @@ msgstr "Ukončit a přejít do systému spuštěného přímo z instalačního m
 msgid "Extended partition"
 msgstr "Rozšířený oddíl"
 
-#: src/components/localization/Keyboard.jsx:204
+#: src/components/localization/Keyboard.jsx:197
 #, fuzzy
 #| msgid "Failed to save storage configuration"
 msgid "Failed to save layouts"
@@ -432,7 +433,7 @@ msgstr ""
 "Dokončování: Nastavování systému je hotové. Dokončení instalace může chvíli "
 "trvat."
 
-#: src/components/localization/Keyboard.jsx:220
+#: src/components/localization/Keyboard.jsx:213
 #, fuzzy
 #| msgctxt "GUI|Keyboard Layout"
 #| msgid "_Add layout"
@@ -526,8 +527,8 @@ msgstr "Probíhá"
 msgid "Initializing..."
 msgstr "Inicializace…"
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:32
 #: src/components/storage/scenarios/use-free-space/index.js:39
+#: src/components/storage/scenarios/use-configured-storage/index.js:32
 msgid "Install"
 msgstr "Nainstalovat"
 
@@ -586,7 +587,7 @@ msgstr ""
 "Ponechat stávající rozvržení jednotky a použít dostupný prostor pro "
 "alternativní zavádění vedle jiného operačního systému."
 
-#: src/components/localization/InstallationLanguage.jsx:250
+#: src/components/localization/InstallationLanguage.jsx:251
 msgid "Keyboard"
 msgstr "Klávesnice"
 
@@ -594,7 +595,7 @@ msgstr "Klávesnice"
 msgid "Keyboard layout during boot"
 msgstr "Rozvržení klávesnice v průběhu startu systému"
 
-#: src/components/localization/InstallationLanguage.jsx:234
+#: src/components/localization/InstallationLanguage.jsx:235
 #: src/components/review/ReviewConfiguration.jsx:192
 msgid "Language"
 msgstr "Jazyk"
@@ -625,8 +626,8 @@ msgstr ""
 "uživatelská jména. Přílohy u problémů v Bugzilla jsou ve výchozím nastavení "
 "označeny jako soukromé."
 
-#: src/components/localization/Keyboard.jsx:116
-#: src/components/localization/Keyboard.jsx:120
+#: src/components/localization/Keyboard.jsx:117
+#: src/components/localization/Keyboard.jsx:121
 msgid "Make current"
 msgstr ""
 
@@ -659,14 +660,14 @@ msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 "Neshoda mezi výběrem přeformátování u nadřazeného a podřízeného zařízení."
 
-#: src/components/localization/Keyboard.jsx:310
+#: src/components/localization/Keyboard.jsx:303
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 "Zjištěno více než jedno rozvržení klávesnice. Aby bylo možné pokračovat, "
 "odeberte nadbytečná rozvržení"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:632
 #: src/components/review/StorageReview.jsx:249
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:632
 msgid "Mount point"
 msgstr "Přípojný bod"
 
@@ -675,13 +676,13 @@ msgstr "Přípojný bod"
 msgid "Mount point assignment"
 msgstr "Přiřazení přípojného bodu"
 
-#: src/components/localization/Keyboard.jsx:138
-#: src/components/localization/Keyboard.jsx:142
+#: src/components/localization/Keyboard.jsx:139
+#: src/components/localization/Keyboard.jsx:143
 msgid "Move down"
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:127
-#: src/components/localization/Keyboard.jsx:131
+#: src/components/localization/Keyboard.jsx:128
+#: src/components/localization/Keyboard.jsx:132
 msgid "Move up"
 msgstr ""
 
@@ -721,8 +722,8 @@ msgstr "Síť není k dispozici. Aby bylo možné chybu nahlásit, nastavte sí�
 msgid "Next"
 msgstr "Další"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:154
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:637
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:154
 msgid "No devices"
 msgstr "Žádná zařízení"
 
@@ -734,15 +735,7 @@ msgstr "Nejsou k dispozici žádné disky"
 msgid "No disks selected"
 msgstr "Nevybrány žádné jednotky"
 
-#: src/components/localization/Keyboard.jsx:371
-#, fuzzy
-#| msgid "More than one layout detected. Remove additional layouts to proceed"
-msgid "No keyboard layout detected. Add at least one layout to proceed"
-msgstr ""
-"Zjištěno více než jedno rozvržení klávesnice. Aby bylo možné pokračovat, "
-"odeberte nadbytečná rozvržení"
-
-#: src/components/localization/Keyboard.jsx:241
+#: src/components/localization/Keyboard.jsx:234
 #, fuzzy
 #| msgid "$0 layouts detected"
 msgid "No layouts selected yet"
@@ -786,7 +779,7 @@ msgstr "Operační systém"
 msgid "Options"
 msgstr "Volby"
 
-#: src/components/localization/Keyboard.jsx:90
+#: src/components/localization/Keyboard.jsx:91
 msgid "Other keyboards"
 msgstr "Další klávesnice"
 
@@ -794,10 +787,10 @@ msgstr "Další klávesnice"
 msgid "Partitions (advanced)"
 msgstr "Rozdělení disku (pokročilé)"
 
+#: src/components/users/Accounts.jsx:150 src/components/users/Accounts.jsx:305
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:130
 #: src/components/storage/installation-method/EncryptedDevices.jsx:162
 #: src/components/storage/installation-method/EncryptedDevices.jsx:169
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:130
-#: src/components/users/Accounts.jsx:150 src/components/users/Accounts.jsx:305
 msgid "Passphrase"
 msgstr "Heslová fráze"
 
@@ -927,10 +920,10 @@ msgstr "Znovu vytvořit souborový systém"
 msgid "Reinstall Fedora"
 msgstr "Přeinstalovat Fedoru"
 
+#: src/components/localization/Keyboard.jsx:150
+#: src/components/localization/Keyboard.jsx:154
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:445
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:635
-#: src/components/localization/Keyboard.jsx:149
-#: src/components/localization/Keyboard.jsx:153
 msgid "Remove"
 msgstr "Odstranit"
 
@@ -1020,9 +1013,9 @@ msgstr "Účet správce (root) je povolený"
 msgid "Root account is enabled, but no user account has been configured"
 msgstr "Účet root je povolený, ale nebyl nastaven žádný uživatelský účet"
 
-#: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:278
+#: src/components/localization/Keyboard.jsx:271
 #: src/components/review/Hostname.jsx:137
+#: src/components/datetime/CustomNTPModal.jsx:248
 msgid "Save"
 msgstr "Uložit"
 
@@ -1034,7 +1027,7 @@ msgstr "Načtěte QR kód vaším telefonem nebo navštivte:"
 msgid "Search for a language"
 msgstr "Hledat jazyk"
 
-#: src/components/localization/Keyboard.jsx:224
+#: src/components/localization/Keyboard.jsx:217
 msgid "Search keyboard layout"
 msgstr "Rozvržení klávesnice vyhledávání"
 
@@ -1065,7 +1058,7 @@ msgstr "Vyberte cíl"
 msgid "Select region"
 msgstr "Vyberte oblast"
 
-#: src/components/localization/Keyboard.jsx:234
+#: src/components/localization/Keyboard.jsx:227
 #, fuzzy
 #| msgid "Selected Layouts"
 msgid "Selected (top = current)"
@@ -1186,7 +1179,7 @@ msgstr "Úspěšně nainstalováno"
 msgid "Successfully unlocked $0."
 msgstr "$0 úspěšně odemčeno."
 
-#: src/components/localization/Keyboard.jsx:90
+#: src/components/localization/Keyboard.jsx:91
 msgid "Suggested keyboards"
 msgstr "Navržené klávesnice"
 
@@ -1239,13 +1232,13 @@ msgstr ""
 "Pokud při jejím zadávání nebude možné přepnout na potřebné rozložení "
 "klávesnice, nebude možné ji napsat."
 
-#: src/components/localization/Keyboard.jsx:263
+#: src/components/localization/Keyboard.jsx:256
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:316
+#: src/components/localization/Keyboard.jsx:309
 msgid ""
 "The selected layout does not support ASCII input. Please select a different "
 "layout to proceed."
@@ -1286,8 +1279,8 @@ msgstr "Chvíli to potrvá"
 msgid "Time"
 msgstr "Čas"
 
-#: src/components/datetime/Timezone.jsx:142
 #: src/components/review/ReviewConfiguration.jsx:199
+#: src/components/datetime/Timezone.jsx:142
 msgid "Timezone"
 msgstr "Časové pásmo"
 
@@ -1336,7 +1329,7 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "Odemknout šifrovaná zařízení"
 
-#: src/components/localization/Keyboard.jsx:336
+#: src/components/localization/Keyboard.jsx:329
 msgid "Unusable layout"
 msgstr "Nepoužitelné rozvržení"
 
@@ -1434,9 +1427,9 @@ msgstr "dokončený krok"
 msgid "current step"
 msgstr "stávající krok"
 
+#: src/components/review/StorageReview.jsx:170
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:388
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:401
-#: src/components/review/StorageReview.jsx:170
 msgid "delete"
 msgstr "smazat"
 
@@ -1484,6 +1477,13 @@ msgstr "zmenšit na $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:382
 msgid "undo"
 msgstr "zpět"
+
+#, fuzzy
+#~| msgid "More than one layout detected. Remove additional layouts to proceed"
+#~ msgid "No keyboard layout detected. Add at least one layout to proceed"
+#~ msgstr ""
+#~ "Zjištěno více než jedno rozvržení klávesnice. Aby bylo možné pokračovat, "
+#~ "odeberte nadbytečná rozvržení"
 
 #, fuzzy
 #~| msgid "no NTP servers have been configured"
