@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-20 03:40+0000\n"
-"PO-Revision-Date: 2025-08-12 03:41+0000\n"
+"PO-Revision-Date: 2025-10-20 12:18+0000\n"
 "Last-Translator: naly zzwd <xeanhort007@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/ca/>\n"
@@ -38,7 +38,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:180
 #: src/components/storage/installation-method/InstallationDestination.jsx:301
@@ -69,7 +69,7 @@ msgstr ""
 
 #: src/components/review/ReviewConfiguration.jsx:118
 msgid "$0 is required, but only $1 is available."
-msgstr ""
+msgstr "Es requereix $0, però només hi ha $1 disponible."
 
 #: src/components/localization/Keyboard.jsx:330
 msgid "$0 layouts detected"
@@ -100,6 +100,8 @@ msgstr ""
 msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr ""
+"Un compte d'usuari estàndard amb accés d'administrador per fer canvis a tot "
+"el sistema."
 
 #: src/components/HeaderKebab.jsx:121
 msgid "About"
@@ -115,10 +117,8 @@ msgid "Actions"
 msgstr "Accions"
 
 #: src/components/datetime/CustomNTPModal.jsx:235
-#, fuzzy
-#| msgid "Add NTP server"
 msgid "Add another server..."
-msgstr "Afegeix un servidor NTP"
+msgstr "Afegeix un altre servidor..."
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:657
 msgid "Add mount"
@@ -176,12 +176,12 @@ msgstr ""
 
 #: src/components/datetime/DateAndTime.jsx:145
 msgid "Automatically set date and time, using time servers"
-msgstr ""
+msgstr "Estableix automàticament la data i l'hora mitjançant servidors de temps"
 
 #: src/components/datetime/Timezone.jsx:152
 #: src/components/datetime/Timezone.jsx:153
 msgid "Automatically set timezone"
-msgstr ""
+msgstr "Estableix la zona horària automàticament"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:209
 msgid "Available free space: $0. Installation requires: $1."
@@ -226,10 +226,8 @@ msgid "Change hostname"
 msgstr "Canvia el nom d'amfitrió"
 
 #: src/components/review/ReviewConfiguration.jsx:135
-#, fuzzy
-#| msgid "Change destination"
 msgid "Change partition layout"
-msgstr "Canvia destinació"
+msgstr "Canvia la disposició de la partició"
 
 #: src/components/localization/Keyboard.jsx:208
 #: src/components/localization/Keyboard.jsx:342
@@ -263,10 +261,8 @@ msgid "Close"
 msgstr "Tanca"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:173
-#, fuzzy
-#| msgid "Storage editor"
 msgid "Close storage editor"
-msgstr "Editor d'emmagatzematge"
+msgstr "Tanca l'editor d'emmagatzematge"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:293
 msgid ""
@@ -284,10 +280,8 @@ msgid "Configure NTP servers"
 msgstr "Configura els servidors NTP"
 
 #: src/components/datetime/CustomNTPModal.jsx:157
-#, fuzzy
-#| msgid "Configure NTP servers"
 msgid "Configure custom NTP servers"
-msgstr "Configura els servidors NTP"
+msgstr "Configurar els servidors NTP personalitzats"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:159
 msgid "Configure storage"
@@ -404,10 +398,8 @@ msgid "Extended partition"
 msgstr "Partició estesa"
 
 #: src/components/localization/Keyboard.jsx:197
-#, fuzzy
-#| msgid "Failed to save storage configuration"
 msgid "Failed to save layouts"
-msgstr "No s'ha pogut desar la configuració de l'emmagatzematge"
+msgstr "No s'ha pogut desar les disposicions"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:93
 msgid "Fedora linux requires at least $0 of disk space."
@@ -426,17 +418,16 @@ msgstr ""
 "instal·lació pot trigar uns moments."
 
 #: src/components/localization/Keyboard.jsx:213
-#, fuzzy
-#| msgctxt "GUI|Keyboard Layout"
-#| msgid "_Add layout"
 msgid "Find layout"
-msgstr "_Afegeix una disposició"
+msgstr "Cerca una disposició"
 
 #: src/components/users/Accounts.jsx:307
 msgid ""
 "For better security, avoid using the root account directly. Instead, use the "
 "local account above to manage the system."
 msgstr ""
+"Per a una millor seguretat, eviteu utilitzar directament el compte root. En "
+"comptes d'això, utilitzeu el compte local anterior per gestionar el sistema."
 
 #: src/components/users/Accounts.jsx:191
 msgid "Full name"
@@ -452,7 +443,7 @@ msgstr "Ajudeu-nos a solucionar el problema!"
 
 #: src/components/review/StorageReview.jsx:250
 msgid "Helper text"
-msgstr ""
+msgstr "Text d'ajuda"
 
 #: src/components/Password.jsx:240
 msgid "Hide confirmed password"
@@ -566,8 +557,6 @@ msgstr ""
 "existent en aquesta matriu s'ignorarà."
 
 #: src/components/datetime/CustomNTPModal.jsx:95
-#, fuzzy
-#| msgid "Invalid host name"
 msgid "Invalid hostname"
 msgstr "El nom d'amfitrió no és vàlid"
 
@@ -621,7 +610,7 @@ msgstr ""
 #: src/components/localization/Keyboard.jsx:117
 #: src/components/localization/Keyboard.jsx:121
 msgid "Make current"
-msgstr ""
+msgstr "Estableix com a actual"
 
 #: src/components/storage/mount-point-mapping/index.js:31
 msgid "Manual disk configuration"
@@ -636,9 +625,8 @@ msgid "May contain letters, numbers, and dashes."
 msgstr "Pot contenir lletres, números i guions."
 
 #: src/components/review/StorageReview.jsx:99
-#, fuzzy
 msgid "May need more free space"
-msgstr "S'està instal·lant programari"
+msgstr "Pot necessitar més espai lliure"
 
 #: src/components/Password.jsx:68
 msgid "Medium"
@@ -672,28 +660,24 @@ msgstr "Assignació del punt de muntatge"
 #: src/components/localization/Keyboard.jsx:139
 #: src/components/localization/Keyboard.jsx:143
 msgid "Move down"
-msgstr ""
+msgstr "Moure cap avall"
 
 #: src/components/localization/Keyboard.jsx:128
 #: src/components/localization/Keyboard.jsx:132
 msgid "Move up"
-msgstr ""
+msgstr "Moure cap a dalt"
 
 #: src/components/Password.jsx:43
 msgid "Must be at least $0 characters"
 msgstr "Ha de tenir com a mínim $0 caràcters"
 
 #: src/components/datetime/CustomNTPModal.jsx:160
-#, fuzzy
-#| msgid "NTP servers:"
 msgid "NTP Servers"
-msgstr "Servidors NTP:"
+msgstr "Servidors NTP"
 
 #: src/components/datetime/CustomNTPModal.jsx:208
-#, fuzzy
-#| msgid "DNS"
 msgid "NTS"
-msgstr "DNS"
+msgstr "NTS"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:149
 msgid "Name"
@@ -701,7 +685,7 @@ msgstr "Nom"
 
 #: src/components/review/StorageReview.jsx:97
 msgid "Needs at least $0"
-msgstr ""
+msgstr "Necessita com a mínim $0"
 
 #: src/components/Error.jsx:152
 msgid ""
@@ -734,20 +718,16 @@ msgid "No disks selected"
 msgstr "No s'ha seleccionat cap disc"
 
 #: src/components/localization/Keyboard.jsx:234
-#, fuzzy
-#| msgid "$0 layouts detected"
 msgid "No layouts selected yet"
-msgstr "$0 disposicions detectades"
+msgstr "Encara no s'ha seleccionat cap disposició"
 
 #: src/components/localization/Common.jsx:135
 msgid "No results found"
 msgstr "No s'han trobat resultats"
 
 #: src/components/review/ReviewConfiguration.jsx:116
-#, fuzzy
-#| msgid "Not enough free space on selected disks."
 msgid "Not enough available free space"
-msgstr "No hi ha prou espai lliure als discs seleccionats."
+msgstr "No hi ha prou espai lliure disponible"
 
 #: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:63
 msgid "Not enough free space on the selected disks."
@@ -947,10 +927,8 @@ msgstr ""
 "espai per a la instal·lació."
 
 #: src/components/datetime/CustomNTPModal.jsx:219
-#, fuzzy
-#| msgid "Remove NTP server"
 msgid "Remove server"
-msgstr "Suprimeix el servidor NTP"
+msgstr "Suprimeix el servidor"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:132
 msgid ""
@@ -1013,14 +991,13 @@ msgid "Review and install"
 msgstr "Revisar i instal·lar"
 
 #: src/components/review/ReviewConfiguration.jsx:86
-#, fuzzy
-#| msgid "Root account is disabled."
 msgid "Root account is enabled"
-msgstr "El compte de root està inhabilitat."
+msgstr "El compte root està habilitat"
 
 #: src/components/review/ReviewConfiguration.jsx:80
 msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
+"El compte root està habilitat, però no s'ha configurat cap compte d'usuari"
 
 #: src/components/localization/Keyboard.jsx:271
 #: src/components/review/Hostname.jsx:137
@@ -1057,27 +1034,20 @@ msgid "Select a device"
 msgstr "Seleccioneu un dispositiu"
 
 #: src/components/datetime/Timezone.jsx:188
-#, fuzzy
-#| msgid "Select"
 msgid "Select city"
-msgstr "Selecciona"
+msgstr "Selecciona la ciutat"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:373
 msgid "Select destination"
 msgstr "Seleccioneu la destinació"
 
 #: src/components/datetime/Timezone.jsx:169
-#, fuzzy
-#| msgctxt "GUI|Software Source"
-#| msgid "_On the network:"
 msgid "Select region"
-msgstr "_A la xarxa:"
+msgstr "Selecciona la regió"
 
 #: src/components/localization/Keyboard.jsx:227
-#, fuzzy
-#| msgid "Selected Layouts"
 msgid "Selected (top = current)"
-msgstr "Disposicions seleccionades"
+msgstr "Seleccionat (superior = actual)"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:123
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -1095,7 +1065,7 @@ msgstr "Servidors NTP:"
 
 #: src/components/datetime/CustomNTPModal.jsx:193
 msgid "Server is not reachable"
-msgstr ""
+msgstr "El servidor no és accessible"
 
 #: src/components/review/Hostname.jsx:99
 msgid "Set custom hostname"
@@ -1110,11 +1080,8 @@ msgid "Share disk with other operating systems: $0"
 msgstr "Comparteix el disc amb altres sistemes operatius: $0"
 
 #: src/components/datetime/DateAndTime.jsx:204
-#, fuzzy
-#| msgctxt "GUI|Date and Time"
-#| msgid "_AM/PM"
 msgid "Show AM/PM"
-msgstr "_AM/PM"
+msgstr "Mostra AM/PM"
 
 #: src/components/Password.jsx:240
 msgid "Show confirmed password"
@@ -1233,6 +1200,8 @@ msgid ""
 "The active keyboard layout in the compositor differs from the default layout "
 "selected for the target system."
 msgstr ""
+"La disposició del teclat activa al compositor és diferent de la disposició "
+"predeterminada seleccionada per al sistema destí."
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:57
 msgid ""
@@ -1263,12 +1232,16 @@ msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
 msgstr ""
+"La disposició de teclat predeterminada seleccionada no admet caràcters "
+"ASCII. Trieu una disposició compatible amb ASCII com a predeterminada."
 
 #: src/components/localization/Keyboard.jsx:309
 msgid ""
 "The selected layout does not support ASCII input. Please select a different "
 "layout to proceed."
 msgstr ""
+"La disposició seleccionada no admet l'entrada d'ASCII. Seleccioneu una altra "
+"disposició per continuar."
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid ""
@@ -1301,17 +1274,13 @@ msgid "This will take a few moments"
 msgstr "Això trigarà uns instants"
 
 #: src/components/datetime/DateAndTime.jsx:195
-#, fuzzy
-#| msgid "Timezone: %s\n"
 msgid "Time"
-msgstr "Zona horària: %s\n"
+msgstr "Hora"
 
 #: src/components/review/ReviewConfiguration.jsx:199
 #: src/components/datetime/Timezone.jsx:142
-#, fuzzy
-#| msgid "Timezone: %s\n"
 msgid "Timezone"
-msgstr "Zona horària: %s\n"
+msgstr "Zona horària"
 
 #: src/components/installation/InstallationProgress.jsx:172
 msgid "To begin using $0, reboot your system."
@@ -1375,10 +1344,8 @@ msgid "Use free space"
 msgstr "Usa l'espai lliure"
 
 #: src/components/users/Accounts.jsx:177
-#, fuzzy
-#| msgid "Create account"
 msgid "Use local account"
-msgstr "Crea un compte"
+msgstr "Utilitza un compte local"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:587
 msgid "Use the RAID device for automatic partitioning"
@@ -1438,10 +1405,13 @@ msgid ""
 "You have to enable the root account or create a local user account to "
 "proceed."
 msgstr ""
+"Heu d'habilitar el compte root o crear un compte d'usuari local per "
+"continuar."
 
 #: src/components/datetime/DateAndTime.jsx:154
 msgid "You must be connected to a network to enable automatic date and time."
 msgstr ""
+"Heu d'estar connectat a una xarxa per activar la data i l'hora automàtiques."
 
 #: src/components/AnacondaWizardFooter.jsx:134
 msgid "Your progress will not be saved."
