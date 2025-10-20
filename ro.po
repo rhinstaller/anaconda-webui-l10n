@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-20 03:40+0000\n"
-"PO-Revision-Date: 2025-10-18 03:20+0000\n"
+"PO-Revision-Date: 2025-10-20 12:18+0000\n"
 "Last-Translator: Petru Rebeja <petru@rebeja.eu>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/ro/>\n"
@@ -27,8 +27,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : "
+"(n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
 "X-Generator: Weblate 5.13.3\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:180
@@ -543,102 +543,103 @@ msgid ""
 "filesystem or format (e.g., LVM PV). Any existing partitions on this array "
 "will be ignored."
 msgstr ""
+"A fost detectată o configurație RAID invalidă. Dacă ați creat colecția RAID "
+"direct pe disk-uri, trebuie să creați un tabel de partiții pe colecție. Dacă "
+"ați creat colecția RAID peste partiții, colecția trebuie să conțină un "
+"singur sistem de fișiere (de ex. LVM PV). Toate partițiile existente pe "
+"această colecție vor fi ignorate."
 
 #: src/components/datetime/CustomNTPModal.jsx:95
-#, fuzzy
-#| msgid "Invalid host name"
 msgid "Invalid hostname"
-msgstr "Host name invalid"
+msgstr "Numele sistemului este invalid"
 
 #: src/components/storage/scenarios/use-free-space/index.js:40
 msgid ""
 "Keep current disk layout and use available space, to dual-boot with another "
 "OS."
 msgstr ""
+"Păstrează aranjamentul curent al disk-ului și utilizează spațiul disponibil "
+"(pentru dual-boot cu alt Sistem de Operare)."
 
 #: src/components/localization/InstallationLanguage.jsx:251
-#, fuzzy
-#| msgctxt "GUI|Spoke"
-#| msgid "_Keyboard"
 msgid "Keyboard"
-msgstr "_Tastatură"
+msgstr "Tastatură"
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:94
 msgid "Keyboard layout during boot"
-msgstr ""
+msgstr "Aranjament tastatură în timpul pornirii"
 
 #: src/components/localization/InstallationLanguage.jsx:235
 #: src/components/review/ReviewConfiguration.jsx:192
-#, fuzzy
 msgid "Language"
-msgstr "Limbi"
+msgstr "Limbă"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:107
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:229
-#, fuzzy
 msgid "Launch storage editor"
-msgstr "Instalare"
+msgstr "Pornește editorul spațiului de stocare"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:148
-#, fuzzy
-#| msgid "Action"
 msgid "Location"
-msgstr "Acțiune"
+msgstr "Amplasament"
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:159
-#, fuzzy
 msgid "Locked devices"
-msgstr "rescanează dispozitive"
+msgstr "Dispozitive blocate"
 
 #: src/components/Error.jsx:210
 msgid "Log in to Bugzilla, or create a new account."
-msgstr ""
+msgstr "Conectați-vă la Bugzilla sau creați un cont nou."
 
 #: src/components/Error.jsx:218
 msgid ""
 "Logs may contain sensitive information like IP addresses or usernames. "
 "Attachments on Bugzilla issues are marked private by default."
 msgstr ""
+"Jurnalele conțin date sensibile precum adrese IP sau nume de utilizatori. "
+"Atașamentele la incidentele Bugzilla sunt marcate implicit ca fiind date "
+"private."
 
 #: src/components/localization/Keyboard.jsx:117
 #: src/components/localization/Keyboard.jsx:121
 msgid "Make current"
-msgstr ""
+msgstr "Definește ca actual"
 
 #: src/components/storage/mount-point-mapping/index.js:31
-#, fuzzy
 msgid "Manual disk configuration"
-msgstr "Configurație dispozitive"
+msgstr "Configurare manuală disk-uri"
 
 #: src/components/storage/mount-point-mapping/index.js:32
-#, fuzzy
 msgid "Manual disk configuration: Mount point mapping"
-msgstr "Configurație dispozitive"
+msgstr "Configurare manuală disk-uri: Asociere puncte de montură"
 
 #: src/components/review/Hostname.jsx:123
 msgid "May contain letters, numbers, and dashes."
-msgstr ""
+msgstr "Poate conține litere, numere și cratime."
 
 #: src/components/review/StorageReview.jsx:99
-#, fuzzy
 msgid "May need more free space"
-msgstr "Se instalează software"
+msgstr "Poate necesita mai mult spațiu liber"
 
 #: src/components/Password.jsx:68
 msgid "Medium"
-msgstr ""
+msgstr "Mediu"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:335
 msgid "Minimum of $0 required"
-msgstr ""
+msgstr "Este necesar minim $0"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:140
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
+"Neconcordanță între dispozitivele părinte și copil selectate pentru "
+"reformatare."
 
 #: src/components/localization/Keyboard.jsx:303
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
+"Au fost detectate mai mult de un aranjament. Eliminați aranjamentele "
+"suplimentare pentru a continua"
 
 #: src/components/review/StorageReview.jsx:249
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:632
@@ -647,36 +648,30 @@ msgstr "Punct de montare"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:630
 #: src/components/storage/scenarios/mount-point-mapping/index.js:35
-#, fuzzy
 msgid "Mount point assignment"
-msgstr "Punct de montare"
+msgstr "Atribuirea punctelor de montură"
 
 #: src/components/localization/Keyboard.jsx:139
 #: src/components/localization/Keyboard.jsx:143
 msgid "Move down"
-msgstr ""
+msgstr "Mută în jos"
 
 #: src/components/localization/Keyboard.jsx:128
 #: src/components/localization/Keyboard.jsx:132
 msgid "Move up"
-msgstr ""
+msgstr "Mută în sus"
 
 #: src/components/Password.jsx:43
-#, fuzzy
 msgid "Must be at least $0 characters"
-msgstr "Parola trebuie să aibă cel puțin 6 caractere."
+msgstr "Trebuie să fie cel puțin $0 simboluri"
 
 #: src/components/datetime/CustomNTPModal.jsx:160
-#, fuzzy
-#| msgid "NTP servers:"
 msgid "NTP Servers"
-msgstr "Servere NTP:"
+msgstr "Servere NTP"
 
 #: src/components/datetime/CustomNTPModal.jsx:208
-#, fuzzy
-#| msgid "DNS"
 msgid "NTS"
-msgstr "DNS"
+msgstr "NTS"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:149
 msgid "Name"
@@ -684,58 +679,53 @@ msgstr "Nume"
 
 #: src/components/review/StorageReview.jsx:97
 msgid "Needs at least $0"
-msgstr ""
+msgstr "Necesită cel puțin $0"
 
 #: src/components/Error.jsx:152
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
 "the issue."
 msgstr ""
+"Rețeaua nu este disponibilă. Configurați rețeaua în meniul din bara de sus "
+"pentru a semnala incidentul."
 
 #: src/components/Error.jsx:153
 msgid "Network not available. Configure the network to report the issue."
 msgstr ""
+"Rețeaua nu este disponibilă. Configurați rețeaua pentru a semnala incidentul."
 
 #: src/components/AnacondaWizardFooter.jsx:97
 msgid "Next"
-msgstr ""
+msgstr "Următorul"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:637
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:154
-#, fuzzy
 msgid "No devices"
-msgstr "Adaugă dispozitiv"
+msgstr "Niciun dispozitiv"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:162
-#, fuzzy
-#| msgid "Unavailable"
 msgid "No disks available"
-msgstr "Indisponibil"
+msgstr "Niciun disk disponibil"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:344
 msgid "No disks selected"
 msgstr "Nu au fost selectate discuri"
 
 #: src/components/localization/Keyboard.jsx:234
-#, fuzzy
-#| msgid "$0 layouts detected"
 msgid "No layouts selected yet"
-msgstr "$0 aranjamente detectate"
+msgstr "Niciun aranjament selectat"
 
 #: src/components/localization/Common.jsx:135
 msgid "No results found"
-msgstr ""
+msgstr "Nu a fost găsit niciun rezultat"
 
 #: src/components/review/ReviewConfiguration.jsx:116
-#, fuzzy
-#| msgid "Not enough free space on selected disks."
 msgid "Not enough available free space"
-msgstr "Nu este destul spațiu liber pe discurile selectate."
+msgstr "Spațiu liber insuficient"
 
 #: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:63
-#, fuzzy
 msgid "Not enough free space on the selected disks."
-msgstr "Nu este destul spațiu liber pe discurile selectate."
+msgstr "Spațiu liber insuficient pe disk-urile selectate."
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:55
 #, fuzzy
@@ -744,7 +734,7 @@ msgstr "Nu este destul spațiu liber pe discurile selectate."
 
 #: src/components/review/StorageReview.jsx:391
 msgid "Note"
-msgstr ""
+msgstr "Remarcă"
 
 #: src/components/AnacondaHeader.jsx:84
 msgid ""
@@ -1050,6 +1040,8 @@ msgstr "Limbi"
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
+"Securizați-vă datele cu ajutorul criptării la nivel de disk. Se aplică doar "
+"pentru partițiile noi."
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:390
 #, fuzzy
