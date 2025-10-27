@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-27 03:42+0000\n"
-"PO-Revision-Date: 2025-10-24 18:00+0000\n"
+"PO-Revision-Date: 2025-10-28 12:42+0000\n"
 "Last-Translator: Petru Rebeja <petru@rebeja.eu>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/ro/>\n"
@@ -27,8 +27,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : "
+"(n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
 "X-Generator: Weblate 5.13.3\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:180
@@ -737,18 +737,17 @@ msgid ""
 "testing purposes only. Do NOT use this software for any critical work or for "
 "production environments."
 msgstr ""
+"Avertisment: Acesta este un software în etapa de pre-lansare și este "
+"destinat folosirii doar pentru dezvoltare și testare. NU utilizați acest "
+"software pentru activități critice sau în medii de producție."
 
 #: src/components/review/ReviewConfiguration.jsx:181
-#, fuzzy
 msgid "Operating system"
-msgstr "Se creează utilizatori"
+msgstr "Sistem de operare"
 
 #: src/components/datetime/CustomNTPModal.jsx:164
-#, fuzzy
-#| msgctxt "GUI|Keyboard Layout"
-#| msgid "_Options"
 msgid "Options"
-msgstr "_Opțiuni"
+msgstr "Opțiuni"
 
 #: src/components/localization/Keyboard.jsx:91
 msgid "Other keyboards"
@@ -1047,40 +1046,32 @@ msgid "Send us feedback on your installation"
 msgstr "Trimiteți feedback despre instalarea dumneavoastră"
 
 #: src/components/datetime/CustomNTPModal.jsx:163
-#, fuzzy
-#| msgid "NTP servers:"
 msgid "Server"
-msgstr "Servere NTP:"
+msgstr "Server"
 
 #: src/components/datetime/CustomNTPModal.jsx:193
 msgid "Server is not reachable"
-msgstr ""
+msgstr "Serverul nu este accesibil"
 
 #: src/components/review/Hostname.jsx:99
-#, fuzzy
-#| msgid "Set host name"
 msgid "Set custom hostname"
-msgstr "Setați host name"
+msgstr "Setați numele serverului"
 
 #: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:106
 msgid "Share disk with other operating systems"
-msgstr ""
+msgstr "Partajați disk-ul cu alte sisteme de operare"
 
 #: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:103
 msgid "Share disk with other operating systems: $0"
-msgstr ""
+msgstr "Partajați disk-ul cu alte sisteme de operare: $0"
 
 #: src/components/datetime/DateAndTime.jsx:204
-#, fuzzy
-#| msgctxt "GUI|Date and Time"
-#| msgid "_AM/PM"
 msgid "Show AM/PM"
-msgstr "_AM/PM"
+msgstr "Afișează AM/PM"
 
 #: src/components/Password.jsx:240
-#, fuzzy
 msgid "Show confirmed password"
-msgstr "_Confirmă parola"
+msgstr "Afișează confirmarea parolei"
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:178
 msgid "Show passphrase"
@@ -1191,40 +1182,48 @@ msgid ""
 "The active keyboard layout in the compositor differs from the default layout "
 "selected for the target system."
 msgstr ""
+"Aranjamentul activ al tastaturii în compozitor diferă de aranjamentul "
+"implicit selectat pentru sistemul destinație."
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:57
 msgid ""
 "The installation needs $0 of disk space; however, the capacity of the "
 "selected disks is only $1."
 msgstr ""
+"Instalarea necesită $0 spațiu-disk însă capacitatea diskurilor selectate "
+"este de doar $1."
 
 #: src/components/Error.jsx:287
-#, fuzzy
 msgid "The installer cannot continue due to a critical error."
-msgstr "Instalarea nu poate continua și sistemul va fi repornit"
+msgstr "Instalarea nu poate continua din cauza unei erori critice."
 
 #: src/components/Error.jsx:286
-#, fuzzy
 msgid "The installer cannot continue due to a critical error: $0"
-msgstr "Instalarea nu poate continua și sistemul va fi repornit"
+msgstr "Instalarea nu poate continua din cauza unei erori critice: $0"
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:50
 msgid ""
 "The passphrase you have provided contains non-ASCII characters. You may not "
 "be able to switch between keyboard layouts when typing it."
 msgstr ""
+"Parola introdusă conține simboluri non-ASCII. Este posibil să nu puteți "
+"schimba aranjamentul tastaturii când o veți introduce."
 
 #: src/components/localization/Keyboard.jsx:256
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
 msgstr ""
+"Aranjamentul selectat al tastaturii nu suportă simboluri ASCII. Vă rugăm să "
+"selectați un aranjament care suportă simbolurile ASCII ca implicit."
 
 #: src/components/localization/Keyboard.jsx:309
 msgid ""
 "The selected layout does not support ASCII input. Please select a different "
 "layout to proceed."
 msgstr ""
+"Aranjamentul selectat nu suportă introducere de simboluri ASCII. Vă rugăm să "
+"selectați alt aranjament pentru a continua."
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid ""
@@ -1232,6 +1231,10 @@ msgid ""
 "set up LVM and much more. It is meant to be used as an advanced utility and "
 "not intended to be used in a typical installation."
 msgstr ""
+"Editorul spațiului de stocare vă permite să redimensionați, eliminați și să "
+"creați partiții. Acesta poate configura LVM și multe altele. Editorul este "
+"destinat utilizării ca utilitar avansat și nu este destinat utilizării într-"
+"o instalare tipică."
 
 #: src/components/review/Hostname.jsx:63
 msgid "This hostname can't be submitted"
@@ -1399,56 +1402,46 @@ msgid "Your progress will not be saved."
 msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:186
-#, fuzzy
 msgid "completed step"
-msgstr "Gata!"
+msgstr "etapă finalizată"
 
 #: src/components/installation/InstallationProgress.jsx:191
 msgid "current step"
-msgstr ""
+msgstr "etapa curentă"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:388
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:401
 #: src/components/review/StorageReview.jsx:170
-#, fuzzy
-#| msgid "Delete"
 msgid "delete"
-msgstr "Șterge"
+msgstr "șterge"
 
 #: src/components/review/Hostname.jsx:89
 msgid "edit"
-msgstr ""
+msgstr "modifică"
 
 #: src/components/review/StorageReview.jsx:152
-#, fuzzy
-#| msgid "Encrypt"
 msgid "encrypt"
-msgstr "Criptare"
+msgstr "criptează"
 
 #: src/components/review/StorageReview.jsx:152
-#, fuzzy
-#| msgid "Encrypt"
 msgid "encrypted"
-msgstr "Criptare"
+msgstr "criptat"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:246
-#, fuzzy
-#| msgid "Standard Partition"
 msgid "extended partition"
-msgstr "Partiție standard"
+msgstr "partiție extinsă"
 
 #: src/components/review/StorageReview.jsx:116
 msgid "format as $0"
-msgstr ""
+msgstr "formatează ca $0"
 
 #: src/components/review/StorageReview.jsx:120
-#, fuzzy
 msgid "mount"
-msgstr "Adaugă aranjament"
+msgstr "montează"
 
 #: src/components/installation/InstallationProgress.jsx:180
 msgid "pending step"
-msgstr ""
+msgstr "etapă în așteptare"
 
 #: src/components/review/StorageReview.jsx:175
 msgid "resized from $0"
