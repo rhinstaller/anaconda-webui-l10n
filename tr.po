@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-03 03:42+0000\n"
+"POT-Creation-Date: 2025-12-04 03:44+0000\n"
 "PO-Revision-Date: 2025-10-18 03:20+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
@@ -72,9 +72,11 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr "$0 gerekli, ama yalnızca $1 var."
 
-#: src/components/localization/Keyboard.jsx:330
-msgid "$0 layouts detected"
-msgstr "$0 görünüm seçildi"
+#: src/components/storage/Common.jsx:58
+msgid "$0 warning"
+msgid_plural "$0 warnings"
+msgstr[0] ""
+msgstr[1] ""
 
 #: src/components/review/StorageReview.jsx:289
 msgid "$0 will be deleted"
@@ -206,7 +208,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:274
+#: src/components/localization/Keyboard.jsx:291
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "İptal"
@@ -227,9 +229,9 @@ msgstr "Ana makine adını değiştir"
 msgid "Change partition layout"
 msgstr "Bölüm düzenini değiştir"
 
-#: src/components/localization/Keyboard.jsx:208
-#: src/components/localization/Keyboard.jsx:342
-#: src/components/localization/Keyboard.jsx:410
+#: src/components/localization/Keyboard.jsx:225
+#: src/components/localization/Keyboard.jsx:328
+#: src/components/localization/Keyboard.jsx:386
 msgid "Change system keyboard layout"
 msgstr "Sistem klavye görünümünü değiştirin"
 
@@ -240,7 +242,7 @@ msgstr ""
 "Burada yapılan değişiklikler sistemi hemen etkileyecektir. 'Geri al' "
 "seçeneği yoktur."
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:54
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:51
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:438
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:444
 msgid "Checking storage configuration"
@@ -253,6 +255,10 @@ msgstr "Aramayı temizle"
 #: src/components/Error.jsx:207
 msgid "Click \"$0\" to open Bugzilla in a new window."
 msgstr "Bugzilla'yı yeni bir pencerede açmak için \"$0\" a tıklayın."
+
+#: src/components/storage/Common.jsx:38
+msgid "Click 'Next' again to proceed despite these warnings."
+msgstr ""
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:193
 #: src/components/storage/installation-method/InstallationDestination.jsx:398
@@ -289,7 +295,7 @@ msgstr "Depolamayı yapılandır"
 msgid "Configure storage again"
 msgstr "Depolamayı tekrar yapılandır"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:133
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:107
 #: src/components/users/Accounts.jsx:153 src/components/users/Accounts.jsx:309
 msgid "Confirm passphrase"
 msgstr "Parolayı onayla"
@@ -364,7 +370,7 @@ msgstr "Yinelenen bağlama noktası."
 msgid "Enable root account"
 msgstr "Kök hesabını etkinleştir"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:82
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:74
 msgid "Encrypt my data"
 msgstr "Verilerimi şifrele"
 
@@ -372,7 +378,7 @@ msgstr "Verilerimi şifrele"
 msgid "Encrypted"
 msgstr "Şifrelendi"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:143
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:117
 msgid "Encryption"
 msgstr "Şifreleme"
 
@@ -393,7 +399,7 @@ msgstr "Canlı masaüstüne çık"
 msgid "Extended partition"
 msgstr "Genişletilmiş bölüm"
 
-#: src/components/localization/Keyboard.jsx:197
+#: src/components/localization/Keyboard.jsx:214
 msgid "Failed to save layouts"
 msgstr "Düzenler kaydedilemedi"
 
@@ -413,7 +419,7 @@ msgstr ""
 "Sonlandırılıyor: Sistem yapılandırması tamamlandı. Kurulumun sonlandırılması "
 "birkaç dakika sürebilir."
 
-#: src/components/localization/Keyboard.jsx:213
+#: src/components/localization/Keyboard.jsx:230
 msgid "Find layout"
 msgstr "Düzen bul"
 
@@ -564,15 +570,15 @@ msgstr ""
 "Geçerli disk düzenini koru ve başka bir işletim sistemi ile çift önyükleme "
 "yapmak için kullanılabilir alanı kullan."
 
-#: src/components/localization/InstallationLanguage.jsx:251
+#: src/components/localization/InstallationLanguage.jsx:256
 msgid "Keyboard"
 msgstr "Klavye"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:94
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:86
 msgid "Keyboard layout during boot"
 msgstr "Önyükleme sırasında klavye görünümü"
 
-#: src/components/localization/InstallationLanguage.jsx:235
+#: src/components/localization/InstallationLanguage.jsx:240
 #: src/components/review/ReviewConfiguration.jsx:192
 msgid "Language"
 msgstr "Dil"
@@ -603,8 +609,8 @@ msgstr ""
 "Bugzilla sorunlarındaki sabitlemeler, varsayılan olarak gizli olarak "
 "işaretlenir."
 
-#: src/components/localization/Keyboard.jsx:117
-#: src/components/localization/Keyboard.jsx:121
+#: src/components/localization/Keyboard.jsx:134
+#: src/components/localization/Keyboard.jsx:138
 msgid "Make current"
 msgstr "Geçerli yap"
 
@@ -637,7 +643,7 @@ msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 "Üst aygıt ve alt aygıt yeniden biçimlendirme seçimi arasında uyumsuzluk."
 
-#: src/components/localization/Keyboard.jsx:303
+#: src/components/localization/Keyboard.jsx:304
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 "Birden fazla görünüm tespit edildi. Devam etmek için ek görünümleri kaldırın"
@@ -652,13 +658,13 @@ msgstr "Bağlama noktası"
 msgid "Mount point assignment"
 msgstr "Bağlama noktası ataması"
 
-#: src/components/localization/Keyboard.jsx:139
-#: src/components/localization/Keyboard.jsx:143
+#: src/components/localization/Keyboard.jsx:156
+#: src/components/localization/Keyboard.jsx:160
 msgid "Move down"
 msgstr "Aşağı taşı"
 
-#: src/components/localization/Keyboard.jsx:128
-#: src/components/localization/Keyboard.jsx:132
+#: src/components/localization/Keyboard.jsx:145
+#: src/components/localization/Keyboard.jsx:149
 msgid "Move up"
 msgstr "Yukarı taşı"
 
@@ -711,13 +717,19 @@ msgstr "Kullanılabilir disk yok"
 msgid "No disks selected"
 msgstr "Hiçbir disk seçilmedi"
 
-#: src/components/localization/Keyboard.jsx:234
+#: src/components/localization/Keyboard.jsx:251
 msgid "No layouts selected yet"
 msgstr "Henüz düzen seçilmedi"
 
 #: src/components/localization/Common.jsx:138
 msgid "No results found"
 msgstr "Sonuç bulunamadı"
+
+#: src/components/localization/Keyboard.jsx:421
+msgid ""
+"No valid VConsole keymap can be obtained for the selected keyboard "
+"layout(s). Please make a different keyboard layout selection."
+msgstr ""
 
 #: src/components/review/ReviewConfiguration.jsx:116
 msgid "Not enough available free space"
@@ -753,7 +765,7 @@ msgstr "İşletim sistemi"
 msgid "Options"
 msgstr "Seçenekler"
 
-#: src/components/localization/Keyboard.jsx:91
+#: src/components/localization/Keyboard.jsx:108
 msgid "Other keyboards"
 msgstr "Diğer klavyeler"
 
@@ -763,7 +775,7 @@ msgstr "Bölümler (gelişmiş)"
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:162
 #: src/components/storage/installation-method/EncryptedDevices.jsx:169
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:130
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:104
 #: src/components/users/Accounts.jsx:150 src/components/users/Accounts.jsx:305
 msgid "Passphrase"
 msgstr "Parola"
@@ -896,8 +908,8 @@ msgstr "Fedora'yı Yeniden Kur"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:432
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
-#: src/components/localization/Keyboard.jsx:150
-#: src/components/localization/Keyboard.jsx:154
+#: src/components/localization/Keyboard.jsx:167
+#: src/components/localization/Keyboard.jsx:171
 msgid "Remove"
 msgstr "Kaldır"
 
@@ -990,7 +1002,7 @@ msgstr ""
 "Kök hesabı etkinleştirilmiş, ama hiçbir kullanıcı hesabı yapılandırılmamış"
 
 #: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:271
+#: src/components/localization/Keyboard.jsx:288
 #: src/components/review/Hostname.jsx:137
 msgid "Save"
 msgstr "Kaydet"
@@ -1003,11 +1015,11 @@ msgstr "QR kodunu telefonunuzla tarayın veya ziyaret edin:"
 msgid "Search for a language"
 msgstr "Bir dil arayın"
 
-#: src/components/localization/Keyboard.jsx:217
+#: src/components/localization/Keyboard.jsx:234
 msgid "Search keyboard layout"
 msgstr "Bir klavye görünümü arayın"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:147
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:121
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
@@ -1035,7 +1047,7 @@ msgstr "Hedefi seç"
 msgid "Select region"
 msgstr "Bölge seç"
 
-#: src/components/localization/Keyboard.jsx:227
+#: src/components/localization/Keyboard.jsx:244
 msgid "Selected (top = current)"
 msgstr "Seçilen (en üst = geçerli)"
 
@@ -1156,7 +1168,7 @@ msgstr "Başarıyla kuruldu"
 msgid "Successfully unlocked $0."
 msgstr "$0 kilidi başarıyla açıldı."
 
-#: src/components/localization/Keyboard.jsx:91
+#: src/components/localization/Keyboard.jsx:108
 msgid "Suggested keyboards"
 msgstr "Önerilen klavyeler"
 
@@ -1180,14 +1192,6 @@ msgstr ""
 "Sistem yapılandırması: Yazılım kurulumu tamamlandı. Sistem şimdi "
 "yapılandırılıyor."
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:123
-msgid ""
-"The active keyboard layout in the compositor differs from the default layout "
-"selected for the target system."
-msgstr ""
-"Birleştiricideki etkin klavye düzeni, hedef sistem için seçilen öntanımlı "
-"düzenden farklı."
-
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:57
 msgid ""
 "The installation needs $0 of disk space; however, the capacity of the "
@@ -1204,7 +1208,7 @@ msgstr "Kurucu önemli bir hata nedeniyle devam edemiyor."
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "Kurucu önemli bir hata nedeniyle devam edemiyor.: $0"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:50
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:47
 msgid ""
 "The passphrase you have provided contains non-ASCII characters. You may not "
 "be able to switch between keyboard layouts when typing it."
@@ -1212,21 +1216,13 @@ msgstr ""
 "Sağladığınız parola ASCII olmayan karakterler içeriyor. Bunları tuşlarken "
 "klavye düzenleri arasında geçiş yapamayabilirsiniz."
 
-#: src/components/localization/Keyboard.jsx:256
+#: src/components/localization/Keyboard.jsx:273
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
 msgstr ""
 "Seçilen öntanımlı klavye düzeni ASCII karakterlerini desteklemiyor. Lütfen "
 "öntanımlı olarak ASCII özellikli bir düzen seçin."
-
-#: src/components/localization/Keyboard.jsx:309
-msgid ""
-"The selected layout does not support ASCII input. Please select a different "
-"layout to proceed."
-msgstr ""
-"Seçilen düzen ASCII girdiyi desteklemiyor. Devam etmek için lütfen farklı "
-"bir düzen seçin."
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid ""
@@ -1246,11 +1242,11 @@ msgstr "Bu ana makine adı kaydedilemiyor"
 msgid "This is unstable, pre-release software"
 msgstr "Bu kararlı olmayan, sürüm öncesi yazılımdır"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:116
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:98
 msgid "This layout will be used for unlocking your system on boot"
 msgstr "Bu görünüm, sisteminizi önyüklemede açmada kullanılacak"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:58
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:55
 msgid "This may take a moment"
 msgstr "Bu biraz zaman alabilir"
 
@@ -1271,7 +1267,7 @@ msgstr "Saat dilimi"
 msgid "To begin using $0, reboot your system."
 msgstr "$0 kullanmaya başlamak için sisteminizi yeniden başlatın."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:195
+#: src/components/storage/installation-method/InstallationMethod.jsx:210
 msgid "To continue, select the devices to install to."
 msgstr "Devam etmek için kurulum yapılacak aygıtları seçin."
 
@@ -1311,10 +1307,6 @@ msgstr ""
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 msgid "Unlock encrypted devices"
 msgstr "Şifrelenen aygıtların kilidini aç"
-
-#: src/components/localization/Keyboard.jsx:329
-msgid "Unusable layout"
-msgstr "Kullanılamayan düzen"
 
 #: src/components/storage/scenarios/use-configured-storage/index.js:34
 msgid "Use configured storage"
@@ -1460,6 +1452,26 @@ msgstr "$0 olacak şekilde küçült"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:382
 msgid "undo"
 msgstr "geri al"
+
+#~ msgid "$0 layouts detected"
+#~ msgstr "$0 görünüm seçildi"
+
+#~ msgid ""
+#~ "The active keyboard layout in the compositor differs from the default "
+#~ "layout selected for the target system."
+#~ msgstr ""
+#~ "Birleştiricideki etkin klavye düzeni, hedef sistem için seçilen öntanımlı "
+#~ "düzenden farklı."
+
+#~ msgid ""
+#~ "The selected layout does not support ASCII input. Please select a "
+#~ "different layout to proceed."
+#~ msgstr ""
+#~ "Seçilen düzen ASCII girdiyi desteklemiyor. Devam etmek için lütfen farklı "
+#~ "bir düzen seçin."
+
+#~ msgid "Unusable layout"
+#~ msgstr "Kullanılamayan düzen"
 
 #~ msgid "No keyboard layout detected. Add at least one layout to proceed"
 #~ msgstr "Klavye düzeni algılanmadı. Devam etmek için en az bir düzen ekleyin"
