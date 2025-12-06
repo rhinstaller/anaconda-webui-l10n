@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 03:42+0000\n"
+"POT-Creation-Date: 2025-12-06 03:33+0000\n"
 "PO-Revision-Date: 2025-10-30 03:35+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
@@ -126,9 +126,25 @@ msgstr "Lisää toinen palvelin..."
 msgid "Add mount"
 msgstr "Lisää liitos"
 
+#: src/components/software/SoftwareSelection.jsx:134
+#, fuzzy
+#| msgid "Additional software for selected environment"
+msgid "Add-ons for your chosen environment"
+msgstr "Lisäohjelmisto valittuun ympäristöön"
+
+#: src/components/software/SoftwareSelection.jsx:143
+msgid "Add-ons not specific to your environment"
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:157
 msgid "Additional languages"
 msgstr "Lisäkielet"
+
+#: src/components/software/SoftwareSelection.jsx:168
+#, fuzzy
+#| msgid "Additional software for selected environment"
+msgid "Additional software for the selected environment"
+msgstr "Lisäohjelmisto valittuun ympäristöön"
 
 #: src/components/Error.jsx:215
 msgid ""
@@ -189,6 +205,10 @@ msgstr "Käytettävissä oleva vapaa tila: $0. Asennus vaatii: $1."
 msgid "Back"
 msgstr "Takaisin"
 
+#: src/components/software/SoftwareSelection.jsx:75
+msgid "Base environment"
+msgstr "Perusympäristö"
+
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
@@ -205,7 +225,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:291
+#: src/components/localization/Keyboard.jsx:292
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "Peru"
@@ -227,8 +247,8 @@ msgid "Change partition layout"
 msgstr "Muuta osion asettelua"
 
 #: src/components/localization/Keyboard.jsx:225
-#: src/components/localization/Keyboard.jsx:328
-#: src/components/localization/Keyboard.jsx:386
+#: src/components/localization/Keyboard.jsx:329
+#: src/components/localization/Keyboard.jsx:387
 msgid "Change system keyboard layout"
 msgstr "Vaihda järjestelmän näppäimistön asettelu"
 
@@ -245,7 +265,7 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr "Tarkistetaan tallennustilan asetuksia"
 
-#: src/components/localization/Common.jsx:115
+#: src/components/common/MenuSearch.jsx:124
 msgid "Clear search"
 msgstr "Tyhjennä haku"
 
@@ -565,7 +585,7 @@ msgstr ""
 "Säilytä nykyinen levyasettelu ja käytä käytettävissä olevaa tilaa "
 "kaksoiskäynnistykseen toisen käyttöjärjestelmän kanssa."
 
-#: src/components/localization/InstallationLanguage.jsx:256
+#: src/components/localization/InstallationLanguage.jsx:257
 msgid "Keyboard"
 msgstr "Näppäimistö"
 
@@ -573,7 +593,7 @@ msgstr "Näppäimistö"
 msgid "Keyboard layout during boot"
 msgstr "Näppäimistön asettelu käynnistyksen aikana"
 
-#: src/components/localization/InstallationLanguage.jsx:240
+#: src/components/localization/InstallationLanguage.jsx:241
 #: src/components/review/ReviewConfiguration.jsx:192
 msgid "Language"
 msgstr "Kieli"
@@ -638,7 +658,7 @@ msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 "Isäntälaitteen ja alalaitteen uudelleenmuotoilun valinta ei vastaa toisiaan."
 
-#: src/components/localization/Keyboard.jsx:304
+#: src/components/localization/Keyboard.jsx:305
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr "Useampi kuin yksi asettelu havaittu. Poista lisäasettelut jatkaaksesi"
 
@@ -711,15 +731,15 @@ msgstr "Levyjä ei saatavilla"
 msgid "No disks selected"
 msgstr "Yhtään levyä ei ole valittu"
 
-#: src/components/localization/Keyboard.jsx:251
+#: src/components/localization/Keyboard.jsx:252
 msgid "No layouts selected yet"
 msgstr "Ei vielä valittuja asetteluja"
 
-#: src/components/localization/Common.jsx:138
+#: src/components/common/MenuSearch.jsx:147
 msgid "No results found"
 msgstr "Tuloksia ei löytynyt"
 
-#: src/components/localization/Keyboard.jsx:421
+#: src/components/localization/Keyboard.jsx:422
 msgid ""
 "No valid VConsole keymap can be obtained for the selected keyboard "
 "layout(s). Please make a different keyboard layout selection."
@@ -995,7 +1015,7 @@ msgid "Root account is enabled, but no user account has been configured"
 msgstr "Root-tili on otettu käyttöön, mutta käyttäjätiliä ei ole määritetty"
 
 #: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:288
+#: src/components/localization/Keyboard.jsx:289
 #: src/components/review/Hostname.jsx:137
 msgid "Save"
 msgstr "Tallenna"
@@ -1006,6 +1026,18 @@ msgstr "Skannaa QR-koodi puhelimellasi tai käy:"
 
 #: src/components/localization/InstallationLanguage.jsx:210
 msgid "Search for a language"
+msgstr "Hae kieli"
+
+#: src/components/software/SoftwareSelection.jsx:171
+#, fuzzy
+#| msgid "No additional software to select."
+msgid "Search for additional software"
+msgstr "Ei valittavaa lisäohjelmistoa."
+
+#: src/components/software/SoftwareSelection.jsx:78
+#, fuzzy
+#| msgid "Search for a language"
+msgid "Search for an environment"
 msgstr "Hae kieli"
 
 #: src/components/localization/Keyboard.jsx:234
@@ -1039,7 +1071,7 @@ msgstr "Valitse kohde"
 msgid "Select region"
 msgstr "Valitse alue"
 
-#: src/components/localization/Keyboard.jsx:244
+#: src/components/localization/Keyboard.jsx:245
 msgid "Selected (top = current)"
 msgstr "Valittuna (ylin = nykyinen)"
 
@@ -1103,6 +1135,10 @@ msgstr ""
 "Ohjelmiston asennus: Tallennuskokoonpano on valmis. Ohjelmistoa asennetaan "
 "nyt laitteellesi."
 
+#: src/components/software/index.js:31 src/components/software/index.js:32
+msgid "Software selection"
+msgstr "Ohjelmistovalinta"
+
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:61
 msgid "Some required partitions are missing: $0"
 msgstr "Jotkut pakolliset osiot puuttuvat: $0"
@@ -1118,7 +1154,7 @@ msgstr "Tallennustila"
 #: src/components/installation/InstallationProgress.jsx:141
 #: src/components/storage/storage-configuration/index.js:32
 #: src/components/storage/storage-configuration/index.js:33
-#: src/components/steps.js:27
+#: src/components/steps.js:29
 msgid "Storage configuration"
 msgstr "Tallennustilan määritykset"
 
@@ -1207,7 +1243,7 @@ msgstr ""
 "Antamasi salalause sisältää merkkejä, jotka eivät ole ASCII:ta. Jos "
 "näppäimistöasettelua vaihdetaan, kirjautuminen ei ehkä onnistu."
 
-#: src/components/localization/Keyboard.jsx:273
+#: src/components/localization/Keyboard.jsx:274
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
@@ -2253,9 +2289,6 @@ msgstr "kumoa"
 #~ msgid "Additional software for Selected Environment"
 #~ msgstr "Lisäohjelmisto valittuun ympäristöön"
 
-#~ msgid "Additional software for selected environment"
-#~ msgstr "Lisäohjelmisto valittuun ympäristöön"
-
 #~ msgid "Administrator"
 #~ msgstr "Ylläpitäjä"
 
@@ -2436,9 +2469,6 @@ msgstr "kumoa"
 #~ msgstr "Virheellinen peitteen muoto"
 
 #~ msgid "Base Environment"
-#~ msgstr "Perusympäristö"
-
-#~ msgid "Base environment"
 #~ msgstr "Perusympäristö"
 
 #~ msgid "Beta Warn"
@@ -3903,9 +3933,6 @@ msgstr "kumoa"
 #~ msgid "No *.iso files found in device root folder"
 #~ msgstr "Laitteen juurihakemistosta ei löytynyt *.iso-tiedostoja"
 
-#~ msgid "No additional software to select."
-#~ msgstr "Ei valittavaa lisäohjelmistoa."
-
 #~ msgid "No credentials (discovery authentication disabled)"
 #~ msgstr "Ei kirjautumistietoja (etsintätodennus poistettu käytöstä)"
 
@@ -4915,9 +4942,6 @@ msgstr "kumoa"
 #~ msgstr ""
 #~ "Tilannevedos: alkuperä \"{}\" tilannevedosta \"{}\" ei ole kelvollinen "
 #~ "ohut LV-laite."
-
-#~ msgid "Software selection"
-#~ msgstr "Ohjelmistovalinta"
 
 #~ msgid "Some of the repomd.xml files have changed or are unreachable."
 #~ msgstr ""

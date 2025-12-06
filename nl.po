@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 03:42+0000\n"
+"POT-Creation-Date: 2025-12-06 03:33+0000\n"
 "PO-Revision-Date: 2025-05-31 12:40+0000\n"
 "Last-Translator: Marvin Parlevliet <mrvnp@msn.com>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/anaconda-"
@@ -133,9 +133,25 @@ msgstr "Voeg NTP-server toe"
 msgid "Add mount"
 msgstr "Aankoppelingspunt toevoegen"
 
+#: src/components/software/SoftwareSelection.jsx:134
+#, fuzzy
+#| msgid "Additional software for selected environment"
+msgid "Add-ons for your chosen environment"
+msgstr "Extra software voor de geselecteerde omgeving"
+
+#: src/components/software/SoftwareSelection.jsx:143
+msgid "Add-ons not specific to your environment"
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:157
 msgid "Additional languages"
 msgstr "Aanvullende talen"
+
+#: src/components/software/SoftwareSelection.jsx:168
+#, fuzzy
+#| msgid "Additional software for selected environment"
+msgid "Additional software for the selected environment"
+msgstr "Extra software voor de geselecteerde omgeving"
 
 #: src/components/Error.jsx:215
 msgid ""
@@ -198,6 +214,10 @@ msgstr "Beschikbare vrije ruimte: $0. Benodigd voor installatie: $1."
 msgid "Back"
 msgstr "Terug"
 
+#: src/components/software/SoftwareSelection.jsx:75
+msgid "Base environment"
+msgstr "Basisomgeving"
+
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
@@ -214,7 +234,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:291
+#: src/components/localization/Keyboard.jsx:292
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "Annuleren"
@@ -238,8 +258,8 @@ msgid "Change partition layout"
 msgstr "Bestemming veranderen"
 
 #: src/components/localization/Keyboard.jsx:225
-#: src/components/localization/Keyboard.jsx:328
-#: src/components/localization/Keyboard.jsx:386
+#: src/components/localization/Keyboard.jsx:329
+#: src/components/localization/Keyboard.jsx:387
 msgid "Change system keyboard layout"
 msgstr "Verander systeemtoetsenbordindeling"
 
@@ -256,7 +276,7 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr "Bezig met controleren van opslagconfiguratie"
 
-#: src/components/localization/Common.jsx:115
+#: src/components/common/MenuSearch.jsx:124
 msgid "Clear search"
 msgstr "Zoekopdracht wissen"
 
@@ -596,7 +616,7 @@ msgstr ""
 "Behoud de huidige schijfindeling en installeer alleen in beschikbare ruimte, "
 "om te dual-booten met een ander OS."
 
-#: src/components/localization/InstallationLanguage.jsx:256
+#: src/components/localization/InstallationLanguage.jsx:257
 msgid "Keyboard"
 msgstr "Toetsenbord"
 
@@ -604,7 +624,7 @@ msgstr "Toetsenbord"
 msgid "Keyboard layout during boot"
 msgstr "Toetsenbordindeling tijdens het opstarten"
 
-#: src/components/localization/InstallationLanguage.jsx:240
+#: src/components/localization/InstallationLanguage.jsx:241
 #: src/components/review/ReviewConfiguration.jsx:192
 msgid "Language"
 msgstr "Taal"
@@ -669,7 +689,7 @@ msgstr ""
 "Geen overeenkomst tussen selectie van herformattering van bovenliggend "
 "apparaat en onderliggend apparaat."
 
-#: src/components/localization/Keyboard.jsx:304
+#: src/components/localization/Keyboard.jsx:305
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 "Meer dan één indeling gedetecteerd. Verwijder aanvullende indelingen om door "
@@ -749,17 +769,17 @@ msgstr "Geen schijven beschikbaar"
 msgid "No disks selected"
 msgstr "Geen schijven geselecteerd"
 
-#: src/components/localization/Keyboard.jsx:251
+#: src/components/localization/Keyboard.jsx:252
 #, fuzzy
 #| msgid "$0 layouts detected"
 msgid "No layouts selected yet"
 msgstr "$0 indelingen gedetecteerd"
 
-#: src/components/localization/Common.jsx:138
+#: src/components/common/MenuSearch.jsx:147
 msgid "No results found"
 msgstr "Geen resultaten gevonden"
 
-#: src/components/localization/Keyboard.jsx:421
+#: src/components/localization/Keyboard.jsx:422
 msgid ""
 "No valid VConsole keymap can be obtained for the selected keyboard "
 "layout(s). Please make a different keyboard layout selection."
@@ -1046,7 +1066,7 @@ msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:288
+#: src/components/localization/Keyboard.jsx:289
 #: src/components/review/Hostname.jsx:137
 msgid "Save"
 msgstr "Opslaan"
@@ -1057,6 +1077,18 @@ msgstr "Scan de QR-code met de telefoon of bezoek:"
 
 #: src/components/localization/InstallationLanguage.jsx:210
 msgid "Search for a language"
+msgstr "Taal zoeken"
+
+#: src/components/software/SoftwareSelection.jsx:171
+#, fuzzy
+#| msgid "No additional software to select."
+msgid "Search for additional software"
+msgstr "Er is geen extra software om te selecteren."
+
+#: src/components/software/SoftwareSelection.jsx:78
+#, fuzzy
+#| msgid "Search for a language"
+msgid "Search for an environment"
 msgstr "Taal zoeken"
 
 #: src/components/localization/Keyboard.jsx:234
@@ -1095,7 +1127,7 @@ msgstr "Bestemming selecteren"
 msgid "Select region"
 msgstr "Selecteer niets"
 
-#: src/components/localization/Keyboard.jsx:244
+#: src/components/localization/Keyboard.jsx:245
 #, fuzzy
 #| msgid "Selected Layouts"
 msgid "Selected (top = current)"
@@ -1172,6 +1204,10 @@ msgstr ""
 "Software-installatie: Opslagconfiguratie voltooid. De software wordt nu op "
 "uw apparaat geïnstalleerd."
 
+#: src/components/software/index.js:31 src/components/software/index.js:32
+msgid "Software selection"
+msgstr "Softwareselectie"
+
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:61
 msgid "Some required partitions are missing: $0"
 msgstr "Een aantal vereiste partities zijn niet aanwezig: $0"
@@ -1187,7 +1223,7 @@ msgstr "Opslag"
 #: src/components/installation/InstallationProgress.jsx:141
 #: src/components/storage/storage-configuration/index.js:32
 #: src/components/storage/storage-configuration/index.js:33
-#: src/components/steps.js:27
+#: src/components/steps.js:29
 msgid "Storage configuration"
 msgstr "Opslagconfiguratie"
 
@@ -1281,7 +1317,7 @@ msgstr ""
 "voorkomen dat u niet kunt omschakelen tussen toetsenbordindelingen tijdens "
 "het intypen ervan."
 
-#: src/components/localization/Keyboard.jsx:273
+#: src/components/localization/Keyboard.jsx:274
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
@@ -2331,9 +2367,6 @@ msgstr "ongedaan maken"
 #~ msgid "Additional software for Selected Environment"
 #~ msgstr "Extra software de geselecteerde omgeving"
 
-#~ msgid "Additional software for selected environment"
-#~ msgstr "Extra software voor de geselecteerde omgeving"
-
 #~ msgid "Administrator"
 #~ msgstr "Beheerder"
 
@@ -2522,9 +2555,6 @@ msgstr "ongedaan maken"
 #~ msgstr "Verkeerd formaat voor het netmasker"
 
 #~ msgid "Base Environment"
-#~ msgstr "Basisomgeving"
-
-#~ msgid "Base environment"
 #~ msgstr "Basisomgeving"
 
 #~ msgid "Beta Warn"
@@ -3992,9 +4022,6 @@ msgstr "ongedaan maken"
 #~ msgid "No *.iso files found in device root folder"
 #~ msgstr "In de rootmap van het apparaat werden geen *.iso bestanden gevonden"
 
-#~ msgid "No additional software to select."
-#~ msgstr "Er is geen extra software om te selecteren."
-
 #~ msgid "No credentials (discovery authentication disabled)"
 #~ msgstr "Geen legitimatie (ontdekking authenticatie uitgezet)"
 
@@ -5009,9 +5036,6 @@ msgstr "ongedaan maken"
 #~ msgstr ""
 #~ "Snapshot: oorsprong \"{}\" van snapshot \"{}\" is geen geldig dun LV "
 #~ "apparaat."
-
-#~ msgid "Software selection"
-#~ msgstr "Softwareselectie"
 
 #~ msgid "Some of the repomd.xml files have changed or are unreachable."
 #~ msgstr "Sommige repomd.xml-bestanden zijn gewijzigd of zijn onbereikbaar."

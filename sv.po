@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 03:42+0000\n"
+"POT-Creation-Date: 2025-12-06 03:33+0000\n"
 "PO-Revision-Date: 2025-12-04 20:15+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
@@ -127,9 +127,25 @@ msgstr "Lägg en annan server..."
 msgid "Add mount"
 msgstr "Lägg till montering"
 
+#: src/components/software/SoftwareSelection.jsx:134
+#, fuzzy
+#| msgid "Additional software for selected environment"
+msgid "Add-ons for your chosen environment"
+msgstr "Ytterligare programvara för den valda miljön"
+
+#: src/components/software/SoftwareSelection.jsx:143
+msgid "Add-ons not specific to your environment"
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:157
 msgid "Additional languages"
 msgstr "Ytterligare språk"
+
+#: src/components/software/SoftwareSelection.jsx:168
+#, fuzzy
+#| msgid "Additional software for selected environment"
+msgid "Additional software for the selected environment"
+msgstr "Ytterligare programvara för den valda miljön"
 
 #: src/components/Error.jsx:215
 msgid ""
@@ -193,6 +209,10 @@ msgstr "Tillgängligt fritt utrymme: $0. Installationen behöver: $1."
 msgid "Back"
 msgstr "Tillbaka"
 
+#: src/components/software/SoftwareSelection.jsx:75
+msgid "Base environment"
+msgstr "Basmiljö"
+
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
@@ -209,7 +229,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:291
+#: src/components/localization/Keyboard.jsx:292
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "Avbryt"
@@ -231,8 +251,8 @@ msgid "Change partition layout"
 msgstr "Ändra partitionslayout"
 
 #: src/components/localization/Keyboard.jsx:225
-#: src/components/localization/Keyboard.jsx:328
-#: src/components/localization/Keyboard.jsx:386
+#: src/components/localization/Keyboard.jsx:329
+#: src/components/localization/Keyboard.jsx:387
 msgid "Change system keyboard layout"
 msgstr "Ändra systemets tangentbordslayout"
 
@@ -249,7 +269,7 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr "Kontrollerar lagringskonfiguration"
 
-#: src/components/localization/Common.jsx:115
+#: src/components/common/MenuSearch.jsx:124
 msgid "Clear search"
 msgstr "Rensa sökning"
 
@@ -571,7 +591,7 @@ msgstr ""
 "Behåll nuvarande disklayout och använd tillgängligt utrymme för att "
 "dubbeluppstarta med ett annat operativsystem."
 
-#: src/components/localization/InstallationLanguage.jsx:256
+#: src/components/localization/InstallationLanguage.jsx:257
 msgid "Keyboard"
 msgstr "Tangentbord"
 
@@ -579,7 +599,7 @@ msgstr "Tangentbord"
 msgid "Keyboard layout during boot"
 msgstr "Tangentbordslayout under uppstart"
 
-#: src/components/localization/InstallationLanguage.jsx:240
+#: src/components/localization/InstallationLanguage.jsx:241
 #: src/components/review/ReviewConfiguration.jsx:192
 msgid "Language"
 msgstr "Språk"
@@ -644,7 +664,7 @@ msgstr ""
 "Felaktig överensstämmelse mellan överordnad enhet och underordnad enhet vid "
 "omformateringsval."
 
-#: src/components/localization/Keyboard.jsx:304
+#: src/components/localization/Keyboard.jsx:305
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 "Mer än en layout har upptäckts. Ta bort ytterligare layouter för att "
@@ -720,15 +740,15 @@ msgstr "Inga diskar tillgängliga"
 msgid "No disks selected"
 msgstr "Inga diskar valda"
 
-#: src/components/localization/Keyboard.jsx:251
+#: src/components/localization/Keyboard.jsx:252
 msgid "No layouts selected yet"
 msgstr "Inga layouter valda ännu"
 
-#: src/components/localization/Common.jsx:138
+#: src/components/common/MenuSearch.jsx:147
 msgid "No results found"
 msgstr "Inga resultat funna"
 
-#: src/components/localization/Keyboard.jsx:421
+#: src/components/localization/Keyboard.jsx:422
 msgid ""
 "No valid VConsole keymap can be obtained for the selected keyboard "
 "layout(s). Please make a different keyboard layout selection."
@@ -1007,7 +1027,7 @@ msgid "Root account is enabled, but no user account has been configured"
 msgstr "Root-konto är aktiverat, men inget användarkonto har konfigurerats"
 
 #: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:288
+#: src/components/localization/Keyboard.jsx:289
 #: src/components/review/Hostname.jsx:137
 msgid "Save"
 msgstr "Spara"
@@ -1018,6 +1038,18 @@ msgstr "Skanna QR-koden med din telefon eller besök:"
 
 #: src/components/localization/InstallationLanguage.jsx:210
 msgid "Search for a language"
+msgstr "Sök efter ett språk"
+
+#: src/components/software/SoftwareSelection.jsx:171
+#, fuzzy
+#| msgid "No additional software to select."
+msgid "Search for additional software"
+msgstr "Ingen ytterligare programvara att välja."
+
+#: src/components/software/SoftwareSelection.jsx:78
+#, fuzzy
+#| msgid "Search for a language"
+msgid "Search for an environment"
 msgstr "Sök efter ett språk"
 
 #: src/components/localization/Keyboard.jsx:234
@@ -1052,7 +1084,7 @@ msgstr "Välj destination"
 msgid "Select region"
 msgstr "Välj region"
 
-#: src/components/localization/Keyboard.jsx:244
+#: src/components/localization/Keyboard.jsx:245
 msgid "Selected (top = current)"
 msgstr "Vald (överst = nuvarande)"
 
@@ -1116,6 +1148,10 @@ msgstr ""
 "Programvaruinstallation: Lagringskonfigurationen är klar. Programvaran "
 "installeras nu på din enhet."
 
+#: src/components/software/index.js:31 src/components/software/index.js:32
+msgid "Software selection"
+msgstr "Programval"
+
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:61
 msgid "Some required partitions are missing: $0"
 msgstr "Vissa nödvändiga partitioner saknas: $0"
@@ -1131,7 +1167,7 @@ msgstr "Lagring"
 #: src/components/installation/InstallationProgress.jsx:141
 #: src/components/storage/storage-configuration/index.js:32
 #: src/components/storage/storage-configuration/index.js:33
-#: src/components/steps.js:27
+#: src/components/steps.js:29
 msgid "Storage configuration"
 msgstr "Lagringskonfiguration"
 
@@ -1222,7 +1258,7 @@ msgstr ""
 "Lösenfrasen du har gett innehåller icke-ASCII-tecken. Du kan kanske inte "
 "byta mellan tangentbordslayouter när du skriver den."
 
-#: src/components/localization/Keyboard.jsx:273
+#: src/components/localization/Keyboard.jsx:274
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
@@ -2268,9 +2304,6 @@ msgstr "ångra"
 #~ msgid "Additional software for Selected Environment"
 #~ msgstr "Ytterligare programvara för den valda miljön"
 
-#~ msgid "Additional software for selected environment"
-#~ msgstr "Ytterligare programvara för den valda miljön"
-
 #~ msgid "Administrator"
 #~ msgstr "Administratör"
 
@@ -2453,9 +2486,6 @@ msgstr "ångra"
 #~ msgstr "Felaktigt format på nätmasken"
 
 #~ msgid "Base Environment"
-#~ msgstr "Basmiljö"
-
-#~ msgid "Base environment"
 #~ msgstr "Basmiljö"
 
 #~ msgid "Beta Warn"
@@ -3915,9 +3945,6 @@ msgstr "ångra"
 #~ msgid "No *.iso files found in device root folder"
 #~ msgstr "Inga *.iso-filer funna i enhetens rotkatalog"
 
-#~ msgid "No additional software to select."
-#~ msgstr "Ingen ytterligare programvara att välja."
-
 #~ msgid "No credentials (discovery authentication disabled)"
 #~ msgstr "Inga kreditiv (upptäcktsautentisering avaktiverat)"
 
@@ -4921,9 +4948,6 @@ msgstr "ångra"
 #~ msgstr ""
 #~ "Ögonblicksbild: ursprunget ”{}” till ögonblicksbilden ”{}” är inte en "
 #~ "giltig tunn LV-enhet."
-
-#~ msgid "Software selection"
-#~ msgstr "Programval"
 
 #~ msgid "Some of the repomd.xml files have changed or are unreachable."
 #~ msgstr "En del av repomd.xml-filerna har ändrats eller kan inte nås."

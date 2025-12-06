@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 03:42+0000\n"
+"POT-Creation-Date: 2025-12-06 03:33+0000\n"
 "PO-Revision-Date: 2023-11-06 12:15+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Afrikaans <https://translate.fedoraproject.org/projects/"
@@ -117,11 +117,27 @@ msgstr "Voeg NTP-bediener by"
 msgid "Add mount"
 msgstr "Voeg uitleg by"
 
+#: src/components/software/SoftwareSelection.jsx:134
+#, fuzzy
+#| msgid "Add-ons for selected environment"
+msgid "Add-ons for your chosen environment"
+msgstr "Byvoegings vir gekose omgewing"
+
+#: src/components/software/SoftwareSelection.jsx:143
+msgid "Add-ons not specific to your environment"
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:157
 #, fuzzy
 #| msgid "Available languages"
 msgid "Additional languages"
 msgstr "Beskikbare tale"
+
+#: src/components/software/SoftwareSelection.jsx:168
+#, fuzzy
+#| msgid "Add-ons for selected environment"
+msgid "Additional software for the selected environment"
+msgstr "Byvoegings vir gekose omgewing"
 
 #: src/components/Error.jsx:215
 msgid ""
@@ -182,6 +198,10 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
+#: src/components/software/SoftwareSelection.jsx:75
+msgid "Base environment"
+msgstr "Basisomgewing"
+
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
@@ -194,7 +214,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:291
+#: src/components/localization/Keyboard.jsx:292
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 #, fuzzy
 msgid "Cancel"
@@ -224,8 +244,8 @@ msgid "Change partition layout"
 msgstr "Beskrywing"
 
 #: src/components/localization/Keyboard.jsx:225
-#: src/components/localization/Keyboard.jsx:328
-#: src/components/localization/Keyboard.jsx:386
+#: src/components/localization/Keyboard.jsx:329
+#: src/components/localization/Keyboard.jsx:387
 msgid "Change system keyboard layout"
 msgstr ""
 
@@ -241,7 +261,7 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr "Kontroleer tans stoorkonfigurasie..."
 
-#: src/components/localization/Common.jsx:115
+#: src/components/common/MenuSearch.jsx:124
 msgid "Clear search"
 msgstr ""
 
@@ -603,7 +623,7 @@ msgid ""
 "OS."
 msgstr ""
 
-#: src/components/localization/InstallationLanguage.jsx:256
+#: src/components/localization/InstallationLanguage.jsx:257
 #, fuzzy
 #| msgctxt "GUI|Spoke"
 #| msgid "_Keyboard"
@@ -614,7 +634,7 @@ msgstr "S_leutelbord"
 msgid "Keyboard layout during boot"
 msgstr ""
 
-#: src/components/localization/InstallationLanguage.jsx:240
+#: src/components/localization/InstallationLanguage.jsx:241
 #: src/components/review/ReviewConfiguration.jsx:192
 #, fuzzy
 msgid "Language"
@@ -683,7 +703,7 @@ msgstr ""
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:304
+#: src/components/localization/Keyboard.jsx:305
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 
@@ -763,17 +783,17 @@ msgstr "Nie beskikbaar nie"
 msgid "No disks selected"
 msgstr "Geen skywe gekies nie"
 
-#: src/components/localization/Keyboard.jsx:251
+#: src/components/localization/Keyboard.jsx:252
 #, fuzzy
 #| msgid "Nothing selected"
 msgid "No layouts selected yet"
 msgstr "Niks gekies nie"
 
-#: src/components/localization/Common.jsx:138
+#: src/components/common/MenuSearch.jsx:147
 msgid "No results found"
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:421
+#: src/components/localization/Keyboard.jsx:422
 msgid ""
 "No valid VConsole keymap can be obtained for the selected keyboard "
 "layout(s). Please make a different keyboard layout selection."
@@ -1088,7 +1108,7 @@ msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:288
+#: src/components/localization/Keyboard.jsx:289
 #: src/components/review/Hostname.jsx:137
 #, fuzzy
 #| msgctxt "GUI|Custom Partitioning|Container Dialog"
@@ -1103,6 +1123,17 @@ msgstr ""
 #: src/components/localization/InstallationLanguage.jsx:210
 #, fuzzy
 msgid "Search for a language"
+msgstr "Tale"
+
+#: src/components/software/SoftwareSelection.jsx:171
+#, fuzzy
+#| msgid "No add-ons to select."
+msgid "Search for additional software"
+msgstr "Geen byvoegings om te kies nie."
+
+#: src/components/software/SoftwareSelection.jsx:78
+#, fuzzy
+msgid "Search for an environment"
 msgstr "Tale"
 
 #: src/components/localization/Keyboard.jsx:234
@@ -1147,7 +1178,7 @@ msgstr "Beskrywing"
 msgid "Select region"
 msgstr "_Op die netwerk:"
 
-#: src/components/localization/Keyboard.jsx:244
+#: src/components/localization/Keyboard.jsx:245
 #, fuzzy
 #| msgid "Selected Layouts"
 msgid "Selected (top = current)"
@@ -1223,6 +1254,10 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
+#: src/components/software/index.js:31 src/components/software/index.js:32
+msgid "Software selection"
+msgstr "Seleksie van sagteware"
+
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:61
 msgid "Some required partitions are missing: $0"
 msgstr ""
@@ -1241,7 +1276,7 @@ msgstr "Keuses vir stoorplek"
 #: src/components/installation/InstallationProgress.jsx:141
 #: src/components/storage/storage-configuration/index.js:32
 #: src/components/storage/storage-configuration/index.js:33
-#: src/components/steps.js:27
+#: src/components/steps.js:29
 #, fuzzy
 msgid "Storage configuration"
 msgstr "Stoorkonfigurasie"
@@ -1341,7 +1376,7 @@ msgstr ""
 "moontlik nie tussen sleutelborduitlegte kan wissel wanneer dit getik word "
 "nie."
 
-#: src/components/localization/Keyboard.jsx:273
+#: src/components/localization/Keyboard.jsx:274
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
@@ -2018,11 +2053,6 @@ msgstr ""
 #~ msgid "Additional software for Selected Environment"
 #~ msgstr "Byvoegings vir gekose omgewing"
 
-#, fuzzy
-#~| msgid "Add-ons for selected environment"
-#~ msgid "Additional software for selected environment"
-#~ msgstr "Byvoegings vir gekose omgewing"
-
 #~ msgid "Administrator"
 #~ msgstr "Administrateur"
 
@@ -2169,9 +2199,6 @@ msgstr ""
 #~ msgstr "Die netmasker is in die verkeerde formaat"
 
 #~ msgid "Base Environment"
-#~ msgstr "Basisomgewing"
-
-#~ msgid "Base environment"
 #~ msgstr "Basisomgewing"
 
 #~ msgid "Bond"
@@ -3254,11 +3281,6 @@ msgstr ""
 #~ msgid "No *.iso files found in device root folder"
 #~ msgstr "Geen *.iso-lêers in toestel se wortelgids gevind nie"
 
-#, fuzzy
-#~| msgid "No add-ons to select."
-#~ msgid "No additional software to select."
-#~ msgstr "Geen byvoegings om te kies nie."
-
 #~ msgid "No disks assigned"
 #~ msgstr "Geen skywe toegeken nie"
 
@@ -3911,9 +3933,6 @@ msgstr ""
 
 #~ msgid "Single"
 #~ msgstr "Enkel"
-
-#~ msgid "Software selection"
-#~ msgstr "Seleksie van sagteware"
 
 #~ msgid "Specialized & Network Disks"
 #~ msgstr "Gespesialiseerde en netwerkskywe"

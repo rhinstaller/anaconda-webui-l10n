@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 03:42+0000\n"
+"POT-Creation-Date: 2025-12-06 03:33+0000\n"
 "PO-Revision-Date: 2023-11-06 12:18+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Hindi <https://translate.fedoraproject.org/projects/anaconda-"
@@ -119,10 +119,26 @@ msgstr ""
 msgid "Add mount"
 msgstr ""
 
+#: src/components/software/SoftwareSelection.jsx:134
+#, fuzzy
+#| msgid "Add-Ons for Selected Environment"
+msgid "Add-ons for your chosen environment"
+msgstr "चुने गए वातावरण के लिए सहयुक्तियाँ"
+
+#: src/components/software/SoftwareSelection.jsx:143
+msgid "Add-ons not specific to your environment"
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:157
 #, fuzzy
 msgid "Additional languages"
 msgstr "चयनित युक्ति"
+
+#: src/components/software/SoftwareSelection.jsx:168
+#, fuzzy
+#| msgid "Add-Ons for Selected Environment"
+msgid "Additional software for the selected environment"
+msgstr "चुने गए वातावरण के लिए सहयुक्तियाँ"
 
 #: src/components/Error.jsx:215
 msgid ""
@@ -182,6 +198,10 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
+#: src/components/software/SoftwareSelection.jsx:75
+msgid "Base environment"
+msgstr "बेस वातावरण"
+
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
@@ -194,7 +214,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:291
+#: src/components/localization/Keyboard.jsx:292
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 msgid "Cancel"
 msgstr ""
@@ -218,8 +238,8 @@ msgid "Change partition layout"
 msgstr "विवरण"
 
 #: src/components/localization/Keyboard.jsx:225
-#: src/components/localization/Keyboard.jsx:328
-#: src/components/localization/Keyboard.jsx:386
+#: src/components/localization/Keyboard.jsx:329
+#: src/components/localization/Keyboard.jsx:387
 msgid "Change system keyboard layout"
 msgstr ""
 
@@ -235,7 +255,7 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr "भंडारण विन्यास जाँच रहा है..."
 
-#: src/components/localization/Common.jsx:115
+#: src/components/common/MenuSearch.jsx:124
 msgid "Clear search"
 msgstr ""
 
@@ -582,7 +602,7 @@ msgid ""
 "OS."
 msgstr ""
 
-#: src/components/localization/InstallationLanguage.jsx:256
+#: src/components/localization/InstallationLanguage.jsx:257
 msgid "Keyboard"
 msgstr ""
 
@@ -590,7 +610,7 @@ msgstr ""
 msgid "Keyboard layout during boot"
 msgstr ""
 
-#: src/components/localization/InstallationLanguage.jsx:240
+#: src/components/localization/InstallationLanguage.jsx:241
 #: src/components/review/ReviewConfiguration.jsx:192
 #, fuzzy
 msgid "Language"
@@ -659,7 +679,7 @@ msgstr ""
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:304
+#: src/components/localization/Keyboard.jsx:305
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 
@@ -736,17 +756,17 @@ msgstr "अनुपलब्ध"
 msgid "No disks selected"
 msgstr "कोई डिस्क चुना नहीं गया"
 
-#: src/components/localization/Keyboard.jsx:251
+#: src/components/localization/Keyboard.jsx:252
 #, fuzzy
 #| msgid "Nothing selected"
 msgid "No layouts selected yet"
 msgstr "कुछ नहीं चयनित किया जा रहा है"
 
-#: src/components/localization/Common.jsx:138
+#: src/components/common/MenuSearch.jsx:147
 msgid "No results found"
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:421
+#: src/components/localization/Keyboard.jsx:422
 msgid ""
 "No valid VConsole keymap can be obtained for the selected keyboard "
 "layout(s). Please make a different keyboard layout selection."
@@ -1044,7 +1064,7 @@ msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:288
+#: src/components/localization/Keyboard.jsx:289
 #: src/components/review/Hostname.jsx:137
 msgid "Save"
 msgstr ""
@@ -1056,6 +1076,17 @@ msgstr ""
 #: src/components/localization/InstallationLanguage.jsx:210
 #, fuzzy
 msgid "Search for a language"
+msgstr "चयनित युक्ति"
+
+#: src/components/software/SoftwareSelection.jsx:171
+#, fuzzy
+#| msgid "Custom software selected"
+msgid "Search for additional software"
+msgstr "पसंदीदा सॉफ्टवेयर चुना गया"
+
+#: src/components/software/SoftwareSelection.jsx:78
+#, fuzzy
+msgid "Search for an environment"
 msgstr "चयनित युक्ति"
 
 #: src/components/localization/Keyboard.jsx:234
@@ -1096,7 +1127,7 @@ msgstr "विवरण"
 msgid "Select region"
 msgstr "विवरण"
 
-#: src/components/localization/Keyboard.jsx:244
+#: src/components/localization/Keyboard.jsx:245
 msgid "Selected (top = current)"
 msgstr ""
 
@@ -1165,6 +1196,10 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
+#: src/components/software/index.js:31 src/components/software/index.js:32
+msgid "Software selection"
+msgstr "सॉफ़्टवेयर चयन"
+
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:61
 msgid "Some required partitions are missing: $0"
 msgstr ""
@@ -1180,7 +1215,7 @@ msgstr ""
 #: src/components/installation/InstallationProgress.jsx:141
 #: src/components/storage/storage-configuration/index.js:32
 #: src/components/storage/storage-configuration/index.js:33
-#: src/components/steps.js:27
+#: src/components/steps.js:29
 #, fuzzy
 msgid "Storage configuration"
 msgstr "भंडारण विन्यास सहेज रहा है..."
@@ -1272,7 +1307,7 @@ msgid ""
 "be able to switch between keyboard layouts when typing it."
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:273
+#: src/components/localization/Keyboard.jsx:274
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
@@ -1832,11 +1867,6 @@ msgstr ""
 #~ msgid "Additional software for Selected Environment"
 #~ msgstr "चुने गए वातावरण के लिए सहयुक्तियाँ"
 
-#, fuzzy
-#~| msgid "Add-Ons for Selected Environment"
-#~ msgid "Additional software for selected environment"
-#~ msgstr "चुने गए वातावरण के लिए सहयुक्तियाँ"
-
 #, python-format
 #~ msgid "Administrator %s will be created"
 #~ msgstr "प्रशासक %s बनाया जाएगा"
@@ -1925,9 +1955,6 @@ msgstr ""
 #~ msgstr "%s क्षेत्र में उपलब्ध समयक्षेत्र"
 
 #~ msgid "Base Environment"
-#~ msgstr "बेस वातावरण"
-
-#~ msgid "Base environment"
 #~ msgstr "बेस वातावरण"
 
 #~ msgid "Bond"
@@ -2524,11 +2551,6 @@ msgstr ""
 #~ msgid "No *.iso files found in device root folder"
 #~ msgstr "युक्ति रूट फ़ोल्डर में कोई *.iso फ़ाइल नहीं मिला"
 
-#, fuzzy
-#~| msgid "Custom software selected"
-#~ msgid "No additional software to select."
-#~ msgstr "पसंदीदा सॉफ्टवेयर चुना गया"
-
 #~ msgid "No credentials (discovery authentication disabled)"
 #~ msgstr "कोई श्रेय नहीं (खोज सत्यापन निष्क्रिय)"
 
@@ -2942,9 +2964,6 @@ msgstr ""
 
 #~ msgid "Setting up the installation environment"
 #~ msgstr "संस्थापन वातावरण का सेटअप"
-
-#~ msgid "Software selection"
-#~ msgstr "सॉफ़्टवेयर चयन"
 
 #~ msgid "Source changed - please verify"
 #~ msgstr "स्रोत परिवर्तित - कृपया जाँचें"

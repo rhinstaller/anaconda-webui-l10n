@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 03:42+0000\n"
+"POT-Creation-Date: 2025-12-06 03:33+0000\n"
 "PO-Revision-Date: 2023-11-06 12:16+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Bengali (India) <https://translate.fedoraproject.org/projects/"
@@ -125,11 +125,27 @@ msgstr ""
 msgid "Add mount"
 msgstr "সজ্জা যোগ করুন"
 
+#: src/components/software/SoftwareSelection.jsx:134
+#, fuzzy
+#| msgid "Add-Ons for Selected Environment"
+msgid "Add-ons for your chosen environment"
+msgstr "নির্বাচিত এনভায়রনমেন্টের জন্য অ্যাড-অন"
+
+#: src/components/software/SoftwareSelection.jsx:143
+msgid "Add-ons not specific to your environment"
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:157
 #, fuzzy
 #| msgid "Available languages"
 msgid "Additional languages"
 msgstr "উপলব্ধ ভাষা"
+
+#: src/components/software/SoftwareSelection.jsx:168
+#, fuzzy
+#| msgid "Add-Ons for Selected Environment"
+msgid "Additional software for the selected environment"
+msgstr "নির্বাচিত এনভায়রনমেন্টের জন্য অ্যাড-অন"
 
 #: src/components/Error.jsx:215
 msgid ""
@@ -189,6 +205,10 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
+#: src/components/software/SoftwareSelection.jsx:75
+msgid "Base environment"
+msgstr "প্রাথমিক এনভায়রনমেন্ট"
+
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
@@ -201,7 +221,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:291
+#: src/components/localization/Keyboard.jsx:292
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 #, fuzzy
 msgid "Cancel"
@@ -231,8 +251,8 @@ msgid "Change partition layout"
 msgstr "বিবরণ"
 
 #: src/components/localization/Keyboard.jsx:225
-#: src/components/localization/Keyboard.jsx:328
-#: src/components/localization/Keyboard.jsx:386
+#: src/components/localization/Keyboard.jsx:329
+#: src/components/localization/Keyboard.jsx:387
 msgid "Change system keyboard layout"
 msgstr ""
 
@@ -248,7 +268,7 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr "স্টোরেজ কনফিগারেশন পরীক্ষা করা হচ্ছে..."
 
-#: src/components/localization/Common.jsx:115
+#: src/components/common/MenuSearch.jsx:124
 msgid "Clear search"
 msgstr ""
 
@@ -602,7 +622,7 @@ msgid ""
 "OS."
 msgstr ""
 
-#: src/components/localization/InstallationLanguage.jsx:256
+#: src/components/localization/InstallationLanguage.jsx:257
 msgid "Keyboard"
 msgstr ""
 
@@ -610,7 +630,7 @@ msgstr ""
 msgid "Keyboard layout during boot"
 msgstr ""
 
-#: src/components/localization/InstallationLanguage.jsx:240
+#: src/components/localization/InstallationLanguage.jsx:241
 #: src/components/review/ReviewConfiguration.jsx:192
 #, fuzzy
 msgid "Language"
@@ -679,7 +699,7 @@ msgstr ""
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:304
+#: src/components/localization/Keyboard.jsx:305
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 
@@ -759,17 +779,17 @@ msgstr "উপলব্ধ নয়"
 msgid "No disks selected"
 msgstr "কোনো ডিস্ক নির্বাচন করা হয়নি"
 
-#: src/components/localization/Keyboard.jsx:251
+#: src/components/localization/Keyboard.jsx:252
 #, fuzzy
 #| msgid "Nothing selected"
 msgid "No layouts selected yet"
 msgstr "কিছুই নির্বাচন করা হয়নি"
 
-#: src/components/localization/Common.jsx:138
+#: src/components/common/MenuSearch.jsx:147
 msgid "No results found"
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:421
+#: src/components/localization/Keyboard.jsx:422
 msgid ""
 "No valid VConsole keymap can be obtained for the selected keyboard "
 "layout(s). Please make a different keyboard layout selection."
@@ -1077,7 +1097,7 @@ msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:288
+#: src/components/localization/Keyboard.jsx:289
 #: src/components/review/Hostname.jsx:137
 #, fuzzy
 #| msgctxt "GUI|Custom Partitioning|Container Dialog"
@@ -1092,6 +1112,17 @@ msgstr ""
 #: src/components/localization/InstallationLanguage.jsx:210
 #, fuzzy
 msgid "Search for a language"
+msgstr "ভাষা"
+
+#: src/components/software/SoftwareSelection.jsx:171
+#, fuzzy
+#| msgid "Custom software selected"
+msgid "Search for additional software"
+msgstr "কাস্টম সফ্টওয়্যার নির্বাচিত"
+
+#: src/components/software/SoftwareSelection.jsx:78
+#, fuzzy
+msgid "Search for an environment"
 msgstr "ভাষা"
 
 #: src/components/localization/Keyboard.jsx:234
@@ -1136,7 +1167,7 @@ msgstr "বিবরণ"
 msgid "Select region"
 msgstr "নেটওয়ার্কে (_O):"
 
-#: src/components/localization/Keyboard.jsx:244
+#: src/components/localization/Keyboard.jsx:245
 #, fuzzy
 #| msgid "Selected Layouts"
 msgid "Selected (top = current)"
@@ -1212,6 +1243,10 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
+#: src/components/software/index.js:31 src/components/software/index.js:32
+msgid "Software selection"
+msgstr "সফ্টওয়্যার নির্বাচন"
+
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:61
 msgid "Some required partitions are missing: $0"
 msgstr ""
@@ -1230,7 +1265,7 @@ msgstr "স্টোরেজ বিকল্প"
 #: src/components/installation/InstallationProgress.jsx:141
 #: src/components/storage/storage-configuration/index.js:32
 #: src/components/storage/storage-configuration/index.js:33
-#: src/components/steps.js:27
+#: src/components/steps.js:29
 #, fuzzy
 msgid "Storage configuration"
 msgstr "নেটওয়ার্ক কনফিগারেশন"
@@ -1325,7 +1360,7 @@ msgid ""
 "be able to switch between keyboard layouts when typing it."
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:273
+#: src/components/localization/Keyboard.jsx:274
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
@@ -2081,11 +2116,6 @@ msgstr ""
 #~ msgid "Additional software for Selected Environment"
 #~ msgstr "নির্বাচিত এনভায়রনমেন্টের জন্য অ্যাড-অন"
 
-#, fuzzy
-#~| msgid "Add-Ons for Selected Environment"
-#~ msgid "Additional software for selected environment"
-#~ msgstr "নির্বাচিত এনভায়রনমেন্টের জন্য অ্যাড-অন"
-
 #, python-format
 #~ msgid "Administrator %s will be created"
 #~ msgstr "প্রশাসক %s তৈরি করা হবে"
@@ -2229,9 +2259,6 @@ msgstr ""
 #~ msgstr "%s অঞ্চলের উপলব্ধ সময়-অঞ্চল"
 
 #~ msgid "Base Environment"
-#~ msgstr "প্রাথমিক এনভায়রনমেন্ট"
-
-#~ msgid "Base environment"
 #~ msgstr "প্রাথমিক এনভায়রনমেন্ট"
 
 #~ msgid "Beta Warn"
@@ -3238,11 +3265,6 @@ msgstr ""
 #~ msgid "No *.iso files found in device root folder"
 #~ msgstr "ডিভাইস রুট ফোল্ডারে কোনো *.iso ফাইল খুঁজে পাওয়া যায়নি"
 
-#, fuzzy
-#~| msgid "Custom software selected"
-#~ msgid "No additional software to select."
-#~ msgstr "কাস্টম সফ্টওয়্যার নির্বাচিত"
-
 #~ msgid "No credentials (discovery authentication disabled)"
 #~ msgstr "পরিচিতি অনুপস্থিত (সনাক্ত করে অনুমোদনের পদ্ধতি নিষ্ক্রিয় রয়েছে)"
 
@@ -3974,9 +3996,6 @@ msgstr ""
 #~ "পারে।  আপনি যদি SMT সক্ষম রেখে যেতে চান, তাহলে আপনার সম্ভাব্য ঝুঁকিগুলি বুঝতে "
 #~ "এবং এই ঝুঁকিগুলি কমানোর অন্যান্য উপায় সম্পর্কে জানতে অনুগ্রহ করে https://red.ht/"
 #~ "rhel-smt পড়ুন৷"
-
-#~ msgid "Software selection"
-#~ msgstr "সফ্টওয়্যার নির্বাচন"
 
 #~ msgid "Source changed - please verify"
 #~ msgstr "সোর্স পরিবর্তিত হয়েছে - দয়া করে যাচাই করুন"

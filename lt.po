@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 03:42+0000\n"
+"POT-Creation-Date: 2025-12-06 03:33+0000\n"
 "PO-Revision-Date: 2025-03-03 23:11+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -122,9 +122,25 @@ msgstr "Pridėti NTP serverį"
 msgid "Add mount"
 msgstr "Apie prijungimą"
 
+#: src/components/software/SoftwareSelection.jsx:134
+#, fuzzy
+#| msgid "Additional software for selected environment"
+msgid "Add-ons for your chosen environment"
+msgstr "Papildoma programinė įranga pasirinktai aplinkai"
+
+#: src/components/software/SoftwareSelection.jsx:143
+msgid "Add-ons not specific to your environment"
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:157
 msgid "Additional languages"
 msgstr "Papildomos kalbos"
+
+#: src/components/software/SoftwareSelection.jsx:168
+#, fuzzy
+#| msgid "Additional software for selected environment"
+msgid "Additional software for the selected environment"
+msgstr "Papildoma programinė įranga pasirinktai aplinkai"
 
 #: src/components/Error.jsx:215
 msgid ""
@@ -183,6 +199,10 @@ msgstr "Laisva vieta: $0. Įdiegimui reikalinga: $1."
 msgid "Back"
 msgstr "Grįžti"
 
+#: src/components/software/SoftwareSelection.jsx:75
+msgid "Base environment"
+msgstr "Pagrindinė aplinka"
+
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
@@ -199,7 +219,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:291
+#: src/components/localization/Keyboard.jsx:292
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "Atsisakyti"
@@ -223,8 +243,8 @@ msgid "Change partition layout"
 msgstr "Pakeiskite paskirties vietą"
 
 #: src/components/localization/Keyboard.jsx:225
-#: src/components/localization/Keyboard.jsx:328
-#: src/components/localization/Keyboard.jsx:386
+#: src/components/localization/Keyboard.jsx:329
+#: src/components/localization/Keyboard.jsx:387
 msgid "Change system keyboard layout"
 msgstr ""
 
@@ -239,7 +259,7 @@ msgstr "Čia atlikti pakeitimai iš karto paveiks sistemą. Nėra „anuliuoti�
 msgid "Checking storage configuration"
 msgstr "Tikrinama saugyklos konfigūracija"
 
-#: src/components/localization/Common.jsx:115
+#: src/components/common/MenuSearch.jsx:124
 #, fuzzy
 #| msgid "Clear search input"
 msgid "Clear search"
@@ -570,7 +590,7 @@ msgstr ""
 "Išsaugokite dabartinį disko išdėstymą ir naudokite laisvą vietą, kad "
 "galėtumėte atlikti dvigubą įkrovą su kita OS."
 
-#: src/components/localization/InstallationLanguage.jsx:256
+#: src/components/localization/InstallationLanguage.jsx:257
 #, fuzzy
 #| msgctxt "GUI|Spoke"
 #| msgid "_Keyboard"
@@ -581,7 +601,7 @@ msgstr "_Klaviatūra"
 msgid "Keyboard layout during boot"
 msgstr ""
 
-#: src/components/localization/InstallationLanguage.jsx:240
+#: src/components/localization/InstallationLanguage.jsx:241
 #: src/components/review/ReviewConfiguration.jsx:192
 msgid "Language"
 msgstr "Kalbos"
@@ -646,7 +666,7 @@ msgstr ""
 "Neatitikimas tarp tėvinio įrenginio ir vaikinio įrenginio performatavimo "
 "pasirinkimų."
 
-#: src/components/localization/Keyboard.jsx:304
+#: src/components/localization/Keyboard.jsx:305
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 
@@ -725,18 +745,18 @@ msgstr "Diskų nėra"
 msgid "No disks selected"
 msgstr "Nepasirinkti diskai"
 
-#: src/components/localization/Keyboard.jsx:251
+#: src/components/localization/Keyboard.jsx:252
 #, fuzzy
 #| msgid "$0 selected"
 #| msgid_plural "$0 selected"
 msgid "No layouts selected yet"
 msgstr "Pasirinktas $0"
 
-#: src/components/localization/Common.jsx:138
+#: src/components/common/MenuSearch.jsx:147
 msgid "No results found"
 msgstr "Rezultatų nerasta"
 
-#: src/components/localization/Keyboard.jsx:421
+#: src/components/localization/Keyboard.jsx:422
 msgid ""
 "No valid VConsole keymap can be obtained for the selected keyboard "
 "layout(s). Please make a different keyboard layout selection."
@@ -1022,7 +1042,7 @@ msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:288
+#: src/components/localization/Keyboard.jsx:289
 #: src/components/review/Hostname.jsx:137
 msgid "Save"
 msgstr "Išsaugoti"
@@ -1033,6 +1053,18 @@ msgstr "Nuskaitykite QR kodą telefonu arba apsilankykite:"
 
 #: src/components/localization/InstallationLanguage.jsx:210
 msgid "Search for a language"
+msgstr "Ieškokite kalbos"
+
+#: src/components/software/SoftwareSelection.jsx:171
+#, fuzzy
+#| msgid "No additional software to select."
+msgid "Search for additional software"
+msgstr "Nėra papildomos programinės įrangos."
+
+#: src/components/software/SoftwareSelection.jsx:78
+#, fuzzy
+#| msgid "Search for a language"
+msgid "Search for an environment"
 msgstr "Ieškokite kalbos"
 
 #: src/components/localization/Keyboard.jsx:234
@@ -1073,7 +1105,7 @@ msgstr "Pasirinkite paskirties vietą"
 msgid "Select region"
 msgstr "Nežymėti nieko"
 
-#: src/components/localization/Keyboard.jsx:244
+#: src/components/localization/Keyboard.jsx:245
 #, fuzzy
 #| msgid "Selected Layouts"
 msgid "Selected (top = current)"
@@ -1149,6 +1181,10 @@ msgstr ""
 "Programinės įrangos diegimas: saugyklos konfigūracija baigta. Programinė "
 "įranga dabar yra diegiama jūsų įrenginyje."
 
+#: src/components/software/index.js:31 src/components/software/index.js:32
+msgid "Software selection"
+msgstr "Programinės įrangos pasirinkimas"
+
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:61
 msgid "Some required partitions are missing: $0"
 msgstr "Trūksta kai kurių būtinų skaidinių: $0"
@@ -1164,7 +1200,7 @@ msgstr "Saugykla"
 #: src/components/installation/InstallationProgress.jsx:141
 #: src/components/storage/storage-configuration/index.js:32
 #: src/components/storage/storage-configuration/index.js:33
-#: src/components/steps.js:27
+#: src/components/steps.js:29
 msgid "Storage configuration"
 msgstr "Saugyklos konfigūracija"
 
@@ -1253,7 +1289,7 @@ msgstr ""
 "Jūsų pateiktoje slaptafrazėje yra ne ASCII simbolių. Gali būti, kad "
 "negalėsite keisti klaviatūros išdėstymų ąį įvesdami."
 
-#: src/components/localization/Keyboard.jsx:273
+#: src/components/localization/Keyboard.jsx:274
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
@@ -2276,9 +2312,6 @@ msgstr "anuliuoti"
 #~ msgid "Additional software for Selected Environment"
 #~ msgstr "Papildoma programinė įranga pasirinktai aplinkai"
 
-#~ msgid "Additional software for selected environment"
-#~ msgstr "Papildoma programinė įranga pasirinktai aplinkai"
-
 #~ msgid "Administrator"
 #~ msgstr "Administratorius"
 
@@ -2458,9 +2491,6 @@ msgstr "anuliuoti"
 
 #~ msgid "Base Environment"
 #~ msgstr "Bazinė aplinka"
-
-#~ msgid "Base environment"
-#~ msgstr "Pagrindinė aplinka"
 
 #~ msgid "Beta Warn"
 #~ msgstr "Beta įspėjimas"
@@ -3917,9 +3947,6 @@ msgstr "anuliuoti"
 #~ msgid "No *.iso files found in device root folder"
 #~ msgstr "Nėra *.iso failų įrenginio šakniniame aplanke"
 
-#~ msgid "No additional software to select."
-#~ msgstr "Nėra papildomos programinės įrangos."
-
 #~ msgid "No credentials (discovery authentication disabled)"
 #~ msgstr "Nėra įgaliojimų (tapatybės patvirtinimo aptikimas išjungtas)"
 
@@ -4923,9 +4950,6 @@ msgstr "anuliuoti"
 #~ msgstr ""
 #~ "Momentinė kopija: šaltinis „{}“ kopijai „{}“ nėra tinkamas plonas LV "
 #~ "įrenginys."
-
-#~ msgid "Software selection"
-#~ msgstr "Programinės įrangos pasirinkimas"
 
 #~ msgid "Some of the repomd.xml files have changed or are unreachable."
 #~ msgstr "Kai kurie repomd.xml failai pasikeitės arba yra nepasiekiami."

@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 03:42+0000\n"
+"POT-Creation-Date: 2025-12-06 03:33+0000\n"
 "PO-Revision-Date: 2025-10-17 03:26+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -123,9 +123,25 @@ msgstr "Додати інший сервер…"
 msgid "Add mount"
 msgstr "Додати монтування"
 
+#: src/components/software/SoftwareSelection.jsx:134
+#, fuzzy
+#| msgid "Additional software for selected environment"
+msgid "Add-ons for your chosen environment"
+msgstr "Додаткове програмне забезпечення для вибраного середовища"
+
+#: src/components/software/SoftwareSelection.jsx:143
+msgid "Add-ons not specific to your environment"
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:157
 msgid "Additional languages"
 msgstr "Додаткові мови"
+
+#: src/components/software/SoftwareSelection.jsx:168
+#, fuzzy
+#| msgid "Additional software for selected environment"
+msgid "Additional software for the selected environment"
+msgstr "Додаткове програмне забезпечення для вибраного середовища"
 
 #: src/components/Error.jsx:215
 msgid ""
@@ -188,6 +204,10 @@ msgstr "Доступний вільний простір: $0. Для встан�
 msgid "Back"
 msgstr "Назад"
 
+#: src/components/software/SoftwareSelection.jsx:75
+msgid "Base environment"
+msgstr "Базове середовище"
+
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
@@ -205,7 +225,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:291
+#: src/components/localization/Keyboard.jsx:292
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "Скасувати"
@@ -227,8 +247,8 @@ msgid "Change partition layout"
 msgstr "Змінити компонування розділів"
 
 #: src/components/localization/Keyboard.jsx:225
-#: src/components/localization/Keyboard.jsx:328
-#: src/components/localization/Keyboard.jsx:386
+#: src/components/localization/Keyboard.jsx:329
+#: src/components/localization/Keyboard.jsx:387
 msgid "Change system keyboard layout"
 msgstr "Змінити загальносистемну розкладку клавіатури"
 
@@ -244,7 +264,7 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr "Перевіряємо налаштування носія"
 
-#: src/components/localization/Common.jsx:115
+#: src/components/common/MenuSearch.jsx:124
 msgid "Clear search"
 msgstr "Спорожнити поле пошуку"
 
@@ -568,7 +588,7 @@ msgstr ""
 "Зберегти поточне компонування дисків і використати доступне вільне місце для "
 "подвійного завантаження з іншою ОС."
 
-#: src/components/localization/InstallationLanguage.jsx:256
+#: src/components/localization/InstallationLanguage.jsx:257
 msgid "Keyboard"
 msgstr "Клавіатура"
 
@@ -576,7 +596,7 @@ msgstr "Клавіатура"
 msgid "Keyboard layout during boot"
 msgstr "Розкладка клавіатури під час завантаження"
 
-#: src/components/localization/InstallationLanguage.jsx:240
+#: src/components/localization/InstallationLanguage.jsx:241
 #: src/components/review/ReviewConfiguration.jsx:192
 msgid "Language"
 msgstr "Мова"
@@ -642,7 +662,7 @@ msgstr ""
 "Невідповідність між вибраними параметрами повторного форматування "
 "батьківського та дочірнього пристроїв."
 
-#: src/components/localization/Keyboard.jsx:304
+#: src/components/localization/Keyboard.jsx:305
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 "Виявлено декілька розкладок. Вилучіть додаткові розкладки, щоб продовжити"
@@ -716,15 +736,15 @@ msgstr "Немає доступних дисків"
 msgid "No disks selected"
 msgstr "Не позначено жодного диска"
 
-#: src/components/localization/Keyboard.jsx:251
+#: src/components/localization/Keyboard.jsx:252
 msgid "No layouts selected yet"
 msgstr "Ще не вибрано жодної розкладки"
 
-#: src/components/localization/Common.jsx:138
+#: src/components/common/MenuSearch.jsx:147
 msgid "No results found"
 msgstr "Нічого не знайдено"
 
-#: src/components/localization/Keyboard.jsx:421
+#: src/components/localization/Keyboard.jsx:422
 msgid ""
 "No valid VConsole keymap can be obtained for the selected keyboard "
 "layout(s). Please make a different keyboard layout selection."
@@ -1002,7 +1022,7 @@ msgstr ""
 "користувача"
 
 #: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:288
+#: src/components/localization/Keyboard.jsx:289
 #: src/components/review/Hostname.jsx:137
 msgid "Save"
 msgstr "Зберегти"
@@ -1015,6 +1035,18 @@ msgstr ""
 
 #: src/components/localization/InstallationLanguage.jsx:210
 msgid "Search for a language"
+msgstr "Шукати мову"
+
+#: src/components/software/SoftwareSelection.jsx:171
+#, fuzzy
+#| msgid "No additional software to select."
+msgid "Search for additional software"
+msgstr "Немає додаткового програмного забезпечення для вибору."
+
+#: src/components/software/SoftwareSelection.jsx:78
+#, fuzzy
+#| msgid "Search for a language"
+msgid "Search for an environment"
 msgstr "Шукати мову"
 
 #: src/components/localization/Keyboard.jsx:234
@@ -1049,7 +1081,7 @@ msgstr "Виберіть призначення"
 msgid "Select region"
 msgstr "Виберіть регіон"
 
-#: src/components/localization/Keyboard.jsx:244
+#: src/components/localization/Keyboard.jsx:245
 msgid "Selected (top = current)"
 msgstr "Вибрані (верхня = поточна)"
 
@@ -1113,6 +1145,10 @@ msgstr ""
 "Встановлення програмного забезпечення: завершено налаштовування сховища "
 "даних. Тепер встановлюємо програмне забезпечення на ваш пристрій."
 
+#: src/components/software/index.js:31 src/components/software/index.js:32
+msgid "Software selection"
+msgstr "Вибір програмного забезпечення"
+
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:61
 msgid "Some required partitions are missing: $0"
 msgstr "Не вистачає декількох обов'язкових розділів: $0"
@@ -1128,7 +1164,7 @@ msgstr "Сховище даних"
 #: src/components/installation/InstallationProgress.jsx:141
 #: src/components/storage/storage-configuration/index.js:32
 #: src/components/storage/storage-configuration/index.js:33
-#: src/components/steps.js:27
+#: src/components/steps.js:29
 msgid "Storage configuration"
 msgstr "Налаштування сховища даних"
 
@@ -1220,7 +1256,7 @@ msgstr ""
 "Вказаний вами пароль містить символи, які не є символами ASCII. У вас може "
 "не бути можливості перемкнути розкладку клавіатури під час його введення."
 
-#: src/components/localization/Keyboard.jsx:273
+#: src/components/localization/Keyboard.jsx:274
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
@@ -2289,9 +2325,6 @@ msgstr "скасувати"
 #~ msgid "Additional software for Selected Environment"
 #~ msgstr "Додаткове програмне забезпечення для вибраного середовища"
 
-#~ msgid "Additional software for selected environment"
-#~ msgstr "Додаткове програмне забезпечення для вибраного середовища"
-
 #~ msgid "Administrator"
 #~ msgstr "Адміністратор"
 
@@ -2475,9 +2508,6 @@ msgstr "скасувати"
 #~ msgstr "Помилкове форматування маски мережі"
 
 #~ msgid "Base Environment"
-#~ msgstr "Базове середовище"
-
-#~ msgid "Base environment"
 #~ msgstr "Базове середовище"
 
 #~ msgid "Beta Warn"
@@ -3952,9 +3982,6 @@ msgstr "скасувати"
 #~ msgid "No *.iso files found in device root folder"
 #~ msgstr "У кореневій теці пристрою не знайдено файлів *.iso"
 
-#~ msgid "No additional software to select."
-#~ msgstr "Немає додаткового програмного забезпечення для вибору."
-
 #~ msgid "No credentials (discovery authentication disabled)"
 #~ msgstr "Без реєстраційних даних (розпізнавання з визначенням вимкнено)"
 
@@ -4979,9 +5006,6 @@ msgstr "скасувати"
 #~ msgstr ""
 #~ "Знімок: походження «{}» знімка «{}» не є коректним тонким пристроєм "
 #~ "логічного тому."
-
-#~ msgid "Software selection"
-#~ msgstr "Вибір програмного забезпечення"
 
 #~ msgid "Some of the repomd.xml files have changed or are unreachable."
 #~ msgstr "Деякі з файлів repomd.xml було змінено або вони є недоступними."

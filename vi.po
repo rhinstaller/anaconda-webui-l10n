@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 38.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 03:42+0000\n"
+"POT-Creation-Date: 2025-12-06 03:33+0000\n"
 "PO-Revision-Date: 2025-11-29 12:01+0000\n"
 "Last-Translator: Khoa Le <inctenone@gmail.com>\n"
 "Language-Team: Vietnamese <https://translate.fedoraproject.org/projects/"
@@ -103,9 +103,21 @@ msgstr "Thêm máy chủ khác..."
 msgid "Add mount"
 msgstr "Thêm điểm gắn kết"
 
+#: src/components/software/SoftwareSelection.jsx:134
+msgid "Add-ons for your chosen environment"
+msgstr ""
+
+#: src/components/software/SoftwareSelection.jsx:143
+msgid "Add-ons not specific to your environment"
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:157
 msgid "Additional languages"
 msgstr "Ngôn ngữ bổ sung"
+
+#: src/components/software/SoftwareSelection.jsx:168
+msgid "Additional software for the selected environment"
+msgstr ""
 
 #: src/components/Error.jsx:215
 msgid ""
@@ -164,6 +176,10 @@ msgstr "Bộ nhớ còn trống: $0. Việc cài đặt cần: $1."
 msgid "Back"
 msgstr "Quay lại"
 
+#: src/components/software/SoftwareSelection.jsx:75
+msgid "Base environment"
+msgstr ""
+
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
@@ -180,7 +196,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:291
+#: src/components/localization/Keyboard.jsx:292
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "Huỷ bỏ"
@@ -202,8 +218,8 @@ msgid "Change partition layout"
 msgstr "Thay đổi bố cục phân vùng"
 
 #: src/components/localization/Keyboard.jsx:225
-#: src/components/localization/Keyboard.jsx:328
-#: src/components/localization/Keyboard.jsx:386
+#: src/components/localization/Keyboard.jsx:329
+#: src/components/localization/Keyboard.jsx:387
 msgid "Change system keyboard layout"
 msgstr "Thay đổi bố cục bàn phím hệ thống"
 
@@ -220,7 +236,7 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr "Đang kiểm tra các cài đặt bộ nhớ"
 
-#: src/components/localization/Common.jsx:115
+#: src/components/common/MenuSearch.jsx:124
 msgid "Clear search"
 msgstr "Xóa tìm kiếm"
 
@@ -541,7 +557,7 @@ msgstr ""
 "Giữ nguyên bố cục đĩa hiện tại và sử dụng không gian còn trống để cài đặt "
 "song song với hệ điều hành khác."
 
-#: src/components/localization/InstallationLanguage.jsx:256
+#: src/components/localization/InstallationLanguage.jsx:257
 msgid "Keyboard"
 msgstr "Bàn phím"
 
@@ -549,7 +565,7 @@ msgstr "Bàn phím"
 msgid "Keyboard layout during boot"
 msgstr "Bố cục bàn phím khi khởi động"
 
-#: src/components/localization/InstallationLanguage.jsx:240
+#: src/components/localization/InstallationLanguage.jsx:241
 #: src/components/review/ReviewConfiguration.jsx:192
 msgid "Language"
 msgstr "Ngôn ngữ"
@@ -613,7 +629,7 @@ msgstr "Yêu cầu tối thiểu $0"
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr "Lựa chọn định dạng lại không khớp giữa thiết bị cha và thiết bị con."
 
-#: src/components/localization/Keyboard.jsx:304
+#: src/components/localization/Keyboard.jsx:305
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr "Phát hiện nhiều hơn một bố cục. Xóa các bố cục bổ sung để tiếp tục"
 
@@ -685,15 +701,15 @@ msgstr "Không có thiết bị nào có sẵn"
 msgid "No disks selected"
 msgstr "Không có đĩa nào được chọn"
 
-#: src/components/localization/Keyboard.jsx:251
+#: src/components/localization/Keyboard.jsx:252
 msgid "No layouts selected yet"
 msgstr "Chưa chọn bố cục nào"
 
-#: src/components/localization/Common.jsx:138
+#: src/components/common/MenuSearch.jsx:147
 msgid "No results found"
 msgstr "Không tìm thấy kết quả"
 
-#: src/components/localization/Keyboard.jsx:421
+#: src/components/localization/Keyboard.jsx:422
 msgid ""
 "No valid VConsole keymap can be obtained for the selected keyboard "
 "layout(s). Please make a different keyboard layout selection."
@@ -970,7 +986,7 @@ msgstr ""
 "Tài khoản root đã được bật, nhưng chưa cấu hình tài khoản người dùng nào"
 
 #: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:288
+#: src/components/localization/Keyboard.jsx:289
 #: src/components/review/Hostname.jsx:137
 msgid "Save"
 msgstr "Lưu"
@@ -981,6 +997,18 @@ msgstr "Quét mã QR sau bằng điện thoại của bạn hoặc truy cập:"
 
 #: src/components/localization/InstallationLanguage.jsx:210
 msgid "Search for a language"
+msgstr "Tìm kiếm ngôn ngữ"
+
+#: src/components/software/SoftwareSelection.jsx:171
+#, fuzzy
+#| msgid "Reclaim additional space"
+msgid "Search for additional software"
+msgstr "Thu hồi thêm dung lượng"
+
+#: src/components/software/SoftwareSelection.jsx:78
+#, fuzzy
+#| msgid "Search for a language"
+msgid "Search for an environment"
 msgstr "Tìm kiếm ngôn ngữ"
 
 #: src/components/localization/Keyboard.jsx:234
@@ -1013,7 +1041,7 @@ msgstr "Chọn đích đến"
 msgid "Select region"
 msgstr "Chọn khu vực"
 
-#: src/components/localization/Keyboard.jsx:244
+#: src/components/localization/Keyboard.jsx:245
 msgid "Selected (top = current)"
 msgstr "Đã chọn (trên cùng = hiện tại)"
 
@@ -1077,6 +1105,12 @@ msgstr ""
 "Cài đặt phần mềm: Cấu hình lưu trữ hoàn tất. Phần mềm đang được cài đặt vào "
 "thiết bị của bạn."
 
+#: src/components/software/index.js:31 src/components/software/index.js:32
+#, fuzzy
+#| msgid "Software installation"
+msgid "Software selection"
+msgstr "Cài đặt phần mềm"
+
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:61
 msgid "Some required partitions are missing: $0"
 msgstr "Một số phân vùng bắt buộc đang bị thiếu: $0"
@@ -1092,7 +1126,7 @@ msgstr "Bộ nhớ"
 #: src/components/installation/InstallationProgress.jsx:141
 #: src/components/storage/storage-configuration/index.js:32
 #: src/components/storage/storage-configuration/index.js:33
-#: src/components/steps.js:27
+#: src/components/steps.js:29
 msgid "Storage configuration"
 msgstr "Thiết đặt bộ nhớ"
 
@@ -1179,7 +1213,7 @@ msgstr ""
 "(Cụm) Mật khẩu mà bạn đã cung cấp chứa những kí tự không thuộc chuẩn ASCII. "
 "Bạn có thể sẽ không thể chuyển bố cục bàn phím để gõ nó."
 
-#: src/components/localization/Keyboard.jsx:273
+#: src/components/localization/Keyboard.jsx:274
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."

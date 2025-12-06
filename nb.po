@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 03:42+0000\n"
+"POT-Creation-Date: 2025-12-06 03:33+0000\n"
 "PO-Revision-Date: 2025-11-13 03:38+0000\n"
 "Last-Translator: Morgan Wells <supertuts20@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <https://translate.fedoraproject.org/"
@@ -116,9 +116,23 @@ msgstr "Legg til en ny server…"
 msgid "Add mount"
 msgstr "Legg til monteringspunkt"
 
+#: src/components/software/SoftwareSelection.jsx:134
+msgid "Add-ons for your chosen environment"
+msgstr ""
+
+#: src/components/software/SoftwareSelection.jsx:143
+msgid "Add-ons not specific to your environment"
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:157
 msgid "Additional languages"
 msgstr "Ytterligere språk"
+
+#: src/components/software/SoftwareSelection.jsx:168
+#, fuzzy
+#| msgid "Custom software selected"
+msgid "Additional software for the selected environment"
+msgstr "Tilpasset programvare valgt"
 
 #: src/components/Error.jsx:215
 msgid ""
@@ -181,6 +195,10 @@ msgstr "Tilgjengelig lagringsplass: $0. Installasjon krever: $1."
 msgid "Back"
 msgstr "Tilbake"
 
+#: src/components/software/SoftwareSelection.jsx:75
+msgid "Base environment"
+msgstr "Basismiljø"
+
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
@@ -197,7 +215,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:291
+#: src/components/localization/Keyboard.jsx:292
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "Avbryt"
@@ -221,8 +239,8 @@ msgid "Change partition layout"
 msgstr "Endre destinasjon"
 
 #: src/components/localization/Keyboard.jsx:225
-#: src/components/localization/Keyboard.jsx:328
-#: src/components/localization/Keyboard.jsx:386
+#: src/components/localization/Keyboard.jsx:329
+#: src/components/localization/Keyboard.jsx:387
 msgid "Change system keyboard layout"
 msgstr "Endre systemtastaturoppsett"
 
@@ -239,7 +257,7 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr "Sjekker lagringskonfigurasjon"
 
-#: src/components/localization/Common.jsx:115
+#: src/components/common/MenuSearch.jsx:124
 #, fuzzy
 #| msgid "Clear search input"
 msgid "Clear search"
@@ -580,7 +598,7 @@ msgstr ""
 "Behold nåværende diskoppsett og bruk tilgjengelig lagringsplass for å "
 "dobbeltoppstarte med et annet operativsystem."
 
-#: src/components/localization/InstallationLanguage.jsx:256
+#: src/components/localization/InstallationLanguage.jsx:257
 msgid "Keyboard"
 msgstr "Tastatur"
 
@@ -588,7 +606,7 @@ msgstr "Tastatur"
 msgid "Keyboard layout during boot"
 msgstr "Tastaturoppsett under oppstart"
 
-#: src/components/localization/InstallationLanguage.jsx:240
+#: src/components/localization/InstallationLanguage.jsx:241
 #: src/components/review/ReviewConfiguration.jsx:192
 msgid "Language"
 msgstr "Språk"
@@ -653,7 +671,7 @@ msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 "Gjenformateringsvalgene for forelderenheten og barneenheten samsvarer ikke."
 
-#: src/components/localization/Keyboard.jsx:304
+#: src/components/localization/Keyboard.jsx:305
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 "Mer enn ett oppsett oppdaget. Fjern ytterligere oppsett for å fortsette"
@@ -731,17 +749,17 @@ msgstr "Ingen tilgjengelige disker"
 msgid "No disks selected"
 msgstr "Ingen disker valgt"
 
-#: src/components/localization/Keyboard.jsx:251
+#: src/components/localization/Keyboard.jsx:252
 #, fuzzy
 #| msgid "$0 layouts detected"
 msgid "No layouts selected yet"
 msgstr "$0 oppsett oppdaget"
 
-#: src/components/localization/Common.jsx:138
+#: src/components/common/MenuSearch.jsx:147
 msgid "No results found"
 msgstr "Ingen treff"
 
-#: src/components/localization/Keyboard.jsx:421
+#: src/components/localization/Keyboard.jsx:422
 msgid ""
 "No valid VConsole keymap can be obtained for the selected keyboard "
 "layout(s). Please make a different keyboard layout selection."
@@ -1030,7 +1048,7 @@ msgid "Root account is enabled, but no user account has been configured"
 msgstr "Root-kontoen er aktivert, men ingen brukerkonto er konfigurert"
 
 #: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:288
+#: src/components/localization/Keyboard.jsx:289
 #: src/components/review/Hostname.jsx:137
 msgid "Save"
 msgstr "Lagre"
@@ -1041,6 +1059,18 @@ msgstr "Skanner QR-koden med telefonen din eller besøk:"
 
 #: src/components/localization/InstallationLanguage.jsx:210
 msgid "Search for a language"
+msgstr "Søk etter et språk"
+
+#: src/components/software/SoftwareSelection.jsx:171
+#, fuzzy
+#| msgid "Custom software selected"
+msgid "Search for additional software"
+msgstr "Tilpasset programvare valgt"
+
+#: src/components/software/SoftwareSelection.jsx:78
+#, fuzzy
+#| msgid "Search for a language"
+msgid "Search for an environment"
 msgstr "Søk etter et språk"
 
 #: src/components/localization/Keyboard.jsx:234
@@ -1082,7 +1112,7 @@ msgstr "Velg destinasjon"
 msgid "Select region"
 msgstr "På nettve_rket:"
 
-#: src/components/localization/Keyboard.jsx:244
+#: src/components/localization/Keyboard.jsx:245
 msgid "Selected (top = current)"
 msgstr "Valgt (øverst = gjeldende)"
 
@@ -1155,6 +1185,13 @@ msgstr ""
 "Programvareinstallasjon: Lagringskonfigurasjon fullført. Programvaren blir "
 "nå installert på enheten din."
 
+#: src/components/software/index.js:31 src/components/software/index.js:32
+#, fuzzy
+#| msgctxt "GUI|Software Selection|Error Dialog"
+#| msgid "Modify _Selections"
+msgid "Software selection"
+msgstr "Endre _programvare"
+
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:61
 msgid "Some required partitions are missing: $0"
 msgstr "Noen påkrevde partisjoner mangler: $0"
@@ -1170,7 +1207,7 @@ msgstr "Lagringsplass"
 #: src/components/installation/InstallationProgress.jsx:141
 #: src/components/storage/storage-configuration/index.js:32
 #: src/components/storage/storage-configuration/index.js:33
-#: src/components/steps.js:27
+#: src/components/steps.js:29
 msgid "Storage configuration"
 msgstr "Lagringsplasskonfigurasjon"
 
@@ -1267,7 +1304,7 @@ msgstr ""
 "(disse tegnene er mest sannsynlig æ, ø eller å). Det kan hende at du ikke "
 "kan bytte tastaturoppsett når du skriver den inn."
 
-#: src/components/localization/Keyboard.jsx:273
+#: src/components/localization/Keyboard.jsx:274
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
@@ -2022,9 +2059,6 @@ msgstr "angre"
 #~ msgstr "Nettverksmasken har ugyldig format"
 
 #~ msgid "Base Environment"
-#~ msgstr "Basismiljø"
-
-#~ msgid "Base environment"
 #~ msgstr "Basismiljø"
 
 #~ msgid "Bond"
@@ -2812,11 +2846,6 @@ msgstr "angre"
 
 #~ msgid "New Device"
 #~ msgstr "Ny enhet"
-
-#, fuzzy
-#~| msgid "Custom software selected"
-#~ msgid "No additional software to select."
-#~ msgstr "Tilpasset programvare valgt"
 
 #~ msgid "No disks assigned"
 #~ msgstr "Ingen tilordnet disk"
@@ -4985,12 +5014,6 @@ msgstr "angre"
 #~| msgid "%s timezone"
 #~ msgid "Time & Date"
 #~ msgstr "%s tidssone"
-
-#, fuzzy
-#~| msgctxt "GUI|Software Selection|Error Dialog"
-#~| msgid "Modify _Selections"
-#~ msgid "Software Selection"
-#~ msgstr "Endre _programvare"
 
 #, fuzzy
 #~| msgid "Network Name"

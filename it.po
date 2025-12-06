@@ -47,7 +47,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 03:42+0000\n"
+"POT-Creation-Date: 2025-12-06 03:33+0000\n"
 "PO-Revision-Date: 2025-12-06 00:42+0000\n"
 "Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
@@ -147,9 +147,25 @@ msgstr "Aggiungi un altro server..."
 msgid "Add mount"
 msgstr "Aggiungi punto di mount"
 
+#: src/components/software/SoftwareSelection.jsx:134
+#, fuzzy
+#| msgid "Additional software for selected environment"
+msgid "Add-ons for your chosen environment"
+msgstr "Software aggiuntivo per l'ambiente selezionato"
+
+#: src/components/software/SoftwareSelection.jsx:143
+msgid "Add-ons not specific to your environment"
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:157
 msgid "Additional languages"
 msgstr "Lingue aggiuntive"
+
+#: src/components/software/SoftwareSelection.jsx:168
+#, fuzzy
+#| msgid "Additional software for selected environment"
+msgid "Additional software for the selected environment"
+msgstr "Software aggiuntivo per l'ambiente selezionato"
 
 #: src/components/Error.jsx:215
 msgid ""
@@ -215,6 +231,10 @@ msgstr "Spazio libero disponibile: $0. L'installazione richiede: $1."
 msgid "Back"
 msgstr "Indietro"
 
+#: src/components/software/SoftwareSelection.jsx:75
+msgid "Base environment"
+msgstr "Ambiente base"
+
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
@@ -231,7 +251,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:291
+#: src/components/localization/Keyboard.jsx:292
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "Annulla"
@@ -253,8 +273,8 @@ msgid "Change partition layout"
 msgstr "Modifica il layout della partizione"
 
 #: src/components/localization/Keyboard.jsx:225
-#: src/components/localization/Keyboard.jsx:328
-#: src/components/localization/Keyboard.jsx:386
+#: src/components/localization/Keyboard.jsx:329
+#: src/components/localization/Keyboard.jsx:387
 msgid "Change system keyboard layout"
 msgstr "Cambia layout della tastiera di sistema"
 
@@ -271,7 +291,7 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr "Controllo della configurazione dello storage"
 
-#: src/components/localization/Common.jsx:115
+#: src/components/common/MenuSearch.jsx:124
 msgid "Clear search"
 msgstr "Cancella Ricerca"
 
@@ -597,7 +617,7 @@ msgstr ""
 "Mantieni il layout corrente del disco e utilizza lo spazio disponibile per "
 "eseguire il dual-boot con un altro sistema operativo."
 
-#: src/components/localization/InstallationLanguage.jsx:256
+#: src/components/localization/InstallationLanguage.jsx:257
 msgid "Keyboard"
 msgstr "Tastiera"
 
@@ -605,7 +625,7 @@ msgstr "Tastiera"
 msgid "Keyboard layout during boot"
 msgstr "Layout della tastiera durante l'avvio"
 
-#: src/components/localization/InstallationLanguage.jsx:240
+#: src/components/localization/InstallationLanguage.jsx:241
 #: src/components/review/ReviewConfiguration.jsx:192
 msgid "Language"
 msgstr "Lingua"
@@ -671,7 +691,7 @@ msgstr ""
 "Mancata corrispondenza tra la riformattazione del dispositivo padre e del "
 "dispositivo figlio."
 
-#: src/components/localization/Keyboard.jsx:304
+#: src/components/localization/Keyboard.jsx:305
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr "Rilevato più di un layout. Rimuovi i layout aggiuntivi per procedere"
 
@@ -744,15 +764,15 @@ msgstr "Nessun disco disponibile"
 msgid "No disks selected"
 msgstr "Nessun disco selezionato"
 
-#: src/components/localization/Keyboard.jsx:251
+#: src/components/localization/Keyboard.jsx:252
 msgid "No layouts selected yet"
 msgstr "Nessun layout selezionato ancora"
 
-#: src/components/localization/Common.jsx:138
+#: src/components/common/MenuSearch.jsx:147
 msgid "No results found"
 msgstr "nessun risultato trovato"
 
-#: src/components/localization/Keyboard.jsx:421
+#: src/components/localization/Keyboard.jsx:422
 msgid ""
 "No valid VConsole keymap can be obtained for the selected keyboard "
 "layout(s). Please make a different keyboard layout selection."
@@ -1033,7 +1053,7 @@ msgstr ""
 "L'account root è abilitato, ma non è stato configurato alcun account utente"
 
 #: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:288
+#: src/components/localization/Keyboard.jsx:289
 #: src/components/review/Hostname.jsx:137
 msgid "Save"
 msgstr "Salva"
@@ -1044,6 +1064,18 @@ msgstr "Scansiona il codice QR con il tuo telefono o visita:"
 
 #: src/components/localization/InstallationLanguage.jsx:210
 msgid "Search for a language"
+msgstr "Cerca una lingua"
+
+#: src/components/software/SoftwareSelection.jsx:171
+#, fuzzy
+#| msgid "No additional software to select."
+msgid "Search for additional software"
+msgstr "Nessun software aggiuntivo selezionato."
+
+#: src/components/software/SoftwareSelection.jsx:78
+#, fuzzy
+#| msgid "Search for a language"
+msgid "Search for an environment"
 msgstr "Cerca una lingua"
 
 #: src/components/localization/Keyboard.jsx:234
@@ -1078,7 +1110,7 @@ msgstr "Seleziona la destinazione"
 msgid "Select region"
 msgstr "Seleziona regione"
 
-#: src/components/localization/Keyboard.jsx:244
+#: src/components/localization/Keyboard.jsx:245
 msgid "Selected (top = current)"
 msgstr "Selezionato (in alto = corrente)"
 
@@ -1143,6 +1175,10 @@ msgstr ""
 "Installazione del software: Configurazione dello storage completata. Il "
 "software viene ora installato sul dispositivo."
 
+#: src/components/software/index.js:31 src/components/software/index.js:32
+msgid "Software selection"
+msgstr "Selezione software"
+
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:61
 msgid "Some required partitions are missing: $0"
 msgstr "Mancano alcune partizioni richieste: $0"
@@ -1158,7 +1194,7 @@ msgstr "Archiviazione"
 #: src/components/installation/InstallationProgress.jsx:141
 #: src/components/storage/storage-configuration/index.js:32
 #: src/components/storage/storage-configuration/index.js:33
-#: src/components/steps.js:27
+#: src/components/steps.js:29
 msgid "Storage configuration"
 msgstr "Configurazione dello Storage"
 
@@ -1250,7 +1286,7 @@ msgstr ""
 "essere in grado di passare da un layout di tastiera all'altro quando lo "
 "digiti."
 
-#: src/components/localization/Keyboard.jsx:273
+#: src/components/localization/Keyboard.jsx:274
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
@@ -2316,9 +2352,6 @@ msgstr "indietro"
 #~ msgid "Additional software for Selected Environment"
 #~ msgstr "Software aggiuntivo per l'ambiente selezionato"
 
-#~ msgid "Additional software for selected environment"
-#~ msgstr "Software aggiuntivo per l'ambiente selezionato"
-
 #~ msgid "Administrator"
 #~ msgstr "Amministratore"
 
@@ -2505,9 +2538,6 @@ msgstr "indietro"
 #~ msgstr "Formato netmask errato"
 
 #~ msgid "Base Environment"
-#~ msgstr "Ambiente base"
-
-#~ msgid "Base environment"
 #~ msgstr "Ambiente base"
 
 #~ msgid "Beta Warn"
@@ -3986,9 +4016,6 @@ msgstr "indietro"
 #~ msgid "No *.iso files found in device root folder"
 #~ msgstr "Nessun file *.iso trovato nella cartella root del dispositivo"
 
-#~ msgid "No additional software to select."
-#~ msgstr "Nessun software aggiuntivo selezionato."
-
 #~ msgid "No credentials (discovery authentication disabled)"
 #~ msgstr "Nessuna credenziale (ricerca autenticazione disabilitata)"
 
@@ -5007,9 +5034,6 @@ msgstr "indietro"
 #~ msgstr ""
 #~ "Istantanea: origine \"{}\"di istantanea\"{}\"non è un dispositivo LV "
 #~ "sottile valido."
-
-#~ msgid "Software selection"
-#~ msgstr "Selezione software"
 
 #~ msgid "Some of the repomd.xml files have changed or are unreachable."
 #~ msgstr "Alcuni file repmod.xml sono cambiati o sono irraggiungibili."

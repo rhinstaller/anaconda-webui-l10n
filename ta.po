@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 03:42+0000\n"
+"POT-Creation-Date: 2025-12-06 03:33+0000\n"
 "PO-Revision-Date: 2023-11-06 12:22+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Tamil <https://translate.fedoraproject.org/projects/anaconda-"
@@ -120,10 +120,26 @@ msgstr ""
 msgid "Add mount"
 msgstr "லேயவுட்டைச் சேர்"
 
+#: src/components/software/SoftwareSelection.jsx:134
+#, fuzzy
+#| msgid "Add-Ons for Selected Environment"
+msgid "Add-ons for your chosen environment"
+msgstr "தேர்ந்தெடுத்த சூழலுக்கான துணை நிரல்கள்"
+
+#: src/components/software/SoftwareSelection.jsx:143
+msgid "Add-ons not specific to your environment"
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:157
 #, fuzzy
 msgid "Additional languages"
 msgstr "அனைத்தையும் தேர்ந்தெடு"
+
+#: src/components/software/SoftwareSelection.jsx:168
+#, fuzzy
+#| msgid "Add-Ons for Selected Environment"
+msgid "Additional software for the selected environment"
+msgstr "தேர்ந்தெடுத்த சூழலுக்கான துணை நிரல்கள்"
 
 #: src/components/Error.jsx:215
 msgid ""
@@ -183,6 +199,10 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
+#: src/components/software/SoftwareSelection.jsx:75
+msgid "Base environment"
+msgstr "அடிப்படை சூழல்"
+
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
@@ -195,7 +215,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:291
+#: src/components/localization/Keyboard.jsx:292
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 #, fuzzy
 msgid "Cancel"
@@ -225,8 +245,8 @@ msgid "Change partition layout"
 msgstr "விளக்கம்"
 
 #: src/components/localization/Keyboard.jsx:225
-#: src/components/localization/Keyboard.jsx:328
-#: src/components/localization/Keyboard.jsx:386
+#: src/components/localization/Keyboard.jsx:329
+#: src/components/localization/Keyboard.jsx:387
 msgid "Change system keyboard layout"
 msgstr ""
 
@@ -242,7 +262,7 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr "சேமிப்பக அமைவாக்கத்தை சோதிக்கிறது..."
 
-#: src/components/localization/Common.jsx:115
+#: src/components/common/MenuSearch.jsx:124
 msgid "Clear search"
 msgstr ""
 
@@ -596,7 +616,7 @@ msgid ""
 "OS."
 msgstr ""
 
-#: src/components/localization/InstallationLanguage.jsx:256
+#: src/components/localization/InstallationLanguage.jsx:257
 msgid "Keyboard"
 msgstr ""
 
@@ -604,7 +624,7 @@ msgstr ""
 msgid "Keyboard layout during boot"
 msgstr ""
 
-#: src/components/localization/InstallationLanguage.jsx:240
+#: src/components/localization/InstallationLanguage.jsx:241
 #: src/components/review/ReviewConfiguration.jsx:192
 #, fuzzy
 msgid "Language"
@@ -673,7 +693,7 @@ msgstr ""
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:304
+#: src/components/localization/Keyboard.jsx:305
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 
@@ -753,17 +773,17 @@ msgstr "கிடைக்கவில்லை"
 msgid "No disks selected"
 msgstr "வட்டுகள் எதுவும் தேர்ந்தெடுக்கப்படவில்லை"
 
-#: src/components/localization/Keyboard.jsx:251
+#: src/components/localization/Keyboard.jsx:252
 #, fuzzy
 #| msgid "Nothing selected"
 msgid "No layouts selected yet"
 msgstr "எதுவும் தேர்ந்தெடுக்கப்படவில்லை"
 
-#: src/components/localization/Common.jsx:138
+#: src/components/common/MenuSearch.jsx:147
 msgid "No results found"
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:421
+#: src/components/localization/Keyboard.jsx:422
 msgid ""
 "No valid VConsole keymap can be obtained for the selected keyboard "
 "layout(s). Please make a different keyboard layout selection."
@@ -1070,7 +1090,7 @@ msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:288
+#: src/components/localization/Keyboard.jsx:289
 #: src/components/review/Hostname.jsx:137
 #, fuzzy
 #| msgctxt "GUI|Custom Partitioning|Container Dialog"
@@ -1085,6 +1105,17 @@ msgstr ""
 #: src/components/localization/InstallationLanguage.jsx:210
 #, fuzzy
 msgid "Search for a language"
+msgstr "மொழிகள்"
+
+#: src/components/software/SoftwareSelection.jsx:171
+#, fuzzy
+#| msgid "Custom software selected"
+msgid "Search for additional software"
+msgstr "தனிப்பயன் மென்பொருள் தேர்ந்தெடுக்கப்பட்டது"
+
+#: src/components/software/SoftwareSelection.jsx:78
+#, fuzzy
+msgid "Search for an environment"
 msgstr "மொழிகள்"
 
 #: src/components/localization/Keyboard.jsx:234
@@ -1129,7 +1160,7 @@ msgstr "விளக்கம்"
 msgid "Select region"
 msgstr "பிணையத்தில்: (_O)"
 
-#: src/components/localization/Keyboard.jsx:244
+#: src/components/localization/Keyboard.jsx:245
 #, fuzzy
 #| msgid "Selected Layouts"
 msgid "Selected (top = current)"
@@ -1205,6 +1236,10 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
+#: src/components/software/index.js:31 src/components/software/index.js:32
+msgid "Software selection"
+msgstr "மென்பொருள் தேர்வு"
+
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:61
 msgid "Some required partitions are missing: $0"
 msgstr ""
@@ -1223,7 +1258,7 @@ msgstr "சேமிப்பக விருப்பங்கள்"
 #: src/components/installation/InstallationProgress.jsx:141
 #: src/components/storage/storage-configuration/index.js:32
 #: src/components/storage/storage-configuration/index.js:33
-#: src/components/steps.js:27
+#: src/components/steps.js:29
 #, fuzzy
 msgid "Storage configuration"
 msgstr "பிணைய அமைவாக்கம்"
@@ -1316,7 +1351,7 @@ msgid ""
 "be able to switch between keyboard layouts when typing it."
 msgstr ""
 
-#: src/components/localization/Keyboard.jsx:273
+#: src/components/localization/Keyboard.jsx:274
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
@@ -2018,11 +2053,6 @@ msgstr ""
 #~ msgid "Additional software for Selected Environment"
 #~ msgstr "தேர்ந்தெடுத்த சூழலுக்கான துணை நிரல்கள்"
 
-#, fuzzy
-#~| msgid "Add-Ons for Selected Environment"
-#~ msgid "Additional software for selected environment"
-#~ msgstr "தேர்ந்தெடுத்த சூழலுக்கான துணை நிரல்கள்"
-
 #, python-format
 #~ msgid "Administrator %s will be created"
 #~ msgstr "நிர்வாகி %s உருவாக்கப்படும்"
@@ -2151,9 +2181,6 @@ msgstr ""
 #~ msgstr "பகுதி %s இல் கிடைக்கக்கூடிய நேர மண்டலங்கள்"
 
 #~ msgid "Base Environment"
-#~ msgstr "அடிப்படை சூழல்"
-
-#~ msgid "Base environment"
 #~ msgstr "அடிப்படை சூழல்"
 
 #~ msgid "Beta Warn"
@@ -3139,11 +3166,6 @@ msgstr ""
 #~ msgid "No *.iso files found in device root folder"
 #~ msgstr "சாதனத்தின் ரூட் கோப்புறையில் *.iso கோப்புகள் இல்லை"
 
-#, fuzzy
-#~| msgid "Custom software selected"
-#~ msgid "No additional software to select."
-#~ msgstr "தனிப்பயன் மென்பொருள் தேர்ந்தெடுக்கப்பட்டது"
-
 #~ msgid "No credentials (discovery authentication disabled)"
 #~ msgstr "சான்றளிப்புகள் இல்லை (கண்டுபிடிப்பு அங்கீகரிப்பு முடக்கப்பட்டுள்ளது)"
 
@@ -3809,9 +3831,6 @@ msgstr ""
 #~ msgctxt "GUI|Custom Partitioning|Container Dialog"
 #~ msgid "Si_ze policy:"
 #~ msgstr "அளவுக் கொள்கை: (_z)"
-
-#~ msgid "Software selection"
-#~ msgstr "மென்பொருள் தேர்வு"
 
 #~ msgid "Source changed - please verify"
 #~ msgstr "மூலம் மாறியுள்ளது - சரிபார்க்கவும்"

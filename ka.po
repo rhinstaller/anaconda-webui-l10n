@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 03:42+0000\n"
+"POT-Creation-Date: 2025-12-06 03:33+0000\n"
 "PO-Revision-Date: 2025-12-06 00:42+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -109,9 +109,25 @@ msgstr "კიდევ ერთი სერვერის დამატე
 msgid "Add mount"
 msgstr "მიმაგრების დამატება"
 
+#: src/components/software/SoftwareSelection.jsx:134
+#, fuzzy
+#| msgid "Additional software for selected environment"
+msgid "Add-ons for your chosen environment"
+msgstr "დამატებითი პროგრამები მონიშნული გარემოსთვის"
+
+#: src/components/software/SoftwareSelection.jsx:143
+msgid "Add-ons not specific to your environment"
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:157
 msgid "Additional languages"
 msgstr "დამატებითი ენები"
+
+#: src/components/software/SoftwareSelection.jsx:168
+#, fuzzy
+#| msgid "Additional software for selected environment"
+msgid "Additional software for the selected environment"
+msgstr "დამატებითი პროგრამები მონიშნული გარემოსთვის"
 
 #: src/components/Error.jsx:215
 msgid ""
@@ -174,6 +190,10 @@ msgstr "ხელმისაწვდომია თავისუფალ�
 msgid "Back"
 msgstr "უკან"
 
+#: src/components/software/SoftwareSelection.jsx:75
+msgid "Base environment"
+msgstr "საბაზო გარემო"
+
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
@@ -190,7 +210,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:291
+#: src/components/localization/Keyboard.jsx:292
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "გაუქმება"
@@ -212,8 +232,8 @@ msgid "Change partition layout"
 msgstr "დანაყოფების განლაგების შეცვლა"
 
 #: src/components/localization/Keyboard.jsx:225
-#: src/components/localization/Keyboard.jsx:328
-#: src/components/localization/Keyboard.jsx:386
+#: src/components/localization/Keyboard.jsx:329
+#: src/components/localization/Keyboard.jsx:387
 msgid "Change system keyboard layout"
 msgstr "სისტემის კლავიატურის განლაგების შეცვლა"
 
@@ -230,7 +250,7 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr "საცავის კონფიგურაციის შემოწმება"
 
-#: src/components/localization/Common.jsx:115
+#: src/components/common/MenuSearch.jsx:124
 msgid "Clear search"
 msgstr "ძებნის გასუფთავება"
 
@@ -240,7 +260,8 @@ msgstr "დააწკაპუნეთ ღილაკზე \"$0\", რო�
 
 #: src/components/storage/Common.jsx:38
 msgid "Click 'Next' again to proceed despite these warnings."
-msgstr "გაფრთხილებების მიუხედავად გასაგრძელებლად დააწკაპუნეთ ღილაკზე 'შემდეგი'."
+msgstr ""
+"გაფრთხილებების მიუხედავად გასაგრძელებლად დააწკაპუნეთ ღილაკზე 'შემდეგი'."
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:193
 #: src/components/storage/installation-method/InstallationDestination.jsx:398
@@ -555,7 +576,7 @@ msgstr ""
 "დისკის მიმდინარე განლაგების შენარჩუნება სხვა ოს-თან ერთად ორმაგი "
 "ჩატვირთვისთვის."
 
-#: src/components/localization/InstallationLanguage.jsx:256
+#: src/components/localization/InstallationLanguage.jsx:257
 msgid "Keyboard"
 msgstr "კლავიატურა"
 
@@ -563,7 +584,7 @@ msgstr "კლავიატურა"
 msgid "Keyboard layout during boot"
 msgstr "კლავიატურის განლაგება ჩატვირთვისას"
 
-#: src/components/localization/InstallationLanguage.jsx:240
+#: src/components/localization/InstallationLanguage.jsx:241
 #: src/components/review/ReviewConfiguration.jsx:192
 msgid "Language"
 msgstr "ენა"
@@ -629,7 +650,7 @@ msgstr ""
 "მშობელი მოწყობილობისა და შვილი მოწყობილობის თავიდან დაფორმატების არჩევანი არ "
 "ემთხვევა."
 
-#: src/components/localization/Keyboard.jsx:304
+#: src/components/localization/Keyboard.jsx:305
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 "აღმოჩენილია ერთზე მეტი განლაგება. გასაგრძელებლად წაშალეთ დამატებითი "
@@ -704,15 +725,15 @@ msgstr "დისკები ხელმისაწვდომი არა�
 msgid "No disks selected"
 msgstr "არცერთი დისკი მონიშნული არაა"
 
-#: src/components/localization/Keyboard.jsx:251
+#: src/components/localization/Keyboard.jsx:252
 msgid "No layouts selected yet"
 msgstr "ჯერ განლაგება არჩეული არაა"
 
-#: src/components/localization/Common.jsx:138
+#: src/components/common/MenuSearch.jsx:147
 msgid "No results found"
 msgstr "შედეგების გარეშე"
 
-#: src/components/localization/Keyboard.jsx:421
+#: src/components/localization/Keyboard.jsx:422
 msgid ""
 "No valid VConsole keymap can be obtained for the selected keyboard "
 "layout(s). Please make a different keyboard layout selection."
@@ -992,7 +1013,7 @@ msgid "Root account is enabled, but no user account has been configured"
 msgstr "Root ანგარიში ჩართულია, მაგრამ მომხმარებლის ანგარიშები არ შეიქმნება"
 
 #: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:288
+#: src/components/localization/Keyboard.jsx:289
 #: src/components/review/Hostname.jsx:137
 msgid "Save"
 msgstr "შენახვა"
@@ -1003,6 +1024,18 @@ msgstr "დაასკანერეთ QR კოდი თქვენი ტ
 
 #: src/components/localization/InstallationLanguage.jsx:210
 msgid "Search for a language"
+msgstr "ენის ძებნა"
+
+#: src/components/software/SoftwareSelection.jsx:171
+#, fuzzy
+#| msgid "No additional software to select."
+msgid "Search for additional software"
+msgstr "დამატებითი პროგრამები ვერ ვიპოვე."
+
+#: src/components/software/SoftwareSelection.jsx:78
+#, fuzzy
+#| msgid "Search for a language"
+msgid "Search for an environment"
 msgstr "ენის ძებნა"
 
 #: src/components/localization/Keyboard.jsx:234
@@ -1036,7 +1069,7 @@ msgstr "აირჩიეთ სამიზნე"
 msgid "Select region"
 msgstr "აირჩიეთ რეგიონი"
 
-#: src/components/localization/Keyboard.jsx:244
+#: src/components/localization/Keyboard.jsx:245
 msgid "Selected (top = current)"
 msgstr "მონიშნულია (ზედა = მიმდინარეს)"
 
@@ -1100,6 +1133,10 @@ msgstr ""
 "პროგრამების დაყენება. საცავის მორგება დასრულდა. მიმდინარეობს პროგრამების "
 "დაყენება."
 
+#: src/components/software/index.js:31 src/components/software/index.js:32
+msgid "Software selection"
+msgstr "პროგრამული უზრუნველყოფის არჩევა"
+
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:61
 msgid "Some required partitions are missing: $0"
 msgstr "ვერ ვიპოვე ზოგიერთი აუცილებელი დანაყოფი: $0"
@@ -1115,7 +1152,7 @@ msgstr "საცავი"
 #: src/components/installation/InstallationProgress.jsx:141
 #: src/components/storage/storage-configuration/index.js:32
 #: src/components/storage/storage-configuration/index.js:33
-#: src/components/steps.js:27
+#: src/components/steps.js:29
 msgid "Storage configuration"
 msgstr "საცავის მორგება"
 
@@ -1204,7 +1241,7 @@ msgstr ""
 "საკვანძო ფრაზა, რომელიც შეიყვანეთ, სპეციალურ სიმბოლოებს შეიცავს. მისით "
 "აკრეფისას შეიძლება კლავიატურის განლაგებებს შორის გადართვა ვერ შეძლოთ."
 
-#: src/components/localization/Keyboard.jsx:273
+#: src/components/localization/Keyboard.jsx:274
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
@@ -2241,9 +2278,6 @@ msgstr "გაუქმება"
 #~ msgid "Additional software for Selected Environment"
 #~ msgstr "დამატებითი პროგრამები მონიშნული გარემოსთვის"
 
-#~ msgid "Additional software for selected environment"
-#~ msgstr "დამატებითი პროგრამები მონიშნული გარემოსთვის"
-
 #~ msgid "Administrator"
 #~ msgstr "ადმინისტრატორი"
 
@@ -2426,9 +2460,6 @@ msgstr "გაუქმება"
 #~ msgstr "ქსელის ნიღბის არასწორი ფორმატი"
 
 #~ msgid "Base Environment"
-#~ msgstr "საბაზო გარემო"
-
-#~ msgid "Base environment"
 #~ msgstr "საბაზო გარემო"
 
 #~ msgid "Beta Warn"
@@ -3901,9 +3932,6 @@ msgstr "გაუქმება"
 #~ msgid "No *.iso files found in device root folder"
 #~ msgstr "მოწყობილობის ზედა საქაღალდეში *.iso ფაილი ვერ ვიპოვე"
 
-#~ msgid "No additional software to select."
-#~ msgstr "დამატებითი პროგრამები ვერ ვიპოვე."
-
 #~ msgid "No credentials (discovery authentication disabled)"
 #~ msgstr "ავტორიზაციის დეტალების გარეშე (აღმოჩენის ავთენტიკაცია გათიშულია)"
 
@@ -4917,9 +4945,6 @@ msgstr "გაუქმება"
 #~ msgstr ""
 #~ "სწრაფი ასლი: წყარო \"{}\" სწრაფი ასლისთვის \"{}\" სწორი თხელი LV "
 #~ "მოწყობილობა არაა."
-
-#~ msgid "Software selection"
-#~ msgstr "პროგრამული უზრუნველყოფის არჩევა"
 
 #~ msgid "Some of the repomd.xml files have changed or are unreachable."
 #~ msgstr "ზოგიერთი repomd.xml ფაილი შეიცვალა ან მიუწვდომელია."

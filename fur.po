@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 03:42+0000\n"
+"POT-Creation-Date: 2025-12-06 03:33+0000\n"
 "PO-Revision-Date: 2024-02-11 02:42+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/"
@@ -105,11 +105,27 @@ msgstr "Zonte servidôr NTP"
 msgid "Add mount"
 msgstr "Zonte pont di montaç"
 
+#: src/components/software/SoftwareSelection.jsx:134
+#, fuzzy
+#| msgid "Additional software for selected environment"
+msgid "Add-ons for your chosen environment"
+msgstr "Software adizionâl pal ambient selezionât"
+
+#: src/components/software/SoftwareSelection.jsx:143
+msgid "Add-ons not specific to your environment"
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:157
 #, fuzzy
 #| msgid "Available languages"
 msgid "Additional languages"
 msgstr "Lenghis disponibilis"
+
+#: src/components/software/SoftwareSelection.jsx:168
+#, fuzzy
+#| msgid "Additional software for selected environment"
+msgid "Additional software for the selected environment"
+msgstr "Software adizionâl pal ambient selezionât"
 
 #: src/components/Error.jsx:215
 msgid ""
@@ -166,6 +182,10 @@ msgstr ""
 msgid "Back"
 msgstr "Indaûr"
 
+#: src/components/software/SoftwareSelection.jsx:75
+msgid "Base environment"
+msgstr "Ambient base"
+
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
@@ -182,7 +202,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:291
+#: src/components/localization/Keyboard.jsx:292
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "Anule"
@@ -213,8 +233,8 @@ msgid "Change partition layout"
 msgstr "Destinazion"
 
 #: src/components/localization/Keyboard.jsx:225
-#: src/components/localization/Keyboard.jsx:328
-#: src/components/localization/Keyboard.jsx:386
+#: src/components/localization/Keyboard.jsx:329
+#: src/components/localization/Keyboard.jsx:387
 msgid "Change system keyboard layout"
 msgstr ""
 
@@ -231,7 +251,7 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr "Verifiche de configurazion de memorie di archiviazion"
 
-#: src/components/localization/Common.jsx:115
+#: src/components/common/MenuSearch.jsx:124
 #, fuzzy
 #| msgid "Clear input value"
 msgid "Clear search"
@@ -576,7 +596,7 @@ msgid ""
 msgstr ""
 "Manten la disposizion corinte dal disc e instale dome tal spazi disponibil."
 
-#: src/components/localization/InstallationLanguage.jsx:256
+#: src/components/localization/InstallationLanguage.jsx:257
 #, fuzzy
 #| msgctxt "GUI|Spoke"
 #| msgid "_Keyboard"
@@ -587,7 +607,7 @@ msgstr "_Tastiere"
 msgid "Keyboard layout during boot"
 msgstr ""
 
-#: src/components/localization/InstallationLanguage.jsx:240
+#: src/components/localization/InstallationLanguage.jsx:241
 #: src/components/review/ReviewConfiguration.jsx:192
 msgid "Language"
 msgstr "Lenghe"
@@ -654,7 +674,7 @@ msgstr ""
 "Corispondence falide tra la selezion di gnove formatazion dal dispositîf "
 "gjenitôr e dal dispositîf fi."
 
-#: src/components/localization/Keyboard.jsx:304
+#: src/components/localization/Keyboard.jsx:305
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 
@@ -733,18 +753,18 @@ msgstr "no disponibil"
 msgid "No disks selected"
 msgstr "Nissun disc selezionât"
 
-#: src/components/localization/Keyboard.jsx:251
+#: src/components/localization/Keyboard.jsx:252
 #, fuzzy
 #| msgid "$0 selected"
 #| msgid_plural "$0 selected"
 msgid "No layouts selected yet"
 msgstr "$0 selezionât"
 
-#: src/components/localization/Common.jsx:138
+#: src/components/common/MenuSearch.jsx:147
 msgid "No results found"
 msgstr "Nissun risultât cjatât"
 
-#: src/components/localization/Keyboard.jsx:421
+#: src/components/localization/Keyboard.jsx:422
 msgid ""
 "No valid VConsole keymap can be obtained for the selected keyboard "
 "layout(s). Please make a different keyboard layout selection."
@@ -1054,7 +1074,7 @@ msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:288
+#: src/components/localization/Keyboard.jsx:289
 #: src/components/review/Hostname.jsx:137
 #, fuzzy
 #| msgctxt "GUI|Custom Partitioning|Container Dialog"
@@ -1070,6 +1090,18 @@ msgstr "Scansione il codiç QR cul to telefon o visite:"
 #, fuzzy
 #| msgid "Choose a language"
 msgid "Search for a language"
+msgstr "Sielç une lenghe"
+
+#: src/components/software/SoftwareSelection.jsx:171
+#, fuzzy
+#| msgid "No additional software to select."
+msgid "Search for additional software"
+msgstr "Nissun software adiionâl di selezionâ."
+
+#: src/components/software/SoftwareSelection.jsx:78
+#, fuzzy
+#| msgid "Choose a language"
+msgid "Search for an environment"
 msgstr "Sielç une lenghe"
 
 #: src/components/localization/Keyboard.jsx:234
@@ -1114,7 +1146,7 @@ msgstr "Destinazion"
 msgid "Select region"
 msgstr "Selezionâ nissun"
 
-#: src/components/localization/Keyboard.jsx:244
+#: src/components/localization/Keyboard.jsx:245
 #, fuzzy
 #| msgid "Selected Layouts"
 msgid "Selected (top = current)"
@@ -1189,6 +1221,10 @@ msgstr ""
 "Instalazion dal software: configurazion de memorie di archiviazion "
 "completade. Cumò il software al ven instalât sul dispositîf."
 
+#: src/components/software/index.js:31 src/components/software/index.js:32
+msgid "Software selection"
+msgstr "Selezion software"
+
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:61
 msgid "Some required partitions are missing: $0"
 msgstr ""
@@ -1206,7 +1242,7 @@ msgstr "Memorie di archiviazion"
 #: src/components/installation/InstallationProgress.jsx:141
 #: src/components/storage/storage-configuration/index.js:32
 #: src/components/storage/storage-configuration/index.js:33
-#: src/components/steps.js:27
+#: src/components/steps.js:29
 msgid "Storage configuration"
 msgstr "Configurazion memorie di archiviazion"
 
@@ -1305,7 +1341,7 @@ msgstr ""
 "no tu podarâs passâ di une disposizion di tastiere a chê altre, cuant che tu "
 "le scrivarâs."
 
-#: src/components/localization/Keyboard.jsx:273
+#: src/components/localization/Keyboard.jsx:274
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
@@ -2355,9 +2391,6 @@ msgstr ""
 #~ msgid "Additional software for Selected Environment"
 #~ msgstr "Software adizionâl pal ambient selezionât"
 
-#~ msgid "Additional software for selected environment"
-#~ msgstr "Software adizionâl pal ambient selezionât"
-
 #~ msgid "Administrator"
 #~ msgstr "Aministradôr"
 
@@ -2542,9 +2575,6 @@ msgstr ""
 #~ msgstr "Formât sbaliât de mascare di rêt"
 
 #~ msgid "Base Environment"
-#~ msgstr "Ambient base"
-
-#~ msgid "Base environment"
 #~ msgstr "Ambient base"
 
 #~ msgid "Beta Warn"
@@ -4016,9 +4046,6 @@ msgstr ""
 #~ msgid "No *.iso files found in device root folder"
 #~ msgstr "Nissun file *.iso cjatât inte cartele lidrîs dal dispositîf"
 
-#~ msgid "No additional software to select."
-#~ msgstr "Nissun software adiionâl di selezionâ."
-
 #~ msgid "No credentials (discovery authentication disabled)"
 #~ msgstr "Nissune credenziâl (ricercje autenticazion disabilitade)"
 
@@ -5029,9 +5056,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Istantanie: la origjin \"{}\" de istantanie \"{}\" no je un dispositîf "
 #~ "thin LV valit."
-
-#~ msgid "Software selection"
-#~ msgstr "Selezion software"
 
 #~ msgid "Some of the repomd.xml files have changed or are unreachable."
 #~ msgstr ""

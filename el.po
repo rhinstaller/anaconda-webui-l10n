@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 03:42+0000\n"
+"POT-Creation-Date: 2025-12-06 03:33+0000\n"
 "PO-Revision-Date: 2025-11-06 03:38+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/anaconda-"
@@ -124,9 +124,21 @@ msgstr "Προσθήκη άλλου διακομιστή..."
 msgid "Add mount"
 msgstr "Προσθήκη προσάρτησης"
 
+#: src/components/software/SoftwareSelection.jsx:134
+msgid "Add-ons for your chosen environment"
+msgstr ""
+
+#: src/components/software/SoftwareSelection.jsx:143
+msgid "Add-ons not specific to your environment"
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:157
 msgid "Additional languages"
 msgstr "Πρόσθετες γλώσσες"
+
+#: src/components/software/SoftwareSelection.jsx:168
+msgid "Additional software for the selected environment"
+msgstr ""
 
 #: src/components/Error.jsx:215
 msgid ""
@@ -193,6 +205,10 @@ msgstr "Διαθέσιμος ελεύθερος χώρος: $0. Η εγκατά�
 msgid "Back"
 msgstr "Επιστροφή"
 
+#: src/components/software/SoftwareSelection.jsx:75
+msgid "Base environment"
+msgstr ""
+
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
@@ -210,7 +226,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:291
+#: src/components/localization/Keyboard.jsx:292
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "Ακύρωση"
@@ -232,8 +248,8 @@ msgid "Change partition layout"
 msgstr "Αλλαγή διάταξης διαμερισμάτων"
 
 #: src/components/localization/Keyboard.jsx:225
-#: src/components/localization/Keyboard.jsx:328
-#: src/components/localization/Keyboard.jsx:386
+#: src/components/localization/Keyboard.jsx:329
+#: src/components/localization/Keyboard.jsx:387
 msgid "Change system keyboard layout"
 msgstr "Αλλαγή διάταξης πληκτρολογίου συστήματος"
 
@@ -250,7 +266,7 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr "Έλεγχος ρυθμίσεων αποθηκευτικού χώρου"
 
-#: src/components/localization/Common.jsx:115
+#: src/components/common/MenuSearch.jsx:124
 msgid "Clear search"
 msgstr "Απαλοιφή αναζήτησης"
 
@@ -581,7 +597,7 @@ msgstr ""
 "Διατήρηση της τρέχουσας διάταξης δίσκου και χρήση του διαθέσιμου χώρου, για "
 "την παράλληλη εγκατάσταση με κάποιο άλλο λειτουργικό σύστημα."
 
-#: src/components/localization/InstallationLanguage.jsx:256
+#: src/components/localization/InstallationLanguage.jsx:257
 msgid "Keyboard"
 msgstr "Πληκτρολόγιο"
 
@@ -589,7 +605,7 @@ msgstr "Πληκτρολόγιο"
 msgid "Keyboard layout during boot"
 msgstr "Διάταξη πληκτρολογίου κατά την εκκίνηση"
 
-#: src/components/localization/InstallationLanguage.jsx:240
+#: src/components/localization/InstallationLanguage.jsx:241
 #: src/components/review/ReviewConfiguration.jsx:192
 msgid "Language"
 msgstr "Γλώσσα"
@@ -655,7 +671,7 @@ msgstr ""
 "Αναντιστοιχία επιλογής επαναδιαμόρφωσης μεταξύ της γονικής και της "
 "θυγατρικής συσκευής."
 
-#: src/components/localization/Keyboard.jsx:304
+#: src/components/localization/Keyboard.jsx:305
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 "Εντοπίστηκαν περισσότερες από μία διατάξεις. Αφαιρέστε τις πρόσθετες "
@@ -731,15 +747,15 @@ msgstr "Δεν διατίθεται κανένας δίσκος"
 msgid "No disks selected"
 msgstr "Δεν έχει επιλεχθεί κανένας δίσκος"
 
-#: src/components/localization/Keyboard.jsx:251
+#: src/components/localization/Keyboard.jsx:252
 msgid "No layouts selected yet"
 msgstr "Δεν έχουν επιλεγεί διατάξεις ακόμα"
 
-#: src/components/localization/Common.jsx:138
+#: src/components/common/MenuSearch.jsx:147
 msgid "No results found"
 msgstr "Δεν βρέθηκαν αποτελέσματα"
 
-#: src/components/localization/Keyboard.jsx:421
+#: src/components/localization/Keyboard.jsx:422
 msgid ""
 "No valid VConsole keymap can be obtained for the selected keyboard "
 "layout(s). Please make a different keyboard layout selection."
@@ -1023,7 +1039,7 @@ msgstr ""
 "λογαριασμός χρήστη"
 
 #: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:288
+#: src/components/localization/Keyboard.jsx:289
 #: src/components/review/Hostname.jsx:137
 msgid "Save"
 msgstr "Αποθήκευση"
@@ -1034,6 +1050,18 @@ msgstr "Σαρώστε τον κωδικό QR με το τηλέφωνό σας 
 
 #: src/components/localization/InstallationLanguage.jsx:210
 msgid "Search for a language"
+msgstr "Αναζήτηση γλώσσας"
+
+#: src/components/software/SoftwareSelection.jsx:171
+#, fuzzy
+#| msgid "Reclaim additional space"
+msgid "Search for additional software"
+msgstr "Ανάκτηση πρόσθετου χώρου"
+
+#: src/components/software/SoftwareSelection.jsx:78
+#, fuzzy
+#| msgid "Search for a language"
+msgid "Search for an environment"
 msgstr "Αναζήτηση γλώσσας"
 
 #: src/components/localization/Keyboard.jsx:234
@@ -1068,7 +1096,7 @@ msgstr "Επιλέξτε προορισμό"
 msgid "Select region"
 msgstr "Επιλογή περιοχής"
 
-#: src/components/localization/Keyboard.jsx:244
+#: src/components/localization/Keyboard.jsx:245
 msgid "Selected (top = current)"
 msgstr "Επιλεγμένο (κορυφαίο = τρέχον)"
 
@@ -1133,6 +1161,12 @@ msgstr ""
 "Εγκατάσταση λογισμικού: η διαμόρφωση του αποθηκευτικού χώρου έχει "
 "ολοκληρωθεί. Γίνεται τώρα εγκατάσταση του λογισμικού στη συσκευή σας."
 
+#: src/components/software/index.js:31 src/components/software/index.js:32
+#, fuzzy
+#| msgid "Software installation"
+msgid "Software selection"
+msgstr "Εγκατάσταση λογισμικού"
+
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:61
 msgid "Some required partitions are missing: $0"
 msgstr "Απουσιάζουν ορισμένα απαραίτητα διαμερίσματα: $0"
@@ -1148,7 +1182,7 @@ msgstr "Αποθηκευτικός χώρος"
 #: src/components/installation/InstallationProgress.jsx:141
 #: src/components/storage/storage-configuration/index.js:32
 #: src/components/storage/storage-configuration/index.js:33
-#: src/components/steps.js:27
+#: src/components/steps.js:29
 msgid "Storage configuration"
 msgstr "Διαμόφωση αποθηκευτικού χώρου"
 
@@ -1246,7 +1280,7 @@ msgstr ""
 "ASCII. Ενδέχεται να μην μπορείτε να κάνετε εναλλαγή μεταξύ διατάξεων "
 "πληκτρολογίου κατά την πληκτρολόγησή της."
 
-#: src/components/localization/Keyboard.jsx:273
+#: src/components/localization/Keyboard.jsx:274
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."

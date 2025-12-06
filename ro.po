@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 03:42+0000\n"
+"POT-Creation-Date: 2025-12-06 03:33+0000\n"
 "PO-Revision-Date: 2025-11-14 03:36+0000\n"
 "Last-Translator: Petru Rebeja <petru@rebeja.eu>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/"
@@ -117,9 +117,25 @@ msgstr "Adaugă server NTP..."
 msgid "Add mount"
 msgstr "Adaugă montură"
 
+#: src/components/software/SoftwareSelection.jsx:134
+#, fuzzy
+#| msgid "Add-Ons for Selected Environment"
+msgid "Add-ons for your chosen environment"
+msgstr "Suplimente pentru mediul selectat"
+
+#: src/components/software/SoftwareSelection.jsx:143
+msgid "Add-ons not specific to your environment"
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:157
 msgid "Additional languages"
 msgstr "Limbi suplimentare"
+
+#: src/components/software/SoftwareSelection.jsx:168
+#, fuzzy
+#| msgid "Add-Ons for Selected Environment"
+msgid "Additional software for the selected environment"
+msgstr "Suplimente pentru mediul selectat"
 
 #: src/components/Error.jsx:215
 msgid ""
@@ -183,6 +199,10 @@ msgstr "Spațiu liber disponibil: $0. Instalarea necesită: $1."
 msgid "Back"
 msgstr "Înapoi"
 
+#: src/components/software/SoftwareSelection.jsx:75
+msgid "Base environment"
+msgstr "Mediu de bază."
+
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
@@ -200,7 +220,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:291
+#: src/components/localization/Keyboard.jsx:292
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "Renunță"
@@ -222,8 +242,8 @@ msgid "Change partition layout"
 msgstr "Modifică aranjamentul partițiilor"
 
 #: src/components/localization/Keyboard.jsx:225
-#: src/components/localization/Keyboard.jsx:328
-#: src/components/localization/Keyboard.jsx:386
+#: src/components/localization/Keyboard.jsx:329
+#: src/components/localization/Keyboard.jsx:387
 msgid "Change system keyboard layout"
 msgstr "Modifică aranjamentul tastaturii de sistem"
 
@@ -240,7 +260,7 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr "Se verifică configurația de stocare"
 
-#: src/components/localization/Common.jsx:115
+#: src/components/common/MenuSearch.jsx:124
 msgid "Clear search"
 msgstr "Goliți caseta de căutare"
 
@@ -564,7 +584,7 @@ msgstr ""
 "Păstrează aranjamentul curent al disk-ului și utilizează spațiul disponibil "
 "(pentru dual-boot cu alt Sistem de Operare)."
 
-#: src/components/localization/InstallationLanguage.jsx:256
+#: src/components/localization/InstallationLanguage.jsx:257
 msgid "Keyboard"
 msgstr "Tastatură"
 
@@ -572,7 +592,7 @@ msgstr "Tastatură"
 msgid "Keyboard layout during boot"
 msgstr "Aranjament tastatură în timpul pornirii"
 
-#: src/components/localization/InstallationLanguage.jsx:240
+#: src/components/localization/InstallationLanguage.jsx:241
 #: src/components/review/ReviewConfiguration.jsx:192
 msgid "Language"
 msgstr "Limbă"
@@ -638,7 +658,7 @@ msgstr ""
 "Neconcordanță între dispozitivele părinte și copil selectate pentru "
 "reformatare."
 
-#: src/components/localization/Keyboard.jsx:304
+#: src/components/localization/Keyboard.jsx:305
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 "Au fost detectate mai mult de un aranjament. Eliminați aranjamentele "
@@ -714,15 +734,15 @@ msgstr "Niciun disk disponibil"
 msgid "No disks selected"
 msgstr "Nu au fost selectate discuri"
 
-#: src/components/localization/Keyboard.jsx:251
+#: src/components/localization/Keyboard.jsx:252
 msgid "No layouts selected yet"
 msgstr "Niciun aranjament selectat"
 
-#: src/components/localization/Common.jsx:138
+#: src/components/common/MenuSearch.jsx:147
 msgid "No results found"
 msgstr "Nu a fost găsit niciun rezultat"
 
-#: src/components/localization/Keyboard.jsx:421
+#: src/components/localization/Keyboard.jsx:422
 msgid ""
 "No valid VConsole keymap can be obtained for the selected keyboard "
 "layout(s). Please make a different keyboard layout selection."
@@ -1001,7 +1021,7 @@ msgstr ""
 "Contul root este activat, dar nu a fost configurat niciun cont de utilizator"
 
 #: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:288
+#: src/components/localization/Keyboard.jsx:289
 #: src/components/review/Hostname.jsx:137
 msgid "Save"
 msgstr "Salvează"
@@ -1012,6 +1032,18 @@ msgstr "Scanați codul QR cu telefonul sau accesați:"
 
 #: src/components/localization/InstallationLanguage.jsx:210
 msgid "Search for a language"
+msgstr "Căutați o limbă"
+
+#: src/components/software/SoftwareSelection.jsx:171
+#, fuzzy
+#| msgid "Custom software selected"
+msgid "Search for additional software"
+msgstr "A fost selectat software particularizat"
+
+#: src/components/software/SoftwareSelection.jsx:78
+#, fuzzy
+#| msgid "Search for a language"
+msgid "Search for an environment"
 msgstr "Căutați o limbă"
 
 #: src/components/localization/Keyboard.jsx:234
@@ -1046,7 +1078,7 @@ msgstr "Selectați destinația"
 msgid "Select region"
 msgstr "Selectați regiunea"
 
-#: src/components/localization/Keyboard.jsx:244
+#: src/components/localization/Keyboard.jsx:245
 msgid "Selected (top = current)"
 msgstr "Aranjamente selectate (cel de sus = curent)"
 
@@ -1110,6 +1142,10 @@ msgstr ""
 "Instalare software: Configurarea stocării este completă. Acest software este "
 "în curs de instalare pe dispozitivul dumneavoastră."
 
+#: src/components/software/index.js:31 src/components/software/index.js:32
+msgid "Software selection"
+msgstr "Selecție software"
+
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:61
 msgid "Some required partitions are missing: $0"
 msgstr "Câteva partiții necesare lipsesc: $0"
@@ -1125,7 +1161,7 @@ msgstr "Stocare"
 #: src/components/installation/InstallationProgress.jsx:141
 #: src/components/storage/storage-configuration/index.js:32
 #: src/components/storage/storage-configuration/index.js:33
-#: src/components/steps.js:27
+#: src/components/steps.js:29
 msgid "Storage configuration"
 msgstr "Configurare stocare"
 
@@ -1214,7 +1250,7 @@ msgstr ""
 "Parola introdusă conține simboluri non-ASCII. Este posibil să nu puteți "
 "schimba aranjamentul tastaturii când o veți introduce."
 
-#: src/components/localization/Keyboard.jsx:273
+#: src/components/localization/Keyboard.jsx:274
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
@@ -2058,11 +2094,6 @@ msgstr "anulează"
 #~ msgid "Additional software for Selected Environment"
 #~ msgstr "Suplimente pentru mediul selectat"
 
-#, fuzzy
-#~| msgid "Add-Ons for Selected Environment"
-#~ msgid "Additional software for selected environment"
-#~ msgstr "Suplimente pentru mediul selectat"
-
 #~ msgid "Administrator"
 #~ msgstr "Administrator"
 
@@ -2237,9 +2268,6 @@ msgstr "anulează"
 
 #~ msgid "Base Environment"
 #~ msgstr "Mediu de bază"
-
-#~ msgid "Base environment"
-#~ msgstr "Mediu de bază."
 
 #~ msgid "Beta Warn"
 #~ msgstr "Avertizare Beta"
@@ -3453,11 +3481,6 @@ msgstr "anulează"
 #~ msgstr ""
 #~ "Nu s-au găsit fișiere *.iso în directorul rădăcină al dispozitivului"
 
-#, fuzzy
-#~| msgid "Custom software selected"
-#~ msgid "No additional software to select."
-#~ msgstr "A fost selectat software particularizat"
-
 #~ msgid "No credentials (discovery authentication disabled)"
 #~ msgstr ""
 #~ "Nu se găsesc date pentru conectare (descoperire autentificare dezactivată)"
@@ -4292,9 +4315,6 @@ msgstr "anulează"
 
 #~ msgid "Skip to shell"
 #~ msgstr "Mergi direct la linia de comandă"
-
-#~ msgid "Software selection"
-#~ msgstr "Selecție software"
 
 #~ msgid "Source changed - please verify"
 #~ msgstr "Sursa s-a schimbat - vă rugăm să verificați"

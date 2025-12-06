@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 03:42+0000\n"
+"POT-Creation-Date: 2025-12-06 03:33+0000\n"
 "PO-Revision-Date: 2025-10-25 22:04+0000\n"
 "Last-Translator: Aindriu Mac Giolla Eoin <aindriu80@gmail.com>\n"
 "Language-Team: Irish <https://translate.fedoraproject.org/projects/anaconda-"
@@ -107,9 +107,21 @@ msgstr "Cuir freastalaí eile leis..."
 msgid "Add mount"
 msgstr "Cuir mount"
 
+#: src/components/software/SoftwareSelection.jsx:134
+msgid "Add-ons for your chosen environment"
+msgstr ""
+
+#: src/components/software/SoftwareSelection.jsx:143
+msgid "Add-ons not specific to your environment"
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:157
 msgid "Additional languages"
 msgstr "Teangacha breise"
+
+#: src/components/software/SoftwareSelection.jsx:168
+msgid "Additional software for the selected environment"
+msgstr ""
 
 #: src/components/Error.jsx:215
 msgid ""
@@ -174,6 +186,10 @@ msgstr "Spás saor in aisce ar fáil: $0. Teastaíonn: $1 le suiteáil."
 msgid "Back"
 msgstr "Ar ais"
 
+#: src/components/software/SoftwareSelection.jsx:75
+msgid "Base environment"
+msgstr "Buntimpeallacht"
+
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
@@ -191,7 +207,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:291
+#: src/components/localization/Keyboard.jsx:292
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "Cealaigh"
@@ -213,8 +229,8 @@ msgid "Change partition layout"
 msgstr "Athraigh leagan amach na críochdheighilte"
 
 #: src/components/localization/Keyboard.jsx:225
-#: src/components/localization/Keyboard.jsx:328
-#: src/components/localization/Keyboard.jsx:386
+#: src/components/localization/Keyboard.jsx:329
+#: src/components/localization/Keyboard.jsx:387
 msgid "Change system keyboard layout"
 msgstr "Athraigh leagan amach méarchláir an chórais"
 
@@ -231,7 +247,7 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr "Cumraíocht stórála á seiceáil"
 
-#: src/components/localization/Common.jsx:115
+#: src/components/common/MenuSearch.jsx:124
 msgid "Clear search"
 msgstr "Glan an cuardach"
 
@@ -558,7 +574,7 @@ msgstr ""
 "Coinnigh leagan amach reatha an diosca agus bain úsáid as an spás atá ar "
 "fáil chun dé-thosú a dhéanamh le OS eile."
 
-#: src/components/localization/InstallationLanguage.jsx:256
+#: src/components/localization/InstallationLanguage.jsx:257
 msgid "Keyboard"
 msgstr "Méarchlár"
 
@@ -566,7 +582,7 @@ msgstr "Méarchlár"
 msgid "Keyboard layout during boot"
 msgstr "Leagan amach an mhéarchláir le linn tosaithe"
 
-#: src/components/localization/InstallationLanguage.jsx:240
+#: src/components/localization/InstallationLanguage.jsx:241
 #: src/components/review/ReviewConfiguration.jsx:192
 msgid "Language"
 msgstr "Teanga"
@@ -632,7 +648,7 @@ msgstr ""
 "Mímheaitseáil idir an tuismitheoir gléas agus an rogha athfhormáidithe gléas "
 "linbh."
 
-#: src/components/localization/Keyboard.jsx:304
+#: src/components/localization/Keyboard.jsx:305
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 "Níos mó ná leagan amach amháin braite. Bain leagan amach breise le dul ar "
@@ -708,15 +724,15 @@ msgstr "Níl dioscaí ar fáil"
 msgid "No disks selected"
 msgstr "Níor roghnaíodh dioscaí"
 
-#: src/components/localization/Keyboard.jsx:251
+#: src/components/localization/Keyboard.jsx:252
 msgid "No layouts selected yet"
 msgstr "Níl aon leagan amach roghnaithe fós"
 
-#: src/components/localization/Common.jsx:138
+#: src/components/common/MenuSearch.jsx:147
 msgid "No results found"
 msgstr "Níor aimsíodh aon torthaí"
 
-#: src/components/localization/Keyboard.jsx:421
+#: src/components/localization/Keyboard.jsx:422
 msgid ""
 "No valid VConsole keymap can be obtained for the selected keyboard "
 "layout(s). Please make a different keyboard layout selection."
@@ -992,7 +1008,7 @@ msgid "Root account is enabled, but no user account has been configured"
 msgstr "Tá cuntas fréimhe cumasaithe, ach níl aon chuntas úsáideora cumraithe"
 
 #: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:288
+#: src/components/localization/Keyboard.jsx:289
 #: src/components/review/Hostname.jsx:137
 msgid "Save"
 msgstr "Sábháil"
@@ -1003,6 +1019,18 @@ msgstr "Scan an cód QR le do ghuthán nó tabhair cuairt ar:"
 
 #: src/components/localization/InstallationLanguage.jsx:210
 msgid "Search for a language"
+msgstr "Cuardaigh teanga"
+
+#: src/components/software/SoftwareSelection.jsx:171
+#, fuzzy
+#| msgid "Reclaim additional space"
+msgid "Search for additional software"
+msgstr "Íosluchtaigh spás breise"
+
+#: src/components/software/SoftwareSelection.jsx:78
+#, fuzzy
+#| msgid "Search for a language"
+msgid "Search for an environment"
 msgstr "Cuardaigh teanga"
 
 #: src/components/localization/Keyboard.jsx:234
@@ -1037,7 +1065,7 @@ msgstr "Roghnaigh ceann scríbe"
 msgid "Select region"
 msgstr "Roghnaigh réigiún"
 
-#: src/components/localization/Keyboard.jsx:244
+#: src/components/localization/Keyboard.jsx:245
 msgid "Selected (top = current)"
 msgstr "Roghnaithe (barr = reatha)"
 
@@ -1101,6 +1129,12 @@ msgstr ""
 "Suiteáil bogearraí: cumraíocht stórála críochnaithe. Tá na bogearraí á "
 "shuiteáil ar do ghléas anois."
 
+#: src/components/software/index.js:31 src/components/software/index.js:32
+#, fuzzy
+#| msgid "Software installation"
+msgid "Software selection"
+msgstr "Suiteáil bogearraí"
+
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:61
 msgid "Some required partitions are missing: $0"
 msgstr "Tá roinnt deighiltí riachtanacha in easnamh: $0"
@@ -1116,7 +1150,7 @@ msgstr "Stóráil"
 #: src/components/installation/InstallationProgress.jsx:141
 #: src/components/storage/storage-configuration/index.js:32
 #: src/components/storage/storage-configuration/index.js:33
-#: src/components/steps.js:27
+#: src/components/steps.js:29
 msgid "Storage configuration"
 msgstr "Cumraíocht stórála"
 
@@ -1209,7 +1243,7 @@ msgstr ""
 "Tá carachtair neamh-ASCII sa phasfhrása a sholáthair tú. Seans nach mbeidh "
 "tú in ann aistriú idir leagan amach méarchláir agus é á chlóscríobh."
 
-#: src/components/localization/Keyboard.jsx:273
+#: src/components/localization/Keyboard.jsx:274
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
@@ -1778,9 +1812,6 @@ msgstr "cealaigh"
 #~ msgstr "Réigiúin ar fáil"
 
 #~ msgid "Base Environment"
-#~ msgstr "Buntimpeallacht"
-
-#~ msgid "Base environment"
 #~ msgstr "Buntimpeallacht"
 
 #~ msgid "Boot"

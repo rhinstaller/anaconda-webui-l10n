@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 03:42+0000\n"
+"POT-Creation-Date: 2025-12-06 03:33+0000\n"
 "PO-Revision-Date: 2025-10-20 12:18+0000\n"
 "Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/"
@@ -126,9 +126,25 @@ msgstr "Afegeix un altre servidor..."
 msgid "Add mount"
 msgstr "Afegeix muntatge"
 
+#: src/components/software/SoftwareSelection.jsx:134
+#, fuzzy
+#| msgid "Additional software for selected environment"
+msgid "Add-ons for your chosen environment"
+msgstr "Programari addicional per a l'entorn seleccionat"
+
+#: src/components/software/SoftwareSelection.jsx:143
+msgid "Add-ons not specific to your environment"
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:157
 msgid "Additional languages"
 msgstr "Llengües addicionals"
+
+#: src/components/software/SoftwareSelection.jsx:168
+#, fuzzy
+#| msgid "Additional software for selected environment"
+msgid "Additional software for the selected environment"
+msgstr "Programari addicional per a l'entorn seleccionat"
 
 #: src/components/Error.jsx:215
 msgid ""
@@ -194,6 +210,10 @@ msgstr "Espai lliure disponible: $0. La instal·lació requereix: $1."
 msgid "Back"
 msgstr "Enrere"
 
+#: src/components/software/SoftwareSelection.jsx:75
+msgid "Base environment"
+msgstr "Entorn base"
+
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
@@ -210,7 +230,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:291
+#: src/components/localization/Keyboard.jsx:292
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "Cancel·la"
@@ -232,8 +252,8 @@ msgid "Change partition layout"
 msgstr "Canvia la disposició de la partició"
 
 #: src/components/localization/Keyboard.jsx:225
-#: src/components/localization/Keyboard.jsx:328
-#: src/components/localization/Keyboard.jsx:386
+#: src/components/localization/Keyboard.jsx:329
+#: src/components/localization/Keyboard.jsx:387
 msgid "Change system keyboard layout"
 msgstr "Canvia la disposició del teclat del sistema"
 
@@ -249,7 +269,7 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr "S'està comprovant la configuració de l'emmagatzematge"
 
-#: src/components/localization/Common.jsx:115
+#: src/components/common/MenuSearch.jsx:124
 msgid "Clear search"
 msgstr "Esborrar la cerca"
 
@@ -572,7 +592,7 @@ msgstr ""
 "Mantén la disposició actual del disc i utilitza l'espai disponible, per a "
 "arrencar amb dual-boot amb un altre sistema operatiu."
 
-#: src/components/localization/InstallationLanguage.jsx:256
+#: src/components/localization/InstallationLanguage.jsx:257
 msgid "Keyboard"
 msgstr "Teclat"
 
@@ -580,7 +600,7 @@ msgstr "Teclat"
 msgid "Keyboard layout during boot"
 msgstr "Disposició del teclat durant l'arrencada"
 
-#: src/components/localization/InstallationLanguage.jsx:240
+#: src/components/localization/InstallationLanguage.jsx:241
 #: src/components/review/ReviewConfiguration.jsx:192
 msgid "Language"
 msgstr "Idioma"
@@ -646,7 +666,7 @@ msgstr ""
 "No coincideix el dispositiu pare i la selecció del reformat del dispositiu "
 "fill."
 
-#: src/components/localization/Keyboard.jsx:304
+#: src/components/localization/Keyboard.jsx:305
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 "S'ha detectat més d'una disposició. Suprimiu-ne d'addicionals per continuar"
@@ -721,15 +741,15 @@ msgstr "No hi ha discs disponibles"
 msgid "No disks selected"
 msgstr "No s'ha seleccionat cap disc"
 
-#: src/components/localization/Keyboard.jsx:251
+#: src/components/localization/Keyboard.jsx:252
 msgid "No layouts selected yet"
 msgstr "Encara no s'ha seleccionat cap disposició"
 
-#: src/components/localization/Common.jsx:138
+#: src/components/common/MenuSearch.jsx:147
 msgid "No results found"
 msgstr "No s'han trobat resultats"
 
-#: src/components/localization/Keyboard.jsx:421
+#: src/components/localization/Keyboard.jsx:422
 msgid ""
 "No valid VConsole keymap can be obtained for the selected keyboard "
 "layout(s). Please make a different keyboard layout selection."
@@ -1007,7 +1027,7 @@ msgstr ""
 "El compte root està habilitat, però no s'ha configurat cap compte d'usuari"
 
 #: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:288
+#: src/components/localization/Keyboard.jsx:289
 #: src/components/review/Hostname.jsx:137
 msgid "Save"
 msgstr "Desa"
@@ -1018,6 +1038,18 @@ msgstr "Escaneja el codi QR amb el teu telèfon o visita:"
 
 #: src/components/localization/InstallationLanguage.jsx:210
 msgid "Search for a language"
+msgstr "Cerca un idioma"
+
+#: src/components/software/SoftwareSelection.jsx:171
+#, fuzzy
+#| msgid "No additional software to select."
+msgid "Search for additional software"
+msgstr "No hi ha cap programari addicional per seleccionar."
+
+#: src/components/software/SoftwareSelection.jsx:78
+#, fuzzy
+#| msgid "Search for a language"
+msgid "Search for an environment"
 msgstr "Cerca un idioma"
 
 #: src/components/localization/Keyboard.jsx:234
@@ -1052,7 +1084,7 @@ msgstr "Seleccioneu la destinació"
 msgid "Select region"
 msgstr "Selecciona la regió"
 
-#: src/components/localization/Keyboard.jsx:244
+#: src/components/localization/Keyboard.jsx:245
 msgid "Selected (top = current)"
 msgstr "Seleccionat (superior = actual)"
 
@@ -1116,6 +1148,10 @@ msgstr ""
 "Instal·lació de programari: s'ha completat la configuració de "
 "l'emmagatzematge. El programari s'instal·la al dispositiu."
 
+#: src/components/software/index.js:31 src/components/software/index.js:32
+msgid "Software selection"
+msgstr "Selecció de programari"
+
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:61
 msgid "Some required partitions are missing: $0"
 msgstr "Falten algunes particions necessàries: $0"
@@ -1131,7 +1167,7 @@ msgstr "Emmagatzematge"
 #: src/components/installation/InstallationProgress.jsx:141
 #: src/components/storage/storage-configuration/index.js:32
 #: src/components/storage/storage-configuration/index.js:33
-#: src/components/steps.js:27
+#: src/components/steps.js:29
 msgid "Storage configuration"
 msgstr "Configuració d'emmagatzematge"
 
@@ -1224,7 +1260,7 @@ msgstr ""
 "La contrasenya que heu proporcionat conté caràcters que no són ASCII. Pot "
 "ser que no pugueu commutar entre disposicions de teclat quan la teclegeu."
 
-#: src/components/localization/Keyboard.jsx:273
+#: src/components/localization/Keyboard.jsx:274
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
@@ -2193,9 +2229,6 @@ msgstr "desfer"
 #~ msgid "Additional software for Selected Environment"
 #~ msgstr "Programari addicional per a l'entorn seleccionat"
 
-#~ msgid "Additional software for selected environment"
-#~ msgstr "Programari addicional per a l'entorn seleccionat"
-
 #~ msgid "Administrator"
 #~ msgstr "Administrador"
 
@@ -2375,9 +2408,6 @@ msgstr "desfer"
 #~ msgstr "Format incorrecte de la màscara de xarxa"
 
 #~ msgid "Base Environment"
-#~ msgstr "Entorn base"
-
-#~ msgid "Base environment"
 #~ msgstr "Entorn base"
 
 #~ msgid "Beta Warn"
@@ -3843,9 +3873,6 @@ msgstr "desfer"
 #~ msgstr ""
 #~ "No s'ha trobat cap fitxer *.iso en la carpeta de l'arrel del dispositiu"
 
-#~ msgid "No additional software to select."
-#~ msgstr "No hi ha cap programari addicional per seleccionar."
-
 #~ msgid "No credentials (discovery authentication disabled)"
 #~ msgstr "Sense credencials (autentificació inhabilitada per al descobriment)"
 
@@ -4812,9 +4839,6 @@ msgstr "desfer"
 #~ msgstr ""
 #~ "Instantània: l'origen \"%(origin)s\" de la instantània \"%(name)s\" no és "
 #~ "un dispositiu LV disgregat."
-
-#~ msgid "Software selection"
-#~ msgstr "Selecció de programari"
 
 #, fuzzy
 #~| msgid ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 40.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 03:42+0000\n"
+"POT-Creation-Date: 2025-12-06 03:33+0000\n"
 "PO-Revision-Date: 2025-10-23 03:29+0000\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <https://translate.fedoraproject.org/projects/"
@@ -108,9 +108,25 @@ msgstr "Dodaj drug strežnik ..."
 msgid "Add mount"
 msgstr "Dodaj nosilec"
 
+#: src/components/software/SoftwareSelection.jsx:134
+#, fuzzy
+#| msgid "Additional software for selected environment"
+msgid "Add-ons for your chosen environment"
+msgstr "Dodatno programje za izbrano okolje"
+
+#: src/components/software/SoftwareSelection.jsx:143
+msgid "Add-ons not specific to your environment"
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:157
 msgid "Additional languages"
 msgstr "Dodatni jeziki"
+
+#: src/components/software/SoftwareSelection.jsx:168
+#, fuzzy
+#| msgid "Additional software for selected environment"
+msgid "Additional software for the selected environment"
+msgstr "Dodatno programje za izbrano okolje"
 
 #: src/components/Error.jsx:215
 msgid ""
@@ -173,6 +189,10 @@ msgstr "Prostor na voljo: $0. Zahtevano za namestitev: $1."
 msgid "Back"
 msgstr "Nazaj"
 
+#: src/components/software/SoftwareSelection.jsx:75
+msgid "Base environment"
+msgstr "Osnovno okolje"
+
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
@@ -189,7 +209,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:291
+#: src/components/localization/Keyboard.jsx:292
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "Prekliči"
@@ -211,8 +231,8 @@ msgid "Change partition layout"
 msgstr "Spremeni postavitev particije"
 
 #: src/components/localization/Keyboard.jsx:225
-#: src/components/localization/Keyboard.jsx:328
-#: src/components/localization/Keyboard.jsx:386
+#: src/components/localization/Keyboard.jsx:329
+#: src/components/localization/Keyboard.jsx:387
 msgid "Change system keyboard layout"
 msgstr "Spremeni sistemsko postavitev tipkovnice"
 
@@ -229,7 +249,7 @@ msgstr ""
 msgid "Checking storage configuration"
 msgstr "Preverjanje prilagoditve hrambe"
 
-#: src/components/localization/Common.jsx:115
+#: src/components/common/MenuSearch.jsx:124
 msgid "Clear search"
 msgstr "Počisti iskanje"
 
@@ -551,7 +571,7 @@ msgstr ""
 "Ohrani trenutno postavitev diska in uporabi razpoložljiv prostor za dvojni "
 "zagon z drugim OS."
 
-#: src/components/localization/InstallationLanguage.jsx:256
+#: src/components/localization/InstallationLanguage.jsx:257
 msgid "Keyboard"
 msgstr "Tipkovnica"
 
@@ -559,7 +579,7 @@ msgstr "Tipkovnica"
 msgid "Keyboard layout during boot"
 msgstr "Postavitev tipkovnice med zagonom"
 
-#: src/components/localization/InstallationLanguage.jsx:240
+#: src/components/localization/InstallationLanguage.jsx:241
 #: src/components/review/ReviewConfiguration.jsx:192
 msgid "Language"
 msgstr "Jezik"
@@ -625,7 +645,7 @@ msgstr ""
 "Neusklajenost med izbiro ponovnega formatiranja nadrejene naprave in "
 "podrejene naprave."
 
-#: src/components/localization/Keyboard.jsx:304
+#: src/components/localization/Keyboard.jsx:305
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
 "Zaznana več kot ena postavitev. Odstranite dodatne postavitve za nadaljevanje"
@@ -699,15 +719,15 @@ msgstr "Noben disk ni na voljo"
 msgid "No disks selected"
 msgstr "Ni izbranih diskov"
 
-#: src/components/localization/Keyboard.jsx:251
+#: src/components/localization/Keyboard.jsx:252
 msgid "No layouts selected yet"
 msgstr "Nobena postavitev še ni izbrana"
 
-#: src/components/localization/Common.jsx:138
+#: src/components/common/MenuSearch.jsx:147
 msgid "No results found"
 msgstr "Ni zadetkov"
 
-#: src/components/localization/Keyboard.jsx:421
+#: src/components/localization/Keyboard.jsx:422
 msgid ""
 "No valid VConsole keymap can be obtained for the selected keyboard "
 "layout(s). Please make a different keyboard layout selection."
@@ -985,7 +1005,7 @@ msgstr ""
 "Korenski račun je omogočen, vendar noben uporabniški račun ni bil nastavljen"
 
 #: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:288
+#: src/components/localization/Keyboard.jsx:289
 #: src/components/review/Hostname.jsx:137
 msgid "Save"
 msgstr "Shrani"
@@ -996,6 +1016,18 @@ msgstr "Optično preberite QR-kodo s telefonom ali obiščite:"
 
 #: src/components/localization/InstallationLanguage.jsx:210
 msgid "Search for a language"
+msgstr "Poiščite jezik"
+
+#: src/components/software/SoftwareSelection.jsx:171
+#, fuzzy
+#| msgid "No additional software to select."
+msgid "Search for additional software"
+msgstr "Ni izbranega dodatnega programja."
+
+#: src/components/software/SoftwareSelection.jsx:78
+#, fuzzy
+#| msgid "Search for a language"
+msgid "Search for an environment"
 msgstr "Poiščite jezik"
 
 #: src/components/localization/Keyboard.jsx:234
@@ -1030,7 +1062,7 @@ msgstr "Izberite cilj"
 msgid "Select region"
 msgstr "Izberite pokrajino"
 
-#: src/components/localization/Keyboard.jsx:244
+#: src/components/localization/Keyboard.jsx:245
 msgid "Selected (top = current)"
 msgstr "Izbrana (vrhnja = trenutna)"
 
@@ -1094,6 +1126,10 @@ msgstr ""
 "Nameščanje programja: Konfiguracija hrambe končana. Programje se zdaj "
 "namešča na vašo napravo."
 
+#: src/components/software/index.js:31 src/components/software/index.js:32
+msgid "Software selection"
+msgstr "Izbira programja"
+
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:61
 msgid "Some required partitions are missing: $0"
 msgstr "Manjkajo nekateri zahtevani razdelki: $0"
@@ -1109,7 +1145,7 @@ msgstr "Shramba"
 #: src/components/installation/InstallationProgress.jsx:141
 #: src/components/storage/storage-configuration/index.js:32
 #: src/components/storage/storage-configuration/index.js:33
-#: src/components/steps.js:27
+#: src/components/steps.js:29
 msgid "Storage configuration"
 msgstr "Konfiguracija hrambe"
 
@@ -1197,7 +1233,7 @@ msgstr ""
 "Dana geselna fraza geslo vsebuje znake, ki niso iz nabora ASCII. Pri "
 "tipkanju morda ne boste mogli preklopiti med postavitvami tipkovnice."
 
-#: src/components/localization/Keyboard.jsx:273
+#: src/components/localization/Keyboard.jsx:274
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
@@ -2210,9 +2246,6 @@ msgstr "razveljavi"
 #~ msgid "Additional software for Selected Environment"
 #~ msgstr "Dodatno programje za izbrano okolje"
 
-#~ msgid "Additional software for selected environment"
-#~ msgstr "Dodatno programje za izbrano okolje"
-
 #~ msgid "Administrator"
 #~ msgstr "Skrbnik"
 
@@ -2396,9 +2429,6 @@ msgstr "razveljavi"
 #~ msgstr "Slaba oblika mrežne maske"
 
 #~ msgid "Base Environment"
-#~ msgstr "Osnovno okolje"
-
-#~ msgid "Base environment"
 #~ msgstr "Osnovno okolje"
 
 #~ msgid "Beta Warn"
@@ -3825,9 +3855,6 @@ msgstr "razveljavi"
 #~ msgid "No *.iso files found in device root folder"
 #~ msgstr "Ni najdenih datotek *.iso v korenski mapi naprave"
 
-#~ msgid "No additional software to select."
-#~ msgstr "Ni izbranega dodatnega programja."
-
 #~ msgid "No credentials (discovery authentication disabled)"
 #~ msgstr "Ni poverilnic (preverjanje pristnosti pri odkrivanju onemogočeno)"
 
@@ -4707,9 +4734,6 @@ msgstr "razveljavi"
 
 #~ msgid "Snapshot: origin \"{}\" doesn't exist!"
 #~ msgstr "Posnetek: origin \"{}\" ne obstaja!"
-
-#~ msgid "Software selection"
-#~ msgstr "Izbira programja"
 
 #~ msgid "Some of the repomd.xml files have changed or are unreachable."
 #~ msgstr ""

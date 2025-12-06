@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 03:42+0000\n"
+"POT-Creation-Date: 2025-12-06 03:33+0000\n"
 "PO-Revision-Date: 2025-06-01 02:21+0000\n"
 "Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -132,9 +132,25 @@ msgstr "加入 NTP 伺服器"
 msgid "Add mount"
 msgstr "增加掛載"
 
+#: src/components/software/SoftwareSelection.jsx:134
+#, fuzzy
+#| msgid "Additional software for selected environment"
+msgid "Add-ons for your chosen environment"
+msgstr "所選環境的額外軟體"
+
+#: src/components/software/SoftwareSelection.jsx:143
+msgid "Add-ons not specific to your environment"
+msgstr ""
+
 #: src/components/localization/InstallationLanguage.jsx:157
 msgid "Additional languages"
 msgstr "額外語言"
+
+#: src/components/software/SoftwareSelection.jsx:168
+#, fuzzy
+#| msgid "Additional software for selected environment"
+msgid "Additional software for the selected environment"
+msgstr "所選環境的額外軟體"
 
 #: src/components/Error.jsx:215
 msgid ""
@@ -191,6 +207,10 @@ msgstr "可用空間: $0。 安裝需要: $1。"
 msgid "Back"
 msgstr "返回"
 
+#: src/components/software/SoftwareSelection.jsx:75
+msgid "Base environment"
+msgstr "基礎環境"
+
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
@@ -205,7 +225,7 @@ msgstr ""
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
-#: src/components/localization/Keyboard.jsx:291
+#: src/components/localization/Keyboard.jsx:292
 #: src/components/review/Hostname.jsx:139 src/components/Error.jsx:309
 msgid "Cancel"
 msgstr "取消"
@@ -229,8 +249,8 @@ msgid "Change partition layout"
 msgstr "更改目標位置"
 
 #: src/components/localization/Keyboard.jsx:225
-#: src/components/localization/Keyboard.jsx:328
-#: src/components/localization/Keyboard.jsx:386
+#: src/components/localization/Keyboard.jsx:329
+#: src/components/localization/Keyboard.jsx:387
 msgid "Change system keyboard layout"
 msgstr "變更系統鍵盤配置"
 
@@ -245,7 +265,7 @@ msgstr "在此進行的變更將立即對系統生效。 這沒有反悔的機�
 msgid "Checking storage configuration"
 msgstr "正在檢查儲存組態"
 
-#: src/components/localization/Common.jsx:115
+#: src/components/common/MenuSearch.jsx:124
 msgid "Clear search"
 msgstr "清除搜尋"
 
@@ -570,7 +590,7 @@ msgid ""
 "OS."
 msgstr "保持目前硬碟佈局並使用可用空間，以與其他作業系統進行雙重開機。"
 
-#: src/components/localization/InstallationLanguage.jsx:256
+#: src/components/localization/InstallationLanguage.jsx:257
 msgid "Keyboard"
 msgstr "鍵盤"
 
@@ -578,7 +598,7 @@ msgstr "鍵盤"
 msgid "Keyboard layout during boot"
 msgstr "開機時的鍵盤配置"
 
-#: src/components/localization/InstallationLanguage.jsx:240
+#: src/components/localization/InstallationLanguage.jsx:241
 #: src/components/review/ReviewConfiguration.jsx:192
 msgid "Language"
 msgstr "語言"
@@ -640,7 +660,7 @@ msgstr ""
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr "父裝置與子裝置的重新格式化選擇不匹配。"
 
-#: src/components/localization/Keyboard.jsx:304
+#: src/components/localization/Keyboard.jsx:305
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr "偵測到多於一個佈局。 請移除其他佈局以繼續"
 
@@ -715,17 +735,17 @@ msgstr "沒有可用的硬碟"
 msgid "No disks selected"
 msgstr "尚未選取磁碟"
 
-#: src/components/localization/Keyboard.jsx:251
+#: src/components/localization/Keyboard.jsx:252
 #, fuzzy
 #| msgid "$0 layouts detected"
 msgid "No layouts selected yet"
 msgstr "偵測到 $0 配置"
 
-#: src/components/localization/Common.jsx:138
+#: src/components/common/MenuSearch.jsx:147
 msgid "No results found"
 msgstr "未找到結果"
 
-#: src/components/localization/Keyboard.jsx:421
+#: src/components/localization/Keyboard.jsx:422
 msgid ""
 "No valid VConsole keymap can be obtained for the selected keyboard "
 "layout(s). Please make a different keyboard layout selection."
@@ -1000,7 +1020,7 @@ msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:248
-#: src/components/localization/Keyboard.jsx:288
+#: src/components/localization/Keyboard.jsx:289
 #: src/components/review/Hostname.jsx:137
 msgid "Save"
 msgstr "儲存"
@@ -1011,6 +1031,18 @@ msgstr "使用您的手機掃描 QR code 並造訪："
 
 #: src/components/localization/InstallationLanguage.jsx:210
 msgid "Search for a language"
+msgstr "搜尋語言"
+
+#: src/components/software/SoftwareSelection.jsx:171
+#, fuzzy
+#| msgid "No additional software to select."
+msgid "Search for additional software"
+msgstr "未選取額外軟體。"
+
+#: src/components/software/SoftwareSelection.jsx:78
+#, fuzzy
+#| msgid "Search for a language"
+msgid "Search for an environment"
 msgstr "搜尋語言"
 
 #: src/components/localization/Keyboard.jsx:234
@@ -1047,7 +1079,7 @@ msgstr "選取安裝目的地"
 msgid "Select region"
 msgstr "選擇無"
 
-#: src/components/localization/Keyboard.jsx:244
+#: src/components/localization/Keyboard.jsx:245
 #, fuzzy
 #| msgid "Selected Layouts"
 msgid "Selected (top = current)"
@@ -1120,6 +1152,10 @@ msgid ""
 "being installed onto your device."
 msgstr "軟體選擇：儲存空間設定完成。 該軟體正在安裝至您的裝置上。"
 
+#: src/components/software/index.js:31 src/components/software/index.js:32
+msgid "Software selection"
+msgstr "軟體選擇"
+
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:61
 msgid "Some required partitions are missing: $0"
 msgstr "缺少部分必要的分割區：$0"
@@ -1135,7 +1171,7 @@ msgstr "儲存"
 #: src/components/installation/InstallationProgress.jsx:141
 #: src/components/storage/storage-configuration/index.js:32
 #: src/components/storage/storage-configuration/index.js:33
-#: src/components/steps.js:27
+#: src/components/steps.js:29
 msgid "Storage configuration"
 msgstr "儲存裝置組態"
 
@@ -1221,7 +1257,7 @@ msgid ""
 "be able to switch between keyboard layouts when typing it."
 msgstr "您提供的密語包含非 ASCII 字元。在輸入時您可能無法切換鍵盤布局。"
 
-#: src/components/localization/Keyboard.jsx:273
+#: src/components/localization/Keyboard.jsx:274
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
@@ -2138,9 +2174,6 @@ msgstr "復原"
 #~ msgid "Additional software for Selected Environment"
 #~ msgstr "所選環境的額外軟體"
 
-#~ msgid "Additional software for selected environment"
-#~ msgstr "所選環境的額外軟體"
-
 #~ msgid "Administrator"
 #~ msgstr "管理員權限"
 
@@ -2311,9 +2344,6 @@ msgstr "復原"
 #~ msgstr "網路遮罩的格式不良"
 
 #~ msgid "Base Environment"
-#~ msgstr "基礎環境"
-
-#~ msgid "Base environment"
 #~ msgstr "基礎環境"
 
 #~ msgid "Beta Warn"
@@ -3722,9 +3752,6 @@ msgstr "復原"
 #~ msgid "No *.iso files found in device root folder"
 #~ msgstr "裝置根基資料夾中找不到 *.iso 檔"
 
-#~ msgid "No additional software to select."
-#~ msgstr "未選取額外軟體。"
-
 #~ msgid "No credentials (discovery authentication disabled)"
 #~ msgstr "無憑證 (已停用探查用身份核對)"
 
@@ -4648,9 +4675,6 @@ msgstr "復原"
 #~ msgid ""
 #~ "Snapshot: origin \"{}\" of snapshot \"{}\" is not a valid thin LV device."
 #~ msgstr "快照： \"{}\" 快照的 \"{}\" 來源在限縮 LV 裝置中無效。"
-
-#~ msgid "Software selection"
-#~ msgstr "軟體選擇"
 
 #~ msgid "Some packages, groups or modules are broken."
 #~ msgstr "有些軟體包、群組、模組可能損壞。"
