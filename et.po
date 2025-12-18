@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-18 03:46+0000\n"
-"PO-Revision-Date: 2025-12-18 03:46+0000\n"
+"PO-Revision-Date: 2025-12-19 03:47+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/"
@@ -28,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:180
 #: src/components/storage/installation-method/InstallationDestination.jsx:301
@@ -54,6 +54,9 @@ msgid ""
 "$0 is an MBR extended partition that contains logical partitions. Removing "
 "all logical partitions will also automatically remove the extended partition."
 msgstr ""
+"„$0“ on MBR-tüüpi laiendatud partitsioon, mis sisaldab loogilisi "
+"partitsioone. Kõikide loogiliste partitsioonidega eemaldad ka laiendatud "
+"partitsiooni(d)."
 
 #: src/components/review/ReviewConfiguration.jsx:118
 msgid "$0 is required, but only $1 is available."
@@ -75,18 +78,22 @@ msgstr "„$0“ failisüsteem ei saa asuda krüptitud blokkseadmes"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:185
 msgid "'$0' must be on a device formatted to '$1'"
-msgstr ""
+msgstr "„$0“ peab asuma „$1“ vorminduses seadmel"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:249
 msgid ""
 "'$0' partition on MDRAID device $1 found. Bootloader partitions on MDRAID "
 "devices are not supported."
 msgstr ""
+"Leidus MDRAID-i seadmel „$1“ asuv „$0“ partitsioon. MDRAID-i seadmetel "
+"asuvad alglaaduri partitsioonid pole toetatud."
 
 #: src/components/users/Accounts.jsx:189
 msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr ""
+"Tavaline kasutajakonto, millel on peakasutaja õigused ja mis võimaldab teha "
+"süsteemiüleseid muudatusi."
 
 #: src/components/HeaderKebab.jsx:121
 msgid "About"
@@ -129,18 +136,20 @@ msgstr "Täiendav tarkvara valitud keskkonna jaoks"
 msgid ""
 "After creating the issue, click 'Add attachment' and attach file $0 and $1."
 msgstr ""
+"Peale veateate koostamist klõpsa „Lisa manus“ ja manusta failid $0 ja $1."
 
 #: src/components/Error.jsx:214
 msgid "After creating the issue, click 'Add attachment' and attach file $0."
 msgstr ""
+"Peale veateate koostamist klõpsa „Lisa manus“ ja manusta fail nimega $0."
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:97
 msgid "All changes made in the storage editor take effect immediately."
-msgstr ""
+msgstr "Kõik andmeruumi halduris tehtud muudatused jõustuvad kohe."
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:145
 msgid "All devices using this passphrase will be unlocked"
-msgstr ""
+msgstr "Kõikide seda salafraasi kasutavata seadmete lukustus avatakse"
 
 #: src/manifest.json:0
 msgid "Anaconda"
@@ -156,12 +165,14 @@ msgstr "Anaconda projekti veebileht"
 
 #: src/components/storage/scenarios/mount-point-mapping/index.js:33
 msgid "Apply mount point assignment and install"
-msgstr ""
+msgstr "Rakenda haakepunktide määramine ja paigalda"
 
 #: src/components/storage/scenarios/mount-point-mapping/index.js:34
 msgid ""
 "Assign partitions to mount points. Useful for pre-configured custom layouts."
 msgstr ""
+"Seo partitsioonid haakepunktidega. On mõttekas näiteks omaloodud "
+"andmeruumijaotuse eelseadistamisel."
 
 #: src/components/datetime/DateAndTime.jsx:145
 msgid "Automatically set date and time, using time servers"
@@ -182,7 +193,7 @@ msgstr "Tagasi"
 
 #: src/components/software/SoftwareSelection.jsx:75
 msgid "Base environment"
-msgstr ""
+msgstr "Aluskeskkond"
 
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
@@ -191,6 +202,10 @@ msgid ""
 "testing and development purposes only and are willing to report any bugs or "
 "issues in order to enhance this work."
 msgstr ""
+"Jätkates selle tarkvara kasutamist sa mõistad riske mis seostuvad tarkvara "
+"eelversioonidega ja nõustud nendega. Lisaks kasutad seda tarkvara vaid "
+"testimiseks ja arenduseks ning toote edaspidise parandamise nimel oled nõus "
+"arendajatele teada andma leitud vigadest ja probleemidest."
 
 #: src/components/datetime/CustomNTPModal.jsx:251
 #: src/components/storage/installation-method/InstallationDestination.jsx:393
@@ -234,7 +249,7 @@ msgstr ""
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:438
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:444
 msgid "Checking storage configuration"
-msgstr ""
+msgstr "Kontrollin andmeruumi seadistust"
 
 #: src/components/common/MenuSearch.jsx:124
 msgid "Clear search"
@@ -263,6 +278,7 @@ msgstr "Sulge andmeruumi muutja"
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
+"Cockpit andmeruumis ei leidu salafraasi, mille krüptitud seadet saaks avada."
 
 #: src/components/installation/InstallationProgress.jsx:187
 msgid "Completed"
@@ -381,7 +397,7 @@ msgstr "Vea üksikasjad"
 
 #: src/components/installation/InstallationProgress.jsx:230
 msgid "Exit to live desktop"
-msgstr ""
+msgstr "Sulge paigaldaja ja ava taustal toimiv ajutine töölaud"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:250
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:257
@@ -405,6 +421,8 @@ msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
 msgstr ""
+"Viimistlen ja lõpetan: süsteemi seadistamine on lõppenud. Viimasteks "
+"sammudeks kulub veel mõni hetk."
 
 #: src/components/localization/Keyboard.jsx:230
 msgid "Find layout"
@@ -415,6 +433,8 @@ msgid ""
 "For better security, avoid using the root account directly. Instead, use the "
 "local account above to manage the system."
 msgstr ""
+"Parema turvalisuse nimel väldi juurkasutaja konto kasutamist otse. Selle "
+"asemel kasuta süsteemi haldamiseks ülaltoodud kasutajakontot."
 
 #: src/components/users/Accounts.jsx:191
 msgid "Full name"
@@ -474,6 +494,7 @@ msgstr "Ma saan aru, et mõned partitsioonid kuuluvad muutmisele"
 #: src/components/review/Hostname.jsx:126
 msgid "If empty, hostname will be transient and set by network information."
 msgstr ""
+"Kui väärtus jääb tühjaks, siis hostinimi luuakse ajutisena võrguteabe alusel."
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:69
 msgid "If you are configuring partitions the following are required:"
@@ -589,7 +610,7 @@ msgstr ""
 #: src/components/localization/Keyboard.jsx:134
 #: src/components/localization/Keyboard.jsx:138
 msgid "Make current"
-msgstr ""
+msgstr "Muuda praeguseks"
 
 #: src/components/storage/mount-point-mapping/index.js:31
 msgid "Manual disk configuration"
@@ -622,6 +643,8 @@ msgstr ""
 #: src/components/localization/Keyboard.jsx:305
 msgid "More than one layout detected. Remove additional layouts to proceed"
 msgstr ""
+"Tuvastasin enam kui ühe klahvistiku paigutuse. Jätkamiseks eemalda "
+"täiendavad paigutused"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 #: src/components/review/StorageReview.jsx:249
@@ -668,10 +691,13 @@ msgid ""
 "Network not available. Configure the network in the top bar menu to report "
 "the issue."
 msgstr ""
+"Võrguühendust pole. Veast teatamiseks palun seadista või lisa ülemisest "
+"ribamenüüst võrguühendus."
 
 #: src/components/Error.jsx:153
 msgid "Network not available. Configure the network to report the issue."
 msgstr ""
+"Võrguühendust pole. Veast teatamiseks palun seadista või lisa võrguühendus."
 
 #: src/components/AnacondaWizardFooter.jsx:97
 msgid "Next"
@@ -752,7 +778,7 @@ msgstr "Salafraas"
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:126
 msgid "Passphrase did not match any locked device"
-msgstr ""
+msgstr "Sellele salafraasile ei vasta mitte ükski lukustatud seade"
 
 #: src/components/Password.jsx:253
 msgid "Passphrases must match"
@@ -772,11 +798,11 @@ msgstr "Jätkamiseks palun vali vähemalt üks ketas"
 
 #: src/components/datetime/CustomNTPModal.jsx:201
 msgid "Pool"
-msgstr ""
+msgstr "Kogum"
 
 #: src/components/HeaderKebab.jsx:58
 msgid "Powered by Anaconda"
-msgstr ""
+msgstr "Taustal töötab Anaconda"
 
 #: src/components/AnacondaHeader.jsx:74
 msgid "Pre-release"
@@ -833,6 +859,8 @@ msgid ""
 "Reboot into Windows to resize BitLocker-encrypted partitions. Make at least "
 "$0 of free space available for installation."
 msgstr ""
+"Alglaadimisel vali Windows ja muuda seal BitLockeriga krüptitud partitsiooni "
+"suurust. Tekita paigalduse jaoks vähemalt $0 vaba andmeruumi."
 
 #: src/components/AnacondaWizardFooter.jsx:130
 msgid "Reboot system?"
@@ -844,7 +872,7 @@ msgstr "Taaskäivita juba paigaldatud süteemina"
 
 #: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:92
 msgid "Reclaim additional space"
-msgstr ""
+msgstr "Vabasta täiendavat andmeruumi"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:126
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:146
@@ -854,7 +882,7 @@ msgstr "Vabasta andmeruumi"
 
 #: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:92
 msgid "Reclaim space (required)"
-msgstr ""
+msgstr "Vabasta andmeruumi (see on nõutav)"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:231
 msgid "Recommended"
@@ -886,12 +914,15 @@ msgid ""
 "Remove all partitions on the selected devices, including existing operating "
 "systems."
 msgstr ""
+"Eemalda valitud seadmetelt kõik partitsioonid, sealhulgas neil paiknevad "
+"operatsioonisüsteemid."
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:130
-#, fuzzy
 msgid ""
 "Remove or resize existing filesystems to free up space for the installation."
-msgstr "Installimisega jätkamine ebaõnnestus."
+msgstr ""
+"Tegemaks paigalduse jaoks ruumi muuda olemasolevate failisüsteemide suurust "
+"või eemalda nad."
 
 #: src/components/datetime/CustomNTPModal.jsx:219
 msgid "Remove server"
@@ -903,6 +934,10 @@ msgid ""
 "Resizing a partition can free up unused space, but is not risk-free. Be sure "
 "to have backups of anything important before reclaiming space."
 msgstr ""
+"Failisüsteemi eemaldamisel kustutatakse jäädavalt ka kõik seal sisalduvad "
+"andmed. Partitsiooni suuruse muutmisega saad kasutamata ruumi vabastada, "
+"kuid ka see pole riskivaba. Vastaval juhul palun kontrolli, et sul on "
+"kõigest oluliselt olemas varukoopia."
 
 #: src/components/storage/scenarios/reinstall-fedora/index.js:34
 msgid "Replace current installation, but keep files in home."
@@ -939,7 +974,7 @@ msgstr "Muuda suurust"
 
 #: src/components/review/StorageReview.jsx:353
 msgid "Resizing the following partitions from $0: $1"
-msgstr ""
+msgstr "Muudan järgnevate partitsioonide suurust „$0“ → „$1“"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:58
 msgid "Return to installation"
@@ -993,6 +1028,8 @@ msgstr "Otsi klahvistiku paigutust"
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
+"Taga oma andmete turvalisus kettapõhise krüptimisega. See kehtiks vaid uute "
+"partitsioonide puhul"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:390
 msgid "Select"
@@ -1017,11 +1054,11 @@ msgstr "Vali piirkond"
 
 #: src/components/localization/Keyboard.jsx:245
 msgid "Selected (top = current)"
-msgstr ""
+msgstr "Valitud (ülal = praegune)"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:123
 msgid "Selected device's format '$0' cannot be reformatted."
-msgstr ""
+msgstr "Valitud seadme vorming „$0“ on selline, mida ei saa ümbervormindada."
 
 #: src/components/installation/Feedback.jsx:38
 msgid "Send us feedback on your installation"
@@ -1049,7 +1086,7 @@ msgstr "Jaga ketast muude operatsioonisüsteemidega: $0"
 
 #: src/components/datetime/DateAndTime.jsx:204
 msgid "Show AM/PM"
-msgstr ""
+msgstr "Näita AM/PM (el/pl)"
 
 #: src/components/Password.jsx:240
 msgid "Show confirmed password"
@@ -1076,6 +1113,8 @@ msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
 msgstr ""
+"Tarkvara paigaldus: andmeruumi seadistamine on lõppenud. Tarkvara on "
+"parasjagu sinu arvutisse/seadmesse paigaldamisel."
 
 #: src/components/software/index.js:31 src/components/software/index.js:32
 msgid "Software selection"
@@ -1110,11 +1149,12 @@ msgstr "Andmeruumi haldur"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:239
 msgid "Storage editor is available only in the `Installation method` step."
-msgstr ""
+msgstr "Andmeruumi haldur on saadaval vaid sammus „Paigaldusmeetod“."
 
 #: src/components/storage/scenarios/use-configured-storage/index.js:33
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr ""
+"Andmeruum on jagatud vastavalt sammus „Muuda andmeruumi“ tehtud seadistusele."
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:136
 msgid "Storage plugin failed"
@@ -1157,12 +1197,16 @@ msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
 msgstr ""
+"Tarkvara paigaldus: tarkvara paigaldamine on lõppenud. Kogus süsteem on nüüd "
+"seadistatud."
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:57
 msgid ""
 "The installation needs $0 of disk space; however, the capacity of the "
 "selected disks is only $1."
 msgstr ""
+"Paigaldamine eeldab $0 vaba pinna olemasolu, kuid valitud ketta/ketaste "
+"andmeruum on vaid $1."
 
 #: src/components/Error.jsx:287
 msgid "The installer cannot continue due to a critical error."
@@ -1185,6 +1229,8 @@ msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
 msgstr ""
+"Valitud vaikimisi klahvistik ei toeta ASCII-tähemärke. Palun vali selline, "
+"mis neid toetab."
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid ""
@@ -1192,18 +1238,23 @@ msgid ""
 "set up LVM and much more. It is meant to be used as an advanced utility and "
 "not intended to be used in a typical installation."
 msgstr ""
+"Andmeruumi halduriga saad muuta, kustutada ja luua partitsioone. Lisaks võid "
+"kirjeldada loogilisi köiteid ja teha muudki. Ta on mõeldud kasutamiseks "
+"pigem lisavõimalusena, mitte aga standardpaigalduse osana."
 
 #: src/components/review/Hostname.jsx:63
 msgid "This hostname can't be submitted"
-msgstr ""
+msgstr "Seda hostinime ei saa kasutada"
 
 #: src/components/AnacondaHeader.jsx:78
 msgid "This is unstable, pre-release software"
-msgstr ""
+msgstr "See on tarkvara katseline eelversioon"
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:98
 msgid "This layout will be used for unlocking your system on boot"
 msgstr ""
+"Seda paigutust kasutatakse alglaadimise ajal sinu süsteemi lukustuse "
+"avamiseks"
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:55
 msgid "This may take a moment"
@@ -1224,7 +1275,7 @@ msgstr "Ajavöönd"
 
 #: src/components/installation/InstallationProgress.jsx:172
 msgid "To begin using $0, reboot your system."
-msgstr ""
+msgstr "$0 - kasutamaks uut paigaldust, taaskäivita süsteem."
 
 #: src/components/storage/installation-method/InstallationMethod.jsx:217
 msgid "To continue, select the devices to install to."
@@ -1235,6 +1286,8 @@ msgid ""
 "To use this option, resize or remove existing partitions to free up at least "
 "$0."
 msgstr ""
+"Selle võimaluse kasutamiseks eemalda mõni olemasolev partitsioon või vähenda "
+"tema suurust nii, et vabaneb vähemalt $0 andmeruumi."
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:150
 msgid "Type"
@@ -1242,11 +1295,11 @@ msgstr "Tüüp"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:97
 msgid "Unable to schedule deletion of $0"
-msgstr ""
+msgstr "„$0“ - kustutamise ajastamine pole võimalik"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:99
 msgid "Unable to schedule resizing of $0"
-msgstr ""
+msgstr "„$0“ - suuruse muutmine ajastamine pole võimalik"
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:70
 #: src/components/storage/installation-method/EncryptedDevices.jsx:190
@@ -1258,6 +1311,8 @@ msgid ""
 "Unlock LUKS-encrypted partitions to keep existing data and show more "
 "installation methods."
 msgstr ""
+"Olemasolevate andmete säilitamiseks ava LUKS-meetodil krüptitud "
+"partitsioonid ja näita täiendavaid paigaldusmeetodeid."
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 msgid "Unlock encrypted devices"
@@ -1281,7 +1336,7 @@ msgstr "Kasuta kohaliku kontot"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:587
 msgid "Use the RAID device for automatic partitioning"
-msgstr ""
+msgstr "Kasuta automaatse partitsioneerimise jaoks RAID-seadet"
 
 #: src/components/users/Accounts.jsx:222
 msgid "User name"
@@ -1292,10 +1347,12 @@ msgid ""
 "User name may only contain: letters from a-z, digits 0-9, dash $0, period "
 "$1, underscore $2"
 msgstr ""
+"Kasutajanimes võivad sisalduda vaid: täppideta tähed vahemikus a-z, numbreid "
+"0-9, kriipsud $0, punktid $1 või alakriipsud $2"
 
 #: src/components/users/Accounts.jsx:124
 msgid "User name must not be a reserved word"
-msgstr ""
+msgstr "Kasutajanimi ei tohi olla reserveeritud sõna"
 
 #: src/components/users/Accounts.jsx:121
 msgid "User names must be shorter than 33 characters"
@@ -1315,11 +1372,11 @@ msgstr "Tere tulemast, see on Fedora Linux"
 
 #: src/components/AnacondaPage.jsx:98
 msgid "Welcome. Let's install $0 now."
-msgstr ""
+msgstr "Tere tulemast. Hetkel on meil paigaldamisel $0."
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:543
 msgid "Windows partitions with BitLocker encryption cannot be resized"
-msgstr ""
+msgstr "BitLockeriga krüptitud Windowsi partitsioonide suurust ei saa muuta"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:96
 msgid ""
@@ -1336,10 +1393,12 @@ msgstr ""
 #: src/components/datetime/DateAndTime.jsx:154
 msgid "You must be connected to a network to enable automatic date and time."
 msgstr ""
+"Kuupäeva ja kellaaja automaatseks uuendamiseks peab arvutil olema toimiv "
+"võrguühendus."
 
 #: src/components/AnacondaWizardFooter.jsx:134
 msgid "Your progress will not be saved."
-msgstr ""
+msgstr "Sinu edenemine ei saa olema salvesattud."
 
 #: src/components/installation/InstallationProgress.jsx:186
 msgid "completed step"
