@@ -47,8 +47,8 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-30 03:52+0000\n"
-"PO-Revision-Date: 2025-10-05 14:13+0000\n"
-"Last-Translator: Jesse Guo <jesseguotech@outlook.com>\n"
+"PO-Revision-Date: 2025-12-30 23:41+0000\n"
+"Last-Translator: Zongyuan He <lovenemesis@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/anaconda-webui/anaconda-webui/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -56,7 +56,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.13.3\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:180
 #: src/components/storage/installation-method/InstallationDestination.jsx:301
@@ -91,7 +91,7 @@ msgstr "需要 $0 ，但只有 $1 可用。"
 #: src/components/storage/Common.jsx:58
 msgid "$0 warning"
 msgid_plural "$0 warnings"
-msgstr[0] ""
+msgstr[0] "$0 个警告"
 
 #: src/components/review/StorageReview.jsx:289
 msgid "$0 will be deleted"
@@ -139,14 +139,12 @@ msgid "Add mount"
 msgstr "添加挂载"
 
 #: src/components/software/SoftwareSelection.jsx:134
-#, fuzzy
-#| msgid "Additional software for selected environment"
 msgid "Add-ons for your chosen environment"
-msgstr "用于已选环境的附加软件"
+msgstr "适用于您选定环境的附加组件"
 
 #: src/components/software/SoftwareSelection.jsx:143
 msgid "Add-ons not specific to your environment"
-msgstr ""
+msgstr "不特定于您环境的附加组件"
 
 #: src/components/localization/InstallationLanguage.jsx:155
 msgid "Additional languages"
@@ -279,7 +277,7 @@ msgstr "点击 “$0” 以在新窗口中打开Bugzilla。"
 
 #: src/components/storage/Common.jsx:38
 msgid "Click 'Next' again to proceed despite these warnings."
-msgstr ""
+msgstr "再次点击“下一步”以忽略这些警告继续操作。"
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:193
 #: src/components/storage/installation-method/InstallationDestination.jsx:398
@@ -420,10 +418,8 @@ msgid "Extended partition"
 msgstr "扩展分区"
 
 #: src/components/localization/Keyboard.jsx:214
-#, fuzzy
-#| msgid "Failed to save storage configuration"
 msgid "Failed to save layouts"
-msgstr "保存存储配置失败"
+msgstr "保存布局失败"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:93
 msgid "Fedora linux requires at least $0 of disk space."
@@ -440,11 +436,8 @@ msgid ""
 msgstr "最终确定：系统配置已经完成。最终完成安装可能需要一些时间。"
 
 #: src/components/localization/Keyboard.jsx:230
-#, fuzzy
-#| msgctxt "GUI|Keyboard Layout"
-#| msgid "_Add layout"
 msgid "Find layout"
-msgstr "添加布局(_A)"
+msgstr "查找布局"
 
 #: src/components/users/Accounts.jsx:307
 msgid ""
@@ -626,7 +619,7 @@ msgstr ""
 #: src/components/localization/Keyboard.jsx:134
 #: src/components/localization/Keyboard.jsx:138
 msgid "Make current"
-msgstr ""
+msgstr "使用当前生效的"
 
 #: src/components/storage/mount-point-mapping/index.js:31
 msgid "Manual disk configuration"
@@ -642,7 +635,7 @@ msgstr "可能包含字母、数字和破折号。"
 
 #: src/components/review/StorageReview.jsx:99
 msgid "May need more free space"
-msgstr "可能需要更多可用空间？"
+msgstr "可能需要更多空闲空间"
 
 #: src/components/Password.jsx:68
 msgid "Medium"
@@ -673,12 +666,12 @@ msgstr "挂载点配置"
 #: src/components/localization/Keyboard.jsx:156
 #: src/components/localization/Keyboard.jsx:160
 msgid "Move down"
-msgstr ""
+msgstr "向下移动"
 
 #: src/components/localization/Keyboard.jsx:145
 #: src/components/localization/Keyboard.jsx:149
 msgid "Move up"
-msgstr ""
+msgstr "向上移动"
 
 #: src/components/Password.jsx:43
 msgid "Must be at least $0 characters"
@@ -728,10 +721,8 @@ msgid "No disks selected"
 msgstr "未选择任何磁盘"
 
 #: src/components/localization/Keyboard.jsx:252
-#, fuzzy
-#| msgid "$0 layouts detected"
 msgid "No layouts selected yet"
-msgstr "检测到 $0 个布局"
+msgstr "尚未选择任何布局"
 
 #: src/components/common/MenuSearch.jsx:147
 msgid "No results found"
@@ -741,7 +732,7 @@ msgstr "未找到结果"
 msgid ""
 "No valid VConsole keymap can be obtained for the selected keyboard "
 "layout(s). Please make a different keyboard layout selection."
-msgstr ""
+msgstr "无法为所选的键盘布局获取有效的VConsole键位映射。请尝试其他键盘布局。"
 
 #: src/components/review/ReviewConfiguration.jsx:116
 msgid "Not enough available free space"
@@ -757,7 +748,7 @@ msgstr "所选磁盘中没有足够空间。"
 
 #: src/components/review/StorageReview.jsx:391
 msgid "Note"
-msgstr "笔记"
+msgstr "备注"
 
 #: src/components/AnacondaHeader.jsx:84
 msgid ""
@@ -965,7 +956,7 @@ msgstr "必需的"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:90
 msgid "Requirements"
-msgstr "需要"
+msgstr "必需的"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:153
 msgid "Rescan devices"
@@ -1018,16 +1009,12 @@ msgid "Search for a language"
 msgstr "搜索语言"
 
 #: src/components/software/SoftwareSelection.jsx:171
-#, fuzzy
-#| msgid "No additional software to select."
 msgid "Search for additional software"
-msgstr "无可选的额外软件。"
+msgstr "搜索其他软件"
 
 #: src/components/software/SoftwareSelection.jsx:78
-#, fuzzy
-#| msgid "Search for a language"
 msgid "Search for an environment"
-msgstr "搜索语言"
+msgstr "搜索环境"
 
 #: src/components/localization/Keyboard.jsx:234
 msgid "Search keyboard layout"
@@ -1060,10 +1047,8 @@ msgid "Select region"
 msgstr "选择区域"
 
 #: src/components/localization/Keyboard.jsx:245
-#, fuzzy
-#| msgid "Selected Layouts"
 msgid "Selected (top = current)"
-msgstr "已选布局"
+msgstr "已选中（顶部 = 当前）"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:123
 msgid "Selected device's format '$0' cannot be reformatted."
@@ -1091,7 +1076,7 @@ msgstr "与其他操作系统共享磁盘"
 
 #: src/components/storage/scenarios/use-free-space/UseFreeSpace.jsx:103
 msgid "Share disk with other operating systems: $0"
-msgstr "与其他操作系统共享磁盘"
+msgstr "与其它操作系统共享磁盘： $0"
 
 #: src/components/datetime/DateAndTime.jsx:204
 msgid "Show AM/PM"
@@ -1228,7 +1213,7 @@ msgstr "您设定的密码中包括非 ASCII 字符。在输入时您可能无�
 msgid ""
 "The selected default keyboard layout does not support ASCII characters. "
 "Please choose an ASCII-capable layout as the default."
-msgstr ""
+msgstr "所选的默认键盘布局不支持ASCII字符。请将默认布局更改为支持ASCII字符的布局。"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid ""
