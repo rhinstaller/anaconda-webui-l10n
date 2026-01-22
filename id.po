@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-21 03:58+0000\n"
+"POT-Creation-Date: 2026-01-22 04:02+0000\n"
 "PO-Revision-Date: 2025-12-12 03:47+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
@@ -148,18 +148,6 @@ msgstr "Bahasa tambahan"
 msgid "Additional software for the selected environment"
 msgstr "Perangkat lunak tambahan untuk lingkungan yang dipilih"
 
-#: src/components/Error.jsx:216
-msgid ""
-"After creating the issue, click 'Add attachment' and attach file $0 and $1."
-msgstr ""
-"Setelah membuat masalah, klik ‘Tambahkan lampiran’ dan lampirkan berkas $0 "
-"dan $1."
-
-#: src/components/Error.jsx:215
-msgid "After creating the issue, click 'Add attachment' and attach file $0."
-msgstr ""
-"Setelah membuat masalah, klik ‘Tambahkan lampiran’ dan lampirkan berkas $0."
-
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:97
 msgid "All changes made in the storage editor take effect immediately."
 msgstr ""
@@ -192,6 +180,12 @@ msgstr ""
 "Tetapkan partisi ke mount point (titik pemasangan). Berguna untuk tata letak "
 "khusus yang telah dikonfigurasi sebelumnya."
 
+#: src/components/Error.jsx:371
+#, fuzzy
+#| msgid "Automatic partitioning failed."
+msgid "Automatic log file upload"
+msgstr "Pemartisian otomatis telah gagal."
+
 #: src/components/datetime/DateAndTime.jsx:145
 msgid "Automatically set date and time, using time servers"
 msgstr "Mengatur tanggal dan waktu menggunakan server waktu secara otomatis"
@@ -205,13 +199,29 @@ msgstr "Atur zona waktu secara otomatis"
 msgid "Available free space: $0. Installation requires: $1."
 msgstr "Ruang kosong yang tersedia: $0. Instalasi membutuhkan: $1."
 
-#: src/components/AnacondaWizardFooter.jsx:88
+#: src/components/AnacondaWizardFooter.jsx:88 src/components/Error.jsx:592
 msgid "Back"
 msgstr "Mundur"
 
 #: src/components/software/SoftwareSelection.jsx:75
 msgid "Base environment"
 msgstr "Lingkungan basis"
+
+#: src/components/Error.jsx:359
+#, fuzzy
+#| msgid "Description goes here."
+msgid "Brief description of the issue"
+msgstr "Deskripsi ada disini."
+
+#: src/components/Error.jsx:348
+#, fuzzy
+#| msgid "Error details"
+msgid "Bug report details"
+msgstr "Rincian kesalahan"
+
+#: src/components/Error.jsx:246
+msgid "Bugzilla API key"
+msgstr ""
 
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
@@ -230,7 +240,7 @@ msgstr ""
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:220
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:114
 #: src/components/localization/Keyboard.jsx:292
-#: src/components/review/Hostname.jsx:139 src/components/Error.jsx:312
+#: src/components/review/Hostname.jsx:139 src/components/Error.jsx:760
 msgid "Cancel"
 msgstr "Batal"
 
@@ -272,10 +282,6 @@ msgstr "Memeriksa konfigurasi penyimpanan"
 #: src/components/common/MenuSearch.jsx:124
 msgid "Clear search"
 msgstr "Bersihkan pencarian"
-
-#: src/components/Error.jsx:208
-msgid "Click \"$0\" to open Bugzilla in a new window."
-msgstr "Klik “$0” untuk membuka Bugzilla di jendela baru."
 
 #: src/components/storage/Common.jsx:38
 msgid "Click 'Next' again to proceed despite these warnings."
@@ -363,6 +369,10 @@ msgstr "Tanggal dan waktu"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Penghapusan partisi tertentu dapat mencegah $0 melakukan booting: $1"
 
+#: src/components/Error.jsx:293
+msgid "Description"
+msgstr "Deskripsi"
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:286
 msgid "Destination"
 msgstr "Tujuan"
@@ -370,6 +380,12 @@ msgstr "Tujuan"
 #: src/components/storage/installation-method/EncryptedDevices.jsx:64
 msgid "Destination is encrypted"
 msgstr "Tujuan terenkripsi"
+
+#: src/components/Error.jsx:298
+#, fuzzy
+#| msgid "Device description"
+msgid "Detailed description of the issue"
+msgstr "Deskripsi peranti"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:582
 msgid "Detected valid storage layout:"
@@ -404,11 +420,23 @@ msgstr "Terenkripsi"
 msgid "Encryption"
 msgstr "Enkripsi"
 
+#: src/components/Error.jsx:237
+msgid ""
+"Enter your Bugzilla API key to create a bug report. You will be able to "
+"review and edit the bug details in the next step."
+msgstr ""
+
+#: src/components/Error.jsx:310
+#, fuzzy
+#| msgid "Base Environment"
+msgid "Environment"
+msgstr "Lingkungan Basis"
+
 #: src/components/storage/scenarios/erase-all/index.js:32
 msgid "Erase data and install"
 msgstr "Hapus data dan pasang"
 
-#: src/components/Error.jsx:301
+#: src/components/Error.jsx:717
 msgid "Error details"
 msgstr "Rincian kesalahan"
 
@@ -420,6 +448,12 @@ msgstr "Keluar ke live desktop"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:257
 msgid "Extended partition"
 msgstr "Partisi yang diperluas"
+
+#: src/components/Error.jsx:339
+#, fuzzy
+#| msgid "Report issue"
+msgid "Failed to report issue"
+msgstr "Melaporkan masalah"
 
 #: src/components/localization/Keyboard.jsx:214
 msgid "Failed to save layouts"
@@ -460,10 +494,6 @@ msgstr "Nama lengkap"
 #: src/components/users/Accounts.jsx:139
 msgid "Full name cannot contain colon characters"
 msgstr "Nama lengkap tidak boleh mengandung karakter titik dua"
-
-#: src/components/Error.jsx:204
-msgid "Help us fix the issue!"
-msgstr "Bantu kami memperbaiki masalah ini!"
 
 #: src/components/review/StorageReview.jsx:250
 msgid "Helper text"
@@ -517,6 +547,13 @@ msgstr ""
 msgid "If you are configuring partitions the following are required:"
 msgstr "Bila Anda mengonfigurasi partisi, yang berikut ini diperlukan:"
 
+#: src/components/Error.jsx:386
+msgid ""
+"If you do not consent to automatic log file upload, you can $0 instead. "
+"Manual reporting allows you to review and selectively attach log files "
+"yourself."
+msgstr ""
+
 #: src/components/AnacondaHeader.jsx:90
 msgid ""
 "If you do not understand or accept the risks, then please exit this program."
@@ -538,7 +575,7 @@ msgid "Install"
 msgstr "Pasang"
 
 #: src/components/installation/InstallationProgress.jsx:132
-#: src/components/Error.jsx:299
+#: src/components/Error.jsx:748
 msgid "Installation failed"
 msgstr "Instalasi gagal"
 
@@ -619,19 +656,6 @@ msgstr "Lokasi"
 msgid "Locked devices"
 msgstr "Perangkat yang terkunci"
 
-#: src/components/Error.jsx:211
-msgid "Log in to Bugzilla, or create a new account."
-msgstr "Masuk ke Bugzilla, atau buat akun baru."
-
-#: src/components/Error.jsx:219
-msgid ""
-"Logs may contain sensitive information like IP addresses or usernames. "
-"Attachments on Bugzilla issues are marked private by default."
-msgstr ""
-"Catatan log dapat mengandung informasi sensitif seperti alamat IP atau nama "
-"pengguna. Lampiran pada masalah Bugzilla secara default ditandai sebagai "
-"pribadi."
-
 #: src/components/localization/Keyboard.jsx:134
 #: src/components/localization/Keyboard.jsx:138
 msgid "Make current"
@@ -706,7 +730,7 @@ msgstr "Nama"
 msgid "Needs at least $0"
 msgstr "Membutuhkan setidaknya $0"
 
-#: src/components/Error.jsx:153
+#: src/components/Error.jsx:625
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
 "the issue."
@@ -714,12 +738,12 @@ msgstr ""
 "Jaringan tidak tersedia. Konfigurasikan jaringan di menu bilah puncak untuk "
 "melaporkan masalah."
 
-#: src/components/Error.jsx:154
+#: src/components/Error.jsx:626
 msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 "Jaringan tidak tersedia. Konfigurasikan jaringan untuk melaporkan masalah."
 
-#: src/components/AnacondaWizardFooter.jsx:97
+#: src/components/AnacondaWizardFooter.jsx:97 src/components/Error.jsx:582
 msgid "Next"
 msgstr "Berikutnya"
 
@@ -778,6 +802,10 @@ msgstr ""
 "untuk tujuan pengembangan dan pengujian. JANGAN gunakan perangkat lunak ini "
 "untuk pekerjaan penting apa pun atau untuk lingkungan produksi."
 
+#: src/components/Error.jsx:215
+msgid "Open Bugzilla bug entry form"
+msgstr ""
+
 #: src/components/review/ReviewConfiguration.jsx:181
 msgid "Operating system"
 msgstr "Sistem operasi"
@@ -813,7 +841,7 @@ msgstr "Frasa sandi tidak cocok"
 msgid "Pending"
 msgstr "Tertunda"
 
-#: src/components/Error.jsx:85
+#: src/components/Error.jsx:97
 msgid "Please attach the log file $0 to the issue."
 msgstr "Harap lampirkan berkas log $0 ke masalah."
 
@@ -833,12 +861,16 @@ msgstr "Ditenagai oleh Anaconda"
 msgid "Pre-release"
 msgstr "Prarilis"
 
+#: src/components/Error.jsx:209
+msgid "Prefer to report manually? $0"
+msgstr ""
+
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:621
 msgid "Proceed with installation"
 msgstr "Lanjutkan dengan instalasi"
 
 #: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:145 src/components/Error.jsx:277
+#: src/components/AnacondaWizardFooter.jsx:145 src/components/Error.jsx:737
 msgid "Quit"
 msgstr "Keluar"
 
@@ -875,7 +907,7 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "Panjang nama host nyata mesti 64 karakter atau kurang"
 
 #: src/components/AnacondaWizardFooter.jsx:110
-#: src/components/AnacondaWizardFooter.jsx:145 src/components/Error.jsx:277
+#: src/components/AnacondaWizardFooter.jsx:145 src/components/Error.jsx:737
 msgid "Reboot"
 msgstr "Boot ulang"
 
@@ -972,9 +1004,20 @@ msgstr "Ganti instalasi saat ini, tetapi pertahankan file di home."
 msgid "Report Issue"
 msgstr "Laporkan Masalah"
 
-#: src/components/Error.jsx:172 src/components/Error.jsx:208
-#: src/components/Error.jsx:324
+#: src/components/Error.jsx:186
+msgid ""
+"Report an issue or provide feedback by opening the Bugzilla bug entry form "
+"$0."
+msgstr ""
+
+#: src/components/Error.jsx:602 src/components/Error.jsx:769
 msgid "Report issue"
+msgstr "Melaporkan masalah"
+
+#: src/components/Error.jsx:602
+#, fuzzy
+#| msgid "Report issue"
+msgid "Reporting issue..."
 msgstr "Melaporkan masalah"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:230
@@ -1153,6 +1196,10 @@ msgstr "Beberapa partisi yang diperlukan kurang: $0"
 msgid "Space"
 msgstr "Ruang"
 
+#: src/components/Error.jsx:304
+msgid "Stacktrace"
+msgstr ""
+
 #: src/components/review/ReviewConfiguration.jsx:228
 msgid "Storage"
 msgstr "Penyimpanan"
@@ -1232,11 +1279,11 @@ msgstr ""
 "Pemasangan membutuhkan ruang disk sebesar $0; namun, kapasitas disk yang "
 "dipilih hanya sebesar $1."
 
-#: src/components/Error.jsx:290
+#: src/components/Error.jsx:677
 msgid "The installer cannot continue due to a critical error."
 msgstr "Pemasang tidak dapat melanjutkan karena suatu kesalahan kritis."
 
-#: src/components/Error.jsx:289
+#: src/components/Error.jsx:676
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "Pemasang tidak dapat melanjutkan karena suatu kesalahan kritis: $0"
 
@@ -1267,6 +1314,20 @@ msgstr ""
 "ini dimaksudkan untuk digunakan sebagai utilitas tingkat lanjut dan tidak "
 "dimaksudkan untuk digunakan dalam instalasi biasa."
 
+#: src/components/Error.jsx:382
+#, fuzzy
+#| msgid ""
+#| "Logs may contain sensitive information like IP addresses or usernames. "
+#| "Attachments on Bugzilla issues are marked private by default."
+msgid ""
+"These log files may contain sensitive information such as IP addresses, "
+"usernames, or other system details. Attachments on Bugzilla issues are "
+"marked private by default."
+msgstr ""
+"Catatan log dapat mengandung informasi sensitif seperti alamat IP atau nama "
+"pengguna. Lampiran pada masalah Bugzilla secara default ditandai sebagai "
+"pribadi."
+
 #: src/components/review/Hostname.jsx:63
 msgid "This hostname can't be submitted"
 msgstr "Nama host ini tidak bisa dikirim"
@@ -1296,6 +1357,10 @@ msgstr "Waktu"
 #: src/components/review/ReviewConfiguration.jsx:199
 msgid "Timezone"
 msgstr "Zona Waktu"
+
+#: src/components/Error.jsx:351
+msgid "Title"
+msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:172
 msgid "To begin using $0, reboot your system."
@@ -1382,6 +1447,12 @@ msgstr "Nama pengguna tidak boleh berupa kata yang dicadangkan"
 msgid "User names must be shorter than 33 characters"
 msgstr "Nama pengguna mesti kurang dari 33 karakter"
 
+#: src/components/Error.jsx:582
+#, fuzzy
+#| msgid "Initializing..."
+msgid "Validating..."
+msgstr "Menginisialisasi..."
+
 #: src/components/Password.jsx:57
 msgid "Weak"
 msgstr "Lemah"
@@ -1398,6 +1469,12 @@ msgstr "Selamat datang di Fedora Linux"
 msgid "Welcome. Let's install $0 now."
 msgstr "Selamat datang! Mari memasang $0 sekarang."
 
+#: src/components/Error.jsx:377
+msgid ""
+"When you submit this bug report, the following log files will be uploaded "
+"automatically: $0"
+msgstr ""
+
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:543
 msgid "Windows partitions with BitLocker encryption cannot be resized"
 msgstr "Partisi Windows dengan enkripsi BitLocker tidak dapat diubah ukurannya"
@@ -1409,6 +1486,10 @@ msgid ""
 msgstr ""
 "Anda dapat membebaskan cukup ruang di sini dan membiarkan pemasang menangani "
 "sisanya atau secara manual menyiapkan partisi."
+
+#: src/components/Error.jsx:259
+msgid "You can generate the API key for your Bugzilla account $0."
+msgstr ""
 
 #: src/components/users/Accounts.jsx:387
 msgid ""
@@ -1462,6 +1543,10 @@ msgstr "partisi yang diperluas"
 msgid "format as $0"
 msgstr "format sebagai $0"
 
+#: src/components/Error.jsx:192 src/components/Error.jsx:266
+msgid "here"
+msgstr ""
+
 #: src/components/review/StorageReview.jsx:120
 msgid "mount"
 msgstr "kait"
@@ -1469,6 +1554,10 @@ msgstr "kait"
 #: src/components/installation/InstallationProgress.jsx:180
 msgid "pending step"
 msgstr "langkah tertunda"
+
+#: src/components/Error.jsx:392
+msgid "report the issue manually"
+msgstr ""
 
 #: src/components/review/StorageReview.jsx:175
 msgid "resized from $0"
@@ -1486,6 +1575,27 @@ msgstr "mengecil menjadi $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:382
 msgid "undo"
 msgstr "batalkan"
+
+#~ msgid ""
+#~ "After creating the issue, click 'Add attachment' and attach file $0 and "
+#~ "$1."
+#~ msgstr ""
+#~ "Setelah membuat masalah, klik ‘Tambahkan lampiran’ dan lampirkan berkas "
+#~ "$0 dan $1."
+
+#~ msgid "After creating the issue, click 'Add attachment' and attach file $0."
+#~ msgstr ""
+#~ "Setelah membuat masalah, klik ‘Tambahkan lampiran’ dan lampirkan berkas "
+#~ "$0."
+
+#~ msgid "Click \"$0\" to open Bugzilla in a new window."
+#~ msgstr "Klik “$0” untuk membuka Bugzilla di jendela baru."
+
+#~ msgid "Help us fix the issue!"
+#~ msgstr "Bantu kami memperbaiki masalah ini!"
+
+#~ msgid "Log in to Bugzilla, or create a new account."
+#~ msgstr "Masuk ke Bugzilla, atau buat akun baru."
 
 #~ msgid "More than one layout detected. Remove additional layouts to proceed"
 #~ msgstr ""
@@ -2451,9 +2561,6 @@ msgstr "batalkan"
 #~ msgid "Automatic"
 #~ msgstr "Otomatis"
 
-#~ msgid "Automatic partitioning failed."
-#~ msgstr "Pemartisian otomatis telah gagal."
-
 #~ msgid "Automatic partitioning selected"
 #~ msgstr "Memilih partisi otomatis"
 
@@ -2481,9 +2588,6 @@ msgstr "batalkan"
 
 #~ msgid "Bad format of the netmask"
 #~ msgstr "Format netmask buruk"
-
-#~ msgid "Base Environment"
-#~ msgstr "Lingkungan Basis"
 
 #~ msgid "Beta Warn"
 #~ msgstr "Peringatan Beta"
@@ -2850,12 +2954,6 @@ msgstr "batalkan"
 #~ msgid "Deployment starting: {}"
 #~ msgstr "Penggelaran dimulai: %s"
 
-#~ msgid "Description"
-#~ msgstr "Deskripsi"
-
-#~ msgid "Description goes here."
-#~ msgstr "Deskripsi ada disini."
-
 #~ msgctxt "GUI|Custom Partitioning|Add Dialog"
 #~ msgid "Desired _Capacity:"
 #~ msgstr "_Kapasitas yang Dikehendaki:"
@@ -2877,9 +2975,6 @@ msgstr "batalkan"
 
 #~ msgid "Device configuration"
 #~ msgstr "Konfigurasi peranti"
-
-#~ msgid "Device description"
-#~ msgstr "Deskripsi peranti"
 
 #~ msgid "Device discovery failed."
 #~ msgstr "Penemuan peranti gagal."
