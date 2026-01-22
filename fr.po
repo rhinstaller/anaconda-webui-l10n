@@ -69,7 +69,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-22 04:02+0000\n"
-"PO-Revision-Date: 2025-12-08 16:14+0000\n"
+"PO-Revision-Date: 2026-01-23 03:57+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/anaconda-"
 "webui/anaconda-webui/fr/>\n"
@@ -78,7 +78,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:180
 #: src/components/storage/installation-method/InstallationDestination.jsx:301
@@ -220,10 +220,8 @@ msgstr ""
 "stockage personnalisé a été préconfiguré."
 
 #: src/components/Error.jsx:371
-#, fuzzy
-#| msgid "Automatic partitioning failed."
 msgid "Automatic log file upload"
-msgstr "Le partitionnement automatique a échoué."
+msgstr "Upload automatique du fichier journal"
 
 #: src/components/datetime/DateAndTime.jsx:145
 msgid "Automatically set date and time, using time servers"
@@ -249,20 +247,16 @@ msgid "Base environment"
 msgstr "Environnement de base"
 
 #: src/components/Error.jsx:359
-#, fuzzy
-#| msgid "Description goes here."
 msgid "Brief description of the issue"
-msgstr "La description est la suivante."
+msgstr "Courte description du problème"
 
 #: src/components/Error.jsx:348
-#, fuzzy
-#| msgid "Error details"
 msgid "Bug report details"
-msgstr "Détails de l'erreur"
+msgstr "Détails du rapport de bug"
 
 #: src/components/Error.jsx:246
 msgid "Bugzilla API key"
-msgstr ""
+msgstr "Clé d'API Bugzilla"
 
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
@@ -425,10 +419,8 @@ msgid "Destination is encrypted"
 msgstr "La destination est chiffrée"
 
 #: src/components/Error.jsx:298
-#, fuzzy
-#| msgid "Device description"
 msgid "Detailed description of the issue"
-msgstr "Description du périphérique"
+msgstr "Description détaillée du problème"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:582
 msgid "Detected valid storage layout:"
@@ -468,12 +460,12 @@ msgid ""
 "Enter your Bugzilla API key to create a bug report. You will be able to "
 "review and edit the bug details in the next step."
 msgstr ""
+"Entrez votre clé d'API Bugzilla pour créer un rapport de bug. Vous pourrez "
+"examiner et modifier les détails du bug à la prochaine étape."
 
 #: src/components/Error.jsx:310
-#, fuzzy
-#| msgid "Base Environment"
 msgid "Environment"
-msgstr "Environnement de base"
+msgstr "Environnement"
 
 #: src/components/storage/scenarios/erase-all/index.js:32
 msgid "Erase data and install"
@@ -493,10 +485,8 @@ msgid "Extended partition"
 msgstr "Partition étendue"
 
 #: src/components/Error.jsx:339
-#, fuzzy
-#| msgid "Report issue"
 msgid "Failed to report issue"
-msgstr "Signaler un problème"
+msgstr "Impossible de signaler le problème"
 
 #: src/components/localization/Keyboard.jsx:214
 msgid "Failed to save layouts"
@@ -600,6 +590,9 @@ msgid ""
 "Manual reporting allows you to review and selectively attach log files "
 "yourself."
 msgstr ""
+"Si vous n'acceptez pas l'upload automatique du fichier journal, vous pouvez "
+"à la place $0. Le signalement manuel de bugs vous permet d'examiner et "
+"choisir vous-même les fichiers journaux à joindre."
 
 #: src/components/AnacondaHeader.jsx:90
 msgid ""
@@ -853,7 +846,7 @@ msgstr ""
 
 #: src/components/Error.jsx:215
 msgid "Open Bugzilla bug entry form"
-msgstr ""
+msgstr "Ouvrir le formulaire Bugzilla de signalement de bug"
 
 #: src/components/review/ReviewConfiguration.jsx:181
 msgid "Operating system"
@@ -912,7 +905,7 @@ msgstr "Préversion"
 
 #: src/components/Error.jsx:209
 msgid "Prefer to report manually? $0"
-msgstr ""
+msgstr "Vous préférez effectuer un signalement manuel ? $0"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:621
 msgid "Proceed with installation"
@@ -1062,16 +1055,16 @@ msgid ""
 "Report an issue or provide feedback by opening the Bugzilla bug entry form "
 "$0."
 msgstr ""
+"Signalez un problème ou envoyez vos commentaires en ouvrant le formulaire "
+"Bugzilla de saisie de bug, accessible $0."
 
 #: src/components/Error.jsx:602 src/components/Error.jsx:769
 msgid "Report issue"
 msgstr "Signaler un problème"
 
 #: src/components/Error.jsx:602
-#, fuzzy
-#| msgid "Report issue"
 msgid "Reporting issue..."
-msgstr "Signaler un problème"
+msgstr "Signalement du problème..."
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:230
 msgid "Required"
@@ -1251,7 +1244,7 @@ msgstr "Espace"
 
 #: src/components/Error.jsx:304
 msgid "Stacktrace"
-msgstr ""
+msgstr "Trace d'appels"
 
 #: src/components/review/ReviewConfiguration.jsx:228
 msgid "Storage"
@@ -1378,18 +1371,15 @@ msgstr ""
 "standards."
 
 #: src/components/Error.jsx:382
-#, fuzzy
-#| msgid ""
-#| "Logs may contain sensitive information like IP addresses or usernames. "
-#| "Attachments on Bugzilla issues are marked private by default."
 msgid ""
 "These log files may contain sensitive information such as IP addresses, "
 "usernames, or other system details. Attachments on Bugzilla issues are "
 "marked private by default."
 msgstr ""
-"Les journaux sont susceptibles de contenir des informations sensibles, "
-"telles que des adresses IP ou des noms d'utilisateur·rices. Les pièces "
-"jointes aux problèmes Bugzilla sont marquées par défaut comme privées."
+"Ces fichiers journaux sont susceptibles de contenir des informations "
+"sensibles, telles que des adresses IP, des noms d'utilisateur·rices ou "
+"d'autres informations sur le système. Les pièces jointes aux problèmes "
+"Bugzilla sont marquées par défaut comme privées."
 
 #: src/components/review/Hostname.jsx:63
 msgid "This hostname can't be submitted"
@@ -1424,7 +1414,7 @@ msgstr "Fuseau horaire"
 
 #: src/components/Error.jsx:351
 msgid "Title"
-msgstr ""
+msgstr "Titre"
 
 #: src/components/installation/InstallationProgress.jsx:172
 msgid "To begin using $0, reboot your system."
@@ -1514,10 +1504,8 @@ msgid "User names must be shorter than 33 characters"
 msgstr "Les noms d'utilisateurs ne doivent pas dépasser 32 caractères"
 
 #: src/components/Error.jsx:582
-#, fuzzy
-#| msgid "Initializing..."
 msgid "Validating..."
-msgstr "Initialisation..."
+msgstr "Validation..."
 
 #: src/components/Password.jsx:57
 msgid "Weak"
@@ -1540,6 +1528,8 @@ msgid ""
 "When you submit this bug report, the following log files will be uploaded "
 "automatically: $0"
 msgstr ""
+"Lors de l'envoi de ce rapport de bug, les fichiers journaux suivants seront "
+"uploadés automatiquement : $0"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:543
 msgid "Windows partitions with BitLocker encryption cannot be resized"
@@ -1558,7 +1548,7 @@ msgstr ""
 
 #: src/components/Error.jsx:259
 msgid "You can generate the API key for your Bugzilla account $0."
-msgstr ""
+msgstr "Vous pouvez générer une clé d'API pour votre compte Bugzilla $0."
 
 #: src/components/users/Accounts.jsx:387
 msgid ""
@@ -1614,7 +1604,7 @@ msgstr "formater en $0"
 
 #: src/components/Error.jsx:192 src/components/Error.jsx:266
 msgid "here"
-msgstr ""
+msgstr "ici"
 
 #: src/components/review/StorageReview.jsx:120
 msgid "mount"
@@ -1626,7 +1616,7 @@ msgstr "étape en attente"
 
 #: src/components/Error.jsx:392
 msgid "report the issue manually"
-msgstr ""
+msgstr "signaler le problème manuellement"
 
 #: src/components/review/StorageReview.jsx:175
 msgid "resized from $0"
