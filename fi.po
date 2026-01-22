@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-22 04:02+0000\n"
-"PO-Revision-Date: 2025-12-30 03:52+0000\n"
+"PO-Revision-Date: 2026-01-23 03:57+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/fi/>\n"
@@ -38,7 +38,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:180
 #: src/components/storage/installation-method/InstallationDestination.jsx:301
@@ -175,10 +175,8 @@ msgstr ""
 "asetteluille."
 
 #: src/components/Error.jsx:371
-#, fuzzy
-#| msgid "Automatic partitioning failed."
 msgid "Automatic log file upload"
-msgstr "Automaattinen osiointi epäonnistui."
+msgstr "Lokitiedoston automaattinen lataus"
 
 #: src/components/datetime/DateAndTime.jsx:145
 msgid "Automatically set date and time, using time servers"
@@ -202,20 +200,16 @@ msgid "Base environment"
 msgstr "Perusympäristö"
 
 #: src/components/Error.jsx:359
-#, fuzzy
-#| msgid "Description goes here."
 msgid "Brief description of the issue"
-msgstr "Kuvaus tähän."
+msgstr "Lyhyt kuvaus ongelmasta"
 
 #: src/components/Error.jsx:348
-#, fuzzy
-#| msgid "Error details"
 msgid "Bug report details"
-msgstr "Virheen tiedot"
+msgstr "Virheraportin tiedot"
 
 #: src/components/Error.jsx:246
 msgid "Bugzilla API key"
-msgstr ""
+msgstr "Bugzillan API-avain"
 
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
@@ -377,10 +371,8 @@ msgid "Destination is encrypted"
 msgstr "Määränpää on salattu"
 
 #: src/components/Error.jsx:298
-#, fuzzy
-#| msgid "Device description"
 msgid "Detailed description of the issue"
-msgstr "Laitteen kuvaus"
+msgstr "Yksityiskohtainen kuvaus ongelmasta"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:582
 msgid "Detected valid storage layout:"
@@ -420,12 +412,12 @@ msgid ""
 "Enter your Bugzilla API key to create a bug report. You will be able to "
 "review and edit the bug details in the next step."
 msgstr ""
+"Syötä Bugzilla API -avaimesi luodaksesi virheraportin. Voit tarkastella ja "
+"muokata virheen tietoja seuraavassa vaiheessa."
 
 #: src/components/Error.jsx:310
-#, fuzzy
-#| msgid "Base Environment"
 msgid "Environment"
-msgstr "Perusympäristö"
+msgstr "Ympäristö"
 
 #: src/components/storage/scenarios/erase-all/index.js:32
 msgid "Erase data and install"
@@ -445,10 +437,8 @@ msgid "Extended partition"
 msgstr "Laajennettu osio"
 
 #: src/components/Error.jsx:339
-#, fuzzy
-#| msgid "Report issue"
 msgid "Failed to report issue"
-msgstr "Ilmoita ongelmasta"
+msgstr "Ongelman ilmoittaminen epäonnistui"
 
 #: src/components/localization/Keyboard.jsx:214
 msgid "Failed to save layouts"
@@ -547,6 +537,9 @@ msgid ""
 "Manual reporting allows you to review and selectively attach log files "
 "yourself."
 msgstr ""
+"Jos et suostu lokitiedostojen automaattiseen lataamiseen, voit sen sijaan "
+"$0. Manuaalisen raportoinnin avulla voit tarkastella ja liittää "
+"lokitiedostoja itse."
 
 #: src/components/AnacondaHeader.jsx:90
 msgid ""
@@ -794,7 +787,7 @@ msgstr ""
 
 #: src/components/Error.jsx:215
 msgid "Open Bugzilla bug entry form"
-msgstr ""
+msgstr "Avaa Bugzillan virheilmoituslomake"
 
 #: src/components/review/ReviewConfiguration.jsx:181
 msgid "Operating system"
@@ -853,7 +846,7 @@ msgstr "Esijulkaisu"
 
 #: src/components/Error.jsx:209
 msgid "Prefer to report manually? $0"
-msgstr ""
+msgstr "Haluatko mieluummin tehdä raportin manuaalisesti? $0"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:621
 msgid "Proceed with installation"
@@ -999,16 +992,16 @@ msgid ""
 "Report an issue or provide feedback by opening the Bugzilla bug entry form "
 "$0."
 msgstr ""
+"Ilmoita ongelmasta tai anna palautetta avaamalla Bugzillan "
+"virheilmoituslomake $0."
 
 #: src/components/Error.jsx:602 src/components/Error.jsx:769
 msgid "Report issue"
 msgstr "Ilmoita ongelmasta"
 
 #: src/components/Error.jsx:602
-#, fuzzy
-#| msgid "Report issue"
 msgid "Reporting issue..."
-msgstr "Ilmoita ongelmasta"
+msgstr "Ilmoitetaan ongelmasta..."
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:230
 msgid "Required"
@@ -1185,7 +1178,7 @@ msgstr "Tila"
 
 #: src/components/Error.jsx:304
 msgid "Stacktrace"
-msgstr ""
+msgstr "Stacktrace"
 
 #: src/components/review/ReviewConfiguration.jsx:228
 msgid "Storage"
@@ -1303,18 +1296,14 @@ msgstr ""
 "käytettäväksi tyypillisessä asennuksessa."
 
 #: src/components/Error.jsx:382
-#, fuzzy
-#| msgid ""
-#| "Logs may contain sensitive information like IP addresses or usernames. "
-#| "Attachments on Bugzilla issues are marked private by default."
 msgid ""
 "These log files may contain sensitive information such as IP addresses, "
 "usernames, or other system details. Attachments on Bugzilla issues are "
 "marked private by default."
 msgstr ""
-"Lokit saattavat sisältää arkaluonteisia tietoja, kuten IP-osoitteita tai "
-"käyttäjänimiä. Bugzilla-vikoihin liittyvät liitteet merkitään oletuksena "
-"yksityisiksi."
+"Nämä lokitiedostot voivat sisältää arkaluonteisia tietoja, kuten IP-"
+"osoitteita, käyttäjätunnuksia tai muita järjestelmätietoja. Bugzillan "
+"ongelmiin liittyvät liitteet merkitään oletusarvoisesti yksityisiksi."
 
 #: src/components/review/Hostname.jsx:63
 msgid "This hostname can't be submitted"
@@ -1349,7 +1338,7 @@ msgstr "Aikavyöhyke"
 
 #: src/components/Error.jsx:351
 msgid "Title"
-msgstr ""
+msgstr "Otsikko"
 
 #: src/components/installation/InstallationProgress.jsx:172
 msgid "To begin using $0, reboot your system."
@@ -1437,10 +1426,8 @@ msgid "User names must be shorter than 33 characters"
 msgstr "Käyttäjänimien tulee olla lyhyempiä kuin 33 merkkiä"
 
 #: src/components/Error.jsx:582
-#, fuzzy
-#| msgid "Initializing..."
 msgid "Validating..."
-msgstr "Alustetaan ..."
+msgstr "Varmennetaan..."
 
 #: src/components/Password.jsx:57
 msgid "Weak"
@@ -1463,6 +1450,8 @@ msgid ""
 "When you submit this bug report, the following log files will be uploaded "
 "automatically: $0"
 msgstr ""
+"Kun lähetät tämän vikailmoituksen, seuraavat lokitiedostot ladataan "
+"automaattisesti: $0"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:543
 msgid "Windows partitions with BitLocker encryption cannot be resized"
@@ -1478,7 +1467,7 @@ msgstr ""
 
 #: src/components/Error.jsx:259
 msgid "You can generate the API key for your Bugzilla account $0."
-msgstr ""
+msgstr "Voit luoda Bugzilla-tilillesi $0 API-avaimen."
 
 #: src/components/users/Accounts.jsx:387
 msgid ""
@@ -1534,7 +1523,7 @@ msgstr "alusta $0:ksi"
 
 #: src/components/Error.jsx:192 src/components/Error.jsx:266
 msgid "here"
-msgstr ""
+msgstr "täällä"
 
 #: src/components/review/StorageReview.jsx:120
 msgid "mount"
@@ -1546,7 +1535,7 @@ msgstr "käsittelyä odottava vaihe"
 
 #: src/components/Error.jsx:392
 msgid "report the issue manually"
-msgstr ""
+msgstr "ilmoita ongelmasta manuaalisesti"
 
 #: src/components/review/StorageReview.jsx:175
 msgid "resized from $0"
