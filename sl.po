@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 40.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-04 04:22+0000\n"
+"POT-Creation-Date: 2026-02-05 04:28+0000\n"
 "PO-Revision-Date: 2025-12-08 16:14+0000\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <https://translate.fedoraproject.org/projects/"
@@ -36,7 +36,7 @@ msgstr "$0 ($1)"
 msgid "$0 installation"
 msgstr "Namestitev $0"
 
-#: src/components/HeaderKebab.jsx:57
+#: src/components/HeaderKebab.jsx:58
 msgid "$0 installer"
 msgstr "Namestilnik $0"
 
@@ -87,7 +87,7 @@ msgstr ""
 "Standardni uporabniški račun s skrbniškim dostopom za spremembe na ravni "
 "celega sistema."
 
-#: src/components/HeaderKebab.jsx:121
+#: src/components/HeaderKebab.jsx:136
 msgid "About"
 msgstr "O programu"
 
@@ -140,7 +140,7 @@ msgstr "Anaconda"
 msgid "Anaconda Web UI"
 msgstr "Spletni vmesnik Anaconda"
 
-#: src/components/HeaderKebab.jsx:87
+#: src/components/HeaderKebab.jsx:88
 msgid "Anaconda project page"
 msgstr "Stran projekta Anaconda"
 
@@ -262,6 +262,7 @@ msgstr "Počisti iskanje"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr "Kliknite znova Naprej za nadaljevanje tem opozorilom navkljub."
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:73
 #: src/components/storage/installation-method/EncryptedDevices.jsx:193
 #: src/components/storage/installation-method/InstallationDestination.jsx:398
 msgid "Close"
@@ -288,6 +289,13 @@ msgstr "Prilagodi strežnike NTP"
 #: src/components/datetime/CustomNTPModal.jsx:157
 msgid "Configure custom NTP servers"
 msgstr "Prilagodi strežnike NTP po meri"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:52
+#: src/components/HeaderKebab.jsx:125
+#, fuzzy
+#| msgid "Configure storage"
+msgid "Configure network"
+msgstr "Prilagodi hrambo"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:159
 msgid "Configure storage"
@@ -704,6 +712,12 @@ msgstr "Ime"
 msgid "Needs at least $0"
 msgstr "Potrebuje vsaj $0"
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:58
+#, fuzzy
+#| msgid "Network configuration"
+msgid "Network Configuration"
+msgstr "Konfiguracija omrežja"
+
 #: src/components/Error.jsx:609
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
@@ -715,6 +729,12 @@ msgstr ""
 #: src/components/Error.jsx:610
 msgid "Network not available. Configure the network to report the issue."
 msgstr "Omrežje ni na voljo. Prilagodite omrežje za prijavo težave."
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:40
+#, fuzzy
+#| msgid "Storage plugin failed"
+msgid "Network plugin failed"
+msgstr "Vstavek za hrambo ni uspel"
 
 #: src/components/AnacondaWizardFooter.jsx:97 src/components/Error.jsx:566
 msgid "Next"
@@ -826,7 +846,7 @@ msgstr "Izberite vsaj en disk za nadaljevanje"
 msgid "Pool"
 msgstr "Nabor"
 
-#: src/components/HeaderKebab.jsx:58
+#: src/components/HeaderKebab.jsx:59
 msgid "Powered by Anaconda"
 msgstr "Poganja Anaconda"
 
@@ -974,7 +994,7 @@ msgid "Replace current installation, but keep files in home."
 msgstr ""
 "Zamenjaj trenutno namestitev, vendar ohrani datoteke v domači mapi (home)."
 
-#: src/components/HeaderKebab.jsx:124
+#: src/components/HeaderKebab.jsx:139
 msgid "Report Issue"
 msgstr "Poročaj o težavi"
 
@@ -3915,9 +3935,6 @@ msgstr "razveljavi"
 
 #~ msgid "Network Name"
 #~ msgstr "Ime omrežja"
-
-#~ msgid "Network configuration"
-#~ msgstr "Konfiguracija omrežja"
 
 #~ msgid "Network configuration is not available."
 #~ msgstr "Konfiguracija omrežja ni na voljo."

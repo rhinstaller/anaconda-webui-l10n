@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-04 04:22+0000\n"
+"POT-Creation-Date: 2026-02-05 04:28+0000\n"
 "PO-Revision-Date: 2025-03-03 23:11+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -52,7 +52,7 @@ msgstr "$0 ($1)"
 msgid "$0 installation"
 msgstr "$0 diegimas"
 
-#: src/components/HeaderKebab.jsx:57
+#: src/components/HeaderKebab.jsx:58
 msgid "$0 installer"
 msgstr "$0 diegyklė"
 
@@ -99,7 +99,7 @@ msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr ""
 
-#: src/components/HeaderKebab.jsx:121
+#: src/components/HeaderKebab.jsx:136
 msgid "About"
 msgstr "Apie"
 
@@ -158,7 +158,7 @@ msgstr "„Anaconda“"
 msgid "Anaconda Web UI"
 msgstr "„Anaconda“ žiniatinklio sąsaja"
 
-#: src/components/HeaderKebab.jsx:87
+#: src/components/HeaderKebab.jsx:88
 msgid "Anaconda project page"
 msgstr "Anaconda projekto puslapis"
 
@@ -282,6 +282,7 @@ msgstr "Išvalyti paieškos įvestį"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr ""
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:73
 #: src/components/storage/installation-method/EncryptedDevices.jsx:193
 #: src/components/storage/installation-method/InstallationDestination.jsx:398
 msgid "Close"
@@ -312,6 +313,13 @@ msgstr "Konfigūruoti NTP serverius"
 #| msgid "Configure NTP servers"
 msgid "Configure custom NTP servers"
 msgstr "Konfigūruoti NTP serverius"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:52
+#: src/components/HeaderKebab.jsx:125
+#, fuzzy
+#| msgid "Configure storage"
+msgid "Configure network"
+msgstr "Konfigūruoti saugyklą"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:159
 msgid "Configure storage"
@@ -740,6 +748,12 @@ msgstr "Pavadinimas"
 msgid "Needs at least $0"
 msgstr ""
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:58
+#, fuzzy
+#| msgid "Network configuration"
+msgid "Network Configuration"
+msgstr "Tinklo konfigūracija"
+
 #: src/components/Error.jsx:609
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
@@ -753,6 +767,12 @@ msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 "Tinklas nepasiekiamas. Sukonfigūruokite tinklą, kad praneštumėte apie "
 "problemą."
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:40
+#, fuzzy
+#| msgid "Storage plugin failed"
+msgid "Network plugin failed"
+msgstr "Saugyklos papildiniui nepavyko"
 
 #: src/components/AnacondaWizardFooter.jsx:97 src/components/Error.jsx:566
 msgid "Next"
@@ -872,7 +892,7 @@ msgstr "Nepasirinkta diskų; pasirinkite bent vieną diską diegimui."
 msgid "Pool"
 msgstr "Rinkinys"
 
-#: src/components/HeaderKebab.jsx:58
+#: src/components/HeaderKebab.jsx:59
 msgid "Powered by Anaconda"
 msgstr "Naudoja Anaconda"
 
@@ -1020,7 +1040,7 @@ msgstr ""
 msgid "Replace current installation, but keep files in home."
 msgstr "Pakeiskite esamą diegimą, bet palikite failus namuose."
 
-#: src/components/HeaderKebab.jsx:124
+#: src/components/HeaderKebab.jsx:139
 msgid "Report Issue"
 msgstr "Pranešti apie problemą"
 
@@ -3988,9 +4008,6 @@ msgstr "anuliuoti"
 
 #~ msgid "Network Name"
 #~ msgstr "Tinklo pavadinimas"
-
-#~ msgid "Network configuration"
-#~ msgstr "Tinklo konfigūracija"
 
 #~ msgid "Network configuration is not available."
 #~ msgstr "Tinklo konfigūracija neprieinama."

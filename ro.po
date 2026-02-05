@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-04 04:22+0000\n"
+"POT-Creation-Date: 2026-02-05 04:28+0000\n"
 "PO-Revision-Date: 2026-01-28 03:59+0000\n"
 "Last-Translator: Petru Rebeja <petru@rebeja.eu>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/"
@@ -46,7 +46,7 @@ msgstr "$0 ($1)"
 msgid "$0 installation"
 msgstr "Instalare $0"
 
-#: src/components/HeaderKebab.jsx:57
+#: src/components/HeaderKebab.jsx:58
 msgid "$0 installer"
 msgstr "Instalare $0"
 
@@ -96,7 +96,7 @@ msgstr ""
 "Un cont de utilizator standard cu acces la privilegii administrative pentru "
 "a efectua modificări la nivel de sistem."
 
-#: src/components/HeaderKebab.jsx:121
+#: src/components/HeaderKebab.jsx:136
 msgid "About"
 msgstr "Despre aplicație"
 
@@ -152,7 +152,7 @@ msgstr "Anaconda"
 msgid "Anaconda Web UI"
 msgstr "Interfața Web Anaconda"
 
-#: src/components/HeaderKebab.jsx:87
+#: src/components/HeaderKebab.jsx:88
 msgid "Anaconda project page"
 msgstr "Pagina proiectului Anaconda"
 
@@ -273,6 +273,7 @@ msgstr ""
 "Faceți click din nou pe „Următorul” pentru a continua în pofida acestor "
 "avertismente."
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:73
 #: src/components/storage/installation-method/EncryptedDevices.jsx:193
 #: src/components/storage/installation-method/InstallationDestination.jsx:398
 msgid "Close"
@@ -299,6 +300,13 @@ msgstr "Configurează serverele NTP"
 #: src/components/datetime/CustomNTPModal.jsx:157
 msgid "Configure custom NTP servers"
 msgstr "Configurează serverele NTP particulare"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:52
+#: src/components/HeaderKebab.jsx:125
+#, fuzzy
+#| msgid "Configure storage"
+msgid "Configure network"
+msgstr "Configurează spațiul de stocare"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:159
 msgid "Configure storage"
@@ -716,6 +724,12 @@ msgstr "Nume"
 msgid "Needs at least $0"
 msgstr "Necesită cel puțin $0"
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:58
+#, fuzzy
+#| msgid "Network configuration"
+msgid "Network Configuration"
+msgstr "Configurare rețea"
+
 #: src/components/Error.jsx:609
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
@@ -728,6 +742,12 @@ msgstr ""
 msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 "Rețeaua nu este disponibilă. Configurați rețeaua pentru a semnala incidentul."
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:40
+#, fuzzy
+#| msgid "Storage plugin failed"
+msgid "Network plugin failed"
+msgstr "Plugin-ul pentru stocare a eșuat"
 
 #: src/components/AnacondaWizardFooter.jsx:97 src/components/Error.jsx:566
 msgid "Next"
@@ -839,7 +859,7 @@ msgstr "Vă rugăm să selectați cel puțin un disk pentru a continua"
 msgid "Pool"
 msgstr "Pool"
 
-#: src/components/HeaderKebab.jsx:58
+#: src/components/HeaderKebab.jsx:59
 msgid "Powered by Anaconda"
 msgstr "Împuternicit de Anaconda"
 
@@ -988,7 +1008,7 @@ msgid "Replace current installation, but keep files in home."
 msgstr ""
 "Înlocuiți instalarea curentă, dar păstrați fișierele în directorul /home."
 
-#: src/components/HeaderKebab.jsx:124
+#: src/components/HeaderKebab.jsx:139
 msgid "Report Issue"
 msgstr "Raportați incident"
 
@@ -3552,9 +3572,6 @@ msgstr "anulează"
 
 #~ msgid "Network Name"
 #~ msgstr "Nume de rețea"
-
-#~ msgid "Network configuration"
-#~ msgstr "Configurare rețea"
 
 #~ msgid "New Device"
 #~ msgstr "Dispozitiv nou"

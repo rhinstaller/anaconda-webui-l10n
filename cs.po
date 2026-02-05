@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-04 04:22+0000\n"
+"POT-Creation-Date: 2026-02-05 04:28+0000\n"
 "PO-Revision-Date: 2026-01-31 04:18+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/anaconda-"
@@ -73,7 +73,7 @@ msgstr "$0 ($1)"
 msgid "$0 installation"
 msgstr "Instalace $0"
 
-#: src/components/HeaderKebab.jsx:57
+#: src/components/HeaderKebab.jsx:58
 msgid "$0 installer"
 msgstr "Instalátor $0"
 
@@ -124,7 +124,7 @@ msgstr ""
 "Standardní uživatelský účet s přístupem ke správě pro dělání změn týkajících "
 "systému jako celku."
 
-#: src/components/HeaderKebab.jsx:121
+#: src/components/HeaderKebab.jsx:136
 msgid "About"
 msgstr "O aplikaci"
 
@@ -178,7 +178,7 @@ msgstr "Anaconda"
 msgid "Anaconda Web UI"
 msgstr "Anaconda Web UI"
 
-#: src/components/HeaderKebab.jsx:87
+#: src/components/HeaderKebab.jsx:88
 msgid "Anaconda project page"
 msgstr "Stránka projektu Anaconda"
 
@@ -294,6 +294,7 @@ msgid "Click 'Next' again to proceed despite these warnings."
 msgstr ""
 "Pokud chcete pokračovat navzdory těmto varováním, klikněte znovu na „Další“."
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:73
 #: src/components/storage/installation-method/EncryptedDevices.jsx:193
 #: src/components/storage/installation-method/InstallationDestination.jsx:398
 msgid "Close"
@@ -321,6 +322,13 @@ msgstr "Nastavit NTP servery"
 #: src/components/datetime/CustomNTPModal.jsx:157
 msgid "Configure custom NTP servers"
 msgstr "Nastavit uživatelsky určené NTP servery"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:52
+#: src/components/HeaderKebab.jsx:125
+#, fuzzy
+#| msgid "Configure storage"
+msgid "Configure network"
+msgstr "Nastavení úložiště"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:159
 msgid "Configure storage"
@@ -735,6 +743,12 @@ msgstr "Název"
 msgid "Needs at least $0"
 msgstr "Vyžaduje alespoň $0"
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:58
+#, fuzzy
+#| msgid "Network configuration"
+msgid "Network Configuration"
+msgstr "Nastavení sítě"
+
 #: src/components/Error.jsx:609
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
@@ -746,6 +760,12 @@ msgstr ""
 #: src/components/Error.jsx:610
 msgid "Network not available. Configure the network to report the issue."
 msgstr "Síť není k dispozici. Aby bylo možné chybu nahlásit, nastavte síť."
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:40
+#, fuzzy
+#| msgid "Storage plugin failed"
+msgid "Network plugin failed"
+msgstr "Zásuvný modul úložiště selhal"
 
 #: src/components/AnacondaWizardFooter.jsx:97 src/components/Error.jsx:566
 msgid "Next"
@@ -857,7 +877,7 @@ msgstr "Aby bylo možné pokračovat, vyberte alespoň jeden disk"
 msgid "Pool"
 msgstr "Fond"
 
-#: src/components/HeaderKebab.jsx:58
+#: src/components/HeaderKebab.jsx:59
 msgid "Powered by Anaconda"
 msgstr "Založeno na instalátoru Anaconda"
 
@@ -1003,7 +1023,7 @@ msgstr ""
 msgid "Replace current installation, but keep files in home."
 msgstr "Nahradit stávající instalaci, ale ponechat soubory v domovské složce."
 
-#: src/components/HeaderKebab.jsx:124
+#: src/components/HeaderKebab.jsx:139
 msgid "Report Issue"
 msgstr "Nahlásit problém"
 
@@ -4013,9 +4033,6 @@ msgstr "zpět"
 
 #~ msgid "Network Name"
 #~ msgstr "Název sítě"
-
-#~ msgid "Network configuration"
-#~ msgstr "Nastavení sítě"
 
 #~ msgid "Network configuration is not available."
 #~ msgstr "Nastavení sítě není k dispozici."

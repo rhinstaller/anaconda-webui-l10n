@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-04 04:22+0000\n"
+"POT-Creation-Date: 2026-02-05 04:28+0000\n"
 "PO-Revision-Date: 2024-11-18 02:57+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.fedoraproject.org/projects/anaconda-"
@@ -46,7 +46,7 @@ msgstr "$0 ($1)"
 msgid "$0 installation"
 msgstr "התקנת $0"
 
-#: src/components/HeaderKebab.jsx:57
+#: src/components/HeaderKebab.jsx:58
 msgid "$0 installer"
 msgstr "תוכנית ההתקנה של $0"
 
@@ -89,7 +89,7 @@ msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr ""
 
-#: src/components/HeaderKebab.jsx:121
+#: src/components/HeaderKebab.jsx:136
 msgid "About"
 msgstr "על אודות"
 
@@ -150,7 +150,7 @@ msgstr "Anaconda"
 msgid "Anaconda Web UI"
 msgstr "מנשק דפדפן Anaconda"
 
-#: src/components/HeaderKebab.jsx:87
+#: src/components/HeaderKebab.jsx:88
 msgid "Anaconda project page"
 msgstr "דף מיזם Anaconda"
 
@@ -271,6 +271,7 @@ msgstr "מחיקת ערך קלט"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr ""
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:73
 #: src/components/storage/installation-method/EncryptedDevices.jsx:193
 #: src/components/storage/installation-method/InstallationDestination.jsx:398
 msgid "Close"
@@ -300,6 +301,13 @@ msgstr "הגדרת שרתי NTP"
 #| msgid "Configure NTP servers"
 msgid "Configure custom NTP servers"
 msgstr "הגדרת שרתי NTP"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:52
+#: src/components/HeaderKebab.jsx:125
+#, fuzzy
+#| msgid "Configure storage"
+msgid "Configure network"
+msgstr "הגדרת אחסון"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:159
 msgid "Configure storage"
@@ -726,6 +734,12 @@ msgstr "שם"
 msgid "Needs at least $0"
 msgstr ""
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:58
+#, fuzzy
+#| msgid "Network configuration"
+msgid "Network Configuration"
+msgstr "הגדרות רשת"
+
 #: src/components/Error.jsx:609
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
@@ -737,6 +751,12 @@ msgstr ""
 #: src/components/Error.jsx:610
 msgid "Network not available. Configure the network to report the issue."
 msgstr "הרשת לא זמינה. יש להגדיר את הרשת כדי לדווח על התקלה הזאת."
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:40
+#, fuzzy
+#| msgid "Storage plugin failed"
+msgid "Network plugin failed"
+msgstr "תוסף האחסון נכשל"
 
 #: src/components/AnacondaWizardFooter.jsx:97 src/components/Error.jsx:566
 msgid "Next"
@@ -855,7 +875,7 @@ msgstr "לא נבחרו כוננים; נא לבחור כונן אחד לפחות
 msgid "Pool"
 msgstr "בריכה"
 
-#: src/components/HeaderKebab.jsx:58
+#: src/components/HeaderKebab.jsx:59
 msgid "Powered by Anaconda"
 msgstr "מופעל על גבי אנקונדה"
 
@@ -995,7 +1015,7 @@ msgstr ""
 msgid "Replace current installation, but keep files in home."
 msgstr "החלפת ההתקנה הנוכחית אבל לשמור את הקבצים שבתיקיית הבית (home)."
 
-#: src/components/HeaderKebab.jsx:124
+#: src/components/HeaderKebab.jsx:139
 msgid "Report Issue"
 msgstr "דיווח על תקלה"
 
@@ -3906,9 +3926,6 @@ msgstr "ביטול"
 
 #~ msgid "Network Name"
 #~ msgstr "שם רשת"
-
-#~ msgid "Network configuration"
-#~ msgstr "הגדרות רשת"
 
 #~ msgid "Network configuration is not available."
 #~ msgstr "תצורת רשת אינה זמינה."

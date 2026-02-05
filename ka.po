@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-04 04:22+0000\n"
+"POT-Creation-Date: 2026-02-05 04:28+0000\n"
 "PO-Revision-Date: 2026-01-24 03:50+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -40,7 +40,7 @@ msgstr "$0 ($1)"
 msgid "$0 installation"
 msgstr "$0-ის დაყენება"
 
-#: src/components/HeaderKebab.jsx:57
+#: src/components/HeaderKebab.jsx:58
 msgid "$0 installer"
 msgstr "$0-ის დაყენების პროგრამა"
 
@@ -88,7 +88,7 @@ msgstr ""
 "სტანდარტული მომხმარებლის ანგარიშის ადმინისტრატორის წვდომი მთელ სისტემაში "
 "ცვლილებების შესატანად."
 
-#: src/components/HeaderKebab.jsx:121
+#: src/components/HeaderKebab.jsx:136
 msgid "About"
 msgstr "შესახებ"
 
@@ -141,7 +141,7 @@ msgstr "Anaconda"
 msgid "Anaconda Web UI"
 msgstr "Anaconda-ის ვებ-ინტერფეისი"
 
-#: src/components/HeaderKebab.jsx:87
+#: src/components/HeaderKebab.jsx:88
 msgid "Anaconda project page"
 msgstr "Anaconda-ის პროექტის გვერდი"
 
@@ -258,6 +258,7 @@ msgid "Click 'Next' again to proceed despite these warnings."
 msgstr ""
 "გაფრთხილებების მიუხედავად გასაგრძელებლად დააწკაპუნეთ ღილაკზე 'შემდეგი'."
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:73
 #: src/components/storage/installation-method/EncryptedDevices.jsx:193
 #: src/components/storage/installation-method/InstallationDestination.jsx:398
 msgid "Close"
@@ -285,6 +286,13 @@ msgstr "NTP სერვერების მორგება"
 #: src/components/datetime/CustomNTPModal.jsx:157
 msgid "Configure custom NTP servers"
 msgstr "მომხმარებლის NTP სერვერების მორგება"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:52
+#: src/components/HeaderKebab.jsx:125
+#, fuzzy
+#| msgid "Configure storage"
+msgid "Configure network"
+msgstr "საცავის მორგება"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:159
 msgid "Configure storage"
@@ -701,6 +709,12 @@ msgstr "სახელი"
 msgid "Needs at least $0"
 msgstr "საჭიროა სულ ცოტა $0"
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:58
+#, fuzzy
+#| msgid "Network configuration"
+msgid "Network Configuration"
+msgstr "ქსელის კონფიგურაცია"
+
 #: src/components/Error.jsx:609
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
@@ -712,6 +726,12 @@ msgstr ""
 #: src/components/Error.jsx:610
 msgid "Network not available. Configure the network to report the issue."
 msgstr "ქსელი ხელმისაწვდომი არაა. ანგარიშის გადასაცემად, ჯერ ქსელი მოირგეთ."
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:40
+#, fuzzy
+#| msgid "Storage plugin failed"
+msgid "Network plugin failed"
+msgstr "საცავის დამატება ჩავარდა"
 
 #: src/components/AnacondaWizardFooter.jsx:97 src/components/Error.jsx:566
 msgid "Next"
@@ -822,7 +842,7 @@ msgstr "გასაგრძელებლად აირჩიეთ მი�
 msgid "Pool"
 msgstr "პული"
 
-#: src/components/HeaderKebab.jsx:58
+#: src/components/HeaderKebab.jsx:59
 msgid "Powered by Anaconda"
 msgstr "დაფუძნებულია Anaconda-ზე"
 
@@ -972,7 +992,7 @@ msgstr ""
 "ამჟამად დაყენებული სისტემის ჩანაცვლება /home საქაღალდეში ფაილების "
 "შენარჩუნებით."
 
-#: src/components/HeaderKebab.jsx:124
+#: src/components/HeaderKebab.jsx:139
 msgid "Report Issue"
 msgstr "პრობლემის ანგარიში"
 
@@ -3978,9 +3998,6 @@ msgstr "გაუქმება"
 
 #~ msgid "Network Name"
 #~ msgstr "ქსელის დასახელება"
-
-#~ msgid "Network configuration"
-#~ msgstr "ქსელის კონფიგურაცია"
 
 #~ msgid "Network configuration is not available."
 #~ msgstr "ქსელის კონფიგურაცია მიუწვდომელია."

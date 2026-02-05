@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-04 04:22+0000\n"
+"POT-Creation-Date: 2026-02-05 04:28+0000\n"
 "PO-Revision-Date: 2025-06-01 02:21+0000\n"
 "Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -63,7 +63,7 @@ msgstr "$0 ($1)"
 msgid "$0 installation"
 msgstr "$0 安裝"
 
-#: src/components/HeaderKebab.jsx:57
+#: src/components/HeaderKebab.jsx:58
 msgid "$0 installer"
 msgstr "$0 安裝程式"
 
@@ -109,7 +109,7 @@ msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr ""
 
-#: src/components/HeaderKebab.jsx:121
+#: src/components/HeaderKebab.jsx:136
 msgid "About"
 msgstr "關於"
 
@@ -168,7 +168,7 @@ msgstr "Anaconda"
 msgid "Anaconda Web UI"
 msgstr "Anaconda Web 介面"
 
-#: src/components/HeaderKebab.jsx:87
+#: src/components/HeaderKebab.jsx:88
 msgid "Anaconda project page"
 msgstr "Anaconda 專案頁面"
 
@@ -286,6 +286,7 @@ msgstr "清除搜尋"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr ""
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:73
 #: src/components/storage/installation-method/EncryptedDevices.jsx:193
 #: src/components/storage/installation-method/InstallationDestination.jsx:398
 msgid "Close"
@@ -315,6 +316,13 @@ msgstr "設定 NTP 伺服器"
 #| msgid "Configure NTP servers"
 msgid "Configure custom NTP servers"
 msgstr "設定 NTP 伺服器"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:52
+#: src/components/HeaderKebab.jsx:125
+#, fuzzy
+#| msgid "Configure storage"
+msgid "Configure network"
+msgstr "正在配置存儲"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:159
 msgid "Configure storage"
@@ -734,6 +742,12 @@ msgstr "名稱"
 msgid "Needs at least $0"
 msgstr ""
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:58
+#, fuzzy
+#| msgid "Network configuration"
+msgid "Network Configuration"
+msgstr "網路組態"
+
 #: src/components/Error.jsx:609
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
@@ -743,6 +757,12 @@ msgstr "網路不可用。 在頂部選單欄設定網路以回報問題。"
 #: src/components/Error.jsx:610
 msgid "Network not available. Configure the network to report the issue."
 msgstr "網路不可用。 設定網路以回報問題。"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:40
+#, fuzzy
+#| msgid "Storage plugin failed"
+msgid "Network plugin failed"
+msgstr "儲存空間外掛失敗"
 
 #: src/components/AnacondaWizardFooter.jsx:97 src/components/Error.jsx:566
 msgid "Next"
@@ -857,7 +877,7 @@ msgstr "尚未選取磁碟；請選擇至少一個磁碟以便安裝。"
 msgid "Pool"
 msgstr "集池"
 
-#: src/components/HeaderKebab.jsx:58
+#: src/components/HeaderKebab.jsx:59
 msgid "Powered by Anaconda"
 msgstr "由 Anaconda 提供技術支援"
 
@@ -998,7 +1018,7 @@ msgstr ""
 msgid "Replace current installation, but keep files in home."
 msgstr "取代目前的安裝，但保留家目錄中的檔案。"
 
-#: src/components/HeaderKebab.jsx:124
+#: src/components/HeaderKebab.jsx:139
 msgid "Report Issue"
 msgstr "回報問題"
 
@@ -3798,9 +3818,6 @@ msgstr "復原"
 
 #~ msgid "Network Name"
 #~ msgstr "網路名稱"
-
-#~ msgid "Network configuration"
-#~ msgstr "網路組態"
 
 #~ msgid "Network configuration is not available."
 #~ msgstr "無法使用網路設定。"

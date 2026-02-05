@@ -63,7 +63,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-04 04:22+0000\n"
+"POT-Creation-Date: 2026-02-05 04:28+0000\n"
 "PO-Revision-Date: 2026-02-03 04:28+0000\n"
 "Last-Translator: Yoshiaki Ishii "
 "<zouforestyoppy@users.noreply.translate.fedoraproject.org>\n"
@@ -91,7 +91,7 @@ msgstr "$0 ($1)"
 msgid "$0 installation"
 msgstr "$0 のインストール"
 
-#: src/components/HeaderKebab.jsx:57
+#: src/components/HeaderKebab.jsx:58
 msgid "$0 installer"
 msgstr "$0 のインストーラー"
 
@@ -136,7 +136,7 @@ msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr "システム全体の変更を行うための管理者権限を持つ標準ユーザーアカウント。"
 
-#: src/components/HeaderKebab.jsx:121
+#: src/components/HeaderKebab.jsx:136
 msgid "About"
 msgstr "About"
 
@@ -195,7 +195,7 @@ msgstr "Anaconda"
 msgid "Anaconda Web UI"
 msgstr "Anaconda Web UI"
 
-#: src/components/HeaderKebab.jsx:87
+#: src/components/HeaderKebab.jsx:88
 msgid "Anaconda project page"
 msgstr "Anacondaプロジェクトページ"
 
@@ -315,6 +315,7 @@ msgstr "入力した値をクリアします"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr "'Next' を再度押し、警告を無視して実行する。"
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:73
 #: src/components/storage/installation-method/EncryptedDevices.jsx:193
 #: src/components/storage/installation-method/InstallationDestination.jsx:398
 msgid "Close"
@@ -341,6 +342,13 @@ msgstr "NTP サーバーの設定"
 #: src/components/datetime/CustomNTPModal.jsx:157
 msgid "Configure custom NTP servers"
 msgstr "カスタム NTP サーバーの設定"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:52
+#: src/components/HeaderKebab.jsx:125
+#, fuzzy
+#| msgid "Configure storage"
+msgid "Configure network"
+msgstr "ストレージの設定"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:159
 msgid "Configure storage"
@@ -743,6 +751,12 @@ msgstr "名前"
 msgid "Needs at least $0"
 msgstr ""
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:58
+#, fuzzy
+#| msgid "Network configuration"
+msgid "Network Configuration"
+msgstr "ネットワークの設定"
+
 #: src/components/Error.jsx:609
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
@@ -756,6 +770,12 @@ msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 "ネットワークが利用できません。 問題を報告するには、ネットワークを設定してくだ"
 "さい。"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:40
+#, fuzzy
+#| msgid "Node login failed."
+msgid "Network plugin failed"
+msgstr "ストレージプラグインが失敗しました"
 
 #: src/components/AnacondaWizardFooter.jsx:97 src/components/Error.jsx:566
 msgid "Next"
@@ -864,7 +884,7 @@ msgstr "続行するには少なくともディスクを 1 つ選択してくだ
 msgid "Pool"
 msgstr "プール"
 
-#: src/components/HeaderKebab.jsx:58
+#: src/components/HeaderKebab.jsx:59
 msgid "Powered by Anaconda"
 msgstr "Powered by Anaconda"
 
@@ -1013,7 +1033,7 @@ msgstr ""
 msgid "Replace current installation, but keep files in home."
 msgstr ""
 
-#: src/components/HeaderKebab.jsx:124
+#: src/components/HeaderKebab.jsx:139
 msgid "Report Issue"
 msgstr "Issueを報告する"
 
@@ -3998,9 +4018,6 @@ msgstr ""
 
 #~ msgid "Network Name"
 #~ msgstr "ネットワーク名"
-
-#~ msgid "Network configuration"
-#~ msgstr "ネットワークの設定"
 
 #~ msgid "Network configuration is not available."
 #~ msgstr "ネットワーク設定は利用できません。"

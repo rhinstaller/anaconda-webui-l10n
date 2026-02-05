@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-04 04:22+0000\n"
+"POT-Creation-Date: 2026-02-05 04:28+0000\n"
 "PO-Revision-Date: 2026-01-31 04:18+0000\n"
 "Last-Translator: y b <nididak@gmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
@@ -55,7 +55,7 @@ msgstr "$0 ($1)"
 msgid "$0 installation"
 msgstr "$0 kurulumu"
 
-#: src/components/HeaderKebab.jsx:57
+#: src/components/HeaderKebab.jsx:58
 msgid "$0 installer"
 msgstr "$0 kurucusu"
 
@@ -105,7 +105,7 @@ msgstr ""
 "Sistem genelinde değişiklikler yapmak için yönetici erişimine sahip olan "
 "standart bir kullanıcı hesabı."
 
-#: src/components/HeaderKebab.jsx:121
+#: src/components/HeaderKebab.jsx:136
 msgid "About"
 msgstr "Hakkında"
 
@@ -159,7 +159,7 @@ msgstr "Anaconda"
 msgid "Anaconda Web UI"
 msgstr "Anaconda Web Arayüzü"
 
-#: src/components/HeaderKebab.jsx:87
+#: src/components/HeaderKebab.jsx:88
 msgid "Anaconda project page"
 msgstr "Anaconda projesi sayfası"
 
@@ -276,6 +276,7 @@ msgid "Click 'Next' again to proceed despite these warnings."
 msgstr ""
 "Bu uyarılara rağmen devam etmek için tekrar 'İleri' düğmesine tıklayın."
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:73
 #: src/components/storage/installation-method/EncryptedDevices.jsx:193
 #: src/components/storage/installation-method/InstallationDestination.jsx:398
 msgid "Close"
@@ -302,6 +303,13 @@ msgstr "NTP sunucularını yapılandır"
 #: src/components/datetime/CustomNTPModal.jsx:157
 msgid "Configure custom NTP servers"
 msgstr "Özel NTP sunucularını yapılandır"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:52
+#: src/components/HeaderKebab.jsx:125
+#, fuzzy
+#| msgid "Configure storage"
+msgid "Configure network"
+msgstr "Depolamayı yapılandır"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:159
 msgid "Configure storage"
@@ -713,6 +721,12 @@ msgstr "Ad"
 msgid "Needs at least $0"
 msgstr "En az $0 gerekli"
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:58
+#, fuzzy
+#| msgid "Network configuration"
+msgid "Network Configuration"
+msgstr "Ağ yapılandırma"
+
 #: src/components/Error.jsx:609
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
@@ -724,6 +738,12 @@ msgstr ""
 #: src/components/Error.jsx:610
 msgid "Network not available. Configure the network to report the issue."
 msgstr "Ağ kullanılabilir değil. Sorunu bildirmek için ağı yapılandırın."
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:40
+#, fuzzy
+#| msgid "Storage plugin failed"
+msgid "Network plugin failed"
+msgstr "Depolama eklentisi başarısız oldu"
 
 #: src/components/AnacondaWizardFooter.jsx:97 src/components/Error.jsx:566
 msgid "Next"
@@ -835,7 +855,7 @@ msgstr "Devam etmek için en az bir disk seçin"
 msgid "Pool"
 msgstr "Havuz"
 
-#: src/components/HeaderKebab.jsx:58
+#: src/components/HeaderKebab.jsx:59
 msgid "Powered by Anaconda"
 msgstr "Anaconda tabanlıdır"
 
@@ -982,7 +1002,7 @@ msgstr ""
 msgid "Replace current installation, but keep files in home."
 msgstr "Geçerli kurulumu değiştir, ancak ev dizinindeki dosyaları sakla."
 
-#: src/components/HeaderKebab.jsx:124
+#: src/components/HeaderKebab.jsx:139
 msgid "Report Issue"
 msgstr "Sorunu Bildir"
 
@@ -3986,9 +4006,6 @@ msgstr "geri al"
 
 #~ msgid "Network Name"
 #~ msgstr "Ağ Adı"
-
-#~ msgid "Network configuration"
-#~ msgstr "Ağ yapılandırma"
 
 #~ msgid "Network configuration is not available."
 #~ msgstr "Ağ yapılandırması kullanılabilir değil."

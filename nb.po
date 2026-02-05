@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-04 04:22+0000\n"
+"POT-Creation-Date: 2026-02-05 04:28+0000\n"
 "PO-Revision-Date: 2025-11-13 03:38+0000\n"
 "Last-Translator: Morgan Wells <supertuts20@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <https://translate.fedoraproject.org/"
@@ -45,7 +45,7 @@ msgstr "$0 ($1)"
 msgid "$0 installation"
 msgstr "$0-Installasjon"
 
-#: src/components/HeaderKebab.jsx:57
+#: src/components/HeaderKebab.jsx:58
 msgid "$0 installer"
 msgstr "$0-installerer"
 
@@ -95,7 +95,7 @@ msgstr ""
 "En standardbrukerkonto med administratortilgang for å gjøre systemomfattende "
 "endringer."
 
-#: src/components/HeaderKebab.jsx:121
+#: src/components/HeaderKebab.jsx:136
 msgid "About"
 msgstr "Om"
 
@@ -150,7 +150,7 @@ msgstr "Anaconda"
 msgid "Anaconda Web UI"
 msgstr "Nettbrukergrensesnitts-Anaconda"
 
-#: src/components/HeaderKebab.jsx:87
+#: src/components/HeaderKebab.jsx:88
 msgid "Anaconda project page"
 msgstr "Anacondas prosjektside"
 
@@ -274,6 +274,7 @@ msgstr "Rens søksinnmatning"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr ""
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:73
 #: src/components/storage/installation-method/EncryptedDevices.jsx:193
 #: src/components/storage/installation-method/InstallationDestination.jsx:398
 msgid "Close"
@@ -307,6 +308,13 @@ msgstr "Konfigurer enhet %s"
 #| msgid "Configure device %s"
 msgid "Configure custom NTP servers"
 msgstr "Konfigurer enhet %s"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:52
+#: src/components/HeaderKebab.jsx:125
+#, fuzzy
+#| msgid "Configure storage"
+msgid "Configure network"
+msgstr "Konfigurer lagring"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:159
 msgid "Configure storage"
@@ -735,6 +743,12 @@ msgstr "Navn"
 msgid "Needs at least $0"
 msgstr "Trenger minst $0"
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:58
+#, fuzzy
+#| msgid "Network configuration"
+msgid "Network Configuration"
+msgstr "Nettverkskonfigurasjon"
+
 #: src/components/Error.jsx:609
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
@@ -748,6 +762,12 @@ msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 "Nettverksforbindelse ikke tilgjengelig. Vennligst konfigurer "
 "nettverksforbindelsen for å rapportere feilen."
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:40
+#, fuzzy
+#| msgid "Storage plugin failed"
+msgid "Network plugin failed"
+msgstr "Lagringstillegg mislyktes"
 
 #: src/components/AnacondaWizardFooter.jsx:97 src/components/Error.jsx:566
 msgid "Next"
@@ -868,7 +888,7 @@ msgstr "Ingen disker valgt. Vennligst velg minst en disk å installere til."
 msgid "Pool"
 msgstr "Pool"
 
-#: src/components/HeaderKebab.jsx:58
+#: src/components/HeaderKebab.jsx:59
 msgid "Powered by Anaconda"
 msgstr "Drevet av Anaconda"
 
@@ -1017,7 +1037,7 @@ msgstr ""
 msgid "Replace current installation, but keep files in home."
 msgstr "Erstatt nåværende installasjon, men behold filene i hjemmemappen."
 
-#: src/components/HeaderKebab.jsx:124
+#: src/components/HeaderKebab.jsx:139
 msgid "Report Issue"
 msgstr "Rapporter feil"
 
@@ -2934,9 +2954,6 @@ msgstr "angre"
 
 #~ msgid "Network Name"
 #~ msgstr "Nettverksnavn"
-
-#~ msgid "Network configuration"
-#~ msgstr "Nettverkskonfigurasjon"
 
 #~ msgid "New Device"
 #~ msgstr "Ny enhet"

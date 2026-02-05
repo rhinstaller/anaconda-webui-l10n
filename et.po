@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-04 04:22+0000\n"
+"POT-Creation-Date: 2026-02-05 04:28+0000\n"
 "PO-Revision-Date: 2025-12-26 03:48+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
@@ -45,7 +45,7 @@ msgstr "$0 ($1)"
 msgid "$0 installation"
 msgstr "Paigaldus: $0"
 
-#: src/components/HeaderKebab.jsx:57
+#: src/components/HeaderKebab.jsx:58
 msgid "$0 installer"
 msgstr "Paigaldaja: $0"
 
@@ -95,7 +95,7 @@ msgstr ""
 "Tavaline kasutajakonto, millel on peakasutaja õigused ja mis võimaldab teha "
 "süsteemiüleseid muudatusi."
 
-#: src/components/HeaderKebab.jsx:121
+#: src/components/HeaderKebab.jsx:136
 msgid "About"
 msgstr "Teave"
 
@@ -148,7 +148,7 @@ msgstr "Anaconda"
 msgid "Anaconda Web UI"
 msgstr "Anaconda veebipõhine kasutajaliides"
 
-#: src/components/HeaderKebab.jsx:87
+#: src/components/HeaderKebab.jsx:88
 msgid "Anaconda project page"
 msgstr "Anaconda projekti veebileht"
 
@@ -268,6 +268,7 @@ msgstr ""
 "Kui tahad jätkata neile hoiatustele vaatamata, siis klõpsa uuesti nuppu "
 "„Edasi“."
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:73
 #: src/components/storage/installation-method/EncryptedDevices.jsx:193
 #: src/components/storage/installation-method/InstallationDestination.jsx:398
 msgid "Close"
@@ -294,6 +295,13 @@ msgstr "Seadista NTP-servereid"
 #: src/components/datetime/CustomNTPModal.jsx:157
 msgid "Configure custom NTP servers"
 msgstr "Seadista enda eelistatud NTP-servereid"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:52
+#: src/components/HeaderKebab.jsx:125
+#, fuzzy
+#| msgid "Configure storage"
+msgid "Configure network"
+msgstr "Seadista andmeruumi"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:159
 msgid "Configure storage"
@@ -710,6 +718,12 @@ msgstr "Nimi"
 msgid "Needs at least $0"
 msgstr "Vajalik on vähemalt $0"
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:58
+#, fuzzy
+#| msgid "Storage configuration"
+msgid "Network Configuration"
+msgstr "Andmeruumi seadistus"
+
 #: src/components/Error.jsx:609
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
@@ -722,6 +736,12 @@ msgstr ""
 msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 "Võrguühendust pole. Veast teatamiseks palun seadista või lisa võrguühendus."
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:40
+#, fuzzy
+#| msgid "Storage plugin failed"
+msgid "Network plugin failed"
+msgstr "Andmeruumi lisamooduli töö ebaõnnestus"
 
 #: src/components/AnacondaWizardFooter.jsx:97 src/components/Error.jsx:566
 msgid "Next"
@@ -833,7 +853,7 @@ msgstr "Jätkamiseks palun vali vähemalt üks ketas"
 msgid "Pool"
 msgstr "Kogum"
 
-#: src/components/HeaderKebab.jsx:58
+#: src/components/HeaderKebab.jsx:59
 msgid "Powered by Anaconda"
 msgstr "Taustal töötab Anaconda"
 
@@ -980,7 +1000,7 @@ msgstr ""
 msgid "Replace current installation, but keep files in home."
 msgstr "Asenda senine paigaldus, kuid jäta kodukausta failid alles."
 
-#: src/components/HeaderKebab.jsx:124
+#: src/components/HeaderKebab.jsx:139
 msgid "Report Issue"
 msgstr "Teata veast või probleemist"
 

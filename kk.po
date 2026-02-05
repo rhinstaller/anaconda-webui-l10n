@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-04 04:22+0000\n"
+"POT-Creation-Date: 2026-02-05 04:28+0000\n"
 "PO-Revision-Date: 2026-01-17 03:46+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <https://translate.fedoraproject.org/projects/anaconda-"
@@ -39,7 +39,7 @@ msgstr "$0 ($1)"
 msgid "$0 installation"
 msgstr "$0 орнатуы"
 
-#: src/components/HeaderKebab.jsx:57
+#: src/components/HeaderKebab.jsx:58
 msgid "$0 installer"
 msgstr "$0 орнатқышы"
 
@@ -87,7 +87,7 @@ msgstr ""
 "Жүйелік өзгерістер жасау үшін админ ретінде қол жеткізу мүмкіндігі бар "
 "стандартты пайдаланушы тіркелгісі."
 
-#: src/components/HeaderKebab.jsx:121
+#: src/components/HeaderKebab.jsx:136
 msgid "About"
 msgstr "Осы туралы"
 
@@ -140,7 +140,7 @@ msgstr "Anaconda"
 msgid "Anaconda Web UI"
 msgstr "Anaconda веб-интерфейсі"
 
-#: src/components/HeaderKebab.jsx:87
+#: src/components/HeaderKebab.jsx:88
 msgid "Anaconda project page"
 msgstr "Anaconda жобасының парағы"
 
@@ -265,6 +265,7 @@ msgstr ""
 "Осы ескертулерге қарамастан жалғастыру үшін 'Келесі' батырмасын қайта "
 "шертіңіз."
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:73
 #: src/components/storage/installation-method/EncryptedDevices.jsx:193
 #: src/components/storage/installation-method/InstallationDestination.jsx:398
 msgid "Close"
@@ -291,6 +292,13 @@ msgstr "NTP серверлерін баптау"
 #: src/components/datetime/CustomNTPModal.jsx:157
 msgid "Configure custom NTP servers"
 msgstr "Реттелетін NTP серверлерін баптау"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:52
+#: src/components/HeaderKebab.jsx:125
+#, fuzzy
+#| msgid "Configure storage"
+msgid "Configure network"
+msgstr "Сақтағышты баптау"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:159
 msgid "Configure storage"
@@ -708,6 +716,12 @@ msgstr "Аты"
 msgid "Needs at least $0"
 msgstr "Кем дегенде $0 қажет"
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:58
+#, fuzzy
+#| msgid "Network configuration"
+msgid "Network Configuration"
+msgstr "Желі баптаулары"
+
 #: src/components/Error.jsx:609
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
@@ -719,6 +733,12 @@ msgstr ""
 #: src/components/Error.jsx:610
 msgid "Network not available. Configure the network to report the issue."
 msgstr "Желі қолжетімді емес. Мәселе туралы хабарлау үшін желіні баптаңыз."
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:40
+#, fuzzy
+#| msgid "Storage plugin failed"
+msgid "Network plugin failed"
+msgstr "Сақтауыш плагині істен шықты"
 
 #: src/components/AnacondaWizardFooter.jsx:97 src/components/Error.jsx:566
 msgid "Next"
@@ -830,7 +850,7 @@ msgstr "Жалғастыру үшін кем дегенде бір дискін�
 msgid "Pool"
 msgstr "Пул"
 
-#: src/components/HeaderKebab.jsx:58
+#: src/components/HeaderKebab.jsx:59
 msgid "Powered by Anaconda"
 msgstr "Anaconda негізінде"
 
@@ -977,7 +997,7 @@ msgstr ""
 msgid "Replace current installation, but keep files in home."
 msgstr "Ағымдағы орнатуды ауыстыру, бірақ home ішіндегі файлдарды сақтау."
 
-#: src/components/HeaderKebab.jsx:124
+#: src/components/HeaderKebab.jsx:139
 msgid "Report Issue"
 msgstr "Мәселе туралы хабарлау"
 
@@ -3951,9 +3971,6 @@ msgstr "болдырмау"
 
 #~ msgid "Network Name"
 #~ msgstr "Желі атауы"
-
-#~ msgid "Network configuration"
-#~ msgstr "Желі баптаулары"
 
 #~ msgid "Network configuration is not available."
 #~ msgstr "Желілік баптаулар қолжетімсіз."

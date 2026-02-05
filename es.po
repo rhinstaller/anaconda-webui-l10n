@@ -66,7 +66,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-04 04:22+0000\n"
+"POT-Creation-Date: 2026-02-05 04:28+0000\n"
 "PO-Revision-Date: 2025-12-15 03:56+0000\n"
 "Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
@@ -93,7 +93,7 @@ msgstr "$0 ($1)"
 msgid "$0 installation"
 msgstr "Instalación de $0"
 
-#: src/components/HeaderKebab.jsx:57
+#: src/components/HeaderKebab.jsx:58
 msgid "$0 installer"
 msgstr "Instalador de $0"
 
@@ -146,7 +146,7 @@ msgstr ""
 "Una cuenta de usuario estándar con acceso administrativo para realizar "
 "cambios del sistema completo."
 
-#: src/components/HeaderKebab.jsx:121
+#: src/components/HeaderKebab.jsx:136
 msgid "About"
 msgstr "Acerca de"
 
@@ -202,7 +202,7 @@ msgstr "Anaconda"
 msgid "Anaconda Web UI"
 msgstr "IU Web de Anaconda"
 
-#: src/components/HeaderKebab.jsx:87
+#: src/components/HeaderKebab.jsx:88
 msgid "Anaconda project page"
 msgstr "Página del proyecto Anaconda"
 
@@ -324,6 +324,7 @@ msgstr "Vaciar búsqueda"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr "Pulse 'Siguiente' de nuevo para proceder a pesar de estos avisos."
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:73
 #: src/components/storage/installation-method/EncryptedDevices.jsx:193
 #: src/components/storage/installation-method/InstallationDestination.jsx:398
 msgid "Close"
@@ -351,6 +352,13 @@ msgstr "Configurar servidores NTP"
 #: src/components/datetime/CustomNTPModal.jsx:157
 msgid "Configure custom NTP servers"
 msgstr "Configurar servidores personales de NTP"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:52
+#: src/components/HeaderKebab.jsx:125
+#, fuzzy
+#| msgid "Configure storage"
+msgid "Configure network"
+msgstr "Configurar el almacenamiento"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:159
 msgid "Configure storage"
@@ -770,6 +778,12 @@ msgstr "Nombre"
 msgid "Needs at least $0"
 msgstr "Necesita al menos $0"
 
+#: src/components/network/CockpitNetworkConfiguration.jsx:58
+#, fuzzy
+#| msgid "Network configuration"
+msgid "Network Configuration"
+msgstr "Configuración de la red"
+
 #: src/components/Error.jsx:609
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
@@ -781,6 +795,12 @@ msgstr ""
 #: src/components/Error.jsx:610
 msgid "Network not available. Configure the network to report the issue."
 msgstr "Red no disponible. Configure la red para informar del problema."
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:40
+#, fuzzy
+#| msgid "Storage plugin failed"
+msgid "Network plugin failed"
+msgstr "Complemento de almacenaje incorrecto"
 
 #: src/components/AnacondaWizardFooter.jsx:97 src/components/Error.jsx:566
 msgid "Next"
@@ -893,7 +913,7 @@ msgstr "Seleccione al menos un disco para continuar"
 msgid "Pool"
 msgstr "Conjunto"
 
-#: src/components/HeaderKebab.jsx:58
+#: src/components/HeaderKebab.jsx:59
 msgid "Powered by Anaconda"
 msgstr "Desarrollado por Anaconda"
 
@@ -1041,7 +1061,7 @@ msgid "Replace current installation, but keep files in home."
 msgstr ""
 "Remplazar la instalación actual, pero conserva los archivos dentro de /home."
 
-#: src/components/HeaderKebab.jsx:124
+#: src/components/HeaderKebab.jsx:139
 msgid "Report Issue"
 msgstr "Informar un defecto"
 
@@ -4040,9 +4060,6 @@ msgstr "deshacer"
 
 #~ msgid "Network Name"
 #~ msgstr "Nombre de la red"
-
-#~ msgid "Network configuration"
-#~ msgstr "Configuración de la red"
 
 #~ msgid "Network configuration is not available."
 #~ msgstr "La configuración de red no está disponible."
