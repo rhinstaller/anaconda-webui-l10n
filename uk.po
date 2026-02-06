@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-06 04:28+0000\n"
-"PO-Revision-Date: 2025-12-07 15:15+0000\n"
+"PO-Revision-Date: 2026-02-07 04:20+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/uk/>\n"
@@ -35,7 +35,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:180
 #: src/components/storage/installation-method/InstallationDestination.jsx:301
@@ -171,10 +171,8 @@ msgstr ""
 "сконфігурованих користувацьких макетів."
 
 #: src/components/Error.jsx:360
-#, fuzzy
-#| msgid "Automatic partitioning failed."
 msgid "Automatic log file upload"
-msgstr "Не вдалося виконати автоматичний розподіл диска."
+msgstr "Автоматичне вивантаження файла журналу"
 
 #: src/components/datetime/DateAndTime.jsx:145
 msgid "Automatically set date and time, using time servers"
@@ -198,20 +196,16 @@ msgid "Base environment"
 msgstr "Базове середовище"
 
 #: src/components/Error.jsx:348
-#, fuzzy
-#| msgid "Description goes here."
 msgid "Brief description of the issue"
-msgstr "Тут має бути опис."
+msgstr "Короткий опис проблеми"
 
 #: src/components/Error.jsx:337
-#, fuzzy
-#| msgid "Error details"
 msgid "Bug report details"
-msgstr "Подробиці щодо помилки"
+msgstr "Подробиці звіту щодо помилки"
 
 #: src/components/Error.jsx:239
 msgid "Bugzilla API key"
-msgstr ""
+msgstr "Ключ до програмного інтерфейсу Bugzilla"
 
 #: src/components/AnacondaHeader.jsx:87
 msgid ""
@@ -307,10 +301,8 @@ msgstr "Налаштувати нетипові сервери NTP"
 
 #: src/components/network/CockpitNetworkConfiguration.jsx:52
 #: src/components/HeaderKebab.jsx:125
-#, fuzzy
-#| msgid "Configure storage"
 msgid "Configure network"
-msgstr "Налаштувати сховище даних"
+msgstr "Налаштувати мережу"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:159
 msgid "Configure storage"
@@ -379,10 +371,8 @@ msgid "Destination is encrypted"
 msgstr "Місце призначення зашифровано"
 
 #: src/components/Error.jsx:287
-#, fuzzy
-#| msgid "Device description"
 msgid "Detailed description of the issue"
-msgstr "Опис пристрою"
+msgstr "Докладний опис проблеми"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:582
 msgid "Detected valid storage layout:"
@@ -422,12 +412,13 @@ msgid ""
 "Enter your Bugzilla API key to create a bug report. You will be able to "
 "review and edit the bug details in the next step."
 msgstr ""
+"Для створення звіту щодо вади введіть ваш ключ до програмного інтерфейсу "
+"Bugzilla.На наступному кроці ви зможете переглянути і змінити подробиці щодо "
+"звіту."
 
 #: src/components/Error.jsx:299
-#, fuzzy
-#| msgid "Base Environment"
 msgid "Environment"
-msgstr "Базове середовище"
+msgstr "Середовище"
 
 #: src/components/storage/scenarios/erase-all/index.js:32
 msgid "Erase data and install"
@@ -447,10 +438,8 @@ msgid "Extended partition"
 msgstr "Розширений розділ"
 
 #: src/components/Error.jsx:328
-#, fuzzy
-#| msgid "Report issue"
 msgid "Failed to report issue"
-msgstr "Повідомити про ваду"
+msgstr "Не вдалося повідомити про ваду"
 
 #: src/components/localization/Keyboard.jsx:214
 msgid "Failed to save layouts"
@@ -551,6 +540,9 @@ msgid ""
 "Manual reporting allows you to review and selectively attach log files "
 "yourself."
 msgstr ""
+"Якщо ви не погоджуєтеся із автоматичним вивантаженням файлів журналу, ви "
+"можете скористатися $0. Звітування вручну надасть вам змогу переглянути і "
+"вибірково долучити файли журналу власноруч."
 
 #: src/components/AnacondaHeader.jsx:90
 msgid ""
@@ -730,8 +722,6 @@ msgid "Needs at least $0"
 msgstr "Потребує принаймні $0"
 
 #: src/components/network/CockpitNetworkConfiguration.jsx:58
-#, fuzzy
-#| msgid "Network configuration"
 msgid "Network Configuration"
 msgstr "Налаштування мережі"
 
@@ -748,10 +738,8 @@ msgid "Network not available. Configure the network to report the issue."
 msgstr "Мережа недоступна. Налаштуйте мережу, щоб повідомити про проблему."
 
 #: src/components/network/CockpitNetworkConfiguration.jsx:40
-#, fuzzy
-#| msgid "Storage plugin failed"
 msgid "Network plugin failed"
-msgstr "Помилка додатка сховища даних"
+msgstr "Помилка додатка мережі"
 
 #: src/components/AnacondaWizardFooter.jsx:97 src/components/Error.jsx:566
 msgid "Next"
@@ -814,7 +802,7 @@ msgstr ""
 
 #: src/components/Error.jsx:208
 msgid "Open Bugzilla bug entry form"
-msgstr ""
+msgstr "Відкрити форму введення звіту щодо вади у Bugzilla"
 
 #: src/components/review/ReviewConfiguration.jsx:181
 msgid "Operating system"
@@ -873,7 +861,7 @@ msgstr "Тестовий випуск"
 
 #: src/components/Error.jsx:206
 msgid "Prefer to report manually? $0"
-msgstr ""
+msgstr "Хочете створити звіт вручну? $0"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:621
 msgid "Proceed with installation"
@@ -1019,16 +1007,16 @@ msgid ""
 "Report an issue or provide feedback by opening the Bugzilla bug entry form "
 "$0."
 msgstr ""
+"Повідомте про ваду або надайте відгук шляхом заповнення форми щодо вади у "
+"Bugzilla $0."
 
 #: src/components/Error.jsx:586 src/components/Error.jsx:753
 msgid "Report issue"
 msgstr "Повідомити про ваду"
 
 #: src/components/Error.jsx:586
-#, fuzzy
-#| msgid "Report issue"
 msgid "Reporting issue..."
-msgstr "Повідомити про ваду"
+msgstr "Звітування щодо вади…"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:230
 msgid "Required"
@@ -1210,7 +1198,7 @@ msgstr "Місце"
 
 #: src/components/Error.jsx:293
 msgid "Stacktrace"
-msgstr ""
+msgstr "Трасування стеку"
 
 #: src/components/review/ReviewConfiguration.jsx:228
 msgid "Storage"
@@ -1332,18 +1320,14 @@ msgstr ""
 "призначено для використання під час стандартного встановлення."
 
 #: src/components/Error.jsx:371
-#, fuzzy
-#| msgid ""
-#| "Logs may contain sensitive information like IP addresses or usernames. "
-#| "Attachments on Bugzilla issues are marked private by default."
 msgid ""
 "These log files may contain sensitive information such as IP addresses, "
 "usernames, or other system details. Attachments on Bugzilla issues are "
 "marked private by default."
 msgstr ""
-"У журналі можуть зберігатися конфіденційні дані, зокрема IP-адреси і назви "
-"облікових записів користувачів. Типово долучення у Bugzilla буде позначено "
-"як конфіденційні файли."
+"Ці файли журналу можуть містити конфіденційні дані, зокрема IP-адреси, назви "
+"облікових записів користувачів та інші подробиці щодо системи. Типово "
+"долучення у Bugzilla буде позначено як конфіденційні файли."
 
 #: src/components/review/Hostname.jsx:63
 msgid "This hostname can't be submitted"
@@ -1377,7 +1361,7 @@ msgstr "Часовий пояс"
 
 #: src/components/Error.jsx:340
 msgid "Title"
-msgstr ""
+msgstr "Заголовок"
 
 #: src/components/installation/InstallationProgress.jsx:172
 msgid "To begin using $0, reboot your system."
@@ -1465,10 +1449,8 @@ msgid "User names must be shorter than 33 characters"
 msgstr "Довжина імені користувача не повинна перевищувати 32 символи"
 
 #: src/components/Error.jsx:566
-#, fuzzy
-#| msgid "Initializing..."
 msgid "Validating..."
-msgstr "Започаткування…"
+msgstr "Перевірка чинності…"
 
 #: src/components/Password.jsx:57
 msgid "Weak"
@@ -1491,6 +1473,8 @@ msgid ""
 "When you submit this bug report, the following log files will be uploaded "
 "automatically: $0"
 msgstr ""
+"При надсиланні цього звіту щодо вади буде автоматично вивантажено такі файли "
+"журналу: $0"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:543
 msgid "Windows partitions with BitLocker encryption cannot be resized"
@@ -1508,6 +1492,8 @@ msgstr ""
 #: src/components/Error.jsx:252
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr ""
+"Ви можете створити ключ до програмного інтерфейсу для вашого облікового "
+"запису Bugzilla $0."
 
 #: src/components/users/Accounts.jsx:387
 msgid ""
@@ -1563,7 +1549,7 @@ msgstr "форматувати як $0"
 
 #: src/components/Error.jsx:189 src/components/Error.jsx:255
 msgid "here"
-msgstr ""
+msgstr "тут"
 
 #: src/components/review/StorageReview.jsx:120
 msgid "mount"
@@ -1575,7 +1561,7 @@ msgstr "крок у черзі"
 
 #: src/components/Error.jsx:377
 msgid "report the issue manually"
-msgstr ""
+msgstr "створити звіт щодо вади вручну"
 
 #: src/components/review/StorageReview.jsx:175
 msgid "resized from $0"
