@@ -29,8 +29,8 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-08 04:53+0000\n"
-"PO-Revision-Date: 2026-01-31 04:18+0000\n"
-"Last-Translator: y b <nididak@gmail.com>\n"
+"PO-Revision-Date: 2026-02-09 04:51+0000\n"
+"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/tr/>\n"
 "Language: tr\n"
@@ -176,7 +176,7 @@ msgstr ""
 
 #: src/components/Error.jsx:348
 msgid "Automatic log file upload"
-msgstr "Otomatik günlük dosyası yüklemesi başarısız oldu"
+msgstr "Otomatik günlük dosyası yüklemesi"
 
 #: src/components/datetime/DateAndTime.jsx:133
 msgid "Automatically set date and time, using time servers"
@@ -306,10 +306,8 @@ msgstr "Özel NTP sunucularını yapılandır"
 
 #: src/components/network/CockpitNetworkConfiguration.jsx:40
 #: src/components/HeaderKebab.jsx:113
-#, fuzzy
-#| msgid "Configure storage"
 msgid "Configure network"
-msgstr "Depolamayı yapılandır"
+msgstr "Ağı yapılandır"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:146
 msgid "Configure storage"
@@ -544,6 +542,9 @@ msgid ""
 "Manual reporting allows you to review and selectively attach log files "
 "yourself."
 msgstr ""
+"Otomatik günlük dosyası yüklemesine izin vermezseniz, bunun yerine $0 "
+"yapabilirsiniz. Elle bildirim, günlük dosyalarını kendiniz inceleyip seçerek "
+"eklemenizi sağlar."
 
 #: src/components/AnacondaHeader.jsx:78
 msgid ""
@@ -721,10 +722,8 @@ msgid "Needs at least $0"
 msgstr "En az $0 gerekli"
 
 #: src/components/network/CockpitNetworkConfiguration.jsx:46
-#, fuzzy
-#| msgid "Network configuration"
 msgid "Network Configuration"
-msgstr "Ağ yapılandırma"
+msgstr "Ağ Yapılandırması"
 
 #: src/components/Error.jsx:597
 msgid ""
@@ -739,10 +738,8 @@ msgid "Network not available. Configure the network to report the issue."
 msgstr "Ağ kullanılabilir değil. Sorunu bildirmek için ağı yapılandırın."
 
 #: src/components/network/CockpitNetworkConfiguration.jsx:28
-#, fuzzy
-#| msgid "Storage plugin failed"
 msgid "Network plugin failed"
-msgstr "Depolama eklentisi başarısız oldu"
+msgstr "Ağ eklentisi başarısız oldu"
 
 #: src/components/AnacondaWizardFooter.jsx:85 src/components/Error.jsx:554
 msgid "Next"
@@ -1010,16 +1007,16 @@ msgid ""
 "Report an issue or provide feedback by opening the Bugzilla bug entry form "
 "$0."
 msgstr ""
+"$0 Bugzilla hata giriş formunu açarak bir sorun bildirin veya geri "
+"bildirimde bulunun."
 
 #: src/components/Error.jsx:574 src/components/Error.jsx:741
 msgid "Report issue"
 msgstr "Sorunu bildir"
 
 #: src/components/Error.jsx:574
-#, fuzzy
-#| msgid "Report issue"
 msgid "Reporting issue..."
-msgstr "Sorunu bildir"
+msgstr "Sorun bildiriliyor..."
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:218
 msgid "Required"
@@ -1316,18 +1313,14 @@ msgstr ""
 "tipik bir kurulumda kullanılması amaçlanmaz."
 
 #: src/components/Error.jsx:359
-#, fuzzy
-#| msgid ""
-#| "Logs may contain sensitive information like IP addresses or usernames. "
-#| "Attachments on Bugzilla issues are marked private by default."
 msgid ""
 "These log files may contain sensitive information such as IP addresses, "
 "usernames, or other system details. Attachments on Bugzilla issues are "
 "marked private by default."
 msgstr ""
-"Günlükler, IP adresi veya kullanıcı adı gibi hassas bilgiler içerebilir. "
-"Bugzilla sorunlarındaki sabitlemeler, varsayılan olarak gizli olarak "
-"işaretlenir."
+"Bu günlük dosyaları IP adresleri, kullanıcı adları veya diğer sistem "
+"detayları gibi hassas bilgiler içerebilir. Bugzilla sorunlarındaki ekler "
+"öntanımlı gizli olarak işaretlenir."
 
 #: src/components/review/Hostname.jsx:51
 msgid "This hostname can't be submitted"
@@ -1448,10 +1441,8 @@ msgid "User names must be shorter than 33 characters"
 msgstr "Kullanıc adları 33 karakterden kısa olmalıdır"
 
 #: src/components/Error.jsx:554
-#, fuzzy
-#| msgid "Initializing..."
 msgid "Validating..."
-msgstr "Başlatılıyor..."
+msgstr "Doğrulanıyor..."
 
 #: src/components/Password.jsx:45
 msgid "Weak"
