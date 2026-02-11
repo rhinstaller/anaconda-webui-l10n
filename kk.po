@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-11 04:53+0000\n"
-"PO-Revision-Date: 2026-02-11 15:41+0000\n"
+"PO-Revision-Date: 2026-02-12 04:37+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <https://translate.fedoraproject.org/projects/anaconda-"
 "webui/anaconda-webui/kk/>\n"
@@ -525,6 +525,9 @@ msgid ""
 "Manual reporting allows you to review and selectively attach log files "
 "yourself."
 msgstr ""
+"Егер лог файлдарын автоматты түрде жүктеп салуға келіспесеңіз, оның орнына "
+"$0 аласыз. Қолмен хабарлау сізге лог файлдарын қарап шығуға және таңдамалы "
+"түрде тіркеуге мүмкіндік береді."
 
 #: src/components/AnacondaHeader.jsx:78
 msgid ""
@@ -704,10 +707,8 @@ msgid "Needs at least $0"
 msgstr "Кем дегенде $0 қажет"
 
 #: src/components/network/CockpitNetworkConfiguration.jsx:46
-#, fuzzy
-#| msgid "Network configuration"
 msgid "Network Configuration"
-msgstr "Желі баптаулары"
+msgstr "Желі баптауы"
 
 #: src/components/Error.jsx:597
 msgid ""
@@ -722,10 +723,8 @@ msgid "Network not available. Configure the network to report the issue."
 msgstr "Желі қолжетімді емес. Мәселе туралы хабарлау үшін желіні баптаңыз."
 
 #: src/components/network/CockpitNetworkConfiguration.jsx:28
-#, fuzzy
-#| msgid "Storage plugin failed"
 msgid "Network plugin failed"
-msgstr "Сақтауыш плагині істен шықты"
+msgstr "Желі плагині сәтсіз аяқталды"
 
 #: src/components/AnacondaWizardFooter.jsx:85 src/components/Error.jsx:554
 msgid "Next"
@@ -788,7 +787,7 @@ msgstr ""
 
 #: src/components/Error.jsx:196
 msgid "Open Bugzilla bug entry form"
-msgstr ""
+msgstr "Bugzilla ақаулықты енгізу пішінін ашу"
 
 #: src/components/review/ReviewConfiguration.jsx:169
 msgid "Operating system"
@@ -847,7 +846,7 @@ msgstr "Алдын ала шығарылымы"
 
 #: src/components/Error.jsx:194
 msgid "Prefer to report manually? $0"
-msgstr ""
+msgstr "Қолмен хабарлауды қалайсыз ба? $0"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:608
 msgid "Proceed with installation"
@@ -993,16 +992,16 @@ msgid ""
 "Report an issue or provide feedback by opening the Bugzilla bug entry form "
 "$0."
 msgstr ""
+"Bugzilla ақаулықты енгізу $0 пішінін ашу арқылы ақаулық туралы хабарлаңыз "
+"немесе кері байланыс беріңіз."
 
 #: src/components/Error.jsx:574 src/components/Error.jsx:741
 msgid "Report issue"
 msgstr "Мәселе туралы хабарлау"
 
 #: src/components/Error.jsx:574
-#, fuzzy
-#| msgid "Report issue"
 msgid "Reporting issue..."
-msgstr "Мәселе туралы хабарлау"
+msgstr "Ақаулық туралы хабарлануда..."
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:218
 msgid "Required"
@@ -1181,7 +1180,7 @@ msgstr "Орын"
 
 #: src/components/Error.jsx:281
 msgid "Stacktrace"
-msgstr ""
+msgstr "Стек трейсі"
 
 #: src/components/review/ReviewConfiguration.jsx:216
 msgid "Storage"
@@ -1296,18 +1295,14 @@ msgstr ""
 "арналмаған."
 
 #: src/components/Error.jsx:359
-#, fuzzy
-#| msgid ""
-#| "Logs may contain sensitive information like IP addresses or usernames. "
-#| "Attachments on Bugzilla issues are marked private by default."
 msgid ""
 "These log files may contain sensitive information such as IP addresses, "
 "usernames, or other system details. Attachments on Bugzilla issues are "
 "marked private by default."
 msgstr ""
-"Журналдарда IP адрестері немесе пайдаланушы аттары сияқты құпия ақпарат "
-"болуы мүмкін. Bugzilla мәселелеріндегі тіркемелер әдеттегідей жеке болып "
-"белгіленеді."
+"Бұл лог файлдарында IP адрестері, пайдаланушы аттары немесе басқа жүйелік "
+"мәліметтер сияқты құпия ақпарат болуы мүмкін. Bugzilla ақаулықтарындағы "
+"тіркемелер әдепкі бойынша жеке деп белгіленеді."
 
 #: src/components/review/Hostname.jsx:51
 msgid "This hostname can't be submitted"
@@ -1340,7 +1335,7 @@ msgstr "Уақыт белдеуі"
 
 #: src/components/Error.jsx:328
 msgid "Title"
-msgstr ""
+msgstr "Атауы"
 
 #: src/components/installation/InstallationProgress.jsx:160
 msgid "To begin using $0, reboot your system."
@@ -1428,10 +1423,8 @@ msgid "User names must be shorter than 33 characters"
 msgstr "Пайдаланушы аты 33 таңбадан қысқа болуы тиіс"
 
 #: src/components/Error.jsx:554
-#, fuzzy
-#| msgid "Initializing..."
 msgid "Validating..."
-msgstr "Инициализациялануда..."
+msgstr "Тексерілуде..."
 
 #: src/components/Password.jsx:45
 msgid "Weak"
@@ -1454,6 +1447,8 @@ msgid ""
 "When you submit this bug report, the following log files will be uploaded "
 "automatically: $0"
 msgstr ""
+"Осы ақаулық туралы есепті жіберген кезде, келесі лог файлдары автоматты "
+"түрде жүктеп салынады: $0"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:531
 msgid "Windows partitions with BitLocker encryption cannot be resized"
@@ -1470,7 +1465,7 @@ msgstr ""
 
 #: src/components/Error.jsx:240
 msgid "You can generate the API key for your Bugzilla account $0."
-msgstr ""
+msgstr "Bugzilla тіркелгіңіз үшін API кілтін $0 жасай аласыз."
 
 #: src/components/users/Accounts.jsx:375
 msgid ""
@@ -1525,7 +1520,7 @@ msgstr "$0 ретінде пішімдеу"
 
 #: src/components/Error.jsx:177 src/components/Error.jsx:243
 msgid "here"
-msgstr ""
+msgstr "осында"
 
 #: src/components/review/StorageReview.jsx:108
 msgid "mount"
@@ -1537,7 +1532,7 @@ msgstr "күту қадамы"
 
 #: src/components/Error.jsx:365
 msgid "report the issue manually"
-msgstr ""
+msgstr "ақаулық туралы қолмен хабарлай"
 
 #: src/components/review/StorageReview.jsx:163
 msgid "resized from $0"
