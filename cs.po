@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-26 04:30+0000\n"
+"POT-Creation-Date: 2026-02-27 04:26+0000\n"
 "PO-Revision-Date: 2026-02-18 04:34+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/anaconda-"
@@ -193,7 +193,7 @@ msgstr ""
 "Přiřadit oddíly k přípojným bodům. Užitečné pro přednastavená uživatelsky "
 "určená rozvržení."
 
-#: src/components/Error.jsx:348
+#: src/components/Error.jsx:365
 msgid "Automatic log file upload"
 msgstr "Automatické nahrání souboru se záznamem událostí"
 
@@ -210,7 +210,7 @@ msgstr "Automaticky nastavit časové pásmo"
 msgid "Available free space: $0. Installation requires: $1."
 msgstr "Volný diskový prostor: $0. Instalace požaduje: $1."
 
-#: src/components/Error.jsx:564 src/components/AnacondaWizardFooter.jsx:76
+#: src/components/Error.jsx:581 src/components/AnacondaWizardFooter.jsx:76
 msgid "Back"
 msgstr "Zpět"
 
@@ -218,15 +218,15 @@ msgstr "Zpět"
 msgid "Base environment"
 msgstr "Základní prostředí"
 
-#: src/components/Error.jsx:336
+#: src/components/Error.jsx:353
 msgid "Brief description of the issue"
 msgstr "Stručný popis problému"
 
-#: src/components/Error.jsx:325
+#: src/components/Error.jsx:342
 msgid "Bug report details"
 msgstr "Podrobnosti hlášení chyby"
 
-#: src/components/Error.jsx:227
+#: src/components/Error.jsx:231
 msgid "Bugzilla API key"
 msgstr "Klíč k Bugzilla API"
 
@@ -242,7 +242,7 @@ msgstr ""
 "pouze pro testovací a vývojové účely a jste ochotni hlásit jakékoli chyby "
 "nebo problémy za účelem zlepšení tohoto díla."
 
-#: src/components/review/Hostname.jsx:127 src/components/Error.jsx:732
+#: src/components/review/Hostname.jsx:127 src/components/Error.jsx:749
 #: src/components/datetime/CustomNTPModal.jsx:239
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:208
 #: src/components/storage/installation-method/InstallationDestination.jsx:381
@@ -382,7 +382,7 @@ msgstr "Datum a čas"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Smazání určitých oddílů může $0 zabránit ve spouštění: $1"
 
-#: src/components/Error.jsx:270
+#: src/components/Error.jsx:287
 msgid "Description"
 msgstr "Popis"
 
@@ -394,7 +394,7 @@ msgstr "Cíl"
 msgid "Destination is encrypted"
 msgstr "Cíl je šifrován"
 
-#: src/components/Error.jsx:275
+#: src/components/Error.jsx:292
 msgid "Detailed description of the issue"
 msgstr "Podrobný popis problému"
 
@@ -431,7 +431,7 @@ msgstr "Šifrováno"
 msgid "Encryption"
 msgstr "Šifrování"
 
-#: src/components/Error.jsx:218
+#: src/components/Error.jsx:222
 msgid ""
 "Enter your Bugzilla API key to create a bug report. You will be able to "
 "review and edit the bug details in the next step."
@@ -439,7 +439,7 @@ msgstr ""
 "Pokud chcete vytvořit hlášení chyby, zadejte svůj klíč k Bugzilla API. V "
 "příštím kroku budete moci revidovat a upravovat podrobnosti o chybě."
 
-#: src/components/Error.jsx:287
+#: src/components/Error.jsx:304
 msgid "Environment"
 msgstr "Prostředí"
 
@@ -447,7 +447,7 @@ msgstr "Prostředí"
 msgid "Erase data and install"
 msgstr "Vymazat data a nainstalovat"
 
-#: src/components/Error.jsx:689
+#: src/components/Error.jsx:706
 msgid "Error details"
 msgstr "Podrobnosti o chybě"
 
@@ -460,7 +460,7 @@ msgstr "Ukončit a přejít do systému spuštěného přímo z instalačního m
 msgid "Extended partition"
 msgstr "Rozšířený oddíl"
 
-#: src/components/Error.jsx:316
+#: src/components/Error.jsx:333
 msgid "Failed to report issue"
 msgstr "Nepodařilo se nahlásit problém"
 
@@ -507,6 +507,12 @@ msgstr "Celé jméno nemůže obsahovat znak dvojtečka"
 #: src/components/review/StorageReview.jsx:238
 msgid "Helper text"
 msgstr "Text pomocného"
+
+#: src/components/Error.jsx:248
+#, fuzzy
+#| msgid "Bugzilla API key"
+msgid "Hide API key"
+msgstr "Klíč k Bugzilla API"
 
 #: src/components/Password.jsx:228
 msgid "Hide confirmed password"
@@ -555,7 +561,7 @@ msgstr ""
 msgid "If you are configuring partitions the following are required:"
 msgstr "Pokud nastavujete diskové oddíly, jsou vyžadovány tyto:"
 
-#: src/components/Error.jsx:363
+#: src/components/Error.jsx:380
 msgid ""
 "If you do not consent to automatic log file upload, you can $0 instead. "
 "Manual reporting allows you to review and selectively attach log files "
@@ -585,7 +591,7 @@ msgstr "Inicializace…"
 msgid "Install"
 msgstr "Nainstalovat"
 
-#: src/components/Error.jsx:720
+#: src/components/Error.jsx:737
 #: src/components/installation/InstallationProgress.jsx:120
 msgid "Installation failed"
 msgstr "Instalace se nezdařila"
@@ -744,7 +750,7 @@ msgstr "Vyžaduje alespoň $0"
 msgid "Network Configuration"
 msgstr "Nastavení sítě"
 
-#: src/components/Error.jsx:597
+#: src/components/Error.jsx:614
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
 "the issue."
@@ -752,7 +758,7 @@ msgstr ""
 "Síť není k dispozici. Aby bylo možné chybu nahlásit, nastavte síť (v nabídce "
 "vpravo na horní liště)."
 
-#: src/components/Error.jsx:598
+#: src/components/Error.jsx:615
 msgid "Network not available. Configure the network to report the issue."
 msgstr "Síť není k dispozici. Aby bylo možné chybu nahlásit, nastavte síť."
 
@@ -760,7 +766,7 @@ msgstr "Síť není k dispozici. Aby bylo možné chybu nahlásit, nastavte sí�
 msgid "Network plugin failed"
 msgstr "Zásuvný modul sítě selhal"
 
-#: src/components/Error.jsx:554 src/components/AnacondaWizardFooter.jsx:85
+#: src/components/Error.jsx:571 src/components/AnacondaWizardFooter.jsx:85
 msgid "Next"
 msgstr "Další"
 
@@ -819,7 +825,7 @@ msgstr ""
 "vývoje a testování. Tento software NEpoužívejte pro jakoukoli kritickou "
 "práci nebo pro produkční prostředí."
 
-#: src/components/Error.jsx:196
+#: src/components/Error.jsx:199
 msgid "Open Bugzilla bug entry form"
 msgstr "Otevřít formulář zadávání hlášení chyby do Bugzilla"
 
@@ -858,7 +864,7 @@ msgstr "Je třeba, aby se zadání heslové fráze shodovaly"
 msgid "Pending"
 msgstr "Čeká"
 
-#: src/components/Error.jsx:86
+#: src/components/Error.jsx:89
 msgid "Please attach the log file $0 to the issue."
 msgstr "K problému připojte soubor se záznamem událostí $0."
 
@@ -878,7 +884,7 @@ msgstr "Založeno na instalátoru Anaconda"
 msgid "Pre-release"
 msgstr "Předprodukční verze"
 
-#: src/components/Error.jsx:194
+#: src/components/Error.jsx:197
 msgid "Prefer to report manually? $0"
 msgstr "Chcete raději nahlásit ručně? $0"
 
@@ -886,7 +892,7 @@ msgstr "Chcete raději nahlásit ručně? $0"
 msgid "Proceed with installation"
 msgstr "Pokračovat v instalaci"
 
-#: src/components/Error.jsx:709 src/components/AnacondaWizardFooter.jsx:98
+#: src/components/Error.jsx:726 src/components/AnacondaWizardFooter.jsx:98
 #: src/components/AnacondaWizardFooter.jsx:133
 msgid "Quit"
 msgstr "Ukončit"
@@ -923,7 +929,7 @@ msgstr ""
 msgid "Real hostname must be 64 characters or less"
 msgstr "Délka názvu stroje nemůže přesáhnout 64 znaků"
 
-#: src/components/Error.jsx:709 src/components/AnacondaWizardFooter.jsx:98
+#: src/components/Error.jsx:726 src/components/AnacondaWizardFooter.jsx:98
 #: src/components/AnacondaWizardFooter.jsx:133
 msgid "Reboot"
 msgstr "Restartovat"
@@ -1020,7 +1026,7 @@ msgstr "Nahradit stávající instalaci, ale ponechat soubory v domovské složc
 msgid "Report Issue"
 msgstr "Nahlásit problém"
 
-#: src/components/Error.jsx:175
+#: src/components/Error.jsx:178
 msgid ""
 "Report an issue or provide feedback by opening the Bugzilla bug entry form "
 "$0."
@@ -1028,11 +1034,11 @@ msgstr ""
 "Nahlaste problém nebo poskytněte zpětnou vazbu otevřením formuláře $0 "
 "zadávání hlášení chyby do Bugzilla."
 
-#: src/components/Error.jsx:574 src/components/Error.jsx:741
+#: src/components/Error.jsx:591 src/components/Error.jsx:758
 msgid "Report issue"
 msgstr "Nahlásit problém"
 
-#: src/components/Error.jsx:574
+#: src/components/Error.jsx:591
 msgid "Reporting issue..."
 msgstr "Nahlašování problému…"
 
@@ -1169,6 +1175,12 @@ msgstr "Sdílet disk s jinými operačními systémy: $0"
 msgid "Show AM/PM"
 msgstr "Zobrazovat dop/odp."
 
+#: src/components/Error.jsx:248
+#, fuzzy
+#| msgid "Show AM/PM"
+msgid "Show API key"
+msgstr "Zobrazovat dop/odp."
+
 #: src/components/Password.jsx:228
 msgid "Show confirmed password"
 msgstr "Zobrazit potvrzené heslo"
@@ -1209,7 +1221,7 @@ msgstr "Chybí některé vyžadované oddíly: $0"
 msgid "Space"
 msgstr "Místo"
 
-#: src/components/Error.jsx:281
+#: src/components/Error.jsx:298
 msgid "Stacktrace"
 msgstr "Stacktrace"
 
@@ -1294,11 +1306,11 @@ msgid ""
 msgstr ""
 "Instalace potřebuje $0 prostoru, ale kapacita vybraných jednotek je pouze $1."
 
-#: src/components/Error.jsx:649
+#: src/components/Error.jsx:666
 msgid "The installer cannot continue due to a critical error."
 msgstr "Instalátor nemůže kvůli kritické chybě pokračovat."
 
-#: src/components/Error.jsx:648
+#: src/components/Error.jsx:665
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "Instalátor nemůže pokračovat kvůli kritické chybě: $0"
 
@@ -1329,7 +1341,7 @@ msgstr ""
 "možné nastavovat LVM a mnoho dalšího. Je zamýšlen být použit až jako "
 "pokročilý nástroj a ne pro typickou instalaci."
 
-#: src/components/Error.jsx:359
+#: src/components/Error.jsx:376
 msgid ""
 "These log files may contain sensitive information such as IP addresses, "
 "usernames, or other system details. Attachments on Bugzilla issues are "
@@ -1369,7 +1381,7 @@ msgstr "Čas"
 msgid "Timezone"
 msgstr "Časové pásmo"
 
-#: src/components/Error.jsx:328
+#: src/components/Error.jsx:345
 msgid "Title"
 msgstr "Nadpis"
 
@@ -1458,7 +1470,7 @@ msgstr "Uživatelské jméno nemůže být některým z vyhrazených slov"
 msgid "User names must be shorter than 33 characters"
 msgstr "Je třeba, aby uživatelské jméno bylo kratší než 33 znaků"
 
-#: src/components/Error.jsx:554
+#: src/components/Error.jsx:571
 msgid "Validating..."
 msgstr "Ověřování správnosti formy…"
 
@@ -1478,7 +1490,7 @@ msgstr "Vítejte ve Fedora Linuxu"
 msgid "Welcome. Let's install $0 now."
 msgstr "Vítejte. Pojďme nainstalovat systém $0."
 
-#: src/components/Error.jsx:354
+#: src/components/Error.jsx:371
 msgid ""
 "When you submit this bug report, the following log files will be uploaded "
 "automatically: $0"
@@ -1498,7 +1510,7 @@ msgstr ""
 "Zde můžete buď uvolnit dostatek volného prostoru a nechat instalační "
 "program, ať zařídí zbytek, nebo oddíly nastavit ručně."
 
-#: src/components/Error.jsx:240
+#: src/components/Error.jsx:257
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr ""
 "Klíč k API je možné si nechat vytvořit v nastavení vašeho účtu na Bugzilla "
@@ -1556,7 +1568,7 @@ msgstr "Rozšířený oddíl"
 msgid "format as $0"
 msgstr "vytvořit souborový systém $0"
 
-#: src/components/Error.jsx:177 src/components/Error.jsx:243
+#: src/components/Error.jsx:180 src/components/Error.jsx:260
 msgid "here"
 msgstr "zde"
 
@@ -1568,7 +1580,7 @@ msgstr "připojení"
 msgid "pending step"
 msgstr "čekající krok"
 
-#: src/components/Error.jsx:365
+#: src/components/Error.jsx:382
 msgid "report the issue manually"
 msgstr "nahlásit problém ručně"
 
