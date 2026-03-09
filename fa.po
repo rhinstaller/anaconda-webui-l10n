@@ -30,7 +30,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-09 04:31+0000\n"
-"PO-Revision-Date: 2025-12-29 04:04+0000\n"
+"PO-Revision-Date: 2026-03-10 04:24+0000\n"
 "Last-Translator: Hossein Aghaie <hossein.a97@gmail.com>\n"
 "Language-Team: Persian <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/fa/>\n"
@@ -39,7 +39,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:168
 #: src/components/storage/installation-method/InstallationDestination.jsx:289
@@ -67,38 +67,43 @@ msgid ""
 "$0 is an MBR extended partition that contains logical partitions. Removing "
 "all logical partitions will also automatically remove the extended partition."
 msgstr ""
+"$0 یک پارتیشن توسعه‌یافته MBR است که شامل پارتیشن‌های منطقی می‌شود. با حذف تمام "
+"پارتیشن‌های منطقی، پارتیشن توسعه‌یافته نیز به‌طور خودکار حذف خواهد شد."
 
 #: src/components/review/ReviewConfiguration.jsx:106
 msgid "$0 is required, but only $1 is available."
-msgstr ""
+msgstr "$0 موردنیاز است، اما فقط $1 در دسترس است."
 
 #: src/components/storage/Common.jsx:46
 msgid "$0 warning"
 msgid_plural "$0 warnings"
-msgstr[0] ""
+msgstr[0] "$0 هشدار"
 
 #: src/components/review/StorageReview.jsx:277
 msgid "$0 will be deleted"
-msgstr ""
+msgstr "$0 حذف خواهد شد"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:184
 msgid "'$0' filesystem cannot be on an encrypted block device"
-msgstr ""
+msgstr "فایل سیستم $0 نمی‌تواند روی یک block device رمزنگاری‌شده قرار گیرد"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:178
 msgid "'$0' must be on a device formatted to '$1'"
-msgstr ""
+msgstr "$0 باید روی دستگاهی با قالب $1 قرار داشته باشد"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:236
 msgid ""
 "'$0' partition on MDRAID device $1 found. Bootloader partitions on MDRAID "
 "devices are not supported."
 msgstr ""
+"پارتیشن $0 روی دستگاه MDRAID به نام $1 پیدا شد. پارتیشن‌های راه‌انداز "
+"(Bootloader) روی دستگاه‌های MDRAID پشتیبانی نمی‌شوند."
 
 #: src/components/users/Accounts.jsx:177
 msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr ""
+"یک حساب کاربری استاندارد با دسترسی مدیر برای اعمال تغییرات در سطح سیستم."
 
 #: src/components/HeaderKebab.jsx:124
 msgid "About"
@@ -127,23 +132,23 @@ msgstr "افزونه‌ها برای محیط انتخابی شما"
 
 #: src/components/software/SoftwareSelection.jsx:131
 msgid "Add-ons not specific to your environment"
-msgstr ""
+msgstr "افزونه‌هایی که مخصوص محیط شما نیستند"
 
 #: src/components/localization/InstallationLanguage.jsx:143
 msgid "Additional languages"
-msgstr ""
+msgstr "زبان های دیگر"
 
 #: src/components/software/SoftwareSelection.jsx:156
 msgid "Additional software for the selected environment"
-msgstr ""
+msgstr "نرم‌افزارهای اضافی برای محیط انتخاب‌شده"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 msgid "All changes made in the storage editor take effect immediately."
-msgstr ""
+msgstr "تمام تغییرات اعمال‌شده در ویرایشگر ذخیره‌سازی بی‌درنگ اعمال می‌شوند."
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:133
 msgid "All devices using this passphrase will be unlocked"
-msgstr ""
+msgstr "تمام دستگاه‌هایی که از این عبارت عبور استفاده می‌کنند، باز خواهند شد"
 
 #: src/manifest.json:0
 msgid "Anaconda"
@@ -170,7 +175,7 @@ msgstr ""
 
 #: src/components/Error.jsx:367
 msgid "Automatic log file upload"
-msgstr ""
+msgstr "ارسال خودکار فایل‌های گزارش"
 
 #: src/components/datetime/DateAndTime.jsx:133
 msgid "Automatically set date and time, using time servers"
@@ -195,16 +200,15 @@ msgstr "محیط پایه"
 
 #: src/components/Error.jsx:338
 msgid "Brief description of the issue"
-msgstr ""
+msgstr "شرح کوتاه مشکل"
 
 #: src/components/Error.jsx:327
-#, fuzzy
 msgid "Bug report details"
-msgstr "جزییات خطا: "
+msgstr "جزییات گزارش اشکال"
 
 #: src/components/Error.jsx:212
 msgid "Bugzilla API key"
-msgstr ""
+msgstr "کلید API باگزیلا"
 
 #: src/components/AnacondaHeader.jsx:75
 msgid ""
@@ -257,9 +261,8 @@ msgstr ""
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:425
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:431
-#, fuzzy
 msgid "Checking storage configuration"
-msgstr "بررسی پیکربندی ذخیره سازی..."
+msgstr "در حال بررسی پیکربندی ذخیره‌سازی"
 
 #: src/components/common/MenuSearch.jsx:112
 msgid "Clear search"
