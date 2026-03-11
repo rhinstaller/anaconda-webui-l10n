@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-10 04:23+0000\n"
+"POT-Creation-Date: 2026-03-11 04:23+0000\n"
 "PO-Revision-Date: 2025-12-12 03:47+0000\n"
 "Last-Translator: Peter Chan <admin@hkphoto.org>\n"
 "Language-Team: Chinese (Hong Kong) <https://translate.fedoraproject.org/"
@@ -127,7 +127,7 @@ msgstr "其他語言"
 msgid "Additional software for the selected environment"
 msgstr "所選環境的附加軟件"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:67
 msgid "All changes made in the storage editor take effect immediately."
 msgstr "在儲存編輯器中所做的所有變更都會立即生效。"
 
@@ -150,6 +150,10 @@ msgstr "Anaconda 專案頁面"
 #: src/components/storage/scenarios/mount-point-mapping/index.js:21
 msgid "Apply mount point assignment and install"
 msgstr "應用掛載點分配並安裝"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:95
+msgid "Applying changes..."
+msgstr ""
 
 #: src/components/storage/scenarios/mount-point-mapping/index.js:22
 msgid ""
@@ -211,7 +215,7 @@ msgstr ""
 #: src/components/datetime/CustomNTPModal.jsx:239
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:208
 #: src/components/storage/installation-method/InstallationDestination.jsx:381
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:101
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/localization/Keyboard.jsx:280
 msgid "Cancel"
 msgstr "取消"
@@ -238,7 +242,7 @@ msgstr "更改磁碟區佈局"
 msgid "Change system keyboard layout"
 msgstr "更改系統鍵盤佈局"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:156
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:139
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr "此處所做的變更將立即影響系統。沒有‘撤銷’。"
@@ -259,11 +263,11 @@ msgstr ""
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
-#: src/components/network/CockpitNetworkConfiguration.jsx:61
+#: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "關閉"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:160
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:143
 msgid "Close storage editor"
 msgstr "關閉儲存編輯器"
 
@@ -284,14 +288,14 @@ msgstr "配置 NTP 伺服器"
 msgid "Configure custom NTP servers"
 msgstr "配置自定義 NTP 伺服器"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:40
+#: src/components/network/CockpitNetworkConfiguration.jsx:70
 #: src/components/HeaderKebab.jsx:113
 #, fuzzy
 #| msgid "Configure storage"
 msgid "Configure network"
 msgstr "配置儲存"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:146
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:129
 msgid "Configure storage"
 msgstr "配置儲存"
 
@@ -608,8 +612,8 @@ msgstr "啟動期間的鍵盤佈局"
 msgid "Language"
 msgstr "語言"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:216
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:77
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:199
 msgid "Launch storage editor"
 msgstr "啟動儲存編輯器"
 
@@ -698,7 +702,7 @@ msgstr "名稱"
 msgid "Needs at least $0"
 msgstr ""
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:46
+#: src/components/network/CockpitNetworkConfiguration.jsx:76
 #, fuzzy
 #| msgid "Storage configuration"
 msgid "Network Configuration"
@@ -714,7 +718,7 @@ msgstr "網路不可用。在頂部欄選單中配置網路以報告問題。"
 msgid "Network not available. Configure the network to report the issue."
 msgstr "網路不可用。配置網路以報告問題。"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:28
+#: src/components/network/CockpitNetworkConfiguration.jsx:54
 #, fuzzy
 #| msgid "Storage plugin failed"
 msgid "Network plugin failed"
@@ -1018,7 +1022,7 @@ msgstr ""
 msgid "Restricts the report to the $0 group. $1"
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:45
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:46
 msgid "Return to installation"
 msgstr "返回安裝"
 
@@ -1187,11 +1191,11 @@ msgstr "儲存配置"
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "儲存配置：目前正在配置儲存。"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:75
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:58
 msgid "Storage editor"
 msgstr "儲存編輯器"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:226
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:209
 msgid "Storage editor is available only in the `Installation method` step."
 msgstr "儲存編輯器僅在「安裝方法」步驟中可用。"
 
@@ -1199,7 +1203,7 @@ msgstr "儲存編輯器僅在「安裝方法」步驟中可用。"
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "儲存基於‘修改儲存’的配置。"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:123
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
 msgid "Storage plugin failed"
 msgstr "儲存插件失敗"
 
@@ -1271,7 +1275,7 @@ msgid ""
 "Please choose an ASCII-capable layout as the default."
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:81
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:64
 msgid ""
 "The storage editor lets you resize, delete, and create partitions. It can "
 "set up LVM and much more. It is meant to be used as an advanced utility and "

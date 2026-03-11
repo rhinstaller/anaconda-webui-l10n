@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-10 04:23+0000\n"
+"POT-Creation-Date: 2026-03-11 04:23+0000\n"
 "PO-Revision-Date: 2026-03-05 04:25+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
@@ -143,7 +143,7 @@ msgstr "Ytterligare språk"
 msgid "Additional software for the selected environment"
 msgstr "Ytterligare programvara för den valda miljön"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:67
 msgid "All changes made in the storage editor take effect immediately."
 msgstr ""
 "Alla ändringar som görs i lagringsredigeraren träder i kraft omedelbart."
@@ -167,6 +167,12 @@ msgstr "Anaconda projekt sida"
 #: src/components/storage/scenarios/mount-point-mapping/index.js:21
 msgid "Apply mount point assignment and install"
 msgstr "Tillämpa monteringspunktstilldelningar och installera"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#, fuzzy
+#| msgid "Applying new disk selection..."
+msgid "Applying changes..."
+msgstr "Tillämpar nytt diskval..."
 
 #: src/components/storage/scenarios/mount-point-mapping/index.js:22
 msgid ""
@@ -228,7 +234,7 @@ msgstr ""
 #: src/components/datetime/CustomNTPModal.jsx:239
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:208
 #: src/components/storage/installation-method/InstallationDestination.jsx:381
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:101
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/localization/Keyboard.jsx:280
 msgid "Cancel"
 msgstr "Avbryt"
@@ -255,7 +261,7 @@ msgstr "Ändra partitionslayout"
 msgid "Change system keyboard layout"
 msgstr "Ändra systemets tangentbordslayout"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:156
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:139
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
@@ -278,11 +284,11 @@ msgstr "Klicka på 'Nästa' igen för att fortsätta oavsett dessa varningar."
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
-#: src/components/network/CockpitNetworkConfiguration.jsx:61
+#: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "Stäng"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:160
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:143
 msgid "Close storage editor"
 msgstr "Stäng lagringsredigerare"
 
@@ -303,12 +309,12 @@ msgstr "Konfigurera NTP-servrar"
 msgid "Configure custom NTP servers"
 msgstr "Konfigurera anpassade NTP-servrar"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:40
+#: src/components/network/CockpitNetworkConfiguration.jsx:70
 #: src/components/HeaderKebab.jsx:113
 msgid "Configure network"
 msgstr "Konfigurera nätverk"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:146
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:129
 msgid "Configure storage"
 msgstr "Konfigurera lagring"
 
@@ -638,8 +644,8 @@ msgstr "Tangentbordslayout under uppstart"
 msgid "Language"
 msgstr "Språk"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:216
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:77
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:199
 msgid "Launch storage editor"
 msgstr "Starta lagringsredigerare"
 
@@ -730,7 +736,7 @@ msgstr "Namn"
 msgid "Needs at least $0"
 msgstr "Kräver åtminstone $0"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:46
+#: src/components/network/CockpitNetworkConfiguration.jsx:76
 msgid "Network Configuration"
 msgstr "Nätverkskonfiguration"
 
@@ -747,7 +753,7 @@ msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 "Nätverk ej tillgängligt. Konfigurera nätverket för att rapportera problemet."
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:28
+#: src/components/network/CockpitNetworkConfiguration.jsx:54
 msgid "Network plugin failed"
 msgstr "Nätverks insticksmodul misslyckades"
 
@@ -1061,7 +1067,7 @@ msgstr "Begränsa åtkomsten till rapporten"
 msgid "Restricts the report to the $0 group. $1"
 msgstr "Begränsar rapporten till $0-gruppen. $1"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:45
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:46
 msgid "Return to installation"
 msgstr "Återgå till installation"
 
@@ -1234,11 +1240,11 @@ msgstr "Lagringskonfiguration"
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "Lagringskonfiguration: Lagring konfigureras för närvarande."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:75
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:58
 msgid "Storage editor"
 msgstr "Lagringsredigerare"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:226
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:209
 msgid "Storage editor is available only in the `Installation method` step."
 msgstr ""
 "Lagringsredigeraren är endast tillgänglig i `Installationsmetod` steget."
@@ -1247,7 +1253,7 @@ msgstr ""
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "Lagring baseras på konfigurationen från \"Modifera lagring\"."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:123
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
 msgid "Storage plugin failed"
 msgstr "Lagringsinsticksmodul misslyckades"
 
@@ -1329,7 +1335,7 @@ msgstr ""
 "Den valda standardtangentbordslayouten stöder inte ASCII-tecken. Välj en "
 "ASCII-kompatibel layout som standard."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:81
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:64
 msgid ""
 "The storage editor lets you resize, delete, and create partitions. It can "
 "set up LVM and much more. It is meant to be used as an advanced utility and "
@@ -1788,9 +1794,6 @@ msgstr "ångra"
 
 #~ msgid "Use free space for the installation"
 #~ msgstr "Använd ledigt utrymme för installationen"
-
-#~ msgid "Applying new disk selection..."
-#~ msgstr "Tillämpar nytt diskval..."
 
 #~ msgid "Current selections"
 #~ msgstr "Nuvarande val"

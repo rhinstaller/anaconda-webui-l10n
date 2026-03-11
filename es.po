@@ -66,7 +66,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-10 04:23+0000\n"
+"POT-Creation-Date: 2026-03-11 04:23+0000\n"
 "PO-Revision-Date: 2026-03-01 04:35+0000\n"
 "Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
@@ -183,7 +183,7 @@ msgstr "Idiomas adicionales"
 msgid "Additional software for the selected environment"
 msgstr "Software adicional para el entorno seleccionado"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:67
 msgid "All changes made in the storage editor take effect immediately."
 msgstr ""
 "Todos los cambios realizados en el editor de almacenamiento surten efecto "
@@ -209,6 +209,12 @@ msgstr "Página del proyecto Anaconda"
 #: src/components/storage/scenarios/mount-point-mapping/index.js:21
 msgid "Apply mount point assignment and install"
 msgstr "Aplicar asignación del punto de montaje e instalación"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#, fuzzy
+#| msgid "Applying new disk selection..."
+msgid "Applying changes..."
+msgstr "Aplicar nueva selección de disco..."
 
 #: src/components/storage/scenarios/mount-point-mapping/index.js:22
 msgid ""
@@ -270,7 +276,7 @@ msgstr ""
 #: src/components/datetime/CustomNTPModal.jsx:239
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:208
 #: src/components/storage/installation-method/InstallationDestination.jsx:381
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:101
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/localization/Keyboard.jsx:280
 msgid "Cancel"
 msgstr "Cancelar"
@@ -297,7 +303,7 @@ msgstr "Cambio de distribución de partición"
 msgid "Change system keyboard layout"
 msgstr "Modificar distribución de teclado del sistema"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:156
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:139
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
@@ -320,11 +326,11 @@ msgstr "Pulse 'Siguiente' de nuevo para proceder a pesar de estos avisos."
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
-#: src/components/network/CockpitNetworkConfiguration.jsx:61
+#: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "Cerrar"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:160
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:143
 msgid "Close storage editor"
 msgstr "Cierre el editor de almacenaje"
 
@@ -347,12 +353,12 @@ msgstr "Configurar servidores NTP"
 msgid "Configure custom NTP servers"
 msgstr "Configurar servidores personales de NTP"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:40
+#: src/components/network/CockpitNetworkConfiguration.jsx:70
 #: src/components/HeaderKebab.jsx:113
 msgid "Configure network"
 msgstr "Configurar red"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:146
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:129
 msgid "Configure storage"
 msgstr "Configurar el almacenamiento"
 
@@ -683,8 +689,8 @@ msgstr "Distribución del teclado al arrancar"
 msgid "Language"
 msgstr "Idioma"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:216
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:77
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:199
 msgid "Launch storage editor"
 msgstr "Iniciar el editor de almacenamiento"
 
@@ -777,7 +783,7 @@ msgstr "Nombre"
 msgid "Needs at least $0"
 msgstr "Necesita al menos $0"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:46
+#: src/components/network/CockpitNetworkConfiguration.jsx:76
 msgid "Network Configuration"
 msgstr "Configuración de Red"
 
@@ -793,7 +799,7 @@ msgstr ""
 msgid "Network not available. Configure the network to report the issue."
 msgstr "Red no disponible. Configure la red para informar del problema."
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:28
+#: src/components/network/CockpitNetworkConfiguration.jsx:54
 msgid "Network plugin failed"
 msgstr "Complemento de red incorrecto"
 
@@ -1108,7 +1114,7 @@ msgstr ""
 msgid "Restricts the report to the $0 group. $1"
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:45
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:46
 msgid "Return to installation"
 msgstr "Volver a la instalación"
 
@@ -1285,11 +1291,11 @@ msgid "Storage configuration: Storage is currently being configured."
 msgstr ""
 "Configuración de almacenamiento: Se está configurando el almacenamiento."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:75
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:58
 msgid "Storage editor"
 msgstr "Editor de almacenamiento"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:226
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:209
 msgid "Storage editor is available only in the `Installation method` step."
 msgstr ""
 "El editor de almacenamiento solamente está disponible en el paso «Método de "
@@ -1299,7 +1305,7 @@ msgstr ""
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "El almacén está basado en la configuración de «Modificar almacenaje»."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:123
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
 msgid "Storage plugin failed"
 msgstr "Complemento de almacenaje incorrecto"
 
@@ -1380,7 +1386,7 @@ msgstr ""
 "La distribución seleccionada del teclado por defecto no admite caracteres "
 "ASCII. Elija una distribución de compatible con ASCII como el predeterminado."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:81
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:64
 msgid ""
 "The storage editor lets you resize, delete, and create partitions. It can "
 "set up LVM and much more. It is meant to be used as an advanced utility and "
@@ -1822,9 +1828,6 @@ msgstr "deshacer"
 #, fuzzy
 #~ msgid "Use free space for the installation"
 #~ msgstr "Fallo al llevar adelante la instalación."
-
-#~ msgid "Applying new disk selection..."
-#~ msgstr "Aplicar nueva selección de disco..."
 
 #~ msgid "Current selections"
 #~ msgstr "Selecciones actuales"

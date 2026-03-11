@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-10 04:23+0000\n"
+"POT-Creation-Date: 2026-03-11 04:23+0000\n"
 "PO-Revision-Date: 2026-03-11 04:23+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
@@ -142,7 +142,7 @@ msgstr "Ek diller"
 msgid "Additional software for the selected environment"
 msgstr "Seçilen ortam için ilave yazılımlar"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:67
 msgid "All changes made in the storage editor take effect immediately."
 msgstr ""
 "Depolama düzenleyicisinde yapılan tüm değişiklikler hemen geçerli olur."
@@ -166,6 +166,12 @@ msgstr "Anaconda projesi sayfası"
 #: src/components/storage/scenarios/mount-point-mapping/index.js:21
 msgid "Apply mount point assignment and install"
 msgstr "Bağlama noktası atamasını uygula ve kur"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#, fuzzy
+#| msgid "Applying new disk selection..."
+msgid "Applying changes..."
+msgstr "Yeni disk seçimi uygulanıyor..."
 
 #: src/components/storage/scenarios/mount-point-mapping/index.js:22
 msgid ""
@@ -227,7 +233,7 @@ msgstr ""
 #: src/components/datetime/CustomNTPModal.jsx:239
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:208
 #: src/components/storage/installation-method/InstallationDestination.jsx:381
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:101
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/localization/Keyboard.jsx:280
 msgid "Cancel"
 msgstr "İptal"
@@ -254,7 +260,7 @@ msgstr "Bölüm düzenini değiştir"
 msgid "Change system keyboard layout"
 msgstr "Sistem klavye görünümünü değiştirin"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:156
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:139
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
@@ -278,11 +284,11 @@ msgstr ""
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
-#: src/components/network/CockpitNetworkConfiguration.jsx:61
+#: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "Kapat"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:160
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:143
 msgid "Close storage editor"
 msgstr "Depolama düzenleyicisini kapat"
 
@@ -304,12 +310,12 @@ msgstr "NTP sunucularını yapılandır"
 msgid "Configure custom NTP servers"
 msgstr "Özel NTP sunucularını yapılandır"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:40
+#: src/components/network/CockpitNetworkConfiguration.jsx:70
 #: src/components/HeaderKebab.jsx:113
 msgid "Configure network"
 msgstr "Ağı yapılandır"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:146
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:129
 msgid "Configure storage"
 msgstr "Depolamayı yapılandır"
 
@@ -638,8 +644,8 @@ msgstr "Önyükleme sırasında klavye görünümü"
 msgid "Language"
 msgstr "Dil"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:216
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:77
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:199
 msgid "Launch storage editor"
 msgstr "Depolama düzenleyicisini başlat"
 
@@ -729,7 +735,7 @@ msgstr "Ad"
 msgid "Needs at least $0"
 msgstr "En az $0 gerekli"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:46
+#: src/components/network/CockpitNetworkConfiguration.jsx:76
 msgid "Network Configuration"
 msgstr "Ağ Yapılandırması"
 
@@ -745,7 +751,7 @@ msgstr ""
 msgid "Network not available. Configure the network to report the issue."
 msgstr "Ağ kullanılabilir değil. Sorunu bildirmek için ağı yapılandırın."
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:28
+#: src/components/network/CockpitNetworkConfiguration.jsx:54
 msgid "Network plugin failed"
 msgstr "Ağ eklentisi başarısız oldu"
 
@@ -1058,7 +1064,7 @@ msgstr "Rapora erişimi kısıtla"
 msgid "Restricts the report to the $0 group. $1"
 msgstr "Rapora erişimi $0 grubuyla kısıtlar. $1"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:45
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:46
 msgid "Return to installation"
 msgstr "Kuruluma geri dön"
 
@@ -1232,11 +1238,11 @@ msgstr "Depolama yapılandırması"
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "Depolama yapılandırması: Depolama alanı şu anda yapılandırılıyor."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:75
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:58
 msgid "Storage editor"
 msgstr "Depolama düzenleyicisi"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:226
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:209
 msgid "Storage editor is available only in the `Installation method` step."
 msgstr ""
 "Depolama düzenleyicisi yalnızca `Kurulum yöntemi` adımında kullanılabilir."
@@ -1246,7 +1252,7 @@ msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr ""
 "Depolama, 'Depolamayı değiştir' seçeneğindeki yapılandırmayı temel alır."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:123
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
 msgid "Storage plugin failed"
 msgstr "Depolama eklentisi başarısız oldu"
 
@@ -1326,7 +1332,7 @@ msgstr ""
 "Seçilen öntanımlı klavye düzeni ASCII karakterlerini desteklemiyor. Lütfen "
 "öntanımlı olarak ASCII özellikli bir düzen seçin."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:81
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:64
 msgid ""
 "The storage editor lets you resize, delete, and create partitions. It can "
 "set up LVM and much more. It is meant to be used as an advanced utility and "
@@ -1775,9 +1781,6 @@ msgstr "geri al"
 
 #~ msgid "Use free space for the installation"
 #~ msgstr "Kurulum için boş alanı kullan"
-
-#~ msgid "Applying new disk selection..."
-#~ msgstr "Yeni disk seçimi uygulanıyor..."
 
 #~ msgid "Current selections"
 #~ msgstr "Geçerli seçimler"

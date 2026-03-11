@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-10 04:23+0000\n"
+"POT-Creation-Date: 2026-03-11 04:23+0000\n"
 "PO-Revision-Date: 2026-03-05 04:25+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -125,7 +125,7 @@ msgstr "დამატებითი ენები"
 msgid "Additional software for the selected environment"
 msgstr "დამატებითი პროგრამები არჩეული გარემოსთვის"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:67
 msgid "All changes made in the storage editor take effect immediately."
 msgstr "საცავის რედაქტორში შეტანილი ცვლილებები ძალაში დაუყოვნებლივ შევა."
 
@@ -148,6 +148,12 @@ msgstr "Anaconda-ის პროექტის გვერდი"
 #: src/components/storage/scenarios/mount-point-mapping/index.js:21
 msgid "Apply mount point assignment and install"
 msgstr "მიმაგრების წერტილების გადატარება და დაყენება"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#, fuzzy
+#| msgid "Applying new disk selection..."
+msgid "Applying changes..."
+msgstr "ახალი დისკის არჩევანის გადატარება..."
 
 #: src/components/storage/scenarios/mount-point-mapping/index.js:22
 msgid ""
@@ -209,7 +215,7 @@ msgstr ""
 #: src/components/datetime/CustomNTPModal.jsx:239
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:208
 #: src/components/storage/installation-method/InstallationDestination.jsx:381
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:101
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/localization/Keyboard.jsx:280
 msgid "Cancel"
 msgstr "გაუქმება"
@@ -236,7 +242,7 @@ msgstr "დანაყოფების განლაგების შე�
 msgid "Change system keyboard layout"
 msgstr "სისტემის კლავიატურის განლაგების შეცვლა"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:156
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:139
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
@@ -260,11 +266,11 @@ msgstr ""
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
-#: src/components/network/CockpitNetworkConfiguration.jsx:61
+#: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "დაკეტვა"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:160
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:143
 msgid "Close storage editor"
 msgstr "საცავის რედაქტორის დახურვა"
 
@@ -287,12 +293,12 @@ msgstr "NTP სერვერების მორგება"
 msgid "Configure custom NTP servers"
 msgstr "მომხმარებლის NTP სერვერების მორგება"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:40
+#: src/components/network/CockpitNetworkConfiguration.jsx:70
 #: src/components/HeaderKebab.jsx:113
 msgid "Configure network"
 msgstr "ქსელის მორგება"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:146
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:129
 msgid "Configure storage"
 msgstr "საცავის მორგება"
 
@@ -622,8 +628,8 @@ msgstr "კლავიატურის განლაგება ჩატ�
 msgid "Language"
 msgstr "ენა"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:216
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:77
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:199
 msgid "Launch storage editor"
 msgstr "საცავის რედაქტორის გაშვება"
 
@@ -714,7 +720,7 @@ msgstr "სახელი"
 msgid "Needs at least $0"
 msgstr "საჭიროა სულ ცოტა $0"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:46
+#: src/components/network/CockpitNetworkConfiguration.jsx:76
 msgid "Network Configuration"
 msgstr "ქსელის კონფიგურაცია"
 
@@ -730,7 +736,7 @@ msgstr ""
 msgid "Network not available. Configure the network to report the issue."
 msgstr "ქსელი ხელმისაწვდომი არაა. ანგარიშის გადასაცემად, ჯერ ქსელი მოირგეთ."
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:28
+#: src/components/network/CockpitNetworkConfiguration.jsx:54
 msgid "Network plugin failed"
 msgstr "ქსელის დამატება ჩავარდა"
 
@@ -1045,7 +1051,7 @@ msgstr "ანგარიშთან წვდომის შეზღუდ�
 msgid "Restricts the report to the $0 group. $1"
 msgstr "შეზღუდავს ანგარიშის ნახვას ჯგუფზე $0. $1"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:45
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:46
 msgid "Return to installation"
 msgstr "დაყენებაზე დაბრუნება"
 
@@ -1217,11 +1223,11 @@ msgstr "საცავის მორგება"
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "საცავის კონფიგურაცია: მიმდინარეობს საცავის კონფიგურაცია."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:75
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:58
 msgid "Storage editor"
 msgstr "საცავის რედაქტორი"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:226
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:209
 msgid "Storage editor is available only in the `Installation method` step."
 msgstr "საცავის რედაქტორი, მხოლოდ, 'დაყენების მეთოდის' ნაბიჯზეა ხელმისაწვდომი."
 
@@ -1230,7 +1236,7 @@ msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr ""
 "საცავი ეყრდნობა კონფიგურაციას, რომელიც მივიღეთ ფანჯრიდან 'საცავის ჩასწორება'."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:123
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
 msgid "Storage plugin failed"
 msgstr "საცავის დამატება ჩავარდა"
 
@@ -1310,7 +1316,7 @@ msgstr ""
 "არჩეულ ნაგულისხმევ განლაგებას ASCII სიმბოლოების მხარდაჭერა არ აქვს. აირჩიეთ "
 "ნაგულისხმევად ASCII-ის მქონე განლაგება."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:81
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:64
 msgid ""
 "The storage editor lets you resize, delete, and create partitions. It can "
 "set up LVM and much more. It is meant to be used as an advanced utility and "
@@ -1766,9 +1772,6 @@ msgstr "გაუქმება"
 
 #~ msgid "Use free space for the installation"
 #~ msgstr "დასაყენებლად თავისუფალი ადგილის გამოყენება"
-
-#~ msgid "Applying new disk selection..."
-#~ msgstr "ახალი დისკის არჩევანის გადატარება..."
 
 #~ msgid "Current selections"
 #~ msgstr "მიმდინარე მონიშნულები"

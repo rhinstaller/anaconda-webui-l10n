@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-10 04:23+0000\n"
+"POT-Creation-Date: 2026-03-11 04:23+0000\n"
 "PO-Revision-Date: 2025-12-03 03:42+0000\n"
 "Last-Translator: Nimrod Turi <nimrodturi@gmail.com>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/"
@@ -155,7 +155,7 @@ msgstr "További nyelvek"
 msgid "Additional software for the selected environment"
 msgstr "További szoftverek a kiválasztott környezethez"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:67
 msgid "All changes made in the storage editor take effect immediately."
 msgstr "A tárolószerkesztőben végzett változások azonnal életbe lépnek."
 
@@ -178,6 +178,12 @@ msgstr "Az Anaconda projekt oldala"
 #: src/components/storage/scenarios/mount-point-mapping/index.js:21
 msgid "Apply mount point assignment and install"
 msgstr "A csatolási pontok hozzárendelésének alkalmazása és telepítése"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#, fuzzy
+#| msgid "Applying new disk selection..."
+msgid "Applying changes..."
+msgstr "Új lemezkijelölés alkalmazása..."
 
 #: src/components/storage/scenarios/mount-point-mapping/index.js:22
 msgid ""
@@ -245,7 +251,7 @@ msgstr ""
 #: src/components/datetime/CustomNTPModal.jsx:239
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:208
 #: src/components/storage/installation-method/InstallationDestination.jsx:381
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:101
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/localization/Keyboard.jsx:280
 msgid "Cancel"
 msgstr "Mégse"
@@ -274,7 +280,7 @@ msgstr "Cél módosítása"
 msgid "Change system keyboard layout"
 msgstr "Rendszer billentyűzetkiosztásának módosítása"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:156
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:139
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr "Az itt végzett módosítások azonnal életbe lépnek. Nincs „visszavonás”."
@@ -295,11 +301,11 @@ msgstr ""
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
-#: src/components/network/CockpitNetworkConfiguration.jsx:61
+#: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "Bezárás"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:160
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:143
 #, fuzzy
 #| msgid "Storage editor"
 msgid "Close storage editor"
@@ -326,14 +332,14 @@ msgstr "NTP-kiszolgálók beállítása"
 msgid "Configure custom NTP servers"
 msgstr "NTP-kiszolgálók beállítása"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:40
+#: src/components/network/CockpitNetworkConfiguration.jsx:70
 #: src/components/HeaderKebab.jsx:113
 #, fuzzy
 #| msgid "Configure storage"
 msgid "Configure network"
 msgstr "Tárolók beállítása"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:146
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:129
 msgid "Configure storage"
 msgstr "Tárolók beállítása"
 
@@ -674,8 +680,8 @@ msgstr "Az indítás során használandó billentyűzetkiosztás"
 msgid "Language"
 msgstr "Nyelv"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:216
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:77
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:199
 msgid "Launch storage editor"
 msgstr "Tárhelyszerkesztő indítása"
 
@@ -773,7 +779,7 @@ msgstr "Név"
 msgid "Needs at least $0"
 msgstr ""
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:46
+#: src/components/network/CockpitNetworkConfiguration.jsx:76
 #, fuzzy
 #| msgid "Network configuration"
 msgid "Network Configuration"
@@ -792,7 +798,7 @@ msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 "A hálózat nem érhető el. A probléma bejelentéséhez állítsa be a hálózatot."
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:28
+#: src/components/network/CockpitNetworkConfiguration.jsx:54
 #, fuzzy
 #| msgid "Storage plugin failed"
 msgid "Network plugin failed"
@@ -1113,7 +1119,7 @@ msgstr ""
 msgid "Restricts the report to the $0 group. $1"
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:45
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:46
 msgid "Return to installation"
 msgstr "Visszatérés a telepítéshez"
 
@@ -1312,11 +1318,11 @@ msgstr "Tároló-összeállítás"
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "Tárhely-konfiguráció: A tárhely beállítása folyamatban van."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:75
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:58
 msgid "Storage editor"
 msgstr "Tárolószerkesztő"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:226
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:209
 msgid "Storage editor is available only in the `Installation method` step."
 msgstr "A tárolószerkesztő csak a „Telepítési mód” lépésben érhető el."
 
@@ -1324,7 +1330,7 @@ msgstr "A tárolószerkesztő csak a „Telepítési mód” lépésben érhető
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "A tároló a „Tároló módosítása” konfigurációján alapszik."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:123
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
 msgid "Storage plugin failed"
 msgstr "A tárolóbővítmény sikertelen"
 
@@ -1404,7 +1410,7 @@ msgid ""
 "Please choose an ASCII-capable layout as the default."
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:81
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:64
 msgid ""
 "The storage editor lets you resize, delete, and create partitions. It can "
 "set up LVM and much more. It is meant to be used as an advanced utility and "
@@ -1851,9 +1857,6 @@ msgstr "visszavonás"
 
 #~ msgid "Use free space for the installation"
 #~ msgstr "Használjon szabad helyet a telepítéshez"
-
-#~ msgid "Applying new disk selection..."
-#~ msgstr "Új lemezkijelölés alkalmazása..."
 
 #~ msgid "Current selections"
 #~ msgstr "Jelenlegi kijelölések"
