@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-26 04:56+0000\n"
+"POT-Creation-Date: 2026-03-27 04:58+0000\n"
 "PO-Revision-Date: 2026-03-12 04:28+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <https://translate.fedoraproject.org/projects/anaconda-"
@@ -51,7 +51,7 @@ msgstr ""
 "$0 - логикалық бөлімдерді қамтитын MBR кеңейтілген бөлімі. Барлық логикалық "
 "бөлімдерді өшіру кеңейтілген бөлімді де автоматты түрде өшіреді."
 
-#: src/components/review/ReviewConfiguration.jsx:106
+#: src/components/review/ReviewConfiguration.jsx:89
 msgid "$0 is required, but only $1 is available."
 msgstr "$0 қажет, бірақ тек $1 қолжетімді."
 
@@ -80,7 +80,7 @@ msgstr ""
 "MDRAID $1 құрылғысында '$0' бөлімі табылды. MDRAID құрылғыларындағы жүктеуіш "
 "бөлімдеріне қолдау көрсетілмейді."
 
-#: src/components/users/Accounts.jsx:177
+#: src/components/users/Accounts.jsx:243
 msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr ""
@@ -91,7 +91,7 @@ msgstr ""
 msgid "About"
 msgstr "Осы туралы"
 
-#: src/components/review/ReviewConfiguration.jsx:194
+#: src/components/review/ReviewConfiguration.jsx:177
 msgid "Account"
 msgstr "Тіркелгі"
 
@@ -230,7 +230,7 @@ msgstr "Мақсатты орынды өзгерту"
 msgid "Change hostname"
 msgstr "Хост атын өзгерту"
 
-#: src/components/review/ReviewConfiguration.jsx:123
+#: src/components/review/ReviewConfiguration.jsx:106
 msgid "Change partition layout"
 msgstr "Бөлім орналасуын өзгерту"
 
@@ -305,7 +305,7 @@ msgid "Configure storage again"
 msgstr "Сақтағышты қайта баптау"
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:95
-#: src/components/users/Accounts.jsx:141 src/components/users/Accounts.jsx:297
+#: src/components/users/Accounts.jsx:198 src/components/users/Accounts.jsx:398
 msgid "Confirm passphrase"
 msgstr "Кілттік фразаны растау"
 
@@ -321,11 +321,11 @@ msgstr "Орнату жалғастыру"
 msgid "Continue with installation"
 msgstr "Орнатуды жалғастыру"
 
-#: src/components/users/index.js:18
+#: src/components/users/index.js:20
 msgid "Create Account"
 msgstr "Тіркелгі жасау"
 
-#: src/components/users/Accounts.jsx:239
+#: src/components/users/Accounts.jsx:305
 msgid "Create account"
 msgstr "Тіркелгі жасау"
 
@@ -383,7 +383,7 @@ msgstr "Қайталанатын құрылғы."
 msgid "Duplicate mount point."
 msgstr "Қайталанатын тіркеу нүктесі."
 
-#: src/components/users/Accounts.jsx:279
+#: src/components/users/Accounts.jsx:329 src/components/users/Accounts.jsx:380
 msgid "Enable root account"
 msgstr "root тіркелгісін іске қосу"
 
@@ -455,7 +455,7 @@ msgstr ""
 msgid "Find layout"
 msgstr "Жайманы табу"
 
-#: src/components/users/Accounts.jsx:295
+#: src/components/users/Accounts.jsx:396
 msgid ""
 "For better security, avoid using the root account directly. Instead, use the "
 "local account above to manage the system."
@@ -463,11 +463,11 @@ msgstr ""
 "Жақсырақ қауіпсіздік үшін root тіркелгісін тікелей қолданбаңыз. Оның орнына "
 "жүйені басқару үшін жоғарыдағы жергілікті тіркелгіні қолданыңыз."
 
-#: src/components/users/Accounts.jsx:179
+#: src/components/users/Accounts.jsx:245
 msgid "Full name"
 msgstr "Толық аты"
 
-#: src/components/users/Accounts.jsx:127
+#: src/components/users/Accounts.jsx:184
 msgid "Full name cannot contain colon characters"
 msgstr "Толық атында үтірлер болмауы тиіс"
 
@@ -499,21 +499,21 @@ msgstr "Хост аты"
 msgid "How would you like to install?"
 msgstr "Қалай орнатуды қалайсыз?"
 
-#: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/review/ReviewConfiguration.jsx:235
 msgid "I understand that all existing data will be erased"
 msgstr "Мен барлық бар деректердің өшірілетінін түсінемін"
 
-#: src/components/review/ReviewConfiguration.jsx:253
+#: src/components/review/ReviewConfiguration.jsx:236
 msgid ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr ""
 "Мен таңдалған дискілердегі барлық бар деректердің өшірілетінін түсінемін"
 
-#: src/components/review/ReviewConfiguration.jsx:257
+#: src/components/review/ReviewConfiguration.jsx:240
 msgid "I understand that some existing data will be erased"
 msgstr "Мен кейбір бар деректердің өшірілетінін түсінемін"
 
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:241
 msgid "I understand that some partitions will be modified"
 msgstr "Мен кейбір бөлімдердің өзгертілетінін түсінемін"
 
@@ -575,7 +575,7 @@ msgstr "Жүйені орнату сәтсіз аяқталды"
 msgid "Installation of the system failed: $0"
 msgstr "Жүйені орнату сәтсіз аяқталды: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:209
+#: src/components/review/ReviewConfiguration.jsx:192
 msgid "Installation type"
 msgstr "Орнату түрі"
 
@@ -621,7 +621,7 @@ msgstr "Пернетақта"
 msgid "Keyboard layout during boot"
 msgstr "Жүктелу кезіндегі пернетақта жаймасы"
 
-#: src/components/review/ReviewConfiguration.jsx:180
+#: src/components/review/ReviewConfiguration.jsx:163
 #: src/components/localization/InstallationLanguage.jsx:227
 msgid "Language"
 msgstr "Тіл"
@@ -771,7 +771,7 @@ msgstr ""
 "Таңдалған пернетақта жаймалары үшін жарамды VConsole пернелер картасын алу "
 "мүмкін емес. Басқа пернетақта жаймасын таңдаңыз."
 
-#: src/components/review/ReviewConfiguration.jsx:104
+#: src/components/review/ReviewConfiguration.jsx:87
 msgid "Not enough available free space"
 msgstr "Бос орын жеткіліксіз"
 
@@ -801,7 +801,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Bugzilla ақаулықты енгізу пішінін ашу"
 
-#: src/components/review/ReviewConfiguration.jsx:169
+#: src/components/review/ReviewConfiguration.jsx:152
 msgid "Operating system"
 msgstr "Операциялық жүйе"
 
@@ -820,7 +820,7 @@ msgstr "Бөлімдер (кеңейтілген)"
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:92
-#: src/components/users/Accounts.jsx:138 src/components/users/Accounts.jsx:293
+#: src/components/users/Accounts.jsx:195 src/components/users/Accounts.jsx:394
 msgid "Passphrase"
 msgstr "Кілттік фраза"
 
@@ -1059,14 +1059,18 @@ msgstr "Сақтауыш түзеткішіне оралу"
 msgid "Review and install"
 msgstr "Қарап шығу және орнату"
 
-#: src/components/review/ReviewConfiguration.jsx:74
+#: src/components/users/Accounts.jsx:86
 msgid "Root account is enabled"
 msgstr "Root тіркелгісі іске қосылған"
 
-#: src/components/review/ReviewConfiguration.jsx:68
+#: src/components/users/Accounts.jsx:78
 msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
 "Root тіркелгісі іске қосылған, бірақ ешбір пайдаланушы тіркелгісі бапталмаған"
+
+#: src/components/users/Accounts.jsx:338
+msgid "Root password has been set."
+msgstr "Root паролі орнатылған."
 
 #: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:236
@@ -1206,7 +1210,7 @@ msgstr "Орын"
 msgid "Stacktrace"
 msgstr "Стек трейсі"
 
-#: src/components/review/ReviewConfiguration.jsx:216
+#: src/components/review/ReviewConfiguration.jsx:199
 msgid "Storage"
 msgstr "Сақтауыш"
 
@@ -1261,7 +1265,7 @@ msgstr "Ұсынылатын пернетақталар"
 msgid "Suggested languages"
 msgstr "Ұсынылатын тілдер"
 
-#: src/components/users/Accounts.jsx:309
+#: src/components/users/Accounts.jsx:326 src/components/users/Accounts.jsx:410
 msgid "System"
 msgstr "Жүйе"
 
@@ -1278,6 +1282,18 @@ msgstr "Жүйе баптаулары: Бағд. қамтаманы орнату
 #: src/components/app.jsx:161
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "Anaconda орнатуы күтпеген түрде аяқталды."
+
+#: src/components/users/Accounts.jsx:47
+#, fuzzy
+#| msgid "The following mandatory spokes are not completed:"
+msgid "The following user will be created:"
+msgstr "Келесі міндетті қадамдар аяқталмады:"
+
+#: src/components/users/Accounts.jsx:48
+#, fuzzy
+#| msgid "User %s will be created"
+msgid "The following users will be created:"
+msgstr "%s пайдаланушысы жасалатын болады"
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:45
 msgid ""
@@ -1354,7 +1370,7 @@ msgstr "Бұл біраз уақыт алады"
 msgid "Time"
 msgstr "Уақыт"
 
-#: src/components/review/ReviewConfiguration.jsx:187
+#: src/components/review/ReviewConfiguration.jsx:170
 #: src/components/datetime/Timezone.jsx:130
 msgid "Timezone"
 msgstr "Уақыт белдеуі"
@@ -1420,7 +1436,7 @@ msgstr "Бүкіл дискіні пайдалану"
 msgid "Use free space"
 msgstr "Бос орынды пайдалану"
 
-#: src/components/users/Accounts.jsx:165
+#: src/components/users/Accounts.jsx:231
 msgid "Use local account"
 msgstr "Жергілікті тіркелгіні пайдалану"
 
@@ -1428,11 +1444,15 @@ msgstr "Жергілікті тіркелгіні пайдалану"
 msgid "Use the RAID device for automatic partitioning"
 msgstr "Автоматты түрде бөлімдерге бөлу үшін RAID құрылғысын пайдалану"
 
-#: src/components/users/Accounts.jsx:210
+#: src/components/users/Accounts.jsx:479
+msgid "User creation"
+msgstr "Пайдаланушыны жасау"
+
+#: src/components/users/Accounts.jsx:276
 msgid "User name"
 msgstr "Пайдаланушы аты"
 
-#: src/components/users/Accounts.jsx:115
+#: src/components/users/Accounts.jsx:172
 msgid ""
 "User name may only contain: letters from a-z, digits 0-9, dash $0, period "
 "$1, underscore $2"
@@ -1440,11 +1460,11 @@ msgstr ""
 "Пайдаланушы атында тек мыналар болуы мүмкін: a-z әріптері, 0-9 цифрлары, "
 "дефис $0, нүкте $1, астын сызу $2"
 
-#: src/components/users/Accounts.jsx:112
+#: src/components/users/Accounts.jsx:169
 msgid "User name must not be a reserved word"
 msgstr "Пайдаланушы аты резервтелген сөз болмауы тиіс"
 
-#: src/components/users/Accounts.jsx:109
+#: src/components/users/Accounts.jsx:166
 msgid "User names must be shorter than 33 characters"
 msgstr "Пайдаланушы аты 33 таңбадан қысқа болуы тиіс"
 
@@ -1493,7 +1513,7 @@ msgstr ""
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr "Bugzilla тіркелгіңіз үшін API кілтін $0 жасай аласыз."
 
-#: src/components/users/Accounts.jsx:375
+#: src/components/users/Accounts.jsx:512
 msgid ""
 "You have to enable the root account or create a local user account to "
 "proceed."
@@ -1756,12 +1776,6 @@ msgstr "болдырмау"
 
 #~ msgid "Select a disk"
 #~ msgstr "Дискті таңдау"
-
-#, fuzzy
-#~| msgid "The following mandatory spokes are not completed:"
-#~ msgid "The following disk was detected: $0"
-#~ msgid_plural "The following disks were detected: $0"
-#~ msgstr[0] "Келесі міндетті қадамдар аяқталмады:"
 
 #, fuzzy
 #~| msgid "No usable disks detected"
@@ -4743,9 +4757,6 @@ msgstr "болдырмау"
 #~ msgid "Root password"
 #~ msgstr "Әкімші (root) паролі"
 
-#~ msgid "Root password has been set."
-#~ msgstr "Root паролі орнатылған."
-
 #~ msgid "Root password is not set"
 #~ msgstr "Әкімші (root) паролі орнатылмаған"
 
@@ -5919,10 +5930,6 @@ msgstr "болдырмау"
 #~ msgid "Use the credentials from discovery"
 #~ msgstr "Табудың тіркелу деректерін қолдану"
 
-#, python-format
-#~ msgid "User %s will be created"
-#~ msgstr "%s пайдаланушысы жасалатын болады"
-
 #~ msgid "User Name"
 #~ msgstr "Пайдаланушы аты"
 
@@ -5932,9 +5939,6 @@ msgstr "болдырмау"
 
 #~ msgid "User and Group IDs"
 #~ msgstr "Пайдаланушы және топ ID-лары"
-
-#~ msgid "User creation"
-#~ msgstr "Пайдаланушыны жасау"
 
 #~ msgid "User name: "
 #~ msgstr "Пайдаланушы аты: "

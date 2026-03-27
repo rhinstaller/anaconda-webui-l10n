@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-26 04:56+0000\n"
+"POT-Creation-Date: 2026-03-27 04:58+0000\n"
 "PO-Revision-Date: 2026-03-17 04:31+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/anaconda-"
@@ -76,7 +76,7 @@ msgstr ""
 "$0는 논리 파티션이 포함된 MBR의 확장된 파티션입니다. 모든 논리 파티션 제거하"
 "기는 확장된 파티션도 자동으로 제거합니다."
 
-#: src/components/review/ReviewConfiguration.jsx:106
+#: src/components/review/ReviewConfiguration.jsx:89
 msgid "$0 is required, but only $1 is available."
 msgstr "$0 가 필요하나, $1 만 사용 할 수 있습니다."
 
@@ -105,7 +105,7 @@ msgstr ""
 "MDRAID 장치 $1 에서 '$0' 파티션을 찾았습니다. MDRAID 장치에서 부트로더 파티션"
 "은 지원되지 않습니다."
 
-#: src/components/users/Accounts.jsx:177
+#: src/components/users/Accounts.jsx:243
 msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr ""
@@ -115,7 +115,7 @@ msgstr ""
 msgid "About"
 msgstr "정보"
 
-#: src/components/review/ReviewConfiguration.jsx:194
+#: src/components/review/ReviewConfiguration.jsx:177
 msgid "Account"
 msgstr "계정"
 
@@ -252,7 +252,7 @@ msgstr "변경 대상"
 msgid "Change hostname"
 msgstr "호스트이름 변경"
 
-#: src/components/review/ReviewConfiguration.jsx:123
+#: src/components/review/ReviewConfiguration.jsx:106
 msgid "Change partition layout"
 msgstr "파티션 구성 변경"
 
@@ -324,7 +324,7 @@ msgid "Configure storage again"
 msgstr "저장소를 다시 구성합니다"
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:95
-#: src/components/users/Accounts.jsx:141 src/components/users/Accounts.jsx:297
+#: src/components/users/Accounts.jsx:198 src/components/users/Accounts.jsx:398
 msgid "Confirm passphrase"
 msgstr "암호문을 확인합니다"
 
@@ -340,11 +340,11 @@ msgstr "설치를 계속합니다"
 msgid "Continue with installation"
 msgstr "설치를 계속합니다"
 
-#: src/components/users/index.js:18
+#: src/components/users/index.js:20
 msgid "Create Account"
 msgstr "계정 생성"
 
-#: src/components/users/Accounts.jsx:239
+#: src/components/users/Accounts.jsx:305
 msgid "Create account"
 msgstr "계정 생성"
 
@@ -402,7 +402,7 @@ msgstr "중복 장치."
 msgid "Duplicate mount point."
 msgstr "중복 적재 지점."
 
-#: src/components/users/Accounts.jsx:279
+#: src/components/users/Accounts.jsx:329 src/components/users/Accounts.jsx:380
 msgid "Enable root account"
 msgstr "root 계정 활성화"
 
@@ -474,7 +474,7 @@ msgstr ""
 msgid "Find layout"
 msgstr "배열 찾기"
 
-#: src/components/users/Accounts.jsx:295
+#: src/components/users/Accounts.jsx:396
 msgid ""
 "For better security, avoid using the root account directly. Instead, use the "
 "local account above to manage the system."
@@ -482,11 +482,11 @@ msgstr ""
 "보다 나은 보안을 위해, 직접 root 계정 사용하기를 피합니다. 대신에, 위의 로컬 "
 "계정을 사용하여 시스템을 관리하세요."
 
-#: src/components/users/Accounts.jsx:179
+#: src/components/users/Accounts.jsx:245
 msgid "Full name"
 msgstr "성명"
 
-#: src/components/users/Accounts.jsx:127
+#: src/components/users/Accounts.jsx:184
 msgid "Full name cannot contain colon characters"
 msgstr "이름에 쌍점(:)을 사용 할 수 없습니다"
 
@@ -518,21 +518,21 @@ msgstr "호스트이름"
 msgid "How would you like to install?"
 msgstr "설치 하시겠습니까?"
 
-#: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/review/ReviewConfiguration.jsx:235
 msgid "I understand that all existing data will be erased"
 msgstr "나는 모든 기존 자료가 제거 될 것이라는 점을 이해합니다"
 
-#: src/components/review/ReviewConfiguration.jsx:253
+#: src/components/review/ReviewConfiguration.jsx:236
 msgid ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr ""
 "나는 모든 기존 자료가 선택한 디스크에서 제거 될 것이라는 것을 이해합니다"
 
-#: src/components/review/ReviewConfiguration.jsx:257
+#: src/components/review/ReviewConfiguration.jsx:240
 msgid "I understand that some existing data will be erased"
 msgstr "나는 일부 기존 자료가 제거 될 것이라는 점을 이해합니다"
 
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:241
 msgid "I understand that some partitions will be modified"
 msgstr "나는 일부 파티션이 수정 될 것이라는 점을 이해합니다"
 
@@ -591,7 +591,7 @@ msgstr "시스템 설치에 실패했습니다"
 msgid "Installation of the system failed: $0"
 msgstr "시스템 설치에 실패했습니다: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:209
+#: src/components/review/ReviewConfiguration.jsx:192
 msgid "Installation type"
 msgstr "설치 유형"
 
@@ -637,7 +637,7 @@ msgstr "키보드"
 msgid "Keyboard layout during boot"
 msgstr "부팅 중에 키보드 나열"
 
-#: src/components/review/ReviewConfiguration.jsx:180
+#: src/components/review/ReviewConfiguration.jsx:163
 #: src/components/localization/InstallationLanguage.jsx:227
 msgid "Language"
 msgstr "언어"
@@ -785,7 +785,7 @@ msgstr ""
 "선택한 키보드 배열을 위해 유효한 VConsole 키맵을 가져 올 수 없습니다. 다른 키"
 "보드 배열을 선택해주세요."
 
-#: src/components/review/ReviewConfiguration.jsx:104
+#: src/components/review/ReviewConfiguration.jsx:87
 msgid "Not enough available free space"
 msgstr "사용 할 수 있는 여유 공간이 충분하지 않습니다"
 
@@ -814,7 +814,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "버그질라 결점 보고 양식을 엽니다"
 
-#: src/components/review/ReviewConfiguration.jsx:169
+#: src/components/review/ReviewConfiguration.jsx:152
 msgid "Operating system"
 msgstr "운영 체제"
 
@@ -833,7 +833,7 @@ msgstr "파티션 (고급)"
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:92
-#: src/components/users/Accounts.jsx:138 src/components/users/Accounts.jsx:293
+#: src/components/users/Accounts.jsx:195 src/components/users/Accounts.jsx:394
 msgid "Passphrase"
 msgstr "암호문"
 
@@ -1068,13 +1068,17 @@ msgstr "저장소 편집기로 돌아갑니다"
 msgid "Review and install"
 msgstr "검토하고 설치"
 
-#: src/components/review/ReviewConfiguration.jsx:74
+#: src/components/users/Accounts.jsx:86
 msgid "Root account is enabled"
 msgstr "root 계정이 비활성화 되었습니다"
 
-#: src/components/review/ReviewConfiguration.jsx:68
+#: src/components/users/Accounts.jsx:78
 msgid "Root account is enabled, but no user account has been configured"
 msgstr "root 계정이 활성화 되었지만, 사용자 계정이 구성되지 않았습니다"
+
+#: src/components/users/Accounts.jsx:338
+msgid "Root password has been set."
+msgstr "root 비밀번호가 설정되었습니다."
 
 #: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:236
@@ -1214,7 +1218,7 @@ msgstr "공간"
 msgid "Stacktrace"
 msgstr "Stacktrace"
 
-#: src/components/review/ReviewConfiguration.jsx:216
+#: src/components/review/ReviewConfiguration.jsx:199
 msgid "Storage"
 msgstr "저장소"
 
@@ -1269,7 +1273,7 @@ msgstr "제안된 키보드"
 msgid "Suggested languages"
 msgstr "제안된 언어"
 
-#: src/components/users/Accounts.jsx:309
+#: src/components/users/Accounts.jsx:326 src/components/users/Accounts.jsx:410
 msgid "System"
 msgstr "시스템"
 
@@ -1286,6 +1290,19 @@ msgstr "시스템 구성: 소프트웨어 설치 완료. 시스템은 이제 구
 #: src/components/app.jsx:161
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "아나콘다 설치가 갑자기 중지되었습니다."
+
+#: src/components/users/Accounts.jsx:47
+#, fuzzy
+#| msgid "The following disk was detected: $0"
+#| msgid_plural "The following disks were detected: $0"
+msgid "The following user will be created:"
+msgstr "다음 디스크가 탐지되었습니다: $0"
+
+#: src/components/users/Accounts.jsx:48
+#, fuzzy
+#| msgid "User %s will be created"
+msgid "The following users will be created:"
+msgstr "사용자 %s가 생성 되어 있음"
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:45
 msgid ""
@@ -1361,7 +1378,7 @@ msgstr "시간이 좀 걸릴 수 있습니다"
 msgid "Time"
 msgstr "시간"
 
-#: src/components/review/ReviewConfiguration.jsx:187
+#: src/components/review/ReviewConfiguration.jsx:170
 #: src/components/datetime/Timezone.jsx:130
 msgid "Timezone"
 msgstr "시간대"
@@ -1427,7 +1444,7 @@ msgstr "전체 디스크 사용"
 msgid "Use free space"
 msgstr "여유 공간 사용"
 
-#: src/components/users/Accounts.jsx:165
+#: src/components/users/Accounts.jsx:231
 msgid "Use local account"
 msgstr "로컬 계정 사용"
 
@@ -1435,11 +1452,15 @@ msgstr "로컬 계정 사용"
 msgid "Use the RAID device for automatic partitioning"
 msgstr "자동 파티션을 위해 레이드 장치를 사용합니다"
 
-#: src/components/users/Accounts.jsx:210
+#: src/components/users/Accounts.jsx:479
+msgid "User creation"
+msgstr "사용자 생성(_U)"
+
+#: src/components/users/Accounts.jsx:276
 msgid "User name"
 msgstr "사용자 이름"
 
-#: src/components/users/Accounts.jsx:115
+#: src/components/users/Accounts.jsx:172
 msgid ""
 "User name may only contain: letters from a-z, digits 0-9, dash $0, period "
 "$1, underscore $2"
@@ -1447,11 +1468,11 @@ msgstr ""
 "사용자 이름은 다음만 포함해야 합니다: a~z 문자, 0-9 숫자, 줄표 $0, 마침표 "
 "$1, 밑줄 $2"
 
-#: src/components/users/Accounts.jsx:112
+#: src/components/users/Accounts.jsx:169
 msgid "User name must not be a reserved word"
 msgstr "사용자 이름은 예약된 단어가 아니어야 합니다"
 
-#: src/components/users/Accounts.jsx:109
+#: src/components/users/Accounts.jsx:166
 msgid "User names must be shorter than 33 characters"
 msgstr "사용자 이름은 33 자보다 짧아야 합니다"
 
@@ -1499,7 +1520,7 @@ msgstr ""
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr "당신은 자신의 버그질라 계정 $0 에서 API 키를 생성 할 수 있습니다."
 
-#: src/components/users/Accounts.jsx:375
+#: src/components/users/Accounts.jsx:512
 msgid ""
 "You have to enable the root account or create a local user account to "
 "proceed."
@@ -1782,10 +1803,6 @@ msgstr "실행취소"
 #~ msgid "The following disk is no longer available: $0"
 #~ msgid_plural "The following disks are no longer available: $0"
 #~ msgstr[0] "다음 디스크는 더 이상 사용 할 수 없습니다: $0"
-
-#~ msgid "The following disk was detected: $0"
-#~ msgid_plural "The following disks were detected: $0"
-#~ msgstr[0] "다음 디스크가 탐지되었습니다: $0"
 
 #~ msgid "The usable disks have changed"
 #~ msgstr "사용 가능한 디스크가 변경되었습니다"
@@ -4698,9 +4715,6 @@ msgstr "실행취소"
 #~ msgid "Root password"
 #~ msgstr "root 비밀번호"
 
-#~ msgid "Root password has been set."
-#~ msgstr "root 비밀번호가 설정되었습니다."
-
 #~ msgid "Root password is not set"
 #~ msgstr "root 비밀번호가 설정되어 있지 않습니다"
 
@@ -5856,10 +5870,6 @@ msgstr "실행취소"
 #~ msgid "Use the credentials from discovery"
 #~ msgstr "검색에서 인증 사용"
 
-#, python-format
-#~ msgid "User %s will be created"
-#~ msgstr "사용자 %s가 생성 되어 있음"
-
 #~ msgid "User Name"
 #~ msgstr "사용자 이름"
 
@@ -5869,9 +5879,6 @@ msgstr "실행취소"
 
 #~ msgid "User and Group IDs"
 #~ msgstr "사용자 및 그룹 ID"
-
-#~ msgid "User creation"
-#~ msgstr "사용자 생성(_U)"
 
 #~ msgid "User name: "
 #~ msgstr "사용자 이름: "

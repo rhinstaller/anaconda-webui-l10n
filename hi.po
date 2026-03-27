@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-26 04:56+0000\n"
+"POT-Creation-Date: 2026-03-27 04:58+0000\n"
 "PO-Revision-Date: 2023-11-06 12:18+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Hindi <https://translate.fedoraproject.org/projects/anaconda-"
@@ -59,7 +59,7 @@ msgid ""
 "all logical partitions will also automatically remove the extended partition."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:106
+#: src/components/review/ReviewConfiguration.jsx:89
 msgid "$0 is required, but only $1 is available."
 msgstr ""
 
@@ -91,7 +91,7 @@ msgid ""
 "devices are not supported."
 msgstr ""
 
-#: src/components/users/Accounts.jsx:177
+#: src/components/users/Accounts.jsx:243
 msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr ""
@@ -100,7 +100,7 @@ msgstr ""
 msgid "About"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:194
+#: src/components/review/ReviewConfiguration.jsx:177
 msgid "Account"
 msgstr ""
 
@@ -245,7 +245,7 @@ msgstr "विवरण"
 msgid "Change hostname"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:123
+#: src/components/review/ReviewConfiguration.jsx:106
 #, fuzzy
 msgid "Change partition layout"
 msgstr "विवरण"
@@ -326,7 +326,7 @@ msgid "Configure storage again"
 msgstr "भंडारण की जाँच कर रहा है..."
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:95
-#: src/components/users/Accounts.jsx:141 src/components/users/Accounts.jsx:297
+#: src/components/users/Accounts.jsx:198 src/components/users/Accounts.jsx:398
 #, fuzzy
 msgid "Confirm passphrase"
 msgstr "खाली शब्दकूट."
@@ -345,11 +345,11 @@ msgstr "संस्थापन"
 msgid "Continue with installation"
 msgstr "संस्थापन"
 
-#: src/components/users/index.js:18
+#: src/components/users/index.js:20
 msgid "Create Account"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:239
+#: src/components/users/Accounts.jsx:305
 msgid "Create account"
 msgstr ""
 
@@ -413,7 +413,7 @@ msgstr "चयनित युक्ति"
 msgid "Duplicate mount point."
 msgstr "चयनित युक्ति"
 
-#: src/components/users/Accounts.jsx:279
+#: src/components/users/Accounts.jsx:329 src/components/users/Accounts.jsx:380
 msgid "Enable root account"
 msgstr ""
 
@@ -499,17 +499,17 @@ msgstr ""
 msgid "Find layout"
 msgstr "अज्ञात"
 
-#: src/components/users/Accounts.jsx:295
+#: src/components/users/Accounts.jsx:396
 msgid ""
 "For better security, avoid using the root account directly. Instead, use the "
 "local account above to manage the system."
 msgstr ""
 
-#: src/components/users/Accounts.jsx:179
+#: src/components/users/Accounts.jsx:245
 msgid "Full name"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:127
+#: src/components/users/Accounts.jsx:184
 msgid "Full name cannot contain colon characters"
 msgstr ""
 
@@ -544,20 +544,20 @@ msgstr ""
 msgid "How would you like to install?"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/review/ReviewConfiguration.jsx:235
 msgid "I understand that all existing data will be erased"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:253
+#: src/components/review/ReviewConfiguration.jsx:236
 msgid ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:257
+#: src/components/review/ReviewConfiguration.jsx:240
 msgid "I understand that some existing data will be erased"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:241
 msgid "I understand that some partitions will be modified"
 msgstr ""
 
@@ -617,7 +617,7 @@ msgstr "संस्थापन"
 msgid "Installation of the system failed: $0"
 msgstr "संस्थापन"
 
-#: src/components/review/ReviewConfiguration.jsx:209
+#: src/components/review/ReviewConfiguration.jsx:192
 #, fuzzy
 msgid "Installation type"
 msgstr "संस्थापन"
@@ -660,7 +660,7 @@ msgstr ""
 msgid "Keyboard layout during boot"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:180
+#: src/components/review/ReviewConfiguration.jsx:163
 #: src/components/localization/InstallationLanguage.jsx:227
 #, fuzzy
 msgid "Language"
@@ -822,7 +822,7 @@ msgid ""
 "layout(s). Please make a different keyboard layout selection."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:104
+#: src/components/review/ReviewConfiguration.jsx:87
 #, fuzzy
 #| msgid "Not enough free space on selected disks."
 msgid "Not enough available free space"
@@ -853,7 +853,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:169
+#: src/components/review/ReviewConfiguration.jsx:152
 #, fuzzy
 msgid "Operating system"
 msgstr "उपयोक्ता निर्माण"
@@ -875,7 +875,7 @@ msgstr ""
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:92
-#: src/components/users/Accounts.jsx:138 src/components/users/Accounts.jsx:293
+#: src/components/users/Accounts.jsx:195 src/components/users/Accounts.jsx:394
 msgid "Passphrase"
 msgstr ""
 
@@ -1130,15 +1130,21 @@ msgstr "संस्थापन"
 msgid "Review and install"
 msgstr "संस्थापन"
 
-#: src/components/review/ReviewConfiguration.jsx:74
+#: src/components/users/Accounts.jsx:86
 #, fuzzy
 #| msgid "Root account is disabled."
 msgid "Root account is enabled"
 msgstr "रूट खाता अक्षम है."
 
-#: src/components/review/ReviewConfiguration.jsx:68
+#: src/components/users/Accounts.jsx:78
 msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
+
+#: src/components/users/Accounts.jsx:338
+#, fuzzy
+#| msgid "Root password is not set"
+msgid "Root password has been set."
+msgstr "रूट कूटशब्द सेट नहीं है"
 
 #: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:236
@@ -1293,7 +1299,7 @@ msgstr ""
 msgid "Stacktrace"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:216
+#: src/components/review/ReviewConfiguration.jsx:199
 msgid "Storage"
 msgstr ""
 
@@ -1355,7 +1361,7 @@ msgstr "चयनित युक्ति"
 msgid "Suggested languages"
 msgstr "चयनित युक्ति"
 
-#: src/components/users/Accounts.jsx:309
+#: src/components/users/Accounts.jsx:326 src/components/users/Accounts.jsx:410
 #, fuzzy
 #| msgid "System Purpose"
 msgid "System"
@@ -1377,6 +1383,18 @@ msgstr ""
 #| msgid "Choose an installation source type."
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "संस्थापन स्रोत स्तर चुनें"
+
+#: src/components/users/Accounts.jsx:47
+#, fuzzy
+#| msgid "The following mandatory spokes are not completed:"
+msgid "The following user will be created:"
+msgstr "निम्नलिखित अनिवार्य स्पोक पूर्ण नहीं है:"
+
+#: src/components/users/Accounts.jsx:48
+#, fuzzy
+#| msgid "User %s will be created"
+msgid "The following users will be created:"
+msgstr "उपयोक्ता %s बनाया जाएगा"
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:45
 msgid ""
@@ -1444,7 +1462,7 @@ msgstr "डिस्क स्कैन कर रहा है. यह कु�
 msgid "Time"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:187
+#: src/components/review/ReviewConfiguration.jsx:170
 #: src/components/datetime/Timezone.jsx:130
 #, fuzzy
 #| msgid "%s timezone"
@@ -1515,7 +1533,7 @@ msgstr "चयनित युक्ति"
 msgid "Use free space"
 msgstr "मुक्त स्थान का प्रयोग करें"
 
-#: src/components/users/Accounts.jsx:165
+#: src/components/users/Accounts.jsx:231
 #, fuzzy
 #| msgid "Use All Space"
 msgid "Use local account"
@@ -1525,21 +1543,26 @@ msgstr "सभी स्थान का उपयोग करें"
 msgid "Use the RAID device for automatic partitioning"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:210
+#: src/components/users/Accounts.jsx:479
+#, fuzzy
+msgid "User creation"
+msgstr "भंडारण विन्यास सहेज रहा है..."
+
+#: src/components/users/Accounts.jsx:276
 msgid "User name"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:115
+#: src/components/users/Accounts.jsx:172
 msgid ""
 "User name may only contain: letters from a-z, digits 0-9, dash $0, period "
 "$1, underscore $2"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:112
+#: src/components/users/Accounts.jsx:169
 msgid "User name must not be a reserved word"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:109
+#: src/components/users/Accounts.jsx:166
 #, fuzzy
 #| msgid "The password cannot be more than eight characters long."
 msgid "User names must be shorter than 33 characters"
@@ -1587,7 +1610,7 @@ msgstr ""
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr ""
 
-#: src/components/users/Accounts.jsx:375
+#: src/components/users/Accounts.jsx:512
 msgid ""
 "You have to enable the root account or create a local user account to "
 "proceed."
@@ -1747,13 +1770,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Select a disk"
 #~ msgstr "चयनित युक्ति"
-
-#, fuzzy
-#~| msgid "The following mandatory spokes are not completed:"
-#~ msgid "The following disk was detected: $0"
-#~ msgid_plural "The following disks were detected: $0"
-#~ msgstr[0] "निम्नलिखित अनिवार्य स्पोक पूर्ण नहीं है:"
-#~ msgstr[1] "निम्नलिखित अनिवार्य स्पोक पूर्ण नहीं है:"
 
 #, fuzzy
 #~ msgid "The usable disks have changed"
@@ -2968,9 +2984,6 @@ msgstr ""
 #~ msgid "Revert to the previous list of repositories."
 #~ msgstr "रिपोजिटरी की पिछली सूची वापस लें."
 
-#~ msgid "Root password is not set"
-#~ msgstr "रूट कूटशब्द सेट नहीं है"
-
 #~ msgid "Root password is set"
 #~ msgstr "रूट कूटशब्द सेट है"
 
@@ -3408,10 +3421,6 @@ msgstr ""
 
 #~ msgid "Use the credentials from discovery"
 #~ msgstr "खोज से श्रेय का उपयोग करें"
-
-#, python-format
-#~ msgid "User %s will be created"
-#~ msgstr "उपयोक्ता %s बनाया जाएगा"
 
 #~ msgid "User and Group IDs"
 #~ msgstr "उपयोक्ता और समूह सूची"

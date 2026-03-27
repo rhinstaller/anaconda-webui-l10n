@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-26 04:56+0000\n"
+"POT-Creation-Date: 2026-03-27 04:58+0000\n"
 "PO-Revision-Date: 2026-03-12 04:28+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
@@ -69,7 +69,7 @@ msgstr ""
 "bort alla logiska partitioner tas också den utökade partitionen bort "
 "automatiskt."
 
-#: src/components/review/ReviewConfiguration.jsx:106
+#: src/components/review/ReviewConfiguration.jsx:89
 msgid "$0 is required, but only $1 is available."
 msgstr "$0 är obligatoriskt, men endast $1 är tillgänglig."
 
@@ -99,7 +99,7 @@ msgstr ""
 "'$0' partition på MDRAID enhet $1 hittades. Bootloader-partitioner på MDRAID-"
 "enheter stöds inte."
 
-#: src/components/users/Accounts.jsx:177
+#: src/components/users/Accounts.jsx:243
 msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr ""
@@ -110,7 +110,7 @@ msgstr ""
 msgid "About"
 msgstr "Om"
 
-#: src/components/review/ReviewConfiguration.jsx:194
+#: src/components/review/ReviewConfiguration.jsx:177
 msgid "Account"
 msgstr "Konto"
 
@@ -249,7 +249,7 @@ msgstr "Ändra destination"
 msgid "Change hostname"
 msgstr "Ändra värdnamn"
 
-#: src/components/review/ReviewConfiguration.jsx:123
+#: src/components/review/ReviewConfiguration.jsx:106
 msgid "Change partition layout"
 msgstr "Ändra partitionslayout"
 
@@ -321,7 +321,7 @@ msgid "Configure storage again"
 msgstr "Konfigurera lagring igen"
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:95
-#: src/components/users/Accounts.jsx:141 src/components/users/Accounts.jsx:297
+#: src/components/users/Accounts.jsx:198 src/components/users/Accounts.jsx:398
 msgid "Confirm passphrase"
 msgstr "Bekräfta lösenfras"
 
@@ -337,11 +337,11 @@ msgstr "Fortsätt installation"
 msgid "Continue with installation"
 msgstr "Fortsätt med installation"
 
-#: src/components/users/index.js:18
+#: src/components/users/index.js:20
 msgid "Create Account"
 msgstr "Skapa konto"
 
-#: src/components/users/Accounts.jsx:239
+#: src/components/users/Accounts.jsx:305
 msgid "Create account"
 msgstr "Skapa konto"
 
@@ -399,7 +399,7 @@ msgstr "Duplicera enhet."
 msgid "Duplicate mount point."
 msgstr "Duplicera monteringspunkt."
 
-#: src/components/users/Accounts.jsx:279
+#: src/components/users/Accounts.jsx:329 src/components/users/Accounts.jsx:380
 msgid "Enable root account"
 msgstr "Aktivera root-konto"
 
@@ -472,7 +472,7 @@ msgstr ""
 msgid "Find layout"
 msgstr "Hitta layout"
 
-#: src/components/users/Accounts.jsx:295
+#: src/components/users/Accounts.jsx:396
 msgid ""
 "For better security, avoid using the root account directly. Instead, use the "
 "local account above to manage the system."
@@ -480,11 +480,11 @@ msgstr ""
 "För bättre säkerhet, undvik att använda root-kontot direkt. Använd istället "
 "det lokala kontot ovan för att hantera systemet."
 
-#: src/components/users/Accounts.jsx:179
+#: src/components/users/Accounts.jsx:245
 msgid "Full name"
 msgstr "Fullständigt namn"
 
-#: src/components/users/Accounts.jsx:127
+#: src/components/users/Accounts.jsx:184
 msgid "Full name cannot contain colon characters"
 msgstr "Det fullständiga namnet får inte innehålla kolontecken"
 
@@ -516,21 +516,21 @@ msgstr "Värdnamn"
 msgid "How would you like to install?"
 msgstr "Hur vill du installera?"
 
-#: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/review/ReviewConfiguration.jsx:235
 msgid "I understand that all existing data will be erased"
 msgstr "Jag förstår att all befintlig data kommer att raderas"
 
-#: src/components/review/ReviewConfiguration.jsx:253
+#: src/components/review/ReviewConfiguration.jsx:236
 msgid ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr ""
 "Jag förstår att all befintlig data kommer att raderas från de valda diskarna"
 
-#: src/components/review/ReviewConfiguration.jsx:257
+#: src/components/review/ReviewConfiguration.jsx:240
 msgid "I understand that some existing data will be erased"
 msgstr "Jag förstår att någon befintliga data kan komma att raderas"
 
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:241
 msgid "I understand that some partitions will be modified"
 msgstr "Jag förstår att vissa partitioner kommer att modifieras"
 
@@ -591,7 +591,7 @@ msgstr "installationen av systemet misslyckades"
 msgid "Installation of the system failed: $0"
 msgstr "installationen av systemet misslyckades: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:209
+#: src/components/review/ReviewConfiguration.jsx:192
 msgid "Installation type"
 msgstr "Installationstyp"
 
@@ -637,7 +637,7 @@ msgstr "Tangentbord"
 msgid "Keyboard layout during boot"
 msgstr "Tangentbordslayout under uppstart"
 
-#: src/components/review/ReviewConfiguration.jsx:180
+#: src/components/review/ReviewConfiguration.jsx:163
 #: src/components/localization/InstallationLanguage.jsx:227
 msgid "Language"
 msgstr "Språk"
@@ -788,7 +788,7 @@ msgstr ""
 "Ingen giltig VConsole-tangentuppsättning kan erhållas för den valda "
 "tangentbordslayouten. Välj en annan tangentbordslayout."
 
-#: src/components/review/ReviewConfiguration.jsx:104
+#: src/components/review/ReviewConfiguration.jsx:87
 msgid "Not enough available free space"
 msgstr "Inte tillräckligt med ledigt utrymme"
 
@@ -818,7 +818,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Öppna Bugzilla-felanmälningsformuläret"
 
-#: src/components/review/ReviewConfiguration.jsx:169
+#: src/components/review/ReviewConfiguration.jsx:152
 msgid "Operating system"
 msgstr "Operativsystem"
 
@@ -837,7 +837,7 @@ msgstr "Partitioner (avancerat)"
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:92
-#: src/components/users/Accounts.jsx:138 src/components/users/Accounts.jsx:293
+#: src/components/users/Accounts.jsx:195 src/components/users/Accounts.jsx:394
 msgid "Passphrase"
 msgstr "Lösenfras"
 
@@ -1077,13 +1077,17 @@ msgstr "Återgå till lagringsredigerare"
 msgid "Review and install"
 msgstr "Granska och installera"
 
-#: src/components/review/ReviewConfiguration.jsx:74
+#: src/components/users/Accounts.jsx:86
 msgid "Root account is enabled"
 msgstr "Root-konto är aktiverat"
 
-#: src/components/review/ReviewConfiguration.jsx:68
+#: src/components/users/Accounts.jsx:78
 msgid "Root account is enabled, but no user account has been configured"
 msgstr "Root-konto är aktiverat, men inget användarkonto har konfigurerats"
+
+#: src/components/users/Accounts.jsx:338
+msgid "Root password has been set."
+msgstr "Root-lösenordet har satts."
 
 #: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:236
@@ -1223,7 +1227,7 @@ msgstr "Utrymme"
 msgid "Stacktrace"
 msgstr "Stackspår"
 
-#: src/components/review/ReviewConfiguration.jsx:216
+#: src/components/review/ReviewConfiguration.jsx:199
 msgid "Storage"
 msgstr "Lagring"
 
@@ -1279,7 +1283,7 @@ msgstr "Föreslagna tangentbord"
 msgid "Suggested languages"
 msgstr "Föreslagna språk"
 
-#: src/components/users/Accounts.jsx:309
+#: src/components/users/Accounts.jsx:326 src/components/users/Accounts.jsx:410
 msgid "System"
 msgstr "System"
 
@@ -1298,6 +1302,19 @@ msgstr ""
 #: src/components/app.jsx:161
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "Installationen med anaconda har oväntat stoppats."
+
+#: src/components/users/Accounts.jsx:47
+#, fuzzy
+#| msgid "The following disk was detected: $0"
+#| msgid_plural "The following disks were detected: $0"
+msgid "The following user will be created:"
+msgstr "Följande disk upptäcktes: $0"
+
+#: src/components/users/Accounts.jsx:48
+#, fuzzy
+#| msgid "User %s will be created"
+msgid "The following users will be created:"
+msgstr "Användaren %s kommer skapas"
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:45
 msgid ""
@@ -1376,7 +1393,7 @@ msgstr "Detta kommer att ta en stund"
 msgid "Time"
 msgstr "Tid"
 
-#: src/components/review/ReviewConfiguration.jsx:187
+#: src/components/review/ReviewConfiguration.jsx:170
 #: src/components/datetime/Timezone.jsx:130
 msgid "Timezone"
 msgstr "Tidszon"
@@ -1442,7 +1459,7 @@ msgstr "Använd hela disken"
 msgid "Use free space"
 msgstr "Använd ledigt utrymme"
 
-#: src/components/users/Accounts.jsx:165
+#: src/components/users/Accounts.jsx:231
 msgid "Use local account"
 msgstr "Använd lokalt konto"
 
@@ -1450,11 +1467,15 @@ msgstr "Använd lokalt konto"
 msgid "Use the RAID device for automatic partitioning"
 msgstr "Använd RAID-enheten för automatisk partitionering"
 
-#: src/components/users/Accounts.jsx:210
+#: src/components/users/Accounts.jsx:479
+msgid "User creation"
+msgstr "Skapande av användare"
+
+#: src/components/users/Accounts.jsx:276
 msgid "User name"
 msgstr "Användarnamn"
 
-#: src/components/users/Accounts.jsx:115
+#: src/components/users/Accounts.jsx:172
 msgid ""
 "User name may only contain: letters from a-z, digits 0-9, dash $0, period "
 "$1, underscore $2"
@@ -1462,11 +1483,11 @@ msgstr ""
 "Användarnamn får bara innehålla: bokstäver från a-z, siffror 0-9, "
 "bindestreck $0, punkt $1, understreck $2"
 
-#: src/components/users/Accounts.jsx:112
+#: src/components/users/Accounts.jsx:169
 msgid "User name must not be a reserved word"
 msgstr "Användarnamn får inte ha ett reserverat ord"
 
-#: src/components/users/Accounts.jsx:109
+#: src/components/users/Accounts.jsx:166
 msgid "User names must be shorter than 33 characters"
 msgstr "Användarnamn måste vara kortare än 33 tecken"
 
@@ -1516,7 +1537,7 @@ msgstr ""
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr "Du kan generera API-nyckeln för ditt Bugzilla-konto $0."
 
-#: src/components/users/Accounts.jsx:375
+#: src/components/users/Accounts.jsx:512
 msgid ""
 "You have to enable the root account or create a local user account to "
 "proceed."
@@ -1818,11 +1839,6 @@ msgstr "ångra"
 #~ msgid_plural "The following disks are no longer available: $0"
 #~ msgstr[0] "Följande disk är inte längre tillgänglig: $0"
 #~ msgstr[1] "Följande diskar är inte längre tillgängliga: $0"
-
-#~ msgid "The following disk was detected: $0"
-#~ msgid_plural "The following disks were detected: $0"
-#~ msgstr[0] "Följande disk upptäcktes: $0"
-#~ msgstr[1] "Följande diskar upptäcktes: $0"
 
 #~ msgid "The usable disks have changed"
 #~ msgstr "De användbara diskarna har ändrats"
@@ -4784,9 +4800,6 @@ msgstr "ångra"
 #~ msgid "Root password"
 #~ msgstr "Root lösenord"
 
-#~ msgid "Root password has been set."
-#~ msgstr "Root-lösenordet har satts."
-
 #~ msgid "Root password is not set"
 #~ msgstr "Root-lösenordet är inte satt"
 
@@ -5967,10 +5980,6 @@ msgstr "ångra"
 #~ msgid "Use the credentials from discovery"
 #~ msgstr "Använd kreditiven från upptäckten"
 
-#, python-format
-#~ msgid "User %s will be created"
-#~ msgstr "Användaren %s kommer skapas"
-
 #~ msgid "User Name"
 #~ msgstr "Användarnamn"
 
@@ -5980,9 +5989,6 @@ msgstr "ångra"
 
 #~ msgid "User and Group IDs"
 #~ msgstr "Användar- och grupp-ID:n"
-
-#~ msgid "User creation"
-#~ msgstr "Skapande av användare"
 
 #~ msgid "User name: "
 #~ msgstr "Användarnamn: "

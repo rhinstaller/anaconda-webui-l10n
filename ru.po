@@ -52,7 +52,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-26 04:56+0000\n"
+"POT-Creation-Date: 2026-03-27 04:58+0000\n"
 "PO-Revision-Date: 2026-03-12 04:28+0000\n"
 "Last-Translator: Aleksey Fedorov <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
@@ -92,7 +92,7 @@ msgstr ""
 "$0 - это расширенный раздел MBR, содержащий логические разделы. Удаление "
 "всех логических разделов также автоматически удалит расширенный раздел."
 
-#: src/components/review/ReviewConfiguration.jsx:106
+#: src/components/review/ReviewConfiguration.jsx:89
 msgid "$0 is required, but only $1 is available."
 msgstr "Требуется $0, но имеется только $1."
 
@@ -124,7 +124,7 @@ msgstr ""
 "Найден раздел „$0“ на MDRAID-устройстве $1. Разделы загрузчика на "
 "устройствах MDRAID не поддерживаются."
 
-#: src/components/users/Accounts.jsx:177
+#: src/components/users/Accounts.jsx:243
 msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr ""
@@ -135,7 +135,7 @@ msgstr ""
 msgid "About"
 msgstr "О программе"
 
-#: src/components/review/ReviewConfiguration.jsx:194
+#: src/components/review/ReviewConfiguration.jsx:177
 msgid "Account"
 msgstr "Учетная запись"
 
@@ -274,7 +274,7 @@ msgstr "Изменить назначение"
 msgid "Change hostname"
 msgstr "Изменить имя узла"
 
-#: src/components/review/ReviewConfiguration.jsx:123
+#: src/components/review/ReviewConfiguration.jsx:106
 msgid "Change partition layout"
 msgstr "Изменить схему разделов"
 
@@ -349,7 +349,7 @@ msgid "Configure storage again"
 msgstr "Снова настройте хранилище"
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:95
-#: src/components/users/Accounts.jsx:141 src/components/users/Accounts.jsx:297
+#: src/components/users/Accounts.jsx:198 src/components/users/Accounts.jsx:398
 msgid "Confirm passphrase"
 msgstr "Подтвердите парольную фразу"
 
@@ -365,11 +365,11 @@ msgstr "Продолжить установку"
 msgid "Continue with installation"
 msgstr "Продолжение установки"
 
-#: src/components/users/index.js:18
+#: src/components/users/index.js:20
 msgid "Create Account"
 msgstr "Создать учетную запись"
 
-#: src/components/users/Accounts.jsx:239
+#: src/components/users/Accounts.jsx:305
 msgid "Create account"
 msgstr "Создать учетную запись"
 
@@ -427,7 +427,7 @@ msgstr "Дублирование устройства."
 msgid "Duplicate mount point."
 msgstr "Дублирование точки монтирования."
 
-#: src/components/users/Accounts.jsx:279
+#: src/components/users/Accounts.jsx:329 src/components/users/Accounts.jsx:380
 msgid "Enable root account"
 msgstr "Включить учётную запись root"
 
@@ -500,7 +500,7 @@ msgstr ""
 msgid "Find layout"
 msgstr "Найти раскладку"
 
-#: src/components/users/Accounts.jsx:295
+#: src/components/users/Accounts.jsx:396
 msgid ""
 "For better security, avoid using the root account directly. Instead, use the "
 "local account above to manage the system."
@@ -509,11 +509,11 @@ msgstr ""
 "Вместо этого используйте локальную учетную запись, указанную выше, для "
 "управления системой."
 
-#: src/components/users/Accounts.jsx:179
+#: src/components/users/Accounts.jsx:245
 msgid "Full name"
 msgstr "Полное имя"
 
-#: src/components/users/Accounts.jsx:127
+#: src/components/users/Accounts.jsx:184
 msgid "Full name cannot contain colon characters"
 msgstr "Полное имя не может содержать двоеточий"
 
@@ -545,21 +545,21 @@ msgstr "Имя узла"
 msgid "How would you like to install?"
 msgstr "Как хотели бы выполнить установку?"
 
-#: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/review/ReviewConfiguration.jsx:235
 msgid "I understand that all existing data will be erased"
 msgstr "Я понимаю, что все существующие данные будут удалены"
 
-#: src/components/review/ReviewConfiguration.jsx:253
+#: src/components/review/ReviewConfiguration.jsx:236
 msgid ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr ""
 "Я понимаю, что все существующие данные будут удалены с выбранных дисков"
 
-#: src/components/review/ReviewConfiguration.jsx:257
+#: src/components/review/ReviewConfiguration.jsx:240
 msgid "I understand that some existing data will be erased"
 msgstr "Я понимаю, что некоторые существующие данные будут удалены"
 
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:241
 msgid "I understand that some partitions will be modified"
 msgstr "Я понимаю, что некоторые разделы будут изменены"
 
@@ -620,7 +620,7 @@ msgstr "Сбой установки системы"
 msgid "Installation of the system failed: $0"
 msgstr "Установка системы не удалась: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:209
+#: src/components/review/ReviewConfiguration.jsx:192
 msgid "Installation type"
 msgstr "Тип установки"
 
@@ -666,7 +666,7 @@ msgstr "Клавиатура"
 msgid "Keyboard layout during boot"
 msgstr "Раскладка клавиатуры при запуске"
 
-#: src/components/review/ReviewConfiguration.jsx:180
+#: src/components/review/ReviewConfiguration.jsx:163
 #: src/components/localization/InstallationLanguage.jsx:227
 msgid "Language"
 msgstr "Язык"
@@ -816,7 +816,7 @@ msgstr ""
 "Для выбранной раскладки клавиатуры невозможно получить действительную "
 "раскладку клавиатуры VConsole. Выберите другую раскладку."
 
-#: src/components/review/ReviewConfiguration.jsx:104
+#: src/components/review/ReviewConfiguration.jsx:87
 msgid "Not enough available free space"
 msgstr "Недостаточно свободного места"
 
@@ -847,7 +847,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Открыть форму регистрации ошибок Bugzilla"
 
-#: src/components/review/ReviewConfiguration.jsx:169
+#: src/components/review/ReviewConfiguration.jsx:152
 msgid "Operating system"
 msgstr "Операционная система"
 
@@ -866,7 +866,7 @@ msgstr "Разделы (расширенный)"
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:92
-#: src/components/users/Accounts.jsx:138 src/components/users/Accounts.jsx:293
+#: src/components/users/Accounts.jsx:195 src/components/users/Accounts.jsx:394
 msgid "Passphrase"
 msgstr "Парольная фраза"
 
@@ -1105,13 +1105,17 @@ msgstr "Возврат к редактору хранилища"
 msgid "Review and install"
 msgstr "Обзор и установка"
 
-#: src/components/review/ReviewConfiguration.jsx:74
+#: src/components/users/Accounts.jsx:86
 msgid "Root account is enabled"
 msgstr "Учетная запись Root включена"
 
-#: src/components/review/ReviewConfiguration.jsx:68
+#: src/components/users/Accounts.jsx:78
 msgid "Root account is enabled, but no user account has been configured"
 msgstr "Уч. запись Root включена, но уч. запись пользователя не настроена"
+
+#: src/components/users/Accounts.jsx:338
+msgid "Root password has been set."
+msgstr "Пароль root задан."
 
 #: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:236
@@ -1251,7 +1255,7 @@ msgstr "Пространство"
 msgid "Stacktrace"
 msgstr "Трассировка стека"
 
-#: src/components/review/ReviewConfiguration.jsx:216
+#: src/components/review/ReviewConfiguration.jsx:199
 msgid "Storage"
 msgstr "Хранилище"
 
@@ -1306,7 +1310,7 @@ msgstr "Предлагаемые клавиатуры"
 msgid "Suggested languages"
 msgstr "Предлагаемые языки"
 
-#: src/components/users/Accounts.jsx:309
+#: src/components/users/Accounts.jsx:326 src/components/users/Accounts.jsx:410
 msgid "System"
 msgstr "Система"
 
@@ -1325,6 +1329,19 @@ msgstr ""
 #: src/components/app.jsx:161
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "Работа программы установки Anaconda была неожиданно прервана."
+
+#: src/components/users/Accounts.jsx:47
+#, fuzzy
+#| msgid "The following disk was detected: $0"
+#| msgid_plural "The following disks were detected: $0"
+msgid "The following user will be created:"
+msgstr "Обнаружен следующий диск: $0"
+
+#: src/components/users/Accounts.jsx:48
+#, fuzzy
+#| msgid "User %s will be created"
+msgid "The following users will be created:"
+msgstr "Будет создан пользователь %s"
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:45
 msgid ""
@@ -1402,7 +1419,7 @@ msgstr "Это займёт некоторое время"
 msgid "Time"
 msgstr "Время"
 
-#: src/components/review/ReviewConfiguration.jsx:187
+#: src/components/review/ReviewConfiguration.jsx:170
 #: src/components/datetime/Timezone.jsx:130
 msgid "Timezone"
 msgstr "Часовой пояс"
@@ -1468,7 +1485,7 @@ msgstr "Использовать весь диск"
 msgid "Use free space"
 msgstr "Исп. свободное пространство"
 
-#: src/components/users/Accounts.jsx:165
+#: src/components/users/Accounts.jsx:231
 msgid "Use local account"
 msgstr "Исп. локальную учетную запись"
 
@@ -1476,11 +1493,15 @@ msgstr "Исп. локальную учетную запись"
 msgid "Use the RAID device for automatic partitioning"
 msgstr "Исп. устройство RAID для автоматического разбиения на разделы"
 
-#: src/components/users/Accounts.jsx:210
+#: src/components/users/Accounts.jsx:479
+msgid "User creation"
+msgstr "Создание пользователя"
+
+#: src/components/users/Accounts.jsx:276
 msgid "User name"
 msgstr "Имя пользователя"
 
-#: src/components/users/Accounts.jsx:115
+#: src/components/users/Accounts.jsx:172
 msgid ""
 "User name may only contain: letters from a-z, digits 0-9, dash $0, period "
 "$1, underscore $2"
@@ -1488,11 +1509,11 @@ msgstr ""
 "Имя пользователя может содержать только: буквы от a-z, цифры 0-9, тире $0, "
 "точку $1, знак подчеркивания $2"
 
-#: src/components/users/Accounts.jsx:112
+#: src/components/users/Accounts.jsx:169
 msgid "User name must not be a reserved word"
 msgstr "Имя пользователя не должно быть зарезервированным словом"
 
-#: src/components/users/Accounts.jsx:109
+#: src/components/users/Accounts.jsx:166
 msgid "User names must be shorter than 33 characters"
 msgstr "Имена пользователей должны быть короче 33 символов"
 
@@ -1541,7 +1562,7 @@ msgstr ""
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr "Вы можете сгенерировать ключ API для своей учетной записи Bugzilla $0."
 
-#: src/components/users/Accounts.jsx:375
+#: src/components/users/Accounts.jsx:512
 msgid ""
 "You have to enable the root account or create a local user account to "
 "proceed."
@@ -1845,12 +1866,6 @@ msgstr "отменить"
 #~ msgstr[0] "Следующий диск больше не доступен: $0"
 #~ msgstr[1] "Следующие диски больше не доступны: $0"
 #~ msgstr[2] "Следующие диски больше не доступны: $0"
-
-#~ msgid "The following disk was detected: $0"
-#~ msgid_plural "The following disks were detected: $0"
-#~ msgstr[0] "Обнаружен следующий диск: $0"
-#~ msgstr[1] "Обнаружены следующие диски: $0"
-#~ msgstr[2] "Обнаружены следующие диски: $0"
 
 #~ msgid "The usable disks have changed"
 #~ msgstr "Пригодные для использования диски изменились"
@@ -4826,9 +4841,6 @@ msgstr "отменить"
 #~ msgid "Root password"
 #~ msgstr "Пароль root"
 
-#~ msgid "Root password has been set."
-#~ msgstr "Пароль root задан."
-
 #~ msgid "Root password is not set"
 #~ msgstr "Пароль root не задан"
 
@@ -6016,10 +6028,6 @@ msgstr "отменить"
 #~ msgid "Use the credentials from discovery"
 #~ msgstr "Данные с этапа обнаружения"
 
-#, python-format
-#~ msgid "User %s will be created"
-#~ msgstr "Будет создан пользователь %s"
-
 #~ msgid "User Name"
 #~ msgstr "Пользователь"
 
@@ -6029,9 +6037,6 @@ msgstr "отменить"
 
 #~ msgid "User and Group IDs"
 #~ msgstr "Идентификаторы пользователя и группы"
-
-#~ msgid "User creation"
-#~ msgstr "Создание пользователя"
 
 #~ msgid "User name: "
 #~ msgstr "Имя пользователя: "
