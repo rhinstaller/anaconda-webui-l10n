@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-07 04:59+0000\n"
+"POT-Creation-Date: 2026-04-08 05:01+0000\n"
 "PO-Revision-Date: 2024-11-18 02:57+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.fedoraproject.org/projects/anaconda-"
@@ -36,9 +36,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 #: src/components/storage/installation-method/InstallationDestination.jsx:188
 #: src/components/storage/installation-method/InstallationDestination.jsx:282
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -97,8 +97,8 @@ msgstr "על אודות"
 msgid "Account"
 msgstr "חשבון"
 
-#: src/components/review/StorageReview.jsx:235
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
+#: src/components/review/StorageReview.jsx:235
 msgid "Actions"
 msgstr "פעולות"
 
@@ -223,11 +223,11 @@ msgstr ""
 "בתוכנה שטרם יצאה לאור, אותה ייעדת לשימוש למטרות בדיקות ופיתוח ולקחת על עצמך "
 "אחריות לדווח על תקלות או בעיות שצצות כדי לשפר את המערכת הזאת."
 
-#: src/components/Error.jsx:759 src/components/review/Hostname.jsx:127
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/datetime/CustomNTPModal.jsx:252
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:208
 #: src/components/storage/installation-method/InstallationDestination.jsx:381
-#: src/components/datetime/CustomNTPModal.jsx:252
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
 #: src/components/localization/Keyboard.jsx:280
 msgid "Cancel"
 msgstr "ביטול"
@@ -261,9 +261,9 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr "שינויים שבוצעו כאן ישפיעו על המערכת ישירות. אי אפשר לסגת."
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:425
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:431
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "הגדרות האחסון נבדקות"
 
@@ -277,8 +277,8 @@ msgstr "מחיקת ערך קלט"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr ""
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "סגירה"
@@ -308,8 +308,8 @@ msgstr "הגדרת שרתי NTP"
 msgid "Configure custom NTP servers"
 msgstr "הגדרת שרתי NTP"
 
-#: src/components/HeaderKebab.jsx:113
 #: src/components/network/CockpitNetworkConfiguration.jsx:70
+#: src/components/HeaderKebab.jsx:113
 #, fuzzy
 #| msgid "Configure storage"
 msgid "Configure network"
@@ -360,8 +360,8 @@ msgstr "מותאם אישית"
 msgid "Date"
 msgstr ""
 
-#: src/components/datetime/DateAndTime.jsx:151
 #: src/components/datetime/index.js:18
+#: src/components/datetime/DateAndTime.jsx:151
 #, fuzzy
 #| msgid "Set Date & Time"
 msgid "Date and time"
@@ -395,8 +395,8 @@ msgstr "תיאור התקן"
 msgid "Detected valid storage layout:"
 msgstr "זוהתה פריסת אחסון תקפה:"
 
-#: src/components/review/StorageReview.jsx:233
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
+#: src/components/review/StorageReview.jsx:233
 msgid "Device"
 msgstr "התקן"
 
@@ -526,18 +526,18 @@ msgstr "הסתרת הסיסמה"
 msgid "Hostname"
 msgstr "שם מארח"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:150
+#: src/components/storage/installation-method/InstallationScenario.jsx:149
 msgid "How would you like to install?"
 msgstr "איך להתקין?"
 
 #: src/components/review/ReviewConfiguration.jsx:235
+#, fuzzy
+#| msgid "I understand that all existing data will be erased"
 msgid "I understand that all existing data will be erased"
-msgstr "ברור לי שכל הנתונים הקיימים יימחקו"
-
-#: src/components/review/ReviewConfiguration.jsx:236
-msgid ""
+msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
-msgstr "ברור לי שכל הנתונים הקיימים יימחקו מהכוננים הנבחרים"
+msgstr[0] "ברור לי שכל הנתונים הקיימים יימחקו"
+msgstr[1] "ברור לי שכל הנתונים הקיימים יימחקו"
 
 #: src/components/review/ReviewConfiguration.jsx:240
 msgid "I understand that some existing data will be erased"
@@ -575,8 +575,9 @@ msgstr "בתהליך"
 msgid "Initializing..."
 msgstr "מופעל…"
 
+#: src/components/storage/scenarios/use-configured-storage/index.js:25
+#: src/components/storage/scenarios/use-configured-storage/index.js:39
 #: src/components/storage/scenarios/use-free-space/index.js:27
-#: src/components/storage/scenarios/use-configured-storage/index.js:20
 msgid "Install"
 msgstr "התקנה"
 
@@ -705,13 +706,13 @@ msgstr ""
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr "חוסר התאמה בין בחירת הפרמוט המחודש של התקן ההורה והתקן הצאצא."
 
-#: src/components/review/StorageReview.jsx:237
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
+#: src/components/review/StorageReview.jsx:237
 msgid "Mount point"
 msgstr "נקודת עיגון"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
 msgid "Mount point assignment"
 msgstr "הקצאה של נקודות עיגון"
 
@@ -777,8 +778,8 @@ msgstr "תוסף האחסון נכשל"
 msgid "Next"
 msgstr "הבא"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 msgid "No devices"
 msgstr "אין התקנים"
 
@@ -857,9 +858,9 @@ msgstr "_מקלדת"
 msgid "Partitions (advanced)"
 msgstr "מחיצות (מתקדם)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
 #: src/components/users/Accounts.jsx:195 src/components/users/Accounts.jsx:394
 msgid "Passphrase"
 msgstr "מילת צופן"
@@ -1108,8 +1109,8 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "סיסמת מנהל המערכת (root) הוגדרה."
 
-#: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:245
+#: src/components/review/Hostname.jsx:125
 #: src/components/localization/Keyboard.jsx:277
 msgid "Save"
 msgstr "שמירה"
@@ -1273,8 +1274,8 @@ msgstr ""
 msgid "Storage"
 msgstr "אחסון"
 
-#: src/components/storage/storage-configuration/index.js:20
 #: src/components/storage/storage-configuration/index.js:21
+#: src/components/storage/storage-configuration/index.js:22
 #: src/components/installation/InstallationProgress.jsx:129
 #: src/components/steps.js:33
 msgid "Storage configuration"
@@ -1292,9 +1293,15 @@ msgstr "עורך האחסון"
 msgid "Storage editor is available only in the `Installation method` step."
 msgstr ""
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:21
+#: src/components/storage/scenarios/use-configured-storage/index.js:26
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "האחסון מבוסס על ההגדרות מ‚שינוי אחסון’."
+
+#: src/components/storage/scenarios/use-configured-storage/index.js:40
+msgid ""
+"Storage layout is defined by the kickstart file. The planned partitioning "
+"layout can be reviewed in the summary step."
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
 msgid "Storage plugin failed"
@@ -1353,13 +1360,9 @@ msgstr "נא לבחור סוג מקור התקנה."
 #| msgid "The following disk was detected: $0"
 #| msgid_plural "The following disks were detected: $0"
 msgid "The following user will be created:"
-msgstr "הכונן הבא התגלה: $0"
-
-#: src/components/users/Accounts.jsx:48
-#, fuzzy
-#| msgid "User %s will be created"
-msgid "The following users will be created:"
-msgstr "המשתמש %s יווצר"
+msgid_plural "The following users will be created:"
+msgstr[0] "הכונן הבא התגלה: $0"
+msgstr[1] "הכונן הבא התגלה: $0"
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:45
 msgid ""
@@ -1428,8 +1431,8 @@ msgstr "הפעולה הזאת יכולה לארוך מספר רגעים"
 msgid "Time"
 msgstr "אזור זמן: %s\n"
 
-#: src/components/review/ReviewConfiguration.jsx:170
 #: src/components/datetime/Timezone.jsx:130
+#: src/components/review/ReviewConfiguration.jsx:170
 #, fuzzy
 #| msgid "Timezone: %s\n"
 msgid "Timezone"
@@ -1443,7 +1446,7 @@ msgstr ""
 msgid "To begin using $0, reboot your system."
 msgstr "כדי להתחיל להשתמש ב־$0, יש להפעיל את המערכת מחדש."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:205
+#: src/components/storage/installation-method/InstallationMethod.jsx:208
 msgid "To continue, select the devices to install to."
 msgstr "כדי להמשיך, נא לבחור את ההתקן להתקנה אליו."
 
@@ -1482,7 +1485,8 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "שחרור התקנים מוצפנים"
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:22
+#: src/components/storage/scenarios/use-configured-storage/index.js:27
+#: src/components/storage/scenarios/use-configured-storage/index.js:41
 msgid "Use configured storage"
 msgstr "להשתמש באחסון המוגדר"
 
@@ -1599,9 +1603,9 @@ msgstr "שלב שהושלם"
 msgid "current step"
 msgstr "שלב נוכחי"
 
-#: src/components/review/StorageReview.jsx:158
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:376
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:389
+#: src/components/review/StorageReview.jsx:158
 msgid "delete"
 msgstr "מחיקה"
 
@@ -1659,6 +1663,15 @@ msgstr "כיווץ לכדי $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:370
 msgid "undo"
 msgstr "ביטול"
+
+#~ msgid ""
+#~ "I understand that all existing data will be erased from the selected disks"
+#~ msgstr "ברור לי שכל הנתונים הקיימים יימחקו מהכוננים הנבחרים"
+
+#, fuzzy
+#~| msgid "User %s will be created"
+#~ msgid "The following users will be created:"
+#~ msgstr "המשתמש %s יווצר"
 
 #, fuzzy
 #~| msgid "$0 selected"

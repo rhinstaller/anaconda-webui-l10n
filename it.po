@@ -47,7 +47,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-07 04:59+0000\n"
+"POT-Creation-Date: 2026-04-08 05:01+0000\n"
 "PO-Revision-Date: 2026-04-07 04:59+0000\n"
 "Last-Translator: Nathan <nathan95@live.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
@@ -64,9 +64,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 #: src/components/storage/installation-method/InstallationDestination.jsx:188
 #: src/components/storage/installation-method/InstallationDestination.jsx:282
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -134,8 +134,8 @@ msgstr "Informazioni"
 msgid "Account"
 msgstr "Account"
 
-#: src/components/review/StorageReview.jsx:235
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
+#: src/components/review/StorageReview.jsx:235
 msgid "Actions"
 msgstr "Azioni"
 
@@ -250,11 +250,11 @@ msgstr ""
 "sviluppo e sei disposto a segnalare qualsiasi bug o problema per migliorare "
 "questo lavoro."
 
-#: src/components/Error.jsx:759 src/components/review/Hostname.jsx:127
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/datetime/CustomNTPModal.jsx:252
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:208
 #: src/components/storage/installation-method/InstallationDestination.jsx:381
-#: src/components/datetime/CustomNTPModal.jsx:252
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
 #: src/components/localization/Keyboard.jsx:280
 msgid "Cancel"
 msgstr "Annulla"
@@ -288,9 +288,9 @@ msgstr ""
 "Le modifiche apportate qui avranno effetto immediato sul sistema. Non è "
 "possibile annullare l'operazione."
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:425
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:431
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "Controllo della configurazione dello storage"
 
@@ -303,8 +303,8 @@ msgid "Click 'Next' again to proceed despite these warnings."
 msgstr ""
 "Fare nuovamente clic su \"Avanti\" per procedere nonostante questi avvisi."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "Chiudi"
@@ -332,8 +332,8 @@ msgstr "Configura server NTP"
 msgid "Configure custom NTP servers"
 msgstr "Configurare server NTP personalizzati"
 
-#: src/components/HeaderKebab.jsx:113
 #: src/components/network/CockpitNetworkConfiguration.jsx:70
+#: src/components/HeaderKebab.jsx:113
 msgid "Configure network"
 msgstr "Configura rete"
 
@@ -382,8 +382,8 @@ msgstr "Personalizzata"
 msgid "Date"
 msgstr "Data"
 
-#: src/components/datetime/DateAndTime.jsx:151
 #: src/components/datetime/index.js:18
+#: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr "Data e ora"
 
@@ -412,8 +412,8 @@ msgstr "Descrizione dettagliata del problema"
 msgid "Detected valid storage layout:"
 msgstr "Rilevato layout di archiviazione valido:"
 
-#: src/components/review/StorageReview.jsx:233
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
+#: src/components/review/StorageReview.jsx:233
 msgid "Device"
 msgstr "Dispositivo"
 
@@ -538,20 +538,18 @@ msgstr "Nascondi la password"
 msgid "Hostname"
 msgstr "Hostname"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:150
+#: src/components/storage/installation-method/InstallationScenario.jsx:149
 msgid "How would you like to install?"
 msgstr "Come vuoi effettuare l'installazione?"
 
 #: src/components/review/ReviewConfiguration.jsx:235
+#, fuzzy
+#| msgid "I understand that all existing data will be erased"
 msgid "I understand that all existing data will be erased"
-msgstr "Capisco che tutti i dati esistenti verranno cancellati"
-
-#: src/components/review/ReviewConfiguration.jsx:236
-msgid ""
+msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
-msgstr ""
-"Comprendo che tutti i dati esistenti verranno cancellati dai dischi "
-"selezionati"
+msgstr[0] "Capisco che tutti i dati esistenti verranno cancellati"
+msgstr[1] "Capisco che tutti i dati esistenti verranno cancellati"
 
 #: src/components/review/ReviewConfiguration.jsx:240
 msgid "I understand that some existing data will be erased"
@@ -594,8 +592,9 @@ msgstr "Avanzamento"
 msgid "Initializing..."
 msgstr "Inizializzazione..."
 
+#: src/components/storage/scenarios/use-configured-storage/index.js:25
+#: src/components/storage/scenarios/use-configured-storage/index.js:39
 #: src/components/storage/scenarios/use-free-space/index.js:27
-#: src/components/storage/scenarios/use-configured-storage/index.js:20
 msgid "Install"
 msgstr "Installa"
 
@@ -720,13 +719,13 @@ msgstr ""
 "Mancata corrispondenza tra la riformattazione del dispositivo padre e del "
 "dispositivo figlio."
 
-#: src/components/review/StorageReview.jsx:237
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
+#: src/components/review/StorageReview.jsx:237
 msgid "Mount point"
 msgstr "Punto di mount"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
 msgid "Mount point assignment"
 msgstr "Assegnazione del punto di mount"
 
@@ -784,8 +783,8 @@ msgstr "Plugin di rete fallito"
 msgid "Next"
 msgstr "Avanti"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 msgid "No devices"
 msgstr "Nessun dispositivo"
 
@@ -859,9 +858,9 @@ msgstr "Altre tastiere"
 msgid "Partitions (advanced)"
 msgstr "Partizioni (avanzate)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
 #: src/components/users/Accounts.jsx:195 src/components/users/Accounts.jsx:394
 msgid "Passphrase"
 msgstr "Password"
@@ -1116,8 +1115,8 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "La password di root è stata impostata."
 
-#: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:245
+#: src/components/review/Hostname.jsx:125
 #: src/components/localization/Keyboard.jsx:277
 msgid "Save"
 msgstr "Salva"
@@ -1259,8 +1258,8 @@ msgstr "Stacktrace"
 msgid "Storage"
 msgstr "Archiviazione"
 
-#: src/components/storage/storage-configuration/index.js:20
 #: src/components/storage/storage-configuration/index.js:21
+#: src/components/storage/storage-configuration/index.js:22
 #: src/components/installation/InstallationProgress.jsx:129
 #: src/components/steps.js:33
 msgid "Storage configuration"
@@ -1280,10 +1279,16 @@ msgstr ""
 "L'editor di archiviazione è disponibile solo nella fase \"Metodo di "
 "installazione\"."
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:21
+#: src/components/storage/scenarios/use-configured-storage/index.js:26
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr ""
 "L'archiviazione si basa sulla configurazione di \"Modifica archiviazione\"."
+
+#: src/components/storage/scenarios/use-configured-storage/index.js:40
+msgid ""
+"Storage layout is defined by the kickstart file. The planned partitioning "
+"layout can be reviewed in the summary step."
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
 msgid "Storage plugin failed"
@@ -1334,12 +1339,12 @@ msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "L'installazione di Anaconda si è interrotta inaspettatamente."
 
 #: src/components/users/Accounts.jsx:47
+#, fuzzy
+#| msgid "The following user will be created:"
 msgid "The following user will be created:"
-msgstr "Il seguente utente viene creato:"
-
-#: src/components/users/Accounts.jsx:48
-msgid "The following users will be created:"
-msgstr "Verrà creato l'utente:"
+msgid_plural "The following users will be created:"
+msgstr[0] "Il seguente utente viene creato:"
+msgstr[1] "Il seguente utente viene creato:"
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:45
 msgid ""
@@ -1416,8 +1421,8 @@ msgstr "L'operazione richiederà alcuni istanti"
 msgid "Time"
 msgstr "Orario"
 
-#: src/components/review/ReviewConfiguration.jsx:170
 #: src/components/datetime/Timezone.jsx:130
+#: src/components/review/ReviewConfiguration.jsx:170
 msgid "Timezone"
 msgstr "Fuso Orario"
 
@@ -1429,7 +1434,7 @@ msgstr "Titolo"
 msgid "To begin using $0, reboot your system."
 msgstr "Per iniziare a usare $0, riavvia il sistema."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:205
+#: src/components/storage/installation-method/InstallationMethod.jsx:208
 msgid "To continue, select the devices to install to."
 msgstr ""
 "Per continuare, selezionare i dispositivi su cui effettuare l'installazione."
@@ -1471,7 +1476,8 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "Sblocca i dispositivi cifrati"
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:22
+#: src/components/storage/scenarios/use-configured-storage/index.js:27
+#: src/components/storage/scenarios/use-configured-storage/index.js:41
 msgid "Use configured storage"
 msgstr "Utilizza spazio di archiviazione configurato"
 
@@ -1587,9 +1593,9 @@ msgstr "Step completati"
 msgid "current step"
 msgstr "step corrente"
 
-#: src/components/review/StorageReview.jsx:158
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:376
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:389
+#: src/components/review/StorageReview.jsx:158
 msgid "delete"
 msgstr "cancella"
 
@@ -1645,6 +1651,15 @@ msgstr "ridursi a $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:370
 msgid "undo"
 msgstr "indietro"
+
+#~ msgid ""
+#~ "I understand that all existing data will be erased from the selected disks"
+#~ msgstr ""
+#~ "Comprendo che tutti i dati esistenti verranno cancellati dai dischi "
+#~ "selezionati"
+
+#~ msgid "The following users will be created:"
+#~ msgstr "Verrà creato l'utente:"
 
 #~ msgid ""
 #~ "After creating the issue, click 'Add attachment' and attach file $0 and "

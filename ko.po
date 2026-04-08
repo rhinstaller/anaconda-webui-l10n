@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-07 04:59+0000\n"
+"POT-Creation-Date: 2026-04-08 05:01+0000\n"
 "PO-Revision-Date: 2026-03-28 04:34+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/anaconda-"
@@ -54,9 +54,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 #: src/components/storage/installation-method/InstallationDestination.jsx:188
 #: src/components/storage/installation-method/InstallationDestination.jsx:282
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -119,8 +119,8 @@ msgstr "정보"
 msgid "Account"
 msgstr "계정"
 
-#: src/components/review/StorageReview.jsx:235
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
+#: src/components/review/StorageReview.jsx:235
 msgid "Actions"
 msgstr "동작"
 
@@ -231,11 +231,11 @@ msgstr ""
 "업을 향상 시키기 위해 결점 또는 문제점을 기꺼이 보고하고자 하는 사전-출시된 "
 "소프트웨어와 관련된 위험을 이해하고 수용합니다."
 
-#: src/components/Error.jsx:759 src/components/review/Hostname.jsx:127
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/datetime/CustomNTPModal.jsx:252
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:208
 #: src/components/storage/installation-method/InstallationDestination.jsx:381
-#: src/components/datetime/CustomNTPModal.jsx:252
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
 #: src/components/localization/Keyboard.jsx:280
 msgid "Cancel"
 msgstr "취소"
@@ -268,9 +268,9 @@ msgid ""
 msgstr ""
 "여기에서 변경을 했으면 시스템에 즉시 영향을 미칩니다. '실행취소' 가 없습니다."
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:425
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:431
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "저장소 구성 확인 중"
 
@@ -282,8 +282,8 @@ msgstr "검색 지우기"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr "이들 경고에도 불구하고 계속 진행하려면 다시 '다음' 을 눌러주세요."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "종료"
@@ -310,8 +310,8 @@ msgstr "NTP 서버 설정"
 msgid "Configure custom NTP servers"
 msgstr "사용자 정의 NTP 서버를 구성합니다"
 
-#: src/components/HeaderKebab.jsx:113
 #: src/components/network/CockpitNetworkConfiguration.jsx:70
+#: src/components/HeaderKebab.jsx:113
 msgid "Configure network"
 msgstr "네트워크 구성"
 
@@ -360,8 +360,8 @@ msgstr "사용자 지정"
 msgid "Date"
 msgstr "날짜"
 
-#: src/components/datetime/DateAndTime.jsx:151
 #: src/components/datetime/index.js:18
+#: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr "날짜와 시간"
 
@@ -389,8 +389,8 @@ msgstr "사건에 대한 세부 설명"
 msgid "Detected valid storage layout:"
 msgstr "탐지된 유효 저장소 배열:"
 
-#: src/components/review/StorageReview.jsx:233
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
+#: src/components/review/StorageReview.jsx:233
 msgid "Device"
 msgstr "장치"
 
@@ -514,19 +514,17 @@ msgstr "비밀번호 숨기기"
 msgid "Hostname"
 msgstr "호스트이름"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:150
+#: src/components/storage/installation-method/InstallationScenario.jsx:149
 msgid "How would you like to install?"
 msgstr "설치 하시겠습니까?"
 
 #: src/components/review/ReviewConfiguration.jsx:235
+#, fuzzy
+#| msgid "I understand that all existing data will be erased"
 msgid "I understand that all existing data will be erased"
-msgstr "나는 모든 기존 자료가 제거 될 것이라는 점을 이해합니다"
-
-#: src/components/review/ReviewConfiguration.jsx:236
-msgid ""
+msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
-msgstr ""
-"나는 모든 기존 자료가 선택한 디스크에서 제거 될 것이라는 것을 이해합니다"
+msgstr[0] "나는 모든 기존 자료가 제거 될 것이라는 점을 이해합니다"
 
 #: src/components/review/ReviewConfiguration.jsx:240
 msgid "I understand that some existing data will be erased"
@@ -568,8 +566,9 @@ msgstr "진행 중"
 msgid "Initializing..."
 msgstr "초기화 중..."
 
+#: src/components/storage/scenarios/use-configured-storage/index.js:25
+#: src/components/storage/scenarios/use-configured-storage/index.js:39
 #: src/components/storage/scenarios/use-free-space/index.js:27
-#: src/components/storage/scenarios/use-configured-storage/index.js:20
 msgid "Install"
 msgstr "설치"
 
@@ -692,13 +691,13 @@ msgstr "최소 $0 가 필요합니다"
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr "상위 장치와 하위 장치 재-초기화 선택이 일치하지 않습니다."
 
-#: src/components/review/StorageReview.jsx:237
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
+#: src/components/review/StorageReview.jsx:237
 msgid "Mount point"
 msgstr "적재 지점"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
 msgid "Mount point assignment"
 msgstr "적재 지점 지정"
 
@@ -756,8 +755,8 @@ msgstr "실패한 네트워크 플로그인"
 msgid "Next"
 msgstr "다음"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 msgid "No devices"
 msgstr "장치 없음"
 
@@ -830,9 +829,9 @@ msgstr "기타 키보드"
 msgid "Partitions (advanced)"
 msgstr "파티션 (고급)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
 #: src/components/users/Accounts.jsx:195 src/components/users/Accounts.jsx:394
 msgid "Passphrase"
 msgstr "암호문"
@@ -1080,8 +1079,8 @@ msgstr "root 계정이 활성화 되었지만, 사용자 계정이 구성되지 
 msgid "Root password has been set."
 msgstr "root 비밀번호가 설정되었습니다."
 
-#: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:245
+#: src/components/review/Hostname.jsx:125
 #: src/components/localization/Keyboard.jsx:277
 msgid "Save"
 msgstr "저장"
@@ -1222,8 +1221,8 @@ msgstr "Stacktrace"
 msgid "Storage"
 msgstr "저장소"
 
-#: src/components/storage/storage-configuration/index.js:20
 #: src/components/storage/storage-configuration/index.js:21
+#: src/components/storage/storage-configuration/index.js:22
 #: src/components/installation/InstallationProgress.jsx:129
 #: src/components/steps.js:33
 msgid "Storage configuration"
@@ -1241,9 +1240,15 @@ msgstr "저장소 편집기"
 msgid "Storage editor is available only in the `Installation method` step."
 msgstr "저장소 편집기는 `Installation method`단계에서만 사용 할 수 있습니다."
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:21
+#: src/components/storage/scenarios/use-configured-storage/index.js:26
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "저장소는 '저장소 수정' 에서 구성을 기반으로 합니다."
+
+#: src/components/storage/scenarios/use-configured-storage/index.js:40
+msgid ""
+"Storage layout is defined by the kickstart file. The planned partitioning "
+"layout can be reviewed in the summary step."
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
 msgid "Storage plugin failed"
@@ -1292,12 +1297,11 @@ msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "아나콘다 설치가 갑자기 중지되었습니다."
 
 #: src/components/users/Accounts.jsx:47
+#, fuzzy
+#| msgid "The following user will be created:"
 msgid "The following user will be created:"
-msgstr "다음 사용자가 생성됩니다:"
-
-#: src/components/users/Accounts.jsx:48
-msgid "The following users will be created:"
-msgstr "다음 사용자가 생성됩니다:"
+msgid_plural "The following users will be created:"
+msgstr[0] "다음 사용자가 생성됩니다:"
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:45
 msgid ""
@@ -1373,8 +1377,8 @@ msgstr "시간이 좀 걸릴 수 있습니다"
 msgid "Time"
 msgstr "시간"
 
-#: src/components/review/ReviewConfiguration.jsx:170
 #: src/components/datetime/Timezone.jsx:130
+#: src/components/review/ReviewConfiguration.jsx:170
 msgid "Timezone"
 msgstr "시간대"
 
@@ -1386,7 +1390,7 @@ msgstr "제목"
 msgid "To begin using $0, reboot your system."
 msgstr "$0를 사용하여 시작하려면, 시스템을 재시작하세요."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:205
+#: src/components/storage/installation-method/InstallationMethod.jsx:208
 msgid "To continue, select the devices to install to."
 msgstr "계속하려면, 설치하려는 장치를 선택하세요."
 
@@ -1427,7 +1431,8 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "암호화된 장치를 해제합니다"
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:22
+#: src/components/storage/scenarios/use-configured-storage/index.js:27
+#: src/components/storage/scenarios/use-configured-storage/index.js:41
 msgid "Use configured storage"
 msgstr "구성된 저장소 사용"
 
@@ -1539,9 +1544,9 @@ msgstr "완료 단계"
 msgid "current step"
 msgstr "현재 단계"
 
-#: src/components/review/StorageReview.jsx:158
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:376
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:389
+#: src/components/review/StorageReview.jsx:158
 msgid "delete"
 msgstr "삭제"
 
@@ -1597,6 +1602,14 @@ msgstr "$0로 축소"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:370
 msgid "undo"
 msgstr "실행취소"
+
+#~ msgid ""
+#~ "I understand that all existing data will be erased from the selected disks"
+#~ msgstr ""
+#~ "나는 모든 기존 자료가 선택한 디스크에서 제거 될 것이라는 것을 이해합니다"
+
+#~ msgid "The following users will be created:"
+#~ msgstr "다음 사용자가 생성됩니다:"
 
 #~ msgid ""
 #~ "After creating the issue, click 'Add attachment' and attach file $0 and "

@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-07 04:59+0000\n"
+"POT-Creation-Date: 2026-04-08 05:01+0000\n"
 "PO-Revision-Date: 2026-04-05 05:02+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/anaconda-"
@@ -63,9 +63,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 #: src/components/storage/installation-method/InstallationDestination.jsx:188
 #: src/components/storage/installation-method/InstallationDestination.jsx:282
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -132,8 +132,8 @@ msgstr "O aplikaci"
 msgid "Account"
 msgstr "Účet"
 
-#: src/components/review/StorageReview.jsx:235
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
+#: src/components/review/StorageReview.jsx:235
 msgid "Actions"
 msgstr "Akce"
 
@@ -246,11 +246,11 @@ msgstr ""
 "pouze pro testovací a vývojové účely a jste ochotni hlásit jakékoli chyby "
 "nebo problémy za účelem zlepšení tohoto díla."
 
-#: src/components/Error.jsx:759 src/components/review/Hostname.jsx:127
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/datetime/CustomNTPModal.jsx:252
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:208
 #: src/components/storage/installation-method/InstallationDestination.jsx:381
-#: src/components/datetime/CustomNTPModal.jsx:252
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
 #: src/components/localization/Keyboard.jsx:280
 msgid "Cancel"
 msgstr "Zrušit"
@@ -283,9 +283,9 @@ msgid ""
 msgstr ""
 "Změny zde provedené budou mít okamžitý vliv na systém. Nelze je „vzít zpět“."
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:425
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:431
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "Zjišťuje se uspořádání úložiště"
 
@@ -298,8 +298,8 @@ msgid "Click 'Next' again to proceed despite these warnings."
 msgstr ""
 "Pokud chcete pokračovat navzdory těmto varováním, klikněte znovu na „Další“."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "Zavřít"
@@ -327,8 +327,8 @@ msgstr "Nastavit NTP servery"
 msgid "Configure custom NTP servers"
 msgstr "Nastavit uživatelsky určené NTP servery"
 
-#: src/components/HeaderKebab.jsx:113
 #: src/components/network/CockpitNetworkConfiguration.jsx:70
+#: src/components/HeaderKebab.jsx:113
 msgid "Configure network"
 msgstr "Nastavení sítě"
 
@@ -377,8 +377,8 @@ msgstr "Uživatelsky určené"
 msgid "Date"
 msgstr "Datum"
 
-#: src/components/datetime/DateAndTime.jsx:151
 #: src/components/datetime/index.js:18
+#: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr "Datum a čas"
 
@@ -406,8 +406,8 @@ msgstr "Podrobný popis problému"
 msgid "Detected valid storage layout:"
 msgstr "Nalezeno platné rozvržení úložiště:"
 
-#: src/components/review/StorageReview.jsx:233
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
+#: src/components/review/StorageReview.jsx:233
 msgid "Device"
 msgstr "Zařízení"
 
@@ -532,18 +532,19 @@ msgstr "Skrýt heslo"
 msgid "Hostname"
 msgstr "Název stroje"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:150
+#: src/components/storage/installation-method/InstallationScenario.jsx:149
 msgid "How would you like to install?"
 msgstr "Jak si přejete nainstalovat?"
 
 #: src/components/review/ReviewConfiguration.jsx:235
+#, fuzzy
+#| msgid "I understand that all existing data will be erased"
 msgid "I understand that all existing data will be erased"
-msgstr "Rozumím, že veškerá stávající data budou smazána"
-
-#: src/components/review/ReviewConfiguration.jsx:236
-msgid ""
+msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
-msgstr "Rozumím, že veškerá stávající data budou z označených disků smazána"
+msgstr[0] "Rozumím, že veškerá stávající data budou smazána"
+msgstr[1] "Rozumím, že veškerá stávající data budou smazána"
+msgstr[2] "Rozumím, že veškerá stávající data budou smazána"
 
 #: src/components/review/ReviewConfiguration.jsx:240
 msgid "I understand that some existing data will be erased"
@@ -588,8 +589,9 @@ msgstr "Probíhá"
 msgid "Initializing..."
 msgstr "Inicializace…"
 
+#: src/components/storage/scenarios/use-configured-storage/index.js:25
+#: src/components/storage/scenarios/use-configured-storage/index.js:39
 #: src/components/storage/scenarios/use-free-space/index.js:27
-#: src/components/storage/scenarios/use-configured-storage/index.js:20
 msgid "Install"
 msgstr "Nainstalovat"
 
@@ -712,13 +714,13 @@ msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 "Neshoda mezi výběrem přeformátování u nadřazeného a podřízeného zařízení."
 
-#: src/components/review/StorageReview.jsx:237
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
+#: src/components/review/StorageReview.jsx:237
 msgid "Mount point"
 msgstr "Přípojný bod"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
 msgid "Mount point assignment"
 msgstr "Přiřazení přípojného bodu"
 
@@ -776,8 +778,8 @@ msgstr "Zásuvný modul sítě selhal"
 msgid "Next"
 msgstr "Další"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 msgid "No devices"
 msgstr "Žádná zařízení"
 
@@ -851,9 +853,9 @@ msgstr "Další klávesnice"
 msgid "Partitions (advanced)"
 msgstr "Rozdělení disku (pokročilé)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
 #: src/components/users/Accounts.jsx:195 src/components/users/Accounts.jsx:394
 msgid "Passphrase"
 msgstr "Heslová fráze"
@@ -1104,8 +1106,8 @@ msgstr "Účet root je povolený, ale nebyl nastaven žádný uživatelský úč
 msgid "Root password has been set."
 msgstr "Heslo správce (root) bylo nastaveno."
 
-#: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:245
+#: src/components/review/Hostname.jsx:125
 #: src/components/localization/Keyboard.jsx:277
 msgid "Save"
 msgstr "Uložit"
@@ -1245,8 +1247,8 @@ msgstr "Stacktrace"
 msgid "Storage"
 msgstr "Úložiště"
 
-#: src/components/storage/storage-configuration/index.js:20
 #: src/components/storage/storage-configuration/index.js:21
+#: src/components/storage/storage-configuration/index.js:22
 #: src/components/installation/InstallationProgress.jsx:129
 #: src/components/steps.js:33
 msgid "Storage configuration"
@@ -1264,9 +1266,15 @@ msgstr "Editor úložiště"
 msgid "Storage editor is available only in the `Installation method` step."
 msgstr "Editor úložiště je dostupný pouze v kroku `Metoda instalace`."
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:21
+#: src/components/storage/scenarios/use-configured-storage/index.js:26
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "Úložiště vychází z uspořádání z „Upravit úložiště“."
+
+#: src/components/storage/scenarios/use-configured-storage/index.js:40
+msgid ""
+"Storage layout is defined by the kickstart file. The planned partitioning "
+"layout can be reviewed in the summary step."
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
 msgid "Storage plugin failed"
@@ -1316,12 +1324,13 @@ msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "Instalace Anaconda se neočekávaně zastavila."
 
 #: src/components/users/Accounts.jsx:47
+#, fuzzy
+#| msgid "The following user will be created:"
 msgid "The following user will be created:"
-msgstr "Nalezen následující uživatel bude vytvořen:"
-
-#: src/components/users/Accounts.jsx:48
-msgid "The following users will be created:"
-msgstr "Následující uživatelé budou vytvořeni:"
+msgid_plural "The following users will be created:"
+msgstr[0] "Nalezen následující uživatel bude vytvořen:"
+msgstr[1] "Nalezen následující uživatel bude vytvořen:"
+msgstr[2] "Nalezen následující uživatel bude vytvořen:"
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:45
 msgid ""
@@ -1398,8 +1407,8 @@ msgstr "Chvíli to potrvá"
 msgid "Time"
 msgstr "Čas"
 
-#: src/components/review/ReviewConfiguration.jsx:170
 #: src/components/datetime/Timezone.jsx:130
+#: src/components/review/ReviewConfiguration.jsx:170
 msgid "Timezone"
 msgstr "Časové pásmo"
 
@@ -1411,7 +1420,7 @@ msgstr "Nadpis"
 msgid "To begin using $0, reboot your system."
 msgstr "Aby bylo možné začít $0 používat, počítač restartujte."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:205
+#: src/components/storage/installation-method/InstallationMethod.jsx:208
 msgid "To continue, select the devices to install to."
 msgstr "Aby bylo možné pokračovat, vyberte zařízení, na která instalovat."
 
@@ -1452,7 +1461,8 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "Odemknout šifrovaná zařízení"
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:22
+#: src/components/storage/scenarios/use-configured-storage/index.js:27
+#: src/components/storage/scenarios/use-configured-storage/index.js:41
 msgid "Use configured storage"
 msgstr "Použít nastavené úložiště"
 
@@ -1568,9 +1578,9 @@ msgstr "dokončený krok"
 msgid "current step"
 msgstr "stávající krok"
 
-#: src/components/review/StorageReview.jsx:158
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:376
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:389
+#: src/components/review/StorageReview.jsx:158
 msgid "delete"
 msgstr "smazat"
 
@@ -1626,6 +1636,13 @@ msgstr "zmenšit na $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:370
 msgid "undo"
 msgstr "zpět"
+
+#~ msgid ""
+#~ "I understand that all existing data will be erased from the selected disks"
+#~ msgstr "Rozumím, že veškerá stávající data budou z označených disků smazána"
+
+#~ msgid "The following users will be created:"
+#~ msgstr "Následující uživatelé budou vytvořeni:"
 
 #~ msgid ""
 #~ "After creating the issue, click 'Add attachment' and attach file $0 and "

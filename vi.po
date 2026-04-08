@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 38.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-07 04:59+0000\n"
+"POT-Creation-Date: 2026-04-08 05:01+0000\n"
 "PO-Revision-Date: 2026-04-08 05:02+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -25,9 +25,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0$1"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 #: src/components/storage/installation-method/InstallationDestination.jsx:188
 #: src/components/storage/installation-method/InstallationDestination.jsx:282
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -91,8 +91,8 @@ msgstr "Thông tin"
 msgid "Account"
 msgstr "Tài khoản"
 
-#: src/components/review/StorageReview.jsx:235
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
+#: src/components/review/StorageReview.jsx:235
 msgid "Actions"
 msgstr "Hoạt động"
 
@@ -204,11 +204,11 @@ msgstr ""
 "cho mục đích thử nghiệm và phát triển, và sẵn sàng báo cáo bất kỳ lỗi hoặc "
 "sự cố nào để cải thiện phần mềm này."
 
-#: src/components/Error.jsx:759 src/components/review/Hostname.jsx:127
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/datetime/CustomNTPModal.jsx:252
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:208
 #: src/components/storage/installation-method/InstallationDestination.jsx:381
-#: src/components/datetime/CustomNTPModal.jsx:252
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
 #: src/components/localization/Keyboard.jsx:280
 msgid "Cancel"
 msgstr "Huỷ bỏ"
@@ -242,9 +242,9 @@ msgstr ""
 "Mọi thay đổi ở đây đều có hiệu lực ngay lập tức. Bạn không thể \"hoàn tác\" "
 "thay đổi."
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:425
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:431
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "Đang kiểm tra các cài đặt bộ nhớ"
 
@@ -256,8 +256,8 @@ msgstr "Xóa tìm kiếm"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr "Nhấn \"Tiếp” lần nữa để tiếp tục dù có các cảnh báo này."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "Đóng"
@@ -284,8 +284,8 @@ msgstr "Cấu hình máy chủ NTP"
 msgid "Configure custom NTP servers"
 msgstr "Cấu hình máy chủ NTP tùy chỉnh"
 
-#: src/components/HeaderKebab.jsx:113
 #: src/components/network/CockpitNetworkConfiguration.jsx:70
+#: src/components/HeaderKebab.jsx:113
 msgid "Configure network"
 msgstr "Cấu hình mạng"
 
@@ -334,8 +334,8 @@ msgstr "Tùy chỉnh"
 msgid "Date"
 msgstr "Ngày"
 
-#: src/components/datetime/DateAndTime.jsx:151
 #: src/components/datetime/index.js:18
+#: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr "Ngày và thời gian"
 
@@ -363,8 +363,8 @@ msgstr "Mô tả chi tiết về vấn đề"
 msgid "Detected valid storage layout:"
 msgstr "Đã phát hiện bố cục lưu trữ hợp lệ:"
 
-#: src/components/review/StorageReview.jsx:233
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
+#: src/components/review/StorageReview.jsx:233
 msgid "Device"
 msgstr "Thiết bị"
 
@@ -489,18 +489,17 @@ msgstr "Ẩn mật khẩu"
 msgid "Hostname"
 msgstr "Tên máy"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:150
+#: src/components/storage/installation-method/InstallationScenario.jsx:149
 msgid "How would you like to install?"
 msgstr "Bạn muốn cài đặt bằng cách nào?"
 
 #: src/components/review/ReviewConfiguration.jsx:235
+#, fuzzy
+#| msgid "I understand that all existing data will be erased"
 msgid "I understand that all existing data will be erased"
-msgstr "Tôi hiểu rằng mọi dữ liệu đang có sẽ bị xoá"
-
-#: src/components/review/ReviewConfiguration.jsx:236
-msgid ""
+msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
-msgstr "Tôi hiểu rằng mọi dữ liệu đang có sẽ bị xoá khỏi các ổ đĩa đã chọn"
+msgstr[0] "Tôi hiểu rằng mọi dữ liệu đang có sẽ bị xoá"
 
 #: src/components/review/ReviewConfiguration.jsx:240
 msgid "I understand that some existing data will be erased"
@@ -544,8 +543,9 @@ msgstr "Đang trong quá trình"
 msgid "Initializing..."
 msgstr "Đang khởi tạo..."
 
+#: src/components/storage/scenarios/use-configured-storage/index.js:25
+#: src/components/storage/scenarios/use-configured-storage/index.js:39
 #: src/components/storage/scenarios/use-free-space/index.js:27
-#: src/components/storage/scenarios/use-configured-storage/index.js:20
 msgid "Install"
 msgstr "Cài đặt"
 
@@ -667,13 +667,13 @@ msgstr "Yêu cầu tối thiểu $0"
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr "Lựa chọn định dạng lại không khớp giữa thiết bị cha và thiết bị con."
 
-#: src/components/review/StorageReview.jsx:237
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
+#: src/components/review/StorageReview.jsx:237
 msgid "Mount point"
 msgstr "Điểm gắn kết"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
 msgid "Mount point assignment"
 msgstr "Phân bổ điểm gắn kết"
 
@@ -730,8 +730,8 @@ msgstr "Lỗi plugin mạng"
 msgid "Next"
 msgstr "Tiếp tục"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 msgid "No devices"
 msgstr "Không có thiết bị"
 
@@ -805,9 +805,9 @@ msgstr "Bàn phím khác"
 msgid "Partitions (advanced)"
 msgstr "Phân vùng (nâng cao)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
 #: src/components/users/Accounts.jsx:195 src/components/users/Accounts.jsx:394
 msgid "Passphrase"
 msgstr "Chuỗi mật khẩu"
@@ -1060,8 +1060,8 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "Mật khẩu root đã được thiết lập."
 
-#: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:245
+#: src/components/review/Hostname.jsx:125
 #: src/components/localization/Keyboard.jsx:277
 msgid "Save"
 msgstr "Lưu"
@@ -1200,8 +1200,8 @@ msgstr "Dòng theo dõi"
 msgid "Storage"
 msgstr "Bộ nhớ"
 
-#: src/components/storage/storage-configuration/index.js:20
 #: src/components/storage/storage-configuration/index.js:21
+#: src/components/storage/storage-configuration/index.js:22
 #: src/components/installation/InstallationProgress.jsx:129
 #: src/components/steps.js:33
 msgid "Storage configuration"
@@ -1219,9 +1219,15 @@ msgstr "Trình thiết đặt bộ nhớ"
 msgid "Storage editor is available only in the `Installation method` step."
 msgstr "Trình chỉnh sửa lưu trữ chỉ có sẵn trong bước `Phương thức cài đặt`."
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:21
+#: src/components/storage/scenarios/use-configured-storage/index.js:26
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "Lưu trữ dựa trên cấu hình từ 'Chỉnh sửa lưu trữ'."
+
+#: src/components/storage/scenarios/use-configured-storage/index.js:40
+msgid ""
+"Storage layout is defined by the kickstart file. The planned partitioning "
+"layout can be reviewed in the summary step."
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
 msgid "Storage plugin failed"
@@ -1271,12 +1277,11 @@ msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "Quá trình cài đặt Anaconda đã bị dừng đột ngột."
 
 #: src/components/users/Accounts.jsx:47
+#, fuzzy
+#| msgid "The following user will be created:"
 msgid "The following user will be created:"
-msgstr "Người dùng sau đây sẽ được tạo:"
-
-#: src/components/users/Accounts.jsx:48
-msgid "The following users will be created:"
-msgstr "Các tài khoản sau đây sẽ được tạo:"
+msgid_plural "The following users will be created:"
+msgstr[0] "Người dùng sau đây sẽ được tạo:"
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:45
 msgid ""
@@ -1352,8 +1357,8 @@ msgstr "Việc này sẽ cần một ít phút"
 msgid "Time"
 msgstr "Thời gian"
 
-#: src/components/review/ReviewConfiguration.jsx:170
 #: src/components/datetime/Timezone.jsx:130
+#: src/components/review/ReviewConfiguration.jsx:170
 msgid "Timezone"
 msgstr "Múi giờ"
 
@@ -1365,7 +1370,7 @@ msgstr "Tiêu đề"
 msgid "To begin using $0, reboot your system."
 msgstr "Để bắt đầu sử dụng $0, khởi động lại máy."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:205
+#: src/components/storage/installation-method/InstallationMethod.jsx:208
 msgid "To continue, select the devices to install to."
 msgstr "Để tiếp tục, vui lòng chọn thiết bị để cài đặt."
 
@@ -1406,7 +1411,8 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "Mở khoá thiết bị được mã hoá"
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:22
+#: src/components/storage/scenarios/use-configured-storage/index.js:27
+#: src/components/storage/scenarios/use-configured-storage/index.js:41
 msgid "Use configured storage"
 msgstr "Sử dụng lưu trữ đã cấu hình"
 
@@ -1517,9 +1523,9 @@ msgstr "buớc đã hoàn thành"
 msgid "current step"
 msgstr "bước hiện tại"
 
-#: src/components/review/StorageReview.jsx:158
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:376
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:389
+#: src/components/review/StorageReview.jsx:158
 msgid "delete"
 msgstr "xóa"
 
@@ -1575,6 +1581,13 @@ msgstr "Thu nhỏ thành $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:370
 msgid "undo"
 msgstr "hoàn tác"
+
+#~ msgid ""
+#~ "I understand that all existing data will be erased from the selected disks"
+#~ msgstr "Tôi hiểu rằng mọi dữ liệu đang có sẽ bị xoá khỏi các ổ đĩa đã chọn"
+
+#~ msgid "The following users will be created:"
+#~ msgstr "Các tài khoản sau đây sẽ được tạo:"
 
 #~ msgid ""
 #~ "After creating the issue, click 'Add attachment' and attach file $0 and "

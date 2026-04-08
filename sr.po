@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-07 04:59+0000\n"
+"POT-Creation-Date: 2026-04-08 05:01+0000\n"
 "PO-Revision-Date: 2023-11-06 12:22+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/"
@@ -33,9 +33,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 #: src/components/storage/installation-method/InstallationDestination.jsx:188
 #: src/components/storage/installation-method/InstallationDestination.jsx:282
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 msgid "$0 ($1)"
 msgstr ""
 
@@ -103,8 +103,8 @@ msgstr ""
 msgid "Account"
 msgstr "Закључај рут налог"
 
-#: src/components/review/StorageReview.jsx:235
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
+#: src/components/review/StorageReview.jsx:235
 #, fuzzy
 #| msgid "Action"
 msgid "Actions"
@@ -239,11 +239,11 @@ msgstr ""
 "Уколико не разумете или не прихватате ризике, изађите из овог програма "
 "бирањем опције „Желим да изађем“ да бисте поново покренули ваш систем."
 
-#: src/components/Error.jsx:759 src/components/review/Hostname.jsx:127
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/datetime/CustomNTPModal.jsx:252
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:208
 #: src/components/storage/installation-method/InstallationDestination.jsx:381
-#: src/components/datetime/CustomNTPModal.jsx:252
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
 #: src/components/localization/Keyboard.jsx:280
 #, fuzzy
 msgid "Cancel"
@@ -283,9 +283,9 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:425
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:431
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #, fuzzy
 msgid "Checking storage configuration"
 msgstr "Проверавам подешавање складишта..."
@@ -298,8 +298,8 @@ msgstr ""
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr ""
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "Затвори"
@@ -329,8 +329,8 @@ msgstr "Подеси NTP сервере"
 msgid "Configure custom NTP servers"
 msgstr "Подеси NTP сервере"
 
-#: src/components/HeaderKebab.jsx:113
 #: src/components/network/CockpitNetworkConfiguration.jsx:70
+#: src/components/HeaderKebab.jsx:113
 #, fuzzy
 #| msgid "Configuring storage"
 msgid "Configure network"
@@ -395,8 +395,8 @@ msgstr "Прила_гођено"
 msgid "Date"
 msgstr ""
 
-#: src/components/datetime/DateAndTime.jsx:151
 #: src/components/datetime/index.js:18
+#: src/components/datetime/DateAndTime.jsx:151
 #, fuzzy
 #| msgid "Set Date & Time"
 msgid "Date and time"
@@ -431,8 +431,8 @@ msgstr "Опис уређаја"
 msgid "Detected valid storage layout:"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:233
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
+#: src/components/review/StorageReview.jsx:233
 msgid "Device"
 msgstr "Уређај"
 
@@ -576,7 +576,7 @@ msgstr "Сакриј лозинку."
 msgid "Hostname"
 msgstr "Host Name"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:150
+#: src/components/storage/installation-method/InstallationScenario.jsx:149
 #, fuzzy
 msgid "How would you like to install?"
 msgstr ""
@@ -585,12 +585,11 @@ msgstr ""
 
 #: src/components/review/ReviewConfiguration.jsx:235
 msgid "I understand that all existing data will be erased"
-msgstr ""
-
-#: src/components/review/ReviewConfiguration.jsx:236
-msgid ""
+msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
-msgstr ""
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: src/components/review/ReviewConfiguration.jsx:240
 msgid "I understand that some existing data will be erased"
@@ -631,8 +630,9 @@ msgstr "Напредовање"
 msgid "Initializing..."
 msgstr "Инсталирам."
 
+#: src/components/storage/scenarios/use-configured-storage/index.js:25
+#: src/components/storage/scenarios/use-configured-storage/index.js:39
 #: src/components/storage/scenarios/use-free-space/index.js:27
-#: src/components/storage/scenarios/use-configured-storage/index.js:20
 msgid "Install"
 msgstr "Инсталирај"
 
@@ -767,13 +767,13 @@ msgstr ""
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:237
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
+#: src/components/review/StorageReview.jsx:237
 msgid "Mount point"
 msgstr "Тачка монтирања"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
 #, fuzzy
 msgid "Mount point assignment"
 msgstr "Тачка монтирања"
@@ -839,8 +839,8 @@ msgstr "Неуспешна пријава на чвор."
 msgid "Next"
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 #, fuzzy
 msgid "No devices"
 msgstr "Додај уређај"
@@ -925,9 +925,9 @@ msgstr "_Тастатура"
 msgid "Partitions (advanced)"
 msgstr ""
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
 #: src/components/users/Accounts.jsx:195 src/components/users/Accounts.jsx:394
 msgid "Passphrase"
 msgstr "Лозинка"
@@ -1214,8 +1214,8 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "Root лозинка није постављена"
 
-#: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:245
+#: src/components/review/Hostname.jsx:125
 #: src/components/localization/Keyboard.jsx:277
 #, fuzzy
 #| msgctxt "GUI|Custom Partitioning|Container Dialog"
@@ -1391,8 +1391,8 @@ msgstr ""
 msgid "Storage"
 msgstr "Опције складиштења"
 
-#: src/components/storage/storage-configuration/index.js:20
 #: src/components/storage/storage-configuration/index.js:21
+#: src/components/storage/storage-configuration/index.js:22
 #: src/components/installation/InstallationProgress.jsx:129
 #: src/components/steps.js:33
 #, fuzzy
@@ -1412,11 +1412,17 @@ msgstr "Инсталација"
 msgid "Storage editor is available only in the `Installation method` step."
 msgstr ""
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:21
+#: src/components/storage/scenarios/use-configured-storage/index.js:26
 #, fuzzy
 #| msgid "Reload storage configuration from disk."
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "Поново учитај подешавање складиштења са диска."
+
+#: src/components/storage/scenarios/use-configured-storage/index.js:40
+msgid ""
+"Storage layout is defined by the kickstart file. The planned partitioning "
+"layout can be reviewed in the summary step."
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
 #, fuzzy
@@ -1477,13 +1483,10 @@ msgstr "Изаберите врсту инсталационог извора"
 #, fuzzy
 #| msgid "The following mandatory spokes are not completed:"
 msgid "The following user will be created:"
-msgstr "Следеће обавезне жбице нису потпуне:"
-
-#: src/components/users/Accounts.jsx:48
-#, fuzzy
-#| msgid "User %s will be created"
-msgid "The following users will be created:"
-msgstr "Корисник %s ће бити направљен"
+msgid_plural "The following users will be created:"
+msgstr[0] "Следеће обавезне жбице нису потпуне:"
+msgstr[1] "Следеће обавезне жбице нису потпуне:"
+msgstr[2] "Следеће обавезне жбице нису потпуне:"
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:45
 msgid ""
@@ -1557,8 +1560,8 @@ msgstr "Ово може потрајати."
 msgid "Time"
 msgstr "Временска зона: %s\n"
 
-#: src/components/review/ReviewConfiguration.jsx:170
 #: src/components/datetime/Timezone.jsx:130
+#: src/components/review/ReviewConfiguration.jsx:170
 #, fuzzy
 #| msgid "Timezone: %s\n"
 msgid "Timezone"
@@ -1575,7 +1578,7 @@ msgstr ""
 "\n"
 "Притисните тастер [Enter] за поновно покретање вашег система.\n"
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:205
+#: src/components/storage/installation-method/InstallationMethod.jsx:208
 #, fuzzy
 msgid "To continue, select the devices to install to."
 msgstr ""
@@ -1617,7 +1620,8 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "Изабрани уређај"
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:22
+#: src/components/storage/scenarios/use-configured-storage/index.js:27
+#: src/components/storage/scenarios/use-configured-storage/index.js:41
 #, fuzzy
 #| msgid "Configuring storage"
 msgid "Use configured storage"
@@ -1743,9 +1747,9 @@ msgstr "Завршено!"
 msgid "current step"
 msgstr "Тренутно име машине:"
 
-#: src/components/review/StorageReview.jsx:158
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:376
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:389
+#: src/components/review/StorageReview.jsx:158
 #, fuzzy
 #| msgid "Delete"
 msgid "delete"
@@ -1813,6 +1817,11 @@ msgstr ""
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:370
 msgid "undo"
 msgstr ""
+
+#, fuzzy
+#~| msgid "User %s will be created"
+#~ msgid "The following users will be created:"
+#~ msgstr "Корисник %s ће бити направљен"
 
 #, fuzzy
 #~| msgid "Nothing selected"

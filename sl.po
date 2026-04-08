@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 40.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-07 04:59+0000\n"
+"POT-Creation-Date: 2026-04-08 05:01+0000\n"
 "PO-Revision-Date: 2026-03-24 04:33+0000\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <https://translate.fedoraproject.org/projects/"
@@ -26,9 +26,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 #: src/components/storage/installation-method/InstallationDestination.jsx:188
 #: src/components/storage/installation-method/InstallationDestination.jsx:282
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -95,8 +95,8 @@ msgstr "O programu"
 msgid "Account"
 msgstr "Račun"
 
-#: src/components/review/StorageReview.jsx:235
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
+#: src/components/review/StorageReview.jsx:235
 msgid "Actions"
 msgstr "Dejanja"
 
@@ -208,11 +208,11 @@ msgstr ""
 "samo za namene testiranja in razvoja in ste pripravljeni prijaviti napake "
 "ali težave za izboljšanje tega dela."
 
-#: src/components/Error.jsx:759 src/components/review/Hostname.jsx:127
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/datetime/CustomNTPModal.jsx:252
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:208
 #: src/components/storage/installation-method/InstallationDestination.jsx:381
-#: src/components/datetime/CustomNTPModal.jsx:252
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
 #: src/components/localization/Keyboard.jsx:280
 msgid "Cancel"
 msgstr "Prekliči"
@@ -246,9 +246,9 @@ msgstr ""
 "Spremembe, ki opravljene tukaj, bodo takoj vplivale na sistem. Ni "
 "»razveljavitve«."
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:425
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:431
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "Preverjanje prilagoditve hrambe"
 
@@ -260,8 +260,8 @@ msgstr "Počisti iskanje"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr "Kliknite znova Naprej za nadaljevanje tem opozorilom navkljub."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "Zapri"
@@ -288,8 +288,8 @@ msgstr "Prilagodi strežnike NTP"
 msgid "Configure custom NTP servers"
 msgstr "Prilagodi strežnike NTP po meri"
 
-#: src/components/HeaderKebab.jsx:113
 #: src/components/network/CockpitNetworkConfiguration.jsx:70
+#: src/components/HeaderKebab.jsx:113
 msgid "Configure network"
 msgstr "Konfiguriraj omrežje"
 
@@ -338,8 +338,8 @@ msgstr "Po meri"
 msgid "Date"
 msgstr "Datum"
 
-#: src/components/datetime/DateAndTime.jsx:151
 #: src/components/datetime/index.js:18
+#: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr "Datum in čas"
 
@@ -367,8 +367,8 @@ msgstr "Podrobni opis težave"
 msgid "Detected valid storage layout:"
 msgstr "Zaznana veljavna postavitev hrambe:"
 
-#: src/components/review/StorageReview.jsx:233
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
+#: src/components/review/StorageReview.jsx:233
 msgid "Device"
 msgstr "Naprava"
 
@@ -493,18 +493,20 @@ msgstr "Skrij geslo"
 msgid "Hostname"
 msgstr "Ime gostitelja"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:150
+#: src/components/storage/installation-method/InstallationScenario.jsx:149
 msgid "How would you like to install?"
 msgstr "Kako želite namestiti?"
 
 #: src/components/review/ReviewConfiguration.jsx:235
+#, fuzzy
+#| msgid "I understand that all existing data will be erased"
 msgid "I understand that all existing data will be erased"
-msgstr "Razumem, da bodo vsi obstoječi podatki izbrisani"
-
-#: src/components/review/ReviewConfiguration.jsx:236
-msgid ""
+msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
-msgstr "Razumem, da bodo vsi obstoječi podatki izbrisani z izbranih diskov"
+msgstr[0] "Razumem, da bodo vsi obstoječi podatki izbrisani"
+msgstr[1] "Razumem, da bodo vsi obstoječi podatki izbrisani"
+msgstr[2] "Razumem, da bodo vsi obstoječi podatki izbrisani"
+msgstr[3] "Razumem, da bodo vsi obstoječi podatki izbrisani"
 
 #: src/components/review/ReviewConfiguration.jsx:240
 msgid "I understand that some existing data will be erased"
@@ -548,8 +550,9 @@ msgstr "V postopku"
 msgid "Initializing..."
 msgstr "Inicializacija ..."
 
+#: src/components/storage/scenarios/use-configured-storage/index.js:25
+#: src/components/storage/scenarios/use-configured-storage/index.js:39
 #: src/components/storage/scenarios/use-free-space/index.js:27
-#: src/components/storage/scenarios/use-configured-storage/index.js:20
 msgid "Install"
 msgstr "Namesti"
 
@@ -674,13 +677,13 @@ msgstr ""
 "Neusklajenost med izbiro ponovnega formatiranja nadrejene naprave in "
 "podrejene naprave."
 
-#: src/components/review/StorageReview.jsx:237
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
+#: src/components/review/StorageReview.jsx:237
 msgid "Mount point"
 msgstr "Točka priklopa"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
 msgid "Mount point assignment"
 msgstr "Dodelitev priklopne točke"
 
@@ -738,8 +741,8 @@ msgstr "Omrežni vtičnik ni uspel"
 msgid "Next"
 msgstr "Naprej"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 msgid "No devices"
 msgstr "Ni naprav"
 
@@ -813,9 +816,9 @@ msgstr "Druge tipkovnice"
 msgid "Partitions (advanced)"
 msgstr "Razdelki (napredno)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
 #: src/components/users/Accounts.jsx:195 src/components/users/Accounts.jsx:394
 msgid "Passphrase"
 msgstr "Geselna fraza"
@@ -1069,8 +1072,8 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "Korensko geslo je bilo nastavljeno."
 
-#: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:245
+#: src/components/review/Hostname.jsx:125
 #: src/components/localization/Keyboard.jsx:277
 msgid "Save"
 msgstr "Shrani"
@@ -1211,8 +1214,8 @@ msgstr "Stacktrace"
 msgid "Storage"
 msgstr "Shramba"
 
-#: src/components/storage/storage-configuration/index.js:20
 #: src/components/storage/storage-configuration/index.js:21
+#: src/components/storage/storage-configuration/index.js:22
 #: src/components/installation/InstallationProgress.jsx:129
 #: src/components/steps.js:33
 msgid "Storage configuration"
@@ -1230,9 +1233,15 @@ msgstr "Urejevalnik hrambe"
 msgid "Storage editor is available only in the `Installation method` step."
 msgstr "Urejevalnik hrambe je na voljo le v koraku `Metoda namestitve`."
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:21
+#: src/components/storage/scenarios/use-configured-storage/index.js:26
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "Shranjevanje temelji na nastavitvah iz »Spremeni shrambo«."
+
+#: src/components/storage/scenarios/use-configured-storage/index.js:40
+msgid ""
+"Storage layout is defined by the kickstart file. The planned partitioning "
+"layout can be reviewed in the summary step."
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
 msgid "Storage plugin failed"
@@ -1287,13 +1296,11 @@ msgstr "Namestitev Anaconde se je nepričakovano ustavila."
 #| msgid "The following disk was detected: $0"
 #| msgid_plural "The following disks were detected: $0"
 msgid "The following user will be created:"
-msgstr "Zaznani so bili naslednji diski: $0"
-
-#: src/components/users/Accounts.jsx:48
-#, fuzzy
-#| msgid "User %s will be created"
-msgid "The following users will be created:"
-msgstr "Kreiran bo uporabnik %s"
+msgid_plural "The following users will be created:"
+msgstr[0] "Zaznani so bili naslednji diski: $0"
+msgstr[1] "Zaznani so bili naslednji diski: $0"
+msgstr[2] "Zaznani so bili naslednji diski: $0"
+msgstr[3] "Zaznani so bili naslednji diski: $0"
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:45
 msgid ""
@@ -1369,8 +1376,8 @@ msgstr "To utegne trajati nekaj časa"
 msgid "Time"
 msgstr "Čas"
 
-#: src/components/review/ReviewConfiguration.jsx:170
 #: src/components/datetime/Timezone.jsx:130
+#: src/components/review/ReviewConfiguration.jsx:170
 msgid "Timezone"
 msgstr "Časovni pas"
 
@@ -1382,7 +1389,7 @@ msgstr "Naslov"
 msgid "To begin using $0, reboot your system."
 msgstr "Če želite začeti uporabljati $0, znova zaženite sistem."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:205
+#: src/components/storage/installation-method/InstallationMethod.jsx:208
 msgid "To continue, select the devices to install to."
 msgstr "Če želite nadaljevati, izberite naprave, v katere želite nameščati."
 
@@ -1423,7 +1430,8 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "Odkleni šifrirane naprave"
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:22
+#: src/components/storage/scenarios/use-configured-storage/index.js:27
+#: src/components/storage/scenarios/use-configured-storage/index.js:41
 msgid "Use configured storage"
 msgstr "Uporabi nastavljeno hrambo"
 
@@ -1539,9 +1547,9 @@ msgstr "zaključen korak"
 msgid "current step"
 msgstr "trenutni korak"
 
-#: src/components/review/StorageReview.jsx:158
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:376
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:389
+#: src/components/review/StorageReview.jsx:158
 msgid "delete"
 msgstr "izbriši"
 
@@ -1597,6 +1605,15 @@ msgstr "skrči na $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:370
 msgid "undo"
 msgstr "razveljavi"
+
+#~ msgid ""
+#~ "I understand that all existing data will be erased from the selected disks"
+#~ msgstr "Razumem, da bodo vsi obstoječi podatki izbrisani z izbranih diskov"
+
+#, fuzzy
+#~| msgid "User %s will be created"
+#~ msgid "The following users will be created:"
+#~ msgstr "Kreiran bo uporabnik %s"
 
 #~ msgid ""
 #~ "After creating the issue, click 'Add attachment' and attach file $0 and "

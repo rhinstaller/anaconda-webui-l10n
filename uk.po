@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-07 04:59+0000\n"
+"POT-Creation-Date: 2026-04-08 05:01+0000\n"
 "PO-Revision-Date: 2026-03-29 05:01+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -42,9 +42,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 #: src/components/storage/installation-method/InstallationDestination.jsx:188
 #: src/components/storage/installation-method/InstallationDestination.jsx:282
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -110,8 +110,8 @@ msgstr "Відомості"
 msgid "Account"
 msgstr "Обліковий запис"
 
-#: src/components/review/StorageReview.jsx:235
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
+#: src/components/review/StorageReview.jsx:235
 msgid "Actions"
 msgstr "Дії"
 
@@ -224,11 +224,11 @@ msgstr ""
 "тестування або подальшої розробки і що ви маєте намір повідомляти про всі "
 "вади і проблеми з метою покращення його роботи."
 
-#: src/components/Error.jsx:759 src/components/review/Hostname.jsx:127
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/datetime/CustomNTPModal.jsx:252
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:208
 #: src/components/storage/installation-method/InstallationDestination.jsx:381
-#: src/components/datetime/CustomNTPModal.jsx:252
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
 #: src/components/localization/Keyboard.jsx:280
 msgid "Cancel"
 msgstr "Скасувати"
@@ -261,9 +261,9 @@ msgid ""
 msgstr ""
 "Зміни, внесені тут, негайно вплинуть на систему. Скасувати їх неможливо."
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:425
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:431
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "Перевіряємо налаштування носія"
 
@@ -275,8 +275,8 @@ msgstr "Спорожнити поле пошуку"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr "Натисніть «Далі» ще раз, щоб продовжити попри попередження."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "Закрити"
@@ -303,8 +303,8 @@ msgstr "Налаштувати сервери NTP"
 msgid "Configure custom NTP servers"
 msgstr "Налаштувати нетипові сервери NTP"
 
-#: src/components/HeaderKebab.jsx:113
 #: src/components/network/CockpitNetworkConfiguration.jsx:70
+#: src/components/HeaderKebab.jsx:113
 msgid "Configure network"
 msgstr "Налаштувати мережу"
 
@@ -353,8 +353,8 @@ msgstr "Нетипове"
 msgid "Date"
 msgstr "Дата"
 
-#: src/components/datetime/DateAndTime.jsx:151
 #: src/components/datetime/index.js:18
+#: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr "Дата і час"
 
@@ -382,8 +382,8 @@ msgstr "Докладний опис проблеми"
 msgid "Detected valid storage layout:"
 msgstr "Виявлене коректне компонування сховищ даних:"
 
-#: src/components/review/StorageReview.jsx:233
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
+#: src/components/review/StorageReview.jsx:233
 msgid "Device"
 msgstr "Пристрій"
 
@@ -510,18 +510,19 @@ msgstr "Приховати пароль"
 msgid "Hostname"
 msgstr "Назва вузла"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:150
+#: src/components/storage/installation-method/InstallationScenario.jsx:149
 msgid "How would you like to install?"
 msgstr "Яким способом ви хочете виконати встановлення?"
 
 #: src/components/review/ReviewConfiguration.jsx:235
+#, fuzzy
+#| msgid "I understand that all existing data will be erased"
 msgid "I understand that all existing data will be erased"
-msgstr "Розумію, що усі наявні дані буде витерто"
-
-#: src/components/review/ReviewConfiguration.jsx:236
-msgid ""
+msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
-msgstr "Розумію, що усі наявні дані буде витерто з вибраних дисків"
+msgstr[0] "Розумію, що усі наявні дані буде витерто"
+msgstr[1] "Розумію, що усі наявні дані буде витерто"
+msgstr[2] "Розумію, що усі наявні дані буде витерто"
 
 #: src/components/review/ReviewConfiguration.jsx:240
 msgid "I understand that some existing data will be erased"
@@ -566,8 +567,9 @@ msgstr "Виконуємо"
 msgid "Initializing..."
 msgstr "Започаткування…"
 
+#: src/components/storage/scenarios/use-configured-storage/index.js:25
+#: src/components/storage/scenarios/use-configured-storage/index.js:39
 #: src/components/storage/scenarios/use-free-space/index.js:27
-#: src/components/storage/scenarios/use-configured-storage/index.js:20
 msgid "Install"
 msgstr "Встановити"
 
@@ -692,13 +694,13 @@ msgstr ""
 "Невідповідність між вибраними параметрами повторного форматування "
 "батьківського та дочірнього пристроїв."
 
-#: src/components/review/StorageReview.jsx:237
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
+#: src/components/review/StorageReview.jsx:237
 msgid "Mount point"
 msgstr "Точка монтування"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
 msgid "Mount point assignment"
 msgstr "Прив'язка до точки монтування"
 
@@ -756,8 +758,8 @@ msgstr "Помилка додатка мережі"
 msgid "Next"
 msgstr "Далі"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 msgid "No devices"
 msgstr "Немає пристроїв"
 
@@ -831,9 +833,9 @@ msgstr "Інші клавіатури"
 msgid "Partitions (advanced)"
 msgstr "Розділи (додатково)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
 #: src/components/users/Accounts.jsx:195 src/components/users/Accounts.jsx:394
 msgid "Passphrase"
 msgstr "Пароль"
@@ -1087,8 +1089,8 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "Встановлено пароль root."
 
-#: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:245
+#: src/components/review/Hostname.jsx:125
 #: src/components/localization/Keyboard.jsx:277
 msgid "Save"
 msgstr "Зберегти"
@@ -1231,8 +1233,8 @@ msgstr "Трасування стеку"
 msgid "Storage"
 msgstr "Сховище даних"
 
-#: src/components/storage/storage-configuration/index.js:20
 #: src/components/storage/storage-configuration/index.js:21
+#: src/components/storage/storage-configuration/index.js:22
 #: src/components/installation/InstallationProgress.jsx:129
 #: src/components/steps.js:33
 msgid "Storage configuration"
@@ -1253,10 +1255,16 @@ msgstr ""
 "Редактором сховищ даних можна скористатися лише на кроці «Спосіб "
 "встановлення»."
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:21
+#: src/components/storage/scenarios/use-configured-storage/index.js:26
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr ""
 "Сховище даних на основі налаштувань зі сторінки «Змінити сховище даних»."
+
+#: src/components/storage/scenarios/use-configured-storage/index.js:40
+msgid ""
+"Storage layout is defined by the kickstart file. The planned partitioning "
+"layout can be reviewed in the summary step."
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
 msgid "Storage plugin failed"
@@ -1307,12 +1315,13 @@ msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "Встановлення Anaconda було припинено у неочікуваний спосіб."
 
 #: src/components/users/Accounts.jsx:47
+#, fuzzy
+#| msgid "The following user will be created:"
 msgid "The following user will be created:"
-msgstr "Буде створено такий запис користувача:"
-
-#: src/components/users/Accounts.jsx:48
-msgid "The following users will be created:"
-msgstr "Буде створено такі записи користувачів:"
+msgid_plural "The following users will be created:"
+msgstr[0] "Буде створено такий запис користувача:"
+msgstr[1] "Буде створено такий запис користувача:"
+msgstr[2] "Буде створено такий запис користувача:"
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:45
 msgid ""
@@ -1391,8 +1400,8 @@ msgstr "Зачекайте, будь ласка"
 msgid "Time"
 msgstr "Час"
 
-#: src/components/review/ReviewConfiguration.jsx:170
 #: src/components/datetime/Timezone.jsx:130
+#: src/components/review/ReviewConfiguration.jsx:170
 msgid "Timezone"
 msgstr "Часовий пояс"
 
@@ -1404,7 +1413,7 @@ msgstr "Заголовок"
 msgid "To begin using $0, reboot your system."
 msgstr "Щоб розпочати користування $0, перезавантажте вашу систему."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:205
+#: src/components/storage/installation-method/InstallationMethod.jsx:208
 msgid "To continue, select the devices to install to."
 msgstr "Щоб продовжити, виберіть пристрої для встановлення на них системи."
 
@@ -1445,7 +1454,8 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "Розблокувати зашифровані пристрої"
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:22
+#: src/components/storage/scenarios/use-configured-storage/index.js:27
+#: src/components/storage/scenarios/use-configured-storage/index.js:41
 msgid "Use configured storage"
 msgstr "Скористатися налаштованим сховищем даних"
 
@@ -1562,9 +1572,9 @@ msgstr "завершений крок"
 msgid "current step"
 msgstr "поточний крок"
 
-#: src/components/review/StorageReview.jsx:158
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:376
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:389
+#: src/components/review/StorageReview.jsx:158
 msgid "delete"
 msgstr "вилучити"
 
@@ -1620,6 +1630,13 @@ msgstr "стиснути до $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:370
 msgid "undo"
 msgstr "скасувати"
+
+#~ msgid ""
+#~ "I understand that all existing data will be erased from the selected disks"
+#~ msgstr "Розумію, що усі наявні дані буде витерто з вибраних дисків"
+
+#~ msgid "The following users will be created:"
+#~ msgstr "Буде створено такі записи користувачів:"
 
 #~ msgid ""
 #~ "After creating the issue, click 'Add attachment' and attach file $0 and "

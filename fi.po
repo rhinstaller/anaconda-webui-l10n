@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-07 04:59+0000\n"
+"POT-Creation-Date: 2026-04-08 05:01+0000\n"
 "PO-Revision-Date: 2026-03-18 04:37+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -46,9 +46,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 #: src/components/storage/installation-method/InstallationDestination.jsx:188
 #: src/components/storage/installation-method/InstallationDestination.jsx:282
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -114,8 +114,8 @@ msgstr "Aiheesta"
 msgid "Account"
 msgstr "Tili"
 
-#: src/components/review/StorageReview.jsx:235
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
+#: src/components/review/StorageReview.jsx:235
 msgid "Actions"
 msgstr "Toimet"
 
@@ -228,11 +228,11 @@ msgstr ""
 "testaustarkoituksiin, ja olet halukas ilmoittamaan mahdollisista ongelmista "
 "parantaaksesi tätä ohjelmistoa."
 
-#: src/components/Error.jsx:759 src/components/review/Hostname.jsx:127
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/datetime/CustomNTPModal.jsx:252
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:208
 #: src/components/storage/installation-method/InstallationDestination.jsx:381
-#: src/components/datetime/CustomNTPModal.jsx:252
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
 #: src/components/localization/Keyboard.jsx:280
 msgid "Cancel"
 msgstr "Peru"
@@ -266,9 +266,9 @@ msgstr ""
 "Täällä tehdyt muutokset vaikuttavat välittömästi järjestelmään. \"Kumoa\" ei "
 "ole."
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:425
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:431
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "Tarkistetaan tallennustilan asetuksia"
 
@@ -281,8 +281,8 @@ msgid "Click 'Next' again to proceed despite these warnings."
 msgstr ""
 "Jatka näistä varoituksista huolimatta napsauttamalla uudelleen Seuraava."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "Sulje"
@@ -310,8 +310,8 @@ msgstr "Määritä NTP-palvelimet"
 msgid "Configure custom NTP servers"
 msgstr "Määritä mukautetut NTP-palvelimet"
 
-#: src/components/HeaderKebab.jsx:113
 #: src/components/network/CockpitNetworkConfiguration.jsx:70
+#: src/components/HeaderKebab.jsx:113
 msgid "Configure network"
 msgstr "Määritä verkko"
 
@@ -360,8 +360,8 @@ msgstr "Mukautettu"
 msgid "Date"
 msgstr "Päivämäärä"
 
-#: src/components/datetime/DateAndTime.jsx:151
 #: src/components/datetime/index.js:18
+#: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr "Päivämäärä ja aika"
 
@@ -389,8 +389,8 @@ msgstr "Yksityiskohtainen kuvaus ongelmasta"
 msgid "Detected valid storage layout:"
 msgstr "Havaittu kelvollinen tallennusasettelu:"
 
-#: src/components/review/StorageReview.jsx:233
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
+#: src/components/review/StorageReview.jsx:233
 msgid "Device"
 msgstr "Laite"
 
@@ -515,19 +515,18 @@ msgstr "Piilota salasana"
 msgid "Hostname"
 msgstr "Koneen nimi"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:150
+#: src/components/storage/installation-method/InstallationScenario.jsx:149
 msgid "How would you like to install?"
 msgstr "Miten haluaisit asentaa?"
 
 #: src/components/review/ReviewConfiguration.jsx:235
+#, fuzzy
+#| msgid "I understand that all existing data will be erased"
 msgid "I understand that all existing data will be erased"
-msgstr "Ymmärrän, että kaikki olemassa olevat tiedot poistetaan"
-
-#: src/components/review/ReviewConfiguration.jsx:236
-msgid ""
+msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
-msgstr ""
-"Ymmärrän, että kaikki olemassa olevat tiedot poistetaan valituilta levyiltä"
+msgstr[0] "Ymmärrän, että kaikki olemassa olevat tiedot poistetaan"
+msgstr[1] "Ymmärrän, että kaikki olemassa olevat tiedot poistetaan"
 
 #: src/components/review/ReviewConfiguration.jsx:240
 msgid "I understand that some existing data will be erased"
@@ -568,8 +567,9 @@ msgstr "Meneillään"
 msgid "Initializing..."
 msgstr "Alustetaan ..."
 
+#: src/components/storage/scenarios/use-configured-storage/index.js:25
+#: src/components/storage/scenarios/use-configured-storage/index.js:39
 #: src/components/storage/scenarios/use-free-space/index.js:27
-#: src/components/storage/scenarios/use-configured-storage/index.js:20
 msgid "Install"
 msgstr "Asenna"
 
@@ -692,13 +692,13 @@ msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 "Isäntälaitteen ja alalaitteen uudelleenmuotoilun valinta ei vastaa toisiaan."
 
-#: src/components/review/StorageReview.jsx:237
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
+#: src/components/review/StorageReview.jsx:237
 msgid "Mount point"
 msgstr "Liitoskohta"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
 msgid "Mount point assignment"
 msgstr "Liitoskohdan määrittely"
 
@@ -756,8 +756,8 @@ msgstr "verkkolaajennus epäonnistui"
 msgid "Next"
 msgstr "Seuraava"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 msgid "No devices"
 msgstr "Ei laiteita"
 
@@ -831,9 +831,9 @@ msgstr "Muut näppäimistöt"
 msgid "Partitions (advanced)"
 msgstr "Osiot (edistynyt)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
 #: src/components/users/Accounts.jsx:195 src/components/users/Accounts.jsx:394
 msgid "Passphrase"
 msgstr "Tunnuslause"
@@ -1085,8 +1085,8 @@ msgstr "Root-tili on otettu käyttöön, mutta käyttäjätiliä ei ole määrit
 msgid "Root password has been set."
 msgstr "Root-salasana on asetettu."
 
-#: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:245
+#: src/components/review/Hostname.jsx:125
 #: src/components/localization/Keyboard.jsx:277
 msgid "Save"
 msgstr "Tallenna"
@@ -1226,8 +1226,8 @@ msgstr "Stacktrace"
 msgid "Storage"
 msgstr "Tallennustila"
 
-#: src/components/storage/storage-configuration/index.js:20
 #: src/components/storage/storage-configuration/index.js:21
+#: src/components/storage/storage-configuration/index.js:22
 #: src/components/installation/InstallationProgress.jsx:129
 #: src/components/steps.js:33
 msgid "Storage configuration"
@@ -1246,9 +1246,15 @@ msgid "Storage editor is available only in the `Installation method` step."
 msgstr ""
 "Tallennusmuokkain on käytettävissä vain \"Asennusmenetelmä\"-vaiheessa."
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:21
+#: src/components/storage/scenarios/use-configured-storage/index.js:26
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "Tallennus perustuu 'Muokkaa tallennustilaa':n kokoonpanoon."
+
+#: src/components/storage/scenarios/use-configured-storage/index.js:40
+msgid ""
+"Storage layout is defined by the kickstart file. The planned partitioning "
+"layout can be reviewed in the summary step."
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
 msgid "Storage plugin failed"
@@ -1303,13 +1309,9 @@ msgstr "Anacondan asennus on pysähtynyt odottamatta."
 #| msgid "The following disk was detected: $0"
 #| msgid_plural "The following disks were detected: $0"
 msgid "The following user will be created:"
-msgstr "Seuraava levy havaittiin: $0"
-
-#: src/components/users/Accounts.jsx:48
-#, fuzzy
-#| msgid "User %s will be created"
-msgid "The following users will be created:"
-msgstr "Luodaan käyttäjä %s"
+msgid_plural "The following users will be created:"
+msgstr[0] "Seuraava levy havaittiin: $0"
+msgstr[1] "Seuraava levy havaittiin: $0"
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:45
 msgid ""
@@ -1388,8 +1390,8 @@ msgstr "Tämä kestää hetken"
 msgid "Time"
 msgstr "Aika"
 
-#: src/components/review/ReviewConfiguration.jsx:170
 #: src/components/datetime/Timezone.jsx:130
+#: src/components/review/ReviewConfiguration.jsx:170
 msgid "Timezone"
 msgstr "Aikavyöhyke"
 
@@ -1401,7 +1403,7 @@ msgstr "Otsikko"
 msgid "To begin using $0, reboot your system."
 msgstr "Aloita $0:n käyttö käynnistämällä järjestelmä uudelleen."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:205
+#: src/components/storage/installation-method/InstallationMethod.jsx:208
 msgid "To continue, select the devices to install to."
 msgstr "Jatka valitsemalla laitteet, joihin haluat asentaa."
 
@@ -1442,7 +1444,8 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "Avaa salatut laitteet"
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:22
+#: src/components/storage/scenarios/use-configured-storage/index.js:27
+#: src/components/storage/scenarios/use-configured-storage/index.js:41
 msgid "Use configured storage"
 msgstr "Käytä määritettyä tallennustilaa"
 
@@ -1556,9 +1559,9 @@ msgstr "suoritettu vaihe"
 msgid "current step"
 msgstr "nykyinen vaihe"
 
-#: src/components/review/StorageReview.jsx:158
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:376
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:389
+#: src/components/review/StorageReview.jsx:158
 msgid "delete"
 msgstr "poista"
 
@@ -1614,6 +1617,17 @@ msgstr "kutista $0:ksi"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:370
 msgid "undo"
 msgstr "kumoa"
+
+#~ msgid ""
+#~ "I understand that all existing data will be erased from the selected disks"
+#~ msgstr ""
+#~ "Ymmärrän, että kaikki olemassa olevat tiedot poistetaan valituilta "
+#~ "levyiltä"
+
+#, fuzzy
+#~| msgid "User %s will be created"
+#~ msgid "The following users will be created:"
+#~ msgstr "Luodaan käyttäjä %s"
 
 #~ msgid ""
 #~ "After creating the issue, click 'Add attachment' and attach file $0 and "

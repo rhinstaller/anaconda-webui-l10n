@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-07 04:59+0000\n"
+"POT-Creation-Date: 2026-04-08 05:01+0000\n"
 "PO-Revision-Date: 2026-03-28 04:34+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
@@ -46,9 +46,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 #: src/components/storage/installation-method/InstallationDestination.jsx:188
 #: src/components/storage/installation-method/InstallationDestination.jsx:282
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -114,8 +114,8 @@ msgstr "Om"
 msgid "Account"
 msgstr "Konto"
 
-#: src/components/review/StorageReview.jsx:235
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
+#: src/components/review/StorageReview.jsx:235
 msgid "Actions"
 msgstr "Åtgärder"
 
@@ -228,11 +228,11 @@ msgstr ""
 "för test- och utvecklingssyften och är villig att rapportera eventuella "
 "buggar eller problem för att förbättra detta arbete."
 
-#: src/components/Error.jsx:759 src/components/review/Hostname.jsx:127
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/datetime/CustomNTPModal.jsx:252
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:208
 #: src/components/storage/installation-method/InstallationDestination.jsx:381
-#: src/components/datetime/CustomNTPModal.jsx:252
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
 #: src/components/localization/Keyboard.jsx:280
 msgid "Cancel"
 msgstr "Avbryt"
@@ -266,9 +266,9 @@ msgstr ""
 "Ändringar som görs här kommer omedelbart att påverka systemet. Det finns "
 "ingen \"ångra\"."
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:425
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:431
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "Kontrollerar lagringskonfiguration"
 
@@ -280,8 +280,8 @@ msgstr "Rensa sökning"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr "Klicka på 'Nästa' igen för att fortsätta oavsett dessa varningar."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "Stäng"
@@ -307,8 +307,8 @@ msgstr "Konfigurera NTP-servrar"
 msgid "Configure custom NTP servers"
 msgstr "Konfigurera anpassade NTP-servrar"
 
-#: src/components/HeaderKebab.jsx:113
 #: src/components/network/CockpitNetworkConfiguration.jsx:70
+#: src/components/HeaderKebab.jsx:113
 msgid "Configure network"
 msgstr "Konfigurera nätverk"
 
@@ -357,8 +357,8 @@ msgstr "Anpassad"
 msgid "Date"
 msgstr "Datum"
 
-#: src/components/datetime/DateAndTime.jsx:151
 #: src/components/datetime/index.js:18
+#: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr "Datum och tid"
 
@@ -386,8 +386,8 @@ msgstr "Detaljerad beskrivning av problemet"
 msgid "Detected valid storage layout:"
 msgstr "Upptäckt giltig lagringslayout:"
 
-#: src/components/review/StorageReview.jsx:233
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
+#: src/components/review/StorageReview.jsx:233
 msgid "Device"
 msgstr "Enhet"
 
@@ -512,19 +512,18 @@ msgstr "Dölj lösenord"
 msgid "Hostname"
 msgstr "Värdnamn"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:150
+#: src/components/storage/installation-method/InstallationScenario.jsx:149
 msgid "How would you like to install?"
 msgstr "Hur vill du installera?"
 
 #: src/components/review/ReviewConfiguration.jsx:235
+#, fuzzy
+#| msgid "I understand that all existing data will be erased"
 msgid "I understand that all existing data will be erased"
-msgstr "Jag förstår att all befintlig data kommer att raderas"
-
-#: src/components/review/ReviewConfiguration.jsx:236
-msgid ""
+msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
-msgstr ""
-"Jag förstår att all befintlig data kommer att raderas från de valda diskarna"
+msgstr[0] "Jag förstår att all befintlig data kommer att raderas"
+msgstr[1] "Jag förstår att all befintlig data kommer att raderas"
 
 #: src/components/review/ReviewConfiguration.jsx:240
 msgid "I understand that some existing data will be erased"
@@ -568,8 +567,9 @@ msgstr "Pågående"
 msgid "Initializing..."
 msgstr "Initialiserar..."
 
+#: src/components/storage/scenarios/use-configured-storage/index.js:25
+#: src/components/storage/scenarios/use-configured-storage/index.js:39
 #: src/components/storage/scenarios/use-free-space/index.js:27
-#: src/components/storage/scenarios/use-configured-storage/index.js:20
 msgid "Install"
 msgstr "Installera"
 
@@ -694,13 +694,13 @@ msgstr ""
 "Felaktig överensstämmelse mellan överordnad enhet och underordnad enhet vid "
 "omformateringsval."
 
-#: src/components/review/StorageReview.jsx:237
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
+#: src/components/review/StorageReview.jsx:237
 msgid "Mount point"
 msgstr "Monteringspunkt"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
 msgid "Mount point assignment"
 msgstr "Monteringspunkt tilldelning"
 
@@ -759,8 +759,8 @@ msgstr "Nätverks insticksmodul misslyckades"
 msgid "Next"
 msgstr "Nästa"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 msgid "No devices"
 msgstr "Inga enheter"
 
@@ -834,9 +834,9 @@ msgstr "Andra tangentbord"
 msgid "Partitions (advanced)"
 msgstr "Partitioner (avancerat)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
 #: src/components/users/Accounts.jsx:195 src/components/users/Accounts.jsx:394
 msgid "Passphrase"
 msgstr "Lösenfras"
@@ -1089,8 +1089,8 @@ msgstr "Root-konto är aktiverat, men inget användarkonto har konfigurerats"
 msgid "Root password has been set."
 msgstr "Root-lösenordet har satts."
 
-#: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:245
+#: src/components/review/Hostname.jsx:125
 #: src/components/localization/Keyboard.jsx:277
 msgid "Save"
 msgstr "Spara"
@@ -1231,8 +1231,8 @@ msgstr "Stackspår"
 msgid "Storage"
 msgstr "Lagring"
 
-#: src/components/storage/storage-configuration/index.js:20
 #: src/components/storage/storage-configuration/index.js:21
+#: src/components/storage/storage-configuration/index.js:22
 #: src/components/installation/InstallationProgress.jsx:129
 #: src/components/steps.js:33
 msgid "Storage configuration"
@@ -1251,9 +1251,15 @@ msgid "Storage editor is available only in the `Installation method` step."
 msgstr ""
 "Lagringsredigeraren är endast tillgänglig i `Installationsmetod` steget."
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:21
+#: src/components/storage/scenarios/use-configured-storage/index.js:26
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "Lagring baseras på konfigurationen från \"Modifera lagring\"."
+
+#: src/components/storage/scenarios/use-configured-storage/index.js:40
+msgid ""
+"Storage layout is defined by the kickstart file. The planned partitioning "
+"layout can be reviewed in the summary step."
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
 msgid "Storage plugin failed"
@@ -1304,12 +1310,12 @@ msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "Installationen med anaconda har oväntat stoppats."
 
 #: src/components/users/Accounts.jsx:47
+#, fuzzy
+#| msgid "The following user will be created:"
 msgid "The following user will be created:"
-msgstr "Följande användare kommer att skapas:"
-
-#: src/components/users/Accounts.jsx:48
-msgid "The following users will be created:"
-msgstr "Följande användare kommer att skapas:"
+msgid_plural "The following users will be created:"
+msgstr[0] "Följande användare kommer att skapas:"
+msgstr[1] "Följande användare kommer att skapas:"
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:45
 msgid ""
@@ -1388,8 +1394,8 @@ msgstr "Detta kommer att ta en stund"
 msgid "Time"
 msgstr "Tid"
 
-#: src/components/review/ReviewConfiguration.jsx:170
 #: src/components/datetime/Timezone.jsx:130
+#: src/components/review/ReviewConfiguration.jsx:170
 msgid "Timezone"
 msgstr "Tidszon"
 
@@ -1401,7 +1407,7 @@ msgstr "Titel"
 msgid "To begin using $0, reboot your system."
 msgstr "För att börja använda $0, starta om ditt system."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:205
+#: src/components/storage/installation-method/InstallationMethod.jsx:208
 msgid "To continue, select the devices to install to."
 msgstr "För att fortsätta, välj enheterna att installera på."
 
@@ -1442,7 +1448,8 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr "Lås upp krypterade enheter"
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:22
+#: src/components/storage/scenarios/use-configured-storage/index.js:27
+#: src/components/storage/scenarios/use-configured-storage/index.js:41
 msgid "Use configured storage"
 msgstr "Använd konfigurerad lagring"
 
@@ -1558,9 +1565,9 @@ msgstr "färdigt steg"
 msgid "current step"
 msgstr "aktuellt steg"
 
-#: src/components/review/StorageReview.jsx:158
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:376
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:389
+#: src/components/review/StorageReview.jsx:158
 msgid "delete"
 msgstr "ta bort"
 
@@ -1616,6 +1623,15 @@ msgstr "krymp till $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:370
 msgid "undo"
 msgstr "ångra"
+
+#~ msgid ""
+#~ "I understand that all existing data will be erased from the selected disks"
+#~ msgstr ""
+#~ "Jag förstår att all befintlig data kommer att raderas från de valda "
+#~ "diskarna"
+
+#~ msgid "The following users will be created:"
+#~ msgstr "Följande användare kommer att skapas:"
 
 #~ msgid ""
 #~ "After creating the issue, click 'Add attachment' and attach file $0 and "

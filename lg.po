@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-07 04:59+0000\n"
+"POT-Creation-Date: 2026-04-08 05:01+0000\n"
 "PO-Revision-Date: 2026-02-26 04:30+0000\n"
 "Last-Translator: Timothy Ssewanyana <ssew.timothy@gmail.com>\n"
 "Language-Team: Luganda <https://translate.fedoraproject.org/projects/"
@@ -25,9 +25,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0$1"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 #: src/components/storage/installation-method/InstallationDestination.jsx:188
 #: src/components/storage/installation-method/InstallationDestination.jsx:282
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 msgid "$0 ($1)"
 msgstr "$0($1)"
 
@@ -93,8 +93,8 @@ msgstr "Ebifa kweno pulogulamu"
 msgid "Account"
 msgstr "Akawunti"
 
-#: src/components/review/StorageReview.jsx:235
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
+#: src/components/review/StorageReview.jsx:235
 msgid "Actions"
 msgstr "Ebikolwa"
 
@@ -208,11 +208,11 @@ msgstr ""
 "by’enkulaakulana byokka, era nti oli mwetegefu okuwa alipoota ku nsobi oba "
 "ebizibu byonna okusobola okulongoosa omulimu guno."
 
-#: src/components/Error.jsx:759 src/components/review/Hostname.jsx:127
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/datetime/CustomNTPModal.jsx:252
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:208
 #: src/components/storage/installation-method/InstallationDestination.jsx:381
-#: src/components/datetime/CustomNTPModal.jsx:252
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
 #: src/components/localization/Keyboard.jsx:280
 msgid "Cancel"
 msgstr "Sazaamu"
@@ -245,9 +245,9 @@ msgid ""
 msgstr ""
 "Enkyukakyuka ezikolebwa wano zikosa enkola ya kompyuta. Teli 'kudda mabega'."
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:425
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:431
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "Tukebera enteekateeka ya storage"
 
@@ -259,8 +259,8 @@ msgstr "Ggyamu ebinonnyebwa"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr "Nyiga 'Next' nate okweyongerayo wadde nga waliwo okulabula kuno."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/storage/installation-method/InstallationDestination.jsx:386
 #: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "Ggalawo"
@@ -287,8 +287,8 @@ msgstr "Tegeka server ya NTP"
 msgid "Configure custom NTP servers"
 msgstr "Tegeka NTP servers ez’enjawulo"
 
-#: src/components/HeaderKebab.jsx:113
 #: src/components/network/CockpitNetworkConfiguration.jsx:70
+#: src/components/HeaderKebab.jsx:113
 msgid "Configure network"
 msgstr "Tegeka network"
 
@@ -337,8 +337,8 @@ msgstr "Ey’enjawulo"
 msgid "Date"
 msgstr "Olunaku"
 
-#: src/components/datetime/DateAndTime.jsx:151
 #: src/components/datetime/index.js:18
+#: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr "Olunaku n’essaawa"
 
@@ -366,8 +366,8 @@ msgstr "Ennyonyola enzijuvu ku nsonga eno"
 msgid "Detected valid storage layout:"
 msgstr "Layout ya storage entuffu ezuuliddwa:"
 
-#: src/components/review/StorageReview.jsx:233
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
+#: src/components/review/StorageReview.jsx:233
 msgid "Device"
 msgstr ""
 
@@ -494,19 +494,18 @@ msgstr "Kweka pasiwadi"
 msgid "Hostname"
 msgstr ""
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:150
+#: src/components/storage/installation-method/InstallationScenario.jsx:149
 msgid "How would you like to install?"
 msgstr "Wandyagadde okuteeka otya?"
 
 #: src/components/review/ReviewConfiguration.jsx:235
+#, fuzzy
+#| msgid "I understand that all existing data will be erased"
 msgid "I understand that all existing data will be erased"
-msgstr "Ntegedde nti data yenna ariwo ajja kusangulwa"
-
-#: src/components/review/ReviewConfiguration.jsx:236
-msgid ""
+msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
-msgstr ""
-"Ntegedde nti data yenna aliwo ajja kusangulwa okuva ku disiki ezirondeddwa"
+msgstr[0] "Ntegedde nti data yenna ariwo ajja kusangulwa"
+msgstr[1] "Ntegedde nti data yenna ariwo ajja kusangulwa"
 
 #: src/components/review/ReviewConfiguration.jsx:240
 msgid "I understand that some existing data will be erased"
@@ -546,8 +545,9 @@ msgstr ""
 msgid "Initializing..."
 msgstr ""
 
+#: src/components/storage/scenarios/use-configured-storage/index.js:25
+#: src/components/storage/scenarios/use-configured-storage/index.js:39
 #: src/components/storage/scenarios/use-free-space/index.js:27
-#: src/components/storage/scenarios/use-configured-storage/index.js:20
 msgid "Install"
 msgstr ""
 
@@ -663,13 +663,13 @@ msgstr ""
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:237
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
+#: src/components/review/StorageReview.jsx:237
 msgid "Mount point"
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
 msgid "Mount point assignment"
 msgstr ""
 
@@ -725,8 +725,8 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 msgid "No devices"
 msgstr ""
 
@@ -795,9 +795,9 @@ msgstr ""
 msgid "Partitions (advanced)"
 msgstr ""
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:92
 #: src/components/users/Accounts.jsx:195 src/components/users/Accounts.jsx:394
 msgid "Passphrase"
 msgstr ""
@@ -1035,8 +1035,8 @@ msgstr ""
 msgid "Root password has been set."
 msgstr ""
 
-#: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:245
+#: src/components/review/Hostname.jsx:125
 #: src/components/localization/Keyboard.jsx:277
 msgid "Save"
 msgstr ""
@@ -1173,8 +1173,8 @@ msgstr ""
 msgid "Storage"
 msgstr ""
 
-#: src/components/storage/storage-configuration/index.js:20
 #: src/components/storage/storage-configuration/index.js:21
+#: src/components/storage/storage-configuration/index.js:22
 #: src/components/installation/InstallationProgress.jsx:129
 #: src/components/steps.js:33
 msgid "Storage configuration"
@@ -1192,8 +1192,14 @@ msgstr ""
 msgid "Storage editor is available only in the `Installation method` step."
 msgstr ""
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:21
+#: src/components/storage/scenarios/use-configured-storage/index.js:26
 msgid "Storage is based on the configuration from 'Modify storage'."
+msgstr ""
+
+#: src/components/storage/scenarios/use-configured-storage/index.js:40
+msgid ""
+"Storage layout is defined by the kickstart file. The planned partitioning "
+"layout can be reviewed in the summary step."
 msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
@@ -1244,11 +1250,9 @@ msgstr ""
 
 #: src/components/users/Accounts.jsx:47
 msgid "The following user will be created:"
-msgstr ""
-
-#: src/components/users/Accounts.jsx:48
-msgid "The following users will be created:"
-msgstr ""
+msgid_plural "The following users will be created:"
+msgstr[0] ""
+msgstr[1] ""
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:45
 msgid ""
@@ -1313,8 +1317,8 @@ msgstr ""
 msgid "Time"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:170
 #: src/components/datetime/Timezone.jsx:130
+#: src/components/review/ReviewConfiguration.jsx:170
 msgid "Timezone"
 msgstr ""
 
@@ -1326,7 +1330,7 @@ msgstr ""
 msgid "To begin using $0, reboot your system."
 msgstr ""
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:205
+#: src/components/storage/installation-method/InstallationMethod.jsx:208
 msgid "To continue, select the devices to install to."
 msgstr ""
 
@@ -1363,7 +1367,8 @@ msgstr ""
 msgid "Unlock encrypted devices"
 msgstr ""
 
-#: src/components/storage/scenarios/use-configured-storage/index.js:22
+#: src/components/storage/scenarios/use-configured-storage/index.js:27
+#: src/components/storage/scenarios/use-configured-storage/index.js:41
 msgid "Use configured storage"
 msgstr ""
 
@@ -1467,9 +1472,9 @@ msgstr ""
 msgid "current step"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:158
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:376
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:389
+#: src/components/review/StorageReview.jsx:158
 msgid "delete"
 msgstr ""
 
@@ -1525,3 +1530,8 @@ msgstr ""
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:370
 msgid "undo"
 msgstr ""
+
+#~ msgid ""
+#~ "I understand that all existing data will be erased from the selected disks"
+#~ msgstr ""
+#~ "Ntegedde nti data yenna aliwo ajja kusangulwa okuva ku disiki ezirondeddwa"
