@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-14 05:12+0000\n"
+"POT-Creation-Date: 2026-04-15 05:12+0000\n"
 "PO-Revision-Date: 2026-04-09 04:59+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/anaconda-"
@@ -68,7 +68,7 @@ msgstr "$0 설치"
 msgid "$0 installer"
 msgstr "$0 설치자"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:243
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:244
 msgid ""
 "$0 is an MBR extended partition that contains logical partitions. Removing "
 "all logical partitions will also automatically remove the extended partition."
@@ -119,7 +119,7 @@ msgstr "정보"
 msgid "Account"
 msgstr "계정"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:141
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
 #: src/components/review/StorageReview.jsx:235
 msgid "Actions"
 msgstr "동작"
@@ -196,7 +196,7 @@ msgstr "시간 서버를 사용하여, 자동으로 날짜 및 시간을 설정�
 msgid "Automatically set timezone"
 msgstr "자동으로 시간대를 설정합니다"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:199
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:200
 msgid "Available free space: $0. Installation requires: $1."
 msgstr "사용 가능한 여유 공간: $0. 설치에 필요합니다: $1."
 
@@ -232,7 +232,7 @@ msgstr ""
 "소프트웨어와 관련된 위험을 이해하고 수용합니다."
 
 #: src/components/datetime/CustomNTPModal.jsx:252
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:210
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:381
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
@@ -365,6 +365,12 @@ msgstr "날짜"
 msgid "Date and time"
 msgstr "날짜와 시간"
 
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:395
+#, fuzzy
+#| msgid "extended partition"
+msgid "Delete partition"
+msgstr "확장된 파티션"
+
 #: src/components/review/StorageReview.jsx:335
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "특정 파티션의 삭제는 부팅에서 $0를 예방합니다: $1"
@@ -442,8 +448,8 @@ msgstr "오류 상세"
 msgid "Exit to live desktop"
 msgstr "라이브 데스크탑으로 종료"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:240
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:247
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:241
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:248
 msgid "Extended partition"
 msgstr "확장된 파티션"
 
@@ -649,7 +655,7 @@ msgstr "저장소 편집기 실행"
 msgid "Learn more about restricted access in the configuration"
 msgstr "구성에서 제한된 접근에 대해 알아보세요"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:137
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:138
 msgid "Location"
 msgstr "위치"
 
@@ -722,7 +728,7 @@ msgstr "NTP 서버"
 msgid "NTS"
 msgstr "NTS"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:138
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:139
 msgid "Name"
 msgstr "이름"
 
@@ -754,7 +760,7 @@ msgstr "실패한 네트워크 플로그인"
 msgid "Next"
 msgstr "다음"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:143
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:614
 msgid "No devices"
 msgstr "장치 없음"
@@ -917,7 +923,7 @@ msgstr "실제 호스트이름은 길이로 64 자 이하의 문자여야 합니
 msgid "Reboot"
 msgstr "재시작"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:535
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:565
 msgid ""
 "Reboot into Windows to resize BitLocker-encrypted partitions. Make at least "
 "$0 of free space available for installation."
@@ -937,9 +943,9 @@ msgstr "설치된 시스템으로 재부팅"
 msgid "Reclaim additional space"
 msgstr "추가 공간 확보"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:115
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:135
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:207
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:116
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:136
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:208
 msgid "Reclaim space"
 msgstr "공간 확보"
 
@@ -978,7 +984,7 @@ msgid ""
 "systems."
 msgstr "기존 운영체제를 포함하여, 선택된 장치에서 모든 파티션을 제거합니다."
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:119
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:120
 msgid ""
 "Remove or resize existing filesystems to free up space for the installation."
 msgstr ""
@@ -989,7 +995,7 @@ msgstr ""
 msgid "Remove server"
 msgstr "서버 삭제"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:121
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:122
 msgid ""
 "Removing a filesystem will permanently delete all of the data it contains. "
 "Resizing a partition can free up unused space, but is not risk-free. Be sure "
@@ -1038,9 +1044,15 @@ msgstr "장치 재검색"
 msgid "Rescanning of the disks failed."
 msgstr "디스크 재검색이 실패함."
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:515
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:539
 msgid "Resize"
 msgstr "크기조정"
+
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:548
+#, fuzzy
+#| msgid "Extended partition"
+msgid "Resize partition"
+msgstr "확장된 파티션"
 
 #: src/components/review/StorageReview.jsx:341
 msgid "Resizing the following partitions from $0: $1"
@@ -1208,7 +1220,7 @@ msgstr "소프트웨어 선택"
 msgid "Some required partitions are missing: $0"
 msgstr "일부 필수 파티션이 누락되었습니다: $0"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:141
 msgid "Space"
 msgstr "공간"
 
@@ -1401,17 +1413,24 @@ msgstr ""
 "이와 같은 옵션을 사용하려면, 최소 $0의 공간을 확보하려면 기존 파티션 크기를 "
 "조정하거나 제거하세요."
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:139
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "유형"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:86
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
 msgstr "$0의 삭제를 예정 할 수 없습니다"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:88
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:89
 msgid "Unable to schedule resizing of $0"
 msgstr "$0의 크기 조정을 예정 할 수 없습니다"
+
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:374
+#, fuzzy
+#| msgctxt "GUI|Blivet Gui Partitioning"
+#| msgid "_Undo last action"
+msgid "Undo last action"
+msgstr "마지막 동작 취소(_U)"
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:58
 #: src/components/storage/installation-method/EncryptedDevices.jsx:178
@@ -1503,7 +1522,7 @@ msgstr ""
 "당신이 이와 같은 결점 보고를 제출 할 때에, 다음 기록 파일이 자동으로 올려질 "
 "것입니다: $0"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:533
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:563
 msgid "Windows partitions with BitLocker encryption cannot be resized"
 msgstr "BitLocker로 암호화된 윈도우 파티션은 크기를 조절 할 수 없습니다"
 
@@ -1543,8 +1562,8 @@ msgstr "완료 단계"
 msgid "current step"
 msgstr "현재 단계"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:378
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:391
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
 #: src/components/review/StorageReview.jsx:158
 msgid "delete"
 msgstr "삭제"
@@ -1561,7 +1580,7 @@ msgstr "암호화"
 msgid "encrypted"
 msgstr "암호화됨"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:236
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:237
 msgid "extended partition"
 msgstr "확장된 파티션"
 
@@ -1589,16 +1608,16 @@ msgstr "사건을 수동으로 보고합니다"
 msgid "resized from $0"
 msgstr "$0부터 크기가 조정됨"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:462
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:466
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:478
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:486
 msgid "shrink"
 msgstr "축소"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:412
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:419
 msgid "shrink to $0"
 msgstr "$0로 축소"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:372
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:375
 msgid "undo"
 msgstr "실행취소"
 
@@ -7104,10 +7123,6 @@ msgstr "실행취소"
 #~ msgctxt "GUI|Software Source"
 #~ msgid "_URL:"
 #~ msgstr "URL(_U):"
-
-#~ msgctxt "GUI|Blivet Gui Partitioning"
-#~ msgid "_Undo last action"
-#~ msgstr "마지막 동작 취소(_U)"
 
 #~ msgctxt "GUI|Custom Partitioning|Encrypted"
 #~ msgid "_Unlock"
