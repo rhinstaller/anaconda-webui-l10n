@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-27 05:40+0000\n"
+"POT-Creation-Date: 2026-04-28 05:46+0000\n"
 "PO-Revision-Date: 2024-11-18 02:57+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.fedoraproject.org/projects/anaconda-"
@@ -31,13 +31,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Weblate 5.8.2\n"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:168
-#: src/components/storage/installation-method/InstallationDestination.jsx:289
+#: src/components/storage/installation-method/InstallationDestination.jsx:142
+#: src/components/storage/installation-method/InstallationDestination.jsx:263
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:188
-#: src/components/storage/installation-method/InstallationDestination.jsx:282
+#: src/components/storage/installation-method/InstallationDestination.jsx:162
+#: src/components/storage/installation-method/InstallationDestination.jsx:256
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
@@ -56,7 +56,7 @@ msgid ""
 "all logical partitions will also automatically remove the extended partition."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:89
+#: src/components/storage/installation-method/usePageComplete.jsx:143
 msgid "$0 is required, but only $1 is available."
 msgstr ""
 
@@ -93,7 +93,7 @@ msgstr ""
 msgid "About"
 msgstr "על אודות"
 
-#: src/components/review/ReviewConfiguration.jsx:169
+#: src/components/review/ReviewConfiguration.jsx:243
 msgid "Account"
 msgstr "חשבון"
 
@@ -225,7 +225,7 @@ msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:252
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
-#: src/components/storage/installation-method/InstallationDestination.jsx:381
+#: src/components/storage/installation-method/InstallationDestination.jsx:355
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
 #: src/components/localization/Keyboard.jsx:280
@@ -236,7 +236,7 @@ msgstr "ביטול"
 msgid "Change"
 msgstr "שינוי"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:353
+#: src/components/storage/installation-method/InstallationDestination.jsx:327
 msgid "Change destination"
 msgstr "החלפת יעד"
 
@@ -244,7 +244,7 @@ msgstr "החלפת יעד"
 msgid "Change hostname"
 msgstr "החלפת שם מארח"
 
-#: src/components/review/ReviewConfiguration.jsx:103
+#: src/components/storage/installation-method/usePageComplete.jsx:157
 #, fuzzy
 #| msgid "Change destination"
 msgid "Change partition layout"
@@ -260,6 +260,12 @@ msgstr ""
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr "שינויים שבוצעו כאן ישפיעו על המערכת ישירות. אי אפשר לסגת."
+
+#: src/components/review/ReviewConfiguration.jsx:180
+#, fuzzy
+#| msgid "Checking storage configuration..."
+msgid "Checking installation configuration..."
+msgstr "בודק את הגדרות תצורת האחסון..."
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:425
@@ -278,7 +284,7 @@ msgid "Click 'Next' again to proceed despite these warnings."
 msgstr ""
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
-#: src/components/storage/installation-method/InstallationDestination.jsx:386
+#: src/components/storage/installation-method/InstallationDestination.jsx:360
 #: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "סגירה"
@@ -297,6 +303,12 @@ msgstr "האחסון של Cockpit לא סיפק מילת צופן לשחרור �
 #: src/components/installation/InstallationProgress.jsx:175
 msgid "Completed"
 msgstr "הושלם"
+
+#: src/components/review/ReviewConfiguration.jsx:201
+#, fuzzy
+#| msgid "Apply configuration in installer"
+msgid "Configuration is incomplete"
+msgstr "החלת תצוגה בתכנית ההתקנה"
 
 #: src/components/datetime/CustomNTPModal.jsx:270
 msgid "Configure NTP servers"
@@ -348,7 +360,7 @@ msgstr "יצירת חשבון"
 msgid "Create account"
 msgstr "יצירת חשבון"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:91
+#: src/components/storage/installation-method/InstallationDestination.jsx:65
 msgid "Currently installed: $0"
 msgstr "מותקן כרגע: $0"
 
@@ -381,7 +393,7 @@ msgstr "מחיקה של מחיצות מסוימות עלולה לפגום בעל
 msgid "Description"
 msgstr "תיאור"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:274
+#: src/components/storage/installation-method/InstallationDestination.jsx:248
 msgid "Destination"
 msgstr "יעד"
 
@@ -536,7 +548,7 @@ msgstr "שם מארח"
 msgid "How would you like to install?"
 msgstr "איך להתקין?"
 
-#: src/components/review/ReviewConfiguration.jsx:227
+#: src/components/review/ReviewConfiguration.jsx:298
 #, fuzzy
 #| msgid "I understand that all existing data will be erased"
 msgid "I understand that all existing data will be erased"
@@ -545,11 +557,11 @@ msgid_plural ""
 msgstr[0] "ברור לי שכל הנתונים הקיימים יימחקו"
 msgstr[1] "ברור לי שכל הנתונים הקיימים יימחקו"
 
-#: src/components/review/ReviewConfiguration.jsx:232
+#: src/components/review/ReviewConfiguration.jsx:303
 msgid "I understand that some existing data will be erased"
 msgstr "ברור לי שחלק מהנתונים הקיימים יימחקו"
 
-#: src/components/review/ReviewConfiguration.jsx:233
+#: src/components/review/ReviewConfiguration.jsx:304
 msgid "I understand that some partitions will be modified"
 msgstr "ברור לי שחלק מהמחיצות ישתנו"
 
@@ -607,7 +619,7 @@ msgstr "התקנת המערכת נכשלה: $0"
 msgid "Installation of the system failed: $0"
 msgstr "התקנת המערכת נכשלה: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:184
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Installation type"
 msgstr "סוג התקנה"
 
@@ -615,7 +627,7 @@ msgstr "סוג התקנה"
 msgid "Installing"
 msgstr "התקנה מתבצעת"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:320
+#: src/components/storage/installation-method/InstallationDestination.jsx:294
 msgid "Insufficient disk space"
 msgstr ""
 
@@ -633,6 +645,12 @@ msgstr ""
 #| msgid "Invalid host name"
 msgid "Invalid hostname"
 msgstr "שם מארח לא חוקי"
+
+#: src/components/review/ReviewConfiguration.jsx:197
+#, fuzzy
+#| msgid "completed step"
+msgid "Jump to first incomplete step"
+msgstr "שלב שהושלם"
 
 #: src/components/storage/scenarios/use-free-space/index.js:28
 msgid ""
@@ -653,7 +671,7 @@ msgstr "_מקלדת"
 msgid "Keyboard layout during boot"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:155
+#: src/components/review/ReviewConfiguration.jsx:223
 #: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "שפה"
@@ -704,7 +722,7 @@ msgstr "להתקין במקום הפנוי?"
 msgid "Medium"
 msgstr "בינונית"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:323
+#: src/components/storage/installation-method/InstallationDestination.jsx:297
 msgid "Minimum of $0 required"
 msgstr ""
 
@@ -789,11 +807,11 @@ msgstr "הבא"
 msgid "No devices"
 msgstr "אין התקנים"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:150
+#: src/components/storage/installation-method/InstallationDestination.jsx:124
 msgid "No disks available"
 msgstr "אין כוננים זמינים"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:332
+#: src/components/storage/installation-method/InstallationDestination.jsx:306
 msgid "No disks selected"
 msgstr "לא נבחרו כוננים"
 
@@ -814,7 +832,7 @@ msgid ""
 "layout(s). Please make a different keyboard layout selection."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:87
+#: src/components/storage/installation-method/usePageComplete.jsx:141
 #, fuzzy
 #| msgid "Not enough free space."
 msgid "Not enough available free space"
@@ -845,7 +863,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:144
+#: src/components/review/ReviewConfiguration.jsx:212
 msgid "Operating system"
 msgstr "מערכת הפעלה"
 
@@ -887,7 +905,7 @@ msgstr "בהמתנה"
 msgid "Please attach the log file $0 to the issue."
 msgstr "נא להצמיד את קוב היומן ‎$0 לדיווח."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:335
+#: src/components/storage/installation-method/InstallationDestination.jsx:309
 #, fuzzy
 #| msgid "No disks selected; please select at least one disk to install to."
 msgid "Please select at least one disk to continue"
@@ -1065,11 +1083,11 @@ msgstr "חובה"
 msgid "Requirements"
 msgstr "דרישות"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:141
+#: src/components/storage/installation-method/InstallationDestination.jsx:115
 msgid "Rescan devices"
 msgstr "סריקת התקנים מחדש"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:122
+#: src/components/storage/installation-method/InstallationDestination.jsx:96
 msgid "Rescanning of the disks failed."
 msgstr "סריקת הכוננים מחדש נכשלה."
 
@@ -1160,7 +1178,7 @@ msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr "אפשר להגן על הנתונים שלך עם הצפנה מבוססת כונן. חל רק על מחיצות חדשות"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:378
+#: src/components/storage/installation-method/InstallationDestination.jsx:352
 msgid "Select"
 msgstr "בחירה"
 
@@ -1175,7 +1193,7 @@ msgstr "נא לבחור התקן"
 msgid "Select city"
 msgstr "בחירה"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:361
+#: src/components/storage/installation-method/InstallationDestination.jsx:335
 msgid "Select destination"
 msgstr "בחירת יעד"
 
@@ -1266,9 +1284,15 @@ msgid ""
 "being installed onto your device."
 msgstr "התקנת תוכנות: הגדרת האחסון הושלמה. התוכנות מותקנות כעת במכשיר שלך."
 
+#: src/components/review/ReviewConfiguration.jsx:236
 #: src/components/software/index.js:19 src/components/software/index.js:20
 msgid "Software selection"
 msgstr "בחירת תכנה"
+
+#: src/components/review/ReviewConfiguration.jsx:204
+msgid ""
+"Some installation steps still need to be completed before you can continue."
+msgstr ""
 
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:49
 msgid "Some required partitions are missing: $0"
@@ -1282,7 +1306,7 @@ msgstr "מקום"
 msgid "Stacktrace"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:265
 msgid "Storage"
 msgstr "אחסון"
 
@@ -1444,7 +1468,7 @@ msgid "Time"
 msgstr "אזור זמן: %s\n"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:162
+#: src/components/review/ReviewConfiguration.jsx:230
 #, fuzzy
 #| msgid "Timezone: %s\n"
 msgid "Timezone"
@@ -1458,7 +1482,7 @@ msgstr ""
 msgid "To begin using $0, reboot your system."
 msgstr "כדי להתחיל להשתמש ב־$0, יש להפעיל את המערכת מחדש."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:197
+#: src/components/storage/installation-method/InstallationMethod.jsx:195
 msgid "To continue, select the devices to install to."
 msgstr "כדי להמשיך, נא לבחור את ההתקן להתקנה אליו."
 
@@ -1653,6 +1677,12 @@ msgstr "פרמוט ל־$0"
 #: src/components/Error.jsx:161 src/components/Error.jsx:241
 msgid "here"
 msgstr ""
+
+#: src/components/review/ReviewConfiguration.jsx:56
+#, fuzzy
+#| msgid "Completed"
+msgid "incomplete"
+msgstr "הושלם"
 
 #: src/components/review/StorageReview.jsx:108
 msgid "mount"
@@ -2520,9 +2550,6 @@ msgstr "ביטול"
 #~ msgid "Apple EFI Boot Partition"
 #~ msgstr "מחיצת אתחול EFI של Apple"
 
-#~ msgid "Apply configuration in installer"
-#~ msgstr "החלת תצוגה בתכנית ההתקנה"
-
 #~ msgid ""
 #~ "Are you sure you want to delete all of the data on {}, including "
 #~ "snapshots?"
@@ -2782,9 +2809,6 @@ msgstr "ביטול"
 
 #~ msgid "Checking software dependencies..."
 #~ msgstr "תלויות תכנה נבדקות…"
-
-#~ msgid "Checking storage configuration..."
-#~ msgstr "בודק את הגדרות תצורת האחסון..."
 
 #~ msgid ""
 #~ "Choose device from above to assign mount point and set format.\n"

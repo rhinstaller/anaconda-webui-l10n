@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-27 05:40+0000\n"
+"POT-Creation-Date: 2026-04-28 05:46+0000\n"
 "PO-Revision-Date: 2023-11-06 12:19+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Latvian <https://translate.fedoraproject.org/projects/"
@@ -26,13 +26,13 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
 "X-Generator: Weblate 5.1.1\n"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:168
-#: src/components/storage/installation-method/InstallationDestination.jsx:289
+#: src/components/storage/installation-method/InstallationDestination.jsx:142
+#: src/components/storage/installation-method/InstallationDestination.jsx:263
 msgid "$0 $1"
 msgstr ""
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:188
-#: src/components/storage/installation-method/InstallationDestination.jsx:282
+#: src/components/storage/installation-method/InstallationDestination.jsx:162
+#: src/components/storage/installation-method/InstallationDestination.jsx:256
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 msgid "$0 ($1)"
 msgstr ""
@@ -53,7 +53,7 @@ msgid ""
 "all logical partitions will also automatically remove the extended partition."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:89
+#: src/components/storage/installation-method/usePageComplete.jsx:143
 msgid "$0 is required, but only $1 is available."
 msgstr ""
 
@@ -91,7 +91,7 @@ msgstr ""
 msgid "About"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:169
+#: src/components/review/ReviewConfiguration.jsx:243
 msgid "Account"
 msgstr ""
 
@@ -206,7 +206,7 @@ msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:252
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
-#: src/components/storage/installation-method/InstallationDestination.jsx:381
+#: src/components/storage/installation-method/InstallationDestination.jsx:355
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
 #: src/components/localization/Keyboard.jsx:280
@@ -217,7 +217,7 @@ msgstr ""
 msgid "Change"
 msgstr ""
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:353
+#: src/components/storage/installation-method/InstallationDestination.jsx:327
 #, fuzzy
 #| msgid "Install"
 msgid "Change destination"
@@ -227,7 +227,7 @@ msgstr "Instalēt"
 msgid "Change hostname"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:103
+#: src/components/storage/installation-method/usePageComplete.jsx:157
 #, fuzzy
 #| msgid "Install"
 msgid "Change partition layout"
@@ -243,6 +243,11 @@ msgstr ""
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
+
+#: src/components/review/ReviewConfiguration.jsx:180
+#, fuzzy
+msgid "Checking installation configuration..."
+msgstr "Mainot iekārtas %s izmēru gadījās kļūda."
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:425
@@ -260,7 +265,7 @@ msgid "Click 'Next' again to proceed despite these warnings."
 msgstr ""
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
-#: src/components/storage/installation-method/InstallationDestination.jsx:386
+#: src/components/storage/installation-method/InstallationDestination.jsx:360
 #: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr ""
@@ -277,6 +282,10 @@ msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:175
 msgid "Completed"
+msgstr ""
+
+#: src/components/review/ReviewConfiguration.jsx:201
+msgid "Configuration is incomplete"
 msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:270
@@ -337,7 +346,7 @@ msgstr ""
 msgid "Create account"
 msgstr ""
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:91
+#: src/components/storage/installation-method/InstallationDestination.jsx:65
 msgid "Currently installed: $0"
 msgstr ""
 
@@ -368,7 +377,7 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:274
+#: src/components/storage/installation-method/InstallationDestination.jsx:248
 msgid "Destination"
 msgstr ""
 
@@ -509,7 +518,7 @@ msgstr ""
 msgid "How would you like to install?"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:227
+#: src/components/review/ReviewConfiguration.jsx:298
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
@@ -517,11 +526,11 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: src/components/review/ReviewConfiguration.jsx:232
+#: src/components/review/ReviewConfiguration.jsx:303
 msgid "I understand that some existing data will be erased"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:233
+#: src/components/review/ReviewConfiguration.jsx:304
 msgid "I understand that some partitions will be modified"
 msgstr ""
 
@@ -582,7 +591,7 @@ msgstr "Instalēt"
 msgid "Installation of the system failed: $0"
 msgstr "Instalēt"
 
-#: src/components/review/ReviewConfiguration.jsx:184
+#: src/components/review/ReviewConfiguration.jsx:258
 #, fuzzy
 msgid "Installation type"
 msgstr "Instalēt"
@@ -592,7 +601,7 @@ msgstr "Instalēt"
 msgid "Installing"
 msgstr "Instalēt"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:320
+#: src/components/storage/installation-method/InstallationDestination.jsx:294
 msgid "Insufficient disk space"
 msgstr ""
 
@@ -609,6 +618,10 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr ""
 
+#: src/components/review/ReviewConfiguration.jsx:197
+msgid "Jump to first incomplete step"
+msgstr ""
+
 #: src/components/storage/scenarios/use-free-space/index.js:28
 msgid ""
 "Keep current disk layout and use available space, to dual-boot with another "
@@ -623,7 +636,7 @@ msgstr ""
 msgid "Keyboard layout during boot"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:155
+#: src/components/review/ReviewConfiguration.jsx:223
 #: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr ""
@@ -674,7 +687,7 @@ msgstr "Instalēt"
 msgid "Medium"
 msgstr ""
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:323
+#: src/components/storage/installation-method/InstallationDestination.jsx:297
 msgid "Minimum of $0 required"
 msgstr ""
 
@@ -752,11 +765,11 @@ msgstr ""
 msgid "No devices"
 msgstr ""
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:150
+#: src/components/storage/installation-method/InstallationDestination.jsx:124
 msgid "No disks available"
 msgstr ""
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:332
+#: src/components/storage/installation-method/InstallationDestination.jsx:306
 msgid "No disks selected"
 msgstr ""
 
@@ -774,7 +787,7 @@ msgid ""
 "layout(s). Please make a different keyboard layout selection."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:87
+#: src/components/storage/installation-method/usePageComplete.jsx:141
 msgid "Not enough available free space"
 msgstr ""
 
@@ -803,7 +816,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:144
+#: src/components/review/ReviewConfiguration.jsx:212
 #, fuzzy
 msgid "Operating system"
 msgstr "Izveido lietotājus"
@@ -843,7 +856,7 @@ msgstr ""
 msgid "Please attach the log file $0 to the issue."
 msgstr ""
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:335
+#: src/components/storage/installation-method/InstallationDestination.jsx:309
 msgid "Please select at least one disk to continue"
 msgstr ""
 
@@ -1021,12 +1034,12 @@ msgstr ""
 msgid "Requirements"
 msgstr ""
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:141
+#: src/components/storage/installation-method/InstallationDestination.jsx:115
 #, fuzzy
 msgid "Rescan devices"
 msgstr "Glābt"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:122
+#: src/components/storage/installation-method/InstallationDestination.jsx:96
 msgid "Rescanning of the disks failed."
 msgstr ""
 
@@ -1111,7 +1124,7 @@ msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:378
+#: src/components/storage/installation-method/InstallationDestination.jsx:352
 msgid "Select"
 msgstr ""
 
@@ -1126,7 +1139,7 @@ msgstr ""
 msgid "Select city"
 msgstr "Instalēt"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:361
+#: src/components/storage/installation-method/InstallationDestination.jsx:335
 #, fuzzy
 #| msgid "Install"
 msgid "Select destination"
@@ -1206,10 +1219,16 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
+#: src/components/review/ReviewConfiguration.jsx:236
 #: src/components/software/index.js:19 src/components/software/index.js:20
 #, fuzzy
 msgid "Software selection"
 msgstr "Palaiž pirmsinstalēšanas skriptus"
+
+#: src/components/review/ReviewConfiguration.jsx:204
+msgid ""
+"Some installation steps still need to be completed before you can continue."
+msgstr ""
 
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:49
 msgid "Some required partitions are missing: $0"
@@ -1223,7 +1242,7 @@ msgstr ""
 msgid "Stacktrace"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:265
 msgid "Storage"
 msgstr ""
 
@@ -1375,7 +1394,7 @@ msgid "Time"
 msgstr ""
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:162
+#: src/components/review/ReviewConfiguration.jsx:230
 msgid "Timezone"
 msgstr ""
 
@@ -1387,7 +1406,7 @@ msgstr ""
 msgid "To begin using $0, reboot your system."
 msgstr ""
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:197
+#: src/components/storage/installation-method/InstallationMethod.jsx:195
 msgid "To continue, select the devices to install to."
 msgstr ""
 
@@ -1566,6 +1585,10 @@ msgstr ""
 
 #: src/components/Error.jsx:161 src/components/Error.jsx:241
 msgid "here"
+msgstr ""
+
+#: src/components/review/ReviewConfiguration.jsx:56
+msgid "incomplete"
 msgstr ""
 
 #: src/components/review/StorageReview.jsx:108

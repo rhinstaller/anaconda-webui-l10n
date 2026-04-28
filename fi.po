@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-27 05:40+0000\n"
+"POT-Creation-Date: 2026-04-28 05:46+0000\n"
 "PO-Revision-Date: 2026-04-16 05:19+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
@@ -40,13 +40,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.17\n"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:168
-#: src/components/storage/installation-method/InstallationDestination.jsx:289
+#: src/components/storage/installation-method/InstallationDestination.jsx:142
+#: src/components/storage/installation-method/InstallationDestination.jsx:263
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:188
-#: src/components/storage/installation-method/InstallationDestination.jsx:282
+#: src/components/storage/installation-method/InstallationDestination.jsx:162
+#: src/components/storage/installation-method/InstallationDestination.jsx:256
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
@@ -68,7 +68,7 @@ msgstr ""
 "loogisten osioiden poistaminen poistaa automaattisesti myös laajennetun "
 "osion."
 
-#: src/components/review/ReviewConfiguration.jsx:89
+#: src/components/storage/installation-method/usePageComplete.jsx:143
 msgid "$0 is required, but only $1 is available."
 msgstr "$0 vaaditaan, mutta vain $1 on saatavilla."
 
@@ -109,7 +109,7 @@ msgstr ""
 msgid "About"
 msgstr "Aiheesta"
 
-#: src/components/review/ReviewConfiguration.jsx:169
+#: src/components/review/ReviewConfiguration.jsx:243
 msgid "Account"
 msgstr "Tili"
 
@@ -229,7 +229,7 @@ msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:252
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
-#: src/components/storage/installation-method/InstallationDestination.jsx:381
+#: src/components/storage/installation-method/InstallationDestination.jsx:355
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
 #: src/components/localization/Keyboard.jsx:280
@@ -240,7 +240,7 @@ msgstr "Peru"
 msgid "Change"
 msgstr "Vaihda"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:353
+#: src/components/storage/installation-method/InstallationDestination.jsx:327
 msgid "Change destination"
 msgstr "Muuta kohdetta"
 
@@ -248,7 +248,7 @@ msgstr "Muuta kohdetta"
 msgid "Change hostname"
 msgstr "Vaihda isäntänimi"
 
-#: src/components/review/ReviewConfiguration.jsx:103
+#: src/components/storage/installation-method/usePageComplete.jsx:157
 msgid "Change partition layout"
 msgstr "Muuta osion asettelua"
 
@@ -264,6 +264,12 @@ msgid ""
 msgstr ""
 "Täällä tehdyt muutokset vaikuttavat välittömästi järjestelmään. \"Kumoa\" ei "
 "ole."
+
+#: src/components/review/ReviewConfiguration.jsx:180
+#, fuzzy
+#| msgid "Checking storage configuration..."
+msgid "Checking installation configuration..."
+msgstr "Tarkistetaan tallennustilan määrityksiä..."
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:425
@@ -281,7 +287,7 @@ msgstr ""
 "Jatka näistä varoituksista huolimatta napsauttamalla uudelleen Seuraava."
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
-#: src/components/storage/installation-method/InstallationDestination.jsx:386
+#: src/components/storage/installation-method/InstallationDestination.jsx:360
 #: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "Sulje"
@@ -300,6 +306,12 @@ msgstr ""
 #: src/components/installation/InstallationProgress.jsx:175
 msgid "Completed"
 msgstr "Valmis"
+
+#: src/components/review/ReviewConfiguration.jsx:201
+#, fuzzy
+#| msgid "Apply configuration in installer"
+msgid "Configuration is incomplete"
+msgstr "Ota asetukset käyttöön asentimessa"
 
 #: src/components/datetime/CustomNTPModal.jsx:270
 msgid "Configure NTP servers"
@@ -347,7 +359,7 @@ msgstr "Luo tili"
 msgid "Create account"
 msgstr "Luo tili"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:91
+#: src/components/storage/installation-method/InstallationDestination.jsx:65
 msgid "Currently installed: $0"
 msgstr "Tällä hetkellä asennettuna: $0"
 
@@ -376,7 +388,7 @@ msgstr "Tiettyjen osioiden poistaminen voi estää $0:n käynnistymisen: $1"
 msgid "Description"
 msgstr "Kuvaus"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:274
+#: src/components/storage/installation-method/InstallationDestination.jsx:248
 msgid "Destination"
 msgstr "Kohde"
 
@@ -522,7 +534,7 @@ msgstr "Koneen nimi"
 msgid "How would you like to install?"
 msgstr "Miten haluaisit asentaa?"
 
-#: src/components/review/ReviewConfiguration.jsx:227
+#: src/components/review/ReviewConfiguration.jsx:298
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
@@ -530,11 +542,11 @@ msgstr[0] ""
 "Ymmärrän, että kaikki olemassa olevat tiedot poistetaan valituilta levyiltä"
 msgstr[1] "Ymmärrän, että kaikki olemassa olevat tiedot poistetaan"
 
-#: src/components/review/ReviewConfiguration.jsx:232
+#: src/components/review/ReviewConfiguration.jsx:303
 msgid "I understand that some existing data will be erased"
 msgstr "Ymmärrän, että osa olemassa olevista tiedoista poistetaan"
 
-#: src/components/review/ReviewConfiguration.jsx:233
+#: src/components/review/ReviewConfiguration.jsx:304
 msgid "I understand that some partitions will be modified"
 msgstr "Ymmärrän, että joitain osioita muutetaan"
 
@@ -593,7 +605,7 @@ msgstr "Järjestelmän asennus epäonnistui"
 msgid "Installation of the system failed: $0"
 msgstr "Järjestelmän asennus epäonnistui: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:184
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Installation type"
 msgstr "Asennustyyppi"
 
@@ -601,7 +613,7 @@ msgstr "Asennustyyppi"
 msgid "Installing"
 msgstr "Asennetaan"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:320
+#: src/components/storage/installation-method/InstallationDestination.jsx:294
 msgid "Insufficient disk space"
 msgstr "Riittämätön levytila"
 
@@ -622,6 +634,12 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Ei kelvollinen isäntänimi"
 
+#: src/components/review/ReviewConfiguration.jsx:197
+#, fuzzy
+#| msgid "completed step"
+msgid "Jump to first incomplete step"
+msgstr "suoritettu vaihe"
+
 #: src/components/storage/scenarios/use-free-space/index.js:28
 msgid ""
 "Keep current disk layout and use available space, to dual-boot with another "
@@ -638,7 +656,7 @@ msgstr "Näppäimistö"
 msgid "Keyboard layout during boot"
 msgstr "Näppäimistön asettelu käynnistyksen aikana"
 
-#: src/components/review/ReviewConfiguration.jsx:155
+#: src/components/review/ReviewConfiguration.jsx:223
 #: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "Kieli"
@@ -685,7 +703,7 @@ msgstr "Saattaa tarvita lisää vapaata tilaa"
 msgid "Medium"
 msgstr "Keskivahva"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:323
+#: src/components/storage/installation-method/InstallationDestination.jsx:297
 msgid "Minimum of $0 required"
 msgstr "Vähintään $0 tarvitaan"
 
@@ -763,11 +781,11 @@ msgstr "Seuraava"
 msgid "No devices"
 msgstr "Ei laiteita"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:150
+#: src/components/storage/installation-method/InstallationDestination.jsx:124
 msgid "No disks available"
 msgstr "Levyjä ei saatavilla"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:332
+#: src/components/storage/installation-method/InstallationDestination.jsx:306
 msgid "No disks selected"
 msgstr "Yhtään levyä ei ole valittu"
 
@@ -787,7 +805,7 @@ msgstr ""
 "Valitulle näppäimistöasettelulle/asetteluille ei löydy kelvollista VConsole-"
 "näppäinkarttaa. Valitse toinen näppäimistöasettelu."
 
-#: src/components/review/ReviewConfiguration.jsx:87
+#: src/components/storage/installation-method/usePageComplete.jsx:141
 msgid "Not enough available free space"
 msgstr "Ei tarpeeksi levytilaa vapaana"
 
@@ -817,7 +835,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Avaa Bugzillan virheilmoituslomake"
 
-#: src/components/review/ReviewConfiguration.jsx:144
+#: src/components/review/ReviewConfiguration.jsx:212
 msgid "Operating system"
 msgstr "Käyttöjärjestelmä"
 
@@ -856,7 +874,7 @@ msgstr "Odottaa"
 msgid "Please attach the log file $0 to the issue."
 msgstr "Liitä lokitiedosto $0 vikaraporttiin."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:335
+#: src/components/storage/installation-method/InstallationDestination.jsx:309
 msgid "Please select at least one disk to continue"
 msgstr "Valitse vähintään yksi levy jatkaaksesi"
 
@@ -1039,11 +1057,11 @@ msgstr "Vaaditaan"
 msgid "Requirements"
 msgstr "Vaatimukset"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:141
+#: src/components/storage/installation-method/InstallationDestination.jsx:115
 msgid "Rescan devices"
 msgstr "tutki laitteet uudelleen"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:122
+#: src/components/storage/installation-method/InstallationDestination.jsx:96
 msgid "Rescanning of the disks failed."
 msgstr "Levyjen uudelleenskannaus epäonnistui."
 
@@ -1123,7 +1141,7 @@ msgid ""
 msgstr ""
 "Suojaa tietosi levypohjaisella salauksella. Soveltuu vain uusiin osioihin"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:378
+#: src/components/storage/installation-method/InstallationDestination.jsx:352
 msgid "Select"
 msgstr "Valitse"
 
@@ -1136,7 +1154,7 @@ msgstr "Valitse laite"
 msgid "Select city"
 msgstr "Valitse kaupunki"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:361
+#: src/components/storage/installation-method/InstallationDestination.jsx:335
 msgid "Select destination"
 msgstr "Valitse kohde"
 
@@ -1212,9 +1230,15 @@ msgstr ""
 "Ohjelmiston asennus: Tallennuskokoonpano on valmis. Ohjelmistoa asennetaan "
 "nyt laitteellesi."
 
+#: src/components/review/ReviewConfiguration.jsx:236
 #: src/components/software/index.js:19 src/components/software/index.js:20
 msgid "Software selection"
 msgstr "Ohjelmistovalinta"
+
+#: src/components/review/ReviewConfiguration.jsx:204
+msgid ""
+"Some installation steps still need to be completed before you can continue."
+msgstr ""
 
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:49
 msgid "Some required partitions are missing: $0"
@@ -1228,7 +1252,7 @@ msgstr "Tila"
 msgid "Stacktrace"
 msgstr "Stacktrace"
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:265
 msgid "Storage"
 msgstr "Tallennustila"
 
@@ -1396,7 +1420,7 @@ msgid "Time"
 msgstr "Aika"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:162
+#: src/components/review/ReviewConfiguration.jsx:230
 msgid "Timezone"
 msgstr "Aikavyöhyke"
 
@@ -1408,7 +1432,7 @@ msgstr "Otsikko"
 msgid "To begin using $0, reboot your system."
 msgstr "Aloita $0:n käyttö käynnistämällä järjestelmä uudelleen."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:197
+#: src/components/storage/installation-method/InstallationMethod.jsx:195
 msgid "To continue, select the devices to install to."
 msgstr "Jatka valitsemalla laitteet, joihin haluat asentaa."
 
@@ -1597,6 +1621,12 @@ msgstr "alusta $0:ksi"
 #: src/components/Error.jsx:161 src/components/Error.jsx:241
 msgid "here"
 msgstr "täällä"
+
+#: src/components/review/ReviewConfiguration.jsx:56
+#, fuzzy
+#| msgid "Completed"
+msgid "incomplete"
+msgstr "Valmis"
 
 #: src/components/review/StorageReview.jsx:108
 msgid "mount"
@@ -2536,9 +2566,6 @@ msgstr "kumoa"
 #~ msgid "Apple EFI Boot Partition"
 #~ msgstr "Applen EFI-käynnistysosio"
 
-#~ msgid "Apply configuration in installer"
-#~ msgstr "Ota asetukset käyttöön asentimessa"
-
 #~ msgid ""
 #~ "Are you sure you want to delete all of the data on {}, including "
 #~ "snapshots?"
@@ -2803,9 +2830,6 @@ msgstr "kumoa"
 
 #~ msgid "Checking software dependencies..."
 #~ msgstr "Tarkistetaan ohjelmien riippuvuuksia..."
-
-#~ msgid "Checking storage configuration..."
-#~ msgstr "Tarkistetaan tallennustilan määrityksiä..."
 
 #~ msgid ""
 #~ "Choose device from above to assign mount point and set format.\n"

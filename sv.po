@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-27 05:40+0000\n"
+"POT-Creation-Date: 2026-04-28 05:46+0000\n"
 "PO-Revision-Date: 2026-04-17 05:17+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
@@ -41,13 +41,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.17\n"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:168
-#: src/components/storage/installation-method/InstallationDestination.jsx:289
+#: src/components/storage/installation-method/InstallationDestination.jsx:142
+#: src/components/storage/installation-method/InstallationDestination.jsx:263
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:188
-#: src/components/storage/installation-method/InstallationDestination.jsx:282
+#: src/components/storage/installation-method/InstallationDestination.jsx:162
+#: src/components/storage/installation-method/InstallationDestination.jsx:256
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
@@ -69,7 +69,7 @@ msgstr ""
 "bort alla logiska partitioner tas också den utökade partitionen bort "
 "automatiskt."
 
-#: src/components/review/ReviewConfiguration.jsx:89
+#: src/components/storage/installation-method/usePageComplete.jsx:143
 msgid "$0 is required, but only $1 is available."
 msgstr "$0 är obligatoriskt, men endast $1 är tillgänglig."
 
@@ -110,7 +110,7 @@ msgstr ""
 msgid "About"
 msgstr "Om"
 
-#: src/components/review/ReviewConfiguration.jsx:169
+#: src/components/review/ReviewConfiguration.jsx:243
 msgid "Account"
 msgstr "Konto"
 
@@ -230,7 +230,7 @@ msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:252
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
-#: src/components/storage/installation-method/InstallationDestination.jsx:381
+#: src/components/storage/installation-method/InstallationDestination.jsx:355
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
 #: src/components/localization/Keyboard.jsx:280
@@ -241,7 +241,7 @@ msgstr "Avbryt"
 msgid "Change"
 msgstr "Ändra"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:353
+#: src/components/storage/installation-method/InstallationDestination.jsx:327
 msgid "Change destination"
 msgstr "Ändra destination"
 
@@ -249,7 +249,7 @@ msgstr "Ändra destination"
 msgid "Change hostname"
 msgstr "Ändra värdnamn"
 
-#: src/components/review/ReviewConfiguration.jsx:103
+#: src/components/storage/installation-method/usePageComplete.jsx:157
 msgid "Change partition layout"
 msgstr "Ändra partitionslayout"
 
@@ -266,6 +266,12 @@ msgstr ""
 "Ändringar som görs här kommer omedelbart att påverka systemet. Det finns "
 "ingen \"ångra\"."
 
+#: src/components/review/ReviewConfiguration.jsx:180
+#, fuzzy
+#| msgid "Checking storage configuration..."
+msgid "Checking installation configuration..."
+msgstr "Kontrollerar lagringskonfiguration …"
+
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:425
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:431
@@ -281,7 +287,7 @@ msgid "Click 'Next' again to proceed despite these warnings."
 msgstr "Klicka på 'Nästa' igen för att fortsätta oavsett dessa varningar."
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
-#: src/components/storage/installation-method/InstallationDestination.jsx:386
+#: src/components/storage/installation-method/InstallationDestination.jsx:360
 #: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "Stäng"
@@ -298,6 +304,12 @@ msgstr "Cockpitlagring gav inte lösenfrasen för att låsa upp krypterad enhet.
 #: src/components/installation/InstallationProgress.jsx:175
 msgid "Completed"
 msgstr "Färdig"
+
+#: src/components/review/ReviewConfiguration.jsx:201
+#, fuzzy
+#| msgid "Apply configuration in installer"
+msgid "Configuration is incomplete"
+msgstr "Tillämpa konfigurationen i installeraren"
 
 #: src/components/datetime/CustomNTPModal.jsx:270
 msgid "Configure NTP servers"
@@ -345,7 +357,7 @@ msgstr "Skapa konto"
 msgid "Create account"
 msgstr "Skapa konto"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:91
+#: src/components/storage/installation-method/InstallationDestination.jsx:65
 msgid "Currently installed: $0"
 msgstr "Nuvarande installerat: $0"
 
@@ -374,7 +386,7 @@ msgstr "Att radera vissa partitioner kan hindra $0 från att starta: $1"
 msgid "Description"
 msgstr "Beskrivning"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:274
+#: src/components/storage/installation-method/InstallationDestination.jsx:248
 msgid "Destination"
 msgstr "Destination"
 
@@ -520,7 +532,7 @@ msgstr "Värdnamn"
 msgid "How would you like to install?"
 msgstr "Hur vill du installera?"
 
-#: src/components/review/ReviewConfiguration.jsx:227
+#: src/components/review/ReviewConfiguration.jsx:298
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
@@ -528,11 +540,11 @@ msgstr[0] "Jag förstår att all befintlig data kommer att raderas"
 msgstr[1] ""
 "Jag förstår att all befintlig data kommer att raderas från de valda diskarna"
 
-#: src/components/review/ReviewConfiguration.jsx:232
+#: src/components/review/ReviewConfiguration.jsx:303
 msgid "I understand that some existing data will be erased"
 msgstr "Jag förstår att någon befintliga data kan komma att raderas"
 
-#: src/components/review/ReviewConfiguration.jsx:233
+#: src/components/review/ReviewConfiguration.jsx:304
 msgid "I understand that some partitions will be modified"
 msgstr "Jag förstår att vissa partitioner kommer att modifieras"
 
@@ -594,7 +606,7 @@ msgstr "installationen av systemet misslyckades"
 msgid "Installation of the system failed: $0"
 msgstr "installationen av systemet misslyckades: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:184
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Installation type"
 msgstr "Installationstyp"
 
@@ -602,7 +614,7 @@ msgstr "Installationstyp"
 msgid "Installing"
 msgstr "Installerar"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:320
+#: src/components/storage/installation-method/InstallationDestination.jsx:294
 msgid "Insufficient disk space"
 msgstr "Inte tillräckligt med diskutrymme"
 
@@ -624,6 +636,12 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Ogiltigt värdnamn"
 
+#: src/components/review/ReviewConfiguration.jsx:197
+#, fuzzy
+#| msgid "completed step"
+msgid "Jump to first incomplete step"
+msgstr "färdigt steg"
+
 #: src/components/storage/scenarios/use-free-space/index.js:28
 msgid ""
 "Keep current disk layout and use available space, to dual-boot with another "
@@ -640,7 +658,7 @@ msgstr "Tangentbord"
 msgid "Keyboard layout during boot"
 msgstr "Tangentbordslayout under uppstart"
 
-#: src/components/review/ReviewConfiguration.jsx:155
+#: src/components/review/ReviewConfiguration.jsx:223
 #: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "Språk"
@@ -687,7 +705,7 @@ msgstr "Kan behöva mer ledigt utrymme"
 msgid "Medium"
 msgstr "Medium"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:323
+#: src/components/storage/installation-method/InstallationDestination.jsx:297
 msgid "Minimum of $0 required"
 msgstr "Minst $0 krävs"
 
@@ -767,11 +785,11 @@ msgstr "Nästa"
 msgid "No devices"
 msgstr "Inga enheter"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:150
+#: src/components/storage/installation-method/InstallationDestination.jsx:124
 msgid "No disks available"
 msgstr "Inga diskar tillgängliga"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:332
+#: src/components/storage/installation-method/InstallationDestination.jsx:306
 msgid "No disks selected"
 msgstr "Inga diskar valda"
 
@@ -791,7 +809,7 @@ msgstr ""
 "Ingen giltig VConsole-tangentuppsättning kan erhållas för den valda "
 "tangentbordslayouten. Välj en annan tangentbordslayout."
 
-#: src/components/review/ReviewConfiguration.jsx:87
+#: src/components/storage/installation-method/usePageComplete.jsx:141
 msgid "Not enough available free space"
 msgstr "Inte tillräckligt med ledigt utrymme"
 
@@ -821,7 +839,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Öppna Bugzilla-felanmälningsformuläret"
 
-#: src/components/review/ReviewConfiguration.jsx:144
+#: src/components/review/ReviewConfiguration.jsx:212
 msgid "Operating system"
 msgstr "Operativsystem"
 
@@ -860,7 +878,7 @@ msgstr "Väntande"
 msgid "Please attach the log file $0 to the issue."
 msgstr "Bifoga loggfilen $0 till problemrapporten."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:335
+#: src/components/storage/installation-method/InstallationDestination.jsx:309
 msgid "Please select at least one disk to continue"
 msgstr "Välj minst en disk för att fortsätta"
 
@@ -1044,11 +1062,11 @@ msgstr "Krävs"
 msgid "Requirements"
 msgstr "Krav"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:141
+#: src/components/storage/installation-method/InstallationDestination.jsx:115
 msgid "Rescan devices"
 msgstr "Skanna enheter på nytt"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:122
+#: src/components/storage/installation-method/InstallationDestination.jsx:96
 msgid "Rescanning of the disks failed."
 msgstr "Omsökning av diskarna misslyckades."
 
@@ -1129,7 +1147,7 @@ msgstr ""
 "Säkra din data med hjälp av diskbaserad kryptering. Gäller endast nya "
 "partitioner"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:378
+#: src/components/storage/installation-method/InstallationDestination.jsx:352
 msgid "Select"
 msgstr "Välj"
 
@@ -1142,7 +1160,7 @@ msgstr "Välj en enhet"
 msgid "Select city"
 msgstr "Välj stad"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:361
+#: src/components/storage/installation-method/InstallationDestination.jsx:335
 msgid "Select destination"
 msgstr "Välj destination"
 
@@ -1218,9 +1236,15 @@ msgstr ""
 "Programvaruinstallation: Lagringskonfigurationen är klar. Programvaran "
 "installeras nu på din enhet."
 
+#: src/components/review/ReviewConfiguration.jsx:236
 #: src/components/software/index.js:19 src/components/software/index.js:20
 msgid "Software selection"
 msgstr "Programval"
+
+#: src/components/review/ReviewConfiguration.jsx:204
+msgid ""
+"Some installation steps still need to be completed before you can continue."
+msgstr ""
 
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:49
 msgid "Some required partitions are missing: $0"
@@ -1234,7 +1258,7 @@ msgstr "Utrymme"
 msgid "Stacktrace"
 msgstr "Stackspår"
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:265
 msgid "Storage"
 msgstr "Lagring"
 
@@ -1402,7 +1426,7 @@ msgid "Time"
 msgstr "Tid"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:162
+#: src/components/review/ReviewConfiguration.jsx:230
 msgid "Timezone"
 msgstr "Tidszon"
 
@@ -1414,7 +1438,7 @@ msgstr "Titel"
 msgid "To begin using $0, reboot your system."
 msgstr "För att börja använda $0, starta om ditt system."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:197
+#: src/components/storage/installation-method/InstallationMethod.jsx:195
 msgid "To continue, select the devices to install to."
 msgstr "För att fortsätta, välj enheterna att installera på."
 
@@ -1605,6 +1629,12 @@ msgstr "Formatera som $0"
 #: src/components/Error.jsx:161 src/components/Error.jsx:241
 msgid "here"
 msgstr "här"
+
+#: src/components/review/ReviewConfiguration.jsx:56
+#, fuzzy
+#| msgid "Completed"
+msgid "incomplete"
+msgstr "Färdig"
 
 #: src/components/review/StorageReview.jsx:108
 msgid "mount"
@@ -2545,9 +2575,6 @@ msgstr "ångra"
 #~ msgid "Apple EFI Boot Partition"
 #~ msgstr "Apple-EFI-startpartition"
 
-#~ msgid "Apply configuration in installer"
-#~ msgstr "Tillämpa konfigurationen i installeraren"
-
 #~ msgid ""
 #~ "Are you sure you want to delete all of the data on {}, including "
 #~ "snapshots?"
@@ -2812,9 +2839,6 @@ msgstr "ångra"
 
 #~ msgid "Checking software dependencies..."
 #~ msgstr "Kontrollerar beroenden mellan programvara …"
-
-#~ msgid "Checking storage configuration..."
-#~ msgstr "Kontrollerar lagringskonfiguration …"
 
 #~ msgid ""
 #~ "Choose device from above to assign mount point and set format.\n"

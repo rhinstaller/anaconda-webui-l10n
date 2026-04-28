@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-27 05:40+0000\n"
+"POT-Creation-Date: 2026-04-28 05:46+0000\n"
 "PO-Revision-Date: 2026-04-18 04:26+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/anaconda-"
@@ -36,13 +36,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.17\n"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:168
-#: src/components/storage/installation-method/InstallationDestination.jsx:289
+#: src/components/storage/installation-method/InstallationDestination.jsx:142
+#: src/components/storage/installation-method/InstallationDestination.jsx:263
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:188
-#: src/components/storage/installation-method/InstallationDestination.jsx:282
+#: src/components/storage/installation-method/InstallationDestination.jsx:162
+#: src/components/storage/installation-method/InstallationDestination.jsx:256
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
@@ -64,7 +64,7 @@ msgstr ""
 "Η κατάργηση όλων των λογικών διαμερισμάτων θα διαγράψει αυτόματα και το "
 "εκτεταμένο διαμέρισμα."
 
-#: src/components/review/ReviewConfiguration.jsx:89
+#: src/components/storage/installation-method/usePageComplete.jsx:143
 msgid "$0 is required, but only $1 is available."
 msgstr "Απαιτούνται $0, αλλά διατίθενται μόνο $1."
 
@@ -107,7 +107,7 @@ msgstr ""
 msgid "About"
 msgstr "Πληροφορίες"
 
-#: src/components/review/ReviewConfiguration.jsx:169
+#: src/components/review/ReviewConfiguration.jsx:243
 msgid "Account"
 msgstr "Λογαριασμός"
 
@@ -231,7 +231,7 @@ msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:252
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
-#: src/components/storage/installation-method/InstallationDestination.jsx:381
+#: src/components/storage/installation-method/InstallationDestination.jsx:355
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
 #: src/components/localization/Keyboard.jsx:280
@@ -242,7 +242,7 @@ msgstr "Ακύρωση"
 msgid "Change"
 msgstr "Αλλαγή"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:353
+#: src/components/storage/installation-method/InstallationDestination.jsx:327
 msgid "Change destination"
 msgstr "Αλλαγή προορισμού"
 
@@ -250,7 +250,7 @@ msgstr "Αλλαγή προορισμού"
 msgid "Change hostname"
 msgstr "Αλλαγή ονόματος υπολογιστή"
 
-#: src/components/review/ReviewConfiguration.jsx:103
+#: src/components/storage/installation-method/usePageComplete.jsx:157
 msgid "Change partition layout"
 msgstr "Αλλαγή διάταξης διαμερισμάτων"
 
@@ -266,6 +266,12 @@ msgid ""
 msgstr ""
 "Οι αλλαγές που πραγματοποιείτε εδώ θα επηρεάσουν άμεσα το σύστημα. Δεν θα "
 "είναι δυνατή η αναίρεσή τους."
+
+#: src/components/review/ReviewConfiguration.jsx:180
+#, fuzzy
+#| msgid "Checking storage configuration"
+msgid "Checking installation configuration..."
+msgstr "Έλεγχος ρυθμίσεων αποθηκευτικού χώρου"
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:425
@@ -284,7 +290,7 @@ msgstr ""
 "αυτές."
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
-#: src/components/storage/installation-method/InstallationDestination.jsx:386
+#: src/components/storage/installation-method/InstallationDestination.jsx:360
 #: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "Κλείσιμο"
@@ -303,6 +309,10 @@ msgstr ""
 #: src/components/installation/InstallationProgress.jsx:175
 msgid "Completed"
 msgstr "Ολοκληρώθηκε"
+
+#: src/components/review/ReviewConfiguration.jsx:201
+msgid "Configuration is incomplete"
+msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:270
 msgid "Configure NTP servers"
@@ -350,7 +360,7 @@ msgstr "Δημιουργία λογαριασμού"
 msgid "Create account"
 msgstr "Δημιουργία λογαριασμού"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:91
+#: src/components/storage/installation-method/InstallationDestination.jsx:65
 msgid "Currently installed: $0"
 msgstr "Τρέχουσα εγκατάσταση: $0"
 
@@ -381,7 +391,7 @@ msgstr ""
 msgid "Description"
 msgstr "Περιγραφή"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:274
+#: src/components/storage/installation-method/InstallationDestination.jsx:248
 msgid "Destination"
 msgstr "Προορισμός"
 
@@ -530,7 +540,7 @@ msgstr "Όνομα υπολογιστή"
 msgid "How would you like to install?"
 msgstr "Με ποιον τρόπο θέλετε να κάνετε την εγκατάσταση;"
 
-#: src/components/review/ReviewConfiguration.jsx:227
+#: src/components/review/ReviewConfiguration.jsx:298
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
@@ -539,11 +549,11 @@ msgstr[1] ""
 "Κατανοώ ότι όλα τα υπάρχοντα δεδομένα θα διαγραφούν από τους επιλεγμένους "
 "δίσκους"
 
-#: src/components/review/ReviewConfiguration.jsx:232
+#: src/components/review/ReviewConfiguration.jsx:303
 msgid "I understand that some existing data will be erased"
 msgstr "Κατανοώ ότι ορισμένα από τα υπάρχοντα δεδομένα θα διαγραφούν"
 
-#: src/components/review/ReviewConfiguration.jsx:233
+#: src/components/review/ReviewConfiguration.jsx:304
 msgid "I understand that some partitions will be modified"
 msgstr "Κατανοώ ότι ορισμένα από τα υπάρχοντα διαμέρισματα θα τροποποιηθούν"
 
@@ -606,7 +616,7 @@ msgstr "Η εγκατάσταση του συστήματος απέτυχε"
 msgid "Installation of the system failed: $0"
 msgstr "Αποτυχία εγκατάστασης συστήματος: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:184
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Installation type"
 msgstr "Τύπος εγκατάστασης"
 
@@ -614,7 +624,7 @@ msgstr "Τύπος εγκατάστασης"
 msgid "Installing"
 msgstr "Γίνεται εγκατάσταση"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:320
+#: src/components/storage/installation-method/InstallationDestination.jsx:294
 msgid "Insufficient disk space"
 msgstr "Ανεπαρκής χώρος στον δίσκο"
 
@@ -637,6 +647,12 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Μη έγκυρο όνομα υπολογιστή"
 
+#: src/components/review/ReviewConfiguration.jsx:197
+#, fuzzy
+#| msgid "completed step"
+msgid "Jump to first incomplete step"
+msgstr "ολοκληρωμένο βήμα"
+
 #: src/components/storage/scenarios/use-free-space/index.js:28
 msgid ""
 "Keep current disk layout and use available space, to dual-boot with another "
@@ -653,7 +669,7 @@ msgstr "Πληκτρολόγιο"
 msgid "Keyboard layout during boot"
 msgstr "Διάταξη πληκτρολογίου κατά την εκκίνηση"
 
-#: src/components/review/ReviewConfiguration.jsx:155
+#: src/components/review/ReviewConfiguration.jsx:223
 #: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "Γλώσσα"
@@ -700,7 +716,7 @@ msgstr "Ενδέχεται να απαιτείται περισσότερος ε
 msgid "Medium"
 msgstr "Μέτριος"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:323
+#: src/components/storage/installation-method/InstallationDestination.jsx:297
 msgid "Minimum of $0 required"
 msgstr "Απαιτούνται τουλάχιστον $0"
 
@@ -780,11 +796,11 @@ msgstr "Επόμενο"
 msgid "No devices"
 msgstr "Δεν υπάρχει καμία συσκευή"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:150
+#: src/components/storage/installation-method/InstallationDestination.jsx:124
 msgid "No disks available"
 msgstr "Δεν διατίθεται κανένας δίσκος"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:332
+#: src/components/storage/installation-method/InstallationDestination.jsx:306
 msgid "No disks selected"
 msgstr "Δεν έχει επιλεχθεί κανένας δίσκος"
 
@@ -805,7 +821,7 @@ msgstr ""
 "VConsole για τις επιλεγμένες διατάξεις πληκτρολογίου. Επιλέξτε άλλες "
 "διατάξεις πληκτρολογίου."
 
-#: src/components/review/ReviewConfiguration.jsx:87
+#: src/components/storage/installation-method/usePageComplete.jsx:141
 msgid "Not enough available free space"
 msgstr "Μη επαρκής διαθέσιμος χώρος"
 
@@ -835,7 +851,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Άνοιγμα φόρμας καταχώρησης σφαλμάτων Bugzilla"
 
-#: src/components/review/ReviewConfiguration.jsx:144
+#: src/components/review/ReviewConfiguration.jsx:212
 msgid "Operating system"
 msgstr "Λειτουργικό σύστημα"
 
@@ -874,7 +890,7 @@ msgstr "Σε εκκρεμότητα"
 msgid "Please attach the log file $0 to the issue."
 msgstr "Επισυνάψτε το αρχείο καταγραφής $0 στο πρόβλημα."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:335
+#: src/components/storage/installation-method/InstallationDestination.jsx:309
 msgid "Please select at least one disk to continue"
 msgstr "Επιλέξτε τουλάχιστον έναν δίσκο για να συνεχίσετε"
 
@@ -1063,11 +1079,11 @@ msgstr "Απαιτείται"
 msgid "Requirements"
 msgstr "Απαιτήσεις"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:141
+#: src/components/storage/installation-method/InstallationDestination.jsx:115
 msgid "Rescan devices"
 msgstr "Νέα σάρωση συσκευών"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:122
+#: src/components/storage/installation-method/InstallationDestination.jsx:96
 msgid "Rescanning of the disks failed."
 msgstr "Η επανασάρωση των δίσκων απέτυχε."
 
@@ -1150,7 +1166,7 @@ msgstr ""
 "Ασφαλίστε τα δεδομένα σας με κρυπτογράφηση σε επίπεδο δίσκου. Ισχύει μόνο "
 "για νέα διαμερίσματα"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:378
+#: src/components/storage/installation-method/InstallationDestination.jsx:352
 msgid "Select"
 msgstr "Επιλογή"
 
@@ -1163,7 +1179,7 @@ msgstr "Επιλέξτε μια συσκευή"
 msgid "Select city"
 msgstr "Επιλογή πόλης"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:361
+#: src/components/storage/installation-method/InstallationDestination.jsx:335
 msgid "Select destination"
 msgstr "Επιλέξτε προορισμό"
 
@@ -1240,9 +1256,15 @@ msgstr ""
 "Εγκατάσταση λογισμικού: η διαμόρφωση του αποθηκευτικού χώρου έχει "
 "ολοκληρωθεί. Γίνεται τώρα εγκατάσταση του λογισμικού στη συσκευή σας."
 
+#: src/components/review/ReviewConfiguration.jsx:236
 #: src/components/software/index.js:19 src/components/software/index.js:20
 msgid "Software selection"
 msgstr "Επιλογή λογισμικού"
+
+#: src/components/review/ReviewConfiguration.jsx:204
+msgid ""
+"Some installation steps still need to be completed before you can continue."
+msgstr ""
 
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:49
 msgid "Some required partitions are missing: $0"
@@ -1256,7 +1278,7 @@ msgstr "Χώρος"
 msgid "Stacktrace"
 msgstr "Ιχνηλάτηση στοίβας"
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:265
 msgid "Storage"
 msgstr "Αποθηκευτικός χώρος"
 
@@ -1435,7 +1457,7 @@ msgid "Time"
 msgstr "Ώρα"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:162
+#: src/components/review/ReviewConfiguration.jsx:230
 msgid "Timezone"
 msgstr "Ζώνη ώρας"
 
@@ -1447,7 +1469,7 @@ msgstr "Τίτλος"
 msgid "To begin using $0, reboot your system."
 msgstr "Για να ξεκινήσετε τη χρήση του $0, επανεκκινήστε το σύστημά σας."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:197
+#: src/components/storage/installation-method/InstallationMethod.jsx:195
 msgid "To continue, select the devices to install to."
 msgstr "Για να συνεχίσετε, επιλέξτε τις συσκευές όπου θα γίνει η εγκατάσταση."
 
@@ -1640,6 +1662,12 @@ msgstr "διαμόρφωση ως $0"
 #: src/components/Error.jsx:161 src/components/Error.jsx:241
 msgid "here"
 msgstr "εδώ"
+
+#: src/components/review/ReviewConfiguration.jsx:56
+#, fuzzy
+#| msgid "Completed"
+msgid "incomplete"
+msgstr "Ολοκληρώθηκε"
 
 #: src/components/review/StorageReview.jsx:108
 msgid "mount"

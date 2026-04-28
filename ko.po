@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-27 05:40+0000\n"
+"POT-Creation-Date: 2026-04-28 05:46+0000\n"
 "PO-Revision-Date: 2026-04-19 05:18+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/anaconda-"
@@ -49,13 +49,13 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.17\n"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:168
-#: src/components/storage/installation-method/InstallationDestination.jsx:289
+#: src/components/storage/installation-method/InstallationDestination.jsx:142
+#: src/components/storage/installation-method/InstallationDestination.jsx:263
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:188
-#: src/components/storage/installation-method/InstallationDestination.jsx:282
+#: src/components/storage/installation-method/InstallationDestination.jsx:162
+#: src/components/storage/installation-method/InstallationDestination.jsx:256
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
@@ -76,7 +76,7 @@ msgstr ""
 "$0는 논리 파티션이 포함된 MBR의 확장된 파티션입니다. 모든 논리 파티션 제거하"
 "기는 확장된 파티션도 자동으로 제거합니다."
 
-#: src/components/review/ReviewConfiguration.jsx:89
+#: src/components/storage/installation-method/usePageComplete.jsx:143
 msgid "$0 is required, but only $1 is available."
 msgstr "$0 가 필요하나, $1 만 사용 할 수 있습니다."
 
@@ -115,7 +115,7 @@ msgstr ""
 msgid "About"
 msgstr "정보"
 
-#: src/components/review/ReviewConfiguration.jsx:169
+#: src/components/review/ReviewConfiguration.jsx:243
 msgid "Account"
 msgstr "계정"
 
@@ -233,7 +233,7 @@ msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:252
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
-#: src/components/storage/installation-method/InstallationDestination.jsx:381
+#: src/components/storage/installation-method/InstallationDestination.jsx:355
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
 #: src/components/localization/Keyboard.jsx:280
@@ -244,7 +244,7 @@ msgstr "취소"
 msgid "Change"
 msgstr "변경"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:353
+#: src/components/storage/installation-method/InstallationDestination.jsx:327
 msgid "Change destination"
 msgstr "변경 대상"
 
@@ -252,7 +252,7 @@ msgstr "변경 대상"
 msgid "Change hostname"
 msgstr "호스트이름 변경"
 
-#: src/components/review/ReviewConfiguration.jsx:103
+#: src/components/storage/installation-method/usePageComplete.jsx:157
 msgid "Change partition layout"
 msgstr "파티션 구성 변경"
 
@@ -267,6 +267,12 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 "여기에서 변경을 했으면 시스템에 즉시 영향을 미칩니다. '실행취소' 가 없습니다."
+
+#: src/components/review/ReviewConfiguration.jsx:180
+#, fuzzy
+#| msgid "Checking storage configuration..."
+msgid "Checking installation configuration..."
+msgstr "저장소 구성 확인 중..."
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:425
@@ -283,7 +289,7 @@ msgid "Click 'Next' again to proceed despite these warnings."
 msgstr "이들 경고에도 불구하고 계속 진행하려면 다시 '다음' 을 눌러주세요."
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
-#: src/components/storage/installation-method/InstallationDestination.jsx:386
+#: src/components/storage/installation-method/InstallationDestination.jsx:360
 #: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "종료"
@@ -301,6 +307,12 @@ msgstr ""
 #: src/components/installation/InstallationProgress.jsx:175
 msgid "Completed"
 msgstr "완료되었습니다"
+
+#: src/components/review/ReviewConfiguration.jsx:201
+#, fuzzy
+#| msgid "Apply configuration in installer"
+msgid "Configuration is incomplete"
+msgstr "설치 프로그램에서 구성 적용"
 
 #: src/components/datetime/CustomNTPModal.jsx:270
 msgid "Configure NTP servers"
@@ -348,7 +360,7 @@ msgstr "계정 생성"
 msgid "Create account"
 msgstr "계정 생성"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:91
+#: src/components/storage/installation-method/InstallationDestination.jsx:65
 msgid "Currently installed: $0"
 msgstr "현재 설치됨: $0"
 
@@ -377,7 +389,7 @@ msgstr "특정 파티션의 삭제는 부팅에서 $0를 예방합니다: $1"
 msgid "Description"
 msgstr "설명"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:274
+#: src/components/storage/installation-method/InstallationDestination.jsx:248
 msgid "Destination"
 msgstr "대상"
 
@@ -522,18 +534,18 @@ msgstr "호스트이름"
 msgid "How would you like to install?"
 msgstr "설치 하시겠습니까?"
 
-#: src/components/review/ReviewConfiguration.jsx:227
+#: src/components/review/ReviewConfiguration.jsx:298
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] ""
 "나는 모든 기존 자료가 선택한 디스크에서 제거 될 것이라는 점을 이해합니다"
 
-#: src/components/review/ReviewConfiguration.jsx:232
+#: src/components/review/ReviewConfiguration.jsx:303
 msgid "I understand that some existing data will be erased"
 msgstr "나는 일부 기존 자료가 제거 될 것이라는 점을 이해합니다"
 
-#: src/components/review/ReviewConfiguration.jsx:233
+#: src/components/review/ReviewConfiguration.jsx:304
 msgid "I understand that some partitions will be modified"
 msgstr "나는 일부 파티션이 수정 될 것이라는 점을 이해합니다"
 
@@ -593,7 +605,7 @@ msgstr "시스템 설치에 실패했습니다"
 msgid "Installation of the system failed: $0"
 msgstr "시스템 설치에 실패했습니다: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:184
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Installation type"
 msgstr "설치 유형"
 
@@ -601,7 +613,7 @@ msgstr "설치 유형"
 msgid "Installing"
 msgstr "설치 중"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:320
+#: src/components/storage/installation-method/InstallationDestination.jsx:294
 msgid "Insufficient disk space"
 msgstr "불충분한 디스크 공간"
 
@@ -623,6 +635,12 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "잘못된 호스트명"
 
+#: src/components/review/ReviewConfiguration.jsx:197
+#, fuzzy
+#| msgid "completed step"
+msgid "Jump to first incomplete step"
+msgstr "완료 단계"
+
 #: src/components/storage/scenarios/use-free-space/index.js:28
 msgid ""
 "Keep current disk layout and use available space, to dual-boot with another "
@@ -639,7 +657,7 @@ msgstr "키보드"
 msgid "Keyboard layout during boot"
 msgstr "부팅 중에 키보드 나열"
 
-#: src/components/review/ReviewConfiguration.jsx:155
+#: src/components/review/ReviewConfiguration.jsx:223
 #: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "언어"
@@ -686,7 +704,7 @@ msgstr "더 많은 여유 공간이 필요 할 수 있습니다"
 msgid "Medium"
 msgstr "중간"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:323
+#: src/components/storage/installation-method/InstallationDestination.jsx:297
 msgid "Minimum of $0 required"
 msgstr "최소 $0 가 필요합니다"
 
@@ -763,11 +781,11 @@ msgstr "다음"
 msgid "No devices"
 msgstr "장치 없음"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:150
+#: src/components/storage/installation-method/InstallationDestination.jsx:124
 msgid "No disks available"
 msgstr "사용 가능한 디스크 없음"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:332
+#: src/components/storage/installation-method/InstallationDestination.jsx:306
 msgid "No disks selected"
 msgstr "선택한 디스크가 없음"
 
@@ -787,7 +805,7 @@ msgstr ""
 "선택한 키보드 배열을 위해 유효한 VConsole 키맵을 가져 올 수 없습니다. 다른 키"
 "보드 배열을 선택해주세요."
 
-#: src/components/review/ReviewConfiguration.jsx:87
+#: src/components/storage/installation-method/usePageComplete.jsx:141
 msgid "Not enough available free space"
 msgstr "사용 할 수 있는 여유 공간이 충분하지 않습니다"
 
@@ -816,7 +834,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "버그질라 결점 보고 양식을 엽니다"
 
-#: src/components/review/ReviewConfiguration.jsx:144
+#: src/components/review/ReviewConfiguration.jsx:212
 msgid "Operating system"
 msgstr "운영 체제"
 
@@ -855,7 +873,7 @@ msgstr "보류 중"
 msgid "Please attach the log file $0 to the issue."
 msgstr "로그 파일 $0를 문제로 첨부해 주세요."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:335
+#: src/components/storage/installation-method/InstallationDestination.jsx:309
 msgid "Please select at least one disk to continue"
 msgstr "계속 진행하려면 최소 하나의 디스크를 선택해야 합니다"
 
@@ -1034,11 +1052,11 @@ msgstr "요구 사항"
 msgid "Requirements"
 msgstr "요구 사항"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:141
+#: src/components/storage/installation-method/InstallationDestination.jsx:115
 msgid "Rescan devices"
 msgstr "장치 재검색"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:122
+#: src/components/storage/installation-method/InstallationDestination.jsx:96
 msgid "Rescanning of the disks failed."
 msgstr "디스크 재검색이 실패함."
 
@@ -1119,7 +1137,7 @@ msgstr ""
 "디스크-기반 보안을 사용하여 자신의 자료를 보호합니다. 신규 파티션에서만 적용"
 "합니다"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:378
+#: src/components/storage/installation-method/InstallationDestination.jsx:352
 msgid "Select"
 msgstr "선택"
 
@@ -1132,7 +1150,7 @@ msgstr "장치를 선택합니다"
 msgid "Select city"
 msgstr "도시 선택"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:361
+#: src/components/storage/installation-method/InstallationDestination.jsx:335
 msgid "Select destination"
 msgstr "선택 대상"
 
@@ -1208,9 +1226,15 @@ msgstr ""
 "소프트웨어 설치: 저장소 구성 완료. 소프트웨어는 이제 자신의 장치에 설치되어 "
 "있습니다."
 
+#: src/components/review/ReviewConfiguration.jsx:236
 #: src/components/software/index.js:19 src/components/software/index.js:20
 msgid "Software selection"
 msgstr "소프트웨어 선택"
+
+#: src/components/review/ReviewConfiguration.jsx:204
+msgid ""
+"Some installation steps still need to be completed before you can continue."
+msgstr ""
 
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:49
 msgid "Some required partitions are missing: $0"
@@ -1224,7 +1248,7 @@ msgstr "공간"
 msgid "Stacktrace"
 msgstr "스택트레이스"
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:265
 msgid "Storage"
 msgstr "저장소"
 
@@ -1385,7 +1409,7 @@ msgid "Time"
 msgstr "시간"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:162
+#: src/components/review/ReviewConfiguration.jsx:230
 msgid "Timezone"
 msgstr "시간대"
 
@@ -1397,7 +1421,7 @@ msgstr "제목"
 msgid "To begin using $0, reboot your system."
 msgstr "$0를 사용하여 시작하려면, 시스템을 재시작하세요."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:197
+#: src/components/storage/installation-method/InstallationMethod.jsx:195
 msgid "To continue, select the devices to install to."
 msgstr "계속하려면, 설치하려는 장치를 선택하세요."
 
@@ -1584,6 +1608,12 @@ msgstr "$0로 초기화"
 #: src/components/Error.jsx:161 src/components/Error.jsx:241
 msgid "here"
 msgstr "여기"
+
+#: src/components/review/ReviewConfiguration.jsx:56
+#, fuzzy
+#| msgid "Completed"
+msgid "incomplete"
+msgstr "완료되었습니다"
 
 #: src/components/review/StorageReview.jsx:108
 msgid "mount"
@@ -2489,9 +2519,6 @@ msgstr "실행취소"
 #~ msgid "Apple EFI Boot Partition"
 #~ msgstr "Apple EFI 부트 파티션"
 
-#~ msgid "Apply configuration in installer"
-#~ msgstr "설치 프로그램에서 구성 적용"
-
 #~ msgid ""
 #~ "Are you sure you want to delete all of the data on {}, including "
 #~ "snapshots?"
@@ -2751,9 +2778,6 @@ msgstr "실행취소"
 
 #~ msgid "Checking software dependencies..."
 #~ msgstr "소프트웨어 종속성을 확인 중..."
-
-#~ msgid "Checking storage configuration..."
-#~ msgstr "저장소 구성 확인 중..."
 
 #~ msgid ""
 #~ "Choose device from above to assign mount point and set format.\n"

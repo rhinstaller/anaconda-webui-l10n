@@ -25,7 +25,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-27 05:40+0000\n"
+"POT-Creation-Date: 2026-04-28 05:46+0000\n"
 "PO-Revision-Date: 2026-03-14 04:24+0000\n"
 "Last-Translator: Ondrej Sulek <feonsu@gmail.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/anaconda-"
@@ -37,13 +37,13 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 5.16.2\n"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:168
-#: src/components/storage/installation-method/InstallationDestination.jsx:289
+#: src/components/storage/installation-method/InstallationDestination.jsx:142
+#: src/components/storage/installation-method/InstallationDestination.jsx:263
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:188
-#: src/components/storage/installation-method/InstallationDestination.jsx:282
+#: src/components/storage/installation-method/InstallationDestination.jsx:162
+#: src/components/storage/installation-method/InstallationDestination.jsx:256
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
@@ -64,7 +64,7 @@ msgstr ""
 "$0 je rozšírený oddiel MBR, ktorý obsahuje logické oddiely. Odstránenie "
 "všetkých logických oddielov automaticky odstráni aj rozšírený oddiel."
 
-#: src/components/review/ReviewConfiguration.jsx:89
+#: src/components/storage/installation-method/usePageComplete.jsx:143
 msgid "$0 is required, but only $1 is available."
 msgstr "Vyžaduje sa $0, ale k dispozícii je iba $1."
 
@@ -106,7 +106,7 @@ msgstr ""
 msgid "About"
 msgstr "O aplikácii"
 
-#: src/components/review/ReviewConfiguration.jsx:169
+#: src/components/review/ReviewConfiguration.jsx:243
 msgid "Account"
 msgstr "Účet"
 
@@ -224,7 +224,7 @@ msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:252
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
-#: src/components/storage/installation-method/InstallationDestination.jsx:381
+#: src/components/storage/installation-method/InstallationDestination.jsx:355
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
 #: src/components/localization/Keyboard.jsx:280
@@ -235,7 +235,7 @@ msgstr "Zrušiť"
 msgid "Change"
 msgstr "Zmeniť"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:353
+#: src/components/storage/installation-method/InstallationDestination.jsx:327
 msgid "Change destination"
 msgstr "Zmeniť cieľ"
 
@@ -243,7 +243,7 @@ msgstr "Zmeniť cieľ"
 msgid "Change hostname"
 msgstr "Zmeniť názov počítača"
 
-#: src/components/review/ReviewConfiguration.jsx:103
+#: src/components/storage/installation-method/usePageComplete.jsx:157
 msgid "Change partition layout"
 msgstr "Zmeniť rozloženie oddielov"
 
@@ -258,6 +258,12 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 "Tu vykonané zmeny okamžite ovplyvnia systém. Neexistuje žiadne 'vrátiť späť'."
+
+#: src/components/review/ReviewConfiguration.jsx:180
+#, fuzzy
+#| msgid "Checking storage configuration..."
+msgid "Checking installation configuration..."
+msgstr "Kontroluje sa konfigurácia úložiska..."
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:425
@@ -274,7 +280,7 @@ msgid "Click 'Next' again to proceed despite these warnings."
 msgstr "Kliknite znova na 'Ďalej' na pokračovanie napriek týmto upozorneniam."
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
-#: src/components/storage/installation-method/InstallationDestination.jsx:386
+#: src/components/storage/installation-method/InstallationDestination.jsx:360
 #: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "Zavrieť"
@@ -292,6 +298,12 @@ msgstr ""
 #: src/components/installation/InstallationProgress.jsx:175
 msgid "Completed"
 msgstr "Dokončené"
+
+#: src/components/review/ReviewConfiguration.jsx:201
+#, fuzzy
+#| msgid "Apply configuration in installer"
+msgid "Configuration is incomplete"
+msgstr "Použiť konfiguráciu v inštalátore"
 
 #: src/components/datetime/CustomNTPModal.jsx:270
 msgid "Configure NTP servers"
@@ -339,7 +351,7 @@ msgstr "Vytvoriť účet"
 msgid "Create account"
 msgstr "Vytvoriť účet"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:91
+#: src/components/storage/installation-method/InstallationDestination.jsx:65
 msgid "Currently installed: $0"
 msgstr "Aktuálne nainštalované: $0"
 
@@ -370,7 +382,7 @@ msgstr "Odstránenie určitých oddielov môže $0 zabrániť spusteniu: $1"
 msgid "Description"
 msgstr "Popis"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:274
+#: src/components/storage/installation-method/InstallationDestination.jsx:248
 msgid "Destination"
 msgstr "Cieľ"
 
@@ -516,7 +528,7 @@ msgstr "Názov počítača"
 msgid "How would you like to install?"
 msgstr "Ako chcete inštalovať?"
 
-#: src/components/review/ReviewConfiguration.jsx:227
+#: src/components/review/ReviewConfiguration.jsx:298
 #, fuzzy
 #| msgid "I understand that all existing data will be erased"
 msgid "I understand that all existing data will be erased"
@@ -526,11 +538,11 @@ msgstr[0] "Rozumiem, že všetky existujúce údaje budú vymazané"
 msgstr[1] "Rozumiem, že všetky existujúce údaje budú vymazané"
 msgstr[2] "Rozumiem, že všetky existujúce údaje budú vymazané"
 
-#: src/components/review/ReviewConfiguration.jsx:232
+#: src/components/review/ReviewConfiguration.jsx:303
 msgid "I understand that some existing data will be erased"
 msgstr "Rozumiem, že niektoré existujúce údaje budú vymazané"
 
-#: src/components/review/ReviewConfiguration.jsx:233
+#: src/components/review/ReviewConfiguration.jsx:304
 msgid "I understand that some partitions will be modified"
 msgstr "Rozumiem, že niektoré oddiely budú upravené"
 
@@ -592,7 +604,7 @@ msgstr "Inštalácia systému zlyhala"
 msgid "Installation of the system failed: $0"
 msgstr "Inštalácia systému zlyhala: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:184
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Installation type"
 msgstr "Typ Inštalácie"
 
@@ -600,7 +612,7 @@ msgstr "Typ Inštalácie"
 msgid "Installing"
 msgstr "Inštaluje sa"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:320
+#: src/components/storage/installation-method/InstallationDestination.jsx:294
 msgid "Insufficient disk space"
 msgstr "Nedostatok miesta na disku"
 
@@ -621,6 +633,12 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Neplatný názov počítača"
 
+#: src/components/review/ReviewConfiguration.jsx:197
+#, fuzzy
+#| msgid "completed step"
+msgid "Jump to first incomplete step"
+msgstr "dokončený krok"
+
 #: src/components/storage/scenarios/use-free-space/index.js:28
 msgid ""
 "Keep current disk layout and use available space, to dual-boot with another "
@@ -637,7 +655,7 @@ msgstr "Klávesnica"
 msgid "Keyboard layout during boot"
 msgstr "Rozloženie klávesnice počas zavádzania systému"
 
-#: src/components/review/ReviewConfiguration.jsx:155
+#: src/components/review/ReviewConfiguration.jsx:223
 #: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "Jazyk"
@@ -684,7 +702,7 @@ msgstr "Môže byť potrebné viac voľného miesta"
 msgid "Medium"
 msgstr "Stredné"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:323
+#: src/components/storage/installation-method/InstallationDestination.jsx:297
 msgid "Minimum of $0 required"
 msgstr "Minimálne požadované $0"
 
@@ -763,11 +781,11 @@ msgstr "Ďalej"
 msgid "No devices"
 msgstr "Žiadne zariadenia"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:150
+#: src/components/storage/installation-method/InstallationDestination.jsx:124
 msgid "No disks available"
 msgstr "Žiadne dostupné disky"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:332
+#: src/components/storage/installation-method/InstallationDestination.jsx:306
 msgid "No disks selected"
 msgstr "Nie sú vybrané žiadne disky"
 
@@ -787,7 +805,7 @@ msgstr ""
 "Pre vybrané rozloženie klávesnice nemožno získať platnú mapu kláves "
 "VConsole. Vyberte iné rozloženie klávesnice."
 
-#: src/components/review/ReviewConfiguration.jsx:87
+#: src/components/storage/installation-method/usePageComplete.jsx:141
 msgid "Not enough available free space"
 msgstr "Nedostatok dostupného voľného miesta"
 
@@ -817,7 +835,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Otvoriť formulár zadania chyby v Bugzille"
 
-#: src/components/review/ReviewConfiguration.jsx:144
+#: src/components/review/ReviewConfiguration.jsx:212
 msgid "Operating system"
 msgstr "Operačný systém"
 
@@ -856,7 +874,7 @@ msgstr "Čakajúce"
 msgid "Please attach the log file $0 to the issue."
 msgstr "Prosím, priložte súbor s logmi $0 k tomuto problému."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:335
+#: src/components/storage/installation-method/InstallationDestination.jsx:309
 msgid "Please select at least one disk to continue"
 msgstr "Vyberte aspoň jeden disk pre pokračovanie"
 
@@ -1040,11 +1058,11 @@ msgstr "Požadované"
 msgid "Requirements"
 msgstr "Požiadavky"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:141
+#: src/components/storage/installation-method/InstallationDestination.jsx:115
 msgid "Rescan devices"
 msgstr "Znovu preskúmať zariadenia"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:122
+#: src/components/storage/installation-method/InstallationDestination.jsx:96
 msgid "Rescanning of the disks failed."
 msgstr "Opätovné preskúmanie diskov zlyhalo."
 
@@ -1127,7 +1145,7 @@ msgid ""
 msgstr ""
 "Zabezpečte svoje údaje pomocou šifrovania disku. Platí iba pre nové oddiely"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:378
+#: src/components/storage/installation-method/InstallationDestination.jsx:352
 msgid "Select"
 msgstr "Vybrať"
 
@@ -1140,7 +1158,7 @@ msgstr "Vyberte zariadenie"
 msgid "Select city"
 msgstr "Vyberte mesto"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:361
+#: src/components/storage/installation-method/InstallationDestination.jsx:335
 msgid "Select destination"
 msgstr "Vyberte cieľ"
 
@@ -1216,9 +1234,15 @@ msgstr ""
 "Inštalácia softvéru: Konfigurácia úložiska je dokončená. Momentálne prebieha "
 "inštalácia softvéru do vášho zariadenia."
 
+#: src/components/review/ReviewConfiguration.jsx:236
 #: src/components/software/index.js:19 src/components/software/index.js:20
 msgid "Software selection"
 msgstr "Výber softvéru"
+
+#: src/components/review/ReviewConfiguration.jsx:204
+msgid ""
+"Some installation steps still need to be completed before you can continue."
+msgstr ""
 
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:49
 msgid "Some required partitions are missing: $0"
@@ -1232,7 +1256,7 @@ msgstr "Miesto"
 msgid "Stacktrace"
 msgstr "Stacktrace"
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:265
 msgid "Storage"
 msgstr "Úložisko"
 
@@ -1398,7 +1422,7 @@ msgid "Time"
 msgstr "Čas"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:162
+#: src/components/review/ReviewConfiguration.jsx:230
 msgid "Timezone"
 msgstr "Časové pásmo"
 
@@ -1410,7 +1434,7 @@ msgstr "Nadpis"
 msgid "To begin using $0, reboot your system."
 msgstr "Ak chcete začať používať $0, reštartujte svoj systém."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:197
+#: src/components/storage/installation-method/InstallationMethod.jsx:195
 msgid "To continue, select the devices to install to."
 msgstr "Ak chcete pokračovať, vyberte zariadenia, na ktoré chcete inštalovať."
 
@@ -1602,6 +1626,12 @@ msgstr "naformátovať ako $0"
 #: src/components/Error.jsx:161 src/components/Error.jsx:241
 msgid "here"
 msgstr "tu"
+
+#: src/components/review/ReviewConfiguration.jsx:56
+#, fuzzy
+#| msgid "Completed"
+msgid "incomplete"
+msgstr "Dokončené"
 
 #: src/components/review/StorageReview.jsx:108
 msgid "mount"
@@ -2471,9 +2501,6 @@ msgstr "späť"
 #~ msgid "Apple EFI Boot Partition"
 #~ msgstr "Zavádzací EFI oddiel Apple"
 
-#~ msgid "Apply configuration in installer"
-#~ msgstr "Použiť konfiguráciu v inštalátore"
-
 #~ msgid ""
 #~ "Are you sure you want to delete all of the data on {}, including "
 #~ "snapshots?"
@@ -2737,9 +2764,6 @@ msgstr "späť"
 
 #~ msgid "Checking software dependencies..."
 #~ msgstr "Kontrolujú sa závislosti softvéru..."
-
-#~ msgid "Checking storage configuration..."
-#~ msgstr "Kontroluje sa konfigurácia úložiska..."
 
 #~ msgid ""
 #~ "Choose device from above to assign mount point and set format.\n"

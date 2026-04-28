@@ -69,7 +69,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-27 05:40+0000\n"
+"POT-Creation-Date: 2026-04-28 05:46+0000\n"
 "PO-Revision-Date: 2026-04-28 05:46+0000\n"
 "Last-Translator: Dark Cronyx <darkcronyx@protonmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/anaconda-"
@@ -81,13 +81,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.17\n"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:168
-#: src/components/storage/installation-method/InstallationDestination.jsx:289
+#: src/components/storage/installation-method/InstallationDestination.jsx:142
+#: src/components/storage/installation-method/InstallationDestination.jsx:263
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:188
-#: src/components/storage/installation-method/InstallationDestination.jsx:282
+#: src/components/storage/installation-method/InstallationDestination.jsx:162
+#: src/components/storage/installation-method/InstallationDestination.jsx:256
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
@@ -109,7 +109,7 @@ msgstr ""
 "Sie alle logischen Partitionen entfernen, wird automatisch auch die "
 "erweiterte Partition entfernt."
 
-#: src/components/review/ReviewConfiguration.jsx:89
+#: src/components/storage/installation-method/usePageComplete.jsx:143
 msgid "$0 is required, but only $1 is available."
 msgstr "$0 ist erforderlich, aber nur $1 ist verfügbar."
 
@@ -151,7 +151,7 @@ msgstr ""
 msgid "About"
 msgstr "Über"
 
-#: src/components/review/ReviewConfiguration.jsx:169
+#: src/components/review/ReviewConfiguration.jsx:243
 msgid "Account"
 msgstr "Konto"
 
@@ -272,7 +272,7 @@ msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:252
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
-#: src/components/storage/installation-method/InstallationDestination.jsx:381
+#: src/components/storage/installation-method/InstallationDestination.jsx:355
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
 #: src/components/localization/Keyboard.jsx:280
@@ -283,7 +283,7 @@ msgstr "Abbrechen"
 msgid "Change"
 msgstr "Ändern"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:353
+#: src/components/storage/installation-method/InstallationDestination.jsx:327
 msgid "Change destination"
 msgstr "Ziel ändern"
 
@@ -291,7 +291,7 @@ msgstr "Ziel ändern"
 msgid "Change hostname"
 msgstr "Name des Rechners ändern"
 
-#: src/components/review/ReviewConfiguration.jsx:103
+#: src/components/storage/installation-method/usePageComplete.jsx:157
 msgid "Change partition layout"
 msgstr "Partitionslayout ändern"
 
@@ -307,6 +307,12 @@ msgid ""
 msgstr ""
 "Hier gemachte Änderungen wirken sofort auf das System. Es gibt kein "
 "'rückgängig machen'."
+
+#: src/components/review/ReviewConfiguration.jsx:180
+#, fuzzy
+#| msgid "Checking storage configuration..."
+msgid "Checking installation configuration..."
+msgstr "Überprüfe Speichermedien-Konfiguration..."
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:425
@@ -324,7 +330,7 @@ msgstr ""
 "Klicken Sie erneut auf ‚Weiter‘, um trotz dieser Warnungen fortzufahren."
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
-#: src/components/storage/installation-method/InstallationDestination.jsx:386
+#: src/components/storage/installation-method/InstallationDestination.jsx:360
 #: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "Schließen"
@@ -343,6 +349,12 @@ msgstr ""
 #: src/components/installation/InstallationProgress.jsx:175
 msgid "Completed"
 msgstr "Fertig"
+
+#: src/components/review/ReviewConfiguration.jsx:201
+#, fuzzy
+#| msgid "Apply configuration in installer"
+msgid "Configuration is incomplete"
+msgstr "Konfiguration im Installationsprogramm anwenden"
 
 #: src/components/datetime/CustomNTPModal.jsx:270
 msgid "Configure NTP servers"
@@ -390,7 +402,7 @@ msgstr "Konto erstellen"
 msgid "Create account"
 msgstr "Konto erstellen"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:91
+#: src/components/storage/installation-method/InstallationDestination.jsx:65
 msgid "Currently installed: $0"
 msgstr "Derzeit installiert: $0"
 
@@ -420,7 +432,7 @@ msgstr ""
 msgid "Description"
 msgstr "Beschreibung"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:274
+#: src/components/storage/installation-method/InstallationDestination.jsx:248
 msgid "Destination"
 msgstr "Ziel"
 
@@ -568,7 +580,7 @@ msgstr "Rechnername"
 msgid "How would you like to install?"
 msgstr "Wie möchten Sie installieren?"
 
-#: src/components/review/ReviewConfiguration.jsx:227
+#: src/components/review/ReviewConfiguration.jsx:298
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
@@ -579,11 +591,11 @@ msgstr[1] ""
 "Ich verstehe, dass alle existierenden Daten von den ausgewählten "
 "Datenträgern gelöscht werden."
 
-#: src/components/review/ReviewConfiguration.jsx:232
+#: src/components/review/ReviewConfiguration.jsx:303
 msgid "I understand that some existing data will be erased"
 msgstr "Ich verstehe, dass einige bestehende Daten gelöscht werden"
 
-#: src/components/review/ReviewConfiguration.jsx:233
+#: src/components/review/ReviewConfiguration.jsx:304
 msgid "I understand that some partitions will be modified"
 msgstr "Ich verstehe, dass manche Partitionen verändert werden"
 
@@ -646,7 +658,7 @@ msgstr "Installation des Systems fehlgeschlagen"
 msgid "Installation of the system failed: $0"
 msgstr "Installation des Systems fehlgeschlagen: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:184
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Installation type"
 msgstr "Installationstyp"
 
@@ -654,7 +666,7 @@ msgstr "Installationstyp"
 msgid "Installing"
 msgstr "Installation wird ausgeführt"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:320
+#: src/components/storage/installation-method/InstallationDestination.jsx:294
 msgid "Insufficient disk space"
 msgstr "Unzureichender Festplattenplatz"
 
@@ -676,6 +688,12 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Ungültiger Hostname"
 
+#: src/components/review/ReviewConfiguration.jsx:197
+#, fuzzy
+#| msgid "completed step"
+msgid "Jump to first incomplete step"
+msgstr "Fertiger Schritt"
+
 #: src/components/storage/scenarios/use-free-space/index.js:28
 msgid ""
 "Keep current disk layout and use available space, to dual-boot with another "
@@ -692,7 +710,7 @@ msgstr "Tastatur"
 msgid "Keyboard layout during boot"
 msgstr "Tastaturbelegung beim Booten"
 
-#: src/components/review/ReviewConfiguration.jsx:155
+#: src/components/review/ReviewConfiguration.jsx:223
 #: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "Sprache"
@@ -739,7 +757,7 @@ msgstr "Möglicherweise wird mehr freier Speicherplatz benötigt"
 msgid "Medium"
 msgstr "Mittel"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:323
+#: src/components/storage/installation-method/InstallationDestination.jsx:297
 msgid "Minimum of $0 required"
 msgstr "Mindestens $0 erforderlich"
 
@@ -820,11 +838,11 @@ msgstr "Nächste"
 msgid "No devices"
 msgstr "Keine Geräte"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:150
+#: src/components/storage/installation-method/InstallationDestination.jsx:124
 msgid "No disks available"
 msgstr "Keine Datenträger verfügbar"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:332
+#: src/components/storage/installation-method/InstallationDestination.jsx:306
 msgid "No disks selected"
 msgstr "Keine Medien ausgewählt"
 
@@ -845,7 +863,7 @@ msgstr ""
 "Tastaturbelegung abgerufen werden. Bitte wählen Sie ein anderes "
 "Tastaturlayout aus."
 
-#: src/components/review/ReviewConfiguration.jsx:87
+#: src/components/storage/installation-method/usePageComplete.jsx:141
 msgid "Not enough available free space"
 msgstr "Nicht genügend freier Speicherplatz verfügbar"
 
@@ -874,7 +892,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Bugzilla-Fehlermeldungsformular öffnen"
 
-#: src/components/review/ReviewConfiguration.jsx:144
+#: src/components/review/ReviewConfiguration.jsx:212
 msgid "Operating system"
 msgstr "Betriebssystem"
 
@@ -913,7 +931,7 @@ msgstr "Ausstehend"
 msgid "Please attach the log file $0 to the issue."
 msgstr "Bitte hängen Sie Logdatei $0 an das Problem an."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:335
+#: src/components/storage/installation-method/InstallationDestination.jsx:309
 msgid "Please select at least one disk to continue"
 msgstr "Bitte wählen Sie mindestens einen Datenträger aus, um fortzufahren"
 
@@ -1100,11 +1118,11 @@ msgstr "Erforderlich"
 msgid "Requirements"
 msgstr "Voraussetzungen"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:141
+#: src/components/storage/installation-method/InstallationDestination.jsx:115
 msgid "Rescan devices"
 msgstr "Geräte erneut einlesen"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:122
+#: src/components/storage/installation-method/InstallationDestination.jsx:96
 msgid "Rescanning of the disks failed."
 msgstr "Erneutes Scannen der Datenträger ist fehlgeschlagen."
 
@@ -1186,7 +1204,7 @@ msgstr ""
 "Sichern Sie Ihre Daten durch festplattenbasierte Verschlüsselung. Gilt nur "
 "für neue Partitionen"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:378
+#: src/components/storage/installation-method/InstallationDestination.jsx:352
 msgid "Select"
 msgstr "Auswählen"
 
@@ -1199,7 +1217,7 @@ msgstr "Gewähltes Speichermedium"
 msgid "Select city"
 msgstr "Stadt auswählen"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:361
+#: src/components/storage/installation-method/InstallationDestination.jsx:335
 msgid "Select destination"
 msgstr "Ziel auswählen"
 
@@ -1275,9 +1293,15 @@ msgstr ""
 "Softwareinstallation: Speicherkonfiguration abgeschlossen. Die Software wird "
 "nun auf Ihrem Gerät installiert."
 
+#: src/components/review/ReviewConfiguration.jsx:236
 #: src/components/software/index.js:19 src/components/software/index.js:20
 msgid "Software selection"
 msgstr "Softwareauswahl"
+
+#: src/components/review/ReviewConfiguration.jsx:204
+msgid ""
+"Some installation steps still need to be completed before you can continue."
+msgstr ""
 
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:49
 msgid "Some required partitions are missing: $0"
@@ -1291,7 +1315,7 @@ msgstr "Platz"
 msgid "Stacktrace"
 msgstr "Stapelzurückverfolgung"
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:265
 msgid "Storage"
 msgstr "Speicher"
 
@@ -1463,7 +1487,7 @@ msgid "Time"
 msgstr "Zeit"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:162
+#: src/components/review/ReviewConfiguration.jsx:230
 msgid "Timezone"
 msgstr "Zeitzone"
 
@@ -1475,7 +1499,7 @@ msgstr "Titel"
 msgid "To begin using $0, reboot your system."
 msgstr "Starten Sie das System neu, um mit der Nutzung von $0 zu beginnen."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:197
+#: src/components/storage/installation-method/InstallationMethod.jsx:195
 msgid "To continue, select the devices to install to."
 msgstr "Um fortzufahren, wählen die Speichermedien für die Installation aus."
 
@@ -1666,6 +1690,12 @@ msgstr "formatieren als $0"
 #: src/components/Error.jsx:161 src/components/Error.jsx:241
 msgid "here"
 msgstr "hier"
+
+#: src/components/review/ReviewConfiguration.jsx:56
+#, fuzzy
+#| msgid "Completed"
+msgid "incomplete"
+msgstr "Fertig"
 
 #: src/components/review/StorageReview.jsx:108
 msgid "mount"
@@ -2592,9 +2622,6 @@ msgstr "rückgängig machen"
 #~ msgid "Apple EFI Boot Partition"
 #~ msgstr "Apple-EFI-Startpartition"
 
-#~ msgid "Apply configuration in installer"
-#~ msgstr "Konfiguration im Installationsprogramm anwenden"
-
 #~ msgid ""
 #~ "Are you sure you want to delete all of the data on {}, including "
 #~ "snapshots?"
@@ -2863,9 +2890,6 @@ msgstr "rückgängig machen"
 
 #~ msgid "Checking software dependencies..."
 #~ msgstr "Überprüfe Software-Abhängigkeiten..."
-
-#~ msgid "Checking storage configuration..."
-#~ msgstr "Überprüfe Speichermedien-Konfiguration..."
 
 #~ msgid ""
 #~ "Choose device from above to assign mount point and set format.\n"

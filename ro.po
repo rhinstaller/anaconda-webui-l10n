@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-27 05:40+0000\n"
+"POT-Creation-Date: 2026-04-28 05:46+0000\n"
 "PO-Revision-Date: 2026-04-21 05:16+0000\n"
 "Last-Translator: Petru Rebeja <petru@rebeja.eu>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/"
@@ -31,13 +31,13 @@ msgstr ""
 "20)) ? 1 : 2;\n"
 "X-Generator: Weblate 5.17\n"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:168
-#: src/components/storage/installation-method/InstallationDestination.jsx:289
+#: src/components/storage/installation-method/InstallationDestination.jsx:142
+#: src/components/storage/installation-method/InstallationDestination.jsx:263
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:188
-#: src/components/storage/installation-method/InstallationDestination.jsx:282
+#: src/components/storage/installation-method/InstallationDestination.jsx:162
+#: src/components/storage/installation-method/InstallationDestination.jsx:256
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:343
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
@@ -58,7 +58,7 @@ msgstr ""
 "$0 este o partiție extinsă MBR care conține partiții logice. Eliminarea "
 "tuturor partițiilor logice va elimina automat partiția extinsă."
 
-#: src/components/review/ReviewConfiguration.jsx:89
+#: src/components/storage/installation-method/usePageComplete.jsx:143
 msgid "$0 is required, but only $1 is available."
 msgstr "este nevoie de $0, însă doar $1 sunt disponibili."
 
@@ -100,7 +100,7 @@ msgstr ""
 msgid "About"
 msgstr "Despre aplicație"
 
-#: src/components/review/ReviewConfiguration.jsx:169
+#: src/components/review/ReviewConfiguration.jsx:243
 msgid "Account"
 msgstr "Cont"
 
@@ -221,7 +221,7 @@ msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:252
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
-#: src/components/storage/installation-method/InstallationDestination.jsx:381
+#: src/components/storage/installation-method/InstallationDestination.jsx:355
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
 #: src/components/localization/Keyboard.jsx:280
@@ -232,7 +232,7 @@ msgstr "Renunță"
 msgid "Change"
 msgstr "Modifică"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:353
+#: src/components/storage/installation-method/InstallationDestination.jsx:327
 msgid "Change destination"
 msgstr "Modifică destinația"
 
@@ -240,7 +240,7 @@ msgstr "Modifică destinația"
 msgid "Change hostname"
 msgstr "Modifică numele calculatorului"
 
-#: src/components/review/ReviewConfiguration.jsx:103
+#: src/components/storage/installation-method/usePageComplete.jsx:157
 msgid "Change partition layout"
 msgstr "Modifică aranjamentul partițiilor"
 
@@ -256,6 +256,12 @@ msgid ""
 msgstr ""
 "Modificările făcute aici vor afecta sistemul imediat. Revenirea la starea "
 "anterioară nu este posibilă."
+
+#: src/components/review/ReviewConfiguration.jsx:180
+#, fuzzy
+#| msgid "Checking storage configuration..."
+msgid "Checking installation configuration..."
+msgstr "Se verifică configurația de stocare..."
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:425
@@ -274,7 +280,7 @@ msgstr ""
 "avertismente."
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
-#: src/components/storage/installation-method/InstallationDestination.jsx:386
+#: src/components/storage/installation-method/InstallationDestination.jsx:360
 #: src/components/network/CockpitNetworkConfiguration.jsx:95
 msgid "Close"
 msgstr "Închide"
@@ -292,6 +298,12 @@ msgstr ""
 #: src/components/installation/InstallationProgress.jsx:175
 msgid "Completed"
 msgstr "Finalizat"
+
+#: src/components/review/ReviewConfiguration.jsx:201
+#, fuzzy
+#| msgid "Apply configuration in installer"
+msgid "Configuration is incomplete"
+msgstr "Confirmă configurația pentru instalare"
 
 #: src/components/datetime/CustomNTPModal.jsx:270
 msgid "Configure NTP servers"
@@ -339,7 +351,7 @@ msgstr "Creează cont"
 msgid "Create account"
 msgstr "Creează cont"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:91
+#: src/components/storage/installation-method/InstallationDestination.jsx:65
 msgid "Currently installed: $0"
 msgstr "Instalat curent: $0"
 
@@ -368,7 +380,7 @@ msgstr "Ștergerea anumitor partiții poate împiedica $0 să pornească: $1"
 msgid "Description"
 msgstr "Descriere"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:274
+#: src/components/storage/installation-method/InstallationDestination.jsx:248
 msgid "Destination"
 msgstr "Destinație"
 
@@ -514,7 +526,7 @@ msgstr "Nume sistem"
 msgid "How would you like to install?"
 msgstr "Cum doriți să efectuați instalarea?"
 
-#: src/components/review/ReviewConfiguration.jsx:227
+#: src/components/review/ReviewConfiguration.jsx:298
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
@@ -524,11 +536,11 @@ msgstr[1] ""
 msgstr[2] ""
 "Înțeleg că toate datele existente vor fi șterse de pe diskurile selectate"
 
-#: src/components/review/ReviewConfiguration.jsx:232
+#: src/components/review/ReviewConfiguration.jsx:303
 msgid "I understand that some existing data will be erased"
 msgstr "Înțeleg că o parte din datele existente vor fi șterse"
 
-#: src/components/review/ReviewConfiguration.jsx:233
+#: src/components/review/ReviewConfiguration.jsx:304
 msgid "I understand that some partitions will be modified"
 msgstr "Înțeleg că unele partiții vor fi modificate"
 
@@ -591,7 +603,7 @@ msgstr "Instalarea sistemului a eșuat"
 msgid "Installation of the system failed: $0"
 msgstr "Instalarea sistemului a eșuat: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:184
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Installation type"
 msgstr "Tipul de instalare"
 
@@ -599,7 +611,7 @@ msgstr "Tipul de instalare"
 msgid "Installing"
 msgstr "Se instalează"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:320
+#: src/components/storage/installation-method/InstallationDestination.jsx:294
 msgid "Insufficient disk space"
 msgstr "Spațiu de stocare insuficient"
 
@@ -621,6 +633,12 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Numele sistemului este invalid"
 
+#: src/components/review/ReviewConfiguration.jsx:197
+#, fuzzy
+#| msgid "completed step"
+msgid "Jump to first incomplete step"
+msgstr "etapă finalizată"
+
 #: src/components/storage/scenarios/use-free-space/index.js:28
 msgid ""
 "Keep current disk layout and use available space, to dual-boot with another "
@@ -637,7 +655,7 @@ msgstr "Tastatură"
 msgid "Keyboard layout during boot"
 msgstr "Aranjament tastatură în timpul pornirii"
 
-#: src/components/review/ReviewConfiguration.jsx:155
+#: src/components/review/ReviewConfiguration.jsx:223
 #: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "Limbă"
@@ -684,7 +702,7 @@ msgstr "Poate necesita mai mult spațiu liber"
 msgid "Medium"
 msgstr "Mediu"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:323
+#: src/components/storage/installation-method/InstallationDestination.jsx:297
 msgid "Minimum of $0 required"
 msgstr "Este necesar minim $0"
 
@@ -764,11 +782,11 @@ msgstr "Următorul"
 msgid "No devices"
 msgstr "Niciun dispozitiv"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:150
+#: src/components/storage/installation-method/InstallationDestination.jsx:124
 msgid "No disks available"
 msgstr "Niciun disk disponibil"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:332
+#: src/components/storage/installation-method/InstallationDestination.jsx:306
 msgid "No disks selected"
 msgstr "Nu au fost selectate discuri"
 
@@ -788,7 +806,7 @@ msgstr ""
 "Nu se poate obține keymap VConsole valid pentru aranjamentul(ele) "
 "selectat(e) al(e) tastaturii. Vă rugăm să selectați alt aranjament."
 
-#: src/components/review/ReviewConfiguration.jsx:87
+#: src/components/storage/installation-method/usePageComplete.jsx:141
 msgid "Not enough available free space"
 msgstr "Spațiu liber insuficient"
 
@@ -818,7 +836,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Deschide formularul Bugzilla pentru introducerea problemei"
 
-#: src/components/review/ReviewConfiguration.jsx:144
+#: src/components/review/ReviewConfiguration.jsx:212
 msgid "Operating system"
 msgstr "Sistem de operare"
 
@@ -857,7 +875,7 @@ msgstr "În așteptare"
 msgid "Please attach the log file $0 to the issue."
 msgstr "Vă rugăm atașați fișierul jurnal $0 la incident."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:335
+#: src/components/storage/installation-method/InstallationDestination.jsx:309
 msgid "Please select at least one disk to continue"
 msgstr "Vă rugăm să selectați cel puțin un disk pentru a continua"
 
@@ -1041,11 +1059,11 @@ msgstr "Obligatoriu"
 msgid "Requirements"
 msgstr "Cerințe"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:141
+#: src/components/storage/installation-method/InstallationDestination.jsx:115
 msgid "Rescan devices"
 msgstr "Rescanare dispozitive"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:122
+#: src/components/storage/installation-method/InstallationDestination.jsx:96
 msgid "Rescanning of the disks failed."
 msgstr "Se re-scanează discurile finalizate."
 
@@ -1127,7 +1145,7 @@ msgstr ""
 "Securizați-vă datele cu ajutorul criptării la nivel de disk. Se aplică doar "
 "pentru partițiile noi"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:378
+#: src/components/storage/installation-method/InstallationDestination.jsx:352
 msgid "Select"
 msgstr "Selectează"
 
@@ -1140,7 +1158,7 @@ msgstr "Selectați un dispozitiv"
 msgid "Select city"
 msgstr "Selectare oraș"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:361
+#: src/components/storage/installation-method/InstallationDestination.jsx:335
 msgid "Select destination"
 msgstr "Selectați destinația"
 
@@ -1216,9 +1234,15 @@ msgstr ""
 "Instalare software: Configurarea stocării este completă. Acest software este "
 "în curs de instalare pe dispozitivul dumneavoastră."
 
+#: src/components/review/ReviewConfiguration.jsx:236
 #: src/components/software/index.js:19 src/components/software/index.js:20
 msgid "Software selection"
 msgstr "Selecție software"
+
+#: src/components/review/ReviewConfiguration.jsx:204
+msgid ""
+"Some installation steps still need to be completed before you can continue."
+msgstr ""
 
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:49
 msgid "Some required partitions are missing: $0"
@@ -1232,7 +1256,7 @@ msgstr "Spațiu"
 msgid "Stacktrace"
 msgstr "Desfășurător de stivă"
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:265
 msgid "Storage"
 msgstr "Stocare"
 
@@ -1401,7 +1425,7 @@ msgid "Time"
 msgstr "Timp"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:162
+#: src/components/review/ReviewConfiguration.jsx:230
 msgid "Timezone"
 msgstr "Fus orar"
 
@@ -1413,7 +1437,7 @@ msgstr "Titlu"
 msgid "To begin using $0, reboot your system."
 msgstr "Pentru a începe utilizarea $0, reporniți sistemul."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:197
+#: src/components/storage/installation-method/InstallationMethod.jsx:195
 msgid "To continue, select the devices to install to."
 msgstr ""
 "Pentru a continua selectați dispozitivele pe care se va efectua instalarea."
@@ -1603,6 +1627,12 @@ msgstr "formatează ca $0"
 #: src/components/Error.jsx:161 src/components/Error.jsx:241
 msgid "here"
 msgstr "aici"
+
+#: src/components/review/ReviewConfiguration.jsx:56
+#, fuzzy
+#| msgid "Completed"
+msgid "incomplete"
+msgstr "Finalizat"
 
 #: src/components/review/StorageReview.jsx:108
 msgid "mount"
@@ -2330,9 +2360,6 @@ msgstr "anulează"
 #~ msgid "Apple EFI Boot Partition"
 #~ msgstr "Partiție de pornire Apple EFI"
 
-#~ msgid "Apply configuration in installer"
-#~ msgstr "Confirmă configurația pentru instalare"
-
 #, fuzzy
 #~| msgid ""
 #~| "Are you sure you want to delete all of the data on %s, including "
@@ -2616,9 +2643,6 @@ msgstr "anulează"
 
 #~ msgid "Checking software dependencies..."
 #~ msgstr "Se verifică dependențele software..."
-
-#~ msgid "Checking storage configuration..."
-#~ msgstr "Se verifică configurația de stocare..."
 
 #~ msgid "City"
 #~ msgstr "Oraș"
