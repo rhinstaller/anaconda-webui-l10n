@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 40.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-05 05:30+0000\n"
+"POT-Creation-Date: 2026-05-06 05:44+0000\n"
 "PO-Revision-Date: 2026-03-24 04:33+0000\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <https://translate.fedoraproject.org/projects/"
@@ -43,7 +43,7 @@ msgstr[1] "Napaka"
 msgstr[2] "Napaka"
 msgstr[3] "Napaka"
 
-#: src/components/app.jsx:82
+#: src/components/app.jsx:83
 msgid "$0 installation"
 msgstr "Namestitev $0"
 
@@ -72,7 +72,7 @@ msgstr[1] "$0 opozorilo"
 msgstr[2] "$0 opozorili"
 msgstr[3] "$0 opozorila"
 
-#: src/components/review/StorageReview.jsx:285
+#: src/components/storage/StorageReview.jsx:283
 msgid "$0 will be deleted"
 msgstr "$0 bo izbrisano"
 
@@ -103,12 +103,12 @@ msgstr ""
 msgid "About"
 msgstr "O programu"
 
-#: src/components/review/ReviewConfiguration.jsx:243
+#: src/components/review/ReviewConfiguration.jsx:233
 msgid "Account"
 msgstr "Račun"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
-#: src/components/review/StorageReview.jsx:243
+#: src/components/storage/StorageReview.jsx:241
 msgid "Actions"
 msgstr "Dejanja"
 
@@ -258,7 +258,7 @@ msgstr ""
 "Spremembe, ki opravljene tukaj, bodo takoj vplivale na sistem. Ni "
 "»razveljavitve«."
 
-#: src/components/review/ReviewConfiguration.jsx:180
+#: src/components/review/ReviewConfiguration.jsx:170
 #, fuzzy
 #| msgid "Checking storage configuration..."
 msgid "Checking installation configuration..."
@@ -298,7 +298,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Zaključeno"
 
-#: src/components/review/ReviewConfiguration.jsx:201
+#: src/components/review/ReviewConfiguration.jsx:191
 #, fuzzy
 #| msgid "Apply configuration in installer"
 msgid "Configuration is incomplete"
@@ -366,7 +366,7 @@ msgstr "Po meri"
 msgid "Date"
 msgstr "Datum"
 
-#: src/components/datetime/index.js:18
+#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr "Datum in čas"
@@ -377,7 +377,7 @@ msgstr "Datum in čas"
 msgid "Delete partition"
 msgstr "razširjen razdelek"
 
-#: src/components/review/StorageReview.jsx:343
+#: src/components/storage/StorageReview.jsx:341
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Brisanje določenih razdelkov lahko prepreči zagon $0: $1"
 
@@ -401,8 +401,8 @@ msgstr "Podrobni opis težave"
 msgid "Detected valid storage layout:"
 msgstr "Zaznana veljavna postavitev hrambe:"
 
+#: src/components/storage/StorageReview.jsx:239
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
-#: src/components/review/StorageReview.jsx:241
 msgid "Device"
 msgstr "Naprava"
 
@@ -422,7 +422,7 @@ msgstr "Omogoči korenski račun"
 msgid "Encrypt my data"
 msgstr "Šifriraj moje podatke"
 
-#: src/components/review/StorageReview.jsx:244
+#: src/components/storage/StorageReview.jsx:242
 msgid "Encrypted"
 msgstr "Šifrirano"
 
@@ -503,7 +503,7 @@ msgstr "Polno ime"
 msgid "Full name cannot contain colon characters"
 msgstr "Polno ime ne sme vsebovati dvopičij"
 
-#: src/components/review/StorageReview.jsx:246
+#: src/components/storage/StorageReview.jsx:244
 msgid "Helper text"
 msgstr "Besedilo pomoči"
 
@@ -527,11 +527,11 @@ msgstr "Skrij geslo"
 msgid "Hostname"
 msgstr "Ime gostitelja"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:148
+#: src/components/storage/installation-method/InstallationScenario.jsx:145
 msgid "How would you like to install?"
 msgstr "Kako želite namestiti?"
 
-#: src/components/review/ReviewConfiguration.jsx:298
+#: src/components/review/ReviewConfiguration.jsx:288
 #, fuzzy
 #| msgid "I understand that all existing data will be erased"
 msgid "I understand that all existing data will be erased"
@@ -542,11 +542,11 @@ msgstr[1] "Razumem, da bodo vsi obstoječi podatki izbrisani"
 msgstr[2] "Razumem, da bodo vsi obstoječi podatki izbrisani"
 msgstr[3] "Razumem, da bodo vsi obstoječi podatki izbrisani"
 
-#: src/components/review/ReviewConfiguration.jsx:303
+#: src/components/review/ReviewConfiguration.jsx:293
 msgid "I understand that some existing data will be erased"
 msgstr "Razumem, da bodo nekateri obstoječi podatki izbrisani"
 
-#: src/components/review/ReviewConfiguration.jsx:304
+#: src/components/review/ReviewConfiguration.jsx:294
 msgid "I understand that some partitions will be modified"
 msgstr "Razumem, da bodo nekateri razdelki spremenjeni"
 
@@ -580,7 +580,7 @@ msgstr ""
 msgid "In progress"
 msgstr "V postopku"
 
-#: src/components/app.jsx:32
+#: src/components/app.jsx:33
 msgid "Initializing..."
 msgstr "Inicializacija ..."
 
@@ -595,7 +595,7 @@ msgstr "Namesti"
 msgid "Installation failed"
 msgstr "Nameščanje ni uspelo"
 
-#: src/components/storage/installation-method/index.js:20
+#: src/components/storage/installation-method/index.js:24
 msgid "Installation method"
 msgstr "Način namestitve"
 
@@ -608,7 +608,7 @@ msgstr "Namestitev sistema ni uspela"
 msgid "Installation of the system failed: $0"
 msgstr "Namestitev sistema ni uspela: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:248
 msgid "Installation type"
 msgstr "Vrsta namestitve"
 
@@ -638,7 +638,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Neveljavno ime gostitelja"
 
-#: src/components/review/ReviewConfiguration.jsx:197
+#: src/components/review/ReviewConfiguration.jsx:187
 #, fuzzy
 #| msgid "completed step"
 msgid "Jump to first incomplete step"
@@ -660,7 +660,7 @@ msgstr "Tipkovnica"
 msgid "Keyboard layout during boot"
 msgstr "Postavitev tipkovnice med zagonom"
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:213
 #: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "Jezik"
@@ -699,7 +699,7 @@ msgstr "Ročna konfiguracija diska: preslikava priklopnih točk"
 msgid "May contain letters, numbers, and dashes."
 msgstr "Lahko vsebuje črke, števke in pomišljaje."
 
-#: src/components/review/StorageReview.jsx:87
+#: src/components/storage/StorageReview.jsx:85
 msgid "May need more free space"
 msgstr "Bo morda potreboval več praznega prostora"
 
@@ -717,8 +717,8 @@ msgstr ""
 "Neusklajenost med izbiro ponovnega formatiranja nadrejene naprave in "
 "podrejene naprave."
 
+#: src/components/storage/StorageReview.jsx:243
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
-#: src/components/review/StorageReview.jsx:245
 msgid "Mount point"
 msgstr "Točka priklopa"
 
@@ -753,7 +753,7 @@ msgstr "NTS"
 msgid "Name"
 msgstr "Ime"
 
-#: src/components/review/StorageReview.jsx:85
+#: src/components/storage/StorageReview.jsx:83
 msgid "Needs at least $0"
 msgstr "Potrebuje vsaj $0"
 
@@ -822,10 +822,6 @@ msgstr "Na izbranih diskih ni dovolj prostega prostora."
 msgid "Not enough space on selected disks."
 msgstr "Premalo prostora na izbranih diskih."
 
-#: src/components/review/StorageReview.jsx:387
-msgid "Note"
-msgstr "Opomba"
-
 #: src/components/AnacondaHeader.jsx:71
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -840,7 +836,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Odpri obrazec za prijavo napak v Bugzilli"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:202
 msgid "Operating system"
 msgstr "operacijski sistem"
 
@@ -912,15 +908,15 @@ msgstr "Zapusti"
 msgid "Quit installer?"
 msgstr "Želite zapustiti namestilnik?"
 
-#: src/components/app.jsx:127
+#: src/components/app.jsx:128
 msgid "Reading information about the OS failed."
 msgstr "Branje informacij o operacijskem sistemu ni uspelo."
 
-#: src/components/app.jsx:72
+#: src/components/app.jsx:73
 msgid "Reading information about the computer failed."
 msgstr "Branje informacij o računalniku ni uspelo."
 
-#: src/components/app.jsx:117
+#: src/components/app.jsx:118
 msgid "Reading installer configuration failed."
 msgstr "Branje prilagoditve namestitvenega programa ni uspelo."
 
@@ -1081,7 +1077,7 @@ msgstr "Spremeni velikost"
 msgid "Resize partition"
 msgstr "Razširjen razdelek"
 
-#: src/components/review/StorageReview.jsx:349
+#: src/components/storage/StorageReview.jsx:347
 msgid "Resizing the following partitions from $0: $1"
 msgstr "Spreminjanje velikosti naslednjih razdelkov z $0: $1"
 
@@ -1224,7 +1220,7 @@ msgstr "Pokaži šifrirno geslo"
 msgid "Show password"
 msgstr "Pokaži geslo"
 
-#: src/components/review/StorageReview.jsx:242
+#: src/components/storage/StorageReview.jsx:240
 msgid "Size"
 msgstr "Velikost"
 
@@ -1240,12 +1236,12 @@ msgstr ""
 "Nameščanje programja: Konfiguracija hrambe končana. Programje se zdaj "
 "namešča na vašo napravo."
 
-#: src/components/review/ReviewConfiguration.jsx:236
+#: src/components/review/ReviewConfiguration.jsx:226
 #: src/components/software/index.js:19 src/components/software/index.js:20
 msgid "Software selection"
 msgstr "Izbira programja"
 
-#: src/components/review/ReviewConfiguration.jsx:204
+#: src/components/review/ReviewConfiguration.jsx:194
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1262,7 +1258,7 @@ msgstr "Prostor"
 msgid "Stacktrace"
 msgstr "Stacktrace"
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:255
 msgid "Storage"
 msgstr "Shramba"
 
@@ -1339,7 +1335,7 @@ msgstr ""
 "Konfiguracija sistema: Nameščanje programja končano. Sistem se zdaj "
 "konfigurira."
 
-#: src/components/app.jsx:162
+#: src/components/app.jsx:163
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "Namestitev Anaconde se je nepričakovano ustavila."
 
@@ -1429,7 +1425,7 @@ msgid "Time"
 msgstr "Čas"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:230
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid "Timezone"
 msgstr "Časovni pas"
 
@@ -1539,11 +1535,11 @@ msgstr "Potrjevanje..."
 msgid "Weak"
 msgstr "Šibko"
 
-#: src/components/localization/index.js:18
+#: src/components/localization/index.js:21
 msgid "Welcome"
 msgstr "Dobrodošli"
 
-#: src/components/localization/index.js:19
+#: src/components/localization/index.js:22
 msgid "Welcome to Fedora Linux"
 msgstr "Dobrodošli v Fedora Linux"
 
@@ -1605,7 +1601,7 @@ msgstr "trenutni korak"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/review/StorageReview.jsx:164
+#: src/components/storage/StorageReview.jsx:162
 msgid "delete"
 msgstr "izbriši"
 
@@ -1613,11 +1609,11 @@ msgstr "izbriši"
 msgid "edit"
 msgstr "uredi"
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypt"
 msgstr "šifriraj"
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypted"
 msgstr "šifrirano"
 
@@ -1625,7 +1621,7 @@ msgstr "šifrirano"
 msgid "extended partition"
 msgstr "razširjen razdelek"
 
-#: src/components/review/StorageReview.jsx:104
+#: src/components/storage/StorageReview.jsx:102
 msgid "format as $0"
 msgstr "formatiraj kot $0"
 
@@ -1633,13 +1629,13 @@ msgstr "formatiraj kot $0"
 msgid "here"
 msgstr "tukaj"
 
-#: src/components/review/ReviewConfiguration.jsx:56
+#: src/components/review/ReviewConfiguration.jsx:58
 #, fuzzy
 #| msgid "Completed"
 msgid "incomplete"
 msgstr "Zaključeno"
 
-#: src/components/review/StorageReview.jsx:108
+#: src/components/storage/StorageReview.jsx:106
 msgid "mount"
 msgstr "priklop"
 
@@ -1651,7 +1647,7 @@ msgstr "korak v teku"
 msgid "report the issue manually"
 msgstr "ročno prijavite težavo"
 
-#: src/components/review/StorageReview.jsx:169
+#: src/components/storage/StorageReview.jsx:167
 msgid "resized from $0"
 msgstr "spremenjena velikost iz $0"
 
@@ -1667,6 +1663,9 @@ msgstr "skrči na $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:375
 msgid "undo"
 msgstr "razveljavi"
+
+#~ msgid "Note"
+#~ msgstr "Opomba"
 
 #~ msgid ""
 #~ "I understand that all existing data will be erased from the selected disks"

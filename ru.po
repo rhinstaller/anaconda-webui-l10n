@@ -52,7 +52,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-05 05:30+0000\n"
+"POT-Creation-Date: 2026-05-06 05:44+0000\n"
 "PO-Revision-Date: 2026-05-01 05:56+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
@@ -84,7 +84,7 @@ msgstr[0] "Ошибка"
 msgstr[1] "Ошибки"
 msgstr[2] "Ошибок"
 
-#: src/components/app.jsx:82
+#: src/components/app.jsx:83
 msgid "$0 installation"
 msgstr "Установка $0"
 
@@ -112,7 +112,7 @@ msgstr[0] "$0 предупреждение"
 msgstr[1] "$0 предупреждения"
 msgstr[2] "$0 предупреждений"
 
-#: src/components/review/StorageReview.jsx:285
+#: src/components/storage/StorageReview.jsx:283
 msgid "$0 will be deleted"
 msgstr "$0 будет удалён"
 
@@ -144,12 +144,12 @@ msgstr ""
 msgid "About"
 msgstr "О программе"
 
-#: src/components/review/ReviewConfiguration.jsx:243
+#: src/components/review/ReviewConfiguration.jsx:233
 msgid "Account"
 msgstr "Учетная запись"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
-#: src/components/review/StorageReview.jsx:243
+#: src/components/storage/StorageReview.jsx:241
 msgid "Actions"
 msgstr "Действия"
 
@@ -300,7 +300,7 @@ msgstr ""
 "Изменения, внесенные здесь, немедленно отразятся на системе. Опции отмены "
 "нет."
 
-#: src/components/review/ReviewConfiguration.jsx:180
+#: src/components/review/ReviewConfiguration.jsx:170
 msgid "Checking installation configuration..."
 msgstr "Проверка конфигурации установки..."
 
@@ -340,7 +340,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Завершено"
 
-#: src/components/review/ReviewConfiguration.jsx:201
+#: src/components/review/ReviewConfiguration.jsx:191
 msgid "Configuration is incomplete"
 msgstr "Конфигурация неполная"
 
@@ -406,7 +406,7 @@ msgstr "По-своему"
 msgid "Date"
 msgstr "Дата"
 
-#: src/components/datetime/index.js:18
+#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr "Дата и время"
@@ -415,7 +415,7 @@ msgstr "Дата и время"
 msgid "Delete partition"
 msgstr "Удалить раздел"
 
-#: src/components/review/StorageReview.jsx:343
+#: src/components/storage/StorageReview.jsx:341
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Удаление некоторых разделов может помешать загрузке $0: $1"
 
@@ -439,8 +439,8 @@ msgstr "Подробное описание проблемы"
 msgid "Detected valid storage layout:"
 msgstr "Обнаруженая действительная схема хранения:"
 
+#: src/components/storage/StorageReview.jsx:239
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
-#: src/components/review/StorageReview.jsx:241
 msgid "Device"
 msgstr "Устройство"
 
@@ -460,7 +460,7 @@ msgstr "Включить учётную запись root"
 msgid "Encrypt my data"
 msgstr "Зашифровать данные"
 
-#: src/components/review/StorageReview.jsx:244
+#: src/components/storage/StorageReview.jsx:242
 msgid "Encrypted"
 msgstr "Зашифровано"
 
@@ -542,7 +542,7 @@ msgstr "Полное имя"
 msgid "Full name cannot contain colon characters"
 msgstr "Полное имя не может содержать двоеточий"
 
-#: src/components/review/StorageReview.jsx:246
+#: src/components/storage/StorageReview.jsx:244
 msgid "Helper text"
 msgstr "Текст справки"
 
@@ -566,11 +566,11 @@ msgstr "Скрыть пароль"
 msgid "Hostname"
 msgstr "Имя узла"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:148
+#: src/components/storage/installation-method/InstallationScenario.jsx:145
 msgid "How would you like to install?"
 msgstr "Как хотели бы выполнить установку?"
 
-#: src/components/review/ReviewConfiguration.jsx:298
+#: src/components/review/ReviewConfiguration.jsx:288
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
@@ -580,11 +580,11 @@ msgstr[1] ""
 msgstr[2] ""
 "Я понимаю, что все существующие данные будут удалены с выбранных дисков"
 
-#: src/components/review/ReviewConfiguration.jsx:303
+#: src/components/review/ReviewConfiguration.jsx:293
 msgid "I understand that some existing data will be erased"
 msgstr "Я понимаю, что некоторые существующие данные будут удалены"
 
-#: src/components/review/ReviewConfiguration.jsx:304
+#: src/components/review/ReviewConfiguration.jsx:294
 msgid "I understand that some partitions will be modified"
 msgstr "Я понимаю, что некоторые разделы будут изменены"
 
@@ -618,7 +618,7 @@ msgstr ""
 msgid "In progress"
 msgstr "В ходе выполнения"
 
-#: src/components/app.jsx:32
+#: src/components/app.jsx:33
 msgid "Initializing..."
 msgstr "Инициализация..."
 
@@ -633,7 +633,7 @@ msgstr "Установить"
 msgid "Installation failed"
 msgstr "Сбой установки"
 
-#: src/components/storage/installation-method/index.js:20
+#: src/components/storage/installation-method/index.js:24
 msgid "Installation method"
 msgstr "Метод установки"
 
@@ -646,7 +646,7 @@ msgstr "Сбой установки системы"
 msgid "Installation of the system failed: $0"
 msgstr "Установка системы не удалась: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:248
 msgid "Installation type"
 msgstr "Тип установки"
 
@@ -676,7 +676,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Неверное имя узла"
 
-#: src/components/review/ReviewConfiguration.jsx:197
+#: src/components/review/ReviewConfiguration.jsx:187
 msgid "Jump to first incomplete step"
 msgstr "Перейти к первому незавершенному шагу"
 
@@ -696,7 +696,7 @@ msgstr "Клавиатура"
 msgid "Keyboard layout during boot"
 msgstr "Раскладка клавиатуры при запуске"
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:213
 #: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "Язык"
@@ -735,7 +735,7 @@ msgstr "Настройка диска вручную: распределение
 msgid "May contain letters, numbers, and dashes."
 msgstr "Может содержать буквы, цифры и тире."
 
-#: src/components/review/StorageReview.jsx:87
+#: src/components/storage/StorageReview.jsx:85
 msgid "May need more free space"
 msgstr "Может потребоваться больше свободного места"
 
@@ -753,8 +753,8 @@ msgstr ""
 "Несоответствие между выбором форматирования родительского и дочернего "
 "устройств."
 
+#: src/components/storage/StorageReview.jsx:243
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
-#: src/components/review/StorageReview.jsx:245
 msgid "Mount point"
 msgstr "Точка монтирования"
 
@@ -789,7 +789,7 @@ msgstr "NTS"
 msgid "Name"
 msgstr "Имя"
 
-#: src/components/review/StorageReview.jsx:85
+#: src/components/storage/StorageReview.jsx:83
 msgid "Needs at least $0"
 msgstr "Требуется как минимум $0"
 
@@ -858,10 +858,6 @@ msgstr "Недостаточно свободного места на выбра
 msgid "Not enough space on selected disks."
 msgstr "Недостаточно места на выбранных дисках."
 
-#: src/components/review/StorageReview.jsx:387
-msgid "Note"
-msgstr "Примечание"
-
 #: src/components/AnacondaHeader.jsx:71
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -877,7 +873,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Открыть форму регистрации ошибок Bugzilla"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:202
 msgid "Operating system"
 msgstr "Операционная система"
 
@@ -949,15 +945,15 @@ msgstr "Выход"
 msgid "Quit installer?"
 msgstr "Выйти из программы установки?"
 
-#: src/components/app.jsx:127
+#: src/components/app.jsx:128
 msgid "Reading information about the OS failed."
 msgstr "Не удалось прочитать информацию об ОС."
 
-#: src/components/app.jsx:72
+#: src/components/app.jsx:73
 msgid "Reading information about the computer failed."
 msgstr "Не удалось прочитать информацию о компьютере."
 
-#: src/components/app.jsx:117
+#: src/components/app.jsx:118
 msgid "Reading installer configuration failed."
 msgstr "Не удалось прочитать конфигурацию программы установки."
 
@@ -1115,7 +1111,7 @@ msgstr "Изменить размер"
 msgid "Resize partition"
 msgstr "Изм. размер раздела"
 
-#: src/components/review/StorageReview.jsx:349
+#: src/components/storage/StorageReview.jsx:347
 msgid "Resizing the following partitions from $0: $1"
 msgstr "Изменение размера следующих разделов с $0: $1"
 
@@ -1257,7 +1253,7 @@ msgstr "Показать парольную фразу"
 msgid "Show password"
 msgstr "Показать пароль"
 
-#: src/components/review/StorageReview.jsx:242
+#: src/components/storage/StorageReview.jsx:240
 msgid "Size"
 msgstr "Размер"
 
@@ -1273,12 +1269,12 @@ msgstr ""
 "Установка программного обеспечения: настройка хранилища данных завершена. "
 "Теперь программное обеспечение устанавливается на ваше устройство."
 
-#: src/components/review/ReviewConfiguration.jsx:236
+#: src/components/review/ReviewConfiguration.jsx:226
 #: src/components/software/index.js:19 src/components/software/index.js:20
 msgid "Software selection"
 msgstr "Выбор программ"
 
-#: src/components/review/ReviewConfiguration.jsx:204
+#: src/components/review/ReviewConfiguration.jsx:194
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr "Перед продолжением необходимо выполнить еще несколько шагов установки."
@@ -1295,7 +1291,7 @@ msgstr "Пространство"
 msgid "Stacktrace"
 msgstr "Трассировка стека"
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:255
 msgid "Storage"
 msgstr "Хранилище"
 
@@ -1374,7 +1370,7 @@ msgstr ""
 "Конфигурация системы: установка программного обеспечения завершена. Сейчас "
 "система настраивается."
 
-#: src/components/app.jsx:162
+#: src/components/app.jsx:163
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "Работа программы установки Anaconda была неожиданно прервана."
 
@@ -1462,7 +1458,7 @@ msgid "Time"
 msgstr "Время"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:230
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid "Timezone"
 msgstr "Часовой пояс"
 
@@ -1572,11 +1568,11 @@ msgstr "Проверка..."
 msgid "Weak"
 msgstr "Простой"
 
-#: src/components/localization/index.js:18
+#: src/components/localization/index.js:21
 msgid "Welcome"
 msgstr "Приветствие"
 
-#: src/components/localization/index.js:19
+#: src/components/localization/index.js:22
 msgid "Welcome to Fedora Linux"
 msgstr "Добро пожаловать в Fedora Linux"
 
@@ -1637,7 +1633,7 @@ msgstr "текущий шаг"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/review/StorageReview.jsx:164
+#: src/components/storage/StorageReview.jsx:162
 msgid "delete"
 msgstr "удалить"
 
@@ -1645,11 +1641,11 @@ msgstr "удалить"
 msgid "edit"
 msgstr "изменить"
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypt"
 msgstr "зашифровать"
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypted"
 msgstr "зашифровано"
 
@@ -1657,7 +1653,7 @@ msgstr "зашифровано"
 msgid "extended partition"
 msgstr "расширенный раздел"
 
-#: src/components/review/StorageReview.jsx:104
+#: src/components/storage/StorageReview.jsx:102
 msgid "format as $0"
 msgstr "форматировать как $0"
 
@@ -1665,11 +1661,11 @@ msgstr "форматировать как $0"
 msgid "here"
 msgstr "здесь"
 
-#: src/components/review/ReviewConfiguration.jsx:56
+#: src/components/review/ReviewConfiguration.jsx:58
 msgid "incomplete"
 msgstr "неполный"
 
-#: src/components/review/StorageReview.jsx:108
+#: src/components/storage/StorageReview.jsx:106
 msgid "mount"
 msgstr "монтировать"
 
@@ -1681,7 +1677,7 @@ msgstr "предстоящий шаг"
 msgid "report the issue manually"
 msgstr "ручной отчёт о проблеме"
 
-#: src/components/review/StorageReview.jsx:169
+#: src/components/storage/StorageReview.jsx:167
 msgid "resized from $0"
 msgstr "изменен размер с $0"
 
@@ -1697,6 +1693,9 @@ msgstr "уменьшить до $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:375
 msgid "undo"
 msgstr "отменить"
+
+#~ msgid "Note"
+#~ msgstr "Примечание"
 
 #~ msgid ""
 #~ "I understand that all existing data will be erased from the selected disks"

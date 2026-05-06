@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-05 05:30+0000\n"
+"POT-Creation-Date: 2026-05-06 05:44+0000\n"
 "PO-Revision-Date: 2026-05-05 15:40+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
@@ -58,7 +58,7 @@ msgid_plural "$0 errors"
 msgstr[0] "$0 virhe"
 msgstr[1] "$0 virhettä"
 
-#: src/components/app.jsx:82
+#: src/components/app.jsx:83
 msgid "$0 installation"
 msgstr "$0:n asennus"
 
@@ -86,7 +86,7 @@ msgid_plural "$0 warnings"
 msgstr[0] "$0 varoitus"
 msgstr[1] "$0 varoitusta"
 
-#: src/components/review/StorageReview.jsx:285
+#: src/components/storage/StorageReview.jsx:283
 msgid "$0 will be deleted"
 msgstr "$0 poistetaan"
 
@@ -117,12 +117,12 @@ msgstr ""
 msgid "About"
 msgstr "Aiheesta"
 
-#: src/components/review/ReviewConfiguration.jsx:243
+#: src/components/review/ReviewConfiguration.jsx:233
 msgid "Account"
 msgstr "Tili"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
-#: src/components/review/StorageReview.jsx:243
+#: src/components/storage/StorageReview.jsx:241
 msgid "Actions"
 msgstr "Toimet"
 
@@ -273,7 +273,7 @@ msgstr ""
 "Täällä tehdyt muutokset vaikuttavat välittömästi järjestelmään. \"Kumoa\" ei "
 "ole."
 
-#: src/components/review/ReviewConfiguration.jsx:180
+#: src/components/review/ReviewConfiguration.jsx:170
 msgid "Checking installation configuration..."
 msgstr "Tarkistetaan asennuksen kokoonpanoa..."
 
@@ -313,7 +313,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Valmis"
 
-#: src/components/review/ReviewConfiguration.jsx:201
+#: src/components/review/ReviewConfiguration.jsx:191
 msgid "Configuration is incomplete"
 msgstr "Määritys on keskeneräinen"
 
@@ -379,7 +379,7 @@ msgstr "Mukautettu"
 msgid "Date"
 msgstr "Päivämäärä"
 
-#: src/components/datetime/index.js:18
+#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr "Päivämäärä ja aika"
@@ -388,7 +388,7 @@ msgstr "Päivämäärä ja aika"
 msgid "Delete partition"
 msgstr "Poista osio"
 
-#: src/components/review/StorageReview.jsx:343
+#: src/components/storage/StorageReview.jsx:341
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Tiettyjen osioiden poistaminen voi estää $0:n käynnistymisen: $1"
 
@@ -412,8 +412,8 @@ msgstr "Yksityiskohtainen kuvaus ongelmasta"
 msgid "Detected valid storage layout:"
 msgstr "Havaittu kelvollinen tallennusasettelu:"
 
+#: src/components/storage/StorageReview.jsx:239
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
-#: src/components/review/StorageReview.jsx:241
 msgid "Device"
 msgstr "Laite"
 
@@ -433,7 +433,7 @@ msgstr "Ota root-tili käyttöön"
 msgid "Encrypt my data"
 msgstr "Salaa tietoni"
 
-#: src/components/review/StorageReview.jsx:244
+#: src/components/storage/StorageReview.jsx:242
 msgid "Encrypted"
 msgstr "Salattu"
 
@@ -514,7 +514,7 @@ msgstr "Koko nimi"
 msgid "Full name cannot contain colon characters"
 msgstr "Koko nimi ei saa sisältää kaksoispisteitä"
 
-#: src/components/review/StorageReview.jsx:246
+#: src/components/storage/StorageReview.jsx:244
 msgid "Helper text"
 msgstr "Avustava teksti"
 
@@ -538,11 +538,11 @@ msgstr "Piilota salasana"
 msgid "Hostname"
 msgstr "Koneen nimi"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:148
+#: src/components/storage/installation-method/InstallationScenario.jsx:145
 msgid "How would you like to install?"
 msgstr "Miten haluaisit asentaa?"
 
-#: src/components/review/ReviewConfiguration.jsx:298
+#: src/components/review/ReviewConfiguration.jsx:288
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
@@ -550,11 +550,11 @@ msgstr[0] ""
 "Ymmärrän, että kaikki olemassa olevat tiedot poistetaan valituilta levyiltä"
 msgstr[1] "Ymmärrän, että kaikki olemassa olevat tiedot poistetaan"
 
-#: src/components/review/ReviewConfiguration.jsx:303
+#: src/components/review/ReviewConfiguration.jsx:293
 msgid "I understand that some existing data will be erased"
 msgstr "Ymmärrän, että osa olemassa olevista tiedoista poistetaan"
 
-#: src/components/review/ReviewConfiguration.jsx:304
+#: src/components/review/ReviewConfiguration.jsx:294
 msgid "I understand that some partitions will be modified"
 msgstr "Ymmärrän, että joitain osioita muutetaan"
 
@@ -585,7 +585,7 @@ msgstr "Jos et ymmärrä tai hyväksy riskejä, poistu tästä ohjelmasta."
 msgid "In progress"
 msgstr "Meneillään"
 
-#: src/components/app.jsx:32
+#: src/components/app.jsx:33
 msgid "Initializing..."
 msgstr "Alustetaan ..."
 
@@ -600,7 +600,7 @@ msgstr "Asenna"
 msgid "Installation failed"
 msgstr "Asennus epäonnistui"
 
-#: src/components/storage/installation-method/index.js:20
+#: src/components/storage/installation-method/index.js:24
 msgid "Installation method"
 msgstr "Asennustapa"
 
@@ -613,7 +613,7 @@ msgstr "Järjestelmän asennus epäonnistui"
 msgid "Installation of the system failed: $0"
 msgstr "Järjestelmän asennus epäonnistui: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:248
 msgid "Installation type"
 msgstr "Asennustyyppi"
 
@@ -642,7 +642,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Ei kelvollinen isäntänimi"
 
-#: src/components/review/ReviewConfiguration.jsx:197
+#: src/components/review/ReviewConfiguration.jsx:187
 msgid "Jump to first incomplete step"
 msgstr "Siirry ensimmäiseen keskeneräiseen vaiheeseen"
 
@@ -662,7 +662,7 @@ msgstr "Näppäimistö"
 msgid "Keyboard layout during boot"
 msgstr "Näppäimistön asettelu käynnistyksen aikana"
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:213
 #: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "Kieli"
@@ -701,7 +701,7 @@ msgstr "Manuaalinen levyjen määritys: Liitoskohtien kartoitus"
 msgid "May contain letters, numbers, and dashes."
 msgstr "Saattaa sisältää kirjaimia, numeroita ja viivoja."
 
-#: src/components/review/StorageReview.jsx:87
+#: src/components/storage/StorageReview.jsx:85
 msgid "May need more free space"
 msgstr "Saattaa tarvita lisää vapaata tilaa"
 
@@ -718,8 +718,8 @@ msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 "Isäntälaitteen ja alalaitteen uudelleenmuotoilun valinta ei vastaa toisiaan."
 
+#: src/components/storage/StorageReview.jsx:243
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
-#: src/components/review/StorageReview.jsx:245
 msgid "Mount point"
 msgstr "Liitoskohta"
 
@@ -754,7 +754,7 @@ msgstr "NTS"
 msgid "Name"
 msgstr "Nimi"
 
-#: src/components/review/StorageReview.jsx:85
+#: src/components/storage/StorageReview.jsx:83
 msgid "Needs at least $0"
 msgstr "Tarvitsee vähintään $0"
 
@@ -823,10 +823,6 @@ msgstr "Valituilla levyillä ei ole riittävästi vapaata tilaa."
 msgid "Not enough space on selected disks."
 msgstr "Valituilla levyillä ei ole riittävästi vapaata tilaa."
 
-#: src/components/review/StorageReview.jsx:387
-msgid "Note"
-msgstr "Huomautus"
-
 #: src/components/AnacondaHeader.jsx:71
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -841,7 +837,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Avaa Bugzillan virheilmoituslomake"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:202
 msgid "Operating system"
 msgstr "Käyttöjärjestelmä"
 
@@ -913,15 +909,15 @@ msgstr "Lopeta"
 msgid "Quit installer?"
 msgstr "_Poistu asennusohjelmasta?"
 
-#: src/components/app.jsx:127
+#: src/components/app.jsx:128
 msgid "Reading information about the OS failed."
 msgstr "Käyttöjärjestelmää koskevien tietojen lukeminen epäonnistui."
 
-#: src/components/app.jsx:72
+#: src/components/app.jsx:73
 msgid "Reading information about the computer failed."
 msgstr "Tietokoneen tietojen lukeminen epäonnistui."
 
-#: src/components/app.jsx:117
+#: src/components/app.jsx:118
 msgid "Reading installer configuration failed."
 msgstr "Asennusohjelman asetusten lukeminen epäonnistui."
 
@@ -1079,7 +1075,7 @@ msgstr "Muuta kokoa"
 msgid "Resize partition"
 msgstr "Muuta osion kokoa"
 
-#: src/components/review/StorageReview.jsx:349
+#: src/components/storage/StorageReview.jsx:347
 msgid "Resizing the following partitions from $0: $1"
 msgstr "Seuraavien osioiden koon muuttaminen $0:sta: $1"
 
@@ -1220,7 +1216,7 @@ msgstr "Näytä tunnuslause"
 msgid "Show password"
 msgstr "Näytä salasana"
 
-#: src/components/review/StorageReview.jsx:242
+#: src/components/storage/StorageReview.jsx:240
 msgid "Size"
 msgstr "Koko"
 
@@ -1236,12 +1232,12 @@ msgstr ""
 "Ohjelmiston asennus: Tallennuskokoonpano on valmis. Ohjelmistoa asennetaan "
 "nyt laitteellesi."
 
-#: src/components/review/ReviewConfiguration.jsx:236
+#: src/components/review/ReviewConfiguration.jsx:226
 #: src/components/software/index.js:19 src/components/software/index.js:20
 msgid "Software selection"
 msgstr "Ohjelmistovalinta"
 
-#: src/components/review/ReviewConfiguration.jsx:204
+#: src/components/review/ReviewConfiguration.jsx:194
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr "Jotkin asennusvaiheet on vielä suoritettava ennen kuin voit jatkaa."
@@ -1258,7 +1254,7 @@ msgstr "Tila"
 msgid "Stacktrace"
 msgstr "Stacktrace"
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:255
 msgid "Storage"
 msgstr "Tallennustila"
 
@@ -1338,7 +1334,7 @@ msgstr ""
 "Järjestelmän konfigurointi: Ohjelmiston asennus valmis. Järjestelmää "
 "konfiguroidaan nyt."
 
-#: src/components/app.jsx:162
+#: src/components/app.jsx:163
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "Anacondan asennus on pysähtynyt odottamatta."
 
@@ -1426,7 +1422,7 @@ msgid "Time"
 msgstr "Aika"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:230
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid "Timezone"
 msgstr "Aikavyöhyke"
 
@@ -1536,11 +1532,11 @@ msgstr "Varmennetaan..."
 msgid "Weak"
 msgstr "Heikko"
 
-#: src/components/localization/index.js:18
+#: src/components/localization/index.js:21
 msgid "Welcome"
 msgstr "Tervetuloa"
 
-#: src/components/localization/index.js:19
+#: src/components/localization/index.js:22
 msgid "Welcome to Fedora Linux"
 msgstr "Tervetuloa Fedora Linuxiin"
 
@@ -1600,7 +1596,7 @@ msgstr "nykyinen vaihe"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/review/StorageReview.jsx:164
+#: src/components/storage/StorageReview.jsx:162
 msgid "delete"
 msgstr "poista"
 
@@ -1608,11 +1604,11 @@ msgstr "poista"
 msgid "edit"
 msgstr "muokkaa"
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypt"
 msgstr "Salaa"
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypted"
 msgstr "salattu"
 
@@ -1620,7 +1616,7 @@ msgstr "salattu"
 msgid "extended partition"
 msgstr "laajennettu osio"
 
-#: src/components/review/StorageReview.jsx:104
+#: src/components/storage/StorageReview.jsx:102
 msgid "format as $0"
 msgstr "alusta $0:ksi"
 
@@ -1628,11 +1624,11 @@ msgstr "alusta $0:ksi"
 msgid "here"
 msgstr "täällä"
 
-#: src/components/review/ReviewConfiguration.jsx:56
+#: src/components/review/ReviewConfiguration.jsx:58
 msgid "incomplete"
 msgstr "keskeneräinen"
 
-#: src/components/review/StorageReview.jsx:108
+#: src/components/storage/StorageReview.jsx:106
 msgid "mount"
 msgstr "liitä"
 
@@ -1644,7 +1640,7 @@ msgstr "käsittelyä odottava vaihe"
 msgid "report the issue manually"
 msgstr "ilmoita ongelmasta manuaalisesti"
 
-#: src/components/review/StorageReview.jsx:169
+#: src/components/storage/StorageReview.jsx:167
 msgid "resized from $0"
 msgstr "koko muutettu $0:sta"
 
@@ -1660,6 +1656,9 @@ msgstr "kutista $0:ksi"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:375
 msgid "undo"
 msgstr "kumoa"
+
+#~ msgid "Note"
+#~ msgstr "Huomautus"
 
 #~ msgid ""
 #~ "I understand that all existing data will be erased from the selected disks"

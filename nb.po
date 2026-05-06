@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-05 05:30+0000\n"
+"POT-Creation-Date: 2026-05-06 05:44+0000\n"
 "PO-Revision-Date: 2025-11-13 03:38+0000\n"
 "Last-Translator: Morgan Wells <supertuts20@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <https://translate.fedoraproject.org/"
@@ -50,7 +50,7 @@ msgid_plural "$0 errors"
 msgstr[0] "Feil"
 msgstr[1] "Feil"
 
-#: src/components/app.jsx:82
+#: src/components/app.jsx:83
 msgid "$0 installation"
 msgstr "$0-Installasjon"
 
@@ -78,7 +78,7 @@ msgid_plural "$0 warnings"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/components/review/StorageReview.jsx:285
+#: src/components/storage/StorageReview.jsx:283
 msgid "$0 will be deleted"
 msgstr "$0 skal fjernes"
 
@@ -109,12 +109,12 @@ msgstr ""
 msgid "About"
 msgstr "Om"
 
-#: src/components/review/ReviewConfiguration.jsx:243
+#: src/components/review/ReviewConfiguration.jsx:233
 msgid "Account"
 msgstr "Konto"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
-#: src/components/review/StorageReview.jsx:243
+#: src/components/storage/StorageReview.jsx:241
 msgid "Actions"
 msgstr "Handlinger"
 
@@ -272,7 +272,7 @@ msgstr ""
 "Endringer gjort her, vil umiddelbart påvirke systemet. Det er INGEN «Angre»-"
 "knapp."
 
-#: src/components/review/ReviewConfiguration.jsx:180
+#: src/components/review/ReviewConfiguration.jsx:170
 #, fuzzy
 #| msgid "Checking storage configuration..."
 msgid "Checking installation configuration..."
@@ -317,7 +317,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Fullført!"
 
-#: src/components/review/ReviewConfiguration.jsx:201
+#: src/components/review/ReviewConfiguration.jsx:191
 #, fuzzy
 #| msgid "Apply configuration in installer"
 msgid "Configuration is incomplete"
@@ -391,7 +391,7 @@ msgstr "Egendefinert"
 msgid "Date"
 msgstr "Dato"
 
-#: src/components/datetime/index.js:18
+#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr "Dato og tid"
@@ -402,7 +402,7 @@ msgstr "Dato og tid"
 msgid "Delete partition"
 msgstr "utvidet partisjon"
 
-#: src/components/review/StorageReview.jsx:343
+#: src/components/storage/StorageReview.jsx:341
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Å fjerne visse partisjoner kan hindre $0 i å starte opp: $1"
 
@@ -428,8 +428,8 @@ msgstr "Beskrivelse av enhet"
 msgid "Detected valid storage layout:"
 msgstr "Oppdaget gyldig lagringsoppsett:"
 
+#: src/components/storage/StorageReview.jsx:239
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
-#: src/components/review/StorageReview.jsx:241
 msgid "Device"
 msgstr "Enhet"
 
@@ -449,7 +449,7 @@ msgstr "Slå på rotkonto"
 msgid "Encrypt my data"
 msgstr "Krypter mine data"
 
-#: src/components/review/StorageReview.jsx:244
+#: src/components/storage/StorageReview.jsx:242
 msgid "Encrypted"
 msgstr "Kryptert"
 
@@ -537,7 +537,7 @@ msgstr "Fullnavn"
 msgid "Full name cannot contain colon characters"
 msgstr "Fullnavnet kan ikke inneholde en kolon"
 
-#: src/components/review/StorageReview.jsx:246
+#: src/components/storage/StorageReview.jsx:244
 msgid "Helper text"
 msgstr "Hjelpetekst"
 
@@ -561,11 +561,11 @@ msgstr "Skjul passord"
 msgid "Hostname"
 msgstr "Vertsnavn"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:148
+#: src/components/storage/installation-method/InstallationScenario.jsx:145
 msgid "How would you like to install?"
 msgstr "Hvordan vil du installere systemet?"
 
-#: src/components/review/ReviewConfiguration.jsx:298
+#: src/components/review/ReviewConfiguration.jsx:288
 #, fuzzy
 #| msgid "I understand that all existing data will be erased"
 msgid "I understand that all existing data will be erased"
@@ -574,11 +574,11 @@ msgid_plural ""
 msgstr[0] "Jeg forstår at alle nåværende data på disken skal slettes"
 msgstr[1] "Jeg forstår at alle nåværende data på disken skal slettes"
 
-#: src/components/review/ReviewConfiguration.jsx:303
+#: src/components/review/ReviewConfiguration.jsx:293
 msgid "I understand that some existing data will be erased"
 msgstr "Jeg forstår at noen nåværende data på disken skal slettes"
 
-#: src/components/review/ReviewConfiguration.jsx:304
+#: src/components/review/ReviewConfiguration.jsx:294
 msgid "I understand that some partitions will be modified"
 msgstr "Jeg forstår at noen partisjoner skal endres"
 
@@ -610,7 +610,7 @@ msgstr ""
 msgid "In progress"
 msgstr "I gang"
 
-#: src/components/app.jsx:32
+#: src/components/app.jsx:33
 msgid "Initializing..."
 msgstr "Starter…"
 
@@ -625,7 +625,7 @@ msgstr "Installer"
 msgid "Installation failed"
 msgstr "Installasjon mislyktes"
 
-#: src/components/storage/installation-method/index.js:20
+#: src/components/storage/installation-method/index.js:24
 msgid "Installation method"
 msgstr "Installasjonsmetode"
 
@@ -640,7 +640,7 @@ msgstr "Installering av systemet mislyktes: $0"
 msgid "Installation of the system failed: $0"
 msgstr "Installering av systemet mislyktes: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:248
 msgid "Installation type"
 msgstr "Installasjonstype"
 
@@ -672,7 +672,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Ugyldig vertsnavn"
 
-#: src/components/review/ReviewConfiguration.jsx:197
+#: src/components/review/ReviewConfiguration.jsx:187
 #, fuzzy
 #| msgid "completed step"
 msgid "Jump to first incomplete step"
@@ -694,7 +694,7 @@ msgstr "Tastatur"
 msgid "Keyboard layout during boot"
 msgstr "Tastaturoppsett under oppstart"
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:213
 #: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "Språk"
@@ -733,7 +733,7 @@ msgstr "Manuell diskkonfigurasjon: Monteringspunktavbilding"
 msgid "May contain letters, numbers, and dashes."
 msgstr "Kan inneholde bokstaver (uten æ, ø og å), tall og bindestrek."
 
-#: src/components/review/StorageReview.jsx:87
+#: src/components/storage/StorageReview.jsx:85
 #, fuzzy
 msgid "May need more free space"
 msgstr "Installerer programvare"
@@ -751,8 +751,8 @@ msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 "Gjenformateringsvalgene for forelderenheten og barneenheten samsvarer ikke."
 
+#: src/components/storage/StorageReview.jsx:243
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
-#: src/components/review/StorageReview.jsx:245
 msgid "Mount point"
 msgstr "Monteringspunkt"
 
@@ -789,7 +789,7 @@ msgstr "DNS"
 msgid "Name"
 msgstr "Navn"
 
-#: src/components/review/StorageReview.jsx:85
+#: src/components/storage/StorageReview.jsx:83
 msgid "Needs at least $0"
 msgstr "Trenger minst $0"
 
@@ -866,10 +866,6 @@ msgstr "Ikke nok ledig lagringsplass på de valgte diskene."
 msgid "Not enough space on selected disks."
 msgstr "Ikke nok lagringsplass på de valgte diskene."
 
-#: src/components/review/StorageReview.jsx:387
-msgid "Note"
-msgstr "Notat"
-
 #: src/components/AnacondaHeader.jsx:71
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -884,7 +880,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:202
 msgid "Operating system"
 msgstr "Operativsystem"
 
@@ -963,15 +959,15 @@ msgstr "Avslutt"
 msgid "Quit installer?"
 msgstr "Avslutt installerer?"
 
-#: src/components/app.jsx:127
+#: src/components/app.jsx:128
 msgid "Reading information about the OS failed."
 msgstr "Mislyktes i å lese informasjon om operativsystemet."
 
-#: src/components/app.jsx:72
+#: src/components/app.jsx:73
 msgid "Reading information about the computer failed."
 msgstr "Mislyktes i å lese informasjon om datamaskinen."
 
-#: src/components/app.jsx:117
+#: src/components/app.jsx:118
 msgid "Reading installer configuration failed."
 msgstr "Mislyktes i å lese installererkonfigurasjon."
 
@@ -1133,7 +1129,7 @@ msgstr "Endre størrelsen"
 msgid "Resize partition"
 msgstr "Utvidet partisjon"
 
-#: src/components/review/StorageReview.jsx:349
+#: src/components/storage/StorageReview.jsx:347
 msgid "Resizing the following partitions from $0: $1"
 msgstr "Endrer størrelsen på de følgende partisjonene fra $0: $1"
 
@@ -1302,7 +1298,7 @@ msgstr "Vis passfrase"
 msgid "Show password"
 msgstr "Vis passord"
 
-#: src/components/review/StorageReview.jsx:242
+#: src/components/storage/StorageReview.jsx:240
 msgid "Size"
 msgstr "Størrelse"
 
@@ -1318,7 +1314,7 @@ msgstr ""
 "Programvareinstallasjon: Lagringskonfigurasjon fullført. Programvaren blir "
 "nå installert på enheten din."
 
-#: src/components/review/ReviewConfiguration.jsx:236
+#: src/components/review/ReviewConfiguration.jsx:226
 #: src/components/software/index.js:19 src/components/software/index.js:20
 #, fuzzy
 #| msgctxt "GUI|Software Selection|Error Dialog"
@@ -1326,7 +1322,7 @@ msgstr ""
 msgid "Software selection"
 msgstr "Endre _programvare"
 
-#: src/components/review/ReviewConfiguration.jsx:204
+#: src/components/review/ReviewConfiguration.jsx:194
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1343,7 +1339,7 @@ msgstr "Lagringsplass"
 msgid "Stacktrace"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:255
 msgid "Storage"
 msgstr "Lagringsplass"
 
@@ -1424,7 +1420,7 @@ msgstr ""
 "Systemoppsett: Programvareinstallasjon fullført. Systemet blir nå "
 "konfigurert."
 
-#: src/components/app.jsx:162
+#: src/components/app.jsx:163
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr ""
 
@@ -1520,7 +1516,7 @@ msgid "Time"
 msgstr "Tid"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:230
+#: src/components/review/ReviewConfiguration.jsx:220
 #, fuzzy
 #| msgid "%s timezone"
 msgid "Timezone"
@@ -1639,11 +1635,11 @@ msgstr "Starter…"
 msgid "Weak"
 msgstr "Svakt"
 
-#: src/components/localization/index.js:18
+#: src/components/localization/index.js:21
 msgid "Welcome"
 msgstr "Velkommen"
 
-#: src/components/localization/index.js:19
+#: src/components/localization/index.js:22
 #, fuzzy
 #| msgid "Welcome to Fedora"
 msgid "Welcome to Fedora Linux"
@@ -1704,7 +1700,7 @@ msgstr "nåværende trinn"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/review/StorageReview.jsx:164
+#: src/components/storage/StorageReview.jsx:162
 msgid "delete"
 msgstr "slett"
 
@@ -1712,11 +1708,11 @@ msgstr "slett"
 msgid "edit"
 msgstr "rediger"
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypt"
 msgstr "krypter"
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypted"
 msgstr "kryptert"
 
@@ -1724,7 +1720,7 @@ msgstr "kryptert"
 msgid "extended partition"
 msgstr "utvidet partisjon"
 
-#: src/components/review/StorageReview.jsx:104
+#: src/components/storage/StorageReview.jsx:102
 msgid "format as $0"
 msgstr "formater som $0"
 
@@ -1732,13 +1728,13 @@ msgstr "formater som $0"
 msgid "here"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:56
+#: src/components/review/ReviewConfiguration.jsx:58
 #, fuzzy
 #| msgid "Completed"
 msgid "incomplete"
 msgstr "Fullført!"
 
-#: src/components/review/StorageReview.jsx:108
+#: src/components/storage/StorageReview.jsx:106
 msgid "mount"
 msgstr "monter"
 
@@ -1750,7 +1746,7 @@ msgstr "ventende trinn"
 msgid "report the issue manually"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:169
+#: src/components/storage/StorageReview.jsx:167
 msgid "resized from $0"
 msgstr "endret størrelsen fra $0"
 
@@ -1766,6 +1762,9 @@ msgstr "krymp til $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:375
 msgid "undo"
 msgstr "angre"
+
+#~ msgid "Note"
+#~ msgstr "Notat"
 
 #~ msgid ""
 #~ "I understand that all existing data will be erased from the selected disks"

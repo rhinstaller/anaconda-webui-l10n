@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-05 05:30+0000\n"
+"POT-Creation-Date: 2026-05-06 05:44+0000\n"
 "PO-Revision-Date: 2026-05-01 05:56+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
@@ -63,7 +63,7 @@ msgid "$0 error"
 msgid_plural "$0 errors"
 msgstr[0] "$0 kesalahan"
 
-#: src/components/app.jsx:82
+#: src/components/app.jsx:83
 msgid "$0 installation"
 msgstr "Instalasi $0"
 
@@ -90,7 +90,7 @@ msgid "$0 warning"
 msgid_plural "$0 warnings"
 msgstr[0] "$0 peringatan"
 
-#: src/components/review/StorageReview.jsx:285
+#: src/components/storage/StorageReview.jsx:283
 msgid "$0 will be deleted"
 msgstr "$0 akan dihapus"
 
@@ -122,12 +122,12 @@ msgstr ""
 msgid "About"
 msgstr "Ihwal"
 
-#: src/components/review/ReviewConfiguration.jsx:243
+#: src/components/review/ReviewConfiguration.jsx:233
 msgid "Account"
 msgstr "Akun"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
-#: src/components/review/StorageReview.jsx:243
+#: src/components/storage/StorageReview.jsx:241
 msgid "Actions"
 msgstr "Aksi"
 
@@ -278,7 +278,7 @@ msgstr ""
 "Perubahan yang dibuat di sini seketika memengaruhi sistem. Tidak ada 'tak "
 "jadi'."
 
-#: src/components/review/ReviewConfiguration.jsx:180
+#: src/components/review/ReviewConfiguration.jsx:170
 msgid "Checking installation configuration..."
 msgstr "Memeriksa konfigurasi instalasi..."
 
@@ -317,7 +317,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Lengkap"
 
-#: src/components/review/ReviewConfiguration.jsx:201
+#: src/components/review/ReviewConfiguration.jsx:191
 msgid "Configuration is incomplete"
 msgstr "Konfigurasi tidak lengkap"
 
@@ -383,7 +383,7 @@ msgstr "Ubahan"
 msgid "Date"
 msgstr "Tanggal"
 
-#: src/components/datetime/index.js:18
+#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr "Tanggal dan waktu"
@@ -392,7 +392,7 @@ msgstr "Tanggal dan waktu"
 msgid "Delete partition"
 msgstr "Hapus partisi"
 
-#: src/components/review/StorageReview.jsx:343
+#: src/components/storage/StorageReview.jsx:341
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Penghapusan partisi tertentu dapat mencegah $0 melakukan booting: $1"
 
@@ -416,8 +416,8 @@ msgstr "Deskripsi terperinci tentang masalah"
 msgid "Detected valid storage layout:"
 msgstr "Tata letak penyimpanan valid yang terdeteksi:"
 
+#: src/components/storage/StorageReview.jsx:239
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
-#: src/components/review/StorageReview.jsx:241
 msgid "Device"
 msgstr "Peranti"
 
@@ -437,7 +437,7 @@ msgstr "Fungsikan akun root"
 msgid "Encrypt my data"
 msgstr "Enkripsikan data saya"
 
-#: src/components/review/StorageReview.jsx:244
+#: src/components/storage/StorageReview.jsx:242
 msgid "Encrypted"
 msgstr "Terenkripsi"
 
@@ -518,7 +518,7 @@ msgstr "Nama lengkap"
 msgid "Full name cannot contain colon characters"
 msgstr "Nama lengkap tidak boleh mengandung karakter titik dua"
 
-#: src/components/review/StorageReview.jsx:246
+#: src/components/storage/StorageReview.jsx:244
 msgid "Helper text"
 msgstr "Teks bantuan"
 
@@ -542,22 +542,22 @@ msgstr "Sembunyikan kata sandi"
 msgid "Hostname"
 msgstr "Nama host"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:148
+#: src/components/storage/installation-method/InstallationScenario.jsx:145
 msgid "How would you like to install?"
 msgstr "Bagaimana Anda ingin memasang?"
 
-#: src/components/review/ReviewConfiguration.jsx:298
+#: src/components/review/ReviewConfiguration.jsx:288
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] ""
 "Saya memahami bahwa semua data yang ada akan dihapus dari disk yang dipilih"
 
-#: src/components/review/ReviewConfiguration.jsx:303
+#: src/components/review/ReviewConfiguration.jsx:293
 msgid "I understand that some existing data will be erased"
 msgstr "Saya memahami bahwa beberapa data yang ada akan dihapus"
 
-#: src/components/review/ReviewConfiguration.jsx:304
+#: src/components/review/ReviewConfiguration.jsx:294
 msgid "I understand that some partitions will be modified"
 msgstr "Saya memahami bahwa beberapa partisi akan dimodifikasi"
 
@@ -591,7 +591,7 @@ msgstr ""
 msgid "In progress"
 msgstr "Dalam progres"
 
-#: src/components/app.jsx:32
+#: src/components/app.jsx:33
 msgid "Initializing..."
 msgstr "Menginisialisasi..."
 
@@ -606,7 +606,7 @@ msgstr "Pasang"
 msgid "Installation failed"
 msgstr "Instalasi gagal"
 
-#: src/components/storage/installation-method/index.js:20
+#: src/components/storage/installation-method/index.js:24
 msgid "Installation method"
 msgstr "Metode instalasi"
 
@@ -619,7 +619,7 @@ msgstr "Pemasangan sistem gagal"
 msgid "Installation of the system failed: $0"
 msgstr "Instalasi sistem gagal: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:248
 msgid "Installation type"
 msgstr "Tipe instalasi"
 
@@ -649,7 +649,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Nama host tidak valid"
 
-#: src/components/review/ReviewConfiguration.jsx:197
+#: src/components/review/ReviewConfiguration.jsx:187
 msgid "Jump to first incomplete step"
 msgstr "Loncat ke langkah pertama yang belum selesai"
 
@@ -669,7 +669,7 @@ msgstr "Papan Ketik"
 msgid "Keyboard layout during boot"
 msgstr "Tata letak keyboard selama boot"
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:213
 #: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "Bahasa"
@@ -708,7 +708,7 @@ msgstr "Konfigurasi disk manual: Pemetaan titik kait"
 msgid "May contain letters, numbers, and dashes."
 msgstr "Boleh memuat huruf, angka, dan strip."
 
-#: src/components/review/StorageReview.jsx:87
+#: src/components/storage/StorageReview.jsx:85
 msgid "May need more free space"
 msgstr "Mungkin memerlukan lebih banyak ruang kosong"
 
@@ -725,8 +725,8 @@ msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 "Tidak cocok antara pilihan format ulang perangkat induk dan perangkat anak."
 
+#: src/components/storage/StorageReview.jsx:243
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
-#: src/components/review/StorageReview.jsx:245
 msgid "Mount point"
 msgstr "Titik kait"
 
@@ -761,7 +761,7 @@ msgstr "NTS"
 msgid "Name"
 msgstr "Nama"
 
-#: src/components/review/StorageReview.jsx:85
+#: src/components/storage/StorageReview.jsx:83
 msgid "Needs at least $0"
 msgstr "Membutuhkan setidaknya $0"
 
@@ -831,10 +831,6 @@ msgstr "Tidak cukup ruang bebas pada disk yang dipilih."
 msgid "Not enough space on selected disks."
 msgstr "Tidak cukup ruang bebas pada disk yang dipilih."
 
-#: src/components/review/StorageReview.jsx:387
-msgid "Note"
-msgstr "Catatan"
-
 #: src/components/AnacondaHeader.jsx:71
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -849,7 +845,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Buka formulir entri bug Bugzilla"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:202
 msgid "Operating system"
 msgstr "Sistem operasi"
 
@@ -921,15 +917,15 @@ msgstr "Keluar"
 msgid "Quit installer?"
 msgstr "Keluar pemasang?"
 
-#: src/components/app.jsx:127
+#: src/components/app.jsx:128
 msgid "Reading information about the OS failed."
 msgstr "Pembacaan informasi tentang OS gagal."
 
-#: src/components/app.jsx:72
+#: src/components/app.jsx:73
 msgid "Reading information about the computer failed."
 msgstr "Gagal membaca informasi tentang komputer."
 
-#: src/components/app.jsx:117
+#: src/components/app.jsx:118
 msgid "Reading installer configuration failed."
 msgstr "Gagal membaca konfigurasi pemasang."
 
@@ -1087,7 +1083,7 @@ msgstr "Ubah ukuran"
 msgid "Resize partition"
 msgstr "Ubah ukuran partisi"
 
-#: src/components/review/StorageReview.jsx:349
+#: src/components/storage/StorageReview.jsx:347
 msgid "Resizing the following partitions from $0: $1"
 msgstr "Mengubah ukuran partisi berikut ini dari $0: $1"
 
@@ -1231,7 +1227,7 @@ msgstr "Tampilkan frasa sandi"
 msgid "Show password"
 msgstr "Tampilkan kata sandi"
 
-#: src/components/review/StorageReview.jsx:242
+#: src/components/storage/StorageReview.jsx:240
 msgid "Size"
 msgstr "Ukuran"
 
@@ -1247,12 +1243,12 @@ msgstr ""
 "Instalasi perangkat lunak: Konfigurasi penyimpanan selesai. Perangkat lunak "
 "saat ini sedang dipasang ke perangkat Anda."
 
-#: src/components/review/ReviewConfiguration.jsx:236
+#: src/components/review/ReviewConfiguration.jsx:226
 #: src/components/software/index.js:19 src/components/software/index.js:20
 msgid "Software selection"
 msgstr "Pemilihan perangkat lunak"
 
-#: src/components/review/ReviewConfiguration.jsx:204
+#: src/components/review/ReviewConfiguration.jsx:194
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1271,7 +1267,7 @@ msgstr "Ruang"
 msgid "Stacktrace"
 msgstr "Stacktrace"
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:255
 msgid "Storage"
 msgstr "Penyimpanan"
 
@@ -1350,7 +1346,7 @@ msgstr ""
 "Konfigurasi sistem: Instalasi perangkat lunak selesai. Sistem sedang "
 "dikonfigurasi."
 
-#: src/components/app.jsx:162
+#: src/components/app.jsx:163
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "Instalasi Anaconda telah berhenti secara tidak terduga."
 
@@ -1436,7 +1432,7 @@ msgid "Time"
 msgstr "Waktu"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:230
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid "Timezone"
 msgstr "Zona Waktu"
 
@@ -1546,11 +1542,11 @@ msgstr "Sedang memvalidasi..."
 msgid "Weak"
 msgstr "Lemah"
 
-#: src/components/localization/index.js:18
+#: src/components/localization/index.js:21
 msgid "Welcome"
 msgstr "Selamat Datang"
 
-#: src/components/localization/index.js:19
+#: src/components/localization/index.js:22
 msgid "Welcome to Fedora Linux"
 msgstr "Selamat datang di Fedora Linux"
 
@@ -1610,7 +1606,7 @@ msgstr "langkah kini"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/review/StorageReview.jsx:164
+#: src/components/storage/StorageReview.jsx:162
 msgid "delete"
 msgstr "hapus"
 
@@ -1618,11 +1614,11 @@ msgstr "hapus"
 msgid "edit"
 msgstr "sunting"
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypt"
 msgstr "enkripsi"
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypted"
 msgstr "terenkripsi"
 
@@ -1630,7 +1626,7 @@ msgstr "terenkripsi"
 msgid "extended partition"
 msgstr "partisi yang diperluas"
 
-#: src/components/review/StorageReview.jsx:104
+#: src/components/storage/StorageReview.jsx:102
 msgid "format as $0"
 msgstr "format sebagai $0"
 
@@ -1638,11 +1634,11 @@ msgstr "format sebagai $0"
 msgid "here"
 msgstr "di sini"
 
-#: src/components/review/ReviewConfiguration.jsx:56
+#: src/components/review/ReviewConfiguration.jsx:58
 msgid "incomplete"
 msgstr "tidak lengkap"
 
-#: src/components/review/StorageReview.jsx:108
+#: src/components/storage/StorageReview.jsx:106
 msgid "mount"
 msgstr "kait"
 
@@ -1654,7 +1650,7 @@ msgstr "langkah tertunda"
 msgid "report the issue manually"
 msgstr "laporkan masalah secara manual"
 
-#: src/components/review/StorageReview.jsx:169
+#: src/components/storage/StorageReview.jsx:167
 msgid "resized from $0"
 msgstr "diubah ukurannya dari $0"
 
@@ -1670,6 +1666,9 @@ msgstr "mengecil menjadi $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:375
 msgid "undo"
 msgstr "undo"
+
+#~ msgid "Note"
+#~ msgstr "Catatan"
 
 #~ msgid ""
 #~ "I understand that all existing data will be erased from the selected disks"

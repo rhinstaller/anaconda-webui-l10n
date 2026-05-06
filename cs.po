@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-05 05:30+0000\n"
+"POT-Creation-Date: 2026-05-06 05:44+0000\n"
 "PO-Revision-Date: 2026-04-20 05:29+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -80,7 +80,7 @@ msgstr[0] "Chyba"
 msgstr[1] "Chyba"
 msgstr[2] "Chyba"
 
-#: src/components/app.jsx:82
+#: src/components/app.jsx:83
 msgid "$0 installation"
 msgstr "Instalace $0"
 
@@ -109,7 +109,7 @@ msgstr[0] "$0 varování"
 msgstr[1] "$0 varování"
 msgstr[2] "$0 varování"
 
-#: src/components/review/StorageReview.jsx:285
+#: src/components/storage/StorageReview.jsx:283
 msgid "$0 will be deleted"
 msgstr "$0 bude smazáno"
 
@@ -140,12 +140,12 @@ msgstr ""
 msgid "About"
 msgstr "O aplikaci"
 
-#: src/components/review/ReviewConfiguration.jsx:243
+#: src/components/review/ReviewConfiguration.jsx:233
 msgid "Account"
 msgstr "Účet"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
-#: src/components/review/StorageReview.jsx:243
+#: src/components/storage/StorageReview.jsx:241
 msgid "Actions"
 msgstr "Akce"
 
@@ -295,7 +295,7 @@ msgid ""
 msgstr ""
 "Změny zde provedené budou mít okamžitý vliv na systém. Nelze je „vzít zpět“."
 
-#: src/components/review/ReviewConfiguration.jsx:180
+#: src/components/review/ReviewConfiguration.jsx:170
 #, fuzzy
 #| msgid "Checking storage configuration..."
 msgid "Checking installation configuration..."
@@ -337,7 +337,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Dokončeno"
 
-#: src/components/review/ReviewConfiguration.jsx:201
+#: src/components/review/ReviewConfiguration.jsx:191
 #, fuzzy
 #| msgid "Apply configuration in installer"
 msgid "Configuration is incomplete"
@@ -407,7 +407,7 @@ msgstr "Uživatelsky určené"
 msgid "Date"
 msgstr "Datum"
 
-#: src/components/datetime/index.js:18
+#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr "Datum a čas"
@@ -416,7 +416,7 @@ msgstr "Datum a čas"
 msgid "Delete partition"
 msgstr "Odstranit oddíl"
 
-#: src/components/review/StorageReview.jsx:343
+#: src/components/storage/StorageReview.jsx:341
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Smazání určitých oddílů může $0 zabránit ve spouštění: $1"
 
@@ -440,8 +440,8 @@ msgstr "Podrobný popis problému"
 msgid "Detected valid storage layout:"
 msgstr "Nalezeno platné rozvržení úložiště:"
 
+#: src/components/storage/StorageReview.jsx:239
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
-#: src/components/review/StorageReview.jsx:241
 msgid "Device"
 msgstr "Zařízení"
 
@@ -461,7 +461,7 @@ msgstr "Povolit účet správce"
 msgid "Encrypt my data"
 msgstr "Šifrovat má data"
 
-#: src/components/review/StorageReview.jsx:244
+#: src/components/storage/StorageReview.jsx:242
 msgid "Encrypted"
 msgstr "Šifrováno"
 
@@ -542,7 +542,7 @@ msgstr "Celé jméno"
 msgid "Full name cannot contain colon characters"
 msgstr "Celé jméno nemůže obsahovat znak dvojtečka"
 
-#: src/components/review/StorageReview.jsx:246
+#: src/components/storage/StorageReview.jsx:244
 msgid "Helper text"
 msgstr "Text pomocného"
 
@@ -566,11 +566,11 @@ msgstr "Skrýt heslo"
 msgid "Hostname"
 msgstr "Název stroje"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:148
+#: src/components/storage/installation-method/InstallationScenario.jsx:145
 msgid "How would you like to install?"
 msgstr "Jak si přejete nainstalovat?"
 
-#: src/components/review/ReviewConfiguration.jsx:298
+#: src/components/review/ReviewConfiguration.jsx:288
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
@@ -578,11 +578,11 @@ msgstr[0] "Rozumím, že veškerá stávající data budou smazána"
 msgstr[1] "Rozumím, že veškerá stávající data budou smazána z vybraných disků"
 msgstr[2] "Rozumím, že veškerá stávající data budou smazána z vybraných disků"
 
-#: src/components/review/ReviewConfiguration.jsx:303
+#: src/components/review/ReviewConfiguration.jsx:293
 msgid "I understand that some existing data will be erased"
 msgstr "Rozumím, že některá ze stávajících dat budou smazána"
 
-#: src/components/review/ReviewConfiguration.jsx:304
+#: src/components/review/ReviewConfiguration.jsx:294
 msgid "I understand that some partitions will be modified"
 msgstr "Rozumím, že některé oddíly budou změněny"
 
@@ -617,7 +617,7 @@ msgstr ""
 msgid "In progress"
 msgstr "Probíhá"
 
-#: src/components/app.jsx:32
+#: src/components/app.jsx:33
 msgid "Initializing..."
 msgstr "Inicializace…"
 
@@ -632,7 +632,7 @@ msgstr "Nainstalovat"
 msgid "Installation failed"
 msgstr "Instalace se nezdařila"
 
-#: src/components/storage/installation-method/index.js:20
+#: src/components/storage/installation-method/index.js:24
 msgid "Installation method"
 msgstr "Metoda instalace"
 
@@ -645,7 +645,7 @@ msgstr "Instalace systému se nezdařila"
 msgid "Installation of the system failed: $0"
 msgstr "instalace systému se nezdařila: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:248
 msgid "Installation type"
 msgstr "Typ instalace"
 
@@ -674,7 +674,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Neplatný název stroje"
 
-#: src/components/review/ReviewConfiguration.jsx:197
+#: src/components/review/ReviewConfiguration.jsx:187
 #, fuzzy
 #| msgid "completed step"
 msgid "Jump to first incomplete step"
@@ -696,7 +696,7 @@ msgstr "Klávesnice"
 msgid "Keyboard layout during boot"
 msgstr "Rozvržení klávesnice v průběhu startu systému"
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:213
 #: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "Jazyk"
@@ -735,7 +735,7 @@ msgstr "Ruční nastavení pro jednotku: mapování přípojného bodu"
 msgid "May contain letters, numbers, and dashes."
 msgstr "Může obsahovat písmena, číslice a pomlčky."
 
-#: src/components/review/StorageReview.jsx:87
+#: src/components/storage/StorageReview.jsx:85
 msgid "May need more free space"
 msgstr "Může vyžadovat více volného prostoru"
 
@@ -752,8 +752,8 @@ msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 "Neshoda mezi výběrem přeformátování u nadřazeného a podřízeného zařízení."
 
+#: src/components/storage/StorageReview.jsx:243
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
-#: src/components/review/StorageReview.jsx:245
 msgid "Mount point"
 msgstr "Přípojný bod"
 
@@ -788,7 +788,7 @@ msgstr "NTS"
 msgid "Name"
 msgstr "Název"
 
-#: src/components/review/StorageReview.jsx:85
+#: src/components/storage/StorageReview.jsx:83
 msgid "Needs at least $0"
 msgstr "Vyžaduje alespoň $0"
 
@@ -857,10 +857,6 @@ msgstr "Na vybraných jednotkách není dostatek volného místa."
 msgid "Not enough space on selected disks."
 msgstr "Na vybraných jednotkách není dostatek prostoru."
 
-#: src/components/review/StorageReview.jsx:387
-msgid "Note"
-msgstr "Poznámka"
-
 #: src/components/AnacondaHeader.jsx:71
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -875,7 +871,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Otevřít formulář zadávání hlášení chyby do Bugzilla"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:202
 msgid "Operating system"
 msgstr "Operační systém"
 
@@ -947,15 +943,15 @@ msgstr "Ukončit"
 msgid "Quit installer?"
 msgstr "Ukončit instalátor?"
 
-#: src/components/app.jsx:127
+#: src/components/app.jsx:128
 msgid "Reading information about the OS failed."
 msgstr "Načítání informací o operačním systému se nezdařilo."
 
-#: src/components/app.jsx:72
+#: src/components/app.jsx:73
 msgid "Reading information about the computer failed."
 msgstr "Načítání informací o počítači se nezdařilo."
 
-#: src/components/app.jsx:117
+#: src/components/app.jsx:118
 msgid "Reading installer configuration failed."
 msgstr "Nepodařilo se načíst nastavení instalátoru."
 
@@ -1112,7 +1108,7 @@ msgstr "Změnit velikost"
 msgid "Resize partition"
 msgstr "Změnit velikost oddílu"
 
-#: src/components/review/StorageReview.jsx:349
+#: src/components/storage/StorageReview.jsx:347
 msgid "Resizing the following partitions from $0: $1"
 msgstr "Mění se velikost následujících oddílů z $0: $1"
 
@@ -1253,7 +1249,7 @@ msgstr "Zobrazit heslovou frázi"
 msgid "Show password"
 msgstr "Zobrazit heslo"
 
-#: src/components/review/StorageReview.jsx:242
+#: src/components/storage/StorageReview.jsx:240
 msgid "Size"
 msgstr "Velikost"
 
@@ -1269,12 +1265,12 @@ msgstr ""
 "Instalace softwaru: Nastavování úložiště dokončeno. Software se nyní "
 "instaluje do vašeho zařízení."
 
-#: src/components/review/ReviewConfiguration.jsx:236
+#: src/components/review/ReviewConfiguration.jsx:226
 #: src/components/software/index.js:19 src/components/software/index.js:20
 msgid "Software selection"
 msgstr "Výběr softwaru"
 
-#: src/components/review/ReviewConfiguration.jsx:204
+#: src/components/review/ReviewConfiguration.jsx:194
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1291,7 +1287,7 @@ msgstr "Místo"
 msgid "Stacktrace"
 msgstr "Stacktrace"
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:255
 msgid "Storage"
 msgstr "Úložiště"
 
@@ -1369,7 +1365,7 @@ msgid ""
 msgstr ""
 "Nastavování systému: Instalace softwaru dokončena. Systém se nyní nastavuje."
 
-#: src/components/app.jsx:162
+#: src/components/app.jsx:163
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "Instalace Anaconda se neočekávaně zastavila."
 
@@ -1456,7 +1452,7 @@ msgid "Time"
 msgstr "Čas"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:230
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid "Timezone"
 msgstr "Časové pásmo"
 
@@ -1566,11 +1562,11 @@ msgstr "Ověřování správnosti formy…"
 msgid "Weak"
 msgstr "Snadno prolomitelné"
 
-#: src/components/localization/index.js:18
+#: src/components/localization/index.js:21
 msgid "Welcome"
 msgstr "Vítejte"
 
-#: src/components/localization/index.js:19
+#: src/components/localization/index.js:22
 msgid "Welcome to Fedora Linux"
 msgstr "Vítejte ve Fedora Linuxu"
 
@@ -1632,7 +1628,7 @@ msgstr "stávající krok"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/review/StorageReview.jsx:164
+#: src/components/storage/StorageReview.jsx:162
 msgid "delete"
 msgstr "smazat"
 
@@ -1640,11 +1636,11 @@ msgstr "smazat"
 msgid "edit"
 msgstr "upravit"
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypt"
 msgstr "šifrovat"
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypted"
 msgstr "šifrováno"
 
@@ -1652,7 +1648,7 @@ msgstr "šifrováno"
 msgid "extended partition"
 msgstr "Rozšířený oddíl"
 
-#: src/components/review/StorageReview.jsx:104
+#: src/components/storage/StorageReview.jsx:102
 msgid "format as $0"
 msgstr "vytvořit souborový systém $0"
 
@@ -1660,13 +1656,13 @@ msgstr "vytvořit souborový systém $0"
 msgid "here"
 msgstr "zde"
 
-#: src/components/review/ReviewConfiguration.jsx:56
+#: src/components/review/ReviewConfiguration.jsx:58
 #, fuzzy
 #| msgid "Completed"
 msgid "incomplete"
 msgstr "Dokončeno"
 
-#: src/components/review/StorageReview.jsx:108
+#: src/components/storage/StorageReview.jsx:106
 msgid "mount"
 msgstr "připojení"
 
@@ -1678,7 +1674,7 @@ msgstr "čekající krok"
 msgid "report the issue manually"
 msgstr "nahlásit problém ručně"
 
-#: src/components/review/StorageReview.jsx:169
+#: src/components/storage/StorageReview.jsx:167
 msgid "resized from $0"
 msgstr "změněna velikost z $0"
 
@@ -1694,6 +1690,9 @@ msgstr "zmenšit na $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:375
 msgid "undo"
 msgstr "zpět"
+
+#~ msgid "Note"
+#~ msgstr "Poznámka"
 
 #~ msgid ""
 #~ "I understand that all existing data will be erased from the selected disks"

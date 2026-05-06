@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-05 05:30+0000\n"
+"POT-Creation-Date: 2026-05-06 05:44+0000\n"
 "PO-Revision-Date: 2026-04-06 05:12+0000\n"
 "Last-Translator: 耗子 <haozi@loli.email>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
@@ -38,7 +38,7 @@ msgid "$0 error"
 msgid_plural "$0 errors"
 msgstr[0] ""
 
-#: src/components/app.jsx:82
+#: src/components/app.jsx:83
 msgid "$0 installation"
 msgstr "$0 安装"
 
@@ -63,7 +63,7 @@ msgid "$0 warning"
 msgid_plural "$0 warnings"
 msgstr[0] "$0 个警告"
 
-#: src/components/review/StorageReview.jsx:285
+#: src/components/storage/StorageReview.jsx:283
 msgid "$0 will be deleted"
 msgstr "$0 将被删除"
 
@@ -91,12 +91,12 @@ msgstr "一个拥有管理员权限的标准用户账户，可执行系统级更
 msgid "About"
 msgstr "关于"
 
-#: src/components/review/ReviewConfiguration.jsx:243
+#: src/components/review/ReviewConfiguration.jsx:233
 msgid "Account"
 msgstr "账户"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
-#: src/components/review/StorageReview.jsx:243
+#: src/components/storage/StorageReview.jsx:241
 msgid "Actions"
 msgstr "操作"
 
@@ -240,7 +240,7 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr "此处所做的更改将立即影响系统。无法「撤消」。"
 
-#: src/components/review/ReviewConfiguration.jsx:180
+#: src/components/review/ReviewConfiguration.jsx:170
 #, fuzzy
 #| msgid "Checking storage configuration"
 msgid "Checking installation configuration..."
@@ -279,7 +279,7 @@ msgstr "Cockpit 存储没有提供解锁加密设备的密码。"
 msgid "Completed"
 msgstr "已完成"
 
-#: src/components/review/ReviewConfiguration.jsx:201
+#: src/components/review/ReviewConfiguration.jsx:191
 msgid "Configuration is incomplete"
 msgstr ""
 
@@ -345,7 +345,7 @@ msgstr "自定义"
 msgid "Date"
 msgstr "日期"
 
-#: src/components/datetime/index.js:18
+#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr "日期和时间"
@@ -356,7 +356,7 @@ msgstr "日期和时间"
 msgid "Delete partition"
 msgstr "扩展分区"
 
-#: src/components/review/StorageReview.jsx:343
+#: src/components/storage/StorageReview.jsx:341
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "删除某些分区可能会导致$0无法启动：$1"
 
@@ -380,8 +380,8 @@ msgstr "问题详述"
 msgid "Detected valid storage layout:"
 msgstr "检测到有效的存储布局："
 
+#: src/components/storage/StorageReview.jsx:239
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
-#: src/components/review/StorageReview.jsx:241
 msgid "Device"
 msgstr "设备"
 
@@ -401,7 +401,7 @@ msgstr "启用 root 账户"
 msgid "Encrypt my data"
 msgstr "加密我的数据"
 
-#: src/components/review/StorageReview.jsx:244
+#: src/components/storage/StorageReview.jsx:242
 msgid "Encrypted"
 msgstr "已加密"
 
@@ -479,7 +479,7 @@ msgstr "全名"
 msgid "Full name cannot contain colon characters"
 msgstr "全名不能含有冒号"
 
-#: src/components/review/StorageReview.jsx:246
+#: src/components/storage/StorageReview.jsx:244
 msgid "Helper text"
 msgstr "帮助文本"
 
@@ -503,11 +503,11 @@ msgstr "隐藏密码"
 msgid "Hostname"
 msgstr "主机名"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:148
+#: src/components/storage/installation-method/InstallationScenario.jsx:145
 msgid "How would you like to install?"
 msgstr "您想如何安装？"
 
-#: src/components/review/ReviewConfiguration.jsx:298
+#: src/components/review/ReviewConfiguration.jsx:288
 #, fuzzy
 #| msgid "I understand that all existing data will be erased"
 msgid "I understand that all existing data will be erased"
@@ -515,11 +515,11 @@ msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] "我了解所有现有数据将被删除"
 
-#: src/components/review/ReviewConfiguration.jsx:303
+#: src/components/review/ReviewConfiguration.jsx:293
 msgid "I understand that some existing data will be erased"
 msgstr "我了解部分现有数据将被删除"
 
-#: src/components/review/ReviewConfiguration.jsx:304
+#: src/components/review/ReviewConfiguration.jsx:294
 msgid "I understand that some partitions will be modified"
 msgstr "我了解有些分区会被修改"
 
@@ -549,7 +549,7 @@ msgstr "如果您不了解或不接受此风险，请点击「退出」按钮退
 msgid "In progress"
 msgstr "进行中"
 
-#: src/components/app.jsx:32
+#: src/components/app.jsx:33
 msgid "Initializing..."
 msgstr "初始化中..."
 
@@ -564,7 +564,7 @@ msgstr "安装"
 msgid "Installation failed"
 msgstr "安装失败"
 
-#: src/components/storage/installation-method/index.js:20
+#: src/components/storage/installation-method/index.js:24
 msgid "Installation method"
 msgstr "安装方案"
 
@@ -577,7 +577,7 @@ msgstr "系统安装失败"
 msgid "Installation of the system failed: $0"
 msgstr "系统安装失败：$0"
 
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:248
 msgid "Installation type"
 msgstr "安装类型"
 
@@ -605,7 +605,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "无效主机名"
 
-#: src/components/review/ReviewConfiguration.jsx:197
+#: src/components/review/ReviewConfiguration.jsx:187
 #, fuzzy
 #| msgid "completed step"
 msgid "Jump to first incomplete step"
@@ -625,7 +625,7 @@ msgstr "键盘"
 msgid "Keyboard layout during boot"
 msgstr "启动期间的键盘布局"
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:213
 #: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "语言"
@@ -664,7 +664,7 @@ msgstr "手动磁盘配置：挂载点映射"
 msgid "May contain letters, numbers, and dashes."
 msgstr "可能包含字母、数字和破折号。"
 
-#: src/components/review/StorageReview.jsx:87
+#: src/components/storage/StorageReview.jsx:85
 msgid "May need more free space"
 msgstr "可能需要更多空闲空间"
 
@@ -680,8 +680,8 @@ msgstr "最低要求为 $0"
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr "父设备和子设备重新格式化选择不匹配。"
 
+#: src/components/storage/StorageReview.jsx:243
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
-#: src/components/review/StorageReview.jsx:245
 msgid "Mount point"
 msgstr "挂载点"
 
@@ -716,7 +716,7 @@ msgstr "NTS"
 msgid "Name"
 msgstr "名称"
 
-#: src/components/review/StorageReview.jsx:85
+#: src/components/storage/StorageReview.jsx:83
 msgid "Needs at least $0"
 msgstr "至少需要 $0"
 
@@ -781,10 +781,6 @@ msgstr "所选磁盘中没有足够剩余空间。"
 msgid "Not enough space on selected disks."
 msgstr "所选磁盘中没有足够空间。"
 
-#: src/components/review/StorageReview.jsx:387
-msgid "Note"
-msgstr "备注"
-
 #: src/components/AnacondaHeader.jsx:71
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -798,7 +794,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "打开 Bugzilla 缺陷报告表单"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:202
 msgid "Operating system"
 msgstr "操作系统"
 
@@ -870,15 +866,15 @@ msgstr "退出"
 msgid "Quit installer?"
 msgstr "退出安装程序？"
 
-#: src/components/app.jsx:127
+#: src/components/app.jsx:128
 msgid "Reading information about the OS failed."
 msgstr "读取操作系统的信息失败。"
 
-#: src/components/app.jsx:72
+#: src/components/app.jsx:73
 msgid "Reading information about the computer failed."
 msgstr "读取计算机信息失败。"
 
-#: src/components/app.jsx:117
+#: src/components/app.jsx:118
 msgid "Reading installer configuration failed."
 msgstr "读取安装程序配置失败。"
 
@@ -1028,7 +1024,7 @@ msgstr "调整大小"
 msgid "Resize partition"
 msgstr "扩展分区"
 
-#: src/components/review/StorageReview.jsx:349
+#: src/components/storage/StorageReview.jsx:347
 msgid "Resizing the following partitions from $0: $1"
 msgstr "从 $0 调整以下分区的大小：$1"
 
@@ -1168,7 +1164,7 @@ msgstr "显示密码"
 msgid "Show password"
 msgstr "显示密码"
 
-#: src/components/review/StorageReview.jsx:242
+#: src/components/storage/StorageReview.jsx:240
 msgid "Size"
 msgstr "大小"
 
@@ -1182,12 +1178,12 @@ msgid ""
 "being installed onto your device."
 msgstr "软件安装：存储配置完成。该软件现在正在安装到您的设备上。"
 
-#: src/components/review/ReviewConfiguration.jsx:236
+#: src/components/review/ReviewConfiguration.jsx:226
 #: src/components/software/index.js:19 src/components/software/index.js:20
 msgid "Software selection"
 msgstr "软件选择"
 
-#: src/components/review/ReviewConfiguration.jsx:204
+#: src/components/review/ReviewConfiguration.jsx:194
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1204,7 +1200,7 @@ msgstr "空间"
 msgid "Stacktrace"
 msgstr "栈回溯"
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:255
 msgid "Storage"
 msgstr "存储"
 
@@ -1279,7 +1275,7 @@ msgid ""
 "being configured."
 msgstr "系统配置：软件安装完成。现在正在配置系统。"
 
-#: src/components/app.jsx:162
+#: src/components/app.jsx:163
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "Anaconda安装意外停止。"
 
@@ -1358,7 +1354,7 @@ msgid "Time"
 msgstr "时间"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:230
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid "Timezone"
 msgstr "时区"
 
@@ -1462,11 +1458,11 @@ msgstr "验证中..."
 msgid "Weak"
 msgstr "弱"
 
-#: src/components/localization/index.js:18
+#: src/components/localization/index.js:21
 msgid "Welcome"
 msgstr "欢迎"
 
-#: src/components/localization/index.js:19
+#: src/components/localization/index.js:22
 msgid "Welcome to Fedora Linux"
 msgstr "欢迎使用 Fedora Linux"
 
@@ -1518,7 +1514,7 @@ msgstr "当前操作"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/review/StorageReview.jsx:164
+#: src/components/storage/StorageReview.jsx:162
 msgid "delete"
 msgstr "删除"
 
@@ -1526,11 +1522,11 @@ msgstr "删除"
 msgid "edit"
 msgstr "编辑"
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypt"
 msgstr "加密"
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypted"
 msgstr "已加密"
 
@@ -1538,7 +1534,7 @@ msgstr "已加密"
 msgid "extended partition"
 msgstr "扩展分区"
 
-#: src/components/review/StorageReview.jsx:104
+#: src/components/storage/StorageReview.jsx:102
 msgid "format as $0"
 msgstr "格式化为 $0"
 
@@ -1546,13 +1542,13 @@ msgstr "格式化为 $0"
 msgid "here"
 msgstr "这里"
 
-#: src/components/review/ReviewConfiguration.jsx:56
+#: src/components/review/ReviewConfiguration.jsx:58
 #, fuzzy
 #| msgid "Completed"
 msgid "incomplete"
 msgstr "已完成"
 
-#: src/components/review/StorageReview.jsx:108
+#: src/components/storage/StorageReview.jsx:106
 msgid "mount"
 msgstr "挂载"
 
@@ -1564,7 +1560,7 @@ msgstr "待执行操作"
 msgid "report the issue manually"
 msgstr "手动报告问题"
 
-#: src/components/review/StorageReview.jsx:169
+#: src/components/storage/StorageReview.jsx:167
 msgid "resized from $0"
 msgstr "从 $0 调整为"
 
@@ -1580,6 +1576,9 @@ msgstr "缩小至 $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:375
 msgid "undo"
 msgstr "撤消"
+
+#~ msgid "Note"
+#~ msgstr "备注"
 
 #~ msgid ""
 #~ "I understand that all existing data will be erased from the selected disks"

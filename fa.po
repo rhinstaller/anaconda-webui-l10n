@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-05 05:30+0000\n"
+"POT-Creation-Date: 2026-05-06 05:44+0000\n"
 "PO-Revision-Date: 2026-03-10 04:24+0000\n"
 "Last-Translator: Hossein Aghaie <hossein.a97@gmail.com>\n"
 "Language-Team: Persian <https://translate.fedoraproject.org/projects/"
@@ -62,7 +62,7 @@ msgid "$0 error"
 msgid_plural "$0 errors"
 msgstr[0] "خطا"
 
-#: src/components/app.jsx:82
+#: src/components/app.jsx:83
 msgid "$0 installation"
 msgstr "$0 نصب کردن"
 
@@ -88,7 +88,7 @@ msgid "$0 warning"
 msgid_plural "$0 warnings"
 msgstr[0] "$0 هشدار"
 
-#: src/components/review/StorageReview.jsx:285
+#: src/components/storage/StorageReview.jsx:283
 msgid "$0 will be deleted"
 msgstr "$0 حذف خواهد شد"
 
@@ -118,12 +118,12 @@ msgstr ""
 msgid "About"
 msgstr "درباره"
 
-#: src/components/review/ReviewConfiguration.jsx:243
+#: src/components/review/ReviewConfiguration.jsx:233
 msgid "Account"
 msgstr "حساب"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
-#: src/components/review/StorageReview.jsx:243
+#: src/components/storage/StorageReview.jsx:241
 msgid "Actions"
 msgstr "اقدامات"
 
@@ -271,7 +271,7 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:180
+#: src/components/review/ReviewConfiguration.jsx:170
 #, fuzzy
 #| msgid "Checking storage configuration..."
 msgid "Checking installation configuration..."
@@ -312,7 +312,7 @@ msgstr ""
 msgid "Completed"
 msgstr "تمام!"
 
-#: src/components/review/ReviewConfiguration.jsx:201
+#: src/components/review/ReviewConfiguration.jsx:191
 #, fuzzy
 #| msgid "Configuring installed system"
 msgid "Configuration is incomplete"
@@ -392,7 +392,7 @@ msgstr ""
 msgid "Date"
 msgstr ""
 
-#: src/components/datetime/index.js:18
+#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr ""
@@ -403,7 +403,7 @@ msgstr ""
 msgid "Delete partition"
 msgstr "پارتیشن استاندارد"
 
-#: src/components/review/StorageReview.jsx:343
+#: src/components/storage/StorageReview.jsx:341
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
@@ -430,8 +430,8 @@ msgstr ""
 msgid "Detected valid storage layout:"
 msgstr ""
 
+#: src/components/storage/StorageReview.jsx:239
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
-#: src/components/review/StorageReview.jsx:241
 msgid "Device"
 msgstr ""
 
@@ -451,7 +451,7 @@ msgstr ""
 msgid "Encrypt my data"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:244
+#: src/components/storage/StorageReview.jsx:242
 msgid "Encrypted"
 msgstr ""
 
@@ -538,7 +538,7 @@ msgstr ""
 msgid "Full name cannot contain colon characters"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:246
+#: src/components/storage/StorageReview.jsx:244
 msgid "Helper text"
 msgstr ""
 
@@ -565,21 +565,21 @@ msgstr "مخفی کردن گذر واژه."
 msgid "Hostname"
 msgstr ""
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:148
+#: src/components/storage/installation-method/InstallationScenario.jsx:145
 msgid "How would you like to install?"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:298
+#: src/components/review/ReviewConfiguration.jsx:288
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] ""
 
-#: src/components/review/ReviewConfiguration.jsx:303
+#: src/components/review/ReviewConfiguration.jsx:293
 msgid "I understand that some existing data will be erased"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:304
+#: src/components/review/ReviewConfiguration.jsx:294
 msgid "I understand that some partitions will be modified"
 msgstr ""
 
@@ -608,7 +608,7 @@ msgstr ""
 msgid "In progress"
 msgstr "نصب"
 
-#: src/components/app.jsx:32
+#: src/components/app.jsx:33
 msgid "Initializing..."
 msgstr ""
 
@@ -624,7 +624,7 @@ msgstr "نصب"
 msgid "Installation failed"
 msgstr "نصب"
 
-#: src/components/storage/installation-method/index.js:20
+#: src/components/storage/installation-method/index.js:24
 #, fuzzy
 msgid "Installation method"
 msgstr "نصب"
@@ -640,7 +640,7 @@ msgstr "نصب"
 msgid "Installation of the system failed: $0"
 msgstr "نصب"
 
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:248
 #, fuzzy
 msgid "Installation type"
 msgstr "نصب کردن"
@@ -669,7 +669,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "منطقه زمانی نامعتبر"
 
-#: src/components/review/ReviewConfiguration.jsx:197
+#: src/components/review/ReviewConfiguration.jsx:187
 #, fuzzy
 msgid "Jump to first incomplete step"
 msgstr "تمام!"
@@ -688,7 +688,7 @@ msgstr ""
 msgid "Keyboard layout during boot"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:213
 #: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr ""
@@ -730,7 +730,7 @@ msgstr "پیکربندی NTP"
 msgid "May contain letters, numbers, and dashes."
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:87
+#: src/components/storage/StorageReview.jsx:85
 #, fuzzy
 msgid "May need more free space"
 msgstr "نصب"
@@ -747,8 +747,8 @@ msgstr ""
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 
+#: src/components/storage/StorageReview.jsx:243
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
-#: src/components/review/StorageReview.jsx:245
 msgid "Mount point"
 msgstr ""
 
@@ -784,7 +784,7 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:85
+#: src/components/storage/StorageReview.jsx:83
 msgid "Needs at least $0"
 msgstr ""
 
@@ -855,10 +855,6 @@ msgstr "فضای کافی بر روی رم وجود ندارد"
 msgid "Not enough space on selected disks."
 msgstr "فضای کافی بر روی رم وجود ندارد"
 
-#: src/components/review/StorageReview.jsx:387
-msgid "Note"
-msgstr ""
-
 #: src/components/AnacondaHeader.jsx:71
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -870,7 +866,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:202
 #, fuzzy
 msgid "Operating system"
 msgstr "ایجاد کردن کاربران"
@@ -948,16 +944,16 @@ msgstr ""
 msgid "Quit installer?"
 msgstr "نصاب Anaconda"
 
-#: src/components/app.jsx:127
+#: src/components/app.jsx:128
 #, fuzzy
 msgid "Reading information about the OS failed."
 msgstr "ثبت ناموفق بود."
 
-#: src/components/app.jsx:72
+#: src/components/app.jsx:73
 msgid "Reading information about the computer failed."
 msgstr ""
 
-#: src/components/app.jsx:117
+#: src/components/app.jsx:118
 #, fuzzy
 msgid "Reading installer configuration failed."
 msgstr "ثبت ناموفق بود."
@@ -1118,7 +1114,7 @@ msgstr ""
 msgid "Resize partition"
 msgstr "پارتیشن استاندارد"
 
-#: src/components/review/StorageReview.jsx:349
+#: src/components/storage/StorageReview.jsx:347
 msgid "Resizing the following partitions from $0: $1"
 msgstr ""
 
@@ -1272,7 +1268,7 @@ msgstr "نمایش گذر واژه."
 msgid "Show password"
 msgstr "نمایش گذر واژه."
 
-#: src/components/review/StorageReview.jsx:242
+#: src/components/storage/StorageReview.jsx:240
 msgid "Size"
 msgstr ""
 
@@ -1287,13 +1283,13 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:236
+#: src/components/review/ReviewConfiguration.jsx:226
 #: src/components/software/index.js:19 src/components/software/index.js:20
 #, fuzzy
 msgid "Software selection"
 msgstr "اجرای اسکریپ های پیش-نصب"
 
-#: src/components/review/ReviewConfiguration.jsx:204
+#: src/components/review/ReviewConfiguration.jsx:194
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1310,7 +1306,7 @@ msgstr ""
 msgid "Stacktrace"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:255
 msgid "Storage"
 msgstr ""
 
@@ -1389,7 +1385,7 @@ msgid ""
 "being configured."
 msgstr ""
 
-#: src/components/app.jsx:162
+#: src/components/app.jsx:163
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr ""
 
@@ -1462,7 +1458,7 @@ msgid "Time"
 msgstr ""
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:230
+#: src/components/review/ReviewConfiguration.jsx:220
 #, fuzzy
 #| msgid "Timezone: %s\n"
 msgid "Timezone"
@@ -1578,11 +1574,11 @@ msgstr ""
 msgid "Weak"
 msgstr "ضعیف"
 
-#: src/components/localization/index.js:18
+#: src/components/localization/index.js:21
 msgid "Welcome"
 msgstr ""
 
-#: src/components/localization/index.js:19
+#: src/components/localization/index.js:22
 #, fuzzy
 #| msgid "Welcome to Fedora"
 msgid "Welcome to Fedora Linux"
@@ -1637,7 +1633,7 @@ msgstr ""
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/review/StorageReview.jsx:164
+#: src/components/storage/StorageReview.jsx:162
 #, fuzzy
 #| msgid "Delete"
 msgid "delete"
@@ -1647,11 +1643,11 @@ msgstr "حذف"
 msgid "edit"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypt"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypted"
 msgstr ""
 
@@ -1661,7 +1657,7 @@ msgstr ""
 msgid "extended partition"
 msgstr "پارتیشن استاندارد"
 
-#: src/components/review/StorageReview.jsx:104
+#: src/components/storage/StorageReview.jsx:102
 msgid "format as $0"
 msgstr ""
 
@@ -1669,12 +1665,12 @@ msgstr ""
 msgid "here"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:56
+#: src/components/review/ReviewConfiguration.jsx:58
 #, fuzzy
 msgid "incomplete"
 msgstr "تمام!"
 
-#: src/components/review/StorageReview.jsx:108
+#: src/components/storage/StorageReview.jsx:106
 msgid "mount"
 msgstr ""
 
@@ -1686,7 +1682,7 @@ msgstr ""
 msgid "report the issue manually"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:169
+#: src/components/storage/StorageReview.jsx:167
 msgid "resized from $0"
 msgstr ""
 

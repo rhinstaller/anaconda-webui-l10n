@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-05 05:30+0000\n"
+"POT-Creation-Date: 2026-05-06 05:44+0000\n"
 "PO-Revision-Date: 2026-05-05 15:40+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/anaconda-"
@@ -66,7 +66,7 @@ msgid "$0 error"
 msgid_plural "$0 errors"
 msgstr[0] "$0 오류"
 
-#: src/components/app.jsx:82
+#: src/components/app.jsx:83
 msgid "$0 installation"
 msgstr "$0 설치"
 
@@ -92,7 +92,7 @@ msgid "$0 warning"
 msgid_plural "$0 warnings"
 msgstr[0] "$0 경고"
 
-#: src/components/review/StorageReview.jsx:285
+#: src/components/storage/StorageReview.jsx:283
 msgid "$0 will be deleted"
 msgstr "$0가 삭제됩니다"
 
@@ -122,12 +122,12 @@ msgstr ""
 msgid "About"
 msgstr "정보"
 
-#: src/components/review/ReviewConfiguration.jsx:243
+#: src/components/review/ReviewConfiguration.jsx:233
 msgid "Account"
 msgstr "계정"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
-#: src/components/review/StorageReview.jsx:243
+#: src/components/storage/StorageReview.jsx:241
 msgid "Actions"
 msgstr "동작"
 
@@ -275,7 +275,7 @@ msgid ""
 msgstr ""
 "여기에서 변경을 했으면 시스템에 즉시 영향을 미칩니다. '실행취소' 가 없습니다."
 
-#: src/components/review/ReviewConfiguration.jsx:180
+#: src/components/review/ReviewConfiguration.jsx:170
 msgid "Checking installation configuration..."
 msgstr "설치 구성 확인 중..."
 
@@ -313,7 +313,7 @@ msgstr ""
 msgid "Completed"
 msgstr "완료되었습니다"
 
-#: src/components/review/ReviewConfiguration.jsx:201
+#: src/components/review/ReviewConfiguration.jsx:191
 msgid "Configuration is incomplete"
 msgstr "구성이 불완전합니다"
 
@@ -379,7 +379,7 @@ msgstr "사용자 지정"
 msgid "Date"
 msgstr "날짜"
 
-#: src/components/datetime/index.js:18
+#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr "날짜와 시간"
@@ -388,7 +388,7 @@ msgstr "날짜와 시간"
 msgid "Delete partition"
 msgstr "파티션 삭제"
 
-#: src/components/review/StorageReview.jsx:343
+#: src/components/storage/StorageReview.jsx:341
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "특정 파티션의 삭제는 부팅에서 $0를 예방합니다: $1"
 
@@ -412,8 +412,8 @@ msgstr "사건에 대한 세부 설명"
 msgid "Detected valid storage layout:"
 msgstr "탐지된 유효 저장소 배열:"
 
+#: src/components/storage/StorageReview.jsx:239
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
-#: src/components/review/StorageReview.jsx:241
 msgid "Device"
 msgstr "장치"
 
@@ -433,7 +433,7 @@ msgstr "root 계정 활성화"
 msgid "Encrypt my data"
 msgstr "자료를 암호화합니다"
 
-#: src/components/review/StorageReview.jsx:244
+#: src/components/storage/StorageReview.jsx:242
 msgid "Encrypted"
 msgstr "암호화됨"
 
@@ -513,7 +513,7 @@ msgstr "성명"
 msgid "Full name cannot contain colon characters"
 msgstr "이름에 쌍점(:)을 사용 할 수 없습니다"
 
-#: src/components/review/StorageReview.jsx:246
+#: src/components/storage/StorageReview.jsx:244
 msgid "Helper text"
 msgstr "텍스트 도우미"
 
@@ -537,22 +537,22 @@ msgstr "비밀번호 숨기기"
 msgid "Hostname"
 msgstr "호스트이름"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:148
+#: src/components/storage/installation-method/InstallationScenario.jsx:145
 msgid "How would you like to install?"
 msgstr "설치 하시겠습니까?"
 
-#: src/components/review/ReviewConfiguration.jsx:298
+#: src/components/review/ReviewConfiguration.jsx:288
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] ""
 "나는 모든 기존 자료가 선택한 디스크에서 제거 될 것이라는 점을 이해합니다"
 
-#: src/components/review/ReviewConfiguration.jsx:303
+#: src/components/review/ReviewConfiguration.jsx:293
 msgid "I understand that some existing data will be erased"
 msgstr "나는 일부 기존 자료가 제거 될 것이라는 점을 이해합니다"
 
-#: src/components/review/ReviewConfiguration.jsx:304
+#: src/components/review/ReviewConfiguration.jsx:294
 msgid "I understand that some partitions will be modified"
 msgstr "나는 일부 파티션이 수정 될 것이라는 점을 이해합니다"
 
@@ -584,7 +584,7 @@ msgstr ""
 msgid "In progress"
 msgstr "진행 중"
 
-#: src/components/app.jsx:32
+#: src/components/app.jsx:33
 msgid "Initializing..."
 msgstr "초기화 중..."
 
@@ -599,7 +599,7 @@ msgstr "설치"
 msgid "Installation failed"
 msgstr "설치에 실패했습니다"
 
-#: src/components/storage/installation-method/index.js:20
+#: src/components/storage/installation-method/index.js:24
 msgid "Installation method"
 msgstr "설치 방법"
 
@@ -612,7 +612,7 @@ msgstr "시스템 설치에 실패했습니다"
 msgid "Installation of the system failed: $0"
 msgstr "시스템 설치에 실패했습니다: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:248
 msgid "Installation type"
 msgstr "설치 유형"
 
@@ -642,7 +642,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "잘못된 호스트명"
 
-#: src/components/review/ReviewConfiguration.jsx:197
+#: src/components/review/ReviewConfiguration.jsx:187
 msgid "Jump to first incomplete step"
 msgstr "처음 불완전 단계로 넘어가기"
 
@@ -662,7 +662,7 @@ msgstr "키보드"
 msgid "Keyboard layout during boot"
 msgstr "부팅 중에 키보드 나열"
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:213
 #: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "언어"
@@ -701,7 +701,7 @@ msgstr "사용자 정의 디스크 구성: 적재 지점 대응"
 msgid "May contain letters, numbers, and dashes."
 msgstr "문자, 숫자 및 줄표(-)가 포함 될 수 있습니다."
 
-#: src/components/review/StorageReview.jsx:87
+#: src/components/storage/StorageReview.jsx:85
 msgid "May need more free space"
 msgstr "더 많은 여유 공간이 필요 할 수 있습니다"
 
@@ -717,8 +717,8 @@ msgstr "최소 $0 가 필요합니다"
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr "상위 장치와 하위 장치 재-초기화 선택이 일치하지 않습니다."
 
+#: src/components/storage/StorageReview.jsx:243
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
-#: src/components/review/StorageReview.jsx:245
 msgid "Mount point"
 msgstr "적재 지점"
 
@@ -753,7 +753,7 @@ msgstr "NTS"
 msgid "Name"
 msgstr "이름"
 
-#: src/components/review/StorageReview.jsx:85
+#: src/components/storage/StorageReview.jsx:83
 msgid "Needs at least $0"
 msgstr "최소 $0 가 필요합니다"
 
@@ -822,10 +822,6 @@ msgstr "선택한 디스크에 여유 공간이 충분하지 않습니다."
 msgid "Not enough space on selected disks."
 msgstr "선택한 디스크에 공간이 충분하지 않습니다."
 
-#: src/components/review/StorageReview.jsx:387
-msgid "Note"
-msgstr "기록"
-
 #: src/components/AnacondaHeader.jsx:71
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -839,7 +835,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "버그질라 결점 보고 양식을 엽니다"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:202
 msgid "Operating system"
 msgstr "운영 체제"
 
@@ -911,15 +907,15 @@ msgstr "종료"
 msgid "Quit installer?"
 msgstr "설치자 종료?"
 
-#: src/components/app.jsx:127
+#: src/components/app.jsx:128
 msgid "Reading information about the OS failed."
 msgstr "OS에 대한 정보 읽기를 실패함."
 
-#: src/components/app.jsx:72
+#: src/components/app.jsx:73
 msgid "Reading information about the computer failed."
 msgstr "컴퓨터에 대한 정보 읽기를 실패함."
 
-#: src/components/app.jsx:117
+#: src/components/app.jsx:118
 msgid "Reading installer configuration failed."
 msgstr "설치자 구성 읽기가 실패함."
 
@@ -1073,7 +1069,7 @@ msgstr "크기조정"
 msgid "Resize partition"
 msgstr "파티션 크기 재지정"
 
-#: src/components/review/StorageReview.jsx:349
+#: src/components/storage/StorageReview.jsx:347
 msgid "Resizing the following partitions from $0: $1"
 msgstr "다음 파티션 크기 조정 중 $0: $1"
 
@@ -1215,7 +1211,7 @@ msgstr "암호문을 표시합니다"
 msgid "Show password"
 msgstr "비밀번호 표시"
 
-#: src/components/review/StorageReview.jsx:242
+#: src/components/storage/StorageReview.jsx:240
 msgid "Size"
 msgstr "크기"
 
@@ -1231,12 +1227,12 @@ msgstr ""
 "소프트웨어 설치: 저장소 구성 완료. 소프트웨어는 이제 자신의 장치에 설치되어 "
 "있습니다."
 
-#: src/components/review/ReviewConfiguration.jsx:236
+#: src/components/review/ReviewConfiguration.jsx:226
 #: src/components/software/index.js:19 src/components/software/index.js:20
 msgid "Software selection"
 msgstr "소프트웨어 선택"
 
-#: src/components/review/ReviewConfiguration.jsx:204
+#: src/components/review/ReviewConfiguration.jsx:194
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr "당신은 계속 진행하기 전에 몇 가지 설치 단계를 완료해야 합니다."
@@ -1253,7 +1249,7 @@ msgstr "공간"
 msgid "Stacktrace"
 msgstr "스택트레이스"
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:255
 msgid "Storage"
 msgstr "저장소"
 
@@ -1330,7 +1326,7 @@ msgid ""
 "being configured."
 msgstr "시스템 구성: 소프트웨어 설치 완료. 시스템은 이제 구성되어져 있습니다."
 
-#: src/components/app.jsx:162
+#: src/components/app.jsx:163
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "아나콘다 설치가 갑자기 중지되었습니다."
 
@@ -1414,7 +1410,7 @@ msgid "Time"
 msgstr "시간"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:230
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid "Timezone"
 msgstr "시간대"
 
@@ -1524,11 +1520,11 @@ msgstr "검증 중..."
 msgid "Weak"
 msgstr "취약"
 
-#: src/components/localization/index.js:18
+#: src/components/localization/index.js:21
 msgid "Welcome"
 msgstr "환영합니다"
 
-#: src/components/localization/index.js:19
+#: src/components/localization/index.js:22
 msgid "Welcome to Fedora Linux"
 msgstr "페도라 리눅스에 오신 것을 환영합니다"
 
@@ -1586,7 +1582,7 @@ msgstr "현재 단계"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/review/StorageReview.jsx:164
+#: src/components/storage/StorageReview.jsx:162
 msgid "delete"
 msgstr "삭제"
 
@@ -1594,11 +1590,11 @@ msgstr "삭제"
 msgid "edit"
 msgstr "편집"
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypt"
 msgstr "암호화"
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypted"
 msgstr "암호화됨"
 
@@ -1606,7 +1602,7 @@ msgstr "암호화됨"
 msgid "extended partition"
 msgstr "확장된 파티션"
 
-#: src/components/review/StorageReview.jsx:104
+#: src/components/storage/StorageReview.jsx:102
 msgid "format as $0"
 msgstr "$0로 초기화"
 
@@ -1614,11 +1610,11 @@ msgstr "$0로 초기화"
 msgid "here"
 msgstr "여기"
 
-#: src/components/review/ReviewConfiguration.jsx:56
+#: src/components/review/ReviewConfiguration.jsx:58
 msgid "incomplete"
 msgstr "불완전"
 
-#: src/components/review/StorageReview.jsx:108
+#: src/components/storage/StorageReview.jsx:106
 msgid "mount"
 msgstr "적재"
 
@@ -1630,7 +1626,7 @@ msgstr "보류 단계"
 msgid "report the issue manually"
 msgstr "사건을 수동으로 보고합니다"
 
-#: src/components/review/StorageReview.jsx:169
+#: src/components/storage/StorageReview.jsx:167
 msgid "resized from $0"
 msgstr "$0부터 크기가 조정됨"
 
@@ -1646,6 +1642,9 @@ msgstr "$0로 축소"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:375
 msgid "undo"
 msgstr "실행취소"
+
+#~ msgid "Note"
+#~ msgstr "기록"
 
 #~ msgid ""
 #~ "I understand that all existing data will be erased from the selected disks"

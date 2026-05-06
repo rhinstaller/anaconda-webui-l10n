@@ -69,7 +69,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-05 05:30+0000\n"
+"POT-Creation-Date: 2026-05-06 05:44+0000\n"
 "PO-Revision-Date: 2026-04-28 05:46+0000\n"
 "Last-Translator: Dark Cronyx <darkcronyx@protonmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/anaconda-"
@@ -101,7 +101,7 @@ msgid_plural "$0 errors"
 msgstr[0] "Fehler"
 msgstr[1] "Fehler"
 
-#: src/components/app.jsx:82
+#: src/components/app.jsx:83
 msgid "$0 installation"
 msgstr "$0 Installation"
 
@@ -129,7 +129,7 @@ msgid_plural "$0 warnings"
 msgstr[0] "$0 Warnung"
 msgstr[1] "$0 Warnungen"
 
-#: src/components/review/StorageReview.jsx:285
+#: src/components/storage/StorageReview.jsx:283
 msgid "$0 will be deleted"
 msgstr "$0 wird gelöscht"
 
@@ -161,12 +161,12 @@ msgstr ""
 msgid "About"
 msgstr "Über"
 
-#: src/components/review/ReviewConfiguration.jsx:243
+#: src/components/review/ReviewConfiguration.jsx:233
 msgid "Account"
 msgstr "Konto"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
-#: src/components/review/StorageReview.jsx:243
+#: src/components/storage/StorageReview.jsx:241
 msgid "Actions"
 msgstr "Aktionen"
 
@@ -318,7 +318,7 @@ msgstr ""
 "Hier gemachte Änderungen wirken sofort auf das System. Es gibt kein "
 "'rückgängig machen'."
 
-#: src/components/review/ReviewConfiguration.jsx:180
+#: src/components/review/ReviewConfiguration.jsx:170
 #, fuzzy
 #| msgid "Checking storage configuration..."
 msgid "Checking installation configuration..."
@@ -360,7 +360,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Fertig"
 
-#: src/components/review/ReviewConfiguration.jsx:201
+#: src/components/review/ReviewConfiguration.jsx:191
 #, fuzzy
 #| msgid "Apply configuration in installer"
 msgid "Configuration is incomplete"
@@ -430,7 +430,7 @@ msgstr "Benutzerdefiniert"
 msgid "Date"
 msgstr "Datum"
 
-#: src/components/datetime/index.js:18
+#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr "Datum und Zeit"
@@ -439,7 +439,7 @@ msgstr "Datum und Zeit"
 msgid "Delete partition"
 msgstr "Partition löschen"
 
-#: src/components/review/StorageReview.jsx:343
+#: src/components/storage/StorageReview.jsx:341
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 "Das entfernen bestimmter Partitionen könnte $0 davon abhalten zu starten: $1"
@@ -464,8 +464,8 @@ msgstr "Ausführliche Beschreibung des Problems"
 msgid "Detected valid storage layout:"
 msgstr "Valide Speicher-Anordnung erkannt:"
 
+#: src/components/storage/StorageReview.jsx:239
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
-#: src/components/review/StorageReview.jsx:241
 msgid "Device"
 msgstr "Gerät"
 
@@ -485,7 +485,7 @@ msgstr "Root-Benutzerkonto aktivieren"
 msgid "Encrypt my data"
 msgstr "Meine Daten verschlüsseln"
 
-#: src/components/review/StorageReview.jsx:244
+#: src/components/storage/StorageReview.jsx:242
 msgid "Encrypted"
 msgstr "Verschlüsselt"
 
@@ -568,7 +568,7 @@ msgstr "Vollständiger Name"
 msgid "Full name cannot contain colon characters"
 msgstr "Der vollständige Name darf keine Doppelpunkte enthalten"
 
-#: src/components/review/StorageReview.jsx:246
+#: src/components/storage/StorageReview.jsx:244
 msgid "Helper text"
 msgstr "Hilfetext"
 
@@ -592,11 +592,11 @@ msgstr "Passwort verstecken"
 msgid "Hostname"
 msgstr "Rechnername"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:148
+#: src/components/storage/installation-method/InstallationScenario.jsx:145
 msgid "How would you like to install?"
 msgstr "Wie möchten Sie installieren?"
 
-#: src/components/review/ReviewConfiguration.jsx:298
+#: src/components/review/ReviewConfiguration.jsx:288
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
@@ -607,11 +607,11 @@ msgstr[1] ""
 "Ich verstehe, dass alle existierenden Daten von den ausgewählten "
 "Datenträgern gelöscht werden."
 
-#: src/components/review/ReviewConfiguration.jsx:303
+#: src/components/review/ReviewConfiguration.jsx:293
 msgid "I understand that some existing data will be erased"
 msgstr "Ich verstehe, dass einige bestehende Daten gelöscht werden"
 
-#: src/components/review/ReviewConfiguration.jsx:304
+#: src/components/review/ReviewConfiguration.jsx:294
 msgid "I understand that some partitions will be modified"
 msgstr "Ich verstehe, dass manche Partitionen verändert werden"
 
@@ -646,7 +646,7 @@ msgstr ""
 msgid "In progress"
 msgstr "In Arbeit"
 
-#: src/components/app.jsx:32
+#: src/components/app.jsx:33
 msgid "Initializing..."
 msgstr "Initialisierung ..."
 
@@ -661,7 +661,7 @@ msgstr "Installieren"
 msgid "Installation failed"
 msgstr "Installation fehlgeschlagen"
 
-#: src/components/storage/installation-method/index.js:20
+#: src/components/storage/installation-method/index.js:24
 msgid "Installation method"
 msgstr "Installationsmethode"
 
@@ -674,7 +674,7 @@ msgstr "Installation des Systems fehlgeschlagen"
 msgid "Installation of the system failed: $0"
 msgstr "Installation des Systems fehlgeschlagen: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:248
 msgid "Installation type"
 msgstr "Installationstyp"
 
@@ -704,7 +704,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Ungültiger Hostname"
 
-#: src/components/review/ReviewConfiguration.jsx:197
+#: src/components/review/ReviewConfiguration.jsx:187
 #, fuzzy
 #| msgid "completed step"
 msgid "Jump to first incomplete step"
@@ -726,7 +726,7 @@ msgstr "Tastatur"
 msgid "Keyboard layout during boot"
 msgstr "Tastaturbelegung beim Booten"
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:213
 #: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "Sprache"
@@ -765,7 +765,7 @@ msgstr "Manuelle Datenträgerkonfiguration: Zuordnung der Einhängepunkte"
 msgid "May contain letters, numbers, and dashes."
 msgstr "Kann Buchstaben, Zahlen und Bindestriche enthalten."
 
-#: src/components/review/StorageReview.jsx:87
+#: src/components/storage/StorageReview.jsx:85
 msgid "May need more free space"
 msgstr "Möglicherweise wird mehr freier Speicherplatz benötigt"
 
@@ -783,8 +783,8 @@ msgstr ""
 "Unstimmigkeit zwischen übergeordnetem Gerät und der Auswahl der "
 "Neuformatierung des untergeordneten Geräts."
 
+#: src/components/storage/StorageReview.jsx:243
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
-#: src/components/review/StorageReview.jsx:245
 msgid "Mount point"
 msgstr "Einhängepunkt"
 
@@ -819,7 +819,7 @@ msgstr "NTS"
 msgid "Name"
 msgstr "Name"
 
-#: src/components/review/StorageReview.jsx:85
+#: src/components/storage/StorageReview.jsx:83
 msgid "Needs at least $0"
 msgstr "Benötigt mindestens $0"
 
@@ -891,10 +891,6 @@ msgstr "Nicht genügend freier Speicherplatz auf dem gewählten Datenträger."
 msgid "Not enough space on selected disks."
 msgstr "Nicht genügend Speicherplatz auf dem gewählten Datenträger."
 
-#: src/components/review/StorageReview.jsx:387
-msgid "Note"
-msgstr "Hinweis"
-
 #: src/components/AnacondaHeader.jsx:71
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -908,7 +904,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Bugzilla-Fehlermeldungsformular öffnen"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:202
 msgid "Operating system"
 msgstr "Betriebssystem"
 
@@ -980,15 +976,15 @@ msgstr "Beenden"
 msgid "Quit installer?"
 msgstr "Installationsprogramm beenden?"
 
-#: src/components/app.jsx:127
+#: src/components/app.jsx:128
 msgid "Reading information about the OS failed."
 msgstr "Einlesen der Informationen zum Betriebssystem fehlgeschlagen."
 
-#: src/components/app.jsx:72
+#: src/components/app.jsx:73
 msgid "Reading information about the computer failed."
 msgstr "Einlesen der Informationen zum Computer fehlgeschlagen."
 
-#: src/components/app.jsx:117
+#: src/components/app.jsx:118
 msgid "Reading installer configuration failed."
 msgstr "Einlesen der Konfiguration des Installationsprogramms fehlgeschlagen."
 
@@ -1150,7 +1146,7 @@ msgstr "Größe ändern"
 msgid "Resize partition"
 msgstr "Partition vergrößern"
 
-#: src/components/review/StorageReview.jsx:349
+#: src/components/storage/StorageReview.jsx:347
 msgid "Resizing the following partitions from $0: $1"
 msgstr "Größe der folgenden Partitionen von $0 ändern: $1"
 
@@ -1293,7 +1289,7 @@ msgstr "Passphrase anzeigen"
 msgid "Show password"
 msgstr "Passwort anzeigen"
 
-#: src/components/review/StorageReview.jsx:242
+#: src/components/storage/StorageReview.jsx:240
 msgid "Size"
 msgstr "Größe"
 
@@ -1309,12 +1305,12 @@ msgstr ""
 "Softwareinstallation: Speicherkonfiguration abgeschlossen. Die Software wird "
 "nun auf Ihrem Gerät installiert."
 
-#: src/components/review/ReviewConfiguration.jsx:236
+#: src/components/review/ReviewConfiguration.jsx:226
 #: src/components/software/index.js:19 src/components/software/index.js:20
 msgid "Software selection"
 msgstr "Softwareauswahl"
 
-#: src/components/review/ReviewConfiguration.jsx:204
+#: src/components/review/ReviewConfiguration.jsx:194
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1331,7 +1327,7 @@ msgstr "Platz"
 msgid "Stacktrace"
 msgstr "Stapelzurückverfolgung"
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:255
 msgid "Storage"
 msgstr "Speicher"
 
@@ -1413,7 +1409,7 @@ msgstr ""
 "Systemkonfiguration: Softwareinstallation abgeschlossen. Das System wird nun "
 "konfiguriert."
 
-#: src/components/app.jsx:162
+#: src/components/app.jsx:163
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "Die Installation von Anaconda wurde unerwartet gestoppt."
 
@@ -1503,7 +1499,7 @@ msgid "Time"
 msgstr "Zeit"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:230
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid "Timezone"
 msgstr "Zeitzone"
 
@@ -1613,11 +1609,11 @@ msgstr "Validierung..."
 msgid "Weak"
 msgstr "Schwach"
 
-#: src/components/localization/index.js:18
+#: src/components/localization/index.js:21
 msgid "Welcome"
 msgstr "Willkommen"
 
-#: src/components/localization/index.js:19
+#: src/components/localization/index.js:22
 msgid "Welcome to Fedora Linux"
 msgstr "Willkommen bei Fedora Linux"
 
@@ -1679,7 +1675,7 @@ msgstr "Aktueller Schritt"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/review/StorageReview.jsx:164
+#: src/components/storage/StorageReview.jsx:162
 msgid "delete"
 msgstr "löschen"
 
@@ -1687,11 +1683,11 @@ msgstr "löschen"
 msgid "edit"
 msgstr "editieren"
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypt"
 msgstr "verschlüsseln"
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypted"
 msgstr "verschlüsselt"
 
@@ -1699,7 +1695,7 @@ msgstr "verschlüsselt"
 msgid "extended partition"
 msgstr "erweiterte Partition"
 
-#: src/components/review/StorageReview.jsx:104
+#: src/components/storage/StorageReview.jsx:102
 msgid "format as $0"
 msgstr "formatieren als $0"
 
@@ -1707,13 +1703,13 @@ msgstr "formatieren als $0"
 msgid "here"
 msgstr "hier"
 
-#: src/components/review/ReviewConfiguration.jsx:56
+#: src/components/review/ReviewConfiguration.jsx:58
 #, fuzzy
 #| msgid "Completed"
 msgid "incomplete"
 msgstr "Fertig"
 
-#: src/components/review/StorageReview.jsx:108
+#: src/components/storage/StorageReview.jsx:106
 msgid "mount"
 msgstr "einhängen"
 
@@ -1725,7 +1721,7 @@ msgstr "anstehender Schritt"
 msgid "report the issue manually"
 msgstr "Melden Sie das Problem manuell"
 
-#: src/components/review/StorageReview.jsx:169
+#: src/components/storage/StorageReview.jsx:167
 msgid "resized from $0"
 msgstr "Größe geändert von $0"
 
@@ -1741,6 +1737,9 @@ msgstr "auf $0 verkleinern"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:375
 msgid "undo"
 msgstr "rückgängig machen"
+
+#~ msgid "Note"
+#~ msgstr "Hinweis"
 
 #~ msgid ""
 #~ "I understand that all existing data will be erased from the selected disks"

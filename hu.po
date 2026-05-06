@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-05 05:30+0000\n"
+"POT-Creation-Date: 2026-05-06 05:44+0000\n"
 "PO-Revision-Date: 2026-03-30 05:13+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/"
@@ -67,7 +67,7 @@ msgid_plural "$0 errors"
 msgstr[0] "Hiba"
 msgstr[1] "Hiba"
 
-#: src/components/app.jsx:82
+#: src/components/app.jsx:83
 msgid "$0 installation"
 msgstr "$0 telepítés"
 
@@ -95,7 +95,7 @@ msgid_plural "$0 warnings"
 msgstr[0] "$0 figyelmeztetés"
 msgstr[1] "$0 figyelmeztetés"
 
-#: src/components/review/StorageReview.jsx:285
+#: src/components/storage/StorageReview.jsx:283
 msgid "$0 will be deleted"
 msgstr "A(z) $0 törölve lesz"
 
@@ -126,12 +126,12 @@ msgstr ""
 msgid "About"
 msgstr "Névjegy"
 
-#: src/components/review/ReviewConfiguration.jsx:243
+#: src/components/review/ReviewConfiguration.jsx:233
 msgid "Account"
 msgstr "Fiók"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
-#: src/components/review/StorageReview.jsx:243
+#: src/components/storage/StorageReview.jsx:241
 msgid "Actions"
 msgstr "Műveletek"
 
@@ -279,7 +279,7 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr "Az itt végzett módosítások azonnal életbe lépnek. Nincs „visszavonás”."
 
-#: src/components/review/ReviewConfiguration.jsx:180
+#: src/components/review/ReviewConfiguration.jsx:170
 #, fuzzy
 #| msgid "Checking storage configuration..."
 msgid "Checking installation configuration..."
@@ -321,7 +321,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Kész"
 
-#: src/components/review/ReviewConfiguration.jsx:201
+#: src/components/review/ReviewConfiguration.jsx:191
 #, fuzzy
 #| msgid "Apply configuration in installer"
 msgid "Configuration is incomplete"
@@ -391,7 +391,7 @@ msgstr "Egyéni"
 msgid "Date"
 msgstr "Dátum"
 
-#: src/components/datetime/index.js:18
+#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr "Dátum és idő"
@@ -402,7 +402,7 @@ msgstr "Dátum és idő"
 msgid "Delete partition"
 msgstr "kiterjesztett partíció"
 
-#: src/components/review/StorageReview.jsx:343
+#: src/components/storage/StorageReview.jsx:341
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Egyes partíciók törlése megakadályozhatja a(z) $0 indítását: $1"
 
@@ -426,8 +426,8 @@ msgstr "A probléma részletes leírása"
 msgid "Detected valid storage layout:"
 msgstr "Érvényes tárolóelrendezés észlelve:"
 
+#: src/components/storage/StorageReview.jsx:239
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
-#: src/components/review/StorageReview.jsx:241
 msgid "Device"
 msgstr "Eszköz"
 
@@ -447,7 +447,7 @@ msgstr "Rendszergazdai fiók engedélyezése"
 msgid "Encrypt my data"
 msgstr "Saját adatok titkosítása"
 
-#: src/components/review/StorageReview.jsx:244
+#: src/components/storage/StorageReview.jsx:242
 msgid "Encrypted"
 msgstr "Titkosítva"
 
@@ -528,7 +528,7 @@ msgstr "Teljes név"
 msgid "Full name cannot contain colon characters"
 msgstr "A teljes név nem tartalmazhat kettőspontot"
 
-#: src/components/review/StorageReview.jsx:246
+#: src/components/storage/StorageReview.jsx:244
 msgid "Helper text"
 msgstr "Súgószöveg"
 
@@ -552,11 +552,11 @@ msgstr "Jelszó elrejtése"
 msgid "Hostname"
 msgstr "Gépnév"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:148
+#: src/components/storage/installation-method/InstallationScenario.jsx:145
 msgid "How would you like to install?"
 msgstr "Hogyan szeretné telepíteni?"
 
-#: src/components/review/ReviewConfiguration.jsx:298
+#: src/components/review/ReviewConfiguration.jsx:288
 #, fuzzy
 #| msgid "I understand that all existing data will be erased"
 msgid "I understand that all existing data will be erased"
@@ -565,11 +565,11 @@ msgid_plural ""
 msgstr[0] "Megértettem, hogy a meglévő adatok törölve lesznek"
 msgstr[1] "Megértettem, hogy a meglévő adatok törölve lesznek"
 
-#: src/components/review/ReviewConfiguration.jsx:303
+#: src/components/review/ReviewConfiguration.jsx:293
 msgid "I understand that some existing data will be erased"
 msgstr "Megértettem, hogy egyes meglévő adatok törölve lesznek"
 
-#: src/components/review/ReviewConfiguration.jsx:304
+#: src/components/review/ReviewConfiguration.jsx:294
 msgid "I understand that some partitions will be modified"
 msgstr "Megértettem, hogy egy partíciók módosítva lesznek"
 
@@ -604,7 +604,7 @@ msgstr ""
 msgid "In progress"
 msgstr "Folyamatban"
 
-#: src/components/app.jsx:32
+#: src/components/app.jsx:33
 msgid "Initializing..."
 msgstr "Előkészítés…"
 
@@ -619,7 +619,7 @@ msgstr "Telepítés"
 msgid "Installation failed"
 msgstr "A telepítés sikertelen"
 
-#: src/components/storage/installation-method/index.js:20
+#: src/components/storage/installation-method/index.js:24
 msgid "Installation method"
 msgstr "Telepítési mód"
 
@@ -632,7 +632,7 @@ msgstr "Nem sikerült a rendszer telepítése"
 msgid "Installation of the system failed: $0"
 msgstr "Nem sikerült a rendszer telepítése: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:248
 msgid "Installation type"
 msgstr "Telepítés típusa"
 
@@ -662,7 +662,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Érvénytelen gépnév"
 
-#: src/components/review/ReviewConfiguration.jsx:197
+#: src/components/review/ReviewConfiguration.jsx:187
 #, fuzzy
 #| msgid "completed step"
 msgid "Jump to first incomplete step"
@@ -684,7 +684,7 @@ msgstr "Billentyűzet"
 msgid "Keyboard layout during boot"
 msgstr "Az indítás során használandó billentyűzetkiosztás"
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:213
 #: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "Nyelv"
@@ -723,7 +723,7 @@ msgstr "Kézi lemezkonfiguráció: Csatolási pontok hozzárendelése"
 msgid "May contain letters, numbers, and dashes."
 msgstr "Betűket, számokat és kötőjeleket tartalmazhat."
 
-#: src/components/review/StorageReview.jsx:87
+#: src/components/storage/StorageReview.jsx:85
 msgid "May need more free space"
 msgstr "Lehet, hogy több szabad helyre lesz szükség"
 
@@ -740,8 +740,8 @@ msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 "Nem egyezik a szülőeszköz és a gyermekeszköz újraformázásának kiválasztása."
 
+#: src/components/storage/StorageReview.jsx:243
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
-#: src/components/review/StorageReview.jsx:245
 msgid "Mount point"
 msgstr "Csatolási pont"
 
@@ -776,7 +776,7 @@ msgstr "NTS"
 msgid "Name"
 msgstr "Név"
 
-#: src/components/review/StorageReview.jsx:85
+#: src/components/storage/StorageReview.jsx:83
 msgid "Needs at least $0"
 msgstr "Legalább $0 szükséges"
 
@@ -846,10 +846,6 @@ msgstr "Nincs elég szabad hely a kiválasztott lemezeken."
 msgid "Not enough space on selected disks."
 msgstr "Nincs elég hely a kiválasztott lemezeken."
 
-#: src/components/review/StorageReview.jsx:387
-msgid "Note"
-msgstr "Megjegyzés"
-
 #: src/components/AnacondaHeader.jsx:71
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -864,7 +860,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Bugzilla hibajelentési űrlap megnyitása"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:202
 msgid "Operating system"
 msgstr "Operációs rendszer"
 
@@ -936,16 +932,16 @@ msgstr "Kilépés"
 msgid "Quit installer?"
 msgstr "Kilép a telepítőből?"
 
-#: src/components/app.jsx:127
+#: src/components/app.jsx:128
 msgid "Reading information about the OS failed."
 msgstr ""
 "Nem sikerült beolvasni az operációs rendszerre vonatkozó információkat."
 
-#: src/components/app.jsx:72
+#: src/components/app.jsx:73
 msgid "Reading information about the computer failed."
 msgstr "Nem sikerült beolvasni a számítógépre vonatkozó információkat."
 
-#: src/components/app.jsx:117
+#: src/components/app.jsx:118
 msgid "Reading installer configuration failed."
 msgstr "Nem sikerült beolvasni a telepítő konfigurációját."
 
@@ -1106,7 +1102,7 @@ msgstr "Átméretezés"
 msgid "Resize partition"
 msgstr "Kiterjesztett partíció"
 
-#: src/components/review/StorageReview.jsx:349
+#: src/components/storage/StorageReview.jsx:347
 msgid "Resizing the following partitions from $0: $1"
 msgstr "A(z) $0 következő partícióinak átméretezése: $1"
 
@@ -1250,7 +1246,7 @@ msgstr "Jelmondta megjelenítése"
 msgid "Show password"
 msgstr "Jelszó megjelenítése"
 
-#: src/components/review/StorageReview.jsx:242
+#: src/components/storage/StorageReview.jsx:240
 msgid "Size"
 msgstr "Méret"
 
@@ -1266,12 +1262,12 @@ msgstr ""
 "Szoftvertelepítés: A tárhely konfigurálása kész. A szoftver telepítése "
 "folyamatban van az eszközre."
 
-#: src/components/review/ReviewConfiguration.jsx:236
+#: src/components/review/ReviewConfiguration.jsx:226
 #: src/components/software/index.js:19 src/components/software/index.js:20
 msgid "Software selection"
 msgstr "Szoftver kiválasztása"
 
-#: src/components/review/ReviewConfiguration.jsx:204
+#: src/components/review/ReviewConfiguration.jsx:194
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1288,7 +1284,7 @@ msgstr "Hely"
 msgid "Stacktrace"
 msgstr "Veremkiíratás"
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:255
 msgid "Storage"
 msgstr "Tárhely"
 
@@ -1365,7 +1361,7 @@ msgstr ""
 "Rendszer-konfiguráció: A szoftver telepítése befejeződött. A rendszer "
 "konfigurálása folyamatban van."
 
-#: src/components/app.jsx:162
+#: src/components/app.jsx:163
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "Az Anaconda telepítő váratlanul leállt."
 
@@ -1452,7 +1448,7 @@ msgid "Time"
 msgstr "Idő"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:230
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid "Timezone"
 msgstr "Időzóna"
 
@@ -1565,11 +1561,11 @@ msgstr "Érvényesítés…"
 msgid "Weak"
 msgstr "Gyenge"
 
-#: src/components/localization/index.js:18
+#: src/components/localization/index.js:21
 msgid "Welcome"
 msgstr "Üdvözöljük"
 
-#: src/components/localization/index.js:19
+#: src/components/localization/index.js:22
 msgid "Welcome to Fedora Linux"
 msgstr "Üdvözli a Fedora Linux"
 
@@ -1629,7 +1625,7 @@ msgstr "jelenlegi lépés"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/review/StorageReview.jsx:164
+#: src/components/storage/StorageReview.jsx:162
 msgid "delete"
 msgstr "törlés"
 
@@ -1637,11 +1633,11 @@ msgstr "törlés"
 msgid "edit"
 msgstr "szerkesztés"
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypt"
 msgstr "titkosítás"
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypted"
 msgstr "titkosítva"
 
@@ -1649,7 +1645,7 @@ msgstr "titkosítva"
 msgid "extended partition"
 msgstr "kiterjesztett partíció"
 
-#: src/components/review/StorageReview.jsx:104
+#: src/components/storage/StorageReview.jsx:102
 msgid "format as $0"
 msgstr "formázás mint $0"
 
@@ -1657,13 +1653,13 @@ msgstr "formázás mint $0"
 msgid "here"
 msgstr "itt"
 
-#: src/components/review/ReviewConfiguration.jsx:56
+#: src/components/review/ReviewConfiguration.jsx:58
 #, fuzzy
 #| msgid "Completed"
 msgid "incomplete"
 msgstr "Kész"
 
-#: src/components/review/StorageReview.jsx:108
+#: src/components/storage/StorageReview.jsx:106
 msgid "mount"
 msgstr "csatolás"
 
@@ -1675,7 +1671,7 @@ msgstr "függőben lévő lépés"
 msgid "report the issue manually"
 msgstr "jelentheti a hibát kézileg"
 
-#: src/components/review/StorageReview.jsx:169
+#: src/components/storage/StorageReview.jsx:167
 msgid "resized from $0"
 msgstr "átméretezve erről: $0"
 
@@ -1691,6 +1687,9 @@ msgstr "zsugorítás erre: $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:375
 msgid "undo"
 msgstr "visszavonás"
+
+#~ msgid "Note"
+#~ msgstr "Megjegyzés"
 
 #~ msgid ""
 #~ "I understand that all existing data will be erased from the selected disks"

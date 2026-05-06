@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-05 05:30+0000\n"
+"POT-Creation-Date: 2026-05-06 05:44+0000\n"
 "PO-Revision-Date: 2025-07-18 20:17+0000\n"
 "Last-Translator: Iver Son <ivercoder@proton.me>\n"
 "Language-Team: Filipino <https://translate.fedoraproject.org/projects/"
@@ -34,7 +34,7 @@ msgid_plural "$0 errors"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/components/app.jsx:82
+#: src/components/app.jsx:83
 msgid "$0 installation"
 msgstr "Installation ng $0"
 
@@ -62,7 +62,7 @@ msgid_plural "$0 warnings"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/components/review/StorageReview.jsx:285
+#: src/components/storage/StorageReview.jsx:283
 msgid "$0 will be deleted"
 msgstr "Buburahin ang $0"
 
@@ -92,12 +92,12 @@ msgstr ""
 msgid "About"
 msgstr "Tungkol"
 
-#: src/components/review/ReviewConfiguration.jsx:243
+#: src/components/review/ReviewConfiguration.jsx:233
 msgid "Account"
 msgstr "Account"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
-#: src/components/review/StorageReview.jsx:243
+#: src/components/storage/StorageReview.jsx:241
 msgid "Actions"
 msgstr "Mga aksyon"
 
@@ -251,7 +251,7 @@ msgstr ""
 "Agad-agad na makakaapekto sa system ang mga pagbabagong gagawin rito. Wala "
 "nang bawian, walang 'undo'."
 
-#: src/components/review/ReviewConfiguration.jsx:180
+#: src/components/review/ReviewConfiguration.jsx:170
 #, fuzzy
 #| msgid "Checking storage configuration"
 msgid "Checking installation configuration..."
@@ -294,7 +294,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Kumpleto"
 
-#: src/components/review/ReviewConfiguration.jsx:201
+#: src/components/review/ReviewConfiguration.jsx:191
 msgid "Configuration is incomplete"
 msgstr ""
 
@@ -366,7 +366,7 @@ msgstr "Custom"
 msgid "Date"
 msgstr ""
 
-#: src/components/datetime/index.js:18
+#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr ""
@@ -377,7 +377,7 @@ msgstr ""
 msgid "Delete partition"
 msgstr "extended partition"
 
-#: src/components/review/StorageReview.jsx:343
+#: src/components/storage/StorageReview.jsx:341
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 "Maaaring hindi maka-boot ang $0 kung tatanggalin ang ilang partition: $1"
@@ -404,8 +404,8 @@ msgstr ""
 msgid "Detected valid storage layout:"
 msgstr "Naka-detect ng valid na storage layout:"
 
+#: src/components/storage/StorageReview.jsx:239
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
-#: src/components/review/StorageReview.jsx:241
 msgid "Device"
 msgstr "Device"
 
@@ -425,7 +425,7 @@ msgstr "I-enable ang root account"
 msgid "Encrypt my data"
 msgstr "I-encrypt ang data ko"
 
-#: src/components/review/StorageReview.jsx:244
+#: src/components/storage/StorageReview.jsx:242
 msgid "Encrypted"
 msgstr "Naka-encrypt"
 
@@ -506,7 +506,7 @@ msgstr "Buong pangalan"
 msgid "Full name cannot contain colon characters"
 msgstr "Dapat walang tutuldok ang buong pangalan"
 
-#: src/components/review/StorageReview.jsx:246
+#: src/components/storage/StorageReview.jsx:244
 msgid "Helper text"
 msgstr ""
 
@@ -530,11 +530,11 @@ msgstr "Itago ang password"
 msgid "Hostname"
 msgstr "Hostname"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:148
+#: src/components/storage/installation-method/InstallationScenario.jsx:145
 msgid "How would you like to install?"
 msgstr "Paano mo gustong mag-install?"
 
-#: src/components/review/ReviewConfiguration.jsx:298
+#: src/components/review/ReviewConfiguration.jsx:288
 #, fuzzy
 #| msgid "I understand that all existing data will be erased"
 msgid "I understand that all existing data will be erased"
@@ -543,11 +543,11 @@ msgid_plural ""
 msgstr[0] "Naiintindihan kong mabubura lahat ng kasalukuyang data"
 msgstr[1] "Naiintindihan kong mabubura lahat ng kasalukuyang data"
 
-#: src/components/review/ReviewConfiguration.jsx:303
+#: src/components/review/ReviewConfiguration.jsx:293
 msgid "I understand that some existing data will be erased"
 msgstr "Naiintindihan kong mabubura ang ilang kasalukuyang data"
 
-#: src/components/review/ReviewConfiguration.jsx:304
+#: src/components/review/ReviewConfiguration.jsx:294
 msgid "I understand that some partitions will be modified"
 msgstr "Naiintindihan kong mababago ang ilang mga partition"
 
@@ -579,7 +579,7 @@ msgstr ""
 msgid "In progress"
 msgstr "Umaandar"
 
-#: src/components/app.jsx:32
+#: src/components/app.jsx:33
 msgid "Initializing..."
 msgstr "Inihahanda..."
 
@@ -594,7 +594,7 @@ msgstr "I-install"
 msgid "Installation failed"
 msgstr "Nabigo ang pag-install"
 
-#: src/components/storage/installation-method/index.js:20
+#: src/components/storage/installation-method/index.js:24
 msgid "Installation method"
 msgstr "Paraan sa pag-install"
 
@@ -607,7 +607,7 @@ msgstr "Nabigo ang pag-install ng system"
 msgid "Installation of the system failed: $0"
 msgstr "Nabigo ang pag-install ng system: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:248
 msgid "Installation type"
 msgstr "Uri ng installation"
 
@@ -639,7 +639,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Hindi wastong pangalan ng container "
 
-#: src/components/review/ReviewConfiguration.jsx:197
+#: src/components/review/ReviewConfiguration.jsx:187
 #, fuzzy
 #| msgid "completed step"
 msgid "Jump to first incomplete step"
@@ -661,7 +661,7 @@ msgstr "Keyboard"
 msgid "Keyboard layout during boot"
 msgstr "Keyboard layout habang nagbo-boot"
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:213
 #: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "Wika"
@@ -700,7 +700,7 @@ msgstr "Manu-manong configuration ng disk: Pagtatakda ng mga mount point"
 msgid "May contain letters, numbers, and dashes."
 msgstr "Pwedeng may mga letra, numero, at gitling."
 
-#: src/components/review/StorageReview.jsx:87
+#: src/components/storage/StorageReview.jsx:85
 #, fuzzy
 msgid "May need more free space"
 msgstr "Nabigo ang Koneksyon"
@@ -719,8 +719,8 @@ msgstr ""
 "May hindi pagkakatugma sa reformat selection sa pagitan ng parent device at "
 "child device."
 
+#: src/components/storage/StorageReview.jsx:243
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
-#: src/components/review/StorageReview.jsx:245
 msgid "Mount point"
 msgstr "Mount point"
 
@@ -755,7 +755,7 @@ msgstr ""
 msgid "Name"
 msgstr "Pangalan"
 
-#: src/components/review/StorageReview.jsx:85
+#: src/components/storage/StorageReview.jsx:83
 msgid "Needs at least $0"
 msgstr ""
 
@@ -830,10 +830,6 @@ msgstr "Hindi sapat ang bakanteng espasyo sa mga napiling disk."
 msgid "Not enough space on selected disks."
 msgstr "Hindi sapat ang espasyo sa mga napiling disk."
 
-#: src/components/review/StorageReview.jsx:387
-msgid "Note"
-msgstr "Paalala"
-
 #: src/components/AnacondaHeader.jsx:71
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -848,7 +844,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:202
 msgid "Operating system"
 msgstr "Operating system"
 
@@ -922,15 +918,15 @@ msgstr "Umalis"
 msgid "Quit installer?"
 msgstr "Umalis sa installer?"
 
-#: src/components/app.jsx:127
+#: src/components/app.jsx:128
 msgid "Reading information about the OS failed."
 msgstr "Nabigo ang pagbasa ng impormasyon tungkol sa OS."
 
-#: src/components/app.jsx:72
+#: src/components/app.jsx:73
 msgid "Reading information about the computer failed."
 msgstr "Nabigo ang pagbasa ng impormasyon tungkol sa kompyuter."
 
-#: src/components/app.jsx:117
+#: src/components/app.jsx:118
 msgid "Reading installer configuration failed."
 msgstr "Nabigo ang pagbasa ng configuration ng installer."
 
@@ -1090,7 +1086,7 @@ msgstr "I-resize"
 msgid "Resize partition"
 msgstr "Extended partition"
 
-#: src/components/review/StorageReview.jsx:349
+#: src/components/storage/StorageReview.jsx:347
 msgid "Resizing the following partitions from $0: $1"
 msgstr "Ire-resize ang mga sumusunod na partition mula sa $0: $1"
 
@@ -1248,7 +1244,7 @@ msgstr "Ipakita ang passphrase"
 msgid "Show password"
 msgstr "Ipakita ang password"
 
-#: src/components/review/StorageReview.jsx:242
+#: src/components/storage/StorageReview.jsx:240
 msgid "Size"
 msgstr "Laki"
 
@@ -1264,14 +1260,14 @@ msgstr ""
 "Installation ng software: Kumpleto na ang configuration ng storage. Ini-"
 "install na ngayon ang software sa iyong device."
 
-#: src/components/review/ReviewConfiguration.jsx:236
+#: src/components/review/ReviewConfiguration.jsx:226
 #: src/components/software/index.js:19 src/components/software/index.js:20
 #, fuzzy
 #| msgid "Software installation"
 msgid "Software selection"
 msgstr "Installation ng software"
 
-#: src/components/review/ReviewConfiguration.jsx:204
+#: src/components/review/ReviewConfiguration.jsx:194
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1288,7 +1284,7 @@ msgstr "Espasyo"
 msgid "Stacktrace"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:255
 msgid "Storage"
 msgstr "Storage"
 
@@ -1368,7 +1364,7 @@ msgstr ""
 "Configuration ng system: Tapos na ang installation ng software. Kino-"
 "configure na ang system."
 
-#: src/components/app.jsx:162
+#: src/components/app.jsx:163
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr ""
 
@@ -1451,7 +1447,7 @@ msgid "Time"
 msgstr ""
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:230
+#: src/components/review/ReviewConfiguration.jsx:220
 #, fuzzy
 #| msgid "%s timezone"
 msgid "Timezone"
@@ -1570,11 +1566,11 @@ msgstr "Inihahanda..."
 msgid "Weak"
 msgstr "Mahina"
 
-#: src/components/localization/index.js:18
+#: src/components/localization/index.js:21
 msgid "Welcome"
 msgstr "Maligayang pagdating"
 
-#: src/components/localization/index.js:19
+#: src/components/localization/index.js:22
 msgid "Welcome to Fedora Linux"
 msgstr ""
 
@@ -1628,7 +1624,7 @@ msgstr "kasalukuyang hakbang"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/review/StorageReview.jsx:164
+#: src/components/storage/StorageReview.jsx:162
 msgid "delete"
 msgstr "burahin"
 
@@ -1636,11 +1632,11 @@ msgstr "burahin"
 msgid "edit"
 msgstr "i-edit"
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypt"
 msgstr "i-encrypt"
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypted"
 msgstr "naka-encrypt"
 
@@ -1648,7 +1644,7 @@ msgstr "naka-encrypt"
 msgid "extended partition"
 msgstr "extended partition"
 
-#: src/components/review/StorageReview.jsx:104
+#: src/components/storage/StorageReview.jsx:102
 msgid "format as $0"
 msgstr "i-format bilang $0"
 
@@ -1656,13 +1652,13 @@ msgstr "i-format bilang $0"
 msgid "here"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:56
+#: src/components/review/ReviewConfiguration.jsx:58
 #, fuzzy
 #| msgid "Completed"
 msgid "incomplete"
 msgstr "Kumpleto"
 
-#: src/components/review/StorageReview.jsx:108
+#: src/components/storage/StorageReview.jsx:106
 msgid "mount"
 msgstr "mount"
 
@@ -1674,7 +1670,7 @@ msgstr "nakabinbing hakbang"
 msgid "report the issue manually"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:169
+#: src/components/storage/StorageReview.jsx:167
 msgid "resized from $0"
 msgstr "ni-resize mula $0"
 
@@ -1690,6 +1686,9 @@ msgstr "paliitin sa $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:375
 msgid "undo"
 msgstr "i-undo"
+
+#~ msgid "Note"
+#~ msgstr "Paalala"
 
 #~ msgid ""
 #~ "I understand that all existing data will be erased from the selected disks"

@@ -63,7 +63,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-05 05:30+0000\n"
+"POT-Creation-Date: 2026-05-06 05:44+0000\n"
 "PO-Revision-Date: 2026-02-03 04:28+0000\n"
 "Last-Translator: Yoshiaki Ishii "
 "<zouforestyoppy@users.noreply.translate.fedoraproject.org>\n"
@@ -95,7 +95,7 @@ msgid "$0 error"
 msgid_plural "$0 errors"
 msgstr[0] "エラー"
 
-#: src/components/app.jsx:82
+#: src/components/app.jsx:83
 msgid "$0 installation"
 msgstr "$0 のインストール"
 
@@ -121,7 +121,7 @@ msgid "$0 warning"
 msgid_plural "$0 warnings"
 msgstr[0] ""
 
-#: src/components/review/StorageReview.jsx:285
+#: src/components/storage/StorageReview.jsx:283
 msgid "$0 will be deleted"
 msgstr "$0 は削除されます"
 
@@ -149,12 +149,12 @@ msgstr "システム全体の変更を行うための管理者権限を持つ標
 msgid "About"
 msgstr "About"
 
-#: src/components/review/ReviewConfiguration.jsx:243
+#: src/components/review/ReviewConfiguration.jsx:233
 msgid "Account"
 msgstr "アカウント"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
-#: src/components/review/StorageReview.jsx:243
+#: src/components/storage/StorageReview.jsx:241
 msgid "Actions"
 msgstr "アクション"
 
@@ -314,7 +314,7 @@ msgstr ""
 "ここで行う変更はシステムに直ちに影響を及ぼします。操作を'元に戻す'ことはでき"
 "ません。"
 
-#: src/components/review/ReviewConfiguration.jsx:180
+#: src/components/review/ReviewConfiguration.jsx:170
 #, fuzzy
 #| msgid "Checking storage configuration..."
 msgid "Checking installation configuration..."
@@ -356,7 +356,7 @@ msgstr ""
 msgid "Completed"
 msgstr "完了しました"
 
-#: src/components/review/ReviewConfiguration.jsx:201
+#: src/components/review/ReviewConfiguration.jsx:191
 #, fuzzy
 #| msgid "Apply configuration in installer"
 msgid "Configuration is incomplete"
@@ -428,7 +428,7 @@ msgstr "カスタム"
 msgid "Date"
 msgstr ""
 
-#: src/components/datetime/index.js:18
+#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr "日付と時刻"
@@ -439,7 +439,7 @@ msgstr "日付と時刻"
 msgid "Delete partition"
 msgstr "推奨されるパーティション:"
 
-#: src/components/review/StorageReview.jsx:343
+#: src/components/storage/StorageReview.jsx:341
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
@@ -465,8 +465,8 @@ msgstr "デバイスの説明"
 msgid "Detected valid storage layout:"
 msgstr "有効なストレージ構成が見つかりました:"
 
+#: src/components/storage/StorageReview.jsx:239
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
-#: src/components/review/StorageReview.jsx:241
 msgid "Device"
 msgstr "デバイス"
 
@@ -486,7 +486,7 @@ msgstr "rootアカウントを有効化"
 msgid "Encrypt my data"
 msgstr "データを暗号化する"
 
-#: src/components/review/StorageReview.jsx:244
+#: src/components/storage/StorageReview.jsx:242
 msgid "Encrypted"
 msgstr "暗号化済み"
 
@@ -565,7 +565,7 @@ msgstr "フルネーム"
 msgid "Full name cannot contain colon characters"
 msgstr "フルネームにはコロン ':' を使用できません"
 
-#: src/components/review/StorageReview.jsx:246
+#: src/components/storage/StorageReview.jsx:244
 msgid "Helper text"
 msgstr ""
 
@@ -591,11 +591,11 @@ msgstr "パスワードを非表示にする"
 msgid "Hostname"
 msgstr "ホスト名"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:148
+#: src/components/storage/installation-method/InstallationScenario.jsx:145
 msgid "How would you like to install?"
 msgstr "どのようにインストールしますか？"
 
-#: src/components/review/ReviewConfiguration.jsx:298
+#: src/components/review/ReviewConfiguration.jsx:288
 #, fuzzy
 #| msgid "I understand that all existing data will be erased"
 msgid "I understand that all existing data will be erased"
@@ -603,11 +603,11 @@ msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] "既存のデータが全て削除されることを理解しました"
 
-#: src/components/review/ReviewConfiguration.jsx:303
+#: src/components/review/ReviewConfiguration.jsx:293
 msgid "I understand that some existing data will be erased"
 msgstr "既存のデータが一部削除されることを理解しました"
 
-#: src/components/review/ReviewConfiguration.jsx:304
+#: src/components/review/ReviewConfiguration.jsx:294
 msgid "I understand that some partitions will be modified"
 msgstr "一部のパーティションが変更されることを理解しました"
 
@@ -635,7 +635,7 @@ msgstr "リスクを理解または承諾しない場合は、このプログラ
 msgid "In progress"
 msgstr "進行中"
 
-#: src/components/app.jsx:32
+#: src/components/app.jsx:33
 msgid "Initializing..."
 msgstr "初期化中..."
 
@@ -650,7 +650,7 @@ msgstr "インストール"
 msgid "Installation failed"
 msgstr "インストールに失敗しました"
 
-#: src/components/storage/installation-method/index.js:20
+#: src/components/storage/installation-method/index.js:24
 msgid "Installation method"
 msgstr "インストール方法"
 
@@ -663,7 +663,7 @@ msgstr "システムのインストールに失敗しました"
 msgid "Installation of the system failed: $0"
 msgstr "システムのインストールに失敗しました: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:248
 msgid "Installation type"
 msgstr "インストールタイプ"
 
@@ -688,7 +688,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "無効なホスト名です"
 
-#: src/components/review/ReviewConfiguration.jsx:197
+#: src/components/review/ReviewConfiguration.jsx:187
 #, fuzzy
 #| msgid "completed step"
 msgid "Jump to first incomplete step"
@@ -710,7 +710,7 @@ msgstr "キーボード"
 msgid "Keyboard layout during boot"
 msgstr "起動時のキーボードレイアウト"
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:213
 #: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "言語"
@@ -751,7 +751,7 @@ msgstr "手動のディスク構成: マウントポイントの割り当て"
 msgid "May contain letters, numbers, and dashes."
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:87
+#: src/components/storage/StorageReview.jsx:85
 msgid "May need more free space"
 msgstr "より多くの空き容量が必要かもしれません"
 
@@ -767,8 +767,8 @@ msgstr ""
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr "親デバイスと子デバイスの再フォーマットの選択が一致していません。"
 
+#: src/components/storage/StorageReview.jsx:243
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
-#: src/components/review/StorageReview.jsx:245
 msgid "Mount point"
 msgstr "マウントポイント"
 
@@ -803,7 +803,7 @@ msgstr "NTS"
 msgid "Name"
 msgstr "名前"
 
-#: src/components/review/StorageReview.jsx:85
+#: src/components/storage/StorageReview.jsx:83
 msgid "Needs at least $0"
 msgstr ""
 
@@ -876,10 +876,6 @@ msgstr "選択したディスクには十分な空き領域がありません。
 msgid "Not enough space on selected disks."
 msgstr "選択したディスクには十分な空き領域がありません。"
 
-#: src/components/review/StorageReview.jsx:387
-msgid "Note"
-msgstr "注記"
-
 #: src/components/AnacondaHeader.jsx:71
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -893,7 +889,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:202
 msgid "Operating system"
 msgstr "オペレーティングシステム"
 
@@ -965,15 +961,15 @@ msgstr "終了"
 msgid "Quit installer?"
 msgstr "インストーラーを終了しますか？"
 
-#: src/components/app.jsx:127
+#: src/components/app.jsx:128
 msgid "Reading information about the OS failed."
 msgstr "OS に関する情報の読み取りに失敗しました。"
 
-#: src/components/app.jsx:72
+#: src/components/app.jsx:73
 msgid "Reading information about the computer failed."
 msgstr "コンピュータに関する情報の読み取りに失敗しました。"
 
-#: src/components/app.jsx:117
+#: src/components/app.jsx:118
 msgid "Reading installer configuration failed."
 msgstr "インストーラーの設定の読み込みに失敗しました。"
 
@@ -1133,7 +1129,7 @@ msgstr "サイズの変更"
 msgid "Resize partition"
 msgstr "拡張パーティション"
 
-#: src/components/review/StorageReview.jsx:349
+#: src/components/storage/StorageReview.jsx:347
 msgid "Resizing the following partitions from $0: $1"
 msgstr ""
 
@@ -1290,7 +1286,7 @@ msgstr "パスフレーズを表示する"
 msgid "Show password"
 msgstr "パスワードを表示する"
 
-#: src/components/review/StorageReview.jsx:242
+#: src/components/storage/StorageReview.jsx:240
 msgid "Size"
 msgstr ""
 
@@ -1306,12 +1302,12 @@ msgstr ""
 "ソフトウェアのインストール: ストレージの構成が完了しました。 ソフトウェアがデ"
 "バイスにインストールされています。"
 
-#: src/components/review/ReviewConfiguration.jsx:236
+#: src/components/review/ReviewConfiguration.jsx:226
 #: src/components/software/index.js:19 src/components/software/index.js:20
 msgid "Software selection"
 msgstr "ソフトウェアの選択"
 
-#: src/components/review/ReviewConfiguration.jsx:204
+#: src/components/review/ReviewConfiguration.jsx:194
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1328,7 +1324,7 @@ msgstr "領域"
 msgid "Stacktrace"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:255
 msgid "Storage"
 msgstr "ストレージ"
 
@@ -1408,7 +1404,7 @@ msgstr ""
 "システムの構成: ソフトウェアのインストールが完了しました。 現在システムを構成"
 "中です。"
 
-#: src/components/app.jsx:162
+#: src/components/app.jsx:163
 #, fuzzy
 #| msgid "Choose an installation source type."
 msgid "The Anaconda installation has stopped unexpectedly."
@@ -1491,7 +1487,7 @@ msgid "Time"
 msgstr "時間"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:230
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid "Timezone"
 msgstr "タイムゾーン"
 
@@ -1610,11 +1606,11 @@ msgstr "初期化中..."
 msgid "Weak"
 msgstr "弱い"
 
-#: src/components/localization/index.js:18
+#: src/components/localization/index.js:21
 msgid "Welcome"
 msgstr "ようこそ"
 
-#: src/components/localization/index.js:19
+#: src/components/localization/index.js:22
 #, fuzzy
 #| msgid "Welcome to Fedora"
 msgid "Welcome to Fedora Linux"
@@ -1670,7 +1666,7 @@ msgstr "現在の手順"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/review/StorageReview.jsx:164
+#: src/components/storage/StorageReview.jsx:162
 #, fuzzy
 #| msgid "Delete"
 msgid "delete"
@@ -1680,11 +1676,11 @@ msgstr "削除"
 msgid "edit"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypt"
 msgstr "暗号化"
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 msgid "encrypted"
 msgstr "暗号化済み"
 
@@ -1694,7 +1690,7 @@ msgstr "暗号化済み"
 msgid "extended partition"
 msgstr "推奨されるパーティション:"
 
-#: src/components/review/StorageReview.jsx:104
+#: src/components/storage/StorageReview.jsx:102
 msgid "format as $0"
 msgstr "$0 としてフォーマットする"
 
@@ -1702,13 +1698,13 @@ msgstr "$0 としてフォーマットする"
 msgid "here"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:56
+#: src/components/review/ReviewConfiguration.jsx:58
 #, fuzzy
 #| msgid "Completed"
 msgid "incomplete"
 msgstr "完了しました"
 
-#: src/components/review/StorageReview.jsx:108
+#: src/components/storage/StorageReview.jsx:106
 msgid "mount"
 msgstr "マウント"
 
@@ -1720,7 +1716,7 @@ msgstr "保留中の手順"
 msgid "report the issue manually"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:169
+#: src/components/storage/StorageReview.jsx:167
 msgid "resized from $0"
 msgstr ""
 
@@ -1736,6 +1732,9 @@ msgstr "$0 に縮小"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:375
 msgid "undo"
 msgstr ""
+
+#~ msgid "Note"
+#~ msgstr "注記"
 
 #~ msgid ""
 #~ "I understand that all existing data will be erased from the selected disks"

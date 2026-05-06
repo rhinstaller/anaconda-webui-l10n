@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-05 05:30+0000\n"
+"POT-Creation-Date: 2026-05-06 05:44+0000\n"
 "PO-Revision-Date: 2023-11-06 12:20+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Marathi <https://translate.fedoraproject.org/projects/"
@@ -53,7 +53,7 @@ msgid_plural "$0 errors"
 msgstr[0] "त्रुटी"
 msgstr[1] "त्रुटी"
 
-#: src/components/app.jsx:82
+#: src/components/app.jsx:83
 #, fuzzy
 msgid "$0 installation"
 msgstr "इंस्टॉलेशन"
@@ -80,7 +80,7 @@ msgid_plural "$0 warnings"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/components/review/StorageReview.jsx:285
+#: src/components/storage/StorageReview.jsx:283
 #, fuzzy
 #| msgid "No user will be created"
 msgid "$0 will be deleted"
@@ -111,12 +111,12 @@ msgstr ""
 msgid "About"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:243
+#: src/components/review/ReviewConfiguration.jsx:233
 msgid "Account"
 msgstr ""
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
-#: src/components/review/StorageReview.jsx:243
+#: src/components/storage/StorageReview.jsx:241
 #, fuzzy
 #| msgid "Action"
 msgid "Actions"
@@ -274,7 +274,7 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:180
+#: src/components/review/ReviewConfiguration.jsx:170
 #, fuzzy
 #| msgid "Checking storage configuration..."
 msgid "Checking installation configuration..."
@@ -316,7 +316,7 @@ msgstr ""
 msgid "Completed"
 msgstr "पूर्ण झाले!"
 
-#: src/components/review/ReviewConfiguration.jsx:201
+#: src/components/review/ReviewConfiguration.jsx:191
 #, fuzzy
 #| msgid "Apply configuration in installer"
 msgid "Configuration is incomplete"
@@ -396,7 +396,7 @@ msgstr ""
 msgid "Date"
 msgstr ""
 
-#: src/components/datetime/index.js:18
+#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr ""
@@ -407,7 +407,7 @@ msgstr ""
 msgid "Delete partition"
 msgstr "मानक विभाजन"
 
-#: src/components/review/StorageReview.jsx:343
+#: src/components/storage/StorageReview.jsx:341
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
@@ -435,8 +435,8 @@ msgstr "साधनचे वर्णन"
 msgid "Detected valid storage layout:"
 msgstr ""
 
+#: src/components/storage/StorageReview.jsx:239
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
-#: src/components/review/StorageReview.jsx:241
 msgid "Device"
 msgstr ""
 
@@ -459,7 +459,7 @@ msgstr ""
 msgid "Encrypt my data"
 msgstr "एंक्रिप्ट करा"
 
-#: src/components/review/StorageReview.jsx:244
+#: src/components/storage/StorageReview.jsx:242
 #, fuzzy
 #| msgid "Encrypt"
 msgid "Encrypted"
@@ -550,7 +550,7 @@ msgstr ""
 msgid "Full name cannot contain colon characters"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:246
+#: src/components/storage/StorageReview.jsx:244
 msgid "Helper text"
 msgstr ""
 
@@ -577,22 +577,22 @@ msgstr "रिकामे पासवर्ड"
 msgid "Hostname"
 msgstr ""
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:148
+#: src/components/storage/installation-method/InstallationScenario.jsx:145
 msgid "How would you like to install?"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:298
+#: src/components/review/ReviewConfiguration.jsx:288
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/components/review/ReviewConfiguration.jsx:303
+#: src/components/review/ReviewConfiguration.jsx:293
 msgid "I understand that some existing data will be erased"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:304
+#: src/components/review/ReviewConfiguration.jsx:294
 msgid "I understand that some partitions will be modified"
 msgstr ""
 
@@ -621,7 +621,7 @@ msgstr ""
 msgid "In progress"
 msgstr "प्रगती"
 
-#: src/components/app.jsx:32
+#: src/components/app.jsx:33
 msgid "Initializing..."
 msgstr ""
 
@@ -637,7 +637,7 @@ msgstr "इंस्टॉल करा"
 msgid "Installation failed"
 msgstr "इंस्टॉलेशन"
 
-#: src/components/storage/installation-method/index.js:20
+#: src/components/storage/installation-method/index.js:24
 #, fuzzy
 msgid "Installation method"
 msgstr "इंस्टॉलेशन"
@@ -653,7 +653,7 @@ msgstr "इंस्टॉलेशन"
 msgid "Installation of the system failed: $0"
 msgstr "इंस्टॉलेशन"
 
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:248
 #, fuzzy
 msgid "Installation type"
 msgstr "इंस्टॉलेशन"
@@ -682,7 +682,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "अवैध वेळक्षेत्र"
 
-#: src/components/review/ReviewConfiguration.jsx:197
+#: src/components/review/ReviewConfiguration.jsx:187
 #, fuzzy
 msgid "Jump to first incomplete step"
 msgstr "पूर्ण झाले!"
@@ -701,7 +701,7 @@ msgstr ""
 msgid "Keyboard layout during boot"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:213
 #: src/components/localization/InstallationLanguage.jsx:236
 #, fuzzy
 msgid "Language"
@@ -747,7 +747,7 @@ msgstr "साधन संरचना"
 msgid "May contain letters, numbers, and dashes."
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:87
+#: src/components/storage/StorageReview.jsx:85
 #, fuzzy
 msgid "May need more free space"
 msgstr "सॉफ्टवेअर इंस्टॉल करत आहे"
@@ -764,8 +764,8 @@ msgstr ""
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 
+#: src/components/storage/StorageReview.jsx:243
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
-#: src/components/review/StorageReview.jsx:245
 msgid "Mount point"
 msgstr ""
 
@@ -803,7 +803,7 @@ msgstr "DNS"
 msgid "Name"
 msgstr "नाव"
 
-#: src/components/review/StorageReview.jsx:85
+#: src/components/storage/StorageReview.jsx:83
 msgid "Needs at least $0"
 msgstr ""
 
@@ -880,10 +880,6 @@ msgstr "नीवडलेल्या डिस्क्स्वर अति�
 msgid "Not enough space on selected disks."
 msgstr "नीवडलेल्या डिस्क्स्वर अतिरिक्त मोकळी जागा आढळली नाही."
 
-#: src/components/review/StorageReview.jsx:387
-msgid "Note"
-msgstr ""
-
 #: src/components/AnacondaHeader.jsx:71
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -895,7 +891,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:202
 #, fuzzy
 msgid "Operating system"
 msgstr "वापरकर्ते निर्माण करत आहे"
@@ -976,16 +972,16 @@ msgstr ""
 msgid "Quit installer?"
 msgstr "ॲनाकाँडा साधने"
 
-#: src/components/app.jsx:127
+#: src/components/app.jsx:128
 #, fuzzy
 msgid "Reading information about the OS failed."
 msgstr "जोडणी अपयशी"
 
-#: src/components/app.jsx:72
+#: src/components/app.jsx:73
 msgid "Reading information about the computer failed."
 msgstr ""
 
-#: src/components/app.jsx:117
+#: src/components/app.jsx:118
 #, fuzzy
 msgid "Reading installer configuration failed."
 msgstr "स्टोरेज संरचना अपयशी: %s"
@@ -1151,7 +1147,7 @@ msgstr ""
 msgid "Resize partition"
 msgstr "मानक विभाजन"
 
-#: src/components/review/StorageReview.jsx:349
+#: src/components/storage/StorageReview.jsx:347
 msgid "Resizing the following partitions from $0: $1"
 msgstr ""
 
@@ -1317,7 +1313,7 @@ msgstr "रिकामे पासवर्ड"
 msgid "Show password"
 msgstr "रिकामे पासवर्ड"
 
-#: src/components/review/StorageReview.jsx:242
+#: src/components/storage/StorageReview.jsx:240
 msgid "Size"
 msgstr ""
 
@@ -1332,12 +1328,12 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:236
+#: src/components/review/ReviewConfiguration.jsx:226
 #: src/components/software/index.js:19 src/components/software/index.js:20
 msgid "Software selection"
 msgstr "सॉफ्टवेअर नीवड"
 
-#: src/components/review/ReviewConfiguration.jsx:204
+#: src/components/review/ReviewConfiguration.jsx:194
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1354,7 +1350,7 @@ msgstr ""
 msgid "Stacktrace"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:255
 msgid "Storage"
 msgstr ""
 
@@ -1437,7 +1433,7 @@ msgid ""
 "being configured."
 msgstr ""
 
-#: src/components/app.jsx:162
+#: src/components/app.jsx:163
 #, fuzzy
 #| msgid "Choose an installation source type."
 msgid "The Anaconda installation has stopped unexpectedly."
@@ -1520,7 +1516,7 @@ msgid "Time"
 msgstr ""
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:230
+#: src/components/review/ReviewConfiguration.jsx:220
 #, fuzzy
 #| msgid "%s timezone"
 msgid "Timezone"
@@ -1636,11 +1632,11 @@ msgstr ""
 msgid "Weak"
 msgstr "कमजोर"
 
-#: src/components/localization/index.js:18
+#: src/components/localization/index.js:21
 msgid "Welcome"
 msgstr ""
 
-#: src/components/localization/index.js:19
+#: src/components/localization/index.js:22
 #, fuzzy
 #| msgid "Welcome to Fedora"
 msgid "Welcome to Fedora Linux"
@@ -1695,7 +1691,7 @@ msgstr ""
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/review/StorageReview.jsx:164
+#: src/components/storage/StorageReview.jsx:162
 #, fuzzy
 #| msgid "Delete"
 msgid "delete"
@@ -1705,13 +1701,13 @@ msgstr "नष्ट करा"
 msgid "edit"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 #, fuzzy
 #| msgid "Encrypt"
 msgid "encrypt"
 msgstr "एंक्रिप्ट करा"
 
-#: src/components/review/StorageReview.jsx:133
+#: src/components/storage/StorageReview.jsx:131
 #, fuzzy
 #| msgid "Encrypt"
 msgid "encrypted"
@@ -1723,7 +1719,7 @@ msgstr "एंक्रिप्ट करा"
 msgid "extended partition"
 msgstr "मानक विभाजन"
 
-#: src/components/review/StorageReview.jsx:104
+#: src/components/storage/StorageReview.jsx:102
 msgid "format as $0"
 msgstr ""
 
@@ -1731,12 +1727,12 @@ msgstr ""
 msgid "here"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:56
+#: src/components/review/ReviewConfiguration.jsx:58
 #, fuzzy
 msgid "incomplete"
 msgstr "पूर्ण झाले!"
 
-#: src/components/review/StorageReview.jsx:108
+#: src/components/storage/StorageReview.jsx:106
 msgid "mount"
 msgstr ""
 
@@ -1748,7 +1744,7 @@ msgstr ""
 msgid "report the issue manually"
 msgstr ""
 
-#: src/components/review/StorageReview.jsx:169
+#: src/components/storage/StorageReview.jsx:167
 msgid "resized from $0"
 msgstr ""
 
