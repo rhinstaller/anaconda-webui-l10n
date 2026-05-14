@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-13 06:04+0000\n"
+"POT-Creation-Date: 2026-05-14 06:03+0000\n"
 "PO-Revision-Date: 2026-04-10 05:13+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://translate.fedoraproject.org/"
@@ -161,7 +161,7 @@ msgstr "Anaconda project page"
 msgid "Apply mount point assignment and install"
 msgstr "Apply mount point assignment and install"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#: src/components/network/CockpitNetworkConfiguration.jsx:75
 msgid "Applying changes..."
 msgstr "Applying changes..."
 
@@ -279,7 +279,7 @@ msgstr "Click 'Next' again to proceed despite these warnings."
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/storage/installation-method/InstallationDestination.jsx:360
-#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#: src/components/network/CockpitNetworkConfiguration.jsx:75
 msgid "Close"
 msgstr "Close"
 
@@ -315,7 +315,7 @@ msgstr "Configure NTP servers"
 msgid "Configure custom NTP servers"
 msgstr "C_onfigure"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:70
+#: src/components/network/CockpitNetworkConfiguration.jsx:50
 #: src/components/HeaderKebab.jsx:115
 #, fuzzy
 #| msgctxt "GUI|Network|Wireless|Configure"
@@ -776,7 +776,12 @@ msgstr ""
 msgid "Needs at least $0"
 msgstr ""
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:76
+#: src/components/network/index.js:19
+msgid "Network"
+msgstr ""
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:56
+#: src/components/network/index.js:20
 #, fuzzy
 #| msgid "Checking storage configuration"
 msgid "Network Configuration"
@@ -792,7 +797,8 @@ msgstr ""
 msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:54
+#: src/components/network/NetworkConfiguration.jsx:41
+#: src/components/network/CockpitNetworkConfiguration.jsx:34
 #, fuzzy
 #| msgid "Installation failed"
 msgid "Network plugin failed"
@@ -1287,7 +1293,7 @@ msgstr ""
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/installation/InstallationProgress.jsx:132
-#: src/components/steps.js:33
+#: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr ""
 

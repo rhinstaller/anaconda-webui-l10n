@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-13 06:04+0000\n"
+"POT-Creation-Date: 2026-05-14 06:03+0000\n"
 "PO-Revision-Date: 2023-11-06 12:22+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Tamil <https://translate.fedoraproject.org/projects/anaconda-"
@@ -178,7 +178,7 @@ msgstr "நிறுவலைத் தொடங்கு (_B)"
 msgid "Apply mount point assignment and install"
 msgstr "நிறுவியில் உள்ள அமைவாக்கத்தைப் பயன்படுத்து"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#: src/components/network/CockpitNetworkConfiguration.jsx:75
 msgid "Applying changes..."
 msgstr ""
 
@@ -301,7 +301,7 @@ msgstr ""
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/storage/installation-method/InstallationDestination.jsx:360
-#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#: src/components/network/CockpitNetworkConfiguration.jsx:75
 msgid "Close"
 msgstr "மூடு"
 
@@ -338,7 +338,7 @@ msgstr "NTP அமைவாக்கம் செய்"
 msgid "Configure custom NTP servers"
 msgstr "சாதனம் %s ஐ அமைவாக்கம் செய்யவும்"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:70
+#: src/components/network/CockpitNetworkConfiguration.jsx:50
 #: src/components/HeaderKebab.jsx:115
 #, fuzzy
 msgid "Configure network"
@@ -821,7 +821,12 @@ msgstr "பெயர்"
 msgid "Needs at least $0"
 msgstr ""
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:76
+#: src/components/network/index.js:19
+msgid "Network"
+msgstr "பிணையம்"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:56
+#: src/components/network/index.js:20
 #, fuzzy
 #| msgid "Network configuration"
 msgid "Network Configuration"
@@ -837,7 +842,8 @@ msgstr ""
 msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:54
+#: src/components/network/NetworkConfiguration.jsx:41
+#: src/components/network/CockpitNetworkConfiguration.jsx:34
 #, fuzzy
 #| msgid "Node login failed."
 msgid "Network plugin failed"
@@ -1400,7 +1406,7 @@ msgstr "சேமிப்பக விருப்பங்கள்"
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/installation/InstallationProgress.jsx:132
-#: src/components/steps.js:33
+#: src/components/steps.js:35
 #, fuzzy
 msgid "Storage configuration"
 msgstr "பிணைய அமைவாக்கம்"
@@ -3326,9 +3332,6 @@ msgstr ""
 
 #~ msgid "Need Space"
 #~ msgstr "இடம் தேவை"
-
-#~ msgid "Network"
-#~ msgstr "பிணையம்"
 
 #~ msgid "Network Config Box"
 #~ msgstr "பிணைய அமைவாக்கப் பெட்டி"

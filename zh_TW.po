@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-13 06:04+0000\n"
+"POT-Creation-Date: 2026-05-14 06:03+0000\n"
 "PO-Revision-Date: 2026-03-02 04:28+0000\n"
 "Last-Translator: Shihfu Juan <xlion@xlion.tw>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -179,7 +179,7 @@ msgstr "Anaconda 專案頁面"
 msgid "Apply mount point assignment and install"
 msgstr "套用掛載點分配並安裝"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#: src/components/network/CockpitNetworkConfiguration.jsx:75
 msgid "Applying changes..."
 msgstr ""
 
@@ -293,7 +293,7 @@ msgstr "請再次點擊「下一步」以繼續，儘管存在這些警告。"
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/storage/installation-method/InstallationDestination.jsx:360
-#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#: src/components/network/CockpitNetworkConfiguration.jsx:75
 msgid "Close"
 msgstr "關閉"
 
@@ -324,7 +324,7 @@ msgstr "設定 NTP 伺服器"
 msgid "Configure custom NTP servers"
 msgstr "設定自訂 NTP 伺服器"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:70
+#: src/components/network/CockpitNetworkConfiguration.jsx:50
 #: src/components/HeaderKebab.jsx:115
 msgid "Configure network"
 msgstr "設定網路"
@@ -755,7 +755,12 @@ msgstr "名稱"
 msgid "Needs at least $0"
 msgstr "最少需要 $0"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:76
+#: src/components/network/index.js:19
+msgid "Network"
+msgstr "網路"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:56
+#: src/components/network/index.js:20
 msgid "Network Configuration"
 msgstr "網路組態"
 
@@ -769,7 +774,8 @@ msgstr "網路不可用。 在頂部選單欄設定網路以回報問題。"
 msgid "Network not available. Configure the network to report the issue."
 msgstr "網路不可用。 設定網路以回報問題。"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:54
+#: src/components/network/NetworkConfiguration.jsx:41
+#: src/components/network/CockpitNetworkConfiguration.jsx:34
 msgid "Network plugin failed"
 msgstr "網路外掛失敗"
 
@@ -1242,7 +1248,7 @@ msgstr "儲存"
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/installation/InstallationProgress.jsx:132
-#: src/components/steps.js:33
+#: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "儲存裝置組態"
 
@@ -3833,9 +3839,6 @@ msgstr "復原"
 
 #~ msgid "Need Space"
 #~ msgstr "需要空間"
-
-#~ msgid "Network"
-#~ msgstr "網路"
 
 #~ msgid "Network Config Box"
 #~ msgstr "網路組態方塊"

@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-13 06:04+0000\n"
+"POT-Creation-Date: 2026-05-14 06:03+0000\n"
 "PO-Revision-Date: 2025-12-12 03:47+0000\n"
 "Last-Translator: Peter Chan <admin@hkphoto.org>\n"
 "Language-Team: Chinese (Hong Kong) <https://translate.fedoraproject.org/"
@@ -160,7 +160,7 @@ msgstr "Anaconda 專案頁面"
 msgid "Apply mount point assignment and install"
 msgstr "應用掛載點分配並安裝"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#: src/components/network/CockpitNetworkConfiguration.jsx:75
 msgid "Applying changes..."
 msgstr ""
 
@@ -278,7 +278,7 @@ msgstr ""
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/storage/installation-method/InstallationDestination.jsx:360
-#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#: src/components/network/CockpitNetworkConfiguration.jsx:75
 msgid "Close"
 msgstr "關閉"
 
@@ -307,7 +307,7 @@ msgstr "配置 NTP 伺服器"
 msgid "Configure custom NTP servers"
 msgstr "配置自定義 NTP 伺服器"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:70
+#: src/components/network/CockpitNetworkConfiguration.jsx:50
 #: src/components/HeaderKebab.jsx:115
 #, fuzzy
 #| msgid "Configure storage"
@@ -739,7 +739,14 @@ msgstr "名稱"
 msgid "Needs at least $0"
 msgstr ""
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:76
+#: src/components/network/index.js:19
+#, fuzzy
+#| msgid "Network Name"
+msgid "Network"
+msgstr "網絡名稱"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:56
+#: src/components/network/index.js:20
 #, fuzzy
 #| msgid "Storage configuration"
 msgid "Network Configuration"
@@ -755,7 +762,8 @@ msgstr "網路不可用。在頂部欄選單中配置網路以報告問題。"
 msgid "Network not available. Configure the network to report the issue."
 msgstr "網路不可用。配置網路以報告問題。"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:54
+#: src/components/network/NetworkConfiguration.jsx:41
+#: src/components/network/CockpitNetworkConfiguration.jsx:34
 #, fuzzy
 #| msgid "Storage plugin failed"
 msgid "Network plugin failed"
@@ -1234,7 +1242,7 @@ msgstr "儲存"
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/installation/InstallationProgress.jsx:132
-#: src/components/steps.js:33
+#: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "儲存配置"
 
@@ -2207,9 +2215,6 @@ msgstr "撤銷"
 
 #~ msgid "NETWORK CONFIGURATION"
 #~ msgstr "網絡組態"
-
-#~ msgid "Network Name"
-#~ msgstr "網絡名稱"
 
 #~ msgid "New Device"
 #~ msgstr "新裝置"

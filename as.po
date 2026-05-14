@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-13 06:04+0000\n"
+"POT-Creation-Date: 2026-05-14 06:03+0000\n"
 "PO-Revision-Date: 2023-11-06 12:15+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Assamese <https://translate.fedoraproject.org/projects/"
@@ -178,7 +178,7 @@ msgstr "ইনস্টলেষণ আৰম্ভ কৰক (_B)"
 msgid "Apply mount point assignment and install"
 msgstr "ইনস্টলাৰত সংৰূপ প্ৰয়োগ কৰক"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#: src/components/network/CockpitNetworkConfiguration.jsx:75
 msgid "Applying changes..."
 msgstr ""
 
@@ -301,7 +301,7 @@ msgstr ""
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/storage/installation-method/InstallationDestination.jsx:360
-#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#: src/components/network/CockpitNetworkConfiguration.jsx:75
 msgid "Close"
 msgstr "বন্ধ কৰক"
 
@@ -338,7 +338,7 @@ msgstr "NTP সংৰূপণ কৰক"
 msgid "Configure custom NTP servers"
 msgstr "ডিভাইচ %s সংৰূপণ কৰক"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:70
+#: src/components/network/CockpitNetworkConfiguration.jsx:50
 #: src/components/HeaderKebab.jsx:115
 #, fuzzy
 msgid "Configure network"
@@ -821,7 +821,12 @@ msgstr "নাম"
 msgid "Needs at least $0"
 msgstr ""
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:76
+#: src/components/network/index.js:19
+msgid "Network"
+msgstr "নেটৱৰ্ক"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:56
+#: src/components/network/index.js:20
 #, fuzzy
 #| msgid "Network configuration"
 msgid "Network Configuration"
@@ -837,7 +842,8 @@ msgstr ""
 msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:54
+#: src/components/network/NetworkConfiguration.jsx:41
+#: src/components/network/CockpitNetworkConfiguration.jsx:34
 #, fuzzy
 #| msgid "Node login failed."
 msgid "Network plugin failed"
@@ -1399,7 +1405,7 @@ msgstr "সংৰক্ষণ বিকল্পসমূহ"
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/installation/InstallationProgress.jsx:132
-#: src/components/steps.js:33
+#: src/components/steps.js:35
 #, fuzzy
 msgid "Storage configuration"
 msgstr "নেটৱৰ্ক সংৰূপ"
@@ -3358,9 +3364,6 @@ msgstr ""
 
 #~ msgid "Need Space"
 #~ msgstr "স্থানৰ প্ৰয়োজন"
-
-#~ msgid "Network"
-#~ msgstr "নেটৱৰ্ক"
 
 #~ msgid "Network Config Box"
 #~ msgstr "নেটৱৰ্ক সংৰূপ বাকচ"

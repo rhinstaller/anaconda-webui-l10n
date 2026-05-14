@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-13 06:04+0000\n"
+"POT-Creation-Date: 2026-05-14 06:03+0000\n"
 "PO-Revision-Date: 2026-05-09 05:37+0000\n"
 "Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/"
@@ -176,7 +176,7 @@ msgstr "Pàgina del projecte Anaconda"
 msgid "Apply mount point assignment and install"
 msgstr "Aplica l'assignació del punt de muntatge i instal·la"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#: src/components/network/CockpitNetworkConfiguration.jsx:75
 msgid "Applying changes..."
 msgstr "Aplicant canvis..."
 
@@ -294,7 +294,7 @@ msgstr "Torneu a fer clic a 'Següent' per continuar malgrat aquests avisos."
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/storage/installation-method/InstallationDestination.jsx:360
-#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#: src/components/network/CockpitNetworkConfiguration.jsx:75
 msgid "Close"
 msgstr "Tanca"
 
@@ -325,7 +325,7 @@ msgstr "Configura els servidors NTP"
 msgid "Configure custom NTP servers"
 msgstr "Configurar els servidors NTP personalitzats"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:70
+#: src/components/network/CockpitNetworkConfiguration.jsx:50
 #: src/components/HeaderKebab.jsx:115
 msgid "Configure network"
 msgstr "Configura la xarxa"
@@ -762,7 +762,12 @@ msgstr "Nom"
 msgid "Needs at least $0"
 msgstr "Necessita com a mínim $0"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:76
+#: src/components/network/index.js:19
+msgid "Network"
+msgstr "Xarxa"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:56
+#: src/components/network/index.js:20
 msgid "Network Configuration"
 msgstr "Configuració de Xarxa"
 
@@ -779,7 +784,8 @@ msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 "La xarxa no està disponible. Configureu la xarxa per informar del problema."
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:54
+#: src/components/network/NetworkConfiguration.jsx:41
+#: src/components/network/CockpitNetworkConfiguration.jsx:34
 msgid "Network plugin failed"
 msgstr "El connector de xarxa ha fallat"
 
@@ -1271,7 +1277,7 @@ msgstr "Emmagatzematge"
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/installation/InstallationProgress.jsx:132
-#: src/components/steps.js:33
+#: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Configuració d'emmagatzematge"
 
@@ -4017,9 +4023,6 @@ msgstr "desfer"
 
 #~ msgid "Need Space"
 #~ msgstr "Necessita espai"
-
-#~ msgid "Network"
-#~ msgstr "Xarxa"
 
 #~ msgid "Network Config Box"
 #~ msgstr "Requadre de configuració de la xarxa"

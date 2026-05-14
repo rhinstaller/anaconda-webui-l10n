@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-13 06:04+0000\n"
+"POT-Creation-Date: 2026-05-14 06:03+0000\n"
 "PO-Revision-Date: 2026-04-21 05:16+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <https://translate.fedoraproject.org/projects/anaconda-"
@@ -157,7 +157,7 @@ msgstr "Anaconda жобасының парағы"
 msgid "Apply mount point assignment and install"
 msgstr "Тіркеу нүктелерді тағайындауды іске асыру және орнату"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#: src/components/network/CockpitNetworkConfiguration.jsx:75
 msgid "Applying changes..."
 msgstr "Өзгерістерді іске асыру..."
 
@@ -280,7 +280,7 @@ msgstr ""
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/storage/installation-method/InstallationDestination.jsx:360
-#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#: src/components/network/CockpitNetworkConfiguration.jsx:75
 msgid "Close"
 msgstr "Жабу"
 
@@ -312,7 +312,7 @@ msgstr "NTP серверлерін баптау"
 msgid "Configure custom NTP servers"
 msgstr "Реттелетін NTP серверлерін баптау"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:70
+#: src/components/network/CockpitNetworkConfiguration.jsx:50
 #: src/components/HeaderKebab.jsx:115
 msgid "Configure network"
 msgstr "Желіні баптау"
@@ -753,7 +753,12 @@ msgstr "Аты"
 msgid "Needs at least $0"
 msgstr "Кем дегенде $0 қажет"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:76
+#: src/components/network/index.js:19
+msgid "Network"
+msgstr "Желі"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:56
+#: src/components/network/index.js:20
 msgid "Network Configuration"
 msgstr "Желі баптауы"
 
@@ -769,7 +774,8 @@ msgstr ""
 msgid "Network not available. Configure the network to report the issue."
 msgstr "Желі қолжетімді емес. Мәселе туралы хабарлау үшін желіні баптаңыз."
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:54
+#: src/components/network/NetworkConfiguration.jsx:41
+#: src/components/network/CockpitNetworkConfiguration.jsx:34
 msgid "Network plugin failed"
 msgstr "Желі плагині сәтсіз аяқталды"
 
@@ -1258,7 +1264,7 @@ msgstr "Сақтауыш"
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/installation/InstallationProgress.jsx:132
-#: src/components/steps.js:33
+#: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Сақтауыш құрылғылар баптаулары"
 
@@ -4033,9 +4039,6 @@ msgstr "болдырмау"
 
 #~ msgid "Need Space"
 #~ msgstr "Орын керек"
-
-#~ msgid "Network"
-#~ msgstr "Желі"
 
 #~ msgid "Network Config Box"
 #~ msgstr "Желіні баптау панелі"

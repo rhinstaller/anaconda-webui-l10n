@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-13 06:04+0000\n"
+"POT-Creation-Date: 2026-05-14 06:03+0000\n"
 "PO-Revision-Date: 2025-03-03 23:11+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -177,7 +177,7 @@ msgstr "Anaconda projekto puslapis"
 msgid "Apply mount point assignment and install"
 msgstr "Pritaikyti prijungimo taško priskyrimą ir įdiegti"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#: src/components/network/CockpitNetworkConfiguration.jsx:75
 #, fuzzy
 #| msgid "Applying new disk selection..."
 msgid "Applying changes..."
@@ -307,7 +307,7 @@ msgstr ""
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/storage/installation-method/InstallationDestination.jsx:360
-#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#: src/components/network/CockpitNetworkConfiguration.jsx:75
 msgid "Close"
 msgstr "Užverti"
 
@@ -343,7 +343,7 @@ msgstr "Konfigūruoti NTP serverius"
 msgid "Configure custom NTP servers"
 msgstr "Konfigūruoti NTP serverius"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:70
+#: src/components/network/CockpitNetworkConfiguration.jsx:50
 #: src/components/HeaderKebab.jsx:115
 #, fuzzy
 #| msgid "Configure storage"
@@ -806,7 +806,12 @@ msgstr "Pavadinimas"
 msgid "Needs at least $0"
 msgstr ""
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:76
+#: src/components/network/index.js:19
+msgid "Network"
+msgstr "Tinklas"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:56
+#: src/components/network/index.js:20
 #, fuzzy
 #| msgid "Network configuration"
 msgid "Network Configuration"
@@ -826,7 +831,8 @@ msgstr ""
 "Tinklas nepasiekiamas. Sukonfigūruokite tinklą, kad praneštumėte apie "
 "problemą."
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:54
+#: src/components/network/NetworkConfiguration.jsx:41
+#: src/components/network/CockpitNetworkConfiguration.jsx:34
 #, fuzzy
 #| msgid "Storage plugin failed"
 msgid "Network plugin failed"
@@ -1354,7 +1360,7 @@ msgstr "Saugykla"
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/installation/InstallationProgress.jsx:132
-#: src/components/steps.js:33
+#: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Saugyklos konfigūracija"
 
@@ -4111,9 +4117,6 @@ msgstr "anuliuoti"
 
 #~ msgid "Need Space"
 #~ msgstr "Reikia vietos"
-
-#~ msgid "Network"
-#~ msgstr "Tinklas"
 
 #~ msgid "Network Config Box"
 #~ msgstr "Tinklo konfigūracijos dėžė"

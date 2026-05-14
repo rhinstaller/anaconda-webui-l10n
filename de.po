@@ -69,7 +69,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-13 06:04+0000\n"
+"POT-Creation-Date: 2026-05-14 06:03+0000\n"
 "PO-Revision-Date: 2026-04-28 05:46+0000\n"
 "Last-Translator: Dark Cronyx <darkcronyx@protonmail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/anaconda-"
@@ -220,7 +220,7 @@ msgstr "Anaconda-Projektseite"
 msgid "Apply mount point assignment and install"
 msgstr "Einhängepunkt-Zuweisungen anwenden und installieren"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#: src/components/network/CockpitNetworkConfiguration.jsx:75
 msgid "Applying changes..."
 msgstr "Änderungen werden angewendet..."
 
@@ -341,7 +341,7 @@ msgstr ""
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/storage/installation-method/InstallationDestination.jsx:360
-#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#: src/components/network/CockpitNetworkConfiguration.jsx:75
 msgid "Close"
 msgstr "Schließen"
 
@@ -374,7 +374,7 @@ msgstr "NTP-Server konfigurieren"
 msgid "Configure custom NTP servers"
 msgstr "Benutzerdefinierte NTP-Server konfigurieren"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:70
+#: src/components/network/CockpitNetworkConfiguration.jsx:50
 #: src/components/HeaderKebab.jsx:115
 msgid "Configure network"
 msgstr "Netzwerk konfigurieren"
@@ -823,7 +823,12 @@ msgstr "Name"
 msgid "Needs at least $0"
 msgstr "Benötigt mindestens $0"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:76
+#: src/components/network/index.js:19
+msgid "Network"
+msgstr "Netzwerk"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:56
+#: src/components/network/index.js:20
 msgid "Network Configuration"
 msgstr "Netzwerkkonfiguration"
 
@@ -841,7 +846,8 @@ msgstr ""
 "Netzwerk nicht verfügbar. Konfigurieren Sie das Netzwerk, um das Problem zu "
 "melden."
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:54
+#: src/components/network/NetworkConfiguration.jsx:41
+#: src/components/network/CockpitNetworkConfiguration.jsx:34
 msgid "Network plugin failed"
 msgstr "Netzwerk-Plugin fehlgeschlagen"
 
@@ -1334,7 +1340,7 @@ msgstr "Speicher"
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/installation/InstallationProgress.jsx:132
-#: src/components/steps.js:33
+#: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Speicher Konfiguration"
 
@@ -4178,9 +4184,6 @@ msgstr "rückgängig machen"
 
 #~ msgid "Need Space"
 #~ msgstr "Platz benötigt"
-
-#~ msgid "Network"
-#~ msgstr "Netzwerk"
 
 #~ msgid "Network Config Box"
 #~ msgstr "Netzwerk-Konfigurationsbox"

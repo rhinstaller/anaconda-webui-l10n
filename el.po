@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-13 06:04+0000\n"
+"POT-Creation-Date: 2026-05-14 06:03+0000\n"
 "PO-Revision-Date: 2026-05-05 05:35+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/anaconda-"
@@ -175,7 +175,7 @@ msgstr "Σελίδα έργου Anacoda"
 msgid "Apply mount point assignment and install"
 msgstr "Εφαρμογή εκχώρησης σημείου προσάρτησης και εγκατάσταση"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#: src/components/network/CockpitNetworkConfiguration.jsx:75
 msgid "Applying changes..."
 msgstr "Εφαρμογή αλλαγών..."
 
@@ -297,7 +297,7 @@ msgstr ""
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/storage/installation-method/InstallationDestination.jsx:360
-#: src/components/network/CockpitNetworkConfiguration.jsx:95
+#: src/components/network/CockpitNetworkConfiguration.jsx:75
 msgid "Close"
 msgstr "Κλείσιμο"
 
@@ -328,7 +328,7 @@ msgstr "Ρύθμιση διακομιστών NTP"
 msgid "Configure custom NTP servers"
 msgstr "Ρύθμιση προσαρμοσμένων διακομιστών NTP"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:70
+#: src/components/network/CockpitNetworkConfiguration.jsx:50
 #: src/components/HeaderKebab.jsx:115
 msgid "Configure network"
 msgstr "Ρύθμιση δικτύου"
@@ -774,7 +774,14 @@ msgstr "Όνομα"
 msgid "Needs at least $0"
 msgstr "Απαιτεί τουλάχιστον $0"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:76
+#: src/components/network/index.js:19
+#, fuzzy
+#| msgid "Network Name"
+msgid "Network"
+msgstr "Όνομα δικτύου"
+
+#: src/components/network/CockpitNetworkConfiguration.jsx:56
+#: src/components/network/index.js:20
 msgid "Network Configuration"
 msgstr "Διαμόρφωση δικτύου"
 
@@ -791,7 +798,8 @@ msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 "Κανένα διαθέσιμο δίκτυο. Ρυθμίστε το δίκτυο για να αναφέρετε το πρόβλημα."
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:54
+#: src/components/network/NetworkConfiguration.jsx:41
+#: src/components/network/CockpitNetworkConfiguration.jsx:34
 msgid "Network plugin failed"
 msgstr "Αποτυχία αρθρώματος δικτύου"
 
@@ -1291,7 +1299,7 @@ msgstr "Αποθηκευτικός χώρος"
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/installation/InstallationProgress.jsx:132
-#: src/components/steps.js:33
+#: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Διαμόρφωση χώρου"
 
@@ -2266,9 +2274,6 @@ msgstr "αναίρεση"
 #~| msgid "Add a new repository."
 #~ msgid "Name of the repository"
 #~ msgstr "Προσθήκη νέου αποθετηρίου."
-
-#~ msgid "Network Name"
-#~ msgstr "Όνομα δικτύου"
 
 #, fuzzy
 #~| msgid "not configured"
