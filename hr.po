@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-14 06:03+0000\n"
+"POT-Creation-Date: 2026-05-15 06:19+0000\n"
 "PO-Revision-Date: 2023-11-06 12:18+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Croatian <https://translate.fedoraproject.org/projects/"
@@ -40,8 +40,8 @@ msgstr ""
 msgid "$0 ($1)"
 msgstr ""
 
-#: src/components/storage/Common.jsx:57
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:72
+#: src/components/storage/Common.jsx:57
 #, fuzzy
 #| msgid "Error"
 msgid "$0 error"
@@ -70,8 +70,8 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr ""
 
-#: src/components/storage/Common.jsx:73
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:88
+#: src/components/storage/Common.jsx:73
 msgid "$0 warning"
 msgid_plural "$0 warnings"
 msgstr[0] ""
@@ -185,7 +185,7 @@ msgstr "Anaconda program za instalaciju"
 msgid "Apply mount point assignment and install"
 msgstr "Primijeni podešavanje u instalacijskom programu"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:75
+#: src/components/network/CockpitNetworkConfiguration.jsx:64
 msgid "Applying changes..."
 msgstr ""
 
@@ -213,7 +213,7 @@ msgstr ""
 msgid "Available free space: $0. Installation requires: $1."
 msgstr ""
 
-#: src/components/Error.jsx:591 src/components/AnacondaWizardFooter.jsx:62
+#: src/components/AnacondaWizardFooter.jsx:62 src/components/Error.jsx:591
 msgid "Back"
 msgstr "Natrag"
 
@@ -248,12 +248,12 @@ msgstr ""
 "razvojne svrhe i testiranje, voljni ste prijaviti bilo kakvu grešku kako bi "
 "nam olakšali poboljšanje ovog uratka."
 
-#: src/components/datetime/CustomNTPModal.jsx:252
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:355
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
-#: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
+#: src/components/review/Hostname.jsx:127
 #: src/components/localization/Keyboard.jsx:280
+#: src/components/datetime/CustomNTPModal.jsx:252 src/components/Error.jsx:759
 #, fuzzy
 msgid "Cancel"
 msgstr "Odustani"
@@ -315,7 +315,7 @@ msgstr ""
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/storage/installation-method/InstallationDestination.jsx:360
-#: src/components/network/CockpitNetworkConfiguration.jsx:75
+#: src/components/network/CockpitNetworkConfiguration.jsx:64
 msgid "Close"
 msgstr "Zatvori"
 
@@ -349,8 +349,8 @@ msgstr "Podesi NTP poslužitelje"
 msgid "Configure custom NTP servers"
 msgstr "Podesi NTP poslužitelje"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:50
 #: src/components/HeaderKebab.jsx:115
+#: src/components/network/CockpitNetworkConfiguration.jsx:40
 #, fuzzy
 #| msgid "Configuring storage"
 msgid "Configure network"
@@ -422,8 +422,8 @@ msgstr "_Prilagođeno"
 msgid "Date"
 msgstr ""
 
-#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
+#: src/components/datetime/index.js:21
 #, fuzzy
 #| msgid "Set Date & Time"
 msgid "Date and time"
@@ -665,14 +665,14 @@ msgstr "U tijeku"
 msgid "Initializing..."
 msgstr "Instalacija."
 
+#: src/components/storage/scenarios/use-free-space/index.js:27
 #: src/components/storage/scenarios/use-configured-storage/index.js:25
 #: src/components/storage/scenarios/use-configured-storage/index.js:39
-#: src/components/storage/scenarios/use-free-space/index.js:27
 msgid "Install"
 msgstr "Instaliraj"
 
-#: src/components/Error.jsx:747
 #: src/components/installation/InstallationProgress.jsx:123
+#: src/components/Error.jsx:747
 msgid "Installation failed"
 msgstr "Instalacija neuspjela"
 
@@ -852,8 +852,8 @@ msgstr ""
 msgid "Network"
 msgstr "Mreža"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:56
 #: src/components/network/index.js:20
+#: src/components/network/CockpitNetworkConfiguration.jsx:46
 #, fuzzy
 #| msgid "Network configuration"
 msgid "Network Configuration"
@@ -869,14 +869,13 @@ msgstr ""
 msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 
-#: src/components/network/NetworkConfiguration.jsx:41
-#: src/components/network/CockpitNetworkConfiguration.jsx:34
+#: src/components/network/NetworkConfiguration.jsx:53
 #, fuzzy
 #| msgid "Node login failed."
 msgid "Network plugin failed"
 msgstr "Prijava čvora neuspjela."
 
-#: src/components/Error.jsx:581 src/components/AnacondaWizardFooter.jsx:71
+#: src/components/AnacondaWizardFooter.jsx:71 src/components/Error.jsx:581
 msgid "Next"
 msgstr ""
 
@@ -1014,8 +1013,8 @@ msgstr ""
 msgid "Proceed with installation"
 msgstr "Neuspjeli nastavak instalacije."
 
-#: src/components/Error.jsx:736 src/components/AnacondaWizardFooter.jsx:84
-#: src/components/AnacondaWizardFooter.jsx:119
+#: src/components/AnacondaWizardFooter.jsx:84
+#: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:736
 msgid "Quit"
 msgstr "Zatvori"
 
@@ -1055,8 +1054,8 @@ msgstr ""
 msgid "Real hostname must be 64 characters or less"
 msgstr "Naziv računala mora biti dugačak 255 znakova ili manje."
 
-#: src/components/Error.jsx:736 src/components/AnacondaWizardFooter.jsx:84
-#: src/components/AnacondaWizardFooter.jsx:119
+#: src/components/AnacondaWizardFooter.jsx:84
+#: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:736
 msgid "Reboot"
 msgstr "Ponovno pokreni"
 
@@ -1250,9 +1249,9 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "Korijenska lozinka je postavljena."
 
-#: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/review/Hostname.jsx:125
 #: src/components/localization/Keyboard.jsx:277
+#: src/components/datetime/CustomNTPModal.jsx:245
 #, fuzzy
 #| msgctxt "GUI|Custom Partitioning|Container Dialog"
 #| msgid "_Save"
@@ -1407,8 +1406,8 @@ msgstr ""
 "Instalacija softvera: Podešavanje uređaja pohrane je završena. Softver se "
 "trenutno instalira na vaš uređaj."
 
-#: src/components/review/ReviewConfiguration.jsx:226
 #: src/components/software/index.js:19 src/components/software/index.js:20
+#: src/components/review/ReviewConfiguration.jsx:226
 msgid "Software selection"
 msgstr "Odabir softvera"
 
@@ -1436,10 +1435,10 @@ msgstr ""
 msgid "Storage"
 msgstr "Mogućnosti uređaja pohrane"
 
+#: src/components/steps.js:35
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/installation/InstallationProgress.jsx:132
-#: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Podešavanje uređaja pohrane"
 
@@ -1606,8 +1605,8 @@ msgstr "Ovo može kratko potrajati"
 msgid "Time"
 msgstr "Vremenska zona: %s\n"
 
-#: src/components/datetime/Timezone.jsx:130
 #: src/components/review/ReviewConfiguration.jsx:220
+#: src/components/datetime/Timezone.jsx:130
 #, fuzzy
 #| msgid "Timezone: %s\n"
 msgid "Timezone"
