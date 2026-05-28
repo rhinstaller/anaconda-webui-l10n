@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-27 06:47+0000\n"
+"POT-Creation-Date: 2026-05-28 06:38+0000\n"
 "PO-Revision-Date: 2026-05-12 05:54+0000\n"
 "Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/"
@@ -39,8 +39,8 @@ msgstr "$0 $1"
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:72
 #: src/components/storage/Common.jsx:57
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:72
 msgid "$0 error"
 msgid_plural "$0 errors"
 msgstr[0] "$0 грешка"
@@ -67,15 +67,15 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr "$0 је потребно, али је доступно само $1."
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:88
 #: src/components/storage/Common.jsx:73
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:88
 msgid "$0 warning"
 msgid_plural "$0 warnings"
 msgstr[0] "$0 упозорење"
 msgstr[1] "$0 упозорења"
 msgstr[2] "$0 упозорења"
 
-#: src/components/storage/StorageReview.jsx:286
+#: src/components/storage/StorageReview.jsx:288
 msgid "$0 will be deleted"
 msgstr "$0 ће бити обрисано"
 
@@ -111,7 +111,7 @@ msgid "Account"
 msgstr "Налог"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
-#: src/components/storage/StorageReview.jsx:244
+#: src/components/storage/StorageReview.jsx:246
 msgid "Actions"
 msgstr "Радње"
 
@@ -191,7 +191,7 @@ msgstr "Самостално постави временску зону"
 msgid "Available free space: $0. Installation requires: $1."
 msgstr "Доступно слободног простора: $0. Инсталација захтева: $1."
 
-#: src/components/AnacondaWizardFooter.jsx:62 src/components/Error.jsx:591
+#: src/components/Error.jsx:591 src/components/AnacondaWizardFooter.jsx:62
 msgid "Back"
 msgstr "Назад"
 
@@ -223,12 +223,12 @@ msgstr ""
 "развоја и да сте вољни да пријавите све грешке или проблеме како бисте "
 "побољшали овај рад."
 
+#: src/components/datetime/CustomNTPModal.jsx:252
+#: src/components/review/Hostname.jsx:127
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:355
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
-#: src/components/review/Hostname.jsx:127
-#: src/components/localization/Keyboard.jsx:280
-#: src/components/datetime/CustomNTPModal.jsx:252 src/components/Error.jsx:759
+#: src/components/Error.jsx:759 src/components/localization/Keyboard.jsx:280
 msgid "Cancel"
 msgstr "Одустани"
 
@@ -277,8 +277,8 @@ msgstr "Очисти претрагу"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr "Кликните поново на „Следеће“ да наставите упркос овим упозорењима."
 
-#: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/storage/installation-method/InstallationDestination.jsx:360
+#: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/network/CockpitNetworkConfiguration.jsx:64
 msgid "Close"
 msgstr "Затвори"
@@ -363,8 +363,8 @@ msgstr "Прилагођено"
 msgid "Date"
 msgstr "Датум"
 
-#: src/components/datetime/DateAndTime.jsx:151
 #: src/components/datetime/index.js:21
+#: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr "Датум и време"
 
@@ -372,7 +372,7 @@ msgstr "Датум и време"
 msgid "Delete partition"
 msgstr "Обриши партицију"
 
-#: src/components/storage/StorageReview.jsx:344
+#: src/components/storage/StorageReview.jsx:346
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Брисање одређених партиција може спречити $0 да се покрене: $1"
 
@@ -396,8 +396,8 @@ msgstr "Детаљан опис проблема"
 msgid "Detected valid storage layout:"
 msgstr "Откривен је исправан распоред складишта:"
 
-#: src/components/storage/StorageReview.jsx:242
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
+#: src/components/storage/StorageReview.jsx:244
 msgid "Device"
 msgstr "Уређај"
 
@@ -417,7 +417,7 @@ msgstr "Омогући админ налог"
 msgid "Encrypt my data"
 msgstr "Шифруј моје податке"
 
-#: src/components/storage/StorageReview.jsx:245
+#: src/components/storage/StorageReview.jsx:247
 msgid "Encrypted"
 msgstr "Шифровано"
 
@@ -498,7 +498,7 @@ msgstr "Име и презиме"
 msgid "Full name cannot contain colon characters"
 msgstr "Име и презиме не смеју садржати две тачке"
 
-#: src/components/storage/StorageReview.jsx:247
+#: src/components/storage/StorageReview.jsx:249
 msgid "Helper text"
 msgstr "Помоћни текст"
 
@@ -577,9 +577,9 @@ msgstr "У току"
 msgid "Initializing..."
 msgstr "Покрећем..."
 
-#: src/components/storage/scenarios/use-free-space/index.js:27
 #: src/components/storage/scenarios/use-configured-storage/index.js:25
 #: src/components/storage/scenarios/use-configured-storage/index.js:39
+#: src/components/storage/scenarios/use-free-space/index.js:27
 msgid "Install"
 msgstr "Инсталирај"
 
@@ -690,7 +690,7 @@ msgstr "Ручно подешавање диска: мапирање тачке 
 msgid "May contain letters, numbers, and dashes."
 msgstr "Може да садржи слова, бројеве и цртице."
 
-#: src/components/storage/StorageReview.jsx:85
+#: src/components/storage/StorageReview.jsx:86
 msgid "May need more free space"
 msgstr "Можда је потребно више слободног простора"
 
@@ -708,8 +708,8 @@ msgstr ""
 "Неподударање између избора поновног форматирања родитељског и садржаног "
 "уређаја."
 
-#: src/components/storage/StorageReview.jsx:246
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
+#: src/components/storage/StorageReview.jsx:248
 msgid "Mount point"
 msgstr "Тачка качења"
 
@@ -744,7 +744,7 @@ msgstr "NTS"
 msgid "Name"
 msgstr "Име"
 
-#: src/components/storage/StorageReview.jsx:83
+#: src/components/storage/StorageReview.jsx:84
 msgid "Needs at least $0"
 msgstr "Потребно је најмање $0"
 
@@ -773,7 +773,7 @@ msgstr "Мрежа није доступна. Подесите мрежу да �
 msgid "Network plugin failed"
 msgstr "Прикључак за мрежу није успео"
 
-#: src/components/AnacondaWizardFooter.jsx:71 src/components/Error.jsx:581
+#: src/components/Error.jsx:581 src/components/AnacondaWizardFooter.jsx:71
 msgid "Next"
 msgstr "Следећа"
 
@@ -895,8 +895,8 @@ msgstr "Желите ли да пријавите ручно? $0"
 msgid "Proceed with installation"
 msgstr "Настави са инсталацијом"
 
-#: src/components/AnacondaWizardFooter.jsx:84
-#: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:736
+#: src/components/Error.jsx:736 src/components/AnacondaWizardFooter.jsx:84
+#: src/components/AnacondaWizardFooter.jsx:119
 msgid "Quit"
 msgstr "Излаз"
 
@@ -932,8 +932,8 @@ msgstr ""
 msgid "Real hostname must be 64 characters or less"
 msgstr "Право име домаћина мора имати 64 знака или мање"
 
-#: src/components/AnacondaWizardFooter.jsx:84
-#: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:736
+#: src/components/Error.jsx:736 src/components/AnacondaWizardFooter.jsx:84
+#: src/components/AnacondaWizardFooter.jsx:119
 msgid "Reboot"
 msgstr "Поново покрени"
 
@@ -1070,7 +1070,7 @@ msgstr "Промени величину"
 msgid "Resize partition"
 msgstr "Промени величину партиције"
 
-#: src/components/storage/StorageReview.jsx:350
+#: src/components/storage/StorageReview.jsx:352
 msgid "Resizing the following partitions from $0: $1"
 msgstr "Промена величине следећих партиција са $0: $1"
 
@@ -1106,9 +1106,9 @@ msgstr "Админ налог је омогућен, али ниједан ко�
 msgid "Root password has been set."
 msgstr "Лозинка админа је постављена."
 
+#: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/review/Hostname.jsx:125
 #: src/components/localization/Keyboard.jsx:277
-#: src/components/datetime/CustomNTPModal.jsx:245
 msgid "Save"
 msgstr "Сачувај"
 
@@ -1212,7 +1212,7 @@ msgstr "Прикажи фразу"
 msgid "Show password"
 msgstr "Прикажи лозинку"
 
-#: src/components/storage/StorageReview.jsx:243
+#: src/components/storage/StorageReview.jsx:245
 msgid "Size"
 msgstr "Величина"
 
@@ -1228,8 +1228,8 @@ msgstr ""
 "Инсталација софтвера: Подешавање складишта је завршено. Софтвер се сада "
 "инсталира на ваш уређај."
 
-#: src/components/software/index.js:19 src/components/software/index.js:20
 #: src/components/review/ReviewConfiguration.jsx:226
+#: src/components/software/index.js:19 src/components/software/index.js:20
 msgid "Software selection"
 msgstr "Избор програма"
 
@@ -1255,9 +1255,9 @@ msgid "Storage"
 msgstr "Складиште"
 
 #: src/components/steps.js:35
+#: src/components/installation/InstallationProgress.jsx:132
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
-#: src/components/installation/InstallationProgress.jsx:132
 msgid "Storage configuration"
 msgstr "Подешавање складишта"
 
@@ -1415,8 +1415,8 @@ msgstr "Ово ће потрајати неколико тренутака"
 msgid "Time"
 msgstr "Време"
 
-#: src/components/review/ReviewConfiguration.jsx:220
 #: src/components/datetime/Timezone.jsx:130
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid "Timezone"
 msgstr "Временска зона"
 
@@ -1589,7 +1589,7 @@ msgstr "тренутни корак"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/storage/StorageReview.jsx:164
+#: src/components/storage/StorageReview.jsx:166
 msgid "delete"
 msgstr "обриши"
 
@@ -1597,11 +1597,11 @@ msgstr "обриши"
 msgid "edit"
 msgstr "уреди"
 
-#: src/components/storage/StorageReview.jsx:131
+#: src/components/storage/StorageReview.jsx:133
 msgid "encrypt"
 msgstr "шифровати"
 
-#: src/components/storage/StorageReview.jsx:131
+#: src/components/storage/StorageReview.jsx:133
 msgid "encrypted"
 msgstr "шифровано"
 
@@ -1609,7 +1609,7 @@ msgstr "шифровано"
 msgid "extended partition"
 msgstr "проширена партиција"
 
-#: src/components/storage/StorageReview.jsx:102
+#: src/components/storage/StorageReview.jsx:104
 msgid "format as $0"
 msgstr "форматирај као $0"
 
@@ -1621,7 +1621,7 @@ msgstr "овде"
 msgid "incomplete"
 msgstr "недовршено"
 
-#: src/components/storage/StorageReview.jsx:106
+#: src/components/storage/StorageReview.jsx:108
 msgid "mount"
 msgstr "закачи"
 
@@ -1633,7 +1633,7 @@ msgstr "корак на чекању"
 msgid "report the issue manually"
 msgstr "ручно пријави проблем"
 
-#: src/components/storage/StorageReview.jsx:169
+#: src/components/storage/StorageReview.jsx:171
 msgid "resized from $0"
 msgstr "промењена величина са $0"
 

@@ -52,7 +52,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-27 06:47+0000\n"
+"POT-Creation-Date: 2026-05-28 06:38+0000\n"
 "PO-Revision-Date: 2026-05-01 05:56+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
@@ -76,8 +76,8 @@ msgstr "$0 $1"
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:72
 #: src/components/storage/Common.jsx:57
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:72
 msgid "$0 error"
 msgid_plural "$0 errors"
 msgstr[0] "Ошибка"
@@ -104,15 +104,15 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr "Требуется $0, но имеется только $1."
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:88
 #: src/components/storage/Common.jsx:73
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:88
 msgid "$0 warning"
 msgid_plural "$0 warnings"
 msgstr[0] "$0 предупреждение"
 msgstr[1] "$0 предупреждения"
 msgstr[2] "$0 предупреждений"
 
-#: src/components/storage/StorageReview.jsx:286
+#: src/components/storage/StorageReview.jsx:288
 msgid "$0 will be deleted"
 msgstr "$0 будет удалён"
 
@@ -149,7 +149,7 @@ msgid "Account"
 msgstr "Учетная запись"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
-#: src/components/storage/StorageReview.jsx:244
+#: src/components/storage/StorageReview.jsx:246
 msgid "Actions"
 msgstr "Действия"
 
@@ -230,7 +230,7 @@ msgstr "Автоматическая установка часового поя�
 msgid "Available free space: $0. Installation requires: $1."
 msgstr "Доступное пространство: $0. Требуется для установки: $1."
 
-#: src/components/AnacondaWizardFooter.jsx:62 src/components/Error.jsx:591
+#: src/components/Error.jsx:591 src/components/AnacondaWizardFooter.jsx:62
 msgid "Back"
 msgstr "Назад"
 
@@ -262,12 +262,12 @@ msgstr ""
 "намереваетесь использовать его только для тестирования и разработки и готовы "
 "сообщать обо всех ошибках и проблемах, чтобы улучшить эту работу."
 
+#: src/components/datetime/CustomNTPModal.jsx:252
+#: src/components/review/Hostname.jsx:127
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:355
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
-#: src/components/review/Hostname.jsx:127
-#: src/components/localization/Keyboard.jsx:280
-#: src/components/datetime/CustomNTPModal.jsx:252 src/components/Error.jsx:759
+#: src/components/Error.jsx:759 src/components/localization/Keyboard.jsx:280
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -319,8 +319,8 @@ msgid "Click 'Next' again to proceed despite these warnings."
 msgstr ""
 "Нажмите «Далее» ещё раз, чтобы проигнорировать предупреждения и продолжить."
 
-#: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/storage/installation-method/InstallationDestination.jsx:360
+#: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/network/CockpitNetworkConfiguration.jsx:64
 msgid "Close"
 msgstr "Закрыть"
@@ -406,8 +406,8 @@ msgstr "По-своему"
 msgid "Date"
 msgstr "Дата"
 
-#: src/components/datetime/DateAndTime.jsx:151
 #: src/components/datetime/index.js:21
+#: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr "Дата и время"
 
@@ -415,7 +415,7 @@ msgstr "Дата и время"
 msgid "Delete partition"
 msgstr "Удалить раздел"
 
-#: src/components/storage/StorageReview.jsx:344
+#: src/components/storage/StorageReview.jsx:346
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Удаление некоторых разделов может помешать загрузке $0: $1"
 
@@ -439,8 +439,8 @@ msgstr "Подробное описание проблемы"
 msgid "Detected valid storage layout:"
 msgstr "Обнаруженая действительная схема хранения:"
 
-#: src/components/storage/StorageReview.jsx:242
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
+#: src/components/storage/StorageReview.jsx:244
 msgid "Device"
 msgstr "Устройство"
 
@@ -460,7 +460,7 @@ msgstr "Включить учётную запись root"
 msgid "Encrypt my data"
 msgstr "Зашифровать данные"
 
-#: src/components/storage/StorageReview.jsx:245
+#: src/components/storage/StorageReview.jsx:247
 msgid "Encrypted"
 msgstr "Зашифровано"
 
@@ -542,7 +542,7 @@ msgstr "Полное имя"
 msgid "Full name cannot contain colon characters"
 msgstr "Полное имя не может содержать двоеточий"
 
-#: src/components/storage/StorageReview.jsx:247
+#: src/components/storage/StorageReview.jsx:249
 msgid "Helper text"
 msgstr "Текст справки"
 
@@ -622,9 +622,9 @@ msgstr "В ходе выполнения"
 msgid "Initializing..."
 msgstr "Инициализация..."
 
-#: src/components/storage/scenarios/use-free-space/index.js:27
 #: src/components/storage/scenarios/use-configured-storage/index.js:25
 #: src/components/storage/scenarios/use-configured-storage/index.js:39
+#: src/components/storage/scenarios/use-free-space/index.js:27
 msgid "Install"
 msgstr "Установить"
 
@@ -735,7 +735,7 @@ msgstr "Настройка диска вручную: распределение
 msgid "May contain letters, numbers, and dashes."
 msgstr "Может содержать буквы, цифры и тире."
 
-#: src/components/storage/StorageReview.jsx:85
+#: src/components/storage/StorageReview.jsx:86
 msgid "May need more free space"
 msgstr "Может потребоваться больше свободного места"
 
@@ -753,8 +753,8 @@ msgstr ""
 "Несоответствие между выбором форматирования родительского и дочернего "
 "устройств."
 
-#: src/components/storage/StorageReview.jsx:246
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
+#: src/components/storage/StorageReview.jsx:248
 msgid "Mount point"
 msgstr "Точка монтирования"
 
@@ -789,7 +789,7 @@ msgstr "NTS"
 msgid "Name"
 msgstr "Имя"
 
-#: src/components/storage/StorageReview.jsx:83
+#: src/components/storage/StorageReview.jsx:84
 msgid "Needs at least $0"
 msgstr "Требуется как минимум $0"
 
@@ -818,7 +818,7 @@ msgstr "Сеть недоступна. Настройте сеть, чтобы �
 msgid "Network plugin failed"
 msgstr "Сбой плагина сети"
 
-#: src/components/AnacondaWizardFooter.jsx:71 src/components/Error.jsx:581
+#: src/components/Error.jsx:581 src/components/AnacondaWizardFooter.jsx:71
 msgid "Next"
 msgstr "Далее"
 
@@ -941,8 +941,8 @@ msgstr "Предпочитаете ручные отчёты? $0"
 msgid "Proceed with installation"
 msgstr "Приступить к установке"
 
-#: src/components/AnacondaWizardFooter.jsx:84
-#: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:736
+#: src/components/Error.jsx:736 src/components/AnacondaWizardFooter.jsx:84
+#: src/components/AnacondaWizardFooter.jsx:119
 msgid "Quit"
 msgstr "Выход"
 
@@ -978,8 +978,8 @@ msgstr ""
 msgid "Real hostname must be 64 characters or less"
 msgstr "Настоящее имя узла должно состоять из 64 символов или меньше"
 
-#: src/components/AnacondaWizardFooter.jsx:84
-#: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:736
+#: src/components/Error.jsx:736 src/components/AnacondaWizardFooter.jsx:84
+#: src/components/AnacondaWizardFooter.jsx:119
 msgid "Reboot"
 msgstr "Перезагрузить"
 
@@ -1116,7 +1116,7 @@ msgstr "Изменить размер"
 msgid "Resize partition"
 msgstr "Изм. размер раздела"
 
-#: src/components/storage/StorageReview.jsx:350
+#: src/components/storage/StorageReview.jsx:352
 msgid "Resizing the following partitions from $0: $1"
 msgstr "Изменение размера следующих разделов с $0: $1"
 
@@ -1152,9 +1152,9 @@ msgstr "Уч. запись Root включена, но уч. запись пол
 msgid "Root password has been set."
 msgstr "Пароль root задан."
 
+#: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/review/Hostname.jsx:125
 #: src/components/localization/Keyboard.jsx:277
-#: src/components/datetime/CustomNTPModal.jsx:245
 msgid "Save"
 msgstr "Сохранить"
 
@@ -1258,7 +1258,7 @@ msgstr "Показать парольную фразу"
 msgid "Show password"
 msgstr "Показать пароль"
 
-#: src/components/storage/StorageReview.jsx:243
+#: src/components/storage/StorageReview.jsx:245
 msgid "Size"
 msgstr "Размер"
 
@@ -1274,8 +1274,8 @@ msgstr ""
 "Установка программного обеспечения: настройка хранилища данных завершена. "
 "Теперь программное обеспечение устанавливается на ваше устройство."
 
-#: src/components/software/index.js:19 src/components/software/index.js:20
 #: src/components/review/ReviewConfiguration.jsx:226
+#: src/components/software/index.js:19 src/components/software/index.js:20
 msgid "Software selection"
 msgstr "Выбор программ"
 
@@ -1301,9 +1301,9 @@ msgid "Storage"
 msgstr "Хранилище"
 
 #: src/components/steps.js:35
+#: src/components/installation/InstallationProgress.jsx:132
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
-#: src/components/installation/InstallationProgress.jsx:132
 msgid "Storage configuration"
 msgstr "Конфигурация устройств хранения"
 
@@ -1462,8 +1462,8 @@ msgstr "Это займёт некоторое время"
 msgid "Time"
 msgstr "Время"
 
-#: src/components/review/ReviewConfiguration.jsx:220
 #: src/components/datetime/Timezone.jsx:130
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid "Timezone"
 msgstr "Часовой пояс"
 
@@ -1638,7 +1638,7 @@ msgstr "текущий шаг"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/storage/StorageReview.jsx:164
+#: src/components/storage/StorageReview.jsx:166
 msgid "delete"
 msgstr "удалить"
 
@@ -1646,11 +1646,11 @@ msgstr "удалить"
 msgid "edit"
 msgstr "изменить"
 
-#: src/components/storage/StorageReview.jsx:131
+#: src/components/storage/StorageReview.jsx:133
 msgid "encrypt"
 msgstr "зашифровать"
 
-#: src/components/storage/StorageReview.jsx:131
+#: src/components/storage/StorageReview.jsx:133
 msgid "encrypted"
 msgstr "зашифровано"
 
@@ -1658,7 +1658,7 @@ msgstr "зашифровано"
 msgid "extended partition"
 msgstr "расширенный раздел"
 
-#: src/components/storage/StorageReview.jsx:102
+#: src/components/storage/StorageReview.jsx:104
 msgid "format as $0"
 msgstr "форматировать как $0"
 
@@ -1670,7 +1670,7 @@ msgstr "здесь"
 msgid "incomplete"
 msgstr "неполный"
 
-#: src/components/storage/StorageReview.jsx:106
+#: src/components/storage/StorageReview.jsx:108
 msgid "mount"
 msgstr "монтировать"
 
@@ -1682,7 +1682,7 @@ msgstr "предстоящий шаг"
 msgid "report the issue manually"
 msgstr "ручной отчёт о проблеме"
 
-#: src/components/storage/StorageReview.jsx:169
+#: src/components/storage/StorageReview.jsx:171
 msgid "resized from $0"
 msgstr "изменен размер с $0"
 
