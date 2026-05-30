@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 06:41+0000\n"
+"POT-Creation-Date: 2026-05-30 06:03+0000\n"
 "PO-Revision-Date: 2023-11-06 12:16+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Bengali (India) <https://translate.fedoraproject.org/projects/"
@@ -43,7 +43,7 @@ msgstr ""
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:162
 #: src/components/storage/installation-method/InstallationDestination.jsx:256
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:344
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 msgid "$0 ($1)"
 msgstr ""
 
@@ -89,14 +89,25 @@ msgstr[1] ""
 msgid "$0 will be deleted"
 msgstr "কোনো ব্যবহারকারী তৈরি করা হবে না"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:185
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:188
 #, fuzzy
 #| msgid "%s cannot be on an encrypted block device."
 msgid "'$0' filesystem cannot be on an encrypted block device"
 msgstr "%s-কে এনক্রিপ্ট করা ব্লক ডিভাইসের উপর স্থাপন করা যাবে না।"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:179
+#: src/helpers/storage.js:231
+msgid "'$0' must be assigned to $1"
+msgstr ""
+
+#: src/helpers/storage.js:234
 msgid "'$0' must be on a device formatted to '$1'"
+msgstr ""
+
+#: src/helpers/storage.js:225
+msgid ""
+"'$0' must be on an EFI System Partition. The selected partition uses a FAT "
+"filesystem, but is not marked as an ESP. Set the partition type to EFI "
+"System and enable the esp flag."
 msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:270
@@ -130,7 +141,7 @@ msgstr "কাজ"
 msgid "Add another server..."
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:635
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:642
 #, fuzzy
 msgid "Add mount"
 msgstr "সজ্জা যোগ করুন"
@@ -398,7 +409,7 @@ msgstr ""
 msgid "Currently installed: $0"
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:226
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 msgid "Custom"
 msgstr ""
 
@@ -448,17 +459,17 @@ msgstr "ডিভাইস বর্ণনা"
 msgid "Detected valid storage layout:"
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:618
 #: src/components/storage/StorageReview.jsx:244
 msgid "Device"
 msgstr "ডিভাইস"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:379
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:386
 #, fuzzy
 msgid "Duplicate device."
 msgstr "মাল্টি-পাথ ডিভাইস (_M)"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:232
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:235
 #, fuzzy
 msgid "Duplicate mount point."
 msgstr "নতুন মাউন্ট-পয়েন্ট যোগ করুন।"
@@ -777,17 +788,17 @@ msgstr ""
 msgid "Minimum of $0 required"
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:134
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:135
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 #: src/components/storage/StorageReview.jsx:248
 msgid "Mount point"
 msgstr "মাউন্ট পয়েন্ট"
 
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 #, fuzzy
 msgid "Mount point assignment"
 msgstr "মাউন্ট পয়েন্ট"
@@ -859,7 +870,7 @@ msgid "Next"
 msgstr ""
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:622
 #, fuzzy
 msgid "No devices"
 msgstr "ডিভাইস যোগ করুন"
@@ -1075,7 +1086,7 @@ msgstr "জায়গা পুনঃদাবি করুন (_R)"
 msgid "Reclaim space (required)"
 msgstr "জায়গা পুনঃদাবি করুন (_R)"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:225
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:228
 msgid "Recommended"
 msgstr ""
 
@@ -1083,8 +1094,8 @@ msgstr ""
 msgid "Recommended partitions:"
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:399
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:612
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:406
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
 msgid "Reformat"
 msgstr ""
 
@@ -1095,8 +1106,8 @@ msgstr ""
 msgid "Reinstall Fedora"
 msgstr "ইনস্টল করুন"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:426
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:613
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:433
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 #: src/components/localization/Keyboard.jsx:155
 #: src/components/localization/Keyboard.jsx:159
 #, fuzzy
@@ -1152,7 +1163,7 @@ msgstr ""
 msgid "Reporting issue..."
 msgstr "পরীক্ষার স্থিতি..."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:224
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:227
 #, fuzzy
 msgid "Required"
 msgstr "পুনঃমাপযোগ্য নয়"
@@ -1272,8 +1283,8 @@ msgstr ""
 msgid "Select"
 msgstr "নির্বাচন করুন (_S)"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:299
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:333
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:302
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:336
 #, fuzzy
 msgid "Select a device"
 msgstr "নির্বাচিত ডিভাইস"
@@ -1303,7 +1314,7 @@ msgstr "নেটওয়ার্কে (_O):"
 msgid "Selected (top = current)"
 msgstr "নির্বাচিত সজ্জা"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:117
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:118
 msgid "Selected device's format '$0' cannot be reformatted."
 msgstr ""
 

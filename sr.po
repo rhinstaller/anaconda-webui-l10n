@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 06:41+0000\n"
+"POT-Creation-Date: 2026-05-30 06:03+0000\n"
 "PO-Revision-Date: 2026-05-12 05:54+0000\n"
 "Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/"
@@ -35,7 +35,7 @@ msgstr "$0 $1"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:162
 #: src/components/storage/installation-method/InstallationDestination.jsx:256
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:344
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -79,13 +79,26 @@ msgstr[2] "$0 упозорења"
 msgid "$0 will be deleted"
 msgstr "$0 ће бити обрисано"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:185
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:188
 msgid "'$0' filesystem cannot be on an encrypted block device"
 msgstr "Систем датотека „$0“ не може бити на шифрованом блок уређају"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:179
+#: src/helpers/storage.js:231
+#, fuzzy
+#| msgid "'$0' must be on a device formatted to '$1'"
+msgid "'$0' must be assigned to $1"
+msgstr "„$0“ мора бити на уређају форматираном као „$1“"
+
+#: src/helpers/storage.js:234
 msgid "'$0' must be on a device formatted to '$1'"
 msgstr "„$0“ мора бити на уређају форматираном као „$1“"
+
+#: src/helpers/storage.js:225
+msgid ""
+"'$0' must be on an EFI System Partition. The selected partition uses a FAT "
+"filesystem, but is not marked as an ESP. Set the partition type to EFI "
+"System and enable the esp flag."
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:270
 msgid ""
@@ -119,7 +132,7 @@ msgstr "Радње"
 msgid "Add another server..."
 msgstr "Додај још један сервер..."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:635
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:642
 msgid "Add mount"
 msgstr "Додај тачку качења"
 
@@ -355,7 +368,7 @@ msgstr "Направи налог"
 msgid "Currently installed: $0"
 msgstr "Тренутно инсталирано: $0"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:226
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 msgid "Custom"
 msgstr "Прилагођено"
 
@@ -396,16 +409,16 @@ msgstr "Детаљан опис проблема"
 msgid "Detected valid storage layout:"
 msgstr "Откривен је исправан распоред складишта:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:618
 #: src/components/storage/StorageReview.jsx:244
 msgid "Device"
 msgstr "Уређај"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:379
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:386
 msgid "Duplicate device."
 msgstr "Удвостручени уређај."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:232
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:235
 msgid "Duplicate mount point."
 msgstr "Удвостручена тачка качења."
 
@@ -702,19 +715,19 @@ msgstr "Средња"
 msgid "Minimum of $0 required"
 msgstr "Најмање $0 је потребно"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:134
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:135
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 "Неподударање између избора поновног форматирања родитељског и садржаног "
 "уређаја."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 #: src/components/storage/StorageReview.jsx:248
 msgid "Mount point"
 msgstr "Тачка качења"
 
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 msgid "Mount point assignment"
 msgstr "Додела тачке качења"
 
@@ -778,7 +791,7 @@ msgid "Next"
 msgstr "Следећа"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:622
 msgid "No devices"
 msgstr "Нема уређаја"
 
@@ -967,7 +980,7 @@ msgstr "Ослободи простор"
 msgid "Reclaim space (required)"
 msgstr "Ослободи простор (обавезно)"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:225
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:228
 msgid "Recommended"
 msgstr "Препоручено"
 
@@ -975,8 +988,8 @@ msgstr "Препоручено"
 msgid "Recommended partitions:"
 msgstr "Препоручене партиције:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:399
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:612
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:406
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
 msgid "Reformat"
 msgstr "Поново форматирај"
 
@@ -985,8 +998,8 @@ msgstr "Поново форматирај"
 msgid "Reinstall Fedora"
 msgstr "Поново инсталирај Федору"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:426
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:613
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:433
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 #: src/components/localization/Keyboard.jsx:155
 #: src/components/localization/Keyboard.jsx:159
 msgid "Remove"
@@ -1046,7 +1059,7 @@ msgstr "Пријави проблем"
 msgid "Reporting issue..."
 msgstr "Пријављивање проблема..."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:224
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:227
 msgid "Required"
 msgstr "Обавезно"
 
@@ -1143,8 +1156,8 @@ msgstr ""
 msgid "Select"
 msgstr "Изабери"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:299
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:333
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:302
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:336
 msgid "Select a device"
 msgstr "Изаберите уређај"
 
@@ -1164,7 +1177,7 @@ msgstr "Изаберите регион"
 msgid "Selected (top = current)"
 msgstr "Изабрано (врх = тренутно)"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:117
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:118
 msgid "Selected device's format '$0' cannot be reformatted."
 msgstr "Формат „$0“ изабраног уређаја не може бити поново форматиран."
 

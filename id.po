@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 06:41+0000\n"
+"POT-Creation-Date: 2026-05-30 06:03+0000\n"
 "PO-Revision-Date: 2026-05-01 05:56+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
@@ -53,7 +53,7 @@ msgstr "$0 $1"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:162
 #: src/components/storage/installation-method/InstallationDestination.jsx:256
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:344
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -94,14 +94,27 @@ msgstr[0] "$0 peringatan"
 msgid "$0 will be deleted"
 msgstr "$0 akan dihapus"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:185
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:188
 msgid "'$0' filesystem cannot be on an encrypted block device"
 msgstr ""
 "Sistem berkas '$0' tidak dapat berada di perangkat blok yang dienkripsi"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:179
+#: src/helpers/storage.js:231
+#, fuzzy
+#| msgid "'$0' must be on a device formatted to '$1'"
+msgid "'$0' must be assigned to $1"
+msgstr "'$0' harus berada pada peranti yang diformat ke '$1'"
+
+#: src/helpers/storage.js:234
 msgid "'$0' must be on a device formatted to '$1'"
 msgstr "'$0' harus berada pada peranti yang diformat ke '$1'"
+
+#: src/helpers/storage.js:225
+msgid ""
+"'$0' must be on an EFI System Partition. The selected partition uses a FAT "
+"filesystem, but is not marked as an ESP. Set the partition type to EFI "
+"System and enable the esp flag."
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:270
 msgid ""
@@ -135,7 +148,7 @@ msgstr "Aksi"
 msgid "Add another server..."
 msgstr "Tambahkan server lain..."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:635
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:642
 msgid "Add mount"
 msgstr "Tambah kait"
 
@@ -375,7 +388,7 @@ msgstr "Buat akun"
 msgid "Currently installed: $0"
 msgstr "Saat ini terinstal: $0"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:226
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 msgid "Custom"
 msgstr "Ubahan"
 
@@ -416,16 +429,16 @@ msgstr "Deskripsi terperinci tentang masalah"
 msgid "Detected valid storage layout:"
 msgstr "Tata letak penyimpanan valid yang terdeteksi:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:618
 #: src/components/storage/StorageReview.jsx:244
 msgid "Device"
 msgstr "Peranti"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:379
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:386
 msgid "Duplicate device."
 msgstr "Peranti duplikat."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:232
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:235
 msgid "Duplicate mount point."
 msgstr "Titik kait duplikat."
 
@@ -720,18 +733,18 @@ msgstr "Medium"
 msgid "Minimum of $0 required"
 msgstr "Minimum $0 diperlukan"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:134
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:135
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 "Tidak cocok antara pilihan format ulang perangkat induk dan perangkat anak."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 #: src/components/storage/StorageReview.jsx:248
 msgid "Mount point"
 msgstr "Titik kait"
 
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 msgid "Mount point assignment"
 msgstr "Penugasan titik kait"
 
@@ -796,7 +809,7 @@ msgid "Next"
 msgstr "Berikutnya"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:622
 msgid "No devices"
 msgstr "Tidak ada perangkat"
 
@@ -985,7 +998,7 @@ msgstr "Mengambil kembali ruang"
 msgid "Reclaim space (required)"
 msgstr "Mengambil kembali ruang (diperlukan)"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:225
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:228
 msgid "Recommended"
 msgstr "Direkomendasikan"
 
@@ -993,8 +1006,8 @@ msgstr "Direkomendasikan"
 msgid "Recommended partitions:"
 msgstr "Partisi yang disarankan:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:399
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:612
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:406
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
 msgid "Reformat"
 msgstr "Format ulang"
 
@@ -1003,8 +1016,8 @@ msgstr "Format ulang"
 msgid "Reinstall Fedora"
 msgstr "Instal ulang Fedora"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:426
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:613
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:433
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 #: src/components/localization/Keyboard.jsx:155
 #: src/components/localization/Keyboard.jsx:159
 msgid "Remove"
@@ -1064,7 +1077,7 @@ msgstr "Laporkan masalah"
 msgid "Reporting issue..."
 msgstr "Sedang melaporkan masalah..."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:224
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:227
 msgid "Required"
 msgstr "Diperlukan"
 
@@ -1163,8 +1176,8 @@ msgstr ""
 msgid "Select"
 msgstr "Pilih"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:299
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:333
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:302
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:336
 msgid "Select a device"
 msgstr "Pilih suatu perangkat"
 
@@ -1184,7 +1197,7 @@ msgstr "Pilih wilayah"
 msgid "Selected (top = current)"
 msgstr "Terpilih (atas = saat ini)"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:117
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:118
 msgid "Selected device's format '$0' cannot be reformatted."
 msgstr "Format '$0' dari perangkat yang dipilih tidak bisa diformat ulang."
 

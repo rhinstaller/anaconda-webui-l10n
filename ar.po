@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 06:41+0000\n"
+"POT-Creation-Date: 2026-05-30 06:03+0000\n"
 "PO-Revision-Date: 2026-05-01 05:56+0000\n"
 "Last-Translator: joo es <jonnyse@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/anaconda-"
@@ -52,7 +52,7 @@ msgstr "$0 $1"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:162
 #: src/components/storage/installation-method/InstallationDestination.jsx:256
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:344
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -102,13 +102,26 @@ msgstr[5] "$0 تحذير"
 msgid "$0 will be deleted"
 msgstr "$0 سيُحذف"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:185
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:188
 msgid "'$0' filesystem cannot be on an encrypted block device"
 msgstr "لا يمكن أن يكون نظام الملفات '$0' على جهاز كُتلة مُعمَّاة"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:179
+#: src/helpers/storage.js:231
+#, fuzzy
+#| msgid "'$0' must be on a device formatted to '$1'"
+msgid "'$0' must be assigned to $1"
+msgstr "يجب أن يكون '$0' على جهاز مهيأ إلى '$1'"
+
+#: src/helpers/storage.js:234
 msgid "'$0' must be on a device formatted to '$1'"
 msgstr "يجب أن يكون '$0' على جهاز مهيأ إلى '$1'"
+
+#: src/helpers/storage.js:225
+msgid ""
+"'$0' must be on an EFI System Partition. The selected partition uses a FAT "
+"filesystem, but is not marked as an ESP. Set the partition type to EFI "
+"System and enable the esp flag."
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:270
 msgid ""
@@ -140,7 +153,7 @@ msgstr "إجراءات"
 msgid "Add another server..."
 msgstr "أضف خادم آخر..."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:635
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:642
 msgid "Add mount"
 msgstr "أضف نقطة وصل"
 
@@ -372,7 +385,7 @@ msgstr "أنشئ حسابًا"
 msgid "Currently installed: $0"
 msgstr "المثبتة حاليًا: $0"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:226
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 msgid "Custom"
 msgstr "مخصّص"
 
@@ -413,16 +426,16 @@ msgstr "وصف مفصل للمشكلة"
 msgid "Detected valid storage layout:"
 msgstr "كُشف عن تخطيط تخزين صالح:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:618
 #: src/components/storage/StorageReview.jsx:244
 msgid "Device"
 msgstr "جهاز"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:379
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:386
 msgid "Duplicate device."
 msgstr "جهاز مكرّر."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:232
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:235
 msgid "Duplicate mount point."
 msgstr "نقطة الوصل مكرّرة."
 
@@ -716,17 +729,17 @@ msgstr "متوسط"
 msgid "Minimum of $0 required"
 msgstr "الحد الأدنى المطلوب هو $0"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:134
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:135
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr "عدم تطابق بين الجهاز الأصل وتحديد إعادة تهيئة الجهاز الفرعي."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 #: src/components/storage/StorageReview.jsx:248
 msgid "Mount point"
 msgstr "نقطة الوصل"
 
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 msgid "Mount point assignment"
 msgstr "تعيين نقطة الوصل"
 
@@ -789,7 +802,7 @@ msgid "Next"
 msgstr "التالي"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:622
 msgid "No devices"
 msgstr "لا يوجد أجهزة"
 
@@ -977,7 +990,7 @@ msgstr "استعد المساحة"
 msgid "Reclaim space (required)"
 msgstr "استعد المساحة (مطلوب)"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:225
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:228
 msgid "Recommended"
 msgstr "مستحسن"
 
@@ -985,8 +998,8 @@ msgstr "مستحسن"
 msgid "Recommended partitions:"
 msgstr "التقسيمات الموصى بها:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:399
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:612
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:406
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
 msgid "Reformat"
 msgstr "أعِد التهيئة"
 
@@ -995,8 +1008,8 @@ msgstr "أعِد التهيئة"
 msgid "Reinstall Fedora"
 msgstr "أعد تثبيت فيدورا"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:426
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:613
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:433
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 #: src/components/localization/Keyboard.jsx:155
 #: src/components/localization/Keyboard.jsx:159
 msgid "Remove"
@@ -1051,7 +1064,7 @@ msgstr "أبلغ عن مشكلة"
 msgid "Reporting issue..."
 msgstr "يُبلغ عن مشكلة..."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:224
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:227
 msgid "Required"
 msgstr "مطلوب"
 
@@ -1148,8 +1161,8 @@ msgstr ""
 msgid "Select"
 msgstr "حدّد"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:299
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:333
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:302
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:336
 msgid "Select a device"
 msgstr "الجهاز المُحدّد"
 
@@ -1169,7 +1182,7 @@ msgstr "حدّد منطقة"
 msgid "Selected (top = current)"
 msgstr "محدّد (الأعلى = الحالي)"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:117
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:118
 msgid "Selected device's format '$0' cannot be reformatted."
 msgstr "الجهاز المهيء المُحدّد '$0' لا يمكن إعادة تهيئته."
 

@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-29 06:41+0000\n"
+"POT-Creation-Date: 2026-05-30 06:03+0000\n"
 "PO-Revision-Date: 2026-05-22 06:34+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -37,7 +37,7 @@ msgstr "$0 $1"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:162
 #: src/components/storage/installation-method/InstallationDestination.jsx:256
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:344
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -80,13 +80,26 @@ msgstr[1] "$0 hoiatust"
 msgid "$0 will be deleted"
 msgstr "$0 kustutatakse"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:185
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:188
 msgid "'$0' filesystem cannot be on an encrypted block device"
 msgstr "„$0“ failisüsteem ei saa asuda krüptitud blokkseadmes"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:179
+#: src/helpers/storage.js:231
+#, fuzzy
+#| msgid "'$0' must be on a device formatted to '$1'"
+msgid "'$0' must be assigned to $1"
+msgstr "„$0“ peab asuma „$1“ vorminduses seadmel"
+
+#: src/helpers/storage.js:234
 msgid "'$0' must be on a device formatted to '$1'"
 msgstr "„$0“ peab asuma „$1“ vorminduses seadmel"
+
+#: src/helpers/storage.js:225
+msgid ""
+"'$0' must be on an EFI System Partition. The selected partition uses a FAT "
+"filesystem, but is not marked as an ESP. Set the partition type to EFI "
+"System and enable the esp flag."
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:270
 msgid ""
@@ -120,7 +133,7 @@ msgstr "Tegevused"
 msgid "Add another server..."
 msgstr "Lisa veel üks server..."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:635
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:642
 msgid "Add mount"
 msgstr "Lisa haakepunkt"
 
@@ -360,7 +373,7 @@ msgstr "Lisa kasutajakonto"
 msgid "Currently installed: $0"
 msgstr "Hetkel paigaldatud: $0"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:226
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 msgid "Custom"
 msgstr "Kohandatud"
 
@@ -401,16 +414,16 @@ msgstr "Vea või probleemi üksikasjalik kirjeldus"
 msgid "Detected valid storage layout:"
 msgstr "Tuvastasin korrektse andmeruumi jaotuse:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:611
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:618
 #: src/components/storage/StorageReview.jsx:244
 msgid "Device"
 msgstr "Seade"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:379
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:386
 msgid "Duplicate device."
 msgstr "Klooni seade."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:232
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:235
 msgid "Duplicate mount point."
 msgstr "Klooni haakepunkt."
 
@@ -707,17 +720,17 @@ msgstr "Keskmine"
 msgid "Minimum of $0 required"
 msgstr "Vajalik on vähemalt $0"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:134
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:135
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr "Ülemseadme ja alamseadme ümbervorminduse valik ei ole vastavuses."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:610
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 #: src/components/storage/StorageReview.jsx:248
 msgid "Mount point"
 msgstr "Haakepunkt"
 
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:608
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
 msgid "Mount point assignment"
 msgstr "Määra haakepunkt"
 
@@ -782,7 +795,7 @@ msgid "Next"
 msgstr "Edasi"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:622
 msgid "No devices"
 msgstr "Seadmeid pole"
 
@@ -971,7 +984,7 @@ msgstr "Vabasta andmeruumi"
 msgid "Reclaim space (required)"
 msgstr "Vabasta andmeruumi (see on nõutav)"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:225
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:228
 msgid "Recommended"
 msgstr "Soovitatav"
 
@@ -979,8 +992,8 @@ msgstr "Soovitatav"
 msgid "Recommended partitions:"
 msgstr "Soovituslikud partitsioonid:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:399
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:612
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:406
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
 msgid "Reformat"
 msgstr "Vorminda uuesti"
 
@@ -989,8 +1002,8 @@ msgstr "Vorminda uuesti"
 msgid "Reinstall Fedora"
 msgstr "Paigalda Fedora uuesti"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:426
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:613
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:433
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 #: src/components/localization/Keyboard.jsx:155
 #: src/components/localization/Keyboard.jsx:159
 msgid "Remove"
@@ -1048,7 +1061,7 @@ msgstr "Teata veast või probleemist"
 msgid "Reporting issue..."
 msgstr "Teatan veast või probleemist…"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:224
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:227
 msgid "Required"
 msgstr "Vajalik"
 
@@ -1147,8 +1160,8 @@ msgstr ""
 msgid "Select"
 msgstr "Vali"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:299
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:333
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:302
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:336
 msgid "Select a device"
 msgstr "Vali seade"
 
@@ -1168,7 +1181,7 @@ msgstr "Vali piirkond"
 msgid "Selected (top = current)"
 msgstr "Valitud (ülal = praegune)"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:117
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:118
 msgid "Selected device's format '$0' cannot be reformatted."
 msgstr "Valitud seadme vorming „$0“ on selline, mida ei saa ümbervormindada."
 
