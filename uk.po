@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-31 06:42+0000\n"
-"PO-Revision-Date: 2026-05-01 05:56+0000\n"
+"PO-Revision-Date: 2026-06-01 07:01+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/uk/>\n"
@@ -35,7 +35,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17.1\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:142
 #: src/components/storage/installation-method/InstallationDestination.jsx:263
@@ -93,10 +93,8 @@ msgid "'$0' filesystem cannot be on an encrypted block device"
 msgstr "Файлова система '$0' не може бути на зашифрованому блоковому пристрої"
 
 #: src/helpers/storage.js:231
-#, fuzzy
-#| msgid "'$0' must be on a device formatted to '$1'"
 msgid "'$0' must be assigned to $1"
-msgstr "«$0» має перебувати на пристрої з форматуванням «$1»"
+msgstr "«$0» має бути пов'язано з $1"
 
 #: src/helpers/storage.js:234
 msgid "'$0' must be on a device formatted to '$1'"
@@ -108,6 +106,9 @@ msgid ""
 "filesystem, but is not marked as an ESP. Set the partition type to EFI "
 "System and enable the esp flag."
 msgstr ""
+"«$0» має перебувати на системному розділі EFI. На вибраному розділі "
+"використано файлову систему FAT, але його не позначено як ESP. Встановіть "
+"тип розділу «EFI System» і позначте пункт esp."
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:270
 msgid ""
