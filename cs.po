@@ -47,7 +47,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-01 07:31+0000\n"
-"PO-Revision-Date: 2026-05-11 06:24+0000\n"
+"PO-Revision-Date: 2026-06-02 07:11+0000\n"
 "Last-Translator: Jonáš Loskot "
 "<alius@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/anaconda-"
@@ -57,7 +57,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17.1\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:142
 #: src/components/storage/installation-method/InstallationDestination.jsx:263
@@ -116,10 +116,8 @@ msgid "'$0' filesystem cannot be on an encrypted block device"
 msgstr "Souborový systém „$0“ nelze umístit na šifrované blokové zařízení"
 
 #: src/helpers/storage.js:231
-#, fuzzy
-#| msgid "'$0' must be on a device formatted to '$1'"
 msgid "'$0' must be assigned to $1"
-msgstr "Je třeba, aby „$0“ bylo na zařízení naformátovaném na „$1“"
+msgstr "„$0“ musí být přiřazené k $1"
 
 #: src/helpers/storage.js:234
 msgid "'$0' must be on a device formatted to '$1'"
@@ -131,6 +129,9 @@ msgid ""
 "filesystem, but is not marked as an ESP. Set the partition type to EFI "
 "System and enable the esp flag."
 msgstr ""
+"„$0“ musí být na systémovém oddílu EFI. Zvolený oddíl používá souborový "
+"systém FAT, ale není označen jako ESP. Nastavte typ oddílu na EFI systém a "
+"povolte příznak esp."
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:270
 msgid ""
@@ -715,7 +716,7 @@ msgstr "Zjistěte více o omezeném přístupu v nastavení"
 
 #: src/components/users/Accounts.jsx:199
 msgid "Leave both passphrase fields empty to use an empty password."
-msgstr ""
+msgstr "Ponechte obě pole prázdná pro použití prázdného hesla."
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:138
 msgid "Location"
