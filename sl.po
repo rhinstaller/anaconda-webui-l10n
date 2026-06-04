@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: anaconda 40.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-04 07:09+0000\n"
-"PO-Revision-Date: 2026-03-24 04:33+0000\n"
-"Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
+"PO-Revision-Date: 2026-06-04 07:55+0000\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/sl/>\n"
 "Language: sl\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:142
 #: src/components/storage/installation-method/InstallationDestination.jsx:263
@@ -34,14 +34,12 @@ msgstr "$0 ($1)"
 
 #: src/components/storage/Common.jsx:58
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:72
-#, fuzzy
-#| msgid "Error"
 msgid "$0 error"
 msgid_plural "$0 errors"
-msgstr[0] "Napaka"
-msgstr[1] "Napaka"
-msgstr[2] "Napaka"
-msgstr[3] "Napaka"
+msgstr[0] "$0 napak"
+msgstr[1] "$0 napaka"
+msgstr[2] "$0 napaki"
+msgstr[3] "$0 napake"
 
 #: src/components/app.jsx:83
 msgid "$0 installation"
@@ -81,10 +79,8 @@ msgid "'$0' filesystem cannot be on an encrypted block device"
 msgstr "Datotečni sistem »$0« ne more biti na šifrirani bločni napravi"
 
 #: src/helpers/storage.js:231
-#, fuzzy
-#| msgid "'$0' must be on a device formatted to '$1'"
 msgid "'$0' must be assigned to $1"
-msgstr "»$0« mora biti na napravi, ki je formatirana na »$1«"
+msgstr "»$0« mora biti dodeljeno $1"
 
 #: src/helpers/storage.js:234
 msgid "'$0' must be on a device formatted to '$1'"
@@ -96,6 +92,9 @@ msgid ""
 "filesystem, but is not marked as an ESP. Set the partition type to EFI "
 "System and enable the esp flag."
 msgstr ""
+"'$0' mora biti na sistemskem razdelku EFI. Izbrani razdelek uporablja "
+"datotečni sistem FAT, vendar ni označen kot ESP. Nastavite vrsto razdelka na "
+"sistemski EFI in omogočite zastavico esp."
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:270
 msgid ""
@@ -272,10 +271,8 @@ msgstr ""
 "»razveljavitve«."
 
 #: src/components/review/ReviewConfiguration.jsx:170
-#, fuzzy
-#| msgid "Checking storage configuration..."
 msgid "Checking installation configuration..."
-msgstr "Preverjanje konfiguracije hrambe..."
+msgstr "Preverjanje prilagoditev namestitve ..."
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:461
@@ -312,10 +309,8 @@ msgid "Completed"
 msgstr "Zaključeno"
 
 #: src/components/review/ReviewConfiguration.jsx:191
-#, fuzzy
-#| msgid "Apply configuration in installer"
 msgid "Configuration is incomplete"
-msgstr "Uveljavi konfiguracijo v namestilniku"
+msgstr "Prilagoditev ni dokončana"
 
 #: src/components/datetime/CustomNTPModal.jsx:270
 msgid "Configure NTP servers"
@@ -357,7 +352,7 @@ msgstr "Nadaljuj z namestitvijo"
 
 #: src/components/storage/Common.jsx:40
 msgid "Correct these issues before continuing."
-msgstr ""
+msgstr "Odpravite te težave pred nadaljevanjem."
 
 #: src/components/users/index.js:20
 msgid "Create Account"
@@ -385,10 +380,8 @@ msgid "Date and time"
 msgstr "Datum in čas"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:395
-#, fuzzy
-#| msgid "extended partition"
 msgid "Delete partition"
-msgstr "razširjen razdelek"
+msgstr "Izbriši razdelek"
 
 #: src/components/storage/StorageReview.jsx:346
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
@@ -545,15 +538,13 @@ msgid "How would you like to install?"
 msgstr "Kako želite namestiti?"
 
 #: src/components/review/ReviewConfiguration.jsx:288
-#, fuzzy
-#| msgid "I understand that all existing data will be erased"
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
-msgstr[0] "Razumem, da bodo vsi obstoječi podatki izbrisani"
+msgstr[0] "Razumem, da bodo vsi obstoječi podatki izbrisani iz izbranih diskov"
 msgstr[1] "Razumem, da bodo vsi obstoječi podatki izbrisani"
-msgstr[2] "Razumem, da bodo vsi obstoječi podatki izbrisani"
-msgstr[3] "Razumem, da bodo vsi obstoječi podatki izbrisani"
+msgstr[2] "Razumem, da bodo vsi obstoječi podatki izbrisani iz izbranih diskov"
+msgstr[3] "Razumem, da bodo vsi obstoječi podatki izbrisani iz izbranih diskov"
 
 #: src/components/review/ReviewConfiguration.jsx:293
 msgid "I understand that some existing data will be erased"
@@ -652,10 +643,8 @@ msgid "Invalid hostname"
 msgstr "Neveljavno ime gostitelja"
 
 #: src/components/review/ReviewConfiguration.jsx:187
-#, fuzzy
-#| msgid "completed step"
 msgid "Jump to first incomplete step"
-msgstr "zaključen korak"
+msgstr "Skoči na prvi nezaključen korak"
 
 #: src/components/storage/scenarios/use-free-space/index.js:28
 msgid ""
@@ -689,7 +678,7 @@ msgstr "Poučite se več o omejenem dostopu v konfiguraciji"
 
 #: src/components/users/Accounts.jsx:199
 msgid "Leave both passphrase fields empty to use an empty password."
-msgstr ""
+msgstr "Pustite obe polji šifrirnega gesla prazni, da uporabite prazno geslo."
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:138
 msgid "Location"
@@ -1094,10 +1083,8 @@ msgid "Resize"
 msgstr "Spremeni velikost"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:548
-#, fuzzy
-#| msgid "Extended partition"
 msgid "Resize partition"
-msgstr "Razširjen razdelek"
+msgstr "Spremeni velikost razdelka"
 
 #: src/components/storage/StorageReview.jsx:352
 msgid "Resizing the following partitions from $0: $1"
@@ -1266,7 +1253,7 @@ msgstr "Izbira programja"
 #: src/components/review/ReviewConfiguration.jsx:194
 msgid ""
 "Some installation steps still need to be completed before you can continue."
-msgstr ""
+msgstr "Pred nadaljevanjem morate dokončati še nekatere korake namestitve."
 
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:49
 msgid "Some required partitions are missing: $0"
@@ -1312,6 +1299,8 @@ msgid ""
 "Storage layout is defined by the kickstart file. The planned partitioning "
 "layout can be reviewed in the summary step."
 msgstr ""
+"Razpored prostora na disku je določen v datoteki kickstart. Načrtovano "
+"razporeditev razdelkov si lahko ogledate v koraku s povzetkom."
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
 msgid "Storage plugin failed"
@@ -1362,15 +1351,12 @@ msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "Namestitev Anaconde se je nepričakovano ustavila."
 
 #: src/components/users/Accounts.jsx:47
-#, fuzzy
-#| msgid "The following disk was detected: $0"
-#| msgid_plural "The following disks were detected: $0"
 msgid "The following user will be created:"
 msgid_plural "The following users will be created:"
-msgstr[0] "Zaznani so bili naslednji diski: $0"
-msgstr[1] "Zaznani so bili naslednji diski: $0"
-msgstr[2] "Zaznani so bili naslednji diski: $0"
-msgstr[3] "Zaznani so bili naslednji diski: $0"
+msgstr[0] "Naslednji uporabniki bodo ustvarjeni:"
+msgstr[1] "Naslednji uporabnik bo ustvarjen:"
+msgstr[2] "Naslednja uporabnika bosta ustvarjena:"
+msgstr[3] "Naslednji uporabniki bodo ustvarjeni:"
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:45
 msgid ""
@@ -1485,7 +1471,7 @@ msgstr "Ni mogoče načrtovati spreminjanja velikosti $0"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:374
 msgid "Undo last action"
-msgstr ""
+msgstr "Razveljavi zadnje dejanje"
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:58
 #: src/components/storage/installation-method/EncryptedDevices.jsx:178
@@ -1652,10 +1638,8 @@ msgid "here"
 msgstr "tukaj"
 
 #: src/components/review/ReviewConfiguration.jsx:58
-#, fuzzy
-#| msgid "Completed"
 msgid "incomplete"
-msgstr "Zaključeno"
+msgstr "nedokončano"
 
 #: src/components/storage/StorageReview.jsx:108
 msgid "mount"
