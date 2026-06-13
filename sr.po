@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-13 06:41+0000\n"
-"PO-Revision-Date: 2026-05-12 05:54+0000\n"
+"PO-Revision-Date: 2026-06-14 05:52+0000\n"
 "Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/sr/>\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.17.1\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:142
 #: src/components/storage/installation-method/InstallationDestination.jsx:275
@@ -84,10 +84,8 @@ msgid "'$0' filesystem cannot be on an encrypted block device"
 msgstr "Систем датотека „$0“ не може бити на шифрованом блок уређају"
 
 #: src/helpers/storage.js:231
-#, fuzzy
-#| msgid "'$0' must be on a device formatted to '$1'"
 msgid "'$0' must be assigned to $1"
-msgstr "„$0“ мора бити на уређају форматираном као „$1“"
+msgstr "„$0“ мора бити додељен ка „$1“"
 
 #: src/helpers/storage.js:234
 msgid "'$0' must be on a device formatted to '$1'"
@@ -99,6 +97,9 @@ msgid ""
 "filesystem, but is not marked as an ESP. Set the partition type to EFI "
 "System and enable the esp flag."
 msgstr ""
+"„$0“ мора бити ЕФИ системска партиција. Изабрана партиција користи ФАТ "
+"систем датотека, али није означена као ЕСП. Поставите врсту партиције на ЕФИ "
+"системску и омогућите есп заставицу."
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:270
 msgid ""
@@ -680,7 +681,7 @@ msgstr "Сазнајте више о ограниченом приступу у 
 
 #: src/components/users/Accounts.jsx:203
 msgid "Leave both passphrase fields empty to use an empty password."
-msgstr ""
+msgstr "Оставите оба поља лозинке празним да бисте користили празну лозинку."
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:138
 msgid "Location"
