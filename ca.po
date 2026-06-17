@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-16 08:33+0000\n"
+"POT-Creation-Date: 2026-06-17 08:14+0000\n"
 "PO-Revision-Date: 2026-05-09 05:37+0000\n"
 "Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/"
@@ -125,6 +125,12 @@ msgid ""
 msgstr ""
 "Un compte d'usuari estàndard amb accés d'administrador per fer canvis a tot "
 "el sistema."
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:48
+#, fuzzy
+#| msgid "$0 installation"
+msgid "Abort installation"
+msgstr "$0 instal·lació"
 
 #: src/components/HeaderKebab.jsx:126
 msgid "About"
@@ -322,7 +328,7 @@ msgstr ""
 "L'emmagatzematge de la cabina no va proporcionar la contrasenya per "
 "desbloquejar el dispositiu xifrat."
 
-#: src/components/installation/InstallationProgress.jsx:178
+#: src/components/installation/InstallationProgress.jsx:204
 msgid "Completed"
 msgstr "Completat"
 
@@ -360,8 +366,15 @@ msgstr "Confirmeu la paraula de pas"
 msgid "Continue"
 msgstr "Continua"
 
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:41
 #: src/components/AnacondaWizardFooter.jsx:126
 msgid "Continue installation"
+msgstr "Continueu la instal·lació"
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:28
+#, fuzzy
+#| msgid "Continue installation"
+msgid "Continue installation?"
 msgstr "Continueu la instal·lació"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:606
@@ -474,7 +487,7 @@ msgstr "Esborra les dades i instal·la"
 msgid "Error details"
 msgstr "Detalls de l'error"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Exit to live desktop"
 msgstr "Surt de l'escriptori live"
 
@@ -495,11 +508,11 @@ msgstr "No s'ha pogut desar les disposicions"
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora linux requereix almenys $0 d'espai de disc."
 
-#: src/components/installation/InstallationProgress.jsx:147
+#: src/components/installation/InstallationProgress.jsx:173
 msgid "Finalization"
 msgstr "Finalització"
 
-#: src/components/installation/InstallationProgress.jsx:145
+#: src/components/installation/InstallationProgress.jsx:171
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -596,7 +609,7 @@ msgid ""
 "If you do not understand or accept the risks, then please exit this program."
 msgstr "Si no enteneu o accepteu els riscos, sortiu d'aquest programa."
 
-#: src/components/installation/InstallationProgress.jsx:183
+#: src/components/installation/InstallationProgress.jsx:209
 msgid "In progress"
 msgstr "En progrés"
 
@@ -610,7 +623,7 @@ msgstr "Inicialitzant..."
 msgid "Install"
 msgstr "_Instal·la"
 
-#: src/components/installation/InstallationProgress.jsx:123
+#: src/components/installation/InstallationProgress.jsx:149
 #: src/components/Error.jsx:747
 msgid "Installation failed"
 msgstr "La instal·lació ha fallat"
@@ -619,12 +632,12 @@ msgstr "La instal·lació ha fallat"
 msgid "Installation method"
 msgstr "Mètode d'instal·lació"
 
-#: src/components/installation/InstallationProgress.jsx:104
-#: src/components/installation/InstallationProgress.jsx:108
+#: src/components/installation/InstallationProgress.jsx:119
+#: src/components/installation/InstallationProgress.jsx:123
 msgid "Installation of the system failed"
 msgstr "La instal·lació del sistema ha fallat"
 
-#: src/components/installation/InstallationProgress.jsx:84
+#: src/components/installation/InstallationProgress.jsx:87
 msgid "Installation of the system failed: $0"
 msgstr "La instal·lació del sistema ha fallat: $0"
 
@@ -632,7 +645,7 @@ msgstr "La instal·lació del sistema ha fallat: $0"
 msgid "Installation type"
 msgstr "Tipus d'instal·lació"
 
-#: src/components/installation/InstallationProgress.jsx:125
+#: src/components/installation/InstallationProgress.jsx:151
 msgid "Installing"
 msgstr "S'instal·la"
 
@@ -896,7 +909,7 @@ msgstr "La contrasenya no coincideix amb cap dispositiu bloquejat"
 msgid "Passphrases must match"
 msgstr "Les contrasenyes han de coincidir"
 
-#: src/components/installation/InstallationProgress.jsx:172
+#: src/components/installation/InstallationProgress.jsx:198
 msgid "Pending"
 msgstr "Pendent"
 
@@ -983,7 +996,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "Reiniciar el sistema?"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Reboot to installed system"
 msgstr "Reinicieu al sistema instal·lat"
 
@@ -1251,11 +1264,11 @@ msgstr "Mostra la contrasenya"
 msgid "Size"
 msgstr "Mida"
 
-#: src/components/installation/InstallationProgress.jsx:137
+#: src/components/installation/InstallationProgress.jsx:163
 msgid "Software installation"
 msgstr "Instal·lació de programari"
 
-#: src/components/installation/InstallationProgress.jsx:135
+#: src/components/installation/InstallationProgress.jsx:161
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1290,14 +1303,14 @@ msgstr "Traça d'errors (Stacktrace)"
 msgid "Storage"
 msgstr "Emmagatzematge"
 
-#: src/components/installation/InstallationProgress.jsx:132
+#: src/components/installation/InstallationProgress.jsx:158
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Configuració d'emmagatzematge"
 
-#: src/components/installation/InstallationProgress.jsx:130
+#: src/components/installation/InstallationProgress.jsx:156
 msgid "Storage configuration: Storage is currently being configured."
 msgstr ""
 "Configuració d'emmagatzematge: L'emmagatzematge s'està configurant "
@@ -1338,7 +1351,7 @@ msgstr "No s'han complert els requisits d'emmagatzematge"
 msgid "Strong"
 msgstr "Forta"
 
-#: src/components/installation/InstallationProgress.jsx:120
+#: src/components/installation/InstallationProgress.jsx:146
 msgid "Successfully installed"
 msgstr "S'ha instal·lat correctament"
 
@@ -1358,11 +1371,11 @@ msgstr "Llengües suggerides"
 msgid "System"
 msgstr "Sistema"
 
-#: src/components/installation/InstallationProgress.jsx:142
+#: src/components/installation/InstallationProgress.jsx:168
 msgid "System configuration"
 msgstr "Configuració del sistema"
 
-#: src/components/installation/InstallationProgress.jsx:140
+#: src/components/installation/InstallationProgress.jsx:166
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1463,7 +1476,7 @@ msgstr "Zona horària"
 msgid "Title"
 msgstr "Títol"
 
-#: src/components/installation/InstallationProgress.jsx:163
+#: src/components/installation/InstallationProgress.jsx:189
 msgid "To begin using $0, reboot your system."
 msgstr "Per començar a utilitzar $0, reinicieu el sistema."
 
@@ -1619,11 +1632,11 @@ msgstr ""
 msgid "Your progress will not be saved."
 msgstr "El vostre progrés no es desarà."
 
-#: src/components/installation/InstallationProgress.jsx:177
+#: src/components/installation/InstallationProgress.jsx:203
 msgid "completed step"
 msgstr "pas completat"
 
-#: src/components/installation/InstallationProgress.jsx:182
+#: src/components/installation/InstallationProgress.jsx:208
 msgid "current step"
 msgstr "pas actual"
 
@@ -1665,7 +1678,7 @@ msgstr "incomplet"
 msgid "mount"
 msgstr "munta"
 
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:197
 msgid "pending step"
 msgstr "pas pendent"
 

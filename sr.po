@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-16 08:33+0000\n"
+"POT-Creation-Date: 2026-06-17 08:14+0000\n"
 "PO-Revision-Date: 2026-06-14 05:52+0000\n"
 "Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/"
@@ -115,6 +115,12 @@ msgid ""
 msgstr ""
 "Уобичајени кориснички налог са админ приступом за вршење измена на нивоу "
 "целог система."
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:48
+#, fuzzy
+#| msgid "$0 installation"
+msgid "Abort installation"
+msgstr "$0 инсталација"
 
 #: src/components/HeaderKebab.jsx:126
 msgid "About"
@@ -307,7 +313,7 @@ msgid ""
 msgstr ""
 "Кокпит складиште није доставило лозинку за откључавање шифрованог уређаја."
 
-#: src/components/installation/InstallationProgress.jsx:178
+#: src/components/installation/InstallationProgress.jsx:204
 msgid "Completed"
 msgstr "Завршено"
 
@@ -345,8 +351,15 @@ msgstr "Потврди лозинку"
 msgid "Continue"
 msgstr "Настави"
 
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:41
 #: src/components/AnacondaWizardFooter.jsx:126
 msgid "Continue installation"
+msgstr "Настави инсталацију"
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:28
+#, fuzzy
+#| msgid "Continue installation"
+msgid "Continue installation?"
 msgstr "Настави инсталацију"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:606
@@ -459,7 +472,7 @@ msgstr "Обриши податке и инсталирај"
 msgid "Error details"
 msgstr "Појединости грешке"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Exit to live desktop"
 msgstr "Изађи у живо окружење радне површи"
 
@@ -480,11 +493,11 @@ msgstr "Није успело чување распореда"
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Федора Линукс захтева најмање $0 простора на диску."
 
-#: src/components/installation/InstallationProgress.jsx:147
+#: src/components/installation/InstallationProgress.jsx:173
 msgid "Finalization"
 msgstr "Довршавање"
 
-#: src/components/installation/InstallationProgress.jsx:145
+#: src/components/installation/InstallationProgress.jsx:171
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -583,7 +596,7 @@ msgid ""
 "If you do not understand or accept the risks, then please exit this program."
 msgstr "Ако не разумете или не прихватате ризике, изађите из овог програма."
 
-#: src/components/installation/InstallationProgress.jsx:183
+#: src/components/installation/InstallationProgress.jsx:209
 msgid "In progress"
 msgstr "У току"
 
@@ -597,7 +610,7 @@ msgstr "Покрећем..."
 msgid "Install"
 msgstr "Инсталирај"
 
-#: src/components/installation/InstallationProgress.jsx:123
+#: src/components/installation/InstallationProgress.jsx:149
 #: src/components/Error.jsx:747
 msgid "Installation failed"
 msgstr "Инсталирање није успело"
@@ -606,12 +619,12 @@ msgstr "Инсталирање није успело"
 msgid "Installation method"
 msgstr "Начин инсталације"
 
-#: src/components/installation/InstallationProgress.jsx:104
-#: src/components/installation/InstallationProgress.jsx:108
+#: src/components/installation/InstallationProgress.jsx:119
+#: src/components/installation/InstallationProgress.jsx:123
 msgid "Installation of the system failed"
 msgstr "Инсталација система није успела"
 
-#: src/components/installation/InstallationProgress.jsx:84
+#: src/components/installation/InstallationProgress.jsx:87
 msgid "Installation of the system failed: $0"
 msgstr "Инсталација система није успела: $0"
 
@@ -619,7 +632,7 @@ msgstr "Инсталација система није успела: $0"
 msgid "Installation type"
 msgstr "Врста инсталације"
 
-#: src/components/installation/InstallationProgress.jsx:125
+#: src/components/installation/InstallationProgress.jsx:151
 msgid "Installing"
 msgstr "Инсталирање"
 
@@ -881,7 +894,7 @@ msgstr "Лозинка се не подудара ни са једним зак�
 msgid "Passphrases must match"
 msgstr "Лозинке се морају подударати"
 
-#: src/components/installation/InstallationProgress.jsx:172
+#: src/components/installation/InstallationProgress.jsx:198
 msgid "Pending"
 msgstr "У току"
 
@@ -967,7 +980,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "Поново покренути систем?"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Reboot to installed system"
 msgstr "Поново покрени у инсталирани систем"
 
@@ -1234,11 +1247,11 @@ msgstr "Прикажи лозинку"
 msgid "Size"
 msgstr "Величина"
 
-#: src/components/installation/InstallationProgress.jsx:137
+#: src/components/installation/InstallationProgress.jsx:163
 msgid "Software installation"
 msgstr "Инсталација софтвера"
 
-#: src/components/installation/InstallationProgress.jsx:135
+#: src/components/installation/InstallationProgress.jsx:161
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1272,14 +1285,14 @@ msgstr "Траг стека"
 msgid "Storage"
 msgstr "Складиште"
 
-#: src/components/installation/InstallationProgress.jsx:132
+#: src/components/installation/InstallationProgress.jsx:158
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Подешавање складишта"
 
-#: src/components/installation/InstallationProgress.jsx:130
+#: src/components/installation/InstallationProgress.jsx:156
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "Подешавање складишта: Складиште се тренутно подешава."
 
@@ -1315,7 +1328,7 @@ msgstr "Захтеви складишта нису испуњени"
 msgid "Strong"
 msgstr "Јака"
 
-#: src/components/installation/InstallationProgress.jsx:120
+#: src/components/installation/InstallationProgress.jsx:146
 msgid "Successfully installed"
 msgstr "Успешно инсталирано"
 
@@ -1335,11 +1348,11 @@ msgstr "Предложени језици"
 msgid "System"
 msgstr "Систем"
 
-#: src/components/installation/InstallationProgress.jsx:142
+#: src/components/installation/InstallationProgress.jsx:168
 msgid "System configuration"
 msgstr "Подешавање система"
 
-#: src/components/installation/InstallationProgress.jsx:140
+#: src/components/installation/InstallationProgress.jsx:166
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1442,7 +1455,7 @@ msgstr "Временска зона"
 msgid "Title"
 msgstr "Наслов"
 
-#: src/components/installation/InstallationProgress.jsx:163
+#: src/components/installation/InstallationProgress.jsx:189
 msgid "To begin using $0, reboot your system."
 msgstr "Да бисте почели да користите $0, поново покрените систем."
 
@@ -1597,11 +1610,11 @@ msgstr ""
 msgid "Your progress will not be saved."
 msgstr "Ваш напредак неће бити сачуван."
 
-#: src/components/installation/InstallationProgress.jsx:177
+#: src/components/installation/InstallationProgress.jsx:203
 msgid "completed step"
 msgstr "завршен корак"
 
-#: src/components/installation/InstallationProgress.jsx:182
+#: src/components/installation/InstallationProgress.jsx:208
 msgid "current step"
 msgstr "тренутни корак"
 
@@ -1643,7 +1656,7 @@ msgstr "недовршено"
 msgid "mount"
 msgstr "закачи"
 
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:197
 msgid "pending step"
 msgstr "корак на чекању"
 

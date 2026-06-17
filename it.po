@@ -47,7 +47,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-16 08:33+0000\n"
+"POT-Creation-Date: 2026-06-17 08:14+0000\n"
 "PO-Revision-Date: 2026-05-15 06:19+0000\n"
 "Last-Translator: Nathan <nathan95@live.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
@@ -146,6 +146,12 @@ msgid ""
 msgstr ""
 "Un account utente standard con accesso amministratore per apportare "
 "modifiche a tutto il sistema."
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:48
+#, fuzzy
+#| msgid "$0 installation"
+msgid "Abort installation"
+msgstr "Installazione $0"
 
 #: src/components/HeaderKebab.jsx:126
 msgid "About"
@@ -345,7 +351,7 @@ msgstr ""
 "L'archiviazione del Cruscotto non ha fornito la passphrase per sbloccare il "
 "dispositivo crittografato."
 
-#: src/components/installation/InstallationProgress.jsx:178
+#: src/components/installation/InstallationProgress.jsx:204
 msgid "Completed"
 msgstr "Completato"
 
@@ -383,8 +389,15 @@ msgstr "Conferma la password"
 msgid "Continue"
 msgstr "Continua"
 
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:41
 #: src/components/AnacondaWizardFooter.jsx:126
 msgid "Continue installation"
+msgstr "Continua l'installazione"
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:28
+#, fuzzy
+#| msgid "Continue installation"
+msgid "Continue installation?"
 msgstr "Continua l'installazione"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:606
@@ -498,7 +511,7 @@ msgstr "Cancella i dati e installa"
 msgid "Error details"
 msgstr "Dettagli dell'errore"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Exit to live desktop"
 msgstr "Esci sul desktop live"
 
@@ -519,11 +532,11 @@ msgstr "Impossibile salvare i layout"
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora Linux richiede almeno $0 di spazio su disco."
 
-#: src/components/installation/InstallationProgress.jsx:147
+#: src/components/installation/InstallationProgress.jsx:173
 msgid "Finalization"
 msgstr "Finalizzazione"
 
-#: src/components/installation/InstallationProgress.jsx:145
+#: src/components/installation/InstallationProgress.jsx:171
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -619,7 +632,7 @@ msgid ""
 "If you do not understand or accept the risks, then please exit this program."
 msgstr "Se non capite o accettate i rischi, uscite da questo programma."
 
-#: src/components/installation/InstallationProgress.jsx:183
+#: src/components/installation/InstallationProgress.jsx:209
 msgid "In progress"
 msgstr "Avanzamento"
 
@@ -633,7 +646,7 @@ msgstr "Inizializzazione..."
 msgid "Install"
 msgstr "Installa"
 
-#: src/components/installation/InstallationProgress.jsx:123
+#: src/components/installation/InstallationProgress.jsx:149
 #: src/components/Error.jsx:747
 msgid "Installation failed"
 msgstr "Installazione fallita"
@@ -642,12 +655,12 @@ msgstr "Installazione fallita"
 msgid "Installation method"
 msgstr "Metodo di installazione"
 
-#: src/components/installation/InstallationProgress.jsx:104
-#: src/components/installation/InstallationProgress.jsx:108
+#: src/components/installation/InstallationProgress.jsx:119
+#: src/components/installation/InstallationProgress.jsx:123
 msgid "Installation of the system failed"
 msgstr "L'installazione del sistema non è riuscita"
 
-#: src/components/installation/InstallationProgress.jsx:84
+#: src/components/installation/InstallationProgress.jsx:87
 msgid "Installation of the system failed: $0"
 msgstr "Installazione del sistema fallita: $0"
 
@@ -655,7 +668,7 @@ msgstr "Installazione del sistema fallita: $0"
 msgid "Installation type"
 msgstr "Tipo di installazione"
 
-#: src/components/installation/InstallationProgress.jsx:125
+#: src/components/installation/InstallationProgress.jsx:151
 msgid "Installing"
 msgstr "Installazione in corso"
 
@@ -917,7 +930,7 @@ msgstr "La passphrase non corrisponde a nessun dispositivo bloccato"
 msgid "Passphrases must match"
 msgstr "Le password devono corrispondere"
 
-#: src/components/installation/InstallationProgress.jsx:172
+#: src/components/installation/InstallationProgress.jsx:198
 msgid "Pending"
 msgstr "In attesa"
 
@@ -1005,7 +1018,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "Riavvia il sistema?"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Reboot to installed system"
 msgstr "Riavviare al sistema installato"
 
@@ -1274,11 +1287,11 @@ msgstr "Mostra la password"
 msgid "Size"
 msgstr "Dimensione"
 
-#: src/components/installation/InstallationProgress.jsx:137
+#: src/components/installation/InstallationProgress.jsx:163
 msgid "Software installation"
 msgstr "Installazione software"
 
-#: src/components/installation/InstallationProgress.jsx:135
+#: src/components/installation/InstallationProgress.jsx:161
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1314,14 +1327,14 @@ msgstr "Stacktrace"
 msgid "Storage"
 msgstr "Archiviazione"
 
-#: src/components/installation/InstallationProgress.jsx:132
+#: src/components/installation/InstallationProgress.jsx:158
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Configurazione dello Storage"
 
-#: src/components/installation/InstallationProgress.jsx:130
+#: src/components/installation/InstallationProgress.jsx:156
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "Configurazione dello storage: Lo storage è in corso di configurazione."
 
@@ -1360,7 +1373,7 @@ msgstr "Requisiti di archiviazione non soddisfatti"
 msgid "Strong"
 msgstr "Forte"
 
-#: src/components/installation/InstallationProgress.jsx:120
+#: src/components/installation/InstallationProgress.jsx:146
 msgid "Successfully installed"
 msgstr "Installazione riuscita"
 
@@ -1380,11 +1393,11 @@ msgstr "Lingue suggerite"
 msgid "System"
 msgstr "Sistema"
 
-#: src/components/installation/InstallationProgress.jsx:142
+#: src/components/installation/InstallationProgress.jsx:168
 msgid "System configuration"
 msgstr "Configurazione di sistema"
 
-#: src/components/installation/InstallationProgress.jsx:140
+#: src/components/installation/InstallationProgress.jsx:166
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1486,7 +1499,7 @@ msgstr "Fuso orario"
 msgid "Title"
 msgstr "Titolo"
 
-#: src/components/installation/InstallationProgress.jsx:163
+#: src/components/installation/InstallationProgress.jsx:189
 msgid "To begin using $0, reboot your system."
 msgstr "Per iniziare a usare $0, riavvia il sistema."
 
@@ -1645,11 +1658,11 @@ msgstr ""
 msgid "Your progress will not be saved."
 msgstr "I progressi non verranno salvati."
 
-#: src/components/installation/InstallationProgress.jsx:177
+#: src/components/installation/InstallationProgress.jsx:203
 msgid "completed step"
 msgstr "Step completati"
 
-#: src/components/installation/InstallationProgress.jsx:182
+#: src/components/installation/InstallationProgress.jsx:208
 msgid "current step"
 msgstr "step corrente"
 
@@ -1691,7 +1704,7 @@ msgstr "incompleto"
 msgid "mount"
 msgstr "monta"
 
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:197
 msgid "pending step"
 msgstr "step mancanti"
 

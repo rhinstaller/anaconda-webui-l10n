@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-16 08:33+0000\n"
+"POT-Creation-Date: 2026-06-17 08:14+0000\n"
 "PO-Revision-Date: 2026-06-05 06:52+0000\n"
 "Last-Translator: ButterflyOfFire "
 "<butterflyoffire@users.noreply.translate.fedoraproject.org>\n"
@@ -109,6 +109,12 @@ msgid ""
 msgstr ""
 "D amiḍan n useqdac ameslugan yesɛan addaf n unedbal i usenfel deg unagraw s "
 "umata."
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:48
+#, fuzzy
+#| msgid "$0 installation"
+msgid "Abort installation"
+msgstr "Asbeddi n $0"
 
 #: src/components/HeaderKebab.jsx:126
 msgid "About"
@@ -303,7 +309,7 @@ msgstr ""
 "Aḥraz Cockpit ur imudd ara tafyirt n uɛeddi i tukksa n usekkeṛ i yibenk "
 "yettwawgelhen."
 
-#: src/components/installation/InstallationProgress.jsx:178
+#: src/components/installation/InstallationProgress.jsx:204
 msgid "Completed"
 msgstr "Immed"
 
@@ -341,8 +347,15 @@ msgstr "Sentem tafyirt n uɛeddi"
 msgid "Continue"
 msgstr "Kemmel"
 
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:41
 #: src/components/AnacondaWizardFooter.jsx:126
 msgid "Continue installation"
+msgstr "Kemmel asbeddi"
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:28
+#, fuzzy
+#| msgid "Continue installation"
+msgid "Continue installation?"
 msgstr "Kemmel asbeddi"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:606
@@ -455,7 +468,7 @@ msgstr "Sfeḍ isefka syen sebded"
 msgid "Error details"
 msgstr "Talqayt n tuccḍa"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Exit to live desktop"
 msgstr "Ffeɣ ɣer tnarit tusridt"
 
@@ -476,11 +489,11 @@ msgstr "Asekles n tneɣrufin ur yeddi ara"
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora Linux yesra xerṣum $0 seg tallunt n uḍebsi."
 
-#: src/components/installation/InstallationProgress.jsx:147
+#: src/components/installation/InstallationProgress.jsx:173
 msgid "Finalization"
 msgstr "Afakki"
 
-#: src/components/installation/InstallationProgress.jsx:145
+#: src/components/installation/InstallationProgress.jsx:171
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -575,7 +588,7 @@ msgid ""
 msgstr ""
 "Ma yella ur tegziḍ ara iwellihen neɣ ayen ara yeḍrun, ttxil-k ffeɣ seg wahil."
 
-#: src/components/installation/InstallationProgress.jsx:183
+#: src/components/installation/InstallationProgress.jsx:209
 msgid "In progress"
 msgstr "Iteddu"
 
@@ -589,7 +602,7 @@ msgstr "Awennez..."
 msgid "Install"
 msgstr "Sbedd"
 
-#: src/components/installation/InstallationProgress.jsx:123
+#: src/components/installation/InstallationProgress.jsx:149
 #: src/components/Error.jsx:747
 msgid "Installation failed"
 msgstr "Yecceḍ usbeddi"
@@ -598,12 +611,12 @@ msgstr "Yecceḍ usbeddi"
 msgid "Installation method"
 msgstr "Tarrayt n usbeddi"
 
-#: src/components/installation/InstallationProgress.jsx:104
-#: src/components/installation/InstallationProgress.jsx:108
+#: src/components/installation/InstallationProgress.jsx:119
+#: src/components/installation/InstallationProgress.jsx:123
 msgid "Installation of the system failed"
 msgstr "Asebded n unagraw yecceḍ"
 
-#: src/components/installation/InstallationProgress.jsx:84
+#: src/components/installation/InstallationProgress.jsx:87
 msgid "Installation of the system failed: $0"
 msgstr "Asbeddi n unagraw yecceḍ: $0"
 
@@ -611,7 +624,7 @@ msgstr "Asbeddi n unagraw yecceḍ: $0"
 msgid "Installation type"
 msgstr "Anaw n usbeddi"
 
-#: src/components/installation/InstallationProgress.jsx:125
+#: src/components/installation/InstallationProgress.jsx:151
 msgid "Installing"
 msgstr "Yessebdad"
 
@@ -865,7 +878,7 @@ msgstr "Tafyirt n uɛeddi ur temṣada ara ula d yiwen yibenk yettwasekkṛen"
 msgid "Passphrases must match"
 msgstr "Tifyar n uɛeddi ilaq ad mṣadant"
 
-#: src/components/installation/InstallationProgress.jsx:172
+#: src/components/installation/InstallationProgress.jsx:198
 msgid "Pending"
 msgstr "Yettṛaǧu"
 
@@ -951,7 +964,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "Ales asenker n unagraw?"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Reboot to installed system"
 msgstr "Ales asenker ɣer unagraw yettusbedden"
 
@@ -1211,11 +1224,11 @@ msgstr "Sken-d awal n uɛeddi"
 msgid "Size"
 msgstr "Teɣzi"
 
-#: src/components/installation/InstallationProgress.jsx:137
+#: src/components/installation/InstallationProgress.jsx:163
 msgid "Software installation"
 msgstr "Asebded n yiseɣẓanen"
 
-#: src/components/installation/InstallationProgress.jsx:135
+#: src/components/installation/InstallationProgress.jsx:161
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1249,14 +1262,14 @@ msgstr ""
 msgid "Storage"
 msgstr "Aḥraz"
 
-#: src/components/installation/InstallationProgress.jsx:132
+#: src/components/installation/InstallationProgress.jsx:158
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Tawila n uḥraz"
 
-#: src/components/installation/InstallationProgress.jsx:130
+#: src/components/installation/InstallationProgress.jsx:156
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "Tawila n uḥraz: Aḥraz la yettwasestab."
 
@@ -1290,7 +1303,7 @@ msgstr "Issutar n uḥraz ur ttuqadaren ara"
 msgid "Strong"
 msgstr "Yeǧhed"
 
-#: src/components/installation/InstallationProgress.jsx:120
+#: src/components/installation/InstallationProgress.jsx:146
 msgid "Successfully installed"
 msgstr "Yettwasebded akken iwata"
 
@@ -1310,11 +1323,11 @@ msgstr "Tutlayin i d-yettwasumren"
 msgid "System"
 msgstr "Anagraw"
 
-#: src/components/installation/InstallationProgress.jsx:142
+#: src/components/installation/InstallationProgress.jsx:168
 msgid "System configuration"
 msgstr "Tawila n unagraw"
 
-#: src/components/installation/InstallationProgress.jsx:140
+#: src/components/installation/InstallationProgress.jsx:166
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1409,7 +1422,7 @@ msgstr "Tamnaḍt tasragant"
 msgid "Title"
 msgstr "Azwel"
 
-#: src/components/installation/InstallationProgress.jsx:163
+#: src/components/installation/InstallationProgress.jsx:189
 msgid "To begin using $0, reboot your system."
 msgstr "Ales asenker i unagraw-inek·inem akken ad tebdud aseqdec n $0."
 
@@ -1559,11 +1572,11 @@ msgstr "Yessefk ad teqqneḍ ɣer uẓeṭṭa akken ad tremdeḍ azemz awurman 
 msgid "Your progress will not be saved."
 msgstr "Akala-k ur yettwaseklas ara."
 
-#: src/components/installation/InstallationProgress.jsx:177
+#: src/components/installation/InstallationProgress.jsx:203
 msgid "completed step"
 msgstr "takkayt yemmden"
 
-#: src/components/installation/InstallationProgress.jsx:182
+#: src/components/installation/InstallationProgress.jsx:208
 msgid "current step"
 msgstr "takkayt tamirant"
 
@@ -1605,7 +1618,7 @@ msgstr "d arurmid"
 msgid "mount"
 msgstr "serkeb"
 
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:197
 msgid "pending step"
 msgstr "takkayt yettṛaǧun"
 

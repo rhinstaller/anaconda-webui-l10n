@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-16 08:33+0000\n"
+"POT-Creation-Date: 2026-06-17 08:14+0000\n"
 "PO-Revision-Date: 2026-06-02 07:11+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -108,6 +108,12 @@ msgid ""
 msgstr ""
 "სტანდარტული მომხმარებლის ანგარიშის ადმინისტრატორის წვდომი მთელ სისტემაში "
 "ცვლილებების შესატანად."
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:48
+#, fuzzy
+#| msgid "$0 installation"
+msgid "Abort installation"
+msgstr "$0-ის დაყენება"
 
 #: src/components/HeaderKebab.jsx:126
 msgid "About"
@@ -304,7 +310,7 @@ msgstr ""
 "Cockpit-ის საცავის დამატებამ დაშიფრული მოწყობილობის განბლოკისთვის საკვანძო "
 "ფრაზა არ მოგვაწოდა."
 
-#: src/components/installation/InstallationProgress.jsx:178
+#: src/components/installation/InstallationProgress.jsx:204
 msgid "Completed"
 msgstr "დასრულებულია"
 
@@ -342,8 +348,15 @@ msgstr "დაადასტურეთ საკვანძო ფრაზ�
 msgid "Continue"
 msgstr "გაგრძელება"
 
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:41
 #: src/components/AnacondaWizardFooter.jsx:126
 msgid "Continue installation"
+msgstr "დაყენებს გაგრძელება"
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:28
+#, fuzzy
+#| msgid "Continue installation"
+msgid "Continue installation?"
 msgstr "დაყენებს გაგრძელება"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:606
@@ -456,7 +469,7 @@ msgstr "მონაცემების წაშლა და დაყენ
 msgid "Error details"
 msgstr "შეცდომის დეტალები"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Exit to live desktop"
 msgstr "გასვლა ცოცხალ სამუშაო მაგიდაზე"
 
@@ -477,11 +490,11 @@ msgstr "განლაგებების შენახვის შეც�
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora linux-ს დისკზე მინიმუმ $0 ადგილი სჭირდება."
 
-#: src/components/installation/InstallationProgress.jsx:147
+#: src/components/installation/InstallationProgress.jsx:173
 msgid "Finalization"
 msgstr "დასრულება"
 
-#: src/components/installation/InstallationProgress.jsx:145
+#: src/components/installation/InstallationProgress.jsx:171
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -578,7 +591,7 @@ msgstr ""
 "ამ პროგრამიდან \"მინდა გასვლა\"-ზე დაწოლით, რის შედეგადაც თქვენი სისტემა "
 "გადაიტვირთება."
 
-#: src/components/installation/InstallationProgress.jsx:183
+#: src/components/installation/InstallationProgress.jsx:209
 msgid "In progress"
 msgstr "მიმდინარეობს"
 
@@ -592,7 +605,7 @@ msgstr "ინიციალიზაცია..."
 msgid "Install"
 msgstr "დაყენება"
 
-#: src/components/installation/InstallationProgress.jsx:123
+#: src/components/installation/InstallationProgress.jsx:149
 #: src/components/Error.jsx:747
 msgid "Installation failed"
 msgstr "დაყენების შეცდომა"
@@ -601,12 +614,12 @@ msgstr "დაყენების შეცდომა"
 msgid "Installation method"
 msgstr "დაყენების მეთოდი"
 
-#: src/components/installation/InstallationProgress.jsx:104
-#: src/components/installation/InstallationProgress.jsx:108
+#: src/components/installation/InstallationProgress.jsx:119
+#: src/components/installation/InstallationProgress.jsx:123
 msgid "Installation of the system failed"
 msgstr "სისტემის დაყენება ჩავარდა"
 
-#: src/components/installation/InstallationProgress.jsx:84
+#: src/components/installation/InstallationProgress.jsx:87
 msgid "Installation of the system failed: $0"
 msgstr "სისტემის დაყენება ჩავარდა: $0"
 
@@ -614,7 +627,7 @@ msgstr "სისტემის დაყენება ჩავარდა:
 msgid "Installation type"
 msgstr "დაყენების ტიპი"
 
-#: src/components/installation/InstallationProgress.jsx:125
+#: src/components/installation/InstallationProgress.jsx:151
 msgid "Installing"
 msgstr "დაყენება"
 
@@ -876,7 +889,7 @@ msgstr "საკვანძო ფრაზა არც ერთ დაბ�
 msgid "Passphrases must match"
 msgstr "საკვანძო ფრაზები არ ემთხვევა"
 
-#: src/components/installation/InstallationProgress.jsx:172
+#: src/components/installation/InstallationProgress.jsx:198
 msgid "Pending"
 msgstr "დარჩენილი"
 
@@ -963,7 +976,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "გადავტვირთო სისტემა?"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Reboot to installed system"
 msgstr "გადატვირთვა დაყენებულ სისტემაში"
 
@@ -1231,11 +1244,11 @@ msgstr "პაროლის ჩვენება"
 msgid "Size"
 msgstr "ზომა"
 
-#: src/components/installation/InstallationProgress.jsx:137
+#: src/components/installation/InstallationProgress.jsx:163
 msgid "Software installation"
 msgstr "პროგრამების დაყენება"
 
-#: src/components/installation/InstallationProgress.jsx:135
+#: src/components/installation/InstallationProgress.jsx:161
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1269,14 +1282,14 @@ msgstr "სტეკის ტრეისი"
 msgid "Storage"
 msgstr "საცავი"
 
-#: src/components/installation/InstallationProgress.jsx:132
+#: src/components/installation/InstallationProgress.jsx:158
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "საცავის მორგება"
 
-#: src/components/installation/InstallationProgress.jsx:130
+#: src/components/installation/InstallationProgress.jsx:156
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "საცავის კონფიგურაცია: მიმდინარეობს საცავის კონფიგურაცია."
 
@@ -1313,7 +1326,7 @@ msgstr "საცავის მოთხოვნები დაყენე�
 msgid "Strong"
 msgstr "ძლიერი"
 
-#: src/components/installation/InstallationProgress.jsx:120
+#: src/components/installation/InstallationProgress.jsx:146
 msgid "Successfully installed"
 msgstr "დაყენება წარმატებულია"
 
@@ -1333,11 +1346,11 @@ msgstr "მინიშნებული ენები"
 msgid "System"
 msgstr "სისტემა"
 
-#: src/components/installation/InstallationProgress.jsx:142
+#: src/components/installation/InstallationProgress.jsx:168
 msgid "System configuration"
 msgstr "სისტემის მორგება"
 
-#: src/components/installation/InstallationProgress.jsx:140
+#: src/components/installation/InstallationProgress.jsx:166
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1440,7 +1453,7 @@ msgstr "დროის სარტყელი"
 msgid "Title"
 msgstr "სათაური"
 
-#: src/components/installation/InstallationProgress.jsx:163
+#: src/components/installation/InstallationProgress.jsx:189
 msgid "To begin using $0, reboot your system."
 msgstr "$0-ის გამოყენების დასაწყებად გადატვირთეთ თქვენი სისტემა."
 
@@ -1597,11 +1610,11 @@ msgstr ""
 msgid "Your progress will not be saved."
 msgstr "თქვენი მიმდინარეობა შენახული არ იქნება."
 
-#: src/components/installation/InstallationProgress.jsx:177
+#: src/components/installation/InstallationProgress.jsx:203
 msgid "completed step"
 msgstr "ნაბიჯი დასრულდა"
 
-#: src/components/installation/InstallationProgress.jsx:182
+#: src/components/installation/InstallationProgress.jsx:208
 msgid "current step"
 msgstr "მიმდინარე ბიჯი"
 
@@ -1643,7 +1656,7 @@ msgstr "დაუსრულებელია"
 msgid "mount"
 msgstr "მიმაგრება"
 
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:197
 msgid "pending step"
 msgstr "დარჩენილი ბიჯები"
 

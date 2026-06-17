@@ -63,7 +63,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-16 08:33+0000\n"
+"POT-Creation-Date: 2026-06-17 08:14+0000\n"
 "PO-Revision-Date: 2026-02-03 04:28+0000\n"
 "Last-Translator: Yoshiaki Ishii "
 "<zouforestyoppy@users.noreply.translate.fedoraproject.org>\n"
@@ -157,6 +157,12 @@ msgstr ""
 msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr "システム全体の変更を行うための管理者権限を持つ標準ユーザーアカウント。"
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:48
+#, fuzzy
+#| msgid "$0 installation"
+msgid "Abort installation"
+msgstr "$0 のインストール"
 
 #: src/components/HeaderKebab.jsx:126
 msgid "About"
@@ -365,7 +371,7 @@ msgid ""
 msgstr ""
 "Cockpit ストレージが暗号化デバイス解除用のパスフレーズを提示しませんてした。"
 
-#: src/components/installation/InstallationProgress.jsx:178
+#: src/components/installation/InstallationProgress.jsx:204
 msgid "Completed"
 msgstr "完了しました"
 
@@ -407,8 +413,15 @@ msgstr "パスフレーズの確認"
 msgid "Continue"
 msgstr "続行"
 
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:41
 #: src/components/AnacondaWizardFooter.jsx:126
 msgid "Continue installation"
+msgstr "インストールを続行する"
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:28
+#, fuzzy
+#| msgid "Continue installation"
+msgid "Continue installation?"
 msgstr "インストールを続行する"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:606
@@ -525,7 +538,7 @@ msgstr "データを消去してインストールします"
 msgid "Error details"
 msgstr "エラーの詳細"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Exit to live desktop"
 msgstr "ライブデスクトップに戻る"
 
@@ -546,11 +559,11 @@ msgstr "レイアウトの保存に失敗しました"
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora Linux は最低でも $0 のディスク領域を必要とします。"
 
-#: src/components/installation/InstallationProgress.jsx:147
+#: src/components/installation/InstallationProgress.jsx:173
 msgid "Finalization"
 msgstr "終了処理"
 
-#: src/components/installation/InstallationProgress.jsx:145
+#: src/components/installation/InstallationProgress.jsx:171
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -644,7 +657,7 @@ msgid ""
 "If you do not understand or accept the risks, then please exit this program."
 msgstr "リスクを理解または承諾しない場合は、このプログラムを終了してください。"
 
-#: src/components/installation/InstallationProgress.jsx:183
+#: src/components/installation/InstallationProgress.jsx:209
 msgid "In progress"
 msgstr "進行中"
 
@@ -658,7 +671,7 @@ msgstr "初期化中..."
 msgid "Install"
 msgstr "インストール"
 
-#: src/components/installation/InstallationProgress.jsx:123
+#: src/components/installation/InstallationProgress.jsx:149
 #: src/components/Error.jsx:747
 msgid "Installation failed"
 msgstr "インストールに失敗しました"
@@ -667,12 +680,12 @@ msgstr "インストールに失敗しました"
 msgid "Installation method"
 msgstr "インストール方法"
 
-#: src/components/installation/InstallationProgress.jsx:104
-#: src/components/installation/InstallationProgress.jsx:108
+#: src/components/installation/InstallationProgress.jsx:119
+#: src/components/installation/InstallationProgress.jsx:123
 msgid "Installation of the system failed"
 msgstr "システムのインストールに失敗しました"
 
-#: src/components/installation/InstallationProgress.jsx:84
+#: src/components/installation/InstallationProgress.jsx:87
 msgid "Installation of the system failed: $0"
 msgstr "システムのインストールに失敗しました: $0"
 
@@ -680,7 +693,7 @@ msgstr "システムのインストールに失敗しました: $0"
 msgid "Installation type"
 msgstr "インストールタイプ"
 
-#: src/components/installation/InstallationProgress.jsx:125
+#: src/components/installation/InstallationProgress.jsx:151
 msgid "Installing"
 msgstr "インストール中"
 
@@ -942,7 +955,7 @@ msgstr "パスフレーズがロックされたデバイスのどれとも一致
 msgid "Passphrases must match"
 msgstr "パスワードは一致する必要があります"
 
-#: src/components/installation/InstallationProgress.jsx:172
+#: src/components/installation/InstallationProgress.jsx:198
 msgid "Pending"
 msgstr "保留中"
 
@@ -1026,7 +1039,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "システムを再起動しますか？"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 #, fuzzy
 #| msgid "/boot file system"
 msgid "Reboot to installed system"
@@ -1312,11 +1325,11 @@ msgstr "パスワードを表示する"
 msgid "Size"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:137
+#: src/components/installation/InstallationProgress.jsx:163
 msgid "Software installation"
 msgstr "ソフトウェアのインストール"
 
-#: src/components/installation/InstallationProgress.jsx:135
+#: src/components/installation/InstallationProgress.jsx:161
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1350,14 +1363,14 @@ msgstr ""
 msgid "Storage"
 msgstr "ストレージ"
 
-#: src/components/installation/InstallationProgress.jsx:132
+#: src/components/installation/InstallationProgress.jsx:158
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "ストレージの設定"
 
-#: src/components/installation/InstallationProgress.jsx:130
+#: src/components/installation/InstallationProgress.jsx:156
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "ストレージの構成: ストレージは現在構成中です。"
 
@@ -1394,7 +1407,7 @@ msgstr "ストレージ要件が満たされていません"
 msgid "Strong"
 msgstr "強固"
 
-#: src/components/installation/InstallationProgress.jsx:120
+#: src/components/installation/InstallationProgress.jsx:146
 msgid "Successfully installed"
 msgstr "インストールが成功しました"
 
@@ -1414,11 +1427,11 @@ msgstr "提案された言語"
 msgid "System"
 msgstr "システム"
 
-#: src/components/installation/InstallationProgress.jsx:142
+#: src/components/installation/InstallationProgress.jsx:168
 msgid "System configuration"
 msgstr "システム設定"
 
-#: src/components/installation/InstallationProgress.jsx:140
+#: src/components/installation/InstallationProgress.jsx:166
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1517,7 +1530,7 @@ msgstr "タイムゾーン"
 msgid "Title"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:163
+#: src/components/installation/InstallationProgress.jsx:189
 msgid "To begin using $0, reboot your system."
 msgstr "$0の使用を開始するには、システムを再起動します。"
 
@@ -1678,11 +1691,11 @@ msgstr ""
 msgid "Your progress will not be saved."
 msgstr "進行状況は保存されません。"
 
-#: src/components/installation/InstallationProgress.jsx:177
+#: src/components/installation/InstallationProgress.jsx:203
 msgid "completed step"
 msgstr "完了した手順"
 
-#: src/components/installation/InstallationProgress.jsx:182
+#: src/components/installation/InstallationProgress.jsx:208
 msgid "current step"
 msgstr "現在の手順"
 
@@ -1730,7 +1743,7 @@ msgstr "完了しました"
 msgid "mount"
 msgstr "マウント"
 
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:197
 msgid "pending step"
 msgstr "保留中の手順"
 

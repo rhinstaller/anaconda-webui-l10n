@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-16 08:33+0000\n"
+"POT-Creation-Date: 2026-06-17 08:14+0000\n"
 "PO-Revision-Date: 2024-11-18 02:57+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.fedoraproject.org/projects/anaconda-"
@@ -111,6 +111,12 @@ msgstr ""
 msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr ""
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:48
+#, fuzzy
+#| msgid "$0 installation"
+msgid "Abort installation"
+msgstr "התקנת $0"
 
 #: src/components/HeaderKebab.jsx:126
 msgid "About"
@@ -323,7 +329,7 @@ msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr "האחסון של Cockpit לא סיפק מילת צופן לשחרור ההתקן המוצפן."
 
-#: src/components/installation/InstallationProgress.jsx:178
+#: src/components/installation/InstallationProgress.jsx:204
 msgid "Completed"
 msgstr "הושלם"
 
@@ -367,8 +373,15 @@ msgstr "אישור מילת צופן"
 msgid "Continue"
 msgstr "המשך"
 
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:41
 #: src/components/AnacondaWizardFooter.jsx:126
 msgid "Continue installation"
+msgstr "להמשיך להתקין"
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:28
+#, fuzzy
+#| msgid "Continue installation"
+msgid "Continue installation?"
 msgstr "להמשיך להתקין"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:606
@@ -491,7 +504,7 @@ msgstr "מחיקת הנתונים והתקנה"
 msgid "Error details"
 msgstr "פרטי השגיאה"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Exit to live desktop"
 msgstr "יציאה לשולחן העבודה החי"
 
@@ -518,11 +531,11 @@ msgstr "שמירת תצורת האחסון נכשלה"
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "לינוקס פדורה דורש לפחות $0 של מקום פנוי בכונן."
 
-#: src/components/installation/InstallationProgress.jsx:147
+#: src/components/installation/InstallationProgress.jsx:173
 msgid "Finalization"
 msgstr "סיום"
 
-#: src/components/installation/InstallationProgress.jsx:145
+#: src/components/installation/InstallationProgress.jsx:171
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -614,7 +627,7 @@ msgid ""
 "If you do not understand or accept the risks, then please exit this program."
 msgstr "נא לצאת מהתוכנית אם לא הבנת או קיבלת את הסיכונים."
 
-#: src/components/installation/InstallationProgress.jsx:183
+#: src/components/installation/InstallationProgress.jsx:209
 msgid "In progress"
 msgstr "בתהליך"
 
@@ -628,7 +641,7 @@ msgstr "מופעל…"
 msgid "Install"
 msgstr "התקנה"
 
-#: src/components/installation/InstallationProgress.jsx:123
+#: src/components/installation/InstallationProgress.jsx:149
 #: src/components/Error.jsx:747
 msgid "Installation failed"
 msgstr "ההתקנה נכשלה"
@@ -637,14 +650,14 @@ msgstr "ההתקנה נכשלה"
 msgid "Installation method"
 msgstr "שיטת התקנה"
 
-#: src/components/installation/InstallationProgress.jsx:104
-#: src/components/installation/InstallationProgress.jsx:108
+#: src/components/installation/InstallationProgress.jsx:119
+#: src/components/installation/InstallationProgress.jsx:123
 #, fuzzy
 #| msgid "Installation of the system failed: $0"
 msgid "Installation of the system failed"
 msgstr "התקנת המערכת נכשלה: $0"
 
-#: src/components/installation/InstallationProgress.jsx:84
+#: src/components/installation/InstallationProgress.jsx:87
 msgid "Installation of the system failed: $0"
 msgstr "התקנת המערכת נכשלה: $0"
 
@@ -652,7 +665,7 @@ msgstr "התקנת המערכת נכשלה: $0"
 msgid "Installation type"
 msgstr "סוג התקנה"
 
-#: src/components/installation/InstallationProgress.jsx:125
+#: src/components/installation/InstallationProgress.jsx:151
 msgid "Installing"
 msgstr "התקנה מתבצעת"
 
@@ -931,7 +944,7 @@ msgstr "מילת הצופן לא מתאימה לאף התקן נעול"
 msgid "Passphrases must match"
 msgstr "מילות הצופן חייבות להיות תואמות"
 
-#: src/components/installation/InstallationProgress.jsx:172
+#: src/components/installation/InstallationProgress.jsx:198
 msgid "Pending"
 msgstr "בהמתנה"
 
@@ -1018,7 +1031,7 @@ msgstr "יש להפעיל מחדש ל־Windows כדי לשנות גודל של �
 msgid "Reboot system?"
 msgstr "להפעיל את המערכת מחדש?"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Reboot to installed system"
 msgstr "הפעלה מחדש למערכת המותקנת"
 
@@ -1308,11 +1321,11 @@ msgstr "הצגת הסיסמה"
 msgid "Size"
 msgstr "גודל"
 
-#: src/components/installation/InstallationProgress.jsx:137
+#: src/components/installation/InstallationProgress.jsx:163
 msgid "Software installation"
 msgstr "התקנת תוכנות"
 
-#: src/components/installation/InstallationProgress.jsx:135
+#: src/components/installation/InstallationProgress.jsx:161
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1344,14 +1357,14 @@ msgstr ""
 msgid "Storage"
 msgstr "אחסון"
 
-#: src/components/installation/InstallationProgress.jsx:132
+#: src/components/installation/InstallationProgress.jsx:158
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "הגדרות אחסון"
 
-#: src/components/installation/InstallationProgress.jsx:130
+#: src/components/installation/InstallationProgress.jsx:156
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "הגדרות אחסון: האחסון מוגדר כרגע."
 
@@ -1385,7 +1398,7 @@ msgstr "דרישות האחסון לא מתקיימות"
 msgid "Strong"
 msgstr "חזק"
 
-#: src/components/installation/InstallationProgress.jsx:120
+#: src/components/installation/InstallationProgress.jsx:146
 msgid "Successfully installed"
 msgstr "ההתקנה הצליחה"
 
@@ -1409,11 +1422,11 @@ msgstr "נא לבחור שפה"
 msgid "System"
 msgstr "מערכת"
 
-#: src/components/installation/InstallationProgress.jsx:142
+#: src/components/installation/InstallationProgress.jsx:168
 msgid "System configuration"
 msgstr "הגדרות מערכת"
 
-#: src/components/installation/InstallationProgress.jsx:140
+#: src/components/installation/InstallationProgress.jsx:166
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1512,7 +1525,7 @@ msgstr "אזור זמן: %s\n"
 msgid "Title"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:163
+#: src/components/installation/InstallationProgress.jsx:189
 msgid "To begin using $0, reboot your system."
 msgstr "כדי להתחיל להשתמש ב־$0, יש להפעיל את המערכת מחדש."
 
@@ -1672,11 +1685,11 @@ msgstr ""
 msgid "Your progress will not be saved."
 msgstr "התהליך שעברת לא יישמר."
 
-#: src/components/installation/InstallationProgress.jsx:177
+#: src/components/installation/InstallationProgress.jsx:203
 msgid "completed step"
 msgstr "שלב שהושלם"
 
-#: src/components/installation/InstallationProgress.jsx:182
+#: src/components/installation/InstallationProgress.jsx:208
 msgid "current step"
 msgstr "שלב נוכחי"
 
@@ -1722,7 +1735,7 @@ msgstr "הושלם"
 msgid "mount"
 msgstr "עיגון"
 
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:197
 msgid "pending step"
 msgstr "שלב בהמתנה"
 

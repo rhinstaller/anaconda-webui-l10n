@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-16 08:33+0000\n"
+"POT-Creation-Date: 2026-06-17 08:14+0000\n"
 "PO-Revision-Date: 2026-05-08 05:17+0000\n"
 "Last-Translator: Luke Na <narukeu@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -136,6 +136,12 @@ msgstr ""
 msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr "一个拥有管理员权限的标准用户账户，可执行系统级更改。"
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:48
+#, fuzzy
+#| msgid "$0 installation"
+msgid "Abort installation"
+msgstr "$0 安装"
 
 #: src/components/HeaderKebab.jsx:126
 msgid "About"
@@ -323,7 +329,7 @@ msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr "Cockpit 存储没有提供解锁加密设备的密码。"
 
-#: src/components/installation/InstallationProgress.jsx:178
+#: src/components/installation/InstallationProgress.jsx:204
 msgid "Completed"
 msgstr "已完成"
 
@@ -361,8 +367,15 @@ msgstr "确认密码"
 msgid "Continue"
 msgstr "继续"
 
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:41
 #: src/components/AnacondaWizardFooter.jsx:126
 msgid "Continue installation"
+msgstr "继续安装"
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:28
+#, fuzzy
+#| msgid "Continue installation"
+msgid "Continue installation?"
 msgstr "继续安装"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:606
@@ -474,7 +487,7 @@ msgstr "删除数据内容并安装"
 msgid "Error details"
 msgstr "错误详情"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Exit to live desktop"
 msgstr "退出到 Live 桌面"
 
@@ -495,11 +508,11 @@ msgstr "保存布局失败"
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora Linux 至少需要 $0 的磁盘空间。"
 
-#: src/components/installation/InstallationProgress.jsx:147
+#: src/components/installation/InstallationProgress.jsx:173
 msgid "Finalization"
 msgstr "最终确定"
 
-#: src/components/installation/InstallationProgress.jsx:145
+#: src/components/installation/InstallationProgress.jsx:171
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -589,7 +602,7 @@ msgid ""
 "If you do not understand or accept the risks, then please exit this program."
 msgstr "如果您不了解或不接受此风险，请点击「退出」按钮退出程序。"
 
-#: src/components/installation/InstallationProgress.jsx:183
+#: src/components/installation/InstallationProgress.jsx:209
 msgid "In progress"
 msgstr "进行中"
 
@@ -603,7 +616,7 @@ msgstr "初始化中..."
 msgid "Install"
 msgstr "安装"
 
-#: src/components/installation/InstallationProgress.jsx:123
+#: src/components/installation/InstallationProgress.jsx:149
 #: src/components/Error.jsx:747
 msgid "Installation failed"
 msgstr "安装失败"
@@ -612,12 +625,12 @@ msgstr "安装失败"
 msgid "Installation method"
 msgstr "安装方案"
 
-#: src/components/installation/InstallationProgress.jsx:104
-#: src/components/installation/InstallationProgress.jsx:108
+#: src/components/installation/InstallationProgress.jsx:119
+#: src/components/installation/InstallationProgress.jsx:123
 msgid "Installation of the system failed"
 msgstr "系统安装失败"
 
-#: src/components/installation/InstallationProgress.jsx:84
+#: src/components/installation/InstallationProgress.jsx:87
 msgid "Installation of the system failed: $0"
 msgstr "系统安装失败：$0"
 
@@ -625,7 +638,7 @@ msgstr "系统安装失败：$0"
 msgid "Installation type"
 msgstr "安装类型"
 
-#: src/components/installation/InstallationProgress.jsx:125
+#: src/components/installation/InstallationProgress.jsx:151
 msgid "Installing"
 msgstr "正在安装"
 
@@ -876,7 +889,7 @@ msgstr "密码与任何锁定的设备都不匹配"
 msgid "Passphrases must match"
 msgstr "密码必须匹配"
 
-#: src/components/installation/InstallationProgress.jsx:172
+#: src/components/installation/InstallationProgress.jsx:198
 msgid "Pending"
 msgstr "等待中"
 
@@ -960,7 +973,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "重启系统？"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Reboot to installed system"
 msgstr "重新启动到已安装的系统"
 
@@ -1217,11 +1230,11 @@ msgstr "显示密码"
 msgid "Size"
 msgstr "大小"
 
-#: src/components/installation/InstallationProgress.jsx:137
+#: src/components/installation/InstallationProgress.jsx:163
 msgid "Software installation"
 msgstr "软件安装"
 
-#: src/components/installation/InstallationProgress.jsx:135
+#: src/components/installation/InstallationProgress.jsx:161
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1253,14 +1266,14 @@ msgstr "栈回溯"
 msgid "Storage"
 msgstr "存储"
 
-#: src/components/installation/InstallationProgress.jsx:132
+#: src/components/installation/InstallationProgress.jsx:158
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "存储配置"
 
-#: src/components/installation/InstallationProgress.jsx:130
+#: src/components/installation/InstallationProgress.jsx:156
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "存储配置：当前正在配置存储。"
 
@@ -1295,7 +1308,7 @@ msgstr "未满足存储要求"
 msgid "Strong"
 msgstr "强"
 
-#: src/components/installation/InstallationProgress.jsx:120
+#: src/components/installation/InstallationProgress.jsx:146
 msgid "Successfully installed"
 msgstr "安装成功"
 
@@ -1315,11 +1328,11 @@ msgstr "建议语言"
 msgid "System"
 msgstr "系统"
 
-#: src/components/installation/InstallationProgress.jsx:142
+#: src/components/installation/InstallationProgress.jsx:168
 msgid "System configuration"
 msgstr "系统配置"
 
-#: src/components/installation/InstallationProgress.jsx:140
+#: src/components/installation/InstallationProgress.jsx:166
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1410,7 +1423,7 @@ msgstr "时区"
 msgid "Title"
 msgstr "标题"
 
-#: src/components/installation/InstallationProgress.jsx:163
+#: src/components/installation/InstallationProgress.jsx:189
 msgid "To begin using $0, reboot your system."
 msgstr "要使用 $0，请重新启动系统。"
 
@@ -1552,11 +1565,11 @@ msgstr "你必须连接到网络才能启用自动设置日期与时间。"
 msgid "Your progress will not be saved."
 msgstr "您的进度将不会被保存。"
 
-#: src/components/installation/InstallationProgress.jsx:177
+#: src/components/installation/InstallationProgress.jsx:203
 msgid "completed step"
 msgstr "已完成操作"
 
-#: src/components/installation/InstallationProgress.jsx:182
+#: src/components/installation/InstallationProgress.jsx:208
 msgid "current step"
 msgstr "当前操作"
 
@@ -1598,7 +1611,7 @@ msgstr "未完成"
 msgid "mount"
 msgstr "挂载"
 
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:197
 msgid "pending step"
 msgstr "待执行操作"
 

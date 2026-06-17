@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 35.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-16 08:33+0000\n"
+"POT-Creation-Date: 2026-06-17 08:14+0000\n"
 "PO-Revision-Date: 2023-11-06 12:17+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Frisian <https://translate.fedoraproject.org/projects/"
@@ -102,6 +102,11 @@ msgstr ""
 msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr ""
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:48
+#, fuzzy
+msgid "Abort installation"
+msgstr "Ynstallaasje"
 
 #: src/components/HeaderKebab.jsx:126
 msgid "About"
@@ -307,7 +312,7 @@ msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:178
+#: src/components/installation/InstallationProgress.jsx:204
 msgid "Completed"
 msgstr ""
 
@@ -355,9 +360,15 @@ msgstr ""
 msgid "Continue"
 msgstr "Trochgean"
 
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:41
 #: src/components/AnacondaWizardFooter.jsx:126
 #, fuzzy
 msgid "Continue installation"
+msgstr "Pre-ynstallaasje taken oan it útfieren"
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:28
+#, fuzzy
+msgid "Continue installation?"
 msgstr "Pre-ynstallaasje taken oan it útfieren"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:606
@@ -487,7 +498,7 @@ msgstr "om mei de ynstallaasje útein te setten"
 msgid "Error details"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Exit to live desktop"
 msgstr ""
 
@@ -514,12 +525,12 @@ msgstr "Feroarjen fan apparaat mislearre."
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:147
+#: src/components/installation/InstallationProgress.jsx:173
 #, fuzzy
 msgid "Finalization"
 msgstr "Lokale media"
 
-#: src/components/installation/InstallationProgress.jsx:145
+#: src/components/installation/InstallationProgress.jsx:171
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -617,7 +628,7 @@ msgid ""
 "If you do not understand or accept the risks, then please exit this program."
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:183
+#: src/components/installation/InstallationProgress.jsx:209
 #, fuzzy
 msgid "In progress"
 msgstr "Avesaasje"
@@ -634,7 +645,7 @@ msgstr "Oan it ynstallearren."
 msgid "Install"
 msgstr "Ynstallearje"
 
-#: src/components/installation/InstallationProgress.jsx:123
+#: src/components/installation/InstallationProgress.jsx:149
 #: src/components/Error.jsx:747
 #, fuzzy
 msgid "Installation failed"
@@ -645,13 +656,13 @@ msgstr "Ynstallaasje"
 msgid "Installation method"
 msgstr "Ynstallaasje ôfrûn"
 
-#: src/components/installation/InstallationProgress.jsx:104
-#: src/components/installation/InstallationProgress.jsx:108
+#: src/components/installation/InstallationProgress.jsx:119
+#: src/components/installation/InstallationProgress.jsx:123
 #, fuzzy
 msgid "Installation of the system failed"
 msgstr "Ynstallaasje"
 
-#: src/components/installation/InstallationProgress.jsx:84
+#: src/components/installation/InstallationProgress.jsx:87
 #, fuzzy
 msgid "Installation of the system failed: $0"
 msgstr "Ynstallaasje"
@@ -661,7 +672,7 @@ msgstr "Ynstallaasje"
 msgid "Installation type"
 msgstr "Ynstallaasje"
 
-#: src/components/installation/InstallationProgress.jsx:125
+#: src/components/installation/InstallationProgress.jsx:151
 #, fuzzy
 msgid "Installing"
 msgstr "Oan it ynstallearren."
@@ -945,7 +956,7 @@ msgstr ""
 msgid "Passphrases must match"
 msgstr "De wachtwurdsrigels binne net gelyk."
 
-#: src/components/installation/InstallationProgress.jsx:172
+#: src/components/installation/InstallationProgress.jsx:198
 msgid "Pending"
 msgstr ""
 
@@ -1039,7 +1050,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "Stopje (Opnij opstarte)"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 #, fuzzy
 #| msgid "Configuring installed system"
 msgid "Reboot to installed system"
@@ -1333,12 +1344,12 @@ msgstr "Wachtwurd sjen litte."
 msgid "Size"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:137
+#: src/components/installation/InstallationProgress.jsx:163
 #, fuzzy
 msgid "Software installation"
 msgstr "om mei de ynstallaasje útein te setten"
 
-#: src/components/installation/InstallationProgress.jsx:135
+#: src/components/installation/InstallationProgress.jsx:161
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1371,7 +1382,7 @@ msgstr ""
 msgid "Storage"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:132
+#: src/components/installation/InstallationProgress.jsx:158
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
@@ -1379,7 +1390,7 @@ msgstr ""
 msgid "Storage configuration"
 msgstr "Netwurk konfiguraasje"
 
-#: src/components/installation/InstallationProgress.jsx:130
+#: src/components/installation/InstallationProgress.jsx:156
 msgid "Storage configuration: Storage is currently being configured."
 msgstr ""
 
@@ -1415,7 +1426,7 @@ msgstr ""
 msgid "Strong"
 msgstr "Sterk"
 
-#: src/components/installation/InstallationProgress.jsx:120
+#: src/components/installation/InstallationProgress.jsx:146
 msgid "Successfully installed"
 msgstr ""
 
@@ -1437,12 +1448,12 @@ msgstr "Beskikbere talen"
 msgid "System"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:142
+#: src/components/installation/InstallationProgress.jsx:168
 #, fuzzy
 msgid "System configuration"
 msgstr "Netwurk konfiguraasje"
 
-#: src/components/installation/InstallationProgress.jsx:140
+#: src/components/installation/InstallationProgress.jsx:166
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1540,7 +1551,7 @@ msgstr "Tiidsône: %s\n"
 msgid "Title"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:163
+#: src/components/installation/InstallationProgress.jsx:189
 #, fuzzy
 msgid "To begin using $0, reboot your system."
 msgstr ""
@@ -1704,11 +1715,11 @@ msgstr ""
 msgid "Your progress will not be saved."
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:177
+#: src/components/installation/InstallationProgress.jsx:203
 msgid "completed step"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:182
+#: src/components/installation/InstallationProgress.jsx:208
 msgid "current step"
 msgstr ""
 
@@ -1757,7 +1768,7 @@ msgstr "Ynstallaasje ôfrûn"
 msgid "mount"
 msgstr "Yndieling tafoegje"
 
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:197
 msgid "pending step"
 msgstr ""
 

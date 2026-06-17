@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-16 08:33+0000\n"
+"POT-Creation-Date: 2026-06-17 08:14+0000\n"
 "PO-Revision-Date: 2026-04-21 05:16+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <https://translate.fedoraproject.org/projects/anaconda-"
@@ -108,6 +108,12 @@ msgid ""
 msgstr ""
 "Жүйелік өзгерістер жасау үшін админ ретінде қол жеткізу мүмкіндігі бар "
 "стандартты пайдаланушы тіркелгісі."
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:48
+#, fuzzy
+#| msgid "$0 installation"
+msgid "Abort installation"
+msgstr "$0 орнатуы"
 
 #: src/components/HeaderKebab.jsx:126
 msgid "About"
@@ -307,7 +313,7 @@ msgid ""
 msgstr ""
 "Cockpit сақтағышы шифрленген құрылғының құлпын ашу үшін кілтсөзді бермеді."
 
-#: src/components/installation/InstallationProgress.jsx:178
+#: src/components/installation/InstallationProgress.jsx:204
 msgid "Completed"
 msgstr "Аяқталды"
 
@@ -347,8 +353,15 @@ msgstr "Кілттік фразаны растау"
 msgid "Continue"
 msgstr "Жалғастыру"
 
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:41
 #: src/components/AnacondaWizardFooter.jsx:126
 msgid "Continue installation"
+msgstr "Орнату жалғастыру"
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:28
+#, fuzzy
+#| msgid "Continue installation"
+msgid "Continue installation?"
 msgstr "Орнату жалғастыру"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:606
@@ -463,7 +476,7 @@ msgstr "Деректерді өшіру және орнату"
 msgid "Error details"
 msgstr "Қате ақпараты"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Exit to live desktop"
 msgstr "Жұмыс үстеліне шығу"
 
@@ -484,11 +497,11 @@ msgstr "Жаймаларды сақтау сәтсіз аяқталды"
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora linux үшін кемінде $0 диск орны қажет."
 
-#: src/components/installation/InstallationProgress.jsx:147
+#: src/components/installation/InstallationProgress.jsx:173
 msgid "Finalization"
 msgstr "Аяқтау"
 
-#: src/components/installation/InstallationProgress.jsx:145
+#: src/components/installation/InstallationProgress.jsx:171
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -585,7 +598,7 @@ msgstr ""
 "Егер сіз қауіп-қатерді түсінбесеңіз немесе қабылдамасаңыз, осы бағдарламадан "
 "шығыңыз."
 
-#: src/components/installation/InstallationProgress.jsx:183
+#: src/components/installation/InstallationProgress.jsx:209
 msgid "In progress"
 msgstr "Орындалу үстінде"
 
@@ -599,7 +612,7 @@ msgstr "Инициализациялануда..."
 msgid "Install"
 msgstr "Орнату"
 
-#: src/components/installation/InstallationProgress.jsx:123
+#: src/components/installation/InstallationProgress.jsx:149
 #: src/components/Error.jsx:747
 msgid "Installation failed"
 msgstr "Орнату сәтсіз аяқталды"
@@ -608,12 +621,12 @@ msgstr "Орнату сәтсіз аяқталды"
 msgid "Installation method"
 msgstr "Орнату тәсілі"
 
-#: src/components/installation/InstallationProgress.jsx:104
-#: src/components/installation/InstallationProgress.jsx:108
+#: src/components/installation/InstallationProgress.jsx:119
+#: src/components/installation/InstallationProgress.jsx:123
 msgid "Installation of the system failed"
 msgstr "Жүйені орнату сәтсіз аяқталды"
 
-#: src/components/installation/InstallationProgress.jsx:84
+#: src/components/installation/InstallationProgress.jsx:87
 msgid "Installation of the system failed: $0"
 msgstr "Жүйені орнату сәтсіз аяқталды: $0"
 
@@ -621,7 +634,7 @@ msgstr "Жүйені орнату сәтсіз аяқталды: $0"
 msgid "Installation type"
 msgstr "Орнату түрі"
 
-#: src/components/installation/InstallationProgress.jsx:125
+#: src/components/installation/InstallationProgress.jsx:151
 msgid "Installing"
 msgstr "Орнатылуда"
 
@@ -885,7 +898,7 @@ msgstr "Кілттік фраза бірде-бір құлыпталған құ�
 msgid "Passphrases must match"
 msgstr "Кілттік фразалар өзара сәйкес келуі тиіс"
 
-#: src/components/installation/InstallationProgress.jsx:172
+#: src/components/installation/InstallationProgress.jsx:198
 msgid "Pending"
 msgstr "Күту"
 
@@ -971,7 +984,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "Жүйені қайта іске қосу керек пе?"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Reboot to installed system"
 msgstr "Орнатылған жүйеге қайта жүктеу"
 
@@ -1239,11 +1252,11 @@ msgstr "Парольді көрсету"
 msgid "Size"
 msgstr "Өлшемі"
 
-#: src/components/installation/InstallationProgress.jsx:137
+#: src/components/installation/InstallationProgress.jsx:163
 msgid "Software installation"
 msgstr "Бағд. қамтаманы орнату"
 
-#: src/components/installation/InstallationProgress.jsx:135
+#: src/components/installation/InstallationProgress.jsx:161
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1277,14 +1290,14 @@ msgstr "Стек трейсі"
 msgid "Storage"
 msgstr "Сақтауыш"
 
-#: src/components/installation/InstallationProgress.jsx:132
+#: src/components/installation/InstallationProgress.jsx:158
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Сақтауыш құрылғылар баптаулары"
 
-#: src/components/installation/InstallationProgress.jsx:130
+#: src/components/installation/InstallationProgress.jsx:156
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "Сақтауыш баптаулары: Ағымдағы уақытта сақтауыш бапталуда."
 
@@ -1320,7 +1333,7 @@ msgstr "Сақтауыш орны талаптары орындалмады"
 msgid "Strong"
 msgstr "Күшті"
 
-#: src/components/installation/InstallationProgress.jsx:120
+#: src/components/installation/InstallationProgress.jsx:146
 msgid "Successfully installed"
 msgstr "Сәтті орнатылды"
 
@@ -1340,11 +1353,11 @@ msgstr "Ұсынылатын тілдер"
 msgid "System"
 msgstr "Жүйе"
 
-#: src/components/installation/InstallationProgress.jsx:142
+#: src/components/installation/InstallationProgress.jsx:168
 msgid "System configuration"
 msgstr "Жүйе баптаулары"
 
-#: src/components/installation/InstallationProgress.jsx:140
+#: src/components/installation/InstallationProgress.jsx:166
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1443,7 +1456,7 @@ msgstr "Уақыт белдеуі"
 msgid "Title"
 msgstr "Атауы"
 
-#: src/components/installation/InstallationProgress.jsx:163
+#: src/components/installation/InstallationProgress.jsx:189
 msgid "To begin using $0, reboot your system."
 msgstr "$0 пайдалануды бастау үшін жүйені қайта жүктеңіз."
 
@@ -1599,11 +1612,11 @@ msgstr ""
 msgid "Your progress will not be saved."
 msgstr "Сіздің үрдісіңіз сақталмайды."
 
-#: src/components/installation/InstallationProgress.jsx:177
+#: src/components/installation/InstallationProgress.jsx:203
 msgid "completed step"
 msgstr "аяқталған қадам"
 
-#: src/components/installation/InstallationProgress.jsx:182
+#: src/components/installation/InstallationProgress.jsx:208
 msgid "current step"
 msgstr "ағымдағы қадам"
 
@@ -1647,7 +1660,7 @@ msgstr "Аяқталды"
 msgid "mount"
 msgstr "тіркеу"
 
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:197
 msgid "pending step"
 msgstr "күту қадамы"
 

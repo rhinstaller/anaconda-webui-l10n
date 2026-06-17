@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-16 08:33+0000\n"
+"POT-Creation-Date: 2026-06-17 08:14+0000\n"
 "PO-Revision-Date: 2023-11-06 12:18+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Hindi <https://translate.fedoraproject.org/projects/anaconda-"
@@ -116,6 +116,11 @@ msgstr ""
 msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr ""
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:48
+#, fuzzy
+msgid "Abort installation"
+msgstr "संस्थापन"
 
 #: src/components/HeaderKebab.jsx:126
 msgid "About"
@@ -319,7 +324,7 @@ msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:178
+#: src/components/installation/InstallationProgress.jsx:204
 #, fuzzy
 msgid "Completed"
 msgstr "पूर्ण!"
@@ -368,9 +373,15 @@ msgstr "खाली शब्दकूट."
 msgid "Continue"
 msgstr "जारी रखें"
 
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:41
 #: src/components/AnacondaWizardFooter.jsx:126
 #, fuzzy
 msgid "Continue installation"
+msgstr "संस्थापन"
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:28
+#, fuzzy
+msgid "Continue installation?"
 msgstr "संस्थापन"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:606
@@ -500,7 +511,7 @@ msgstr "संस्थापन"
 msgid "Error details"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Exit to live desktop"
 msgstr ""
 
@@ -527,12 +538,12 @@ msgstr "भंडार विन्यास सहेजने में व�
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:147
+#: src/components/installation/InstallationProgress.jsx:173
 #, fuzzy
 msgid "Finalization"
 msgstr "क्रिया"
 
-#: src/components/installation/InstallationProgress.jsx:145
+#: src/components/installation/InstallationProgress.jsx:171
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -624,7 +635,7 @@ msgid ""
 "If you do not understand or accept the risks, then please exit this program."
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:183
+#: src/components/installation/InstallationProgress.jsx:209
 #, fuzzy
 msgid "In progress"
 msgstr "प्रगति"
@@ -639,7 +650,7 @@ msgstr ""
 msgid "Install"
 msgstr "संस्थापित करें"
 
-#: src/components/installation/InstallationProgress.jsx:123
+#: src/components/installation/InstallationProgress.jsx:149
 #: src/components/Error.jsx:747
 #, fuzzy
 msgid "Installation failed"
@@ -650,13 +661,13 @@ msgstr "संस्थापन"
 msgid "Installation method"
 msgstr "संस्थापन"
 
-#: src/components/installation/InstallationProgress.jsx:104
-#: src/components/installation/InstallationProgress.jsx:108
+#: src/components/installation/InstallationProgress.jsx:119
+#: src/components/installation/InstallationProgress.jsx:123
 #, fuzzy
 msgid "Installation of the system failed"
 msgstr "संस्थापन"
 
-#: src/components/installation/InstallationProgress.jsx:84
+#: src/components/installation/InstallationProgress.jsx:87
 #, fuzzy
 msgid "Installation of the system failed: $0"
 msgstr "संस्थापन"
@@ -666,7 +677,7 @@ msgstr "संस्थापन"
 msgid "Installation type"
 msgstr "संस्थापन"
 
-#: src/components/installation/InstallationProgress.jsx:125
+#: src/components/installation/InstallationProgress.jsx:151
 #, fuzzy
 msgid "Installing"
 msgstr "संस्थापन"
@@ -942,7 +953,7 @@ msgstr ""
 msgid "Passphrases must match"
 msgstr "कूटशब्द मेल नहीं खाता है!"
 
-#: src/components/installation/InstallationProgress.jsx:172
+#: src/components/installation/InstallationProgress.jsx:198
 msgid "Pending"
 msgstr ""
 
@@ -1032,7 +1043,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 #, fuzzy
 #| msgid "Configuring installed system"
 msgid "Reboot to installed system"
@@ -1332,12 +1343,12 @@ msgstr "खाली शब्दकूट."
 msgid "Size"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:137
+#: src/components/installation/InstallationProgress.jsx:163
 #, fuzzy
 msgid "Software installation"
 msgstr "सॉफ़्टवेयर चयन"
 
-#: src/components/installation/InstallationProgress.jsx:135
+#: src/components/installation/InstallationProgress.jsx:161
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1369,7 +1380,7 @@ msgstr ""
 msgid "Storage"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:132
+#: src/components/installation/InstallationProgress.jsx:158
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
@@ -1377,7 +1388,7 @@ msgstr ""
 msgid "Storage configuration"
 msgstr "भंडारण विन्यास सहेज रहा है..."
 
-#: src/components/installation/InstallationProgress.jsx:130
+#: src/components/installation/InstallationProgress.jsx:156
 msgid "Storage configuration: Storage is currently being configured."
 msgstr ""
 
@@ -1415,7 +1426,7 @@ msgstr ""
 msgid "Strong"
 msgstr "मजबूत"
 
-#: src/components/installation/InstallationProgress.jsx:120
+#: src/components/installation/InstallationProgress.jsx:146
 msgid "Successfully installed"
 msgstr ""
 
@@ -1439,12 +1450,12 @@ msgstr "चयनित युक्ति"
 msgid "System"
 msgstr "प्रणाली का उद्देश्य"
 
-#: src/components/installation/InstallationProgress.jsx:142
+#: src/components/installation/InstallationProgress.jsx:168
 #, fuzzy
 msgid "System configuration"
 msgstr "भंडारण विन्यास सहेज रहा है..."
 
-#: src/components/installation/InstallationProgress.jsx:140
+#: src/components/installation/InstallationProgress.jsx:166
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1541,7 +1552,7 @@ msgstr "%s समयक्षेत्र"
 msgid "Title"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:163
+#: src/components/installation/InstallationProgress.jsx:189
 msgid "To begin using $0, reboot your system."
 msgstr ""
 
@@ -1697,12 +1708,12 @@ msgstr ""
 msgid "Your progress will not be saved."
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:177
+#: src/components/installation/InstallationProgress.jsx:203
 #, fuzzy
 msgid "completed step"
 msgstr "पूर्ण!"
 
-#: src/components/installation/InstallationProgress.jsx:182
+#: src/components/installation/InstallationProgress.jsx:208
 msgid "current step"
 msgstr ""
 
@@ -1753,7 +1764,7 @@ msgstr "पूर्ण!"
 msgid "mount"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:197
 msgid "pending step"
 msgstr ""
 

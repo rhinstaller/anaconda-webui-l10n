@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 38.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-16 08:33+0000\n"
+"POT-Creation-Date: 2026-06-17 08:14+0000\n"
 "PO-Revision-Date: 2026-04-09 04:59+0000\n"
 "Last-Translator: Khoa Le <inctenone@gmail.com>\n"
 "Language-Team: Vietnamese <https://translate.fedoraproject.org/projects/"
@@ -101,6 +101,12 @@ msgid ""
 msgstr ""
 "Tài khoản người dùng chuẩn có quyền quản trị để thực hiện thay đổi toàn hệ "
 "thống."
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:48
+#, fuzzy
+#| msgid "$0 installation"
+msgid "Abort installation"
+msgstr "Cài đặt $0"
 
 #: src/components/HeaderKebab.jsx:126
 msgid "About"
@@ -297,7 +303,7 @@ msgid ""
 msgstr ""
 "Cockpit lưu trữ không cung cấp cụm mật khẩu để mở khóa thiết bị mã hóa."
 
-#: src/components/installation/InstallationProgress.jsx:178
+#: src/components/installation/InstallationProgress.jsx:204
 msgid "Completed"
 msgstr "Đã hoàn tất"
 
@@ -335,8 +341,15 @@ msgstr "Xác nhận chuỗi mật khẩu"
 msgid "Continue"
 msgstr "Tiếp tục"
 
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:41
 #: src/components/AnacondaWizardFooter.jsx:126
 msgid "Continue installation"
+msgstr "Tiếp tục cài đặt"
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:28
+#, fuzzy
+#| msgid "Continue installation"
+msgid "Continue installation?"
 msgstr "Tiếp tục cài đặt"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:606
@@ -451,7 +464,7 @@ msgstr "Xóa dữ liệu và cài đặt"
 msgid "Error details"
 msgstr "Chi tiết lỗi"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Exit to live desktop"
 msgstr "Thoát về màn hình trực tiếp"
 
@@ -472,11 +485,11 @@ msgstr "Lưu bố cục thất bại"
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora Linux yêu cầu tối thiểu $0 dung lượng đĩa."
 
-#: src/components/installation/InstallationProgress.jsx:147
+#: src/components/installation/InstallationProgress.jsx:173
 msgid "Finalization"
 msgstr "Hoàn tất"
 
-#: src/components/installation/InstallationProgress.jsx:145
+#: src/components/installation/InstallationProgress.jsx:171
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -573,7 +586,7 @@ msgstr ""
 "Nếu bạn không hiểu hoặc không chấp nhận rủi ro, vui lòng thoát khỏi chương "
 "trình này."
 
-#: src/components/installation/InstallationProgress.jsx:183
+#: src/components/installation/InstallationProgress.jsx:209
 msgid "In progress"
 msgstr "Đang trong quá trình"
 
@@ -587,7 +600,7 @@ msgstr "Đang khởi tạo..."
 msgid "Install"
 msgstr "Cài đặt"
 
-#: src/components/installation/InstallationProgress.jsx:123
+#: src/components/installation/InstallationProgress.jsx:149
 #: src/components/Error.jsx:747
 msgid "Installation failed"
 msgstr "Cài đặt thất bại"
@@ -596,12 +609,12 @@ msgstr "Cài đặt thất bại"
 msgid "Installation method"
 msgstr "Phương thức cài đặt"
 
-#: src/components/installation/InstallationProgress.jsx:104
-#: src/components/installation/InstallationProgress.jsx:108
+#: src/components/installation/InstallationProgress.jsx:119
+#: src/components/installation/InstallationProgress.jsx:123
 msgid "Installation of the system failed"
 msgstr "Cài đặt hệ thống thất bại"
 
-#: src/components/installation/InstallationProgress.jsx:84
+#: src/components/installation/InstallationProgress.jsx:87
 msgid "Installation of the system failed: $0"
 msgstr "Việc cài đặt hệ thống thất bại: $0"
 
@@ -609,7 +622,7 @@ msgstr "Việc cài đặt hệ thống thất bại: $0"
 msgid "Installation type"
 msgstr "Loại cài đặt"
 
-#: src/components/installation/InstallationProgress.jsx:125
+#: src/components/installation/InstallationProgress.jsx:151
 msgid "Installing"
 msgstr "Đang cài đặt"
 
@@ -869,7 +882,7 @@ msgstr "Chuỗi mật khẩu không trùng với bất cứ thiết bị nào đ
 msgid "Passphrases must match"
 msgstr "Chuỗi mật khẩu phải trùng khớp"
 
-#: src/components/installation/InstallationProgress.jsx:172
+#: src/components/installation/InstallationProgress.jsx:198
 msgid "Pending"
 msgstr "Đang chờ xử lý"
 
@@ -955,7 +968,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "Khởi động lại máy?"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Reboot to installed system"
 msgstr "Khởi động lại vào hệ thống đã cài đặt"
 
@@ -1223,11 +1236,11 @@ msgstr "Hiện mật khẩu"
 msgid "Size"
 msgstr "Kích thước"
 
-#: src/components/installation/InstallationProgress.jsx:137
+#: src/components/installation/InstallationProgress.jsx:163
 msgid "Software installation"
 msgstr "Cài đặt phần mềm"
 
-#: src/components/installation/InstallationProgress.jsx:135
+#: src/components/installation/InstallationProgress.jsx:161
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1261,14 +1274,14 @@ msgstr "Dòng theo dõi"
 msgid "Storage"
 msgstr "Bộ nhớ"
 
-#: src/components/installation/InstallationProgress.jsx:132
+#: src/components/installation/InstallationProgress.jsx:158
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Thiết đặt bộ nhớ"
 
-#: src/components/installation/InstallationProgress.jsx:130
+#: src/components/installation/InstallationProgress.jsx:156
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "Cấu hình lưu trữ: Đang cấu hình lưu trữ."
 
@@ -1304,7 +1317,7 @@ msgstr "Yêu cầu lưu trữ chưa được đáp ứng"
 msgid "Strong"
 msgstr "Mạnh"
 
-#: src/components/installation/InstallationProgress.jsx:120
+#: src/components/installation/InstallationProgress.jsx:146
 msgid "Successfully installed"
 msgstr "Cài đặt thành công"
 
@@ -1324,11 +1337,11 @@ msgstr "Ngôn ngữ được đề xuất"
 msgid "System"
 msgstr "Hệ thống"
 
-#: src/components/installation/InstallationProgress.jsx:142
+#: src/components/installation/InstallationProgress.jsx:168
 msgid "System configuration"
 msgstr "Thiết đặt hệ thống"
 
-#: src/components/installation/InstallationProgress.jsx:140
+#: src/components/installation/InstallationProgress.jsx:166
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1427,7 +1440,7 @@ msgstr "Múi giờ"
 msgid "Title"
 msgstr "Tiêu đề"
 
-#: src/components/installation/InstallationProgress.jsx:163
+#: src/components/installation/InstallationProgress.jsx:189
 msgid "To begin using $0, reboot your system."
 msgstr "Để bắt đầu sử dụng $0, khởi động lại máy."
 
@@ -1580,11 +1593,11 @@ msgstr "Bạn phải kết nối mạng để bật ngày và giờ tự động
 msgid "Your progress will not be saved."
 msgstr "Tiến trình của bạn sẽ không được lưu."
 
-#: src/components/installation/InstallationProgress.jsx:177
+#: src/components/installation/InstallationProgress.jsx:203
 msgid "completed step"
 msgstr "buớc đã hoàn thành"
 
-#: src/components/installation/InstallationProgress.jsx:182
+#: src/components/installation/InstallationProgress.jsx:208
 msgid "current step"
 msgstr "bước hiện tại"
 
@@ -1628,7 +1641,7 @@ msgstr "Đã hoàn tất"
 msgid "mount"
 msgstr "gắn kết"
 
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:197
 msgid "pending step"
 msgstr "buớc đang chờ"
 

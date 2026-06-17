@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-16 08:33+0000\n"
+"POT-Creation-Date: 2026-06-17 08:14+0000\n"
 "PO-Revision-Date: 2026-06-02 07:11+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
@@ -127,6 +127,12 @@ msgid ""
 msgstr ""
 "Ett standardanvändarkonto med administratörsåtkomst för att göra "
 "systemomfattande ändringar."
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:48
+#, fuzzy
+#| msgid "$0 installation"
+msgid "Abort installation"
+msgstr "$0 Installation"
 
 #: src/components/HeaderKebab.jsx:126
 msgid "About"
@@ -321,7 +327,7 @@ msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr "Cockpitlagring gav inte lösenfrasen för att låsa upp krypterad enhet."
 
-#: src/components/installation/InstallationProgress.jsx:178
+#: src/components/installation/InstallationProgress.jsx:204
 msgid "Completed"
 msgstr "Färdig"
 
@@ -359,8 +365,15 @@ msgstr "Bekräfta lösenfras"
 msgid "Continue"
 msgstr "Fortsätt"
 
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:41
 #: src/components/AnacondaWizardFooter.jsx:126
 msgid "Continue installation"
+msgstr "Fortsätt installation"
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:28
+#, fuzzy
+#| msgid "Continue installation"
+msgid "Continue installation?"
 msgstr "Fortsätt installation"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:606
@@ -473,7 +486,7 @@ msgstr "Radera data och installera"
 msgid "Error details"
 msgstr "Feldetaljer"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Exit to live desktop"
 msgstr "Avsluta till live skrivbord"
 
@@ -494,11 +507,11 @@ msgstr "Misslyckades med att spara layouterna"
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora linux kräver minst $0 diskutrymme."
 
-#: src/components/installation/InstallationProgress.jsx:147
+#: src/components/installation/InstallationProgress.jsx:173
 msgid "Finalization"
 msgstr "Slutför"
 
-#: src/components/installation/InstallationProgress.jsx:145
+#: src/components/installation/InstallationProgress.jsx:171
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -596,7 +609,7 @@ msgid ""
 msgstr ""
 "Om du inte förstår eller accepterar riskerna, vänligen avsluta detta program."
 
-#: src/components/installation/InstallationProgress.jsx:183
+#: src/components/installation/InstallationProgress.jsx:209
 msgid "In progress"
 msgstr "Pågående"
 
@@ -610,7 +623,7 @@ msgstr "Initialiserar..."
 msgid "Install"
 msgstr "Installera"
 
-#: src/components/installation/InstallationProgress.jsx:123
+#: src/components/installation/InstallationProgress.jsx:149
 #: src/components/Error.jsx:747
 msgid "Installation failed"
 msgstr "installationen misslyckades"
@@ -619,12 +632,12 @@ msgstr "installationen misslyckades"
 msgid "Installation method"
 msgstr "Installationsmetod"
 
-#: src/components/installation/InstallationProgress.jsx:104
-#: src/components/installation/InstallationProgress.jsx:108
+#: src/components/installation/InstallationProgress.jsx:119
+#: src/components/installation/InstallationProgress.jsx:123
 msgid "Installation of the system failed"
 msgstr "installationen av systemet misslyckades"
 
-#: src/components/installation/InstallationProgress.jsx:84
+#: src/components/installation/InstallationProgress.jsx:87
 msgid "Installation of the system failed: $0"
 msgstr "installationen av systemet misslyckades: $0"
 
@@ -632,7 +645,7 @@ msgstr "installationen av systemet misslyckades: $0"
 msgid "Installation type"
 msgstr "Installationstyp"
 
-#: src/components/installation/InstallationProgress.jsx:125
+#: src/components/installation/InstallationProgress.jsx:151
 msgid "Installing"
 msgstr "Installerar"
 
@@ -895,7 +908,7 @@ msgstr "Lösenfrasen matchade inte någon låst enhet"
 msgid "Passphrases must match"
 msgstr "Lösenfraserna måste matcha varandra"
 
-#: src/components/installation/InstallationProgress.jsx:172
+#: src/components/installation/InstallationProgress.jsx:198
 msgid "Pending"
 msgstr "Väntande"
 
@@ -982,7 +995,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "Starta om systemet?"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Reboot to installed system"
 msgstr "Starta om till det installerade systemet"
 
@@ -1249,11 +1262,11 @@ msgstr "Visa lösenord"
 msgid "Size"
 msgstr "Storlek"
 
-#: src/components/installation/InstallationProgress.jsx:137
+#: src/components/installation/InstallationProgress.jsx:163
 msgid "Software installation"
 msgstr "Programvaruinstallation"
 
-#: src/components/installation/InstallationProgress.jsx:135
+#: src/components/installation/InstallationProgress.jsx:161
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1288,14 +1301,14 @@ msgstr "Stackspår"
 msgid "Storage"
 msgstr "Lagring"
 
-#: src/components/installation/InstallationProgress.jsx:132
+#: src/components/installation/InstallationProgress.jsx:158
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Lagringskonfiguration"
 
-#: src/components/installation/InstallationProgress.jsx:130
+#: src/components/installation/InstallationProgress.jsx:156
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "Lagringskonfiguration: Lagring konfigureras för närvarande."
 
@@ -1332,7 +1345,7 @@ msgstr "Lagringskraven uppfylls inte"
 msgid "Strong"
 msgstr "Starkt"
 
-#: src/components/installation/InstallationProgress.jsx:120
+#: src/components/installation/InstallationProgress.jsx:146
 msgid "Successfully installed"
 msgstr "Installationen lyckades"
 
@@ -1352,11 +1365,11 @@ msgstr "Föreslagna språk"
 msgid "System"
 msgstr "System"
 
-#: src/components/installation/InstallationProgress.jsx:142
+#: src/components/installation/InstallationProgress.jsx:168
 msgid "System configuration"
 msgstr "Systemkonfiguration"
 
-#: src/components/installation/InstallationProgress.jsx:140
+#: src/components/installation/InstallationProgress.jsx:166
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1460,7 +1473,7 @@ msgstr "Tidszon"
 msgid "Title"
 msgstr "Titel"
 
-#: src/components/installation/InstallationProgress.jsx:163
+#: src/components/installation/InstallationProgress.jsx:189
 msgid "To begin using $0, reboot your system."
 msgstr "För att börja använda $0, starta om ditt system."
 
@@ -1618,11 +1631,11 @@ msgstr ""
 msgid "Your progress will not be saved."
 msgstr "Ditt förlopp kommer inte att sparas."
 
-#: src/components/installation/InstallationProgress.jsx:177
+#: src/components/installation/InstallationProgress.jsx:203
 msgid "completed step"
 msgstr "färdigt steg"
 
-#: src/components/installation/InstallationProgress.jsx:182
+#: src/components/installation/InstallationProgress.jsx:208
 msgid "current step"
 msgstr "aktuellt steg"
 
@@ -1664,7 +1677,7 @@ msgstr "ofullständig"
 msgid "mount"
 msgstr "montering"
 
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:197
 msgid "pending step"
 msgstr "väntande steg"
 

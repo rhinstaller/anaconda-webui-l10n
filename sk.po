@@ -25,7 +25,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-16 08:33+0000\n"
+"POT-Creation-Date: 2026-06-17 08:14+0000\n"
 "PO-Revision-Date: 2026-03-14 04:24+0000\n"
 "Last-Translator: Ondrej Sulek <feonsu@gmail.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/anaconda-"
@@ -125,6 +125,12 @@ msgid ""
 msgstr ""
 "Štandardný používateľský účet s administrátorským prístupom na vykonávanie "
 "systémových zmien."
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:48
+#, fuzzy
+#| msgid "$0 installation"
+msgid "Abort installation"
+msgstr "Inštalácia $0"
 
 #: src/components/HeaderKebab.jsx:126
 msgid "About"
@@ -319,7 +325,7 @@ msgid ""
 msgstr ""
 "Úložisko Cockpitu neposkytlo heslo na odomknutie šifrovaného zariadenia."
 
-#: src/components/installation/InstallationProgress.jsx:178
+#: src/components/installation/InstallationProgress.jsx:204
 msgid "Completed"
 msgstr "Dokončené"
 
@@ -359,8 +365,15 @@ msgstr "Potvrdenie hesla"
 msgid "Continue"
 msgstr "Pokračovať"
 
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:41
 #: src/components/AnacondaWizardFooter.jsx:126
 msgid "Continue installation"
+msgstr "Pokračovať v inštalácii"
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:28
+#, fuzzy
+#| msgid "Continue installation"
+msgid "Continue installation?"
 msgstr "Pokračovať v inštalácii"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:606
@@ -477,7 +490,7 @@ msgstr "Vymazať údaje a nainštalovať"
 msgid "Error details"
 msgstr "Podrobnosti o chybe"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Exit to live desktop"
 msgstr "Odísť do live desktopu"
 
@@ -498,11 +511,11 @@ msgstr "Nepodarilo sa uložiť rozloženia"
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora linux vyžaduje aspoň $0 miesta na disku"
 
-#: src/components/installation/InstallationProgress.jsx:147
+#: src/components/installation/InstallationProgress.jsx:173
 msgid "Finalization"
 msgstr "Finalizácia"
 
-#: src/components/installation/InstallationProgress.jsx:145
+#: src/components/installation/InstallationProgress.jsx:171
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -602,7 +615,7 @@ msgid ""
 msgstr ""
 "Ak nechápete, alebo neakceptujete riziká, potom ukončite tento program."
 
-#: src/components/installation/InstallationProgress.jsx:183
+#: src/components/installation/InstallationProgress.jsx:209
 msgid "In progress"
 msgstr "Prebieha"
 
@@ -616,7 +629,7 @@ msgstr "Inicializácia..."
 msgid "Install"
 msgstr "Inštalácia"
 
-#: src/components/installation/InstallationProgress.jsx:123
+#: src/components/installation/InstallationProgress.jsx:149
 #: src/components/Error.jsx:747
 msgid "Installation failed"
 msgstr "Inštalácia zlyhala"
@@ -625,12 +638,12 @@ msgstr "Inštalácia zlyhala"
 msgid "Installation method"
 msgstr "Metóda inštalácie"
 
-#: src/components/installation/InstallationProgress.jsx:104
-#: src/components/installation/InstallationProgress.jsx:108
+#: src/components/installation/InstallationProgress.jsx:119
+#: src/components/installation/InstallationProgress.jsx:123
 msgid "Installation of the system failed"
 msgstr "Inštalácia systému zlyhala"
 
-#: src/components/installation/InstallationProgress.jsx:84
+#: src/components/installation/InstallationProgress.jsx:87
 msgid "Installation of the system failed: $0"
 msgstr "Inštalácia systému zlyhala: $0"
 
@@ -638,7 +651,7 @@ msgstr "Inštalácia systému zlyhala: $0"
 msgid "Installation type"
 msgstr "Typ Inštalácie"
 
-#: src/components/installation/InstallationProgress.jsx:125
+#: src/components/installation/InstallationProgress.jsx:151
 msgid "Installing"
 msgstr "Inštaluje sa"
 
@@ -901,7 +914,7 @@ msgstr "Heslo sa nezhoduje s žiadnym zamknutým zariadením"
 msgid "Passphrases must match"
 msgstr "Heslá sa musia zhodovať"
 
-#: src/components/installation/InstallationProgress.jsx:172
+#: src/components/installation/InstallationProgress.jsx:198
 msgid "Pending"
 msgstr "Čakajúce"
 
@@ -987,7 +1000,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "Reštartovať systém?"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Reboot to installed system"
 msgstr "Reštartovať do nainštalovaného systému"
 
@@ -1257,11 +1270,11 @@ msgstr "Zobraziť heslo"
 msgid "Size"
 msgstr "Veľkosť"
 
-#: src/components/installation/InstallationProgress.jsx:137
+#: src/components/installation/InstallationProgress.jsx:163
 msgid "Software installation"
 msgstr "Inštalácia softvéru"
 
-#: src/components/installation/InstallationProgress.jsx:135
+#: src/components/installation/InstallationProgress.jsx:161
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1295,14 +1308,14 @@ msgstr "Stacktrace"
 msgid "Storage"
 msgstr "Úložisko"
 
-#: src/components/installation/InstallationProgress.jsx:132
+#: src/components/installation/InstallationProgress.jsx:158
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Konfigurácia úložiska"
 
-#: src/components/installation/InstallationProgress.jsx:130
+#: src/components/installation/InstallationProgress.jsx:156
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "Konfigurácia úložiska: Momentálne prebieha konfigurácia úložiska."
 
@@ -1336,7 +1349,7 @@ msgstr "Požiadavky na úložisko neboli splnené"
 msgid "Strong"
 msgstr "Silné"
 
-#: src/components/installation/InstallationProgress.jsx:120
+#: src/components/installation/InstallationProgress.jsx:146
 msgid "Successfully installed"
 msgstr "Úspešne nainštalované"
 
@@ -1356,11 +1369,11 @@ msgstr "Odporúčané jazyky"
 msgid "System"
 msgstr "Systém"
 
-#: src/components/installation/InstallationProgress.jsx:142
+#: src/components/installation/InstallationProgress.jsx:168
 msgid "System configuration"
 msgstr "Konfigurácia systému"
 
-#: src/components/installation/InstallationProgress.jsx:140
+#: src/components/installation/InstallationProgress.jsx:166
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1465,7 +1478,7 @@ msgstr "Časové pásmo"
 msgid "Title"
 msgstr "Nadpis"
 
-#: src/components/installation/InstallationProgress.jsx:163
+#: src/components/installation/InstallationProgress.jsx:189
 msgid "To begin using $0, reboot your system."
 msgstr "Ak chcete začať používať $0, reštartujte svoj systém."
 
@@ -1624,11 +1637,11 @@ msgstr ""
 msgid "Your progress will not be saved."
 msgstr "Váš postup sa neuloží."
 
-#: src/components/installation/InstallationProgress.jsx:177
+#: src/components/installation/InstallationProgress.jsx:203
 msgid "completed step"
 msgstr "dokončený krok"
 
-#: src/components/installation/InstallationProgress.jsx:182
+#: src/components/installation/InstallationProgress.jsx:208
 msgid "current step"
 msgstr "aktuálny krok"
 
@@ -1672,7 +1685,7 @@ msgstr "Dokončené"
 msgid "mount"
 msgstr "pripojiť"
 
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:197
 msgid "pending step"
 msgstr "čakajúci krok"
 

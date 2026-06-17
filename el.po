@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-16 08:33+0000\n"
+"POT-Creation-Date: 2026-06-17 08:14+0000\n"
 "PO-Revision-Date: 2026-06-02 07:11+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/anaconda-"
@@ -125,6 +125,12 @@ msgid ""
 msgstr ""
 "Ένας τυπικός λογαριασμός χρήστη με δικαιώματα διαχειριστή για την "
 "πραγματοποίηση αλλαγών σε επίπεδο συστήματος."
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:48
+#, fuzzy
+#| msgid "$0 installation"
+msgid "Abort installation"
+msgstr "Εγκατάσταση του $0"
 
 #: src/components/HeaderKebab.jsx:126
 msgid "About"
@@ -327,7 +333,7 @@ msgstr ""
 "Ο αποθηκευτικός χώρος Cockpit δεν παρείχε τη φράση πρόσβασης για το "
 "ξεκλείδωμα της κρυπτογραφημένης συσκευής."
 
-#: src/components/installation/InstallationProgress.jsx:178
+#: src/components/installation/InstallationProgress.jsx:204
 msgid "Completed"
 msgstr "Ολοκληρώθηκε"
 
@@ -365,8 +371,15 @@ msgstr "Επιβεβαίωση φράσης πρόσβασης"
 msgid "Continue"
 msgstr "Συνέχεια"
 
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:41
 #: src/components/AnacondaWizardFooter.jsx:126
 msgid "Continue installation"
+msgstr "Συνέχεια εγκατάστασης"
+
+#: src/components/installation/InstallationNonCriticalErrorDialog.jsx:28
+#, fuzzy
+#| msgid "Continue installation"
+msgid "Continue installation?"
 msgstr "Συνέχεια εγκατάστασης"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:606
@@ -482,7 +495,7 @@ msgstr "Διαγραφή δεδομένων και εγκατάσταση"
 msgid "Error details"
 msgstr "Λεπτομέρειες σφάλματος"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Exit to live desktop"
 msgstr "Έξοδος στην επιφάνεια εργασίας"
 
@@ -503,11 +516,11 @@ msgstr "Αποτυχία αποθήκευσης διατάξεων"
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Το Fedora Linux απαιτεί τουλάχιστον $0 χώρου στον δίσκο."
 
-#: src/components/installation/InstallationProgress.jsx:147
+#: src/components/installation/InstallationProgress.jsx:173
 msgid "Finalization"
 msgstr "Οριστικοποίηση"
 
-#: src/components/installation/InstallationProgress.jsx:145
+#: src/components/installation/InstallationProgress.jsx:171
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -609,7 +622,7 @@ msgstr ""
 "Εάν δεν κατανοείτε ή αποδέχεστε τους κινδύνους, τότε κλείστε αυτό το "
 "πρόγραμμα."
 
-#: src/components/installation/InstallationProgress.jsx:183
+#: src/components/installation/InstallationProgress.jsx:209
 msgid "In progress"
 msgstr "Σε εξέλιξη"
 
@@ -623,7 +636,7 @@ msgstr "Αρχικοποίηση..."
 msgid "Install"
 msgstr "Εγκατάσταση"
 
-#: src/components/installation/InstallationProgress.jsx:123
+#: src/components/installation/InstallationProgress.jsx:149
 #: src/components/Error.jsx:747
 msgid "Installation failed"
 msgstr "Αποτυχία εγκατάστασης"
@@ -632,12 +645,12 @@ msgstr "Αποτυχία εγκατάστασης"
 msgid "Installation method"
 msgstr "Μέθοδος εγκατάστασης"
 
-#: src/components/installation/InstallationProgress.jsx:104
-#: src/components/installation/InstallationProgress.jsx:108
+#: src/components/installation/InstallationProgress.jsx:119
+#: src/components/installation/InstallationProgress.jsx:123
 msgid "Installation of the system failed"
 msgstr "Η εγκατάσταση του συστήματος απέτυχε"
 
-#: src/components/installation/InstallationProgress.jsx:84
+#: src/components/installation/InstallationProgress.jsx:87
 msgid "Installation of the system failed: $0"
 msgstr "Αποτυχία εγκατάστασης συστήματος: $0"
 
@@ -645,7 +658,7 @@ msgstr "Αποτυχία εγκατάστασης συστήματος: $0"
 msgid "Installation type"
 msgstr "Τύπος εγκατάστασης"
 
-#: src/components/installation/InstallationProgress.jsx:125
+#: src/components/installation/InstallationProgress.jsx:151
 msgid "Installing"
 msgstr "Γίνεται εγκατάσταση"
 
@@ -912,7 +925,7 @@ msgstr "Η φράση πρόσβασης δεν ταίριαξε με καμία
 msgid "Passphrases must match"
 msgstr "Οι φράσεις πρόσβασης πρέπει να ταιριάζουν"
 
-#: src/components/installation/InstallationProgress.jsx:172
+#: src/components/installation/InstallationProgress.jsx:198
 msgid "Pending"
 msgstr "Σε εκκρεμότητα"
 
@@ -1001,7 +1014,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "Επανεκκίνηση συστήματος;"
 
-#: src/components/installation/InstallationProgress.jsx:221
+#: src/components/installation/InstallationProgress.jsx:247
 msgid "Reboot to installed system"
 msgstr "Επανεκκίνηση στο εγκατεστημένο σύστημα"
 
@@ -1274,11 +1287,11 @@ msgstr "Εμφάνιση κωδικού πρόσβασης"
 msgid "Size"
 msgstr "Μέγεθος"
 
-#: src/components/installation/InstallationProgress.jsx:137
+#: src/components/installation/InstallationProgress.jsx:163
 msgid "Software installation"
 msgstr "Εγκατάσταση λογισμικού"
 
-#: src/components/installation/InstallationProgress.jsx:135
+#: src/components/installation/InstallationProgress.jsx:161
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1314,14 +1327,14 @@ msgstr "Ιχνηλάτηση στοίβας"
 msgid "Storage"
 msgstr "Αποθηκευτικός χώρος"
 
-#: src/components/installation/InstallationProgress.jsx:132
+#: src/components/installation/InstallationProgress.jsx:158
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Διαμόρφωση χώρου"
 
-#: src/components/installation/InstallationProgress.jsx:130
+#: src/components/installation/InstallationProgress.jsx:156
 msgid "Storage configuration: Storage is currently being configured."
 msgstr ""
 "Διαμόρφωση χώρου: αυτήν τη στιγμή γίνεται διαμόρφωση του αποθηκευτικού χώρου."
@@ -1363,7 +1376,7 @@ msgstr "Δεν πληρούνται οι απαιτήσεις αποθηκευτ
 msgid "Strong"
 msgstr "Ισχυρός"
 
-#: src/components/installation/InstallationProgress.jsx:120
+#: src/components/installation/InstallationProgress.jsx:146
 msgid "Successfully installed"
 msgstr "Επιτυχής εγκατάσταση"
 
@@ -1383,11 +1396,11 @@ msgstr "Προτεινόμενες γλώσσες"
 msgid "System"
 msgstr "Σύστημα"
 
-#: src/components/installation/InstallationProgress.jsx:142
+#: src/components/installation/InstallationProgress.jsx:168
 msgid "System configuration"
 msgstr "Διαμόρφωση συστήματος"
 
-#: src/components/installation/InstallationProgress.jsx:140
+#: src/components/installation/InstallationProgress.jsx:166
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1497,7 +1510,7 @@ msgstr "Ζώνη ώρας"
 msgid "Title"
 msgstr "Τίτλος"
 
-#: src/components/installation/InstallationProgress.jsx:163
+#: src/components/installation/InstallationProgress.jsx:189
 msgid "To begin using $0, reboot your system."
 msgstr "Για να ξεκινήσετε τη χρήση του $0, επανεκκινήστε το σύστημά σας."
 
@@ -1657,11 +1670,11 @@ msgstr ""
 msgid "Your progress will not be saved."
 msgstr "Η πρόοδός σας δεν θα αποθηκευτεί."
 
-#: src/components/installation/InstallationProgress.jsx:177
+#: src/components/installation/InstallationProgress.jsx:203
 msgid "completed step"
 msgstr "ολοκληρωμένο βήμα"
 
-#: src/components/installation/InstallationProgress.jsx:182
+#: src/components/installation/InstallationProgress.jsx:208
 msgid "current step"
 msgstr "τρέχον βήμα"
 
@@ -1703,7 +1716,7 @@ msgstr "μη ολοκληρωμένο"
 msgid "mount"
 msgstr "προσάρτηση"
 
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:197
 msgid "pending step"
 msgstr "εκκρεμές βήμα"
 
