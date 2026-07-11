@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-10 06:28+0000\n"
+"POT-Creation-Date: 2026-07-11 05:28+0000\n"
 "PO-Revision-Date: 2026-07-02 06:25+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/anaconda-"
@@ -346,7 +346,7 @@ msgstr ""
 "Úložiště Cockpitu neposkytlo heslovou frázi pro odemknutí zašifrovaného "
 "zařízení."
 
-#: src/components/installation/InstallationProgress.jsx:204
+#: src/components/installation/InstallationProgress.jsx:226
 msgid "Completed"
 msgstr "Dokončeno"
 
@@ -503,7 +503,7 @@ msgstr "Vymazat data a nainstalovat"
 msgid "Error details"
 msgstr "Podrobnosti o chybě"
 
-#: src/components/installation/InstallationProgress.jsx:247
+#: src/components/installation/InstallationProgress.jsx:269
 msgid "Exit to live desktop"
 msgstr "Ukončit a přejít do systému spuštěného přímo z instalačního média"
 
@@ -524,11 +524,11 @@ msgstr "Uložení rozložení se nezdařilo"
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora Linux vyžaduje alespoň $0 prostoru na disku."
 
-#: src/components/installation/InstallationProgress.jsx:173
+#: src/components/installation/InstallationProgress.jsx:195
 msgid "Finalization"
 msgstr "Dokončování"
 
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:193
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -627,7 +627,7 @@ msgstr ""
 "Pokud těmto rizikům nerozumíte nebo jsou pro vás nepřijatelná, ukončete "
 "prosím tento program."
 
-#: src/components/installation/InstallationProgress.jsx:209
+#: src/components/installation/InstallationProgress.jsx:231
 msgid "In progress"
 msgstr "Probíhá"
 
@@ -641,7 +641,7 @@ msgstr "Inicializace…"
 msgid "Install"
 msgstr "Nainstalovat"
 
-#: src/components/installation/InstallationProgress.jsx:149
+#: src/components/installation/InstallationProgress.jsx:171
 #: src/components/Error.jsx:747
 msgid "Installation failed"
 msgstr "Instalace se nezdařila"
@@ -651,11 +651,12 @@ msgid "Installation method"
 msgstr "Metoda instalace"
 
 #: src/components/installation/InstallationProgress.jsx:119
-#: src/components/installation/InstallationProgress.jsx:123
+#: src/components/installation/InstallationProgress.jsx:140
+#: src/components/installation/InstallationProgress.jsx:145
 msgid "Installation of the system failed"
 msgstr "Instalace systému se nezdařila"
 
-#: src/components/installation/InstallationProgress.jsx:87
+#: src/components/installation/InstallationProgress.jsx:86
 msgid "Installation of the system failed: $0"
 msgstr "instalace systému se nezdařila: $0"
 
@@ -663,7 +664,7 @@ msgstr "instalace systému se nezdařila: $0"
 msgid "Installation type"
 msgstr "Typ instalace"
 
-#: src/components/installation/InstallationProgress.jsx:151
+#: src/components/installation/InstallationProgress.jsx:173
 msgid "Installing"
 msgstr "Instaluje se"
 
@@ -850,6 +851,12 @@ msgstr "Nejsou k dispozici žádné disky"
 msgid "No disks selected"
 msgstr "Nevybrány žádné jednotky"
 
+#: src/components/localization/Keyboard.jsx:47
+#, fuzzy
+#| msgid "No layouts selected yet"
+msgid "No keyboard layouts selected"
+msgstr "Zatím nevybrána žádná rozložení"
+
 #: src/components/localization/Keyboard.jsx:240
 msgid "No layouts selected yet"
 msgstr "Zatím nevybrána žádná rozložení"
@@ -858,7 +865,7 @@ msgstr "Zatím nevybrána žádná rozložení"
 msgid "No results found"
 msgstr "Nenalezeny žádné výsledky"
 
-#: src/components/localization/Keyboard.jsx:394
+#: src/components/localization/Keyboard.jsx:427
 msgid ""
 "No valid VConsole keymap can be obtained for the selected keyboard "
 "layout(s). Please make a different keyboard layout selection."
@@ -923,7 +930,7 @@ msgstr "Heslová fráze neodpovídá žádnému ze zamčených zařízení"
 msgid "Passphrases must match"
 msgstr "Je třeba, aby se zadání heslové fráze shodovaly"
 
-#: src/components/installation/InstallationProgress.jsx:198
+#: src/components/installation/InstallationProgress.jsx:220
 msgid "Pending"
 msgstr "Čeká"
 
@@ -1009,7 +1016,7 @@ msgstr ""
 msgid "Reboot system?"
 msgstr "Restartovat systém?"
 
-#: src/components/installation/InstallationProgress.jsx:247
+#: src/components/installation/InstallationProgress.jsx:269
 msgid "Reboot to installed system"
 msgstr "Restartovat do nainstalovaného systému"
 
@@ -1274,11 +1281,11 @@ msgstr "Zobrazit heslo"
 msgid "Size"
 msgstr "Velikost"
 
-#: src/components/installation/InstallationProgress.jsx:163
+#: src/components/installation/InstallationProgress.jsx:185
 msgid "Software installation"
 msgstr "Instalace softwaru"
 
-#: src/components/installation/InstallationProgress.jsx:161
+#: src/components/installation/InstallationProgress.jsx:183
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1312,14 +1319,14 @@ msgstr "Stacktrace"
 msgid "Storage"
 msgstr "Úložiště"
 
-#: src/components/installation/InstallationProgress.jsx:158
+#: src/components/installation/InstallationProgress.jsx:180
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Uspořádání úložiště"
 
-#: src/components/installation/InstallationProgress.jsx:156
+#: src/components/installation/InstallationProgress.jsx:178
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "Nastavování úložiště: Úložiště je právě nastavováno."
 
@@ -1355,7 +1362,7 @@ msgstr "Požadavky na úložiště nejsou splněny"
 msgid "Strong"
 msgstr "Odolné"
 
-#: src/components/installation/InstallationProgress.jsx:146
+#: src/components/installation/InstallationProgress.jsx:168
 msgid "Successfully installed"
 msgstr "Úspěšně nainstalováno"
 
@@ -1375,11 +1382,11 @@ msgstr "Doporučené jazyky"
 msgid "System"
 msgstr "Systém"
 
-#: src/components/installation/InstallationProgress.jsx:168
+#: src/components/installation/InstallationProgress.jsx:190
 msgid "System configuration"
 msgstr "Nastavení systému"
 
-#: src/components/installation/InstallationProgress.jsx:166
+#: src/components/installation/InstallationProgress.jsx:188
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1481,7 +1488,7 @@ msgstr "Časové pásmo"
 msgid "Title"
 msgstr "Nadpis"
 
-#: src/components/installation/InstallationProgress.jsx:189
+#: src/components/installation/InstallationProgress.jsx:211
 msgid "To begin using $0, reboot your system."
 msgstr "Aby bylo možné začít $0 používat, počítač restartujte."
 
@@ -1639,11 +1646,11 @@ msgstr ""
 msgid "Your progress will not be saved."
 msgstr "To, co jste doposud udělali, nebude uloženo."
 
-#: src/components/installation/InstallationProgress.jsx:203
+#: src/components/installation/InstallationProgress.jsx:225
 msgid "completed step"
 msgstr "dokončený krok"
 
-#: src/components/installation/InstallationProgress.jsx:208
+#: src/components/installation/InstallationProgress.jsx:230
 msgid "current step"
 msgstr "stávající krok"
 
@@ -1685,7 +1692,7 @@ msgstr "nedokončené"
 msgid "mount"
 msgstr "připojení"
 
-#: src/components/installation/InstallationProgress.jsx:197
+#: src/components/installation/InstallationProgress.jsx:219
 msgid "pending step"
 msgstr "čekající krok"
 
