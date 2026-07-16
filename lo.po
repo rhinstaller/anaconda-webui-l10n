@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 05:17+0000\n"
+"POT-Creation-Date: 2026-07-16 05:27+0000\n"
 "PO-Revision-Date: 2026-05-06 05:45+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.fedoraproject.org/projects/anaconda-"
@@ -25,9 +25,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 #: src/components/storage/installation-method/InstallationDestination.jsx:162
 #: src/components/storage/installation-method/InstallationDestination.jsx:268
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -53,7 +53,7 @@ msgstr ""
 "$0 ແມ່ນພາກສ່ວນຂະຫຍາຍ MBR ທີ່ບັນຈຸພາກສ່ວນຕາມຕັກກະ (logical partitions). "
 "ການລຶບທຸກພາກສ່ວນຕາມຕັກກະອອກ ຈະເປັນການລຶບພາກສ່ວນຂະຫຍາຍນຳໂດຍອັດຕະໂນມັດ."
 
-#: src/components/storage/installation-method/usePageComplete.jsx:113
+#: src/components/storage/installation-method/usePageComplete.jsx:115
 msgid "$0 is required, but only $1 is available."
 msgstr "ຕ້ອງການ $0, ແຕ່ມີພຽງ $1 ທີ່ໃຊ້ໄດ້."
 
@@ -224,12 +224,12 @@ msgstr ""
 "ທ່ານມີຈຸດປະສົງທີ່ຈະໃຊ້ມັນເພື່ອການທົດສອບ ແລະ ການພັດທະນາເທົ່ານັ້ນ ແລະ ຍິນດີທີ່ຈະລາຍງານບັກ ຫຼື "
 "ບັນຫາຕ່າງໆ ເພື່ອປັບປຸງວຽກງານນີ້."
 
-#: src/components/localization/Keyboard.jsx:280 src/components/Error.jsx:759
+#: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
+#: src/components/localization/Keyboard.jsx:280
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:367
 #: src/components/datetime/CustomNTPModal.jsx:252
-#: src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "ຍົກເລີກ"
 
@@ -245,7 +245,7 @@ msgstr "ປ່ຽນປາຍທາງ"
 msgid "Change hostname"
 msgstr "ປ່ຽນຊື່ເຄື່ອງ"
 
-#: src/components/storage/installation-method/usePageComplete.jsx:127
+#: src/components/storage/installation-method/usePageComplete.jsx:129
 msgid "Change partition layout"
 msgstr "ປ່ຽນຮູບແບບພາກສ່ວນ"
 
@@ -264,9 +264,9 @@ msgstr "ການປ່ຽນແປງຢູ່ບ່ອນນີ້ຈະມີ
 msgid "Checking installation configuration..."
 msgstr "ກຳລັງກວດສອບການຕັ້ງຄ່າການຕິດຕັ້ງ..."
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:461
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:467
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "ກຳລັງກວດສອບການຕັ້ງຄ່າບ່ອນເກັບຂໍ້ມູນ"
 
@@ -278,9 +278,9 @@ msgstr "ລຶບການຄົ້ນຫາ"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr "ຄລິກ 'ຕໍ່ໄປ' ອີກຄັ້ງເພື່ອດຳເນີນການຕໍ່ ເຖິງແມ່ນວ່າຈະມີຄຳເຕືອນເຫຼົ່ານີ້."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:372
-#: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/network/CockpitNetworkConfiguration.jsx:64
+#: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/storage/installation-method/InstallationDestination.jsx:372
 msgid "Close"
 msgstr "ປິດ"
 
@@ -309,8 +309,8 @@ msgstr "ຕັ້ງຄ່າເຊີເວີ NTP"
 msgid "Configure custom NTP servers"
 msgstr "ຕັ້ງຄ່າເຊີເວີ NTP ດ້ວຍຕົນເອງ"
 
-#: src/components/HeaderKebab.jsx:115
 #: src/components/network/CockpitNetworkConfiguration.jsx:40
+#: src/components/HeaderKebab.jsx:115
 msgid "Configure network"
 msgstr "ຕັ້ງຄ່າເຄືອຂ່າຍ"
 
@@ -370,8 +370,8 @@ msgstr "ກຳນົດເອງ"
 msgid "Date"
 msgstr "ວັນທີ"
 
-#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
+#: src/components/datetime/index.js:21
 msgid "Date and time"
 msgstr "ວັນທີ ແລະ ເວລາ"
 
@@ -576,9 +576,9 @@ msgstr "ກຳລັງດຳເນີນການ"
 msgid "Initializing..."
 msgstr "ກຳລັງເລີ່ມຕົ້ນ..."
 
-#: src/components/storage/scenarios/use-free-space/index.js:27
 #: src/components/storage/scenarios/use-configured-storage/index.js:25
 #: src/components/storage/scenarios/use-configured-storage/index.js:39
+#: src/components/storage/scenarios/use-free-space/index.js:27
 msgid "Install"
 msgstr "ຕິດຕັ້ງ"
 
@@ -647,8 +647,8 @@ msgstr "ຄີບອດ"
 msgid "Keyboard layout during boot"
 msgstr "ຮູບແບບຄີບອດໃນລະຫວ່າງການບູດ"
 
-#: src/components/localization/InstallationLanguage.jsx:236
 #: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "ພາສາ"
 
@@ -750,8 +750,8 @@ msgstr "ຕ້ອງການຢ່າງໜ້ອຍ $0"
 msgid "Network"
 msgstr ""
 
-#: src/components/network/index.js:20
 #: src/components/network/CockpitNetworkConfiguration.jsx:46
+#: src/components/network/index.js:20
 msgid "Network Configuration"
 msgstr "ການຕັ້ງຄ່າເຄືອຂ່າຍ"
 
@@ -773,8 +773,8 @@ msgstr "ປລັກອິນເຄືອຂ່າຍເຮັດວຽກຜິ
 msgid "Next"
 msgstr "ຕໍ່ໄປ"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:622
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 msgid "No devices"
 msgstr "ບໍ່ມີອຸປະກອນ"
 
@@ -807,7 +807,7 @@ msgid ""
 msgstr ""
 "ບໍ່ສາມາດດຶງຂໍ້ມູນ VConsole keymap ທີ່ຖືກຕ້ອງສຳລັບຮູບແບບຄີບອດທີ່ເລືອກ. ກະລຸນາເລືອກຮູບແບບຄີບອດອື່ນ."
 
-#: src/components/storage/installation-method/usePageComplete.jsx:111
+#: src/components/storage/installation-method/usePageComplete.jsx:113
 msgid "Not enough available free space"
 msgstr "ພື້ນທີ່ວ່າງທີ່ມີຢູ່ບໍ່ພຽງພໍ"
 
@@ -848,9 +848,9 @@ msgstr "ຄີບອດອື່ນໆ"
 msgid "Partitions (advanced)"
 msgstr "ພາກສ່ວນ (ຂັ້ນສູງ)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/users/Accounts.jsx:199 src/components/users/Accounts.jsx:401
 msgid "Passphrase"
 msgstr "ລະຫັດຜ່ານ"
@@ -1099,9 +1099,9 @@ msgstr "ເປີດໃຊ້ບັນຊີ root ແລ້ວ, ແຕ່ຍັ�
 msgid "Root password has been set."
 msgstr "ຕັ້ງລະຫັດຜ່ານ root ແລ້ວ."
 
+#: src/components/review/Hostname.jsx:125
 #: src/components/localization/Keyboard.jsx:277
 #: src/components/datetime/CustomNTPModal.jsx:245
-#: src/components/review/Hostname.jsx:125
 msgid "Save"
 msgstr "ບັນທຶກ"
 
@@ -1244,9 +1244,9 @@ msgid "Storage"
 msgstr "ບ່ອນເກັບຂໍ້ມູນ"
 
 #: src/components/installation/InstallationProgress.jsx:180
+#: src/components/steps.js:35
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
-#: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "ການຕັ້ງຄ່າບ່ອນເກັບຂໍ້ມູນ"
 
@@ -1393,8 +1393,8 @@ msgstr "ນີ້ຈະໃຊ້ເວລາຄາວໜຶ່ງ"
 msgid "Time"
 msgstr "ເວລາ"
 
-#: src/components/datetime/Timezone.jsx:130
 #: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/datetime/Timezone.jsx:130
 msgid "Timezone"
 msgstr "ເຂດເວລາ"
 

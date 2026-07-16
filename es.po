@@ -66,7 +66,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 05:17+0000\n"
+"POT-Creation-Date: 2026-07-16 05:27+0000\n"
 "PO-Revision-Date: 2026-06-18 09:10+0000\n"
 "Last-Translator: \"Fco. Javier F. Serrador\" <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/"
@@ -83,9 +83,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 #: src/components/storage/installation-method/InstallationDestination.jsx:162
 #: src/components/storage/installation-method/InstallationDestination.jsx:268
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -113,7 +113,7 @@ msgstr ""
 "Quitar todas las particiones lógicas además quitará automáticamente la "
 "partición extendida."
 
-#: src/components/storage/installation-method/usePageComplete.jsx:113
+#: src/components/storage/installation-method/usePageComplete.jsx:115
 msgid "$0 is required, but only $1 is available."
 msgstr "$0 es requerido, pero solo $1 está disponible."
 
@@ -296,12 +296,12 @@ msgstr ""
 "y desarrollo únicamente, y está dispuesto a informar de cualquier defecto o "
 "problema que encuentre con el fin de mejorar este trabajo."
 
-#: src/components/localization/Keyboard.jsx:280 src/components/Error.jsx:759
+#: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
+#: src/components/localization/Keyboard.jsx:280
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:367
 #: src/components/datetime/CustomNTPModal.jsx:252
-#: src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -317,7 +317,7 @@ msgstr "Modificar destino"
 msgid "Change hostname"
 msgstr "Modificar nombre de anfitrión"
 
-#: src/components/storage/installation-method/usePageComplete.jsx:127
+#: src/components/storage/installation-method/usePageComplete.jsx:129
 msgid "Change partition layout"
 msgstr "Cambio de distribución de partición"
 
@@ -338,9 +338,9 @@ msgstr ""
 msgid "Checking installation configuration..."
 msgstr "Probando la configuración de instalación…"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:461
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:467
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "Probando la configuración de almacenamiento"
 
@@ -352,9 +352,9 @@ msgstr "Vaciar búsqueda"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr "Pulse 'Siguiente' de nuevo para proceder a pesar de estos avisos."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:372
-#: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/network/CockpitNetworkConfiguration.jsx:64
+#: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/storage/installation-method/InstallationDestination.jsx:372
 msgid "Close"
 msgstr "Cerrar"
 
@@ -385,8 +385,8 @@ msgstr "Configurar servidores NTP"
 msgid "Configure custom NTP servers"
 msgstr "Configurar servidores personales de NTP"
 
-#: src/components/HeaderKebab.jsx:115
 #: src/components/network/CockpitNetworkConfiguration.jsx:40
+#: src/components/HeaderKebab.jsx:115
 msgid "Configure network"
 msgstr "Configurar red"
 
@@ -444,8 +444,8 @@ msgstr "Personalizar"
 msgid "Date"
 msgstr "Fecha"
 
-#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
+#: src/components/datetime/index.js:21
 msgid "Date and time"
 msgstr "Fecha y hora"
 
@@ -658,9 +658,9 @@ msgstr "En curso"
 msgid "Initializing..."
 msgstr "Inicializando…"
 
-#: src/components/storage/scenarios/use-free-space/index.js:27
 #: src/components/storage/scenarios/use-configured-storage/index.js:25
 #: src/components/storage/scenarios/use-configured-storage/index.js:39
+#: src/components/storage/scenarios/use-free-space/index.js:27
 msgid "Install"
 msgstr "Instalar"
 
@@ -733,8 +733,8 @@ msgstr "Teclado"
 msgid "Keyboard layout during boot"
 msgstr "Distribución del teclado al arrancar"
 
-#: src/components/localization/InstallationLanguage.jsx:236
 #: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "Idioma"
 
@@ -840,8 +840,8 @@ msgstr "Necesita al menos $0"
 msgid "Network"
 msgstr "Red"
 
-#: src/components/network/index.js:20
 #: src/components/network/CockpitNetworkConfiguration.jsx:46
+#: src/components/network/index.js:20
 msgid "Network Configuration"
 msgstr "Configuración de Red"
 
@@ -865,8 +865,8 @@ msgstr "Complemento de red incorrecto"
 msgid "Next"
 msgstr "Siguiente"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:622
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 msgid "No devices"
 msgstr "No hay dispositivos"
 
@@ -901,7 +901,7 @@ msgstr ""
 "distribución(es) de teclado seleccionadas. Utilice una selección de "
 "distribución de teclado diferente."
 
-#: src/components/storage/installation-method/usePageComplete.jsx:111
+#: src/components/storage/installation-method/usePageComplete.jsx:113
 msgid "Not enough available free space"
 msgstr "No hay suficiente espacio libre disponible"
 
@@ -943,9 +943,9 @@ msgstr "Otros teclados"
 msgid "Partitions (advanced)"
 msgstr "Particiones (avanzado)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/users/Accounts.jsx:199 src/components/users/Accounts.jsx:401
 msgid "Passphrase"
 msgstr "Frase contraseña"
@@ -1204,9 +1204,9 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "Se ha establecido la contraseña del root."
 
+#: src/components/review/Hostname.jsx:125
 #: src/components/localization/Keyboard.jsx:277
 #: src/components/datetime/CustomNTPModal.jsx:245
-#: src/components/review/Hostname.jsx:125
 msgid "Save"
 msgstr "Guardar"
 
@@ -1356,9 +1356,9 @@ msgid "Storage"
 msgstr "Almacenamiento"
 
 #: src/components/installation/InstallationProgress.jsx:180
+#: src/components/steps.js:35
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
-#: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Configuración de almacenamiento"
 
@@ -1520,8 +1520,8 @@ msgstr "Esto tomará un poco de rato"
 msgid "Time"
 msgstr "Hora y día"
 
-#: src/components/datetime/Timezone.jsx:130
 #: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/datetime/Timezone.jsx:130
 msgid "Timezone"
 msgstr "Zona horaria"
 

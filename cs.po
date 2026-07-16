@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 05:17+0000\n"
+"POT-Creation-Date: 2026-07-16 05:27+0000\n"
 "PO-Revision-Date: 2026-07-14 05:16+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/anaconda-"
@@ -63,9 +63,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 #: src/components/storage/installation-method/InstallationDestination.jsx:162
 #: src/components/storage/installation-method/InstallationDestination.jsx:268
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -94,7 +94,7 @@ msgstr ""
 "všech logických oddílů dojde rovněž k automatickému odstranění tohoto "
 "rozšířeného oddílu."
 
-#: src/components/storage/installation-method/usePageComplete.jsx:113
+#: src/components/storage/installation-method/usePageComplete.jsx:115
 msgid "$0 is required, but only $1 is available."
 msgstr "Je zapotřebí $0, ale k dispozici je pouze $1."
 
@@ -273,12 +273,12 @@ msgstr ""
 "pouze pro testovací a vývojové účely a jste ochotni hlásit jakékoli chyby "
 "nebo problémy za účelem zlepšení tohoto díla."
 
-#: src/components/localization/Keyboard.jsx:280 src/components/Error.jsx:759
+#: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
+#: src/components/localization/Keyboard.jsx:280
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:367
 #: src/components/datetime/CustomNTPModal.jsx:252
-#: src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "Zrušit"
 
@@ -294,7 +294,7 @@ msgstr "Změnit cíl"
 msgid "Change hostname"
 msgstr "Změnit název stroje"
 
-#: src/components/storage/installation-method/usePageComplete.jsx:127
+#: src/components/storage/installation-method/usePageComplete.jsx:129
 msgid "Change partition layout"
 msgstr "Změnit rozvržení oddílů"
 
@@ -314,9 +314,9 @@ msgstr ""
 msgid "Checking installation configuration..."
 msgstr "Kontrola konfigurace instalace…"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:461
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:467
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "Zjišťuje se uspořádání úložiště"
 
@@ -329,9 +329,9 @@ msgid "Click 'Next' again to proceed despite these warnings."
 msgstr ""
 "Pokud chcete pokračovat navzdory těmto varováním, klikněte znovu na „Další“."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:372
-#: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/network/CockpitNetworkConfiguration.jsx:64
+#: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/storage/installation-method/InstallationDestination.jsx:372
 msgid "Close"
 msgstr "Zavřít"
 
@@ -362,8 +362,8 @@ msgstr "Nastavit NTP servery"
 msgid "Configure custom NTP servers"
 msgstr "Nastavit uživatelsky určené NTP servery"
 
-#: src/components/HeaderKebab.jsx:115
 #: src/components/network/CockpitNetworkConfiguration.jsx:40
+#: src/components/HeaderKebab.jsx:115
 msgid "Configure network"
 msgstr "Nastavení sítě"
 
@@ -421,8 +421,8 @@ msgstr "Uživatelsky určené"
 msgid "Date"
 msgstr "Datum"
 
-#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
+#: src/components/datetime/index.js:21
 msgid "Date and time"
 msgstr "Datum a čas"
 
@@ -635,9 +635,9 @@ msgstr "Probíhá"
 msgid "Initializing..."
 msgstr "Inicializace…"
 
-#: src/components/storage/scenarios/use-free-space/index.js:27
 #: src/components/storage/scenarios/use-configured-storage/index.js:25
 #: src/components/storage/scenarios/use-configured-storage/index.js:39
+#: src/components/storage/scenarios/use-free-space/index.js:27
 msgid "Install"
 msgstr "Nainstalovat"
 
@@ -709,8 +709,8 @@ msgstr "Klávesnice"
 msgid "Keyboard layout during boot"
 msgstr "Rozvržení klávesnice v průběhu startu systému"
 
-#: src/components/localization/InstallationLanguage.jsx:236
 #: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "Jazyk"
 
@@ -813,8 +813,8 @@ msgstr "Vyžaduje alespoň $0"
 msgid "Network"
 msgstr "Síť"
 
-#: src/components/network/index.js:20
 #: src/components/network/CockpitNetworkConfiguration.jsx:46
+#: src/components/network/index.js:20
 msgid "Network Configuration"
 msgstr "Nastavení sítě"
 
@@ -838,8 +838,8 @@ msgstr "Zásuvný modul sítě selhal"
 msgid "Next"
 msgstr "Další"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:622
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 msgid "No devices"
 msgstr "Žádná zařízení"
 
@@ -871,7 +871,7 @@ msgstr ""
 "Pro vybraná rozložení klávesnice nebylo možné obdržet žádnou platnou "
 "VConsole mapu kláves. Vybete jiné rozložení klávesnice."
 
-#: src/components/storage/installation-method/usePageComplete.jsx:111
+#: src/components/storage/installation-method/usePageComplete.jsx:113
 msgid "Not enough available free space"
 msgstr "Nedostatek volného místa k dispozici"
 
@@ -913,9 +913,9 @@ msgstr "Další klávesnice"
 msgid "Partitions (advanced)"
 msgstr "Rozdělení disku (pokročilé)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/users/Accounts.jsx:199 src/components/users/Accounts.jsx:401
 msgid "Passphrase"
 msgstr "Heslová fráze"
@@ -1170,9 +1170,9 @@ msgstr "Účet root je povolený, ale nebyl nastaven žádný uživatelský úč
 msgid "Root password has been set."
 msgstr "Heslo správce (root) bylo nastaveno."
 
+#: src/components/review/Hostname.jsx:125
 #: src/components/localization/Keyboard.jsx:277
 #: src/components/datetime/CustomNTPModal.jsx:245
-#: src/components/review/Hostname.jsx:125
 msgid "Save"
 msgstr "Uložit"
 
@@ -1318,9 +1318,9 @@ msgid "Storage"
 msgstr "Úložiště"
 
 #: src/components/installation/InstallationProgress.jsx:180
+#: src/components/steps.js:35
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
-#: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Uspořádání úložiště"
 
@@ -1477,8 +1477,8 @@ msgstr "Chvíli to potrvá"
 msgid "Time"
 msgstr "Čas"
 
-#: src/components/datetime/Timezone.jsx:130
 #: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/datetime/Timezone.jsx:130
 msgid "Timezone"
 msgstr "Časové pásmo"
 

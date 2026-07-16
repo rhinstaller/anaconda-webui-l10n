@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 05:17+0000\n"
+"POT-Creation-Date: 2026-07-16 05:27+0000\n"
 "PO-Revision-Date: 2026-07-13 05:54+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/anaconda-"
@@ -54,9 +54,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 #: src/components/storage/installation-method/InstallationDestination.jsx:162
 #: src/components/storage/installation-method/InstallationDestination.jsx:268
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -82,7 +82,7 @@ msgstr ""
 "$0는 논리 파티션이 포함된 MBR의 확장된 파티션입니다. 모든 논리 파티션 제거하"
 "기는 확장된 파티션도 자동으로 제거합니다."
 
-#: src/components/storage/installation-method/usePageComplete.jsx:113
+#: src/components/storage/installation-method/usePageComplete.jsx:115
 msgid "$0 is required, but only $1 is available."
 msgstr "$0 가 필요하나, $1 만 사용 할 수 있습니다."
 
@@ -256,12 +256,12 @@ msgstr ""
 "업을 향상 시키기 위해 결점 또는 문제점을 기꺼이 보고하고자 하는 사전-출시된 "
 "소프트웨어와 관련된 위험을 이해하고 수용합니다."
 
-#: src/components/localization/Keyboard.jsx:280 src/components/Error.jsx:759
+#: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
+#: src/components/localization/Keyboard.jsx:280
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:367
 #: src/components/datetime/CustomNTPModal.jsx:252
-#: src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "취소"
 
@@ -277,7 +277,7 @@ msgstr "변경 대상"
 msgid "Change hostname"
 msgstr "호스트이름 변경"
 
-#: src/components/storage/installation-method/usePageComplete.jsx:127
+#: src/components/storage/installation-method/usePageComplete.jsx:129
 msgid "Change partition layout"
 msgstr "파티션 구성 변경"
 
@@ -297,9 +297,9 @@ msgstr ""
 msgid "Checking installation configuration..."
 msgstr "설치 구성 확인 중..."
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:461
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:467
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "저장소 구성 확인 중"
 
@@ -311,9 +311,9 @@ msgstr "검색 지우기"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr "이들 경고에도 불구하고 계속 진행하려면 다시 '다음' 을 눌러주세요."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:372
-#: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/network/CockpitNetworkConfiguration.jsx:64
+#: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/storage/installation-method/InstallationDestination.jsx:372
 msgid "Close"
 msgstr "종료"
 
@@ -343,8 +343,8 @@ msgstr "NTP 서버 설정"
 msgid "Configure custom NTP servers"
 msgstr "사용자 정의 NTP 서버를 구성합니다"
 
-#: src/components/HeaderKebab.jsx:115
 #: src/components/network/CockpitNetworkConfiguration.jsx:40
+#: src/components/HeaderKebab.jsx:115
 msgid "Configure network"
 msgstr "네트워크 구성"
 
@@ -402,8 +402,8 @@ msgstr "사용자 지정"
 msgid "Date"
 msgstr "날짜"
 
-#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
+#: src/components/datetime/index.js:21
 msgid "Date and time"
 msgstr "날짜와 시간"
 
@@ -611,9 +611,9 @@ msgstr "진행 중"
 msgid "Initializing..."
 msgstr "초기화 중..."
 
-#: src/components/storage/scenarios/use-free-space/index.js:27
 #: src/components/storage/scenarios/use-configured-storage/index.js:25
 #: src/components/storage/scenarios/use-configured-storage/index.js:39
+#: src/components/storage/scenarios/use-free-space/index.js:27
 msgid "Install"
 msgstr "설치"
 
@@ -686,8 +686,8 @@ msgstr "키보드"
 msgid "Keyboard layout during boot"
 msgstr "부팅 중에 키보드 나열"
 
-#: src/components/localization/InstallationLanguage.jsx:236
 #: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "언어"
 
@@ -789,8 +789,8 @@ msgstr "최소 $0 가 필요합니다"
 msgid "Network"
 msgstr "네트워크"
 
-#: src/components/network/index.js:20
 #: src/components/network/CockpitNetworkConfiguration.jsx:46
+#: src/components/network/index.js:20
 msgid "Network Configuration"
 msgstr "네트워크 구성"
 
@@ -814,8 +814,8 @@ msgstr "실패한 네트워크 플로그인"
 msgid "Next"
 msgstr "다음"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:622
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 msgid "No devices"
 msgstr "장치 없음"
 
@@ -847,7 +847,7 @@ msgstr ""
 "선택한 키보드 배열을 위해 유효한 VConsole 키맵을 가져 올 수 없습니다. 다른 키"
 "보드 배열을 선택해주세요."
 
-#: src/components/storage/installation-method/usePageComplete.jsx:111
+#: src/components/storage/installation-method/usePageComplete.jsx:113
 msgid "Not enough available free space"
 msgstr "사용 할 수 있는 여유 공간이 충분하지 않습니다"
 
@@ -888,9 +888,9 @@ msgstr "기타 키보드"
 msgid "Partitions (advanced)"
 msgstr "파티션 (고급)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/users/Accounts.jsx:199 src/components/users/Accounts.jsx:401
 msgid "Passphrase"
 msgstr "암호문"
@@ -1142,9 +1142,9 @@ msgstr "root 계정이 활성화 되었지만, 사용자 계정이 구성되지 
 msgid "Root password has been set."
 msgstr "root 비밀번호가 설정되었습니다."
 
+#: src/components/review/Hostname.jsx:125
 #: src/components/localization/Keyboard.jsx:277
 #: src/components/datetime/CustomNTPModal.jsx:245
-#: src/components/review/Hostname.jsx:125
 msgid "Save"
 msgstr "저장"
 
@@ -1291,9 +1291,9 @@ msgid "Storage"
 msgstr "저장소"
 
 #: src/components/installation/InstallationProgress.jsx:180
+#: src/components/steps.js:35
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
-#: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "저장소 구성"
 
@@ -1446,8 +1446,8 @@ msgstr "시간이 좀 걸릴 수 있습니다"
 msgid "Time"
 msgstr "시간"
 
-#: src/components/datetime/Timezone.jsx:130
 #: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/datetime/Timezone.jsx:130
 msgid "Timezone"
 msgstr "시간대"
 

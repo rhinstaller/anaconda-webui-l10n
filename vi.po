@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 38.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 05:17+0000\n"
+"POT-Creation-Date: 2026-07-16 05:27+0000\n"
 "PO-Revision-Date: 2026-04-09 04:59+0000\n"
 "Last-Translator: Khoa Le <inctenone@gmail.com>\n"
 "Language-Team: Vietnamese <https://translate.fedoraproject.org/projects/"
@@ -24,9 +24,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0$1"
 
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 #: src/components/storage/installation-method/InstallationDestination.jsx:162
 #: src/components/storage/installation-method/InstallationDestination.jsx:268
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -52,7 +52,7 @@ msgstr ""
 "$0 là phân vùng mở rộng MBR chứa các phân vùng logic. Xóa hết các phân vùng "
 "logic cũng sẽ tự động xóa phân vùng mở rộng này."
 
-#: src/components/storage/installation-method/usePageComplete.jsx:113
+#: src/components/storage/installation-method/usePageComplete.jsx:115
 msgid "$0 is required, but only $1 is available."
 msgstr "$0 là bắt buộc, nhưng chỉ có $1 sẵn có."
 
@@ -229,12 +229,12 @@ msgstr ""
 "cho mục đích thử nghiệm và phát triển, và sẵn sàng báo cáo bất kỳ lỗi hoặc "
 "sự cố nào để cải thiện phần mềm này."
 
-#: src/components/localization/Keyboard.jsx:280 src/components/Error.jsx:759
+#: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
+#: src/components/localization/Keyboard.jsx:280
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:367
 #: src/components/datetime/CustomNTPModal.jsx:252
-#: src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "Huỷ bỏ"
 
@@ -250,7 +250,7 @@ msgstr "Thay đổi đích"
 msgid "Change hostname"
 msgstr "Thay đổi tên máy chủ"
 
-#: src/components/storage/installation-method/usePageComplete.jsx:127
+#: src/components/storage/installation-method/usePageComplete.jsx:129
 msgid "Change partition layout"
 msgstr "Thay đổi bố cục phân vùng"
 
@@ -273,9 +273,9 @@ msgstr ""
 msgid "Checking installation configuration..."
 msgstr "Đang kiểm tra các cài đặt bộ nhớ"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:461
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:467
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "Đang kiểm tra các cài đặt bộ nhớ"
 
@@ -287,9 +287,9 @@ msgstr "Xóa tìm kiếm"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr "Nhấn \"Tiếp” lần nữa để tiếp tục dù có các cảnh báo này."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:372
-#: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/network/CockpitNetworkConfiguration.jsx:64
+#: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/storage/installation-method/InstallationDestination.jsx:372
 msgid "Close"
 msgstr "Đóng"
 
@@ -319,8 +319,8 @@ msgstr "Cấu hình máy chủ NTP"
 msgid "Configure custom NTP servers"
 msgstr "Cấu hình máy chủ NTP tùy chỉnh"
 
-#: src/components/HeaderKebab.jsx:115
 #: src/components/network/CockpitNetworkConfiguration.jsx:40
+#: src/components/HeaderKebab.jsx:115
 msgid "Configure network"
 msgstr "Cấu hình mạng"
 
@@ -380,8 +380,8 @@ msgstr "Tùy chỉnh"
 msgid "Date"
 msgstr "Ngày"
 
-#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
+#: src/components/datetime/index.js:21
 msgid "Date and time"
 msgstr "Ngày và thời gian"
 
@@ -594,9 +594,9 @@ msgstr "Đang trong quá trình"
 msgid "Initializing..."
 msgstr "Đang khởi tạo..."
 
-#: src/components/storage/scenarios/use-free-space/index.js:27
 #: src/components/storage/scenarios/use-configured-storage/index.js:25
 #: src/components/storage/scenarios/use-configured-storage/index.js:39
+#: src/components/storage/scenarios/use-free-space/index.js:27
 msgid "Install"
 msgstr "Cài đặt"
 
@@ -670,8 +670,8 @@ msgstr "Bàn phím"
 msgid "Keyboard layout during boot"
 msgstr "Bố cục bàn phím khi khởi động"
 
-#: src/components/localization/InstallationLanguage.jsx:236
 #: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "Ngôn ngữ"
 
@@ -773,8 +773,8 @@ msgstr "Cần ít nhất $0"
 msgid "Network"
 msgstr ""
 
-#: src/components/network/index.js:20
 #: src/components/network/CockpitNetworkConfiguration.jsx:46
+#: src/components/network/index.js:20
 msgid "Network Configuration"
 msgstr "Cấu hình mạng"
 
@@ -797,8 +797,8 @@ msgstr "Lỗi plugin mạng"
 msgid "Next"
 msgstr "Tiếp tục"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:622
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 msgid "No devices"
 msgstr "Không có thiết bị"
 
@@ -832,7 +832,7 @@ msgstr ""
 "Không có keymap VConsole hợp lệ cho bố cục bàn phím đã chọn. Vui lòng chọn "
 "bố cục bàn phím khác."
 
-#: src/components/storage/installation-method/usePageComplete.jsx:111
+#: src/components/storage/installation-method/usePageComplete.jsx:113
 msgid "Not enough available free space"
 msgstr "Không đủ dung lượng trống"
 
@@ -874,9 +874,9 @@ msgstr "Bàn phím khác"
 msgid "Partitions (advanced)"
 msgstr "Phân vùng (nâng cao)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/users/Accounts.jsx:199 src/components/users/Accounts.jsx:401
 msgid "Passphrase"
 msgstr "Chuỗi mật khẩu"
@@ -1135,9 +1135,9 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "Mật khẩu root đã được thiết lập."
 
+#: src/components/review/Hostname.jsx:125
 #: src/components/localization/Keyboard.jsx:277
 #: src/components/datetime/CustomNTPModal.jsx:245
-#: src/components/review/Hostname.jsx:125
 msgid "Save"
 msgstr "Lưu"
 
@@ -1282,9 +1282,9 @@ msgid "Storage"
 msgstr "Bộ nhớ"
 
 #: src/components/installation/InstallationProgress.jsx:180
+#: src/components/steps.js:35
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
-#: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Thiết đặt bộ nhớ"
 
@@ -1438,8 +1438,8 @@ msgstr "Việc này sẽ cần một ít phút"
 msgid "Time"
 msgstr "Thời gian"
 
-#: src/components/datetime/Timezone.jsx:130
 #: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/datetime/Timezone.jsx:130
 msgid "Timezone"
 msgstr "Múi giờ"
 

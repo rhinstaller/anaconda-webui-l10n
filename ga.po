@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 05:17+0000\n"
+"POT-Creation-Date: 2026-07-16 05:27+0000\n"
 "PO-Revision-Date: 2026-01-08 03:53+0000\n"
 "Last-Translator: Aindriu Mac Giolla Eoin <aindriu80@gmail.com>\n"
 "Language-Team: Irish <https://translate.fedoraproject.org/projects/anaconda-"
@@ -23,9 +23,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 #: src/components/storage/installation-method/InstallationDestination.jsx:162
 #: src/components/storage/installation-method/InstallationDestination.jsx:268
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -58,7 +58,7 @@ msgstr ""
 "loighciúla. Má bhaintear na críochdheighiltí loighciúla go léir, bainfear an "
 "críochdheighilt leathnaithe go huathoibríoch freisin."
 
-#: src/components/storage/installation-method/usePageComplete.jsx:113
+#: src/components/storage/installation-method/usePageComplete.jsx:115
 msgid "$0 is required, but only $1 is available."
 msgstr "Tá $0 ag teastáil, ach níl ach $1 ar fáil."
 
@@ -246,12 +246,12 @@ msgstr ""
 "bhfuil tú sásta aon fhabhtanna nó saincheisteanna a thuairisciú chun an "
 "obair seo a fheabhsú."
 
-#: src/components/localization/Keyboard.jsx:280 src/components/Error.jsx:759
+#: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
+#: src/components/localization/Keyboard.jsx:280
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:367
 #: src/components/datetime/CustomNTPModal.jsx:252
-#: src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "Cealaigh"
 
@@ -267,7 +267,7 @@ msgstr "Athraigh ceann scríbe"
 msgid "Change hostname"
 msgstr "Athraigh an t-óstainm"
 
-#: src/components/storage/installation-method/usePageComplete.jsx:127
+#: src/components/storage/installation-method/usePageComplete.jsx:129
 msgid "Change partition layout"
 msgstr "Athraigh leagan amach na críochdheighilte"
 
@@ -290,9 +290,9 @@ msgstr ""
 msgid "Checking installation configuration..."
 msgstr "Cumraíocht stórála á seiceáil"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:461
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:467
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "Cumraíocht stórála á seiceáil"
 
@@ -305,9 +305,9 @@ msgid "Click 'Next' again to proceed despite these warnings."
 msgstr ""
 "Cliceáil 'Ar Aghaidh' arís le dul ar aghaidh in ainneoin na rabhaidh seo."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:372
-#: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/network/CockpitNetworkConfiguration.jsx:64
+#: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/storage/installation-method/InstallationDestination.jsx:372
 msgid "Close"
 msgstr "Dún"
 
@@ -338,8 +338,8 @@ msgstr "Cumraigh freastalaithe NTP"
 msgid "Configure custom NTP servers"
 msgstr "Cumraigh freastalaithe NTP saincheaptha"
 
-#: src/components/HeaderKebab.jsx:115
 #: src/components/network/CockpitNetworkConfiguration.jsx:40
+#: src/components/HeaderKebab.jsx:115
 #, fuzzy
 #| msgid "Configure storage"
 msgid "Configure network"
@@ -401,8 +401,8 @@ msgstr "Saincheaptha"
 msgid "Date"
 msgstr "Dáta"
 
-#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
+#: src/components/datetime/index.js:21
 msgid "Date and time"
 msgstr "Dáta agus am"
 
@@ -622,9 +622,9 @@ msgstr "Ar siúl"
 msgid "Initializing..."
 msgstr "Ag tosú..."
 
-#: src/components/storage/scenarios/use-free-space/index.js:27
 #: src/components/storage/scenarios/use-configured-storage/index.js:25
 #: src/components/storage/scenarios/use-configured-storage/index.js:39
+#: src/components/storage/scenarios/use-free-space/index.js:27
 msgid "Install"
 msgstr "Suiteáil"
 
@@ -699,8 +699,8 @@ msgstr "Méarchlár"
 msgid "Keyboard layout during boot"
 msgstr "Leagan amach an mhéarchláir le linn tosaithe"
 
-#: src/components/localization/InstallationLanguage.jsx:236
 #: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "Teanga"
 
@@ -806,8 +806,8 @@ msgstr "Teastaíonn $0 ar a laghad"
 msgid "Network"
 msgstr "Ainm Líonra"
 
-#: src/components/network/index.js:20
 #: src/components/network/CockpitNetworkConfiguration.jsx:46
+#: src/components/network/index.js:20
 #, fuzzy
 #| msgid "Storage configuration"
 msgid "Network Configuration"
@@ -836,8 +836,8 @@ msgstr "Theip ar an mbreiseán stórála"
 msgid "Next"
 msgstr "Ar aghaidh"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:622
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 msgid "No devices"
 msgstr "Gan feistí"
 
@@ -872,7 +872,7 @@ msgstr ""
 "méarchláir roghnaithe. Roghnaigh leagan amach méarchláir difriúil le do "
 "thoil."
 
-#: src/components/storage/installation-method/usePageComplete.jsx:111
+#: src/components/storage/installation-method/usePageComplete.jsx:113
 msgid "Not enough available free space"
 msgstr "Níl dóthain spáis saor in aisce ar fáil"
 
@@ -914,9 +914,9 @@ msgstr "Méarchláir eile"
 msgid "Partitions (advanced)"
 msgstr "Deighiltí (chun cinn)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/users/Accounts.jsx:199 src/components/users/Accounts.jsx:401
 msgid "Passphrase"
 msgstr "Pasfhocal"
@@ -1176,9 +1176,9 @@ msgstr "Tá cuntas fréimhe cumasaithe, ach níl aon chuntas úsáideora cumrait
 msgid "Root password has been set."
 msgstr "Ní shocraítear focal faire an fhréamhúsáideora"
 
+#: src/components/review/Hostname.jsx:125
 #: src/components/localization/Keyboard.jsx:277
 #: src/components/datetime/CustomNTPModal.jsx:245
-#: src/components/review/Hostname.jsx:125
 msgid "Save"
 msgstr "Sábháil"
 
@@ -1327,9 +1327,9 @@ msgid "Storage"
 msgstr "Stóráil"
 
 #: src/components/installation/InstallationProgress.jsx:180
+#: src/components/steps.js:35
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
-#: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Cumraíocht stórála"
 
@@ -1502,8 +1502,8 @@ msgstr "Tógfaidh sé seo cúpla nóiméad"
 msgid "Time"
 msgstr "Am"
 
-#: src/components/datetime/Timezone.jsx:130
 #: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/datetime/Timezone.jsx:130
 msgid "Timezone"
 msgstr "Crios ama"
 

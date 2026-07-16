@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 05:17+0000\n"
+"POT-Creation-Date: 2026-07-16 05:27+0000\n"
 "PO-Revision-Date: 2024-11-18 02:57+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.fedoraproject.org/projects/anaconda-"
@@ -36,9 +36,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 #: src/components/storage/installation-method/InstallationDestination.jsx:162
 #: src/components/storage/installation-method/InstallationDestination.jsx:268
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -65,7 +65,7 @@ msgid ""
 "all logical partitions will also automatically remove the extended partition."
 msgstr ""
 
-#: src/components/storage/installation-method/usePageComplete.jsx:113
+#: src/components/storage/installation-method/usePageComplete.jsx:115
 msgid "$0 is required, but only $1 is available."
 msgstr ""
 
@@ -252,12 +252,12 @@ msgstr ""
 "בתוכנה שטרם יצאה לאור, אותה ייעדת לשימוש למטרות בדיקות ופיתוח ולקחת על עצמך "
 "אחריות לדווח על תקלות או בעיות שצצות כדי לשפר את המערכת הזאת."
 
-#: src/components/localization/Keyboard.jsx:280 src/components/Error.jsx:759
+#: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
+#: src/components/localization/Keyboard.jsx:280
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:367
 #: src/components/datetime/CustomNTPModal.jsx:252
-#: src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "ביטול"
 
@@ -273,7 +273,7 @@ msgstr "החלפת יעד"
 msgid "Change hostname"
 msgstr "החלפת שם מארח"
 
-#: src/components/storage/installation-method/usePageComplete.jsx:127
+#: src/components/storage/installation-method/usePageComplete.jsx:129
 #, fuzzy
 #| msgid "Change destination"
 msgid "Change partition layout"
@@ -296,9 +296,9 @@ msgstr "שינויים שבוצעו כאן ישפיעו על המערכת ישי
 msgid "Checking installation configuration..."
 msgstr "בודק את הגדרות תצורת האחסון..."
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:461
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:467
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "הגדרות האחסון נבדקות"
 
@@ -312,9 +312,9 @@ msgstr "מחיקת ערך קלט"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr ""
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:372
-#: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/network/CockpitNetworkConfiguration.jsx:64
+#: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/storage/installation-method/InstallationDestination.jsx:372
 msgid "Close"
 msgstr "סגירה"
 
@@ -349,8 +349,8 @@ msgstr "הגדרת שרתי NTP"
 msgid "Configure custom NTP servers"
 msgstr "הגדרת שרתי NTP"
 
-#: src/components/HeaderKebab.jsx:115
 #: src/components/network/CockpitNetworkConfiguration.jsx:40
+#: src/components/HeaderKebab.jsx:115
 #, fuzzy
 #| msgid "Configure storage"
 msgid "Configure network"
@@ -414,8 +414,8 @@ msgstr "מותאם אישית"
 msgid "Date"
 msgstr ""
 
-#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
+#: src/components/datetime/index.js:21
 #, fuzzy
 #| msgid "Set Date & Time"
 msgid "Date and time"
@@ -635,9 +635,9 @@ msgstr "בתהליך"
 msgid "Initializing..."
 msgstr "מופעל…"
 
-#: src/components/storage/scenarios/use-free-space/index.js:27
 #: src/components/storage/scenarios/use-configured-storage/index.js:25
 #: src/components/storage/scenarios/use-configured-storage/index.js:39
+#: src/components/storage/scenarios/use-free-space/index.js:27
 msgid "Install"
 msgstr "התקנה"
 
@@ -714,8 +714,8 @@ msgstr "_מקלדת"
 msgid "Keyboard layout during boot"
 msgstr ""
 
-#: src/components/localization/InstallationLanguage.jsx:236
 #: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "שפה"
 
@@ -825,8 +825,8 @@ msgstr ""
 msgid "Network"
 msgstr "רשת"
 
-#: src/components/network/index.js:20
 #: src/components/network/CockpitNetworkConfiguration.jsx:46
+#: src/components/network/index.js:20
 #, fuzzy
 #| msgid "Network configuration"
 msgid "Network Configuration"
@@ -854,8 +854,8 @@ msgstr "תוסף האחסון נכשל"
 msgid "Next"
 msgstr "הבא"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:622
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 msgid "No devices"
 msgstr "אין התקנים"
 
@@ -891,7 +891,7 @@ msgid ""
 "layout(s). Please make a different keyboard layout selection."
 msgstr ""
 
-#: src/components/storage/installation-method/usePageComplete.jsx:111
+#: src/components/storage/installation-method/usePageComplete.jsx:113
 #, fuzzy
 #| msgid "Not enough free space."
 msgid "Not enough available free space"
@@ -937,9 +937,9 @@ msgstr "_מקלדת"
 msgid "Partitions (advanced)"
 msgstr "מחיצות (מתקדם)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/users/Accounts.jsx:199 src/components/users/Accounts.jsx:401
 msgid "Passphrase"
 msgstr "מילת צופן"
@@ -1194,9 +1194,9 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "סיסמת מנהל המערכת (root) הוגדרה."
 
+#: src/components/review/Hostname.jsx:125
 #: src/components/localization/Keyboard.jsx:277
 #: src/components/datetime/CustomNTPModal.jsx:245
-#: src/components/review/Hostname.jsx:125
 msgid "Save"
 msgstr "שמירה"
 
@@ -1366,9 +1366,9 @@ msgid "Storage"
 msgstr "אחסון"
 
 #: src/components/installation/InstallationProgress.jsx:180
+#: src/components/steps.js:35
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
-#: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "הגדרות אחסון"
 
@@ -1522,8 +1522,8 @@ msgstr "הפעולה הזאת יכולה לארוך מספר רגעים"
 msgid "Time"
 msgstr "אזור זמן: %s\n"
 
-#: src/components/datetime/Timezone.jsx:130
 #: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/datetime/Timezone.jsx:130
 #, fuzzy
 #| msgid "Timezone: %s\n"
 msgid "Timezone"

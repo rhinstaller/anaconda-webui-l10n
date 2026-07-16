@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 05:17+0000\n"
+"POT-Creation-Date: 2026-07-16 05:27+0000\n"
 "PO-Revision-Date: 2026-06-08 07:16+0000\n"
 "Last-Translator: Gjorgji Jankovski <j.gjorgji@gmail.com>\n"
 "Language-Team: Macedonian <https://translate.fedoraproject.org/projects/"
@@ -25,9 +25,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0$1"
 
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 #: src/components/storage/installation-method/InstallationDestination.jsx:162
 #: src/components/storage/installation-method/InstallationDestination.jsx:268
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 msgid "$0 ($1)"
 msgstr "$0($1)"
 
@@ -54,7 +54,7 @@ msgstr ""
 "$0 е MBR проширена партиција која содржи логички партиции. Отстранувањето на "
 "сите логички партиции автоматски ќе ја отстрани и проширената партиција."
 
-#: src/components/storage/installation-method/usePageComplete.jsx:113
+#: src/components/storage/installation-method/usePageComplete.jsx:115
 msgid "$0 is required, but only $1 is available."
 msgstr "$0 е потребно, но достапно е само $1."
 
@@ -234,12 +234,12 @@ msgstr ""
 "само за тестирање и развој и сте подготвени да пријавувате грешки или "
 "проблеми со цел да се подобри овој производ."
 
-#: src/components/localization/Keyboard.jsx:280 src/components/Error.jsx:759
+#: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
+#: src/components/localization/Keyboard.jsx:280
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:367
 #: src/components/datetime/CustomNTPModal.jsx:252
-#: src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "Откажи"
 
@@ -255,7 +255,7 @@ msgstr "Промени дестинација"
 msgid "Change hostname"
 msgstr "Промени име на компјутерот"
 
-#: src/components/storage/installation-method/usePageComplete.jsx:127
+#: src/components/storage/installation-method/usePageComplete.jsx:129
 msgid "Change partition layout"
 msgstr "Промени распоред на партиции"
 
@@ -274,9 +274,9 @@ msgstr "Промените направени тука веднаш ќе вли�
 msgid "Checking installation configuration..."
 msgstr "Се проверува конфигурацијата за инсталација..."
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:461
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:467
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "Се проверува конфигурацијата на складиштето"
 
@@ -289,9 +289,9 @@ msgid "Click 'Next' again to proceed despite these warnings."
 msgstr ""
 "Кликнете повторно на 'Следно' за да продолжите и покрај овие предупредувања."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:372
-#: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/network/CockpitNetworkConfiguration.jsx:64
+#: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/storage/installation-method/InstallationDestination.jsx:372
 msgid "Close"
 msgstr "Затвори"
 
@@ -322,8 +322,8 @@ msgstr "Конфигурирај NTP сервери"
 msgid "Configure custom NTP servers"
 msgstr "Конфигурирај прилагодени NTP сервери"
 
-#: src/components/HeaderKebab.jsx:115
 #: src/components/network/CockpitNetworkConfiguration.jsx:40
+#: src/components/HeaderKebab.jsx:115
 msgid "Configure network"
 msgstr "Конфигурирај мрежа"
 
@@ -383,8 +383,8 @@ msgstr "Сопствено"
 msgid "Date"
 msgstr "Датум"
 
-#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
+#: src/components/datetime/index.js:21
 msgid "Date and time"
 msgstr "Датум и време"
 
@@ -596,9 +596,9 @@ msgstr "Во тек"
 msgid "Initializing..."
 msgstr "Се иницијализира..."
 
-#: src/components/storage/scenarios/use-free-space/index.js:27
 #: src/components/storage/scenarios/use-configured-storage/index.js:25
 #: src/components/storage/scenarios/use-configured-storage/index.js:39
+#: src/components/storage/scenarios/use-free-space/index.js:27
 msgid "Install"
 msgstr "Инсталирај"
 
@@ -671,8 +671,8 @@ msgstr "Тастатура"
 msgid "Keyboard layout during boot"
 msgstr "Распоред на тастатура при подигнување"
 
-#: src/components/localization/InstallationLanguage.jsx:236
 #: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "Јазик"
 
@@ -777,8 +777,8 @@ msgstr "Потребни се најмалку $0"
 msgid "Network"
 msgstr "Мрежа"
 
-#: src/components/network/index.js:20
 #: src/components/network/CockpitNetworkConfiguration.jsx:46
+#: src/components/network/index.js:20
 msgid "Network Configuration"
 msgstr "Мрежна конфигурација"
 
@@ -804,8 +804,8 @@ msgstr "Мрежниот приклучок не успеа"
 msgid "Next"
 msgstr "Следно"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:622
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 msgid "No devices"
 msgstr "Нема уреди"
 
@@ -839,7 +839,7 @@ msgstr ""
 "Не може да се добие важечка VConsole мапа на тастатура за избраниот распоред "
 "или распореди. Изберете друг распоред на тастатура."
 
-#: src/components/storage/installation-method/usePageComplete.jsx:111
+#: src/components/storage/installation-method/usePageComplete.jsx:113
 msgid "Not enough available free space"
 msgstr "Нема доволно достапен слободен простор"
 
@@ -880,9 +880,9 @@ msgstr "Други тастатури"
 msgid "Partitions (advanced)"
 msgstr "Партиции (напредно)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/users/Accounts.jsx:199 src/components/users/Accounts.jsx:401
 msgid "Passphrase"
 msgstr "Лозинка"
@@ -1139,9 +1139,9 @@ msgstr "Root сметката е овозможена, но нема конфи�
 msgid "Root password has been set."
 msgstr "Root лозинката е поставена."
 
+#: src/components/review/Hostname.jsx:125
 #: src/components/localization/Keyboard.jsx:277
 #: src/components/datetime/CustomNTPModal.jsx:245
-#: src/components/review/Hostname.jsx:125
 msgid "Save"
 msgstr "Зачувај"
 
@@ -1290,9 +1290,9 @@ msgid "Storage"
 msgstr "Складиште"
 
 #: src/components/installation/InstallationProgress.jsx:180
+#: src/components/steps.js:35
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
-#: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Конфигурација на складиште"
 
@@ -1449,8 +1449,8 @@ msgstr "Ова ќе потрае неколку моменти"
 msgid "Time"
 msgstr "Време"
 
-#: src/components/datetime/Timezone.jsx:130
 #: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/datetime/Timezone.jsx:130
 msgid "Timezone"
 msgstr "Временска зона"
 

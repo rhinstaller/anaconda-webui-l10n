@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 05:17+0000\n"
+"POT-Creation-Date: 2026-07-16 05:27+0000\n"
 "PO-Revision-Date: 2026-07-03 06:17+0000\n"
 "Last-Translator: Jesse Guo <jesseguotech@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -63,9 +63,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 #: src/components/storage/installation-method/InstallationDestination.jsx:162
 #: src/components/storage/installation-method/InstallationDestination.jsx:268
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -90,7 +90,7 @@ msgid ""
 msgstr ""
 "$0 是包含逻辑分区的 MBR 扩展分区。删除所有逻辑分区也会自动删除扩展分区。"
 
-#: src/components/storage/installation-method/usePageComplete.jsx:113
+#: src/components/storage/installation-method/usePageComplete.jsx:115
 msgid "$0 is required, but only $1 is available."
 msgstr "需要 $0 ，但只有 $1 可用。"
 
@@ -258,12 +258,12 @@ msgstr ""
 "点击 \"继续\" ，则说明您了解并接受预发行版的风险，只将该软件用于测试和开发，"
 "并且愿意报告所有程序错误或问题，以便改进本软件。"
 
-#: src/components/localization/Keyboard.jsx:280 src/components/Error.jsx:759
+#: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
+#: src/components/localization/Keyboard.jsx:280
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:367
 #: src/components/datetime/CustomNTPModal.jsx:252
-#: src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "取消"
 
@@ -279,7 +279,7 @@ msgstr "更改目标位置"
 msgid "Change hostname"
 msgstr "更改主机名"
 
-#: src/components/storage/installation-method/usePageComplete.jsx:127
+#: src/components/storage/installation-method/usePageComplete.jsx:129
 msgid "Change partition layout"
 msgstr "更改分区布局"
 
@@ -298,9 +298,9 @@ msgstr "此处所做的更改将立即影响系统。无法“撤消”。"
 msgid "Checking installation configuration..."
 msgstr "正在检查安装配置..."
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:461
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:467
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "正在检查存储配置"
 
@@ -312,9 +312,9 @@ msgstr "清除搜索"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr "再次点击“下一步”以忽略这些警告继续操作。"
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:372
-#: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/network/CockpitNetworkConfiguration.jsx:64
+#: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/storage/installation-method/InstallationDestination.jsx:372
 msgid "Close"
 msgstr "关闭"
 
@@ -343,8 +343,8 @@ msgstr "配置 NTP 服务器"
 msgid "Configure custom NTP servers"
 msgstr "配置自定义 NTP 服务器"
 
-#: src/components/HeaderKebab.jsx:115
 #: src/components/network/CockpitNetworkConfiguration.jsx:40
+#: src/components/HeaderKebab.jsx:115
 msgid "Configure network"
 msgstr "配置网络"
 
@@ -402,8 +402,8 @@ msgstr "自定义"
 msgid "Date"
 msgstr "日期"
 
-#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
+#: src/components/datetime/index.js:21
 msgid "Date and time"
 msgstr "日期和时间"
 
@@ -606,9 +606,9 @@ msgstr "进行中"
 msgid "Initializing..."
 msgstr "初始化中..."
 
-#: src/components/storage/scenarios/use-free-space/index.js:27
 #: src/components/storage/scenarios/use-configured-storage/index.js:25
 #: src/components/storage/scenarios/use-configured-storage/index.js:39
+#: src/components/storage/scenarios/use-free-space/index.js:27
 msgid "Install"
 msgstr "安装"
 
@@ -677,8 +677,8 @@ msgstr "键盘"
 msgid "Keyboard layout during boot"
 msgstr "启动期间的键盘布局"
 
-#: src/components/localization/InstallationLanguage.jsx:236
 #: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "语言"
 
@@ -780,8 +780,8 @@ msgstr "至少需要 $0"
 msgid "Network"
 msgstr "网络"
 
-#: src/components/network/index.js:20
 #: src/components/network/CockpitNetworkConfiguration.jsx:46
+#: src/components/network/index.js:20
 msgid "Network Configuration"
 msgstr "网络配置"
 
@@ -803,8 +803,8 @@ msgstr "网络插件失败"
 msgid "Next"
 msgstr "下一个"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:622
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 msgid "No devices"
 msgstr "无设备"
 
@@ -836,7 +836,7 @@ msgid ""
 "layout(s). Please make a different keyboard layout selection."
 msgstr "无法为所选的键盘布局获取有效的VConsole键位映射。请尝试其他键盘布局。"
 
-#: src/components/storage/installation-method/usePageComplete.jsx:111
+#: src/components/storage/installation-method/usePageComplete.jsx:113
 msgid "Not enough available free space"
 msgstr "没有足够可用剩余空间"
 
@@ -877,9 +877,9 @@ msgstr "其他键盘"
 msgid "Partitions (advanced)"
 msgstr "分区（高级）"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/users/Accounts.jsx:199 src/components/users/Accounts.jsx:401
 msgid "Passphrase"
 msgstr "密码"
@@ -1125,9 +1125,9 @@ msgstr "Root账户已启用，但尚未配置任何用户帐户"
 msgid "Root password has been set."
 msgstr "Root 密码已设置。"
 
+#: src/components/review/Hostname.jsx:125
 #: src/components/localization/Keyboard.jsx:277
 #: src/components/datetime/CustomNTPModal.jsx:245
-#: src/components/review/Hostname.jsx:125
 msgid "Save"
 msgstr "保存"
 
@@ -1270,9 +1270,9 @@ msgid "Storage"
 msgstr "存储"
 
 #: src/components/installation/InstallationProgress.jsx:180
+#: src/components/steps.js:35
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
-#: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "存储配置"
 
@@ -1416,8 +1416,8 @@ msgstr "这需要一些时间"
 msgid "Time"
 msgstr "时间"
 
-#: src/components/datetime/Timezone.jsx:130
 #: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/datetime/Timezone.jsx:130
 msgid "Timezone"
 msgstr "时区"
 

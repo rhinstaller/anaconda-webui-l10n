@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-15 05:17+0000\n"
+"POT-Creation-Date: 2026-07-16 05:27+0000\n"
 "PO-Revision-Date: 2026-07-15 05:17+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
@@ -35,9 +35,9 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 #: src/components/storage/installation-method/InstallationDestination.jsx:162
 #: src/components/storage/installation-method/InstallationDestination.jsx:268
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
@@ -65,7 +65,7 @@ msgstr ""
 "partitsioone. Kõikide loogiliste partitsioonidega eemaldad ka laiendatud "
 "partitsiooni(d)."
 
-#: src/components/storage/installation-method/usePageComplete.jsx:113
+#: src/components/storage/installation-method/usePageComplete.jsx:115
 msgid "$0 is required, but only $1 is available."
 msgstr "Nõutav on $0, kuid vaid $1 on saadaval."
 
@@ -242,12 +242,12 @@ msgstr ""
 "testimiseks ja arenduseks ning toote edaspidise parandamise nimel oled nõus "
 "arendajatele teada andma leitud vigadest ja probleemidest."
 
-#: src/components/localization/Keyboard.jsx:280 src/components/Error.jsx:759
+#: src/components/review/Hostname.jsx:127 src/components/Error.jsx:759
+#: src/components/localization/Keyboard.jsx:280
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:367
 #: src/components/datetime/CustomNTPModal.jsx:252
-#: src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "Katkesta"
 
@@ -263,7 +263,7 @@ msgstr "Muuda sihtandmekandjat"
 msgid "Change hostname"
 msgstr "Muuda hostinime"
 
-#: src/components/storage/installation-method/usePageComplete.jsx:127
+#: src/components/storage/installation-method/usePageComplete.jsx:129
 msgid "Change partition layout"
 msgstr "Muuda partitsioonide jaotust"
 
@@ -284,9 +284,9 @@ msgstr ""
 msgid "Checking installation configuration..."
 msgstr "Kontrollin paigalduse seadistust..."
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:461
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:467
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "Kontrollin andmeruumi seadistust"
 
@@ -300,9 +300,9 @@ msgstr ""
 "Kui tahad jätkata neile hoiatustele vaatamata, siis klõpsa uuesti nuppu "
 "„Edasi“."
 
-#: src/components/storage/installation-method/InstallationDestination.jsx:372
-#: src/components/storage/installation-method/EncryptedDevices.jsx:181
 #: src/components/network/CockpitNetworkConfiguration.jsx:64
+#: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/storage/installation-method/InstallationDestination.jsx:372
 msgid "Close"
 msgstr "Sulge"
 
@@ -332,8 +332,8 @@ msgstr "Seadista NTP-servereid"
 msgid "Configure custom NTP servers"
 msgstr "Seadista enda eelistatud NTP-servereid"
 
-#: src/components/HeaderKebab.jsx:115
 #: src/components/network/CockpitNetworkConfiguration.jsx:40
+#: src/components/HeaderKebab.jsx:115
 msgid "Configure network"
 msgstr "Seadista võrku"
 
@@ -391,8 +391,8 @@ msgstr "Kohandatud"
 msgid "Date"
 msgstr "Kuupäev"
 
-#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
+#: src/components/datetime/index.js:21
 msgid "Date and time"
 msgstr "Kuupäev ja kellaaeg"
 
@@ -604,9 +604,9 @@ msgstr "Töös"
 msgid "Initializing..."
 msgstr "Valmendan..."
 
-#: src/components/storage/scenarios/use-free-space/index.js:27
 #: src/components/storage/scenarios/use-configured-storage/index.js:25
 #: src/components/storage/scenarios/use-configured-storage/index.js:39
+#: src/components/storage/scenarios/use-free-space/index.js:27
 msgid "Install"
 msgstr "Paigalda"
 
@@ -680,8 +680,8 @@ msgstr "Klahvistik"
 msgid "Keyboard layout during boot"
 msgstr "Klahvistiku paigutus alglaadimise ajal"
 
-#: src/components/localization/InstallationLanguage.jsx:236
 #: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/localization/InstallationLanguage.jsx:236
 msgid "Language"
 msgstr "Keel"
 
@@ -783,8 +783,8 @@ msgstr "Vajalik on vähemalt $0"
 msgid "Network"
 msgstr "Võrk"
 
-#: src/components/network/index.js:20
 #: src/components/network/CockpitNetworkConfiguration.jsx:46
+#: src/components/network/index.js:20
 msgid "Network Configuration"
 msgstr "Võrguseadistus"
 
@@ -809,8 +809,8 @@ msgstr "Võrgu lisamooduli töö ebaõnnestus"
 msgid "Next"
 msgstr "Edasi"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:622
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 msgid "No devices"
 msgstr "Seadmeid pole"
 
@@ -842,7 +842,7 @@ msgstr ""
 "Valitud klahvistikupaigutus(t)e jaoks ei ole võimalik laadida korrektset "
 "VConsole'i klahvistikukaarti. Palun vali mõni muu klahvistikupaigutus."
 
-#: src/components/storage/installation-method/usePageComplete.jsx:111
+#: src/components/storage/installation-method/usePageComplete.jsx:113
 msgid "Not enough available free space"
 msgstr "Pole piisavalt vaba andmeruumi"
 
@@ -884,9 +884,9 @@ msgstr "Muud klahvistikud"
 msgid "Partitions (advanced)"
 msgstr "Partitsioonid (detailsem seadistus)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/users/Accounts.jsx:199 src/components/users/Accounts.jsx:401
 msgid "Passphrase"
 msgstr "Salasõna"
@@ -1142,9 +1142,9 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "Juurkasutaja (peakasutaja) salasõna on määratud."
 
+#: src/components/review/Hostname.jsx:125
 #: src/components/localization/Keyboard.jsx:277
 #: src/components/datetime/CustomNTPModal.jsx:245
-#: src/components/review/Hostname.jsx:125
 msgid "Save"
 msgstr "Salvesta"
 
@@ -1291,9 +1291,9 @@ msgid "Storage"
 msgstr "Andmeruum"
 
 #: src/components/installation/InstallationProgress.jsx:180
+#: src/components/steps.js:35
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
-#: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Andmeruumi seadistus"
 
@@ -1452,8 +1452,8 @@ msgstr "Selleks kulub mõni hetk"
 msgid "Time"
 msgstr "Kellaaeg"
 
-#: src/components/datetime/Timezone.jsx:130
 #: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/datetime/Timezone.jsx:130
 msgid "Timezone"
 msgstr "Ajavöönd"
 
