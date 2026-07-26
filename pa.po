@@ -35,7 +35,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-26 05:46+0000\n"
-"PO-Revision-Date: 2026-03-18 04:37+0000\n"
+"PO-Revision-Date: 2026-07-27 06:05+0000\n"
 "Last-Translator: A S Alam <aalam@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Punjabi <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/pa/>\n"
@@ -44,7 +44,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.7.1\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:142
 #: src/components/storage/installation-method/InstallationDestination.jsx:275
@@ -59,12 +59,10 @@ msgstr "$0 ($1)"
 
 #: src/components/storage/Common.jsx:58
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:72
-#, fuzzy
-#| msgid "Error"
 msgid "$0 error"
 msgid_plural "$0 errors"
-msgstr[0] "ਗਲਤੀ"
-msgstr[1] "ਗਲਤੀ"
+msgstr[0] "$0 ਗਲਤੀ"
+msgstr[1] "$0 ਗਲਤੀਆਂ"
 
 #: src/components/app.jsx:84
 msgid "$0 installation"
@@ -102,10 +100,8 @@ msgid "'$0' filesystem cannot be on an encrypted block device"
 msgstr "'$0' ਫਾਇਲ-ਸਿਸਟਮ ਇੰਕ੍ਰਿਪਟ ਕੀਤੇ ਬਲਾਕ ਡਿਵਾਈਸ ਉੱਤੇ ਨਹੀਂ ਹੋ ਸਕਦਾ ਹੈ"
 
 #: src/helpers/storage.js:231
-#, fuzzy
-#| msgid "'$0' must be on a device formatted to '$1'"
 msgid "'$0' must be assigned to $1"
-msgstr "'$0' ਨੂੰ '$1' ਫਾਰਮੈਟ ਕੀਤੇ ਡਿਵਾਈਸ ਉੱਤੇ ਹੀ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"
+msgstr "'$0' '$1' ਨੂੰ ਦਿੱਤਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"
 
 #: src/helpers/storage.js:234
 msgid "'$0' must be on a device formatted to '$1'"
@@ -117,6 +113,9 @@ msgid ""
 "filesystem, but is not marked as an ESP. Set the partition type to EFI "
 "System and enable the esp flag."
 msgstr ""
+"'$0' ਇੱਕ EFI ਸਿਸਟਮ ਪਾਰਟੀਸ਼ਨ ਉੱਤੇ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ। ਚੁਣਿਆ ਪਾਰਟੀਸ਼ਨ FAT ਫ਼ਾਇਲ-ਸਿਸਟਮ ਵਰਤਦਾ "
+"ਹੈ, ਪਰ ESP ਵਜੋਂ ਨਿਸ਼ਾਨ ਨਹੀਂ ਲਾਇਆ ਹੈ। ਪਾਰਟੀਸ਼ਨ ਦੀ ਕਿਸਮ ਨੂੰ EFI ਸਿਸਟਮ ਵਜੋਂ ਚੁਣੋ ਅਤੇ esp "
+"ਨਿਸ਼ਾਨ ਸਮਰੱਥ ਕਰੋ।"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:270
 msgid ""
@@ -130,10 +129,8 @@ msgid ""
 msgstr "ਪੂਰੇ ਸਿਸਟਮ ਲਈ ਤਬਦੀਲੀਆਂ ਕਰਨ ਵਾਸਤੇ ਐਡਮਿਨ ਪਹੁੰਚ ਨਾਲ ਸਧਾਰਨ ਵਰਤੋਂਕਾਰ ਖਾਤਾ ਹੈ।"
 
 #: src/components/installation/InstallationNonCriticalErrorDialog.jsx:48
-#, fuzzy
-#| msgid "$0 installation"
 msgid "Abort installation"
-msgstr "$0 ਇੰਸਟਾਲੇਸ਼ਨ"
+msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਅਧੂਰੀ ਛੱਡੋ"
 
 #: src/components/HeaderKebab.jsx:126
 msgid "About"
@@ -290,10 +287,8 @@ msgid ""
 msgstr "ਇੱਥੇ ਕੀਤੀਆਂ ਤਬਦੀਲੀਆਂ ਸਿਸਟਮ ਉੱਤੇ ਫ਼ੌਰਨ ਲਾਗੂ ਹੋਣਗੀਆਂ। ਕੋਈ ਵਾਪਸੀ ਸੰਭਵ ਨਹੀਂ ਹੈ।"
 
 #: src/components/review/ReviewConfiguration.jsx:191
-#, fuzzy
-#| msgid "Checking storage configuration..."
 msgid "Checking installation configuration..."
-msgstr "...ਸਟੋਰੇਜ਼ ਸੰਰਚਨਾ ਜਾਂਚੀ ਜਾ ਰਹੀ ਹੈ"
+msgstr "...ਇੰਸਟਾਲੇਸ਼ਨ ਸੰਰਚਨਾ ਜਾਂਚੀ ਜਾ ਰਹੀ ਹੈ"
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:461
@@ -329,10 +324,8 @@ msgid "Completed"
 msgstr "ਪੂਰਾ ਹੈ"
 
 #: src/components/review/ReviewConfiguration.jsx:212
-#, fuzzy
-#| msgid "Apply configuration in installer"
 msgid "Configuration is incomplete"
-msgstr "ਇੰਸਟਾਲਰ ਵਿੱਚ ਸੰਰਚਨਾ ਲਾਗੂ ਕਰੋ"
+msgstr "ਸੰਰਚਨਾ ਅਧੂਰੀ ਹੈ"
 
 #: src/components/datetime/CustomNTPModal.jsx:270
 msgid "Configure NTP servers"
@@ -370,20 +363,16 @@ msgid "Continue installation"
 msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਜਾਰੀ ਰੱਖੋ"
 
 #: src/components/installation/InstallationNonCriticalErrorDialog.jsx:28
-#, fuzzy
-#| msgid "Continue installation"
 msgid "Continue installation?"
-msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਜਾਰੀ ਰੱਖੋ"
+msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਜਾਰੀ ਰੱਖਣੀ ਹੈ?"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:606
 msgid "Continue with installation"
 msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਨਾਲ ਜਾਰੀ ਰੱਖੋ"
 
 #: src/components/storage/Common.jsx:40
-#, fuzzy
-#| msgid "Please complete all spokes before continuing"
 msgid "Correct these issues before continuing."
-msgstr "ਜਾਰੀ ਰੱਖਣ ਤੋਂ ਪਹਿਲਾਂ ਸਾਰੇ ਕੰਮ ਪੂਰੇ ਕਰੋ ਜੀ"
+msgstr "ਜਾਰੀ ਰੱਖਣ ਤੋਂ ਪਹਿਲਾਂ ਇਹ ਮਸਲੇ ਠੀਕ ਕਰੋ।"
 
 #: src/components/users/index.js:20
 msgid "Create Account"
@@ -411,10 +400,8 @@ msgid "Date and time"
 msgstr "ਤਾਰੀਖ ਅਤੇ ਸਮਾਂ"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:395
-#, fuzzy
-#| msgid "extended partition"
 msgid "Delete partition"
-msgstr "ਐਕਸਟੈਂਡਡ ਪਾਰਟੀਸ਼ਨ"
+msgstr "ਪਾਰਟੀਸ਼ਨ ਨੂੰ ਹਟਾਓ"
 
 #: src/components/storage/StorageReview.jsx:346
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
@@ -568,13 +555,12 @@ msgid "How would you like to install?"
 msgstr "ਤੁਸੀਂ ਕਿਵੇਂ ਇੰਸਟਾਲ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
 #: src/components/review/ReviewConfiguration.jsx:308
-#, fuzzy
-#| msgid "I understand that all existing data will be erased"
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] "ਮੈਨੂੰ ਸਮਝਦਾ/ਸਮਝਦੀ ਹਾਂ ਕਿ ਸਾਰੇ ਮੌਜੂਦਾ ਡਾਟਾ ਨੂੰ ਮਿਟਾਇਆ ਜਾਵੇਗਾ"
-msgstr[1] "ਮੈਨੂੰ ਸਮਝਦਾ/ਸਮਝਦੀ ਹਾਂ ਕਿ ਸਾਰੇ ਮੌਜੂਦਾ ਡਾਟਾ ਨੂੰ ਮਿਟਾਇਆ ਜਾਵੇਗਾ"
+msgstr[1] ""
+"ਮੈਨੂੰ ਸਮਝਦਾ/ਸਮਝਦੀ ਹਾਂ ਕਿ ਚੁਣੀਆਂ ਡਿਸਕਾਂ ਤੋਂ ਸਾਰੇ ਮੌਜੂਦਾ ਡਾਟਾ ਨੂੰ ਮਿਟਾਇਆ ਜਾਵੇਗਾ"
 
 #: src/components/review/ReviewConfiguration.jsx:313
 msgid "I understand that some existing data will be erased"
@@ -663,10 +649,8 @@ msgid "Invalid hostname"
 msgstr "ਗਲਤ ਹੋਸਟ-ਨਾਂ"
 
 #: src/components/review/ReviewConfiguration.jsx:208
-#, fuzzy
-#| msgid "completed step"
 msgid "Jump to first incomplete step"
-msgstr "ਪੜਾਅ ਪੂਰਾ ਹੈ"
+msgstr "ਪਹਿਲੇ ਅਧੂਰੇ ਪੜਾਅ ਉੱਤੇ ਜਾਓ"
 
 #: src/components/storage/scenarios/use-free-space/index.js:28
 msgid ""
@@ -696,11 +680,11 @@ msgstr "ਸਟੋਰੇਜ਼ ਐਡੀਟਰ ਨੂੰ ਚਲਾਓ"
 
 #: src/components/Error.jsx:358
 msgid "Learn more about restricted access in the configuration"
-msgstr ""
+msgstr "ਸੰਰਚਨਾ ਵਿੱਚ ਸੀਮਿਤ ਪਹੁੰਚ ਬਾਰੇ ਹੋਰ ਜਾਣੋ"
 
 #: src/components/users/Accounts.jsx:203
 msgid "Leave both passphrase fields empty to use an empty password."
-msgstr ""
+msgstr "ਖਾਲੀ ਪਾਸਵਰਡ ਵਰਤਣ ਲਈ ਦੋਵੇਂ ਵਾਕ ਵਾਲੇ ਖੇਤਰਾਂ ਨੂੰ ਖਾਲੀ ਛੱਡ ਦਿਓ।"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:138
 msgid "Location"
@@ -825,10 +809,8 @@ msgid "No disks selected"
 msgstr "ਕੋਈ ਡਿਸਕ ਨਹੀਂ ਚੁਣੀ ਗਈ"
 
 #: src/components/localization/Keyboard.jsx:47
-#, fuzzy
-#| msgid "No layouts selected yet"
 msgid "No keyboard layouts selected"
-msgstr "ਕੋਈ ਖਾਤੇ ਹਾਲੇ ਚੁਣੇ ਨਹੀਂ ਗਏ"
+msgstr "ਕੋਈ ਕੀਬੋਰਡ ਖਾਕੇ ਚੁਣੇ ਨਹੀਂ ਗਏ"
 
 #: src/components/localization/Keyboard.jsx:240
 msgid "No layouts selected yet"
@@ -1098,10 +1080,8 @@ msgid "Resize"
 msgstr "ਆਕਾਰ ਬਦਲੋ"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:548
-#, fuzzy
-#| msgid "Extended partition"
 msgid "Resize partition"
-msgstr "ਐਕਸਟੈਂਡਡ ਪਾਰਟੀਸ਼ਨ"
+msgstr "ਪਾਰਟੀਸ਼ਨ ਦਾ ਆਕਾਰ ਬਦਲੋ"
 
 #: src/components/storage/StorageReview.jsx:352
 msgid "Resizing the following partitions from $0: $1"
@@ -1269,7 +1249,7 @@ msgstr "ਸਾਫਟਵੇਅਰ ਚੋਣ"
 #: src/components/review/ReviewConfiguration.jsx:215
 msgid ""
 "Some installation steps still need to be completed before you can continue."
-msgstr ""
+msgstr "ਜਾਰੀ ਰੱਖਣ ਤੋਂ ਪਹਿਲਾਂ ਤੁਹਾਨੂੰ ਕੁਝ ਇੰਸਟਾਲੇਸ਼ਨ ਪੜਾਆਵਾਂ ਨੂੰ ਪੂਰਾ ਕਰਨਾ ਪਵੇਗਾ।"
 
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:49
 msgid "Some required partitions are missing: $0"
@@ -1363,13 +1343,10 @@ msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "ਐਨਾਕਾਂਡਾ ਇੰਸਟਾਲੇਸ਼ਨ ਅਚਾਨਕ ਰੁਕ ਚੁੱਕੀ ਹੈ।"
 
 #: src/components/users/Accounts.jsx:47
-#, fuzzy
-#| msgid "The following disk was detected: $0"
-#| msgid_plural "The following disks were detected: $0"
 msgid "The following user will be created:"
 msgid_plural "The following users will be created:"
-msgstr[0] "ਅੱਗੇ ਦਿੱਤੀ ਡਿਸਕ ਖੋਜੀ ਗਈ: $0"
-msgstr[1] "ਅੱਗੇ ਦਿੱਤੀ ਡਿਸਕ ਖੋਜੀ ਗਈ: $0"
+msgstr[0] "ਅੱਗੇ ਦਿੱਤੇ ਵਰਤੋਂਕਾਰ ਨੂੰ ਬਣਾਇਆ ਜਾਵੇਗਾ:"
+msgstr[1] "ਅੱਗੇ ਦਿੱਤੇ ਵਰਤੋਂਕਾਰਾਂ ਨੂੰ ਬਣਾਇਆ ਜਾਵੇਗਾ:"
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:45
 msgid ""
@@ -1480,11 +1457,8 @@ msgid "Unable to schedule resizing of $0"
 msgstr "$0 ਦੇ ਆਕਾਰ ਬਦਲਣ ਨੂੰ ਮਿੱਥਣ ਲਈ ਅਸਮਰੱਥ ਹੈ"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:374
-#, fuzzy
-#| msgctxt "GUI|Blivet Gui Partitioning"
-#| msgid "_Undo last action"
 msgid "Undo last action"
-msgstr "ਆਪਸੀ ਕਾਰਵਾਈ ਵਾਪਸ ਲਵੋ(_U)"
+msgstr "ਆਪਸੀ ਕਾਰਵਾਈ ਵਾਪਸ ਲਵੋ"
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:58
 #: src/components/storage/installation-method/EncryptedDevices.jsx:178
@@ -1643,10 +1617,8 @@ msgid "here"
 msgstr "ਇੱਥੇ"
 
 #: src/components/review/ReviewConfiguration.jsx:57
-#, fuzzy
-#| msgid "Completed"
 msgid "incomplete"
-msgstr "ਪੂਰਾ ਹੈ"
+msgstr "ਅਧੂਰਾ"
 
 #: src/components/storage/StorageReview.jsx:108
 msgid "mount"
