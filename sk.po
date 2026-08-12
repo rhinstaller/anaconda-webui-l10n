@@ -25,7 +25,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-11 04:06+0000\n"
+"POT-Creation-Date: 2026-08-12 04:26+0000\n"
 "PO-Revision-Date: 2026-03-14 04:24+0000\n"
 "Last-Translator: Ondrej Sulek <feonsu@gmail.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/anaconda-"
@@ -42,14 +42,14 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:349
 #: src/components/storage/installation-method/InstallationDestination.jsx:162
 #: src/components/storage/installation-method/InstallationDestination.jsx:268
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
 #: src/components/storage/Common.jsx:58
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:72
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 #, fuzzy
 #| msgid "Error"
 msgid "$0 error"
@@ -79,7 +79,7 @@ msgid "$0 is required, but only $1 is available."
 msgstr "Vyžaduje sa $0, ale k dispozícii je iba $1."
 
 #: src/components/storage/Common.jsx:74
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:88
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
 msgid "$0 warning"
 msgid_plural "$0 warnings"
 msgstr[0] "$0 upozornenie"
@@ -90,28 +90,28 @@ msgstr[2] "$0 upozornení"
 msgid "$0 will be deleted"
 msgstr "$0 bude odstránené"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:188
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:190
 msgid "'$0' filesystem cannot be on an encrypted block device"
 msgstr "'$0' nemôže byť na šifrovanom blokovom zariadení"
 
-#: src/helpers/storage.js:231
+#: src/helpers/storage.js:267
 #, fuzzy
 #| msgid "'$0' must be on a device formatted to '$1'"
 msgid "'$0' must be assigned to $1"
 msgstr "'$0' musí byť na zariadení naformátovanom na '$1'"
 
-#: src/helpers/storage.js:234
+#: src/helpers/storage.js:270
 msgid "'$0' must be on a device formatted to '$1'"
 msgstr "'$0' musí byť na zariadení naformátovanom na '$1'"
 
-#: src/helpers/storage.js:225
+#: src/helpers/storage.js:261
 msgid ""
 "'$0' must be on an EFI System Partition. The selected partition uses a FAT "
 "filesystem, but is not marked as an ESP. Set the partition type to EFI "
 "System and enable the esp flag."
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:270
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:272
 msgid ""
 "'$0' partition on MDRAID device $1 found. Bootloader partitions on MDRAID "
 "devices are not supported."
@@ -149,7 +149,7 @@ msgstr "Akcie"
 msgid "Add another server..."
 msgstr "Pridať ďalší server..."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:642
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:644
 msgid "Add mount"
 msgstr "Pridať bod pripojenia"
 
@@ -204,7 +204,7 @@ msgstr ""
 "Priradiť oddiely k bodom pripojenia. Užitočné pre predkonfigurované vlastné "
 "rozloženia."
 
-#: src/components/Error.jsx:367
+#: src/components/Error.jsx:414
 msgid "Automatic log file upload"
 msgstr "Automatické nahranie súboru s logmi"
 
@@ -221,7 +221,8 @@ msgstr "Automaticky nastaviť časové pásmo"
 msgid "Available free space: $0. Installation requires: $1."
 msgstr "Dostupné voľné miesto: $0. Inštalácia vyžaduje: $1."
 
-#: src/components/AnacondaWizardFooter.jsx:62 src/components/Error.jsx:591
+#: src/components/AnacondaWizardFooter.jsx:62 src/components/Error.jsx:678
+#: src/components/Error.jsx:703
 msgid "Back"
 msgstr "Späť"
 
@@ -229,15 +230,15 @@ msgstr "Späť"
 msgid "Base environment"
 msgstr "Základné prostredie"
 
-#: src/components/Error.jsx:338
+#: src/components/Error.jsx:385
 msgid "Brief description of the issue"
 msgstr "Stručný popis problému"
 
-#: src/components/Error.jsx:327
+#: src/components/Error.jsx:374
 msgid "Bug report details"
 msgstr "Podrobnosti hlásenia chyby"
 
-#: src/components/Error.jsx:212
+#: src/components/Error.jsx:213
 msgid "Bugzilla API key"
 msgstr "Kľúč Bugzilla API"
 
@@ -252,7 +253,7 @@ msgstr ""
 "vydaným softvérom, ktorý máte v úmysle používať iba na testovacie a vývojové "
 "účely, a ste ochotní hlásiť akékoľvek chyby za účelom zlepšenia tejto práce."
 
-#: src/components/datetime/CustomNTPModal.jsx:252 src/components/Error.jsx:759
+#: src/components/datetime/CustomNTPModal.jsx:252 src/components/Error.jsx:871
 #: src/components/localization/Keyboard.jsx:280
 #: src/components/storage/installation-method/InstallationDestination.jsx:371
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
@@ -296,8 +297,8 @@ msgid "Checking installation configuration..."
 msgstr "Kontroluje sa konfigurácia úložiska..."
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:39
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:461
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:467
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:474
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:480
 msgid "Checking storage configuration"
 msgstr "Kontroluje sa konfigurácia úložiska"
 
@@ -319,7 +320,7 @@ msgstr "Zavrieť"
 msgid "Close storage editor"
 msgstr "Zatvoriť editor úložiska"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:314
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:327
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
@@ -352,7 +353,7 @@ msgstr "Konfigurovať sieť"
 msgid "Configure storage"
 msgstr "Konfigurovať úložisko"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:668
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:681
 msgid "Configure storage again"
 msgstr "Znova konfigurovať úložisko"
 
@@ -361,7 +362,7 @@ msgstr "Znova konfigurovať úložisko"
 msgid "Confirm passphrase"
 msgstr "Potvrdenie hesla"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:653
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:666
 msgid "Continue"
 msgstr "Pokračovať"
 
@@ -376,7 +377,7 @@ msgstr "Pokračovať v inštalácii"
 msgid "Continue installation?"
 msgstr "Pokračovať v inštalácii"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:606
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:619
 msgid "Continue with installation"
 msgstr "Pokračovať v inštalácii"
 
@@ -398,7 +399,7 @@ msgstr "Vytvoriť účet"
 msgid "Currently installed: $0"
 msgstr "Aktuálne nainštalované: $0"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:231
 msgid "Custom"
 msgstr "Vlastné"
 
@@ -421,7 +422,7 @@ msgstr "rozšírený oddiel"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Odstránenie určitých oddielov môže $0 zabrániť spusteniu: $1"
 
-#: src/components/Error.jsx:268
+#: src/components/Error.jsx:269
 msgid "Description"
 msgstr "Popis"
 
@@ -433,24 +434,24 @@ msgstr "Cieľ"
 msgid "Destination is encrypted"
 msgstr "Cieľ je zašifrovaný"
 
-#: src/components/Error.jsx:273
+#: src/components/Error.jsx:274
 msgid "Detailed description of the issue"
 msgstr "Podrobný popis problému"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:632
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:645
 msgid "Detected valid storage layout:"
 msgstr "Zistené platné rozloženie úložiska:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:618
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 #: src/components/storage/StorageReview.jsx:244
 msgid "Device"
 msgstr "Zariadenie"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:386
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 msgid "Duplicate device."
 msgstr "Duplicitné zariadenie."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:235
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:237
 msgid "Duplicate mount point."
 msgstr "Duplicitný bod pripojenia."
 
@@ -470,7 +471,7 @@ msgstr "Šifrované"
 msgid "Encryption"
 msgstr "Šifrovanie"
 
-#: src/components/Error.jsx:203
+#: src/components/Error.jsx:204
 msgid ""
 "Enter your Bugzilla API key to create a bug report. You will be able to "
 "review and edit the bug details in the next step."
@@ -478,7 +479,7 @@ msgstr ""
 "Zadajte svoj kľúč Bugzilla API na vytvorenie hlásenia chyby. V nasledujúcom "
 "kroku budete môcť preskúmať a upraviť podrobnosti hlásenia."
 
-#: src/components/Error.jsx:285
+#: src/components/Error.jsx:286
 msgid "Environment"
 msgstr "Prostredie"
 
@@ -486,7 +487,7 @@ msgstr "Prostredie"
 msgid "Erase data and install"
 msgstr "Vymazať údaje a nainštalovať"
 
-#: src/components/Error.jsx:716
+#: src/components/Error.jsx:828
 msgid "Error details"
 msgstr "Podrobnosti o chybe"
 
@@ -499,7 +500,7 @@ msgstr "Odísť do live desktopu"
 msgid "Extended partition"
 msgstr "Rozšírený oddiel"
 
-#: src/components/Error.jsx:318
+#: src/components/Error.jsx:365
 msgid "Failed to report issue"
 msgstr "Nepodarilo sa nahlásiť problém"
 
@@ -547,7 +548,7 @@ msgstr "Celé meno nemôže obsahovať znak dvojbodky"
 msgid "Helper text"
 msgstr "Pomocný text"
 
-#: src/components/Error.jsx:229
+#: src/components/Error.jsx:230
 msgid "Hide API key"
 msgstr "Skryť kľúč API"
 
@@ -599,7 +600,7 @@ msgstr ""
 msgid "If you are configuring partitions the following are required:"
 msgstr "Ak konfigurujete oddiely, vyžaduje sa nasledovné:"
 
-#: src/components/Error.jsx:382
+#: src/components/Error.jsx:429
 msgid ""
 "If you do not consent to automatic log file upload, you can $0 instead. "
 "Manual reporting allows you to review and selectively attach log files "
@@ -615,6 +616,12 @@ msgid ""
 msgstr ""
 "Ak nechápete, alebo neakceptujete riziká, potom ukončite tento program."
 
+#: src/components/Error.jsx:335
+msgid ""
+"If your issue matches one of the bugs above, you can open it and add your "
+"information there instead of creating a duplicate report."
+msgstr ""
+
 #: src/components/installation/InstallationProgress.jsx:236
 msgid "In progress"
 msgstr "Prebieha"
@@ -629,7 +636,7 @@ msgstr "Inicializácia..."
 msgid "Install"
 msgstr "Inštalácia"
 
-#: src/components/Error.jsx:747
+#: src/components/Error.jsx:859
 #: src/components/installation/InstallationProgress.jsx:171
 msgid "Installation failed"
 msgstr "Inštalácia zlyhala"
@@ -660,7 +667,7 @@ msgstr "Inštaluje sa"
 msgid "Insufficient disk space"
 msgstr "Nedostatok miesta na disku"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:253
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:255
 msgid ""
 "Invalid RAID configuration detected. If your RAID array is created directly "
 "on top of disks, a partition table must be created on the array. If your "
@@ -709,7 +716,7 @@ msgstr "Jazyk"
 msgid "Launch storage editor"
 msgstr "Spustiť editor úložiska"
 
-#: src/components/Error.jsx:358
+#: src/components/Error.jsx:405
 msgid "Learn more about restricted access in the configuration"
 msgstr "Ďalšie informácie o obmedzenom prístupe v konfigurácii"
 
@@ -754,17 +761,17 @@ msgstr "Stredné"
 msgid "Minimum of $0 required"
 msgstr "Minimálne požadované $0"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:135
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 "Nesúlad medzi výberom preformátovania nadradeného a podradeného zariadenia."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
 #: src/components/storage/StorageReview.jsx:248
 msgid "Mount point"
 msgstr "Bod pripojenia"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
 msgid "Mount point assignment"
 msgstr "Priradenie bodov pripojenia"
@@ -782,6 +789,10 @@ msgstr "Posunúť nahor"
 #: src/components/Password.jsx:31
 msgid "Must be at least $0 characters"
 msgstr "Musí mať aspoň $0 znakov"
+
+#: src/components/Error.jsx:686
+msgid "My issue is different, continue"
+msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:157
 msgid "NTP Servers"
@@ -808,7 +819,7 @@ msgstr "Sieť"
 msgid "Network Configuration"
 msgstr "Sieťová konfigurácia"
 
-#: src/components/Error.jsx:624
+#: src/components/Error.jsx:736
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
 "the issue."
@@ -816,7 +827,7 @@ msgstr ""
 "Sieť nie je k dispozícii. Ak chcete nahlásiť problém, nakonfigurujte sieť v "
 "ponuke na hornej lište."
 
-#: src/components/Error.jsx:625
+#: src/components/Error.jsx:737
 msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 "Sieť nie je k dispozícii. Ak chcete nahlásiť problém, nakonfigurujte sieť."
@@ -825,11 +836,11 @@ msgstr ""
 msgid "Network plugin failed"
 msgstr "Zlyhal plugin siete"
 
-#: src/components/AnacondaWizardFooter.jsx:71 src/components/Error.jsx:581
+#: src/components/AnacondaWizardFooter.jsx:71 src/components/Error.jsx:668
 msgid "Next"
 msgstr "Ďalej"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:622
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:624
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 msgid "No devices"
 msgstr "Žiadne zariadenia"
@@ -886,7 +897,7 @@ msgstr ""
 "vývoja a testovania. Nepoužívajte tento softvér pre žiadnu kritickú prácu "
 "ani pre produkčné prostredia."
 
-#: src/components/Error.jsx:180
+#: src/components/Error.jsx:181
 msgid "Open Bugzilla bug entry form"
 msgstr "Otvoriť formulár zadania chyby v Bugzille"
 
@@ -925,7 +936,7 @@ msgstr "Heslá sa musia zhodovať"
 msgid "Pending"
 msgstr "Čakajúce"
 
-#: src/components/Error.jsx:93
+#: src/components/Error.jsx:94
 msgid "Please attach the log file $0 to the issue."
 msgstr "Prosím, priložte súbor s logmi $0 k tomuto problému."
 
@@ -937,6 +948,12 @@ msgstr "Vyberte aspoň jeden disk pre pokračovanie"
 msgid "Pool"
 msgstr "Pool"
 
+#: src/components/Error.jsx:303
+#, fuzzy
+#| msgid "No mountable devices found"
+msgid "Potential duplicate bugs found"
+msgstr "Nenašli sa žiadne pripojiteľné zariadenia"
+
 #: src/components/HeaderKebab.jsx:49
 msgid "Powered by Anaconda"
 msgstr "Poháňané Anacondou"
@@ -945,16 +962,16 @@ msgstr "Poháňané Anacondou"
 msgid "Pre-release"
 msgstr "Predčasné vydanie"
 
-#: src/components/Error.jsx:178
+#: src/components/Error.jsx:179
 msgid "Prefer to report manually? $0"
 msgstr "Preferujete manuálne nahlásenie? $0"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:674
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:687
 msgid "Proceed with installation"
 msgstr "Pokračovať v inštalácii"
 
 #: src/components/AnacondaWizardFooter.jsx:84
-#: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:736
+#: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:848
 msgid "Quit"
 msgstr "Ukončiť"
 
@@ -991,7 +1008,7 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "Názov počítača musí mať 64 znakov alebo menej"
 
 #: src/components/AnacondaWizardFooter.jsx:84
-#: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:736
+#: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:848
 #: src/components/installation/InstallationProgress.jsx:200
 msgid "Reboot"
 msgstr "Reštartovať"
@@ -1022,7 +1039,7 @@ msgstr "Uvoľniť miesto"
 msgid "Reclaim space (required)"
 msgstr "Uvoľniť miesto (požadované)"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:228
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:230
 msgid "Recommended"
 msgstr "Odporúčané"
 
@@ -1030,8 +1047,8 @@ msgstr "Odporúčané"
 msgid "Recommended partitions:"
 msgstr "Odporúčané oddiely:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:406
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:408
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:621
 msgid "Reformat"
 msgstr "Preformátovať"
 
@@ -1042,8 +1059,8 @@ msgstr "Preinštalovať Fedoru"
 
 #: src/components/localization/Keyboard.jsx:155
 #: src/components/localization/Keyboard.jsx:159
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:433
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:435
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:622
 msgid "Remove"
 msgstr "Odstrániť"
 
@@ -1086,7 +1103,7 @@ msgstr ""
 msgid "Report Issue"
 msgstr "Nahlásiť problém"
 
-#: src/components/Error.jsx:159
+#: src/components/Error.jsx:160
 msgid ""
 "Report an issue or provide feedback by opening the Bugzilla bug entry form "
 "$0."
@@ -1094,15 +1111,15 @@ msgstr ""
 "Nahláste problém alebo poskytnite spätnú väzbu otvorením formulára zadania "
 "chyby v Bugzille $0."
 
-#: src/components/Error.jsx:601 src/components/Error.jsx:768
+#: src/components/Error.jsx:713 src/components/Error.jsx:880
 msgid "Report issue"
 msgstr "Nahlásiť problém"
 
-#: src/components/Error.jsx:601
+#: src/components/Error.jsx:713
 msgid "Reporting issue..."
 msgstr "Nahlasovanie problému..."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:227
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 msgid "Required"
 msgstr "Požadované"
 
@@ -1132,11 +1149,11 @@ msgstr "Rozšírený oddiel"
 msgid "Resizing the following partitions from $0: $1"
 msgstr "Zmena veľkosti nasledujúcich oddielov z $0: $1"
 
-#: src/components/Error.jsx:352
+#: src/components/Error.jsx:399
 msgid "Restrict access to the report"
 msgstr "Obmedziť prístup k hláseniu"
 
-#: src/components/Error.jsx:354
+#: src/components/Error.jsx:401
 msgid "Restricts the report to the $0 group. $1"
 msgstr "Obmedzí prístup k hláseniu len pre skupinu $0. $1"
 
@@ -1144,7 +1161,7 @@ msgstr "Obmedzí prístup k hláseniu len pre skupinu $0. $1"
 msgid "Return to installation"
 msgstr "Návrat k inštalácii"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:659
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:672
 msgid "Return to storage editor"
 msgstr "Návrat do editora úložiska"
 
@@ -1201,8 +1218,8 @@ msgstr ""
 msgid "Select"
 msgstr "Vybrať"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:302
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:336
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:304
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:338
 msgid "Select a device"
 msgstr "Vyberte zariadenie"
 
@@ -1222,7 +1239,7 @@ msgstr "Vyberte región"
 msgid "Selected (top = current)"
 msgstr "Vybrané (hore = aktuálne)"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:118
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:120
 msgid "Selected device's format '$0' cannot be reformatted."
 msgstr "Formát vybraného zariadenia '$0' nie je možné preformátovať."
 
@@ -1254,7 +1271,7 @@ msgstr "Zdieľať disk s inými operačnými systémami: $0"
 msgid "Show AM/PM"
 msgstr "Zobraziť AM/PM"
 
-#: src/components/Error.jsx:229
+#: src/components/Error.jsx:230
 msgid "Show API key"
 msgstr "Zobraziť kľúč API"
 
@@ -1296,7 +1313,7 @@ msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
 
-#: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:49
+#: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:52
 msgid "Some required partitions are missing: $0"
 msgstr "Chýbajú niektoré požadované oddiely: $0"
 
@@ -1304,7 +1321,7 @@ msgstr "Chýbajú niektoré požadované oddiely: $0"
 msgid "Space"
 msgstr "Miesto"
 
-#: src/components/Error.jsx:279
+#: src/components/Error.jsx:280
 msgid "Stacktrace"
 msgstr "Stacktrace"
 
@@ -1345,7 +1362,7 @@ msgstr ""
 msgid "Storage plugin failed"
 msgstr "Zlyhal plugin úložiska"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:604
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:617
 msgid "Storage requirements not met"
 msgstr "Požiadavky na úložisko neboli splnené"
 
@@ -1389,6 +1406,12 @@ msgstr ""
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "Inštalácia Anacondy sa neočakávane zastavila."
 
+#: src/components/Error.jsx:308
+msgid ""
+"The following open bugs may be related to your issue. Please review them "
+"before creating a new report."
+msgstr ""
+
 #: src/components/users/Accounts.jsx:47
 #, fuzzy
 #| msgid "The following mandatory spokes are not completed:"
@@ -1406,11 +1429,11 @@ msgstr ""
 "Inštalácia vyžaduje $0 miesta na disku, ale kapacita vybraných diskov je "
 "však iba $1."
 
-#: src/components/Error.jsx:676
+#: src/components/Error.jsx:788
 msgid "The installer cannot continue due to a critical error."
 msgstr "Inštalátor nemôže pokračovať kvôli kritickej chybe."
 
-#: src/components/Error.jsx:675
+#: src/components/Error.jsx:787
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "Inštalátor nemôže pokračovať kvôli kritickej chybe: $0"
 
@@ -1440,7 +1463,7 @@ msgstr ""
 "Umožňuje nastaviť LVM a oveľa viac. Je určený na použitie ako pokročilý "
 "nástroj a nie je určený na použitie v typickej inštalácii."
 
-#: src/components/Error.jsx:378
+#: src/components/Error.jsx:425
 msgid ""
 "These log files may contain sensitive information such as IP addresses, "
 "usernames, or other system details."
@@ -1465,7 +1488,7 @@ msgstr ""
 msgid "This may take a moment"
 msgstr "Môže to chvíľu trvať"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:462
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:475
 msgid "This will take a few moments"
 msgstr "Chvíľu to potrvá"
 
@@ -1478,7 +1501,7 @@ msgstr "Čas"
 msgid "Timezone"
 msgstr "Časové pásmo"
 
-#: src/components/Error.jsx:330
+#: src/components/Error.jsx:377
 msgid "Title"
 msgstr "Nadpis"
 
@@ -1522,17 +1545,21 @@ msgstr "_Vrátiť poslednú akciu"
 msgid "Unlock"
 msgstr "Odomknúť"
 
-#: src/components/storage/installation-method/EncryptedDevices.jsx:64
-msgid ""
-"Unlock LUKS-encrypted partitions to keep existing data and show more "
-"installation methods."
-msgstr ""
-"Odomknite oddiely šifrované LUKS, aby ste si zachovali existujúce údaje a "
-"zobrazili viac metód inštalácie"
-
 #: src/components/storage/installation-method/EncryptedDevices.jsx:138
 msgid "Unlock encrypted devices"
 msgstr "Odomknúť šifrované zariadenia"
+
+#: src/components/storage/installation-method/EncryptedDevices.jsx:64
+#, fuzzy
+#| msgid ""
+#| "Unlock LUKS-encrypted partitions to keep existing data and show more "
+#| "installation methods."
+msgid ""
+"Unlock encrypted partitions to keep existing data and show more installation "
+"methods."
+msgstr ""
+"Odomknite oddiely šifrované LUKS, aby ste si zachovali existujúce údaje a "
+"zobrazili viac metód inštalácie"
 
 #: src/components/storage/scenarios/use-configured-storage/index.js:27
 #: src/components/storage/scenarios/use-configured-storage/index.js:41
@@ -1543,7 +1570,7 @@ msgstr "Použiť nakonfigurované úložisko"
 msgid "Use entire disk"
 msgstr "Použiť celý disk"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:639
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:652
 msgid "Use free space"
 msgstr "Použiť voľné miesto"
 
@@ -1551,7 +1578,7 @@ msgstr "Použiť voľné miesto"
 msgid "Use local account"
 msgstr "Použiť lokálny účet"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:638
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:651
 msgid "Use the RAID device for automatic partitioning"
 msgstr "Použiť RAID zariadenie pre automatické rozdelenie"
 
@@ -1579,7 +1606,7 @@ msgstr "Používateľské meno nesmie byť rezervované slovo"
 msgid "User names must be shorter than 33 characters"
 msgstr "Používateľské meno musí byť kratšie ako 33 znakov"
 
-#: src/components/Error.jsx:581
+#: src/components/Error.jsx:668
 msgid "Validating..."
 msgstr "Overovanie..."
 
@@ -1599,7 +1626,7 @@ msgstr "Vitajte vo Fedora Linux"
 msgid "Welcome. Let's install $0 now."
 msgstr "Vitajte. Poďme teraz nainštalovať $0."
 
-#: src/components/Error.jsx:373
+#: src/components/Error.jsx:420
 msgid ""
 "When you submit this bug report, the following log files will be uploaded "
 "automatically: $0"
@@ -1619,7 +1646,7 @@ msgstr ""
 "Tu môžete buď uvoľniť dostatok miesta a nechať inštalátor, aby sa postaral o "
 "zvyšok, alebo oddiely nastaviť manuálne."
 
-#: src/components/Error.jsx:238
+#: src/components/Error.jsx:239
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr "Kľúč API pre svoj účet môžete vygenerovať v Bugzilla $0."
 
@@ -1675,7 +1702,7 @@ msgstr "rozšírený oddiel"
 msgid "format as $0"
 msgstr "naformátovať ako $0"
 
-#: src/components/Error.jsx:161 src/components/Error.jsx:241
+#: src/components/Error.jsx:162 src/components/Error.jsx:242
 msgid "here"
 msgstr "tu"
 
@@ -1693,7 +1720,7 @@ msgstr "pripojiť"
 msgid "pending step"
 msgstr "čakajúci krok"
 
-#: src/components/Error.jsx:384
+#: src/components/Error.jsx:431
 msgid "report the issue manually"
 msgstr "nahlásiť problém manuálne"
 
@@ -4114,9 +4141,6 @@ msgstr "späť"
 
 #~ msgid "No match found for given boot drive \"{}\"."
 #~ msgstr "Nenašla sa žiadna zhoda pre daný zavádzací disk \"{}\"."
-
-#~ msgid "No mountable devices found"
-#~ msgstr "Nenašli sa žiadne pripojiteľné zariadenia"
 
 #~ msgid "No network devices available"
 #~ msgstr "Nie sú dostupné žiadne sieťové zariadenia"

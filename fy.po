@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 35.18\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-11 04:06+0000\n"
+"POT-Creation-Date: 2026-08-12 04:26+0000\n"
 "PO-Revision-Date: 2023-11-06 12:17+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Frisian <https://translate.fedoraproject.org/projects/"
@@ -25,14 +25,14 @@ msgstr ""
 msgid "$0 $1"
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:349
 #: src/components/storage/installation-method/InstallationDestination.jsx:162
 #: src/components/storage/installation-method/InstallationDestination.jsx:268
 msgid "$0 ($1)"
 msgstr ""
 
 #: src/components/storage/Common.jsx:58
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:72
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 msgid "$0 error"
 msgid_plural "$0 errors"
 msgstr[0] ""
@@ -59,7 +59,7 @@ msgid "$0 is required, but only $1 is available."
 msgstr ""
 
 #: src/components/storage/Common.jsx:74
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:88
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
 msgid "$0 warning"
 msgid_plural "$0 warnings"
 msgstr[0] ""
@@ -71,28 +71,28 @@ msgstr[1] ""
 msgid "$0 will be deleted"
 msgstr "Der sil gjin brûker oanmakke wurde"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:188
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:190
 msgid "'$0' filesystem cannot be on an encrypted block device"
 msgstr ""
 
-#: src/helpers/storage.js:231
+#: src/helpers/storage.js:267
 #, fuzzy
 msgid "'$0' must be assigned to $1"
 msgstr "{fs} moat op in apparaat stean fan it type {type}"
 
-#: src/helpers/storage.js:234
+#: src/helpers/storage.js:270
 #, fuzzy
 msgid "'$0' must be on a device formatted to '$1'"
 msgstr "{fs} moat op in apparaat stean fan it type {type}"
 
-#: src/helpers/storage.js:225
+#: src/helpers/storage.js:261
 msgid ""
 "'$0' must be on an EFI System Partition. The selected partition uses a FAT "
 "filesystem, but is not marked as an ESP. Set the partition type to EFI "
 "System and enable the esp flag."
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:270
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:272
 msgid ""
 "'$0' partition on MDRAID device $1 found. Bootloader partitions on MDRAID "
 "devices are not supported."
@@ -131,7 +131,7 @@ msgstr "_Opsjes"
 msgid "Add another server..."
 msgstr "NTP tsjinner tafoegje"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:642
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:644
 #, fuzzy
 msgid "Add mount"
 msgstr "Yndieling tafoegje"
@@ -190,7 +190,7 @@ msgid ""
 "Assign partitions to mount points. Useful for pre-configured custom layouts."
 msgstr ""
 
-#: src/components/Error.jsx:367
+#: src/components/Error.jsx:414
 msgid "Automatic log file upload"
 msgstr ""
 
@@ -207,7 +207,8 @@ msgstr ""
 msgid "Available free space: $0. Installation requires: $1."
 msgstr ""
 
-#: src/components/AnacondaWizardFooter.jsx:62 src/components/Error.jsx:591
+#: src/components/AnacondaWizardFooter.jsx:62 src/components/Error.jsx:678
+#: src/components/Error.jsx:703
 msgid "Back"
 msgstr ""
 
@@ -215,15 +216,15 @@ msgstr ""
 msgid "Base environment"
 msgstr ""
 
-#: src/components/Error.jsx:338
+#: src/components/Error.jsx:385
 msgid "Brief description of the issue"
 msgstr ""
 
-#: src/components/Error.jsx:327
+#: src/components/Error.jsx:374
 msgid "Bug report details"
 msgstr ""
 
-#: src/components/Error.jsx:212
+#: src/components/Error.jsx:213
 msgid "Bugzilla API key"
 msgstr ""
 
@@ -235,7 +236,7 @@ msgid ""
 "issues in order to enhance this work."
 msgstr ""
 
-#: src/components/datetime/CustomNTPModal.jsx:252 src/components/Error.jsx:759
+#: src/components/datetime/CustomNTPModal.jsx:252 src/components/Error.jsx:871
 #: src/components/localization/Keyboard.jsx:280
 #: src/components/storage/installation-method/InstallationDestination.jsx:371
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
@@ -282,8 +283,8 @@ msgid "Checking installation configuration..."
 msgstr "Flater ûntdutsen by it kontrolearjen fan de opslach ynstellingen"
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:39
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:461
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:467
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:474
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:480
 #, fuzzy
 msgid "Checking storage configuration"
 msgstr "Flater ûntdutsen by it kontrolearjen fan de opslach ynstellingen"
@@ -307,7 +308,7 @@ msgstr "Slúte"
 msgid "Close storage editor"
 msgstr "Ynstallaasje"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:314
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:327
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
@@ -345,7 +346,7 @@ msgstr "Opslach oan it ynstellen"
 msgid "Configure storage"
 msgstr "Opslach oan it ynstellen"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:668
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:681
 #, fuzzy
 #| msgid "Configuring storage"
 msgid "Configure storage again"
@@ -356,7 +357,7 @@ msgstr "Opslach oan it ynstellen"
 msgid "Confirm passphrase"
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:653
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:666
 msgid "Continue"
 msgstr "Trochgean"
 
@@ -371,7 +372,7 @@ msgstr "Pre-ynstallaasje taken oan it útfieren"
 msgid "Continue installation?"
 msgstr "Pre-ynstallaasje taken oan it útfieren"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:606
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:619
 #, fuzzy
 msgid "Continue with installation"
 msgstr "Pre-ynstallaasje taken oan it útfieren"
@@ -398,7 +399,7 @@ msgstr "Brûker oanmeitsje"
 msgid "Currently installed: $0"
 msgstr "Hjoeddeistige host namme: %s\n"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:231
 msgid "Custom"
 msgstr ""
 
@@ -421,7 +422,7 @@ msgstr "Standert Partysje"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
-#: src/components/Error.jsx:268
+#: src/components/Error.jsx:269
 #, fuzzy
 msgid "Description"
 msgstr "om mei de ynstallaasje útein te setten"
@@ -437,25 +438,25 @@ msgstr "om mei de ynstallaasje útein te setten"
 msgid "Destination is encrypted"
 msgstr "De kontener is fersifere."
 
-#: src/components/Error.jsx:273
+#: src/components/Error.jsx:274
 msgid "Detailed description of the issue"
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:632
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:645
 msgid "Detected valid storage layout:"
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:618
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 #: src/components/storage/StorageReview.jsx:244
 msgid "Device"
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:386
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 #, fuzzy
 msgid "Duplicate device."
 msgstr "Lokale bewarplakken"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:235
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:237
 #, fuzzy
 msgid "Duplicate mount point."
 msgstr "Graach in jildich keppelpunt ynfiere."
@@ -479,13 +480,13 @@ msgstr "Fersiferje myn gegevens."
 msgid "Encryption"
 msgstr "Fersiferje myn gegevens."
 
-#: src/components/Error.jsx:203
+#: src/components/Error.jsx:204
 msgid ""
 "Enter your Bugzilla API key to create a bug report. You will be able to "
 "review and edit the bug details in the next step."
 msgstr ""
 
-#: src/components/Error.jsx:285
+#: src/components/Error.jsx:286
 msgid "Environment"
 msgstr ""
 
@@ -494,7 +495,7 @@ msgstr ""
 msgid "Erase data and install"
 msgstr "om mei de ynstallaasje útein te setten"
 
-#: src/components/Error.jsx:716
+#: src/components/Error.jsx:828
 msgid "Error details"
 msgstr ""
 
@@ -509,7 +510,7 @@ msgstr ""
 msgid "Extended partition"
 msgstr "Standert Partysje"
 
-#: src/components/Error.jsx:318
+#: src/components/Error.jsx:365
 #, fuzzy
 #| msgid "Failed to change a device."
 msgid "Failed to report issue"
@@ -561,7 +562,7 @@ msgstr "Folsleine namme mei gjin dûbelde punten hawwe"
 msgid "Helper text"
 msgstr ""
 
-#: src/components/Error.jsx:229
+#: src/components/Error.jsx:230
 msgid "Hide API key"
 msgstr ""
 
@@ -616,7 +617,7 @@ msgstr ""
 msgid "If you are configuring partitions the following are required:"
 msgstr ""
 
-#: src/components/Error.jsx:382
+#: src/components/Error.jsx:429
 msgid ""
 "If you do not consent to automatic log file upload, you can $0 instead. "
 "Manual reporting allows you to review and selectively attach log files "
@@ -626,6 +627,12 @@ msgstr ""
 #: src/components/AnacondaHeader.jsx:77
 msgid ""
 "If you do not understand or accept the risks, then please exit this program."
+msgstr ""
+
+#: src/components/Error.jsx:335
+msgid ""
+"If your issue matches one of the bugs above, you can open it and add your "
+"information there instead of creating a duplicate report."
 msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:236
@@ -645,7 +652,7 @@ msgstr "Oan it ynstallearren."
 msgid "Install"
 msgstr "Ynstallearje"
 
-#: src/components/Error.jsx:747
+#: src/components/Error.jsx:859
 #: src/components/installation/InstallationProgress.jsx:171
 #, fuzzy
 msgid "Installation failed"
@@ -682,7 +689,7 @@ msgstr "Oan it ynstallearren."
 msgid "Insufficient disk space"
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:253
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:255
 msgid ""
 "Invalid RAID configuration detected. If your RAID array is created directly "
 "on top of disks, a partition table must be created on the array. If your "
@@ -730,7 +737,7 @@ msgstr "Taal ynstellings"
 msgid "Launch storage editor"
 msgstr "Ynstallaasje"
 
-#: src/components/Error.jsx:358
+#: src/components/Error.jsx:405
 msgid "Learn more about restricted access in the configuration"
 msgstr ""
 
@@ -782,16 +789,16 @@ msgstr ""
 msgid "Minimum of $0 required"
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:135
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
 #: src/components/storage/StorageReview.jsx:248
 msgid "Mount point"
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
 msgid "Mount point assignment"
 msgstr ""
@@ -810,6 +817,10 @@ msgstr ""
 #, fuzzy
 msgid "Must be at least $0 characters"
 msgstr "It wachtwurd mat teminsten seis tekens lang wêze."
+
+#: src/components/Error.jsx:686
+msgid "My issue is different, continue"
+msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:157
 #, fuzzy
@@ -842,13 +853,13 @@ msgstr "Netwurk"
 msgid "Network Configuration"
 msgstr "Netwurk konfiguraasje"
 
-#: src/components/Error.jsx:624
+#: src/components/Error.jsx:736
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
 "the issue."
 msgstr ""
 
-#: src/components/Error.jsx:625
+#: src/components/Error.jsx:737
 msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 
@@ -857,11 +868,11 @@ msgstr ""
 msgid "Network plugin failed"
 msgstr "Ynstallaasje"
 
-#: src/components/AnacondaWizardFooter.jsx:71 src/components/Error.jsx:581
+#: src/components/AnacondaWizardFooter.jsx:71 src/components/Error.jsx:668
 msgid "Next"
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:622
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:624
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 #, fuzzy
 msgid "No devices"
@@ -920,7 +931,7 @@ msgid ""
 "production environments."
 msgstr ""
 
-#: src/components/Error.jsx:180
+#: src/components/Error.jsx:181
 msgid "Open Bugzilla bug entry form"
 msgstr ""
 
@@ -967,7 +978,7 @@ msgstr "De wachtwurdsrigels binne net gelyk."
 msgid "Pending"
 msgstr ""
 
-#: src/components/Error.jsx:93
+#: src/components/Error.jsx:94
 msgid "Please attach the log file $0 to the issue."
 msgstr ""
 
@@ -983,6 +994,10 @@ msgstr ""
 msgid "Pool"
 msgstr ""
 
+#: src/components/Error.jsx:303
+msgid "Potential duplicate bugs found"
+msgstr ""
+
 #: src/components/HeaderKebab.jsx:49
 msgid "Powered by Anaconda"
 msgstr ""
@@ -991,18 +1006,18 @@ msgstr ""
 msgid "Pre-release"
 msgstr ""
 
-#: src/components/Error.jsx:178
+#: src/components/Error.jsx:179
 msgid "Prefer to report manually? $0"
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:674
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:687
 #, fuzzy
 #| msgid "Failed to proceed with the installation."
 msgid "Proceed with installation"
 msgstr "Kin net troch gean mei de ynstallaasje."
 
 #: src/components/AnacondaWizardFooter.jsx:84
-#: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:736
+#: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:848
 msgid "Quit"
 msgstr "Ofslute"
 
@@ -1041,7 +1056,7 @@ msgid "Real hostname must be 64 characters or less"
 msgstr ""
 
 #: src/components/AnacondaWizardFooter.jsx:84
-#: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:736
+#: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:848
 #: src/components/installation/InstallationProgress.jsx:200
 #, fuzzy
 msgid "Reboot"
@@ -1074,7 +1089,7 @@ msgstr "Frije rômte"
 msgid "Reclaim space (required)"
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:228
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:230
 msgid "Recommended"
 msgstr ""
 
@@ -1082,8 +1097,8 @@ msgstr ""
 msgid "Recommended partitions:"
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:406
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:408
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:621
 msgid "Reformat"
 msgstr ""
 
@@ -1096,8 +1111,8 @@ msgstr "Ynstallearje"
 
 #: src/components/localization/Keyboard.jsx:155
 #: src/components/localization/Keyboard.jsx:159
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:433
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:435
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:622
 msgid "Remove"
 msgstr ""
 
@@ -1134,23 +1149,23 @@ msgstr ""
 msgid "Report Issue"
 msgstr ""
 
-#: src/components/Error.jsx:159
+#: src/components/Error.jsx:160
 msgid ""
 "Report an issue or provide feedback by opening the Bugzilla bug entry form "
 "$0."
 msgstr ""
 
-#: src/components/Error.jsx:601 src/components/Error.jsx:768
+#: src/components/Error.jsx:713 src/components/Error.jsx:880
 msgid "Report issue"
 msgstr ""
 
-#: src/components/Error.jsx:601
+#: src/components/Error.jsx:713
 #, fuzzy
 #| msgid "testing status..."
 msgid "Reporting issue..."
 msgstr "status oan it testen..."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:227
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 #, fuzzy
 msgid "Required"
 msgstr "Net registrearre."
@@ -1183,11 +1198,11 @@ msgstr "Standert Partysje"
 msgid "Resizing the following partitions from $0: $1"
 msgstr ""
 
-#: src/components/Error.jsx:352
+#: src/components/Error.jsx:399
 msgid "Restrict access to the report"
 msgstr ""
 
-#: src/components/Error.jsx:354
+#: src/components/Error.jsx:401
 msgid "Restricts the report to the $0 group. $1"
 msgstr ""
 
@@ -1196,7 +1211,7 @@ msgstr ""
 msgid "Return to installation"
 msgstr "Ynstallaasje"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:659
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:672
 #, fuzzy
 msgid "Return to storage editor"
 msgstr "Ynstallaasje"
@@ -1261,8 +1276,8 @@ msgstr ""
 msgid "Select"
 msgstr "Tafoegen fan apparaat mislearre."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:302
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:336
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:304
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:338
 #, fuzzy
 msgid "Select a device"
 msgstr "Tafoegen fan apparaat mislearre."
@@ -1286,7 +1301,7 @@ msgstr "om mei de ynstallaasje útein te setten"
 msgid "Selected (top = current)"
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:118
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:120
 msgid "Selected device's format '$0' cannot be reformatted."
 msgstr ""
 
@@ -1323,7 +1338,7 @@ msgstr ""
 msgid "Show AM/PM"
 msgstr ""
 
-#: src/components/Error.jsx:229
+#: src/components/Error.jsx:230
 msgid "Show API key"
 msgstr ""
 
@@ -1368,7 +1383,7 @@ msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
 
-#: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:49
+#: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:52
 msgid "Some required partitions are missing: $0"
 msgstr ""
 
@@ -1376,7 +1391,7 @@ msgstr ""
 msgid "Space"
 msgstr ""
 
-#: src/components/Error.jsx:279
+#: src/components/Error.jsx:280
 msgid "Stacktrace"
 msgstr ""
 
@@ -1420,7 +1435,7 @@ msgstr ""
 msgid "Storage plugin failed"
 msgstr "Ynstallaasje"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:604
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:617
 msgid "Storage requirements not met"
 msgstr ""
 
@@ -1465,6 +1480,12 @@ msgstr ""
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr ""
 
+#: src/components/Error.jsx:308
+msgid ""
+"The following open bugs may be related to your issue. Please review them "
+"before creating a new report."
+msgstr ""
+
 #: src/components/users/Accounts.jsx:47
 #, fuzzy
 #| msgid "User %s will be created"
@@ -1479,13 +1500,13 @@ msgid ""
 "selected disks is only $1."
 msgstr ""
 
-#: src/components/Error.jsx:676
+#: src/components/Error.jsx:788
 #, fuzzy
 msgid "The installer cannot continue due to a critical error."
 msgstr ""
 "De ynstallaasje kin net fierder gean en it systeem sil opnij opstart wurde"
 
-#: src/components/Error.jsx:675
+#: src/components/Error.jsx:787
 #, fuzzy
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr ""
@@ -1512,7 +1533,7 @@ msgid ""
 "not intended to be used in a typical installation."
 msgstr ""
 
-#: src/components/Error.jsx:378
+#: src/components/Error.jsx:425
 msgid ""
 "These log files may contain sensitive information such as IP addresses, "
 "usernames, or other system details."
@@ -1534,7 +1555,7 @@ msgstr ""
 msgid "This may take a moment"
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:462
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:475
 msgid "This will take a few moments"
 msgstr ""
 
@@ -1549,7 +1570,7 @@ msgstr ""
 msgid "Timezone"
 msgstr "Tiidsône: %s\n"
 
-#: src/components/Error.jsx:330
+#: src/components/Error.jsx:377
 msgid "Title"
 msgstr ""
 
@@ -1594,14 +1615,14 @@ msgstr ""
 msgid "Unlock"
 msgstr ""
 
-#: src/components/storage/installation-method/EncryptedDevices.jsx:64
-msgid ""
-"Unlock LUKS-encrypted partitions to keep existing data and show more "
-"installation methods."
-msgstr ""
-
 #: src/components/storage/installation-method/EncryptedDevices.jsx:138
 msgid "Unlock encrypted devices"
+msgstr ""
+
+#: src/components/storage/installation-method/EncryptedDevices.jsx:64
+msgid ""
+"Unlock encrypted partitions to keep existing data and show more installation "
+"methods."
 msgstr ""
 
 #: src/components/storage/scenarios/use-configured-storage/index.js:27
@@ -1617,7 +1638,7 @@ msgstr "Opslach oan it ynstellen"
 msgid "Use entire disk"
 msgstr "Tekst modus brûke"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:639
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:652
 #, fuzzy
 #| msgid "Not enough free space on selected disks."
 msgid "Use free space"
@@ -1629,7 +1650,7 @@ msgstr "Net genôch frije romte op selektearre skiven."
 msgid "Use local account"
 msgstr "Brûker oanmeitsje"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:638
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:651
 msgid "Use the RAID device for automatic partitioning"
 msgstr ""
 
@@ -1659,7 +1680,7 @@ msgstr "Brûkersnamme is reservearre foar systeem: %s"
 msgid "User names must be shorter than 33 characters"
 msgstr "Namme moat koarter wêze as 33 tekens."
 
-#: src/components/Error.jsx:581
+#: src/components/Error.jsx:668
 #, fuzzy
 #| msgid "Installing."
 msgid "Validating..."
@@ -1683,7 +1704,7 @@ msgstr "Wolkom by Fedora"
 msgid "Welcome. Let's install $0 now."
 msgstr ""
 
-#: src/components/Error.jsx:373
+#: src/components/Error.jsx:420
 msgid ""
 "When you submit this bug report, the following log files will be uploaded "
 "automatically: $0"
@@ -1699,7 +1720,7 @@ msgid ""
 "rest or manually set up partitions."
 msgstr ""
 
-#: src/components/Error.jsx:238
+#: src/components/Error.jsx:239
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr ""
 
@@ -1755,7 +1776,7 @@ msgstr "Standert Partysje"
 msgid "format as $0"
 msgstr ""
 
-#: src/components/Error.jsx:161 src/components/Error.jsx:241
+#: src/components/Error.jsx:162 src/components/Error.jsx:242
 msgid "here"
 msgstr ""
 
@@ -1774,7 +1795,7 @@ msgstr "Yndieling tafoegje"
 msgid "pending step"
 msgstr ""
 
-#: src/components/Error.jsx:384
+#: src/components/Error.jsx:431
 msgid "report the issue manually"
 msgstr ""
 

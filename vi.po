@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 38.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-11 04:06+0000\n"
+"POT-Creation-Date: 2026-08-12 04:26+0000\n"
 "PO-Revision-Date: 2026-04-09 04:59+0000\n"
 "Last-Translator: Khoa Le <inctenone@gmail.com>\n"
 "Language-Team: Vietnamese <https://translate.fedoraproject.org/projects/"
@@ -24,14 +24,14 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0$1"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:349
 #: src/components/storage/installation-method/InstallationDestination.jsx:162
 #: src/components/storage/installation-method/InstallationDestination.jsx:268
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
 #: src/components/storage/Common.jsx:58
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:72
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 msgid "$0 error"
 msgid_plural "$0 errors"
 msgstr[0] ""
@@ -57,7 +57,7 @@ msgid "$0 is required, but only $1 is available."
 msgstr "$0 là bắt buộc, nhưng chỉ có $1 sẵn có."
 
 #: src/components/storage/Common.jsx:74
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:88
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
 msgid "$0 warning"
 msgid_plural "$0 warnings"
 msgstr[0] "$0 cảnh báo"
@@ -66,28 +66,28 @@ msgstr[0] "$0 cảnh báo"
 msgid "$0 will be deleted"
 msgstr "$0 sẽ được xoá"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:188
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:190
 msgid "'$0' filesystem cannot be on an encrypted block device"
 msgstr "Hệ thống tập tin '$0' không thể nằm trên thiết bị khối mã hóa"
 
-#: src/helpers/storage.js:231
+#: src/helpers/storage.js:267
 #, fuzzy
 #| msgid "'$0' must be on a device formatted to '$1'"
 msgid "'$0' must be assigned to $1"
 msgstr "'$0' phải được lưu vào thiết bị có định dạng '$1'"
 
-#: src/helpers/storage.js:234
+#: src/helpers/storage.js:270
 msgid "'$0' must be on a device formatted to '$1'"
 msgstr "'$0' phải được lưu vào thiết bị có định dạng '$1'"
 
-#: src/helpers/storage.js:225
+#: src/helpers/storage.js:261
 msgid ""
 "'$0' must be on an EFI System Partition. The selected partition uses a FAT "
 "filesystem, but is not marked as an ESP. Set the partition type to EFI "
 "System and enable the esp flag."
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:270
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:272
 msgid ""
 "'$0' partition on MDRAID device $1 found. Bootloader partitions on MDRAID "
 "devices are not supported."
@@ -125,7 +125,7 @@ msgstr "Hoạt động"
 msgid "Add another server..."
 msgstr "Thêm máy chủ khác..."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:642
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:644
 msgid "Add mount"
 msgstr "Thêm điểm gắn kết"
 
@@ -180,7 +180,7 @@ msgid ""
 msgstr ""
 "Gán phân vùng vào điểm gắn kết. Hữu ích cho bố cục tuỳ chỉnh cấu hình sẵn."
 
-#: src/components/Error.jsx:367
+#: src/components/Error.jsx:414
 msgid "Automatic log file upload"
 msgstr "Tự động tải lên file nhật ký"
 
@@ -197,7 +197,8 @@ msgstr "Tự động thiết lập múi giờ"
 msgid "Available free space: $0. Installation requires: $1."
 msgstr "Bộ nhớ còn trống: $0. Việc cài đặt cần: $1."
 
-#: src/components/AnacondaWizardFooter.jsx:62 src/components/Error.jsx:591
+#: src/components/AnacondaWizardFooter.jsx:62 src/components/Error.jsx:678
+#: src/components/Error.jsx:703
 msgid "Back"
 msgstr "Quay lại"
 
@@ -205,15 +206,15 @@ msgstr "Quay lại"
 msgid "Base environment"
 msgstr "Môi trường cơ bản"
 
-#: src/components/Error.jsx:338
+#: src/components/Error.jsx:385
 msgid "Brief description of the issue"
 msgstr "Mô tả ngắn gọn về vấn đề"
 
-#: src/components/Error.jsx:327
+#: src/components/Error.jsx:374
 msgid "Bug report details"
 msgstr "Chi tiết báo cáo lỗi"
 
-#: src/components/Error.jsx:212
+#: src/components/Error.jsx:213
 msgid "Bugzilla API key"
 msgstr "Khóa API Bugzilla"
 
@@ -229,7 +230,7 @@ msgstr ""
 "cho mục đích thử nghiệm và phát triển, và sẵn sàng báo cáo bất kỳ lỗi hoặc "
 "sự cố nào để cải thiện phần mềm này."
 
-#: src/components/datetime/CustomNTPModal.jsx:252 src/components/Error.jsx:759
+#: src/components/datetime/CustomNTPModal.jsx:252 src/components/Error.jsx:871
 #: src/components/localization/Keyboard.jsx:280
 #: src/components/storage/installation-method/InstallationDestination.jsx:371
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
@@ -274,8 +275,8 @@ msgid "Checking installation configuration..."
 msgstr "Đang kiểm tra các cài đặt bộ nhớ"
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:39
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:461
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:467
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:474
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:480
 msgid "Checking storage configuration"
 msgstr "Đang kiểm tra các cài đặt bộ nhớ"
 
@@ -297,7 +298,7 @@ msgstr "Đóng"
 msgid "Close storage editor"
 msgstr "Đóng trình chỉnh sửa lưu trữ"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:314
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:327
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
@@ -328,7 +329,7 @@ msgstr "Cấu hình mạng"
 msgid "Configure storage"
 msgstr "Cài đặt bộ nhớ"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:668
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:681
 msgid "Configure storage again"
 msgstr "Cài đặt lại bộ nhớ"
 
@@ -337,7 +338,7 @@ msgstr "Cài đặt lại bộ nhớ"
 msgid "Confirm passphrase"
 msgstr "Xác nhận chuỗi mật khẩu"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:653
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:666
 msgid "Continue"
 msgstr "Tiếp tục"
 
@@ -352,7 +353,7 @@ msgstr "Tiếp tục cài đặt"
 msgid "Continue installation?"
 msgstr "Tiếp tục cài đặt"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:606
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:619
 msgid "Continue with installation"
 msgstr "Tiếp tục cài đặt"
 
@@ -372,7 +373,7 @@ msgstr "Tạo tài khoản"
 msgid "Currently installed: $0"
 msgstr "Đang cài đặt: $0"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:231
 msgid "Custom"
 msgstr "Tùy chỉnh"
 
@@ -395,7 +396,7 @@ msgstr "phân vùng mở rộng"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Xóa một số phân vùng có thể khiến $0 không khởi động được: $1"
 
-#: src/components/Error.jsx:268
+#: src/components/Error.jsx:269
 msgid "Description"
 msgstr "Mô tả"
 
@@ -407,24 +408,24 @@ msgstr "Đích đến"
 msgid "Destination is encrypted"
 msgstr "Đích đến đã được mã hóa"
 
-#: src/components/Error.jsx:273
+#: src/components/Error.jsx:274
 msgid "Detailed description of the issue"
 msgstr "Mô tả chi tiết về vấn đề"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:632
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:645
 msgid "Detected valid storage layout:"
 msgstr "Đã phát hiện bố cục lưu trữ hợp lệ:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:618
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 #: src/components/storage/StorageReview.jsx:244
 msgid "Device"
 msgstr "Thiết bị"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:386
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 msgid "Duplicate device."
 msgstr "Thiết bị trùng lặp."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:235
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:237
 msgid "Duplicate mount point."
 msgstr "Điểm gắn kết trùng lặp."
 
@@ -444,7 +445,7 @@ msgstr "Đã mã hóa"
 msgid "Encryption"
 msgstr "Mã hóa"
 
-#: src/components/Error.jsx:203
+#: src/components/Error.jsx:204
 msgid ""
 "Enter your Bugzilla API key to create a bug report. You will be able to "
 "review and edit the bug details in the next step."
@@ -452,7 +453,7 @@ msgstr ""
 "Nhập khóa API Bugzilla của bạn để tạo báo cáo lỗi. Bạn sẽ có thể xem xét và "
 "chỉnh sửa chi tiết lỗi ở bước tiếp theo."
 
-#: src/components/Error.jsx:285
+#: src/components/Error.jsx:286
 msgid "Environment"
 msgstr "Môi trường"
 
@@ -460,7 +461,7 @@ msgstr "Môi trường"
 msgid "Erase data and install"
 msgstr "Xóa dữ liệu và cài đặt"
 
-#: src/components/Error.jsx:716
+#: src/components/Error.jsx:828
 msgid "Error details"
 msgstr "Chi tiết lỗi"
 
@@ -473,7 +474,7 @@ msgstr "Thoát về màn hình trực tiếp"
 msgid "Extended partition"
 msgstr "Phân vùng mở rộng"
 
-#: src/components/Error.jsx:318
+#: src/components/Error.jsx:365
 msgid "Failed to report issue"
 msgstr "Báo cáo lỗi thất bại"
 
@@ -521,7 +522,7 @@ msgstr "Họ và tên không được chứa ký tự dấu hai chấm"
 msgid "Helper text"
 msgstr "Chữ hướng dẫn"
 
-#: src/components/Error.jsx:229
+#: src/components/Error.jsx:230
 msgid "Hide API key"
 msgstr "Ẩn khóa API"
 
@@ -569,7 +570,7 @@ msgstr ""
 msgid "If you are configuring partitions the following are required:"
 msgstr "Nếu bạn tuỳ biến phân vùng ổ cứng, những thứ sau là cần thiết:"
 
-#: src/components/Error.jsx:382
+#: src/components/Error.jsx:429
 msgid ""
 "If you do not consent to automatic log file upload, you can $0 instead. "
 "Manual reporting allows you to review and selectively attach log files "
@@ -586,6 +587,12 @@ msgstr ""
 "Nếu bạn không hiểu hoặc không chấp nhận rủi ro, vui lòng thoát khỏi chương "
 "trình này."
 
+#: src/components/Error.jsx:335
+msgid ""
+"If your issue matches one of the bugs above, you can open it and add your "
+"information there instead of creating a duplicate report."
+msgstr ""
+
 #: src/components/installation/InstallationProgress.jsx:236
 msgid "In progress"
 msgstr "Đang trong quá trình"
@@ -600,7 +607,7 @@ msgstr "Đang khởi tạo..."
 msgid "Install"
 msgstr "Cài đặt"
 
-#: src/components/Error.jsx:747
+#: src/components/Error.jsx:859
 #: src/components/installation/InstallationProgress.jsx:171
 msgid "Installation failed"
 msgstr "Cài đặt thất bại"
@@ -631,7 +638,7 @@ msgstr "Đang cài đặt"
 msgid "Insufficient disk space"
 msgstr "Dung lượng đĩa không đủ"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:253
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:255
 msgid ""
 "Invalid RAID configuration detected. If your RAID array is created directly "
 "on top of disks, a partition table must be created on the array. If your "
@@ -680,7 +687,7 @@ msgstr "Ngôn ngữ"
 msgid "Launch storage editor"
 msgstr "Mở trình thiết đặt bộ nhớ"
 
-#: src/components/Error.jsx:358
+#: src/components/Error.jsx:405
 msgid "Learn more about restricted access in the configuration"
 msgstr "Tìm hiểu thêm về quyền truy cập bị hạn chế trong cấu hình"
 
@@ -725,16 +732,16 @@ msgstr "Trung gian"
 msgid "Minimum of $0 required"
 msgstr "Yêu cầu tối thiểu $0"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:135
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr "Lựa chọn định dạng lại không khớp giữa thiết bị cha và thiết bị con."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
 #: src/components/storage/StorageReview.jsx:248
 msgid "Mount point"
 msgstr "Điểm gắn kết"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
 msgid "Mount point assignment"
 msgstr "Phân bổ điểm gắn kết"
@@ -752,6 +759,10 @@ msgstr "Di chuyển lên"
 #: src/components/Password.jsx:31
 msgid "Must be at least $0 characters"
 msgstr "Phải chứa ít nhất $0 kí tự"
+
+#: src/components/Error.jsx:686
+msgid "My issue is different, continue"
+msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:157
 msgid "NTP Servers"
@@ -778,14 +789,14 @@ msgstr ""
 msgid "Network Configuration"
 msgstr "Cấu hình mạng"
 
-#: src/components/Error.jsx:624
+#: src/components/Error.jsx:736
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
 "the issue."
 msgstr ""
 "Không có kết nối. Hãy thiết đặt mạng ở thanh công cụ phía trên để báo lỗi."
 
-#: src/components/Error.jsx:625
+#: src/components/Error.jsx:737
 msgid "Network not available. Configure the network to report the issue."
 msgstr "Không có kết nối. Hãy thiết đặt mạng để báo lỗi."
 
@@ -793,11 +804,11 @@ msgstr "Không có kết nối. Hãy thiết đặt mạng để báo lỗi."
 msgid "Network plugin failed"
 msgstr "Lỗi plugin mạng"
 
-#: src/components/AnacondaWizardFooter.jsx:71 src/components/Error.jsx:581
+#: src/components/AnacondaWizardFooter.jsx:71 src/components/Error.jsx:668
 msgid "Next"
 msgstr "Tiếp tục"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:622
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:624
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 msgid "No devices"
 msgstr "Không có thiết bị"
@@ -854,7 +865,7 @@ msgstr ""
 "nghiệm. KHÔNG sử dụng phần mềm này cho bất kỳ công việc quan trọng nào hoặc "
 "trong môi trường thật."
 
-#: src/components/Error.jsx:180
+#: src/components/Error.jsx:181
 msgid "Open Bugzilla bug entry form"
 msgstr "Mở biểu mẫu báo lỗi Bugzilla"
 
@@ -893,7 +904,7 @@ msgstr "Chuỗi mật khẩu phải trùng khớp"
 msgid "Pending"
 msgstr "Đang chờ xử lý"
 
-#: src/components/Error.jsx:93
+#: src/components/Error.jsx:94
 msgid "Please attach the log file $0 to the issue."
 msgstr "Vui lòng đính kèm file nhật ký $0 vào báo cáo."
 
@@ -905,6 +916,10 @@ msgstr "Vui lòng chọn ít nhất một đĩa để tiếp tục"
 msgid "Pool"
 msgstr "Nhóm"
 
+#: src/components/Error.jsx:303
+msgid "Potential duplicate bugs found"
+msgstr ""
+
 #: src/components/HeaderKebab.jsx:49
 msgid "Powered by Anaconda"
 msgstr "Cung cấp bởi Anaconda"
@@ -913,16 +928,16 @@ msgstr "Cung cấp bởi Anaconda"
 msgid "Pre-release"
 msgstr "Bản thử nghiệm"
 
-#: src/components/Error.jsx:178
+#: src/components/Error.jsx:179
 msgid "Prefer to report manually? $0"
 msgstr "Bạn muốn báo cáo thủ công? $0"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:674
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:687
 msgid "Proceed with installation"
 msgstr "Tiếp tục đến cài đặt"
 
 #: src/components/AnacondaWizardFooter.jsx:84
-#: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:736
+#: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:848
 msgid "Quit"
 msgstr "Thoát"
 
@@ -959,7 +974,7 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "Tên máy (hostname) phải ngắn hơn 64 kí tự"
 
 #: src/components/AnacondaWizardFooter.jsx:84
-#: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:736
+#: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:848
 #: src/components/installation/InstallationProgress.jsx:200
 msgid "Reboot"
 msgstr "Khởi động lại"
@@ -990,7 +1005,7 @@ msgstr "Thu hồi dung lượng"
 msgid "Reclaim space (required)"
 msgstr "Thu hồi dung lượng (bắt buộc)"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:228
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:230
 msgid "Recommended"
 msgstr "Đề xuất"
 
@@ -998,8 +1013,8 @@ msgstr "Đề xuất"
 msgid "Recommended partitions:"
 msgstr "Phân vùng được đề xuất:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:406
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:408
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:621
 msgid "Reformat"
 msgstr "Định dạng lại"
 
@@ -1010,8 +1025,8 @@ msgstr "Cài đặt lại Fedora"
 
 #: src/components/localization/Keyboard.jsx:155
 #: src/components/localization/Keyboard.jsx:159
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:433
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:435
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:622
 msgid "Remove"
 msgstr "Xoá"
 
@@ -1053,7 +1068,7 @@ msgstr "Thay thế cài đặt hiện tại, nhưng giữ lại các file trong 
 msgid "Report Issue"
 msgstr "Báo lỗi"
 
-#: src/components/Error.jsx:159
+#: src/components/Error.jsx:160
 msgid ""
 "Report an issue or provide feedback by opening the Bugzilla bug entry form "
 "$0."
@@ -1061,15 +1076,15 @@ msgstr ""
 "Báo cáo sự cố hoặc gửi phản hồi bằng cách mở biểu mẫu báo cáo lỗi trên "
 "Bugzilla $0."
 
-#: src/components/Error.jsx:601 src/components/Error.jsx:768
+#: src/components/Error.jsx:713 src/components/Error.jsx:880
 msgid "Report issue"
 msgstr "Báo lỗi"
 
-#: src/components/Error.jsx:601
+#: src/components/Error.jsx:713
 msgid "Reporting issue..."
 msgstr "Đang báo lỗi..."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:227
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 msgid "Required"
 msgstr "Bắt buộc"
 
@@ -1099,11 +1114,11 @@ msgstr "Phân vùng mở rộng"
 msgid "Resizing the following partitions from $0: $1"
 msgstr "Thay đổi kích thước phân vùng từ $0 thành $1"
 
-#: src/components/Error.jsx:352
+#: src/components/Error.jsx:399
 msgid "Restrict access to the report"
 msgstr "Hạn chế quyền truy cập vào báo cáo"
 
-#: src/components/Error.jsx:354
+#: src/components/Error.jsx:401
 msgid "Restricts the report to the $0 group. $1"
 msgstr "Giới hạn báo cáo trong nhóm $0. $1"
 
@@ -1111,7 +1126,7 @@ msgstr "Giới hạn báo cáo trong nhóm $0. $1"
 msgid "Return to installation"
 msgstr "Quay trở lại cài đặt"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:659
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:672
 msgid "Return to storage editor"
 msgstr "Quay trở lại trình thiết đặt bộ nhớ"
 
@@ -1167,8 +1182,8 @@ msgstr "Bảo mật dữ liệu bằng mã hóa đĩa. Chỉ áp dụng cho các
 msgid "Select"
 msgstr "Chọn"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:302
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:336
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:304
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:338
 msgid "Select a device"
 msgstr "Chọn môt thiết bị"
 
@@ -1188,7 +1203,7 @@ msgstr "Chọn khu vực"
 msgid "Selected (top = current)"
 msgstr "Đã chọn (trên cùng = hiện tại)"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:118
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:120
 msgid "Selected device's format '$0' cannot be reformatted."
 msgstr "Không thể định dạng lại định dạng '$0' của thiết bị đã chọn."
 
@@ -1220,7 +1235,7 @@ msgstr "Chia sẻ đĩa với hệ điều hành khác: $0"
 msgid "Show AM/PM"
 msgstr "Hiển thị AM/PM"
 
-#: src/components/Error.jsx:229
+#: src/components/Error.jsx:230
 msgid "Show API key"
 msgstr "Hiển thị khóa API"
 
@@ -1262,7 +1277,7 @@ msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
 
-#: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:49
+#: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:52
 msgid "Some required partitions are missing: $0"
 msgstr "Một số phân vùng bắt buộc đang bị thiếu: $0"
 
@@ -1270,7 +1285,7 @@ msgstr "Một số phân vùng bắt buộc đang bị thiếu: $0"
 msgid "Space"
 msgstr "Khoảng trống"
 
-#: src/components/Error.jsx:279
+#: src/components/Error.jsx:280
 msgid "Stacktrace"
 msgstr "Dòng theo dõi"
 
@@ -1313,7 +1328,7 @@ msgstr ""
 msgid "Storage plugin failed"
 msgstr "Plugin lưu trữ thất bại"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:604
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:617
 msgid "Storage requirements not met"
 msgstr "Yêu cầu lưu trữ chưa được đáp ứng"
 
@@ -1356,6 +1371,12 @@ msgstr ""
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "Quá trình cài đặt Anaconda đã bị dừng đột ngột."
 
+#: src/components/Error.jsx:308
+msgid ""
+"The following open bugs may be related to your issue. Please review them "
+"before creating a new report."
+msgstr ""
+
 #: src/components/users/Accounts.jsx:47
 msgid "The following user will be created:"
 msgid_plural "The following users will be created:"
@@ -1369,11 +1390,11 @@ msgstr ""
 "Việc cài đặt cần $0 dung lượng đĩa; tuy nhiên, dung lượng của các đĩa được "
 "chọn chỉ là $1."
 
-#: src/components/Error.jsx:676
+#: src/components/Error.jsx:788
 msgid "The installer cannot continue due to a critical error."
 msgstr "Trình cài đặt không thể tiếp tục do lỗi nghiêm trọng."
 
-#: src/components/Error.jsx:675
+#: src/components/Error.jsx:787
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "Trình cài đặt không thể tiếp tục do lỗi nghiêm trọng: $0"
 
@@ -1403,7 +1424,7 @@ msgstr ""
 "vùng. Nó có thể thiết lập LVM và nhiều thứ khác. Công cụ này là tiện ích "
 "nâng cao, không dành cho cài đặt thông thường."
 
-#: src/components/Error.jsx:378
+#: src/components/Error.jsx:425
 msgid ""
 "These log files may contain sensitive information such as IP addresses, "
 "usernames, or other system details."
@@ -1427,7 +1448,7 @@ msgstr "Bố cục này sẽ được dùng để mở khóa hệ thống khi kh
 msgid "This may take a moment"
 msgstr "Việc này cần chút thời gian"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:462
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:475
 msgid "This will take a few moments"
 msgstr "Việc này sẽ cần một ít phút"
 
@@ -1440,7 +1461,7 @@ msgstr "Thời gian"
 msgid "Timezone"
 msgstr "Múi giờ"
 
-#: src/components/Error.jsx:330
+#: src/components/Error.jsx:377
 msgid "Title"
 msgstr "Tiêu đề"
 
@@ -1481,17 +1502,21 @@ msgstr ""
 msgid "Unlock"
 msgstr "Mở khoá"
 
-#: src/components/storage/installation-method/EncryptedDevices.jsx:64
-msgid ""
-"Unlock LUKS-encrypted partitions to keep existing data and show more "
-"installation methods."
-msgstr ""
-"Mở khóa các phân vùng được mã hóa LUKS để giữ dữ liệu hiện có và hiển thị "
-"thêm phương thức cài đặt."
-
 #: src/components/storage/installation-method/EncryptedDevices.jsx:138
 msgid "Unlock encrypted devices"
 msgstr "Mở khoá thiết bị được mã hoá"
+
+#: src/components/storage/installation-method/EncryptedDevices.jsx:64
+#, fuzzy
+#| msgid ""
+#| "Unlock LUKS-encrypted partitions to keep existing data and show more "
+#| "installation methods."
+msgid ""
+"Unlock encrypted partitions to keep existing data and show more installation "
+"methods."
+msgstr ""
+"Mở khóa các phân vùng được mã hóa LUKS để giữ dữ liệu hiện có và hiển thị "
+"thêm phương thức cài đặt."
 
 #: src/components/storage/scenarios/use-configured-storage/index.js:27
 #: src/components/storage/scenarios/use-configured-storage/index.js:41
@@ -1502,7 +1527,7 @@ msgstr "Sử dụng lưu trữ đã cấu hình"
 msgid "Use entire disk"
 msgstr "Sử dụng toàn bộ ổ đĩa"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:639
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:652
 msgid "Use free space"
 msgstr "Sử dụng dung lượng trống"
 
@@ -1510,7 +1535,7 @@ msgstr "Sử dụng dung lượng trống"
 msgid "Use local account"
 msgstr "Sử dụng tài khoản cục bộ"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:638
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:651
 msgid "Use the RAID device for automatic partitioning"
 msgstr "Sử dụng thiết bị RAID cho phân vùng tự động"
 
@@ -1538,7 +1563,7 @@ msgstr "Tên người dùng không được là từ dành riêng"
 msgid "User names must be shorter than 33 characters"
 msgstr "Tên người dùng phải ngắn hơn 33 ký tự"
 
-#: src/components/Error.jsx:581
+#: src/components/Error.jsx:668
 msgid "Validating..."
 msgstr "Đang xác thực..."
 
@@ -1558,7 +1583,7 @@ msgstr "Chào mừng đến với Fedora Linux"
 msgid "Welcome. Let's install $0 now."
 msgstr "Chào mừng. Hãy cài đặt $0 ngay bây giờ."
 
-#: src/components/Error.jsx:373
+#: src/components/Error.jsx:420
 msgid ""
 "When you submit this bug report, the following log files will be uploaded "
 "automatically: $0"
@@ -1578,7 +1603,7 @@ msgstr ""
 "Bạn có thể giải phóng đủ dung lượng tại đây và để trình cài đặt xử lý phần "
 "còn lại, hoặc tự thiết lập các phân vùng."
 
-#: src/components/Error.jsx:238
+#: src/components/Error.jsx:239
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr "Bạn có thể tạo khóa API cho tài khoản Bugzilla của mình $0."
 
@@ -1631,7 +1656,7 @@ msgstr "phân vùng mở rộng"
 msgid "format as $0"
 msgstr "Định dạng là $0"
 
-#: src/components/Error.jsx:161 src/components/Error.jsx:241
+#: src/components/Error.jsx:162 src/components/Error.jsx:242
 msgid "here"
 msgstr "tại đây"
 
@@ -1649,7 +1674,7 @@ msgstr "gắn kết"
 msgid "pending step"
 msgstr "buớc đang chờ"
 
-#: src/components/Error.jsx:384
+#: src/components/Error.jsx:431
 msgid "report the issue manually"
 msgstr "báo cáo sự cố thủ công"
 

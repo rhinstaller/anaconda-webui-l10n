@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-11 04:06+0000\n"
+"POT-Creation-Date: 2026-08-12 04:26+0000\n"
 "PO-Revision-Date: 2026-07-13 05:54+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/anaconda-"
@@ -54,14 +54,14 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:347
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:349
 #: src/components/storage/installation-method/InstallationDestination.jsx:162
 #: src/components/storage/installation-method/InstallationDestination.jsx:268
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
 #: src/components/storage/Common.jsx:58
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:72
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 msgid "$0 error"
 msgid_plural "$0 errors"
 msgstr[0] "$0 오류"
@@ -87,7 +87,7 @@ msgid "$0 is required, but only $1 is available."
 msgstr "$0 가 필요하나, $1 만 사용 할 수 있습니다."
 
 #: src/components/storage/Common.jsx:74
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:88
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
 msgid "$0 warning"
 msgid_plural "$0 warnings"
 msgstr[0] "$0 경고"
@@ -96,19 +96,19 @@ msgstr[0] "$0 경고"
 msgid "$0 will be deleted"
 msgstr "$0가 삭제됩니다"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:188
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:190
 msgid "'$0' filesystem cannot be on an encrypted block device"
 msgstr "'$0' 파일시스템은 암호화된 블록 장치에 있을 수 없습니다"
 
-#: src/helpers/storage.js:231
+#: src/helpers/storage.js:267
 msgid "'$0' must be assigned to $1"
 msgstr "'$0'는 '$1'으로 할당 되어야 합니다"
 
-#: src/helpers/storage.js:234
+#: src/helpers/storage.js:270
 msgid "'$0' must be on a device formatted to '$1'"
 msgstr "'$0' 는 '$1'으로 초기화된 장치에 있어야 합니다"
 
-#: src/helpers/storage.js:225
+#: src/helpers/storage.js:261
 msgid ""
 "'$0' must be on an EFI System Partition. The selected partition uses a FAT "
 "filesystem, but is not marked as an ESP. Set the partition type to EFI "
@@ -118,7 +118,7 @@ msgstr ""
 "하지만, ESP로 표시되지 않습니다. 파티션 유형을 EFI System으로 설정하고 esp 플"
 "래그를 활성화합니다."
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:270
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:272
 msgid ""
 "'$0' partition on MDRAID device $1 found. Bootloader partitions on MDRAID "
 "devices are not supported."
@@ -153,7 +153,7 @@ msgstr "동작"
 msgid "Add another server..."
 msgstr "다른 서버 추가..."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:642
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:644
 msgid "Add mount"
 msgstr "적재를 추가합니다"
 
@@ -208,7 +208,7 @@ msgstr ""
 "파티션을 적재 지점에 할당합니다. 사전-구성된 사용자 정의 배열을 위해 유용합니"
 "다."
 
-#: src/components/Error.jsx:367
+#: src/components/Error.jsx:414
 msgid "Automatic log file upload"
 msgstr "자동 기록 파일 올려놓기"
 
@@ -225,7 +225,8 @@ msgstr "자동으로 시간대를 설정합니다"
 msgid "Available free space: $0. Installation requires: $1."
 msgstr "사용 가능한 여유 공간: $0. 설치에 필요합니다: $1."
 
-#: src/components/AnacondaWizardFooter.jsx:62 src/components/Error.jsx:591
+#: src/components/AnacondaWizardFooter.jsx:62 src/components/Error.jsx:678
+#: src/components/Error.jsx:703
 msgid "Back"
 msgstr "뒤로"
 
@@ -233,15 +234,15 @@ msgstr "뒤로"
 msgid "Base environment"
 msgstr "기본 환경"
 
-#: src/components/Error.jsx:338
+#: src/components/Error.jsx:385
 msgid "Brief description of the issue"
 msgstr "사건에 대한 간략한 설명"
 
-#: src/components/Error.jsx:327
+#: src/components/Error.jsx:374
 msgid "Bug report details"
 msgstr "결점 보고 세부 정보"
 
-#: src/components/Error.jsx:212
+#: src/components/Error.jsx:213
 msgid "Bugzilla API key"
 msgstr "버그질라 API 키"
 
@@ -256,7 +257,7 @@ msgstr ""
 "업을 향상 시키기 위해 결점 또는 문제점을 기꺼이 보고하고자 하는 사전-출시된 "
 "소프트웨어와 관련된 위험을 이해하고 수용합니다."
 
-#: src/components/datetime/CustomNTPModal.jsx:252 src/components/Error.jsx:759
+#: src/components/datetime/CustomNTPModal.jsx:252 src/components/Error.jsx:871
 #: src/components/localization/Keyboard.jsx:280
 #: src/components/storage/installation-method/InstallationDestination.jsx:371
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
@@ -298,8 +299,8 @@ msgid "Checking installation configuration..."
 msgstr "설치 구성 확인 중..."
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:39
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:461
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:467
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:474
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:480
 msgid "Checking storage configuration"
 msgstr "저장소 구성 확인 중"
 
@@ -321,7 +322,7 @@ msgstr "종료"
 msgid "Close storage editor"
 msgstr "저장소 편집기 닫기"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:314
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:327
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
@@ -352,7 +353,7 @@ msgstr "네트워크 구성"
 msgid "Configure storage"
 msgstr "저장소 구성"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:668
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:681
 msgid "Configure storage again"
 msgstr "저장소를 다시 구성합니다"
 
@@ -361,7 +362,7 @@ msgstr "저장소를 다시 구성합니다"
 msgid "Confirm passphrase"
 msgstr "암호문을 확인합니다"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:653
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:666
 msgid "Continue"
 msgstr "진행"
 
@@ -374,7 +375,7 @@ msgstr "설치를 계속합니다"
 msgid "Continue installation?"
 msgstr "설치를 계속할까요?"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:606
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:619
 msgid "Continue with installation"
 msgstr "설치를 계속합니다"
 
@@ -394,7 +395,7 @@ msgstr "계정 생성"
 msgid "Currently installed: $0"
 msgstr "현재 설치됨: $0"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:231
 msgid "Custom"
 msgstr "사용자 지정"
 
@@ -415,7 +416,7 @@ msgstr "파티션 삭제"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "특정 파티션의 삭제는 부팅에서 $0를 예방합니다: $1"
 
-#: src/components/Error.jsx:268
+#: src/components/Error.jsx:269
 msgid "Description"
 msgstr "설명"
 
@@ -427,24 +428,24 @@ msgstr "대상"
 msgid "Destination is encrypted"
 msgstr "대상이 암호화되었습니다"
 
-#: src/components/Error.jsx:273
+#: src/components/Error.jsx:274
 msgid "Detailed description of the issue"
 msgstr "사건에 대한 세부 설명"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:632
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:645
 msgid "Detected valid storage layout:"
 msgstr "탐지된 유효 저장소 배열:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:618
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 #: src/components/storage/StorageReview.jsx:244
 msgid "Device"
 msgstr "장치"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:386
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 msgid "Duplicate device."
 msgstr "중복 장치."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:235
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:237
 msgid "Duplicate mount point."
 msgstr "중복 적재 지점."
 
@@ -464,7 +465,7 @@ msgstr "암호화됨"
 msgid "Encryption"
 msgstr "암호화"
 
-#: src/components/Error.jsx:203
+#: src/components/Error.jsx:204
 msgid ""
 "Enter your Bugzilla API key to create a bug report. You will be able to "
 "review and edit the bug details in the next step."
@@ -472,7 +473,7 @@ msgstr ""
 "자신의 버그질라 API 키를 입력하고 결점 보고를 생성하세요. 당신은 다음 단계에"
 "서 결점을 상세하게 검토하고 편집 할 수 있습니다."
 
-#: src/components/Error.jsx:285
+#: src/components/Error.jsx:286
 msgid "Environment"
 msgstr "환경"
 
@@ -480,7 +481,7 @@ msgstr "환경"
 msgid "Erase data and install"
 msgstr "자료를 지우고 설치합니다"
 
-#: src/components/Error.jsx:716
+#: src/components/Error.jsx:828
 msgid "Error details"
 msgstr "오류 상세"
 
@@ -493,7 +494,7 @@ msgstr "라이브 데스크탑으로 종료"
 msgid "Extended partition"
 msgstr "확장된 파티션"
 
-#: src/components/Error.jsx:318
+#: src/components/Error.jsx:365
 msgid "Failed to report issue"
 msgstr "사건에 대한 보고를 실패함"
 
@@ -540,7 +541,7 @@ msgstr "이름에 쌍점(:)을 사용 할 수 없습니다"
 msgid "Helper text"
 msgstr "텍스트 도우미"
 
-#: src/components/Error.jsx:229
+#: src/components/Error.jsx:230
 msgid "Hide API key"
 msgstr "API 키 숨기기"
 
@@ -587,7 +588,7 @@ msgstr "만약 비었으면, 호스트이름은 일시적이고 네트워크 정
 msgid "If you are configuring partitions the following are required:"
 msgstr "만약 당신이 파티션을 구성하는 경우 다음이 필요합니다:"
 
-#: src/components/Error.jsx:382
+#: src/components/Error.jsx:429
 msgid ""
 "If you do not consent to automatic log file upload, you can $0 instead. "
 "Manual reporting allows you to review and selectively attach log files "
@@ -603,6 +604,12 @@ msgid ""
 msgstr ""
 "이해하지 못하거나 위험을 받아들이지 않으려면, 이 프로그램을 종료하세요."
 
+#: src/components/Error.jsx:335
+msgid ""
+"If your issue matches one of the bugs above, you can open it and add your "
+"information there instead of creating a duplicate report."
+msgstr ""
+
 #: src/components/installation/InstallationProgress.jsx:236
 msgid "In progress"
 msgstr "진행 중"
@@ -617,7 +624,7 @@ msgstr "초기화 중..."
 msgid "Install"
 msgstr "설치"
 
-#: src/components/Error.jsx:747
+#: src/components/Error.jsx:859
 #: src/components/installation/InstallationProgress.jsx:171
 msgid "Installation failed"
 msgstr "설치에 실패했습니다"
@@ -648,7 +655,7 @@ msgstr "설치 중"
 msgid "Insufficient disk space"
 msgstr "불충분한 디스크 공간"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:253
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:255
 msgid ""
 "Invalid RAID configuration detected. If your RAID array is created directly "
 "on top of disks, a partition table must be created on the array. If your "
@@ -696,7 +703,7 @@ msgstr "언어"
 msgid "Launch storage editor"
 msgstr "저장소 편집기 실행"
 
-#: src/components/Error.jsx:358
+#: src/components/Error.jsx:405
 msgid "Learn more about restricted access in the configuration"
 msgstr "구성에서 제한된 접근에 대해 알아보세요"
 
@@ -741,16 +748,16 @@ msgstr "중간"
 msgid "Minimum of $0 required"
 msgstr "최소 $0 가 필요합니다"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:135
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr "상위 장치와 하위 장치 재-초기화 선택이 일치하지 않습니다."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
 #: src/components/storage/StorageReview.jsx:248
 msgid "Mount point"
 msgstr "적재 지점"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:615
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
 msgid "Mount point assignment"
 msgstr "적재 지점 지정"
@@ -768,6 +775,10 @@ msgstr "위로 이동"
 #: src/components/Password.jsx:31
 msgid "Must be at least $0 characters"
 msgstr "적어도 $0 문자이어야 합니다"
+
+#: src/components/Error.jsx:686
+msgid "My issue is different, continue"
+msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:157
 msgid "NTP Servers"
@@ -794,7 +805,7 @@ msgstr "네트워크"
 msgid "Network Configuration"
 msgstr "네트워크 구성"
 
-#: src/components/Error.jsx:624
+#: src/components/Error.jsx:736
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
 "the issue."
@@ -802,7 +813,7 @@ msgstr ""
 "네트워크를 사용 할 수 없습니다. 상단의 표시 메뉴에서 네트워크를 구성하고 문제"
 "를 보고하세요."
 
-#: src/components/Error.jsx:625
+#: src/components/Error.jsx:737
 msgid "Network not available. Configure the network to report the issue."
 msgstr "네트워크를 사용 할 수 없습니다. 네트워크를 구성하고 문제를 보고하세요."
 
@@ -810,11 +821,11 @@ msgstr "네트워크를 사용 할 수 없습니다. 네트워크를 구성하�
 msgid "Network plugin failed"
 msgstr "실패한 네트워크 플로그인"
 
-#: src/components/AnacondaWizardFooter.jsx:71 src/components/Error.jsx:581
+#: src/components/AnacondaWizardFooter.jsx:71 src/components/Error.jsx:668
 msgid "Next"
 msgstr "다음"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:622
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:624
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
 msgid "No devices"
 msgstr "장치 없음"
@@ -868,7 +879,7 @@ msgstr ""
 "주의: 이 배포판은 개발과 시험 목적을 위해서만 의도된 사전-출시된 것입니다. 심"
 "각한 작업 또는 생산환경에서 이 소프트웨를 사용하지 않도록 합니다."
 
-#: src/components/Error.jsx:180
+#: src/components/Error.jsx:181
 msgid "Open Bugzilla bug entry form"
 msgstr "버그질라 결점 보고 양식을 엽니다"
 
@@ -907,7 +918,7 @@ msgstr "암호문은 일치해야 합니다"
 msgid "Pending"
 msgstr "보류 중"
 
-#: src/components/Error.jsx:93
+#: src/components/Error.jsx:94
 msgid "Please attach the log file $0 to the issue."
 msgstr "로그 파일 $0를 문제로 첨부해 주세요."
 
@@ -919,6 +930,12 @@ msgstr "계속 진행하려면 최소 하나의 디스크를 선택해야 합니
 msgid "Pool"
 msgstr "풀"
 
+#: src/components/Error.jsx:303
+#, fuzzy
+#| msgid "No mountable devices found"
+msgid "Potential duplicate bugs found"
+msgstr "적재 할 수 있는 장치를 찾을 수 없음"
+
 #: src/components/HeaderKebab.jsx:49
 msgid "Powered by Anaconda"
 msgstr "아나콘다 제공"
@@ -927,16 +944,16 @@ msgstr "아나콘다 제공"
 msgid "Pre-release"
 msgstr "사전-출시"
 
-#: src/components/Error.jsx:178
+#: src/components/Error.jsx:179
 msgid "Prefer to report manually? $0"
 msgstr "수동으로 보고할까요? $0"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:674
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:687
 msgid "Proceed with installation"
 msgstr "설치로 진행합니다"
 
 #: src/components/AnacondaWizardFooter.jsx:84
-#: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:736
+#: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:848
 msgid "Quit"
 msgstr "종료"
 
@@ -973,7 +990,7 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "실제 호스트이름은 길이로 64 자 이하의 문자여야 합니다"
 
 #: src/components/AnacondaWizardFooter.jsx:84
-#: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:736
+#: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:848
 #: src/components/installation/InstallationProgress.jsx:200
 msgid "Reboot"
 msgstr "재시작"
@@ -1004,7 +1021,7 @@ msgstr "공간 확보"
 msgid "Reclaim space (required)"
 msgstr "공간 확보(필수)"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:228
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:230
 msgid "Recommended"
 msgstr "권장 사항"
 
@@ -1012,8 +1029,8 @@ msgstr "권장 사항"
 msgid "Recommended partitions:"
 msgstr "권장 파티션:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:406
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:408
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:621
 msgid "Reformat"
 msgstr "다시초기화함"
 
@@ -1024,8 +1041,8 @@ msgstr "페도라를 재설치합니다"
 
 #: src/components/localization/Keyboard.jsx:155
 #: src/components/localization/Keyboard.jsx:159
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:433
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:435
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:622
 msgid "Remove"
 msgstr "제거"
 
@@ -1064,22 +1081,22 @@ msgstr "현재 설치를 대체하지만 홈에 파일을 유지합니다."
 msgid "Report Issue"
 msgstr "문제를 보고합니다"
 
-#: src/components/Error.jsx:159
+#: src/components/Error.jsx:160
 msgid ""
 "Report an issue or provide feedback by opening the Bugzilla bug entry form "
 "$0."
 msgstr ""
 "문제를 보고하거나 버그질라 결점 보고 양식 $0 를 열어서 응답을 제공해 주세요."
 
-#: src/components/Error.jsx:601 src/components/Error.jsx:768
+#: src/components/Error.jsx:713 src/components/Error.jsx:880
 msgid "Report issue"
 msgstr "문제를 보고합니다"
 
-#: src/components/Error.jsx:601
+#: src/components/Error.jsx:713
 msgid "Reporting issue..."
 msgstr "문제 보고하기..."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:227
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 msgid "Required"
 msgstr "요구 사항"
 
@@ -1107,11 +1124,11 @@ msgstr "파티션 크기 재지정"
 msgid "Resizing the following partitions from $0: $1"
 msgstr "다음 파티션 크기 조정 중 $0: $1"
 
-#: src/components/Error.jsx:352
+#: src/components/Error.jsx:399
 msgid "Restrict access to the report"
 msgstr "보고서에 대한 접근을 제한합니다"
 
-#: src/components/Error.jsx:354
+#: src/components/Error.jsx:401
 msgid "Restricts the report to the $0 group. $1"
 msgstr "$0 그룹에 대한 보고를 제한합니다. $1"
 
@@ -1119,7 +1136,7 @@ msgstr "$0 그룹에 대한 보고를 제한합니다. $1"
 msgid "Return to installation"
 msgstr "설치로 돌아가기"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:659
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:672
 msgid "Return to storage editor"
 msgstr "저장소 편집기로 돌아갑니다"
 
@@ -1176,8 +1193,8 @@ msgstr ""
 msgid "Select"
 msgstr "선택"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:302
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:336
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:304
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:338
 msgid "Select a device"
 msgstr "장치를 선택합니다"
 
@@ -1197,7 +1214,7 @@ msgstr "지역 선택"
 msgid "Selected (top = current)"
 msgstr "선택됨(상단 = 현재)"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:118
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:120
 msgid "Selected device's format '$0' cannot be reformatted."
 msgstr "선택한 장치의 형식 '$0'은 다시 초기화 될 수 없습니다."
 
@@ -1229,7 +1246,7 @@ msgstr "다른 운영체제와 함께 디스크 공유합니다: $0"
 msgid "Show AM/PM"
 msgstr "오전/오후 표시"
 
-#: src/components/Error.jsx:229
+#: src/components/Error.jsx:230
 msgid "Show API key"
 msgstr "API 키 표시"
 
@@ -1271,7 +1288,7 @@ msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr "당신은 계속 진행하기 전에 몇 가지 설치 단계를 완료해야 합니다."
 
-#: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:49
+#: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:52
 msgid "Some required partitions are missing: $0"
 msgstr "일부 필수 파티션이 누락되었습니다: $0"
 
@@ -1279,7 +1296,7 @@ msgstr "일부 필수 파티션이 누락되었습니다: $0"
 msgid "Space"
 msgstr "공간"
 
-#: src/components/Error.jsx:279
+#: src/components/Error.jsx:280
 msgid "Stacktrace"
 msgstr "스택트레이스"
 
@@ -1322,7 +1339,7 @@ msgstr ""
 msgid "Storage plugin failed"
 msgstr "실패한 저장소 플로그인"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:604
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:617
 msgid "Storage requirements not met"
 msgstr "저장소 요구사항이 충족되지 않았습니다"
 
@@ -1364,6 +1381,12 @@ msgstr "시스템 구성: 소프트웨어 설치 완료. 시스템은 이제 구
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "아나콘다 설치가 갑자기 중지되었습니다."
 
+#: src/components/Error.jsx:308
+msgid ""
+"The following open bugs may be related to your issue. Please review them "
+"before creating a new report."
+msgstr ""
+
 #: src/components/users/Accounts.jsx:47
 msgid "The following user will be created:"
 msgid_plural "The following users will be created:"
@@ -1377,11 +1400,11 @@ msgstr ""
 "설치는 디스크 공간의 $0가 필요합니다; 하지만, 선택된 디스크의 공간은 $1만 있"
 "습니다."
 
-#: src/components/Error.jsx:676
+#: src/components/Error.jsx:788
 msgid "The installer cannot continue due to a critical error."
 msgstr "설치는 심각한 오류로 인하여 계속 할 수 없습니다."
 
-#: src/components/Error.jsx:675
+#: src/components/Error.jsx:787
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "설치자는 심각한 오류로 인해 계속 할 수 없습니다: $0"
 
@@ -1411,7 +1434,7 @@ msgstr ""
 "및 그 이상을 설정 할 수 있습니다. 이는 고급 유틸리티로 사용되도록 하는 것이"
 "고 전형적인 설치에 사용하고자 하는 바는 아닙니다."
 
-#: src/components/Error.jsx:378
+#: src/components/Error.jsx:425
 msgid ""
 "These log files may contain sensitive information such as IP addresses, "
 "usernames, or other system details."
@@ -1435,7 +1458,7 @@ msgstr "이와 같은 나열은 부팅에서 자신의 시스템 잠금 해제�
 msgid "This may take a moment"
 msgstr "시간이 좀 걸릴 수 있습니다"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:462
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:475
 msgid "This will take a few moments"
 msgstr "시간이 좀 걸릴 수 있습니다"
 
@@ -1448,7 +1471,7 @@ msgstr "시간"
 msgid "Timezone"
 msgstr "시간대"
 
-#: src/components/Error.jsx:330
+#: src/components/Error.jsx:377
 msgid "Title"
 msgstr "제목"
 
@@ -1489,17 +1512,21 @@ msgstr "마지막 동작 취소"
 msgid "Unlock"
 msgstr "잠금 해제"
 
-#: src/components/storage/installation-method/EncryptedDevices.jsx:64
-msgid ""
-"Unlock LUKS-encrypted partitions to keep existing data and show more "
-"installation methods."
-msgstr ""
-"LUKS-암호화된 파티션을 잠금을 해제하고 기존 자료를 유지 및 더 많은 설치 방식"
-"을 표시합니다."
-
 #: src/components/storage/installation-method/EncryptedDevices.jsx:138
 msgid "Unlock encrypted devices"
 msgstr "암호화된 장치를 해제합니다"
+
+#: src/components/storage/installation-method/EncryptedDevices.jsx:64
+#, fuzzy
+#| msgid ""
+#| "Unlock LUKS-encrypted partitions to keep existing data and show more "
+#| "installation methods."
+msgid ""
+"Unlock encrypted partitions to keep existing data and show more installation "
+"methods."
+msgstr ""
+"LUKS-암호화된 파티션을 잠금을 해제하고 기존 자료를 유지 및 더 많은 설치 방식"
+"을 표시합니다."
 
 #: src/components/storage/scenarios/use-configured-storage/index.js:27
 #: src/components/storage/scenarios/use-configured-storage/index.js:41
@@ -1510,7 +1537,7 @@ msgstr "구성된 저장소 사용"
 msgid "Use entire disk"
 msgstr "전체 디스크 사용"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:639
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:652
 msgid "Use free space"
 msgstr "여유 공간 사용"
 
@@ -1518,7 +1545,7 @@ msgstr "여유 공간 사용"
 msgid "Use local account"
 msgstr "로컬 계정 사용"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:638
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:651
 msgid "Use the RAID device for automatic partitioning"
 msgstr "자동 파티션을 위해 레이드 장치를 사용합니다"
 
@@ -1546,7 +1573,7 @@ msgstr "사용자 이름은 예약된 단어가 아니어야 합니다"
 msgid "User names must be shorter than 33 characters"
 msgstr "사용자 이름은 33 자보다 짧아야 합니다"
 
-#: src/components/Error.jsx:581
+#: src/components/Error.jsx:668
 msgid "Validating..."
 msgstr "검증 중..."
 
@@ -1566,7 +1593,7 @@ msgstr "페도라 리눅스에 오신 것을 환영합니다"
 msgid "Welcome. Let's install $0 now."
 msgstr "환영합니다. 이제 $0를 설치해요."
 
-#: src/components/Error.jsx:373
+#: src/components/Error.jsx:420
 msgid ""
 "When you submit this bug report, the following log files will be uploaded "
 "automatically: $0"
@@ -1586,7 +1613,7 @@ msgstr ""
 "당신은 여기에서 충분한 공간을 확보하고 설치자가 잔여 부분을 다루거나 파티션"
 "을 수동으로 설정 할 수 있습니다."
 
-#: src/components/Error.jsx:238
+#: src/components/Error.jsx:239
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr "당신은 자신의 버그질라 계정 $0 에서 API 키를 생성 할 수 있습니다."
 
@@ -1640,7 +1667,7 @@ msgstr "확장된 파티션"
 msgid "format as $0"
 msgstr "$0로 초기화"
 
-#: src/components/Error.jsx:161 src/components/Error.jsx:241
+#: src/components/Error.jsx:162 src/components/Error.jsx:242
 msgid "here"
 msgstr "여기"
 
@@ -1656,7 +1683,7 @@ msgstr "적재"
 msgid "pending step"
 msgstr "보류 단계"
 
-#: src/components/Error.jsx:384
+#: src/components/Error.jsx:431
 msgid "report the issue manually"
 msgstr "사건을 수동으로 보고합니다"
 
@@ -4101,9 +4128,6 @@ msgstr "실행취소"
 
 #~ msgid "No match found for given boot drive \"{}\"."
 #~ msgstr "주어진 부팅 드라이브 \"{}\"에 일치하는 항목이 없습니다."
-
-#~ msgid "No mountable devices found"
-#~ msgstr "적재 할 수 있는 장치를 찾을 수 없음"
 
 #~ msgid "No network devices available"
 #~ msgstr "사용 가능한 네트워크 장치가 없음"
