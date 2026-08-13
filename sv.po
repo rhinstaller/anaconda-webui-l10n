@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-12 04:26+0000\n"
+"POT-Creation-Date: 2026-08-13 04:29+0000\n"
 "PO-Revision-Date: 2026-08-13 04:29+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
@@ -121,7 +121,7 @@ msgstr ""
 "'$0' partition på MDRAID enhet $1 hittades. Bootloader-partitioner på MDRAID-"
 "enheter stöds inte."
 
-#: src/components/users/Accounts.jsx:250
+#: src/components/users/Accounts.jsx:256
 msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr ""
@@ -132,7 +132,7 @@ msgstr ""
 msgid "Abort installation"
 msgstr "Avbryt Installation"
 
-#: src/components/HeaderKebab.jsx:126
+#: src/components/HeaderKebab.jsx:121
 msgid "About"
 msgstr "Om"
 
@@ -169,7 +169,7 @@ msgstr "Ytterligare språk"
 msgid "Additional software for the selected environment"
 msgstr "Ytterligare programvara för den valda miljön"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:67
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:55
 msgid "All changes made in the storage editor take effect immediately."
 msgstr ""
 "Alla ändringar som görs i lagringsredigeraren träder i kraft omedelbart."
@@ -182,7 +182,7 @@ msgstr "Alla enheter som använder denna lösenfras kommer att låsas upp"
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/index.html:20
+#: src/login.html:8 src/index.html:20
 msgid "Anaconda Web UI"
 msgstr "Anaconda Webb UI"
 
@@ -243,7 +243,7 @@ msgstr "Felrapport detaljer"
 msgid "Bugzilla API key"
 msgstr "Bugzilla API-nyckel"
 
-#: src/components/AnacondaHeader.jsx:74
+#: src/components/AnacondaHeader.jsx:73
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
 "associated with pre-released software, that you intend to use this for "
@@ -259,7 +259,7 @@ msgstr ""
 #: src/components/localization/Keyboard.jsx:280
 #: src/components/storage/installation-method/InstallationDestination.jsx:371
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
 #: src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "Avbryt"
@@ -286,7 +286,7 @@ msgstr "Ändra partitionslayout"
 msgid "Change system keyboard layout"
 msgstr "Ändra systemets tangentbordslayout"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:139
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:127
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
@@ -317,7 +317,7 @@ msgstr "Klicka på 'Nästa' igen för att fortsätta oavsett dessa varningar."
 msgid "Close"
 msgstr "Stäng"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:143
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:131
 msgid "Close storage editor"
 msgstr "Stäng lagringsredigerare"
 
@@ -326,7 +326,7 @@ msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr "Cockpitlagring gav inte lösenfrasen för att låsa upp krypterad enhet."
 
-#: src/components/installation/InstallationProgress.jsx:231
+#: src/components/installation/InstallationProgress.jsx:263
 msgid "Completed"
 msgstr "Färdig"
 
@@ -347,7 +347,7 @@ msgstr "Konfigurera anpassade NTP-servrar"
 msgid "Configure network"
 msgstr "Konfigurera nätverk"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:129
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:117
 msgid "Configure storage"
 msgstr "Konfigurera lagring"
 
@@ -355,7 +355,7 @@ msgstr "Konfigurera lagring"
 msgid "Configure storage again"
 msgstr "Konfigurera lagring igen"
 
-#: src/components/users/Accounts.jsx:202 src/components/users/Accounts.jsx:405
+#: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
 msgid "Confirm passphrase"
 msgstr "Bekräfta lösenfras"
@@ -385,7 +385,7 @@ msgstr "Åtgärda dessa problem innan du fortsätter."
 msgid "Create Account"
 msgstr "Skapa konto"
 
-#: src/components/users/Accounts.jsx:312
+#: src/components/users/Accounts.jsx:318
 msgid "Create account"
 msgstr "Skapa konto"
 
@@ -447,7 +447,7 @@ msgstr "Duplicera enhet."
 msgid "Duplicate mount point."
 msgstr "Duplicera monteringspunkt."
 
-#: src/components/users/Accounts.jsx:336 src/components/users/Accounts.jsx:387
+#: src/components/users/Accounts.jsx:342 src/components/users/Accounts.jsx:393
 msgid "Enable root account"
 msgstr "Aktivera root-konto"
 
@@ -462,6 +462,14 @@ msgstr "Krypterad"
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:106
 msgid "Encryption"
 msgstr "Kryptering"
+
+#: src/components/login/LoginPage.jsx:88
+msgid "Enter PIN"
+msgstr ""
+
+#: src/components/login/LoginPage.jsx:77
+msgid "Enter PIN to access the installer"
+msgstr ""
 
 #: src/components/Error.jsx:204
 msgid ""
@@ -483,7 +491,7 @@ msgstr "Radera data och installera"
 msgid "Error details"
 msgstr "Feldetaljer"
 
-#: src/components/installation/InstallationProgress.jsx:201
+#: src/components/installation/InstallationProgress.jsx:233
 msgid "Exit to live desktop"
 msgstr "Avsluta till live skrivbord"
 
@@ -504,11 +512,11 @@ msgstr "Misslyckades med att spara layouterna"
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora linux kräver minst $0 diskutrymme."
 
-#: src/components/installation/InstallationProgress.jsx:195
+#: src/components/installation/InstallationProgress.jsx:227
 msgid "Finalization"
 msgstr "Slutför"
 
-#: src/components/installation/InstallationProgress.jsx:193
+#: src/components/installation/InstallationProgress.jsx:225
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -520,7 +528,7 @@ msgstr ""
 msgid "Find layout"
 msgstr "Hitta layout"
 
-#: src/components/users/Accounts.jsx:403
+#: src/components/users/Accounts.jsx:409
 msgid ""
 "For better security, avoid using the root account directly. Instead, use the "
 "local account above to manage the system."
@@ -528,11 +536,11 @@ msgstr ""
 "För bättre säkerhet, undvik att använda root-kontot direkt. Använd istället "
 "det lokala kontot ovan för att hantera systemet."
 
-#: src/components/users/Accounts.jsx:252
+#: src/components/users/Accounts.jsx:258
 msgid "Full name"
 msgstr "Fullständigt namn"
 
-#: src/components/users/Accounts.jsx:188
+#: src/components/users/Accounts.jsx:194
 msgid "Full name cannot contain colon characters"
 msgstr "Det fullständiga namnet får inte innehålla kolontecken"
 
@@ -542,6 +550,12 @@ msgstr "Hjälptext"
 
 #: src/components/Error.jsx:230
 msgid "Hide API key"
+msgstr "Dölj API-nyckel"
+
+#: src/components/login/LoginPage.jsx:94
+#, fuzzy
+#| msgid "Hide API key"
+msgid "Hide PIN"
 msgstr "Dölj API-nyckel"
 
 #: src/components/Password.jsx:265
@@ -560,7 +574,7 @@ msgstr "Dölj lösenord"
 msgid "Hostname"
 msgstr "Värdnamn"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:145
+#: src/components/storage/installation-method/InstallationScenario.jsx:163
 msgid "How would you like to install?"
 msgstr "Hur vill du installera?"
 
@@ -586,6 +600,12 @@ msgstr ""
 "Om det är tomt kommer värdnamnet att vara tillfälligt och ställas in av "
 "nätverksinformation."
 
+#: src/components/storage/installation-method/InstallationScenario.jsx:126
+msgid ""
+"If none of the options above apply, use the storage editor to create a "
+"custom partitioning before proceeding."
+msgstr ""
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:56
 msgid "If you are configuring partitions the following are required:"
 msgstr "Om du konfigurerar partitioner krävs följande:"
@@ -600,7 +620,7 @@ msgstr ""
 "det $0 istället. Manuell rapportering låter dig granska och bifoga loggfiler "
 "själv."
 
-#: src/components/AnacondaHeader.jsx:77
+#: src/components/AnacondaHeader.jsx:76
 msgid ""
 "If you do not understand or accept the risks, then please exit this program."
 msgstr ""
@@ -614,7 +634,7 @@ msgstr ""
 "Om ditt problem matchar en av buggarna ovan kan du öppna den och lägga till "
 "din information där istället för att skapa en duplicerad rapport."
 
-#: src/components/installation/InstallationProgress.jsx:236
+#: src/components/installation/InstallationProgress.jsx:268
 msgid "In progress"
 msgstr "Pågående"
 
@@ -629,7 +649,7 @@ msgid "Install"
 msgstr "Installera"
 
 #: src/components/Error.jsx:859
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:203
 msgid "Installation failed"
 msgstr "installationen misslyckades"
 
@@ -637,13 +657,11 @@ msgstr "installationen misslyckades"
 msgid "Installation method"
 msgstr "Installationsmetod"
 
-#: src/components/installation/InstallationProgress.jsx:119
-#: src/components/installation/InstallationProgress.jsx:140
-#: src/components/installation/InstallationProgress.jsx:145
+#: src/components/installation/InstallationProgress.jsx:60
 msgid "Installation of the system failed"
 msgstr "installationen av systemet misslyckades"
 
-#: src/components/installation/InstallationProgress.jsx:86
+#: src/components/installation/InstallationProgress.jsx:91
 msgid "Installation of the system failed: $0"
 msgstr "installationen av systemet misslyckades: $0"
 
@@ -651,13 +669,17 @@ msgstr "installationen av systemet misslyckades: $0"
 msgid "Installation type"
 msgstr "Installationstyp"
 
-#: src/components/installation/InstallationProgress.jsx:173
+#: src/components/installation/InstallationProgress.jsx:205
 msgid "Installing"
 msgstr "Installerar"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:306
 msgid "Insufficient disk space"
 msgstr "Inte tillräckligt med diskutrymme"
+
+#: src/components/login/LoginPage.jsx:68
+msgid "Invalid PIN. Please try again."
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:255
 msgid ""
@@ -702,8 +724,7 @@ msgstr "Tangentbordslayout under uppstart"
 msgid "Language"
 msgstr "Språk"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:77
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:199
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:65
 msgid "Launch storage editor"
 msgstr "Starta lagringsredigerare"
 
@@ -711,7 +732,7 @@ msgstr "Starta lagringsredigerare"
 msgid "Learn more about restricted access in the configuration"
 msgstr "Läs mer om begränsad åtkomst i konfigurationen"
 
-#: src/components/users/Accounts.jsx:203
+#: src/components/users/Accounts.jsx:209
 msgid "Leave both passphrase fields empty to use an empty password."
 msgstr "Lämna båda lösenfrasfälten tomma om du vill använda ett tomt lösenord."
 
@@ -722,6 +743,13 @@ msgstr "Plats"
 #: src/components/storage/installation-method/EncryptedDevices.jsx:147
 msgid "Locked devices"
 msgstr "Upplåsta enheter"
+
+#: src/components/login/LoginPage.jsx:118
+#, fuzzy
+#| msgctxt "GUI|Advanced Storage|iSCSI|Login|Login"
+#| msgid "_Log In"
+msgid "Log in"
+msgstr "_Logga in"
 
 #: src/components/localization/Keyboard.jsx:122
 #: src/components/localization/Keyboard.jsx:126
@@ -877,7 +905,7 @@ msgstr "Inte tillräckligt med ledigt utrymme på de valda diskarna."
 msgid "Not enough space on selected disks."
 msgstr "Inte tillräckligt med utrymme på de valda diskarna."
 
-#: src/components/AnacondaHeader.jsx:71
+#: src/components/AnacondaHeader.jsx:70
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
 "testing purposes only. Do NOT use this software for any critical work or for "
@@ -907,7 +935,7 @@ msgstr "Andra tangentbord"
 msgid "Partitions (advanced)"
 msgstr "Partitioner (avancerat)"
 
-#: src/components/users/Accounts.jsx:199 src/components/users/Accounts.jsx:401
+#: src/components/users/Accounts.jsx:205 src/components/users/Accounts.jsx:407
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:93
@@ -922,13 +950,19 @@ msgstr "Lösenfrasen matchade inte någon låst enhet"
 msgid "Passphrases must match"
 msgstr "Lösenfraserna måste matcha varandra"
 
-#: src/components/installation/InstallationProgress.jsx:225
+#: src/components/installation/InstallationProgress.jsx:257
 msgid "Pending"
 msgstr "Väntande"
 
 #: src/components/Error.jsx:94
 msgid "Please attach the log file $0 to the issue."
 msgstr "Bifoga loggfilen $0 till problemrapporten."
+
+#: src/components/login/LoginPage.jsx:44
+#, fuzzy
+#| msgid "Please enter a valid name."
+msgid "Please enter a PIN"
+msgstr "Ange ett giltigt namn."
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:321
 msgid "Please select at least one disk to continue"
@@ -946,7 +980,7 @@ msgstr "Potentiella dubbletter av buggar hittades"
 msgid "Powered by Anaconda"
 msgstr "Drivs av Anaconda"
 
-#: src/components/AnacondaHeader.jsx:61
+#: src/components/AnacondaHeader.jsx:60
 msgid "Pre-release"
 msgstr "Förhandsutgåva"
 
@@ -997,7 +1031,7 @@ msgstr "Riktiga värdnamn måste bestå av 64 tecken eller mindre"
 
 #: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:848
-#: src/components/installation/InstallationProgress.jsx:200
+#: src/components/installation/InstallationProgress.jsx:232
 msgid "Reboot"
 msgstr "Starta om"
 
@@ -1087,7 +1121,7 @@ msgstr ""
 msgid "Replace current installation, but keep files in home."
 msgstr "Ersätt nuvarande installation, men behåll filerna i hemkatalogen."
 
-#: src/components/HeaderKebab.jsx:129
+#: src/components/HeaderKebab.jsx:124
 msgid "Report Issue"
 msgstr "Rapportera problem"
 
@@ -1143,7 +1177,7 @@ msgstr "Begränsa åtkomsten till rapporten"
 msgid "Restricts the report to the $0 group. $1"
 msgstr "Begränsar rapporten till $0-gruppen. $1"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:46
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:34
 msgid "Return to installation"
 msgstr "Återgå till installation"
 
@@ -1155,6 +1189,12 @@ msgstr "Återgå till lagringsredigerare"
 msgid "Review and install"
 msgstr "Granska och installera"
 
+#: src/components/users/Accounts.jsx:94
+#, fuzzy
+#| msgid "No user or root account has been configured"
+msgid "Root account has been configured"
+msgstr "Inget användar eller root-konto har konfigurerats"
+
 #: src/components/users/Accounts.jsx:86
 msgid "Root account is enabled"
 msgstr "Root-konto är aktiverat"
@@ -1163,7 +1203,7 @@ msgstr "Root-konto är aktiverat"
 msgid "Root account is enabled, but no user account has been configured"
 msgstr "Root-konto är aktiverat, men inget användarkonto har konfigurerats"
 
-#: src/components/users/Accounts.jsx:345
+#: src/components/users/Accounts.jsx:351
 msgid "Root password has been set."
 msgstr "Root-lösenordet har satts."
 
@@ -1261,6 +1301,12 @@ msgstr "Visa AM/PM"
 msgid "Show API key"
 msgstr "Visa API-nyckel"
 
+#: src/components/login/LoginPage.jsx:94
+#, fuzzy
+#| msgid "Show API key"
+msgid "Show PIN"
+msgstr "Visa API-nyckel"
+
 #: src/components/Password.jsx:265
 msgid "Show confirmed password"
 msgstr "Visa bekräftat lösenord"
@@ -1277,11 +1323,11 @@ msgstr "Visa lösenord"
 msgid "Size"
 msgstr "Storlek"
 
-#: src/components/installation/InstallationProgress.jsx:185
+#: src/components/installation/InstallationProgress.jsx:217
 msgid "Software installation"
 msgstr "Programvaruinstallation"
 
-#: src/components/installation/InstallationProgress.jsx:183
+#: src/components/installation/InstallationProgress.jsx:215
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1316,25 +1362,20 @@ msgstr "Stackspår"
 msgid "Storage"
 msgstr "Lagring"
 
-#: src/components/installation/InstallationProgress.jsx:180
+#: src/components/installation/InstallationProgress.jsx:212
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Lagringskonfiguration"
 
-#: src/components/installation/InstallationProgress.jsx:178
+#: src/components/installation/InstallationProgress.jsx:210
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "Lagringskonfiguration: Lagring konfigureras för närvarande."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:58
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:46
 msgid "Storage editor"
 msgstr "Lagringsredigerare"
-
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:209
-msgid "Storage editor is available only in the `Installation method` step."
-msgstr ""
-"Lagringsredigeraren är endast tillgänglig i `Installationsmetod` steget."
 
 #: src/components/storage/scenarios/use-configured-storage/index.js:26
 msgid "Storage is based on the configuration from 'Modify storage'."
@@ -1348,7 +1389,7 @@ msgstr ""
 "Lagringslayout definieras av Kickstart fil. Den planerade "
 "partitioneringslayouten kan granskas i sammanfattningssteget."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid "Storage plugin failed"
 msgstr "Lagringsinsticksmodul misslyckades"
 
@@ -1360,7 +1401,7 @@ msgstr "Lagringskraven uppfylls inte"
 msgid "Strong"
 msgstr "Starkt"
 
-#: src/components/installation/InstallationProgress.jsx:168
+#: src/components/installation/InstallationProgress.jsx:200
 msgid "Successfully installed"
 msgstr "Installationen lyckades"
 
@@ -1376,15 +1417,15 @@ msgstr "Föreslagna tangentbord"
 msgid "Suggested languages"
 msgstr "Föreslagna språk"
 
-#: src/components/users/Accounts.jsx:333 src/components/users/Accounts.jsx:417
+#: src/components/users/Accounts.jsx:339 src/components/users/Accounts.jsx:423
 msgid "System"
 msgstr "System"
 
-#: src/components/installation/InstallationProgress.jsx:190
+#: src/components/installation/InstallationProgress.jsx:222
 msgid "System configuration"
 msgstr "Systemkonfiguration"
 
-#: src/components/installation/InstallationProgress.jsx:188
+#: src/components/installation/InstallationProgress.jsx:220
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1444,7 +1485,7 @@ msgstr ""
 "Den valda standardtangentbordslayouten stöder inte ASCII-tecken. Välj en "
 "ASCII-kompatibel layout som standard."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:64
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:52
 msgid ""
 "The storage editor lets you resize, delete, and create partitions. It can "
 "set up LVM and much more. It is meant to be used as an advanced utility and "
@@ -1466,7 +1507,7 @@ msgstr ""
 msgid "This hostname can't be submitted"
 msgstr "Detta värdnamn kan inte skickas in"
 
-#: src/components/AnacondaHeader.jsx:65
+#: src/components/AnacondaHeader.jsx:64
 msgid "This is unstable, pre-release software"
 msgstr "Detta är en instabil förhandsutgåva av programvaran"
 
@@ -1496,11 +1537,11 @@ msgstr "Tidszon"
 msgid "Title"
 msgstr "Titel"
 
-#: src/components/installation/InstallationProgress.jsx:216
+#: src/components/installation/InstallationProgress.jsx:248
 msgid "To begin using $0, reboot your system."
 msgstr "För att börja använda $0, starta om ditt system."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:192
+#: src/components/storage/installation-method/InstallationMethod.jsx:194
 msgid "To continue, select the devices to install to."
 msgstr "För att fortsätta, välj enheterna att installera på."
 
@@ -1558,7 +1599,7 @@ msgstr "Använd hela disken"
 msgid "Use free space"
 msgstr "Använd ledigt utrymme"
 
-#: src/components/users/Accounts.jsx:238
+#: src/components/users/Accounts.jsx:244
 msgid "Use local account"
 msgstr "Använd lokalt konto"
 
@@ -1566,15 +1607,15 @@ msgstr "Använd lokalt konto"
 msgid "Use the RAID device for automatic partitioning"
 msgstr "Använd RAID-enheten för automatisk partitionering"
 
-#: src/components/users/Accounts.jsx:487
+#: src/components/users/Accounts.jsx:494
 msgid "User creation"
 msgstr "Skapande av användare"
 
-#: src/components/users/Accounts.jsx:283
+#: src/components/users/Accounts.jsx:289
 msgid "User name"
 msgstr "Användarnamn"
 
-#: src/components/users/Accounts.jsx:176
+#: src/components/users/Accounts.jsx:182
 msgid ""
 "User name may only contain: letters from a-z, digits 0-9, dash $0, period "
 "$1, underscore $2"
@@ -1582,11 +1623,11 @@ msgstr ""
 "Användarnamn får bara innehålla: bokstäver från a-z, siffror 0-9, "
 "bindestreck $0, punkt $1, understreck $2"
 
-#: src/components/users/Accounts.jsx:173
+#: src/components/users/Accounts.jsx:179
 msgid "User name must not be a reserved word"
 msgstr "Användarnamn får inte ha ett reserverat ord"
 
-#: src/components/users/Accounts.jsx:170
+#: src/components/users/Accounts.jsx:176
 msgid "User names must be shorter than 33 characters"
 msgstr "Användarnamn måste vara kortare än 33 tecken"
 
@@ -1636,7 +1677,7 @@ msgstr ""
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr "Du kan generera API-nyckeln för ditt Bugzilla-konto $0."
 
-#: src/components/users/Accounts.jsx:520
+#: src/components/users/Accounts.jsx:527
 msgid ""
 "You have to enable the root account or create a local user account to "
 "proceed."
@@ -1654,11 +1695,11 @@ msgstr ""
 msgid "Your progress will not be saved."
 msgstr "Ditt förlopp kommer inte att sparas."
 
-#: src/components/installation/InstallationProgress.jsx:230
+#: src/components/installation/InstallationProgress.jsx:262
 msgid "completed step"
 msgstr "färdigt steg"
 
-#: src/components/installation/InstallationProgress.jsx:235
+#: src/components/installation/InstallationProgress.jsx:267
 msgid "current step"
 msgstr "aktuellt steg"
 
@@ -1700,7 +1741,7 @@ msgstr "ofullständig"
 msgid "mount"
 msgstr "montering"
 
-#: src/components/installation/InstallationProgress.jsx:224
+#: src/components/installation/InstallationProgress.jsx:256
 msgid "pending step"
 msgstr "väntande steg"
 
@@ -1724,6 +1765,10 @@ msgstr "krymp till $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:375
 msgid "undo"
 msgstr "ångra"
+
+#~ msgid "Storage editor is available only in the `Installation method` step."
+#~ msgstr ""
+#~ "Lagringsredigeraren är endast tillgänglig i `Installationsmetod` steget."
 
 #~ msgid "Reboot to installed system"
 #~ msgstr "Starta om till det installerade systemet"
@@ -1792,9 +1837,6 @@ msgstr "ångra"
 #~ msgstr ""
 #~ "Mer än en layout har upptäckts. Ta bort ytterligare layouter för att "
 #~ "fortsätta"
-
-#~ msgid "No user or root account has been configured"
-#~ msgstr "Inget användar eller root-konto har konfigurerats"
 
 #~ msgid ""
 #~ "Skipping account creation during installation. It will happen on first "
@@ -4480,9 +4522,6 @@ msgstr "ångra"
 #~ msgid "Please enter a valid mount point."
 #~ msgstr "Ange en giltig monteringspunkt."
 
-#~ msgid "Please enter a valid name."
-#~ msgstr "Ange ett giltigt namn."
-
 #, python-format
 #~ msgid "Please manually connect your vnc client to %s to begin the install."
 #~ msgstr ""
@@ -6977,10 +7016,6 @@ msgstr "ångra"
 #~ msgctxt "GUI|Spoke"
 #~ msgid "_Language Support"
 #~ msgstr "_Språkstöd"
-
-#~ msgctxt "GUI|Advanced Storage|iSCSI|Login|Login"
-#~ msgid "_Log In"
-#~ msgstr "_Logga in"
 
 #~ msgctxt "GUI|Network|Proxy"
 #~ msgid "_Method"

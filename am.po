@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 37.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-12 04:26+0000\n"
+"POT-Creation-Date: 2026-08-13 04:29+0000\n"
 "PO-Revision-Date: 2023-11-06 12:15+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Amharic <https://translate.fedoraproject.org/projects/"
@@ -92,7 +92,7 @@ msgid ""
 "devices are not supported."
 msgstr ""
 
-#: src/components/users/Accounts.jsx:250
+#: src/components/users/Accounts.jsx:256
 msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr ""
@@ -101,7 +101,7 @@ msgstr ""
 msgid "Abort installation"
 msgstr ""
 
-#: src/components/HeaderKebab.jsx:126
+#: src/components/HeaderKebab.jsx:121
 msgid "About"
 msgstr ""
 
@@ -138,7 +138,7 @@ msgstr ""
 msgid "Additional software for the selected environment"
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:67
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:55
 msgid "All changes made in the storage editor take effect immediately."
 msgstr ""
 
@@ -150,7 +150,7 @@ msgstr ""
 msgid "Anaconda"
 msgstr ""
 
-#: src/index.html:20
+#: src/login.html:8 src/index.html:20
 msgid "Anaconda Web UI"
 msgstr ""
 
@@ -209,7 +209,7 @@ msgstr ""
 msgid "Bugzilla API key"
 msgstr ""
 
-#: src/components/AnacondaHeader.jsx:74
+#: src/components/AnacondaHeader.jsx:73
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
 "associated with pre-released software, that you intend to use this for "
@@ -221,7 +221,7 @@ msgstr ""
 #: src/components/localization/Keyboard.jsx:280
 #: src/components/storage/installation-method/InstallationDestination.jsx:371
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
 #: src/components/review/Hostname.jsx:127
 #, fuzzy
 msgid "Cancel"
@@ -249,7 +249,7 @@ msgstr ""
 msgid "Change system keyboard layout"
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:139
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:127
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
@@ -278,7 +278,7 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:143
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:131
 msgid "Close storage editor"
 msgstr ""
 
@@ -287,7 +287,7 @@ msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:231
+#: src/components/installation/InstallationProgress.jsx:263
 msgid "Completed"
 msgstr ""
 
@@ -309,7 +309,7 @@ msgstr ""
 msgid "Configure network"
 msgstr "አድን"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:129
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:117
 msgid "Configure storage"
 msgstr ""
 
@@ -317,7 +317,7 @@ msgstr ""
 msgid "Configure storage again"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:202 src/components/users/Accounts.jsx:405
+#: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
 msgid "Confirm passphrase"
 msgstr ""
@@ -347,7 +347,7 @@ msgstr ""
 msgid "Create Account"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:312
+#: src/components/users/Accounts.jsx:318
 msgid "Create account"
 msgstr ""
 
@@ -409,7 +409,7 @@ msgstr ""
 msgid "Duplicate mount point."
 msgstr ""
 
-#: src/components/users/Accounts.jsx:336 src/components/users/Accounts.jsx:387
+#: src/components/users/Accounts.jsx:342 src/components/users/Accounts.jsx:393
 msgid "Enable root account"
 msgstr ""
 
@@ -423,6 +423,14 @@ msgstr ""
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:106
 msgid "Encryption"
+msgstr ""
+
+#: src/components/login/LoginPage.jsx:88
+msgid "Enter PIN"
+msgstr ""
+
+#: src/components/login/LoginPage.jsx:77
+msgid "Enter PIN to access the installer"
 msgstr ""
 
 #: src/components/Error.jsx:204
@@ -443,7 +451,7 @@ msgstr ""
 msgid "Error details"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:201
+#: src/components/installation/InstallationProgress.jsx:233
 msgid "Exit to live desktop"
 msgstr ""
 
@@ -464,11 +472,11 @@ msgstr ""
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:195
+#: src/components/installation/InstallationProgress.jsx:227
 msgid "Finalization"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:193
+#: src/components/installation/InstallationProgress.jsx:225
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -478,17 +486,17 @@ msgstr ""
 msgid "Find layout"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:403
+#: src/components/users/Accounts.jsx:409
 msgid ""
 "For better security, avoid using the root account directly. Instead, use the "
 "local account above to manage the system."
 msgstr ""
 
-#: src/components/users/Accounts.jsx:252
+#: src/components/users/Accounts.jsx:258
 msgid "Full name"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:188
+#: src/components/users/Accounts.jsx:194
 msgid "Full name cannot contain colon characters"
 msgstr ""
 
@@ -498,6 +506,10 @@ msgstr ""
 
 #: src/components/Error.jsx:230
 msgid "Hide API key"
+msgstr ""
+
+#: src/components/login/LoginPage.jsx:94
+msgid "Hide PIN"
 msgstr ""
 
 #: src/components/Password.jsx:265
@@ -518,7 +530,7 @@ msgstr "ሚስጢራዊ ቃል"
 msgid "Hostname"
 msgstr ""
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:145
+#: src/components/storage/installation-method/InstallationScenario.jsx:163
 msgid "How would you like to install?"
 msgstr ""
 
@@ -541,6 +553,12 @@ msgstr ""
 msgid "If empty, hostname will be transient and set by network information."
 msgstr ""
 
+#: src/components/storage/installation-method/InstallationScenario.jsx:126
+msgid ""
+"If none of the options above apply, use the storage editor to create a "
+"custom partitioning before proceeding."
+msgstr ""
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:56
 msgid "If you are configuring partitions the following are required:"
 msgstr ""
@@ -552,7 +570,7 @@ msgid ""
 "yourself."
 msgstr ""
 
-#: src/components/AnacondaHeader.jsx:77
+#: src/components/AnacondaHeader.jsx:76
 msgid ""
 "If you do not understand or accept the risks, then please exit this program."
 msgstr ""
@@ -563,7 +581,7 @@ msgid ""
 "information there instead of creating a duplicate report."
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:236
+#: src/components/installation/InstallationProgress.jsx:268
 msgid "In progress"
 msgstr ""
 
@@ -578,7 +596,7 @@ msgid "Install"
 msgstr ""
 
 #: src/components/Error.jsx:859
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:203
 msgid "Installation failed"
 msgstr ""
 
@@ -586,13 +604,11 @@ msgstr ""
 msgid "Installation method"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:119
-#: src/components/installation/InstallationProgress.jsx:140
-#: src/components/installation/InstallationProgress.jsx:145
+#: src/components/installation/InstallationProgress.jsx:60
 msgid "Installation of the system failed"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:86
+#: src/components/installation/InstallationProgress.jsx:91
 msgid "Installation of the system failed: $0"
 msgstr ""
 
@@ -600,12 +616,16 @@ msgstr ""
 msgid "Installation type"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:173
+#: src/components/installation/InstallationProgress.jsx:205
 msgid "Installing"
 msgstr ""
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:306
 msgid "Insufficient disk space"
+msgstr ""
+
+#: src/components/login/LoginPage.jsx:68
+msgid "Invalid PIN. Please try again."
 msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:255
@@ -644,8 +664,7 @@ msgstr ""
 msgid "Language"
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:77
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:199
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:65
 msgid "Launch storage editor"
 msgstr ""
 
@@ -653,7 +672,7 @@ msgstr ""
 msgid "Learn more about restricted access in the configuration"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:203
+#: src/components/users/Accounts.jsx:209
 msgid "Leave both passphrase fields empty to use an empty password."
 msgstr ""
 
@@ -663,6 +682,10 @@ msgstr ""
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:147
 msgid "Locked devices"
+msgstr ""
+
+#: src/components/login/LoginPage.jsx:118
+msgid "Log in"
 msgstr ""
 
 #: src/components/localization/Keyboard.jsx:122
@@ -814,7 +837,7 @@ msgstr ""
 msgid "Not enough space on selected disks."
 msgstr ""
 
-#: src/components/AnacondaHeader.jsx:71
+#: src/components/AnacondaHeader.jsx:70
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
 "testing purposes only. Do NOT use this software for any critical work or for "
@@ -841,7 +864,7 @@ msgstr ""
 msgid "Partitions (advanced)"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:199 src/components/users/Accounts.jsx:401
+#: src/components/users/Accounts.jsx:205 src/components/users/Accounts.jsx:407
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:93
@@ -856,12 +879,16 @@ msgstr ""
 msgid "Passphrases must match"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:225
+#: src/components/installation/InstallationProgress.jsx:257
 msgid "Pending"
 msgstr ""
 
 #: src/components/Error.jsx:94
 msgid "Please attach the log file $0 to the issue."
+msgstr ""
+
+#: src/components/login/LoginPage.jsx:44
+msgid "Please enter a PIN"
 msgstr ""
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:321
@@ -880,7 +907,7 @@ msgstr ""
 msgid "Powered by Anaconda"
 msgstr ""
 
-#: src/components/AnacondaHeader.jsx:61
+#: src/components/AnacondaHeader.jsx:60
 msgid "Pre-release"
 msgstr ""
 
@@ -929,7 +956,7 @@ msgstr ""
 
 #: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:848
-#: src/components/installation/InstallationProgress.jsx:200
+#: src/components/installation/InstallationProgress.jsx:232
 msgid "Reboot"
 msgstr ""
 
@@ -1008,7 +1035,7 @@ msgstr ""
 msgid "Replace current installation, but keep files in home."
 msgstr ""
 
-#: src/components/HeaderKebab.jsx:129
+#: src/components/HeaderKebab.jsx:124
 msgid "Report Issue"
 msgstr ""
 
@@ -1063,7 +1090,7 @@ msgstr ""
 msgid "Restricts the report to the $0 group. $1"
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:46
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:34
 msgid "Return to installation"
 msgstr ""
 
@@ -1075,6 +1102,10 @@ msgstr ""
 msgid "Review and install"
 msgstr ""
 
+#: src/components/users/Accounts.jsx:94
+msgid "Root account has been configured"
+msgstr ""
+
 #: src/components/users/Accounts.jsx:86
 msgid "Root account is enabled"
 msgstr ""
@@ -1083,7 +1114,7 @@ msgstr ""
 msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:345
+#: src/components/users/Accounts.jsx:351
 msgid "Root password has been set."
 msgstr ""
 
@@ -1179,6 +1210,10 @@ msgstr ""
 msgid "Show API key"
 msgstr ""
 
+#: src/components/login/LoginPage.jsx:94
+msgid "Show PIN"
+msgstr ""
+
 #: src/components/Password.jsx:265
 msgid "Show confirmed password"
 msgstr ""
@@ -1197,11 +1232,11 @@ msgstr "ሚስጢራዊ ቃል"
 msgid "Size"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:185
+#: src/components/installation/InstallationProgress.jsx:217
 msgid "Software installation"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:183
+#: src/components/installation/InstallationProgress.jsx:215
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1233,23 +1268,19 @@ msgstr ""
 msgid "Storage"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:180
+#: src/components/installation/InstallationProgress.jsx:212
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:178
+#: src/components/installation/InstallationProgress.jsx:210
 msgid "Storage configuration: Storage is currently being configured."
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:58
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:46
 msgid "Storage editor"
-msgstr ""
-
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:209
-msgid "Storage editor is available only in the `Installation method` step."
 msgstr ""
 
 #: src/components/storage/scenarios/use-configured-storage/index.js:26
@@ -1262,7 +1293,7 @@ msgid ""
 "layout can be reviewed in the summary step."
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid "Storage plugin failed"
 msgstr ""
 
@@ -1274,7 +1305,7 @@ msgstr ""
 msgid "Strong"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:168
+#: src/components/installation/InstallationProgress.jsx:200
 msgid "Successfully installed"
 msgstr ""
 
@@ -1290,15 +1321,15 @@ msgstr ""
 msgid "Suggested languages"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:333 src/components/users/Accounts.jsx:417
+#: src/components/users/Accounts.jsx:339 src/components/users/Accounts.jsx:423
 msgid "System"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:190
+#: src/components/installation/InstallationProgress.jsx:222
 msgid "System configuration"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:188
+#: src/components/installation/InstallationProgress.jsx:220
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1346,7 +1377,7 @@ msgid ""
 "Please choose an ASCII-capable layout as the default."
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:64
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:52
 msgid ""
 "The storage editor lets you resize, delete, and create partitions. It can "
 "set up LVM and much more. It is meant to be used as an advanced utility and "
@@ -1363,7 +1394,7 @@ msgstr ""
 msgid "This hostname can't be submitted"
 msgstr ""
 
-#: src/components/AnacondaHeader.jsx:65
+#: src/components/AnacondaHeader.jsx:64
 msgid "This is unstable, pre-release software"
 msgstr ""
 
@@ -1392,11 +1423,11 @@ msgstr ""
 msgid "Title"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:216
+#: src/components/installation/InstallationProgress.jsx:248
 msgid "To begin using $0, reboot your system."
 msgstr ""
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:192
+#: src/components/storage/installation-method/InstallationMethod.jsx:194
 msgid "To continue, select the devices to install to."
 msgstr ""
 
@@ -1454,7 +1485,7 @@ msgstr "የጽሑፍ አሠራር ዘዴ ተጠቀም"
 msgid "Use free space"
 msgstr "አድን"
 
-#: src/components/users/Accounts.jsx:238
+#: src/components/users/Accounts.jsx:244
 msgid "Use local account"
 msgstr ""
 
@@ -1462,25 +1493,25 @@ msgstr ""
 msgid "Use the RAID device for automatic partitioning"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:487
+#: src/components/users/Accounts.jsx:494
 msgid "User creation"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:283
+#: src/components/users/Accounts.jsx:289
 msgid "User name"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:176
+#: src/components/users/Accounts.jsx:182
 msgid ""
 "User name may only contain: letters from a-z, digits 0-9, dash $0, period "
 "$1, underscore $2"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:173
+#: src/components/users/Accounts.jsx:179
 msgid "User name must not be a reserved word"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:170
+#: src/components/users/Accounts.jsx:176
 msgid "User names must be shorter than 33 characters"
 msgstr ""
 
@@ -1524,7 +1555,7 @@ msgstr ""
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr ""
 
-#: src/components/users/Accounts.jsx:520
+#: src/components/users/Accounts.jsx:527
 msgid ""
 "You have to enable the root account or create a local user account to "
 "proceed."
@@ -1538,11 +1569,11 @@ msgstr ""
 msgid "Your progress will not be saved."
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:230
+#: src/components/installation/InstallationProgress.jsx:262
 msgid "completed step"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:235
+#: src/components/installation/InstallationProgress.jsx:267
 msgid "current step"
 msgstr ""
 
@@ -1586,7 +1617,7 @@ msgstr ""
 msgid "mount"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:224
+#: src/components/installation/InstallationProgress.jsx:256
 msgid "pending step"
 msgstr ""
 

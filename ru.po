@@ -52,7 +52,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-12 04:26+0000\n"
+"POT-Creation-Date: 2026-08-13 04:29+0000\n"
 "PO-Revision-Date: 2026-07-31 05:52+0000\n"
 "Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
@@ -147,7 +147,7 @@ msgstr ""
 "Найден раздел „$0“ на MDRAID-устройстве $1. Разделы загрузчика на "
 "устройствах MDRAID не поддерживаются."
 
-#: src/components/users/Accounts.jsx:250
+#: src/components/users/Accounts.jsx:256
 msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr ""
@@ -158,7 +158,7 @@ msgstr ""
 msgid "Abort installation"
 msgstr "Прервать установку"
 
-#: src/components/HeaderKebab.jsx:126
+#: src/components/HeaderKebab.jsx:121
 msgid "About"
 msgstr "О программе"
 
@@ -195,7 +195,7 @@ msgstr "Дополнительные языки"
 msgid "Additional software for the selected environment"
 msgstr "Дополнительное ПО для выбранного вами окружения"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:67
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:55
 msgid "All changes made in the storage editor take effect immediately."
 msgstr ""
 "Все изменения, сделанные в редакторе хранилищ, вступают в силу немедленно."
@@ -208,7 +208,7 @@ msgstr "Все устройства, использующие эту парол�
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/index.html:20
+#: src/login.html:8 src/index.html:20
 msgid "Anaconda Web UI"
 msgstr "Веб-интерфейс Anaconda"
 
@@ -269,7 +269,7 @@ msgstr "Подробности сообщения об ошибке"
 msgid "Bugzilla API key"
 msgstr "Ключ API Bugzilla"
 
-#: src/components/AnacondaHeader.jsx:74
+#: src/components/AnacondaHeader.jsx:73
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
 "associated with pre-released software, that you intend to use this for "
@@ -285,7 +285,7 @@ msgstr ""
 #: src/components/localization/Keyboard.jsx:280
 #: src/components/storage/installation-method/InstallationDestination.jsx:371
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
 #: src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "Отмена"
@@ -312,7 +312,7 @@ msgstr "Изменить схему разделов"
 msgid "Change system keyboard layout"
 msgstr "Изменить системную раскладку клавиатуры"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:139
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:127
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
@@ -344,7 +344,7 @@ msgstr ""
 msgid "Close"
 msgstr "Закрыть"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:143
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:131
 msgid "Close storage editor"
 msgstr "Закрыть редактор хранилища"
 
@@ -355,7 +355,7 @@ msgstr ""
 "Хранилище Cockpit не предоставило кодовую фразу для разблокировки "
 "зашифрованного устройства."
 
-#: src/components/installation/InstallationProgress.jsx:231
+#: src/components/installation/InstallationProgress.jsx:263
 msgid "Completed"
 msgstr "Завершено"
 
@@ -376,7 +376,7 @@ msgstr "Настройка пользовательских серверов NTP
 msgid "Configure network"
 msgstr "Настройка сети"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:129
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:117
 msgid "Configure storage"
 msgstr "Настройка хранилища"
 
@@ -384,7 +384,7 @@ msgstr "Настройка хранилища"
 msgid "Configure storage again"
 msgstr "Снова настройте хранилище"
 
-#: src/components/users/Accounts.jsx:202 src/components/users/Accounts.jsx:405
+#: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
 msgid "Confirm passphrase"
 msgstr "Подтвердите парольную фразу"
@@ -414,7 +414,7 @@ msgstr "Исправьте эти проблемы, прежде чем прод
 msgid "Create Account"
 msgstr "Создание уч. записи"
 
-#: src/components/users/Accounts.jsx:312
+#: src/components/users/Accounts.jsx:318
 msgid "Create account"
 msgstr "Создать уч. запись"
 
@@ -476,7 +476,7 @@ msgstr "Дублирование устройства."
 msgid "Duplicate mount point."
 msgstr "Дублирование точки монтирования."
 
-#: src/components/users/Accounts.jsx:336 src/components/users/Accounts.jsx:387
+#: src/components/users/Accounts.jsx:342 src/components/users/Accounts.jsx:393
 msgid "Enable root account"
 msgstr "Включить учётную запись root"
 
@@ -491,6 +491,14 @@ msgstr "Зашифровано"
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:106
 msgid "Encryption"
 msgstr "Шифрование"
+
+#: src/components/login/LoginPage.jsx:88
+msgid "Enter PIN"
+msgstr ""
+
+#: src/components/login/LoginPage.jsx:77
+msgid "Enter PIN to access the installer"
+msgstr ""
 
 #: src/components/Error.jsx:204
 msgid ""
@@ -512,7 +520,7 @@ msgstr "Стереть данные и установить"
 msgid "Error details"
 msgstr "Сведения об ошибке"
 
-#: src/components/installation/InstallationProgress.jsx:201
+#: src/components/installation/InstallationProgress.jsx:233
 msgid "Exit to live desktop"
 msgstr "Выйти на рабочий стол"
 
@@ -533,11 +541,11 @@ msgstr "Не удалось сохранить схему разбиения р�
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora linux требует не менее $0 дискового пространства."
 
-#: src/components/installation/InstallationProgress.jsx:195
+#: src/components/installation/InstallationProgress.jsx:227
 msgid "Finalization"
 msgstr "Завершение"
 
-#: src/components/installation/InstallationProgress.jsx:193
+#: src/components/installation/InstallationProgress.jsx:225
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -549,7 +557,7 @@ msgstr ""
 msgid "Find layout"
 msgstr "Найти раскладку"
 
-#: src/components/users/Accounts.jsx:403
+#: src/components/users/Accounts.jsx:409
 msgid ""
 "For better security, avoid using the root account directly. Instead, use the "
 "local account above to manage the system."
@@ -558,11 +566,11 @@ msgstr ""
 "Вместо этого используйте локальную учётную запись, указанную выше, для "
 "управления системой."
 
-#: src/components/users/Accounts.jsx:252
+#: src/components/users/Accounts.jsx:258
 msgid "Full name"
 msgstr "Полное имя"
 
-#: src/components/users/Accounts.jsx:188
+#: src/components/users/Accounts.jsx:194
 msgid "Full name cannot contain colon characters"
 msgstr "Полное имя не может содержать двоеточий"
 
@@ -572,6 +580,12 @@ msgstr "Текст справки"
 
 #: src/components/Error.jsx:230
 msgid "Hide API key"
+msgstr "Скрыть API-ключ"
+
+#: src/components/login/LoginPage.jsx:94
+#, fuzzy
+#| msgid "Hide API key"
+msgid "Hide PIN"
 msgstr "Скрыть API-ключ"
 
 #: src/components/Password.jsx:265
@@ -590,7 +604,7 @@ msgstr "Скрыть пароль"
 msgid "Hostname"
 msgstr "Имя узла"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:145
+#: src/components/storage/installation-method/InstallationScenario.jsx:163
 msgid "How would you like to install?"
 msgstr "Как хотели бы выполнить установку?"
 
@@ -617,6 +631,12 @@ msgid "If empty, hostname will be transient and set by network information."
 msgstr ""
 "Если пусто, имя узла будет временным и будет задаваться информацией о сети."
 
+#: src/components/storage/installation-method/InstallationScenario.jsx:126
+msgid ""
+"If none of the options above apply, use the storage editor to create a "
+"custom partitioning before proceeding."
+msgstr ""
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:56
 msgid "If you are configuring partitions the following are required:"
 msgstr "Если Вы настраиваете разделы, необходимо следующее:"
@@ -631,7 +651,7 @@ msgstr ""
 "этого использовать $0. Ручная отчетность позволяет вам самостоятельно "
 "просматривать и выборочно прикреплять файлы журналов."
 
-#: src/components/AnacondaHeader.jsx:77
+#: src/components/AnacondaHeader.jsx:76
 msgid ""
 "If you do not understand or accept the risks, then please exit this program."
 msgstr ""
@@ -644,7 +664,7 @@ msgid ""
 "information there instead of creating a duplicate report."
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:236
+#: src/components/installation/InstallationProgress.jsx:268
 msgid "In progress"
 msgstr "В ходе выполнения"
 
@@ -659,7 +679,7 @@ msgid "Install"
 msgstr "Установить"
 
 #: src/components/Error.jsx:859
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:203
 msgid "Installation failed"
 msgstr "Сбой установки"
 
@@ -667,13 +687,11 @@ msgstr "Сбой установки"
 msgid "Installation method"
 msgstr "Метод установки"
 
-#: src/components/installation/InstallationProgress.jsx:119
-#: src/components/installation/InstallationProgress.jsx:140
-#: src/components/installation/InstallationProgress.jsx:145
+#: src/components/installation/InstallationProgress.jsx:60
 msgid "Installation of the system failed"
 msgstr "Сбой установки системы"
 
-#: src/components/installation/InstallationProgress.jsx:86
+#: src/components/installation/InstallationProgress.jsx:91
 msgid "Installation of the system failed: $0"
 msgstr "Установка системы не удалась: $0"
 
@@ -681,13 +699,17 @@ msgstr "Установка системы не удалась: $0"
 msgid "Installation type"
 msgstr "Тип установки"
 
-#: src/components/installation/InstallationProgress.jsx:173
+#: src/components/installation/InstallationProgress.jsx:205
 msgid "Installing"
 msgstr "Выполняется установка"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:306
 msgid "Insufficient disk space"
 msgstr "Недостаточно места на диске"
+
+#: src/components/login/LoginPage.jsx:68
+msgid "Invalid PIN. Please try again."
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:255
 msgid ""
@@ -732,8 +754,7 @@ msgstr "Раскладка клавиатуры при запуске"
 msgid "Language"
 msgstr "Язык"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:77
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:199
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:65
 msgid "Launch storage editor"
 msgstr "Запустить редактор хранилища"
 
@@ -741,7 +762,7 @@ msgstr "Запустить редактор хранилища"
 msgid "Learn more about restricted access in the configuration"
 msgstr "Подробнее об ограниченном доступе в конфигурации"
 
-#: src/components/users/Accounts.jsx:203
+#: src/components/users/Accounts.jsx:209
 msgid "Leave both passphrase fields empty to use an empty password."
 msgstr "Оставьте оба поля пароля пустыми, чтобы использовать пустой пароль."
 
@@ -752,6 +773,13 @@ msgstr "Местоположение"
 #: src/components/storage/installation-method/EncryptedDevices.jsx:147
 msgid "Locked devices"
 msgstr "Заблокированные устройства"
+
+#: src/components/login/LoginPage.jsx:118
+#, fuzzy
+#| msgctxt "GUI|Advanced Storage|iSCSI|Login|Login"
+#| msgid "_Log In"
+msgid "Log in"
+msgstr "_Войти"
 
 #: src/components/localization/Keyboard.jsx:122
 #: src/components/localization/Keyboard.jsx:126
@@ -906,7 +934,7 @@ msgstr "Недостаточно свободного места на выбра
 msgid "Not enough space on selected disks."
 msgstr "Недостаточно места на выбранных дисках."
 
-#: src/components/AnacondaHeader.jsx:71
+#: src/components/AnacondaHeader.jsx:70
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
 "testing purposes only. Do NOT use this software for any critical work or for "
@@ -937,7 +965,7 @@ msgstr "Другие клавиатуры"
 msgid "Partitions (advanced)"
 msgstr "Разделы (расширенный)"
 
-#: src/components/users/Accounts.jsx:199 src/components/users/Accounts.jsx:401
+#: src/components/users/Accounts.jsx:205 src/components/users/Accounts.jsx:407
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:93
@@ -952,13 +980,19 @@ msgstr "Парольная фраза не совпала ни с одним з�
 msgid "Passphrases must match"
 msgstr "Парольные фразы должны совпадать"
 
-#: src/components/installation/InstallationProgress.jsx:225
+#: src/components/installation/InstallationProgress.jsx:257
 msgid "Pending"
 msgstr "Ожидание"
 
 #: src/components/Error.jsx:94
 msgid "Please attach the log file $0 to the issue."
 msgstr "Прикрепите файл журнала $0 к сообщению о проблеме."
+
+#: src/components/login/LoginPage.jsx:44
+#, fuzzy
+#| msgid "Please enter a valid name."
+msgid "Please enter a PIN"
+msgstr "Введите действительное имя."
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:321
 msgid "Please select at least one disk to continue"
@@ -978,7 +1012,7 @@ msgstr "Нет подключаемых устройств"
 msgid "Powered by Anaconda"
 msgstr "На основе Anaconda"
 
-#: src/components/AnacondaHeader.jsx:61
+#: src/components/AnacondaHeader.jsx:60
 msgid "Pre-release"
 msgstr "Предварительный выпуск"
 
@@ -1029,7 +1063,7 @@ msgstr "Настоящее имя узла должно состоять из 64
 
 #: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:848
-#: src/components/installation/InstallationProgress.jsx:200
+#: src/components/installation/InstallationProgress.jsx:232
 msgid "Reboot"
 msgstr "Перезагрузить"
 
@@ -1118,7 +1152,7 @@ msgstr ""
 msgid "Replace current installation, but keep files in home."
 msgstr "Заменить текущую установку, сохранив файлы папки Home."
 
-#: src/components/HeaderKebab.jsx:129
+#: src/components/HeaderKebab.jsx:124
 msgid "Report Issue"
 msgstr "Сообщить о проблеме"
 
@@ -1174,7 +1208,7 @@ msgstr "Ограничить доступ к отчету"
 msgid "Restricts the report to the $0 group. $1"
 msgstr "Ограничивает отчет группой $0. $1"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:46
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:34
 msgid "Return to installation"
 msgstr "Вернуться к установке"
 
@@ -1186,6 +1220,12 @@ msgstr "Возврат к редактору хранилища"
 msgid "Review and install"
 msgstr "Обзор и установка"
 
+#: src/components/users/Accounts.jsx:94
+#, fuzzy
+#| msgid "No user or root account has been configured"
+msgid "Root account has been configured"
+msgstr "Учетная запись пользователя или root не была настроена"
+
 #: src/components/users/Accounts.jsx:86
 msgid "Root account is enabled"
 msgstr "Учётная запись Root включена"
@@ -1194,7 +1234,7 @@ msgstr "Учётная запись Root включена"
 msgid "Root account is enabled, but no user account has been configured"
 msgstr "Уч. запись Root включена, но уч. запись пользователя не настроена"
 
-#: src/components/users/Accounts.jsx:345
+#: src/components/users/Accounts.jsx:351
 msgid "Root password has been set."
 msgstr "Пароль root задан."
 
@@ -1292,6 +1332,12 @@ msgstr "12/24-часовой формат"
 msgid "Show API key"
 msgstr "Показать API-ключ"
 
+#: src/components/login/LoginPage.jsx:94
+#, fuzzy
+#| msgid "Show API key"
+msgid "Show PIN"
+msgstr "Показать API-ключ"
+
 #: src/components/Password.jsx:265
 msgid "Show confirmed password"
 msgstr "Показать подтвержденный пароль"
@@ -1308,11 +1354,11 @@ msgstr "Показать пароль"
 msgid "Size"
 msgstr "Размер"
 
-#: src/components/installation/InstallationProgress.jsx:185
+#: src/components/installation/InstallationProgress.jsx:217
 msgid "Software installation"
 msgstr "Установка программного обеспечения"
 
-#: src/components/installation/InstallationProgress.jsx:183
+#: src/components/installation/InstallationProgress.jsx:215
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1346,24 +1392,20 @@ msgstr "Трассировка стека"
 msgid "Storage"
 msgstr "Хранилище"
 
-#: src/components/installation/InstallationProgress.jsx:180
+#: src/components/installation/InstallationProgress.jsx:212
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Конфигурация устройств хранения"
 
-#: src/components/installation/InstallationProgress.jsx:178
+#: src/components/installation/InstallationProgress.jsx:210
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "Конфигурация хранилища: в настоящее время хранилище настраивается."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:58
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:46
 msgid "Storage editor"
 msgstr "Редактор хранилища"
-
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:209
-msgid "Storage editor is available only in the `Installation method` step."
-msgstr "Редактор хранилища доступен только на шаге `Метод установки`."
 
 #: src/components/storage/scenarios/use-configured-storage/index.js:26
 msgid "Storage is based on the configuration from 'Modify storage'."
@@ -1377,7 +1419,7 @@ msgstr ""
 "Схема разбиения диска определяется файлом Kickstart. Запланированную схему "
 "разбиения диска можно просмотреть на этапе обзора итогов."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid "Storage plugin failed"
 msgstr "Сбой плагина хранилища"
 
@@ -1389,7 +1431,7 @@ msgstr "Не соблюдены требования к хранилищу"
 msgid "Strong"
 msgstr "Сложный"
 
-#: src/components/installation/InstallationProgress.jsx:168
+#: src/components/installation/InstallationProgress.jsx:200
 msgid "Successfully installed"
 msgstr "Установка завершена успешно"
 
@@ -1405,15 +1447,15 @@ msgstr "Предлагаемые клавиатуры"
 msgid "Suggested languages"
 msgstr "Предлагаемые языки"
 
-#: src/components/users/Accounts.jsx:333 src/components/users/Accounts.jsx:417
+#: src/components/users/Accounts.jsx:339 src/components/users/Accounts.jsx:423
 msgid "System"
 msgstr "Система"
 
-#: src/components/installation/InstallationProgress.jsx:190
+#: src/components/installation/InstallationProgress.jsx:222
 msgid "System configuration"
 msgstr "Конфигурация системы"
 
-#: src/components/installation/InstallationProgress.jsx:188
+#: src/components/installation/InstallationProgress.jsx:220
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1470,7 +1512,7 @@ msgstr ""
 "Выбранная по умолчанию раскладка клавиатуры не поддерживает ASCII-символы. "
 "Выберите раскладку по умолчанию с поддержкой ASCII."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:64
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:52
 msgid ""
 "The storage editor lets you resize, delete, and create partitions. It can "
 "set up LVM and much more. It is meant to be used as an advanced utility and "
@@ -1493,7 +1535,7 @@ msgstr ""
 msgid "This hostname can't be submitted"
 msgstr "Это имя узла не может быть представлено"
 
-#: src/components/AnacondaHeader.jsx:65
+#: src/components/AnacondaHeader.jsx:64
 msgid "This is unstable, pre-release software"
 msgstr "Стабильность предварительной версии дистрибутива не гарантируется"
 
@@ -1523,11 +1565,11 @@ msgstr "Часовой пояс"
 msgid "Title"
 msgstr "Заголовок"
 
-#: src/components/installation/InstallationProgress.jsx:216
+#: src/components/installation/InstallationProgress.jsx:248
 msgid "To begin using $0, reboot your system."
 msgstr "Чтобы начать использовать $0, перезагрузите систему."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:192
+#: src/components/storage/installation-method/InstallationMethod.jsx:194
 msgid "To continue, select the devices to install to."
 msgstr "Чтобы продолжить, выберите устройства для установки."
 
@@ -1589,7 +1631,7 @@ msgstr "Использовать весь диск"
 msgid "Use free space"
 msgstr "Исп. свободное пространство"
 
-#: src/components/users/Accounts.jsx:238
+#: src/components/users/Accounts.jsx:244
 msgid "Use local account"
 msgstr "Исп. локальную учётную запись"
 
@@ -1597,15 +1639,15 @@ msgstr "Исп. локальную учётную запись"
 msgid "Use the RAID device for automatic partitioning"
 msgstr "Исп. устройство RAID для автоматического разбиения на разделы"
 
-#: src/components/users/Accounts.jsx:487
+#: src/components/users/Accounts.jsx:494
 msgid "User creation"
 msgstr "Создание пользователя"
 
-#: src/components/users/Accounts.jsx:283
+#: src/components/users/Accounts.jsx:289
 msgid "User name"
 msgstr "Имя пользователя"
 
-#: src/components/users/Accounts.jsx:176
+#: src/components/users/Accounts.jsx:182
 msgid ""
 "User name may only contain: letters from a-z, digits 0-9, dash $0, period "
 "$1, underscore $2"
@@ -1613,11 +1655,11 @@ msgstr ""
 "Имя пользователя может содержать только: буквы от a-z, цифры 0-9, тире $0, "
 "точку $1, знак подчеркивания $2"
 
-#: src/components/users/Accounts.jsx:173
+#: src/components/users/Accounts.jsx:179
 msgid "User name must not be a reserved word"
 msgstr "Имя пользователя не должно быть зарезервированным словом"
 
-#: src/components/users/Accounts.jsx:170
+#: src/components/users/Accounts.jsx:176
 msgid "User names must be shorter than 33 characters"
 msgstr "Имена пользователей должны быть короче 33 символов"
 
@@ -1666,7 +1708,7 @@ msgstr ""
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr "Вы можете сгенерировать ключ API для своей учётной записи Bugzilla $0."
 
-#: src/components/users/Accounts.jsx:520
+#: src/components/users/Accounts.jsx:527
 msgid ""
 "You have to enable the root account or create a local user account to "
 "proceed."
@@ -1684,11 +1726,11 @@ msgstr ""
 msgid "Your progress will not be saved."
 msgstr "Ваш прогресс не будет сохранен."
 
-#: src/components/installation/InstallationProgress.jsx:230
+#: src/components/installation/InstallationProgress.jsx:262
 msgid "completed step"
 msgstr "завершённый шаг"
 
-#: src/components/installation/InstallationProgress.jsx:235
+#: src/components/installation/InstallationProgress.jsx:267
 msgid "current step"
 msgstr "текущий шаг"
 
@@ -1730,7 +1772,7 @@ msgstr "неполный"
 msgid "mount"
 msgstr "монтировать"
 
-#: src/components/installation/InstallationProgress.jsx:224
+#: src/components/installation/InstallationProgress.jsx:256
 msgid "pending step"
 msgstr "предстоящий шаг"
 
@@ -1754,6 +1796,9 @@ msgstr "уменьшить до $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:375
 msgid "undo"
 msgstr "отменить"
+
+#~ msgid "Storage editor is available only in the `Installation method` step."
+#~ msgstr "Редактор хранилища доступен только на шаге `Метод установки`."
 
 #~ msgid "Reboot to installed system"
 #~ msgstr "Перезагрузить в установленную систему"
@@ -1823,9 +1868,6 @@ msgstr "отменить"
 #~ msgstr ""
 #~ "Обнаружено более одной раскладки. Удалите дополнительные раскладки, чтобы "
 #~ "продолжить"
-
-#~ msgid "No user or root account has been configured"
-#~ msgstr "Учетная запись пользователя или root не была настроена"
 
 #~ msgid ""
 #~ "Skipping account creation during installation. It will happen on first "
@@ -4524,9 +4566,6 @@ msgstr "отменить"
 #~ msgid "Please enter a valid mount point."
 #~ msgstr "Укажите правильную точку монтирования."
 
-#~ msgid "Please enter a valid name."
-#~ msgstr "Введите действительное имя."
-
 #, python-format
 #~ msgid "Please manually connect your vnc client to %s to begin the install."
 #~ msgstr "Для начала установки подключите VNC-клиент к %s вручную."
@@ -7028,10 +7067,6 @@ msgstr "отменить"
 #~ msgctxt "GUI|Spoke"
 #~ msgid "_Language Support"
 #~ msgstr "_Языковая поддержка"
-
-#~ msgctxt "GUI|Advanced Storage|iSCSI|Login|Login"
-#~ msgid "_Log In"
-#~ msgstr "_Войти"
 
 #~ msgctxt "GUI|Network|Proxy"
 #~ msgid "_Method"

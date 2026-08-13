@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-12 04:26+0000\n"
+"POT-Creation-Date: 2026-08-13 04:29+0000\n"
 "PO-Revision-Date: 2026-03-30 05:13+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/"
@@ -128,7 +128,7 @@ msgstr ""
 "„$0” partíció található a(z) $1. MDRAID eszközön. Az MDRAID eszközökön lévő "
 "rendszerbetöltő partíciók nem támogatottak."
 
-#: src/components/users/Accounts.jsx:250
+#: src/components/users/Accounts.jsx:256
 msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr ""
@@ -141,7 +141,7 @@ msgstr ""
 msgid "Abort installation"
 msgstr "$0 telepítés"
 
-#: src/components/HeaderKebab.jsx:126
+#: src/components/HeaderKebab.jsx:121
 msgid "About"
 msgstr "Névjegy"
 
@@ -178,7 +178,7 @@ msgstr "További nyelvek"
 msgid "Additional software for the selected environment"
 msgstr "További szoftverek a kiválasztott környezethez"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:67
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:55
 msgid "All changes made in the storage editor take effect immediately."
 msgstr "A tárolószerkesztőben végzett változások azonnal életbe lépnek."
 
@@ -190,7 +190,7 @@ msgstr "Az összes, ezt a jelmondatot használó eszköz zárolása fel lesz old
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/index.html:20
+#: src/login.html:8 src/index.html:20
 msgid "Anaconda Web UI"
 msgstr "Anaconda webes felület"
 
@@ -251,7 +251,7 @@ msgstr "Hibajelentés részletei"
 msgid "Bugzilla API key"
 msgstr "Bugzilla API-kulcs"
 
-#: src/components/AnacondaHeader.jsx:74
+#: src/components/AnacondaHeader.jsx:73
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
 "associated with pre-released software, that you intend to use this for "
@@ -267,7 +267,7 @@ msgstr ""
 #: src/components/localization/Keyboard.jsx:280
 #: src/components/storage/installation-method/InstallationDestination.jsx:371
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
 #: src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "Mégse"
@@ -294,7 +294,7 @@ msgstr "Partíciókiosztás módosítása"
 msgid "Change system keyboard layout"
 msgstr "Rendszer billentyűzetkiosztásának módosítása"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:139
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:127
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr "Az itt végzett módosítások azonnal életbe lépnek. Nincs „visszavonás”."
@@ -326,7 +326,7 @@ msgstr ""
 msgid "Close"
 msgstr "Bezárás"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:143
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:131
 msgid "Close storage editor"
 msgstr "Tárolószerkesztő bezárása"
 
@@ -337,7 +337,7 @@ msgstr ""
 "A Cockpit tároló nem biztosított jelmondatot a titkosított eszköz "
 "feloldásához."
 
-#: src/components/installation/InstallationProgress.jsx:231
+#: src/components/installation/InstallationProgress.jsx:263
 msgid "Completed"
 msgstr "Kész"
 
@@ -360,7 +360,7 @@ msgstr "Egyéni NTP-kiszolgálók beállítása"
 msgid "Configure network"
 msgstr "Hálózat beállítása"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:129
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:117
 msgid "Configure storage"
 msgstr "Tárolók beállítása"
 
@@ -368,7 +368,7 @@ msgstr "Tárolók beállítása"
 msgid "Configure storage again"
 msgstr "Tárolók újbóli beállítása"
 
-#: src/components/users/Accounts.jsx:202 src/components/users/Accounts.jsx:405
+#: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
 msgid "Confirm passphrase"
 msgstr "Erősítse meg a jelszavát"
@@ -402,7 +402,7 @@ msgstr "Kérjük fejezzen be minden lépést mielőtt folytatja"
 msgid "Create Account"
 msgstr "Fiók létrehozása"
 
-#: src/components/users/Accounts.jsx:312
+#: src/components/users/Accounts.jsx:318
 msgid "Create account"
 msgstr "Fiók létrehozása"
 
@@ -466,7 +466,7 @@ msgstr "Duplikált eszköz."
 msgid "Duplicate mount point."
 msgstr "Duplikált csatolási pont."
 
-#: src/components/users/Accounts.jsx:336 src/components/users/Accounts.jsx:387
+#: src/components/users/Accounts.jsx:342 src/components/users/Accounts.jsx:393
 msgid "Enable root account"
 msgstr "Rendszergazdai fiók engedélyezése"
 
@@ -481,6 +481,14 @@ msgstr "Titkosítva"
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:106
 msgid "Encryption"
 msgstr "Titkosítás"
+
+#: src/components/login/LoginPage.jsx:88
+msgid "Enter PIN"
+msgstr ""
+
+#: src/components/login/LoginPage.jsx:77
+msgid "Enter PIN to access the installer"
+msgstr ""
 
 #: src/components/Error.jsx:204
 msgid ""
@@ -502,7 +510,7 @@ msgstr "Törölje az adatokat és telepítse"
 msgid "Error details"
 msgstr "Hiba részletei"
 
-#: src/components/installation/InstallationProgress.jsx:201
+#: src/components/installation/InstallationProgress.jsx:233
 msgid "Exit to live desktop"
 msgstr "Kilépés az élő asztali környezetbe"
 
@@ -523,11 +531,11 @@ msgstr "Nem sikerült a kiosztások mentése"
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "A Fedora Linuxhoz legalább $0 tárhely szükséges."
 
-#: src/components/installation/InstallationProgress.jsx:195
+#: src/components/installation/InstallationProgress.jsx:227
 msgid "Finalization"
 msgstr "Véglegesítés"
 
-#: src/components/installation/InstallationProgress.jsx:193
+#: src/components/installation/InstallationProgress.jsx:225
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -539,7 +547,7 @@ msgstr ""
 msgid "Find layout"
 msgstr "Kiosztás keresése"
 
-#: src/components/users/Accounts.jsx:403
+#: src/components/users/Accounts.jsx:409
 msgid ""
 "For better security, avoid using the root account directly. Instead, use the "
 "local account above to manage the system."
@@ -547,11 +555,11 @@ msgstr ""
 "A nagyobb biztonság érdekében ne használja közvetlenül a root fiókot. "
 "Helyette használja a fenti helyi fiókot a rendszer kezeléséhez."
 
-#: src/components/users/Accounts.jsx:252
+#: src/components/users/Accounts.jsx:258
 msgid "Full name"
 msgstr "Teljes név"
 
-#: src/components/users/Accounts.jsx:188
+#: src/components/users/Accounts.jsx:194
 msgid "Full name cannot contain colon characters"
 msgstr "A teljes név nem tartalmazhat kettőspontot"
 
@@ -561,6 +569,12 @@ msgstr "Súgószöveg"
 
 #: src/components/Error.jsx:230
 msgid "Hide API key"
+msgstr "API-kulcs elrejtése"
+
+#: src/components/login/LoginPage.jsx:94
+#, fuzzy
+#| msgid "Hide API key"
+msgid "Hide PIN"
 msgstr "API-kulcs elrejtése"
 
 #: src/components/Password.jsx:265
@@ -579,7 +593,7 @@ msgstr "Jelszó elrejtése"
 msgid "Hostname"
 msgstr "Gépnév"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:145
+#: src/components/storage/installation-method/InstallationScenario.jsx:163
 msgid "How would you like to install?"
 msgstr "Hogyan szeretné telepíteni?"
 
@@ -606,6 +620,12 @@ msgstr ""
 "Ha üres, a gépnév egy hálózati információk által beállított átmeneti érték "
 "lesz."
 
+#: src/components/storage/installation-method/InstallationScenario.jsx:126
+msgid ""
+"If none of the options above apply, use the storage editor to create a "
+"custom partitioning before proceeding."
+msgstr ""
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:56
 msgid "If you are configuring partitions the following are required:"
 msgstr "Ha partíciókat állít be, akkor a következőkre lesz szükség:"
@@ -620,7 +640,7 @@ msgstr ""
 "A kézi jelentés lehetővé teszi, hogy átnézze, és szelektíven mellékelje a "
 "naplófájlokat."
 
-#: src/components/AnacondaHeader.jsx:77
+#: src/components/AnacondaHeader.jsx:76
 msgid ""
 "If you do not understand or accept the risks, then please exit this program."
 msgstr ""
@@ -633,7 +653,7 @@ msgid ""
 "information there instead of creating a duplicate report."
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:236
+#: src/components/installation/InstallationProgress.jsx:268
 msgid "In progress"
 msgstr "Folyamatban"
 
@@ -648,7 +668,7 @@ msgid "Install"
 msgstr "Telepítés"
 
 #: src/components/Error.jsx:859
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:203
 msgid "Installation failed"
 msgstr "A telepítés sikertelen"
 
@@ -656,13 +676,11 @@ msgstr "A telepítés sikertelen"
 msgid "Installation method"
 msgstr "Telepítési mód"
 
-#: src/components/installation/InstallationProgress.jsx:119
-#: src/components/installation/InstallationProgress.jsx:140
-#: src/components/installation/InstallationProgress.jsx:145
+#: src/components/installation/InstallationProgress.jsx:60
 msgid "Installation of the system failed"
 msgstr "Nem sikerült a rendszer telepítése"
 
-#: src/components/installation/InstallationProgress.jsx:86
+#: src/components/installation/InstallationProgress.jsx:91
 msgid "Installation of the system failed: $0"
 msgstr "Nem sikerült a rendszer telepítése: $0"
 
@@ -670,13 +688,17 @@ msgstr "Nem sikerült a rendszer telepítése: $0"
 msgid "Installation type"
 msgstr "Telepítés típusa"
 
-#: src/components/installation/InstallationProgress.jsx:173
+#: src/components/installation/InstallationProgress.jsx:205
 msgid "Installing"
 msgstr "Telepítés"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:306
 msgid "Insufficient disk space"
 msgstr "Elégtelen lemezterület"
+
+#: src/components/login/LoginPage.jsx:68
+msgid "Invalid PIN. Please try again."
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:255
 msgid ""
@@ -723,8 +745,7 @@ msgstr "Az indítás során használandó billentyűzetkiosztás"
 msgid "Language"
 msgstr "Nyelv"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:77
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:199
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:65
 msgid "Launch storage editor"
 msgstr "Tárhelyszerkesztő indítása"
 
@@ -732,7 +753,7 @@ msgstr "Tárhelyszerkesztő indítása"
 msgid "Learn more about restricted access in the configuration"
 msgstr "Tudjon meg többet a korlátozott hozzáférésről a beállításokban"
 
-#: src/components/users/Accounts.jsx:203
+#: src/components/users/Accounts.jsx:209
 msgid "Leave both passphrase fields empty to use an empty password."
 msgstr ""
 
@@ -743,6 +764,13 @@ msgstr "Hely"
 #: src/components/storage/installation-method/EncryptedDevices.jsx:147
 msgid "Locked devices"
 msgstr "Lezárt eszközök"
+
+#: src/components/login/LoginPage.jsx:118
+#, fuzzy
+#| msgctxt "GUI|Advanced Storage|iSCSI|Login|Login"
+#| msgid "_Log In"
+msgid "Log in"
+msgstr "Beje_lentkezés"
 
 #: src/components/localization/Keyboard.jsx:122
 #: src/components/localization/Keyboard.jsx:126
@@ -899,7 +927,7 @@ msgstr "Nincs elég szabad hely a kiválasztott lemezeken."
 msgid "Not enough space on selected disks."
 msgstr "Nincs elég hely a kiválasztott lemezeken."
 
-#: src/components/AnacondaHeader.jsx:71
+#: src/components/AnacondaHeader.jsx:70
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
 "testing purposes only. Do NOT use this software for any critical work or for "
@@ -929,7 +957,7 @@ msgstr "Egyéb billentyűzetek"
 msgid "Partitions (advanced)"
 msgstr "Partíciók (speciális)"
 
-#: src/components/users/Accounts.jsx:199 src/components/users/Accounts.jsx:401
+#: src/components/users/Accounts.jsx:205 src/components/users/Accounts.jsx:407
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:93
@@ -944,13 +972,19 @@ msgstr "A jelmondat nem egyezik egyetlen zárolt eszközével sem"
 msgid "Passphrases must match"
 msgstr "A jelmondatoknak egyezniük kell"
 
-#: src/components/installation/InstallationProgress.jsx:225
+#: src/components/installation/InstallationProgress.jsx:257
 msgid "Pending"
 msgstr "Folyamatban"
 
 #: src/components/Error.jsx:94
 msgid "Please attach the log file $0 to the issue."
 msgstr "Mellékelje a(z) $0 naplófájlt a problémához."
+
+#: src/components/login/LoginPage.jsx:44
+#, fuzzy
+#| msgid "Please enter a valid name."
+msgid "Please enter a PIN"
+msgstr "Adjon meg egy érvényes nevet."
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:321
 msgid "Please select at least one disk to continue"
@@ -970,7 +1004,7 @@ msgstr "Nincs csatolható eszköz"
 msgid "Powered by Anaconda"
 msgstr "Az Anaconda használatával"
 
-#: src/components/AnacondaHeader.jsx:61
+#: src/components/AnacondaHeader.jsx:60
 msgid "Pre-release"
 msgstr "Kiadás előtti verziók"
 
@@ -1022,7 +1056,7 @@ msgstr "A valódi gépnév 64 vagy kevesebb karakter hosszú lehet"
 
 #: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:848
-#: src/components/installation/InstallationProgress.jsx:200
+#: src/components/installation/InstallationProgress.jsx:232
 msgid "Reboot"
 msgstr "Újraindítás"
 
@@ -1112,7 +1146,7 @@ msgid "Replace current installation, but keep files in home."
 msgstr ""
 "A jelenlegi telepítés cseréje, de a saját mappákban lévő fájlok megtartása."
 
-#: src/components/HeaderKebab.jsx:129
+#: src/components/HeaderKebab.jsx:124
 msgid "Report Issue"
 msgstr "Probléma bejelentése"
 
@@ -1170,7 +1204,7 @@ msgstr "Hozzáférés korlátozása a jelentésnél"
 msgid "Restricts the report to the $0 group. $1"
 msgstr "A jelentést a(z) $0 csoportra korlátozza. $1"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:46
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:34
 msgid "Return to installation"
 msgstr "Visszatérés a telepítéshez"
 
@@ -1182,6 +1216,12 @@ msgstr "Visszatérés a tárolószerkesztőhöz"
 msgid "Review and install"
 msgstr "Áttekintés és telepítés"
 
+#: src/components/users/Accounts.jsx:94
+#, fuzzy
+#| msgid "no NTP servers have been configured"
+msgid "Root account has been configured"
+msgstr "nincs NTP-kiszolgáló beállítva"
+
 #: src/components/users/Accounts.jsx:86
 msgid "Root account is enabled"
 msgstr "Rendszergazdai fiók bekapcsolva"
@@ -1192,7 +1232,7 @@ msgstr ""
 "A rendszergazdai fiók be van kapcsolva, de felhasználói fiók nem lett "
 "beállítva"
 
-#: src/components/users/Accounts.jsx:345
+#: src/components/users/Accounts.jsx:351
 msgid "Root password has been set."
 msgstr "Be lett állítva a rendszergazdai jelszó."
 
@@ -1290,6 +1330,12 @@ msgstr "A _de./du. megjelenítése"
 msgid "Show API key"
 msgstr "API-kulcs megjelenítése"
 
+#: src/components/login/LoginPage.jsx:94
+#, fuzzy
+#| msgid "Show API key"
+msgid "Show PIN"
+msgstr "API-kulcs megjelenítése"
+
 #: src/components/Password.jsx:265
 msgid "Show confirmed password"
 msgstr "Megerősített jelszó megjelenítése"
@@ -1306,11 +1352,11 @@ msgstr "Jelszó megjelenítése"
 msgid "Size"
 msgstr "Méret"
 
-#: src/components/installation/InstallationProgress.jsx:185
+#: src/components/installation/InstallationProgress.jsx:217
 msgid "Software installation"
 msgstr "Szoftver telepítése"
 
-#: src/components/installation/InstallationProgress.jsx:183
+#: src/components/installation/InstallationProgress.jsx:215
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1344,24 +1390,20 @@ msgstr "Veremkiíratás"
 msgid "Storage"
 msgstr "Tárhely"
 
-#: src/components/installation/InstallationProgress.jsx:180
+#: src/components/installation/InstallationProgress.jsx:212
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Tároló-összeállítás"
 
-#: src/components/installation/InstallationProgress.jsx:178
+#: src/components/installation/InstallationProgress.jsx:210
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "Tárhely-konfiguráció: A tárhely beállítása folyamatban van."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:58
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:46
 msgid "Storage editor"
 msgstr "Tárolószerkesztő"
-
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:209
-msgid "Storage editor is available only in the `Installation method` step."
-msgstr "A tárolószerkesztő csak a „Telepítési mód” lépésben érhető el."
 
 #: src/components/storage/scenarios/use-configured-storage/index.js:26
 msgid "Storage is based on the configuration from 'Modify storage'."
@@ -1373,7 +1415,7 @@ msgid ""
 "layout can be reviewed in the summary step."
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid "Storage plugin failed"
 msgstr "A tárolóbővítmény sikertelen"
 
@@ -1385,7 +1427,7 @@ msgstr "Nem felel meg a tárolókövetelményeknek"
 msgid "Strong"
 msgstr "Erős"
 
-#: src/components/installation/InstallationProgress.jsx:168
+#: src/components/installation/InstallationProgress.jsx:200
 msgid "Successfully installed"
 msgstr "Sikeresen telepítve"
 
@@ -1401,15 +1443,15 @@ msgstr "Javasolt billentyűzetek"
 msgid "Suggested languages"
 msgstr "Javasolt nyelvek"
 
-#: src/components/users/Accounts.jsx:333 src/components/users/Accounts.jsx:417
+#: src/components/users/Accounts.jsx:339 src/components/users/Accounts.jsx:423
 msgid "System"
 msgstr "Rendszer"
 
-#: src/components/installation/InstallationProgress.jsx:190
+#: src/components/installation/InstallationProgress.jsx:222
 msgid "System configuration"
 msgstr "Rendszerbeállítások"
 
-#: src/components/installation/InstallationProgress.jsx:188
+#: src/components/installation/InstallationProgress.jsx:220
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1467,7 +1509,7 @@ msgstr ""
 "Az alapértelmezett billentyűzetkiosztás nem támogatja az ASCII karaktereket. "
 "Alapértelmezettként válasszon egy ASCII-képes kiosztást."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:64
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:52
 msgid ""
 "The storage editor lets you resize, delete, and create partitions. It can "
 "set up LVM and much more. It is meant to be used as an advanced utility and "
@@ -1489,7 +1531,7 @@ msgstr ""
 msgid "This hostname can't be submitted"
 msgstr "Ez a gépnév nem küldhető be"
 
-#: src/components/AnacondaHeader.jsx:65
+#: src/components/AnacondaHeader.jsx:64
 msgid "This is unstable, pre-release software"
 msgstr "Ez egy instabil, előzetes kiadású szoftver"
 
@@ -1518,11 +1560,11 @@ msgstr "Időzóna"
 msgid "Title"
 msgstr "Cím"
 
-#: src/components/installation/InstallationProgress.jsx:216
+#: src/components/installation/InstallationProgress.jsx:248
 msgid "To begin using $0, reboot your system."
 msgstr "A(z) $0 használatának megkezdéséhez indítsa újra a rendszert."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:192
+#: src/components/storage/installation-method/InstallationMethod.jsx:194
 msgid "To continue, select the devices to install to."
 msgstr "A folytatáshoz, kérem válassza ki a telepíteni kívánt eszközöket."
 
@@ -1587,7 +1629,7 @@ msgstr "Teljes lemez felhasználása"
 msgid "Use free space"
 msgstr "Szabad tárhely felhasználása"
 
-#: src/components/users/Accounts.jsx:238
+#: src/components/users/Accounts.jsx:244
 msgid "Use local account"
 msgstr "Helyi fiók használata"
 
@@ -1595,15 +1637,15 @@ msgstr "Helyi fiók használata"
 msgid "Use the RAID device for automatic partitioning"
 msgstr "A RAID-eszköz használata az automatikus particionáláshoz"
 
-#: src/components/users/Accounts.jsx:487
+#: src/components/users/Accounts.jsx:494
 msgid "User creation"
 msgstr "Felhasználó létrehozása"
 
-#: src/components/users/Accounts.jsx:283
+#: src/components/users/Accounts.jsx:289
 msgid "User name"
 msgstr "Felhasználónév"
 
-#: src/components/users/Accounts.jsx:176
+#: src/components/users/Accounts.jsx:182
 msgid ""
 "User name may only contain: letters from a-z, digits 0-9, dash $0, period "
 "$1, underscore $2"
@@ -1611,11 +1653,11 @@ msgstr ""
 "A felhasználónév a következőket tartalmazhatja: betűk a-z, számjegyek 0-9, "
 "kötőjel $0, pont $1, alulvonás $2"
 
-#: src/components/users/Accounts.jsx:173
+#: src/components/users/Accounts.jsx:179
 msgid "User name must not be a reserved word"
 msgstr "A felhasználónév nem tartalmazhat a rendszer számára fenntartott szót"
 
-#: src/components/users/Accounts.jsx:170
+#: src/components/users/Accounts.jsx:176
 msgid "User names must be shorter than 33 characters"
 msgstr "A felhasználónévnek 33 karakternél rövidebbnek kell lennie"
 
@@ -1664,7 +1706,7 @@ msgstr ""
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr "Előállíthat egy API-kulcsot a(z) $0 Bugzilla-fiókjához."
 
-#: src/components/users/Accounts.jsx:520
+#: src/components/users/Accounts.jsx:527
 msgid ""
 "You have to enable the root account or create a local user account to "
 "proceed."
@@ -1681,11 +1723,11 @@ msgstr ""
 msgid "Your progress will not be saved."
 msgstr "A folyamat pillanatnyi állapota nem kerül mentésre."
 
-#: src/components/installation/InstallationProgress.jsx:230
+#: src/components/installation/InstallationProgress.jsx:262
 msgid "completed step"
 msgstr "befejezett lépés"
 
-#: src/components/installation/InstallationProgress.jsx:235
+#: src/components/installation/InstallationProgress.jsx:267
 msgid "current step"
 msgstr "jelenlegi lépés"
 
@@ -1729,7 +1771,7 @@ msgstr "Kész"
 msgid "mount"
 msgstr "csatolás"
 
-#: src/components/installation/InstallationProgress.jsx:224
+#: src/components/installation/InstallationProgress.jsx:256
 msgid "pending step"
 msgstr "függőben lévő lépés"
 
@@ -1753,6 +1795,9 @@ msgstr "zsugorítás erre: $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:375
 msgid "undo"
 msgstr "visszavonás"
+
+#~ msgid "Storage editor is available only in the `Installation method` step."
+#~ msgstr "A tárolószerkesztő csak a „Telepítési mód” lépésben érhető el."
 
 #~ msgid "Reboot to installed system"
 #~ msgstr "Újraindítás a telepített rendszerrel"
@@ -1811,11 +1856,6 @@ msgstr "visszavonás"
 #~ msgstr ""
 #~ "Egynél több kiosztás észlelve. A folytatáshoz távolítsa el a további "
 #~ "kiosztásokat."
-
-#, fuzzy
-#~| msgid "no NTP servers have been configured"
-#~ msgid "No user or root account has been configured"
-#~ msgstr "nincs NTP-kiszolgáló beállítva"
 
 #~ msgid "This account will have administration privilege with sudo."
 #~ msgstr "A fióknak rendszergazdai jogosultságai lesznek a sudo segítségével."
@@ -4516,9 +4556,6 @@ msgstr "visszavonás"
 #~ msgid "Please enter a valid mount point."
 #~ msgstr "Adjon meg egy érvényes csatolási pontot."
 
-#~ msgid "Please enter a valid name."
-#~ msgstr "Adjon meg egy érvényes nevet."
-
 #, python-format
 #~ msgid "Please manually connect your vnc client to %s to begin the install."
 #~ msgstr ""
@@ -7028,10 +7065,6 @@ msgstr "visszavonás"
 #~ msgctxt "GUI|Spoke"
 #~ msgid "_Language Support"
 #~ msgstr "Nye_lvi támogatás"
-
-#~ msgctxt "GUI|Advanced Storage|iSCSI|Login|Login"
-#~ msgid "_Log In"
-#~ msgstr "Beje_lentkezés"
 
 #~ msgctxt "GUI|Network|Proxy"
 #~ msgid "_Method"

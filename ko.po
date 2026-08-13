@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-12 04:26+0000\n"
+"POT-Creation-Date: 2026-08-13 04:29+0000\n"
 "PO-Revision-Date: 2026-07-13 05:54+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/anaconda-"
@@ -126,7 +126,7 @@ msgstr ""
 "MDRAID 장치 $1 에서 '$0' 파티션을 찾았습니다. MDRAID 장치에서 부트로더 파티션"
 "은 지원되지 않습니다."
 
-#: src/components/users/Accounts.jsx:250
+#: src/components/users/Accounts.jsx:256
 msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr ""
@@ -136,7 +136,7 @@ msgstr ""
 msgid "Abort installation"
 msgstr "설치 중지"
 
-#: src/components/HeaderKebab.jsx:126
+#: src/components/HeaderKebab.jsx:121
 msgid "About"
 msgstr "정보"
 
@@ -173,7 +173,7 @@ msgstr "추가 할 수 있는 언어"
 msgid "Additional software for the selected environment"
 msgstr "선택한 환경을 위한 추가 소프트웨어"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:67
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:55
 msgid "All changes made in the storage editor take effect immediately."
 msgstr "저장소 편집기에서 작성된 모든 변경은 즉시 영향을 미칩니다."
 
@@ -185,7 +185,7 @@ msgstr "이와 같은 암호문을 사용하는 모든 장치는 잠금해제 �
 msgid "Anaconda"
 msgstr "아나콘다"
 
-#: src/index.html:20
+#: src/login.html:8 src/index.html:20
 msgid "Anaconda Web UI"
 msgstr "아나콘다 웹 UI"
 
@@ -246,7 +246,7 @@ msgstr "결점 보고 세부 정보"
 msgid "Bugzilla API key"
 msgstr "버그질라 API 키"
 
-#: src/components/AnacondaHeader.jsx:74
+#: src/components/AnacondaHeader.jsx:73
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
 "associated with pre-released software, that you intend to use this for "
@@ -261,7 +261,7 @@ msgstr ""
 #: src/components/localization/Keyboard.jsx:280
 #: src/components/storage/installation-method/InstallationDestination.jsx:371
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
 #: src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "취소"
@@ -288,7 +288,7 @@ msgstr "파티션 구성 변경"
 msgid "Change system keyboard layout"
 msgstr "시스템 키보드 배열을 변경합니다"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:139
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:127
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
@@ -318,7 +318,7 @@ msgstr "이들 경고에도 불구하고 계속 진행하려면 다시 '다음' 
 msgid "Close"
 msgstr "종료"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:143
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:131
 msgid "Close storage editor"
 msgstr "저장소 편집기 닫기"
 
@@ -328,7 +328,7 @@ msgid ""
 msgstr ""
 "cockpit 저장소는 암호화된 장치를 해제하도록 암호문을 제공하지 않습니다."
 
-#: src/components/installation/InstallationProgress.jsx:231
+#: src/components/installation/InstallationProgress.jsx:263
 msgid "Completed"
 msgstr "완료되었습니다"
 
@@ -349,7 +349,7 @@ msgstr "사용자 정의 NTP 서버를 구성합니다"
 msgid "Configure network"
 msgstr "네트워크 구성"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:129
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:117
 msgid "Configure storage"
 msgstr "저장소 구성"
 
@@ -357,7 +357,7 @@ msgstr "저장소 구성"
 msgid "Configure storage again"
 msgstr "저장소를 다시 구성합니다"
 
-#: src/components/users/Accounts.jsx:202 src/components/users/Accounts.jsx:405
+#: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
 msgid "Confirm passphrase"
 msgstr "암호문을 확인합니다"
@@ -387,7 +387,7 @@ msgstr "계속하기 전에 이들 문제를 정정합니다."
 msgid "Create Account"
 msgstr "계정 생성"
 
-#: src/components/users/Accounts.jsx:312
+#: src/components/users/Accounts.jsx:318
 msgid "Create account"
 msgstr "계정 생성"
 
@@ -449,7 +449,7 @@ msgstr "중복 장치."
 msgid "Duplicate mount point."
 msgstr "중복 적재 지점."
 
-#: src/components/users/Accounts.jsx:336 src/components/users/Accounts.jsx:387
+#: src/components/users/Accounts.jsx:342 src/components/users/Accounts.jsx:393
 msgid "Enable root account"
 msgstr "root 계정 활성화"
 
@@ -464,6 +464,14 @@ msgstr "암호화됨"
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:106
 msgid "Encryption"
 msgstr "암호화"
+
+#: src/components/login/LoginPage.jsx:88
+msgid "Enter PIN"
+msgstr ""
+
+#: src/components/login/LoginPage.jsx:77
+msgid "Enter PIN to access the installer"
+msgstr ""
 
 #: src/components/Error.jsx:204
 msgid ""
@@ -485,7 +493,7 @@ msgstr "자료를 지우고 설치합니다"
 msgid "Error details"
 msgstr "오류 상세"
 
-#: src/components/installation/InstallationProgress.jsx:201
+#: src/components/installation/InstallationProgress.jsx:233
 msgid "Exit to live desktop"
 msgstr "라이브 데스크탑으로 종료"
 
@@ -506,11 +514,11 @@ msgstr "배열을 저장하는 데 실패했습니다"
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "페도라 리눅스는 적어도 디스크 공간의 $0가 필요합니다."
 
-#: src/components/installation/InstallationProgress.jsx:195
+#: src/components/installation/InstallationProgress.jsx:227
 msgid "Finalization"
 msgstr "마무리"
 
-#: src/components/installation/InstallationProgress.jsx:193
+#: src/components/installation/InstallationProgress.jsx:225
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -521,7 +529,7 @@ msgstr ""
 msgid "Find layout"
 msgstr "배열 찾기"
 
-#: src/components/users/Accounts.jsx:403
+#: src/components/users/Accounts.jsx:409
 msgid ""
 "For better security, avoid using the root account directly. Instead, use the "
 "local account above to manage the system."
@@ -529,11 +537,11 @@ msgstr ""
 "보다 나은 보안을 위해, 직접 root 계정 사용하기를 피합니다. 대신에, 위의 로컬 "
 "계정을 사용하여 시스템을 관리하세요."
 
-#: src/components/users/Accounts.jsx:252
+#: src/components/users/Accounts.jsx:258
 msgid "Full name"
 msgstr "성명"
 
-#: src/components/users/Accounts.jsx:188
+#: src/components/users/Accounts.jsx:194
 msgid "Full name cannot contain colon characters"
 msgstr "이름에 쌍점(:)을 사용 할 수 없습니다"
 
@@ -543,6 +551,12 @@ msgstr "텍스트 도우미"
 
 #: src/components/Error.jsx:230
 msgid "Hide API key"
+msgstr "API 키 숨기기"
+
+#: src/components/login/LoginPage.jsx:94
+#, fuzzy
+#| msgid "Hide API key"
+msgid "Hide PIN"
 msgstr "API 키 숨기기"
 
 #: src/components/Password.jsx:265
@@ -561,7 +575,7 @@ msgstr "비밀번호 숨기기"
 msgid "Hostname"
 msgstr "호스트이름"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:145
+#: src/components/storage/installation-method/InstallationScenario.jsx:163
 msgid "How would you like to install?"
 msgstr "설치 하시겠습니까?"
 
@@ -584,6 +598,12 @@ msgstr "나는 일부 파티션이 수정 될 것이라는 점을 이해합니�
 msgid "If empty, hostname will be transient and set by network information."
 msgstr "만약 비었으면, 호스트이름은 일시적이고 네트워크 정보로 설정됩니다."
 
+#: src/components/storage/installation-method/InstallationScenario.jsx:126
+msgid ""
+"If none of the options above apply, use the storage editor to create a "
+"custom partitioning before proceeding."
+msgstr ""
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:56
 msgid "If you are configuring partitions the following are required:"
 msgstr "만약 당신이 파티션을 구성하는 경우 다음이 필요합니다:"
@@ -598,7 +618,7 @@ msgstr ""
 "있습니다. 수동 보고는 당신이 기록 파일을 스스로 검토하고 선택적으로 첨부 할 "
 "수 있도록 합니다."
 
-#: src/components/AnacondaHeader.jsx:77
+#: src/components/AnacondaHeader.jsx:76
 msgid ""
 "If you do not understand or accept the risks, then please exit this program."
 msgstr ""
@@ -610,7 +630,7 @@ msgid ""
 "information there instead of creating a duplicate report."
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:236
+#: src/components/installation/InstallationProgress.jsx:268
 msgid "In progress"
 msgstr "진행 중"
 
@@ -625,7 +645,7 @@ msgid "Install"
 msgstr "설치"
 
 #: src/components/Error.jsx:859
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:203
 msgid "Installation failed"
 msgstr "설치에 실패했습니다"
 
@@ -633,13 +653,11 @@ msgstr "설치에 실패했습니다"
 msgid "Installation method"
 msgstr "설치 방법"
 
-#: src/components/installation/InstallationProgress.jsx:119
-#: src/components/installation/InstallationProgress.jsx:140
-#: src/components/installation/InstallationProgress.jsx:145
+#: src/components/installation/InstallationProgress.jsx:60
 msgid "Installation of the system failed"
 msgstr "시스템 설치에 실패했습니다"
 
-#: src/components/installation/InstallationProgress.jsx:86
+#: src/components/installation/InstallationProgress.jsx:91
 msgid "Installation of the system failed: $0"
 msgstr "시스템 설치에 실패했습니다: $0"
 
@@ -647,13 +665,17 @@ msgstr "시스템 설치에 실패했습니다: $0"
 msgid "Installation type"
 msgstr "설치 유형"
 
-#: src/components/installation/InstallationProgress.jsx:173
+#: src/components/installation/InstallationProgress.jsx:205
 msgid "Installing"
 msgstr "설치 중"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:306
 msgid "Insufficient disk space"
 msgstr "불충분한 디스크 공간"
+
+#: src/components/login/LoginPage.jsx:68
+msgid "Invalid PIN. Please try again."
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:255
 msgid ""
@@ -698,8 +720,7 @@ msgstr "부팅 중에 키보드 나열"
 msgid "Language"
 msgstr "언어"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:77
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:199
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:65
 msgid "Launch storage editor"
 msgstr "저장소 편집기 실행"
 
@@ -707,7 +728,7 @@ msgstr "저장소 편집기 실행"
 msgid "Learn more about restricted access in the configuration"
 msgstr "구성에서 제한된 접근에 대해 알아보세요"
 
-#: src/components/users/Accounts.jsx:203
+#: src/components/users/Accounts.jsx:209
 msgid "Leave both passphrase fields empty to use an empty password."
 msgstr "비워 있는 비밀번호를 사용하려면 암호구 부분을 모두 비워두세요."
 
@@ -718,6 +739,13 @@ msgstr "위치"
 #: src/components/storage/installation-method/EncryptedDevices.jsx:147
 msgid "Locked devices"
 msgstr "잠금된 장치"
+
+#: src/components/login/LoginPage.jsx:118
+#, fuzzy
+#| msgctxt "GUI|Advanced Storage|iSCSI|Login|Login"
+#| msgid "_Log In"
+msgid "Log in"
+msgstr "로그인(_L)"
 
 #: src/components/localization/Keyboard.jsx:122
 #: src/components/localization/Keyboard.jsx:126
@@ -870,7 +898,7 @@ msgstr "선택한 디스크에 여유 공간이 충분하지 않습니다."
 msgid "Not enough space on selected disks."
 msgstr "선택한 디스크에 공간이 충분하지 않습니다."
 
-#: src/components/AnacondaHeader.jsx:71
+#: src/components/AnacondaHeader.jsx:70
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
 "testing purposes only. Do NOT use this software for any critical work or for "
@@ -899,7 +927,7 @@ msgstr "기타 키보드"
 msgid "Partitions (advanced)"
 msgstr "파티션 (고급)"
 
-#: src/components/users/Accounts.jsx:199 src/components/users/Accounts.jsx:401
+#: src/components/users/Accounts.jsx:205 src/components/users/Accounts.jsx:407
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:93
@@ -914,13 +942,19 @@ msgstr "암호문은 잠금된 장치와 일치하지 않습니다"
 msgid "Passphrases must match"
 msgstr "암호문은 일치해야 합니다"
 
-#: src/components/installation/InstallationProgress.jsx:225
+#: src/components/installation/InstallationProgress.jsx:257
 msgid "Pending"
 msgstr "보류 중"
 
 #: src/components/Error.jsx:94
 msgid "Please attach the log file $0 to the issue."
 msgstr "로그 파일 $0를 문제로 첨부해 주세요."
+
+#: src/components/login/LoginPage.jsx:44
+#, fuzzy
+#| msgid "Please enter a valid name."
+msgid "Please enter a PIN"
+msgstr "올바른 이름을 입력하십시오."
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:321
 msgid "Please select at least one disk to continue"
@@ -940,7 +974,7 @@ msgstr "적재 할 수 있는 장치를 찾을 수 없음"
 msgid "Powered by Anaconda"
 msgstr "아나콘다 제공"
 
-#: src/components/AnacondaHeader.jsx:61
+#: src/components/AnacondaHeader.jsx:60
 msgid "Pre-release"
 msgstr "사전-출시"
 
@@ -991,7 +1025,7 @@ msgstr "실제 호스트이름은 길이로 64 자 이하의 문자여야 합니
 
 #: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:848
-#: src/components/installation/InstallationProgress.jsx:200
+#: src/components/installation/InstallationProgress.jsx:232
 msgid "Reboot"
 msgstr "재시작"
 
@@ -1077,7 +1111,7 @@ msgstr ""
 msgid "Replace current installation, but keep files in home."
 msgstr "현재 설치를 대체하지만 홈에 파일을 유지합니다."
 
-#: src/components/HeaderKebab.jsx:129
+#: src/components/HeaderKebab.jsx:124
 msgid "Report Issue"
 msgstr "문제를 보고합니다"
 
@@ -1132,7 +1166,7 @@ msgstr "보고서에 대한 접근을 제한합니다"
 msgid "Restricts the report to the $0 group. $1"
 msgstr "$0 그룹에 대한 보고를 제한합니다. $1"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:46
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:34
 msgid "Return to installation"
 msgstr "설치로 돌아가기"
 
@@ -1144,6 +1178,12 @@ msgstr "저장소 편집기로 돌아갑니다"
 msgid "Review and install"
 msgstr "검토하고 설치"
 
+#: src/components/users/Accounts.jsx:94
+#, fuzzy
+#| msgid "No user or root account has been configured"
+msgid "Root account has been configured"
+msgstr "사용자나 root 계정이 구성되지 않았습니다"
+
 #: src/components/users/Accounts.jsx:86
 msgid "Root account is enabled"
 msgstr "root 계정이 비활성화 되었습니다"
@@ -1152,7 +1192,7 @@ msgstr "root 계정이 비활성화 되었습니다"
 msgid "Root account is enabled, but no user account has been configured"
 msgstr "root 계정이 활성화 되었지만, 사용자 계정이 구성되지 않았습니다"
 
-#: src/components/users/Accounts.jsx:345
+#: src/components/users/Accounts.jsx:351
 msgid "Root password has been set."
 msgstr "root 비밀번호가 설정되었습니다."
 
@@ -1250,6 +1290,12 @@ msgstr "오전/오후 표시"
 msgid "Show API key"
 msgstr "API 키 표시"
 
+#: src/components/login/LoginPage.jsx:94
+#, fuzzy
+#| msgid "Show API key"
+msgid "Show PIN"
+msgstr "API 키 표시"
+
 #: src/components/Password.jsx:265
 msgid "Show confirmed password"
 msgstr "확인된 비밀번호 표시"
@@ -1266,11 +1312,11 @@ msgstr "비밀번호 표시"
 msgid "Size"
 msgstr "크기"
 
-#: src/components/installation/InstallationProgress.jsx:185
+#: src/components/installation/InstallationProgress.jsx:217
 msgid "Software installation"
 msgstr "소프트웨어 설치"
 
-#: src/components/installation/InstallationProgress.jsx:183
+#: src/components/installation/InstallationProgress.jsx:215
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1304,24 +1350,20 @@ msgstr "스택트레이스"
 msgid "Storage"
 msgstr "저장소"
 
-#: src/components/installation/InstallationProgress.jsx:180
+#: src/components/installation/InstallationProgress.jsx:212
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "저장소 구성"
 
-#: src/components/installation/InstallationProgress.jsx:178
+#: src/components/installation/InstallationProgress.jsx:210
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "저장소 구성: 저장소는 현재 구성되어져 있는 상태입니다."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:58
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:46
 msgid "Storage editor"
 msgstr "저장소 편집기"
-
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:209
-msgid "Storage editor is available only in the `Installation method` step."
-msgstr "저장소 편집기는 `Installation method`단계에서만 사용 할 수 있습니다."
 
 #: src/components/storage/scenarios/use-configured-storage/index.js:26
 msgid "Storage is based on the configuration from 'Modify storage'."
@@ -1335,7 +1377,7 @@ msgstr ""
 "킥스타트 파일에서 저장소 배열은 정의됩니다. 계획된 디스크 구획 배열은 요약 단"
 "계에서 검토 할 수 있습니다."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid "Storage plugin failed"
 msgstr "실패한 저장소 플로그인"
 
@@ -1347,7 +1389,7 @@ msgstr "저장소 요구사항이 충족되지 않았습니다"
 msgid "Strong"
 msgstr "강함"
 
-#: src/components/installation/InstallationProgress.jsx:168
+#: src/components/installation/InstallationProgress.jsx:200
 msgid "Successfully installed"
 msgstr "성공적으로 설치되었습니다"
 
@@ -1363,15 +1405,15 @@ msgstr "제안된 키보드"
 msgid "Suggested languages"
 msgstr "제안된 언어"
 
-#: src/components/users/Accounts.jsx:333 src/components/users/Accounts.jsx:417
+#: src/components/users/Accounts.jsx:339 src/components/users/Accounts.jsx:423
 msgid "System"
 msgstr "시스템"
 
-#: src/components/installation/InstallationProgress.jsx:190
+#: src/components/installation/InstallationProgress.jsx:222
 msgid "System configuration"
 msgstr "시스템 구성"
 
-#: src/components/installation/InstallationProgress.jsx:188
+#: src/components/installation/InstallationProgress.jsx:220
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1424,7 +1466,7 @@ msgstr ""
 "선택된 기본 키보드 배열은 ASCII 문자를 지원하지 않습니다. 기본과 같이 ASCII-"
 "지원 배열을 선택하세요."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:64
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:52
 msgid ""
 "The storage editor lets you resize, delete, and create partitions. It can "
 "set up LVM and much more. It is meant to be used as an advanced utility and "
@@ -1446,7 +1488,7 @@ msgstr ""
 msgid "This hostname can't be submitted"
 msgstr "이와 같은 호스트이름은 제출 될 수 없습니다"
 
-#: src/components/AnacondaHeader.jsx:65
+#: src/components/AnacondaHeader.jsx:64
 msgid "This is unstable, pre-release software"
 msgstr "이 배포판은 불안정 할 수 있으며, 사전-출시된 소프트웨어입니다"
 
@@ -1475,11 +1517,11 @@ msgstr "시간대"
 msgid "Title"
 msgstr "제목"
 
-#: src/components/installation/InstallationProgress.jsx:216
+#: src/components/installation/InstallationProgress.jsx:248
 msgid "To begin using $0, reboot your system."
 msgstr "$0를 사용하여 시작하려면, 시스템을 재시작하세요."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:192
+#: src/components/storage/installation-method/InstallationMethod.jsx:194
 msgid "To continue, select the devices to install to."
 msgstr "계속하려면, 설치하려는 장치를 선택하세요."
 
@@ -1541,7 +1583,7 @@ msgstr "전체 디스크 사용"
 msgid "Use free space"
 msgstr "여유 공간 사용"
 
-#: src/components/users/Accounts.jsx:238
+#: src/components/users/Accounts.jsx:244
 msgid "Use local account"
 msgstr "로컬 계정 사용"
 
@@ -1549,15 +1591,15 @@ msgstr "로컬 계정 사용"
 msgid "Use the RAID device for automatic partitioning"
 msgstr "자동 파티션을 위해 레이드 장치를 사용합니다"
 
-#: src/components/users/Accounts.jsx:487
+#: src/components/users/Accounts.jsx:494
 msgid "User creation"
 msgstr "사용자 생성(_U)"
 
-#: src/components/users/Accounts.jsx:283
+#: src/components/users/Accounts.jsx:289
 msgid "User name"
 msgstr "사용자 이름"
 
-#: src/components/users/Accounts.jsx:176
+#: src/components/users/Accounts.jsx:182
 msgid ""
 "User name may only contain: letters from a-z, digits 0-9, dash $0, period "
 "$1, underscore $2"
@@ -1565,11 +1607,11 @@ msgstr ""
 "사용자 이름은 다음만 포함해야 합니다: a~z 문자, 0-9 숫자, 줄표 $0, 마침표 "
 "$1, 밑줄 $2"
 
-#: src/components/users/Accounts.jsx:173
+#: src/components/users/Accounts.jsx:179
 msgid "User name must not be a reserved word"
 msgstr "사용자 이름은 예약된 단어가 아니어야 합니다"
 
-#: src/components/users/Accounts.jsx:170
+#: src/components/users/Accounts.jsx:176
 msgid "User names must be shorter than 33 characters"
 msgstr "사용자 이름은 33 자보다 짧아야 합니다"
 
@@ -1617,7 +1659,7 @@ msgstr ""
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr "당신은 자신의 버그질라 계정 $0 에서 API 키를 생성 할 수 있습니다."
 
-#: src/components/users/Accounts.jsx:520
+#: src/components/users/Accounts.jsx:527
 msgid ""
 "You have to enable the root account or create a local user account to "
 "proceed."
@@ -1633,11 +1675,11 @@ msgstr ""
 msgid "Your progress will not be saved."
 msgstr "당신의 진행 상황은 저장되지 않습니다."
 
-#: src/components/installation/InstallationProgress.jsx:230
+#: src/components/installation/InstallationProgress.jsx:262
 msgid "completed step"
 msgstr "완료 단계"
 
-#: src/components/installation/InstallationProgress.jsx:235
+#: src/components/installation/InstallationProgress.jsx:267
 msgid "current step"
 msgstr "현재 단계"
 
@@ -1679,7 +1721,7 @@ msgstr "불완전"
 msgid "mount"
 msgstr "적재"
 
-#: src/components/installation/InstallationProgress.jsx:224
+#: src/components/installation/InstallationProgress.jsx:256
 msgid "pending step"
 msgstr "보류 단계"
 
@@ -1703,6 +1745,10 @@ msgstr "$0로 축소"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:375
 msgid "undo"
 msgstr "실행취소"
+
+#~ msgid "Storage editor is available only in the `Installation method` step."
+#~ msgstr ""
+#~ "저장소 편집기는 `Installation method`단계에서만 사용 할 수 있습니다."
 
 #~ msgid "Reboot to installed system"
 #~ msgstr "설치된 시스템으로 재부팅"
@@ -1764,9 +1810,6 @@ msgstr "실행취소"
 #~ msgid "No keyboard layout detected. Add at least one layout to proceed"
 #~ msgstr ""
 #~ "하나 이상의 나열이 탐지되었습니다. 진행하려면 추가된 나열을 제거하세요"
-
-#~ msgid "No user or root account has been configured"
-#~ msgstr "사용자나 root 계정이 구성되지 않았습니다"
 
 #~ msgid ""
 #~ "Skipping account creation during installation. It will happen on first "
@@ -4392,9 +4435,6 @@ msgstr "실행취소"
 #~ msgid "Please enter a valid mount point."
 #~ msgstr "올바른 적재 지점을 입력하세요."
 
-#~ msgid "Please enter a valid name."
-#~ msgstr "올바른 이름을 입력하십시오."
-
 #, python-format
 #~ msgid "Please manually connect your vnc client to %s to begin the install."
 #~ msgstr ""
@@ -6842,10 +6882,6 @@ msgstr "실행취소"
 #~ msgctxt "GUI|Spoke"
 #~ msgid "_Language Support"
 #~ msgstr "언어 지원(_L)"
-
-#~ msgctxt "GUI|Advanced Storage|iSCSI|Login|Login"
-#~ msgid "_Log In"
-#~ msgstr "로그인(_L)"
 
 #~ msgctxt "GUI|Network|Proxy"
 #~ msgid "_Method"

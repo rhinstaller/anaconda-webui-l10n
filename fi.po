@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-12 04:26+0000\n"
+"POT-Creation-Date: 2026-08-13 04:29+0000\n"
 "PO-Revision-Date: 2026-05-05 15:40+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
@@ -119,7 +119,7 @@ msgstr ""
 "Osio '$0' MDRAID-laitteella $1 löytyi. Käynnistyslataimen osiot MDRAID-"
 "laitteilla ei tueta."
 
-#: src/components/users/Accounts.jsx:250
+#: src/components/users/Accounts.jsx:256
 msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr ""
@@ -132,7 +132,7 @@ msgstr ""
 msgid "Abort installation"
 msgstr "$0:n asennus"
 
-#: src/components/HeaderKebab.jsx:126
+#: src/components/HeaderKebab.jsx:121
 msgid "About"
 msgstr "Aiheesta"
 
@@ -169,7 +169,7 @@ msgstr "Lisäkielet"
 msgid "Additional software for the selected environment"
 msgstr "Lisäohjelmisto valittuun ympäristöön"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:67
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:55
 msgid "All changes made in the storage editor take effect immediately."
 msgstr ""
 "Kaikki tallennusmuokkaimeen tehdyt muutokset astuvat voimaan välittömästi."
@@ -182,7 +182,7 @@ msgstr "Kaikki tätä tunnuslausetta käyttävät laitteet avataan"
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/index.html:20
+#: src/login.html:8 src/index.html:20
 msgid "Anaconda Web UI"
 msgstr "Anaconda-verkkokäyttöliittymä"
 
@@ -243,7 +243,7 @@ msgstr "Virheraportin tiedot"
 msgid "Bugzilla API key"
 msgstr "Bugzillan API-avain"
 
-#: src/components/AnacondaHeader.jsx:74
+#: src/components/AnacondaHeader.jsx:73
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
 "associated with pre-released software, that you intend to use this for "
@@ -259,7 +259,7 @@ msgstr ""
 #: src/components/localization/Keyboard.jsx:280
 #: src/components/storage/installation-method/InstallationDestination.jsx:371
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
 #: src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "Peru"
@@ -286,7 +286,7 @@ msgstr "Muuta osion asettelua"
 msgid "Change system keyboard layout"
 msgstr "Vaihda järjestelmän näppäimistön asettelu"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:139
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:127
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
@@ -318,7 +318,7 @@ msgstr ""
 msgid "Close"
 msgstr "Sulje"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:143
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:131
 msgid "Close storage editor"
 msgstr "Sulje tallennusmuokkkain"
 
@@ -329,7 +329,7 @@ msgstr ""
 "Cockpit-tallennustila ei tarjonnut pääsylausetta salatun laitteen lukituksen "
 "avaamiseen."
 
-#: src/components/installation/InstallationProgress.jsx:231
+#: src/components/installation/InstallationProgress.jsx:263
 msgid "Completed"
 msgstr "Valmis"
 
@@ -350,7 +350,7 @@ msgstr "Määritä mukautetut NTP-palvelimet"
 msgid "Configure network"
 msgstr "Määritä verkko"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:129
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:117
 msgid "Configure storage"
 msgstr "Määritä tallennustila"
 
@@ -358,7 +358,7 @@ msgstr "Määritä tallennustila"
 msgid "Configure storage again"
 msgstr "Määritä tallennustila uudelleen"
 
-#: src/components/users/Accounts.jsx:202 src/components/users/Accounts.jsx:405
+#: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
 msgid "Confirm passphrase"
 msgstr "Vahvista salalause"
@@ -390,7 +390,7 @@ msgstr "Korjaa nämä ongelmat ennen jatkamista."
 msgid "Create Account"
 msgstr "Luo tili"
 
-#: src/components/users/Accounts.jsx:312
+#: src/components/users/Accounts.jsx:318
 msgid "Create account"
 msgstr "Luo tili"
 
@@ -452,7 +452,7 @@ msgstr "Laitteen kaksoiskappale."
 msgid "Duplicate mount point."
 msgstr "Monista liitoskohta."
 
-#: src/components/users/Accounts.jsx:336 src/components/users/Accounts.jsx:387
+#: src/components/users/Accounts.jsx:342 src/components/users/Accounts.jsx:393
 msgid "Enable root account"
 msgstr "Ota root-tili käyttöön"
 
@@ -467,6 +467,14 @@ msgstr "Salattu"
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:106
 msgid "Encryption"
 msgstr "Salaus"
+
+#: src/components/login/LoginPage.jsx:88
+msgid "Enter PIN"
+msgstr ""
+
+#: src/components/login/LoginPage.jsx:77
+msgid "Enter PIN to access the installer"
+msgstr ""
 
 #: src/components/Error.jsx:204
 msgid ""
@@ -488,7 +496,7 @@ msgstr "Tyhjennä levyt ja asenna"
 msgid "Error details"
 msgstr "Virheen tiedot"
 
-#: src/components/installation/InstallationProgress.jsx:201
+#: src/components/installation/InstallationProgress.jsx:233
 msgid "Exit to live desktop"
 msgstr "Poistu reaaliaikaiseen työpöytään"
 
@@ -509,11 +517,11 @@ msgstr "Asettelujen tallentaminen epäonnistui"
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora Linux vaatii vähintään $0 levytilaa."
 
-#: src/components/installation/InstallationProgress.jsx:195
+#: src/components/installation/InstallationProgress.jsx:227
 msgid "Finalization"
 msgstr "Viimeistely"
 
-#: src/components/installation/InstallationProgress.jsx:193
+#: src/components/installation/InstallationProgress.jsx:225
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -525,7 +533,7 @@ msgstr ""
 msgid "Find layout"
 msgstr "Etsi asettelu"
 
-#: src/components/users/Accounts.jsx:403
+#: src/components/users/Accounts.jsx:409
 msgid ""
 "For better security, avoid using the root account directly. Instead, use the "
 "local account above to manage the system."
@@ -533,11 +541,11 @@ msgstr ""
 "Paremman turvallisuuden takaamiseksi vältä root-tilin käyttöä suoraan. Käytä "
 "sen sijaan yllä olevaa paikallista tiliä järjestelmän hallintaan."
 
-#: src/components/users/Accounts.jsx:252
+#: src/components/users/Accounts.jsx:258
 msgid "Full name"
 msgstr "Koko nimi"
 
-#: src/components/users/Accounts.jsx:188
+#: src/components/users/Accounts.jsx:194
 msgid "Full name cannot contain colon characters"
 msgstr "Koko nimi ei saa sisältää kaksoispisteitä"
 
@@ -547,6 +555,12 @@ msgstr "Avustava teksti"
 
 #: src/components/Error.jsx:230
 msgid "Hide API key"
+msgstr "Piilota API-avain"
+
+#: src/components/login/LoginPage.jsx:94
+#, fuzzy
+#| msgid "Hide API key"
+msgid "Hide PIN"
 msgstr "Piilota API-avain"
 
 #: src/components/Password.jsx:265
@@ -565,7 +579,7 @@ msgstr "Piilota salasana"
 msgid "Hostname"
 msgstr "Koneen nimi"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:145
+#: src/components/storage/installation-method/InstallationScenario.jsx:163
 msgid "How would you like to install?"
 msgstr "Miten haluaisit asentaa?"
 
@@ -589,6 +603,12 @@ msgstr "Ymmärrän, että joitain osioita muutetaan"
 msgid "If empty, hostname will be transient and set by network information."
 msgstr "Jos tyhjänä, isäntänimi on ohimenevä ja verkon tietojen määräämä."
 
+#: src/components/storage/installation-method/InstallationScenario.jsx:126
+msgid ""
+"If none of the options above apply, use the storage editor to create a "
+"custom partitioning before proceeding."
+msgstr ""
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:56
 msgid "If you are configuring partitions the following are required:"
 msgstr "Jos määrität osioita, seuraavat vaaditaan:"
@@ -603,7 +623,7 @@ msgstr ""
 "$0. Manuaalisen raportoinnin avulla voit tarkastella ja liittää "
 "lokitiedostoja itse."
 
-#: src/components/AnacondaHeader.jsx:77
+#: src/components/AnacondaHeader.jsx:76
 msgid ""
 "If you do not understand or accept the risks, then please exit this program."
 msgstr "Jos et ymmärrä tai hyväksy riskejä, poistu tästä ohjelmasta."
@@ -614,7 +634,7 @@ msgid ""
 "information there instead of creating a duplicate report."
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:236
+#: src/components/installation/InstallationProgress.jsx:268
 msgid "In progress"
 msgstr "Meneillään"
 
@@ -629,7 +649,7 @@ msgid "Install"
 msgstr "Asenna"
 
 #: src/components/Error.jsx:859
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:203
 msgid "Installation failed"
 msgstr "Asennus epäonnistui"
 
@@ -637,13 +657,11 @@ msgstr "Asennus epäonnistui"
 msgid "Installation method"
 msgstr "Asennustapa"
 
-#: src/components/installation/InstallationProgress.jsx:119
-#: src/components/installation/InstallationProgress.jsx:140
-#: src/components/installation/InstallationProgress.jsx:145
+#: src/components/installation/InstallationProgress.jsx:60
 msgid "Installation of the system failed"
 msgstr "Järjestelmän asennus epäonnistui"
 
-#: src/components/installation/InstallationProgress.jsx:86
+#: src/components/installation/InstallationProgress.jsx:91
 msgid "Installation of the system failed: $0"
 msgstr "Järjestelmän asennus epäonnistui: $0"
 
@@ -651,13 +669,17 @@ msgstr "Järjestelmän asennus epäonnistui: $0"
 msgid "Installation type"
 msgstr "Asennustyyppi"
 
-#: src/components/installation/InstallationProgress.jsx:173
+#: src/components/installation/InstallationProgress.jsx:205
 msgid "Installing"
 msgstr "Asennetaan"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:306
 msgid "Insufficient disk space"
 msgstr "Riittämätön levytila"
+
+#: src/components/login/LoginPage.jsx:68
+msgid "Invalid PIN. Please try again."
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:255
 msgid ""
@@ -701,8 +723,7 @@ msgstr "Näppäimistön asettelu käynnistyksen aikana"
 msgid "Language"
 msgstr "Kieli"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:77
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:199
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:65
 msgid "Launch storage editor"
 msgstr "Käynnistä tallennusmuokkain"
 
@@ -710,7 +731,7 @@ msgstr "Käynnistä tallennusmuokkain"
 msgid "Learn more about restricted access in the configuration"
 msgstr "Lisätietoja rajoitetusta pääsystä kokoonpanossa"
 
-#: src/components/users/Accounts.jsx:203
+#: src/components/users/Accounts.jsx:209
 msgid "Leave both passphrase fields empty to use an empty password."
 msgstr ""
 
@@ -721,6 +742,13 @@ msgstr "Sijainti"
 #: src/components/storage/installation-method/EncryptedDevices.jsx:147
 msgid "Locked devices"
 msgstr "Lukitut laitteet"
+
+#: src/components/login/LoginPage.jsx:118
+#, fuzzy
+#| msgctxt "GUI|Advanced Storage|iSCSI|Login|Login"
+#| msgid "_Log In"
+msgid "Log in"
+msgstr "_Kirjaudu sisään"
 
 #: src/components/localization/Keyboard.jsx:122
 #: src/components/localization/Keyboard.jsx:126
@@ -876,7 +904,7 @@ msgstr "Valituilla levyillä ei ole riittävästi vapaata tilaa."
 msgid "Not enough space on selected disks."
 msgstr "Valituilla levyillä ei ole riittävästi vapaata tilaa."
 
-#: src/components/AnacondaHeader.jsx:71
+#: src/components/AnacondaHeader.jsx:70
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
 "testing purposes only. Do NOT use this software for any critical work or for "
@@ -906,7 +934,7 @@ msgstr "Muut näppäimistöt"
 msgid "Partitions (advanced)"
 msgstr "Osiot (edistynyt)"
 
-#: src/components/users/Accounts.jsx:199 src/components/users/Accounts.jsx:401
+#: src/components/users/Accounts.jsx:205 src/components/users/Accounts.jsx:407
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:93
@@ -921,13 +949,19 @@ msgstr "Pääsylause ei vastannut mitään lukittua laitetta"
 msgid "Passphrases must match"
 msgstr "Tunnuslauseiden on oltava samat"
 
-#: src/components/installation/InstallationProgress.jsx:225
+#: src/components/installation/InstallationProgress.jsx:257
 msgid "Pending"
 msgstr "Odottaa"
 
 #: src/components/Error.jsx:94
 msgid "Please attach the log file $0 to the issue."
 msgstr "Liitä lokitiedosto $0 vikaraporttiin."
+
+#: src/components/login/LoginPage.jsx:44
+#, fuzzy
+#| msgid "Please enter a valid name."
+msgid "Please enter a PIN"
+msgstr "Syötä kelvollinen nimi."
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:321
 msgid "Please select at least one disk to continue"
@@ -947,7 +981,7 @@ msgstr "Liitettäviä laitteita ei löytynyt"
 msgid "Powered by Anaconda"
 msgstr "Pellin alla Anaconda"
 
-#: src/components/AnacondaHeader.jsx:61
+#: src/components/AnacondaHeader.jsx:60
 msgid "Pre-release"
 msgstr "Esijulkaisu"
 
@@ -998,7 +1032,7 @@ msgstr "Oikea isäntänimi saa olla enintään 64 merkkiä pitkä"
 
 #: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:848
-#: src/components/installation/InstallationProgress.jsx:200
+#: src/components/installation/InstallationProgress.jsx:232
 msgid "Reboot"
 msgstr "Käynnistä uudelleen"
 
@@ -1087,7 +1121,7 @@ msgstr ""
 msgid "Replace current installation, but keep files in home."
 msgstr "Korvaa nykyinen asennus, mutta säilytä tiedostot kotona."
 
-#: src/components/HeaderKebab.jsx:129
+#: src/components/HeaderKebab.jsx:124
 msgid "Report Issue"
 msgstr "Ilmoita ongelmasta"
 
@@ -1143,7 +1177,7 @@ msgstr "Rajoita pääsyä ilmoitukseen"
 msgid "Restricts the report to the $0 group. $1"
 msgstr "Rajaa raportin $0-ryhmään. $1"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:46
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:34
 msgid "Return to installation"
 msgstr "Palaa asennukseen"
 
@@ -1155,6 +1189,12 @@ msgstr "Palaa tallennusmuokkaimeen"
 msgid "Review and install"
 msgstr "Arvioi ja asenna"
 
+#: src/components/users/Accounts.jsx:94
+#, fuzzy
+#| msgid "No user or root account has been configured"
+msgid "Root account has been configured"
+msgstr "Yhtään käyttäjää tai root-tiliä ei ole määritetty"
+
 #: src/components/users/Accounts.jsx:86
 msgid "Root account is enabled"
 msgstr "Root-tili on otettu käyttöön"
@@ -1163,7 +1203,7 @@ msgstr "Root-tili on otettu käyttöön"
 msgid "Root account is enabled, but no user account has been configured"
 msgstr "Root-tili on otettu käyttöön, mutta käyttäjätiliä ei ole määritetty"
 
-#: src/components/users/Accounts.jsx:345
+#: src/components/users/Accounts.jsx:351
 msgid "Root password has been set."
 msgstr "Root-salasana on asetettu."
 
@@ -1260,6 +1300,12 @@ msgstr "Näytä ap./ip."
 msgid "Show API key"
 msgstr "Näytä API-avain"
 
+#: src/components/login/LoginPage.jsx:94
+#, fuzzy
+#| msgid "Show API key"
+msgid "Show PIN"
+msgstr "Näytä API-avain"
+
 #: src/components/Password.jsx:265
 msgid "Show confirmed password"
 msgstr "Näytä vahvistettu salasana"
@@ -1276,11 +1322,11 @@ msgstr "Näytä salasana"
 msgid "Size"
 msgstr "Koko"
 
-#: src/components/installation/InstallationProgress.jsx:185
+#: src/components/installation/InstallationProgress.jsx:217
 msgid "Software installation"
 msgstr "Ohjelmiston asennus"
 
-#: src/components/installation/InstallationProgress.jsx:183
+#: src/components/installation/InstallationProgress.jsx:215
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1314,25 +1360,20 @@ msgstr "Stacktrace"
 msgid "Storage"
 msgstr "Tallennustila"
 
-#: src/components/installation/InstallationProgress.jsx:180
+#: src/components/installation/InstallationProgress.jsx:212
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Tallennustilan määritykset"
 
-#: src/components/installation/InstallationProgress.jsx:178
+#: src/components/installation/InstallationProgress.jsx:210
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "Tallennustilan määritys: Tallennustilaa konfiguroidaan parhaillaan."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:58
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:46
 msgid "Storage editor"
 msgstr "Tallennusmuokkkain"
-
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:209
-msgid "Storage editor is available only in the `Installation method` step."
-msgstr ""
-"Tallennusmuokkain on käytettävissä vain \"Asennusmenetelmä\"-vaiheessa."
 
 #: src/components/storage/scenarios/use-configured-storage/index.js:26
 msgid "Storage is based on the configuration from 'Modify storage'."
@@ -1346,7 +1387,7 @@ msgstr ""
 "Tallennustilan asettelu määritellään kickstart-tiedostossa. Suunniteltua "
 "osiointiasettelua voidaan tarkastella yhteenvetovaiheessa."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid "Storage plugin failed"
 msgstr "Tallennustilalaajennus epäonnistui"
 
@@ -1358,7 +1399,7 @@ msgstr "Tallennustilavaatimukset eivät täyty"
 msgid "Strong"
 msgstr "Vahva"
 
-#: src/components/installation/InstallationProgress.jsx:168
+#: src/components/installation/InstallationProgress.jsx:200
 msgid "Successfully installed"
 msgstr "Asennus onnistui"
 
@@ -1374,15 +1415,15 @@ msgstr "Ehdotetut näppäimistöt"
 msgid "Suggested languages"
 msgstr "Ehdotetut kielet"
 
-#: src/components/users/Accounts.jsx:333 src/components/users/Accounts.jsx:417
+#: src/components/users/Accounts.jsx:339 src/components/users/Accounts.jsx:423
 msgid "System"
 msgstr "Järjestelmä"
 
-#: src/components/installation/InstallationProgress.jsx:190
+#: src/components/installation/InstallationProgress.jsx:222
 msgid "System configuration"
 msgstr "Järjestelmän kokoonpano"
 
-#: src/components/installation/InstallationProgress.jsx:188
+#: src/components/installation/InstallationProgress.jsx:220
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1438,7 +1479,7 @@ msgstr ""
 "Valittuna oleva oletusnäppäimistöasettelu ei tue ASCII-merkkejä. Valitse "
 "oletukseksi ASCII-kykenevä asettelu."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:64
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:52
 msgid ""
 "The storage editor lets you resize, delete, and create partitions. It can "
 "set up LVM and much more. It is meant to be used as an advanced utility and "
@@ -1461,7 +1502,7 @@ msgstr ""
 msgid "This hostname can't be submitted"
 msgstr "Tätä isäntänimeä ei voi lähettää"
 
-#: src/components/AnacondaHeader.jsx:65
+#: src/components/AnacondaHeader.jsx:64
 msgid "This is unstable, pre-release software"
 msgstr "Tämä on epävakaa esijulkaisuversio ohjelmistosta"
 
@@ -1492,11 +1533,11 @@ msgstr "Aikavyöhyke"
 msgid "Title"
 msgstr "Otsikko"
 
-#: src/components/installation/InstallationProgress.jsx:216
+#: src/components/installation/InstallationProgress.jsx:248
 msgid "To begin using $0, reboot your system."
 msgstr "Aloita $0:n käyttö käynnistämällä järjestelmä uudelleen."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:192
+#: src/components/storage/installation-method/InstallationMethod.jsx:194
 msgid "To continue, select the devices to install to."
 msgstr "Jatka valitsemalla laitteet, joihin haluat asentaa."
 
@@ -1558,7 +1599,7 @@ msgstr "Käytä koko levyä"
 msgid "Use free space"
 msgstr "Käytä vapaata tilaa"
 
-#: src/components/users/Accounts.jsx:238
+#: src/components/users/Accounts.jsx:244
 msgid "Use local account"
 msgstr "Käytä paikallista tiliä"
 
@@ -1566,15 +1607,15 @@ msgstr "Käytä paikallista tiliä"
 msgid "Use the RAID device for automatic partitioning"
 msgstr "Käytä RAID-laitetta automaattista osiointia varten"
 
-#: src/components/users/Accounts.jsx:487
+#: src/components/users/Accounts.jsx:494
 msgid "User creation"
 msgstr "Käyttäjän luominen"
 
-#: src/components/users/Accounts.jsx:283
+#: src/components/users/Accounts.jsx:289
 msgid "User name"
 msgstr "Käyttäjätunnus"
 
-#: src/components/users/Accounts.jsx:176
+#: src/components/users/Accounts.jsx:182
 msgid ""
 "User name may only contain: letters from a-z, digits 0-9, dash $0, period "
 "$1, underscore $2"
@@ -1582,11 +1623,11 @@ msgstr ""
 "Käyttäjänimi saa sisältää vain: kirjaimia a–z, numeroita 0–9, viiva $0, "
 "piste $1, alaviiva $2"
 
-#: src/components/users/Accounts.jsx:173
+#: src/components/users/Accounts.jsx:179
 msgid "User name must not be a reserved word"
 msgstr "Käyttäjänimi ei saa olla varattu sana"
 
-#: src/components/users/Accounts.jsx:170
+#: src/components/users/Accounts.jsx:176
 msgid "User names must be shorter than 33 characters"
 msgstr "Käyttäjänimien tulee olla lyhyempiä kuin 33 merkkiä"
 
@@ -1634,7 +1675,7 @@ msgstr ""
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr "Voit luoda Bugzilla-tilillesi $0 API-avaimen."
 
-#: src/components/users/Accounts.jsx:520
+#: src/components/users/Accounts.jsx:527
 msgid ""
 "You have to enable the root account or create a local user account to "
 "proceed."
@@ -1652,11 +1693,11 @@ msgstr ""
 msgid "Your progress will not be saved."
 msgstr "Edistymistäsi ei tallenneta."
 
-#: src/components/installation/InstallationProgress.jsx:230
+#: src/components/installation/InstallationProgress.jsx:262
 msgid "completed step"
 msgstr "suoritettu vaihe"
 
-#: src/components/installation/InstallationProgress.jsx:235
+#: src/components/installation/InstallationProgress.jsx:267
 msgid "current step"
 msgstr "nykyinen vaihe"
 
@@ -1698,7 +1739,7 @@ msgstr "keskeneräinen"
 msgid "mount"
 msgstr "liitä"
 
-#: src/components/installation/InstallationProgress.jsx:224
+#: src/components/installation/InstallationProgress.jsx:256
 msgid "pending step"
 msgstr "käsittelyä odottava vaihe"
 
@@ -1722,6 +1763,10 @@ msgstr "kutista $0:ksi"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:375
 msgid "undo"
 msgstr "kumoa"
+
+#~ msgid "Storage editor is available only in the `Installation method` step."
+#~ msgstr ""
+#~ "Tallennusmuokkain on käytettävissä vain \"Asennusmenetelmä\"-vaiheessa."
 
 #~ msgid "Reboot to installed system"
 #~ msgstr "Käynnistä uudelleen asennettuun järjestelmään"
@@ -1789,9 +1834,6 @@ msgstr "kumoa"
 #~ msgid "No keyboard layout detected. Add at least one layout to proceed"
 #~ msgstr ""
 #~ "Useampi kuin yksi asettelu havaittu. Poista lisäasettelut jatkaaksesi"
-
-#~ msgid "No user or root account has been configured"
-#~ msgstr "Yhtään käyttäjää tai root-tiliä ei ole määritetty"
 
 #~ msgid ""
 #~ "Skipping account creation during installation. It will happen on first "
@@ -4480,9 +4522,6 @@ msgstr "kumoa"
 #~ msgid "Please enter a valid mount point."
 #~ msgstr "Syötä kelvollinen liitospiste."
 
-#~ msgid "Please enter a valid name."
-#~ msgstr "Syötä kelvollinen nimi."
-
 #, python-format
 #~ msgid "Please manually connect your vnc client to %s to begin the install."
 #~ msgstr ""
@@ -6988,10 +7027,6 @@ msgstr "kumoa"
 #~ msgctxt "GUI|Spoke"
 #~ msgid "_Language Support"
 #~ msgstr "_Kielituki"
-
-#~ msgctxt "GUI|Advanced Storage|iSCSI|Login|Login"
-#~ msgid "_Log In"
-#~ msgstr "_Kirjaudu sisään"
 
 #~ msgctxt "GUI|Network|Proxy"
 #~ msgid "_Method"

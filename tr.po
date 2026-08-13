@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-12 04:26+0000\n"
+"POT-Creation-Date: 2026-08-13 04:29+0000\n"
 "PO-Revision-Date: 2026-08-13 04:29+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/"
@@ -120,7 +120,7 @@ msgstr ""
 "$1 cihazındaki '$0' bölüntüsü bulundu. MDRAID cihazlarındaki önyükleyici "
 "bölüntüleri desteklenmez."
 
-#: src/components/users/Accounts.jsx:250
+#: src/components/users/Accounts.jsx:256
 msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr ""
@@ -131,7 +131,7 @@ msgstr ""
 msgid "Abort installation"
 msgstr "Kurulumu iptal et"
 
-#: src/components/HeaderKebab.jsx:126
+#: src/components/HeaderKebab.jsx:121
 msgid "About"
 msgstr "Hakkında"
 
@@ -168,7 +168,7 @@ msgstr "Ek diller"
 msgid "Additional software for the selected environment"
 msgstr "Seçilen ortam için ilave yazılımlar"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:67
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:55
 msgid "All changes made in the storage editor take effect immediately."
 msgstr ""
 "Depolama düzenleyicisinde yapılan tüm değişiklikler hemen geçerli olur."
@@ -181,7 +181,7 @@ msgstr "Bu parolayı kullanan tüm aygıtların kilidi açılacak"
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/index.html:20
+#: src/login.html:8 src/index.html:20
 msgid "Anaconda Web UI"
 msgstr "Anaconda Web Arayüzü"
 
@@ -242,7 +242,7 @@ msgstr "Hata raporu ayrıntıları"
 msgid "Bugzilla API key"
 msgstr "Bugzilla API anahtarı"
 
-#: src/components/AnacondaHeader.jsx:74
+#: src/components/AnacondaHeader.jsx:73
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
 "associated with pre-released software, that you intend to use this for "
@@ -258,7 +258,7 @@ msgstr ""
 #: src/components/localization/Keyboard.jsx:280
 #: src/components/storage/installation-method/InstallationDestination.jsx:371
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
 #: src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "İptal"
@@ -285,7 +285,7 @@ msgstr "Bölüm düzenini değiştir"
 msgid "Change system keyboard layout"
 msgstr "Sistem klavye görünümünü değiştirin"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:139
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:127
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
@@ -317,7 +317,7 @@ msgstr ""
 msgid "Close"
 msgstr "Kapat"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:143
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:131
 msgid "Close storage editor"
 msgstr "Depolama düzenleyicisini kapat"
 
@@ -327,7 +327,7 @@ msgid ""
 msgstr ""
 "Cockpit depolaması, şifrelenen aygıtın kilidini açmak için parola sağlamadı."
 
-#: src/components/installation/InstallationProgress.jsx:231
+#: src/components/installation/InstallationProgress.jsx:263
 msgid "Completed"
 msgstr "Tamamlandı"
 
@@ -348,7 +348,7 @@ msgstr "Özel NTP sunucularını yapılandır"
 msgid "Configure network"
 msgstr "Ağı yapılandır"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:129
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:117
 msgid "Configure storage"
 msgstr "Depolamayı yapılandır"
 
@@ -356,7 +356,7 @@ msgstr "Depolamayı yapılandır"
 msgid "Configure storage again"
 msgstr "Depolamayı tekrar yapılandır"
 
-#: src/components/users/Accounts.jsx:202 src/components/users/Accounts.jsx:405
+#: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
 msgid "Confirm passphrase"
 msgstr "Parolayı onayla"
@@ -386,7 +386,7 @@ msgstr "Devam etmeden önce bu sorunları düzeltin."
 msgid "Create Account"
 msgstr "Hesap Oluştur"
 
-#: src/components/users/Accounts.jsx:312
+#: src/components/users/Accounts.jsx:318
 msgid "Create account"
 msgstr "Hesap oluştur"
 
@@ -448,7 +448,7 @@ msgstr "Yinelenen aygıt."
 msgid "Duplicate mount point."
 msgstr "Yinelenen bağlama noktası."
 
-#: src/components/users/Accounts.jsx:336 src/components/users/Accounts.jsx:387
+#: src/components/users/Accounts.jsx:342 src/components/users/Accounts.jsx:393
 msgid "Enable root account"
 msgstr "Kök hesabını etkinleştir"
 
@@ -463,6 +463,14 @@ msgstr "Şifrelendi"
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:106
 msgid "Encryption"
 msgstr "Şifreleme"
+
+#: src/components/login/LoginPage.jsx:88
+msgid "Enter PIN"
+msgstr ""
+
+#: src/components/login/LoginPage.jsx:77
+msgid "Enter PIN to access the installer"
+msgstr ""
 
 #: src/components/Error.jsx:204
 msgid ""
@@ -484,7 +492,7 @@ msgstr "Verileri sil ve kur"
 msgid "Error details"
 msgstr "Hata ayrıntıları"
 
-#: src/components/installation/InstallationProgress.jsx:201
+#: src/components/installation/InstallationProgress.jsx:233
 msgid "Exit to live desktop"
 msgstr "Canlı masaüstüne çık"
 
@@ -505,11 +513,11 @@ msgstr "Düzenler kaydedilemedi"
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora Linux en az $0 disk alanı gerektirir."
 
-#: src/components/installation/InstallationProgress.jsx:195
+#: src/components/installation/InstallationProgress.jsx:227
 msgid "Finalization"
 msgstr "Sonlandırma"
 
-#: src/components/installation/InstallationProgress.jsx:193
+#: src/components/installation/InstallationProgress.jsx:225
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -521,7 +529,7 @@ msgstr ""
 msgid "Find layout"
 msgstr "Düzen bul"
 
-#: src/components/users/Accounts.jsx:403
+#: src/components/users/Accounts.jsx:409
 msgid ""
 "For better security, avoid using the root account directly. Instead, use the "
 "local account above to manage the system."
@@ -529,11 +537,11 @@ msgstr ""
 "Daha iyi güvenlik için, root hesabını doğrudan kullanmaktan kaçının. Bunun "
 "yerine, sistemi yönetmek için yukarıdaki yerel hesabı kullanın."
 
-#: src/components/users/Accounts.jsx:252
+#: src/components/users/Accounts.jsx:258
 msgid "Full name"
 msgstr "Tam ad"
 
-#: src/components/users/Accounts.jsx:188
+#: src/components/users/Accounts.jsx:194
 msgid "Full name cannot contain colon characters"
 msgstr "Tam ad iki nokta üst üste karakterini içeremez"
 
@@ -543,6 +551,12 @@ msgstr "Yardımcı metin"
 
 #: src/components/Error.jsx:230
 msgid "Hide API key"
+msgstr "API anahtarını gizle"
+
+#: src/components/login/LoginPage.jsx:94
+#, fuzzy
+#| msgid "Hide API key"
+msgid "Hide PIN"
 msgstr "API anahtarını gizle"
 
 #: src/components/Password.jsx:265
@@ -561,7 +575,7 @@ msgstr "Parolayı gizle"
 msgid "Hostname"
 msgstr "Ana makine adı"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:145
+#: src/components/storage/installation-method/InstallationScenario.jsx:163
 msgid "How would you like to install?"
 msgstr "Nasıl kurmak istersiniz?"
 
@@ -586,6 +600,12 @@ msgstr ""
 "Boşsa, ana makine adı geçici olacak ve ağ bilgileri tarafından "
 "ayarlanacaktır."
 
+#: src/components/storage/installation-method/InstallationScenario.jsx:126
+msgid ""
+"If none of the options above apply, use the storage editor to create a "
+"custom partitioning before proceeding."
+msgstr ""
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:56
 msgid "If you are configuring partitions the following are required:"
 msgstr "Bölümleri yapılandırıyorsanız şunlar gereklidir:"
@@ -600,7 +620,7 @@ msgstr ""
 "yapabilirsiniz. Elle bildirim, günlük dosyalarını kendiniz inceleyip seçerek "
 "eklemenizi sağlar."
 
-#: src/components/AnacondaHeader.jsx:77
+#: src/components/AnacondaHeader.jsx:76
 msgid ""
 "If you do not understand or accept the risks, then please exit this program."
 msgstr ""
@@ -614,7 +634,7 @@ msgstr ""
 "Sorununuz yukarıdaki hatalardan biriyle eşleşiyorsa, yinelenen bir rapor "
 "oluşturmak yerine onu açıp bilgilerinizi oraya ekleyebilirsiniz."
 
-#: src/components/installation/InstallationProgress.jsx:236
+#: src/components/installation/InstallationProgress.jsx:268
 msgid "In progress"
 msgstr "Sürüyor"
 
@@ -629,7 +649,7 @@ msgid "Install"
 msgstr "Kur"
 
 #: src/components/Error.jsx:859
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:203
 msgid "Installation failed"
 msgstr "Kurulum başarısız"
 
@@ -637,13 +657,11 @@ msgstr "Kurulum başarısız"
 msgid "Installation method"
 msgstr "Kurulum yöntemi"
 
-#: src/components/installation/InstallationProgress.jsx:119
-#: src/components/installation/InstallationProgress.jsx:140
-#: src/components/installation/InstallationProgress.jsx:145
+#: src/components/installation/InstallationProgress.jsx:60
 msgid "Installation of the system failed"
 msgstr "Sistemin kurulumu başarısız oldu"
 
-#: src/components/installation/InstallationProgress.jsx:86
+#: src/components/installation/InstallationProgress.jsx:91
 msgid "Installation of the system failed: $0"
 msgstr "Sistem kurulumu başarısız oldu: $0"
 
@@ -651,13 +669,17 @@ msgstr "Sistem kurulumu başarısız oldu: $0"
 msgid "Installation type"
 msgstr "Kurulum türü"
 
-#: src/components/installation/InstallationProgress.jsx:173
+#: src/components/installation/InstallationProgress.jsx:205
 msgid "Installing"
 msgstr "Kuruluyor"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:306
 msgid "Insufficient disk space"
 msgstr "Yetersiz disk alanı"
+
+#: src/components/login/LoginPage.jsx:68
+msgid "Invalid PIN. Please try again."
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:255
 msgid ""
@@ -702,8 +724,7 @@ msgstr "Önyükleme sırasında klavye görünümü"
 msgid "Language"
 msgstr "Dil"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:77
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:199
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:65
 msgid "Launch storage editor"
 msgstr "Depolama düzenleyicisini başlat"
 
@@ -711,7 +732,7 @@ msgstr "Depolama düzenleyicisini başlat"
 msgid "Learn more about restricted access in the configuration"
 msgstr "Yapılandırmada kısıtlı erişim hakkında daha fazla bilgi edinin"
 
-#: src/components/users/Accounts.jsx:203
+#: src/components/users/Accounts.jsx:209
 msgid "Leave both passphrase fields empty to use an empty password."
 msgstr "Boş bir parola kullanmak için her iki parola alanını da boş bırakın."
 
@@ -722,6 +743,13 @@ msgstr "Konum"
 #: src/components/storage/installation-method/EncryptedDevices.jsx:147
 msgid "Locked devices"
 msgstr "Kilitli aygıtlar"
+
+#: src/components/login/LoginPage.jsx:118
+#, fuzzy
+#| msgctxt "GUI|Advanced Storage|iSCSI|Login|Login"
+#| msgid "_Log In"
+msgid "Log in"
+msgstr "_Giriş Yap"
 
 #: src/components/localization/Keyboard.jsx:122
 #: src/components/localization/Keyboard.jsx:126
@@ -875,7 +903,7 @@ msgstr "Seçilen disklerde yeterli boş alan yok."
 msgid "Not enough space on selected disks."
 msgstr "Seçilen disklerde yeterli alan yok."
 
-#: src/components/AnacondaHeader.jsx:71
+#: src/components/AnacondaHeader.jsx:70
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
 "testing purposes only. Do NOT use this software for any critical work or for "
@@ -905,7 +933,7 @@ msgstr "Diğer klavyeler"
 msgid "Partitions (advanced)"
 msgstr "Bölümler (gelişmiş)"
 
-#: src/components/users/Accounts.jsx:199 src/components/users/Accounts.jsx:401
+#: src/components/users/Accounts.jsx:205 src/components/users/Accounts.jsx:407
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:93
@@ -920,13 +948,19 @@ msgstr "Parola herhangi bir kilitli aygıtla eşleşmedi"
 msgid "Passphrases must match"
 msgstr "Parolalar eşleşmeli"
 
-#: src/components/installation/InstallationProgress.jsx:225
+#: src/components/installation/InstallationProgress.jsx:257
 msgid "Pending"
 msgstr "Bekliyor"
 
 #: src/components/Error.jsx:94
 msgid "Please attach the log file $0 to the issue."
 msgstr "Lütfen $0 günlük dosyasını soruna ekleyin."
+
+#: src/components/login/LoginPage.jsx:44
+#, fuzzy
+#| msgid "Please enter a valid name."
+msgid "Please enter a PIN"
+msgstr "Lütfen geçerli bir ad girin."
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:321
 msgid "Please select at least one disk to continue"
@@ -944,7 +978,7 @@ msgstr "Olası yinelenen hatalar bulundu"
 msgid "Powered by Anaconda"
 msgstr "Anaconda tabanlıdır"
 
-#: src/components/AnacondaHeader.jsx:61
+#: src/components/AnacondaHeader.jsx:60
 msgid "Pre-release"
 msgstr "Ön sürüm"
 
@@ -995,7 +1029,7 @@ msgstr "Gerçek ana makine adı 64 karakter veya daha az olmalıdır"
 
 #: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:848
-#: src/components/installation/InstallationProgress.jsx:200
+#: src/components/installation/InstallationProgress.jsx:232
 msgid "Reboot"
 msgstr "Yeniden başlat"
 
@@ -1084,7 +1118,7 @@ msgstr ""
 msgid "Replace current installation, but keep files in home."
 msgstr "Geçerli kurulumu değiştir, ancak ev dizinindeki dosyaları sakla."
 
-#: src/components/HeaderKebab.jsx:129
+#: src/components/HeaderKebab.jsx:124
 msgid "Report Issue"
 msgstr "Sorunu Bildir"
 
@@ -1140,7 +1174,7 @@ msgstr "Rapora erişimi kısıtla"
 msgid "Restricts the report to the $0 group. $1"
 msgstr "Rapora erişimi $0 grubuyla kısıtlar. $1"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:46
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:34
 msgid "Return to installation"
 msgstr "Kuruluma geri dön"
 
@@ -1152,6 +1186,12 @@ msgstr "Depolama düzenleyicisine dön"
 msgid "Review and install"
 msgstr "Gözden geçir ve kur"
 
+#: src/components/users/Accounts.jsx:94
+#, fuzzy
+#| msgid "No user or root account has been configured"
+msgid "Root account has been configured"
+msgstr "Hiçbir kullanıcı veya kök hesabı yapılandırmadı"
+
 #: src/components/users/Accounts.jsx:86
 msgid "Root account is enabled"
 msgstr "Kök hesabı etkinleştirildi"
@@ -1161,7 +1201,7 @@ msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
 "Kök hesabı etkinleştirilmiş, ama hiçbir kullanıcı hesabı yapılandırılmamış"
 
-#: src/components/users/Accounts.jsx:345
+#: src/components/users/Accounts.jsx:351
 msgid "Root password has been set."
 msgstr "Kök parolası belirlendi."
 
@@ -1259,6 +1299,12 @@ msgstr "ÖÖ/ÖS'yi göster"
 msgid "Show API key"
 msgstr "API anahtarını göster"
 
+#: src/components/login/LoginPage.jsx:94
+#, fuzzy
+#| msgid "Show API key"
+msgid "Show PIN"
+msgstr "API anahtarını göster"
+
 #: src/components/Password.jsx:265
 msgid "Show confirmed password"
 msgstr "Onaylanan parolayı göster"
@@ -1275,11 +1321,11 @@ msgstr "Parolayı göster"
 msgid "Size"
 msgstr "Boyut"
 
-#: src/components/installation/InstallationProgress.jsx:185
+#: src/components/installation/InstallationProgress.jsx:217
 msgid "Software installation"
 msgstr "Yazılım kurulumu"
 
-#: src/components/installation/InstallationProgress.jsx:183
+#: src/components/installation/InstallationProgress.jsx:215
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1314,25 +1360,20 @@ msgstr "Yığın izleme (Stacktrace)"
 msgid "Storage"
 msgstr "Depolama"
 
-#: src/components/installation/InstallationProgress.jsx:180
+#: src/components/installation/InstallationProgress.jsx:212
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Depolama yapılandırması"
 
-#: src/components/installation/InstallationProgress.jsx:178
+#: src/components/installation/InstallationProgress.jsx:210
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "Depolama yapılandırması: Depolama alanı şu anda yapılandırılıyor."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:58
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:46
 msgid "Storage editor"
 msgstr "Depolama düzenleyicisi"
-
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:209
-msgid "Storage editor is available only in the `Installation method` step."
-msgstr ""
-"Depolama düzenleyicisi yalnızca `Kurulum yöntemi` adımında kullanılabilir."
 
 #: src/components/storage/scenarios/use-configured-storage/index.js:26
 msgid "Storage is based on the configuration from 'Modify storage'."
@@ -1347,7 +1388,7 @@ msgstr ""
 "Depolama düzeni, kickstart dosyası tarafından belirlenir. Planlanan "
 "bölümlendirme düzeni, özet adımında incelenebilir."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid "Storage plugin failed"
 msgstr "Depolama eklentisi başarısız oldu"
 
@@ -1359,7 +1400,7 @@ msgstr "Depolama gereksinimleri karşılanmadı"
 msgid "Strong"
 msgstr "Güçlü"
 
-#: src/components/installation/InstallationProgress.jsx:168
+#: src/components/installation/InstallationProgress.jsx:200
 msgid "Successfully installed"
 msgstr "Başarıyla kuruldu"
 
@@ -1375,15 +1416,15 @@ msgstr "Önerilen klavyeler"
 msgid "Suggested languages"
 msgstr "Önerilen diller"
 
-#: src/components/users/Accounts.jsx:333 src/components/users/Accounts.jsx:417
+#: src/components/users/Accounts.jsx:339 src/components/users/Accounts.jsx:423
 msgid "System"
 msgstr "Sistem"
 
-#: src/components/installation/InstallationProgress.jsx:190
+#: src/components/installation/InstallationProgress.jsx:222
 msgid "System configuration"
 msgstr "Sistem yapılandırması"
 
-#: src/components/installation/InstallationProgress.jsx:188
+#: src/components/installation/InstallationProgress.jsx:220
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1441,7 +1482,7 @@ msgstr ""
 "Seçilen öntanımlı klavye düzeni ASCII karakterlerini desteklemiyor. Lütfen "
 "öntanımlı olarak ASCII özellikli bir düzen seçin."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:64
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:52
 msgid ""
 "The storage editor lets you resize, delete, and create partitions. It can "
 "set up LVM and much more. It is meant to be used as an advanced utility and "
@@ -1463,7 +1504,7 @@ msgstr ""
 msgid "This hostname can't be submitted"
 msgstr "Bu ana makine adı kaydedilemiyor"
 
-#: src/components/AnacondaHeader.jsx:65
+#: src/components/AnacondaHeader.jsx:64
 msgid "This is unstable, pre-release software"
 msgstr "Bu kararlı olmayan, sürüm öncesi yazılımdır"
 
@@ -1492,11 +1533,11 @@ msgstr "Saat dilimi"
 msgid "Title"
 msgstr "Başık"
 
-#: src/components/installation/InstallationProgress.jsx:216
+#: src/components/installation/InstallationProgress.jsx:248
 msgid "To begin using $0, reboot your system."
 msgstr "$0 kullanmaya başlamak için sisteminizi yeniden başlatın."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:192
+#: src/components/storage/installation-method/InstallationMethod.jsx:194
 msgid "To continue, select the devices to install to."
 msgstr "Devam etmek için kurulum yapılacak aygıtları seçin."
 
@@ -1554,7 +1595,7 @@ msgstr "Tüm diski kullan"
 msgid "Use free space"
 msgstr "Serbest alan kullanın"
 
-#: src/components/users/Accounts.jsx:238
+#: src/components/users/Accounts.jsx:244
 msgid "Use local account"
 msgstr "Yerel hesabı kullan"
 
@@ -1562,15 +1603,15 @@ msgstr "Yerel hesabı kullan"
 msgid "Use the RAID device for automatic partitioning"
 msgstr "Otomatik bölüntüleme için RAID cihazını kullanın"
 
-#: src/components/users/Accounts.jsx:487
+#: src/components/users/Accounts.jsx:494
 msgid "User creation"
 msgstr "Kullanıcı oluşturma"
 
-#: src/components/users/Accounts.jsx:283
+#: src/components/users/Accounts.jsx:289
 msgid "User name"
 msgstr "Kullanıcı adı"
 
-#: src/components/users/Accounts.jsx:176
+#: src/components/users/Accounts.jsx:182
 msgid ""
 "User name may only contain: letters from a-z, digits 0-9, dash $0, period "
 "$1, underscore $2"
@@ -1578,11 +1619,11 @@ msgstr ""
 "Kullanıcı adı yalnızca şunları içerebilir: a-z arası harfler, 0-9 arası "
 "rakamlar, eksi işareti $0, nokta işareti $1, alt çizgi işareti $2"
 
-#: src/components/users/Accounts.jsx:173
+#: src/components/users/Accounts.jsx:179
 msgid "User name must not be a reserved word"
 msgstr "Kullanıcı adı ayrılmış bir sözcük olmamalıdır"
 
-#: src/components/users/Accounts.jsx:170
+#: src/components/users/Accounts.jsx:176
 msgid "User names must be shorter than 33 characters"
 msgstr "Kullanıc adları 33 karakterden kısa olmalıdır"
 
@@ -1629,7 +1670,7 @@ msgstr ""
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr "Bugzilla hesabın ile API anahtarı olulturabilirsin: $0."
 
-#: src/components/users/Accounts.jsx:520
+#: src/components/users/Accounts.jsx:527
 msgid ""
 "You have to enable the root account or create a local user account to "
 "proceed."
@@ -1647,11 +1688,11 @@ msgstr ""
 msgid "Your progress will not be saved."
 msgstr "İlerlemeniz kaydedilmeyecek."
 
-#: src/components/installation/InstallationProgress.jsx:230
+#: src/components/installation/InstallationProgress.jsx:262
 msgid "completed step"
 msgstr "tamamlanan adım"
 
-#: src/components/installation/InstallationProgress.jsx:235
+#: src/components/installation/InstallationProgress.jsx:267
 msgid "current step"
 msgstr "geçerli adım"
 
@@ -1693,7 +1734,7 @@ msgstr "tamamlanmadı"
 msgid "mount"
 msgstr "bağla"
 
-#: src/components/installation/InstallationProgress.jsx:224
+#: src/components/installation/InstallationProgress.jsx:256
 msgid "pending step"
 msgstr "bekleyen adım"
 
@@ -1717,6 +1758,10 @@ msgstr "$0 olacak şekilde küçült"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:375
 msgid "undo"
 msgstr "geri al"
+
+#~ msgid "Storage editor is available only in the `Installation method` step."
+#~ msgstr ""
+#~ "Depolama düzenleyicisi yalnızca `Kurulum yöntemi` adımında kullanılabilir."
 
 #~ msgid "Reboot to installed system"
 #~ msgstr "Kurulu sisteme yeniden başlat"
@@ -1779,9 +1824,6 @@ msgstr "geri al"
 
 #~ msgid "No keyboard layout detected. Add at least one layout to proceed"
 #~ msgstr "Klavye düzeni algılanmadı. Devam etmek için en az bir düzen ekleyin"
-
-#~ msgid "No user or root account has been configured"
-#~ msgstr "Hiçbir kullanıcı veya kök hesabı yapılandırmadı"
 
 #~ msgid ""
 #~ "Skipping account creation during installation. It will happen on first "
@@ -4457,9 +4499,6 @@ msgstr "geri al"
 #~ msgid "Please enter a valid mount point."
 #~ msgstr "Lütfen geçerli bir bağlama noktası giriniz."
 
-#~ msgid "Please enter a valid name."
-#~ msgstr "Lütfen geçerli bir ad girin."
-
 #, python-format
 #~ msgid "Please manually connect your vnc client to %s to begin the install."
 #~ msgstr "Kuruluma başlamak için lütfen %s'e vnc istemciniz ile bağlanın."
@@ -6960,10 +6999,6 @@ msgstr "geri al"
 #~ msgctxt "GUI|Spoke"
 #~ msgid "_Language Support"
 #~ msgstr "_Dil Desteği"
-
-#~ msgctxt "GUI|Advanced Storage|iSCSI|Login|Login"
-#~ msgid "_Log In"
-#~ msgstr "_Giriş Yap"
 
 #~ msgctxt "GUI|Network|Proxy"
 #~ msgid "_Method"

@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-12 04:26+0000\n"
+"POT-Creation-Date: 2026-08-13 04:29+0000\n"
 "PO-Revision-Date: 2025-08-24 03:40+0000\n"
 "Last-Translator: Danni Lundgren <fedoraproject.footsie399@passmail.com>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/anaconda-"
@@ -114,7 +114,7 @@ msgid ""
 "devices are not supported."
 msgstr ""
 
-#: src/components/users/Accounts.jsx:250
+#: src/components/users/Accounts.jsx:256
 msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr ""
@@ -125,7 +125,7 @@ msgstr ""
 msgid "Abort installation"
 msgstr "$0-installation"
 
-#: src/components/HeaderKebab.jsx:126
+#: src/components/HeaderKebab.jsx:121
 msgid "About"
 msgstr ""
 
@@ -176,7 +176,7 @@ msgstr "Tilgængelige sprog"
 msgid "Additional software for the selected environment"
 msgstr "Yderligere software til valgte miljø"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:67
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:55
 msgid "All changes made in the storage editor take effect immediately."
 msgstr ""
 
@@ -189,7 +189,7 @@ msgstr ""
 msgid "Anaconda"
 msgstr "Anaconda-installationsprogram"
 
-#: src/index.html:20
+#: src/login.html:8 src/index.html:20
 #, fuzzy
 msgid "Anaconda Web UI"
 msgstr "Anaconda-installationsprogram"
@@ -255,7 +255,7 @@ msgstr ""
 msgid "Bugzilla API key"
 msgstr ""
 
-#: src/components/AnacondaHeader.jsx:74
+#: src/components/AnacondaHeader.jsx:73
 #, fuzzy
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
@@ -280,7 +280,7 @@ msgstr ""
 #: src/components/localization/Keyboard.jsx:280
 #: src/components/storage/installation-method/InstallationDestination.jsx:371
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
 #: src/components/review/Hostname.jsx:127
 #, fuzzy
 msgid "Cancel"
@@ -315,7 +315,7 @@ msgstr "Beskrivelse"
 msgid "Change system keyboard layout"
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:139
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:127
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
@@ -347,7 +347,7 @@ msgstr ""
 msgid "Close"
 msgstr "Luk"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:143
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:131
 #, fuzzy
 msgid "Close storage editor"
 msgstr "Installation"
@@ -357,7 +357,7 @@ msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:231
+#: src/components/installation/InstallationProgress.jsx:263
 #, fuzzy
 msgid "Completed"
 msgstr "Færdig!"
@@ -385,7 +385,7 @@ msgstr "Konfigurér NTP-servere"
 msgid "Configure network"
 msgstr "Konfigurerer lager"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:129
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:117
 #, fuzzy
 #| msgid "Configuring storage"
 msgid "Configure storage"
@@ -397,7 +397,7 @@ msgstr "Konfigurerer lager"
 msgid "Configure storage again"
 msgstr "Konfigurerer lager"
 
-#: src/components/users/Accounts.jsx:202 src/components/users/Accounts.jsx:405
+#: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
 #, fuzzy
 msgid "Confirm passphrase"
@@ -436,7 +436,7 @@ msgstr "Færdiggør venligst alle eger før du fortsætter"
 msgid "Create Account"
 msgstr "_Konto"
 
-#: src/components/users/Accounts.jsx:312
+#: src/components/users/Accounts.jsx:318
 #, fuzzy
 #| msgid "Lock root account"
 msgid "Create account"
@@ -514,7 +514,7 @@ msgstr "_Flerstis-enheder"
 msgid "Duplicate mount point."
 msgstr "Indtast venligst et monteringspunkt."
 
-#: src/components/users/Accounts.jsx:336 src/components/users/Accounts.jsx:387
+#: src/components/users/Accounts.jsx:342 src/components/users/Accounts.jsx:393
 #, fuzzy
 #| msgid "Lock root account"
 msgid "Enable root account"
@@ -534,6 +534,14 @@ msgstr "Kryptér"
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:106
 msgid "Encryption"
 msgstr "Kryptering"
+
+#: src/components/login/LoginPage.jsx:88
+msgid "Enter PIN"
+msgstr ""
+
+#: src/components/login/LoginPage.jsx:77
+msgid "Enter PIN to access the installer"
+msgstr ""
 
 #: src/components/Error.jsx:204
 msgid ""
@@ -556,7 +564,7 @@ msgstr "_Begynd installation"
 msgid "Error details"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:201
+#: src/components/installation/InstallationProgress.jsx:233
 msgid "Exit to live desktop"
 msgstr ""
 
@@ -583,12 +591,12 @@ msgstr "Kunne ikke gemme lagerkonfiguration"
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:195
+#: src/components/installation/InstallationProgress.jsx:227
 #, fuzzy
 msgid "Finalization"
 msgstr "Placering"
 
-#: src/components/installation/InstallationProgress.jsx:193
+#: src/components/installation/InstallationProgress.jsx:225
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -601,17 +609,17 @@ msgstr ""
 msgid "Find layout"
 msgstr "_Tilføj layout"
 
-#: src/components/users/Accounts.jsx:403
+#: src/components/users/Accounts.jsx:409
 msgid ""
 "For better security, avoid using the root account directly. Instead, use the "
 "local account above to manage the system."
 msgstr ""
 
-#: src/components/users/Accounts.jsx:252
+#: src/components/users/Accounts.jsx:258
 msgid "Full name"
 msgstr "Fulde navn"
 
-#: src/components/users/Accounts.jsx:188
+#: src/components/users/Accounts.jsx:194
 msgid "Full name cannot contain colon characters"
 msgstr "Det fulde navn må ikke indeholde kolon"
 
@@ -621,6 +629,10 @@ msgstr ""
 
 #: src/components/Error.jsx:230
 msgid "Hide API key"
+msgstr ""
+
+#: src/components/login/LoginPage.jsx:94
+msgid "Hide PIN"
 msgstr ""
 
 #: src/components/Password.jsx:265
@@ -644,7 +656,7 @@ msgstr "Skjul adgangskode."
 msgid "Hostname"
 msgstr "Værtsnavn"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:145
+#: src/components/storage/installation-method/InstallationScenario.jsx:163
 #, fuzzy
 msgid "How would you like to install?"
 msgstr ""
@@ -670,6 +682,12 @@ msgstr ""
 msgid "If empty, hostname will be transient and set by network information."
 msgstr ""
 
+#: src/components/storage/installation-method/InstallationScenario.jsx:126
+msgid ""
+"If none of the options above apply, use the storage editor to create a "
+"custom partitioning before proceeding."
+msgstr ""
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:56
 msgid "If you are configuring partitions the following are required:"
 msgstr ""
@@ -681,7 +699,7 @@ msgid ""
 "yourself."
 msgstr ""
 
-#: src/components/AnacondaHeader.jsx:77
+#: src/components/AnacondaHeader.jsx:76
 msgid ""
 "If you do not understand or accept the risks, then please exit this program."
 msgstr ""
@@ -692,7 +710,7 @@ msgid ""
 "information there instead of creating a duplicate report."
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:236
+#: src/components/installation/InstallationProgress.jsx:268
 #, fuzzy
 msgid "In progress"
 msgstr "Fremgang"
@@ -710,7 +728,7 @@ msgid "Install"
 msgstr "Installér"
 
 #: src/components/Error.jsx:859
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:203
 #, fuzzy
 msgid "Installation failed"
 msgstr "Installation"
@@ -720,14 +738,12 @@ msgstr "Installation"
 msgid "Installation method"
 msgstr "Installation fuldført"
 
-#: src/components/installation/InstallationProgress.jsx:119
-#: src/components/installation/InstallationProgress.jsx:140
-#: src/components/installation/InstallationProgress.jsx:145
+#: src/components/installation/InstallationProgress.jsx:60
 #, fuzzy
 msgid "Installation of the system failed"
 msgstr "Installation"
 
-#: src/components/installation/InstallationProgress.jsx:86
+#: src/components/installation/InstallationProgress.jsx:91
 #, fuzzy
 msgid "Installation of the system failed: $0"
 msgstr "Installation"
@@ -737,13 +753,17 @@ msgstr "Installation"
 msgid "Installation type"
 msgstr "Installation"
 
-#: src/components/installation/InstallationProgress.jsx:173
+#: src/components/installation/InstallationProgress.jsx:205
 #, fuzzy
 msgid "Installing"
 msgstr "Installerer."
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:306
 msgid "Insufficient disk space"
+msgstr ""
+
+#: src/components/login/LoginPage.jsx:68
+msgid "Invalid PIN. Please try again."
 msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:255
@@ -789,8 +809,7 @@ msgstr ""
 msgid "Language"
 msgstr "Sprog"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:77
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:199
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:65
 #, fuzzy
 msgid "Launch storage editor"
 msgstr "Installation"
@@ -799,7 +818,7 @@ msgstr "Installation"
 msgid "Learn more about restricted access in the configuration"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:203
+#: src/components/users/Accounts.jsx:209
 msgid "Leave both passphrase fields empty to use an empty password."
 msgstr ""
 
@@ -811,6 +830,13 @@ msgstr "Placering"
 #, fuzzy
 msgid "Locked devices"
 msgstr "for at skanne enheder igen"
+
+#: src/components/login/LoginPage.jsx:118
+#, fuzzy
+#| msgctxt "GUI|Advanced Storage|iSCSI|Login|Login"
+#| msgid "_Log In"
+msgid "Log in"
+msgstr "_Log ind"
 
 #: src/components/localization/Keyboard.jsx:122
 #: src/components/localization/Keyboard.jsx:126
@@ -983,7 +1009,7 @@ msgstr "Ikke nok ledig plads på de valgte diske."
 msgid "Not enough space on selected disks."
 msgstr "Ikke nok ledig plads på de valgte diske."
 
-#: src/components/AnacondaHeader.jsx:71
+#: src/components/AnacondaHeader.jsx:70
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
 "testing purposes only. Do NOT use this software for any critical work or for "
@@ -1014,7 +1040,7 @@ msgstr "_Tastatur"
 msgid "Partitions (advanced)"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:199 src/components/users/Accounts.jsx:401
+#: src/components/users/Accounts.jsx:205 src/components/users/Accounts.jsx:407
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:93
@@ -1030,13 +1056,19 @@ msgstr ""
 msgid "Passphrases must match"
 msgstr "Adgangskoderne er ikke ens."
 
-#: src/components/installation/InstallationProgress.jsx:225
+#: src/components/installation/InstallationProgress.jsx:257
 msgid "Pending"
 msgstr ""
 
 #: src/components/Error.jsx:94
 msgid "Please attach the log file $0 to the issue."
 msgstr ""
+
+#: src/components/login/LoginPage.jsx:44
+#, fuzzy
+#| msgid "Please enter a valid name."
+msgid "Please enter a PIN"
+msgstr "Indtast venligst et gyldigt navn."
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:321
 #, fuzzy
@@ -1058,7 +1090,7 @@ msgstr "Ingen montérbare enheder fundet"
 msgid "Powered by Anaconda"
 msgstr ""
 
-#: src/components/AnacondaHeader.jsx:61
+#: src/components/AnacondaHeader.jsx:60
 msgid "Pre-release"
 msgstr ""
 
@@ -1115,7 +1147,7 @@ msgstr "Værtsnavnet må være højst 64 tegn langt."
 
 #: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:848
-#: src/components/installation/InstallationProgress.jsx:200
+#: src/components/installation/InstallationProgress.jsx:232
 #, fuzzy
 msgid "Reboot"
 msgstr "Genstarter."
@@ -1211,7 +1243,7 @@ msgstr ""
 msgid "Replace current installation, but keep files in home."
 msgstr ""
 
-#: src/components/HeaderKebab.jsx:129
+#: src/components/HeaderKebab.jsx:124
 msgid "Report Issue"
 msgstr ""
 
@@ -1277,7 +1309,7 @@ msgstr ""
 msgid "Restricts the report to the $0 group. $1"
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:46
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:34
 #, fuzzy
 msgid "Return to installation"
 msgstr "Installation"
@@ -1292,6 +1324,12 @@ msgstr "Installation"
 msgid "Review and install"
 msgstr "_Begynd installation"
 
+#: src/components/users/Accounts.jsx:94
+#, fuzzy
+#| msgid "no NTP servers have been configured"
+msgid "Root account has been configured"
+msgstr "ingen NTP-servere er blevet konfigureret"
+
 #: src/components/users/Accounts.jsx:86
 #, fuzzy
 #| msgid "Root account is disabled."
@@ -1302,7 +1340,7 @@ msgstr "Root-konto er deaktiveret."
 msgid "Root account is enabled, but no user account has been configured"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:345
+#: src/components/users/Accounts.jsx:351
 msgid "Root password has been set."
 msgstr "Root-adgangskode er blevet angivet."
 
@@ -1430,6 +1468,13 @@ msgstr "_AM/PM"
 msgid "Show API key"
 msgstr "_AM/PM"
 
+#: src/components/login/LoginPage.jsx:94
+#, fuzzy
+#| msgctxt "GUI|Date and Time"
+#| msgid "_AM/PM"
+msgid "Show PIN"
+msgstr "_AM/PM"
+
 #: src/components/Password.jsx:265
 #, fuzzy
 msgid "Show confirmed password"
@@ -1449,12 +1494,12 @@ msgstr "Vis adgangskode."
 msgid "Size"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:185
+#: src/components/installation/InstallationProgress.jsx:217
 #, fuzzy
 msgid "Software installation"
 msgstr "Valg af software"
 
-#: src/components/installation/InstallationProgress.jsx:183
+#: src/components/installation/InstallationProgress.jsx:215
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1489,7 +1534,7 @@ msgstr ""
 msgid "Storage"
 msgstr "Valgmuligheder for lager"
 
-#: src/components/installation/InstallationProgress.jsx:180
+#: src/components/installation/InstallationProgress.jsx:212
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
@@ -1497,18 +1542,14 @@ msgstr "Valgmuligheder for lager"
 msgid "Storage configuration"
 msgstr "Lagerkonfiguration"
 
-#: src/components/installation/InstallationProgress.jsx:178
+#: src/components/installation/InstallationProgress.jsx:210
 msgid "Storage configuration: Storage is currently being configured."
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:58
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:46
 #, fuzzy
 msgid "Storage editor"
 msgstr "Installation"
-
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:209
-msgid "Storage editor is available only in the `Installation method` step."
-msgstr ""
 
 #: src/components/storage/scenarios/use-configured-storage/index.js:26
 #, fuzzy
@@ -1522,7 +1563,7 @@ msgid ""
 "layout can be reviewed in the summary step."
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 #, fuzzy
 #| msgid "Node login failed."
 msgid "Storage plugin failed"
@@ -1536,7 +1577,7 @@ msgstr ""
 msgid "Strong"
 msgstr "Stærk"
 
-#: src/components/installation/InstallationProgress.jsx:168
+#: src/components/installation/InstallationProgress.jsx:200
 msgid "Successfully installed"
 msgstr ""
 
@@ -1554,18 +1595,18 @@ msgstr "Sprog"
 msgid "Suggested languages"
 msgstr "Sprog"
 
-#: src/components/users/Accounts.jsx:333 src/components/users/Accounts.jsx:417
+#: src/components/users/Accounts.jsx:339 src/components/users/Accounts.jsx:423
 #, fuzzy
 #| msgid "File System"
 msgid "System"
 msgstr "Filsystem"
 
-#: src/components/installation/InstallationProgress.jsx:190
+#: src/components/installation/InstallationProgress.jsx:222
 #, fuzzy
 msgid "System configuration"
 msgstr "Lagerkonfiguration"
 
-#: src/components/installation/InstallationProgress.jsx:188
+#: src/components/installation/InstallationProgress.jsx:220
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1621,7 +1662,7 @@ msgid ""
 "Please choose an ASCII-capable layout as the default."
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:64
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:52
 msgid ""
 "The storage editor lets you resize, delete, and create partitions. It can "
 "set up LVM and much more. It is meant to be used as an advanced utility and "
@@ -1638,7 +1679,7 @@ msgstr ""
 msgid "This hostname can't be submitted"
 msgstr ""
 
-#: src/components/AnacondaHeader.jsx:65
+#: src/components/AnacondaHeader.jsx:64
 #, fuzzy
 msgid "This is unstable, pre-release software"
 msgstr "Dette er ustabilt, præudgivelsessoftware."
@@ -1674,14 +1715,14 @@ msgstr "Tidszone: %s\n"
 msgid "Title"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:216
+#: src/components/installation/InstallationProgress.jsx:248
 #, fuzzy
 msgid "To begin using $0, reboot your system."
 msgstr ""
 "\n"
 "Tryk på [Enter] for at genstarte dit system.\n"
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:192
+#: src/components/storage/installation-method/InstallationMethod.jsx:194
 #, fuzzy
 msgid "To continue, select the devices to install to."
 msgstr "Ingen diske valgt; vælg mindst én disk som der skal installeres på."
@@ -1747,7 +1788,7 @@ msgstr "Valgte diske"
 msgid "Use free space"
 msgstr "Brug ledig plads"
 
-#: src/components/users/Accounts.jsx:238
+#: src/components/users/Accounts.jsx:244
 #, fuzzy
 #| msgid "Lock root account"
 msgid "Use local account"
@@ -1759,27 +1800,27 @@ msgstr "Lås root-konto"
 msgid "Use the RAID device for automatic partitioning"
 msgstr "Ikke stor nok ledig plads på diske til automatisk partitionering"
 
-#: src/components/users/Accounts.jsx:487
+#: src/components/users/Accounts.jsx:494
 msgid "User creation"
 msgstr "Brugeroprettelse"
 
-#: src/components/users/Accounts.jsx:283
+#: src/components/users/Accounts.jsx:289
 msgid "User name"
 msgstr "Brugernavn"
 
-#: src/components/users/Accounts.jsx:176
+#: src/components/users/Accounts.jsx:182
 msgid ""
 "User name may only contain: letters from a-z, digits 0-9, dash $0, period "
 "$1, underscore $2"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:173
+#: src/components/users/Accounts.jsx:179
 #, fuzzy
 #| msgid "User name is reserved for system: %s"
 msgid "User name must not be a reserved word"
 msgstr "Brugernavn er reserveret til system: %s"
 
-#: src/components/users/Accounts.jsx:170
+#: src/components/users/Accounts.jsx:176
 #, fuzzy
 #| msgid "Name must be shorter than 33 characters."
 msgid "User names must be shorter than 33 characters"
@@ -1829,7 +1870,7 @@ msgstr ""
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr ""
 
-#: src/components/users/Accounts.jsx:520
+#: src/components/users/Accounts.jsx:527
 msgid ""
 "You have to enable the root account or create a local user account to "
 "proceed."
@@ -1843,12 +1884,12 @@ msgstr ""
 msgid "Your progress will not be saved."
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:230
+#: src/components/installation/InstallationProgress.jsx:262
 #, fuzzy
 msgid "completed step"
 msgstr "Færdig!"
 
-#: src/components/installation/InstallationProgress.jsx:235
+#: src/components/installation/InstallationProgress.jsx:267
 #, fuzzy
 msgid "current step"
 msgstr "Nuværende værtsnavn:"
@@ -1902,7 +1943,7 @@ msgstr "Færdig!"
 msgid "mount"
 msgstr "Tilføj layout"
 
-#: src/components/installation/InstallationProgress.jsx:224
+#: src/components/installation/InstallationProgress.jsx:256
 msgid "pending step"
 msgstr ""
 
@@ -1948,11 +1989,6 @@ msgstr ""
 #~| msgid "Available Layouts"
 #~ msgid "Unusable layout"
 #~ msgstr "Tilgængelige layouts"
-
-#, fuzzy
-#~| msgid "no NTP servers have been configured"
-#~ msgid "No user or root account has been configured"
-#~ msgstr "ingen NTP-servere er blevet konfigureret"
 
 #, fuzzy
 #~ msgid "Preparing report"
@@ -4525,9 +4561,6 @@ msgstr ""
 #~ msgid "Please enter a valid mount point."
 #~ msgstr "Indtast venligst et gyldigt monteringspunkt."
 
-#~ msgid "Please enter a valid name."
-#~ msgstr "Indtast venligst et gyldigt navn."
-
 #, python-format
 #~ msgid "Please manually connect your vnc client to %s to begin the install."
 #~ msgstr ""
@@ -6986,10 +7019,6 @@ msgstr ""
 #~ msgctxt "GUI|Spoke"
 #~ msgid "_Language Support"
 #~ msgstr "_Sprogunderstøttelse"
-
-#~ msgctxt "GUI|Advanced Storage|iSCSI|Login|Login"
-#~ msgid "_Log In"
-#~ msgstr "_Log ind"
 
 #~ msgctxt "GUI|Network|Proxy"
 #~ msgid "_Method"

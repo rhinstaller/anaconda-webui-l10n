@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-12 04:26+0000\n"
+"POT-Creation-Date: 2026-08-13 04:29+0000\n"
 "PO-Revision-Date: 2026-01-08 03:53+0000\n"
 "Last-Translator: Aindriu Mac Giolla Eoin <aindriu80@gmail.com>\n"
 "Language-Team: Irish <https://translate.fedoraproject.org/projects/anaconda-"
@@ -105,7 +105,7 @@ msgstr ""
 "Fuarthas an chuid '$0' ar an ngléas MDRAID $1. Ní thacaítear le cuid an "
 "luchtóra tosaithe ar ghléasanna MDRAID."
 
-#: src/components/users/Accounts.jsx:250
+#: src/components/users/Accounts.jsx:256
 msgid ""
 "A standard user account with admin access for making system-wide changes."
 msgstr ""
@@ -118,7 +118,7 @@ msgstr ""
 msgid "Abort installation"
 msgstr "Suiteáil $0"
 
-#: src/components/HeaderKebab.jsx:126
+#: src/components/HeaderKebab.jsx:121
 msgid "About"
 msgstr "Faoi"
 
@@ -155,7 +155,7 @@ msgstr "Teangacha breise"
 msgid "Additional software for the selected environment"
 msgstr "Bogearraí breise don timpeallacht roghnaithe"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:67
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:55
 msgid "All changes made in the storage editor take effect immediately."
 msgstr ""
 "Tagann gach athrú a dhéantar ar an eagarthóir stórála i bhfeidhm láithreach."
@@ -168,7 +168,7 @@ msgstr "Díghlasálfar gach gléas a úsáideann an pasfhrása seo"
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/index.html:20
+#: src/login.html:8 src/index.html:20
 msgid "Anaconda Web UI"
 msgstr "Chomhéadain Gréasáin Anaconda"
 
@@ -234,7 +234,7 @@ msgstr "Sonraí earráide"
 msgid "Bugzilla API key"
 msgstr ""
 
-#: src/components/AnacondaHeader.jsx:74
+#: src/components/AnacondaHeader.jsx:73
 msgid ""
 "By continuing to use this software, you understand and accept the risks "
 "associated with pre-released software, that you intend to use this for "
@@ -251,7 +251,7 @@ msgstr ""
 #: src/components/localization/Keyboard.jsx:280
 #: src/components/storage/installation-method/InstallationDestination.jsx:371
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:84
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
 #: src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "Cealaigh"
@@ -278,7 +278,7 @@ msgstr "Athraigh leagan amach na críochdheighilte"
 msgid "Change system keyboard layout"
 msgstr "Athraigh leagan amach méarchláir an chórais"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:139
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:127
 msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
@@ -312,7 +312,7 @@ msgstr ""
 msgid "Close"
 msgstr "Dún"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:143
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:131
 msgid "Close storage editor"
 msgstr "Dún eagarthóir stórála"
 
@@ -323,7 +323,7 @@ msgstr ""
 "Níor sholáthair stóras cockpit an pasfhrása chun gléas criptithe a "
 "dhíghlasáil."
 
-#: src/components/installation/InstallationProgress.jsx:231
+#: src/components/installation/InstallationProgress.jsx:263
 msgid "Completed"
 msgstr "Críochnaithe"
 
@@ -346,7 +346,7 @@ msgstr "Cumraigh freastalaithe NTP saincheaptha"
 msgid "Configure network"
 msgstr "Cumraigh stóráil"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:129
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:117
 msgid "Configure storage"
 msgstr "Cumraigh stóráil"
 
@@ -354,7 +354,7 @@ msgstr "Cumraigh stóráil"
 msgid "Configure storage again"
 msgstr "Cumraigh stóras arís"
 
-#: src/components/users/Accounts.jsx:202 src/components/users/Accounts.jsx:405
+#: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
 msgid "Confirm passphrase"
 msgstr "Deimhnigh pasfhrása"
@@ -386,7 +386,7 @@ msgstr ""
 msgid "Create Account"
 msgstr "Cruthaigh Cuntas"
 
-#: src/components/users/Accounts.jsx:312
+#: src/components/users/Accounts.jsx:318
 msgid "Create account"
 msgstr "Cruthaigh cuntas"
 
@@ -451,7 +451,7 @@ msgstr "Gléas dúblach."
 msgid "Duplicate mount point."
 msgstr "Pointe gléasta dúblach."
 
-#: src/components/users/Accounts.jsx:336 src/components/users/Accounts.jsx:387
+#: src/components/users/Accounts.jsx:342 src/components/users/Accounts.jsx:393
 msgid "Enable root account"
 msgstr "Cumasaigh cuntas fréimhe"
 
@@ -466,6 +466,14 @@ msgstr "Criptithe"
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:106
 msgid "Encryption"
 msgstr "Criptiú"
+
+#: src/components/login/LoginPage.jsx:88
+msgid "Enter PIN"
+msgstr ""
+
+#: src/components/login/LoginPage.jsx:77
+msgid "Enter PIN to access the installer"
+msgstr ""
 
 #: src/components/Error.jsx:204
 msgid ""
@@ -487,7 +495,7 @@ msgstr "Scrios sonraí agus suiteáil"
 msgid "Error details"
 msgstr "Sonraí earráide"
 
-#: src/components/installation/InstallationProgress.jsx:201
+#: src/components/installation/InstallationProgress.jsx:233
 msgid "Exit to live desktop"
 msgstr "Scoir go dtí an deasc beo"
 
@@ -510,11 +518,11 @@ msgstr "Theip ar leagan amach a shábháil"
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Teastaíonn $0 ar a laghad de spás diosca ó Fedora linux."
 
-#: src/components/installation/InstallationProgress.jsx:195
+#: src/components/installation/InstallationProgress.jsx:227
 msgid "Finalization"
 msgstr "Críochnú"
 
-#: src/components/installation/InstallationProgress.jsx:193
+#: src/components/installation/InstallationProgress.jsx:225
 msgid ""
 "Finalizing: The system configuration is complete. Finalizing installation "
 "may take a few moments."
@@ -526,7 +534,7 @@ msgstr ""
 msgid "Find layout"
 msgstr "Aimsigh leagan amach"
 
-#: src/components/users/Accounts.jsx:403
+#: src/components/users/Accounts.jsx:409
 msgid ""
 "For better security, avoid using the root account directly. Instead, use the "
 "local account above to manage the system."
@@ -535,11 +543,11 @@ msgstr ""
 "díreach. Ina áit sin, bain úsáid as an gcuntas áitiúil thuas chun an córas a "
 "bhainistiú."
 
-#: src/components/users/Accounts.jsx:252
+#: src/components/users/Accounts.jsx:258
 msgid "Full name"
 msgstr "Ainm iomlán"
 
-#: src/components/users/Accounts.jsx:188
+#: src/components/users/Accounts.jsx:194
 msgid "Full name cannot contain colon characters"
 msgstr "Ní féidir carachtair idirstad a bheith san ainm iomlán"
 
@@ -549,6 +557,10 @@ msgstr "Téacs cúnta"
 
 #: src/components/Error.jsx:230
 msgid "Hide API key"
+msgstr ""
+
+#: src/components/login/LoginPage.jsx:94
+msgid "Hide PIN"
 msgstr ""
 
 #: src/components/Password.jsx:265
@@ -567,7 +579,7 @@ msgstr "Folaigh pasfhocal"
 msgid "Hostname"
 msgstr "Óstainm"
 
-#: src/components/storage/installation-method/InstallationScenario.jsx:145
+#: src/components/storage/installation-method/InstallationScenario.jsx:163
 msgid "How would you like to install?"
 msgstr "Conas ba mhaith leat a shuiteáil?"
 
@@ -597,6 +609,12 @@ msgstr ""
 "Má tá sé folamh, beidh an t-óstainm neamhbhuan agus socraithe ag faisnéis "
 "líonra."
 
+#: src/components/storage/installation-method/InstallationScenario.jsx:126
+msgid ""
+"If none of the options above apply, use the storage editor to create a "
+"custom partitioning before proceeding."
+msgstr ""
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:56
 msgid "If you are configuring partitions the following are required:"
 msgstr ""
@@ -609,7 +627,7 @@ msgid ""
 "yourself."
 msgstr ""
 
-#: src/components/AnacondaHeader.jsx:77
+#: src/components/AnacondaHeader.jsx:76
 msgid ""
 "If you do not understand or accept the risks, then please exit this program."
 msgstr ""
@@ -621,7 +639,7 @@ msgid ""
 "information there instead of creating a duplicate report."
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:236
+#: src/components/installation/InstallationProgress.jsx:268
 msgid "In progress"
 msgstr "Ar siúl"
 
@@ -636,7 +654,7 @@ msgid "Install"
 msgstr "Suiteáil"
 
 #: src/components/Error.jsx:859
-#: src/components/installation/InstallationProgress.jsx:171
+#: src/components/installation/InstallationProgress.jsx:203
 msgid "Installation failed"
 msgstr "Theip ar an tsuiteáil"
 
@@ -644,13 +662,11 @@ msgstr "Theip ar an tsuiteáil"
 msgid "Installation method"
 msgstr "Modh suiteála"
 
-#: src/components/installation/InstallationProgress.jsx:119
-#: src/components/installation/InstallationProgress.jsx:140
-#: src/components/installation/InstallationProgress.jsx:145
+#: src/components/installation/InstallationProgress.jsx:60
 msgid "Installation of the system failed"
 msgstr "Theip ar shuiteáil an chórais"
 
-#: src/components/installation/InstallationProgress.jsx:86
+#: src/components/installation/InstallationProgress.jsx:91
 msgid "Installation of the system failed: $0"
 msgstr "Theip ar shuiteáil an chórais: $0"
 
@@ -658,13 +674,17 @@ msgstr "Theip ar shuiteáil an chórais: $0"
 msgid "Installation type"
 msgstr "Cineál suiteála"
 
-#: src/components/installation/InstallationProgress.jsx:173
+#: src/components/installation/InstallationProgress.jsx:205
 msgid "Installing"
 msgstr "Suiteáil"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:306
 msgid "Insufficient disk space"
 msgstr "Easpa spáis diosca"
+
+#: src/components/login/LoginPage.jsx:68
+msgid "Invalid PIN. Please try again."
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:255
 msgid ""
@@ -711,8 +731,7 @@ msgstr "Leagan amach an mhéarchláir le linn tosaithe"
 msgid "Language"
 msgstr "Teanga"
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:77
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:199
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:65
 msgid "Launch storage editor"
 msgstr "Seoladh eagarthóir stórála"
 
@@ -720,7 +739,7 @@ msgstr "Seoladh eagarthóir stórála"
 msgid "Learn more about restricted access in the configuration"
 msgstr ""
 
-#: src/components/users/Accounts.jsx:203
+#: src/components/users/Accounts.jsx:209
 msgid "Leave both passphrase fields empty to use an empty password."
 msgstr ""
 
@@ -731,6 +750,10 @@ msgstr "Suíomh"
 #: src/components/storage/installation-method/EncryptedDevices.jsx:147
 msgid "Locked devices"
 msgstr "Gléasanna faoi ghlas"
+
+#: src/components/login/LoginPage.jsx:118
+msgid "Log in"
+msgstr ""
 
 #: src/components/localization/Keyboard.jsx:122
 #: src/components/localization/Keyboard.jsx:126
@@ -895,7 +918,7 @@ msgstr "Níl go leor spáis saor in aisce ar na dioscaí roghnaithe."
 msgid "Not enough space on selected disks."
 msgstr "Níl go leor spáis ar dhioscaí roghnaithe."
 
-#: src/components/AnacondaHeader.jsx:71
+#: src/components/AnacondaHeader.jsx:70
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
 "testing purposes only. Do NOT use this software for any critical work or for "
@@ -925,7 +948,7 @@ msgstr "Méarchláir eile"
 msgid "Partitions (advanced)"
 msgstr "Deighiltí (chun cinn)"
 
-#: src/components/users/Accounts.jsx:199 src/components/users/Accounts.jsx:401
+#: src/components/users/Accounts.jsx:205 src/components/users/Accounts.jsx:407
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:93
@@ -940,13 +963,17 @@ msgstr "Níor mheaitseáil an pasfhrása aon ghléas faoi ghlas"
 msgid "Passphrases must match"
 msgstr "Ní mór go mbeadh na pasfhocail ag teacht le chéile"
 
-#: src/components/installation/InstallationProgress.jsx:225
+#: src/components/installation/InstallationProgress.jsx:257
 msgid "Pending"
 msgstr "Ar feitheamh"
 
 #: src/components/Error.jsx:94
 msgid "Please attach the log file $0 to the issue."
 msgstr "Ceangail an logchomhad $0 leis an gceist le do thoil."
+
+#: src/components/login/LoginPage.jsx:44
+msgid "Please enter a PIN"
+msgstr ""
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:321
 msgid "Please select at least one disk to continue"
@@ -964,7 +991,7 @@ msgstr ""
 msgid "Powered by Anaconda"
 msgstr "Cumhachtaithe ag Anaconda"
 
-#: src/components/AnacondaHeader.jsx:61
+#: src/components/AnacondaHeader.jsx:60
 msgid "Pre-release"
 msgstr "Réamh-scaoileadh"
 
@@ -1015,7 +1042,7 @@ msgstr "Caithfidh 64 carachtar nó níos lú a bheith i bhfíor-óstainm"
 
 #: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:848
-#: src/components/installation/InstallationProgress.jsx:200
+#: src/components/installation/InstallationProgress.jsx:232
 msgid "Reboot"
 msgstr "Atosaigh"
 
@@ -1104,7 +1131,7 @@ msgstr ""
 msgid "Replace current installation, but keep files in home."
 msgstr "Ionadaigh an tsuiteáil reatha, ach coinnigh comhaid sa bhaile."
 
-#: src/components/HeaderKebab.jsx:129
+#: src/components/HeaderKebab.jsx:124
 msgid "Report Issue"
 msgstr "Eisiúint Tuairisce"
 
@@ -1162,7 +1189,7 @@ msgstr ""
 msgid "Restricts the report to the $0 group. $1"
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:46
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:34
 msgid "Return to installation"
 msgstr "Fill ar an suiteáil"
 
@@ -1174,6 +1201,12 @@ msgstr "Fill ar an eagarthóir stórála"
 msgid "Review and install"
 msgstr "Athbhreithniú agus a shuiteáil"
 
+#: src/components/users/Accounts.jsx:94
+#, fuzzy
+#| msgid "Root account is enabled"
+msgid "Root account has been configured"
+msgstr "Tá cuntas fréimhe cumasaithe"
+
 #: src/components/users/Accounts.jsx:86
 msgid "Root account is enabled"
 msgstr "Tá cuntas fréimhe cumasaithe"
@@ -1182,7 +1215,7 @@ msgstr "Tá cuntas fréimhe cumasaithe"
 msgid "Root account is enabled, but no user account has been configured"
 msgstr "Tá cuntas fréimhe cumasaithe, ach níl aon chuntas úsáideora cumraithe"
 
-#: src/components/users/Accounts.jsx:345
+#: src/components/users/Accounts.jsx:351
 #, fuzzy
 #| msgid "Root password is not set"
 msgid "Root password has been set."
@@ -1284,6 +1317,12 @@ msgstr "Taispeáin AM/PM"
 msgid "Show API key"
 msgstr "Taispeáin AM/PM"
 
+#: src/components/login/LoginPage.jsx:94
+#, fuzzy
+#| msgid "Show AM/PM"
+msgid "Show PIN"
+msgstr "Taispeáin AM/PM"
+
 #: src/components/Password.jsx:265
 msgid "Show confirmed password"
 msgstr "Taispeáin pasfhocal deimhnithe"
@@ -1300,11 +1339,11 @@ msgstr "Taispeáin pasfhocal"
 msgid "Size"
 msgstr "Méid"
 
-#: src/components/installation/InstallationProgress.jsx:185
+#: src/components/installation/InstallationProgress.jsx:217
 msgid "Software installation"
 msgstr "Suiteáil bogearraí"
 
-#: src/components/installation/InstallationProgress.jsx:183
+#: src/components/installation/InstallationProgress.jsx:215
 msgid ""
 "Software installation: Storage configuration complete. The software is now "
 "being installed onto your device."
@@ -1338,25 +1377,20 @@ msgstr ""
 msgid "Storage"
 msgstr "Stóráil"
 
-#: src/components/installation/InstallationProgress.jsx:180
+#: src/components/installation/InstallationProgress.jsx:212
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
 #: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Cumraíocht stórála"
 
-#: src/components/installation/InstallationProgress.jsx:178
+#: src/components/installation/InstallationProgress.jsx:210
 msgid "Storage configuration: Storage is currently being configured."
 msgstr "Cumraíocht stórála: Tá an stóráil á chumrú faoi láthair."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:58
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:46
 msgid "Storage editor"
 msgstr "Eagarthóir stórála"
-
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:209
-msgid "Storage editor is available only in the `Installation method` step."
-msgstr ""
-"Níl an t-eagarthóir stórála ar fáil ach amháin sa chéim `Modh suiteála`."
 
 #: src/components/storage/scenarios/use-configured-storage/index.js:26
 msgid "Storage is based on the configuration from 'Modify storage'."
@@ -1368,7 +1402,7 @@ msgid ""
 "layout can be reviewed in the summary step."
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:106
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid "Storage plugin failed"
 msgstr "Theip ar an mbreiseán stórála"
 
@@ -1380,7 +1414,7 @@ msgstr "Níor comhlíonadh na ceanglais stórála"
 msgid "Strong"
 msgstr "Láidir"
 
-#: src/components/installation/InstallationProgress.jsx:168
+#: src/components/installation/InstallationProgress.jsx:200
 msgid "Successfully installed"
 msgstr "Suiteáilte go rathúil"
 
@@ -1396,15 +1430,15 @@ msgstr "Méarchláir molta"
 msgid "Suggested languages"
 msgstr "Teangacha molta"
 
-#: src/components/users/Accounts.jsx:333 src/components/users/Accounts.jsx:417
+#: src/components/users/Accounts.jsx:339 src/components/users/Accounts.jsx:423
 msgid "System"
 msgstr "Córas"
 
-#: src/components/installation/InstallationProgress.jsx:190
+#: src/components/installation/InstallationProgress.jsx:222
 msgid "System configuration"
 msgstr "Cumraíocht an chórais"
 
-#: src/components/installation/InstallationProgress.jsx:188
+#: src/components/installation/InstallationProgress.jsx:220
 msgid ""
 "System configuration: Software installation complete. The system is now "
 "being configured."
@@ -1471,7 +1505,7 @@ msgstr ""
 "Roghnaigh leagan amach atá in ann ASCII a úsáid mar an leagan "
 "réamhshocraithe."
 
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:64
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:52
 msgid ""
 "The storage editor lets you resize, delete, and create partitions. It can "
 "set up LVM and much more. It is meant to be used as an advanced utility and "
@@ -1499,7 +1533,7 @@ msgstr ""
 msgid "This hostname can't be submitted"
 msgstr "Ní féidir an t-óstainm seo a chur isteach"
 
-#: src/components/AnacondaHeader.jsx:65
+#: src/components/AnacondaHeader.jsx:64
 msgid "This is unstable, pre-release software"
 msgstr "Is bogearraí éagobhsaí, réamhscaoilte é seo"
 
@@ -1529,11 +1563,11 @@ msgstr "Crios ama"
 msgid "Title"
 msgstr ""
 
-#: src/components/installation/InstallationProgress.jsx:216
+#: src/components/installation/InstallationProgress.jsx:248
 msgid "To begin using $0, reboot your system."
 msgstr "Chun $0 a úsáid, atosaigh do chóras."
 
-#: src/components/storage/installation-method/InstallationMethod.jsx:192
+#: src/components/storage/installation-method/InstallationMethod.jsx:194
 msgid "To continue, select the devices to install to."
 msgstr "Chun leanúint ar aghaidh, roghnaigh na feistí a shuiteáil go."
 
@@ -1595,7 +1629,7 @@ msgstr "Bain úsáid as diosca iomlán"
 msgid "Use free space"
 msgstr "Úsáid spás saor in aisce"
 
-#: src/components/users/Accounts.jsx:238
+#: src/components/users/Accounts.jsx:244
 msgid "Use local account"
 msgstr "Úsáid cuntas áitiúil"
 
@@ -1603,15 +1637,15 @@ msgstr "Úsáid cuntas áitiúil"
 msgid "Use the RAID device for automatic partitioning"
 msgstr "Úsáid an gléas RAID le haghaidh deighilt uathoibríoch"
 
-#: src/components/users/Accounts.jsx:487
+#: src/components/users/Accounts.jsx:494
 msgid "User creation"
 msgstr "Cruthú úsáideora"
 
-#: src/components/users/Accounts.jsx:283
+#: src/components/users/Accounts.jsx:289
 msgid "User name"
 msgstr "Ainm úsáideora"
 
-#: src/components/users/Accounts.jsx:176
+#: src/components/users/Accounts.jsx:182
 msgid ""
 "User name may only contain: letters from a-z, digits 0-9, dash $0, period "
 "$1, underscore $2"
@@ -1619,11 +1653,11 @@ msgstr ""
 "Ní féidir ach na nithe seo a leanas a bheith san ainm úsáideora: litreacha ó "
 "a-z, digití 0-9, dash $0, tréimhse $1, béim ar $2"
 
-#: src/components/users/Accounts.jsx:173
+#: src/components/users/Accounts.jsx:179
 msgid "User name must not be a reserved word"
 msgstr "Ní ceadmhach ainm úsáideora a bheith ina fhocal forchoimeádta"
 
-#: src/components/users/Accounts.jsx:170
+#: src/components/users/Accounts.jsx:176
 msgid "User names must be shorter than 33 characters"
 msgstr "Caithfidh ainmneacha úsáideoirí a bheith níos giorra ná 33 carachtar"
 
@@ -1671,7 +1705,7 @@ msgstr ""
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr ""
 
-#: src/components/users/Accounts.jsx:520
+#: src/components/users/Accounts.jsx:527
 msgid ""
 "You have to enable the root account or create a local user account to "
 "proceed."
@@ -1689,11 +1723,11 @@ msgstr ""
 msgid "Your progress will not be saved."
 msgstr "Ní shábhálfar do dhul chun cinn."
 
-#: src/components/installation/InstallationProgress.jsx:230
+#: src/components/installation/InstallationProgress.jsx:262
 msgid "completed step"
 msgstr "chéim chríochnaithe"
 
-#: src/components/installation/InstallationProgress.jsx:235
+#: src/components/installation/InstallationProgress.jsx:267
 msgid "current step"
 msgstr "céim reatha"
 
@@ -1737,7 +1771,7 @@ msgstr "Críochnaithe"
 msgid "mount"
 msgstr "sléibhe"
 
-#: src/components/installation/InstallationProgress.jsx:224
+#: src/components/installation/InstallationProgress.jsx:256
 msgid "pending step"
 msgstr "céim ar feitheamh"
 
@@ -1761,6 +1795,10 @@ msgstr "Laghdaigh go $0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:375
 msgid "undo"
 msgstr "cealaigh"
+
+#~ msgid "Storage editor is available only in the `Installation method` step."
+#~ msgstr ""
+#~ "Níl an t-eagarthóir stórála ar fáil ach amháin sa chéim `Modh suiteála`."
 
 #~ msgid "Reboot to installed system"
 #~ msgstr "Atosaigh go dtí an córas suiteáilte"
