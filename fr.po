@@ -68,7 +68,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-14 04:27+0000\n"
+"POT-Creation-Date: 2026-08-15 03:22+0000\n"
 "PO-Revision-Date: 2026-07-03 06:17+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/anaconda-"
@@ -85,14 +85,14 @@ msgstr ""
 msgid "$0 $1"
 msgstr "$0 $1"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:349
 #: src/components/storage/installation-method/InstallationDestination.jsx:162
 #: src/components/storage/installation-method/InstallationDestination.jsx:268
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:349
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
-#: src/components/storage/Common.jsx:58
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
+#: src/components/storage/Common.jsx:58
 msgid "$0 error"
 msgid_plural "$0 errors"
 msgstr[0] "$0 erreur"
@@ -119,8 +119,8 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr "$0 est requis, mais seul $1 est disponible."
 
-#: src/components/storage/Common.jsx:74
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
+#: src/components/storage/Common.jsx:74
 msgid "$0 warning"
 msgid_plural "$0 warnings"
 msgstr[0] "$0 avertissement"
@@ -227,7 +227,7 @@ msgstr ""
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/login.html:8 src/index.html:20
+#: src/index.html:20 src/login.html:8
 msgid "Anaconda Web UI"
 msgstr "Anaconda Web UI"
 
@@ -269,8 +269,8 @@ msgid "Available free space: $0. Installation requires: $1."
 msgstr ""
 "Espace libre disponible : $0. Espace nécessaire pour l'installation : $1."
 
-#: src/components/AnacondaWizardFooter.jsx:62 src/components/Error.jsx:678
-#: src/components/Error.jsx:703
+#: src/components/Error.jsx:678 src/components/Error.jsx:703
+#: src/components/AnacondaWizardFooter.jsx:62
 msgid "Back"
 msgstr "Retour"
 
@@ -304,10 +304,10 @@ msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:252 src/components/Error.jsx:871
 #: src/components/localization/Keyboard.jsx:280
+#: src/components/review/Hostname.jsx:127
+#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
 #: src/components/storage/installation-method/InstallationDestination.jsx:371
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
-#: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
-#: src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -344,9 +344,9 @@ msgstr ""
 msgid "Checking installation configuration..."
 msgstr "Vérification de la configuration d'installation..."
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:474
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:480
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "Vérification de la configuration du stockage"
 
@@ -360,8 +360,8 @@ msgstr ""
 "Cliquez à nouveau sur « Suivant » pour continuer malgré ces avertissements."
 
 #: src/components/network/CockpitNetworkConfiguration.jsx:64
-#: src/components/storage/installation-method/InstallationDestination.jsx:376
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/storage/installation-method/InstallationDestination.jsx:376
 msgid "Close"
 msgstr "Fermer"
 
@@ -392,8 +392,8 @@ msgstr "Configurer les serveurs NTP"
 msgid "Configure custom NTP servers"
 msgstr "Configurer des serveurs NTP personnalisés"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:40
 #: src/components/HeaderKebab.jsx:115
+#: src/components/network/CockpitNetworkConfiguration.jsx:40
 msgid "Configure network"
 msgstr "Configurer le réseau"
 
@@ -414,8 +414,8 @@ msgstr "Confirmez la phrase secrète"
 msgid "Continue"
 msgstr "Continuer"
 
-#: src/components/AnacondaWizardFooter.jsx:126
 #: src/components/installation/InstallationNonCriticalErrorDialog.jsx:41
+#: src/components/AnacondaWizardFooter.jsx:126
 msgid "Continue installation"
 msgstr "Continuer l'installation"
 
@@ -451,8 +451,8 @@ msgstr "Personnalisé"
 msgid "Date"
 msgstr "Date"
 
-#: src/components/datetime/DateAndTime.jsx:151
 #: src/components/datetime/index.js:21
+#: src/components/datetime/DateAndTime.jsx:151
 msgid "Date and time"
 msgstr "Date et heure"
 
@@ -485,8 +485,8 @@ msgstr "Description détaillée du problème"
 msgid "Detected valid storage layout:"
 msgstr "Schéma de stockage valide détecté :"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 #: src/components/storage/StorageReview.jsx:244
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 msgid "Device"
 msgstr "Périphérique"
 
@@ -695,14 +695,14 @@ msgstr "En cours"
 msgid "Initializing..."
 msgstr "Initialisation..."
 
+#: src/components/storage/scenarios/use-free-space/index.js:27
 #: src/components/storage/scenarios/use-configured-storage/index.js:25
 #: src/components/storage/scenarios/use-configured-storage/index.js:39
-#: src/components/storage/scenarios/use-free-space/index.js:27
 msgid "Install"
 msgstr "Installer"
 
-#: src/components/Error.jsx:859
 #: src/components/installation/InstallationProgress.jsx:203
+#: src/components/Error.jsx:859
 msgid "Installation failed"
 msgstr "Installation échouée"
 
@@ -764,7 +764,7 @@ msgstr ""
 "Conserver la configuration actuelle des disques et utiliser l'espace "
 "disponible (pour créer un dual-boot avec un autre OS)."
 
-#: src/components/localization/InstallationLanguage.jsx:250
+#: src/components/localization/InstallationLanguage.jsx:254
 msgid "Keyboard"
 msgstr "Clavier"
 
@@ -772,7 +772,7 @@ msgstr "Clavier"
 msgid "Keyboard layout during boot"
 msgstr "Disposition de clavier pendant le démarrage"
 
-#: src/components/localization/InstallationLanguage.jsx:236
+#: src/components/localization/InstallationLanguage.jsx:240
 #: src/components/review/ReviewConfiguration.jsx:234
 msgid "Language"
 msgstr "Langue"
@@ -841,8 +841,8 @@ msgstr ""
 "Problème de correspondance dans la sélection des périphériques parent et "
 "enfant à reformater."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
 #: src/components/storage/StorageReview.jsx:248
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
 msgid "Mount point"
 msgstr "Point de montage"
 
@@ -889,8 +889,8 @@ msgstr "Nécessite au moins $0"
 msgid "Network"
 msgstr "Réseau"
 
-#: src/components/network/index.js:20
 #: src/components/network/CockpitNetworkConfiguration.jsx:46
+#: src/components/network/index.js:20
 msgid "Network Configuration"
 msgstr "Configuration réseau"
 
@@ -910,12 +910,12 @@ msgstr "Réseau non disponible. Configurez le réseau pour signaler le problème
 msgid "Network plugin failed"
 msgstr "Défaillance du plugin réseau"
 
-#: src/components/AnacondaWizardFooter.jsx:71 src/components/Error.jsx:668
+#: src/components/Error.jsx:668 src/components/AnacondaWizardFooter.jsx:71
 msgid "Next"
 msgstr "Suivant"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:624
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:144
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:624
 msgid "No devices"
 msgstr "Aucun périphérique"
 
@@ -994,9 +994,9 @@ msgid "Partitions (advanced)"
 msgstr "Partitions (avancé)"
 
 #: src/components/users/Accounts.jsx:205 src/components/users/Accounts.jsx:407
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 msgid "Passphrase"
 msgstr "Phrase secrète"
 
@@ -1052,8 +1052,8 @@ msgstr "Vous préférez effectuer un signalement manuel ? $0"
 msgid "Proceed with installation"
 msgstr "Poursuivre l'installation"
 
-#: src/components/AnacondaWizardFooter.jsx:84
-#: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:848
+#: src/components/Error.jsx:848 src/components/AnacondaWizardFooter.jsx:84
+#: src/components/AnacondaWizardFooter.jsx:119
 msgid "Quit"
 msgstr "Quitter"
 
@@ -1091,9 +1091,9 @@ msgstr ""
 msgid "Real hostname must be 64 characters or less"
 msgstr "Le nom d'hôte réel ne doit pas dépasser 64 caractères"
 
-#: src/components/AnacondaWizardFooter.jsx:84
-#: src/components/AnacondaWizardFooter.jsx:119 src/components/Error.jsx:848
 #: src/components/installation/InstallationProgress.jsx:232
+#: src/components/Error.jsx:848 src/components/AnacondaWizardFooter.jsx:84
+#: src/components/AnacondaWizardFooter.jsx:119
 msgid "Reboot"
 msgstr "Redémarrer"
 
@@ -1400,8 +1400,8 @@ msgstr ""
 "Installation des logiciels : Configuration du stockage terminée. Les "
 "logiciels sont maintenant en cours d'installation sur votre appareil."
 
-#: src/components/review/ReviewConfiguration.jsx:247
 #: src/components/software/index.js:19 src/components/software/index.js:20
+#: src/components/review/ReviewConfiguration.jsx:247
 msgid "Software selection"
 msgstr "Sélection des logiciels"
 
@@ -1428,10 +1428,10 @@ msgstr "Trace d'appels"
 msgid "Storage"
 msgstr "Stockage"
 
+#: src/components/steps.js:35
 #: src/components/installation/InstallationProgress.jsx:212
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
-#: src/components/steps.js:35
 msgid "Storage configuration"
 msgstr "Configuration du stockage"
 
