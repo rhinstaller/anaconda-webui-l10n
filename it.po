@@ -48,7 +48,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-19 03:29+0000\n"
-"PO-Revision-Date: 2026-05-15 06:19+0000\n"
+"PO-Revision-Date: 2026-08-20 19:18+0000\n"
 "Last-Translator: Nathan <nathan95@live.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/it/>\n"
@@ -57,7 +57,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17.1\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:142
 #: src/components/storage/installation-method/InstallationDestination.jsx:275
@@ -116,10 +116,8 @@ msgstr ""
 "crittografato"
 
 #: src/helpers/storage.js:267
-#, fuzzy
-#| msgid "'$0' must be on a device formatted to '$1'"
 msgid "'$0' must be assigned to $1"
-msgstr "'$0' dev'essere su un dispositivo formattato '$1'"
+msgstr "'$0' deve essere assegnato a $1"
 
 #: src/helpers/storage.js:270
 msgid "'$0' must be on a device formatted to '$1'"
@@ -131,6 +129,9 @@ msgid ""
 "filesystem, but is not marked as an ESP. Set the partition type to EFI "
 "System and enable the esp flag."
 msgstr ""
+"'$0' deve trovarsi in una partizione di sistema EFI (ESP). La partizione "
+"selezionata utilizza un file system FAT, ma non è contrassegnata come ESP. "
+"Imposta il tipo di partizione su EFI System e attiva il flag esp."
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:272
 msgid ""
@@ -148,10 +149,8 @@ msgstr ""
 "modifiche a tutto il sistema."
 
 #: src/components/installation/InstallationNonCriticalErrorDialog.jsx:48
-#, fuzzy
-#| msgid "$0 installation"
 msgid "Abort installation"
-msgstr "Installazione $0"
+msgstr "Annulla installazione"
 
 #: src/components/HeaderKebab.jsx:121
 msgid "About"
@@ -396,10 +395,8 @@ msgid "Continue installation"
 msgstr "Continua l'installazione"
 
 #: src/components/installation/InstallationNonCriticalErrorDialog.jsx:28
-#, fuzzy
-#| msgid "Continue installation"
 msgid "Continue installation?"
-msgstr "Continua l'installazione"
+msgstr "Continua l'installazione?"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:619
 msgid "Continue with installation"
@@ -494,11 +491,11 @@ msgstr "Cifratura"
 
 #: src/components/login/LoginPage.jsx:88
 msgid "Enter PIN"
-msgstr ""
+msgstr "Inserisci PIN"
 
 #: src/components/login/LoginPage.jsx:77
 msgid "Enter PIN to access the installer"
-msgstr ""
+msgstr "Inserisci il PIN per accedere al programma di installazione"
 
 #: src/components/Error.jsx:204
 msgid ""
@@ -582,10 +579,8 @@ msgid "Hide API key"
 msgstr "Nascondi la chiave API"
 
 #: src/components/login/LoginPage.jsx:94
-#, fuzzy
-#| msgid "Hide API key"
 msgid "Hide PIN"
-msgstr "Nascondi la chiave API"
+msgstr "Nascondi PIN"
 
 #: src/components/Password.jsx:265
 msgid "Hide confirmed password"
@@ -633,6 +628,9 @@ msgid ""
 "If none of the options above apply, use the storage editor to create a "
 "custom partitioning before proceeding."
 msgstr ""
+"Se nessuna delle opzioni precedenti è applicabile, utilizza l'editor di "
+"archiviazione per creare un partizionamento personalizzato prima di "
+"procedere."
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:56
 msgid "If you are configuring partitions the following are required:"
@@ -658,6 +656,9 @@ msgid ""
 "If your issue matches one of the bugs above, you can open it and add your "
 "information there instead of creating a duplicate report."
 msgstr ""
+"Se il tuo problema corrisponde a uno dei bug sopra elencati, puoi aprirlo e "
+"aggiungere le tue informazioni lì invece di creare una segnalazione "
+"duplicata."
 
 #: src/components/installation/InstallationProgress.jsx:268
 msgid "In progress"
@@ -704,7 +705,7 @@ msgstr "Spazio su disco insufficiente"
 
 #: src/components/login/LoginPage.jsx:68
 msgid "Invalid PIN. Please try again."
-msgstr ""
+msgstr "PIN non valido. Riprova."
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:255
 msgid ""
@@ -760,6 +761,8 @@ msgstr "Ulteriori informazioni sull’accesso limitato nella configurazione"
 #: src/components/users/Accounts.jsx:209
 msgid "Leave both passphrase fields empty to use an empty password."
 msgstr ""
+"Lasciare vuoti entrambi i campi della passphrase per utilizzare una password "
+"vuota."
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:138
 msgid "Location"
@@ -770,11 +773,8 @@ msgid "Locked devices"
 msgstr "Dispositivi bloccati"
 
 #: src/components/login/LoginPage.jsx:118
-#, fuzzy
-#| msgctxt "GUI|Advanced Storage|iSCSI|Login|Login"
-#| msgid "_Log In"
 msgid "Log in"
-msgstr "_Log In"
+msgstr "Log in"
 
 #: src/components/localization/Keyboard.jsx:122
 #: src/components/localization/Keyboard.jsx:126
@@ -837,7 +837,7 @@ msgstr "Deve essere di almeno $0 caratteri"
 
 #: src/components/Error.jsx:686
 msgid "My issue is different, continue"
-msgstr ""
+msgstr "Il mio problema è diverso, continua"
 
 #: src/components/datetime/CustomNTPModal.jsx:157
 msgid "NTP Servers"
@@ -898,10 +898,8 @@ msgid "No disks selected"
 msgstr "Nessun disco selezionato"
 
 #: src/components/localization/Keyboard.jsx:47
-#, fuzzy
-#| msgid "No layouts selected yet"
 msgid "No keyboard layouts selected"
-msgstr "Nessun layout selezionato ancora"
+msgstr "Nessuna disposizione di tastiera selezionata"
 
 #: src/components/localization/Keyboard.jsx:240
 msgid "No layouts selected yet"
@@ -985,10 +983,8 @@ msgid "Please attach the log file $0 to the issue."
 msgstr "Per favore, allega il file di log $0 al problema."
 
 #: src/components/login/LoginPage.jsx:44
-#, fuzzy
-#| msgid "Please enter a valid name."
 msgid "Please enter a PIN"
-msgstr "Inserire un nome valido."
+msgstr "Inserisci un PIN"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:321
 msgid "Please select at least one disk to continue"
@@ -999,10 +995,8 @@ msgid "Pool"
 msgstr "Pool"
 
 #: src/components/Error.jsx:303
-#, fuzzy
-#| msgid "No mountable devices found"
 msgid "Potential duplicate bugs found"
-msgstr "Nessun dispositivo montabile trovato"
+msgstr "Trovati potenziali bug duplicati"
 
 #: src/components/HeaderKebab.jsx:49
 msgid "Powered by Anaconda"
@@ -1219,10 +1213,8 @@ msgid "Review and install"
 msgstr "Verifica e installa"
 
 #: src/components/users/Accounts.jsx:94
-#, fuzzy
-#| msgid "No user or root account has been configured"
 msgid "Root account has been configured"
-msgstr "Non è stato configurato alcun account utente o root"
+msgstr "L'account root è stato configurato"
 
 #: src/components/users/Accounts.jsx:86
 msgid "Root account is enabled"
@@ -1333,10 +1325,8 @@ msgid "Show API key"
 msgstr "Mostra chiave API"
 
 #: src/components/login/LoginPage.jsx:94
-#, fuzzy
-#| msgid "Show API key"
 msgid "Show PIN"
-msgstr "Mostra chiave API"
+msgstr "Mostra PIN"
 
 #: src/components/Password.jsx:265
 msgid "Show confirmed password"
@@ -1475,6 +1465,8 @@ msgid ""
 "The following open bugs may be related to your issue. Please review them "
 "before creating a new report."
 msgstr ""
+"I seguenti bug aperti potrebbero essere correlati al tuo problema. Si prega "
+"di consultarli prima di creare una nuova segnalazione."
 
 #: src/components/users/Accounts.jsx:47
 msgid "The following user will be created:"
@@ -1609,16 +1601,12 @@ msgid "Unlock encrypted devices"
 msgstr "Sblocca i dispositivi cifrati"
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:64
-#, fuzzy
-#| msgid ""
-#| "Unlock LUKS-encrypted partitions to keep existing data and show more "
-#| "installation methods."
 msgid ""
 "Unlock encrypted partitions to keep existing data and show more installation "
 "methods."
 msgstr ""
-"Sblocca le partizioni crittografate con LUKS per conservare i dati esistenti "
-"e mostrare più metodi di installazione."
+"Sblocca le partizioni crittografate per conservare i dati esistenti e "
+"mostrare più metodi di installazione."
 
 #: src/components/storage/scenarios/use-configured-storage/index.js:27
 #: src/components/storage/scenarios/use-configured-storage/index.js:41
