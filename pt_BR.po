@@ -75,7 +75,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-08-31 08:54+0000\n"
-"PO-Revision-Date: 2026-07-23 05:40+0000\n"
+"PO-Revision-Date: 2026-09-01 07:59+0000\n"
 "Last-Translator: \"Geraldo S. Simião Kutz\" <geraldo.simiao.kutz@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/anaconda-webui/anaconda-webui/pt_BR/>\n"
@@ -84,7 +84,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.7.1\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:142
 #: src/components/storage/installation-method/InstallationDestination.jsx:275
@@ -513,11 +513,11 @@ msgstr "Criptografia"
 
 #: src/components/login/LoginPage.jsx:88
 msgid "Enter PIN"
-msgstr ""
+msgstr "Digite a senha"
 
 #: src/components/login/LoginPage.jsx:77
 msgid "Enter PIN to access the installer"
-msgstr ""
+msgstr "Digite a senha para acessar o instalador"
 
 #: src/components/Error.jsx:204
 msgid ""
@@ -601,10 +601,8 @@ msgid "Hide API key"
 msgstr "Ocultar chave de API"
 
 #: src/components/login/LoginPage.jsx:94
-#, fuzzy
-#| msgid "Hide API key"
 msgid "Hide PIN"
-msgstr "Ocultar chave de API"
+msgstr "Ocultar senha"
 
 #: src/components/Password.jsx:265
 msgid "Hide confirmed password"
@@ -653,6 +651,8 @@ msgid ""
 "If none of the options above apply, use the storage editor to create a "
 "custom partitioning before proceeding."
 msgstr ""
+"Se nenhuma das opções acima for aplicável, use o editor de armazenamento "
+"para criar um particionamento personalizado antes de prosseguir."
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:56
 msgid "If you are configuring partitions the following are required:"
@@ -678,6 +678,8 @@ msgid ""
 "If your issue matches one of the bugs above, you can open it and add your "
 "information there instead of creating a duplicate report."
 msgstr ""
+"Se o seu problema corresponder a um dos bugs acima, você pode editá-lo e "
+"adicionar suas informações lá, em vez de criar um relatório duplicado."
 
 #: src/components/installation/InstallationProgress.jsx:274
 msgid "In progress"
@@ -724,7 +726,7 @@ msgstr "Espaço de disco insuficiente"
 
 #: src/components/login/LoginPage.jsx:68
 msgid "Invalid PIN. Please try again."
-msgstr ""
+msgstr "Senha inválida. Tente novamente."
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:255
 msgid ""
@@ -742,7 +744,7 @@ msgstr ""
 
 #: src/components/datetime/CustomNTPModal.jsx:92
 msgid "Invalid hostname"
-msgstr "Nome de host inválido"
+msgstr "Hostname inválido"
 
 #: src/components/review/ReviewConfiguration.jsx:208
 msgid "Jump to first incomplete step"
@@ -857,7 +859,7 @@ msgstr "Deve ter pelo menos $0 caracteres"
 
 #: src/components/Error.jsx:686
 msgid "My issue is different, continue"
-msgstr ""
+msgstr "Meu problema é diferente, continuar"
 
 #: src/components/datetime/CustomNTPModal.jsx:157
 msgid "NTP Servers"
@@ -1004,10 +1006,8 @@ msgid "Please attach the log file $0 to the issue."
 msgstr "Por favor, anexe o arquivo de log $0 à issue."
 
 #: src/components/login/LoginPage.jsx:44
-#, fuzzy
-#| msgid "Please enter a valid name."
 msgid "Please enter a PIN"
-msgstr "Digite um nome válido."
+msgstr "Digite uma senha"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:321
 msgid "Please select at least one disk to continue"
@@ -1018,10 +1018,8 @@ msgid "Pool"
 msgstr "Pool"
 
 #: src/components/Error.jsx:303
-#, fuzzy
-#| msgid "No mountable devices found"
 msgid "Potential duplicate bugs found"
-msgstr "Nenhum dispositivo montável encontrado"
+msgstr "Possíveis bugs duplicados encontrados"
 
 #: src/components/HeaderKebab.jsx:48
 msgid "Powered by Anaconda"
@@ -1236,10 +1234,8 @@ msgid "Review and install"
 msgstr "Revisar e instalar"
 
 #: src/components/users/Accounts.jsx:94
-#, fuzzy
-#| msgid "No user or root account has been configured"
 msgid "Root account has been configured"
-msgstr "Nenhuma conta de usuário ou root foi configurada"
+msgstr "Conta root foi configurada"
 
 #: src/components/users/Accounts.jsx:86
 msgid "Root account is enabled"
@@ -1349,10 +1345,8 @@ msgid "Show API key"
 msgstr "Mostrar chave de API"
 
 #: src/components/login/LoginPage.jsx:94
-#, fuzzy
-#| msgid "Show API key"
 msgid "Show PIN"
-msgstr "Mostrar chave de API"
+msgstr "Mostrar senha"
 
 #: src/components/Password.jsx:265
 msgid "Show confirmed password"
@@ -1494,6 +1488,8 @@ msgid ""
 "The following open bugs may be related to your issue. Please review them "
 "before creating a new report."
 msgstr ""
+"Os seguintes bugs em aberto podem estar relacionados ao seu problema. Por "
+"favor, analise-os antes de criar um novo relatório."
 
 #: src/components/users/Accounts.jsx:47
 msgid "The following user will be created:"
@@ -1628,16 +1624,12 @@ msgid "Unlock encrypted devices"
 msgstr "Desbloquear dispositivos criptografados"
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:64
-#, fuzzy
-#| msgid ""
-#| "Unlock LUKS-encrypted partitions to keep existing data and show more "
-#| "installation methods."
 msgid ""
 "Unlock encrypted partitions to keep existing data and show more installation "
 "methods."
 msgstr ""
-"Desbloqueie partições criptografadas com LUKS para manter os dados "
-"existentes e mostrar mais métodos de instalação."
+"Desbloqueie partições criptografadas para manter os dados existentes e "
+"mostrar mais métodos de instalação."
 
 #: src/components/storage/scenarios/use-configured-storage/index.js:27
 #: src/components/storage/scenarios/use-configured-storage/index.js:41
