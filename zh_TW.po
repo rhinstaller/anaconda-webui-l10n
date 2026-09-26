@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-25 08:11+0000\n"
+"POT-Creation-Date: 2026-09-26 08:00+0000\n"
 "PO-Revision-Date: 2026-09-26 08:00+0000\n"
 "Last-Translator: Yifei Wu <extremefree@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -67,7 +67,7 @@ msgid "$0 error"
 msgid_plural "$0 errors"
 msgstr[0] "錯誤數量：$0"
 
-#: src/components/app.jsx:84
+#: src/components/app.jsx:96
 msgid "$0 installation"
 msgstr "$0 安裝"
 
@@ -186,7 +186,7 @@ msgstr "所有使用此密碼的設備都將被解鎖"
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/login.html:8 src/index.html:20
+#: src/index.html:20 src/login.html:8
 msgid "Anaconda Web UI"
 msgstr "Anaconda Web 介面"
 
@@ -636,6 +636,12 @@ msgstr "初始化中..."
 msgid "Install"
 msgstr "安裝"
 
+#: src/components/app.jsx:40
+#, fuzzy
+#| msgid "Installation complete"
+msgid "Installation completed"
+msgstr "安裝完成"
+
 #: src/components/installation/InstallationProgress.jsx:219
 #: src/components/Error.jsx:849
 msgid "Installation failed"
@@ -972,15 +978,15 @@ msgstr "退出"
 msgid "Quit installer?"
 msgstr "退出安裝程式(_Q)?"
 
-#: src/components/app.jsx:130
+#: src/components/app.jsx:142
 msgid "Reading information about the OS failed."
 msgstr "讀取作業系統資訊失敗。"
 
-#: src/components/app.jsx:74
+#: src/components/app.jsx:83
 msgid "Reading information about the computer failed."
 msgstr "讀取電腦資訊失敗。"
 
-#: src/components/app.jsx:120
+#: src/components/app.jsx:132
 msgid "Reading installer configuration failed."
 msgstr "讀取安裝程式設定失敗。"
 
@@ -1337,7 +1343,8 @@ msgstr "儲存空間設定依據「修改儲存空間」中的配置。"
 msgid ""
 "Storage layout is defined by the kickstart file. The planned partitioning "
 "layout can be reviewed in the summary step."
-msgstr "存儲佈局是由 kickstart 文件定義的。可以在摘要步驟中查看計劃的分區佈局。"
+msgstr ""
+"存儲佈局是由 kickstart 文件定義的。可以在摘要步驟中查看計劃的分區佈局。"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid "Storage plugin failed"
@@ -1381,7 +1388,7 @@ msgid ""
 "being configured."
 msgstr "系統組態：軟體安裝完成。 現在正在設定系統。"
 
-#: src/components/app.jsx:165
+#: src/components/app.jsx:177
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "Anaconda 安裝意外停止。"
 
@@ -1606,6 +1613,10 @@ msgstr "當您提交此錯誤回報時，以下日誌檔案將自動上傳：$0"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:563
 msgid "Windows partitions with BitLocker encryption cannot be resized"
 msgstr "含有 BitLocker 加密的 Windows 分割區無法被調整大小"
+
+#: src/components/app.jsx:41
+msgid "You can close this browser window now."
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:83
 msgid ""
@@ -3538,9 +3549,6 @@ msgstr "復原"
 #~ msgctxt "GUI|Spoke"
 #~ msgid "Installation _Destination"
 #~ msgstr "安裝目標位置(_D)"
-
-#~ msgid "Installation complete"
-#~ msgstr "安裝完成"
 
 #, python-format
 #~ msgid "Installation complete. Press %s to quit"
