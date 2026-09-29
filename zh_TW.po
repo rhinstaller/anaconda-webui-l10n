@@ -37,8 +37,8 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-28 08:57+0000\n"
-"PO-Revision-Date: 2026-09-26 08:00+0000\n"
-"Last-Translator: Yifei Wu <extremefree@gmail.com>\n"
+"PO-Revision-Date: 2026-09-29 09:03+0000\n"
+"Last-Translator: Skyter Lin <linskyter@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/anaconda-webui/anaconda-webui/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -61,11 +61,9 @@ msgstr "$0 ($1)"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 #: src/components/storage/Common.jsx:58
-#, fuzzy
-#| msgid "Error"
 msgid "$0 error"
 msgid_plural "$0 errors"
-msgstr[0] "錯誤數量：$0"
+msgstr[0] "$0 個錯誤"
 
 #: src/components/app.jsx:96
 msgid "$0 installation"
@@ -102,10 +100,8 @@ msgid "'$0' filesystem cannot be on an encrypted block device"
 msgstr "'$0' 檔案系統不能位於加密的區塊裝置上"
 
 #: src/helpers/storage.js:267
-#, fuzzy
-#| msgid "'$0' must be on a device formatted to '$1'"
 msgid "'$0' must be assigned to $1"
-msgstr "'$0' 必須位於格式化為 '$1' 的裝置上"
+msgstr "'$0' 必須被指派給 '$1'"
 
 #: src/helpers/storage.js:270
 msgid "'$0' must be on a device formatted to '$1'"
@@ -199,9 +195,8 @@ msgid "Apply mount point assignment and install"
 msgstr "套用掛載點分配並安裝"
 
 #: src/components/network/CockpitNetworkConfiguration.jsx:64
-#, fuzzy
 msgid "Applying changes..."
-msgstr "申請改變中..."
+msgstr "套用變更中..."
 
 #: src/components/storage/scenarios/mount-point-mapping/index.js:22
 msgid ""
@@ -637,10 +632,8 @@ msgid "Install"
 msgstr "安裝"
 
 #: src/components/app.jsx:40
-#, fuzzy
-#| msgid "Installation complete"
 msgid "Installation completed"
-msgstr "安裝完成"
+msgstr "安裝已完成"
 
 #: src/components/installation/InstallationProgress.jsx:219
 #: src/components/Error.jsx:849
@@ -1299,10 +1292,9 @@ msgid "Software selection"
 msgstr "軟體選擇"
 
 #: src/components/review/ReviewConfiguration.jsx:215
-#, fuzzy
 msgid ""
 "Some installation steps still need to be completed before you can continue."
-msgstr "尚有一些安装步骤需要完成"
+msgstr "繼續前尚有一些安装步骤需要完成"
 
 #: src/components/storage/scenarios/mount-point-mapping/MountPointMapping.jsx:52
 msgid "Some required partitions are missing: $0"
@@ -1396,14 +1388,12 @@ msgstr "Anaconda 安裝意外停止。"
 msgid ""
 "The following open bugs may be related to your issue. Please review them "
 "before creating a new report."
-msgstr ""
+msgstr "以下未解決的錯誤可能與您的問題有關。請在建立新報表前先查看這些錯誤。"
 
 #: src/components/users/Accounts.jsx:47
-#, fuzzy
-#| msgid "The following mandatory spokes are not completed:"
 msgid "The following user will be created:"
 msgid_plural "The following users will be created:"
-msgstr[0] "下列必要的輻驟項目尚未完成："
+msgstr[0] "下列使用者將被建立："
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:45
 msgid ""
@@ -1442,17 +1432,10 @@ msgstr ""
 "動的功能。 它是用來作為進階的公用程式，而非用於一般的安裝。"
 
 #: src/components/Error.jsx:407
-#, fuzzy
-#| msgid ""
-#| "These log files may contain sensitive information such as IP addresses, "
-#| "usernames, or other system details. Attachments on Bugzilla issues are "
-#| "marked private by default."
 msgid ""
 "These log files may contain sensitive information such as IP addresses, "
 "usernames, or other system details."
-msgstr ""
-"這些日誌檔案可能包含敏感資訊，例如 IP 位址、使用者名稱或其他系統詳細資料。"
-"Bugzilla 問題的附件預設會標記為私人。"
+msgstr "這些日誌檔案可能包含敏感資訊，例如 IP 位址、使用者名稱或其他系統詳細資料。"
 
 #: src/components/review/Hostname.jsx:51
 msgid "This hostname can't be submitted"
@@ -1530,14 +1513,10 @@ msgid "Unlock encrypted devices"
 msgstr "解鎖加密裝置"
 
 #: src/components/storage/installation-method/EncryptedDevices.jsx:64
-#, fuzzy
-#| msgid ""
-#| "Unlock LUKS-encrypted partitions to keep existing data and show more "
-#| "installation methods."
 msgid ""
 "Unlock encrypted partitions to keep existing data and show more installation "
 "methods."
-msgstr "解鎖 LUKS 加密分割區以保留現有資料並顯示更多安裝方式。"
+msgstr "解鎖加密分割區以保留現有資料並顯示更多安裝方式。"
 
 #: src/components/storage/scenarios/use-configured-storage/index.js:27
 #: src/components/storage/scenarios/use-configured-storage/index.js:41
@@ -1616,7 +1595,7 @@ msgstr "含有 BitLocker 加密的 Windows 分割區無法被調整大小"
 
 #: src/components/app.jsx:41
 msgid "You can close this browser window now."
-msgstr ""
+msgstr "現在您可以關閉此瀏覽器視窗了。"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:83
 msgid ""
@@ -1681,10 +1660,8 @@ msgid "here"
 msgstr "於此處"
 
 #: src/components/review/ReviewConfiguration.jsx:57
-#, fuzzy
-#| msgid "Completed"
 msgid "incomplete"
-msgstr "已完成"
+msgstr "未完成"
 
 #: src/components/storage/StorageReview.jsx:108
 msgid "mount"
@@ -1713,7 +1690,7 @@ msgstr "已縮小至 $0"
 
 #: src/components/review/Hostname.jsx:154
 msgid "transient, will use DHCP"
-msgstr ""
+msgstr "臨時性，將使用 DHCP"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:375
 msgid "undo"
