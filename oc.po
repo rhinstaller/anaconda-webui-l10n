@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 36.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 07:55+0000\n"
+"POT-Creation-Date: 2026-10-21 08:00+0000\n"
 "PO-Revision-Date: 2024-10-06 20:49+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan <https://translate.fedoraproject.org/projects/"
@@ -108,7 +108,7 @@ msgstr "Installacion del sistèma $0"
 msgid "About"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:254
+#: src/components/review/ReviewConfiguration.jsx:265
 #, fuzzy
 #| msgctxt "GUI|Subscription|Authentication|Account"
 #| msgid "_Account"
@@ -131,11 +131,11 @@ msgstr ""
 msgid "Add mount"
 msgstr "Apondre una disposicion"
 
-#: src/components/software/SoftwareSelection.jsx:122
+#: src/components/software/SoftwareSelection.jsx:113
 msgid "Add-ons for your chosen environment"
 msgstr ""
 
-#: src/components/software/SoftwareSelection.jsx:131
+#: src/components/software/SoftwareSelection.jsx:122
 msgid "Add-ons not specific to your environment"
 msgstr ""
 
@@ -145,7 +145,7 @@ msgstr ""
 msgid "Additional languages"
 msgstr "Lengas disponiblas"
 
-#: src/components/software/SoftwareSelection.jsx:156
+#: src/components/software/SoftwareSelection.jsx:147
 msgid "Additional software for the selected environment"
 msgstr ""
 
@@ -161,7 +161,7 @@ msgstr ""
 msgid "Anaconda"
 msgstr ""
 
-#: src/login.html:8 src/index.html:20
+#: src/index.html:20 src/login.html:8
 #, fuzzy
 msgid "Anaconda Web UI"
 msgstr "Installacion"
@@ -206,7 +206,7 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
-#: src/components/software/SoftwareSelection.jsx:63
+#: src/components/software/SoftwareSelection.jsx:54
 msgid "Base environment"
 msgstr ""
 
@@ -274,7 +274,7 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:196
 #, fuzzy
 msgid "Checking installation configuration..."
 msgstr "URL de _configuracion"
@@ -305,6 +305,16 @@ msgstr "Tancar"
 msgid "Close storage editor"
 msgstr "Installacion"
 
+#: src/components/source/SourceReviewDescription.jsx:34
+#: src/components/source/InstallationSource.jsx:41
+#, fuzzy
+msgid "Closest mirror"
+msgstr "Installacion"
+
+#: src/components/source/InstallationSource.jsx:286
+msgid "Closest public mirror"
+msgstr ""
+
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
@@ -315,7 +325,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Acabat !"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:217
 #, fuzzy
 #| msgid "Installation complete"
 msgid "Configuration is incomplete"
@@ -345,6 +355,16 @@ msgstr "Frasa secreta"
 #, fuzzy
 msgid "Configure storage again"
 msgstr "Frasa secreta"
+
+#: src/components/source/InstallationSource.jsx:140
+#, fuzzy
+msgid "Configuring installation source"
+msgstr "Installacion"
+
+#: src/components/source/InstallationSource.jsx:141
+#, fuzzy
+msgid "Configuring installation source..."
+msgstr "URL de _configuracion"
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -442,6 +462,10 @@ msgstr ""
 msgid "Device"
 msgstr "Aparelh"
 
+#: src/components/source/InstallationSource.jsx:186
+msgid "Disabled"
+msgstr "Desactivat"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 msgid "Duplicate device."
 msgstr ""
@@ -508,6 +532,12 @@ msgstr ""
 msgid "Extended partition"
 msgstr "Particion d'aviada EFI"
 
+#: src/components/source/InstallationSource.jsx:222
+#, fuzzy
+#| msgid "Starting package installation process"
+msgid "Failed to configure installation source"
+msgstr "Aviada de l’installacion dels paquets"
+
 #: src/components/Error.jsx:642
 #, fuzzy
 msgid "Failed to report issue"
@@ -565,7 +595,7 @@ msgstr ""
 msgid "Hide PIN"
 msgstr ""
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Hide confirmed password"
 msgstr ""
 
@@ -574,7 +604,7 @@ msgstr ""
 msgid "Hide passphrase"
 msgstr "Frasa secreta"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 #, fuzzy
 msgid "Hide password"
 msgstr "Senhal"
@@ -589,18 +619,18 @@ msgstr "Nom d'òste"
 msgid "How would you like to install?"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:309
+#: src/components/review/ReviewConfiguration.jsx:320
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/components/review/ReviewConfiguration.jsx:314
+#: src/components/review/ReviewConfiguration.jsx:325
 msgid "I understand that some existing data will be erased"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:315
+#: src/components/review/ReviewConfiguration.jsx:326
 msgid "I understand that some partitions will be modified"
 msgstr ""
 
@@ -677,7 +707,14 @@ msgstr "Installacion"
 msgid "Installation of the system failed: $0"
 msgstr "Installacion"
 
-#: src/components/review/ReviewConfiguration.jsx:269
+#: src/components/source/index.js:24 src/components/source/index.js:25
+#: src/components/review/ReviewConfiguration.jsx:252
+#, fuzzy
+#| msgid "Installation"
+msgid "Installation source"
+msgstr "Installacion"
+
+#: src/components/review/ReviewConfiguration.jsx:280
 #, fuzzy
 msgid "Installation type"
 msgstr "Installacion"
@@ -710,7 +747,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Nom d'òste invalid"
 
-#: src/components/review/ReviewConfiguration.jsx:208
+#: src/components/review/ReviewConfiguration.jsx:213
 #, fuzzy
 msgid "Jump to first incomplete step"
 msgstr "Acabat !"
@@ -733,7 +770,7 @@ msgid "Keyboard layout during boot"
 msgstr ""
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/review/ReviewConfiguration.jsx:239
 #, fuzzy
 msgid "Language"
 msgstr "Lengas"
@@ -792,8 +829,16 @@ msgstr "Installacion de logicials"
 msgid "Medium"
 msgstr ""
 
+#: src/components/source/InstallationSource.jsx:49
+msgid "Metalink"
+msgstr ""
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:310
 msgid "Minimum of $0 required"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:48
+msgid "Mirrorlist"
 msgstr ""
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
@@ -942,7 +987,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:228
 msgid "Operating system"
 msgstr ""
 
@@ -972,7 +1017,7 @@ msgstr "Frasa secreta"
 msgid "Passphrase did not match any locked device"
 msgstr ""
 
-#: src/components/Password.jsx:278
+#: src/components/Password.jsx:289
 #, fuzzy
 msgid "Passphrases must match"
 msgstr "Frasa secreta"
@@ -1018,6 +1063,13 @@ msgstr ""
 #| msgid "Failed to proceed with the installation."
 msgid "Proceed with installation"
 msgstr "Fracàs de l’installacion."
+
+#: src/components/source/InstallationSource.jsx:182
+#, fuzzy
+#| msgctxt "GUI|Network|Proxy"
+#| msgid "_FTP Proxy"
+msgid "Proxy"
+msgstr "Servidor mandatari _FTP"
 
 #: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1164,6 +1216,12 @@ msgstr ""
 msgid "Reporting issue..."
 msgstr ""
 
+#: src/components/source/InstallationSource.jsx:47
+#, fuzzy
+#| msgid "Empty"
+msgid "Repository URL"
+msgstr "Void"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 msgid "Required"
 msgstr ""
@@ -1240,6 +1298,18 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "Los senhals concòrdan pas."
 
+#: src/components/source/InstallationSource.jsx:188
+msgid "SSL CA certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:189
+msgid "SSL client certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:185
+msgid "SSL verification"
+msgstr ""
+
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
@@ -1258,11 +1328,11 @@ msgstr ""
 msgid "Search for a language"
 msgstr "Lengas"
 
-#: src/components/software/SoftwareSelection.jsx:159
+#: src/components/software/SoftwareSelection.jsx:150
 msgid "Search for additional software"
 msgstr ""
 
-#: src/components/software/SoftwareSelection.jsx:66
+#: src/components/software/SoftwareSelection.jsx:57
 #, fuzzy
 msgid "Search for an environment"
 msgstr "Lengas"
@@ -1331,6 +1401,12 @@ msgstr "Servidor NTP :"
 msgid "Server is not reachable"
 msgstr ""
 
+#: src/components/source/SourceReviewDescription.jsx:48
+msgid ""
+"Set by the kickstart file. Remove source selection from kickstart to be able "
+"to configure interactively."
+msgstr ""
+
 #: src/components/review/Hostname.jsx:87
 #, fuzzy
 #| msgid "Set host name"
@@ -1357,7 +1433,7 @@ msgstr ""
 msgid "Show PIN"
 msgstr ""
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Show confirmed password"
 msgstr ""
 
@@ -1366,7 +1442,7 @@ msgstr ""
 msgid "Show passphrase"
 msgstr "Frasa secreta"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 #, fuzzy
 msgid "Show password"
 msgstr "Senhal del grop"
@@ -1386,13 +1462,13 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: src/components/software/index.js:19 src/components/software/index.js:20
-#: src/components/review/ReviewConfiguration.jsx:247
+#: src/components/software/index.js:22 src/components/software/index.js:23
+#: src/components/review/ReviewConfiguration.jsx:258
 #, fuzzy
 msgid "Software selection"
 msgstr "Installacion"
 
-#: src/components/review/ReviewConfiguration.jsx:215
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1409,11 +1485,11 @@ msgstr ""
 msgid "Stacktrace"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:276
+#: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr ""
 
-#: src/components/steps.js:35
+#: src/components/steps.js:37
 #: src/components/installation/InstallationProgress.jsx:228
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
@@ -1574,7 +1650,7 @@ msgid "Time"
 msgstr ""
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/review/ReviewConfiguration.jsx:246
 msgid "Timezone"
 msgstr ""
 
@@ -1599,6 +1675,14 @@ msgstr ""
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "Mòde"
+
+#: src/components/source/InstallationSource.jsx:263
+msgid "URL"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:293
+msgid "URL type"
+msgstr ""
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1783,7 +1867,7 @@ msgstr ""
 msgid "here"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:57
+#: src/components/review/ReviewConfiguration.jsx:61
 #, fuzzy
 msgid "incomplete"
 msgstr "Acabat !"
@@ -1902,9 +1986,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Install using the configured storage?"
 #~ msgstr "Installacion de logicials"
-
-#~ msgid "Disabled"
-#~ msgstr "Desactivat"
 
 #~ msgid "Enabled"
 #~ msgstr "Activat"
@@ -2058,11 +2139,6 @@ msgstr ""
 #~ msgstr "Edicion"
 
 #~ msgid "Empty"
-#~ msgstr "Void"
-
-#, fuzzy
-#~| msgid "Empty"
-#~ msgid "Empty URL"
 #~ msgstr "Void"
 
 #, fuzzy
@@ -2613,10 +2689,6 @@ msgstr ""
 #~ msgid "_Exit Installer"
 #~ msgstr "_Quitar l’installador"
 
-#~ msgctxt "GUI|Network|Proxy"
-#~ msgid "_FTP Proxy"
-#~ msgstr "Servidor mandatari _FTP"
-
 #~ msgctxt "GUI|User"
 #~ msgid "_Full name"
 #~ msgstr "_Nom complet"
@@ -2858,9 +2930,6 @@ msgstr ""
 #~ msgid "Custom mount point"
 #~ msgstr "Punt de montatge"
 
-#~ msgid "Starting package installation process"
-#~ msgstr "Aviada de l’installacion dels paquets"
-
 #, fuzzy
 #~| msgid "Disabled"
 #~ msgid "Checking disks"
@@ -2901,11 +2970,6 @@ msgstr ""
 #~ "La seccion {} es obsolèta. Serà benlèu suprimida dins las versions "
 #~ "futuras, çò que pòt menar a una error fatala que serà rencontrat. Volgatz "
 #~ "modificar vòstre fichièr kickstart per suprimir aquesta seccion."
-
-#, fuzzy
-#~| msgid "Installation"
-#~ msgid "Installation progress"
-#~ msgstr "Installacion"
 
 #, fuzzy
 #~| msgid "Installation"

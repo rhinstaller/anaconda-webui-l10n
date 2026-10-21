@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 38.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 07:55+0000\n"
+"POT-Creation-Date: 2026-10-21 08:00+0000\n"
 "PO-Revision-Date: 2026-10-11 04:15+0000\n"
 "Last-Translator: Khoa Le <inctenone@gmail.com>\n"
 "Language-Team: Vietnamese <https://translate.fedoraproject.org/projects/"
@@ -111,7 +111,7 @@ msgstr "Hủy cài đặt"
 msgid "About"
 msgstr "Thông tin"
 
-#: src/components/review/ReviewConfiguration.jsx:254
+#: src/components/review/ReviewConfiguration.jsx:265
 msgid "Account"
 msgstr "Tài khoản"
 
@@ -128,11 +128,11 @@ msgstr "Thêm máy chủ khác..."
 msgid "Add mount"
 msgstr "Thêm điểm gắn kết"
 
-#: src/components/software/SoftwareSelection.jsx:122
+#: src/components/software/SoftwareSelection.jsx:113
 msgid "Add-ons for your chosen environment"
 msgstr "Tiện ích bổ sung cho môi trường bạn đã chọn"
 
-#: src/components/software/SoftwareSelection.jsx:131
+#: src/components/software/SoftwareSelection.jsx:122
 msgid "Add-ons not specific to your environment"
 msgstr "Tiện ích bổ sung không phụ thuộc vào môi trường của bạn"
 
@@ -140,7 +140,7 @@ msgstr "Tiện ích bổ sung không phụ thuộc vào môi trường của b�
 msgid "Additional languages"
 msgstr "Ngôn ngữ bổ sung"
 
-#: src/components/software/SoftwareSelection.jsx:156
+#: src/components/software/SoftwareSelection.jsx:147
 msgid "Additional software for the selected environment"
 msgstr "Phần mềm bổ sung cho môi trường đã chọn"
 
@@ -157,7 +157,7 @@ msgstr "Mọi thiết bị sử dụng chuỗi mật khẩu này sẽ được m
 msgid "Anaconda"
 msgstr "Trình cài đặt Anaconda"
 
-#: src/login.html:8 src/index.html:20
+#: src/index.html:20 src/login.html:8
 msgid "Anaconda Web UI"
 msgstr "Giao diện Web Anaconda"
 
@@ -201,7 +201,7 @@ msgstr "Bộ nhớ còn trống: $0. Việc cài đặt cần: $1."
 msgid "Back"
 msgstr "Quay lại"
 
-#: src/components/software/SoftwareSelection.jsx:63
+#: src/components/software/SoftwareSelection.jsx:54
 msgid "Base environment"
 msgstr "Môi trường cơ bản"
 
@@ -267,7 +267,7 @@ msgstr ""
 "Mọi thay đổi ở đây đều có hiệu lực ngay lập tức. Bạn không thể \"hoàn tác\" "
 "thay đổi."
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:196
 msgid "Checking installation configuration..."
 msgstr "Đang kiểm tra cấu hình cài đặt..."
 
@@ -295,6 +295,17 @@ msgstr "Đóng"
 msgid "Close storage editor"
 msgstr "Đóng trình chỉnh sửa lưu trữ"
 
+#: src/components/source/SourceReviewDescription.jsx:34
+#: src/components/source/InstallationSource.jsx:41
+#, fuzzy
+#| msgid "Close storage editor"
+msgid "Closest mirror"
+msgstr "Đóng trình chỉnh sửa lưu trữ"
+
+#: src/components/source/InstallationSource.jsx:286
+msgid "Closest public mirror"
+msgstr ""
+
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
@@ -305,7 +316,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Đã hoàn tất"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:217
 msgid "Configuration is incomplete"
 msgstr "Cấu hình chưa hoàn tất"
 
@@ -328,6 +339,18 @@ msgstr "Cài đặt bộ nhớ"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:688
 msgid "Configure storage again"
 msgstr "Cài đặt lại bộ nhớ"
+
+#: src/components/source/InstallationSource.jsx:140
+#, fuzzy
+#| msgid "Setting up installation source..."
+msgid "Configuring installation source"
+msgstr "Đang thiết lập nguồn cài đặt..."
+
+#: src/components/source/InstallationSource.jsx:141
+#, fuzzy
+#| msgid "Setting up installation source..."
+msgid "Configuring installation source..."
+msgstr "Đang thiết lập nguồn cài đặt..."
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -413,6 +436,10 @@ msgstr "Đã phát hiện bố cục lưu trữ hợp lệ:"
 msgid "Device"
 msgstr "Thiết bị"
 
+#: src/components/source/InstallationSource.jsx:186
+msgid "Disabled"
+msgstr ""
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 msgid "Duplicate device."
 msgstr "Thiết bị trùng lặp."
@@ -474,6 +501,12 @@ msgstr "Thoát về màn hình trực tiếp"
 msgid "Extended partition"
 msgstr "Phân vùng mở rộng"
 
+#: src/components/source/InstallationSource.jsx:222
+#, fuzzy
+#| msgid "Setting up installation source..."
+msgid "Failed to configure installation source"
+msgstr "Đang thiết lập nguồn cài đặt..."
+
 #: src/components/Error.jsx:642
 msgid "Failed to report issue"
 msgstr "Báo cáo lỗi thất bại"
@@ -530,7 +563,7 @@ msgstr "Ẩn khóa API"
 msgid "Hide PIN"
 msgstr "Ẩn mã PIN"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Hide confirmed password"
 msgstr "Ẩn mật khẩu đã xác nhận"
 
@@ -538,7 +571,7 @@ msgstr "Ẩn mật khẩu đã xác nhận"
 msgid "Hide passphrase"
 msgstr "Ẩn cụm mật khẩu"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Hide password"
 msgstr "Ẩn mật khẩu"
 
@@ -550,18 +583,18 @@ msgstr "Tên máy"
 msgid "How would you like to install?"
 msgstr "Bạn muốn cài đặt bằng cách nào?"
 
-#: src/components/review/ReviewConfiguration.jsx:309
+#: src/components/review/ReviewConfiguration.jsx:320
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] ""
 "Tôi hiểu rằng tất cả dữ liệu hiện có sẽ bị xóa khỏi các ổ đĩa đã chọn"
 
-#: src/components/review/ReviewConfiguration.jsx:314
+#: src/components/review/ReviewConfiguration.jsx:325
 msgid "I understand that some existing data will be erased"
 msgstr "Tôi hiểu rằng một số dữ liệu đang có sẽ bị xoá"
 
-#: src/components/review/ReviewConfiguration.jsx:315
+#: src/components/review/ReviewConfiguration.jsx:326
 msgid "I understand that some partitions will be modified"
 msgstr "Tôi hiểu rằng một số phân vùng ổ cứng sẽ được thay đổi"
 
@@ -643,7 +676,14 @@ msgstr "Cài đặt hệ thống thất bại"
 msgid "Installation of the system failed: $0"
 msgstr "Việc cài đặt hệ thống thất bại: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:269
+#: src/components/source/index.js:24 src/components/source/index.js:25
+#: src/components/review/ReviewConfiguration.jsx:252
+#, fuzzy
+#| msgid "Installation type"
+msgid "Installation source"
+msgstr "Loại cài đặt"
+
+#: src/components/review/ReviewConfiguration.jsx:280
 msgid "Installation type"
 msgstr "Loại cài đặt"
 
@@ -676,7 +716,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Tên máy không hợp lệ"
 
-#: src/components/review/ReviewConfiguration.jsx:208
+#: src/components/review/ReviewConfiguration.jsx:213
 msgid "Jump to first incomplete step"
 msgstr "Chuyển đến bước chưa hoàn thành đầu tiên"
 
@@ -697,7 +737,7 @@ msgid "Keyboard layout during boot"
 msgstr "Bố cục bàn phím khi khởi động"
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/review/ReviewConfiguration.jsx:239
 msgid "Language"
 msgstr "Ngôn ngữ"
 
@@ -750,9 +790,17 @@ msgstr "Có thể cần thêm dung lượng trống"
 msgid "Medium"
 msgstr "Trung gian"
 
+#: src/components/source/InstallationSource.jsx:49
+msgid "Metalink"
+msgstr ""
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:310
 msgid "Minimum of $0 required"
 msgstr "Yêu cầu tối thiểu $0"
+
+#: src/components/source/InstallationSource.jsx:48
+msgid "Mirrorlist"
+msgstr ""
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
 msgid "Mismatch between parent device and child device reformat selection."
@@ -889,7 +937,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Mở biểu mẫu báo lỗi Bugzilla"
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:228
 msgid "Operating system"
 msgstr "Hệ điều hành"
 
@@ -916,7 +964,7 @@ msgstr "Chuỗi mật khẩu"
 msgid "Passphrase did not match any locked device"
 msgstr "Chuỗi mật khẩu không trùng với bất cứ thiết bị nào đang khoá"
 
-#: src/components/Password.jsx:278
+#: src/components/Password.jsx:289
 msgid "Passphrases must match"
 msgstr "Chuỗi mật khẩu phải trùng khớp"
 
@@ -959,6 +1007,10 @@ msgstr "Bạn muốn báo cáo thủ công? $0"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
 msgstr "Tiếp tục đến cài đặt"
+
+#: src/components/source/InstallationSource.jsx:182
+msgid "Proxy"
+msgstr ""
 
 #: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1108,6 +1160,12 @@ msgstr "Báo lỗi"
 msgid "Reporting issue..."
 msgstr "Đang báo lỗi..."
 
+#: src/components/source/InstallationSource.jsx:47
+#, fuzzy
+#| msgid "Empty"
+msgid "Repository URL"
+msgstr "Trống"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 msgid "Required"
 msgstr "Bắt buộc"
@@ -1177,6 +1235,18 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "Mật khẩu root đã được thiết lập."
 
+#: src/components/source/InstallationSource.jsx:188
+msgid "SSL CA certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:189
+msgid "SSL client certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:185
+msgid "SSL verification"
+msgstr ""
+
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
@@ -1191,11 +1261,11 @@ msgstr "Quét mã QR sau bằng điện thoại của bạn hoặc truy cập:"
 msgid "Search for a language"
 msgstr "Tìm kiếm ngôn ngữ"
 
-#: src/components/software/SoftwareSelection.jsx:159
+#: src/components/software/SoftwareSelection.jsx:150
 msgid "Search for additional software"
 msgstr "Tìm kiếm phần mềm bổ sung"
 
-#: src/components/software/SoftwareSelection.jsx:66
+#: src/components/software/SoftwareSelection.jsx:57
 msgid "Search for an environment"
 msgstr "Tìm kiếm môi trường"
 
@@ -1249,6 +1319,12 @@ msgstr "Máy chủ"
 msgid "Server is not reachable"
 msgstr "Máy chủ không thể truy cập"
 
+#: src/components/source/SourceReviewDescription.jsx:48
+msgid ""
+"Set by the kickstart file. Remove source selection from kickstart to be able "
+"to configure interactively."
+msgstr ""
+
 #: src/components/review/Hostname.jsx:87
 msgid "Set custom hostname"
 msgstr "Đặt tên máy tuỳ chỉnh"
@@ -1275,7 +1351,7 @@ msgstr "Hiển thị khóa API"
 msgid "Show PIN"
 msgstr "Hiển thị khóa API"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Show confirmed password"
 msgstr "Hiện mật khẩu xác nhận"
 
@@ -1283,7 +1359,7 @@ msgstr "Hiện mật khẩu xác nhận"
 msgid "Show passphrase"
 msgstr "Hiện mật khẩu"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Show password"
 msgstr "Hiện mật khẩu"
 
@@ -1303,12 +1379,12 @@ msgstr ""
 "Cài đặt phần mềm: Cấu hình lưu trữ hoàn tất. Phần mềm đang được cài đặt vào "
 "thiết bị của bạn."
 
-#: src/components/software/index.js:19 src/components/software/index.js:20
-#: src/components/review/ReviewConfiguration.jsx:247
+#: src/components/software/index.js:22 src/components/software/index.js:23
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Software selection"
 msgstr "Chọn phần mềm"
 
-#: src/components/review/ReviewConfiguration.jsx:215
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1325,11 +1401,11 @@ msgstr "Khoảng trống"
 msgid "Stacktrace"
 msgstr "Dòng theo dõi"
 
-#: src/components/review/ReviewConfiguration.jsx:276
+#: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr "Bộ nhớ"
 
-#: src/components/steps.js:35
+#: src/components/steps.js:37
 #: src/components/installation/InstallationProgress.jsx:228
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
@@ -1495,7 +1571,7 @@ msgid "Time"
 msgstr "Thời gian"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/review/ReviewConfiguration.jsx:246
 msgid "Timezone"
 msgstr "Múi giờ"
 
@@ -1522,6 +1598,14 @@ msgstr ""
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "Loại"
+
+#: src/components/source/InstallationSource.jsx:263
+msgid "URL"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:293
+msgid "URL type"
+msgstr ""
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1702,7 +1786,7 @@ msgstr "Định dạng là $0"
 msgid "here"
 msgstr "tại đây"
 
-#: src/components/review/ReviewConfiguration.jsx:57
+#: src/components/review/ReviewConfiguration.jsx:61
 #, fuzzy
 #| msgid "Completed"
 msgid "incomplete"
@@ -1955,11 +2039,6 @@ msgstr "hoàn tác"
 
 #, fuzzy
 #~| msgid "Empty"
-#~ msgid "Empty URL"
-#~ msgstr "Trống"
-
-#, fuzzy
-#~| msgid "Empty"
 #~ msgid "Empty path"
 #~ msgstr "Trống"
 
@@ -2062,9 +2141,6 @@ msgstr "hoàn tác"
 
 #~ msgid "Running pre-installation scripts"
 #~ msgstr "Đang chạy những script trước khi cài đặt"
-
-#~ msgid "Setting up installation source..."
-#~ msgstr "Đang thiết lập nguồn cài đặt..."
 
 #~ msgid "Show password."
 #~ msgstr "Hiện mật khẩu."

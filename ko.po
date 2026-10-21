@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 07:55+0000\n"
+"POT-Creation-Date: 2026-10-21 08:00+0000\n"
 "PO-Revision-Date: 2026-10-04 02:31+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/anaconda-"
@@ -140,7 +140,7 @@ msgstr "설치 중지"
 msgid "About"
 msgstr "정보"
 
-#: src/components/review/ReviewConfiguration.jsx:254
+#: src/components/review/ReviewConfiguration.jsx:265
 msgid "Account"
 msgstr "계정"
 
@@ -157,11 +157,11 @@ msgstr "다른 서버 추가..."
 msgid "Add mount"
 msgstr "적재를 추가합니다"
 
-#: src/components/software/SoftwareSelection.jsx:122
+#: src/components/software/SoftwareSelection.jsx:113
 msgid "Add-ons for your chosen environment"
 msgstr "자신이 선택한 환경을 위한 추가 기능"
 
-#: src/components/software/SoftwareSelection.jsx:131
+#: src/components/software/SoftwareSelection.jsx:122
 msgid "Add-ons not specific to your environment"
 msgstr "자신의 환경에 지정되지 않은 추가 기능"
 
@@ -169,7 +169,7 @@ msgstr "자신의 환경에 지정되지 않은 추가 기능"
 msgid "Additional languages"
 msgstr "추가 할 수 있는 언어"
 
-#: src/components/software/SoftwareSelection.jsx:156
+#: src/components/software/SoftwareSelection.jsx:147
 msgid "Additional software for the selected environment"
 msgstr "선택한 환경을 위한 추가 소프트웨어"
 
@@ -185,7 +185,7 @@ msgstr "이와 같은 암호문을 사용하는 모든 장치는 잠금해제 �
 msgid "Anaconda"
 msgstr "아나콘다"
 
-#: src/login.html:8 src/index.html:20
+#: src/index.html:20 src/login.html:8
 msgid "Anaconda Web UI"
 msgstr "아나콘다 웹 UI"
 
@@ -230,7 +230,7 @@ msgstr "사용 가능한 여유 공간: $0. 설치에 필요합니다: $1."
 msgid "Back"
 msgstr "뒤로"
 
-#: src/components/software/SoftwareSelection.jsx:63
+#: src/components/software/SoftwareSelection.jsx:54
 msgid "Base environment"
 msgstr "기본 환경"
 
@@ -294,7 +294,7 @@ msgid ""
 msgstr ""
 "여기에서 변경을 했으면 시스템에 즉시 영향을 미칩니다. '실행취소' 가 없습니다."
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:196
 msgid "Checking installation configuration..."
 msgstr "설치 구성 확인 중..."
 
@@ -322,6 +322,17 @@ msgstr "종료"
 msgid "Close storage editor"
 msgstr "저장소 편집기 닫기"
 
+#: src/components/source/SourceReviewDescription.jsx:34
+#: src/components/source/InstallationSource.jsx:41
+msgid "Closest mirror"
+msgstr "가장 가까운 미러"
+
+#: src/components/source/InstallationSource.jsx:286
+#, fuzzy
+#| msgid "Closest mirror"
+msgid "Closest public mirror"
+msgstr "가장 가까운 미러"
+
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
@@ -332,7 +343,7 @@ msgstr ""
 msgid "Completed"
 msgstr "완료되었습니다"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:217
 msgid "Configuration is incomplete"
 msgstr "구성이 불완전합니다"
 
@@ -355,6 +366,18 @@ msgstr "저장소 구성"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:688
 msgid "Configure storage again"
 msgstr "저장소를 다시 구성합니다"
+
+#: src/components/source/InstallationSource.jsx:140
+#, fuzzy
+#| msgid "Configuring installed system"
+msgid "Configuring installation source"
+msgstr "설치된 시스템 설정 중"
+
+#: src/components/source/InstallationSource.jsx:141
+#, fuzzy
+#| msgid "Setting up installation source..."
+msgid "Configuring installation source..."
+msgstr "설치 소스를 설정 중..."
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -440,6 +463,10 @@ msgstr "탐지된 유효 저장소 배열:"
 msgid "Device"
 msgstr "장치"
 
+#: src/components/source/InstallationSource.jsx:186
+msgid "Disabled"
+msgstr "사용불가"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 msgid "Duplicate device."
 msgstr "중복 장치."
@@ -501,6 +528,12 @@ msgstr "라이브 데스크탑으로 종료"
 msgid "Extended partition"
 msgstr "확장된 파티션"
 
+#: src/components/source/InstallationSource.jsx:222
+#, fuzzy
+#| msgid "Failed to set up installation source"
+msgid "Failed to configure installation source"
+msgstr "설치 소스 설정에 실패했습니다"
+
 #: src/components/Error.jsx:642
 msgid "Failed to report issue"
 msgstr "사건에 대한 보고를 실패함"
@@ -556,7 +589,7 @@ msgstr "API 키 숨기기"
 msgid "Hide PIN"
 msgstr "PIN 숨기기"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Hide confirmed password"
 msgstr "확인된 비밀번호 감추기"
 
@@ -564,7 +597,7 @@ msgstr "확인된 비밀번호 감추기"
 msgid "Hide passphrase"
 msgstr "암호문을 숨깁니다"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Hide password"
 msgstr "비밀번호 숨기기"
 
@@ -576,18 +609,18 @@ msgstr "호스트이름"
 msgid "How would you like to install?"
 msgstr "설치 하시겠습니까?"
 
-#: src/components/review/ReviewConfiguration.jsx:309
+#: src/components/review/ReviewConfiguration.jsx:320
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] ""
 "나는 모든 기존 자료가 선택한 디스크에서 제거 될 것이라는 점을 이해합니다"
 
-#: src/components/review/ReviewConfiguration.jsx:314
+#: src/components/review/ReviewConfiguration.jsx:325
 msgid "I understand that some existing data will be erased"
 msgstr "나는 일부 기존 자료가 제거 될 것이라는 점을 이해합니다"
 
-#: src/components/review/ReviewConfiguration.jsx:315
+#: src/components/review/ReviewConfiguration.jsx:326
 msgid "I understand that some partitions will be modified"
 msgstr "나는 일부 파티션이 수정 될 것이라는 점을 이해합니다"
 
@@ -666,7 +699,12 @@ msgstr "시스템 설치에 실패했습니다"
 msgid "Installation of the system failed: $0"
 msgstr "시스템 설치에 실패했습니다: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:269
+#: src/components/source/index.js:24 src/components/source/index.js:25
+#: src/components/review/ReviewConfiguration.jsx:252
+msgid "Installation source"
+msgstr "설치 소스"
+
+#: src/components/review/ReviewConfiguration.jsx:280
 msgid "Installation type"
 msgstr "설치 유형"
 
@@ -700,7 +738,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "잘못된 호스트명"
 
-#: src/components/review/ReviewConfiguration.jsx:208
+#: src/components/review/ReviewConfiguration.jsx:213
 msgid "Jump to first incomplete step"
 msgstr "처음 불완전 단계로 넘어가기"
 
@@ -721,7 +759,7 @@ msgid "Keyboard layout during boot"
 msgstr "부팅 중에 키보드 나열"
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/review/ReviewConfiguration.jsx:239
 msgid "Language"
 msgstr "언어"
 
@@ -774,9 +812,17 @@ msgstr "더 많은 여유 공간이 필요 할 수 있습니다"
 msgid "Medium"
 msgstr "중간"
 
+#: src/components/source/InstallationSource.jsx:49
+msgid "Metalink"
+msgstr "Metalink"
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:310
 msgid "Minimum of $0 required"
 msgstr "최소 $0 가 필요합니다"
+
+#: src/components/source/InstallationSource.jsx:48
+msgid "Mirrorlist"
+msgstr "연결주소목록"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
 msgid "Mismatch between parent device and child device reformat selection."
@@ -913,7 +959,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "버그질라 결점 보고 양식을 엽니다"
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:228
 msgid "Operating system"
 msgstr "운영 체제"
 
@@ -940,7 +986,7 @@ msgstr "암호문"
 msgid "Passphrase did not match any locked device"
 msgstr "암호문은 잠금된 장치와 일치하지 않습니다"
 
-#: src/components/Password.jsx:278
+#: src/components/Password.jsx:289
 msgid "Passphrases must match"
 msgstr "암호문은 일치해야 합니다"
 
@@ -983,6 +1029,13 @@ msgstr "수동으로 보고할까요? $0"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
 msgstr "설치로 진행합니다"
+
+#: src/components/source/InstallationSource.jsx:182
+#, fuzzy
+#| msgctxt "GUI|Network|Proxy"
+#| msgid "_FTP Proxy"
+msgid "Proxy"
+msgstr "FTP 프락시(_F)"
 
 #: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1128,6 +1181,10 @@ msgstr "문제를 보고합니다"
 msgid "Reporting issue..."
 msgstr "문제 보고하기..."
 
+#: src/components/source/InstallationSource.jsx:47
+msgid "Repository URL"
+msgstr "저장소 URL"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 msgid "Required"
 msgstr "요구 사항"
@@ -1192,6 +1249,18 @@ msgstr "root 계정이 활성화 되었지만, 사용자 계정이 구성되지 
 msgid "Root password has been set."
 msgstr "root 비밀번호가 설정되었습니다."
 
+#: src/components/source/InstallationSource.jsx:188
+msgid "SSL CA certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:189
+msgid "SSL client certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:185
+msgid "SSL verification"
+msgstr ""
+
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
@@ -1206,11 +1275,11 @@ msgstr "자신의 폰으로 QR 코드를 스캔하거나 방문하세요:"
 msgid "Search for a language"
 msgstr "언어 검색"
 
-#: src/components/software/SoftwareSelection.jsx:159
+#: src/components/software/SoftwareSelection.jsx:150
 msgid "Search for additional software"
 msgstr "추가 소프트웨어 검색"
 
-#: src/components/software/SoftwareSelection.jsx:66
+#: src/components/software/SoftwareSelection.jsx:57
 msgid "Search for an environment"
 msgstr "환경을 위한 검색"
 
@@ -1266,6 +1335,12 @@ msgstr "서버"
 msgid "Server is not reachable"
 msgstr "서버에 접근 할 수 없습니다"
 
+#: src/components/source/SourceReviewDescription.jsx:48
+msgid ""
+"Set by the kickstart file. Remove source selection from kickstart to be able "
+"to configure interactively."
+msgstr ""
+
 #: src/components/review/Hostname.jsx:87
 msgid "Set custom hostname"
 msgstr "사용자 정의 호스트이름 설정"
@@ -1290,7 +1365,7 @@ msgstr "API 키 표시"
 msgid "Show PIN"
 msgstr "PIN 표시"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Show confirmed password"
 msgstr "확인된 비밀번호 표시"
 
@@ -1298,7 +1373,7 @@ msgstr "확인된 비밀번호 표시"
 msgid "Show passphrase"
 msgstr "암호문을 표시합니다"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Show password"
 msgstr "비밀번호 표시"
 
@@ -1318,12 +1393,12 @@ msgstr ""
 "소프트웨어 설치: 저장소 구성 완료. 소프트웨어는 이제 자신의 장치에 설치되어 "
 "있습니다."
 
-#: src/components/software/index.js:19 src/components/software/index.js:20
-#: src/components/review/ReviewConfiguration.jsx:247
+#: src/components/software/index.js:22 src/components/software/index.js:23
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Software selection"
 msgstr "소프트웨어 선택"
 
-#: src/components/review/ReviewConfiguration.jsx:215
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr "당신은 계속 진행하기 전에 몇 가지 설치 단계를 완료해야 합니다."
@@ -1340,11 +1415,11 @@ msgstr "공간"
 msgid "Stacktrace"
 msgstr "스택트레이스"
 
-#: src/components/review/ReviewConfiguration.jsx:276
+#: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr "저장소"
 
-#: src/components/steps.js:35
+#: src/components/steps.js:37
 #: src/components/installation/InstallationProgress.jsx:228
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
@@ -1513,7 +1588,7 @@ msgid "Time"
 msgstr "시간"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/review/ReviewConfiguration.jsx:246
 msgid "Timezone"
 msgstr "시간대"
 
@@ -1540,6 +1615,20 @@ msgstr ""
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "유형"
+
+#: src/components/source/InstallationSource.jsx:263
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "_URL:"
+msgid "URL"
+msgstr "URL(_U):"
+
+#: src/components/source/InstallationSource.jsx:293
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "URL type:"
+msgid "URL type"
+msgstr "URL 유형 :"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1717,7 +1806,7 @@ msgstr "$0로 초기화"
 msgid "here"
 msgstr "여기"
 
-#: src/components/review/ReviewConfiguration.jsx:57
+#: src/components/review/ReviewConfiguration.jsx:61
 msgid "incomplete"
 msgstr "불완전"
 
@@ -2014,9 +2103,6 @@ msgstr "실행취소"
 
 #~ msgid "Any changes you make will immediately affect your storage."
 #~ msgstr "모든 변경은 자신의 저장 공간에 즉시 영향을 미칩니다."
-
-#~ msgid "Disabled"
-#~ msgstr "사용불가"
 
 #~ msgid "Enabled"
 #~ msgstr "활성화됨"
@@ -2911,9 +2997,6 @@ msgstr "실행취소"
 #~ msgid "City"
 #~ msgstr "도시"
 
-#~ msgid "Closest mirror"
-#~ msgstr "가장 가까운 미러"
-
 #~ msgid "Complete!"
 #~ msgstr "완료되었습니다!"
 
@@ -2951,9 +3034,6 @@ msgstr "실행취소"
 #, python-format
 #~ msgid "Configuring device %s."
 #~ msgstr "장치 %s 구성하기."
-
-#~ msgid "Configuring installed system"
-#~ msgstr "설치된 시스템 설정 중"
 
 #~ msgid "Configuring {}"
 #~ msgstr "{} 구성 중"
@@ -3759,9 +3839,6 @@ msgstr "실행취소"
 #~ "설치시에는 하드 드라이브의 파티션닝을 해야 합니다. 설치 대상에 사용 할 공"
 #~ "간을 선택하거나 수동으로 적재 지점을 할당하세요."
 
-#~ msgid "Installation source"
-#~ msgstr "설치 소스"
-
 #~ msgid "Installation source needs to be set up first."
 #~ msgstr "설치 소스는 먼저 설정해야 합니다."
 
@@ -3982,9 +4059,6 @@ msgstr "실행취소"
 #~ msgid "Memory"
 #~ msgstr "메모리"
 
-#~ msgid "Metalink"
-#~ msgstr "Metalink"
-
 #~ msgid "Method"
 #~ msgstr "방식"
 
@@ -3996,9 +4070,6 @@ msgstr "실행취소"
 
 #~ msgid "Minutes Up"
 #~ msgstr "분 추가"
-
-#~ msgid "Mirrorlist"
-#~ msgstr "연결주소목록"
 
 #~ msgid "Missing name of the %addon section."
 #~ msgstr "%addon 항목의 이름이 없습니다."
@@ -4783,9 +4854,6 @@ msgstr "실행취소"
 #~ msgid "Repo URL"
 #~ msgstr "저장소 URL"
 
-#~ msgid "Repository URL"
-#~ msgstr "저장소 URL"
-
 #~ msgid "Repository name conflicts with internal repository name"
 #~ msgstr "저장소 이름이 내부 저장소 이름과 충돌합니다"
 
@@ -5026,9 +5094,6 @@ msgstr "실행취소"
 
 #~ msgid "Set timezone"
 #~ msgstr "시간대 설정"
-
-#~ msgid "Setting up installation source..."
-#~ msgstr "설치 소스를 설정 중..."
 
 #~ msgid "Setting up kexec"
 #~ msgstr "kexec 설정"
@@ -5915,10 +5980,6 @@ msgstr "실행취소"
 
 #~ msgid "URL of the repository"
 #~ msgstr "저장소의 URL"
-
-#~ msgctxt "GUI|Software Source"
-#~ msgid "URL type:"
-#~ msgstr "URL 유형 :"
 
 #~ msgid "USER SETTINGS"
 #~ msgstr "사용자 설정"
@@ -6832,10 +6893,6 @@ msgstr "실행취소"
 #~ msgid "_Exit Installer"
 #~ msgstr "설치 프로그램 종료(_E)"
 
-#~ msgctxt "GUI|Network|Proxy"
-#~ msgid "_FTP Proxy"
-#~ msgstr "FTP 프락시(_F)"
-
 #~ msgctxt "GUI|Progress"
 #~ msgid "_Finish Installation"
 #~ msgstr "설치 종료(_F)"
@@ -7231,10 +7288,6 @@ msgstr "실행취소"
 #~ msgctxt "GUI|Spoke"
 #~ msgid "_Time & Date"
 #~ msgstr "시간과 날짜(_T)"
-
-#~ msgctxt "GUI|Software Source"
-#~ msgid "_URL:"
-#~ msgstr "URL(_U):"
 
 #~ msgctxt "GUI|Custom Partitioning|Encrypted"
 #~ msgid "_Unlock"
@@ -7830,9 +7883,6 @@ msgstr "실행취소"
 #~ msgid "$0 (of $1) disk selected"
 #~ msgid_plural "$0 (of $1) disks selected"
 #~ msgstr[0] "$0 ($1의) 디스크가 선택되었습니다"
-
-#~ msgid "Failed to set up installation source"
-#~ msgstr "설치 소스 설정에 실패했습니다"
 
 #~ msgid "Error downloading package metadata"
 #~ msgstr "꾸러미 메타자료를 내려받는 중 오류 발생"

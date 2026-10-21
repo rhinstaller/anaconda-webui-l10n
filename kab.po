@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 07:55+0000\n"
+"POT-Creation-Date: 2026-10-21 08:00+0000\n"
 "PO-Revision-Date: 2026-07-09 06:35+0000\n"
 "Last-Translator: ButterflyOfFire "
 "<butterflyoffire@users.noreply.translate.fedoraproject.org>\n"
@@ -118,7 +118,7 @@ msgstr "Sefsex asbeddi"
 msgid "About"
 msgstr "Ɣef"
 
-#: src/components/review/ReviewConfiguration.jsx:254
+#: src/components/review/ReviewConfiguration.jsx:265
 msgid "Account"
 msgstr "Amiḍan"
 
@@ -135,11 +135,11 @@ msgstr "Rnu aqeddac nniḍen…"
 msgid "Add mount"
 msgstr "Rnu tanqiḍt n userkeb"
 
-#: src/components/software/SoftwareSelection.jsx:122
+#: src/components/software/SoftwareSelection.jsx:113
 msgid "Add-ons for your chosen environment"
 msgstr "Izegrar i twennaḍt-ik·im yettwafernen"
 
-#: src/components/software/SoftwareSelection.jsx:131
+#: src/components/software/SoftwareSelection.jsx:122
 msgid "Add-ons not specific to your environment"
 msgstr "Izegrar ur ulmisen ara ɣer twennaḍt-ik·im"
 
@@ -147,7 +147,7 @@ msgstr "Izegrar ur ulmisen ara ɣer twennaḍt-ik·im"
 msgid "Additional languages"
 msgstr "Tutlayin nniḍen"
 
-#: src/components/software/SoftwareSelection.jsx:156
+#: src/components/software/SoftwareSelection.jsx:147
 msgid "Additional software for the selected environment"
 msgstr "Iseɣẓanen imernan i twennaḍt yettwafernen"
 
@@ -163,7 +163,7 @@ msgstr "Ibenkan akk yesseqdacen tafyirt-a n uɛeddi ad asen-ikkes usekkeṛ"
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/login.html:8 src/index.html:20
+#: src/index.html:20 src/login.html:8
 msgid "Anaconda Web UI"
 msgstr "Agrudem Web n Anaconda"
 
@@ -209,7 +209,7 @@ msgstr "Tallunt tilellit yellan: $1. : $0. Asebded yettwasra: $1."
 msgid "Back"
 msgstr "Uɣal"
 
-#: src/components/software/SoftwareSelection.jsx:63
+#: src/components/software/SoftwareSelection.jsx:54
 msgid "Base environment"
 msgstr "Tawennaḍt n uzadur"
 
@@ -273,7 +273,7 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr "Isenfal yettwagen dagi ad ṭṭfen imir ɣef unagraw. Ulac akk 'asefsex'."
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:196
 msgid "Checking installation configuration..."
 msgstr "Asenqed n tawila n usbeddi…"
 
@@ -301,6 +301,17 @@ msgstr "Mdel"
 msgid "Close storage editor"
 msgstr "Mdel amaẓrag n uḥraz"
 
+#: src/components/source/SourceReviewDescription.jsx:34
+#: src/components/source/InstallationSource.jsx:41
+#, fuzzy
+#| msgid "Close storage editor"
+msgid "Closest mirror"
+msgstr "Mdel amaẓrag n uḥraz"
+
+#: src/components/source/InstallationSource.jsx:286
+msgid "Closest public mirror"
+msgstr ""
+
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
@@ -312,7 +323,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Immed"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:217
 msgid "Configuration is incomplete"
 msgstr "Tawila d tarummidt"
 
@@ -335,6 +346,18 @@ msgstr "Sesteb aḥraz"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:688
 msgid "Configure storage again"
 msgstr "Sesteb aḥraz i tikkelt niḍen"
+
+#: src/components/source/InstallationSource.jsx:140
+#, fuzzy
+#| msgid "Continue installation"
+msgid "Configuring installation source"
+msgstr "Kemmel asbeddi"
+
+#: src/components/source/InstallationSource.jsx:141
+#, fuzzy
+#| msgid "Checking installation configuration..."
+msgid "Configuring installation source..."
+msgstr "Asenqed n tawila n usbeddi…"
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -420,6 +443,10 @@ msgstr "Tifin n tneɣruft n uḥraz tameɣtut:"
 msgid "Device"
 msgstr "Ibenk"
 
+#: src/components/source/InstallationSource.jsx:186
+msgid "Disabled"
+msgstr ""
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 msgid "Duplicate device."
 msgstr "Yettuɛawed-d yibenk."
@@ -481,6 +508,12 @@ msgstr "Ffeɣ ɣer tnarit tusridt"
 msgid "Extended partition"
 msgstr "Aḥric ɣezzifen"
 
+#: src/components/source/InstallationSource.jsx:222
+#, fuzzy
+#| msgid "Continue installation"
+msgid "Failed to configure installation source"
+msgstr "Kemmel asbeddi"
+
 #: src/components/Error.jsx:642
 msgid "Failed to report issue"
 msgstr "Tuzna n tuccḍa ur teddi ara"
@@ -539,7 +572,7 @@ msgstr "Ffer tasarut API"
 msgid "Hide PIN"
 msgstr "Ffer tasarut API"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Hide confirmed password"
 msgstr "Ffer awal n uɛeddi yettwasnetmen"
 
@@ -547,7 +580,7 @@ msgstr "Ffer awal n uɛeddi yettwasnetmen"
 msgid "Hide passphrase"
 msgstr "Ffer tafyirt n uɛeddi"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Hide password"
 msgstr "Ffer awal n uɛeddi"
 
@@ -559,7 +592,7 @@ msgstr "Isem n usenneftaɣ"
 msgid "How would you like to install?"
 msgstr "Amek i yebɣiḍ ad yeddu usbeddi?"
 
-#: src/components/review/ReviewConfiguration.jsx:309
+#: src/components/review/ReviewConfiguration.jsx:320
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
@@ -567,11 +600,11 @@ msgstr[0] "Gziɣ belli akk isefka i yellan ad ttwasefḍen"
 msgstr[1] ""
 "Gziɣ belli akk isefka i yellan ad ttwasefḍen seg iḍebsiyen yettwafranen"
 
-#: src/components/review/ReviewConfiguration.jsx:314
+#: src/components/review/ReviewConfiguration.jsx:325
 msgid "I understand that some existing data will be erased"
 msgstr "Gziɣ belli kra n yisefka i yellan ad ttwasefḍen"
 
-#: src/components/review/ReviewConfiguration.jsx:315
+#: src/components/review/ReviewConfiguration.jsx:326
 msgid "I understand that some partitions will be modified"
 msgstr "Gziɣ belli kra n yiḥricen ad ttwasneflen"
 
@@ -647,7 +680,14 @@ msgstr "Asebded n unagraw yecceḍ"
 msgid "Installation of the system failed: $0"
 msgstr "Asbeddi n unagraw yecceḍ: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:269
+#: src/components/source/index.js:24 src/components/source/index.js:25
+#: src/components/review/ReviewConfiguration.jsx:252
+#, fuzzy
+#| msgid "Installation type"
+msgid "Installation source"
+msgstr "Anaw n usbeddi"
+
+#: src/components/review/ReviewConfiguration.jsx:280
 msgid "Installation type"
 msgstr "Anaw n usbeddi"
 
@@ -676,7 +716,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Asenneftaɣ d arameɣtu"
 
-#: src/components/review/ReviewConfiguration.jsx:208
+#: src/components/review/ReviewConfiguration.jsx:213
 #, fuzzy
 #| msgid "completed step"
 msgid "Jump to first incomplete step"
@@ -699,7 +739,7 @@ msgid "Keyboard layout during boot"
 msgstr "Taneɣruft n unasiw mi ara yekker unagraw"
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/review/ReviewConfiguration.jsx:239
 msgid "Language"
 msgstr "Tutlayt"
 
@@ -754,9 +794,17 @@ msgstr "Yezmer lḥal ad yiḥwiǧ ugar n tallunt tilellit"
 msgid "Medium"
 msgstr "Alemmas"
 
+#: src/components/source/InstallationSource.jsx:49
+msgid "Metalink"
+msgstr ""
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:310
 msgid "Minimum of $0 required"
 msgstr "Ma drus $0 i ilaqen"
+
+#: src/components/source/InstallationSource.jsx:48
+msgid "Mirrorlist"
+msgstr ""
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
 msgid "Mismatch between parent device and child device reformat selection."
@@ -891,7 +939,7 @@ msgstr "Ulac ibenkan ara yettwaseqdacen ɣef yiḍebsiyen i yettwafernen."
 msgid "Open Bugzilla bug entry form"
 msgstr "Ldi tiferkit n unekcum n tuccḍa deg Bugzilla"
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:228
 msgid "Operating system"
 msgstr "Anagraw n wammud"
 
@@ -918,7 +966,7 @@ msgstr "Tafyirt n uɛeddi"
 msgid "Passphrase did not match any locked device"
 msgstr "Tafyirt n uɛeddi ur temṣada ara ula d yiwen yibenk yettwasekkṛen"
 
-#: src/components/Password.jsx:278
+#: src/components/Password.jsx:289
 msgid "Passphrases must match"
 msgstr "Tifyar n uɛeddi ilaq ad mṣadant"
 
@@ -961,6 +1009,10 @@ msgstr "Smenyif tuzna s ufus i uneqqis? $0"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
 msgstr "Kemmel asebded"
+
+#: src/components/source/InstallationSource.jsx:182
+msgid "Proxy"
+msgstr ""
 
 #: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1106,6 +1158,10 @@ msgstr "Mmel ugur"
 msgid "Reporting issue..."
 msgstr "Mmel ugur…"
 
+#: src/components/source/InstallationSource.jsx:47
+msgid "Repository URL"
+msgstr ""
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 msgid "Required"
 msgstr "Yettwasra"
@@ -1173,6 +1229,18 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "Awal n uɛeddi aẓar yettusbadu."
 
+#: src/components/source/InstallationSource.jsx:188
+msgid "SSL CA certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:189
+msgid "SSL client certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:185
+msgid "SSL verification"
+msgstr ""
+
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
@@ -1187,11 +1255,11 @@ msgstr "Ḍumm tangalt QR s tiliɣri-ik·im neɣ rzu ɣer:"
 msgid "Search for a language"
 msgstr "Nadi ɣef tutlayt"
 
-#: src/components/software/SoftwareSelection.jsx:159
+#: src/components/software/SoftwareSelection.jsx:150
 msgid "Search for additional software"
 msgstr "Nadi ɣef yiseɣẓanen-nniḍen"
 
-#: src/components/software/SoftwareSelection.jsx:66
+#: src/components/software/SoftwareSelection.jsx:57
 msgid "Search for an environment"
 msgstr "Nadi ɣef twennaḍ"
 
@@ -1247,6 +1315,12 @@ msgstr "Aqeddac"
 msgid "Server is not reachable"
 msgstr "Aqeddac ur yettwawaḍ ara"
 
+#: src/components/source/SourceReviewDescription.jsx:48
+msgid ""
+"Set by the kickstart file. Remove source selection from kickstart to be able "
+"to configure interactively."
+msgstr ""
+
 #: src/components/review/Hostname.jsx:87
 msgid "Set custom hostname"
 msgstr "Sbadu asenneftaɣ udmawan"
@@ -1273,7 +1347,7 @@ msgstr "Sken-d tasarut API"
 msgid "Show PIN"
 msgstr "Sken-d tasarut API"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Show confirmed password"
 msgstr "Sken awal n uɛeddi yettusnetmen"
 
@@ -1281,7 +1355,7 @@ msgstr "Sken awal n uɛeddi yettusnetmen"
 msgid "Show passphrase"
 msgstr "Sken tafyirt n uɛeddi"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Show password"
 msgstr "Sken-d awal n uɛeddi"
 
@@ -1301,12 +1375,12 @@ msgstr ""
 "Asebded n useɣẓan: Tawila n uḥraz temmed. Aseɣẓan la ttwasbeddaden tura ɣef "
 "yibenk-ik·im."
 
-#: src/components/software/index.js:19 src/components/software/index.js:20
-#: src/components/review/ReviewConfiguration.jsx:247
+#: src/components/software/index.js:22 src/components/software/index.js:23
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Software selection"
 msgstr "Afran n yiseɣẓanen"
 
-#: src/components/review/ReviewConfiguration.jsx:215
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr "Mazal ilaq kra n yisurifen n usbeddi ad fakken uqbel ad tkemmleḍ."
@@ -1323,11 +1397,11 @@ msgstr "Tallunt"
 msgid "Stacktrace"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:276
+#: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr "Aḥraz"
 
-#: src/components/steps.js:35
+#: src/components/steps.js:37
 #: src/components/installation/InstallationProgress.jsx:228
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
@@ -1487,7 +1561,7 @@ msgid "Time"
 msgstr "Akud"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/review/ReviewConfiguration.jsx:246
 msgid "Timezone"
 msgstr "Tamnaḍt tasragant"
 
@@ -1514,6 +1588,14 @@ msgstr ""
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "Anaw"
+
+#: src/components/source/InstallationSource.jsx:263
+msgid "URL"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:293
+msgid "URL type"
+msgstr ""
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1687,7 +1769,7 @@ msgstr "amasal am $0"
 msgid "here"
 msgstr "da"
 
-#: src/components/review/ReviewConfiguration.jsx:57
+#: src/components/review/ReviewConfiguration.jsx:61
 msgid "incomplete"
 msgstr "d arurmid"
 

@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 07:55+0000\n"
+"POT-Creation-Date: 2026-10-21 08:00+0000\n"
 "PO-Revision-Date: 2023-11-06 12:22+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Tamil <https://translate.fedoraproject.org/projects/anaconda-"
@@ -125,7 +125,7 @@ msgstr "நிறுவல்"
 msgid "About"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:254
+#: src/components/review/ReviewConfiguration.jsx:265
 #, fuzzy
 msgid "Account"
 msgstr "லேயவுட்டைச் சேர்"
@@ -146,13 +146,13 @@ msgstr ""
 msgid "Add mount"
 msgstr "லேயவுட்டைச் சேர்"
 
-#: src/components/software/SoftwareSelection.jsx:122
+#: src/components/software/SoftwareSelection.jsx:113
 #, fuzzy
 #| msgid "Add-Ons for Selected Environment"
 msgid "Add-ons for your chosen environment"
 msgstr "தேர்ந்தெடுத்த சூழலுக்கான துணை நிரல்கள்"
 
-#: src/components/software/SoftwareSelection.jsx:131
+#: src/components/software/SoftwareSelection.jsx:122
 msgid "Add-ons not specific to your environment"
 msgstr ""
 
@@ -161,7 +161,7 @@ msgstr ""
 msgid "Additional languages"
 msgstr "அனைத்தையும் தேர்ந்தெடு"
 
-#: src/components/software/SoftwareSelection.jsx:156
+#: src/components/software/SoftwareSelection.jsx:147
 #, fuzzy
 #| msgid "Add-Ons for Selected Environment"
 msgid "Additional software for the selected environment"
@@ -179,7 +179,7 @@ msgstr ""
 msgid "Anaconda"
 msgstr ""
 
-#: src/login.html:8 src/index.html:20
+#: src/index.html:20 src/login.html:8
 #, fuzzy
 msgid "Anaconda Web UI"
 msgstr "நிறுவலைத் தொடங்கு (_B)"
@@ -225,7 +225,7 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
-#: src/components/software/SoftwareSelection.jsx:63
+#: src/components/software/SoftwareSelection.jsx:54
 msgid "Base environment"
 msgstr "அடிப்படை சூழல்"
 
@@ -295,7 +295,7 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:196
 #, fuzzy
 #| msgid "Checking storage configuration..."
 msgid "Checking installation configuration..."
@@ -327,6 +327,17 @@ msgstr "மூடு"
 msgid "Close storage editor"
 msgstr "நிறுவல்"
 
+#: src/components/source/SourceReviewDescription.jsx:34
+#: src/components/source/InstallationSource.jsx:41
+msgid "Closest mirror"
+msgstr "நெருக்கமான மிரர்"
+
+#: src/components/source/InstallationSource.jsx:286
+#, fuzzy
+#| msgid "Closest mirror"
+msgid "Closest public mirror"
+msgstr "நெருக்கமான மிரர்"
+
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
@@ -337,7 +348,7 @@ msgstr ""
 msgid "Completed"
 msgstr "முடிந்தது!"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:217
 #, fuzzy
 #| msgid "Apply configuration in installer"
 msgid "Configuration is incomplete"
@@ -369,6 +380,18 @@ msgstr "சேமிப்பக லேயவுட்டை மாற்றி�
 #, fuzzy
 msgid "Configure storage again"
 msgstr "சேமிப்பக லேயவுட்டை மாற்றியமை (_M)"
+
+#: src/components/source/InstallationSource.jsx:140
+#, fuzzy
+#| msgid "Configuring installed system"
+msgid "Configuring installation source"
+msgstr "நிறுவிய கணினியை அமைவாக்கம் செய்கிறது"
+
+#: src/components/source/InstallationSource.jsx:141
+#, fuzzy
+#| msgid "Setting up installation source..."
+msgid "Configuring installation source..."
+msgstr "நிறுவல் மூலத்தை அமைக்கிறது..."
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -469,6 +492,11 @@ msgstr ""
 msgid "Device"
 msgstr "சாதனம்"
 
+#: src/components/source/InstallationSource.jsx:186
+#, fuzzy
+msgid "Disabled"
+msgstr "செயல்படுத்தப்பட்டது"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 #, fuzzy
 msgid "Duplicate device."
@@ -538,6 +566,12 @@ msgstr ""
 msgid "Extended partition"
 msgstr "வழக்கமான பிரிவாக்கம்"
 
+#: src/components/source/InstallationSource.jsx:222
+#, fuzzy
+#| msgid "Failed to set up installation source"
+msgid "Failed to configure installation source"
+msgstr "நிறுவல் மூலத்தை அமைப்பதில் தோல்வி"
+
 #: src/components/Error.jsx:642
 #, fuzzy
 #| msgid "Failed to save storage configuration..."
@@ -601,7 +635,7 @@ msgstr ""
 msgid "Hide PIN"
 msgstr ""
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 #, fuzzy
 msgid "Hide confirmed password"
 msgstr "கடவுச்சொல்லை உறுதிபடுத்துக (_C)"
@@ -611,7 +645,7 @@ msgstr "கடவுச்சொல்லை உறுதிபடுத்த�
 msgid "Hide passphrase"
 msgstr "கடவுச்சொல்லை உறுதிபடுத்துக (_C)"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 #, fuzzy
 msgid "Hide password"
 msgstr "வெற்று கடவுச்சொல்"
@@ -626,18 +660,18 @@ msgstr "வழங்கி பெயர்"
 msgid "How would you like to install?"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:309
+#: src/components/review/ReviewConfiguration.jsx:320
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/components/review/ReviewConfiguration.jsx:314
+#: src/components/review/ReviewConfiguration.jsx:325
 msgid "I understand that some existing data will be erased"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:315
+#: src/components/review/ReviewConfiguration.jsx:326
 msgid "I understand that some partitions will be modified"
 msgstr ""
 
@@ -714,7 +748,12 @@ msgstr "நிறுவல்"
 msgid "Installation of the system failed: $0"
 msgstr "நிறுவல்"
 
-#: src/components/review/ReviewConfiguration.jsx:269
+#: src/components/source/index.js:24 src/components/source/index.js:25
+#: src/components/review/ReviewConfiguration.jsx:252
+msgid "Installation source"
+msgstr "நிறுவல் மூலம்"
+
+#: src/components/review/ReviewConfiguration.jsx:280
 #, fuzzy
 msgid "Installation type"
 msgstr "நிறுவல்"
@@ -747,7 +786,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "தவறான வழங்கி பெயர்"
 
-#: src/components/review/ReviewConfiguration.jsx:208
+#: src/components/review/ReviewConfiguration.jsx:213
 #, fuzzy
 msgid "Jump to first incomplete step"
 msgstr "முடிந்தது!"
@@ -767,7 +806,7 @@ msgid "Keyboard layout during boot"
 msgstr ""
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/review/ReviewConfiguration.jsx:239
 #, fuzzy
 msgid "Language"
 msgstr "மொழிகள்"
@@ -831,8 +870,16 @@ msgstr "மென்பொருளை நிறுவுகிறது"
 msgid "Medium"
 msgstr ""
 
+#: src/components/source/InstallationSource.jsx:49
+msgid "Metalink"
+msgstr ""
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:310
 msgid "Minimum of $0 required"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:48
+msgid "Mirrorlist"
 msgstr ""
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
@@ -985,7 +1032,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:228
 #, fuzzy
 msgid "Operating system"
 msgstr "பயனர்களை உருவாக்குகிறது"
@@ -1016,7 +1063,7 @@ msgstr "கடவுவாக்கியம்"
 msgid "Passphrase did not match any locked device"
 msgstr ""
 
-#: src/components/Password.jsx:278
+#: src/components/Password.jsx:289
 #, fuzzy
 msgid "Passphrases must match"
 msgstr "கடவுவாக்கியம்"
@@ -1070,6 +1117,13 @@ msgstr ""
 #| msgid "Failed to set up installation source"
 msgid "Proceed with installation"
 msgstr "நிறுவல் மூலத்தை அமைப்பதில் தோல்வி"
+
+#: src/components/source/InstallationSource.jsx:182
+#, fuzzy
+#| msgctxt "GUI|Network|Proxy"
+#| msgid "_FTP Proxy"
+msgid "Proxy"
+msgstr "FTP பதிலி (_F)"
 
 #: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1227,6 +1281,12 @@ msgstr ""
 msgid "Reporting issue..."
 msgstr "நிலையை சோதிக்கிறது..."
 
+#: src/components/source/InstallationSource.jsx:47
+#, fuzzy
+#| msgid "Repo URL"
+msgid "Repository URL"
+msgstr "தொகுப்பதிவக URL"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 #, fuzzy
 msgid "Required"
@@ -1306,6 +1366,18 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "ரூட் கடவுச்சொல் அமைக்கப்படவில்லை"
 
+#: src/components/source/InstallationSource.jsx:188
+msgid "SSL CA certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:189
+msgid "SSL client certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:185
+msgid "SSL verification"
+msgstr ""
+
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
@@ -1324,13 +1396,13 @@ msgstr ""
 msgid "Search for a language"
 msgstr "மொழிகள்"
 
-#: src/components/software/SoftwareSelection.jsx:159
+#: src/components/software/SoftwareSelection.jsx:150
 #, fuzzy
 #| msgid "Custom software selected"
 msgid "Search for additional software"
 msgstr "தனிப்பயன் மென்பொருள் தேர்ந்தெடுக்கப்பட்டது"
 
-#: src/components/software/SoftwareSelection.jsx:66
+#: src/components/software/SoftwareSelection.jsx:57
 #, fuzzy
 msgid "Search for an environment"
 msgstr "மொழிகள்"
@@ -1402,6 +1474,12 @@ msgstr "NFS சேவையகம் %s"
 msgid "Server is not reachable"
 msgstr ""
 
+#: src/components/source/SourceReviewDescription.jsx:48
+msgid ""
+"Set by the kickstart file. Remove source selection from kickstart to be able "
+"to configure interactively."
+msgstr ""
+
 #: src/components/review/Hostname.jsx:87
 #, fuzzy
 #| msgid "Set host name"
@@ -1437,7 +1515,7 @@ msgstr "_AM/PM"
 msgid "Show PIN"
 msgstr "_AM/PM"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 #, fuzzy
 msgid "Show confirmed password"
 msgstr "கடவுச்சொல்லை உறுதிபடுத்துக (_C)"
@@ -1447,7 +1525,7 @@ msgstr "கடவுச்சொல்லை உறுதிபடுத்த�
 msgid "Show passphrase"
 msgstr "கடவுச்சொல்லை உறுதிபடுத்துக (_C)"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 #, fuzzy
 msgid "Show password"
 msgstr "ரூட் கடவுச்சொல்"
@@ -1467,12 +1545,12 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: src/components/software/index.js:19 src/components/software/index.js:20
-#: src/components/review/ReviewConfiguration.jsx:247
+#: src/components/software/index.js:22 src/components/software/index.js:23
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Software selection"
 msgstr "மென்பொருள் தேர்வு"
 
-#: src/components/review/ReviewConfiguration.jsx:215
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1491,12 +1569,12 @@ msgstr "இடம் இல்லை"
 msgid "Stacktrace"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:276
+#: src/components/review/ReviewConfiguration.jsx:287
 #, fuzzy
 msgid "Storage"
 msgstr "சேமிப்பக விருப்பங்கள்"
 
-#: src/components/steps.js:35
+#: src/components/steps.js:37
 #: src/components/installation/InstallationProgress.jsx:228
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
@@ -1667,7 +1745,7 @@ msgid "Time"
 msgstr ""
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/review/ReviewConfiguration.jsx:246
 #, fuzzy
 #| msgid "%s timezone"
 msgid "Timezone"
@@ -1697,6 +1775,19 @@ msgstr ""
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "வகை"
+
+#: src/components/source/InstallationSource.jsx:263
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "Pro_xy URL:"
+msgid "URL"
+msgstr "பதிலி URL: (_x)"
+
+#: src/components/source/InstallationSource.jsx:293
+#, fuzzy
+#| msgid "URL is empty"
+msgid "URL type"
+msgstr "URL காலியாக உள்ளது"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1889,7 +1980,7 @@ msgstr ""
 msgid "here"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:57
+#: src/components/review/ReviewConfiguration.jsx:61
 #, fuzzy
 msgid "incomplete"
 msgstr "முடிந்தது!"
@@ -2042,10 +2133,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Install using the configured storage?"
 #~ msgstr "மென்பொருளை நிறுவுகிறது"
-
-#, fuzzy
-#~ msgid "Disabled"
-#~ msgstr "செயல்படுத்தப்பட்டது"
 
 #~ msgid "Enabled"
 #~ msgstr "செயல்படுத்தப்பட்டது"
@@ -2677,9 +2764,6 @@ msgstr ""
 #~ msgid "City"
 #~ msgstr "நகரம்"
 
-#~ msgid "Closest mirror"
-#~ msgstr "நெருக்கமான மிரர்"
-
 #~ msgid "Complete!"
 #~ msgstr "முடிந்தது!"
 
@@ -2708,9 +2792,6 @@ msgstr ""
 #, python-format
 #~ msgid "Configuring device %s."
 #~ msgstr "சாதனம் %s ஐ அமைவாக்கம் செய்கிறது."
-
-#~ msgid "Configuring installed system"
-#~ msgstr "நிறுவிய கணினியை அமைவாக்கம் செய்கிறது"
 
 #, fuzzy
 #~| msgid "Configuring addons"
@@ -3208,9 +3289,6 @@ msgstr ""
 
 #~ msgid "Installation Destination"
 #~ msgstr "நிறுவல் இலக்கு"
-
-#~ msgid "Installation source"
-#~ msgstr "நிறுவல் மூலம்"
 
 #~ msgid "Installation source needs to be set up first."
 #~ msgstr "முதலில் நிறுவல் மூலத்தை அமைக்க வேண்டும்."
@@ -3912,11 +3990,6 @@ msgstr ""
 #~ msgid "Repo URL"
 #~ msgstr "தொகுப்பதிவக URL"
 
-#, fuzzy
-#~| msgid "Repo URL"
-#~ msgid "Repository URL"
-#~ msgstr "தொகுப்பதிவக URL"
-
 #~ msgid "Repository name conflicts with internal repository name"
 #~ msgstr "தொகுப்பதிவகப் பெயர் உள்ளமை தொகுப்பதிவகப் பெயருடன் முரண்படுகிறது"
 
@@ -4078,9 +4151,6 @@ msgstr ""
 #~| msgid "_zSeries Devices"
 #~ msgid "Service level"
 #~ msgstr "zSeries சாதனங்கள் (_z)"
-
-#~ msgid "Setting up installation source..."
-#~ msgstr "நிறுவல் மூலத்தை அமைக்கிறது..."
 
 #~ msgid "Setting up the installation environment"
 #~ msgstr "நிறுவல் சூழலை அமைக்கிறது"
@@ -4635,9 +4705,6 @@ msgstr ""
 
 #~ msgid "URL has no host component"
 #~ msgstr "URL இல் வழங்கிக்குரிய பகுதி இல்லை"
-
-#~ msgid "URL is empty"
-#~ msgstr "URL காலியாக உள்ளது"
 
 #, fuzzy
 #~| msgid "Name of the repository."
@@ -5302,10 +5369,6 @@ msgstr ""
 #~ msgid "_Encrypt"
 #~ msgstr "குறியாக்கம் (_E)"
 
-#~ msgctxt "GUI|Network|Proxy"
-#~ msgid "_FTP Proxy"
-#~ msgstr "FTP பதிலி (_F)"
-
 #~ msgctxt "GUI|DAD Format Dialog"
 #~ msgid "_Format with dasdfmt"
 #~ msgstr "dasdfmt ஐப் பயன்படுத்தி வடிவமை (_F)"
@@ -5587,13 +5650,6 @@ msgstr ""
 #~ msgctxt "GUI|Keyboard Layout"
 #~ msgid "_Test the layout configuration below:"
 #~ msgstr "கீழே உள்ள தளவமைப்பு அமைவாக்கத்தை சரிபார்க்கவும் (_T):"
-
-#, fuzzy
-#~| msgctxt "GUI|Software Source"
-#~| msgid "Pro_xy URL:"
-#~ msgctxt "GUI|Software Source"
-#~ msgid "_URL:"
-#~ msgstr "பதிலி URL: (_x)"
 
 #~ msgctxt "GUI|Custom Partitioning|Encrypted"
 #~ msgid "_Unlock"
@@ -5926,9 +5982,6 @@ msgstr ""
 #~ msgid_plural "$0 (of $1) disks selected"
 #~ msgstr[0] "வட்டுகள் எதுவும் தேர்ந்தெடுக்கப்படவில்லை"
 #~ msgstr[1] "வட்டுகள் எதுவும் தேர்ந்தெடுக்கப்படவில்லை"
-
-#~ msgid "Failed to set up installation source"
-#~ msgstr "நிறுவல் மூலத்தை அமைப்பதில் தோல்வி"
 
 #~ msgid "Error downloading package metadata"
 #~ msgstr "தொகுப்பு மீத்தரவைப் பதிவிறக்கம் செய்வதில் பிழை"

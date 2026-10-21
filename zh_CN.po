@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 07:55+0000\n"
+"POT-Creation-Date: 2026-10-21 08:00+0000\n"
 "PO-Revision-Date: 2026-10-06 09:25+0000\n"
 "Last-Translator: Kung Kun <kun17.kung317@silomails.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -145,7 +145,7 @@ msgstr "中止安装"
 msgid "About"
 msgstr "关于"
 
-#: src/components/review/ReviewConfiguration.jsx:254
+#: src/components/review/ReviewConfiguration.jsx:265
 msgid "Account"
 msgstr "账户"
 
@@ -162,11 +162,11 @@ msgstr "添加其它服务器..."
 msgid "Add mount"
 msgstr "添加挂载"
 
-#: src/components/software/SoftwareSelection.jsx:122
+#: src/components/software/SoftwareSelection.jsx:113
 msgid "Add-ons for your chosen environment"
 msgstr "适用于您选定环境的附加组件"
 
-#: src/components/software/SoftwareSelection.jsx:131
+#: src/components/software/SoftwareSelection.jsx:122
 msgid "Add-ons not specific to your environment"
 msgstr "不特定于您环境的附加组件"
 
@@ -174,7 +174,7 @@ msgstr "不特定于您环境的附加组件"
 msgid "Additional languages"
 msgstr "其他语言"
 
-#: src/components/software/SoftwareSelection.jsx:156
+#: src/components/software/SoftwareSelection.jsx:147
 msgid "Additional software for the selected environment"
 msgstr "用于已选环境的附加软件"
 
@@ -190,7 +190,7 @@ msgstr "所有使用此密码的设备都将被解锁"
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/login.html:8 src/index.html:20
+#: src/index.html:20 src/login.html:8
 msgid "Anaconda Web UI"
 msgstr "Anaconda Web 界面"
 
@@ -233,7 +233,7 @@ msgstr "可用空间: $0。安装需要: $1。"
 msgid "Back"
 msgstr "返回"
 
-#: src/components/software/SoftwareSelection.jsx:63
+#: src/components/software/SoftwareSelection.jsx:54
 msgid "Base environment"
 msgstr "基本环境"
 
@@ -295,7 +295,7 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr "此处所做的更改将立即影响系统。无法“撤消”。"
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:196
 msgid "Checking installation configuration..."
 msgstr "正在检查安装配置..."
 
@@ -323,6 +323,17 @@ msgstr "关闭"
 msgid "Close storage editor"
 msgstr "关闭存储编辑器"
 
+#: src/components/source/SourceReviewDescription.jsx:34
+#: src/components/source/InstallationSource.jsx:41
+msgid "Closest mirror"
+msgstr "最近的镜像"
+
+#: src/components/source/InstallationSource.jsx:286
+#, fuzzy
+#| msgid "Closest mirror"
+msgid "Closest public mirror"
+msgstr "最近的镜像"
+
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
@@ -332,7 +343,7 @@ msgstr "Cockpit 存储没有提供解锁加密设备的密码。"
 msgid "Completed"
 msgstr "已完成"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:217
 msgid "Configuration is incomplete"
 msgstr "配置未完成"
 
@@ -355,6 +366,18 @@ msgstr "配置存储"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:688
 msgid "Configure storage again"
 msgstr "再次配置存储"
+
+#: src/components/source/InstallationSource.jsx:140
+#, fuzzy
+#| msgid "Configuring installed system"
+msgid "Configuring installation source"
+msgstr "正在配置已安装系统"
+
+#: src/components/source/InstallationSource.jsx:141
+#, fuzzy
+#| msgid "Setting up installation source..."
+msgid "Configuring installation source..."
+msgstr "正在设置安装源..."
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -440,6 +463,10 @@ msgstr "检测到有效的存储布局："
 msgid "Device"
 msgstr "设备"
 
+#: src/components/source/InstallationSource.jsx:186
+msgid "Disabled"
+msgstr "禁用"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 msgid "Duplicate device."
 msgstr "重复的设备。"
@@ -500,6 +527,12 @@ msgstr "退出到 live 桌面"
 msgid "Extended partition"
 msgstr "扩展分区"
 
+#: src/components/source/InstallationSource.jsx:222
+#, fuzzy
+#| msgid "Failed to set up installation source"
+msgid "Failed to configure installation source"
+msgstr "设置安装源失败"
+
 #: src/components/Error.jsx:642
 msgid "Failed to report issue"
 msgstr "报告问题失败"
@@ -554,7 +587,7 @@ msgstr "隐藏 API 密钥"
 msgid "Hide PIN"
 msgstr "隐藏 PIN 密钥"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Hide confirmed password"
 msgstr "隐藏确认的密码"
 
@@ -562,7 +595,7 @@ msgstr "隐藏确认的密码"
 msgid "Hide passphrase"
 msgstr "隐藏口令"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Hide password"
 msgstr "隐藏密码"
 
@@ -574,17 +607,17 @@ msgstr "主机名"
 msgid "How would you like to install?"
 msgstr "您想如何安装？"
 
-#: src/components/review/ReviewConfiguration.jsx:309
+#: src/components/review/ReviewConfiguration.jsx:320
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] "我明白所选磁盘上的所有现有数据将被删除"
 
-#: src/components/review/ReviewConfiguration.jsx:314
+#: src/components/review/ReviewConfiguration.jsx:325
 msgid "I understand that some existing data will be erased"
 msgstr "我明白部分现有数据将被删除"
 
-#: src/components/review/ReviewConfiguration.jsx:315
+#: src/components/review/ReviewConfiguration.jsx:326
 msgid "I understand that some partitions will be modified"
 msgstr "我明白有些分区会被修改"
 
@@ -659,7 +692,12 @@ msgstr "系统安装失败"
 msgid "Installation of the system failed: $0"
 msgstr "系统安装失败：$0"
 
-#: src/components/review/ReviewConfiguration.jsx:269
+#: src/components/source/index.js:24 src/components/source/index.js:25
+#: src/components/review/ReviewConfiguration.jsx:252
+msgid "Installation source"
+msgstr "安装源"
+
+#: src/components/review/ReviewConfiguration.jsx:280
 msgid "Installation type"
 msgstr "安装类型"
 
@@ -691,7 +729,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "无效主机名"
 
-#: src/components/review/ReviewConfiguration.jsx:208
+#: src/components/review/ReviewConfiguration.jsx:213
 msgid "Jump to first incomplete step"
 msgstr "跳转至第一个未完成的步骤"
 
@@ -710,7 +748,7 @@ msgid "Keyboard layout during boot"
 msgstr "启动期间的键盘布局"
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/review/ReviewConfiguration.jsx:239
 msgid "Language"
 msgstr "语言"
 
@@ -763,9 +801,17 @@ msgstr "可能需要更多空闲空间"
 msgid "Medium"
 msgstr "中等"
 
+#: src/components/source/InstallationSource.jsx:49
+msgid "Metalink"
+msgstr "元链接"
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:310
 msgid "Minimum of $0 required"
 msgstr "最低要求为 $0"
+
+#: src/components/source/InstallationSource.jsx:48
+msgid "Mirrorlist"
+msgstr "镜像列表"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
 msgid "Mismatch between parent device and child device reformat selection."
@@ -898,7 +944,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "打开 Bugzilla 缺陷报告表单"
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:228
 msgid "Operating system"
 msgstr "操作系统"
 
@@ -925,7 +971,7 @@ msgstr "密码"
 msgid "Passphrase did not match any locked device"
 msgstr "密码与任何锁定的设备都不匹配"
 
-#: src/components/Password.jsx:278
+#: src/components/Password.jsx:289
 msgid "Passphrases must match"
 msgstr "密码必须匹配"
 
@@ -968,6 +1014,13 @@ msgstr "倾向于手动报告吗？ $0"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
 msgstr "继续安装"
+
+#: src/components/source/InstallationSource.jsx:182
+#, fuzzy
+#| msgctxt "GUI|Network|Proxy"
+#| msgid "_FTP Proxy"
+msgid "Proxy"
+msgstr "_FTP 代理"
 
 #: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1107,6 +1160,10 @@ msgstr "报告问题"
 msgid "Reporting issue..."
 msgstr "报告问题中..."
 
+#: src/components/source/InstallationSource.jsx:47
+msgid "Repository URL"
+msgstr "软件库 URL"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 msgid "Required"
 msgstr "必需的"
@@ -1171,6 +1228,18 @@ msgstr "Root账户已启用，但尚未配置任何用户帐户"
 msgid "Root password has been set."
 msgstr "Root 密码已设置。"
 
+#: src/components/source/InstallationSource.jsx:188
+msgid "SSL CA certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:189
+msgid "SSL client certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:185
+msgid "SSL verification"
+msgstr ""
+
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
@@ -1185,11 +1254,11 @@ msgstr "使用手机扫描二维码或访问："
 msgid "Search for a language"
 msgstr "搜索语言"
 
-#: src/components/software/SoftwareSelection.jsx:159
+#: src/components/software/SoftwareSelection.jsx:150
 msgid "Search for additional software"
 msgstr "搜索其他软件"
 
-#: src/components/software/SoftwareSelection.jsx:66
+#: src/components/software/SoftwareSelection.jsx:57
 msgid "Search for an environment"
 msgstr "搜索环境"
 
@@ -1243,6 +1312,12 @@ msgstr "服务器"
 msgid "Server is not reachable"
 msgstr "服务器不可达"
 
+#: src/components/source/SourceReviewDescription.jsx:48
+msgid ""
+"Set by the kickstart file. Remove source selection from kickstart to be able "
+"to configure interactively."
+msgstr ""
+
 #: src/components/review/Hostname.jsx:87
 msgid "Set custom hostname"
 msgstr "设置自定义主机名"
@@ -1267,7 +1342,7 @@ msgstr "显示 API 密钥"
 msgid "Show PIN"
 msgstr "显示 PIN 密钥"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Show confirmed password"
 msgstr "显示确认密码"
 
@@ -1275,7 +1350,7 @@ msgstr "显示确认密码"
 msgid "Show passphrase"
 msgstr "显示密码"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Show password"
 msgstr "显示密码"
 
@@ -1293,12 +1368,12 @@ msgid ""
 "being installed onto your device."
 msgstr "软件安装：存储配置完成。该软件现在正在安装到您的设备上。"
 
-#: src/components/software/index.js:19 src/components/software/index.js:20
-#: src/components/review/ReviewConfiguration.jsx:247
+#: src/components/software/index.js:22 src/components/software/index.js:23
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Software selection"
 msgstr "软件选择"
 
-#: src/components/review/ReviewConfiguration.jsx:215
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr "在继续之前，您还需要完成一些安装步骤。"
@@ -1315,11 +1390,11 @@ msgstr "空间"
 msgid "Stacktrace"
 msgstr "栈回溯"
 
-#: src/components/review/ReviewConfiguration.jsx:276
+#: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr "存储"
 
-#: src/components/steps.js:35
+#: src/components/steps.js:37
 #: src/components/installation/InstallationProgress.jsx:228
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
@@ -1477,7 +1552,7 @@ msgid "Time"
 msgstr "时间"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/review/ReviewConfiguration.jsx:246
 msgid "Timezone"
 msgstr "时区"
 
@@ -1502,6 +1577,20 @@ msgstr "要使用此选项，请调整大小或删除现有分区以释放至少
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "类型"
+
+#: src/components/source/InstallationSource.jsx:263
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "_URL:"
+msgid "URL"
+msgstr "URL (_U)："
+
+#: src/components/source/InstallationSource.jsx:293
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "URL type:"
+msgid "URL type"
+msgstr "URL 类型："
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1669,7 +1758,7 @@ msgstr "格式化为 $0"
 msgid "here"
 msgstr "这里"
 
-#: src/components/review/ReviewConfiguration.jsx:57
+#: src/components/review/ReviewConfiguration.jsx:61
 msgid "incomplete"
 msgstr "未完成"
 
@@ -1932,9 +2021,6 @@ msgstr "撤消"
 #~| msgid "Changes made in Blivet-gui will directly affect your storage."
 #~ msgid "Any changes you make will immediately affect your storage."
 #~ msgstr "Blivet-gui 中所做的更改将直接影响您的存储。"
-
-#~ msgid "Disabled"
-#~ msgstr "禁用"
 
 #~ msgid "Enabled"
 #~ msgstr "已启用"
@@ -2810,9 +2896,6 @@ msgstr "撤消"
 #~ msgid "City"
 #~ msgstr "城市"
 
-#~ msgid "Closest mirror"
-#~ msgstr "最近的镜像"
-
 #~ msgid "Complete!"
 #~ msgstr "完成！"
 
@@ -2850,9 +2933,6 @@ msgstr "撤消"
 #, python-format
 #~ msgid "Configuring device %s."
 #~ msgstr "配置设备 %s。"
-
-#~ msgid "Configuring installed system"
-#~ msgstr "正在配置已安装系统"
 
 #~ msgid "Configuring {}"
 #~ msgstr "正在配置 {}"
@@ -3635,9 +3715,6 @@ msgstr "撤消"
 #~ "安装过程需要对您的硬盘进行分区。请选择要用于安装目标的磁盘空间，或者手动分"
 #~ "配挂载点。"
 
-#~ msgid "Installation source"
-#~ msgstr "安装源"
-
 #~ msgid "Installation source needs to be set up first."
 #~ msgstr "需要首先设置安装源。"
 
@@ -3853,9 +3930,6 @@ msgstr "撤消"
 #~ msgid "Memory"
 #~ msgstr "内存"
 
-#~ msgid "Metalink"
-#~ msgstr "元链接"
-
 #~ msgid "Method"
 #~ msgstr "方法"
 
@@ -3867,9 +3941,6 @@ msgstr "撤消"
 
 #~ msgid "Minutes Up"
 #~ msgstr "上调分钟"
-
-#~ msgid "Mirrorlist"
-#~ msgstr "镜像列表"
 
 #~ msgid "Missing name of the %addon section."
 #~ msgstr "缺少 %addon 小节的名称。"
@@ -4616,9 +4687,6 @@ msgstr "撤消"
 #~ msgid "Repo URL"
 #~ msgstr "软件源 URL"
 
-#~ msgid "Repository URL"
-#~ msgstr "软件库 URL"
-
 #~ msgid "Repository name conflicts with internal repository name"
 #~ msgstr "软件仓库名称与内置软件仓库名称冲突"
 
@@ -4855,9 +4923,6 @@ msgstr "撤消"
 
 #~ msgid "Set timezone"
 #~ msgstr "设置时区"
-
-#~ msgid "Setting up installation source..."
-#~ msgstr "正在设置安装源..."
 
 #~ msgid "Setting up kexec"
 #~ msgstr "正在设置 kexec"
@@ -5690,10 +5755,6 @@ msgstr "撤消"
 
 #~ msgid "URL of the repository"
 #~ msgstr "软件 URL 名称"
-
-#~ msgctxt "GUI|Software Source"
-#~ msgid "URL type:"
-#~ msgstr "URL 类型："
 
 #~ msgid "USER SETTINGS"
 #~ msgstr "用户设置"
@@ -6578,10 +6639,6 @@ msgstr "撤消"
 #~ msgid "_Exit Installer"
 #~ msgstr "退出安装程序(_E)"
 
-#~ msgctxt "GUI|Network|Proxy"
-#~ msgid "_FTP Proxy"
-#~ msgstr "_FTP 代理"
-
 #~ msgctxt "GUI|Progress"
 #~ msgid "_Finish Installation"
 #~ msgstr "完成安装(_F)"
@@ -6977,10 +7034,6 @@ msgstr "撤消"
 #~ msgctxt "GUI|Spoke"
 #~ msgid "_Time & Date"
 #~ msgstr "时间和日期(_T)"
-
-#~ msgctxt "GUI|Software Source"
-#~ msgid "_URL:"
-#~ msgstr "URL (_U)："
 
 #~ msgctxt "GUI|Custom Partitioning|Encrypted"
 #~ msgid "_Unlock"
@@ -7561,9 +7614,6 @@ msgstr "撤消"
 #~ msgid "$0 (of $1) disk selected"
 #~ msgid_plural "$0 (of $1) disks selected"
 #~ msgstr[0] "选择了 $0(共 $1个) 个磁盘"
-
-#~ msgid "Failed to set up installation source"
-#~ msgstr "设置安装源失败"
 
 #~ msgid "Error downloading package metadata"
 #~ msgstr "下载软件包元数据时出错"

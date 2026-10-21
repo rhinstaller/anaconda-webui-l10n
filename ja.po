@@ -63,7 +63,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 07:55+0000\n"
+"POT-Creation-Date: 2026-10-21 08:00+0000\n"
 "PO-Revision-Date: 2026-02-03 04:28+0000\n"
 "Last-Translator: Yoshiaki Ishii "
 "<zouforestyoppy@users.noreply.translate.fedoraproject.org>\n"
@@ -168,7 +168,7 @@ msgstr "$0 のインストール"
 msgid "About"
 msgstr "About"
 
-#: src/components/review/ReviewConfiguration.jsx:254
+#: src/components/review/ReviewConfiguration.jsx:265
 msgid "Account"
 msgstr "アカウント"
 
@@ -185,13 +185,13 @@ msgstr "他のサーバーの追加..."
 msgid "Add mount"
 msgstr "マウントの追加"
 
-#: src/components/software/SoftwareSelection.jsx:122
+#: src/components/software/SoftwareSelection.jsx:113
 #, fuzzy
 #| msgid "Additional software for selected environment"
 msgid "Add-ons for your chosen environment"
 msgstr "選択した環境のその他のソフトウェア"
 
-#: src/components/software/SoftwareSelection.jsx:131
+#: src/components/software/SoftwareSelection.jsx:122
 msgid "Add-ons not specific to your environment"
 msgstr ""
 
@@ -201,7 +201,7 @@ msgstr ""
 msgid "Additional languages"
 msgstr "使用可能な言語"
 
-#: src/components/software/SoftwareSelection.jsx:156
+#: src/components/software/SoftwareSelection.jsx:147
 #, fuzzy
 #| msgid "Additional software for selected environment"
 msgid "Additional software for the selected environment"
@@ -219,7 +219,7 @@ msgstr "すべてのデバイスは、このパスフレーズにてロック解
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/login.html:8 src/index.html:20
+#: src/index.html:20 src/login.html:8
 msgid "Anaconda Web UI"
 msgstr "Anaconda Web UI"
 
@@ -268,7 +268,7 @@ msgstr "利用可能な空き領域: $0。 インストールに必要な領域:
 msgid "Back"
 msgstr "戻る"
 
-#: src/components/software/SoftwareSelection.jsx:63
+#: src/components/software/SoftwareSelection.jsx:54
 msgid "Base environment"
 msgstr "ベース環境"
 
@@ -334,7 +334,7 @@ msgstr ""
 "ここで行う変更はシステムに直ちに影響を及ぼします。操作を'元に戻す'ことはでき"
 "ません。"
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:196
 #, fuzzy
 #| msgid "Checking storage configuration..."
 msgid "Checking installation configuration..."
@@ -366,6 +366,17 @@ msgstr "閉じる"
 msgid "Close storage editor"
 msgstr "ストレージエディターを閉じる"
 
+#: src/components/source/SourceReviewDescription.jsx:34
+#: src/components/source/InstallationSource.jsx:41
+msgid "Closest mirror"
+msgstr "最寄りのミラー"
+
+#: src/components/source/InstallationSource.jsx:286
+#, fuzzy
+#| msgid "Closest mirror"
+msgid "Closest public mirror"
+msgstr "最寄りのミラー"
+
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
@@ -376,7 +387,7 @@ msgstr ""
 msgid "Completed"
 msgstr "完了しました"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:217
 #, fuzzy
 #| msgid "Apply configuration in installer"
 msgid "Configuration is incomplete"
@@ -403,6 +414,18 @@ msgstr "ストレージの設定"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:688
 msgid "Configure storage again"
 msgstr "ストレージを再度設定"
+
+#: src/components/source/InstallationSource.jsx:140
+#, fuzzy
+#| msgid "Configuring installed system"
+msgid "Configuring installation source"
+msgstr "インストール済みシステムを設定中"
+
+#: src/components/source/InstallationSource.jsx:141
+#, fuzzy
+#| msgid "Setting up installation source..."
+msgid "Configuring installation source..."
+msgstr "インストールソースをセットアップ中..."
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -496,6 +519,10 @@ msgstr "有効なストレージ構成が見つかりました:"
 msgid "Device"
 msgstr "デバイス"
 
+#: src/components/source/InstallationSource.jsx:186
+msgid "Disabled"
+msgstr "無効"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 msgid "Duplicate device."
 msgstr "重複されたデバイスです。"
@@ -554,6 +581,12 @@ msgstr "ライブデスクトップに戻る"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:248
 msgid "Extended partition"
 msgstr "拡張パーティション"
+
+#: src/components/source/InstallationSource.jsx:222
+#, fuzzy
+#| msgid "Failed to set up installation source"
+msgid "Failed to configure installation source"
+msgstr "インストールソースの設定に失敗しました"
 
 #: src/components/Error.jsx:642
 msgid "Failed to report issue"
@@ -615,7 +648,7 @@ msgstr "Bugzilla API キー"
 msgid "Hide PIN"
 msgstr "Bugzilla API キー"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Hide confirmed password"
 msgstr "確認済みパスワードを非表示にする"
 
@@ -623,7 +656,7 @@ msgstr "確認済みパスワードを非表示にする"
 msgid "Hide passphrase"
 msgstr "パスフレーズを非表示にする"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Hide password"
 msgstr "パスワードを非表示にする"
 
@@ -635,7 +668,7 @@ msgstr "ホスト名"
 msgid "How would you like to install?"
 msgstr "どのようにインストールしますか？"
 
-#: src/components/review/ReviewConfiguration.jsx:309
+#: src/components/review/ReviewConfiguration.jsx:320
 #, fuzzy
 #| msgid "I understand that all existing data will be erased"
 msgid "I understand that all existing data will be erased"
@@ -643,11 +676,11 @@ msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] "既存のデータが全て削除されることを理解しました"
 
-#: src/components/review/ReviewConfiguration.jsx:314
+#: src/components/review/ReviewConfiguration.jsx:325
 msgid "I understand that some existing data will be erased"
 msgstr "既存のデータが一部削除されることを理解しました"
 
-#: src/components/review/ReviewConfiguration.jsx:315
+#: src/components/review/ReviewConfiguration.jsx:326
 msgid "I understand that some partitions will be modified"
 msgstr "一部のパーティションが変更されることを理解しました"
 
@@ -720,7 +753,12 @@ msgstr "システムのインストールに失敗しました"
 msgid "Installation of the system failed: $0"
 msgstr "システムのインストールに失敗しました: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:269
+#: src/components/source/index.js:24 src/components/source/index.js:25
+#: src/components/review/ReviewConfiguration.jsx:252
+msgid "Installation source"
+msgstr "インストールソース"
+
+#: src/components/review/ReviewConfiguration.jsx:280
 msgid "Installation type"
 msgstr "インストールタイプ"
 
@@ -749,7 +787,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "無効なホスト名です"
 
-#: src/components/review/ReviewConfiguration.jsx:208
+#: src/components/review/ReviewConfiguration.jsx:213
 #, fuzzy
 #| msgid "completed step"
 msgid "Jump to first incomplete step"
@@ -772,7 +810,7 @@ msgid "Keyboard layout during boot"
 msgstr "起動時のキーボードレイアウト"
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/review/ReviewConfiguration.jsx:239
 msgid "Language"
 msgstr "言語"
 
@@ -830,9 +868,17 @@ msgstr "より多くの空き容量が必要かもしれません"
 msgid "Medium"
 msgstr "まあまあ"
 
+#: src/components/source/InstallationSource.jsx:49
+msgid "Metalink"
+msgstr "メタリンク"
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:310
 msgid "Minimum of $0 required"
 msgstr ""
+
+#: src/components/source/InstallationSource.jsx:48
+msgid "Mirrorlist"
+msgstr "mirrorlist"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
 msgid "Mismatch between parent device and child device reformat selection."
@@ -975,7 +1021,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:228
 msgid "Operating system"
 msgstr "オペレーティングシステム"
 
@@ -1002,7 +1048,7 @@ msgstr "パスフレーズ"
 msgid "Passphrase did not match any locked device"
 msgstr "パスフレーズがロックされたデバイスのどれとも一致しませんでした"
 
-#: src/components/Password.jsx:278
+#: src/components/Password.jsx:289
 msgid "Passphrases must match"
 msgstr "パスワードは一致する必要があります"
 
@@ -1049,6 +1095,13 @@ msgstr ""
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
 msgstr "インストールを継続"
+
+#: src/components/source/InstallationSource.jsx:182
+#, fuzzy
+#| msgctxt "GUI|Network|Proxy"
+#| msgid "_FTP Proxy"
+msgid "Proxy"
+msgstr "FTP プロキシー(_F)"
 
 #: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1196,6 +1249,10 @@ msgstr "Issueを報告する"
 msgid "Reporting issue..."
 msgstr "Issueを報告中..."
 
+#: src/components/source/InstallationSource.jsx:47
+msgid "Repository URL"
+msgstr "リポジトリーURL"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 msgid "Required"
 msgstr "必要です"
@@ -1264,6 +1321,18 @@ msgstr "root アカウントが有効ですが、ユーザーアカウントが�
 msgid "Root password has been set."
 msgstr "ルートパスワードが設定されました。"
 
+#: src/components/source/InstallationSource.jsx:188
+msgid "SSL CA certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:189
+msgid "SSL client certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:185
+msgid "SSL verification"
+msgstr ""
+
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
@@ -1278,11 +1347,11 @@ msgstr "携帯電話でQRコードを読み取るか、こちらをご覧くだ�
 msgid "Search for a language"
 msgstr "言語の検索"
 
-#: src/components/software/SoftwareSelection.jsx:159
+#: src/components/software/SoftwareSelection.jsx:150
 msgid "Search for additional software"
 msgstr "追加のソフトウェアを検索"
 
-#: src/components/software/SoftwareSelection.jsx:66
+#: src/components/software/SoftwareSelection.jsx:57
 #, fuzzy
 #| msgid "Choose a language"
 msgid "Search for an environment"
@@ -1349,6 +1418,12 @@ msgstr "サーバー(_S):"
 msgid "Server is not reachable"
 msgstr ""
 
+#: src/components/source/SourceReviewDescription.jsx:48
+msgid ""
+"Set by the kickstart file. Remove source selection from kickstart to be able "
+"to configure interactively."
+msgstr ""
+
 #: src/components/review/Hostname.jsx:87
 #, fuzzy
 #| msgid "Set host name"
@@ -1379,7 +1454,7 @@ msgstr "AM/PM を表示"
 msgid "Show PIN"
 msgstr "AM/PM を表示"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Show confirmed password"
 msgstr "パスワードの確認を表示する"
 
@@ -1387,7 +1462,7 @@ msgstr "パスワードの確認を表示する"
 msgid "Show passphrase"
 msgstr "パスフレーズを表示する"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Show password"
 msgstr "パスワードを表示する"
 
@@ -1407,12 +1482,12 @@ msgstr ""
 "ソフトウェアのインストール: ストレージの構成が完了しました。 ソフトウェアがデ"
 "バイスにインストールされています。"
 
-#: src/components/software/index.js:19 src/components/software/index.js:20
-#: src/components/review/ReviewConfiguration.jsx:247
+#: src/components/software/index.js:22 src/components/software/index.js:23
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Software selection"
 msgstr "ソフトウェアの選択"
 
-#: src/components/review/ReviewConfiguration.jsx:215
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1429,11 +1504,11 @@ msgstr "領域"
 msgid "Stacktrace"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:276
+#: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr "ストレージ"
 
-#: src/components/steps.js:35
+#: src/components/steps.js:37
 #: src/components/installation/InstallationProgress.jsx:228
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
@@ -1599,7 +1674,7 @@ msgid "Time"
 msgstr "時間"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/review/ReviewConfiguration.jsx:246
 msgid "Timezone"
 msgstr "タイムゾーン"
 
@@ -1626,6 +1701,20 @@ msgstr ""
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "タイプ"
+
+#: src/components/source/InstallationSource.jsx:263
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "_URL:"
+msgid "URL"
+msgstr "URL(_U):"
+
+#: src/components/source/InstallationSource.jsx:293
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "URL type:"
+msgid "URL type"
+msgstr "URLタイプ:"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1818,7 +1907,7 @@ msgstr "$0 としてフォーマットする"
 msgid "here"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:57
+#: src/components/review/ReviewConfiguration.jsx:61
 #, fuzzy
 #| msgid "Completed"
 msgid "incomplete"
@@ -2100,9 +2189,6 @@ msgstr ""
 #~| msgid "Changes made in Blivet-gui will directly affect your storage."
 #~ msgid "Any changes you make will immediately affect your storage."
 #~ msgstr "Blivet-guiで行われた変更はストレージに直接影響します。"
-
-#~ msgid "Disabled"
-#~ msgstr "無効"
 
 #~ msgid "Enabled"
 #~ msgstr "有効"
@@ -3027,9 +3113,6 @@ msgstr ""
 #~ msgid "City"
 #~ msgstr "都市"
 
-#~ msgid "Closest mirror"
-#~ msgstr "最寄りのミラー"
-
 #~ msgid "Complete!"
 #~ msgstr "インストールが完了しました!"
 
@@ -3067,9 +3150,6 @@ msgstr ""
 #, python-format
 #~ msgid "Configuring device %s."
 #~ msgstr "デバイス %s の設定。"
-
-#~ msgid "Configuring installed system"
-#~ msgstr "インストール済みシステムを設定中"
 
 #~ msgid "Configuring {}"
 #~ msgstr "{} の設定中"
@@ -3886,9 +3966,6 @@ msgstr ""
 #~ "先として使用する領域を選択するか、マウントポイントを手動で指定してくださ"
 #~ "い。"
 
-#~ msgid "Installation source"
-#~ msgstr "インストールソース"
-
 #~ msgid "Installation source needs to be set up first."
 #~ msgstr "インストールソースは最初に設定する必要があります。"
 
@@ -4118,9 +4195,6 @@ msgstr ""
 #~ msgid "Memory"
 #~ msgstr "メモリー"
 
-#~ msgid "Metalink"
-#~ msgstr "メタリンク"
-
 #~ msgid "Method"
 #~ msgstr "メソッド"
 
@@ -4132,9 +4206,6 @@ msgstr ""
 
 #~ msgid "Minutes Up"
 #~ msgstr "分 +"
-
-#~ msgid "Mirrorlist"
-#~ msgstr "mirrorlist"
 
 #~ msgid "Missing name of the %addon section."
 #~ msgstr "%addonセクション名がありません。"
@@ -4932,9 +5003,6 @@ msgstr ""
 #~ msgid "Repo URL"
 #~ msgstr "リポジトリーのURL"
 
-#~ msgid "Repository URL"
-#~ msgstr "リポジトリーURL"
-
 #~ msgid "Repository name conflicts with internal repository name"
 #~ msgstr "リポジトリー名が内部のリポジトリー名と競合しています"
 
@@ -5178,9 +5246,6 @@ msgstr ""
 
 #~ msgid "Set timezone"
 #~ msgstr "タイムゾーンの設定"
-
-#~ msgid "Setting up installation source..."
-#~ msgstr "インストールソースをセットアップ中..."
 
 #~ msgid "Setting up kexec"
 #~ msgstr "kexec の設定"
@@ -6089,10 +6154,6 @@ msgstr ""
 
 #~ msgid "URL of the repository"
 #~ msgstr "リポジトリーのURL"
-
-#~ msgctxt "GUI|Software Source"
-#~ msgid "URL type:"
-#~ msgstr "URLタイプ:"
 
 #~ msgid "USER SETTINGS"
 #~ msgstr "ユーザーの設定"
@@ -7025,10 +7086,6 @@ msgstr ""
 #~ msgid "_Exit Installer"
 #~ msgstr "インストーラーを終了(_E)"
 
-#~ msgctxt "GUI|Network|Proxy"
-#~ msgid "_FTP Proxy"
-#~ msgstr "FTP プロキシー(_F)"
-
 #~ msgctxt "GUI|Progress"
 #~ msgid "_Finish Installation"
 #~ msgstr "インストールの終了(_F)"
@@ -7425,10 +7482,6 @@ msgstr ""
 #~ msgctxt "GUI|Spoke"
 #~ msgid "_Time & Date"
 #~ msgstr "時刻と日付(_T)"
-
-#~ msgctxt "GUI|Software Source"
-#~ msgid "_URL:"
-#~ msgstr "URL(_U):"
 
 #~ msgctxt "GUI|Custom Partitioning|Encrypted"
 #~ msgid "_Unlock"
@@ -8020,9 +8073,6 @@ msgstr ""
 #~ msgid "$0 (of $1) disk selected"
 #~ msgid_plural "$0 (of $1) disks selected"
 #~ msgstr[0] "ディスクが選択されていません"
-
-#~ msgid "Failed to set up installation source"
-#~ msgstr "インストールソースの設定に失敗しました"
 
 #~ msgid "Error downloading package metadata"
 #~ msgstr "パッケージメタデータをダウンロード中にエラー"

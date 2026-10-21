@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 07:55+0000\n"
+"POT-Creation-Date: 2026-10-21 08:00+0000\n"
 "PO-Revision-Date: 2023-11-06 12:18+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Galician <https://translate.fedoraproject.org/projects/"
@@ -117,7 +117,7 @@ msgstr "Instalación"
 msgid "About"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:254
+#: src/components/review/ReviewConfiguration.jsx:265
 msgid "Account"
 msgstr ""
 
@@ -136,11 +136,11 @@ msgstr ""
 msgid "Add mount"
 msgstr ""
 
-#: src/components/software/SoftwareSelection.jsx:122
+#: src/components/software/SoftwareSelection.jsx:113
 msgid "Add-ons for your chosen environment"
 msgstr ""
 
-#: src/components/software/SoftwareSelection.jsx:131
+#: src/components/software/SoftwareSelection.jsx:122
 msgid "Add-ons not specific to your environment"
 msgstr ""
 
@@ -149,7 +149,7 @@ msgstr ""
 msgid "Additional languages"
 msgstr "Instalación"
 
-#: src/components/software/SoftwareSelection.jsx:156
+#: src/components/software/SoftwareSelection.jsx:147
 msgid "Additional software for the selected environment"
 msgstr ""
 
@@ -165,7 +165,7 @@ msgstr ""
 msgid "Anaconda"
 msgstr ""
 
-#: src/login.html:8 src/index.html:20
+#: src/index.html:20 src/login.html:8
 #, fuzzy
 msgid "Anaconda Web UI"
 msgstr "Instalación"
@@ -210,7 +210,7 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
-#: src/components/software/SoftwareSelection.jsx:63
+#: src/components/software/SoftwareSelection.jsx:54
 msgid "Base environment"
 msgstr ""
 
@@ -275,7 +275,7 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:196
 #, fuzzy
 #| msgid "Checking storage configuration..."
 msgid "Checking installation configuration..."
@@ -307,6 +307,17 @@ msgstr "Fechar"
 msgid "Close storage editor"
 msgstr "Instalación"
 
+#: src/components/source/SourceReviewDescription.jsx:34
+#: src/components/source/InstallationSource.jsx:41
+msgid "Closest mirror"
+msgstr "Espello máis próximo"
+
+#: src/components/source/InstallationSource.jsx:286
+#, fuzzy
+#| msgid "Closest mirror"
+msgid "Closest public mirror"
+msgstr "Espello máis próximo"
+
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
@@ -317,7 +328,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Completado!"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:217
 msgid "Configuration is incomplete"
 msgstr ""
 
@@ -345,6 +356,18 @@ msgstr "A examinar o almacenamento..."
 #, fuzzy
 msgid "Configure storage again"
 msgstr "A examinar o almacenamento..."
+
+#: src/components/source/InstallationSource.jsx:140
+#, fuzzy
+#| msgid "Setting up installation source..."
+msgid "Configuring installation source"
+msgstr "Configurando fonte de instalación..."
+
+#: src/components/source/InstallationSource.jsx:141
+#, fuzzy
+#| msgid "Setting up installation source..."
+msgid "Configuring installation source..."
+msgstr "Configurando fonte de instalación..."
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -441,6 +464,11 @@ msgstr ""
 msgid "Device"
 msgstr ""
 
+#: src/components/source/InstallationSource.jsx:186
+#, fuzzy
+msgid "Disabled"
+msgstr "Activado"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 #, fuzzy
 msgid "Duplicate device."
@@ -510,6 +538,12 @@ msgstr ""
 msgid "Extended partition"
 msgstr "Partición normal"
 
+#: src/components/source/InstallationSource.jsx:222
+#, fuzzy
+#| msgid "Setting up installation source..."
+msgid "Failed to configure installation source"
+msgstr "Configurando fonte de instalación..."
+
 #: src/components/Error.jsx:642
 #, fuzzy
 #| msgid "Generating updated storage configuration"
@@ -569,7 +603,7 @@ msgstr ""
 msgid "Hide PIN"
 msgstr ""
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 #, fuzzy
 msgid "Hide confirmed password"
 msgstr "O contrasinal está baleiro"
@@ -579,7 +613,7 @@ msgstr "O contrasinal está baleiro"
 msgid "Hide passphrase"
 msgstr "O contrasinal está baleiro"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 #, fuzzy
 msgid "Hide password"
 msgstr "O contrasinal está baleiro"
@@ -592,18 +626,18 @@ msgstr ""
 msgid "How would you like to install?"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:309
+#: src/components/review/ReviewConfiguration.jsx:320
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/components/review/ReviewConfiguration.jsx:314
+#: src/components/review/ReviewConfiguration.jsx:325
 msgid "I understand that some existing data will be erased"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:315
+#: src/components/review/ReviewConfiguration.jsx:326
 msgid "I understand that some partitions will be modified"
 msgstr ""
 
@@ -680,7 +714,14 @@ msgstr "Instalación"
 msgid "Installation of the system failed: $0"
 msgstr "Instalación"
 
-#: src/components/review/ReviewConfiguration.jsx:269
+#: src/components/source/index.js:24 src/components/source/index.js:25
+#: src/components/review/ReviewConfiguration.jsx:252
+#, fuzzy
+#| msgid "Installation"
+msgid "Installation source"
+msgstr "Instalación"
+
+#: src/components/review/ReviewConfiguration.jsx:280
 #, fuzzy
 msgid "Installation type"
 msgstr "Instalación"
@@ -713,7 +754,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Nome de repositorio non válido"
 
-#: src/components/review/ReviewConfiguration.jsx:208
+#: src/components/review/ReviewConfiguration.jsx:213
 #, fuzzy
 msgid "Jump to first incomplete step"
 msgstr "Completado!"
@@ -733,7 +774,7 @@ msgid "Keyboard layout during boot"
 msgstr ""
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/review/ReviewConfiguration.jsx:239
 #, fuzzy
 msgid "Language"
 msgstr "Instalación"
@@ -794,8 +835,16 @@ msgstr "A instalar o software"
 msgid "Medium"
 msgstr ""
 
+#: src/components/source/InstallationSource.jsx:49
+msgid "Metalink"
+msgstr ""
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:310
 msgid "Minimum of $0 required"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:48
+msgid "Mirrorlist"
 msgstr ""
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
@@ -945,7 +994,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:228
 #, fuzzy
 msgid "Operating system"
 msgstr "A crear os usuarios"
@@ -975,7 +1024,7 @@ msgstr ""
 msgid "Passphrase did not match any locked device"
 msgstr ""
 
-#: src/components/Password.jsx:278
+#: src/components/Password.jsx:289
 #, fuzzy
 msgid "Passphrases must match"
 msgstr "Os contrasinais non coinciden!"
@@ -1027,6 +1076,10 @@ msgstr ""
 #| msgid "Installation"
 msgid "Proceed with installation"
 msgstr "Instalación"
+
+#: src/components/source/InstallationSource.jsx:182
+msgid "Proxy"
+msgstr ""
 
 #: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1175,6 +1228,10 @@ msgstr ""
 msgid "Reporting issue..."
 msgstr "a comprobar a situación..."
 
+#: src/components/source/InstallationSource.jsx:47
+msgid "Repository URL"
+msgstr ""
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 #, fuzzy
 msgid "Required"
@@ -1253,6 +1310,18 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "O contrasinal non está creado."
 
+#: src/components/source/InstallationSource.jsx:188
+msgid "SSL CA certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:189
+msgid "SSL client certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:185
+msgid "SSL verification"
+msgstr ""
+
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
@@ -1268,11 +1337,11 @@ msgstr ""
 msgid "Search for a language"
 msgstr "Instalación"
 
-#: src/components/software/SoftwareSelection.jsx:159
+#: src/components/software/SoftwareSelection.jsx:150
 msgid "Search for additional software"
 msgstr ""
 
-#: src/components/software/SoftwareSelection.jsx:66
+#: src/components/software/SoftwareSelection.jsx:57
 #, fuzzy
 msgid "Search for an environment"
 msgstr "Instalación"
@@ -1336,6 +1405,12 @@ msgstr "Servidor NFS %s"
 msgid "Server is not reachable"
 msgstr ""
 
+#: src/components/source/SourceReviewDescription.jsx:48
+msgid ""
+"Set by the kickstart file. Remove source selection from kickstart to be able "
+"to configure interactively."
+msgstr ""
+
 #: src/components/review/Hostname.jsx:87
 msgid "Set custom hostname"
 msgstr ""
@@ -1360,7 +1435,7 @@ msgstr ""
 msgid "Show PIN"
 msgstr ""
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 #, fuzzy
 msgid "Show confirmed password"
 msgstr "O contrasinal está baleiro"
@@ -1370,7 +1445,7 @@ msgstr "O contrasinal está baleiro"
 msgid "Show passphrase"
 msgstr "O contrasinal está baleiro"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 #, fuzzy
 msgid "Show password"
 msgstr "O contrasinal está baleiro"
@@ -1390,15 +1465,15 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: src/components/software/index.js:19 src/components/software/index.js:20
-#: src/components/review/ReviewConfiguration.jsx:247
+#: src/components/software/index.js:22 src/components/software/index.js:23
+#: src/components/review/ReviewConfiguration.jsx:258
 #, fuzzy
 #| msgctxt "GUI|Custom Partitioning|Reset Dialog"
 #| msgid "_Preserve current selections"
 msgid "Software selection"
 msgstr "_Preservar seleccións actuais"
 
-#: src/components/review/ReviewConfiguration.jsx:215
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1415,11 +1490,11 @@ msgstr ""
 msgid "Stacktrace"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:276
+#: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr ""
 
-#: src/components/steps.js:35
+#: src/components/steps.js:37
 #: src/components/installation/InstallationProgress.jsx:228
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
@@ -1576,7 +1651,7 @@ msgid "Time"
 msgstr ""
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/review/ReviewConfiguration.jsx:246
 #, fuzzy
 #| msgid "%s timezone"
 msgid "Timezone"
@@ -1606,6 +1681,16 @@ msgstr ""
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "Tipo"
+
+#: src/components/source/InstallationSource.jsx:263
+msgid "URL"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:293
+#, fuzzy
+#| msgid "URL is empty"
+msgid "URL type"
+msgstr "A URL está baleira"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1792,7 +1877,7 @@ msgstr ""
 msgid "here"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:57
+#: src/components/review/ReviewConfiguration.jsx:61
 #, fuzzy
 msgid "incomplete"
 msgstr "Completado!"
@@ -1905,10 +1990,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Install using the configured storage?"
 #~ msgstr "A instalar o software"
-
-#, fuzzy
-#~ msgid "Disabled"
-#~ msgstr "Activado"
 
 #~ msgid "Enabled"
 #~ msgstr "Activado"
@@ -2172,9 +2253,6 @@ msgstr ""
 
 #~ msgid "Checking software dependencies..."
 #~ msgstr "Comprobando dependencias de software..."
-
-#~ msgid "Closest mirror"
-#~ msgstr "Espello máis próximo"
 
 #~ msgid "Complete!"
 #~ msgstr "Completado!"
@@ -2806,9 +2884,6 @@ msgstr ""
 #~ msgid "Select a partition scheme configuration."
 #~ msgstr "Escolla unha configuración do esquema de particións."
 
-#~ msgid "Setting up installation source..."
-#~ msgstr "Configurando fonte de instalación..."
-
 #~ msgid "Setting up the installation environment"
 #~ msgstr "A configurar o entorno de instalación"
 
@@ -2939,9 +3014,6 @@ msgstr ""
 #, python-format
 #~ msgid "Total selected space to reclaim: <b>%s</b>"
 #~ msgstr "Espazo total seleccionado para reclamar: <b>%s</b>"
-
-#~ msgid "URL is empty"
-#~ msgstr "A URL está baleira"
 
 #, fuzzy
 #~| msgid "Invalid repository name"
@@ -3341,11 +3413,6 @@ msgstr ""
 #~ msgid_plural "$0 (of $1) disks selected"
 #~ msgstr[0] "Non hai ningún disco seleccionado"
 #~ msgstr[1] "Non hai ningún disco seleccionado"
-
-#, fuzzy
-#~| msgid "Installation"
-#~ msgid "Installation progress"
-#~ msgstr "Instalación"
 
 #, fuzzy
 #~| msgid "%s timezone"

@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 07:55+0000\n"
+"POT-Creation-Date: 2026-10-21 08:00+0000\n"
 "PO-Revision-Date: 2026-10-11 04:15+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/anaconda-"
@@ -134,7 +134,7 @@ msgstr "Ακύρωση εγκατάστασης"
 msgid "About"
 msgstr "Πληροφορίες"
 
-#: src/components/review/ReviewConfiguration.jsx:254
+#: src/components/review/ReviewConfiguration.jsx:265
 msgid "Account"
 msgstr "Λογαριασμός"
 
@@ -151,11 +151,11 @@ msgstr "Προσθήκη άλλου διακομιστή..."
 msgid "Add mount"
 msgstr "Προσθήκη προσάρτησης"
 
-#: src/components/software/SoftwareSelection.jsx:122
+#: src/components/software/SoftwareSelection.jsx:113
 msgid "Add-ons for your chosen environment"
 msgstr "Πρόσθετα για το επιλεγμένο σας περιβάλλον"
 
-#: src/components/software/SoftwareSelection.jsx:131
+#: src/components/software/SoftwareSelection.jsx:122
 msgid "Add-ons not specific to your environment"
 msgstr "Πρόσθετα που δεν αφορούν συγκεκριμένα το περιβάλλον σας"
 
@@ -163,7 +163,7 @@ msgstr "Πρόσθετα που δεν αφορούν συγκεκριμένα �
 msgid "Additional languages"
 msgstr "Πρόσθετες γλώσσες"
 
-#: src/components/software/SoftwareSelection.jsx:156
+#: src/components/software/SoftwareSelection.jsx:147
 msgid "Additional software for the selected environment"
 msgstr "Πρόσθετο λογισμικό για το επιλεγμένο περιβάλλον"
 
@@ -182,7 +182,7 @@ msgstr ""
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/login.html:8 src/index.html:20
+#: src/index.html:20 src/login.html:8
 msgid "Anaconda Web UI"
 msgstr "Anaconda Web UI"
 
@@ -228,7 +228,7 @@ msgstr "Διαθέσιμος ελεύθερος χώρος: $0. Η εγκατά�
 msgid "Back"
 msgstr "Επιστροφή"
 
-#: src/components/software/SoftwareSelection.jsx:63
+#: src/components/software/SoftwareSelection.jsx:54
 msgid "Base environment"
 msgstr "Βασικό περιβάλλον"
 
@@ -295,7 +295,7 @@ msgstr ""
 "Οι αλλαγές που πραγματοποιείτε εδώ θα επηρεάσουν άμεσα το σύστημα. Δεν θα "
 "είναι δυνατή η αναίρεσή τους."
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:196
 msgid "Checking installation configuration..."
 msgstr "Έλεγχος διαμόρφωσης εγκατάστασης..."
 
@@ -325,6 +325,17 @@ msgstr "Κλείσιμο"
 msgid "Close storage editor"
 msgstr "Κλείσιμο επεξεργασίας αποθηκευτικού χώρου"
 
+#: src/components/source/SourceReviewDescription.jsx:34
+#: src/components/source/InstallationSource.jsx:41
+#, fuzzy
+#| msgid "Close storage editor"
+msgid "Closest mirror"
+msgstr "Κλείσιμο επεξεργασίας αποθηκευτικού χώρου"
+
+#: src/components/source/InstallationSource.jsx:286
+msgid "Closest public mirror"
+msgstr ""
+
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
@@ -336,7 +347,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Ολοκληρώθηκε"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:217
 msgid "Configuration is incomplete"
 msgstr "Η διαμόρφωση δεν είναι ολοκληρωμένη"
 
@@ -359,6 +370,18 @@ msgstr "Ρύθμιση αποθηκευτικού χώρου"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:688
 msgid "Configure storage again"
 msgstr "Ρύθμιση αποθηκευτικού χώρου ξανά"
+
+#: src/components/source/InstallationSource.jsx:140
+#, fuzzy
+#| msgid "Continue installation"
+msgid "Configuring installation source"
+msgstr "Συνέχεια εγκατάστασης"
+
+#: src/components/source/InstallationSource.jsx:141
+#, fuzzy
+#| msgid "Checking installation configuration..."
+msgid "Configuring installation source..."
+msgstr "Έλεγχος διαμόρφωσης εγκατάστασης..."
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -446,6 +469,10 @@ msgstr "Εντοπίστηκε έγκυρη διάταξη αποθηκευτι�
 msgid "Device"
 msgstr "Συσκευή"
 
+#: src/components/source/InstallationSource.jsx:186
+msgid "Disabled"
+msgstr "Απενεργοποιημένο"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 msgid "Duplicate device."
 msgstr "Διπλότυπη συσκευή."
@@ -509,6 +536,12 @@ msgstr "Έξοδος στην επιφάνεια εργασίας"
 msgid "Extended partition"
 msgstr "Εκτεταμένο διαμέρισμα"
 
+#: src/components/source/InstallationSource.jsx:222
+#, fuzzy
+#| msgid "Preparing transaction from installation source"
+msgid "Failed to configure installation source"
+msgstr "Προετοιμασία συναλλαγής από την πηγή εγκατάστασης"
+
 #: src/components/Error.jsx:642
 msgid "Failed to report issue"
 msgstr "Αποτυχία αναφοράς του προβλήματος"
@@ -567,7 +600,7 @@ msgstr "Απόκρυψη κλειδιού API"
 msgid "Hide PIN"
 msgstr "Απόκρυψη PIN"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Hide confirmed password"
 msgstr "Απόκρυψη επιβεβαιωμένου κωδικού πρόσβασης"
 
@@ -575,7 +608,7 @@ msgstr "Απόκρυψη επιβεβαιωμένου κωδικού πρόσβ�
 msgid "Hide passphrase"
 msgstr "Απόκρυψη φράσης πρόσβασης"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Hide password"
 msgstr "Απόκρυψη κωδικού πρόσβασης"
 
@@ -587,7 +620,7 @@ msgstr "Όνομα υπολογιστή"
 msgid "How would you like to install?"
 msgstr "Με ποιον τρόπο θέλετε να κάνετε την εγκατάσταση;"
 
-#: src/components/review/ReviewConfiguration.jsx:309
+#: src/components/review/ReviewConfiguration.jsx:320
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
@@ -596,11 +629,11 @@ msgstr[1] ""
 "Κατανοώ ότι όλα τα υπάρχοντα δεδομένα θα διαγραφούν από τους επιλεγμένους "
 "δίσκους"
 
-#: src/components/review/ReviewConfiguration.jsx:314
+#: src/components/review/ReviewConfiguration.jsx:325
 msgid "I understand that some existing data will be erased"
 msgstr "Κατανοώ ότι ορισμένα από τα υπάρχοντα δεδομένα θα διαγραφούν"
 
-#: src/components/review/ReviewConfiguration.jsx:315
+#: src/components/review/ReviewConfiguration.jsx:326
 msgid "I understand that some partitions will be modified"
 msgstr "Κατανοώ ότι ορισμένα από τα υπάρχοντα διαμέρισματα θα τροποποιηθούν"
 
@@ -684,7 +717,14 @@ msgstr "Η εγκατάσταση του συστήματος απέτυχε"
 msgid "Installation of the system failed: $0"
 msgstr "Αποτυχία εγκατάστασης συστήματος: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:269
+#: src/components/source/index.js:24 src/components/source/index.js:25
+#: src/components/review/ReviewConfiguration.jsx:252
+#, fuzzy
+#| msgid "Installation type"
+msgid "Installation source"
+msgstr "Τύπος εγκατάστασης"
+
+#: src/components/review/ReviewConfiguration.jsx:280
 msgid "Installation type"
 msgstr "Τύπος εγκατάστασης"
 
@@ -719,7 +759,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Μη έγκυρο όνομα υπολογιστή"
 
-#: src/components/review/ReviewConfiguration.jsx:208
+#: src/components/review/ReviewConfiguration.jsx:213
 msgid "Jump to first incomplete step"
 msgstr "Μετάβαση στο πρώτο μη ολοκληρωμένο βήμα"
 
@@ -740,7 +780,7 @@ msgid "Keyboard layout during boot"
 msgstr "Διάταξη πληκτρολογίου κατά την εκκίνηση"
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/review/ReviewConfiguration.jsx:239
 msgid "Language"
 msgstr "Γλώσσα"
 
@@ -795,9 +835,19 @@ msgstr "Ενδέχεται να απαιτείται περισσότερος ε
 msgid "Medium"
 msgstr "Μέτριος"
 
+#: src/components/source/InstallationSource.jsx:49
+#, fuzzy
+#| msgid "metalink"
+msgid "Metalink"
+msgstr "Metalink"
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:310
 msgid "Minimum of $0 required"
 msgstr "Απαιτούνται τουλάχιστον $0"
+
+#: src/components/source/InstallationSource.jsx:48
+msgid "Mirrorlist"
+msgstr ""
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
 msgid "Mismatch between parent device and child device reformat selection."
@@ -939,7 +989,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Άνοιγμα φόρμας καταχώρησης σφαλμάτων Bugzilla"
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:228
 msgid "Operating system"
 msgstr "Λειτουργικό σύστημα"
 
@@ -966,7 +1016,7 @@ msgstr "Φράση πρόσβασης"
 msgid "Passphrase did not match any locked device"
 msgstr "Η φράση πρόσβασης δεν ταίριαξε με καμία κλειδωμένη συσκευή"
 
-#: src/components/Password.jsx:278
+#: src/components/Password.jsx:289
 msgid "Passphrases must match"
 msgstr "Οι φράσεις πρόσβασης πρέπει να ταιριάζουν"
 
@@ -1009,6 +1059,10 @@ msgstr "Προτιμάτε να κάνετε χειροκίνητα αναφορ
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
 msgstr "Συνέχεια με την εγκατάσταση"
+
+#: src/components/source/InstallationSource.jsx:182
+msgid "Proxy"
+msgstr ""
 
 #: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1164,6 +1218,12 @@ msgstr "Αναφορά προβλήματος"
 msgid "Reporting issue..."
 msgstr "Αναφορά προβλήματος..."
 
+#: src/components/source/InstallationSource.jsx:47
+#, fuzzy
+#| msgid "repository URL"
+msgid "Repository URL"
+msgstr "Διεύθυνση αποθετηρίου"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 msgid "Required"
 msgstr "Απαιτείται"
@@ -1230,6 +1290,18 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "Ο κωδικός πρόσβασης root έχει οριστεί."
 
+#: src/components/source/InstallationSource.jsx:188
+msgid "SSL CA certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:189
+msgid "SSL client certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:185
+msgid "SSL verification"
+msgstr ""
+
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
@@ -1244,11 +1316,11 @@ msgstr "Σαρώστε τον κωδικό QR με το τηλέφωνό σας 
 msgid "Search for a language"
 msgstr "Αναζήτηση γλώσσας"
 
-#: src/components/software/SoftwareSelection.jsx:159
+#: src/components/software/SoftwareSelection.jsx:150
 msgid "Search for additional software"
 msgstr "Αναζήτηση για πρόσθετο λογισμικό"
 
-#: src/components/software/SoftwareSelection.jsx:66
+#: src/components/software/SoftwareSelection.jsx:57
 msgid "Search for an environment"
 msgstr "Αναζήτηση για περιβάλλον"
 
@@ -1305,6 +1377,12 @@ msgstr "Διακομιστής"
 msgid "Server is not reachable"
 msgstr "Δεν είναι δυνατή η επικοινωνία με τον διακομιστή"
 
+#: src/components/source/SourceReviewDescription.jsx:48
+msgid ""
+"Set by the kickstart file. Remove source selection from kickstart to be able "
+"to configure interactively."
+msgstr ""
+
 #: src/components/review/Hostname.jsx:87
 msgid "Set custom hostname"
 msgstr "Ορισμός προσαρμοσμένου ονόματος υπολογιστή"
@@ -1329,7 +1407,7 @@ msgstr "Εμφάνιση κλειδιού API"
 msgid "Show PIN"
 msgstr "Εμφάνιση PIN"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Show confirmed password"
 msgstr "Εμφάνιση επιβεβαιωμένου κωδικού πρόσβασης"
 
@@ -1337,7 +1415,7 @@ msgstr "Εμφάνιση επιβεβαιωμένου κωδικού πρόσβ�
 msgid "Show passphrase"
 msgstr "Εμφάνιση φράσης πρόσβασης"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Show password"
 msgstr "Εμφάνιση κωδικού πρόσβασης"
 
@@ -1357,12 +1435,12 @@ msgstr ""
 "Εγκατάσταση λογισμικού: η διαμόρφωση του αποθηκευτικού χώρου έχει "
 "ολοκληρωθεί. Γίνεται τώρα εγκατάσταση του λογισμικού στη συσκευή σας."
 
-#: src/components/software/index.js:19 src/components/software/index.js:20
-#: src/components/review/ReviewConfiguration.jsx:247
+#: src/components/software/index.js:22 src/components/software/index.js:23
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Software selection"
 msgstr "Επιλογή λογισμικού"
 
-#: src/components/review/ReviewConfiguration.jsx:215
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1381,11 +1459,11 @@ msgstr "Χώρος"
 msgid "Stacktrace"
 msgstr "Ιχνηλάτηση στοίβας"
 
-#: src/components/review/ReviewConfiguration.jsx:276
+#: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr "Αποθηκευτικός χώρος"
 
-#: src/components/steps.js:35
+#: src/components/steps.js:37
 #: src/components/installation/InstallationProgress.jsx:228
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
@@ -1570,7 +1648,7 @@ msgid "Time"
 msgstr "Ώρα"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/review/ReviewConfiguration.jsx:246
 msgid "Timezone"
 msgstr "Ζώνη ώρας"
 
@@ -1597,6 +1675,14 @@ msgstr ""
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "Τύπος"
+
+#: src/components/source/InstallationSource.jsx:263
+msgid "URL"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:293
+msgid "URL type"
+msgstr ""
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1780,7 +1866,7 @@ msgstr "διαμόρφωση ως $0"
 msgid "here"
 msgstr "εδώ"
 
-#: src/components/review/ReviewConfiguration.jsx:57
+#: src/components/review/ReviewConfiguration.jsx:61
 msgid "incomplete"
 msgstr "μη ολοκληρωμένο"
 
@@ -1987,9 +2073,6 @@ msgstr "αναίρεση"
 #, fuzzy
 #~ msgid "Install using the configured storage?"
 #~ msgstr "Εγκατάσταση λογισμικού {}%"
-
-#~ msgid "Disabled"
-#~ msgstr "Απενεργοποιημένο"
 
 #~ msgid "Enabled"
 #~ msgstr "Ενεργοποιημένο"
@@ -2354,11 +2437,6 @@ msgstr "αναίρεση"
 #~ msgid "Memory"
 #~ msgstr "Μνήμη"
 
-#, fuzzy
-#~| msgid "metalink"
-#~ msgid "Metalink"
-#~ msgstr "Metalink"
-
 #~ msgid "Minutes"
 #~ msgstr "Λεπτά"
 
@@ -2440,9 +2518,6 @@ msgstr "αναίρεση"
 #~ msgid "Preparing to install"
 #~ msgstr "Γίνεται προετοιμασία εγκατάστασης"
 
-#~ msgid "Preparing transaction from installation source"
-#~ msgstr "Προετοιμασία συναλλαγής από την πηγή εγκατάστασης"
-
 #~ msgid "Press ENTER to continue"
 #~ msgstr "Πατήστε ENTER για να συνεχίσετε"
 
@@ -2473,11 +2548,6 @@ msgstr "αναίρεση"
 #~ msgctxt "GUI|Custom Partitioning"
 #~ msgid "Remove"
 #~ msgstr "Αφαίρεση"
-
-#, fuzzy
-#~| msgid "repository URL"
-#~ msgid "Repository URL"
-#~ msgstr "Διεύθυνση αποθετηρίου"
 
 #~ msgid "Rescue"
 #~ msgstr "Λειτουργία διάσωσης"

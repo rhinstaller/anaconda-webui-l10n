@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 07:55+0000\n"
+"POT-Creation-Date: 2026-10-21 08:00+0000\n"
 "PO-Revision-Date: 2026-10-03 08:33+0000\n"
 "Last-Translator: Jonáš Loskot "
 "<alius@users.noreply.translate.fedoraproject.org>\n"
@@ -156,7 +156,7 @@ msgstr "Přerušit instalaci"
 msgid "About"
 msgstr "O aplikaci"
 
-#: src/components/review/ReviewConfiguration.jsx:254
+#: src/components/review/ReviewConfiguration.jsx:265
 msgid "Account"
 msgstr "Účet"
 
@@ -173,11 +173,11 @@ msgstr "Přidat další server…"
 msgid "Add mount"
 msgstr "Přidat přípojný bod"
 
-#: src/components/software/SoftwareSelection.jsx:122
+#: src/components/software/SoftwareSelection.jsx:113
 msgid "Add-ons for your chosen environment"
 msgstr "Doplňky pro vámi zvolené prostředí"
 
-#: src/components/software/SoftwareSelection.jsx:131
+#: src/components/software/SoftwareSelection.jsx:122
 msgid "Add-ons not specific to your environment"
 msgstr "Doplňky, které nejsou specifické vámi využívanému prostředí"
 
@@ -185,7 +185,7 @@ msgstr "Doplňky, které nejsou specifické vámi využívanému prostředí"
 msgid "Additional languages"
 msgstr "Dodatečné jazyky"
 
-#: src/components/software/SoftwareSelection.jsx:156
+#: src/components/software/SoftwareSelection.jsx:147
 msgid "Additional software for the selected environment"
 msgstr "Doplňkový software pro vybrané prostředí"
 
@@ -202,7 +202,7 @@ msgstr "Budou odemknuta veškerá zařízení používající tuto heslovou frá
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/login.html:8 src/index.html:20
+#: src/index.html:20 src/login.html:8
 msgid "Anaconda Web UI"
 msgstr "Anaconda Web UI"
 
@@ -247,7 +247,7 @@ msgstr "Volný diskový prostor: $0. Instalace požaduje: $1."
 msgid "Back"
 msgstr "Zpět"
 
-#: src/components/software/SoftwareSelection.jsx:63
+#: src/components/software/SoftwareSelection.jsx:54
 msgid "Base environment"
 msgstr "Základní prostředí"
 
@@ -312,7 +312,7 @@ msgid ""
 msgstr ""
 "Změny zde provedené budou mít okamžitý vliv na systém. Nelze je „vzít zpět“."
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:196
 msgid "Checking installation configuration..."
 msgstr "Kontrola konfigurace instalace…"
 
@@ -341,6 +341,17 @@ msgstr "Zavřít"
 msgid "Close storage editor"
 msgstr "Zavřít editor úložiště"
 
+#: src/components/source/SourceReviewDescription.jsx:34
+#: src/components/source/InstallationSource.jsx:41
+msgid "Closest mirror"
+msgstr "Nejbližší zrcadlo"
+
+#: src/components/source/InstallationSource.jsx:286
+#, fuzzy
+#| msgid "Closest mirror"
+msgid "Closest public mirror"
+msgstr "Nejbližší zrcadlo"
+
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
@@ -352,7 +363,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Dokončeno"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:217
 msgid "Configuration is incomplete"
 msgstr "Konfigurace není dokončena"
 
@@ -375,6 +386,18 @@ msgstr "Uspořádat úložiště"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:688
 msgid "Configure storage again"
 msgstr "Znovu nastavit úložiště"
+
+#: src/components/source/InstallationSource.jsx:140
+#, fuzzy
+#| msgid "Configuring installed system"
+msgid "Configuring installation source"
+msgstr "Nastavování nainstalovaného systému"
+
+#: src/components/source/InstallationSource.jsx:141
+#, fuzzy
+#| msgid "Setting up installation source..."
+msgid "Configuring installation source..."
+msgstr "Nastavování instalačního zdroje…"
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -460,6 +483,10 @@ msgstr "Nalezeno platné rozvržení úložiště:"
 msgid "Device"
 msgstr "Zařízení"
 
+#: src/components/source/InstallationSource.jsx:186
+msgid "Disabled"
+msgstr "Vypnuto"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 msgid "Duplicate device."
 msgstr "Zduplikovat zařízení."
@@ -521,6 +548,12 @@ msgstr "Ukončit a přejít do systému spuštěného přímo z instalačního m
 msgid "Extended partition"
 msgstr "Rozšířený oddíl"
 
+#: src/components/source/InstallationSource.jsx:222
+#, fuzzy
+#| msgid "Failed to set up installation source"
+msgid "Failed to configure installation source"
+msgstr "Nepodařilo se nastavit instalační zdroj"
+
 #: src/components/Error.jsx:642
 msgid "Failed to report issue"
 msgstr "Nepodařilo se nahlásit problém"
@@ -577,7 +610,7 @@ msgstr "Skrýt klíč k API"
 msgid "Hide PIN"
 msgstr "Skrýt PIN"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Hide confirmed password"
 msgstr "Skrýt potvrzené heslo"
 
@@ -585,7 +618,7 @@ msgstr "Skrýt potvrzené heslo"
 msgid "Hide passphrase"
 msgstr "Skrýt heslovou frázi"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Hide password"
 msgstr "Skrýt heslo"
 
@@ -597,7 +630,7 @@ msgstr "Název stroje"
 msgid "How would you like to install?"
 msgstr "Jak si přejete nainstalovat?"
 
-#: src/components/review/ReviewConfiguration.jsx:309
+#: src/components/review/ReviewConfiguration.jsx:320
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
@@ -605,11 +638,11 @@ msgstr[0] "Rozumím, že veškerá stávající data budou smazána"
 msgstr[1] "Rozumím, že veškerá stávající data budou smazána z vybraných disků"
 msgstr[2] "Rozumím, že veškerá stávající data budou smazána z vybraných disků"
 
-#: src/components/review/ReviewConfiguration.jsx:314
+#: src/components/review/ReviewConfiguration.jsx:325
 msgid "I understand that some existing data will be erased"
 msgstr "Rozumím, že některá ze stávajících dat budou smazána"
 
-#: src/components/review/ReviewConfiguration.jsx:315
+#: src/components/review/ReviewConfiguration.jsx:326
 msgid "I understand that some partitions will be modified"
 msgstr "Rozumím, že některé oddíly budou změněny"
 
@@ -692,7 +725,12 @@ msgstr "Instalace systému se nezdařila"
 msgid "Installation of the system failed: $0"
 msgstr "instalace systému se nezdařila: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:269
+#: src/components/source/index.js:24 src/components/source/index.js:25
+#: src/components/review/ReviewConfiguration.jsx:252
+msgid "Installation source"
+msgstr "Instalační zdroj"
+
+#: src/components/review/ReviewConfiguration.jsx:280
 msgid "Installation type"
 msgstr "Typ instalace"
 
@@ -725,7 +763,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Neplatný název stroje"
 
-#: src/components/review/ReviewConfiguration.jsx:208
+#: src/components/review/ReviewConfiguration.jsx:213
 msgid "Jump to first incomplete step"
 msgstr "Přejít na první nedokončený krok"
 
@@ -746,7 +784,7 @@ msgid "Keyboard layout during boot"
 msgstr "Rozvržení klávesnice v průběhu startu systému"
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/review/ReviewConfiguration.jsx:239
 msgid "Language"
 msgstr "Jazyk"
 
@@ -799,9 +837,17 @@ msgstr "Může vyžadovat více volného prostoru"
 msgid "Medium"
 msgstr "Střední"
 
+#: src/components/source/InstallationSource.jsx:49
+msgid "Metalink"
+msgstr "Metalink"
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:310
 msgid "Minimum of $0 required"
 msgstr "Vyžadováno alespoň $0"
+
+#: src/components/source/InstallationSource.jsx:48
+msgid "Mirrorlist"
+msgstr "Seznam zrcadel"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
 msgid "Mismatch between parent device and child device reformat selection."
@@ -940,7 +986,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Otevřít formulář zadávání hlášení chyby do Bugzilla"
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:228
 msgid "Operating system"
 msgstr "Operační systém"
 
@@ -967,7 +1013,7 @@ msgstr "Heslová fráze"
 msgid "Passphrase did not match any locked device"
 msgstr "Heslová fráze neodpovídá žádnému ze zamčených zařízení"
 
-#: src/components/Password.jsx:278
+#: src/components/Password.jsx:289
 msgid "Passphrases must match"
 msgstr "Je třeba, aby se zadání heslové fráze shodovaly"
 
@@ -1010,6 +1056,13 @@ msgstr "Chcete raději nahlásit ručně? $0"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
 msgstr "Pokračovat v instalaci"
+
+#: src/components/source/InstallationSource.jsx:182
+#, fuzzy
+#| msgctxt "GUI|Network|Proxy"
+#| msgid "_FTP Proxy"
+msgid "Proxy"
+msgstr "_FTP proxy"
 
 #: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1158,6 +1211,10 @@ msgstr "Nahlásit problém"
 msgid "Reporting issue..."
 msgstr "Nahlašování problému…"
 
+#: src/components/source/InstallationSource.jsx:47
+msgid "Repository URL"
+msgstr "URL adresa repozitáře"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 msgid "Required"
 msgstr "Vyžadováno"
@@ -1222,6 +1279,18 @@ msgstr "Účet root je povolený, ale nebyl nastaven žádný uživatelský úč
 msgid "Root password has been set."
 msgstr "Heslo správce (root) bylo nastaveno."
 
+#: src/components/source/InstallationSource.jsx:188
+msgid "SSL CA certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:189
+msgid "SSL client certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:185
+msgid "SSL verification"
+msgstr ""
+
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
@@ -1236,11 +1305,11 @@ msgstr "Načtěte QR kód vaším telefonem nebo navštivte:"
 msgid "Search for a language"
 msgstr "Hledat jazyk"
 
-#: src/components/software/SoftwareSelection.jsx:159
+#: src/components/software/SoftwareSelection.jsx:150
 msgid "Search for additional software"
 msgstr "Hledat doplňkový software"
 
-#: src/components/software/SoftwareSelection.jsx:66
+#: src/components/software/SoftwareSelection.jsx:57
 msgid "Search for an environment"
 msgstr "Vyhledat prostředí"
 
@@ -1295,6 +1364,12 @@ msgstr "Server"
 msgid "Server is not reachable"
 msgstr "Server není dosažitelný"
 
+#: src/components/source/SourceReviewDescription.jsx:48
+msgid ""
+"Set by the kickstart file. Remove source selection from kickstart to be able "
+"to configure interactively."
+msgstr ""
+
 #: src/components/review/Hostname.jsx:87
 msgid "Set custom hostname"
 msgstr "Nastavit uživatelsky určený název stroje"
@@ -1319,7 +1394,7 @@ msgstr "Zobrazit klíč k API"
 msgid "Show PIN"
 msgstr "Zobrazit PIN"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Show confirmed password"
 msgstr "Zobrazit potvrzené heslo"
 
@@ -1327,7 +1402,7 @@ msgstr "Zobrazit potvrzené heslo"
 msgid "Show passphrase"
 msgstr "Zobrazit heslovou frázi"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Show password"
 msgstr "Zobrazit heslo"
 
@@ -1347,12 +1422,12 @@ msgstr ""
 "Instalace softwaru: Nastavování úložiště dokončeno. Software se nyní "
 "instaluje do vašeho zařízení."
 
-#: src/components/software/index.js:19 src/components/software/index.js:20
-#: src/components/review/ReviewConfiguration.jsx:247
+#: src/components/software/index.js:22 src/components/software/index.js:23
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Software selection"
 msgstr "Výběr softwaru"
 
-#: src/components/review/ReviewConfiguration.jsx:215
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr "Před pokračováním je třeba vyřešit některé kroky instalace."
@@ -1369,11 +1444,11 @@ msgstr "Místo"
 msgid "Stacktrace"
 msgstr "Stacktrace"
 
-#: src/components/review/ReviewConfiguration.jsx:276
+#: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr "Úložiště"
 
-#: src/components/steps.js:35
+#: src/components/steps.js:37
 #: src/components/installation/InstallationProgress.jsx:228
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
@@ -1546,7 +1621,7 @@ msgid "Time"
 msgstr "Čas"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/review/ReviewConfiguration.jsx:246
 msgid "Timezone"
 msgstr "Časové pásmo"
 
@@ -1573,6 +1648,20 @@ msgstr ""
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "Typ"
+
+#: src/components/source/InstallationSource.jsx:263
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "_URL:"
+msgid "URL"
+msgstr "_URL:"
+
+#: src/components/source/InstallationSource.jsx:293
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "URL type:"
+msgid "URL type"
+msgstr "Typ URL:"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1754,7 +1843,7 @@ msgstr "vytvořit souborový systém $0"
 msgid "here"
 msgstr "zde"
 
-#: src/components/review/ReviewConfiguration.jsx:57
+#: src/components/review/ReviewConfiguration.jsx:61
 msgid "incomplete"
 msgstr "nedokončené"
 
@@ -2059,9 +2148,6 @@ msgstr "zpět"
 #~| msgid "Changes made in Blivet-gui will directly affect your storage."
 #~ msgid "Any changes you make will immediately affect your storage."
 #~ msgstr "Změny provedené v Blivet-gui se rovnou projeví na úložišti."
-
-#~ msgid "Disabled"
-#~ msgstr "Vypnuto"
 
 #~ msgid "Enabled"
 #~ msgstr "Zapnuto"
@@ -2993,9 +3079,6 @@ msgstr "zpět"
 #~ msgid "City"
 #~ msgstr "Město"
 
-#~ msgid "Closest mirror"
-#~ msgstr "Nejbližší zrcadlo"
-
 #~ msgid "Complete!"
 #~ msgstr "Dokončeno!"
 
@@ -3033,9 +3116,6 @@ msgstr "zpět"
 #, python-format
 #~ msgid "Configuring device %s."
 #~ msgstr "Nastavuje se zařízení %s."
-
-#~ msgid "Configuring installed system"
-#~ msgstr "Nastavování nainstalovaného systému"
 
 #~ msgid "Configuring {}"
 #~ msgstr "Nastavuje se {}"
@@ -3858,9 +3938,6 @@ msgstr "zpět"
 #~ "Instalace vyžaduje rozdělení jednotky datového úložiště. Vyberte, jaký "
 #~ "prostor chcete použít pro cíl instalace nebo přípojné body přiřaďte ručně."
 
-#~ msgid "Installation source"
-#~ msgstr "Instalační zdroj"
-
 #~ msgid "Installation source needs to be set up first."
 #~ msgstr "Nejprve je třeba nastavit instalační zdroj."
 
@@ -4083,9 +4160,6 @@ msgstr "zpět"
 #~ msgid "Memory"
 #~ msgstr "Paměť"
 
-#~ msgid "Metalink"
-#~ msgstr "Metalink"
-
 #~ msgid "Method"
 #~ msgstr "Metoda"
 
@@ -4097,9 +4171,6 @@ msgstr "zpět"
 
 #~ msgid "Minutes Up"
 #~ msgstr "O minutu více"
-
-#~ msgid "Mirrorlist"
-#~ msgstr "Seznam zrcadel"
 
 #~ msgid "Missing name of the %addon section."
 #~ msgstr "Chybí název sekce %addon."
@@ -4893,9 +4964,6 @@ msgstr "zpět"
 #~ msgid "Repo URL"
 #~ msgstr "URL adresa repozitáře"
 
-#~ msgid "Repository URL"
-#~ msgstr "URL adresa repozitáře"
-
 #~ msgid "Repository name conflicts with internal repository name"
 #~ msgstr "Název repozitáře je v konfliktu s názvem interního repozitáře"
 
@@ -5136,9 +5204,6 @@ msgstr "zpět"
 
 #~ msgid "Set timezone"
 #~ msgstr "Nastavit časové pásmo"
-
-#~ msgid "Setting up installation source..."
-#~ msgstr "Nastavování instalačního zdroje…"
 
 #~ msgid "Setting up kexec"
 #~ msgstr "Nastavování kexec"
@@ -6052,10 +6117,6 @@ msgstr "zpět"
 
 #~ msgid "URL of the repository"
 #~ msgstr "URL repozitáře"
-
-#~ msgctxt "GUI|Software Source"
-#~ msgid "URL type:"
-#~ msgstr "Typ URL:"
 
 #~ msgid "USER SETTINGS"
 #~ msgstr "NASTAVENÍ UŽIVATELŮ"
@@ -7003,10 +7064,6 @@ msgstr "zpět"
 #~ msgid "_Exit Installer"
 #~ msgstr "_Ukončit instalátor"
 
-#~ msgctxt "GUI|Network|Proxy"
-#~ msgid "_FTP Proxy"
-#~ msgstr "_FTP proxy"
-
 #~ msgctxt "GUI|Progress"
 #~ msgid "_Finish Installation"
 #~ msgstr "_Dokončit instalaci"
@@ -7402,10 +7459,6 @@ msgstr "zpět"
 #~ msgctxt "GUI|Spoke"
 #~ msgid "_Time & Date"
 #~ msgstr "Da_tum a čas"
-
-#~ msgctxt "GUI|Software Source"
-#~ msgid "_URL:"
-#~ msgstr "_URL:"
 
 #~ msgctxt "GUI|Custom Partitioning|Encrypted"
 #~ msgid "_Unlock"
@@ -8005,9 +8058,6 @@ msgstr "zpět"
 #~ msgstr[0] "Nebyly vybrány žádné jednotky"
 #~ msgstr[1] "Nebyly vybrány žádné jednotky"
 #~ msgstr[2] "Nebyly vybrány žádné jednotky"
-
-#~ msgid "Failed to set up installation source"
-#~ msgstr "Nepodařilo se nastavit instalační zdroj"
 
 #~ msgid "Error downloading package metadata"
 #~ msgstr "Chyba při stahování metadat k balíčkům"

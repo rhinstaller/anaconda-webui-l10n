@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 07:55+0000\n"
+"POT-Creation-Date: 2026-10-21 08:00+0000\n"
 "PO-Revision-Date: 2025-08-24 03:40+0000\n"
 "Last-Translator: Danni Lundgren <fedoraproject.footsie399@passmail.com>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/anaconda-"
@@ -129,7 +129,7 @@ msgstr "$0-installation"
 msgid "About"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:254
+#: src/components/review/ReviewConfiguration.jsx:265
 #, fuzzy
 #| msgctxt "GUI|Subscription|Authentication|Account"
 #| msgid "_Account"
@@ -154,13 +154,13 @@ msgstr "Tilføj NTP-server"
 msgid "Add mount"
 msgstr "Tilføj layout"
 
-#: src/components/software/SoftwareSelection.jsx:122
+#: src/components/software/SoftwareSelection.jsx:113
 #, fuzzy
 #| msgid "Additional software for selected environment"
 msgid "Add-ons for your chosen environment"
 msgstr "Yderligere software til valgte miljø"
 
-#: src/components/software/SoftwareSelection.jsx:131
+#: src/components/software/SoftwareSelection.jsx:122
 msgid "Add-ons not specific to your environment"
 msgstr ""
 
@@ -170,7 +170,7 @@ msgstr ""
 msgid "Additional languages"
 msgstr "Tilgængelige sprog"
 
-#: src/components/software/SoftwareSelection.jsx:156
+#: src/components/software/SoftwareSelection.jsx:147
 #, fuzzy
 #| msgid "Additional software for selected environment"
 msgid "Additional software for the selected environment"
@@ -189,7 +189,7 @@ msgstr ""
 msgid "Anaconda"
 msgstr "Anaconda-installationsprogram"
 
-#: src/login.html:8 src/index.html:20
+#: src/index.html:20 src/login.html:8
 #, fuzzy
 msgid "Anaconda Web UI"
 msgstr "Anaconda-installationsprogram"
@@ -237,7 +237,7 @@ msgstr ""
 msgid "Back"
 msgstr "Tilbage"
 
-#: src/components/software/SoftwareSelection.jsx:63
+#: src/components/software/SoftwareSelection.jsx:54
 msgid "Base environment"
 msgstr "Grundmiljø"
 
@@ -320,7 +320,7 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:196
 #, fuzzy
 #| msgid "Checking storage configuration..."
 msgid "Checking installation configuration..."
@@ -352,6 +352,17 @@ msgstr "Luk"
 msgid "Close storage editor"
 msgstr "Installation"
 
+#: src/components/source/SourceReviewDescription.jsx:34
+#: src/components/source/InstallationSource.jsx:41
+msgid "Closest mirror"
+msgstr "Nærmeste filspejl"
+
+#: src/components/source/InstallationSource.jsx:286
+#, fuzzy
+#| msgid "Closest mirror"
+msgid "Closest public mirror"
+msgstr "Nærmeste filspejl"
+
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
@@ -362,7 +373,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Færdig!"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:217
 #, fuzzy
 #| msgid "Apply configuration in installer"
 msgid "Configuration is incomplete"
@@ -395,6 +406,18 @@ msgstr "Konfigurerer lager"
 #| msgid "Configuring storage"
 msgid "Configure storage again"
 msgstr "Konfigurerer lager"
+
+#: src/components/source/InstallationSource.jsx:140
+#, fuzzy
+#| msgid "Configuring installed system"
+msgid "Configuring installation source"
+msgstr "Konfigurerer installeret system"
+
+#: src/components/source/InstallationSource.jsx:141
+#, fuzzy
+#| msgid "Setting up installation source..."
+msgid "Configuring installation source..."
+msgstr "Opsætter installationskilde..."
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -503,6 +526,10 @@ msgstr ""
 msgid "Device"
 msgstr "Enhed"
 
+#: src/components/source/InstallationSource.jsx:186
+msgid "Disabled"
+msgstr "Deaktiveret"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 #, fuzzy
 msgid "Duplicate device."
@@ -574,6 +601,12 @@ msgstr ""
 msgid "Extended partition"
 msgstr "Standardpartition"
 
+#: src/components/source/InstallationSource.jsx:222
+#, fuzzy
+#| msgid "Failed to set up installation source"
+msgid "Failed to configure installation source"
+msgstr "Kunne ikke indstille installationskilde"
+
 #: src/components/Error.jsx:642
 #, fuzzy
 #| msgid "Failed to save storage configuration"
@@ -634,7 +667,7 @@ msgstr ""
 msgid "Hide PIN"
 msgstr ""
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 #, fuzzy
 msgid "Hide confirmed password"
 msgstr "_Bekræft adgangskode"
@@ -644,7 +677,7 @@ msgstr "_Bekræft adgangskode"
 msgid "Hide passphrase"
 msgstr "_Bekræft adgangskode"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 #, fuzzy
 msgid "Hide password"
 msgstr "Skjul adgangskode."
@@ -662,18 +695,18 @@ msgstr ""
 "\n"
 "Vil du bruge det alligevel?"
 
-#: src/components/review/ReviewConfiguration.jsx:309
+#: src/components/review/ReviewConfiguration.jsx:320
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/components/review/ReviewConfiguration.jsx:314
+#: src/components/review/ReviewConfiguration.jsx:325
 msgid "I understand that some existing data will be erased"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:315
+#: src/components/review/ReviewConfiguration.jsx:326
 msgid "I understand that some partitions will be modified"
 msgstr ""
 
@@ -753,7 +786,12 @@ msgstr "Installation"
 msgid "Installation of the system failed: $0"
 msgstr "Installation"
 
-#: src/components/review/ReviewConfiguration.jsx:269
+#: src/components/source/index.js:24 src/components/source/index.js:25
+#: src/components/review/ReviewConfiguration.jsx:252
+msgid "Installation source"
+msgstr "Installationskilde"
+
+#: src/components/review/ReviewConfiguration.jsx:280
 #, fuzzy
 msgid "Installation type"
 msgstr "Installation"
@@ -786,7 +824,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Ugyldigt værtsnavn"
 
-#: src/components/review/ReviewConfiguration.jsx:208
+#: src/components/review/ReviewConfiguration.jsx:213
 #, fuzzy
 msgid "Jump to first incomplete step"
 msgstr "Færdig!"
@@ -809,7 +847,7 @@ msgid "Keyboard layout during boot"
 msgstr ""
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/review/ReviewConfiguration.jsx:239
 #, fuzzy
 msgid "Language"
 msgstr "Sprog"
@@ -871,9 +909,21 @@ msgstr "Installerer software"
 msgid "Medium"
 msgstr ""
 
+#: src/components/source/InstallationSource.jsx:49
+#, fuzzy
+#| msgid "metalink"
+msgid "Metalink"
+msgstr "metalink"
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:310
 msgid "Minimum of $0 required"
 msgstr ""
+
+#: src/components/source/InstallationSource.jsx:48
+#, fuzzy
+#| msgid "mirrorlist"
+msgid "Mirrorlist"
+msgstr "filspejlsliste"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
 msgid "Mismatch between parent device and child device reformat selection."
@@ -1025,7 +1075,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:228
 #, fuzzy
 msgid "Operating system"
 msgstr "Oprettelse af brugere"
@@ -1056,7 +1106,7 @@ msgstr "Adgangssætning"
 msgid "Passphrase did not match any locked device"
 msgstr ""
 
-#: src/components/Password.jsx:278
+#: src/components/Password.jsx:289
 #, fuzzy
 msgid "Passphrases must match"
 msgstr "Adgangskoderne er ikke ens."
@@ -1108,6 +1158,13 @@ msgstr ""
 #| msgid "Failed to set up installation source"
 msgid "Proceed with installation"
 msgstr "Kunne ikke indstille installationskilde"
+
+#: src/components/source/InstallationSource.jsx:182
+#, fuzzy
+#| msgctxt "GUI|Network|Proxy"
+#| msgid "_FTP Proxy"
+msgid "Proxy"
+msgstr "_FTP-proxy"
 
 #: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1268,6 +1325,12 @@ msgstr ""
 msgid "Reporting issue..."
 msgstr "tester status..."
 
+#: src/components/source/InstallationSource.jsx:47
+#, fuzzy
+#| msgid "repository URL"
+msgid "Repository URL"
+msgstr "pakkearkiv-URL"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 #, fuzzy
 msgid "Required"
@@ -1349,6 +1412,18 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "Root-adgangskode er blevet angivet."
 
+#: src/components/source/InstallationSource.jsx:188
+msgid "SSL CA certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:189
+msgid "SSL client certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:185
+msgid "SSL verification"
+msgstr ""
+
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
@@ -1367,13 +1442,13 @@ msgstr ""
 msgid "Search for a language"
 msgstr "Sprog"
 
-#: src/components/software/SoftwareSelection.jsx:159
+#: src/components/software/SoftwareSelection.jsx:150
 #, fuzzy
 #| msgid "No additional software to select."
 msgid "Search for additional software"
 msgstr "Ingen yderligere software at vælge."
 
-#: src/components/software/SoftwareSelection.jsx:66
+#: src/components/software/SoftwareSelection.jsx:57
 #, fuzzy
 msgid "Search for an environment"
 msgstr "Sprog"
@@ -1445,6 +1520,12 @@ msgstr "NTP-servere:"
 msgid "Server is not reachable"
 msgstr ""
 
+#: src/components/source/SourceReviewDescription.jsx:48
+msgid ""
+"Set by the kickstart file. Remove source selection from kickstart to be able "
+"to configure interactively."
+msgstr ""
+
 #: src/components/review/Hostname.jsx:87
 #, fuzzy
 #| msgid "Set host name"
@@ -1480,7 +1561,7 @@ msgstr "_AM/PM"
 msgid "Show PIN"
 msgstr "_AM/PM"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 #, fuzzy
 msgid "Show confirmed password"
 msgstr "_Bekræft adgangskode"
@@ -1490,7 +1571,7 @@ msgstr "_Bekræft adgangskode"
 msgid "Show passphrase"
 msgstr "_Bekræft adgangskode"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 #, fuzzy
 msgid "Show password"
 msgstr "Vis adgangskode."
@@ -1510,12 +1591,12 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: src/components/software/index.js:19 src/components/software/index.js:20
-#: src/components/review/ReviewConfiguration.jsx:247
+#: src/components/software/index.js:22 src/components/software/index.js:23
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Software selection"
 msgstr "Valg af software"
 
-#: src/components/review/ReviewConfiguration.jsx:215
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1534,12 +1615,12 @@ msgstr "Ingen plads"
 msgid "Stacktrace"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:276
+#: src/components/review/ReviewConfiguration.jsx:287
 #, fuzzy
 msgid "Storage"
 msgstr "Valgmuligheder for lager"
 
-#: src/components/steps.js:35
+#: src/components/steps.js:37
 #: src/components/installation/InstallationProgress.jsx:228
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
@@ -1716,7 +1797,7 @@ msgid "Time"
 msgstr "Tidszone: %s\n"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/review/ReviewConfiguration.jsx:246
 #, fuzzy
 #| msgid "Timezone: %s\n"
 msgid "Timezone"
@@ -1747,6 +1828,20 @@ msgstr ""
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "Type"
+
+#: src/components/source/InstallationSource.jsx:263
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "Pro_xy URL:"
+msgid "URL"
+msgstr "Pro_xy-URL:"
+
+#: src/components/source/InstallationSource.jsx:293
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "URL type:"
+msgid "URL type"
+msgstr "URL type:"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1948,7 +2043,7 @@ msgstr "Genformatér"
 msgid "here"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:57
+#: src/components/review/ReviewConfiguration.jsx:61
 #, fuzzy
 msgid "incomplete"
 msgstr "Færdig!"
@@ -2105,9 +2200,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Install using the configured storage?"
 #~ msgstr "Installerer software"
-
-#~ msgid "Disabled"
-#~ msgstr "Deaktiveret"
 
 #~ msgid "Enabled"
 #~ msgstr "Aktiveret"
@@ -2996,9 +3088,6 @@ msgstr ""
 #~ msgid "City"
 #~ msgstr "By"
 
-#~ msgid "Closest mirror"
-#~ msgstr "Nærmeste filspejl"
-
 #~ msgid "Complete!"
 #~ msgstr "Færdig!"
 
@@ -3041,9 +3130,6 @@ msgstr ""
 #, python-format
 #~ msgid "Configuring device %s."
 #~ msgstr "Konfigurerer enhed %s."
-
-#~ msgid "Configuring installed system"
-#~ msgstr "Konfigurerer installeret system"
 
 #~ msgid "Configuring {}"
 #~ msgstr "Konfigurerer {}"
@@ -3851,9 +3937,6 @@ msgstr ""
 #~ "der skal bruges til installationsmålet eller tildel monteringspunkter "
 #~ "manuelt."
 
-#~ msgid "Installation source"
-#~ msgstr "Installationskilde"
-
 #~ msgid "Installation source needs to be set up first."
 #~ msgstr "Installationskilde skal sættes op først."
 
@@ -4097,11 +4180,6 @@ msgstr ""
 #~ msgid "Memory"
 #~ msgstr "Hukommelse"
 
-#, fuzzy
-#~| msgid "metalink"
-#~ msgid "Metalink"
-#~ msgstr "metalink"
-
 #~ msgid "Method"
 #~ msgstr "Metode"
 
@@ -4113,11 +4191,6 @@ msgstr ""
 
 #~ msgid "Minutes Up"
 #~ msgstr "Minutter op"
-
-#, fuzzy
-#~| msgid "mirrorlist"
-#~ msgid "Mirrorlist"
-#~ msgstr "filspejlsliste"
 
 #~ msgid "Missing name of the %addon section."
 #~ msgstr "Manglende navn i %addon-sektionen."
@@ -4910,11 +4983,6 @@ msgstr ""
 #~ msgid "Repo URL"
 #~ msgstr "URL for pakkearkiv"
 
-#, fuzzy
-#~| msgid "repository URL"
-#~ msgid "Repository URL"
-#~ msgstr "pakkearkiv-URL"
-
 #~ msgid "Repository name conflicts with internal repository name"
 #~ msgstr "Pakkearkivnavn konflikter med internt pakkearkivnavn"
 
@@ -5151,9 +5219,6 @@ msgstr ""
 
 #~ msgid "Set timezone"
 #~ msgstr "Sæt tidszone"
-
-#~ msgid "Setting up installation source..."
-#~ msgstr "Opsætter installationskilde..."
 
 #~ msgid "Setting up kexec"
 #~ msgstr "Opsætter kexec"
@@ -6054,10 +6119,6 @@ msgstr ""
 #~| msgid "Name of the repository."
 #~ msgid "URL of the repository"
 #~ msgstr "Pakkearkivets navn."
-
-#~ msgctxt "GUI|Software Source"
-#~ msgid "URL type:"
-#~ msgstr "URL type:"
 
 #~ msgid "USER SETTINGS"
 #~ msgstr "BRUGERINDSTILLINGER"
@@ -6980,10 +7041,6 @@ msgstr ""
 #~ msgid "_Exit Installer"
 #~ msgstr "_Forlad installationsprogram"
 
-#~ msgctxt "GUI|Network|Proxy"
-#~ msgid "_FTP Proxy"
-#~ msgstr "_FTP-proxy"
-
 #~ msgctxt "GUI|Progress"
 #~ msgid "_Finish Installation"
 #~ msgstr "_Afslut installation"
@@ -7380,13 +7437,6 @@ msgstr ""
 #~ msgctxt "GUI|Spoke"
 #~ msgid "_Time & Date"
 #~ msgstr "_Klokkeslæt og dato"
-
-#, fuzzy
-#~| msgctxt "GUI|Software Source"
-#~| msgid "Pro_xy URL:"
-#~ msgctxt "GUI|Software Source"
-#~ msgid "_URL:"
-#~ msgstr "Pro_xy-URL:"
 
 #~ msgctxt "GUI|Custom Partitioning|Encrypted"
 #~ msgid "_Unlock"
@@ -7859,9 +7909,6 @@ msgstr ""
 #~ msgid_plural "$0 (of $1) disks selected"
 #~ msgstr[0] "Ingen diske valgt"
 #~ msgstr[1] "Ingen diske valgt"
-
-#~ msgid "Failed to set up installation source"
-#~ msgstr "Kunne ikke indstille installationskilde"
 
 #~ msgid "Error downloading package metadata"
 #~ msgstr "Fejl under download af pakke-metadata"

@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 07:55+0000\n"
+"POT-Creation-Date: 2026-10-21 08:00+0000\n"
 "PO-Revision-Date: 2026-10-03 08:33+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
@@ -136,7 +136,7 @@ msgstr "Avbryt Installation"
 msgid "About"
 msgstr "Om"
 
-#: src/components/review/ReviewConfiguration.jsx:254
+#: src/components/review/ReviewConfiguration.jsx:265
 msgid "Account"
 msgstr "Konto"
 
@@ -153,11 +153,11 @@ msgstr "Lägg en annan server..."
 msgid "Add mount"
 msgstr "Lägg till montering"
 
-#: src/components/software/SoftwareSelection.jsx:122
+#: src/components/software/SoftwareSelection.jsx:113
 msgid "Add-ons for your chosen environment"
 msgstr "Tillägg för din valda miljö"
 
-#: src/components/software/SoftwareSelection.jsx:131
+#: src/components/software/SoftwareSelection.jsx:122
 msgid "Add-ons not specific to your environment"
 msgstr "Tillägg inte specifikt för din miljö"
 
@@ -165,7 +165,7 @@ msgstr "Tillägg inte specifikt för din miljö"
 msgid "Additional languages"
 msgstr "Ytterligare språk"
 
-#: src/components/software/SoftwareSelection.jsx:156
+#: src/components/software/SoftwareSelection.jsx:147
 msgid "Additional software for the selected environment"
 msgstr "Ytterligare programvara för den valda miljön"
 
@@ -182,7 +182,7 @@ msgstr "Alla enheter som använder denna lösenfras kommer att låsas upp"
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/login.html:8 src/index.html:20
+#: src/index.html:20 src/login.html:8
 msgid "Anaconda Web UI"
 msgstr "Anaconda Webb UI"
 
@@ -227,7 +227,7 @@ msgstr "Tillgängligt fritt utrymme: $0. Installationen behöver: $1."
 msgid "Back"
 msgstr "Tillbaka"
 
-#: src/components/software/SoftwareSelection.jsx:63
+#: src/components/software/SoftwareSelection.jsx:54
 msgid "Base environment"
 msgstr "Basmiljö"
 
@@ -293,7 +293,7 @@ msgstr ""
 "Ändringar som görs här kommer omedelbart att påverka systemet. Det finns "
 "ingen \"ångra\"."
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:196
 msgid "Checking installation configuration..."
 msgstr "Kontrollerar installationskonfiguration …"
 
@@ -321,6 +321,17 @@ msgstr "Stäng"
 msgid "Close storage editor"
 msgstr "Stäng lagringsredigerare"
 
+#: src/components/source/SourceReviewDescription.jsx:34
+#: src/components/source/InstallationSource.jsx:41
+msgid "Closest mirror"
+msgstr "Närmaste spegel"
+
+#: src/components/source/InstallationSource.jsx:286
+#, fuzzy
+#| msgid "Closest mirror"
+msgid "Closest public mirror"
+msgstr "Närmaste spegel"
+
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
@@ -330,7 +341,7 @@ msgstr "Cockpitlagring gav inte lösenfrasen för att låsa upp krypterad enhet.
 msgid "Completed"
 msgstr "Färdig"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:217
 msgid "Configuration is incomplete"
 msgstr "Konfiguration är ofullständig"
 
@@ -353,6 +364,18 @@ msgstr "Konfigurera lagring"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:688
 msgid "Configure storage again"
 msgstr "Konfigurera lagring igen"
+
+#: src/components/source/InstallationSource.jsx:140
+#, fuzzy
+#| msgid "Configuring installed system"
+msgid "Configuring installation source"
+msgstr "Konfigurerar installerat system"
+
+#: src/components/source/InstallationSource.jsx:141
+#, fuzzy
+#| msgid "Setting up installation source..."
+msgid "Configuring installation source..."
+msgstr "Sätter upp installationskällor …"
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -438,6 +461,10 @@ msgstr "Upptäckt giltig lagringslayout:"
 msgid "Device"
 msgstr "Enhet"
 
+#: src/components/source/InstallationSource.jsx:186
+msgid "Disabled"
+msgstr "Avaktiverad"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 msgid "Duplicate device."
 msgstr "Duplicera enhet."
@@ -499,6 +526,12 @@ msgstr "Avsluta till live skrivbord"
 msgid "Extended partition"
 msgstr "Utökad partition"
 
+#: src/components/source/InstallationSource.jsx:222
+#, fuzzy
+#| msgid "Failed to set up installation source"
+msgid "Failed to configure installation source"
+msgstr "Misslyckades att sätta upp installationskälla"
+
 #: src/components/Error.jsx:642
 msgid "Failed to report issue"
 msgstr "Misslyckades att rapportera problem"
@@ -555,7 +588,7 @@ msgstr "Dölj API-nyckel"
 msgid "Hide PIN"
 msgstr "Dölj PIN"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Hide confirmed password"
 msgstr "Dölj bekräftat lösenord"
 
@@ -563,7 +596,7 @@ msgstr "Dölj bekräftat lösenord"
 msgid "Hide passphrase"
 msgstr "Dölj lösenfras"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Hide password"
 msgstr "Dölj lösenord"
 
@@ -575,7 +608,7 @@ msgstr "Värdnamn"
 msgid "How would you like to install?"
 msgstr "Hur vill du installera?"
 
-#: src/components/review/ReviewConfiguration.jsx:309
+#: src/components/review/ReviewConfiguration.jsx:320
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
@@ -583,11 +616,11 @@ msgstr[0] "Jag förstår att all befintlig data kommer att raderas"
 msgstr[1] ""
 "Jag förstår att all befintlig data kommer att raderas från de valda diskarna"
 
-#: src/components/review/ReviewConfiguration.jsx:314
+#: src/components/review/ReviewConfiguration.jsx:325
 msgid "I understand that some existing data will be erased"
 msgstr "Jag förstår att någon befintliga data kan komma att raderas"
 
-#: src/components/review/ReviewConfiguration.jsx:315
+#: src/components/review/ReviewConfiguration.jsx:326
 msgid "I understand that some partitions will be modified"
 msgstr "Jag förstår att vissa partitioner kommer att modifieras"
 
@@ -668,7 +701,12 @@ msgstr "installationen av systemet misslyckades"
 msgid "Installation of the system failed: $0"
 msgstr "installationen av systemet misslyckades: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:269
+#: src/components/source/index.js:24 src/components/source/index.js:25
+#: src/components/review/ReviewConfiguration.jsx:252
+msgid "Installation source"
+msgstr "Installationskälla"
+
+#: src/components/review/ReviewConfiguration.jsx:280
 msgid "Installation type"
 msgstr "Installationstyp"
 
@@ -702,7 +740,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Ogiltigt värdnamn"
 
-#: src/components/review/ReviewConfiguration.jsx:208
+#: src/components/review/ReviewConfiguration.jsx:213
 msgid "Jump to first incomplete step"
 msgstr "Hoppa till första ofullständiga steg"
 
@@ -723,7 +761,7 @@ msgid "Keyboard layout during boot"
 msgstr "Tangentbordslayout under uppstart"
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/review/ReviewConfiguration.jsx:239
 msgid "Language"
 msgstr "Språk"
 
@@ -776,9 +814,17 @@ msgstr "Kan behöva mer ledigt utrymme"
 msgid "Medium"
 msgstr "Medium"
 
+#: src/components/source/InstallationSource.jsx:49
+msgid "Metalink"
+msgstr "Metalänk"
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:310
 msgid "Minimum of $0 required"
 msgstr "Minst $0 krävs"
+
+#: src/components/source/InstallationSource.jsx:48
+msgid "Mirrorlist"
+msgstr "Spegellista"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
 msgid "Mismatch between parent device and child device reformat selection."
@@ -919,7 +965,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Öppna Bugzilla-felanmälningsformuläret"
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:228
 msgid "Operating system"
 msgstr "Operativsystem"
 
@@ -946,7 +992,7 @@ msgstr "Lösenfras"
 msgid "Passphrase did not match any locked device"
 msgstr "Lösenfrasen matchade inte någon låst enhet"
 
-#: src/components/Password.jsx:278
+#: src/components/Password.jsx:289
 msgid "Passphrases must match"
 msgstr "Lösenfraserna måste matcha varandra"
 
@@ -989,6 +1035,13 @@ msgstr "Föredrar du att rapportera manuellt? $0"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
 msgstr "Fortsätt med installationen"
+
+#: src/components/source/InstallationSource.jsx:182
+#, fuzzy
+#| msgctxt "GUI|Network|Proxy"
+#| msgid "_FTP Proxy"
+msgid "Proxy"
+msgstr "_FTP-proxy"
 
 #: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1139,6 +1192,10 @@ msgstr "Rapportera problem"
 msgid "Reporting issue..."
 msgstr "Rapporterar problem..."
 
+#: src/components/source/InstallationSource.jsx:47
+msgid "Repository URL"
+msgstr "Förråds-URL"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 msgid "Required"
 msgstr "Krävs"
@@ -1203,6 +1260,18 @@ msgstr "Root-konto är aktiverat, men inget användarkonto har konfigurerats"
 msgid "Root password has been set."
 msgstr "Root-lösenordet har satts."
 
+#: src/components/source/InstallationSource.jsx:188
+msgid "SSL CA certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:189
+msgid "SSL client certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:185
+msgid "SSL verification"
+msgstr ""
+
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
@@ -1217,11 +1286,11 @@ msgstr "Skanna QR-koden med din telefon eller besök:"
 msgid "Search for a language"
 msgstr "Sök efter ett språk"
 
-#: src/components/software/SoftwareSelection.jsx:159
+#: src/components/software/SoftwareSelection.jsx:150
 msgid "Search for additional software"
 msgstr "Sök efter ytterligare programvara"
 
-#: src/components/software/SoftwareSelection.jsx:66
+#: src/components/software/SoftwareSelection.jsx:57
 msgid "Search for an environment"
 msgstr "Sök efter en miljö"
 
@@ -1277,6 +1346,12 @@ msgstr "Server"
 msgid "Server is not reachable"
 msgstr "Server är inte nåbar"
 
+#: src/components/source/SourceReviewDescription.jsx:48
+msgid ""
+"Set by the kickstart file. Remove source selection from kickstart to be able "
+"to configure interactively."
+msgstr ""
+
 #: src/components/review/Hostname.jsx:87
 msgid "Set custom hostname"
 msgstr "Ställ in ett anpassat värdnamn"
@@ -1301,7 +1376,7 @@ msgstr "Visa API-nyckel"
 msgid "Show PIN"
 msgstr "Visa PIN"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Show confirmed password"
 msgstr "Visa bekräftat lösenord"
 
@@ -1309,7 +1384,7 @@ msgstr "Visa bekräftat lösenord"
 msgid "Show passphrase"
 msgstr "Visa lösenfras"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Show password"
 msgstr "Visa lösenord"
 
@@ -1329,12 +1404,12 @@ msgstr ""
 "Programvaruinstallation: Lagringskonfigurationen är klar. Programvaran "
 "installeras nu på din enhet."
 
-#: src/components/software/index.js:19 src/components/software/index.js:20
-#: src/components/review/ReviewConfiguration.jsx:247
+#: src/components/software/index.js:22 src/components/software/index.js:23
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Software selection"
 msgstr "Programval"
 
-#: src/components/review/ReviewConfiguration.jsx:215
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1352,11 +1427,11 @@ msgstr "Utrymme"
 msgid "Stacktrace"
 msgstr "Stackspår"
 
-#: src/components/review/ReviewConfiguration.jsx:276
+#: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr "Lagring"
 
-#: src/components/steps.js:35
+#: src/components/steps.js:37
 #: src/components/installation/InstallationProgress.jsx:228
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
@@ -1531,7 +1606,7 @@ msgid "Time"
 msgstr "Tid"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/review/ReviewConfiguration.jsx:246
 msgid "Timezone"
 msgstr "Tidszon"
 
@@ -1558,6 +1633,20 @@ msgstr ""
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "Typ"
+
+#: src/components/source/InstallationSource.jsx:263
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "_URL:"
+msgid "URL"
+msgstr "_URL:"
+
+#: src/components/source/InstallationSource.jsx:293
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "URL type:"
+msgid "URL type"
+msgstr "URL-typ:"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1739,7 +1828,7 @@ msgstr "Formatera som $0"
 msgid "here"
 msgstr "här"
 
-#: src/components/review/ReviewConfiguration.jsx:57
+#: src/components/review/ReviewConfiguration.jsx:61
 msgid "incomplete"
 msgstr "ofullständig"
 
@@ -2057,9 +2146,6 @@ msgstr "ångra"
 
 #~ msgid "Any changes you make will immediately affect your storage."
 #~ msgstr "Alla ändringar du gör kommer omedelbart att påverka din lagring."
-
-#~ msgid "Disabled"
-#~ msgstr "Avaktiverad"
 
 #~ msgid "Enabled"
 #~ msgstr "Aktiverat"
@@ -2976,9 +3062,6 @@ msgstr "ångra"
 #~ msgid "City"
 #~ msgstr "Stad"
 
-#~ msgid "Closest mirror"
-#~ msgstr "Närmaste spegel"
-
 #~ msgid "Complete!"
 #~ msgstr "Färdig!"
 
@@ -3016,9 +3099,6 @@ msgstr "ångra"
 #, python-format
 #~ msgid "Configuring device %s."
 #~ msgstr "Konfigurerar enheten %s."
-
-#~ msgid "Configuring installed system"
-#~ msgstr "Konfigurerar installerat system"
 
 #~ msgid "Configuring {}"
 #~ msgstr "Konfigurerar {}"
@@ -3837,9 +3917,6 @@ msgstr "ångra"
 #~ "som skall användas som installationsmål eller ange manuellt "
 #~ "monteringspunkter."
 
-#~ msgid "Installation source"
-#~ msgstr "Installationskälla"
-
 #~ msgid "Installation source needs to be set up first."
 #~ msgstr "Installationskällan behöver konfigureras först."
 
@@ -4063,9 +4140,6 @@ msgstr "ångra"
 #~ msgid "Memory"
 #~ msgstr "Minne"
 
-#~ msgid "Metalink"
-#~ msgstr "Metalänk"
-
 #~ msgid "Method"
 #~ msgstr "Metod"
 
@@ -4077,9 +4151,6 @@ msgstr "ångra"
 
 #~ msgid "Minutes Up"
 #~ msgstr "Minuter upp"
-
-#~ msgid "Mirrorlist"
-#~ msgstr "Spegellista"
 
 #~ msgid "Missing name of the %addon section."
 #~ msgstr "Namn saknas på %addon-sektionen."
@@ -4872,9 +4943,6 @@ msgstr "ångra"
 #~ msgid "Repo URL"
 #~ msgstr "Förråds-URL"
 
-#~ msgid "Repository URL"
-#~ msgstr "Förråds-URL"
-
 #~ msgid "Repository name conflicts with internal repository name"
 #~ msgstr "Förrådsnamn står i konflikt med interna förrådsnamn"
 
@@ -5115,9 +5183,6 @@ msgstr "ångra"
 
 #~ msgid "Set timezone"
 #~ msgstr "Välj tidszon"
-
-#~ msgid "Setting up installation source..."
-#~ msgstr "Sätter upp installationskällor …"
 
 #~ msgid "Setting up kexec"
 #~ msgstr "Sätter upp kexec"
@@ -6028,10 +6093,6 @@ msgstr "ångra"
 
 #~ msgid "URL of the repository"
 #~ msgstr "URL av förrådet"
-
-#~ msgctxt "GUI|Software Source"
-#~ msgid "URL type:"
-#~ msgstr "URL-typ:"
 
 #~ msgid "USER SETTINGS"
 #~ msgstr "ANVÄNDARINSTÄLLNINGAR"
@@ -6968,10 +7029,6 @@ msgstr "ångra"
 #~ msgid "_Exit Installer"
 #~ msgstr "_Avsluta installeraren"
 
-#~ msgctxt "GUI|Network|Proxy"
-#~ msgid "_FTP Proxy"
-#~ msgstr "_FTP-proxy"
-
 #~ msgctxt "GUI|Progress"
 #~ msgid "_Finish Installation"
 #~ msgstr "_Slutför installationen"
@@ -7368,10 +7425,6 @@ msgstr "ångra"
 #~ msgctxt "GUI|Spoke"
 #~ msgid "_Time & Date"
 #~ msgstr "_Tid & datum"
-
-#~ msgctxt "GUI|Software Source"
-#~ msgid "_URL:"
-#~ msgstr "_URL:"
 
 #~ msgctxt "GUI|Custom Partitioning|Encrypted"
 #~ msgid "_Unlock"
@@ -7980,9 +8033,6 @@ msgstr "ångra"
 #~ msgid_plural "$0 (of $1) disks selected"
 #~ msgstr[0] "$0 (of $1) disk valda"
 #~ msgstr[1] "$0 (of $1) diskar valda"
-
-#~ msgid "Failed to set up installation source"
-#~ msgstr "Misslyckades att sätta upp installationskälla"
 
 #~ msgid "Error downloading package metadata"
 #~ msgstr "Fel när paketmetadata hämtades"

@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 07:55+0000\n"
+"POT-Creation-Date: 2026-10-21 08:00+0000\n"
 "PO-Revision-Date: 2026-08-14 04:27+0000\n"
 "Last-Translator: joo es <jonnyse@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/anaconda-"
@@ -144,7 +144,7 @@ msgstr "أجهض التثبيت"
 msgid "About"
 msgstr "حول"
 
-#: src/components/review/ReviewConfiguration.jsx:254
+#: src/components/review/ReviewConfiguration.jsx:265
 msgid "Account"
 msgstr "حساب"
 
@@ -161,11 +161,11 @@ msgstr "أضف خادم آخر..."
 msgid "Add mount"
 msgstr "أضف نقطة وصل"
 
-#: src/components/software/SoftwareSelection.jsx:122
+#: src/components/software/SoftwareSelection.jsx:113
 msgid "Add-ons for your chosen environment"
 msgstr "الإضافات لبيئتك المختارة"
 
-#: src/components/software/SoftwareSelection.jsx:131
+#: src/components/software/SoftwareSelection.jsx:122
 msgid "Add-ons not specific to your environment"
 msgstr "الإضافات غير مخصصة لبيئتك"
 
@@ -173,7 +173,7 @@ msgstr "الإضافات غير مخصصة لبيئتك"
 msgid "Additional languages"
 msgstr "اللّغات المتاحة"
 
-#: src/components/software/SoftwareSelection.jsx:156
+#: src/components/software/SoftwareSelection.jsx:147
 msgid "Additional software for the selected environment"
 msgstr "برمجيات إضافية للبيئة المُنتقاة"
 
@@ -189,7 +189,7 @@ msgstr "سيُفتح جميع الأجهزة التي تستخدم عبارة ا
 msgid "Anaconda"
 msgstr "أناكوندا"
 
-#: src/login.html:8 src/index.html:20
+#: src/index.html:20 src/login.html:8
 msgid "Anaconda Web UI"
 msgstr "أناكوندا واجهة ويب"
 
@@ -232,7 +232,7 @@ msgstr "المساحة الخالية المتاحة: $0. يتطلب التثب�
 msgid "Back"
 msgstr "ارجع"
 
-#: src/components/software/SoftwareSelection.jsx:63
+#: src/components/software/SoftwareSelection.jsx:54
 msgid "Base environment"
 msgstr "البيئة الأساسية"
 
@@ -295,7 +295,7 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr "ستؤثر التغييرات التي أجريت هنا على النظام فورًا. لا يوجد \"تراجع\"."
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:196
 msgid "Checking installation configuration..."
 msgstr "يجري التحقق من تضبيط التثبيت..."
 
@@ -323,6 +323,17 @@ msgstr "أغلق"
 msgid "Close storage editor"
 msgstr "أغلق محرّر التخزين"
 
+#: src/components/source/SourceReviewDescription.jsx:34
+#: src/components/source/InstallationSource.jsx:41
+msgid "Closest mirror"
+msgstr "المرآة الأقرب"
+
+#: src/components/source/InstallationSource.jsx:286
+#, fuzzy
+#| msgid "Closest mirror"
+msgid "Closest public mirror"
+msgstr "المرآة الأقرب"
+
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
@@ -332,7 +343,7 @@ msgstr "لم يوفر Cockpit storage عبارة السر لفتح الجهاز 
 msgid "Completed"
 msgstr "اكتُمل"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:217
 msgid "Configuration is incomplete"
 msgstr "التضبيط غير مكتمل"
 
@@ -355,6 +366,18 @@ msgstr "اضبط التخزين"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:688
 msgid "Configure storage again"
 msgstr "اضبط التخزين مرة أخرى"
+
+#: src/components/source/InstallationSource.jsx:140
+#, fuzzy
+#| msgid "Configuring installed system"
+msgid "Configuring installation source"
+msgstr "يجري إعداد النظام المثبّت"
+
+#: src/components/source/InstallationSource.jsx:141
+#, fuzzy
+#| msgid "Setting up installation source..."
+msgid "Configuring installation source..."
+msgstr "يجري إعداد مصدر التثبيت..."
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -440,6 +463,10 @@ msgstr "كُشف عن تخطيط تخزين صالح:"
 msgid "Device"
 msgstr "جهاز"
 
+#: src/components/source/InstallationSource.jsx:186
+msgid "Disabled"
+msgstr "معطّل"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 msgid "Duplicate device."
 msgstr "جهاز مكرّر."
@@ -501,6 +528,12 @@ msgstr "اخرج إلى سطح المكتب المباشر"
 msgid "Extended partition"
 msgstr "قسم ممتد"
 
+#: src/components/source/InstallationSource.jsx:222
+#, fuzzy
+#| msgid "Failed to set up installation source"
+msgid "Failed to configure installation source"
+msgstr "فشل في ضبط مصدر التثبيت"
+
 #: src/components/Error.jsx:642
 msgid "Failed to report issue"
 msgstr "فشل في الإبلاغ عن المشكلة"
@@ -556,7 +589,7 @@ msgstr "أخفِ مفتاح API"
 msgid "Hide PIN"
 msgstr "أخفِ PIN"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Hide confirmed password"
 msgstr "أخفِ تأكيد كلمة السر"
 
@@ -564,7 +597,7 @@ msgstr "أخفِ تأكيد كلمة السر"
 msgid "Hide passphrase"
 msgstr "أخفِ عبارة السر"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Hide password"
 msgstr "أخفِ كلمة السر"
 
@@ -576,7 +609,7 @@ msgstr "اسم المضيف"
 msgid "How would you like to install?"
 msgstr "كيف تريد التثبيت؟"
 
-#: src/components/review/ReviewConfiguration.jsx:309
+#: src/components/review/ReviewConfiguration.jsx:320
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
@@ -587,11 +620,11 @@ msgstr[3] "أدرك تمامًا أنه سيتم مسح جميع البيانا�
 msgstr[4] "أدرك تمامًا أنه سيتم مسح جميع البيانات الموجودة على الأقراص المُحدّدة"
 msgstr[5] "أدرك تمامًا أنه سيتم مسح جميع البيانات الموجودة على الأقراص المُحدّدة"
 
-#: src/components/review/ReviewConfiguration.jsx:314
+#: src/components/review/ReviewConfiguration.jsx:325
 msgid "I understand that some existing data will be erased"
 msgstr "أتفهم أنه سيتم مسح بعض البيانات الموجودة حاليًا"
 
-#: src/components/review/ReviewConfiguration.jsx:315
+#: src/components/review/ReviewConfiguration.jsx:326
 msgid "I understand that some partitions will be modified"
 msgstr "أتفهم أنه سيتم تعديل بعض الأقسام"
 
@@ -671,7 +704,12 @@ msgstr "فشل تثبيت النظام"
 msgid "Installation of the system failed: $0"
 msgstr "فشل تثبيت النظام: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:269
+#: src/components/source/index.js:24 src/components/source/index.js:25
+#: src/components/review/ReviewConfiguration.jsx:252
+msgid "Installation source"
+msgstr "مصدر التثبيت"
+
+#: src/components/review/ReviewConfiguration.jsx:280
 msgid "Installation type"
 msgstr "نوع التثبيت"
 
@@ -704,7 +742,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "اسم المضيف غير صالح"
 
-#: src/components/review/ReviewConfiguration.jsx:208
+#: src/components/review/ReviewConfiguration.jsx:213
 msgid "Jump to first incomplete step"
 msgstr "اقفز إلى أول خطوة غير مكتملة"
 
@@ -725,7 +763,7 @@ msgid "Keyboard layout during boot"
 msgstr "تخطيط لوحة المفاتيح أثناء الإقلاع"
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/review/ReviewConfiguration.jsx:239
 msgid "Language"
 msgstr "اللّغة"
 
@@ -778,9 +816,17 @@ msgstr "قد تحتاج إلى مساحة فارغة أكبر"
 msgid "Medium"
 msgstr "متوسط"
 
+#: src/components/source/InstallationSource.jsx:49
+msgid "Metalink"
+msgstr ""
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:310
 msgid "Minimum of $0 required"
 msgstr "الحد الأدنى المطلوب هو $0"
+
+#: src/components/source/InstallationSource.jsx:48
+msgid "Mirrorlist"
+msgstr ""
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
 msgid "Mismatch between parent device and child device reformat selection."
@@ -916,7 +962,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "افتح نموذج إدخال بلاغ خطأ في Bugzilla"
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:228
 msgid "Operating system"
 msgstr "نظام التشغيل"
 
@@ -943,7 +989,7 @@ msgstr "عبارة السر"
 msgid "Passphrase did not match any locked device"
 msgstr "لم تتطابق عبارة السر مع أي جهاز مُقفل"
 
-#: src/components/Password.jsx:278
+#: src/components/Password.jsx:289
 msgid "Passphrases must match"
 msgstr "يجب أن تتطابق عبارتا السر"
 
@@ -986,6 +1032,13 @@ msgstr "تفضل التبليغ يدويًا؟ $0"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
 msgstr "واصِل التثبيت"
+
+#: src/components/source/InstallationSource.jsx:182
+#, fuzzy
+#| msgctxt "GUI|Network|Proxy"
+#| msgid "_FTP Proxy"
+msgid "Proxy"
+msgstr "_ملقم FTP"
 
 #: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1130,6 +1183,10 @@ msgstr "أبلغ عن مشكلة"
 msgid "Reporting issue..."
 msgstr "يُبلغ عن مشكلة..."
 
+#: src/components/source/InstallationSource.jsx:47
+msgid "Repository URL"
+msgstr "رابط المستودع"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 msgid "Required"
 msgstr "مطلوب"
@@ -1194,6 +1251,18 @@ msgstr "فُعَّل حساب الجذر، ولكن لم يُضبط أي حسا�
 msgid "Root password has been set."
 msgstr "عُيِّن كلمة سر الجذر."
 
+#: src/components/source/InstallationSource.jsx:188
+msgid "SSL CA certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:189
+msgid "SSL client certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:185
+msgid "SSL verification"
+msgstr ""
+
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
@@ -1208,11 +1277,11 @@ msgstr "امسح QR باستخدام هاتفك أو زُر:"
 msgid "Search for a language"
 msgstr "ابحث عن لُغة"
 
-#: src/components/software/SoftwareSelection.jsx:159
+#: src/components/software/SoftwareSelection.jsx:150
 msgid "Search for additional software"
 msgstr "ابحث عن برمجيات إضافية"
 
-#: src/components/software/SoftwareSelection.jsx:66
+#: src/components/software/SoftwareSelection.jsx:57
 msgid "Search for an environment"
 msgstr "ابحث عن بيئة"
 
@@ -1268,6 +1337,12 @@ msgstr "الخادم"
 msgid "Server is not reachable"
 msgstr "الخادم لا يمكن الوصول إليه"
 
+#: src/components/source/SourceReviewDescription.jsx:48
+msgid ""
+"Set by the kickstart file. Remove source selection from kickstart to be able "
+"to configure interactively."
+msgstr ""
+
 #: src/components/review/Hostname.jsx:87
 msgid "Set custom hostname"
 msgstr "اضبط اسم مضيف مخصّص"
@@ -1292,7 +1367,7 @@ msgstr "أظهِر مفتاح API"
 msgid "Show PIN"
 msgstr "أظهِر PIN"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Show confirmed password"
 msgstr "أظهِر كلمة السر المؤكدة"
 
@@ -1300,7 +1375,7 @@ msgstr "أظهِر كلمة السر المؤكدة"
 msgid "Show passphrase"
 msgstr "أظهِر عبارة السر"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Show password"
 msgstr "أظهِر كلمة السر"
 
@@ -1319,12 +1394,12 @@ msgid ""
 msgstr ""
 "تثبيت البرنامج: اكتمل تضبيط التخزين. يتم الآن تثبيت البرنامج على جهازك."
 
-#: src/components/software/index.js:19 src/components/software/index.js:20
-#: src/components/review/ReviewConfiguration.jsx:247
+#: src/components/software/index.js:22 src/components/software/index.js:23
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Software selection"
 msgstr "انتقاء البرمجيات"
 
-#: src/components/review/ReviewConfiguration.jsx:215
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1342,11 +1417,11 @@ msgstr "المساحة"
 msgid "Stacktrace"
 msgstr "Stacktrace"
 
-#: src/components/review/ReviewConfiguration.jsx:276
+#: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr "التخزين"
 
-#: src/components/steps.js:35
+#: src/components/steps.js:37
 #: src/components/installation/InstallationProgress.jsx:228
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
@@ -1518,7 +1593,7 @@ msgid "Time"
 msgstr "الوقت"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/review/ReviewConfiguration.jsx:246
 msgid "Timezone"
 msgstr "المنطقة الزمنية"
 
@@ -1544,6 +1619,17 @@ msgstr ""
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "النوع"
+
+#: src/components/source/InstallationSource.jsx:263
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "_URL:"
+msgid "URL"
+msgstr "_عنوان ‏URL:"
+
+#: src/components/source/InstallationSource.jsx:293
+msgid "URL type"
+msgstr ""
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1718,7 +1804,7 @@ msgstr "هيئ ك $0"
 msgid "here"
 msgstr "هنا"
 
-#: src/components/review/ReviewConfiguration.jsx:57
+#: src/components/review/ReviewConfiguration.jsx:61
 msgid "incomplete"
 msgstr "غير مكتمل"
 
@@ -1942,9 +2028,6 @@ msgstr "تراجع"
 #, fuzzy
 #~ msgid "Install using the configured storage?"
 #~ msgstr "يجري تثبيت البرمجيات"
-
-#~ msgid "Disabled"
-#~ msgstr "معطّل"
 
 #~ msgid "Enabled"
 #~ msgstr "مفعّل"
@@ -2806,9 +2889,6 @@ msgstr "تراجع"
 #~ msgid "City"
 #~ msgstr "المدينة"
 
-#~ msgid "Closest mirror"
-#~ msgstr "المرآة الأقرب"
-
 #~ msgid "Complete!"
 #~ msgstr "تم!"
 
@@ -2846,9 +2926,6 @@ msgstr "تراجع"
 #, python-format
 #~ msgid "Configuring device %s."
 #~ msgstr "يجري ضبط الجهاز %s."
-
-#~ msgid "Configuring installed system"
-#~ msgstr "يجري إعداد النظام المثبّت"
 
 #~ msgid "Configuring {}"
 #~ msgstr "يجري الضبط {}"
@@ -3388,9 +3465,6 @@ msgstr "تراجع"
 #~ msgid "Installation _Destination"
 #~ msgstr "_وجهة التثبيت"
 
-#~ msgid "Installation source"
-#~ msgstr "مصدر التثبيت"
-
 #~ msgid "Installation source not set up"
 #~ msgstr "لم يعدّ مصدر التثبيت"
 
@@ -3883,9 +3957,6 @@ msgstr "تراجع"
 #~ msgid "Repo URL"
 #~ msgstr "رابط المستودع"
 
-#~ msgid "Repository URL"
-#~ msgstr "رابط المستودع"
-
 #~ msgid "Repository name conflicts with internal repository name"
 #~ msgstr "يتعارض اسم المستودع مع اسم المستودع الدّاخلي"
 
@@ -4011,9 +4082,6 @@ msgstr "تراجع"
 
 #~ msgid "Service level"
 #~ msgstr "مستوى الخدمة"
-
-#~ msgid "Setting up installation source..."
-#~ msgstr "يجري إعداد مصدر التثبيت..."
 
 #~ msgid "Setting up the installation environment"
 #~ msgstr "يجري إعداد بيئة التثبيت"
@@ -4835,10 +4903,6 @@ msgstr "تراجع"
 #~ msgid "_Exit Installer"
 #~ msgstr "ال_خروج من المثبّت"
 
-#~ msgctxt "GUI|Network|Proxy"
-#~ msgid "_FTP Proxy"
-#~ msgstr "_ملقم FTP"
-
 #~ msgctxt "GUI|Spoke"
 #~ msgid "_Installation Source"
 #~ msgstr "_مصدر التثبيت"
@@ -4998,10 +5062,6 @@ msgstr "تراجع"
 #~ msgctxt "GUI|Keyboard Layout"
 #~ msgid "_Test the layout configuration below:"
 #~ msgstr "ا_ختبر إعدادات المخطط أدناه:"
-
-#~ msgctxt "GUI|Software Source"
-#~ msgid "_URL:"
-#~ msgstr "_عنوان ‏URL:"
 
 #~ msgctxt "GUI|Custom Partitioning|Encrypted"
 #~ msgid "_Unlock"
@@ -5238,9 +5298,6 @@ msgstr "تراجع"
 #~ msgstr[3] "لم يُنتقَ أيّ قرص"
 #~ msgstr[4] "لم يُنتقَ أيّ قرص"
 #~ msgstr[5] "لم يُنتقَ أيّ قرص"
-
-#~ msgid "Failed to set up installation source"
-#~ msgstr "فشل في ضبط مصدر التثبيت"
 
 #~ msgid "Error downloading package metadata"
 #~ msgstr "خطأ في تنزيل معلومات الحزم"

@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 07:55+0000\n"
+"POT-Creation-Date: 2026-10-21 08:00+0000\n"
 "PO-Revision-Date: 2023-11-06 12:17+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Basque <https://translate.fedoraproject.org/projects/anaconda-"
@@ -121,7 +121,7 @@ msgstr "Instalazioa"
 msgid "About"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:254
+#: src/components/review/ReviewConfiguration.jsx:265
 #, fuzzy
 msgid "Account"
 msgstr "_Gehitu muntatze-puntua"
@@ -144,13 +144,13 @@ msgstr "Gehitu NTP ostalaria"
 msgid "Add mount"
 msgstr "_Gehitu muntatze-puntua"
 
-#: src/components/software/SoftwareSelection.jsx:122
+#: src/components/software/SoftwareSelection.jsx:113
 #, fuzzy
 #| msgid "Add-Ons for Selected Environment"
 msgid "Add-ons for your chosen environment"
 msgstr "Aukeratutako sistema oinarriaren gehigarriak"
 
-#: src/components/software/SoftwareSelection.jsx:131
+#: src/components/software/SoftwareSelection.jsx:122
 msgid "Add-ons not specific to your environment"
 msgstr ""
 
@@ -160,7 +160,7 @@ msgstr ""
 msgid "Additional languages"
 msgstr "Eskuragarri dauden hizkuntzak"
 
-#: src/components/software/SoftwareSelection.jsx:156
+#: src/components/software/SoftwareSelection.jsx:147
 #, fuzzy
 #| msgid "Add-Ons for Selected Environment"
 msgid "Additional software for the selected environment"
@@ -178,7 +178,7 @@ msgstr ""
 msgid "Anaconda"
 msgstr ""
 
-#: src/login.html:8 src/index.html:20
+#: src/index.html:20 src/login.html:8
 #, fuzzy
 msgid "Anaconda Web UI"
 msgstr "_Hasi instalazioa"
@@ -223,7 +223,7 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
-#: src/components/software/SoftwareSelection.jsx:63
+#: src/components/software/SoftwareSelection.jsx:54
 msgid "Base environment"
 msgstr "Sistemaren oinarria"
 
@@ -291,7 +291,7 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:196
 #, fuzzy
 msgid "Checking installation configuration..."
 msgstr "Sare konfigurazioa"
@@ -322,6 +322,17 @@ msgstr "Itxi"
 msgid "Close storage editor"
 msgstr "Instalazioa"
 
+#: src/components/source/SourceReviewDescription.jsx:34
+#: src/components/source/InstallationSource.jsx:41
+msgid "Closest mirror"
+msgstr "Gertuko ispilua"
+
+#: src/components/source/InstallationSource.jsx:286
+#, fuzzy
+#| msgid "Closest mirror"
+msgid "Closest public mirror"
+msgstr "Gertuko ispilua"
+
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
@@ -332,7 +343,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Amaituta!"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:217
 msgid "Configuration is incomplete"
 msgstr ""
 
@@ -368,6 +379,16 @@ msgstr "K_onfiguratu"
 #| msgid "C_onfigure"
 msgid "Configure storage again"
 msgstr "K_onfiguratu"
+
+#: src/components/source/InstallationSource.jsx:140
+#, fuzzy
+msgid "Configuring installation source"
+msgstr "Instalazio aurreko scriptak exekutatzen"
+
+#: src/components/source/InstallationSource.jsx:141
+#, fuzzy
+msgid "Configuring installation source..."
+msgstr "Sare konfigurazioa"
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -464,6 +485,10 @@ msgstr ""
 msgid "Device"
 msgstr "Gailua"
 
+#: src/components/source/InstallationSource.jsx:186
+msgid "Disabled"
+msgstr "Desgaitua"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 #, fuzzy
 msgid "Duplicate device."
@@ -537,6 +562,13 @@ msgstr ""
 msgid "Extended partition"
 msgstr "Partizio estandarra"
 
+#: src/components/source/InstallationSource.jsx:222
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "_Auto-detected installation media:"
+msgid "Failed to configure installation source"
+msgstr "_Automatikoki atzeman den instalazio euskarria:"
+
 #: src/components/Error.jsx:642
 msgid "Failed to report issue"
 msgstr ""
@@ -592,7 +624,7 @@ msgstr ""
 msgid "Hide PIN"
 msgstr ""
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 #, fuzzy
 msgid "Hide confirmed password"
 msgstr "_Berretsi pasahitza"
@@ -602,7 +634,7 @@ msgstr "_Berretsi pasahitza"
 msgid "Hide passphrase"
 msgstr "_Berretsi pasahitza"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 #, fuzzy
 msgid "Hide password"
 msgstr "Erabili pasahitza"
@@ -617,18 +649,18 @@ msgstr "Ostalari-izena"
 msgid "How would you like to install?"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:309
+#: src/components/review/ReviewConfiguration.jsx:320
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/components/review/ReviewConfiguration.jsx:314
+#: src/components/review/ReviewConfiguration.jsx:325
 msgid "I understand that some existing data will be erased"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:315
+#: src/components/review/ReviewConfiguration.jsx:326
 msgid "I understand that some partitions will be modified"
 msgstr ""
 
@@ -707,7 +739,14 @@ msgstr "Instalazioa"
 msgid "Installation of the system failed: $0"
 msgstr "Instalazioa"
 
-#: src/components/review/ReviewConfiguration.jsx:269
+#: src/components/source/index.js:24 src/components/source/index.js:25
+#: src/components/review/ReviewConfiguration.jsx:252
+#, fuzzy
+#| msgid "Installation"
+msgid "Installation source"
+msgstr "Instalazioa"
+
+#: src/components/review/ReviewConfiguration.jsx:280
 #, fuzzy
 msgid "Installation type"
 msgstr "Instalazioa"
@@ -740,7 +779,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "ordu-zona baliogabea"
 
-#: src/components/review/ReviewConfiguration.jsx:208
+#: src/components/review/ReviewConfiguration.jsx:213
 #, fuzzy
 msgid "Jump to first incomplete step"
 msgstr "Amaituta!"
@@ -760,7 +799,7 @@ msgid "Keyboard layout during boot"
 msgstr ""
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/review/ReviewConfiguration.jsx:239
 #, fuzzy
 msgid "Language"
 msgstr "Hizkuntzak"
@@ -819,8 +858,16 @@ msgstr "Softwarea instalatzen"
 msgid "Medium"
 msgstr ""
 
+#: src/components/source/InstallationSource.jsx:49
+msgid "Metalink"
+msgstr ""
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:310
 msgid "Minimum of $0 required"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:48
+msgid "Mirrorlist"
 msgstr ""
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
@@ -970,7 +1017,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:228
 #, fuzzy
 msgid "Operating system"
 msgstr "Erabiltzaileak sortzen"
@@ -998,7 +1045,7 @@ msgstr "Pasaesaldia"
 msgid "Passphrase did not match any locked device"
 msgstr ""
 
-#: src/components/Password.jsx:278
+#: src/components/Password.jsx:289
 #, fuzzy
 msgid "Passphrases must match"
 msgstr "Pasaesaldiak ez datoz bat."
@@ -1044,6 +1091,13 @@ msgstr ""
 #| msgid "Installation"
 msgid "Proceed with installation"
 msgstr "Instalazioa"
+
+#: src/components/source/InstallationSource.jsx:182
+#, fuzzy
+#| msgctxt "GUI|Network|Proxy"
+#| msgid "_FTP Proxy"
+msgid "Proxy"
+msgstr "_FTP Proxya"
 
 #: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1192,6 +1246,12 @@ msgstr ""
 msgid "Reporting issue..."
 msgstr ""
 
+#: src/components/source/InstallationSource.jsx:47
+#, fuzzy
+#| msgid "Empty"
+msgid "Repository URL"
+msgstr "Hutsik"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 #, fuzzy
 msgid "Required"
@@ -1268,6 +1328,18 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "Root pasahitza ezarri da."
 
+#: src/components/source/InstallationSource.jsx:188
+msgid "SSL CA certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:189
+msgid "SSL client certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:185
+msgid "SSL verification"
+msgstr ""
+
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
@@ -1286,11 +1358,11 @@ msgstr ""
 msgid "Search for a language"
 msgstr "Hizkuntzak"
 
-#: src/components/software/SoftwareSelection.jsx:159
+#: src/components/software/SoftwareSelection.jsx:150
 msgid "Search for additional software"
 msgstr ""
 
-#: src/components/software/SoftwareSelection.jsx:66
+#: src/components/software/SoftwareSelection.jsx:57
 #, fuzzy
 msgid "Search for an environment"
 msgstr "Hizkuntzak"
@@ -1359,6 +1431,12 @@ msgstr "{} NFS zerbitzaria"
 msgid "Server is not reachable"
 msgstr ""
 
+#: src/components/source/SourceReviewDescription.jsx:48
+msgid ""
+"Set by the kickstart file. Remove source selection from kickstart to be able "
+"to configure interactively."
+msgstr ""
+
 #: src/components/review/Hostname.jsx:87
 msgid "Set custom hostname"
 msgstr ""
@@ -1392,7 +1470,7 @@ msgstr "_AM/PM"
 msgid "Show PIN"
 msgstr "_AM/PM"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 #, fuzzy
 msgid "Show confirmed password"
 msgstr "_Berretsi pasahitza"
@@ -1402,7 +1480,7 @@ msgstr "_Berretsi pasahitza"
 msgid "Show passphrase"
 msgstr "_Berretsi pasahitza"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 #, fuzzy
 msgid "Show password"
 msgstr "Erakutsi pasahitza."
@@ -1422,12 +1500,12 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: src/components/software/index.js:19 src/components/software/index.js:20
-#: src/components/review/ReviewConfiguration.jsx:247
+#: src/components/software/index.js:22 src/components/software/index.js:23
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Software selection"
 msgstr "Software aukeraketa"
 
-#: src/components/review/ReviewConfiguration.jsx:215
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1444,11 +1522,11 @@ msgstr ""
 msgid "Stacktrace"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:276
+#: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr ""
 
-#: src/components/steps.js:35
+#: src/components/steps.js:37
 #: src/components/installation/InstallationProgress.jsx:228
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
@@ -1614,7 +1692,7 @@ msgid "Time"
 msgstr ""
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/review/ReviewConfiguration.jsx:246
 #, fuzzy
 #| msgid "%s timezone"
 msgid "Timezone"
@@ -1641,6 +1719,16 @@ msgstr ""
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "Mota"
+
+#: src/components/source/InstallationSource.jsx:263
+msgid "URL"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:293
+#, fuzzy
+#| msgid "URL is empty"
+msgid "URL type"
+msgstr "URLa hutsik dago"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1833,7 +1921,7 @@ msgstr ""
 msgid "here"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:57
+#: src/components/review/ReviewConfiguration.jsx:61
 #, fuzzy
 msgid "incomplete"
 msgstr "Amaituta!"
@@ -1976,9 +2064,6 @@ msgstr ""
 #~ msgid "Install using the configured storage?"
 #~ msgstr "Softwarea instalatzen"
 
-#~ msgid "Disabled"
-#~ msgstr "Desgaitua"
-
 #~ msgid "Enabled"
 #~ msgstr "Gaituta"
 
@@ -2103,13 +2188,6 @@ msgstr ""
 #, fuzzy
 #~| msgctxt "GUI|Software Source"
 #~| msgid "_Auto-detected installation media:"
-#~ msgctxt "GUI|Software Source"
-#~ msgid "Auto-detected installation _source"
-#~ msgstr "_Automatikoki atzeman den instalazio euskarria:"
-
-#, fuzzy
-#~| msgctxt "GUI|Software Source"
-#~| msgid "_Auto-detected installation media:"
 #~ msgid "Auto-detected source"
 #~ msgstr "_Automatikoki atzeman den instalazio euskarria:"
 
@@ -2184,9 +2262,6 @@ msgstr ""
 
 #~ msgid "Capacity"
 #~ msgstr "Edukiera"
-
-#~ msgid "Closest mirror"
-#~ msgstr "Gertuko ispilua"
 
 #~ msgid "Complete!"
 #~ msgstr "Amaituta!"
@@ -2281,11 +2356,6 @@ msgstr ""
 #~ msgstr "EFI sistema-partizioa"
 
 #~ msgid "Empty"
-#~ msgstr "Hutsik"
-
-#, fuzzy
-#~| msgid "Empty"
-#~ msgid "Empty URL"
 #~ msgstr "Hutsik"
 
 #, fuzzy
@@ -2873,9 +2943,6 @@ msgstr ""
 #~ msgid "Tip:"
 #~ msgstr "Aholkua:"
 
-#~ msgid "URL is empty"
-#~ msgstr "URLa hutsik dago"
-
 #~ msgid "USER SETTINGS"
 #~ msgstr "ERABILTZAILEEN EZARPENAK"
 
@@ -3223,10 +3290,6 @@ msgstr ""
 #~ msgctxt "GUI|Storage Detailed Error Dialog"
 #~ msgid "_Exit Installer"
 #~ msgstr "Irt_en instalatzailetik"
-
-#~ msgctxt "GUI|Network|Proxy"
-#~ msgid "_FTP Proxy"
-#~ msgstr "_FTP Proxya"
 
 #~ msgctxt "GUI|Progress"
 #~ msgid "_Finish Installation"
@@ -3613,11 +3676,6 @@ msgstr ""
 #~ msgid_plural "$0 (of $1) disks selected"
 #~ msgstr[0] "Ez dago diskorik aukeratuta"
 #~ msgstr[1] "Ez dago diskorik aukeratuta"
-
-#, fuzzy
-#~| msgid "Installation"
-#~ msgid "Installation progress"
-#~ msgstr "Instalazioa"
 
 #, fuzzy
 #~| msgid "Installation"

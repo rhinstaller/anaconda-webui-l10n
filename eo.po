@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 07:55+0000\n"
+"POT-Creation-Date: 2026-10-21 08:00+0000\n"
 "PO-Revision-Date: 2023-11-06 12:16+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Esperanto <https://translate.fedoraproject.org/projects/"
@@ -115,7 +115,7 @@ msgstr "Instalo"
 msgid "About"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:254
+#: src/components/review/ReviewConfiguration.jsx:265
 #, fuzzy
 #| msgid "Lock root account"
 msgid "Account"
@@ -139,13 +139,13 @@ msgstr "Aldoni NTP-servilon"
 msgid "Add mount"
 msgstr "Aldoni aranĝon"
 
-#: src/components/software/SoftwareSelection.jsx:122
+#: src/components/software/SoftwareSelection.jsx:113
 #, fuzzy
 #| msgid "Add-ons for selected environment"
 msgid "Add-ons for your chosen environment"
 msgstr "Kromprogramoj por elektita medio"
 
-#: src/components/software/SoftwareSelection.jsx:131
+#: src/components/software/SoftwareSelection.jsx:122
 msgid "Add-ons not specific to your environment"
 msgstr ""
 
@@ -155,7 +155,7 @@ msgstr ""
 msgid "Additional languages"
 msgstr "Disponeblaj lingvoj"
 
-#: src/components/software/SoftwareSelection.jsx:156
+#: src/components/software/SoftwareSelection.jsx:147
 #, fuzzy
 #| msgid "Add-ons for selected environment"
 msgid "Additional software for the selected environment"
@@ -174,7 +174,7 @@ msgstr ""
 msgid "Anaconda"
 msgstr "Anaconda instalilo"
 
-#: src/login.html:8 src/index.html:20
+#: src/index.html:20 src/login.html:8
 #, fuzzy
 msgid "Anaconda Web UI"
 msgstr "Anaconda instalilo"
@@ -220,7 +220,7 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
-#: src/components/software/SoftwareSelection.jsx:63
+#: src/components/software/SoftwareSelection.jsx:54
 msgid "Base environment"
 msgstr "Baza medio"
 
@@ -301,7 +301,7 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:196
 #, fuzzy
 #| msgid "Checking storage configuration..."
 msgid "Checking installation configuration..."
@@ -333,6 +333,17 @@ msgstr "Fermi"
 msgid "Close storage editor"
 msgstr "Instalo"
 
+#: src/components/source/SourceReviewDescription.jsx:34
+#: src/components/source/InstallationSource.jsx:41
+msgid "Closest mirror"
+msgstr "Plej proksima spegulo"
+
+#: src/components/source/InstallationSource.jsx:286
+#, fuzzy
+#| msgid "Closest mirror"
+msgid "Closest public mirror"
+msgstr "Plej proksima spegulo"
+
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
@@ -343,7 +354,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Plenumita!"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:217
 #, fuzzy
 #| msgid "Apply configuration in installer"
 msgid "Configuration is incomplete"
@@ -376,6 +387,18 @@ msgstr "Agordante konservejon"
 #| msgid "Configuring storage"
 msgid "Configure storage again"
 msgstr "Agordante konservejon"
+
+#: src/components/source/InstallationSource.jsx:140
+#, fuzzy
+#| msgid "Configuring installed system"
+msgid "Configuring installation source"
+msgstr "Agordante instalitan sistemon"
+
+#: src/components/source/InstallationSource.jsx:141
+#, fuzzy
+#| msgid "Setting up installation source..."
+msgid "Configuring installation source..."
+msgstr "Agordante fonton de instalo..."
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -481,6 +504,11 @@ msgstr ""
 msgid "Device"
 msgstr "Aparato"
 
+#: src/components/source/InstallationSource.jsx:186
+#, fuzzy
+msgid "Disabled"
+msgstr "Enŝaltite"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 #, fuzzy
 msgid "Duplicate device."
@@ -552,6 +580,12 @@ msgstr ""
 msgid "Extended partition"
 msgstr "Norma subdisko"
 
+#: src/components/source/InstallationSource.jsx:222
+#, fuzzy
+#| msgid "Failed to set up installation source"
+msgid "Failed to configure installation source"
+msgstr "Malsukcesis agordi fonton de instalo"
+
 #: src/components/Error.jsx:642
 #, fuzzy
 #| msgid "Failed to save storage configuration..."
@@ -612,7 +646,7 @@ msgstr ""
 msgid "Hide PIN"
 msgstr ""
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 #, fuzzy
 msgid "Hide confirmed password"
 msgstr "_Konfirmi pasvorton"
@@ -622,7 +656,7 @@ msgstr "_Konfirmi pasvorton"
 msgid "Hide passphrase"
 msgstr "_Konfirmi pasvorton"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 #, fuzzy
 msgid "Hide password"
 msgstr "Kaŝi pasvorton."
@@ -640,18 +674,18 @@ msgstr ""
 "\n"
 "Ĉu vi volas ĝin tamen uzi?"
 
-#: src/components/review/ReviewConfiguration.jsx:309
+#: src/components/review/ReviewConfiguration.jsx:320
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/components/review/ReviewConfiguration.jsx:314
+#: src/components/review/ReviewConfiguration.jsx:325
 msgid "I understand that some existing data will be erased"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:315
+#: src/components/review/ReviewConfiguration.jsx:326
 msgid "I understand that some partitions will be modified"
 msgstr ""
 
@@ -731,7 +765,12 @@ msgstr "Instalo"
 msgid "Installation of the system failed: $0"
 msgstr "Instalo"
 
-#: src/components/review/ReviewConfiguration.jsx:269
+#: src/components/source/index.js:24 src/components/source/index.js:25
+#: src/components/review/ReviewConfiguration.jsx:252
+msgid "Installation source"
+msgstr "Fonto de instalo"
+
+#: src/components/review/ReviewConfiguration.jsx:280
 #, fuzzy
 msgid "Installation type"
 msgstr "Instalo"
@@ -764,7 +803,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Nevalida gastignomo"
 
-#: src/components/review/ReviewConfiguration.jsx:208
+#: src/components/review/ReviewConfiguration.jsx:213
 #, fuzzy
 msgid "Jump to first incomplete step"
 msgstr "Plenumita!"
@@ -787,7 +826,7 @@ msgid "Keyboard layout during boot"
 msgstr ""
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/review/ReviewConfiguration.jsx:239
 #, fuzzy
 msgid "Language"
 msgstr "Lingvoj"
@@ -851,8 +890,16 @@ msgstr "Instalante programaron"
 msgid "Medium"
 msgstr ""
 
+#: src/components/source/InstallationSource.jsx:49
+msgid "Metalink"
+msgstr ""
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:310
 msgid "Minimum of $0 required"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:48
+msgid "Mirrorlist"
 msgstr ""
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
@@ -1004,7 +1051,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:228
 #, fuzzy
 msgid "Operating system"
 msgstr "Kreante uzantojn"
@@ -1038,7 +1085,7 @@ msgstr "Pasfrazo"
 msgid "Passphrase did not match any locked device"
 msgstr ""
 
-#: src/components/Password.jsx:278
+#: src/components/Password.jsx:289
 #, fuzzy
 msgid "Passphrases must match"
 msgstr "La pasfrazoj ne kongruas."
@@ -1092,6 +1139,13 @@ msgstr ""
 #| msgid "Failed to set up installation source"
 msgid "Proceed with installation"
 msgstr "Malsukcesis agordi fonton de instalo"
+
+#: src/components/source/InstallationSource.jsx:182
+#, fuzzy
+#| msgctxt "GUI|Network|Proxy"
+#| msgid "_FTP Proxy"
+msgid "Proxy"
+msgstr "_FTP-prokurilo"
 
 #: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1252,6 +1306,12 @@ msgstr ""
 msgid "Reporting issue..."
 msgstr "testante staton..."
 
+#: src/components/source/InstallationSource.jsx:47
+#, fuzzy
+#| msgid "repository URL"
+msgid "Repository URL"
+msgstr "deponeja URL"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 #, fuzzy
 msgid "Required"
@@ -1333,6 +1393,18 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "Agordis administrantan pasvorton."
 
+#: src/components/source/InstallationSource.jsx:188
+msgid "SSL CA certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:189
+msgid "SSL client certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:185
+msgid "SSL verification"
+msgstr ""
+
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
@@ -1351,13 +1423,13 @@ msgstr ""
 msgid "Search for a language"
 msgstr "Lingvoj"
 
-#: src/components/software/SoftwareSelection.jsx:159
+#: src/components/software/SoftwareSelection.jsx:150
 #, fuzzy
 #| msgid "No add-ons to select."
 msgid "Search for additional software"
 msgstr "Neniu kromprogramo elektita."
 
-#: src/components/software/SoftwareSelection.jsx:66
+#: src/components/software/SoftwareSelection.jsx:57
 #, fuzzy
 msgid "Search for an environment"
 msgstr "Lingvoj"
@@ -1429,6 +1501,12 @@ msgstr "NTP-serviloj:"
 msgid "Server is not reachable"
 msgstr ""
 
+#: src/components/source/SourceReviewDescription.jsx:48
+msgid ""
+"Set by the kickstart file. Remove source selection from kickstart to be able "
+"to configure interactively."
+msgstr ""
+
 #: src/components/review/Hostname.jsx:87
 #, fuzzy
 #| msgid "Set host name"
@@ -1464,7 +1542,7 @@ msgstr "_ATM/PTM"
 msgid "Show PIN"
 msgstr "_ATM/PTM"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 #, fuzzy
 msgid "Show confirmed password"
 msgstr "_Konfirmi pasvorton"
@@ -1474,7 +1552,7 @@ msgstr "_Konfirmi pasvorton"
 msgid "Show passphrase"
 msgstr "_Konfirmi pasvorton"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 #, fuzzy
 msgid "Show password"
 msgstr "Montri pasvorton."
@@ -1494,12 +1572,12 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: src/components/software/index.js:19 src/components/software/index.js:20
-#: src/components/review/ReviewConfiguration.jsx:247
+#: src/components/software/index.js:22 src/components/software/index.js:23
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Software selection"
 msgstr "Programara elekto"
 
-#: src/components/review/ReviewConfiguration.jsx:215
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1518,12 +1596,12 @@ msgstr "Neniu spaco"
 msgid "Stacktrace"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:276
+#: src/components/review/ReviewConfiguration.jsx:287
 #, fuzzy
 msgid "Storage"
 msgstr "Konservejaj agordoj"
 
-#: src/components/steps.js:35
+#: src/components/steps.js:37
 #: src/components/installation/InstallationProgress.jsx:228
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
@@ -1699,7 +1777,7 @@ msgid "Time"
 msgstr "Horzono: %s\n"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/review/ReviewConfiguration.jsx:246
 #, fuzzy
 #| msgid "Timezone: %s\n"
 msgid "Timezone"
@@ -1732,6 +1810,20 @@ msgstr ""
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "Tipo"
+
+#: src/components/source/InstallationSource.jsx:263
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "Pro_xy URL:"
+msgid "URL"
+msgstr "Pro_kurila URL:"
+
+#: src/components/source/InstallationSource.jsx:293
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "URL type:"
+msgid "URL type"
+msgstr "URL speco:"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1933,7 +2025,7 @@ msgstr "Restrukturi"
 msgid "here"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:57
+#: src/components/review/ReviewConfiguration.jsx:61
 #, fuzzy
 msgid "incomplete"
 msgstr "Plenumita!"
@@ -2090,10 +2182,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Install using the configured storage?"
 #~ msgstr "Instalante programaron"
-
-#, fuzzy
-#~ msgid "Disabled"
-#~ msgstr "Enŝaltite"
 
 #~ msgid "Enabled"
 #~ msgstr "Enŝaltite"
@@ -2871,9 +2959,6 @@ msgstr ""
 #~ msgid "City"
 #~ msgstr "Urbo"
 
-#~ msgid "Closest mirror"
-#~ msgstr "Plej proksima spegulo"
-
 #~ msgid "Complete!"
 #~ msgstr "Plenumita!"
 
@@ -2917,9 +3002,6 @@ msgstr ""
 #, python-format
 #~ msgid "Configuring device %s."
 #~ msgstr "Agordante aparaton %s."
-
-#~ msgid "Configuring installed system"
-#~ msgstr "Agordante instalitan sistemon"
 
 #, fuzzy
 #~| msgid "Configuring %s"
@@ -3579,9 +3661,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Instalado bezonas subdiskigon de via disko. Elektu kiun spacon vi volas "
 #~ "uzi por la instala celo aŭ mane asignu surmetingojn."
-
-#~ msgid "Installation source"
-#~ msgstr "Fonto de instalo"
 
 #~ msgid "Installation source needs to be set up first."
 #~ msgstr "Fonto de instalo devas esti antaŭe agordita."
@@ -4476,11 +4555,6 @@ msgstr ""
 #~ msgid "Repo URL"
 #~ msgstr "Deponeja URL"
 
-#, fuzzy
-#~| msgid "repository URL"
-#~ msgid "Repository URL"
-#~ msgstr "deponeja URL"
-
 #~ msgid "Repository name conflicts with internal repository name"
 #~ msgstr "Deponeja nomo konfliktas kun ena deponeja nomo"
 
@@ -4702,9 +4776,6 @@ msgstr ""
 
 #~ msgid "Set timezone"
 #~ msgstr "Agordi horzonon"
-
-#~ msgid "Setting up installation source..."
-#~ msgstr "Agordante fonton de instalo..."
 
 #~ msgid "Setting up kexec"
 #~ msgstr "Agordante kexec"
@@ -5338,10 +5409,6 @@ msgstr ""
 #~| msgid "Name of the repository."
 #~ msgid "URL of the repository"
 #~ msgstr "Nomo de la deponejo."
-
-#~ msgctxt "GUI|Software Source"
-#~ msgid "URL type:"
-#~ msgstr "URL speco:"
 
 #~ msgid "USER SETTINGS"
 #~ msgstr "UZANTAJ AGORDOJ"
@@ -6202,10 +6269,6 @@ msgstr ""
 #~ msgid "_Exit Installer"
 #~ msgstr "Ĉ_esigi instalilon"
 
-#~ msgctxt "GUI|Network|Proxy"
-#~ msgid "_FTP Proxy"
-#~ msgstr "_FTP-prokurilo"
-
 #~ msgctxt "GUI|Progress"
 #~ msgid "_Finish Installation"
 #~ msgstr "_Fini instaladon"
@@ -6608,13 +6671,6 @@ msgstr ""
 #~ msgctxt "GUI|Spoke"
 #~ msgid "_Time & Date"
 #~ msgstr "_Dato & horo"
-
-#, fuzzy
-#~| msgctxt "GUI|Software Source"
-#~| msgid "Pro_xy URL:"
-#~ msgctxt "GUI|Software Source"
-#~ msgid "_URL:"
-#~ msgstr "Pro_kurila URL:"
 
 #~ msgctxt "GUI|Custom Partitioning|Encrypted"
 #~ msgid "_Unlock"
@@ -7021,9 +7077,6 @@ msgstr ""
 #~ msgid_plural "$0 (of $1) disks selected"
 #~ msgstr[0] "Neniu disko elektita"
 #~ msgstr[1] "Neniu disko elektita"
-
-#~ msgid "Failed to set up installation source"
-#~ msgstr "Malsukcesis agordi fonton de instalo"
 
 #~ msgid "Error downloading package metadata"
 #~ msgstr "Eraro dum elŝuto de pakaj metadatumoj"

@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 07:55+0000\n"
+"POT-Creation-Date: 2026-10-21 08:00+0000\n"
 "PO-Revision-Date: 2023-11-06 12:19+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Kannada <https://translate.fedoraproject.org/projects/"
@@ -130,7 +130,7 @@ msgstr "ಅನುಸ್ಥಾಪನೆ"
 msgid "About"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:254
+#: src/components/review/ReviewConfiguration.jsx:265
 #, fuzzy
 msgid "Account"
 msgstr "ವಿನ್ಯಾಸವನ್ನು (ಲೇಔಟ್) ಸೇರಿಸು"
@@ -151,13 +151,13 @@ msgstr ""
 msgid "Add mount"
 msgstr "ವಿನ್ಯಾಸವನ್ನು (ಲೇಔಟ್) ಸೇರಿಸು"
 
-#: src/components/software/SoftwareSelection.jsx:122
+#: src/components/software/SoftwareSelection.jsx:113
 #, fuzzy
 #| msgid "Add-Ons for Selected Environment"
 msgid "Add-ons for your chosen environment"
 msgstr "ಆರಿಸಲಾದ ಪರಿಸರಕ್ಕಾಗಿ ಆಡ್-ಆನ್‌ಗಳು"
 
-#: src/components/software/SoftwareSelection.jsx:131
+#: src/components/software/SoftwareSelection.jsx:122
 msgid "Add-ons not specific to your environment"
 msgstr ""
 
@@ -166,7 +166,7 @@ msgstr ""
 msgid "Additional languages"
 msgstr "ಎಲ್ಲಾ ಆರಿಸು"
 
-#: src/components/software/SoftwareSelection.jsx:156
+#: src/components/software/SoftwareSelection.jsx:147
 #, fuzzy
 #| msgid "Add-Ons for Selected Environment"
 msgid "Additional software for the selected environment"
@@ -184,7 +184,7 @@ msgstr ""
 msgid "Anaconda"
 msgstr ""
 
-#: src/login.html:8 src/index.html:20
+#: src/index.html:20 src/login.html:8
 #, fuzzy
 msgid "Anaconda Web UI"
 msgstr "ಅನುಸ್ಥಾಪನೆಯನ್ನು ಆರಂಭಿಸು (_B)"
@@ -230,7 +230,7 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
-#: src/components/software/SoftwareSelection.jsx:63
+#: src/components/software/SoftwareSelection.jsx:54
 msgid "Base environment"
 msgstr "ಮೂಲ ಪರಿಸರ"
 
@@ -300,7 +300,7 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:196
 #, fuzzy
 #| msgid "Checking storage configuration..."
 msgid "Checking installation configuration..."
@@ -332,6 +332,17 @@ msgstr "ಮುಚ್ಚು"
 msgid "Close storage editor"
 msgstr "ಅನುಸ್ಥಾಪನೆ"
 
+#: src/components/source/SourceReviewDescription.jsx:34
+#: src/components/source/InstallationSource.jsx:41
+msgid "Closest mirror"
+msgstr "ಅತ್ಯಂತ ಹತ್ತಿರ ಮಿರರ್"
+
+#: src/components/source/InstallationSource.jsx:286
+#, fuzzy
+#| msgid "Closest mirror"
+msgid "Closest public mirror"
+msgstr "ಅತ್ಯಂತ ಹತ್ತಿರ ಮಿರರ್"
+
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
@@ -342,7 +353,7 @@ msgstr ""
 msgid "Completed"
 msgstr "ಪೂರ್ಣಗೊಂಡಿದೆ!"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:217
 #, fuzzy
 #| msgid "Apply configuration in installer"
 msgid "Configuration is incomplete"
@@ -374,6 +385,18 @@ msgstr "ಶೇಖರಣಾ ವಿನ್ಯಾಸವನ್ನು ಮಾರ್ಪ�
 #, fuzzy
 msgid "Configure storage again"
 msgstr "ಶೇಖರಣಾ ವಿನ್ಯಾಸವನ್ನು ಮಾರ್ಪಡಿಸು (_M)"
+
+#: src/components/source/InstallationSource.jsx:140
+#, fuzzy
+#| msgid "Installation source"
+msgid "Configuring installation source"
+msgstr "ಅನುಸ್ಥಾಪನಾ ಆಕರ"
+
+#: src/components/source/InstallationSource.jsx:141
+#, fuzzy
+#| msgid "Setting up installation source..."
+msgid "Configuring installation source..."
+msgstr "ಅನುಸ್ಥಾಪನಾ ಆಕರವನ್ನು ಸಿದ್ಧಗೊಳಿಸಲಾಗುತ್ತಿದೆ..."
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -473,6 +496,11 @@ msgstr ""
 msgid "Device"
 msgstr ""
 
+#: src/components/source/InstallationSource.jsx:186
+#, fuzzy
+msgid "Disabled"
+msgstr "ಸಕ್ರಿಯ"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 #, fuzzy
 msgid "Duplicate device."
@@ -542,6 +570,12 @@ msgstr ""
 msgid "Extended partition"
 msgstr "ಶಿಷ್ಟ ವಿಭಜನೆ"
 
+#: src/components/source/InstallationSource.jsx:222
+#, fuzzy
+#| msgid "Failed to set up installation source"
+msgid "Failed to configure installation source"
+msgstr "ಅನುಸ್ಥಾಪನಾ ಆಕರವನ್ನು ಸಿದ್ಧಗೊಳಿಸುವಲ್ಲಿ ವಿಫಲತೆ"
+
 #: src/components/Error.jsx:642
 #, fuzzy
 #| msgid "Failed to save storage configuration..."
@@ -605,7 +639,7 @@ msgstr ""
 msgid "Hide PIN"
 msgstr ""
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 #, fuzzy
 msgid "Hide confirmed password"
 msgstr "ಗುಪ್ತಪದವನ್ನು ಖಚಿತಪಡಿಸು (_C)"
@@ -615,7 +649,7 @@ msgstr "ಗುಪ್ತಪದವನ್ನು ಖಚಿತಪಡಿಸು (_C)"
 msgid "Hide passphrase"
 msgstr "ಗುಪ್ತಪದವನ್ನು ಖಚಿತಪಡಿಸು (_C)"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 #, fuzzy
 msgid "Hide password"
 msgstr "ಗುಪ್ತಪದವಿಲ್ಲ"
@@ -628,18 +662,18 @@ msgstr ""
 msgid "How would you like to install?"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:309
+#: src/components/review/ReviewConfiguration.jsx:320
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/components/review/ReviewConfiguration.jsx:314
+#: src/components/review/ReviewConfiguration.jsx:325
 msgid "I understand that some existing data will be erased"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:315
+#: src/components/review/ReviewConfiguration.jsx:326
 msgid "I understand that some partitions will be modified"
 msgstr ""
 
@@ -716,7 +750,12 @@ msgstr "ಅನುಸ್ಥಾಪನೆ"
 msgid "Installation of the system failed: $0"
 msgstr "ಅನುಸ್ಥಾಪನೆ"
 
-#: src/components/review/ReviewConfiguration.jsx:269
+#: src/components/source/index.js:24 src/components/source/index.js:25
+#: src/components/review/ReviewConfiguration.jsx:252
+msgid "Installation source"
+msgstr "ಅನುಸ್ಥಾಪನಾ ಆಕರ"
+
+#: src/components/review/ReviewConfiguration.jsx:280
 #, fuzzy
 msgid "Installation type"
 msgstr "ಅನುಸ್ಥಾಪನೆ"
@@ -749,7 +788,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "ತಪ್ಪಾದ ರೆಪೊಸಿಟರಿ ಹೆಸರು"
 
-#: src/components/review/ReviewConfiguration.jsx:208
+#: src/components/review/ReviewConfiguration.jsx:213
 #, fuzzy
 msgid "Jump to first incomplete step"
 msgstr "ಪೂರ್ಣಗೊಂಡಿದೆ!"
@@ -769,7 +808,7 @@ msgid "Keyboard layout during boot"
 msgstr ""
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/review/ReviewConfiguration.jsx:239
 #, fuzzy
 msgid "Language"
 msgstr "ಭಾಷೆಗಳು"
@@ -833,8 +872,16 @@ msgstr "ತಂತ್ರಾಂಶವನ್ನು ಅನುಸ್ಥಾಪಿಸ�
 msgid "Medium"
 msgstr ""
 
+#: src/components/source/InstallationSource.jsx:49
+msgid "Metalink"
+msgstr ""
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:310
 msgid "Minimum of $0 required"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:48
+msgid "Mirrorlist"
 msgstr ""
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
@@ -986,7 +1033,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:228
 #, fuzzy
 msgid "Operating system"
 msgstr "ಬಳಕೆದಾರರನ್ನು ರಚಿಸಲಾಗುತ್ತಿದೆ"
@@ -1017,7 +1064,7 @@ msgstr "ಗುಪ್ತವಾಕ್ಯಾಂಶ"
 msgid "Passphrase did not match any locked device"
 msgstr ""
 
-#: src/components/Password.jsx:278
+#: src/components/Password.jsx:289
 #, fuzzy
 msgid "Passphrases must match"
 msgstr "ಗುಪ್ತವಾಕ್ಯಾಂಶ"
@@ -1070,6 +1117,13 @@ msgstr ""
 #| msgid "Failed to set up installation source"
 msgid "Proceed with installation"
 msgstr "ಅನುಸ್ಥಾಪನಾ ಆಕರವನ್ನು ಸಿದ್ಧಗೊಳಿಸುವಲ್ಲಿ ವಿಫಲತೆ"
+
+#: src/components/source/InstallationSource.jsx:182
+#, fuzzy
+#| msgctxt "GUI|Network|Proxy"
+#| msgid "_FTP Proxy"
+msgid "Proxy"
+msgstr "_FTP ಪ್ರಾಕ್ಸಿ"
 
 #: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1226,6 +1280,12 @@ msgstr ""
 msgid "Reporting issue..."
 msgstr "ಸ್ಥಿತಿಯನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ..."
 
+#: src/components/source/InstallationSource.jsx:47
+#, fuzzy
+#| msgid "Repo URL"
+msgid "Repository URL"
+msgstr "ರೆಪೊ URL"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 #, fuzzy
 msgid "Required"
@@ -1305,6 +1365,18 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "ನಿರ್ವಾಹಕ ಗುಪ್ತಪದವನ್ನು ಹೊಂದಿಸಲಾಗಿಲ್ಲ"
 
+#: src/components/source/InstallationSource.jsx:188
+msgid "SSL CA certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:189
+msgid "SSL client certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:185
+msgid "SSL verification"
+msgstr ""
+
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
@@ -1323,13 +1395,13 @@ msgstr ""
 msgid "Search for a language"
 msgstr "ಭಾಷೆಗಳು"
 
-#: src/components/software/SoftwareSelection.jsx:159
+#: src/components/software/SoftwareSelection.jsx:150
 #, fuzzy
 #| msgid "Custom software selected"
 msgid "Search for additional software"
 msgstr "ಅಗತ್ಯಾನುಗುಣವಾದ ತಂತ್ರಾಂಶವನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ"
 
-#: src/components/software/SoftwareSelection.jsx:66
+#: src/components/software/SoftwareSelection.jsx:57
 #, fuzzy
 msgid "Search for an environment"
 msgstr "ಭಾಷೆಗಳು"
@@ -1401,6 +1473,12 @@ msgstr "NFS ಪೂರೈಕೆಗಣಕ %s"
 msgid "Server is not reachable"
 msgstr ""
 
+#: src/components/source/SourceReviewDescription.jsx:48
+msgid ""
+"Set by the kickstart file. Remove source selection from kickstart to be able "
+"to configure interactively."
+msgstr ""
+
 #: src/components/review/Hostname.jsx:87
 msgid "Set custom hostname"
 msgstr ""
@@ -1434,7 +1512,7 @@ msgstr "_AM/PM"
 msgid "Show PIN"
 msgstr "_AM/PM"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 #, fuzzy
 msgid "Show confirmed password"
 msgstr "ಗುಪ್ತಪದವನ್ನು ಖಚಿತಪಡಿಸು (_C)"
@@ -1444,7 +1522,7 @@ msgstr "ಗುಪ್ತಪದವನ್ನು ಖಚಿತಪಡಿಸು (_C)"
 msgid "Show passphrase"
 msgstr "ಗುಪ್ತಪದವನ್ನು ಖಚಿತಪಡಿಸು (_C)"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 #, fuzzy
 msgid "Show password"
 msgstr "ನಿರ್ವಾಹಕ ಗುಪ್ತಪದ"
@@ -1464,12 +1542,12 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: src/components/software/index.js:19 src/components/software/index.js:20
-#: src/components/review/ReviewConfiguration.jsx:247
+#: src/components/software/index.js:22 src/components/software/index.js:23
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Software selection"
 msgstr "ತಂತ್ರಾಂಶದ ಆಯ್ಕೆ"
 
-#: src/components/review/ReviewConfiguration.jsx:215
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1488,12 +1566,12 @@ msgstr "ಜಾಗವಿಲ್ಲ"
 msgid "Stacktrace"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:276
+#: src/components/review/ReviewConfiguration.jsx:287
 #, fuzzy
 msgid "Storage"
 msgstr "ಶೇಖರಣಾ ಆಯ್ಕೆಗಳು"
 
-#: src/components/steps.js:35
+#: src/components/steps.js:37
 #: src/components/installation/InstallationProgress.jsx:228
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
@@ -1665,7 +1743,7 @@ msgid "Time"
 msgstr ""
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/review/ReviewConfiguration.jsx:246
 #, fuzzy
 #| msgid "%s timezone"
 msgid "Timezone"
@@ -1694,6 +1772,19 @@ msgstr ""
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "ಬಗೆ"
+
+#: src/components/source/InstallationSource.jsx:263
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "Pro_xy URL:"
+msgid "URL"
+msgstr "ಪ್ರಾಕ್ಸಿ URL (_x):"
+
+#: src/components/source/InstallationSource.jsx:293
+#, fuzzy
+#| msgid "URL is empty"
+msgid "URL type"
+msgstr "URL ಖಾಲಿ ಇದೆ"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1883,7 +1974,7 @@ msgstr ""
 msgid "here"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:57
+#: src/components/review/ReviewConfiguration.jsx:61
 #, fuzzy
 msgid "incomplete"
 msgstr "ಪೂರ್ಣಗೊಂಡಿದೆ!"
@@ -2032,10 +2123,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Install using the configured storage?"
 #~ msgstr "ತಂತ್ರಾಂಶವನ್ನು ಅನುಸ್ಥಾಪಿಸಲಾಗುತ್ತಿದೆ"
-
-#, fuzzy
-#~ msgid "Disabled"
-#~ msgstr "ಸಕ್ರಿಯ"
 
 #~ msgid "Enabled"
 #~ msgstr "ಸಕ್ರಿಯ"
@@ -2623,9 +2710,6 @@ msgstr ""
 #~ msgid "City"
 #~ msgstr "ಊರು"
 
-#~ msgid "Closest mirror"
-#~ msgstr "ಅತ್ಯಂತ ಹತ್ತಿರ ಮಿರರ್"
-
 #~ msgid "Complete!"
 #~ msgstr "ಪೂರ್ಣಗೊಂಡಿದೆ!"
 
@@ -3111,9 +3195,6 @@ msgstr ""
 
 #~ msgid "Installation Destination"
 #~ msgstr "ಅನುಸ್ಥಾಪನಾ ಗುರಿ"
-
-#~ msgid "Installation source"
-#~ msgstr "ಅನುಸ್ಥಾಪನಾ ಆಕರ"
 
 #~ msgid "Installation source needs to be set up first."
 #~ msgstr "ಮೊದಲು ಅನುಸ್ಥಾಪನಾ ಆಕರವನ್ನು ಸಿದ್ಧಗೊಳಿಸಬೇಕು."
@@ -3772,11 +3853,6 @@ msgstr ""
 #~ msgid "Repo URL"
 #~ msgstr "ರೆಪೊ URL"
 
-#, fuzzy
-#~| msgid "Repo URL"
-#~ msgid "Repository URL"
-#~ msgstr "ರೆಪೊ URL"
-
 #~ msgid "Repository name conflicts with internal repository name"
 #~ msgstr "ರೆಪೊಸಿಟರಿಯ ಹೆಸರು ಆಂತರಿಕ ರೆಪೊಸಿಟರಿಯ ಹೆಸರಿನೊಂದಿಗೆ ಘರ್ಷಿಸುತ್ತದೆ"
 
@@ -3935,9 +4011,6 @@ msgstr ""
 #~| msgid "_zSeries Devices"
 #~ msgid "Service level"
 #~ msgstr "_zSeries ಸಾಧನಗಳು"
-
-#~ msgid "Setting up installation source..."
-#~ msgstr "ಅನುಸ್ಥಾಪನಾ ಆಕರವನ್ನು ಸಿದ್ಧಗೊಳಿಸಲಾಗುತ್ತಿದೆ..."
 
 #~ msgid "Setting up the installation environment"
 #~ msgstr "ಅನುಸ್ಥಾಪನಾ ಪರಿಸರವನ್ನು ಸಿದ್ಧಗೊಳಿಸಲಾಗುತ್ತಿದೆ"
@@ -4434,9 +4507,6 @@ msgstr ""
 
 #~ msgid "URL has no host component"
 #~ msgstr "URL ಯಾವುದೆ ಆತಿಥೇಯ ಘಟಕವನ್ನು ಹೊಂದಿಲ್ಲ"
-
-#~ msgid "URL is empty"
-#~ msgstr "URL ಖಾಲಿ ಇದೆ"
 
 #, fuzzy
 #~| msgid "Name of the repository."
@@ -5025,10 +5095,6 @@ msgstr ""
 #~ msgid "_Encrypt"
 #~ msgstr "ಗೂಢಲಿಪೀಕರಿಸು (_E)"
 
-#~ msgctxt "GUI|Network|Proxy"
-#~ msgid "_FTP Proxy"
-#~ msgstr "_FTP ಪ್ರಾಕ್ಸಿ"
-
 #~ msgctxt "GUI|DAD Format Dialog"
 #~ msgid "_Format with dasdfmt"
 #~ msgstr "dasdfmt ಯೊಂದಿಗೆ ಫಾರ್ಮ್ಯಾಟ್ ಮಾಡು (_F)"
@@ -5274,13 +5340,6 @@ msgstr ""
 #~ msgctxt "GUI|Keyboard Layout"
 #~ msgid "_Test the layout configuration below:"
 #~ msgstr "ವಿನ್ಯಾಸ ಸಂರಚನೆಯನ್ನು ಈ ಕೆಳಗೆ ಪರೀಕ್ಷಿಸು (_T):"
-
-#, fuzzy
-#~| msgctxt "GUI|Software Source"
-#~| msgid "Pro_xy URL:"
-#~ msgctxt "GUI|Software Source"
-#~ msgid "_URL:"
-#~ msgstr "ಪ್ರಾಕ್ಸಿ URL (_x):"
 
 #~ msgctxt "GUI|Custom Partitioning|Encrypted"
 #~ msgid "_Unlock"
@@ -5564,9 +5623,6 @@ msgstr ""
 #~ msgid_plural "$0 (of $1) disks selected"
 #~ msgstr[0] "ಯಾವುದೆ ಡಿಸ್ಕುಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ"
 #~ msgstr[1] "ಯಾವುದೆ ಡಿಸ್ಕುಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ"
-
-#~ msgid "Failed to set up installation source"
-#~ msgstr "ಅನುಸ್ಥಾಪನಾ ಆಕರವನ್ನು ಸಿದ್ಧಗೊಳಿಸುವಲ್ಲಿ ವಿಫಲತೆ"
 
 #~ msgid "Error downloading package metadata"
 #~ msgstr "ಪ್ಯಾಕೇಜಿನ ಮೆಟಾಡೇಟಾವನ್ನು ಇಳಿಸಿಕೊಳ್ಳುವಲ್ಲಿ ದೋಷ"

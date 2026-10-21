@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 07:55+0000\n"
+"POT-Creation-Date: 2026-10-21 08:00+0000\n"
 "PO-Revision-Date: 2026-09-01 07:59+0000\n"
 "Last-Translator: Aefgh Threenine <aefgh39622@gmail.com>\n"
 "Language-Team: Thai <https://translate.fedoraproject.org/projects/anaconda-"
@@ -117,7 +117,7 @@ msgstr "ยกเลิกการติดตั้ง"
 msgid "About"
 msgstr "เกี่ยวกับ"
 
-#: src/components/review/ReviewConfiguration.jsx:254
+#: src/components/review/ReviewConfiguration.jsx:265
 msgid "Account"
 msgstr "บัญชี"
 
@@ -134,11 +134,11 @@ msgstr "เพิ่มเซิร์ฟเวอร์อื่น..."
 msgid "Add mount"
 msgstr "เพิ่มการเมานต์"
 
-#: src/components/software/SoftwareSelection.jsx:122
+#: src/components/software/SoftwareSelection.jsx:113
 msgid "Add-ons for your chosen environment"
 msgstr "ส่วนเสริมสำหรับสภาพแวดล้อมที่คุณเลือก"
 
-#: src/components/software/SoftwareSelection.jsx:131
+#: src/components/software/SoftwareSelection.jsx:122
 msgid "Add-ons not specific to your environment"
 msgstr "ส่วนเสริมที่ไม่เฉพาะเจาะจงกับสภาพแวดล้อมของคุณ"
 
@@ -146,7 +146,7 @@ msgstr "ส่วนเสริมที่ไม่เฉพาะเจาะ
 msgid "Additional languages"
 msgstr "ภาษาเพิ่มเติม"
 
-#: src/components/software/SoftwareSelection.jsx:156
+#: src/components/software/SoftwareSelection.jsx:147
 msgid "Additional software for the selected environment"
 msgstr "ซอฟต์แวร์เพิ่มเติมสำหรับสภาพแวดล้อมที่เลือก"
 
@@ -162,7 +162,7 @@ msgstr "อุปกรณ์ทั้งหมดที่ใช้วลีร
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/login.html:8 src/index.html:20
+#: src/index.html:20 src/login.html:8
 msgid "Anaconda Web UI"
 msgstr "Anaconda Web UI"
 
@@ -205,7 +205,7 @@ msgstr "พื้นที่ว่างที่ใช้งานได้: $
 msgid "Back"
 msgstr "ย้อนกลับ"
 
-#: src/components/software/SoftwareSelection.jsx:63
+#: src/components/software/SoftwareSelection.jsx:54
 msgid "Base environment"
 msgstr "สภาพแวดล้อมพื้นฐาน"
 
@@ -269,7 +269,7 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr "การเปลี่ยนแปลงใด ๆ ที่ทำในส่วนนี้จะมีผลต่อระบบทันที และไม่สามารถยกเลิกได้"
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:196
 msgid "Checking installation configuration..."
 msgstr "กำลังตรวจสอบการกำหนดค่าการติดตั้ง..."
 
@@ -297,6 +297,17 @@ msgstr "ปิด"
 msgid "Close storage editor"
 msgstr "ปิดตัวแก้ไขพื้นที่จัดเก็บข้อมูล"
 
+#: src/components/source/SourceReviewDescription.jsx:34
+#: src/components/source/InstallationSource.jsx:41
+msgid "Closest mirror"
+msgstr "แหล่งที่อยู่ใกล้ที่สุด"
+
+#: src/components/source/InstallationSource.jsx:286
+#, fuzzy
+#| msgid "Closest mirror"
+msgid "Closest public mirror"
+msgstr "แหล่งที่อยู่ใกล้ที่สุด"
+
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
@@ -306,7 +317,7 @@ msgstr "ระบบจัดเก็บข้อมูลของ Cockpit ไ
 msgid "Completed"
 msgstr "สมบูรณ์"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:217
 msgid "Configuration is incomplete"
 msgstr "การกำหนดค่าไม่สมบูรณ์"
 
@@ -329,6 +340,18 @@ msgstr "กำหนดค่าพื้นที่จัดเก็บข้
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:688
 msgid "Configure storage again"
 msgstr "กำหนดค่าพื้นที่จัดเก็บข้อมูลอีกครั้ง"
+
+#: src/components/source/InstallationSource.jsx:140
+#, fuzzy
+#| msgid "Installation source"
+msgid "Configuring installation source"
+msgstr "แหล่งที่มาสำหรับการติดตั้ง"
+
+#: src/components/source/InstallationSource.jsx:141
+#, fuzzy
+#| msgid "Installation source"
+msgid "Configuring installation source..."
+msgstr "แหล่งที่มาสำหรับการติดตั้ง"
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -414,6 +437,10 @@ msgstr "ตรวจพบโครงสร้างการจัดเก็
 msgid "Device"
 msgstr "อุปกรณ์"
 
+#: src/components/source/InstallationSource.jsx:186
+msgid "Disabled"
+msgstr ""
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 msgid "Duplicate device."
 msgstr "อุปกรณ์ซ้ำกัน"
@@ -475,6 +502,12 @@ msgstr "กลับสู่เดสก์ท็อปหลัก"
 msgid "Extended partition"
 msgstr "พาร์ทิชันแบบขยาย"
 
+#: src/components/source/InstallationSource.jsx:222
+#, fuzzy
+#| msgid "Preparing transaction from installation source"
+msgid "Failed to configure installation source"
+msgstr "กำลังเตรียมการส่งข้อมูลจากแหล่งติดตั้ง..."
+
 #: src/components/Error.jsx:642
 msgid "Failed to report issue"
 msgstr "รายงานปัญหาไม่สำเร็จ"
@@ -531,7 +564,7 @@ msgstr "ซ่อนคีย์ API"
 msgid "Hide PIN"
 msgstr "ซ่อน PIN"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Hide confirmed password"
 msgstr "ซ่อนรหัสผ่านที่ยืนยัน"
 
@@ -539,7 +572,7 @@ msgstr "ซ่อนรหัสผ่านที่ยืนยัน"
 msgid "Hide passphrase"
 msgstr "ซ่อนวลีรหัสผ่าน"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Hide password"
 msgstr "ซ่อนรหัสผ่าน"
 
@@ -551,17 +584,17 @@ msgstr "ชื่อโฮสต์"
 msgid "How would you like to install?"
 msgstr "คุณต้องการติดตั้งอย่างไร?"
 
-#: src/components/review/ReviewConfiguration.jsx:309
+#: src/components/review/ReviewConfiguration.jsx:320
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] "ฉันเข้าใจว่าข้อมูลที่มีอยู่ทั้งหมดจะถูกลบออกจากดิสก์ที่เลือก"
 
-#: src/components/review/ReviewConfiguration.jsx:314
+#: src/components/review/ReviewConfiguration.jsx:325
 msgid "I understand that some existing data will be erased"
 msgstr "ฉันเข้าใจว่าข้อมูลที่มีอยู่บางส่วนจะถูกลบออก"
 
-#: src/components/review/ReviewConfiguration.jsx:315
+#: src/components/review/ReviewConfiguration.jsx:326
 msgid "I understand that some partitions will be modified"
 msgstr "ฉันเข้าใจว่าพาร์ทิชันบางส่วนจะถูกแก้ไข"
 
@@ -640,7 +673,12 @@ msgstr "การติดตั้งระบบล้มเหลว"
 msgid "Installation of the system failed: $0"
 msgstr "การติดตั้งระบบล้มเหลว: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:269
+#: src/components/source/index.js:24 src/components/source/index.js:25
+#: src/components/review/ReviewConfiguration.jsx:252
+msgid "Installation source"
+msgstr "แหล่งที่มาสำหรับการติดตั้ง"
+
+#: src/components/review/ReviewConfiguration.jsx:280
 msgid "Installation type"
 msgstr "ประเภทการติดตั้ง"
 
@@ -673,7 +711,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "ชื่อโฮสต์ไม่ถูกต้อง"
 
-#: src/components/review/ReviewConfiguration.jsx:208
+#: src/components/review/ReviewConfiguration.jsx:213
 msgid "Jump to first incomplete step"
 msgstr "ข้ามไปยังขั้นตอนแรกที่ไม่เสร็จสมบูรณ์"
 
@@ -692,7 +730,7 @@ msgid "Keyboard layout during boot"
 msgstr "ผังแป้นพิมพ์ระหว่างการบูต"
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/review/ReviewConfiguration.jsx:239
 msgid "Language"
 msgstr "ภาษา"
 
@@ -745,9 +783,17 @@ msgstr "อาจต้องการพื้นที่ว่างเพิ
 msgid "Medium"
 msgstr "ปานกลาง"
 
+#: src/components/source/InstallationSource.jsx:49
+msgid "Metalink"
+msgstr ""
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:310
 msgid "Minimum of $0 required"
 msgstr "ต้องการขั้นต่ำ $0"
+
+#: src/components/source/InstallationSource.jsx:48
+msgid "Mirrorlist"
+msgstr ""
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
 msgid "Mismatch between parent device and child device reformat selection."
@@ -880,7 +926,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "เปิดแบบฟอร์มบันทึกข้อมูลบั๊กของ Bugzilla"
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:228
 msgid "Operating system"
 msgstr "ระบบปฏิบัติการ"
 
@@ -907,7 +953,7 @@ msgstr "วลีรหัสผ่าน"
 msgid "Passphrase did not match any locked device"
 msgstr "วลีรหัสผ่านไม่ตรงกับอุปกรณ์ใดที่ล็อกอยู่"
 
-#: src/components/Password.jsx:278
+#: src/components/Password.jsx:289
 msgid "Passphrases must match"
 msgstr "วลีรหัสผ่านต้องตรงกัน"
 
@@ -950,6 +996,10 @@ msgstr "ต้องการรายงานด้วยตนเองหร
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
 msgstr "ดำเนินการติดตั้งต่อไป"
+
+#: src/components/source/InstallationSource.jsx:182
+msgid "Proxy"
+msgstr ""
 
 #: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1092,6 +1142,12 @@ msgstr "รายงานปัญหา"
 msgid "Reporting issue..."
 msgstr "กำลังรายงานปัญหา..."
 
+#: src/components/source/InstallationSource.jsx:47
+#, fuzzy
+#| msgid "Repo URL"
+msgid "Repository URL"
+msgstr "Repo URL"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 msgid "Required"
 msgstr "ต้องการ"
@@ -1156,6 +1212,18 @@ msgstr "เปิดใช้งานบัญชี Root แล้ว แต�
 msgid "Root password has been set."
 msgstr "ตั้งค่ารหัสผ่าน Root แล้ว"
 
+#: src/components/source/InstallationSource.jsx:188
+msgid "SSL CA certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:189
+msgid "SSL client certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:185
+msgid "SSL verification"
+msgstr ""
+
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
@@ -1170,11 +1238,11 @@ msgstr "สแกนคิวอาร์โค้ดด้วยโทรศั
 msgid "Search for a language"
 msgstr "ค้นหาภาษา"
 
-#: src/components/software/SoftwareSelection.jsx:159
+#: src/components/software/SoftwareSelection.jsx:150
 msgid "Search for additional software"
 msgstr "ค้นหาซอฟต์แวร์เพิ่มเติม"
 
-#: src/components/software/SoftwareSelection.jsx:66
+#: src/components/software/SoftwareSelection.jsx:57
 msgid "Search for an environment"
 msgstr "ค้นหาสภาพแวดล้อม"
 
@@ -1228,6 +1296,12 @@ msgstr "เซิร์ฟเวอร์"
 msgid "Server is not reachable"
 msgstr "เซิร์ฟเวอร์ติดต่อไม่ได้"
 
+#: src/components/source/SourceReviewDescription.jsx:48
+msgid ""
+"Set by the kickstart file. Remove source selection from kickstart to be able "
+"to configure interactively."
+msgstr ""
+
 #: src/components/review/Hostname.jsx:87
 msgid "Set custom hostname"
 msgstr "ตั้งค่าชื่อโฮสต์แบบกำหนดเอง"
@@ -1252,7 +1326,7 @@ msgstr "แสดงคีย์ API"
 msgid "Show PIN"
 msgstr "แสดง PIN"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Show confirmed password"
 msgstr "แสดงรหัสผ่านที่ยืนยัน"
 
@@ -1260,7 +1334,7 @@ msgstr "แสดงรหัสผ่านที่ยืนยัน"
 msgid "Show passphrase"
 msgstr "แสดงวลีรหัสผ่าน"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Show password"
 msgstr "แสดงรหัสผ่าน"
 
@@ -1280,12 +1354,12 @@ msgstr ""
 "การติดตั้งซอฟต์แวร์: การกำหนดค่าพื้นที่จัดเก็บข้อมูลเสร็จสมบูรณ์แล้ว "
 "ขณะนี้กำลังติดตั้งซอฟต์แวร์ลงในอุปกรณ์ของคุณ"
 
-#: src/components/software/index.js:19 src/components/software/index.js:20
-#: src/components/review/ReviewConfiguration.jsx:247
+#: src/components/software/index.js:22 src/components/software/index.js:23
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Software selection"
 msgstr "การเลือกซอฟต์แวร์"
 
-#: src/components/review/ReviewConfiguration.jsx:215
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr "ขั้นตอนการติดตั้งบางขั้นตอนต้องทำให้เสร็จก่อนที่คุณจะสามารถดำเนินการต่อไปได้"
@@ -1302,11 +1376,11 @@ msgstr "พื้นที่"
 msgid "Stacktrace"
 msgstr "Stacktrace"
 
-#: src/components/review/ReviewConfiguration.jsx:276
+#: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr "พื้นที่จัดเก็บข้อมูล"
 
-#: src/components/steps.js:35
+#: src/components/steps.js:37
 #: src/components/installation/InstallationProgress.jsx:228
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
@@ -1465,7 +1539,7 @@ msgid "Time"
 msgstr "เวลา"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/review/ReviewConfiguration.jsx:246
 msgid "Timezone"
 msgstr "เขตเวลา"
 
@@ -1490,6 +1564,14 @@ msgstr "ถ้าต้องการใช้ตัวเลือกนี้
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "ชนิด"
+
+#: src/components/source/InstallationSource.jsx:263
+msgid "URL"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:293
+msgid "URL type"
+msgstr ""
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1661,7 +1743,7 @@ msgstr "จัดรูปแบบเป็น $0"
 msgid "here"
 msgstr "ที่นี่"
 
-#: src/components/review/ReviewConfiguration.jsx:57
+#: src/components/review/ReviewConfiguration.jsx:61
 msgid "incomplete"
 msgstr "ไม่สมบูรณ์"
 
@@ -1926,9 +2008,6 @@ msgstr "เลิกทำ"
 #~ msgid "City"
 #~ msgstr "เมือง"
 
-#~ msgid "Closest mirror"
-#~ msgstr "แหล่งที่อยู่ใกล้ที่สุด"
-
 #, fuzzy
 #~| msgid "Connected!"
 #~ msgid "Connected to Red Hat Insights"
@@ -2061,9 +2140,6 @@ msgstr "เลิกทำ"
 #~ msgid "Install to Hard Drive"
 #~ msgstr "ติดตั้งลงฮาร์ดดิสก์"
 
-#~ msgid "Installation source"
-#~ msgstr "แหล่งที่มาสำหรับการติดตั้ง"
-
 #~ msgid "Installing boot loader"
 #~ msgstr "กำลังติดตั้งบูตโหลดเดอร์"
 
@@ -2153,9 +2229,6 @@ msgstr "เลิกทำ"
 #~ msgid "Preparing to install"
 #~ msgstr "กำลังเตรียมการติดตั้ง"
 
-#~ msgid "Preparing transaction from installation source"
-#~ msgstr "กำลังเตรียมการส่งข้อมูลจากแหล่งติดตั้ง..."
-
 #~ msgid "Private key password: "
 #~ msgstr "รหัสผ่านสำหรับ private key:"
 
@@ -2190,11 +2263,6 @@ msgstr "เลิกทำ"
 #~ msgstr "ภูมิภาค"
 
 #~ msgid "Repo URL"
-#~ msgstr "Repo URL"
-
-#, fuzzy
-#~| msgid "Repo URL"
-#~ msgid "Repository URL"
 #~ msgstr "Repo URL"
 
 #~ msgid "Rescue"

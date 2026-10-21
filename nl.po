@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 07:55+0000\n"
+"POT-Creation-Date: 2026-10-21 08:00+0000\n"
 "PO-Revision-Date: 2025-05-31 12:40+0000\n"
 "Last-Translator: Marvin Parlevliet <mrvnp@msn.com>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/anaconda-"
@@ -143,7 +143,7 @@ msgstr "$0 installatie"
 msgid "About"
 msgstr "Over Fedora"
 
-#: src/components/review/ReviewConfiguration.jsx:254
+#: src/components/review/ReviewConfiguration.jsx:265
 msgid "Account"
 msgstr "Account"
 
@@ -162,13 +162,13 @@ msgstr "Voeg NTP-server toe"
 msgid "Add mount"
 msgstr "Aankoppelingspunt toevoegen"
 
-#: src/components/software/SoftwareSelection.jsx:122
+#: src/components/software/SoftwareSelection.jsx:113
 #, fuzzy
 #| msgid "Additional software for selected environment"
 msgid "Add-ons for your chosen environment"
 msgstr "Extra software voor de geselecteerde omgeving"
 
-#: src/components/software/SoftwareSelection.jsx:131
+#: src/components/software/SoftwareSelection.jsx:122
 msgid "Add-ons not specific to your environment"
 msgstr ""
 
@@ -176,7 +176,7 @@ msgstr ""
 msgid "Additional languages"
 msgstr "Aanvullende talen"
 
-#: src/components/software/SoftwareSelection.jsx:156
+#: src/components/software/SoftwareSelection.jsx:147
 #, fuzzy
 #| msgid "Additional software for selected environment"
 msgid "Additional software for the selected environment"
@@ -194,7 +194,7 @@ msgstr "Alle apparaten die deze wachtwoordzin gebruiken, worden ontgrendeld"
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/login.html:8 src/index.html:20
+#: src/index.html:20 src/login.html:8
 msgid "Anaconda Web UI"
 msgstr "Anaconda Web-UI"
 
@@ -247,7 +247,7 @@ msgstr "Beschikbare vrije ruimte: $0. Benodigd voor installatie: $1."
 msgid "Back"
 msgstr "Terug"
 
-#: src/components/software/SoftwareSelection.jsx:63
+#: src/components/software/SoftwareSelection.jsx:54
 msgid "Base environment"
 msgstr "Basisomgeving"
 
@@ -319,7 +319,7 @@ msgstr ""
 "Veranderingen die hier gemaakt worden, zullen direct toegepast worden op het "
 "systeem. Er is geen 'ongedaan maken'."
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:196
 #, fuzzy
 #| msgid "Checking storage configuration..."
 msgid "Checking installation configuration..."
@@ -351,6 +351,17 @@ msgstr "Sluiten"
 msgid "Close storage editor"
 msgstr "Opslageditor"
 
+#: src/components/source/SourceReviewDescription.jsx:34
+#: src/components/source/InstallationSource.jsx:41
+msgid "Closest mirror"
+msgstr "Dichtstbijzijnde mirror"
+
+#: src/components/source/InstallationSource.jsx:286
+#, fuzzy
+#| msgid "Closest mirror"
+msgid "Closest public mirror"
+msgstr "Dichtstbijzijnde mirror"
+
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
@@ -362,7 +373,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Voltooid"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:217
 #, fuzzy
 #| msgid "Apply configuration in installer"
 msgid "Configuration is incomplete"
@@ -391,6 +402,18 @@ msgstr "Opslag configureren"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:688
 msgid "Configure storage again"
 msgstr "Opslag opnieuw configureren"
+
+#: src/components/source/InstallationSource.jsx:140
+#, fuzzy
+#| msgid "Configuring installed system"
+msgid "Configuring installation source"
+msgstr "Configureren geïnstalleerd systeem"
+
+#: src/components/source/InstallationSource.jsx:141
+#, fuzzy
+#| msgid "Setting up installation source..."
+msgid "Configuring installation source..."
+msgstr "Bezig met instellen van installatiebron..."
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -488,6 +511,10 @@ msgstr "Gedetecteerde geldige opslagindeling:"
 msgid "Device"
 msgstr "Apparaat"
 
+#: src/components/source/InstallationSource.jsx:186
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 msgid "Duplicate device."
 msgstr "Dupliceer apparaat."
@@ -548,6 +575,12 @@ msgstr "Afsluiten naar live desktop"
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:248
 msgid "Extended partition"
 msgstr "Uitgebreide partitie"
+
+#: src/components/source/InstallationSource.jsx:222
+#, fuzzy
+#| msgid "Failed to set up installation source"
+msgid "Failed to configure installation source"
+msgstr "Instellen van installatiebron mislukte"
 
 #: src/components/Error.jsx:642
 #, fuzzy
@@ -610,7 +643,7 @@ msgstr ""
 msgid "Hide PIN"
 msgstr ""
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Hide confirmed password"
 msgstr "Bevestigd wachtwoord verbergen"
 
@@ -618,7 +651,7 @@ msgstr "Bevestigd wachtwoord verbergen"
 msgid "Hide passphrase"
 msgstr "Verberg wachtzin"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Hide password"
 msgstr "Verberg wachtwoord"
 
@@ -630,7 +663,7 @@ msgstr "Hostnaam"
 msgid "How would you like to install?"
 msgstr "Hoe wilt u installeren?"
 
-#: src/components/review/ReviewConfiguration.jsx:309
+#: src/components/review/ReviewConfiguration.jsx:320
 #, fuzzy
 #| msgid "I understand that all existing data will be erased"
 msgid "I understand that all existing data will be erased"
@@ -639,11 +672,11 @@ msgid_plural ""
 msgstr[0] "Ik begrijp dat alle bestaande data wordt verwijderd"
 msgstr[1] "Ik begrijp dat alle bestaande data wordt verwijderd"
 
-#: src/components/review/ReviewConfiguration.jsx:314
+#: src/components/review/ReviewConfiguration.jsx:325
 msgid "I understand that some existing data will be erased"
 msgstr "Ik begrijp dat sommige bestaande data zal worden verwijderd"
 
-#: src/components/review/ReviewConfiguration.jsx:315
+#: src/components/review/ReviewConfiguration.jsx:326
 msgid "I understand that some partitions will be modified"
 msgstr "Ik begrijp dat sommige partities worden gewijzigd"
 
@@ -721,7 +754,12 @@ msgstr "Installatie van het systeem mislukt: $0"
 msgid "Installation of the system failed: $0"
 msgstr "Installatie van het systeem mislukt: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:269
+#: src/components/source/index.js:24 src/components/source/index.js:25
+#: src/components/review/ReviewConfiguration.jsx:252
+msgid "Installation source"
+msgstr "Installatiebron"
+
+#: src/components/review/ReviewConfiguration.jsx:280
 msgid "Installation type"
 msgstr "Installatietype"
 
@@ -757,7 +795,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Ongeldige hostnaam"
 
-#: src/components/review/ReviewConfiguration.jsx:208
+#: src/components/review/ReviewConfiguration.jsx:213
 #, fuzzy
 #| msgid "completed step"
 msgid "Jump to first incomplete step"
@@ -780,7 +818,7 @@ msgid "Keyboard layout during boot"
 msgstr "Toetsenbordindeling tijdens het opstarten"
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/review/ReviewConfiguration.jsx:239
 msgid "Language"
 msgstr "Taal"
 
@@ -840,9 +878,17 @@ msgstr "Installeren op de vrije ruimte?"
 msgid "Medium"
 msgstr "Medium"
 
+#: src/components/source/InstallationSource.jsx:49
+msgid "Metalink"
+msgstr "Meta-link"
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:310
 msgid "Minimum of $0 required"
 msgstr ""
+
+#: src/components/source/InstallationSource.jsx:48
+msgid "Mirrorlist"
+msgstr "Spiegellijst"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
 msgid "Mismatch between parent device and child device reformat selection."
@@ -995,7 +1041,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:228
 msgid "Operating system"
 msgstr "Besturingssysteem"
 
@@ -1022,7 +1068,7 @@ msgstr "Wachtzin"
 msgid "Passphrase did not match any locked device"
 msgstr "Wachtzin komt met geen enkel vergrendeld apparaat overeen"
 
-#: src/components/Password.jsx:278
+#: src/components/Password.jsx:289
 msgid "Passphrases must match"
 msgstr "Wachtwoordzinnen moeten overeenkomen"
 
@@ -1073,6 +1119,13 @@ msgstr ""
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
 msgstr "Doorgaan met installatie"
+
+#: src/components/source/InstallationSource.jsx:182
+#, fuzzy
+#| msgctxt "GUI|Network|Proxy"
+#| msgid "_FTP Proxy"
+msgid "Proxy"
+msgstr "_FTP-proxy"
 
 #: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1225,6 +1278,10 @@ msgstr "Probleem melden"
 msgid "Reporting issue..."
 msgstr "Probleem melden"
 
+#: src/components/source/InstallationSource.jsx:47
+msgid "Repository URL"
+msgstr "Repository URL"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 msgid "Required"
 msgstr "Vereist"
@@ -1295,6 +1352,18 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "Rootwachtwoord is ingesteld."
 
+#: src/components/source/InstallationSource.jsx:188
+msgid "SSL CA certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:189
+msgid "SSL client certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:185
+msgid "SSL verification"
+msgstr ""
+
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
@@ -1309,13 +1378,13 @@ msgstr "Scan de QR-code met de telefoon of bezoek:"
 msgid "Search for a language"
 msgstr "Taal zoeken"
 
-#: src/components/software/SoftwareSelection.jsx:159
+#: src/components/software/SoftwareSelection.jsx:150
 #, fuzzy
 #| msgid "No additional software to select."
 msgid "Search for additional software"
 msgstr "Er is geen extra software om te selecteren."
 
-#: src/components/software/SoftwareSelection.jsx:66
+#: src/components/software/SoftwareSelection.jsx:57
 #, fuzzy
 #| msgid "Search for a language"
 msgid "Search for an environment"
@@ -1383,6 +1452,12 @@ msgstr "_Server:"
 msgid "Server is not reachable"
 msgstr ""
 
+#: src/components/source/SourceReviewDescription.jsx:48
+msgid ""
+"Set by the kickstart file. Remove source selection from kickstart to be able "
+"to configure interactively."
+msgstr ""
+
 #: src/components/review/Hostname.jsx:87
 msgid "Set custom hostname"
 msgstr "Aangepaste hostnaam instellen"
@@ -1420,7 +1495,7 @@ msgstr "_AM/PM"
 msgid "Show PIN"
 msgstr "_AM/PM"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Show confirmed password"
 msgstr "Toon bevestigd wachtwoord"
 
@@ -1428,7 +1503,7 @@ msgstr "Toon bevestigd wachtwoord"
 msgid "Show passphrase"
 msgstr "Toon wachtzin"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Show password"
 msgstr "Toon wachtwoord"
 
@@ -1448,12 +1523,12 @@ msgstr ""
 "Software-installatie: Opslagconfiguratie voltooid. De software wordt nu op "
 "uw apparaat geïnstalleerd."
 
-#: src/components/software/index.js:19 src/components/software/index.js:20
-#: src/components/review/ReviewConfiguration.jsx:247
+#: src/components/software/index.js:22 src/components/software/index.js:23
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Software selection"
 msgstr "Softwareselectie"
 
-#: src/components/review/ReviewConfiguration.jsx:215
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1470,11 +1545,11 @@ msgstr "Ruimte"
 msgid "Stacktrace"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:276
+#: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr "Opslag"
 
-#: src/components/steps.js:35
+#: src/components/steps.js:37
 #: src/components/installation/InstallationProgress.jsx:228
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
@@ -1651,7 +1726,7 @@ msgid "Time"
 msgstr "Tijdzone"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/review/ReviewConfiguration.jsx:246
 #, fuzzy
 #| msgid "Time zone"
 msgid "Timezone"
@@ -1681,6 +1756,20 @@ msgstr ""
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "Type"
+
+#: src/components/source/InstallationSource.jsx:263
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "_URL:"
+msgid "URL"
+msgstr "_URL:"
+
+#: src/components/source/InstallationSource.jsx:293
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "URL type:"
+msgid "URL type"
+msgstr "URL type:"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1869,7 +1958,7 @@ msgstr "formatteren als $0"
 msgid "here"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:57
+#: src/components/review/ReviewConfiguration.jsx:61
 #, fuzzy
 #| msgid "Completed"
 msgid "incomplete"
@@ -2148,9 +2237,6 @@ msgstr "ongedaan maken"
 #~| msgid "Changes made in Blivet-gui will directly affect your storage."
 #~ msgid "Any changes you make will immediately affect your storage."
 #~ msgstr "Wijzigingen in Blivet-gui hebben rechtstreeks invloed op je opslag."
-
-#~ msgid "Disabled"
-#~ msgstr "Uitgeschakeld"
 
 #~ msgid "Enabled"
 #~ msgstr "Aangezet"
@@ -3090,9 +3176,6 @@ msgstr "ongedaan maken"
 #~ msgid "City"
 #~ msgstr "Stad"
 
-#~ msgid "Closest mirror"
-#~ msgstr "Dichtstbijzijnde mirror"
-
 #~ msgid "Complete!"
 #~ msgstr "Compleet!"
 
@@ -3132,9 +3215,6 @@ msgstr "ongedaan maken"
 #, python-format
 #~ msgid "Configuring device %s."
 #~ msgstr "Configureren van apparaat %s."
-
-#~ msgid "Configuring installed system"
-#~ msgstr "Configureren geïnstalleerd systeem"
 
 #~ msgid "Configuring {}"
 #~ msgstr "{} wordt geconfigureerd"
@@ -3958,9 +4038,6 @@ msgstr "ongedaan maken"
 #~ "ruimte gebruikt moet worden voors het installatiedoel of handmatig "
 #~ "toegekende aankoppelpunten."
 
-#~ msgid "Installation source"
-#~ msgstr "Installatiebron"
-
 #~ msgid "Installation source needs to be set up first."
 #~ msgstr "Installatiebron moet eerst ingesteld worden."
 
@@ -4184,9 +4261,6 @@ msgstr "ongedaan maken"
 #~ msgid "Memory"
 #~ msgstr "Geheugen"
 
-#~ msgid "Metalink"
-#~ msgstr "Meta-link"
-
 #~ msgid "Method"
 #~ msgstr "Methode"
 
@@ -4198,9 +4272,6 @@ msgstr "ongedaan maken"
 
 #~ msgid "Minutes Up"
 #~ msgstr "Minuten omhoog"
-
-#~ msgid "Mirrorlist"
-#~ msgstr "Spiegellijst"
 
 #~ msgid "Missing name of the %addon section."
 #~ msgstr "Naam van de %addon sectie ontbreekt."
@@ -4998,9 +5069,6 @@ msgstr "ongedaan maken"
 #~ msgid "Repo URL"
 #~ msgstr "Repo-URL"
 
-#~ msgid "Repository URL"
-#~ msgstr "Repository URL"
-
 #~ msgid "Repository name conflicts with internal repository name"
 #~ msgstr "Repositorynaam is in conflict met interne repositorynaam"
 
@@ -5244,9 +5312,6 @@ msgstr "ongedaan maken"
 
 #~ msgid "Set timezone"
 #~ msgstr "Stel tijdzone in"
-
-#~ msgid "Setting up installation source..."
-#~ msgstr "Bezig met instellen van installatiebron..."
 
 #~ msgid "Setting up kexec"
 #~ msgstr "Het instellen van kexec"
@@ -6175,10 +6240,6 @@ msgstr "ongedaan maken"
 
 #~ msgid "URL of the repository"
 #~ msgstr "URL van de repository"
-
-#~ msgctxt "GUI|Software Source"
-#~ msgid "URL type:"
-#~ msgstr "URL type:"
 
 #~ msgid "USER SETTINGS"
 #~ msgstr "GEBRUIKERSINSTELLINGEN"
@@ -7132,10 +7193,6 @@ msgstr "ongedaan maken"
 #~ msgid "_Exit Installer"
 #~ msgstr "Installatieprogramma _afsluiten"
 
-#~ msgctxt "GUI|Network|Proxy"
-#~ msgid "_FTP Proxy"
-#~ msgstr "_FTP-proxy"
-
 #~ msgctxt "GUI|Progress"
 #~ msgid "_Finish Installation"
 #~ msgstr "Installatie _voltooien"
@@ -7532,10 +7589,6 @@ msgstr "ongedaan maken"
 #~ msgctxt "GUI|Spoke"
 #~ msgid "_Time & Date"
 #~ msgstr "_Tijd & datum"
-
-#~ msgctxt "GUI|Software Source"
-#~ msgid "_URL:"
-#~ msgstr "_URL:"
 
 #~ msgctxt "GUI|Custom Partitioning|Encrypted"
 #~ msgid "_Unlock"
@@ -8142,9 +8195,6 @@ msgstr "ongedaan maken"
 #~ msgid_plural "$0 (of $1) disks selected"
 #~ msgstr[0] "$0 (van $1) schijf geselecteerd"
 #~ msgstr[1] "$0 (van $1) schijven geselecteerd"
-
-#~ msgid "Failed to set up installation source"
-#~ msgstr "Instellen van installatiebron mislukte"
 
 #~ msgid "Error downloading package metadata"
 #~ msgstr "Fout bij downloaden van pakket-metadata"

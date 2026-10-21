@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 07:55+0000\n"
+"POT-Creation-Date: 2026-10-21 08:00+0000\n"
 "PO-Revision-Date: 2023-11-06 12:15+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Assamese <https://translate.fedoraproject.org/projects/"
@@ -124,7 +124,7 @@ msgstr "ইনস্টলেষণ"
 msgid "About"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:254
+#: src/components/review/ReviewConfiguration.jsx:265
 #, fuzzy
 msgid "Account"
 msgstr "বিন্যাস যোগ কৰক"
@@ -145,13 +145,13 @@ msgstr ""
 msgid "Add mount"
 msgstr "বিন্যাস যোগ কৰক"
 
-#: src/components/software/SoftwareSelection.jsx:122
+#: src/components/software/SoftwareSelection.jsx:113
 #, fuzzy
 #| msgid "Add-Ons for Selected Environment"
 msgid "Add-ons for your chosen environment"
 msgstr "নিৰ্বাচিত পৰিৱেশৰ বাবে এড-অনসমূহ"
 
-#: src/components/software/SoftwareSelection.jsx:131
+#: src/components/software/SoftwareSelection.jsx:122
 msgid "Add-ons not specific to your environment"
 msgstr ""
 
@@ -161,7 +161,7 @@ msgstr ""
 msgid "Additional languages"
 msgstr "উপলব্ধ ভাষাসমূহ"
 
-#: src/components/software/SoftwareSelection.jsx:156
+#: src/components/software/SoftwareSelection.jsx:147
 #, fuzzy
 #| msgid "Add-Ons for Selected Environment"
 msgid "Additional software for the selected environment"
@@ -179,7 +179,7 @@ msgstr ""
 msgid "Anaconda"
 msgstr ""
 
-#: src/login.html:8 src/index.html:20
+#: src/index.html:20 src/login.html:8
 #, fuzzy
 msgid "Anaconda Web UI"
 msgstr "ইনস্টলেষণ আৰম্ভ কৰক (_B)"
@@ -225,7 +225,7 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
-#: src/components/software/SoftwareSelection.jsx:63
+#: src/components/software/SoftwareSelection.jsx:54
 msgid "Base environment"
 msgstr "ভিত্তি পৰিৱেশ"
 
@@ -295,7 +295,7 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:196
 #, fuzzy
 #| msgid "Checking storage configuration..."
 msgid "Checking installation configuration..."
@@ -327,6 +327,17 @@ msgstr "বন্ধ কৰক"
 msgid "Close storage editor"
 msgstr "ইনস্টলেষণ"
 
+#: src/components/source/SourceReviewDescription.jsx:34
+#: src/components/source/InstallationSource.jsx:41
+msgid "Closest mirror"
+msgstr "নিকটতম মিৰৰ"
+
+#: src/components/source/InstallationSource.jsx:286
+#, fuzzy
+#| msgid "Closest mirror"
+msgid "Closest public mirror"
+msgstr "নিকটতম মিৰৰ"
+
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
@@ -337,7 +348,7 @@ msgstr ""
 msgid "Completed"
 msgstr "সম্পূৰ্ণ!"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:217
 #, fuzzy
 #| msgid "Apply configuration in installer"
 msgid "Configuration is incomplete"
@@ -369,6 +380,18 @@ msgstr "সংৰক্ষণ বিন্যাস পৰিবৰ্তন ক
 #, fuzzy
 msgid "Configure storage again"
 msgstr "সংৰক্ষণ বিন্যাস পৰিবৰ্তন কৰক (_M)"
+
+#: src/components/source/InstallationSource.jsx:140
+#, fuzzy
+#| msgid "Configuring installed system"
+msgid "Configuring installation source"
+msgstr "ইনস্টল্ড চিস্টেম সংৰূপণ কৰা হৈছে"
+
+#: src/components/source/InstallationSource.jsx:141
+#, fuzzy
+#| msgid "Setting up installation source..."
+msgid "Configuring installation source..."
+msgstr "ইনস্টলেষণ উৎস সংস্থাপন কৰা হৈছে..."
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -469,6 +492,11 @@ msgstr ""
 msgid "Device"
 msgstr "ডিভাইচ"
 
+#: src/components/source/InstallationSource.jsx:186
+#, fuzzy
+msgid "Disabled"
+msgstr "সামৰ্থবান"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 #, fuzzy
 msgid "Duplicate device."
@@ -538,6 +566,12 @@ msgstr ""
 msgid "Extended partition"
 msgstr "প্ৰামাণিক বিভাজন"
 
+#: src/components/source/InstallationSource.jsx:222
+#, fuzzy
+#| msgid "Failed to set up installation source"
+msgid "Failed to configure installation source"
+msgstr "ইনস্টলেষণ উৎস সংস্থাপন কৰিবলে ব্যৰ্থ"
+
 #: src/components/Error.jsx:642
 #, fuzzy
 #| msgid "Failed to save storage configuration..."
@@ -601,7 +635,7 @@ msgstr ""
 msgid "Hide PIN"
 msgstr ""
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 #, fuzzy
 msgid "Hide confirmed password"
 msgstr "পাছৱৰ্ড সুনিশ্চিত কৰক (_C)"
@@ -611,7 +645,7 @@ msgstr "পাছৱৰ্ড সুনিশ্চিত কৰক (_C)"
 msgid "Hide passphrase"
 msgstr "পাছৱৰ্ড সুনিশ্চিত কৰক (_C)"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 #, fuzzy
 msgid "Hide password"
 msgstr "ৰিক্ত পাছৱৰ্ড"
@@ -626,18 +660,18 @@ msgstr "হস্টৰ নাম"
 msgid "How would you like to install?"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:309
+#: src/components/review/ReviewConfiguration.jsx:320
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/components/review/ReviewConfiguration.jsx:314
+#: src/components/review/ReviewConfiguration.jsx:325
 msgid "I understand that some existing data will be erased"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:315
+#: src/components/review/ReviewConfiguration.jsx:326
 msgid "I understand that some partitions will be modified"
 msgstr ""
 
@@ -714,7 +748,12 @@ msgstr "ইনস্টলেষণ"
 msgid "Installation of the system failed: $0"
 msgstr "ইনস্টলেষণ"
 
-#: src/components/review/ReviewConfiguration.jsx:269
+#: src/components/source/index.js:24 src/components/source/index.js:25
+#: src/components/review/ReviewConfiguration.jsx:252
+msgid "Installation source"
+msgstr "ইনস্টলেষণ উৎস"
+
+#: src/components/review/ReviewConfiguration.jsx:280
 #, fuzzy
 msgid "Installation type"
 msgstr "ইনস্টলেষণ"
@@ -747,7 +786,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "অবৈধ হস্ট নাম"
 
-#: src/components/review/ReviewConfiguration.jsx:208
+#: src/components/review/ReviewConfiguration.jsx:213
 #, fuzzy
 msgid "Jump to first incomplete step"
 msgstr "সম্পূৰ্ণ!"
@@ -767,7 +806,7 @@ msgid "Keyboard layout during boot"
 msgstr ""
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/review/ReviewConfiguration.jsx:239
 #, fuzzy
 msgid "Language"
 msgstr "ভাষাসমূহ"
@@ -831,8 +870,16 @@ msgstr "চফ্টৱেৰ ইনস্টল কৰা হৈছে"
 msgid "Medium"
 msgstr ""
 
+#: src/components/source/InstallationSource.jsx:49
+msgid "Metalink"
+msgstr ""
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:310
 msgid "Minimum of $0 required"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:48
+msgid "Mirrorlist"
 msgstr ""
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
@@ -985,7 +1032,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:228
 #, fuzzy
 msgid "Operating system"
 msgstr "ব্যৱহাৰকাৰীসমূহ সৃষ্টি কৰক"
@@ -1016,7 +1063,7 @@ msgstr "পাচফ্ৰেইছ"
 msgid "Passphrase did not match any locked device"
 msgstr ""
 
-#: src/components/Password.jsx:278
+#: src/components/Password.jsx:289
 #, fuzzy
 msgid "Passphrases must match"
 msgstr "পাচফ্ৰেইছ"
@@ -1069,6 +1116,13 @@ msgstr ""
 #| msgid "Failed to set up installation source"
 msgid "Proceed with installation"
 msgstr "ইনস্টলেষণ উৎস সংস্থাপন কৰিবলে ব্যৰ্থ"
+
+#: src/components/source/InstallationSource.jsx:182
+#, fuzzy
+#| msgctxt "GUI|Network|Proxy"
+#| msgid "_FTP Proxy"
+msgid "Proxy"
+msgstr "FTP প্ৰক্সি (_F)"
 
 #: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1226,6 +1280,12 @@ msgstr ""
 msgid "Reporting issue..."
 msgstr "অৱস্থা পৰিক্ষা কৰা হৈছে..."
 
+#: src/components/source/InstallationSource.jsx:47
+#, fuzzy
+#| msgid "Repo URL"
+msgid "Repository URL"
+msgstr "ভঁৰালৰ URL"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 #, fuzzy
 msgid "Required"
@@ -1305,6 +1365,18 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "ৰুট পাছৱৰ্ড সংহতি কৰা হোৱা নাই"
 
+#: src/components/source/InstallationSource.jsx:188
+msgid "SSL CA certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:189
+msgid "SSL client certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:185
+msgid "SSL verification"
+msgstr ""
+
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
@@ -1323,13 +1395,13 @@ msgstr ""
 msgid "Search for a language"
 msgstr "ভাষাসমূহ"
 
-#: src/components/software/SoftwareSelection.jsx:159
+#: src/components/software/SoftwareSelection.jsx:150
 #, fuzzy
 #| msgid "Custom software selected"
 msgid "Search for additional software"
 msgstr "স্বনিৰ্বাচিত চফ্টৱেৰ নিৰ্বাচন কৰা হৈছে"
 
-#: src/components/software/SoftwareSelection.jsx:66
+#: src/components/software/SoftwareSelection.jsx:57
 #, fuzzy
 msgid "Search for an environment"
 msgstr "ভাষাসমূহ"
@@ -1401,6 +1473,12 @@ msgstr "NFS চাৰ্ভাৰ %s"
 msgid "Server is not reachable"
 msgstr ""
 
+#: src/components/source/SourceReviewDescription.jsx:48
+msgid ""
+"Set by the kickstart file. Remove source selection from kickstart to be able "
+"to configure interactively."
+msgstr ""
+
 #: src/components/review/Hostname.jsx:87
 #, fuzzy
 #| msgid "Set host name"
@@ -1436,7 +1514,7 @@ msgstr "AM/PM (_A)"
 msgid "Show PIN"
 msgstr "AM/PM (_A)"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 #, fuzzy
 msgid "Show confirmed password"
 msgstr "পাছৱৰ্ড সুনিশ্চিত কৰক (_C)"
@@ -1446,7 +1524,7 @@ msgstr "পাছৱৰ্ড সুনিশ্চিত কৰক (_C)"
 msgid "Show passphrase"
 msgstr "পাছৱৰ্ড সুনিশ্চিত কৰক (_C)"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 #, fuzzy
 msgid "Show password"
 msgstr "ৰুট পাছৱৰ্ড"
@@ -1466,12 +1544,12 @@ msgid ""
 "being installed onto your device."
 msgstr ""
 
-#: src/components/software/index.js:19 src/components/software/index.js:20
-#: src/components/review/ReviewConfiguration.jsx:247
+#: src/components/software/index.js:22 src/components/software/index.js:23
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Software selection"
 msgstr "চফ্টৱেৰ নিৰ্বাচন"
 
-#: src/components/review/ReviewConfiguration.jsx:215
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1490,12 +1568,12 @@ msgstr "স্থান নাই"
 msgid "Stacktrace"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:276
+#: src/components/review/ReviewConfiguration.jsx:287
 #, fuzzy
 msgid "Storage"
 msgstr "সংৰক্ষণ বিকল্পসমূহ"
 
-#: src/components/steps.js:35
+#: src/components/steps.js:37
 #: src/components/installation/InstallationProgress.jsx:228
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
@@ -1666,7 +1744,7 @@ msgid "Time"
 msgstr ""
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/review/ReviewConfiguration.jsx:246
 #, fuzzy
 #| msgid "%s timezone"
 msgid "Timezone"
@@ -1695,6 +1773,19 @@ msgstr ""
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "ধৰণ"
+
+#: src/components/source/InstallationSource.jsx:263
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "Pro_xy URL:"
+msgid "URL"
+msgstr "প্ৰক্সি URL (_x):"
+
+#: src/components/source/InstallationSource.jsx:293
+#, fuzzy
+#| msgid "URL is empty"
+msgid "URL type"
+msgstr "URL ৰিক্ত"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1887,7 +1978,7 @@ msgstr ""
 msgid "here"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:57
+#: src/components/review/ReviewConfiguration.jsx:61
 #, fuzzy
 msgid "incomplete"
 msgstr "সম্পূৰ্ণ!"
@@ -2044,10 +2135,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Install using the configured storage?"
 #~ msgstr "চফ্টৱেৰ ইনস্টল কৰা হৈছে"
-
-#, fuzzy
-#~ msgid "Disabled"
-#~ msgstr "সামৰ্থবান"
 
 #~ msgid "Enabled"
 #~ msgstr "সামৰ্থবান"
@@ -2696,9 +2783,6 @@ msgstr ""
 #~ msgid "City"
 #~ msgstr "নগৰ"
 
-#~ msgid "Closest mirror"
-#~ msgstr "নিকটতম মিৰৰ"
-
 #~ msgid "Complete!"
 #~ msgstr "সম্পূৰ্ণ!"
 
@@ -2727,9 +2811,6 @@ msgstr ""
 #, python-format
 #~ msgid "Configuring device %s."
 #~ msgstr "ডিভাইচ %s সংৰূপণ কৰা হৈছে।"
-
-#~ msgid "Configuring installed system"
-#~ msgstr "ইনস্টল্ড চিস্টেম সংৰূপণ কৰা হৈছে"
 
 #, fuzzy
 #~| msgid "Configuring addons"
@@ -3233,9 +3314,6 @@ msgstr ""
 
 #~ msgid "Installation Destination"
 #~ msgstr "ইনস্টলেষণৰ গন্তব্য"
-
-#~ msgid "Installation source"
-#~ msgstr "ইনস্টলেষণ উৎস"
 
 #~ msgid "Installation source needs to be set up first."
 #~ msgstr "ইনস্টলেষণ উৎসক প্ৰথমতে সংস্থাপন কৰাটো প্ৰয়োজনীয়।"
@@ -3951,11 +4029,6 @@ msgstr ""
 #~ msgstr "ভঁৰালৰ URL"
 
 #, fuzzy
-#~| msgid "Repo URL"
-#~ msgid "Repository URL"
-#~ msgstr "ভঁৰালৰ URL"
-
-#, fuzzy
 #~| msgid "Repository name conflicts with internal repository name."
 #~ msgid "Repository name conflicts with internal repository name"
 #~ msgstr "ভঁৰালৰ নাম অভ্যন্তৰীণ ভঁৰালৰ নামৰ সৈতে দন্দ কৰে।"
@@ -4118,9 +4191,6 @@ msgstr ""
 #~| msgid "_zSeries Devices"
 #~ msgid "Service level"
 #~ msgstr "zSeries ডিভাইচসমূহ (_z)"
-
-#~ msgid "Setting up installation source..."
-#~ msgstr "ইনস্টলেষণ উৎস সংস্থাপন কৰা হৈছে..."
 
 #~ msgid "Setting up the installation environment"
 #~ msgstr "ইনস্টল পৰিৱেশ সংহতি কৰা হৈছে"
@@ -4667,9 +4737,6 @@ msgstr ""
 
 #~ msgid "URL has no host component"
 #~ msgstr "URL ৰ কোনো হস্ট উপাদান নাই"
-
-#~ msgid "URL is empty"
-#~ msgstr "URL ৰিক্ত"
 
 #, fuzzy
 #~| msgid "Name of the repository."
@@ -5335,10 +5402,6 @@ msgstr ""
 #~ msgid "_Encrypt"
 #~ msgstr "ইনক্ৰিপ্ট কৰক (_E)"
 
-#~ msgctxt "GUI|Network|Proxy"
-#~ msgid "_FTP Proxy"
-#~ msgstr "FTP প্ৰক্সি (_F)"
-
 #~ msgctxt "GUI|DAD Format Dialog"
 #~ msgid "_Format with dasdfmt"
 #~ msgstr "dasdfmt ৰ সৈতে ফৰমেট কৰক (_F)"
@@ -5624,13 +5687,6 @@ msgstr ""
 #~ msgctxt "GUI|Keyboard Layout"
 #~ msgid "_Test the layout configuration below:"
 #~ msgstr "বিন্যাসৰ সংৰূপ তলত পৰিক্ষা কৰক (_T):"
-
-#, fuzzy
-#~| msgctxt "GUI|Software Source"
-#~| msgid "Pro_xy URL:"
-#~ msgctxt "GUI|Software Source"
-#~ msgid "_URL:"
-#~ msgstr "প্ৰক্সি URL (_x):"
 
 #~ msgctxt "GUI|Custom Partitioning|Encrypted"
 #~ msgid "_Unlock"
@@ -5957,9 +6013,6 @@ msgstr ""
 #~ msgid_plural "$0 (of $1) disks selected"
 #~ msgstr[0] "কোনো ডিস্ক নিৰ্বাচন কৰা হোৱা নাই"
 #~ msgstr[1] "কোনো ডিস্ক নিৰ্বাচন কৰা হোৱা নাই"
-
-#~ msgid "Failed to set up installation source"
-#~ msgstr "ইনস্টলেষণ উৎস সংস্থাপন কৰিবলে ব্যৰ্থ"
 
 #~ msgid "Error downloading package metadata"
 #~ msgstr "পেকেইজ মেটাডাটা ডাউনল'ড কৰোতে ত্ৰুটি"

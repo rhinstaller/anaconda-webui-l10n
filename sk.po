@@ -25,7 +25,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 07:55+0000\n"
+"POT-Creation-Date: 2026-10-21 08:00+0000\n"
 "PO-Revision-Date: 2026-09-30 18:10+0000\n"
 "Last-Translator: Ondrej Sulek <feonsu@gmail.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/anaconda-"
@@ -133,7 +133,7 @@ msgstr "Prerušiť inštaláciu"
 msgid "About"
 msgstr "O aplikácii"
 
-#: src/components/review/ReviewConfiguration.jsx:254
+#: src/components/review/ReviewConfiguration.jsx:265
 msgid "Account"
 msgstr "Účet"
 
@@ -150,11 +150,11 @@ msgstr "Pridať ďalší server..."
 msgid "Add mount"
 msgstr "Pridať bod pripojenia"
 
-#: src/components/software/SoftwareSelection.jsx:122
+#: src/components/software/SoftwareSelection.jsx:113
 msgid "Add-ons for your chosen environment"
 msgstr "Doplnky pre vybraté prostredie"
 
-#: src/components/software/SoftwareSelection.jsx:131
+#: src/components/software/SoftwareSelection.jsx:122
 msgid "Add-ons not specific to your environment"
 msgstr "Doplnky, ktoré nie sú špecifické pre vaše prostredie"
 
@@ -162,7 +162,7 @@ msgstr "Doplnky, ktoré nie sú špecifické pre vaše prostredie"
 msgid "Additional languages"
 msgstr "Dodatočné jazyky"
 
-#: src/components/software/SoftwareSelection.jsx:156
+#: src/components/software/SoftwareSelection.jsx:147
 msgid "Additional software for the selected environment"
 msgstr "Doplnkový softvér pre vybraté prostredie"
 
@@ -178,7 +178,7 @@ msgstr "Všetky zariadenia používajúce toto heslo budú odomknuté"
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/login.html:8 src/index.html:20
+#: src/index.html:20 src/login.html:8
 msgid "Anaconda Web UI"
 msgstr "Anaconda Web UI"
 
@@ -223,7 +223,7 @@ msgstr "Dostupné voľné miesto: $0. Inštalácia vyžaduje: $1."
 msgid "Back"
 msgstr "Späť"
 
-#: src/components/software/SoftwareSelection.jsx:63
+#: src/components/software/SoftwareSelection.jsx:54
 msgid "Base environment"
 msgstr "Základné prostredie"
 
@@ -287,7 +287,7 @@ msgid ""
 msgstr ""
 "Tu vykonané zmeny okamžite ovplyvnia systém. Neexistuje žiadne 'vrátiť späť'."
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:196
 msgid "Checking installation configuration..."
 msgstr "Kontroluje sa konfigurácia inštalácie..."
 
@@ -315,6 +315,17 @@ msgstr "Zavrieť"
 msgid "Close storage editor"
 msgstr "Zatvoriť editor úložiska"
 
+#: src/components/source/SourceReviewDescription.jsx:34
+#: src/components/source/InstallationSource.jsx:41
+msgid "Closest mirror"
+msgstr "Najbližšie zrkadlo"
+
+#: src/components/source/InstallationSource.jsx:286
+#, fuzzy
+#| msgid "Closest mirror"
+msgid "Closest public mirror"
+msgstr "Najbližšie zrkadlo"
+
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
@@ -325,7 +336,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Dokončené"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:217
 msgid "Configuration is incomplete"
 msgstr "Konfiguráciu je neúplná"
 
@@ -348,6 +359,18 @@ msgstr "Konfigurovať úložisko"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:688
 msgid "Configure storage again"
 msgstr "Znova konfigurovať úložisko"
+
+#: src/components/source/InstallationSource.jsx:140
+#, fuzzy
+#| msgid "Configuring installed system"
+msgid "Configuring installation source"
+msgstr "Konfiguruje sa nainštalovaný systém"
+
+#: src/components/source/InstallationSource.jsx:141
+#, fuzzy
+#| msgid "Setting up installation source..."
+msgid "Configuring installation source..."
+msgstr "Nastavuje sa zdroj inštalácie..."
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -433,6 +456,10 @@ msgstr "Zistené platné rozloženie úložiska:"
 msgid "Device"
 msgstr "Zariadenie"
 
+#: src/components/source/InstallationSource.jsx:186
+msgid "Disabled"
+msgstr "Zakázaný"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 msgid "Duplicate device."
 msgstr "Duplicitné zariadenie."
@@ -494,6 +521,12 @@ msgstr "Odísť do live desktopu"
 msgid "Extended partition"
 msgstr "Rozšírený oddiel"
 
+#: src/components/source/InstallationSource.jsx:222
+#, fuzzy
+#| msgid "Failed to set up installation source"
+msgid "Failed to configure installation source"
+msgstr "Zlyhalo nastavenie zdroja inštalácie"
+
 #: src/components/Error.jsx:642
 msgid "Failed to report issue"
 msgstr "Nepodarilo sa nahlásiť problém"
@@ -550,7 +583,7 @@ msgstr "Skryť kľúč API"
 msgid "Hide PIN"
 msgstr "Skryť PIN"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Hide confirmed password"
 msgstr "Skryť potvrdené heslo"
 
@@ -558,7 +591,7 @@ msgstr "Skryť potvrdené heslo"
 msgid "Hide passphrase"
 msgstr "Skryť heslo"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Hide password"
 msgstr "Skryť heslo"
 
@@ -570,7 +603,7 @@ msgstr "Názov počítača"
 msgid "How would you like to install?"
 msgstr "Ako chcete inštalovať?"
 
-#: src/components/review/ReviewConfiguration.jsx:309
+#: src/components/review/ReviewConfiguration.jsx:320
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
@@ -580,11 +613,11 @@ msgstr[1] ""
 msgstr[2] ""
 "Rozumiem, že všetky existujúce údaje z vybraných diskov budú vymazané"
 
-#: src/components/review/ReviewConfiguration.jsx:314
+#: src/components/review/ReviewConfiguration.jsx:325
 msgid "I understand that some existing data will be erased"
 msgstr "Rozumiem, že niektoré existujúce údaje budú vymazané"
 
-#: src/components/review/ReviewConfiguration.jsx:315
+#: src/components/review/ReviewConfiguration.jsx:326
 msgid "I understand that some partitions will be modified"
 msgstr "Rozumiem, že niektoré oddiely budú upravené"
 
@@ -665,7 +698,12 @@ msgstr "Inštalácia systému zlyhala"
 msgid "Installation of the system failed: $0"
 msgstr "Inštalácia systému zlyhala: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:269
+#: src/components/source/index.js:24 src/components/source/index.js:25
+#: src/components/review/ReviewConfiguration.jsx:252
+msgid "Installation source"
+msgstr "Zdroj inštalácie"
+
+#: src/components/review/ReviewConfiguration.jsx:280
 msgid "Installation type"
 msgstr "Typ Inštalácie"
 
@@ -698,7 +736,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Neplatný názov počítača"
 
-#: src/components/review/ReviewConfiguration.jsx:208
+#: src/components/review/ReviewConfiguration.jsx:213
 msgid "Jump to first incomplete step"
 msgstr "Preskočiť na prvý nedokončený krok"
 
@@ -719,7 +757,7 @@ msgid "Keyboard layout during boot"
 msgstr "Rozloženie klávesnice počas zavádzania systému"
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/review/ReviewConfiguration.jsx:239
 msgid "Language"
 msgstr "Jazyk"
 
@@ -773,9 +811,17 @@ msgstr "Môže byť potrebné viac voľného miesta"
 msgid "Medium"
 msgstr "Stredné"
 
+#: src/components/source/InstallationSource.jsx:49
+msgid "Metalink"
+msgstr "Meta odkaz"
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:310
 msgid "Minimum of $0 required"
 msgstr "Minimálne požadované $0"
+
+#: src/components/source/InstallationSource.jsx:48
+msgid "Mirrorlist"
+msgstr "Zoznam zrkadiel"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
 msgid "Mismatch between parent device and child device reformat selection."
@@ -915,7 +961,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Otvoriť formulár zadania chyby v Bugzille"
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:228
 msgid "Operating system"
 msgstr "Operačný systém"
 
@@ -942,7 +988,7 @@ msgstr "Heslo"
 msgid "Passphrase did not match any locked device"
 msgstr "Heslo sa nezhoduje s žiadnym zamknutým zariadením"
 
-#: src/components/Password.jsx:278
+#: src/components/Password.jsx:289
 msgid "Passphrases must match"
 msgstr "Heslá sa musia zhodovať"
 
@@ -985,6 +1031,13 @@ msgstr "Preferujete manuálne nahlásenie? $0"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
 msgstr "Pokračovať v inštalácii"
+
+#: src/components/source/InstallationSource.jsx:182
+#, fuzzy
+#| msgctxt "GUI|Network|Proxy"
+#| msgid "_FTP Proxy"
+msgid "Proxy"
+msgstr "_FTP Proxy"
 
 #: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1135,6 +1188,10 @@ msgstr "Nahlásiť problém"
 msgid "Reporting issue..."
 msgstr "Nahlasovanie problému..."
 
+#: src/components/source/InstallationSource.jsx:47
+msgid "Repository URL"
+msgstr "URL repozitára"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 msgid "Required"
 msgstr "Požadované"
@@ -1200,6 +1257,18 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "Heslo správcu bolo nastavené."
 
+#: src/components/source/InstallationSource.jsx:188
+msgid "SSL CA certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:189
+msgid "SSL client certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:185
+msgid "SSL verification"
+msgstr ""
+
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
@@ -1214,11 +1283,11 @@ msgstr "Naskenujte QR kód svojím telefónom alebo navštívte:"
 msgid "Search for a language"
 msgstr "Hľadať jazyk"
 
-#: src/components/software/SoftwareSelection.jsx:159
+#: src/components/software/SoftwareSelection.jsx:150
 msgid "Search for additional software"
 msgstr "Vyhľadať ďalší softvér"
 
-#: src/components/software/SoftwareSelection.jsx:66
+#: src/components/software/SoftwareSelection.jsx:57
 msgid "Search for an environment"
 msgstr "Vyhľadať prostredie"
 
@@ -1273,6 +1342,12 @@ msgstr "Server"
 msgid "Server is not reachable"
 msgstr "Server nie je dostupný"
 
+#: src/components/source/SourceReviewDescription.jsx:48
+msgid ""
+"Set by the kickstart file. Remove source selection from kickstart to be able "
+"to configure interactively."
+msgstr ""
+
 #: src/components/review/Hostname.jsx:87
 msgid "Set custom hostname"
 msgstr "Nastaviť vlastný názov počítača"
@@ -1297,7 +1372,7 @@ msgstr "Zobraziť kľúč API"
 msgid "Show PIN"
 msgstr "Zobraziť PIN"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Show confirmed password"
 msgstr "Zobraziť potvrdené heslo"
 
@@ -1305,7 +1380,7 @@ msgstr "Zobraziť potvrdené heslo"
 msgid "Show passphrase"
 msgstr "Zobraziť heslo"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Show password"
 msgstr "Zobraziť heslo"
 
@@ -1325,12 +1400,12 @@ msgstr ""
 "Inštalácia softvéru: Konfigurácia úložiska je dokončená. Momentálne prebieha "
 "inštalácia softvéru do vášho zariadenia."
 
-#: src/components/software/index.js:19 src/components/software/index.js:20
-#: src/components/review/ReviewConfiguration.jsx:247
+#: src/components/software/index.js:22 src/components/software/index.js:23
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Software selection"
 msgstr "Výber softvéru"
 
-#: src/components/review/ReviewConfiguration.jsx:215
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr "Pred pokračovaním je potrebné dokončiť niektoré kroky inštalácie."
@@ -1347,11 +1422,11 @@ msgstr "Miesto"
 msgid "Stacktrace"
 msgstr "Stacktrace"
 
-#: src/components/review/ReviewConfiguration.jsx:276
+#: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr "Úložisko"
 
-#: src/components/steps.js:35
+#: src/components/steps.js:37
 #: src/components/installation/InstallationProgress.jsx:228
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
@@ -1523,7 +1598,7 @@ msgid "Time"
 msgstr "Čas"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/review/ReviewConfiguration.jsx:246
 msgid "Timezone"
 msgstr "Časové pásmo"
 
@@ -1550,6 +1625,20 @@ msgstr ""
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "Typ"
+
+#: src/components/source/InstallationSource.jsx:263
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "_URL:"
+msgid "URL"
+msgstr "_URL:"
+
+#: src/components/source/InstallationSource.jsx:293
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "URL type:"
+msgid "URL type"
+msgstr "Typ URL:"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1729,7 +1818,7 @@ msgstr "naformátovať ako $0"
 msgid "here"
 msgstr "tu"
 
-#: src/components/review/ReviewConfiguration.jsx:57
+#: src/components/review/ReviewConfiguration.jsx:61
 msgid "incomplete"
 msgstr "nedokončené"
 
@@ -1971,9 +2060,6 @@ msgstr "späť"
 
 #~ msgid "To prevent loss, make sure to backup your data."
 #~ msgstr "Aby nedošlo k strate dát, nezabudnite odzálohovať svoje dáta."
-
-#~ msgid "Disabled"
-#~ msgstr "Zakázaný"
 
 #~ msgid "Enabled"
 #~ msgstr "Povolené"
@@ -2891,9 +2977,6 @@ msgstr "späť"
 #~ msgid "City"
 #~ msgstr "Mesto:"
 
-#~ msgid "Closest mirror"
-#~ msgstr "Najbližšie zrkadlo"
-
 #~ msgid "Complete!"
 #~ msgstr "Dokončené!"
 
@@ -2931,9 +3014,6 @@ msgstr "späť"
 #, python-format
 #~ msgid "Configuring device %s."
 #~ msgstr "Konfiguruje sa zariadenie %s."
-
-#~ msgid "Configuring installed system"
-#~ msgstr "Konfiguruje sa nainštalovaný systém"
 
 #~ msgid "Configuring {}"
 #~ msgstr "Konfiguruje sa {}"
@@ -3737,9 +3817,6 @@ msgstr "späť"
 #~ "miesto sa má použiť pre cieľ inštalácie alebo ručne priraďte body "
 #~ "pripojenia."
 
-#~ msgid "Installation source"
-#~ msgstr "Zdroj inštalácie"
-
 #~ msgid "Installation source needs to be set up first."
 #~ msgstr "Najskôr musí byť nastavený zdroj inštalácie."
 
@@ -3968,9 +4045,6 @@ msgstr "späť"
 #~ msgid "Memory"
 #~ msgstr "Pamäť"
 
-#~ msgid "Metalink"
-#~ msgstr "Meta odkaz"
-
 #~ msgid "Method"
 #~ msgstr "Metóda"
 
@@ -3982,9 +4056,6 @@ msgstr "späť"
 
 #~ msgid "Minutes Up"
 #~ msgstr "O minútu viac"
-
-#~ msgid "Mirrorlist"
-#~ msgstr "Zoznam zrkadiel"
 
 #~ msgid "Missing name of the %addon section."
 #~ msgstr "Chýbajúci názov sekcie %addon."
@@ -4772,9 +4843,6 @@ msgstr "späť"
 #~ msgid "Repo URL"
 #~ msgstr "URL repozitára"
 
-#~ msgid "Repository URL"
-#~ msgstr "URL repozitára"
-
 #~ msgid "Repository name conflicts with internal repository name"
 #~ msgstr "Názov repozitára je v konflikte s interným názvom repozitára"
 
@@ -5015,9 +5083,6 @@ msgstr "späť"
 
 #~ msgid "Set timezone"
 #~ msgstr "Nastaviť časové pásmo"
-
-#~ msgid "Setting up installation source..."
-#~ msgstr "Nastavuje sa zdroj inštalácie..."
 
 #~ msgid "Setting up kexec"
 #~ msgstr "Nastavuje sa kexec"
@@ -5926,10 +5991,6 @@ msgstr "späť"
 
 #~ msgid "URL of the repository"
 #~ msgstr "URL repozitára"
-
-#~ msgctxt "GUI|Software Source"
-#~ msgid "URL type:"
-#~ msgstr "Typ URL:"
 
 #~ msgid "USER SETTINGS"
 #~ msgstr "NASTAVENIA POUŽÍVATEĽA"
@@ -6869,10 +6930,6 @@ msgstr "späť"
 #~ msgid "_Exit Installer"
 #~ msgstr "_Ukončiť inštalátor"
 
-#~ msgctxt "GUI|Network|Proxy"
-#~ msgid "_FTP Proxy"
-#~ msgstr "_FTP Proxy"
-
 #~ msgctxt "GUI|Progress"
 #~ msgid "_Finish Installation"
 #~ msgstr "_Dokončiť inštaláciu"
@@ -7268,10 +7325,6 @@ msgstr "späť"
 #~ msgctxt "GUI|Spoke"
 #~ msgid "_Time & Date"
 #~ msgstr "Čas s dá_tum"
-
-#~ msgctxt "GUI|Software Source"
-#~ msgid "_URL:"
-#~ msgstr "_URL:"
 
 #~ msgctxt "GUI|Custom Partitioning|Encrypted"
 #~ msgid "_Unlock"
@@ -7833,9 +7886,6 @@ msgstr "späť"
 #~ msgstr[0] "Nie sú vybrané žiadne disky"
 #~ msgstr[1] "Nie sú vybrané žiadne disky"
 #~ msgstr[2] "Nie sú vybrané žiadne disky"
-
-#~ msgid "Failed to set up installation source"
-#~ msgstr "Zlyhalo nastavenie zdroja inštalácie"
 
 #~ msgid "Error downloading package metadata"
 #~ msgstr "Chyba pri preberaní metaúdajov balíku"

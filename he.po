@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-20 07:55+0000\n"
+"POT-Creation-Date: 2026-10-21 08:00+0000\n"
 "PO-Revision-Date: 2024-11-18 02:57+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.fedoraproject.org/projects/anaconda-"
@@ -122,7 +122,7 @@ msgstr "התקנת $0"
 msgid "About"
 msgstr "על אודות"
 
-#: src/components/review/ReviewConfiguration.jsx:254
+#: src/components/review/ReviewConfiguration.jsx:265
 msgid "Account"
 msgstr "חשבון"
 
@@ -141,13 +141,13 @@ msgstr "הוספת שרת NTP"
 msgid "Add mount"
 msgstr "הוספת עיגון"
 
-#: src/components/software/SoftwareSelection.jsx:122
+#: src/components/software/SoftwareSelection.jsx:113
 #, fuzzy
 #| msgid "Additional software for selected environment"
 msgid "Add-ons for your chosen environment"
 msgstr "תכנה נוספת לסביבה הנבחרת"
 
-#: src/components/software/SoftwareSelection.jsx:131
+#: src/components/software/SoftwareSelection.jsx:122
 msgid "Add-ons not specific to your environment"
 msgstr ""
 
@@ -157,7 +157,7 @@ msgstr ""
 msgid "Additional languages"
 msgstr "שפות זמינות"
 
-#: src/components/software/SoftwareSelection.jsx:156
+#: src/components/software/SoftwareSelection.jsx:147
 #, fuzzy
 #| msgid "Additional software for selected environment"
 msgid "Additional software for the selected environment"
@@ -175,7 +175,7 @@ msgstr "כל ההתקנים שמשתמשים במילת הצופן הזאת יש
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/login.html:8 src/index.html:20
+#: src/index.html:20 src/login.html:8
 msgid "Anaconda Web UI"
 msgstr "מנשק דפדפן Anaconda"
 
@@ -222,7 +222,7 @@ msgstr "מקום פנוי זמין: $0. דרישות ההתקנה: $1."
 msgid "Back"
 msgstr "חזרה"
 
-#: src/components/software/SoftwareSelection.jsx:63
+#: src/components/software/SoftwareSelection.jsx:54
 msgid "Base environment"
 msgstr "סביבת יסוד"
 
@@ -291,7 +291,7 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr "שינויים שבוצעו כאן ישפיעו על המערכת ישירות. אי אפשר לסגת."
 
-#: src/components/review/ReviewConfiguration.jsx:191
+#: src/components/review/ReviewConfiguration.jsx:196
 #, fuzzy
 #| msgid "Checking storage configuration..."
 msgid "Checking installation configuration..."
@@ -325,6 +325,17 @@ msgstr "סגירה"
 msgid "Close storage editor"
 msgstr "עורך האחסון"
 
+#: src/components/source/SourceReviewDescription.jsx:34
+#: src/components/source/InstallationSource.jsx:41
+msgid "Closest mirror"
+msgstr "מראה קרובה ביותר"
+
+#: src/components/source/InstallationSource.jsx:286
+#, fuzzy
+#| msgid "Closest mirror"
+msgid "Closest public mirror"
+msgstr "מראה קרובה ביותר"
+
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
 "Cockpit storage did not provide the passphrase to unlock encrypted device."
@@ -334,7 +345,7 @@ msgstr "האחסון של Cockpit לא סיפק מילת צופן לשחרור �
 msgid "Completed"
 msgstr "הושלם"
 
-#: src/components/review/ReviewConfiguration.jsx:212
+#: src/components/review/ReviewConfiguration.jsx:217
 #, fuzzy
 #| msgid "Apply configuration in installer"
 msgid "Configuration is incomplete"
@@ -363,6 +374,18 @@ msgstr "הגדרת אחסון"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:688
 msgid "Configure storage again"
 msgstr "הגדרת האחסון שוב"
+
+#: src/components/source/InstallationSource.jsx:140
+#, fuzzy
+#| msgid "Configuring installed system"
+msgid "Configuring installation source"
+msgstr "כעת בהגדרת המערכת שהותקנה"
+
+#: src/components/source/InstallationSource.jsx:141
+#, fuzzy
+#| msgid "Setting up installation source..."
+msgid "Configuring installation source..."
+msgstr "מכין מקור התקנה..."
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -460,6 +483,10 @@ msgstr "זוהתה פריסת אחסון תקפה:"
 msgid "Device"
 msgstr "התקן"
 
+#: src/components/source/InstallationSource.jsx:186
+msgid "Disabled"
+msgstr "מושבת"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 msgid "Duplicate device."
 msgstr "התקן כפול."
@@ -523,6 +550,12 @@ msgstr "יציאה לשולחן העבודה החי"
 msgid "Extended partition"
 msgstr "מחיצות מומלצות:"
 
+#: src/components/source/InstallationSource.jsx:222
+#, fuzzy
+#| msgid "Failed to set up installation source"
+msgid "Failed to configure installation source"
+msgstr "נכשל בהכנת מקור ההתקנה"
+
 #: src/components/Error.jsx:642
 #, fuzzy
 #| msgid "Report issue"
@@ -582,7 +615,7 @@ msgstr ""
 msgid "Hide PIN"
 msgstr ""
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Hide confirmed password"
 msgstr "הסתרת סיסמה שאושרה"
 
@@ -590,7 +623,7 @@ msgstr "הסתרת סיסמה שאושרה"
 msgid "Hide passphrase"
 msgstr "הסתרת מילת צופן"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Hide password"
 msgstr "הסתרת הסיסמה"
 
@@ -602,7 +635,7 @@ msgstr "שם מארח"
 msgid "How would you like to install?"
 msgstr "איך להתקין?"
 
-#: src/components/review/ReviewConfiguration.jsx:309
+#: src/components/review/ReviewConfiguration.jsx:320
 #, fuzzy
 #| msgid "I understand that all existing data will be erased"
 msgid "I understand that all existing data will be erased"
@@ -611,11 +644,11 @@ msgid_plural ""
 msgstr[0] "ברור לי שכל הנתונים הקיימים יימחקו"
 msgstr[1] "ברור לי שכל הנתונים הקיימים יימחקו"
 
-#: src/components/review/ReviewConfiguration.jsx:314
+#: src/components/review/ReviewConfiguration.jsx:325
 msgid "I understand that some existing data will be erased"
 msgstr "ברור לי שחלק מהנתונים הקיימים יימחקו"
 
-#: src/components/review/ReviewConfiguration.jsx:315
+#: src/components/review/ReviewConfiguration.jsx:326
 msgid "I understand that some partitions will be modified"
 msgstr "ברור לי שחלק מהמחיצות ישתנו"
 
@@ -690,7 +723,12 @@ msgstr "התקנת המערכת נכשלה: $0"
 msgid "Installation of the system failed: $0"
 msgstr "התקנת המערכת נכשלה: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:269
+#: src/components/source/index.js:24 src/components/source/index.js:25
+#: src/components/review/ReviewConfiguration.jsx:252
+msgid "Installation source"
+msgstr "מקור התקנה"
+
+#: src/components/review/ReviewConfiguration.jsx:280
 msgid "Installation type"
 msgstr "סוג התקנה"
 
@@ -721,7 +759,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "שם מארח לא חוקי"
 
-#: src/components/review/ReviewConfiguration.jsx:208
+#: src/components/review/ReviewConfiguration.jsx:213
 #, fuzzy
 #| msgid "completed step"
 msgid "Jump to first incomplete step"
@@ -747,7 +785,7 @@ msgid "Keyboard layout during boot"
 msgstr ""
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:234
+#: src/components/review/ReviewConfiguration.jsx:239
 msgid "Language"
 msgstr "שפה"
 
@@ -807,9 +845,17 @@ msgstr "להתקין במקום הפנוי?"
 msgid "Medium"
 msgstr "בינונית"
 
+#: src/components/source/InstallationSource.jsx:49
+msgid "Metalink"
+msgstr "קישור על (Metalink)"
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:310
 msgid "Minimum of $0 required"
 msgstr ""
+
+#: src/components/source/InstallationSource.jsx:48
+msgid "Mirrorlist"
+msgstr "רשימת שרתי מראה"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
 msgid "Mismatch between parent device and child device reformat selection."
@@ -960,7 +1006,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:223
+#: src/components/review/ReviewConfiguration.jsx:228
 msgid "Operating system"
 msgstr "מערכת הפעלה"
 
@@ -990,7 +1036,7 @@ msgstr "מילת צופן"
 msgid "Passphrase did not match any locked device"
 msgstr "מילת הצופן לא מתאימה לאף התקן נעול"
 
-#: src/components/Password.jsx:278
+#: src/components/Password.jsx:289
 msgid "Passphrases must match"
 msgstr "מילות הצופן חייבות להיות תואמות"
 
@@ -1039,6 +1085,13 @@ msgstr ""
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
 msgstr "המשך בהתקנה"
+
+#: src/components/source/InstallationSource.jsx:182
+#, fuzzy
+#| msgctxt "GUI|Network|Proxy"
+#| msgid "_FTP Proxy"
+msgid "Proxy"
+msgstr "מתווך _FTP"
 
 #: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1181,6 +1234,10 @@ msgstr "דיווח על תקלה"
 msgid "Reporting issue..."
 msgstr "דיווח על תקלה"
 
+#: src/components/source/InstallationSource.jsx:47
+msgid "Repository URL"
+msgstr "כתובת מאגר"
+
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 msgid "Required"
 msgstr "חובה"
@@ -1251,6 +1308,18 @@ msgstr ""
 msgid "Root password has been set."
 msgstr "סיסמת מנהל המערכת (root) הוגדרה."
 
+#: src/components/source/InstallationSource.jsx:188
+msgid "SSL CA certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:189
+msgid "SSL client certificate"
+msgstr ""
+
+#: src/components/source/InstallationSource.jsx:185
+msgid "SSL verification"
+msgstr ""
+
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
@@ -1267,13 +1336,13 @@ msgstr "אפשר לסרוק את קוד ה־QR עם הטלפון שלך או ל�
 msgid "Search for a language"
 msgstr "נא לבחור שפה"
 
-#: src/components/software/SoftwareSelection.jsx:159
+#: src/components/software/SoftwareSelection.jsx:150
 #, fuzzy
 #| msgid "No additional software to select."
 msgid "Search for additional software"
 msgstr "אין תכנה נוספת לבחירה."
 
-#: src/components/software/SoftwareSelection.jsx:66
+#: src/components/software/SoftwareSelection.jsx:57
 #, fuzzy
 #| msgid "Choose a language"
 msgid "Search for an environment"
@@ -1340,6 +1409,12 @@ msgstr "_שרת:"
 msgid "Server is not reachable"
 msgstr ""
 
+#: src/components/source/SourceReviewDescription.jsx:48
+msgid ""
+"Set by the kickstart file. Remove source selection from kickstart to be able "
+"to configure interactively."
+msgstr ""
+
 #: src/components/review/Hostname.jsx:87
 msgid "Set custom hostname"
 msgstr "הגדרת שם מארח משלך"
@@ -1377,7 +1452,7 @@ msgstr "_AM/PM"
 msgid "Show PIN"
 msgstr "_AM/PM"
 
-#: src/components/Password.jsx:265
+#: src/components/Password.jsx:276
 msgid "Show confirmed password"
 msgstr "הצגת סיסמה שאושרה"
 
@@ -1385,7 +1460,7 @@ msgstr "הצגת סיסמה שאושרה"
 msgid "Show passphrase"
 msgstr "הצגת מילת צופן"
 
-#: src/components/Password.jsx:229
+#: src/components/Password.jsx:240
 msgid "Show password"
 msgstr "הצגת הסיסמה"
 
@@ -1403,12 +1478,12 @@ msgid ""
 "being installed onto your device."
 msgstr "התקנת תוכנות: הגדרת האחסון הושלמה. התוכנות מותקנות כעת במכשיר שלך."
 
-#: src/components/software/index.js:19 src/components/software/index.js:20
-#: src/components/review/ReviewConfiguration.jsx:247
+#: src/components/software/index.js:22 src/components/software/index.js:23
+#: src/components/review/ReviewConfiguration.jsx:258
 msgid "Software selection"
 msgstr "בחירת תכנה"
 
-#: src/components/review/ReviewConfiguration.jsx:215
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1425,11 +1500,11 @@ msgstr "מקום"
 msgid "Stacktrace"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:276
+#: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr "אחסון"
 
-#: src/components/steps.js:35
+#: src/components/steps.js:37
 #: src/components/installation/InstallationProgress.jsx:228
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
@@ -1595,7 +1670,7 @@ msgid "Time"
 msgstr "אזור זמן: %s\n"
 
 #: src/components/datetime/Timezone.jsx:130
-#: src/components/review/ReviewConfiguration.jsx:241
+#: src/components/review/ReviewConfiguration.jsx:246
 #, fuzzy
 #| msgid "Timezone: %s\n"
 msgid "Timezone"
@@ -1624,6 +1699,20 @@ msgstr ""
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "סוג"
+
+#: src/components/source/InstallationSource.jsx:263
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "_URL:"
+msgid "URL"
+msgstr "_כתובת:"
+
+#: src/components/source/InstallationSource.jsx:293
+#, fuzzy
+#| msgctxt "GUI|Software Source"
+#| msgid "URL type:"
+msgid "URL type"
+msgstr "סוג כתובת:"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1809,7 +1898,7 @@ msgstr "פרמוט ל־$0"
 msgid "here"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:57
+#: src/components/review/ReviewConfiguration.jsx:61
 #, fuzzy
 #| msgid "Completed"
 msgid "incomplete"
@@ -2063,9 +2152,6 @@ msgstr "ביטול"
 #~| msgid "Changes made in Blivet-gui will directly affect your storage."
 #~ msgid "Any changes you make will immediately affect your storage."
 #~ msgstr "שינויים שבוצעו ב־Blivet-gui ישפיעו ישירות על האחסון שלך."
-
-#~ msgid "Disabled"
-#~ msgstr "מושבת"
 
 #~ msgid "Enabled"
 #~ msgstr "מאופשר"
@@ -2961,9 +3047,6 @@ msgstr "ביטול"
 #~ msgid "City"
 #~ msgstr "עיר"
 
-#~ msgid "Closest mirror"
-#~ msgstr "מראה קרובה ביותר"
-
 #~ msgid "Complete!"
 #~ msgstr "הושלם!"
 
@@ -3001,9 +3084,6 @@ msgstr "ביטול"
 #, python-format
 #~ msgid "Configuring device %s."
 #~ msgstr "ההתקן %s מוגדר."
-
-#~ msgid "Configuring installed system"
-#~ msgstr "כעת בהגדרת המערכת שהותקנה"
 
 #~ msgid "Configuring {}"
 #~ msgstr "{} מוגדר"
@@ -3794,9 +3874,6 @@ msgstr "ביטול"
 #~ "ההתקנה דורשת את חלוקת הכונן שלך למחיצות. נא לבחור באיזה נפח להשתמש כיעד "
 #~ "ההתקנה או להקצות את נקודות העיגון ידנית."
 
-#~ msgid "Installation source"
-#~ msgstr "מקור התקנה"
-
 #~ msgid "Installation source needs to be set up first."
 #~ msgstr "יש להגדיר תחילה את מקור ההתקנה."
 
@@ -4021,9 +4098,6 @@ msgstr "ביטול"
 #~ msgid "Memory"
 #~ msgstr "זיכרון"
 
-#~ msgid "Metalink"
-#~ msgstr "קישור על (Metalink)"
-
 #~ msgid "Method"
 #~ msgstr "שיטה"
 
@@ -4035,9 +4109,6 @@ msgstr "ביטול"
 
 #~ msgid "Minutes Up"
 #~ msgstr "דקות למעלה"
-
-#~ msgid "Mirrorlist"
-#~ msgstr "רשימת שרתי מראה"
 
 #~ msgid "Missing name of the %addon section."
 #~ msgstr "שם חסר של הסעיף %addon."
@@ -4803,9 +4874,6 @@ msgstr "ביטול"
 #~ msgid "Repo URL"
 #~ msgstr "כתובת מאגר"
 
-#~ msgid "Repository URL"
-#~ msgstr "כתובת מאגר"
-
 #~ msgid "Repository name conflicts with internal repository name"
 #~ msgstr "שם המאגר מתנגש עם שם מאגר פנימי"
 
@@ -5045,9 +5113,6 @@ msgstr "ביטול"
 
 #~ msgid "Set timezone"
 #~ msgstr "הגדרת אזור זמן"
-
-#~ msgid "Setting up installation source..."
-#~ msgstr "מכין מקור התקנה..."
 
 #~ msgid "Setting up kexec"
 #~ msgstr "כעת בהגדרת kexec"
@@ -5917,10 +5982,6 @@ msgstr "ביטול"
 
 #~ msgid "URL of the repository"
 #~ msgstr "כתובת המאגר"
-
-#~ msgctxt "GUI|Software Source"
-#~ msgid "URL type:"
-#~ msgstr "סוג כתובת:"
 
 #~ msgid "USER SETTINGS"
 #~ msgstr "הגדרות משתמש"
@@ -6821,10 +6882,6 @@ msgstr "ביטול"
 #~ msgid "_Exit Installer"
 #~ msgstr "י_ציאה מתכנית ההתקנה"
 
-#~ msgctxt "GUI|Network|Proxy"
-#~ msgid "_FTP Proxy"
-#~ msgstr "מתווך _FTP"
-
 #~ msgctxt "GUI|Progress"
 #~ msgid "_Finish Installation"
 #~ msgstr "_סיום ההתקנה"
@@ -7220,10 +7277,6 @@ msgstr "ביטול"
 #~ msgctxt "GUI|Spoke"
 #~ msgid "_Time & Date"
 #~ msgstr "_שעה ותאריך"
-
-#~ msgctxt "GUI|Software Source"
-#~ msgid "_URL:"
-#~ msgstr "_כתובת:"
 
 #~ msgctxt "GUI|Custom Partitioning|Encrypted"
 #~ msgid "_Unlock"
@@ -7768,9 +7821,6 @@ msgstr "ביטול"
 #~ msgid_plural "$0 (of $1) disks selected"
 #~ msgstr[0] "לא נבחרו כוננים"
 #~ msgstr[1] "לא נבחרו כוננים"
-
-#~ msgid "Failed to set up installation source"
-#~ msgstr "נכשל בהכנת מקור ההתקנה"
 
 #~ msgid "Error downloading package metadata"
 #~ msgstr "שגיאה בהורדת נתוני־העל של החבילה"
