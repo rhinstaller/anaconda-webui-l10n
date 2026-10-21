@@ -35,7 +35,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-21 08:00+0000\n"
-"PO-Revision-Date: 2026-08-17 03:32+0000\n"
+"PO-Revision-Date: 2026-10-22 07:59+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/id/>\n"
@@ -44,7 +44,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.8.1\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:143
 #: src/components/storage/installation-method/InstallationDestination.jsx:276
@@ -331,10 +331,8 @@ msgid "Closest mirror"
 msgstr "Cermin terdekat"
 
 #: src/components/source/InstallationSource.jsx:286
-#, fuzzy
-#| msgid "Closest mirror"
 msgid "Closest public mirror"
-msgstr "Cermin terdekat"
+msgstr "Mirror publik terdekat"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
@@ -372,16 +370,12 @@ msgid "Configure storage again"
 msgstr "Konfigurasikan penyimpanan lagi"
 
 #: src/components/source/InstallationSource.jsx:140
-#, fuzzy
-#| msgid "Configuring installed system"
 msgid "Configuring installation source"
-msgstr "Mengkonfigurasi sistem yang terpasang"
+msgstr "Mengonfigurasi sumber instalasi"
 
 #: src/components/source/InstallationSource.jsx:141
-#, fuzzy
-#| msgid "Setting up installation source..."
 msgid "Configuring installation source..."
-msgstr "Pengaturan sumber instalasi..."
+msgstr "Mengonfigurasi sumber instalasi..."
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -533,10 +527,8 @@ msgid "Extended partition"
 msgstr "Partisi diperluas"
 
 #: src/components/source/InstallationSource.jsx:222
-#, fuzzy
-#| msgid "Failed to set up installation source"
 msgid "Failed to configure installation source"
-msgstr "Gagal menyiapkan sumber instalasi"
+msgstr "Gagal mengonfigurasi sumber instalasi"
 
 #: src/components/Error.jsx:642
 msgid "Failed to report issue"
@@ -687,8 +679,6 @@ msgid "Install"
 msgstr "Pasang"
 
 #: src/components/app.jsx:40
-#, fuzzy
-#| msgid "Installation complete"
 msgid "Installation completed"
 msgstr "Instalasi selesai"
 
@@ -1045,11 +1035,8 @@ msgid "Proceed with installation"
 msgstr "Lanjutkan dengan instalasi"
 
 #: src/components/source/InstallationSource.jsx:182
-#, fuzzy
-#| msgctxt "GUI|Network|Proxy"
-#| msgid "_FTP Proxy"
 msgid "Proxy"
-msgstr "Proksi _FTP"
+msgstr "Proksi"
 
 #: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1271,15 +1258,15 @@ msgstr "Kata sandi root telah diisi."
 
 #: src/components/source/InstallationSource.jsx:188
 msgid "SSL CA certificate"
-msgstr ""
+msgstr "Sertifikat CA SSL"
 
 #: src/components/source/InstallationSource.jsx:189
 msgid "SSL client certificate"
-msgstr ""
+msgstr "Sertifikat klien SSL"
 
 #: src/components/source/InstallationSource.jsx:185
 msgid "SSL verification"
-msgstr ""
+msgstr "Verifikasi SSL"
 
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
@@ -1360,6 +1347,8 @@ msgid ""
 "Set by the kickstart file. Remove source selection from kickstart to be able "
 "to configure interactively."
 msgstr ""
+"Ditetapkan oleh berkas kickstart. Hapus pemilihan sumber dari kickstart agar "
+"dapat mengonfigurasinya secara interaktif."
 
 #: src/components/review/Hostname.jsx:87
 msgid "Set custom hostname"
@@ -1550,6 +1539,8 @@ msgid ""
 "The keyboard layout has changed since the disk encryption passphrase was "
 "set. Please re-enter the passphrase."
 msgstr ""
+"Tata letak papan ketik telah berubah sejak frasa sandi enkripsi disk "
+"ditetapkan. Masukkan kembali frasa sandi."
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:35
 msgid ""
@@ -1641,18 +1632,12 @@ msgid "Type"
 msgstr "Tipe"
 
 #: src/components/source/InstallationSource.jsx:263
-#, fuzzy
-#| msgctxt "GUI|Software Source"
-#| msgid "_URL:"
 msgid "URL"
-msgstr "_URL:"
+msgstr "URL"
 
 #: src/components/source/InstallationSource.jsx:293
-#, fuzzy
-#| msgctxt "GUI|Software Source"
-#| msgid "URL type:"
 msgid "URL type"
-msgstr "tipe URL:"
+msgstr "Jenis URL"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1762,7 +1747,7 @@ msgstr "Partisi Windows dengan enkripsi BitLocker tidak dapat diubah ukurannya"
 
 #: src/components/app.jsx:41
 msgid "You can close this browser window now."
-msgstr ""
+msgstr "Anda dapat menutup jendela peramban ini sekarang."
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:83
 msgid ""
@@ -1863,7 +1848,7 @@ msgstr "mengecil menjadi $0"
 
 #: src/components/review/Hostname.jsx:154
 msgid "transient, will use DHCP"
-msgstr ""
+msgstr "sementara, akan menggunakan DHCP"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:375
 msgid "undo"
