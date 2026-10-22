@@ -19,16 +19,16 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-22 07:59+0000\n"
-"PO-Revision-Date: 2026-09-16 07:55+0000\n"
-"Last-Translator: Kjartan Maraas <kjartan.maraas@proton.me>\n"
+"PO-Revision-Date: 2026-10-22 12:01+0000\n"
+"Last-Translator: Roy-Magne Mo <rmo@sunnmore.net>\n"
 "Language-Team: Norwegian Bokmål <https://translate.fedoraproject.org/"
-"projects/anaconda-webui/anaconda-webui/nb_NO/>\n"
+"projects/anaconda-webui/anaconda-webui/nb/>\n"
 "Language: nb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.9.1\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:143
 #: src/components/storage/installation-method/InstallationDestination.jsx:276
@@ -98,6 +98,9 @@ msgid ""
 "filesystem, but is not marked as an ESP. Set the partition type to EFI "
 "System and enable the esp flag."
 msgstr ""
+"«$0» må ligge på en EFI-systempartisjon. Den valgte partisjonen bruker et "
+"FAT-filsystem, men er ikke merket som ESP. Sett partisjonstypen til EFI-"
+"system og slå på esp-flagget."
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:280
 msgid ""
@@ -312,10 +315,8 @@ msgid "Closest mirror"
 msgstr "Nærmeste speil."
 
 #: src/components/source/InstallationSource.jsx:286
-#, fuzzy
-#| msgid "Closest mirror"
 msgid "Closest public mirror"
-msgstr "Nærmeste speil."
+msgstr "Nærmeste offentlige speiltjener"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
@@ -353,14 +354,10 @@ msgid "Configure storage again"
 msgstr "Konfigurer lagring igjen"
 
 #: src/components/source/InstallationSource.jsx:140
-#, fuzzy
-#| msgid "Configuring installed system"
 msgid "Configuring installation source"
-msgstr "Konfigurerer installert system"
+msgstr "Setter opp installasjonskilde"
 
 #: src/components/source/InstallationSource.jsx:141
-#, fuzzy
-#| msgid "Setting up installation source..."
 msgid "Configuring installation source..."
 msgstr "Setter opp installasjonskilde …"
 
@@ -449,9 +446,8 @@ msgid "Device"
 msgstr "Enhet"
 
 #: src/components/source/InstallationSource.jsx:186
-#, fuzzy
 msgid "Disabled"
-msgstr "Aktivert"
+msgstr "Deaktivert"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 msgid "Duplicate device."
@@ -490,6 +486,8 @@ msgid ""
 "Enter your Bugzilla API key to create a bug report. You will be able to "
 "review and edit the bug details in the next step."
 msgstr ""
+"Skriv inn Bugzilla API-nøkkelen din for å opprette en feilrapport. Du kan gå "
+"gjennom og redigere detaljene i neste steg."
 
 #: src/components/Error.jsx:279
 msgid "Environment"
@@ -513,10 +511,8 @@ msgid "Extended partition"
 msgstr "Utvidet partisjon"
 
 #: src/components/source/InstallationSource.jsx:222
-#, fuzzy
-#| msgid "Failed to set up installation source"
 msgid "Failed to configure installation source"
-msgstr "Klarte ikke å sette opp kilde for installasjonen"
+msgstr "Klarte ikke å sette opp installasjonskilden"
 
 #: src/components/Error.jsx:642
 msgid "Failed to report issue"
@@ -620,6 +616,8 @@ msgid ""
 "If none of the options above apply, use the storage editor to create a "
 "custom partitioning before proceeding."
 msgstr ""
+"Hvis ingen av alternativene ovenfor passer, bruk lagringsredigeringen til å "
+"lage en tilpasset partisjonering før du går videre."
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:56
 msgid "If you are configuring partitions the following are required:"
@@ -631,6 +629,9 @@ msgid ""
 "Manual reporting allows you to review and selectively attach log files "
 "yourself."
 msgstr ""
+"Hvis du ikke samtykker til automatisk opplasting av loggfil, kan du $0 i "
+"stedet. Manuell rapportering lar deg selv gå gjennom og velge hvilke "
+"loggfiler du vil legge ved."
 
 #: src/components/AnacondaHeader.jsx:76
 msgid ""
@@ -644,6 +645,9 @@ msgid ""
 "If your issue matches one of the bugs above, you can open it and add your "
 "information there instead of creating a duplicate report."
 msgstr ""
+"Hvis problemet ditt stemmer overens med en av feilrapportene ovenfor, kan du "
+"åpne den og legge til informasjonen din der i stedet for å lage en "
+"duplikatrapport."
 
 #: src/components/installation/InstallationProgress.jsx:284
 msgid "In progress"
@@ -660,10 +664,8 @@ msgid "Install"
 msgstr "Installer"
 
 #: src/components/app.jsx:40
-#, fuzzy
-#| msgid "Installation method"
 msgid "Installation completed"
-msgstr "Installasjonsmetode"
+msgstr "Installasjon fullført"
 
 #: src/components/installation/InstallationProgress.jsx:219
 #: src/components/Error.jsx:849
@@ -684,10 +686,8 @@ msgstr "Installering av systemet mislyktes: $0"
 
 #: src/components/source/index.js:24 src/components/source/index.js:25
 #: src/components/review/ReviewConfiguration.jsx:252
-#, fuzzy
-#| msgid "Installation"
 msgid "Installation source"
-msgstr "Installasjon"
+msgstr "Installasjonskilde"
 
 #: src/components/review/ReviewConfiguration.jsx:280
 msgid "Installation type"
@@ -754,7 +754,7 @@ msgstr "Lanser lagringsredigerer"
 
 #: src/components/Error.jsx:387
 msgid "Learn more about restricted access in the configuration"
-msgstr ""
+msgstr "Lær mer om begrenset tilgang i oppsettet"
 
 #: src/components/users/Accounts.jsx:209
 msgid "Leave both passphrase fields empty to use an empty password."
@@ -799,7 +799,7 @@ msgstr "Medie"
 
 #: src/components/source/InstallationSource.jsx:49
 msgid "Metalink"
-msgstr ""
+msgstr "Metalink"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:310
 msgid "Minimum of $0 required"
@@ -807,7 +807,7 @@ msgstr "Minimum $0 kreves"
 
 #: src/components/source/InstallationSource.jsx:48
 msgid "Mirrorlist"
-msgstr ""
+msgstr "Speilliste"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
 msgid "Mismatch between parent device and child device reformat selection."
@@ -919,6 +919,8 @@ msgid ""
 "No valid VConsole keymap can be obtained for the selected keyboard "
 "layout(s). Please make a different keyboard layout selection."
 msgstr ""
+"Ingen gyldig VConsole-tastaturkart kan hentes for det valgte "
+"tastaturoppsettet. Velg et annet tastaturoppsett."
 
 #: src/components/storage/installation-method/usePageComplete.jsx:112
 msgid "Not enough available free space"
@@ -944,7 +946,7 @@ msgstr ""
 
 #: src/components/Error.jsx:181
 msgid "Open Bugzilla bug entry form"
-msgstr ""
+msgstr "Åpne skjema for feilrapport i Bugzilla"
 
 #: src/components/review/ReviewConfiguration.jsx:228
 msgid "Operating system"
@@ -999,7 +1001,7 @@ msgstr "Pool"
 
 #: src/components/Error.jsx:296
 msgid "Potential duplicate bugs found"
-msgstr ""
+msgstr "Fant mulige duplikater av feilrapporter"
 
 #: src/components/HeaderKebab.jsx:48
 msgid "Powered by Anaconda"
@@ -1011,18 +1013,15 @@ msgstr "Forhåndsutgivelse"
 
 #: src/components/Error.jsx:179
 msgid "Prefer to report manually? $0"
-msgstr ""
+msgstr "Vil du rapportere manuelt? $0"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
 msgstr "Fortsett med installasjonen"
 
 #: src/components/source/InstallationSource.jsx:182
-#, fuzzy
-#| msgctxt "GUI|Network|Proxy"
-#| msgid "_FTP Proxy"
 msgid "Proxy"
-msgstr "_FTP Proxy"
+msgstr "Mellomtjener"
 
 #: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1161,6 +1160,8 @@ msgid ""
 "Report an issue or provide feedback by opening the Bugzilla bug entry form "
 "$0."
 msgstr ""
+"Rapporter et problem eller gi tilbakemelding ved å åpne Bugzilla-"
+"feilrapportskjemaet $0."
 
 #: src/components/Error.jsx:703 src/components/Error.jsx:870
 msgid "Report issue"
@@ -1171,10 +1172,8 @@ msgid "Reporting issue..."
 msgstr "Rapporterer feil …"
 
 #: src/components/source/InstallationSource.jsx:47
-#, fuzzy
-#| msgid "Empty"
 msgid "Repository URL"
-msgstr "Tomt"
+msgstr "URL for pakkekilde"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 msgid "Required"
@@ -1206,11 +1205,11 @@ msgstr "Endrer størrelsen på de følgende partisjonene fra $0: $1"
 
 #: src/components/Error.jsx:381
 msgid "Restrict access to the report"
-msgstr ""
+msgstr "Begrens tilgang til rapporten"
 
 #: src/components/Error.jsx:383
 msgid "Restricts the report to the $0 group. $1"
-msgstr ""
+msgstr "Begrenser rapporten til $0-gruppen. $1"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:34
 msgid "Return to installation"
@@ -1242,15 +1241,15 @@ msgstr "Passord for root er satt."
 
 #: src/components/source/InstallationSource.jsx:188
 msgid "SSL CA certificate"
-msgstr ""
+msgstr "SSL CA-sertifikat"
 
 #: src/components/source/InstallationSource.jsx:189
 msgid "SSL client certificate"
-msgstr ""
+msgstr "SSL-klientsertifikat"
 
 #: src/components/source/InstallationSource.jsx:185
 msgid "SSL verification"
-msgstr ""
+msgstr "SSL-verifisering"
 
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
@@ -1331,6 +1330,8 @@ msgid ""
 "Set by the kickstart file. Remove source selection from kickstart to be able "
 "to configure interactively."
 msgstr ""
+"Satt av kickstart-filen. Fjern kildevalg fra kickstart for å kunne "
+"konfigurere interaktivt."
 
 #: src/components/review/Hostname.jsx:87
 msgid "Set custom hostname"
@@ -1404,7 +1405,7 @@ msgstr "Lagringsplass"
 
 #: src/components/Error.jsx:273
 msgid "Stacktrace"
-msgstr ""
+msgstr "Stakkspor"
 
 #: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
@@ -1435,6 +1436,8 @@ msgid ""
 "Storage layout is defined by the kickstart file. The planned partitioning "
 "layout can be reviewed in the summary step."
 msgstr ""
+"Lagringsoppsettet er definert av kickstart-filen. Det planlagte "
+"partisjoneringsoppsettet kan gjennomgås i sammendraget."
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid "Storage plugin failed"
@@ -1489,6 +1492,8 @@ msgid ""
 "The following open bugs may be related to your issue. Please review them "
 "before creating a new report."
 msgstr ""
+"Følgende åpne feilrapporter kan være relatert til problemet ditt. Gå gjennom "
+"dem før du oppretter en ny rapport."
 
 #: src/components/users/Accounts.jsx:47
 msgid "The following user will be created:"
@@ -1497,16 +1502,12 @@ msgstr[0] "Følgende bruker vil bli laget:"
 msgstr[1] "Følgende brukere vil bli laget:"
 
 #: src/components/storage/scenarios/erase-all/EraseAll.jsx:45
-#, fuzzy
-#| msgid ""
-#| "The installation needs $1 of disk space; however, the capacity of the "
-#| "selected disks is only $0."
 msgid ""
 "The installation needs $0 of disk space; however, the capacity of the "
 "selected disks is only $1."
 msgstr ""
-"Installasjon krever $1 med lagringsplass; størrelsen av de valgte diskene er "
-"derimot bare $0."
+"Installasjonen trenger $0 diskplass, men kapasiteten til de valgte diskene "
+"er bare $1."
 
 #: src/components/Error.jsx:778
 msgid "The installer cannot continue due to a critical error."
@@ -1521,6 +1522,8 @@ msgid ""
 "The keyboard layout has changed since the disk encryption passphrase was "
 "set. Please re-enter the passphrase."
 msgstr ""
+"Tastaturoppsettet er endret siden passfrasen for diskkryptering ble satt. "
+"Skriv inn passfrasen på nytt."
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:35
 msgid ""
@@ -1550,16 +1553,12 @@ msgstr ""
 "et avansert verktøy og ikke for bruk i en vanlig installasjon."
 
 #: src/components/Error.jsx:407
-#, fuzzy
-#| msgid ""
-#| "Logs may contain sensitive information like IP addresses or usernames. "
-#| "Attachments on Bugzilla issues are marked private by default."
 msgid ""
 "These log files may contain sensitive information such as IP addresses, "
 "usernames, or other system details."
 msgstr ""
-"Logger kan inneholde sensitiv informasjon som IP-adresser eller brukernavn. "
-"Vedlegg på Bugzilla-problemer er som standard merket som privat."
+"Disse loggfilene kan inneholde sensitiv informasjon som IP-adresser, "
+"brukernavn eller andre systemdetaljer."
 
 #: src/components/review/Hostname.jsx:51
 msgid "This hostname can't be submitted"
@@ -1615,17 +1614,12 @@ msgid "Type"
 msgstr "Type"
 
 #: src/components/source/InstallationSource.jsx:263
-#, fuzzy
-#| msgctxt "GUI|Software Source"
-#| msgid "Pro_xy URL:"
 msgid "URL"
-msgstr "Pro_xy-URL:"
+msgstr "URL"
 
 #: src/components/source/InstallationSource.jsx:293
-#, fuzzy
-#| msgid "URL is empty"
 msgid "URL type"
-msgstr "URL er tom"
+msgstr "URL-type"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1726,6 +1720,8 @@ msgid ""
 "When you submit this bug report, the following log files will be uploaded "
 "automatically: $0"
 msgstr ""
+"Når du sender inn denne feilrapporten, vil følgende loggfiler lastes opp "
+"automatisk: $0"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:563
 msgid "Windows partitions with BitLocker encryption cannot be resized"
@@ -1734,7 +1730,7 @@ msgstr ""
 
 #: src/components/app.jsx:41
 msgid "You can close this browser window now."
-msgstr ""
+msgstr "Du kan lukke dette nettleservinduet nå."
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:83
 msgid ""
@@ -1746,7 +1742,7 @@ msgstr ""
 
 #: src/components/Error.jsx:232
 msgid "You can generate the API key for your Bugzilla account $0."
-msgstr ""
+msgstr "Du kan lage API-nøkkelen for Bugzilla-kontoen din $0."
 
 #: src/components/users/Accounts.jsx:527
 msgid ""
@@ -1835,7 +1831,7 @@ msgstr "krymp til $0"
 
 #: src/components/review/Hostname.jsx:154
 msgid "transient, will use DHCP"
-msgstr ""
+msgstr "midlertidig, vil bruke DHCP"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:375
 msgid "undo"
