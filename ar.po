@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-23 07:56+0000\n"
-"PO-Revision-Date: 2026-08-14 04:27+0000\n"
+"PO-Revision-Date: 2026-10-24 07:36+0000\n"
 "Last-Translator: joo es <jonnyse@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/anaconda-"
 "webui/anaconda-webui/ar/>\n"
@@ -43,7 +43,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 2026.8.1\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:143
 #: src/components/storage/installation-method/InstallationDestination.jsx:276
@@ -329,10 +329,8 @@ msgid "Closest mirror"
 msgstr "المرآة الأقرب"
 
 #: src/components/source/InstallationSource.jsx:286
-#, fuzzy
-#| msgid "Closest mirror"
 msgid "Closest public mirror"
-msgstr "المرآة الأقرب"
+msgstr "المرآة العامة الأقرب"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
@@ -368,16 +366,12 @@ msgid "Configure storage again"
 msgstr "اضبط التخزين مرة أخرى"
 
 #: src/components/source/InstallationSource.jsx:140
-#, fuzzy
-#| msgid "Configuring installed system"
 msgid "Configuring installation source"
-msgstr "يجري إعداد النظام المثبّت"
+msgstr "تضبيط مصدر التثبيت"
 
 #: src/components/source/InstallationSource.jsx:141
-#, fuzzy
-#| msgid "Setting up installation source..."
 msgid "Configuring installation source..."
-msgstr "يجري إعداد مصدر التثبيت..."
+msgstr "يضبط مصدر التثبيت..."
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -529,8 +523,6 @@ msgid "Extended partition"
 msgstr "قسم ممتد"
 
 #: src/components/source/InstallationSource.jsx:222
-#, fuzzy
-#| msgid "Failed to set up installation source"
 msgid "Failed to configure installation source"
 msgstr "فشل في ضبط مصدر التثبيت"
 
@@ -682,10 +674,8 @@ msgid "Install"
 msgstr "ثبِّت"
 
 #: src/components/app.jsx:40
-#, fuzzy
-#| msgid "Installation method"
 msgid "Installation completed"
-msgstr "طريقة التثبيت"
+msgstr "اكتمل التثبيت"
 
 #: src/components/installation/InstallationProgress.jsx:219
 #: src/components/Error.jsx:849
@@ -826,7 +816,7 @@ msgstr "الحد الأدنى المطلوب هو $0"
 
 #: src/components/source/InstallationSource.jsx:48
 msgid "Mirrorlist"
-msgstr ""
+msgstr "قائمة المرآة"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
 msgid "Mismatch between parent device and child device reformat selection."
@@ -1034,11 +1024,8 @@ msgid "Proceed with installation"
 msgstr "واصِل التثبيت"
 
 #: src/components/source/InstallationSource.jsx:182
-#, fuzzy
-#| msgctxt "GUI|Network|Proxy"
-#| msgid "_FTP Proxy"
 msgid "Proxy"
-msgstr "_ملقم FTP"
+msgstr "وسيط"
 
 #: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1253,15 +1240,15 @@ msgstr "عُيِّن كلمة سر الجذر."
 
 #: src/components/source/InstallationSource.jsx:188
 msgid "SSL CA certificate"
-msgstr ""
+msgstr "شهادة SSL CA"
 
 #: src/components/source/InstallationSource.jsx:189
 msgid "SSL client certificate"
-msgstr ""
+msgstr "شهادة عميل SSL"
 
 #: src/components/source/InstallationSource.jsx:185
 msgid "SSL verification"
-msgstr ""
+msgstr "تحقق SSL"
 
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
@@ -1342,6 +1329,8 @@ msgid ""
 "Set by the kickstart file. Remove source selection from kickstart to be able "
 "to configure interactively."
 msgstr ""
+"يتم تعيينه بواسطة ملف kickstart. أزِل تحديد المصدر من ملف kickstart حتى تتمكن "
+"من إجراء التهيئة تفاعليًّا."
 
 #: src/components/review/Hostname.jsx:87
 msgid "Set custom hostname"
@@ -1533,6 +1522,8 @@ msgid ""
 "The keyboard layout has changed since the disk encryption passphrase was "
 "set. Please re-enter the passphrase."
 msgstr ""
+"لقد تغير تخطيط لوحة المفاتيح منذ تعيين عبارة مرور تشفير القرص. يُرجى إعادة "
+"إدخال عبارة المرور."
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:35
 msgid ""
@@ -1621,15 +1612,12 @@ msgid "Type"
 msgstr "النوع"
 
 #: src/components/source/InstallationSource.jsx:263
-#, fuzzy
-#| msgctxt "GUI|Software Source"
-#| msgid "_URL:"
 msgid "URL"
-msgstr "_عنوان ‏URL:"
+msgstr "‏URL"
 
 #: src/components/source/InstallationSource.jsx:293
 msgid "URL type"
-msgstr ""
+msgstr "نوع ‏URL"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1738,7 +1726,7 @@ msgstr "لا يمكن تغيير حجم أقسام Windows المزودة بتع
 
 #: src/components/app.jsx:41
 msgid "You can close this browser window now."
-msgstr ""
+msgstr "يمكنك إغلاق نافذة المتصفح هذه الآن."
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:83
 msgid ""
@@ -1835,7 +1823,7 @@ msgstr "قلّص إلى $0"
 
 #: src/components/review/Hostname.jsx:154
 msgid "transient, will use DHCP"
-msgstr ""
+msgstr "مؤقت، سيستخدم DHCP"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:375
 msgid "undo"
