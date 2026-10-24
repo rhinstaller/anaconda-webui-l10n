@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-23 07:56+0000\n"
+"POT-Creation-Date: 2026-10-24 07:36+0000\n"
 "PO-Revision-Date: 2026-10-13 09:45+0000\n"
 "Last-Translator: A S Alam <aalam@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Punjabi <https://translate.fedoraproject.org/projects/"
@@ -202,7 +202,7 @@ msgid ""
 "Assign partitions to mount points. Useful for pre-configured custom layouts."
 msgstr "ਮਾਊਂਟ ਪੁਆਇੰਟਾਂ ਨੂੰ ਪਾਰਟੀਸ਼ਨ ਦਿਓ। ਪਹਿਲਾਂ ਹੀ ਸੰਰਚਿਤ ਕੀਤੇ ਕਸਟਮ ਲੇਆਉਂਟ ਲਈ ਫਾਇਦੇਮੰਦ ਹੈ।"
 
-#: src/components/Error.jsx:396
+#: src/components/error/BugzillaReport.jsx:335
 msgid "Automatic log file upload"
 msgstr "ਆਪਣੇ-ਆਪ ਲਾਗ ਫ਼ਾਇਲ ਨੂੰ ਅੱਪਲੋਡ ਕਰੋ"
 
@@ -219,8 +219,9 @@ msgstr "ਆਪਣੇ-ਆਪ ਸਮਾਂ ਖੇਤਰ ਸੈੱਟ ਕਰੋ"
 msgid "Available free space: $0. Installation requires: $1."
 msgstr "ਮੌਜੂਦ ਖ਼ਾਲੀ ਥਾਂ: $0। ਇੰਸਟਾਲੇਸ਼ਨ ਲਈ ਚਾਹੀਦੀ ਥਾਂ: $1।"
 
-#: src/components/Error.jsx:668 src/components/Error.jsx:693
 #: src/components/AnacondaWizardFooter.jsx:62
+#: src/components/error/BugzillaReport.jsx:599
+#: src/components/error/BugzillaReport.jsx:624
 msgid "Back"
 msgstr "ਪਿੱਛੇ"
 
@@ -228,15 +229,20 @@ msgstr "ਪਿੱਛੇ"
 msgid "Base environment"
 msgstr "ਬੇਸ ਇੰਵਾਇਰਨਮੈਂਟ"
 
-#: src/components/Error.jsx:367
+#: src/components/error/BugzillaReport.jsx:306
 msgid "Brief description of the issue"
 msgstr "ਮਸਲੇ ਬਾਰੇ ਸੰਖੇਪ ਜਾਣਕਾਰੀ"
 
-#: src/components/Error.jsx:356
+#: src/components/error/BugzillaReport.jsx:295
 msgid "Bug report details"
 msgstr "ਬੱਗ ਰਿਪੋਰਟ ਦੇ ਵੇਰਵੇ"
 
-#: src/components/Error.jsx:206
+#: src/components/error/GenericReport.jsx:31
+#: src/components/error/GenericReport.jsx:76
+msgid "Bug reporting is not configured for this distribution."
+msgstr ""
+
+#: src/components/error/BugzillaReport.jsx:187
 msgid "Bugzilla API key"
 msgstr ""
 
@@ -255,8 +261,8 @@ msgstr ""
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:375
-#: src/components/Error.jsx:861 src/components/localization/Keyboard.jsx:282
-#: src/components/review/Hostname.jsx:127
+#: src/components/localization/Keyboard.jsx:282
+#: src/components/error/Error.jsx:163 src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "ਰੱਦ ਕਰੋ"
 
@@ -430,7 +436,7 @@ msgstr "ਪਾਰਟੀਸ਼ਨ ਨੂੰ ਹਟਾਓ"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "ਕੁਝ ਪਾਰਟੀਸ਼ਨ ਹਟਾਉਣ ਨਾਲ $0 ਨੂੰ ਬੂਟ ਕਰਨ ਤੋਂ ਰੋਕ ਲੱਗ ਸਕਦੀ ਹੈ: $1"
 
-#: src/components/Error.jsx:262
+#: src/components/error/common.jsx:85
 msgid "Description"
 msgstr "ਵੇਰਵਾ"
 
@@ -442,7 +448,7 @@ msgstr "ਟਿਕਾਣਾ"
 msgid "Destination is encrypted"
 msgstr "ਟਿਕਾਣਾ ਇੰਕ੍ਰਿਪਟ ਕੀਤਾ ਹੋਇਆ ਹੈ"
 
-#: src/components/Error.jsx:267
+#: src/components/error/common.jsx:90
 msgid "Detailed description of the issue"
 msgstr "ਮਸਲੇ ਬਾਰੇ ਵੇਰਵੇ ਸਮੇਤ ਜਾਣਕਾਰੀ"
 
@@ -491,13 +497,13 @@ msgstr ""
 msgid "Enter PIN to access the installer"
 msgstr ""
 
-#: src/components/Error.jsx:203
+#: src/components/error/BugzillaReport.jsx:184
 msgid ""
 "Enter your Bugzilla API key to create a bug report. You will be able to "
 "review and edit the bug details in the next step."
 msgstr ""
 
-#: src/components/Error.jsx:279
+#: src/components/error/common.jsx:103
 msgid "Environment"
 msgstr "ਇੰਨਵਾਇਰਨਮੈਂਟ"
 
@@ -505,7 +511,7 @@ msgstr "ਇੰਨਵਾਇਰਨਮੈਂਟ"
 msgid "Erase data and install"
 msgstr "ਡਾਟੇ ਨੂੰ ਮਿਟਾਓ ਅਤੇ ਇੰਸਟਾਲ ਕਰੋ"
 
-#: src/components/Error.jsx:818
+#: src/components/error/common.jsx:50
 msgid "Error details"
 msgstr "ਗਲਤੀ ਦੇ ਵੇਰਵੇ"
 
@@ -524,7 +530,7 @@ msgstr "ਐਕਸਟੈਂਡਡ ਪਾਰਟੀਸ਼ਨ"
 msgid "Failed to configure installation source"
 msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਸਰੋਤ ਸੈੱਟ ਕਰਨ ਵਿੱਚ ਅਸਫਲ"
 
-#: src/components/Error.jsx:642
+#: src/components/error/BugzillaReport.jsx:573
 msgid "Failed to report issue"
 msgstr "ਮਸਲੇ ਬਾਰੇ ਰਿਪੋਰਟ ਭੇਜਣ ਲਈ ਅਸਫ਼ਲ"
 
@@ -571,7 +577,7 @@ msgstr "ਫਾਇਲ ਨਾਂ ਵਿੱਚ ਕਾਲਨ ਅੱਖਰ ਨਹੀ�
 msgid "Helper text"
 msgstr "ਸਹਾਇਕ ਲਿਖਤ"
 
-#: src/components/Error.jsx:223
+#: src/components/error/BugzillaReport.jsx:204
 msgid "Hide API key"
 msgstr "API ਕੁੰਜੀ ਨੂੰ ਲੁਕਾਓ"
 
@@ -579,7 +585,7 @@ msgstr "API ਕੁੰਜੀ ਨੂੰ ਲੁਕਾਓ"
 msgid "Hide PIN"
 msgstr "ਪਿੰਨ ਨੂੰ ਲੁਕਾਓ"
 
-#: src/components/Password.jsx:276
+#: src/components/Password.jsx:260
 msgid "Hide confirmed password"
 msgstr "ਤਸਦੀਕ ਕੀਤੇ ਪਾਸਵਰਡ ਨੂੰ ਲੁਕਾਓ"
 
@@ -587,7 +593,7 @@ msgstr "ਤਸਦੀਕ ਕੀਤੇ ਪਾਸਵਰਡ ਨੂੰ ਲੁਕਾ�
 msgid "Hide passphrase"
 msgstr "ਵਾਕ ਨੂੰ ਓਹਲੇ ਕਰੋ"
 
-#: src/components/Password.jsx:240
+#: src/components/Password.jsx:224
 msgid "Hide password"
 msgstr "ਪਾਸਵਰਡ ਨੂੰ ਲੁਕਾਓ"
 
@@ -628,7 +634,7 @@ msgstr ""
 msgid "If you are configuring partitions the following are required:"
 msgstr "ਜੇ ਤੁਸੀਂ ਪਾਰਟੀਸ਼ੇਨਾਂ ਦੀ ਸੰਰਚਨਾ ਕਰ ਰਹੇ ਹੋ ਤਾਂ ਅੱਗੇ ਦਿੱਤੇ ਚਾਹੀਦੇ ਹਨ:"
 
-#: src/components/Error.jsx:411
+#: src/components/error/BugzillaReport.jsx:350
 msgid ""
 "If you do not consent to automatic log file upload, you can $0 instead. "
 "Manual reporting allows you to review and selectively attach log files "
@@ -640,7 +646,7 @@ msgid ""
 "If you do not understand or accept the risks, then please exit this program."
 msgstr "ਜੇ ਤੁਸੀਂ ਖ਼ਤਰਿਆਂ ਨੂੰ ਸਮਝਦੇ ਜਾਂ ਮਨਜ਼ੂਰ ਨਹੀਂ ਕਰਦੇ ਤਾਂ ਇਸ ਪਰੋਗਰਾਮ ਨੂੰ ਬੰਦ ਕਰੋ ਜੀ।"
 
-#: src/components/Error.jsx:328
+#: src/components/error/BugzillaReport.jsx:267
 msgid ""
 "If your issue matches one of the bugs above, you can open it and add your "
 "information there instead of creating a duplicate report."
@@ -665,7 +671,7 @@ msgid "Installation completed"
 msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਪੂਰੀ ਹੋਈ"
 
 #: src/components/installation/InstallationProgress.jsx:219
-#: src/components/Error.jsx:849
+#: src/components/error/Error.jsx:151
 msgid "Installation failed"
 msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਅਸਫ਼ਲ ਹੈ"
 
@@ -744,7 +750,7 @@ msgstr "ਭਾਸ਼ਾ"
 msgid "Launch storage editor"
 msgstr "ਸਟੋਰੇਜ਼ ਐਡੀਟਰ ਨੂੰ ਚਲਾਓ"
 
-#: src/components/Error.jsx:387
+#: src/components/error/BugzillaReport.jsx:326
 msgid "Learn more about restricted access in the configuration"
 msgstr "ਸੰਰਚਨਾ ਵਿੱਚ ਸੀਮਿਤ ਪਹੁੰਚ ਬਾਰੇ ਹੋਰ ਜਾਣੋ"
 
@@ -829,7 +835,7 @@ msgstr "ਉੱਤੇ ਭੇਜੋ"
 msgid "Must be at least $0 characters"
 msgstr "ਘੱਟੋ-ਘੱਟ $0 ਅੱਖਰਾਂ ਦਾ ਹੋਣਾ ਜ਼ਰੂਰੀ ਹੈ"
 
-#: src/components/Error.jsx:676
+#: src/components/error/BugzillaReport.jsx:607
 msgid "My issue is different, continue"
 msgstr ""
 
@@ -858,14 +864,14 @@ msgstr "ਨੈੱਟਵਰਕ"
 msgid "Network Configuration"
 msgstr "ਨੈੱਟਵਰਕ ਦੀ ਸੰਰਚਨਾ"
 
-#: src/components/Error.jsx:726
+#: src/components/error/Error.jsx:59
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
 "the issue."
 msgstr ""
 "ਨੈੱਟਵਰਕ ਮੌਜੂਦ ਨਹੀਂ ਹੈ। ਮਸਲੇ ਬਾਰੇ ਜਾਣਕਾਰੀ ਦੇਣ ਲਈ ਉੱਪਰੀ ਪੱਟੀ ਮੇਨੂ ਵਿੱਚ ਨੈੱਟਵਰਕ ਦੀ ਸੰਰਚਨਾ ਕਰੋ।"
 
-#: src/components/Error.jsx:727
+#: src/components/error/Error.jsx:60
 msgid "Network not available. Configure the network to report the issue."
 msgstr "ਨੈੱਟਵਰਕ ਮੌਜੂਦ ਨਹੀਂ ਹੈ। ਮਸਲੇ ਬਾਰੇ ਜਾਣਕਾਰੀ ਦੇਣ ਲਈ ਨੈੱਟਵਰਕ ਦੀ ਸੰਰਚਨਾ ਕਰੋ।"
 
@@ -873,7 +879,8 @@ msgstr "ਨੈੱਟਵਰਕ ਮੌਜੂਦ ਨਹੀਂ ਹੈ। ਮਸਲ�
 msgid "Network plugin failed"
 msgstr "ਨੈੱਟਵਰਕ ਪਲੱਗਇਨ ਅਸਫ਼ਲ ਹੈ"
 
-#: src/components/Error.jsx:658 src/components/AnacondaWizardFooter.jsx:71
+#: src/components/AnacondaWizardFooter.jsx:71
+#: src/components/error/BugzillaReport.jsx:589
 msgid "Next"
 msgstr "ਅੱਗੇ"
 
@@ -929,7 +936,7 @@ msgstr ""
 "ਸੂਚਨਾ: ਇਹ ਅਧੂਰਾ ਜਾਰੀ ਕੀਤਾ ਸਾਫਟਵੇਅਰ ਸਿਰਫ਼ ਵਿਕਾਸ ਅਤੇ ਟੈਸਟ ਦੇ ਮਕਸਦ ਲਈ ਹੀ ਜਾਰੀ ਕੀਤਾ ਗਿਆ "
 "ਹੈ। ਇਸ ਸਾਫਟਵੇਅਰ ਨੂੰ ਪ੍ਰੋਡੱਕਸ਼ਨ ਮਾਹੌਲ ਵਿੱਚ ਕਿਸੇ ਵੀ ਗੰਭੀਰ ਕੰਮ ਲਈ ਕਦੇ ਨਾ ਵਰਤੋਂ।"
 
-#: src/components/Error.jsx:181
+#: src/components/error/BugzillaReport.jsx:162
 msgid "Open Bugzilla bug entry form"
 msgstr ""
 
@@ -960,7 +967,7 @@ msgstr "ਵਾਕ"
 msgid "Passphrase did not match any locked device"
 msgstr "ਵਾਕ ਕਿਸੇ ਵੀ ਲਾਕ ਕੀਤੇ ਡਿਵਾਈਸ ਲਈ ਮਿਲਦਾ ਨਹੀਂ ਸੀ"
 
-#: src/components/Password.jsx:289
+#: src/components/Password.jsx:273
 msgid "Passphrases must match"
 msgstr "ਵਾਕ ਮਿਲਦੇ ਹੋਣੇ ਚਾਹੀਦੇ ਹਣ"
 
@@ -968,7 +975,7 @@ msgstr "ਵਾਕ ਮਿਲਦੇ ਹੋਣੇ ਚਾਹੀਦੇ ਹਣ"
 msgid "Pending"
 msgstr "ਬਾਕੀ"
 
-#: src/components/Error.jsx:94
+#: src/components/error/BugzillaReport.jsx:88
 msgid "Please attach the log file $0 to the issue."
 msgstr "ਮਸਲੇ ਲਈ $0 ਲਾਗ ਫਾਇਲ ਨੱਥੀ ਕਰੋ।"
 
@@ -978,6 +985,12 @@ msgstr "ਮਸਲੇ ਲਈ $0 ਲਾਗ ਫਾਇਲ ਨੱਥੀ ਕਰੋ।"
 msgid "Please enter a PIN"
 msgstr "ਠੀਕ ਨਾਂ ਦਿਉ ਜੀ।"
 
+#: src/components/error/GenericReport.jsx:67
+#, fuzzy
+#| msgid "report the issue manually"
+msgid "Please report this issue at $0."
+msgstr "ਮਸਲੇ ਬਾਰੇ ਖੁਦ ਰਿਪੋਰਟ ਦਿਓ"
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:322
 msgid "Please select at least one disk to continue"
 msgstr "ਜਾਰੀ ਰੱਖਣ ਲਈ ਘੱਟੋ-ਘੱਟ ਇੱਕ ਡਿਸਕ ਨੂੰ ਚੁਣੋ"
@@ -986,7 +999,7 @@ msgstr "ਜਾਰੀ ਰੱਖਣ ਲਈ ਘੱਟੋ-ਘੱਟ ਇੱਕ ਡਿ
 msgid "Pool"
 msgstr "ਪੂਲ"
 
-#: src/components/Error.jsx:296
+#: src/components/error/BugzillaReport.jsx:235
 #, fuzzy
 #| msgid "No mountable devices found"
 msgid "Potential duplicate bugs found"
@@ -1000,7 +1013,7 @@ msgstr "ਐਨਾਕਾਂਡਾ ਰਾਹੀਂ ਸਹਾਇਕ"
 msgid "Pre-release"
 msgstr "ਪ੍ਰੀ-ਰੀਲਿਜ਼"
 
-#: src/components/Error.jsx:179
+#: src/components/error/BugzillaReport.jsx:160
 msgid "Prefer to report manually? $0"
 msgstr "ਖੁਦ ਰਿਪੋਰਟ ਕਰਨਾ ਚਾਹੋਗੇ? $0"
 
@@ -1012,8 +1025,9 @@ msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਜਾਰੀ ਰੱਖੋ"
 msgid "Proxy"
 msgstr ""
 
-#: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
+#: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
+#: src/components/error/Error.jsx:140
 msgid "Quit"
 msgstr "ਬੰਦ ਕਰੋ"
 
@@ -1049,8 +1063,9 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "ਅਸਲ ਹੋਸਟ ਨਾਂ ਦੀ ਲੰਬਾਈ 64 ਜਾਂ ਘੱਟ ਅੱਖਰ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ।"
 
 #: src/components/installation/InstallationProgress.jsx:248
-#: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
+#: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
+#: src/components/error/Error.jsx:140
 msgid "Reboot"
 msgstr "ਮੁੜ-ਚਾਲੂ"
 
@@ -1140,17 +1155,22 @@ msgstr "ਮੌਜੂਦਾ ਇੰਸਟਾਲੇਸ਼ਨ ਨੂੰ ਬਦਲ ਦ�
 msgid "Report Issue"
 msgstr "ਮਸਲੇ ਬਾਰੇ ਜਾਣਕਾਰੀ"
 
-#: src/components/Error.jsx:160
+#: src/components/error/GenericReport.jsx:39
+msgid "Report an issue or provide feedback at $0."
+msgstr ""
+
+#: src/components/error/BugzillaReport.jsx:141
 msgid ""
 "Report an issue or provide feedback by opening the Bugzilla bug entry form "
 "$0."
 msgstr ""
 
-#: src/components/Error.jsx:703 src/components/Error.jsx:870
+#: src/components/error/BugzillaReport.jsx:634
+#: src/components/error/Error.jsx:172
 msgid "Report issue"
 msgstr "ਮਸਲੇ ਬਾਰ ਜਾਣਕਾਰੀ"
 
-#: src/components/Error.jsx:703
+#: src/components/error/BugzillaReport.jsx:634
 msgid "Reporting issue..."
 msgstr "...ਮਸਲੇ ਬਾਰੇ ਜਾਣਕਾਰੀ ਭੇਜੀ ਜਾ ਰਹੀ ਹੈ"
 
@@ -1188,11 +1208,11 @@ msgstr "ਪਾਰਟੀਸ਼ਨ ਦਾ ਆਕਾਰ ਬਦਲੋ"
 msgid "Resizing the following partitions from $0: $1"
 msgstr "$0 ਤੋਂ ਅੱਗੇ ਦਿੱਤੇ ਪਾਰਟੀਸ਼ਨ ਦਾ ਆਕਾਰ ਬਦਲਿਆ ਜਾ ਰਿਹਾ ਹੈ: $1"
 
-#: src/components/Error.jsx:381
+#: src/components/error/BugzillaReport.jsx:320
 msgid "Restrict access to the report"
 msgstr ""
 
-#: src/components/Error.jsx:383
+#: src/components/error/BugzillaReport.jsx:322
 msgid "Restricts the report to the $0 group. $1"
 msgstr ""
 
@@ -1332,7 +1352,7 @@ msgstr "ਹੋਰ ਓਪਰੇਟਿੰਗ ਸਿਸਟਮਾਂ ਨਾਲ ਡ�
 msgid "Show AM/PM"
 msgstr "ਸਵੇਰ/ਸ਼ਾਮ ਵੇਖਾਓ"
 
-#: src/components/Error.jsx:223
+#: src/components/error/BugzillaReport.jsx:204
 msgid "Show API key"
 msgstr "API ਕੁੰਜੀ ਵੇਖਾਓ"
 
@@ -1340,7 +1360,7 @@ msgstr "API ਕੁੰਜੀ ਵੇਖਾਓ"
 msgid "Show PIN"
 msgstr "ਪਿੰਨ ਨੂੰ ਵੇਖਾਓ"
 
-#: src/components/Password.jsx:276
+#: src/components/Password.jsx:260
 msgid "Show confirmed password"
 msgstr "ਤਸਦੀਕ ਕੀਤਾ ਪਾਸਵਰਡ ਵੇਖਾਓ"
 
@@ -1348,7 +1368,7 @@ msgstr "ਤਸਦੀਕ ਕੀਤਾ ਪਾਸਵਰਡ ਵੇਖਾਓ"
 msgid "Show passphrase"
 msgstr "ਵਾਕ ਨੂੰ ਵੇਖਾਓ"
 
-#: src/components/Password.jsx:240
+#: src/components/Password.jsx:224
 msgid "Show password"
 msgstr "ਪਾਸਵਰਡ ਨੂੰ ਵੇਖਾਓ"
 
@@ -1386,7 +1406,7 @@ msgstr "ਕੁਝ ਚਾਹੀਦੇ ਪਾਰਟੀਸ਼ਨ ਮੌਜੂਦ ਨ�
 msgid "Space"
 msgstr "ਥਾਂ"
 
-#: src/components/Error.jsx:273
+#: src/components/error/common.jsx:97
 msgid "Stacktrace"
 msgstr ""
 
@@ -1465,7 +1485,7 @@ msgstr "ਸਿਸਟਮ ਸੰਰਚਨ: ਸਾਫਟਵੇਅਰ ਇੰਸਟ�
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "ਐਨਾਕਾਂਡਾ ਇੰਸਟਾਲੇਸ਼ਨ ਅਚਾਨਕ ਰੁਕ ਚੁੱਕੀ ਹੈ।"
 
-#: src/components/Error.jsx:301
+#: src/components/error/BugzillaReport.jsx:240
 msgid ""
 "The following open bugs may be related to your issue. Please review them "
 "before creating a new report."
@@ -1483,11 +1503,11 @@ msgid ""
 "selected disks is only $1."
 msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਲਈ $0 ਡਿਸਕ ਥਾਂ ਚਾਹੀਦੀ ਹੈ; ਪਰ ਚੁਣੀ ਗਈ ਡਿਸਕ ਦੀ ਸਮਰੱਥਾ ਸਿਰਫ਼ $1 ਹੀ ਹੈ।"
 
-#: src/components/Error.jsx:778
+#: src/components/error/Error.jsx:107
 msgid "The installer cannot continue due to a critical error."
 msgstr "ਇੰਸਟਾਲਰ ਗੰਭੀਰ ਗਲਤੀ ਕਰਕੇ ਜਾਰੀ ਨਹੀਂ ਰਹਿ ਸਕਦਾ ਹੈ।"
 
-#: src/components/Error.jsx:777
+#: src/components/error/Error.jsx:106
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "ਇੰਸਟਾਲਰ ਗੰਭੀਰ ਗਲਤੀ ਕਰਕੇ ਜਾਰੀ ਨਹੀਂ ਰਹਿ ਸਕਦਾ ਹੈ: $0"
 
@@ -1523,7 +1543,7 @@ msgstr ""
 "ਸੈਟਅੱਪ ਅਤੇ ਕਈ ਕੁਝ ਕਰ ਸਕਦਾ ਹੈ। ਇਸ ਨੂੰ ਤਕਨੀਕੀ ਸਹੂਲਤ ਵਜੋਂ ਵਰਤਿਆ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ ਅਤੇ ਆਮ "
 "ਇੰਸਟਾਲੇਸ਼ਨ ਲਈ ਵਰਤਣ ਵਾਸਤੇ ਨਹੀਂ ਹੈ।"
 
-#: src/components/Error.jsx:407
+#: src/components/error/BugzillaReport.jsx:346
 msgid ""
 "These log files may contain sensitive information such as IP addresses, "
 "usernames, or other system details."
@@ -1560,7 +1580,7 @@ msgstr "ਸਮਾਂ"
 msgid "Timezone"
 msgstr "ਸਮਾਂ-ਖੇਤਰ:"
 
-#: src/components/Error.jsx:359
+#: src/components/error/BugzillaReport.jsx:298
 msgid "Title"
 msgstr "ਟਾਈਟਲ"
 
@@ -1667,7 +1687,7 @@ msgstr "ਵਰਤੋਂਕਾਰ ਨਾਂ ਰਾਖਵਾਂ ਸ਼ਬਦ ਨਹ�
 msgid "User names must be shorter than 33 characters"
 msgstr "ਵਰਤੋਂਕਾਰ ਨਾਂ ਵਿੱਚ 33 ਤੋਂ ਘੱਟ ਅੱਖਰ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ"
 
-#: src/components/Error.jsx:658
+#: src/components/error/BugzillaReport.jsx:589
 msgid "Validating..."
 msgstr "...ਜਾਂਚ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ"
 
@@ -1687,7 +1707,7 @@ msgstr "ਫੇਡੋਰਾ ਲੀਨਕਸ ਵਲੋਂ ਜੀ ਆਇਆਂ ਨ�
 msgid "Welcome. Let's install $0 now."
 msgstr "ਜੀ ਆਇਆਂ ਨੂੰ। ਆਓ ਫੇਰ $0 ਇੰਸਟਾਲ ਕਰੀਏ।"
 
-#: src/components/Error.jsx:402
+#: src/components/error/BugzillaReport.jsx:341
 msgid ""
 "When you submit this bug report, the following log files will be uploaded "
 "automatically: $0"
@@ -1709,7 +1729,7 @@ msgstr ""
 "ਜਾਂ ਤਾਂ ਤੁਸੀਂ ਇੱਥੇ ਲੋੜੀਂਦੀ ਥਾਂ ਖਾਲੀ ਕਰ ਸਕਦੇ ਹੋ ਤੇ ਇੰਸਟਾਲਰ ਬਾਕੀ ਕੰਮ ਕਰ ਲਵੇਗਾ ਜਾਂ ਖੁਦ ਪਾਰਟੀਸ਼ਨ "
 "ਸੈਟ-ਅੱਪ ਕਰੋ।"
 
-#: src/components/Error.jsx:232
+#: src/components/error/BugzillaReport.jsx:213
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr ""
 
@@ -1761,7 +1781,8 @@ msgstr "ਐਕਸਟੈਂਡਡ ਪਾਰਟੀਸ਼ਨ"
 msgid "format as $0"
 msgstr "$0 ਵਜੋਂ ਫਾਰਮੈਟ ਕਰੋ"
 
-#: src/components/Error.jsx:162 src/components/Error.jsx:235
+#: src/components/error/BugzillaReport.jsx:143
+#: src/components/error/BugzillaReport.jsx:216
 msgid "here"
 msgstr "ਇੱਥੇ"
 
@@ -1777,7 +1798,7 @@ msgstr "ਮਾਊਂਟ"
 msgid "pending step"
 msgstr "ਬਾਕੀ ਪੜਾਅ"
 
-#: src/components/Error.jsx:413
+#: src/components/error/BugzillaReport.jsx:352
 msgid "report the issue manually"
 msgstr "ਮਸਲੇ ਬਾਰੇ ਖੁਦ ਰਿਪੋਰਟ ਦਿਓ"
 

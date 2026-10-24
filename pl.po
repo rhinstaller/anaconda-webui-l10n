@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-23 07:56+0000\n"
+"POT-Creation-Date: 2026-10-24 07:36+0000\n"
 "PO-Revision-Date: 2026-10-20 08:44+0000\n"
 "Last-Translator: Nik Nikovsky <zejdzztegomaila@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/anaconda-"
@@ -211,7 +211,7 @@ msgstr ""
 "Przydziela partycje do punktów montowania. Przydatne dla wstępnie "
 "skonfigurowanych niestandardowych układów."
 
-#: src/components/Error.jsx:396
+#: src/components/error/BugzillaReport.jsx:335
 msgid "Automatic log file upload"
 msgstr "Automatyczne wysyłanie pliku dziennika"
 
@@ -228,8 +228,9 @@ msgstr "Automatyczne ustawianie strefy czasowej"
 msgid "Available free space: $0. Installation requires: $1."
 msgstr "Dostępne wolne miejsce: $0. Instalacja wymaga: $1."
 
-#: src/components/Error.jsx:668 src/components/Error.jsx:693
 #: src/components/AnacondaWizardFooter.jsx:62
+#: src/components/error/BugzillaReport.jsx:599
+#: src/components/error/BugzillaReport.jsx:624
 msgid "Back"
 msgstr "Wstecz"
 
@@ -237,15 +238,20 @@ msgstr "Wstecz"
 msgid "Base environment"
 msgstr "Podstawowe środowisko"
 
-#: src/components/Error.jsx:367
+#: src/components/error/BugzillaReport.jsx:306
 msgid "Brief description of the issue"
 msgstr "Krótki opis błędu (w języku angielskim)"
 
-#: src/components/Error.jsx:356
+#: src/components/error/BugzillaReport.jsx:295
 msgid "Bug report details"
 msgstr "Informacje o zgłoszeniu błędu"
 
-#: src/components/Error.jsx:206
+#: src/components/error/GenericReport.jsx:31
+#: src/components/error/GenericReport.jsx:76
+msgid "Bug reporting is not configured for this distribution."
+msgstr ""
+
+#: src/components/error/BugzillaReport.jsx:187
 msgid "Bugzilla API key"
 msgstr "Klucz API serwisu Bugzilla"
 
@@ -265,8 +271,8 @@ msgstr ""
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:375
-#: src/components/Error.jsx:861 src/components/localization/Keyboard.jsx:282
-#: src/components/review/Hostname.jsx:127
+#: src/components/localization/Keyboard.jsx:282
+#: src/components/error/Error.jsx:163 src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "Anuluj"
 
@@ -445,7 +451,7 @@ msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 "Usunięcie pewnych partycji może uniemożliwić uruchomienie systemu $0: $1"
 
-#: src/components/Error.jsx:262
+#: src/components/error/common.jsx:85
 msgid "Description"
 msgstr "Opis"
 
@@ -457,7 +463,7 @@ msgstr "Miejsce docelowe"
 msgid "Destination is encrypted"
 msgstr "Miejsce docelowe jest zaszyfrowane"
 
-#: src/components/Error.jsx:267
+#: src/components/error/common.jsx:90
 msgid "Detailed description of the issue"
 msgstr "Szczegółowy opis błędu (w języku angielskim)"
 
@@ -506,7 +512,7 @@ msgstr "Wprowadź PIN"
 msgid "Enter PIN to access the installer"
 msgstr "Wprowadź PIN żeby uzyskać dostęp do instalatora"
 
-#: src/components/Error.jsx:203
+#: src/components/error/BugzillaReport.jsx:184
 msgid ""
 "Enter your Bugzilla API key to create a bug report. You will be able to "
 "review and edit the bug details in the next step."
@@ -514,7 +520,7 @@ msgstr ""
 "Proszę podać klucz API serwisu Bugzilla, aby utworzyć zgłoszenie błędu. "
 "W następnym kroku będzie można przejrzeć i zmodyfikować informacje o błędzie."
 
-#: src/components/Error.jsx:279
+#: src/components/error/common.jsx:103
 msgid "Environment"
 msgstr "Środowisko"
 
@@ -522,7 +528,7 @@ msgstr "Środowisko"
 msgid "Erase data and install"
 msgstr "Usuń dane i zainstaluj"
 
-#: src/components/Error.jsx:818
+#: src/components/error/common.jsx:50
 msgid "Error details"
 msgstr "Informacje o błędzie"
 
@@ -541,7 +547,7 @@ msgstr "Partycja rozszerzona"
 msgid "Failed to configure installation source"
 msgstr "Ustawienie źródła instalacji się nie powiodło"
 
-#: src/components/Error.jsx:642
+#: src/components/error/BugzillaReport.jsx:573
 msgid "Failed to report issue"
 msgstr "Zgłoszenie błędu się nie powiodło"
 
@@ -590,7 +596,7 @@ msgstr "Imię i nazwisko nie mogą zawierać dwukropków"
 msgid "Helper text"
 msgstr "Tekst pomocniczy"
 
-#: src/components/Error.jsx:223
+#: src/components/error/BugzillaReport.jsx:204
 msgid "Hide API key"
 msgstr "Ukryj klucz API"
 
@@ -598,7 +604,7 @@ msgstr "Ukryj klucz API"
 msgid "Hide PIN"
 msgstr "Ukryj PIN"
 
-#: src/components/Password.jsx:276
+#: src/components/Password.jsx:260
 msgid "Hide confirmed password"
 msgstr "Ukryj potwierdzone hasło"
 
@@ -606,7 +612,7 @@ msgstr "Ukryj potwierdzone hasło"
 msgid "Hide passphrase"
 msgstr "Ukryj hasło"
 
-#: src/components/Password.jsx:240
+#: src/components/Password.jsx:224
 msgid "Hide password"
 msgstr "Ukryj hasło"
 
@@ -654,7 +660,7 @@ msgstr ""
 msgid "If you are configuring partitions the following are required:"
 msgstr "W przypadku konfigurowania partycji wymagane są następujące elementy:"
 
-#: src/components/Error.jsx:411
+#: src/components/error/BugzillaReport.jsx:350
 msgid ""
 "If you do not consent to automatic log file upload, you can $0 instead. "
 "Manual reporting allows you to review and selectively attach log files "
@@ -671,7 +677,7 @@ msgstr ""
 "Jeśli użytkownik nie rozumie lub nie akceptuje ryzyka, to proszę zakończyć "
 "ten program."
 
-#: src/components/Error.jsx:328
+#: src/components/error/BugzillaReport.jsx:267
 msgid ""
 "If your issue matches one of the bugs above, you can open it and add your "
 "information there instead of creating a duplicate report."
@@ -698,7 +704,7 @@ msgid "Installation completed"
 msgstr "Instalacja zakończona"
 
 #: src/components/installation/InstallationProgress.jsx:219
-#: src/components/Error.jsx:849
+#: src/components/error/Error.jsx:151
 msgid "Installation failed"
 msgstr "Instalacja się nie powiodła"
 
@@ -782,7 +788,7 @@ msgstr "Język"
 msgid "Launch storage editor"
 msgstr "Uruchom edytor urządzeń do przechowywania danych"
 
-#: src/components/Error.jsx:387
+#: src/components/error/BugzillaReport.jsx:326
 msgid "Learn more about restricted access in the configuration"
 msgstr "Więcej informacji o ograniczonym dostępie znajduje się w konfiguracji"
 
@@ -869,7 +875,7 @@ msgstr "Przenieś w górę"
 msgid "Must be at least $0 characters"
 msgstr "Minimalna liczba znaków: $0"
 
-#: src/components/Error.jsx:676
+#: src/components/error/BugzillaReport.jsx:607
 msgid "My issue is different, continue"
 msgstr "Mam inny problem, kontynuuj"
 
@@ -898,7 +904,7 @@ msgstr "Sieć"
 msgid "Network Configuration"
 msgstr "Konfiguracja sieci"
 
-#: src/components/Error.jsx:726
+#: src/components/error/Error.jsx:59
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
 "the issue."
@@ -906,7 +912,7 @@ msgstr ""
 "Sieć jest niedostępna. Proszę skonfigurować sieć w menu na górnym pasku, aby "
 "zgłosić problem."
 
-#: src/components/Error.jsx:727
+#: src/components/error/Error.jsx:60
 msgid "Network not available. Configure the network to report the issue."
 msgstr "Sieć jest niedostępna. Proszę skonfigurować sieć, aby zgłosić problem."
 
@@ -914,7 +920,8 @@ msgstr "Sieć jest niedostępna. Proszę skonfigurować sieć, aby zgłosić pro
 msgid "Network plugin failed"
 msgstr "Wtyczka sieci się nie powiodła"
 
-#: src/components/Error.jsx:658 src/components/AnacondaWizardFooter.jsx:71
+#: src/components/AnacondaWizardFooter.jsx:71
+#: src/components/error/BugzillaReport.jsx:589
 msgid "Next"
 msgstr "Dalej"
 
@@ -973,7 +980,7 @@ msgstr ""
 "i testowania. Nie należy używać tego oprogramowania w środowiskach "
 "produkcyjnych."
 
-#: src/components/Error.jsx:181
+#: src/components/error/BugzillaReport.jsx:162
 msgid "Open Bugzilla bug entry form"
 msgstr "Otwórz formularz zgłaszania błędu w serwisie Bugzilla"
 
@@ -1004,7 +1011,7 @@ msgstr "Hasło"
 msgid "Passphrase did not match any locked device"
 msgstr "Hasło nie pasuje do żadnego zablokowanego urządzenia"
 
-#: src/components/Password.jsx:289
+#: src/components/Password.jsx:273
 msgid "Passphrases must match"
 msgstr "Hasła muszą się zgadzać"
 
@@ -1012,13 +1019,19 @@ msgstr "Hasła muszą się zgadzać"
 msgid "Pending"
 msgstr "Nieukończone"
 
-#: src/components/Error.jsx:94
+#: src/components/error/BugzillaReport.jsx:88
 msgid "Please attach the log file $0 to the issue."
 msgstr "Proszę załączyć plik dziennika $0 w zgłoszeniu."
 
 #: src/components/login/LoginPage.jsx:44
 msgid "Please enter a PIN"
 msgstr "Proszę podać PIN"
+
+#: src/components/error/GenericReport.jsx:67
+#, fuzzy
+#| msgid "report the issue manually"
+msgid "Please report this issue at $0."
+msgstr "ręcznie zgłosić błąd"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:322
 msgid "Please select at least one disk to continue"
@@ -1028,7 +1041,7 @@ msgstr "Proszę wybrać co najmniej jeden dysk, aby kontynuować"
 msgid "Pool"
 msgstr "Pula"
 
-#: src/components/Error.jsx:296
+#: src/components/error/BugzillaReport.jsx:235
 msgid "Potential duplicate bugs found"
 msgstr "Znaleziono podobne zgłoszenia błędów"
 
@@ -1040,7 +1053,7 @@ msgstr "Używa technologii Anaconda"
 msgid "Pre-release"
 msgstr "Wydanie testowe"
 
-#: src/components/Error.jsx:179
+#: src/components/error/BugzillaReport.jsx:160
 msgid "Prefer to report manually? $0"
 msgstr "Zgłosić ręcznie? $0"
 
@@ -1055,8 +1068,9 @@ msgstr "Kontynuuj instalację"
 msgid "Proxy"
 msgstr "Pośrednik _FTP"
 
-#: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
+#: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
+#: src/components/error/Error.jsx:140
 msgid "Quit"
 msgstr "Zakończ"
 
@@ -1093,8 +1107,9 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "Prawdziwa nazwa komputera nie może mieć więcej niż 64 znaki"
 
 #: src/components/installation/InstallationProgress.jsx:248
-#: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
+#: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
+#: src/components/error/Error.jsx:140
 msgid "Reboot"
 msgstr "Uruchom ponownie"
 
@@ -1188,7 +1203,17 @@ msgstr "Zastępuje obecną instalację, ale zachowuje pliki w katalogu domowym.
 msgid "Report Issue"
 msgstr "Zgłoś błąd"
 
-#: src/components/Error.jsx:160
+#: src/components/error/GenericReport.jsx:39
+#, fuzzy
+#| msgid ""
+#| "Report an issue or provide feedback by opening the Bugzilla bug entry "
+#| "form $0."
+msgid "Report an issue or provide feedback at $0."
+msgstr ""
+"Proszę zgłosić błąd lub podzielić się opinią, otwierając formularz "
+"zgłaszania błędu w serwisie Bugzilla $0."
+
+#: src/components/error/BugzillaReport.jsx:141
 msgid ""
 "Report an issue or provide feedback by opening the Bugzilla bug entry form "
 "$0."
@@ -1196,11 +1221,12 @@ msgstr ""
 "Proszę zgłosić błąd lub podzielić się opinią, otwierając formularz "
 "zgłaszania błędu w serwisie Bugzilla $0."
 
-#: src/components/Error.jsx:703 src/components/Error.jsx:870
+#: src/components/error/BugzillaReport.jsx:634
+#: src/components/error/Error.jsx:172
 msgid "Report issue"
 msgstr "Zgłoś błąd"
 
-#: src/components/Error.jsx:703
+#: src/components/error/BugzillaReport.jsx:634
 msgid "Reporting issue..."
 msgstr "Zgłaszanie błędu…"
 
@@ -1236,11 +1262,11 @@ msgstr "Zmienia rozmiar partycji"
 msgid "Resizing the following partitions from $0: $1"
 msgstr "Zmienianie rozmiaru następujących partycji systemu $0: $1"
 
-#: src/components/Error.jsx:381
+#: src/components/error/BugzillaReport.jsx:320
 msgid "Restrict access to the report"
 msgstr "Ograniczenie dostępu do zgłoszenia"
 
-#: src/components/Error.jsx:383
+#: src/components/error/BugzillaReport.jsx:322
 msgid "Restricts the report to the $0 group. $1"
 msgstr "Ogranicza zgłoszenie do grupy $0. $1"
 
@@ -1382,7 +1408,7 @@ msgstr "Dziel dysk z innymi systemami operacyjnymi: $0"
 msgid "Show AM/PM"
 msgstr "Wyświetlanie AM/PM"
 
-#: src/components/Error.jsx:223
+#: src/components/error/BugzillaReport.jsx:204
 msgid "Show API key"
 msgstr "Wyświetl klucz API"
 
@@ -1390,7 +1416,7 @@ msgstr "Wyświetl klucz API"
 msgid "Show PIN"
 msgstr "Wyświetl PIN"
 
-#: src/components/Password.jsx:276
+#: src/components/Password.jsx:260
 msgid "Show confirmed password"
 msgstr "Wyświetl potwierdzone hasło"
 
@@ -1398,7 +1424,7 @@ msgstr "Wyświetl potwierdzone hasło"
 msgid "Show passphrase"
 msgstr "Wyświetl hasło"
 
-#: src/components/Password.jsx:240
+#: src/components/Password.jsx:224
 msgid "Show password"
 msgstr "Wyświetl hasło"
 
@@ -1436,7 +1462,7 @@ msgstr "Brakuje części wymaganych partycji: $0"
 msgid "Space"
 msgstr "Miejsce"
 
-#: src/components/Error.jsx:273
+#: src/components/error/common.jsx:97
 msgid "Stacktrace"
 msgstr "Ślad stosu"
 
@@ -1522,7 +1548,7 @@ msgstr ""
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "Instalacja Anaconda nieoczekiwanie zakończyła działanie."
 
-#: src/components/Error.jsx:301
+#: src/components/error/BugzillaReport.jsx:240
 msgid ""
 "The following open bugs may be related to your issue. Please review them "
 "before creating a new report."
@@ -1543,11 +1569,11 @@ msgid ""
 "selected disks is only $1."
 msgstr "Wymagane miejsce na dysku: $0, pojemność wybranych dysków: $1."
 
-#: src/components/Error.jsx:778
+#: src/components/error/Error.jsx:107
 msgid "The installer cannot continue due to a critical error."
 msgstr "Instalator nie może kontynuować z powodu krytycznego błędu."
 
-#: src/components/Error.jsx:777
+#: src/components/error/Error.jsx:106
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "Instalator nie może kontynuować z powodu krytycznego błędu: $0"
 
@@ -1586,7 +1612,7 @@ msgstr ""
 "przeznaczony do używania jako zaawansowane narzędzie i nie powinien być "
 "używany do typowej instalacji."
 
-#: src/components/Error.jsx:407
+#: src/components/error/BugzillaReport.jsx:346
 msgid ""
 "These log files may contain sensitive information such as IP addresses, "
 "usernames, or other system details."
@@ -1624,7 +1650,7 @@ msgstr "Czas"
 msgid "Timezone"
 msgstr "Strefa czasowa"
 
-#: src/components/Error.jsx:359
+#: src/components/error/BugzillaReport.jsx:298
 msgid "Title"
 msgstr "Tytuł"
 
@@ -1736,7 +1762,7 @@ msgstr "Nazwa użytkownika nie może być słowem zastrzeżonym"
 msgid "User names must be shorter than 33 characters"
 msgstr "Nazwy użytkowników nie mogą mieć więcej niż 33 znaki"
 
-#: src/components/Error.jsx:658
+#: src/components/error/BugzillaReport.jsx:589
 msgid "Validating..."
 msgstr "Sprawdzanie poprawności…"
 
@@ -1756,7 +1782,7 @@ msgstr "Witaj w Fedorze Linux"
 msgid "Welcome. Let's install $0 now."
 msgstr "Witaj w instalacji systemu $0."
 
-#: src/components/Error.jsx:402
+#: src/components/error/BugzillaReport.jsx:341
 msgid ""
 "When you submit this bug report, the following log files will be uploaded "
 "automatically: $0"
@@ -1781,7 +1807,7 @@ msgstr ""
 "Można zwolnić odpowiednią ilość miejsca i pozwolić instalatorowi zająć się "
 "resztą, albo ręcznie skonfigurować partycje."
 
-#: src/components/Error.jsx:232
+#: src/components/error/BugzillaReport.jsx:213
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr "Można utworzyć klucz API dla konta w serwisie Bugzilla $0."
 
@@ -1835,7 +1861,8 @@ msgstr "partycja rozszerzona"
 msgid "format as $0"
 msgstr "sformatuj jako $0"
 
-#: src/components/Error.jsx:162 src/components/Error.jsx:235
+#: src/components/error/BugzillaReport.jsx:143
+#: src/components/error/BugzillaReport.jsx:216
 msgid "here"
 msgstr "w tym miejscu"
 
@@ -1851,7 +1878,7 @@ msgstr "punkt montowania"
 msgid "pending step"
 msgstr "nieukończony krok"
 
-#: src/components/Error.jsx:413
+#: src/components/error/BugzillaReport.jsx:352
 msgid "report the issue manually"
 msgstr "ręcznie zgłosić błąd"
 

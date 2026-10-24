@@ -25,7 +25,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-23 07:56+0000\n"
+"POT-Creation-Date: 2026-10-24 07:36+0000\n"
 "PO-Revision-Date: 2026-09-30 18:10+0000\n"
 "Last-Translator: Ondrej Sulek <feonsu@gmail.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/anaconda-"
@@ -201,7 +201,7 @@ msgstr ""
 "Priradiť oddiely k bodom pripojenia. Užitočné pre predkonfigurované vlastné "
 "rozloženia."
 
-#: src/components/Error.jsx:396
+#: src/components/error/BugzillaReport.jsx:335
 msgid "Automatic log file upload"
 msgstr "Automatické nahranie súboru s logmi"
 
@@ -218,8 +218,9 @@ msgstr "Automaticky nastaviť časové pásmo"
 msgid "Available free space: $0. Installation requires: $1."
 msgstr "Dostupné voľné miesto: $0. Inštalácia vyžaduje: $1."
 
-#: src/components/Error.jsx:668 src/components/Error.jsx:693
 #: src/components/AnacondaWizardFooter.jsx:62
+#: src/components/error/BugzillaReport.jsx:599
+#: src/components/error/BugzillaReport.jsx:624
 msgid "Back"
 msgstr "Späť"
 
@@ -227,15 +228,20 @@ msgstr "Späť"
 msgid "Base environment"
 msgstr "Základné prostredie"
 
-#: src/components/Error.jsx:367
+#: src/components/error/BugzillaReport.jsx:306
 msgid "Brief description of the issue"
 msgstr "Stručný popis problému"
 
-#: src/components/Error.jsx:356
+#: src/components/error/BugzillaReport.jsx:295
 msgid "Bug report details"
 msgstr "Podrobnosti hlásenia chyby"
 
-#: src/components/Error.jsx:206
+#: src/components/error/GenericReport.jsx:31
+#: src/components/error/GenericReport.jsx:76
+msgid "Bug reporting is not configured for this distribution."
+msgstr ""
+
+#: src/components/error/BugzillaReport.jsx:187
 msgid "Bugzilla API key"
 msgstr "Kľúč Bugzilla API"
 
@@ -254,8 +260,8 @@ msgstr ""
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:375
-#: src/components/Error.jsx:861 src/components/localization/Keyboard.jsx:282
-#: src/components/review/Hostname.jsx:127
+#: src/components/localization/Keyboard.jsx:282
+#: src/components/error/Error.jsx:163 src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "Zrušiť"
 
@@ -431,7 +437,7 @@ msgstr "Odstrániť oddiel"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Odstránenie určitých oddielov môže $0 zabrániť spusteniu: $1"
 
-#: src/components/Error.jsx:262
+#: src/components/error/common.jsx:85
 msgid "Description"
 msgstr "Popis"
 
@@ -443,7 +449,7 @@ msgstr "Cieľ"
 msgid "Destination is encrypted"
 msgstr "Cieľ je zašifrovaný"
 
-#: src/components/Error.jsx:267
+#: src/components/error/common.jsx:90
 msgid "Detailed description of the issue"
 msgstr "Podrobný popis problému"
 
@@ -492,7 +498,7 @@ msgstr "Zadať PIN"
 msgid "Enter PIN to access the installer"
 msgstr "Zadajte PIN pre prístup k inštalátoru"
 
-#: src/components/Error.jsx:203
+#: src/components/error/BugzillaReport.jsx:184
 msgid ""
 "Enter your Bugzilla API key to create a bug report. You will be able to "
 "review and edit the bug details in the next step."
@@ -500,7 +506,7 @@ msgstr ""
 "Zadajte svoj kľúč Bugzilla API na vytvorenie hlásenia chyby. V nasledujúcom "
 "kroku budete môcť preskúmať a upraviť podrobnosti hlásenia."
 
-#: src/components/Error.jsx:279
+#: src/components/error/common.jsx:103
 msgid "Environment"
 msgstr "Prostredie"
 
@@ -508,7 +514,7 @@ msgstr "Prostredie"
 msgid "Erase data and install"
 msgstr "Vymazať údaje a nainštalovať"
 
-#: src/components/Error.jsx:818
+#: src/components/error/common.jsx:50
 msgid "Error details"
 msgstr "Podrobnosti o chybe"
 
@@ -527,7 +533,7 @@ msgstr "Rozšírený oddiel"
 msgid "Failed to configure installation source"
 msgstr "Zlyhalo nastavenie zdroja inštalácie"
 
-#: src/components/Error.jsx:642
+#: src/components/error/BugzillaReport.jsx:573
 msgid "Failed to report issue"
 msgstr "Nepodarilo sa nahlásiť problém"
 
@@ -575,7 +581,7 @@ msgstr "Celé meno nemôže obsahovať znak dvojbodky"
 msgid "Helper text"
 msgstr "Pomocný text"
 
-#: src/components/Error.jsx:223
+#: src/components/error/BugzillaReport.jsx:204
 msgid "Hide API key"
 msgstr "Skryť kľúč API"
 
@@ -583,7 +589,7 @@ msgstr "Skryť kľúč API"
 msgid "Hide PIN"
 msgstr "Skryť PIN"
 
-#: src/components/Password.jsx:276
+#: src/components/Password.jsx:260
 msgid "Hide confirmed password"
 msgstr "Skryť potvrdené heslo"
 
@@ -591,7 +597,7 @@ msgstr "Skryť potvrdené heslo"
 msgid "Hide passphrase"
 msgstr "Skryť heslo"
 
-#: src/components/Password.jsx:240
+#: src/components/Password.jsx:224
 msgid "Hide password"
 msgstr "Skryť heslo"
 
@@ -639,7 +645,7 @@ msgstr ""
 msgid "If you are configuring partitions the following are required:"
 msgstr "Ak konfigurujete oddiely, vyžaduje sa nasledovné:"
 
-#: src/components/Error.jsx:411
+#: src/components/error/BugzillaReport.jsx:350
 msgid ""
 "If you do not consent to automatic log file upload, you can $0 instead. "
 "Manual reporting allows you to review and selectively attach log files "
@@ -655,7 +661,7 @@ msgid ""
 msgstr ""
 "Ak nechápete, alebo neakceptujete riziká, potom ukončite tento program."
 
-#: src/components/Error.jsx:328
+#: src/components/error/BugzillaReport.jsx:267
 msgid ""
 "If your issue matches one of the bugs above, you can open it and add your "
 "information there instead of creating a duplicate report."
@@ -682,7 +688,7 @@ msgid "Installation completed"
 msgstr "Inštalácia je dokončená"
 
 #: src/components/installation/InstallationProgress.jsx:219
-#: src/components/Error.jsx:849
+#: src/components/error/Error.jsx:151
 msgid "Installation failed"
 msgstr "Inštalácia zlyhala"
 
@@ -765,7 +771,7 @@ msgstr "Jazyk"
 msgid "Launch storage editor"
 msgstr "Spustiť editor úložiska"
 
-#: src/components/Error.jsx:387
+#: src/components/error/BugzillaReport.jsx:326
 msgid "Learn more about restricted access in the configuration"
 msgstr "Ďalšie informácie o obmedzenom prístupe v konfigurácii"
 
@@ -852,7 +858,7 @@ msgstr "Posunúť nahor"
 msgid "Must be at least $0 characters"
 msgstr "Musí mať aspoň $0 znakov"
 
-#: src/components/Error.jsx:676
+#: src/components/error/BugzillaReport.jsx:607
 msgid "My issue is different, continue"
 msgstr "Môj problém je iný, pokračovať"
 
@@ -881,7 +887,7 @@ msgstr "Sieť"
 msgid "Network Configuration"
 msgstr "Sieťová konfigurácia"
 
-#: src/components/Error.jsx:726
+#: src/components/error/Error.jsx:59
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
 "the issue."
@@ -889,7 +895,7 @@ msgstr ""
 "Sieť nie je k dispozícii. Ak chcete nahlásiť problém, nakonfigurujte sieť v "
 "ponuke na hornej lište."
 
-#: src/components/Error.jsx:727
+#: src/components/error/Error.jsx:60
 msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 "Sieť nie je k dispozícii. Ak chcete nahlásiť problém, nakonfigurujte sieť."
@@ -898,7 +904,8 @@ msgstr ""
 msgid "Network plugin failed"
 msgstr "Zlyhal plugin siete"
 
-#: src/components/Error.jsx:658 src/components/AnacondaWizardFooter.jsx:71
+#: src/components/AnacondaWizardFooter.jsx:71
+#: src/components/error/BugzillaReport.jsx:589
 msgid "Next"
 msgstr "Ďalej"
 
@@ -957,7 +964,7 @@ msgstr ""
 "vývoja a testovania. Nepoužívajte tento softvér pre žiadnu kritickú prácu "
 "ani pre produkčné prostredia."
 
-#: src/components/Error.jsx:181
+#: src/components/error/BugzillaReport.jsx:162
 msgid "Open Bugzilla bug entry form"
 msgstr "Otvoriť formulár zadania chyby v Bugzille"
 
@@ -988,7 +995,7 @@ msgstr "Heslo"
 msgid "Passphrase did not match any locked device"
 msgstr "Heslo sa nezhoduje s žiadnym zamknutým zariadením"
 
-#: src/components/Password.jsx:289
+#: src/components/Password.jsx:273
 msgid "Passphrases must match"
 msgstr "Heslá sa musia zhodovať"
 
@@ -996,13 +1003,19 @@ msgstr "Heslá sa musia zhodovať"
 msgid "Pending"
 msgstr "Čakajúce"
 
-#: src/components/Error.jsx:94
+#: src/components/error/BugzillaReport.jsx:88
 msgid "Please attach the log file $0 to the issue."
 msgstr "Prosím, priložte súbor s logmi $0 k tomuto problému."
 
 #: src/components/login/LoginPage.jsx:44
 msgid "Please enter a PIN"
 msgstr "Zadajte PIN"
+
+#: src/components/error/GenericReport.jsx:67
+#, fuzzy
+#| msgid "report the issue manually"
+msgid "Please report this issue at $0."
+msgstr "nahlásiť problém manuálne"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:322
 msgid "Please select at least one disk to continue"
@@ -1012,7 +1025,7 @@ msgstr "Vyberte aspoň jeden disk pre pokračovanie"
 msgid "Pool"
 msgstr "Pool"
 
-#: src/components/Error.jsx:296
+#: src/components/error/BugzillaReport.jsx:235
 msgid "Potential duplicate bugs found"
 msgstr "Nájdené potenciálne duplicitné chyby"
 
@@ -1024,7 +1037,7 @@ msgstr "Poháňané Anacondou"
 msgid "Pre-release"
 msgstr "Predčasné vydanie"
 
-#: src/components/Error.jsx:179
+#: src/components/error/BugzillaReport.jsx:160
 msgid "Prefer to report manually? $0"
 msgstr "Preferujete manuálne nahlásenie? $0"
 
@@ -1039,8 +1052,9 @@ msgstr "Pokračovať v inštalácii"
 msgid "Proxy"
 msgstr "_FTP Proxy"
 
-#: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
+#: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
+#: src/components/error/Error.jsx:140
 msgid "Quit"
 msgstr "Ukončiť"
 
@@ -1077,8 +1091,9 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "Názov počítača musí mať 64 znakov alebo menej"
 
 #: src/components/installation/InstallationProgress.jsx:248
-#: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
+#: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
+#: src/components/error/Error.jsx:140
 msgid "Reboot"
 msgstr "Reštartovať"
 
@@ -1172,7 +1187,17 @@ msgstr ""
 msgid "Report Issue"
 msgstr "Nahlásiť problém"
 
-#: src/components/Error.jsx:160
+#: src/components/error/GenericReport.jsx:39
+#, fuzzy
+#| msgid ""
+#| "Report an issue or provide feedback by opening the Bugzilla bug entry "
+#| "form $0."
+msgid "Report an issue or provide feedback at $0."
+msgstr ""
+"Nahláste problém alebo poskytnite spätnú väzbu otvorením formulára zadania "
+"chyby v Bugzille $0."
+
+#: src/components/error/BugzillaReport.jsx:141
 msgid ""
 "Report an issue or provide feedback by opening the Bugzilla bug entry form "
 "$0."
@@ -1180,11 +1205,12 @@ msgstr ""
 "Nahláste problém alebo poskytnite spätnú väzbu otvorením formulára zadania "
 "chyby v Bugzille $0."
 
-#: src/components/Error.jsx:703 src/components/Error.jsx:870
+#: src/components/error/BugzillaReport.jsx:634
+#: src/components/error/Error.jsx:172
 msgid "Report issue"
 msgstr "Nahlásiť problém"
 
-#: src/components/Error.jsx:703
+#: src/components/error/BugzillaReport.jsx:634
 msgid "Reporting issue..."
 msgstr "Nahlasovanie problému..."
 
@@ -1220,11 +1246,11 @@ msgstr "Zmeniť veľkosť oddielu"
 msgid "Resizing the following partitions from $0: $1"
 msgstr "Zmena veľkosti nasledujúcich oddielov z $0: $1"
 
-#: src/components/Error.jsx:381
+#: src/components/error/BugzillaReport.jsx:320
 msgid "Restrict access to the report"
 msgstr "Obmedziť prístup k hláseniu"
 
-#: src/components/Error.jsx:383
+#: src/components/error/BugzillaReport.jsx:322
 msgid "Restricts the report to the $0 group. $1"
 msgstr "Obmedzí prístup k hláseniu len pre skupinu $0. $1"
 
@@ -1364,7 +1390,7 @@ msgstr "Zdieľať disk s inými operačnými systémami: $0"
 msgid "Show AM/PM"
 msgstr "Zobraziť AM/PM"
 
-#: src/components/Error.jsx:223
+#: src/components/error/BugzillaReport.jsx:204
 msgid "Show API key"
 msgstr "Zobraziť kľúč API"
 
@@ -1372,7 +1398,7 @@ msgstr "Zobraziť kľúč API"
 msgid "Show PIN"
 msgstr "Zobraziť PIN"
 
-#: src/components/Password.jsx:276
+#: src/components/Password.jsx:260
 msgid "Show confirmed password"
 msgstr "Zobraziť potvrdené heslo"
 
@@ -1380,7 +1406,7 @@ msgstr "Zobraziť potvrdené heslo"
 msgid "Show passphrase"
 msgstr "Zobraziť heslo"
 
-#: src/components/Password.jsx:240
+#: src/components/Password.jsx:224
 msgid "Show password"
 msgstr "Zobraziť heslo"
 
@@ -1418,7 +1444,7 @@ msgstr "Chýbajú niektoré požadované oddiely: $0"
 msgid "Space"
 msgstr "Miesto"
 
-#: src/components/Error.jsx:273
+#: src/components/error/common.jsx:97
 msgid "Stacktrace"
 msgstr "Stacktrace"
 
@@ -1501,7 +1527,7 @@ msgstr ""
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "Inštalácia Anacondy sa neočakávane zastavila."
 
-#: src/components/Error.jsx:301
+#: src/components/error/BugzillaReport.jsx:240
 msgid ""
 "The following open bugs may be related to your issue. Please review them "
 "before creating a new report."
@@ -1524,11 +1550,11 @@ msgstr ""
 "Inštalácia vyžaduje $0 miesta na disku, ale kapacita vybraných diskov je "
 "však iba $1."
 
-#: src/components/Error.jsx:778
+#: src/components/error/Error.jsx:107
 msgid "The installer cannot continue due to a critical error."
 msgstr "Inštalátor nemôže pokračovať kvôli kritickej chybe."
 
-#: src/components/Error.jsx:777
+#: src/components/error/Error.jsx:106
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "Inštalátor nemôže pokračovať kvôli kritickej chybe: $0"
 
@@ -1564,7 +1590,7 @@ msgstr ""
 "Umožňuje nastaviť LVM a oveľa viac. Je určený na použitie ako pokročilý "
 "nástroj a nie je určený na použitie v typickej inštalácii."
 
-#: src/components/Error.jsx:407
+#: src/components/error/BugzillaReport.jsx:346
 msgid ""
 "These log files may contain sensitive information such as IP addresses, "
 "usernames, or other system details."
@@ -1602,7 +1628,7 @@ msgstr "Čas"
 msgid "Timezone"
 msgstr "Časové pásmo"
 
-#: src/components/Error.jsx:359
+#: src/components/error/BugzillaReport.jsx:298
 msgid "Title"
 msgstr "Nadpis"
 
@@ -1714,7 +1740,7 @@ msgstr "Používateľské meno nesmie byť rezervované slovo"
 msgid "User names must be shorter than 33 characters"
 msgstr "Používateľské meno musí byť kratšie ako 33 znakov"
 
-#: src/components/Error.jsx:658
+#: src/components/error/BugzillaReport.jsx:589
 msgid "Validating..."
 msgstr "Overovanie..."
 
@@ -1734,7 +1760,7 @@ msgstr "Vitajte vo Fedora Linux"
 msgid "Welcome. Let's install $0 now."
 msgstr "Vitajte. Poďme teraz nainštalovať $0."
 
-#: src/components/Error.jsx:402
+#: src/components/error/BugzillaReport.jsx:341
 msgid ""
 "When you submit this bug report, the following log files will be uploaded "
 "automatically: $0"
@@ -1758,7 +1784,7 @@ msgstr ""
 "Tu môžete buď uvoľniť dostatok miesta a nechať inštalátor, aby sa postaral o "
 "zvyšok, alebo oddiely nastaviť manuálne."
 
-#: src/components/Error.jsx:232
+#: src/components/error/BugzillaReport.jsx:213
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr "Kľúč API pre svoj účet môžete vygenerovať v Bugzilla $0."
 
@@ -1814,7 +1840,8 @@ msgstr "rozšírený oddiel"
 msgid "format as $0"
 msgstr "naformátovať ako $0"
 
-#: src/components/Error.jsx:162 src/components/Error.jsx:235
+#: src/components/error/BugzillaReport.jsx:143
+#: src/components/error/BugzillaReport.jsx:216
 msgid "here"
 msgstr "tu"
 
@@ -1830,7 +1857,7 @@ msgstr "pripojiť"
 msgid "pending step"
 msgstr "čakajúci krok"
 
-#: src/components/Error.jsx:413
+#: src/components/error/BugzillaReport.jsx:352
 msgid "report the issue manually"
 msgstr "nahlásiť problém manuálne"
 

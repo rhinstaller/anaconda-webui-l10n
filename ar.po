@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-23 07:56+0000\n"
+"POT-Creation-Date: 2026-10-24 07:36+0000\n"
 "PO-Revision-Date: 2026-10-24 07:36+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -211,7 +211,7 @@ msgid ""
 "Assign partitions to mount points. Useful for pre-configured custom layouts."
 msgstr "عيّن الأقسام إلى نقاط الوصل. مفيد للتخطيطات المخصّصة مضبطة مسبقًا."
 
-#: src/components/Error.jsx:396
+#: src/components/error/BugzillaReport.jsx:335
 msgid "Automatic log file upload"
 msgstr "رفع ملف السجل تلقائيًا"
 
@@ -228,8 +228,9 @@ msgstr "عيّن المنطقة الزمنية تلقائيًا"
 msgid "Available free space: $0. Installation requires: $1."
 msgstr "المساحة الخالية المتاحة: $0. يتطلب التثبيت: $1."
 
-#: src/components/Error.jsx:668 src/components/Error.jsx:693
 #: src/components/AnacondaWizardFooter.jsx:62
+#: src/components/error/BugzillaReport.jsx:599
+#: src/components/error/BugzillaReport.jsx:624
 msgid "Back"
 msgstr "ارجع"
 
@@ -237,15 +238,20 @@ msgstr "ارجع"
 msgid "Base environment"
 msgstr "البيئة الأساسية"
 
-#: src/components/Error.jsx:367
+#: src/components/error/BugzillaReport.jsx:306
 msgid "Brief description of the issue"
 msgstr "وصف موجز للمشكلة"
 
-#: src/components/Error.jsx:356
+#: src/components/error/BugzillaReport.jsx:295
 msgid "Bug report details"
 msgstr "تفاصيل تقرير الخطأ"
 
-#: src/components/Error.jsx:206
+#: src/components/error/GenericReport.jsx:31
+#: src/components/error/GenericReport.jsx:76
+msgid "Bug reporting is not configured for this distribution."
+msgstr ""
+
+#: src/components/error/BugzillaReport.jsx:187
 msgid "Bugzilla API key"
 msgstr "مفتاح Bugzilla API"
 
@@ -264,8 +270,8 @@ msgstr ""
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:375
-#: src/components/Error.jsx:861 src/components/localization/Keyboard.jsx:282
-#: src/components/review/Hostname.jsx:127
+#: src/components/localization/Keyboard.jsx:282
+#: src/components/error/Error.jsx:163 src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "ألغِ"
 
@@ -433,7 +439,7 @@ msgstr "احذف القسم"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "قد يؤدي حذف بعض الأقسام إلى منع $0 من الإقلاع: $1"
 
-#: src/components/Error.jsx:262
+#: src/components/error/common.jsx:85
 msgid "Description"
 msgstr "الوصف"
 
@@ -445,7 +451,7 @@ msgstr "الوجهة"
 msgid "Destination is encrypted"
 msgstr "الوجهة مُعمَّاة"
 
-#: src/components/Error.jsx:267
+#: src/components/error/common.jsx:90
 msgid "Detailed description of the issue"
 msgstr "وصف مفصل للمشكلة"
 
@@ -494,7 +500,7 @@ msgstr "أدخِل PIN"
 msgid "Enter PIN to access the installer"
 msgstr "أدخِل PIN للوصول إلى المثبِّت"
 
-#: src/components/Error.jsx:203
+#: src/components/error/BugzillaReport.jsx:184
 msgid ""
 "Enter your Bugzilla API key to create a bug report. You will be able to "
 "review and edit the bug details in the next step."
@@ -502,7 +508,7 @@ msgstr ""
 "أدخل مفتاح Bugzilla API لإنشاء تقرير عن خطأ. ستتمكن من مراجعة وتعديل تفاصيل "
 "الخطأ في الخطوة التالية."
 
-#: src/components/Error.jsx:279
+#: src/components/error/common.jsx:103
 msgid "Environment"
 msgstr "البيئة"
 
@@ -510,7 +516,7 @@ msgstr "البيئة"
 msgid "Erase data and install"
 msgstr "أمحو البيانات وثبّت"
 
-#: src/components/Error.jsx:818
+#: src/components/error/common.jsx:50
 msgid "Error details"
 msgstr "تفاصيل الخطأ"
 
@@ -527,7 +533,7 @@ msgstr "قسم ممتد"
 msgid "Failed to configure installation source"
 msgstr "فشل في ضبط مصدر التثبيت"
 
-#: src/components/Error.jsx:642
+#: src/components/error/BugzillaReport.jsx:573
 msgid "Failed to report issue"
 msgstr "فشل في الإبلاغ عن المشكلة"
 
@@ -574,7 +580,7 @@ msgstr "لا يمكن للاسم الكامل أن يحتوي على فواصل"
 msgid "Helper text"
 msgstr "نص المساعدة"
 
-#: src/components/Error.jsx:223
+#: src/components/error/BugzillaReport.jsx:204
 msgid "Hide API key"
 msgstr "أخفِ مفتاح API"
 
@@ -582,7 +588,7 @@ msgstr "أخفِ مفتاح API"
 msgid "Hide PIN"
 msgstr "أخفِ PIN"
 
-#: src/components/Password.jsx:276
+#: src/components/Password.jsx:260
 msgid "Hide confirmed password"
 msgstr "أخفِ تأكيد كلمة السر"
 
@@ -590,7 +596,7 @@ msgstr "أخفِ تأكيد كلمة السر"
 msgid "Hide passphrase"
 msgstr "أخفِ عبارة السر"
 
-#: src/components/Password.jsx:240
+#: src/components/Password.jsx:224
 msgid "Hide password"
 msgstr "أخفِ كلمة السر"
 
@@ -638,7 +644,7 @@ msgstr ""
 msgid "If you are configuring partitions the following are required:"
 msgstr "إذا كنت تضبط الأقسام، فيجب اتباع التالي:"
 
-#: src/components/Error.jsx:411
+#: src/components/error/BugzillaReport.jsx:350
 msgid ""
 "If you do not consent to automatic log file upload, you can $0 instead. "
 "Manual reporting allows you to review and selectively attach log files "
@@ -652,7 +658,7 @@ msgid ""
 "If you do not understand or accept the risks, then please exit this program."
 msgstr "إذا كنت لا تفهم أو لا تقبل المخاطر، ففضلاً أخرج من هذا البرنامج."
 
-#: src/components/Error.jsx:328
+#: src/components/error/BugzillaReport.jsx:267
 msgid ""
 "If your issue matches one of the bugs above, you can open it and add your "
 "information there instead of creating a duplicate report."
@@ -679,7 +685,7 @@ msgid "Installation completed"
 msgstr "اكتمل التثبيت"
 
 #: src/components/installation/InstallationProgress.jsx:219
-#: src/components/Error.jsx:849
+#: src/components/error/Error.jsx:151
 msgid "Installation failed"
 msgstr "فشل التثبيت"
 
@@ -762,7 +768,7 @@ msgstr "اللّغة"
 msgid "Launch storage editor"
 msgstr "أطلِق محرّر التخزين"
 
-#: src/components/Error.jsx:387
+#: src/components/error/BugzillaReport.jsx:326
 msgid "Learn more about restricted access in the configuration"
 msgstr "تعرّف على المزيد حول الوصول المقيد في التضبيط"
 
@@ -847,7 +853,7 @@ msgstr "حرّك لأعلى"
 msgid "Must be at least $0 characters"
 msgstr "يجب ألا يقل عدد المحارف عن $0"
 
-#: src/components/Error.jsx:676
+#: src/components/error/BugzillaReport.jsx:607
 msgid "My issue is different, continue"
 msgstr "مشكلتي مختلفة، استمر"
 
@@ -876,14 +882,14 @@ msgstr "شبكة"
 msgid "Network Configuration"
 msgstr "تضبيط الشبكة"
 
-#: src/components/Error.jsx:726
+#: src/components/error/Error.jsx:59
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
 "the issue."
 msgstr ""
 "الشبكة غير متوفرة. اضبط الشبكة في قائمة الشريط العلوي للإبلاغ عن المشكلة."
 
-#: src/components/Error.jsx:727
+#: src/components/error/Error.jsx:60
 msgid "Network not available. Configure the network to report the issue."
 msgstr "الشبكة غير متوفرة. اضبط الشبكة للإبلاغ عن المشكلة."
 
@@ -891,7 +897,8 @@ msgstr "الشبكة غير متوفرة. اضبط الشبكة للإبلاغ �
 msgid "Network plugin failed"
 msgstr "فشل المكون الإضافي للشبكة"
 
-#: src/components/Error.jsx:658 src/components/AnacondaWizardFooter.jsx:71
+#: src/components/AnacondaWizardFooter.jsx:71
+#: src/components/error/BugzillaReport.jsx:589
 msgid "Next"
 msgstr "التالي"
 
@@ -949,7 +956,7 @@ msgstr ""
 "ملحوظة: هذا برنامج أُصدر مسبقًا وهو مخصّص لأغراض التطوير والاختبار فقط. لا "
 "تستخدم هذا البرنامج لأي عمل حرِج أو لبيئات الإنتاج."
 
-#: src/components/Error.jsx:181
+#: src/components/error/BugzillaReport.jsx:162
 msgid "Open Bugzilla bug entry form"
 msgstr "افتح نموذج إدخال بلاغ خطأ في Bugzilla"
 
@@ -980,7 +987,7 @@ msgstr "عبارة السر"
 msgid "Passphrase did not match any locked device"
 msgstr "لم تتطابق عبارة السر مع أي جهاز مُقفل"
 
-#: src/components/Password.jsx:289
+#: src/components/Password.jsx:273
 msgid "Passphrases must match"
 msgstr "يجب أن تتطابق عبارتا السر"
 
@@ -988,13 +995,19 @@ msgstr "يجب أن تتطابق عبارتا السر"
 msgid "Pending"
 msgstr "منتظر"
 
-#: src/components/Error.jsx:94
+#: src/components/error/BugzillaReport.jsx:88
 msgid "Please attach the log file $0 to the issue."
 msgstr "يُرجى إرفاق ملف السجل $0 للمشكلة."
 
 #: src/components/login/LoginPage.jsx:44
 msgid "Please enter a PIN"
 msgstr "أدخِل PIN من فضلك"
+
+#: src/components/error/GenericReport.jsx:67
+#, fuzzy
+#| msgid "report the issue manually"
+msgid "Please report this issue at $0."
+msgstr "بلغ عن المشكلة يدويًا"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:322
 msgid "Please select at least one disk to continue"
@@ -1004,7 +1017,7 @@ msgstr "الرجاء تحديد قرص واحد على الأقل لاستمرا
 msgid "Pool"
 msgstr "مجمع"
 
-#: src/components/Error.jsx:296
+#: src/components/error/BugzillaReport.jsx:235
 msgid "Potential duplicate bugs found"
 msgstr "عُثر على أخطاء محتملة مكررة"
 
@@ -1016,7 +1029,7 @@ msgstr "مدعوم من أناكوندا"
 msgid "Pre-release"
 msgstr "الإصدار الأولي"
 
-#: src/components/Error.jsx:179
+#: src/components/error/BugzillaReport.jsx:160
 msgid "Prefer to report manually? $0"
 msgstr "تفضل التبليغ يدويًا؟ $0"
 
@@ -1028,8 +1041,9 @@ msgstr "واصِل التثبيت"
 msgid "Proxy"
 msgstr "وسيط"
 
-#: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
+#: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
+#: src/components/error/Error.jsx:140
 msgid "Quit"
 msgstr "أنهِ"
 
@@ -1066,8 +1080,9 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "ينبغي أن يكون طول اسم المضيف ٦٤ حرفا أو أقل"
 
 #: src/components/installation/InstallationProgress.jsx:248
-#: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
+#: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
+#: src/components/error/Error.jsx:140
 msgid "Reboot"
 msgstr "أعد التشغيل"
 
@@ -1157,17 +1172,26 @@ msgstr "استبدل التثبيت الحالي، ولكن احتفظ بملف�
 msgid "Report Issue"
 msgstr "أبلغ عن مشكلة"
 
-#: src/components/Error.jsx:160
+#: src/components/error/GenericReport.jsx:39
+#, fuzzy
+#| msgid ""
+#| "Report an issue or provide feedback by opening the Bugzilla bug entry "
+#| "form $0."
+msgid "Report an issue or provide feedback at $0."
+msgstr "أبلغ عن مشكلة أو قدم ملاحظات عن طريق فتح نموذج إدخال خطأ Bugzilla $0."
+
+#: src/components/error/BugzillaReport.jsx:141
 msgid ""
 "Report an issue or provide feedback by opening the Bugzilla bug entry form "
 "$0."
 msgstr "أبلغ عن مشكلة أو قدم ملاحظات عن طريق فتح نموذج إدخال خطأ Bugzilla $0."
 
-#: src/components/Error.jsx:703 src/components/Error.jsx:870
+#: src/components/error/BugzillaReport.jsx:634
+#: src/components/error/Error.jsx:172
 msgid "Report issue"
 msgstr "أبلغ عن مشكلة"
 
-#: src/components/Error.jsx:703
+#: src/components/error/BugzillaReport.jsx:634
 msgid "Reporting issue..."
 msgstr "يُبلغ عن مشكلة..."
 
@@ -1203,11 +1227,11 @@ msgstr "غيِّر حجم القسم"
 msgid "Resizing the following partitions from $0: $1"
 msgstr "غيّر حجم الأقسام التالية من $0: $1"
 
-#: src/components/Error.jsx:381
+#: src/components/error/BugzillaReport.jsx:320
 msgid "Restrict access to the report"
 msgstr "تقييد الوصول إلى التقرير"
 
-#: src/components/Error.jsx:383
+#: src/components/error/BugzillaReport.jsx:322
 msgid "Restricts the report to the $0 group. $1"
 msgstr "يقصر التقرير على المجموعة $0. $1"
 
@@ -1349,7 +1373,7 @@ msgstr "شارك القرص مع أنظمة تشغيل أخرى: $0"
 msgid "Show AM/PM"
 msgstr "أظهِر صباحًا/مساءً"
 
-#: src/components/Error.jsx:223
+#: src/components/error/BugzillaReport.jsx:204
 msgid "Show API key"
 msgstr "أظهِر مفتاح API"
 
@@ -1357,7 +1381,7 @@ msgstr "أظهِر مفتاح API"
 msgid "Show PIN"
 msgstr "أظهِر PIN"
 
-#: src/components/Password.jsx:276
+#: src/components/Password.jsx:260
 msgid "Show confirmed password"
 msgstr "أظهِر كلمة السر المؤكدة"
 
@@ -1365,7 +1389,7 @@ msgstr "أظهِر كلمة السر المؤكدة"
 msgid "Show passphrase"
 msgstr "أظهِر عبارة السر"
 
-#: src/components/Password.jsx:240
+#: src/components/Password.jsx:224
 msgid "Show password"
 msgstr "أظهِر كلمة السر"
 
@@ -1403,7 +1427,7 @@ msgstr "بعض الأقسام المطلوبة مفقودة: $0"
 msgid "Space"
 msgstr "المساحة"
 
-#: src/components/Error.jsx:273
+#: src/components/error/common.jsx:97
 msgid "Stacktrace"
 msgstr "Stacktrace"
 
@@ -1484,7 +1508,7 @@ msgstr "تضبيط النظام: اكتمل تثبيت البرنامج. يتم 
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "توقف تثبيت أناكوندا بشكل غير متوقع."
 
-#: src/components/Error.jsx:301
+#: src/components/error/BugzillaReport.jsx:240
 msgid ""
 "The following open bugs may be related to your issue. Please review them "
 "before creating a new report."
@@ -1510,11 +1534,11 @@ msgstr ""
 "يحتاج التثبيت إلى $0 من مساحة القرص؛ ومع ذلك، فإن سعة الأقراص المُحدّدة هي $1 "
 "فقط."
 
-#: src/components/Error.jsx:778
+#: src/components/error/Error.jsx:107
 msgid "The installer cannot continue due to a critical error."
 msgstr "يتعذر على المثبِّت الاستمرار بسبب خطأ فادح."
 
-#: src/components/Error.jsx:777
+#: src/components/error/Error.jsx:106
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "يتعذر على المثبِّت الاستمرار بسبب خطأ فادح: $0"
 
@@ -1552,7 +1576,7 @@ msgstr ""
 "وغير ذلك الكثير. صُمّم للاستخدام كأداة مساعدة متقدمة، وليس للاستخدام في "
 "التثبيتات التقليدية."
 
-#: src/components/Error.jsx:407
+#: src/components/error/BugzillaReport.jsx:346
 msgid ""
 "These log files may contain sensitive information such as IP addresses, "
 "usernames, or other system details."
@@ -1589,7 +1613,7 @@ msgstr "الوقت"
 msgid "Timezone"
 msgstr "المنطقة الزمنية"
 
-#: src/components/Error.jsx:359
+#: src/components/error/BugzillaReport.jsx:298
 msgid "Title"
 msgstr "العنوان"
 
@@ -1694,7 +1718,7 @@ msgstr "يجب ألا يكون اسم المستخدم كلمة محجوزة"
 msgid "User names must be shorter than 33 characters"
 msgstr "ينبغي أن يكون اسماء المستخدمين أقصر من 33 حرفا"
 
-#: src/components/Error.jsx:658
+#: src/components/error/BugzillaReport.jsx:589
 msgid "Validating..."
 msgstr "يتحقق..."
 
@@ -1714,7 +1738,7 @@ msgstr "مرحبًا بكم في فيدورا لينكس"
 msgid "Welcome. Let's install $0 now."
 msgstr "أهلاً وسهلاً بك. هيا لنثبت $0 الآن."
 
-#: src/components/Error.jsx:402
+#: src/components/error/BugzillaReport.jsx:341
 msgid ""
 "When you submit this bug report, the following log files will be uploaded "
 "automatically: $0"
@@ -1737,7 +1761,7 @@ msgstr ""
 "يمكنك إما إخلاء مساحة كافية هنا والسماح للمُثبِّت بالتعامل مع الباقي أو إعداد "
 "الأقسام يدويًا."
 
-#: src/components/Error.jsx:232
+#: src/components/error/BugzillaReport.jsx:213
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr "يمكنك إنشاء مفتاح API لحساب Bugzilla الخاص بك $0."
 
@@ -1789,7 +1813,8 @@ msgstr "قسم موسع"
 msgid "format as $0"
 msgstr "هيئ ك $0"
 
-#: src/components/Error.jsx:162 src/components/Error.jsx:235
+#: src/components/error/BugzillaReport.jsx:143
+#: src/components/error/BugzillaReport.jsx:216
 msgid "here"
 msgstr "هنا"
 
@@ -1805,7 +1830,7 @@ msgstr "اوصل"
 msgid "pending step"
 msgstr "خطوة معلقة"
 
-#: src/components/Error.jsx:413
+#: src/components/error/BugzillaReport.jsx:352
 msgid "report the issue manually"
 msgstr "بلغ عن المشكلة يدويًا"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 36.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-23 07:56+0000\n"
+"POT-Creation-Date: 2026-10-24 07:36+0000\n"
 "PO-Revision-Date: 2024-10-06 20:49+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan <https://translate.fedoraproject.org/projects/"
@@ -184,7 +184,7 @@ msgid ""
 "Assign partitions to mount points. Useful for pre-configured custom layouts."
 msgstr ""
 
-#: src/components/Error.jsx:396
+#: src/components/error/BugzillaReport.jsx:335
 msgid "Automatic log file upload"
 msgstr ""
 
@@ -201,8 +201,9 @@ msgstr ""
 msgid "Available free space: $0. Installation requires: $1."
 msgstr ""
 
-#: src/components/Error.jsx:668 src/components/Error.jsx:693
 #: src/components/AnacondaWizardFooter.jsx:62
+#: src/components/error/BugzillaReport.jsx:599
+#: src/components/error/BugzillaReport.jsx:624
 msgid "Back"
 msgstr ""
 
@@ -210,15 +211,20 @@ msgstr ""
 msgid "Base environment"
 msgstr ""
 
-#: src/components/Error.jsx:367
+#: src/components/error/BugzillaReport.jsx:306
 msgid "Brief description of the issue"
 msgstr ""
 
-#: src/components/Error.jsx:356
+#: src/components/error/BugzillaReport.jsx:295
 msgid "Bug report details"
 msgstr ""
 
-#: src/components/Error.jsx:206
+#: src/components/error/GenericReport.jsx:31
+#: src/components/error/GenericReport.jsx:76
+msgid "Bug reporting is not configured for this distribution."
+msgstr ""
+
+#: src/components/error/BugzillaReport.jsx:187
 msgid "Bugzilla API key"
 msgstr ""
 
@@ -234,8 +240,8 @@ msgstr ""
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:375
-#: src/components/Error.jsx:861 src/components/localization/Keyboard.jsx:282
-#: src/components/review/Hostname.jsx:127
+#: src/components/localization/Keyboard.jsx:282
+#: src/components/error/Error.jsx:163 src/components/review/Hostname.jsx:127
 #, fuzzy
 msgid "Cancel"
 msgstr "_Anullar"
@@ -435,7 +441,7 @@ msgstr "Particion d'aviada EFI"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr ""
 
-#: src/components/Error.jsx:262
+#: src/components/error/common.jsx:85
 msgid "Description"
 msgstr "Descripcion"
 
@@ -449,7 +455,7 @@ msgstr "Descripcion"
 msgid "Destination is encrypted"
 msgstr "Descripcion"
 
-#: src/components/Error.jsx:267
+#: src/components/error/common.jsx:90
 msgid "Detailed description of the issue"
 msgstr ""
 
@@ -502,13 +508,13 @@ msgstr ""
 msgid "Enter PIN to access the installer"
 msgstr ""
 
-#: src/components/Error.jsx:203
+#: src/components/error/BugzillaReport.jsx:184
 msgid ""
 "Enter your Bugzilla API key to create a bug report. You will be able to "
 "review and edit the bug details in the next step."
 msgstr ""
 
-#: src/components/Error.jsx:279
+#: src/components/error/common.jsx:103
 msgid "Environment"
 msgstr ""
 
@@ -517,7 +523,7 @@ msgstr ""
 msgid "Erase data and install"
 msgstr "Installacion"
 
-#: src/components/Error.jsx:818
+#: src/components/error/common.jsx:50
 msgid "Error details"
 msgstr ""
 
@@ -538,7 +544,7 @@ msgstr "Particion d'aviada EFI"
 msgid "Failed to configure installation source"
 msgstr "Aviada de l’installacion dels paquets"
 
-#: src/components/Error.jsx:642
+#: src/components/error/BugzillaReport.jsx:573
 #, fuzzy
 msgid "Failed to report issue"
 msgstr "Apondon impossible del periferic."
@@ -587,7 +593,7 @@ msgstr "Lo nom complet pòt pas conténer lo caractèr « : »"
 msgid "Helper text"
 msgstr ""
 
-#: src/components/Error.jsx:223
+#: src/components/error/BugzillaReport.jsx:204
 msgid "Hide API key"
 msgstr ""
 
@@ -595,7 +601,7 @@ msgstr ""
 msgid "Hide PIN"
 msgstr ""
 
-#: src/components/Password.jsx:276
+#: src/components/Password.jsx:260
 msgid "Hide confirmed password"
 msgstr ""
 
@@ -604,7 +610,7 @@ msgstr ""
 msgid "Hide passphrase"
 msgstr "Frasa secreta"
 
-#: src/components/Password.jsx:240
+#: src/components/Password.jsx:224
 #, fuzzy
 msgid "Hide password"
 msgstr "Senhal"
@@ -648,7 +654,7 @@ msgstr ""
 msgid "If you are configuring partitions the following are required:"
 msgstr ""
 
-#: src/components/Error.jsx:411
+#: src/components/error/BugzillaReport.jsx:350
 msgid ""
 "If you do not consent to automatic log file upload, you can $0 instead. "
 "Manual reporting allows you to review and selectively attach log files "
@@ -660,7 +666,7 @@ msgid ""
 "If you do not understand or accept the risks, then please exit this program."
 msgstr ""
 
-#: src/components/Error.jsx:328
+#: src/components/error/BugzillaReport.jsx:267
 msgid ""
 "If your issue matches one of the bugs above, you can open it and add your "
 "information there instead of creating a duplicate report."
@@ -687,7 +693,7 @@ msgid "Installation completed"
 msgstr "Installacion acabada"
 
 #: src/components/installation/InstallationProgress.jsx:219
-#: src/components/Error.jsx:849
+#: src/components/error/Error.jsx:151
 #, fuzzy
 msgid "Installation failed"
 msgstr "Installacion"
@@ -780,7 +786,7 @@ msgstr "Lengas"
 msgid "Launch storage editor"
 msgstr "Installacion"
 
-#: src/components/Error.jsx:387
+#: src/components/error/BugzillaReport.jsx:326
 msgid "Learn more about restricted access in the configuration"
 msgstr ""
 
@@ -870,7 +876,7 @@ msgstr ""
 msgid "Must be at least $0 characters"
 msgstr ""
 
-#: src/components/Error.jsx:676
+#: src/components/error/BugzillaReport.jsx:607
 msgid "My issue is different, continue"
 msgstr ""
 
@@ -904,13 +910,13 @@ msgstr "Ret"
 msgid "Network Configuration"
 msgstr "URL de _configuracion"
 
-#: src/components/Error.jsx:726
+#: src/components/error/Error.jsx:59
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
 "the issue."
 msgstr ""
 
-#: src/components/Error.jsx:727
+#: src/components/error/Error.jsx:60
 msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 
@@ -919,7 +925,8 @@ msgstr ""
 msgid "Network plugin failed"
 msgstr "Installacion"
 
-#: src/components/Error.jsx:658 src/components/AnacondaWizardFooter.jsx:71
+#: src/components/AnacondaWizardFooter.jsx:71
+#: src/components/error/BugzillaReport.jsx:589
 msgid "Next"
 msgstr ""
 
@@ -983,7 +990,7 @@ msgid ""
 "production environments."
 msgstr ""
 
-#: src/components/Error.jsx:181
+#: src/components/error/BugzillaReport.jsx:162
 msgid "Open Bugzilla bug entry form"
 msgstr ""
 
@@ -1017,7 +1024,7 @@ msgstr "Frasa secreta"
 msgid "Passphrase did not match any locked device"
 msgstr ""
 
-#: src/components/Password.jsx:289
+#: src/components/Password.jsx:273
 #, fuzzy
 msgid "Passphrases must match"
 msgstr "Frasa secreta"
@@ -1026,12 +1033,16 @@ msgstr "Frasa secreta"
 msgid "Pending"
 msgstr ""
 
-#: src/components/Error.jsx:94
+#: src/components/error/BugzillaReport.jsx:88
 msgid "Please attach the log file $0 to the issue."
 msgstr ""
 
 #: src/components/login/LoginPage.jsx:44
 msgid "Please enter a PIN"
+msgstr ""
+
+#: src/components/error/GenericReport.jsx:67
+msgid "Please report this issue at $0."
 msgstr ""
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:322
@@ -1042,7 +1053,7 @@ msgstr ""
 msgid "Pool"
 msgstr "Piscina"
 
-#: src/components/Error.jsx:296
+#: src/components/error/BugzillaReport.jsx:235
 msgid "Potential duplicate bugs found"
 msgstr ""
 
@@ -1054,7 +1065,7 @@ msgstr ""
 msgid "Pre-release"
 msgstr ""
 
-#: src/components/Error.jsx:179
+#: src/components/error/BugzillaReport.jsx:160
 msgid "Prefer to report manually? $0"
 msgstr ""
 
@@ -1071,8 +1082,9 @@ msgstr "Fracàs de l’installacion."
 msgid "Proxy"
 msgstr "Servidor mandatari _FTP"
 
-#: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
+#: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
+#: src/components/error/Error.jsx:140
 msgid "Quit"
 msgstr "Sortir"
 
@@ -1110,8 +1122,9 @@ msgid "Real hostname must be 64 characters or less"
 msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:248
-#: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
+#: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
+#: src/components/error/Error.jsx:140
 msgid "Reboot"
 msgstr ""
 
@@ -1202,17 +1215,22 @@ msgstr ""
 msgid "Report Issue"
 msgstr ""
 
-#: src/components/Error.jsx:160
+#: src/components/error/GenericReport.jsx:39
+msgid "Report an issue or provide feedback at $0."
+msgstr ""
+
+#: src/components/error/BugzillaReport.jsx:141
 msgid ""
 "Report an issue or provide feedback by opening the Bugzilla bug entry form "
 "$0."
 msgstr ""
 
-#: src/components/Error.jsx:703 src/components/Error.jsx:870
+#: src/components/error/BugzillaReport.jsx:634
+#: src/components/error/Error.jsx:172
 msgid "Report issue"
 msgstr ""
 
-#: src/components/Error.jsx:703
+#: src/components/error/BugzillaReport.jsx:634
 msgid "Reporting issue..."
 msgstr ""
 
@@ -1253,11 +1271,11 @@ msgstr "Particion d'aviada EFI"
 msgid "Resizing the following partitions from $0: $1"
 msgstr ""
 
-#: src/components/Error.jsx:381
+#: src/components/error/BugzillaReport.jsx:320
 msgid "Restrict access to the report"
 msgstr ""
 
-#: src/components/Error.jsx:383
+#: src/components/error/BugzillaReport.jsx:322
 msgid "Restricts the report to the $0 group. $1"
 msgstr ""
 
@@ -1425,7 +1443,7 @@ msgstr ""
 msgid "Show AM/PM"
 msgstr ""
 
-#: src/components/Error.jsx:223
+#: src/components/error/BugzillaReport.jsx:204
 msgid "Show API key"
 msgstr ""
 
@@ -1433,7 +1451,7 @@ msgstr ""
 msgid "Show PIN"
 msgstr ""
 
-#: src/components/Password.jsx:276
+#: src/components/Password.jsx:260
 msgid "Show confirmed password"
 msgstr ""
 
@@ -1442,7 +1460,7 @@ msgstr ""
 msgid "Show passphrase"
 msgstr "Frasa secreta"
 
-#: src/components/Password.jsx:240
+#: src/components/Password.jsx:224
 #, fuzzy
 msgid "Show password"
 msgstr "Senhal del grop"
@@ -1481,7 +1499,7 @@ msgstr ""
 msgid "Space"
 msgstr ""
 
-#: src/components/Error.jsx:273
+#: src/components/error/common.jsx:97
 msgid "Stacktrace"
 msgstr ""
 
@@ -1568,7 +1586,7 @@ msgstr ""
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr ""
 
-#: src/components/Error.jsx:301
+#: src/components/error/BugzillaReport.jsx:240
 msgid ""
 "The following open bugs may be related to your issue. Please review them "
 "before creating a new report."
@@ -1586,11 +1604,11 @@ msgid ""
 "selected disks is only $1."
 msgstr ""
 
-#: src/components/Error.jsx:778
+#: src/components/error/Error.jsx:107
 msgid "The installer cannot continue due to a critical error."
 msgstr ""
 
-#: src/components/Error.jsx:777
+#: src/components/error/Error.jsx:106
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr ""
 
@@ -1619,7 +1637,7 @@ msgid ""
 "not intended to be used in a typical installation."
 msgstr ""
 
-#: src/components/Error.jsx:407
+#: src/components/error/BugzillaReport.jsx:346
 msgid ""
 "These log files may contain sensitive information such as IP addresses, "
 "usernames, or other system details."
@@ -1654,7 +1672,7 @@ msgstr ""
 msgid "Timezone"
 msgstr ""
 
-#: src/components/Error.jsx:359
+#: src/components/error/BugzillaReport.jsx:298
 msgid "Title"
 msgstr ""
 
@@ -1764,7 +1782,7 @@ msgstr ""
 msgid "User names must be shorter than 33 characters"
 msgstr ""
 
-#: src/components/Error.jsx:658
+#: src/components/error/BugzillaReport.jsx:589
 msgid "Validating..."
 msgstr ""
 
@@ -1784,7 +1802,7 @@ msgstr ""
 msgid "Welcome. Let's install $0 now."
 msgstr ""
 
-#: src/components/Error.jsx:402
+#: src/components/error/BugzillaReport.jsx:341
 msgid ""
 "When you submit this bug report, the following log files will be uploaded "
 "automatically: $0"
@@ -1804,7 +1822,7 @@ msgid ""
 "rest or manually set up partitions."
 msgstr ""
 
-#: src/components/Error.jsx:232
+#: src/components/error/BugzillaReport.jsx:213
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr ""
 
@@ -1863,7 +1881,8 @@ msgstr ""
 msgid "format as $0"
 msgstr ""
 
-#: src/components/Error.jsx:162 src/components/Error.jsx:235
+#: src/components/error/BugzillaReport.jsx:143
+#: src/components/error/BugzillaReport.jsx:216
 msgid "here"
 msgstr ""
 
@@ -1881,7 +1900,7 @@ msgstr "Apondre una disposicion"
 msgid "pending step"
 msgstr ""
 
-#: src/components/Error.jsx:413
+#: src/components/error/BugzillaReport.jsx:352
 msgid "report the issue manually"
 msgstr ""
 

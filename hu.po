@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-23 07:56+0000\n"
+"POT-Creation-Date: 2026-10-24 07:36+0000\n"
 "PO-Revision-Date: 2026-03-30 05:13+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/"
@@ -213,7 +213,7 @@ msgstr ""
 "Rendeljen partíciókat a csatolási pontokhoz. Az előre beállított, egyéni "
 "elrendezések esetén hasznos."
 
-#: src/components/Error.jsx:396
+#: src/components/error/BugzillaReport.jsx:335
 msgid "Automatic log file upload"
 msgstr "Automatikus naplófájlfeltöltés"
 
@@ -230,8 +230,9 @@ msgstr "Időzóna automatikus beállítása"
 msgid "Available free space: $0. Installation requires: $1."
 msgstr "Elérhető szabad terület: $0. A telepítéshez szükséges: $1."
 
-#: src/components/Error.jsx:668 src/components/Error.jsx:693
 #: src/components/AnacondaWizardFooter.jsx:62
+#: src/components/error/BugzillaReport.jsx:599
+#: src/components/error/BugzillaReport.jsx:624
 msgid "Back"
 msgstr "Vissza"
 
@@ -239,15 +240,20 @@ msgstr "Vissza"
 msgid "Base environment"
 msgstr "Alap környezet"
 
-#: src/components/Error.jsx:367
+#: src/components/error/BugzillaReport.jsx:306
 msgid "Brief description of the issue"
 msgstr "A probléma tömör leírása"
 
-#: src/components/Error.jsx:356
+#: src/components/error/BugzillaReport.jsx:295
 msgid "Bug report details"
 msgstr "Hibajelentés részletei"
 
-#: src/components/Error.jsx:206
+#: src/components/error/GenericReport.jsx:31
+#: src/components/error/GenericReport.jsx:76
+msgid "Bug reporting is not configured for this distribution."
+msgstr ""
+
+#: src/components/error/BugzillaReport.jsx:187
 msgid "Bugzilla API key"
 msgstr "Bugzilla API-kulcs"
 
@@ -267,8 +273,8 @@ msgstr ""
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:375
-#: src/components/Error.jsx:861 src/components/localization/Keyboard.jsx:282
-#: src/components/review/Hostname.jsx:127
+#: src/components/localization/Keyboard.jsx:282
+#: src/components/error/Error.jsx:163 src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "Mégse"
 
@@ -455,7 +461,7 @@ msgstr "kiterjesztett partíció"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Egyes partíciók törlése megakadályozhatja a(z) $0 indítását: $1"
 
-#: src/components/Error.jsx:262
+#: src/components/error/common.jsx:85
 msgid "Description"
 msgstr "Leírás"
 
@@ -467,7 +473,7 @@ msgstr "Cél"
 msgid "Destination is encrypted"
 msgstr "A cél titkosított"
 
-#: src/components/Error.jsx:267
+#: src/components/error/common.jsx:90
 msgid "Detailed description of the issue"
 msgstr "A probléma részletes leírása"
 
@@ -516,7 +522,7 @@ msgstr ""
 msgid "Enter PIN to access the installer"
 msgstr ""
 
-#: src/components/Error.jsx:203
+#: src/components/error/BugzillaReport.jsx:184
 msgid ""
 "Enter your Bugzilla API key to create a bug report. You will be able to "
 "review and edit the bug details in the next step."
@@ -524,7 +530,7 @@ msgstr ""
 "Adja meg a Bugzilla API-kulcsát a hibajelentés létrehozásához. A következő "
 "lépésben átnézheti és szerkesztheti a hibajelentés részleteit."
 
-#: src/components/Error.jsx:279
+#: src/components/error/common.jsx:103
 msgid "Environment"
 msgstr "Környezet"
 
@@ -532,7 +538,7 @@ msgstr "Környezet"
 msgid "Erase data and install"
 msgstr "Törölje az adatokat és telepítse"
 
-#: src/components/Error.jsx:818
+#: src/components/error/common.jsx:50
 msgid "Error details"
 msgstr "Hiba részletei"
 
@@ -551,7 +557,7 @@ msgstr "Kiterjesztett partíció"
 msgid "Failed to configure installation source"
 msgstr "Telepítési forrás beállítása sikertelen"
 
-#: src/components/Error.jsx:642
+#: src/components/error/BugzillaReport.jsx:573
 msgid "Failed to report issue"
 msgstr "Nem sikerült a hiba bejelentése"
 
@@ -599,7 +605,7 @@ msgstr "A teljes név nem tartalmazhat kettőspontot"
 msgid "Helper text"
 msgstr "Súgószöveg"
 
-#: src/components/Error.jsx:223
+#: src/components/error/BugzillaReport.jsx:204
 msgid "Hide API key"
 msgstr "API-kulcs elrejtése"
 
@@ -609,7 +615,7 @@ msgstr "API-kulcs elrejtése"
 msgid "Hide PIN"
 msgstr "API-kulcs elrejtése"
 
-#: src/components/Password.jsx:276
+#: src/components/Password.jsx:260
 msgid "Hide confirmed password"
 msgstr "Megerősített jelszó elrejtése"
 
@@ -617,7 +623,7 @@ msgstr "Megerősített jelszó elrejtése"
 msgid "Hide passphrase"
 msgstr "Jelmondat elrejtése"
 
-#: src/components/Password.jsx:240
+#: src/components/Password.jsx:224
 msgid "Hide password"
 msgstr "Jelszó elrejtése"
 
@@ -662,7 +668,7 @@ msgstr ""
 msgid "If you are configuring partitions the following are required:"
 msgstr "Ha partíciókat állít be, akkor a következőkre lesz szükség:"
 
-#: src/components/Error.jsx:411
+#: src/components/error/BugzillaReport.jsx:350
 msgid ""
 "If you do not consent to automatic log file upload, you can $0 instead. "
 "Manual reporting allows you to review and selectively attach log files "
@@ -679,7 +685,7 @@ msgstr ""
 "Ha nem érti, vagy nem fogadja el a kockázatokat, akkor lépjen ki a "
 "programból."
 
-#: src/components/Error.jsx:328
+#: src/components/error/BugzillaReport.jsx:267
 msgid ""
 "If your issue matches one of the bugs above, you can open it and add your "
 "information there instead of creating a duplicate report."
@@ -706,7 +712,7 @@ msgid "Installation completed"
 msgstr "Telepítés kész"
 
 #: src/components/installation/InstallationProgress.jsx:219
-#: src/components/Error.jsx:849
+#: src/components/error/Error.jsx:151
 msgid "Installation failed"
 msgstr "A telepítés sikertelen"
 
@@ -792,7 +798,7 @@ msgstr "Nyelv"
 msgid "Launch storage editor"
 msgstr "Tárhelyszerkesztő indítása"
 
-#: src/components/Error.jsx:387
+#: src/components/error/BugzillaReport.jsx:326
 msgid "Learn more about restricted access in the configuration"
 msgstr "Tudjon meg többet a korlátozott hozzáférésről a beállításokban"
 
@@ -881,7 +887,7 @@ msgstr "Fentebb helyezés"
 msgid "Must be at least $0 characters"
 msgstr "Legalább $0 karakterből kell állnia"
 
-#: src/components/Error.jsx:676
+#: src/components/error/BugzillaReport.jsx:607
 msgid "My issue is different, continue"
 msgstr ""
 
@@ -910,7 +916,7 @@ msgstr "Hálózat"
 msgid "Network Configuration"
 msgstr "Hálózati beállítások"
 
-#: src/components/Error.jsx:726
+#: src/components/error/Error.jsx:59
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
 "the issue."
@@ -918,7 +924,7 @@ msgstr ""
 "A hálózat nem érhető el. A probléma bejelentéséhez állítsa be a hálózatot a "
 "felső sáv menüjében."
 
-#: src/components/Error.jsx:727
+#: src/components/error/Error.jsx:60
 msgid "Network not available. Configure the network to report the issue."
 msgstr ""
 "A hálózat nem érhető el. A probléma bejelentéséhez állítsa be a hálózatot."
@@ -927,7 +933,8 @@ msgstr ""
 msgid "Network plugin failed"
 msgstr "A hálózati bővítmény sikertelen"
 
-#: src/components/Error.jsx:658 src/components/AnacondaWizardFooter.jsx:71
+#: src/components/AnacondaWizardFooter.jsx:71
+#: src/components/error/BugzillaReport.jsx:589
 msgid "Next"
 msgstr "Következő"
 
@@ -988,7 +995,7 @@ msgstr ""
 "tesztelési célokra készült. NE használja kritikus munkára vagy éles "
 "rendszerekhez."
 
-#: src/components/Error.jsx:181
+#: src/components/error/BugzillaReport.jsx:162
 msgid "Open Bugzilla bug entry form"
 msgstr "Bugzilla hibajelentési űrlap megnyitása"
 
@@ -1019,7 +1026,7 @@ msgstr "Jelmondat"
 msgid "Passphrase did not match any locked device"
 msgstr "A jelmondat nem egyezik egyetlen zárolt eszközével sem"
 
-#: src/components/Password.jsx:289
+#: src/components/Password.jsx:273
 msgid "Passphrases must match"
 msgstr "A jelmondatoknak egyezniük kell"
 
@@ -1027,7 +1034,7 @@ msgstr "A jelmondatoknak egyezniük kell"
 msgid "Pending"
 msgstr "Folyamatban"
 
-#: src/components/Error.jsx:94
+#: src/components/error/BugzillaReport.jsx:88
 msgid "Please attach the log file $0 to the issue."
 msgstr "Mellékelje a(z) $0 naplófájlt a problémához."
 
@@ -1037,6 +1044,12 @@ msgstr "Mellékelje a(z) $0 naplófájlt a problémához."
 msgid "Please enter a PIN"
 msgstr "Adjon meg egy érvényes nevet."
 
+#: src/components/error/GenericReport.jsx:67
+#, fuzzy
+#| msgid "report the issue manually"
+msgid "Please report this issue at $0."
+msgstr "jelentheti a hibát kézileg"
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:322
 msgid "Please select at least one disk to continue"
 msgstr "Válasszon legalább egy lemezt a folytatáshoz"
@@ -1045,7 +1058,7 @@ msgstr "Válasszon legalább egy lemezt a folytatáshoz"
 msgid "Pool"
 msgstr "Hálózat"
 
-#: src/components/Error.jsx:296
+#: src/components/error/BugzillaReport.jsx:235
 #, fuzzy
 #| msgid "No mountable devices found"
 msgid "Potential duplicate bugs found"
@@ -1059,7 +1072,7 @@ msgstr "Az Anaconda használatával"
 msgid "Pre-release"
 msgstr "Kiadás előtti verziók"
 
-#: src/components/Error.jsx:179
+#: src/components/error/BugzillaReport.jsx:160
 msgid "Prefer to report manually? $0"
 msgstr "Inkább kézileg jelenti be? $0"
 
@@ -1074,8 +1087,9 @@ msgstr "Telepítés folytatása"
 msgid "Proxy"
 msgstr "_FTP proxy"
 
-#: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
+#: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
+#: src/components/error/Error.jsx:140
 msgid "Quit"
 msgstr "Kilépés"
 
@@ -1113,8 +1127,9 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "A valódi gépnév 64 vagy kevesebb karakter hosszú lehet"
 
 #: src/components/installation/InstallationProgress.jsx:248
-#: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
+#: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
+#: src/components/error/Error.jsx:140
 msgid "Reboot"
 msgstr "Újraindítás"
 
@@ -1208,7 +1223,17 @@ msgstr ""
 msgid "Report Issue"
 msgstr "Probléma bejelentése"
 
-#: src/components/Error.jsx:160
+#: src/components/error/GenericReport.jsx:39
+#, fuzzy
+#| msgid ""
+#| "Report an issue or provide feedback by opening the Bugzilla bug entry "
+#| "form $0."
+msgid "Report an issue or provide feedback at $0."
+msgstr ""
+"Egy probléma bejelentése vagy visszajelzés adása a Bugzilla hibajelentési "
+"űrlap megnyitásával: $0."
+
+#: src/components/error/BugzillaReport.jsx:141
 msgid ""
 "Report an issue or provide feedback by opening the Bugzilla bug entry form "
 "$0."
@@ -1216,11 +1241,12 @@ msgstr ""
 "Egy probléma bejelentése vagy visszajelzés adása a Bugzilla hibajelentési "
 "űrlap megnyitásával: $0."
 
-#: src/components/Error.jsx:703 src/components/Error.jsx:870
+#: src/components/error/BugzillaReport.jsx:634
+#: src/components/error/Error.jsx:172
 msgid "Report issue"
 msgstr "Probléma bejelentése"
 
-#: src/components/Error.jsx:703
+#: src/components/error/BugzillaReport.jsx:634
 msgid "Reporting issue..."
 msgstr "Probléma bejelentése…"
 
@@ -1258,11 +1284,11 @@ msgstr "Kiterjesztett partíció"
 msgid "Resizing the following partitions from $0: $1"
 msgstr "A(z) $0 következő partícióinak átméretezése: $1"
 
-#: src/components/Error.jsx:381
+#: src/components/error/BugzillaReport.jsx:320
 msgid "Restrict access to the report"
 msgstr "Hozzáférés korlátozása a jelentésnél"
 
-#: src/components/Error.jsx:383
+#: src/components/error/BugzillaReport.jsx:322
 msgid "Restricts the report to the $0 group. $1"
 msgstr "A jelentést a(z) $0 csoportra korlátozza. $1"
 
@@ -1406,7 +1432,7 @@ msgstr "Lemez megosztása más operációs rendszerekkel: $0"
 msgid "Show AM/PM"
 msgstr "A _de./du. megjelenítése"
 
-#: src/components/Error.jsx:223
+#: src/components/error/BugzillaReport.jsx:204
 msgid "Show API key"
 msgstr "API-kulcs megjelenítése"
 
@@ -1416,7 +1442,7 @@ msgstr "API-kulcs megjelenítése"
 msgid "Show PIN"
 msgstr "API-kulcs megjelenítése"
 
-#: src/components/Password.jsx:276
+#: src/components/Password.jsx:260
 msgid "Show confirmed password"
 msgstr "Megerősített jelszó megjelenítése"
 
@@ -1424,7 +1450,7 @@ msgstr "Megerősített jelszó megjelenítése"
 msgid "Show passphrase"
 msgstr "Jelmondta megjelenítése"
 
-#: src/components/Password.jsx:240
+#: src/components/Password.jsx:224
 msgid "Show password"
 msgstr "Jelszó megjelenítése"
 
@@ -1462,7 +1488,7 @@ msgstr "Egyes szükséges partíciók hiányoznak: $0"
 msgid "Space"
 msgstr "Hely"
 
-#: src/components/Error.jsx:273
+#: src/components/error/common.jsx:97
 msgid "Stacktrace"
 msgstr "Veremkiíratás"
 
@@ -1543,7 +1569,7 @@ msgstr ""
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "Az Anaconda telepítő váratlanul leállt."
 
-#: src/components/Error.jsx:301
+#: src/components/error/BugzillaReport.jsx:240
 msgid ""
 "The following open bugs may be related to your issue. Please review them "
 "before creating a new report."
@@ -1565,11 +1591,11 @@ msgstr ""
 "A telepítéshez $0 tárterület szükséges; viszont a kiválasztott lemezek "
 "kapacitása csak $1."
 
-#: src/components/Error.jsx:778
+#: src/components/error/Error.jsx:107
 msgid "The installer cannot continue due to a critical error."
 msgstr "A telepítő nem tudja folytatni egy kritikus hiba miatt."
 
-#: src/components/Error.jsx:777
+#: src/components/error/Error.jsx:106
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "A telepítő nem tudja folytatni egy kritikus hiba miatt: $0"
 
@@ -1605,7 +1631,7 @@ msgstr ""
 "Beállíthat LVM-et, és még sok mindent. Speciális segédprogramként való "
 "használatra lett szánva, egy tipikus telepítés során nem szükséges."
 
-#: src/components/Error.jsx:407
+#: src/components/error/BugzillaReport.jsx:346
 msgid ""
 "These log files may contain sensitive information such as IP addresses, "
 "usernames, or other system details."
@@ -1642,7 +1668,7 @@ msgstr "Idő"
 msgid "Timezone"
 msgstr "Időzóna"
 
-#: src/components/Error.jsx:359
+#: src/components/error/BugzillaReport.jsx:298
 msgid "Title"
 msgstr "Cím"
 
@@ -1761,7 +1787,7 @@ msgstr "A felhasználónév nem tartalmazhat a rendszer számára fenntartott sz
 msgid "User names must be shorter than 33 characters"
 msgstr "A felhasználónévnek 33 karakternél rövidebbnek kell lennie"
 
-#: src/components/Error.jsx:658
+#: src/components/error/BugzillaReport.jsx:589
 msgid "Validating..."
 msgstr "Érvényesítés…"
 
@@ -1781,7 +1807,7 @@ msgstr "Üdvözli a Fedora Linux"
 msgid "Welcome. Let's install $0 now."
 msgstr "Üdvözöljük. Kezdődhet a(z) $0 telepítése."
 
-#: src/components/Error.jsx:402
+#: src/components/error/BugzillaReport.jsx:341
 msgid ""
 "When you submit this bug report, the following log files will be uploaded "
 "automatically: $0"
@@ -1806,7 +1832,7 @@ msgstr ""
 "Vagy felszabadíthat itt elég helyett, és hagyhatja, hogy a telepítő intézze "
 "a többit, vagy kézileg állíthatja be a partíciókat."
 
-#: src/components/Error.jsx:232
+#: src/components/error/BugzillaReport.jsx:213
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr "Előállíthat egy API-kulcsot a(z) $0 Bugzilla-fiókjához."
 
@@ -1861,7 +1887,8 @@ msgstr "kiterjesztett partíció"
 msgid "format as $0"
 msgstr "formázás mint $0"
 
-#: src/components/Error.jsx:162 src/components/Error.jsx:235
+#: src/components/error/BugzillaReport.jsx:143
+#: src/components/error/BugzillaReport.jsx:216
 msgid "here"
 msgstr "itt"
 
@@ -1879,7 +1906,7 @@ msgstr "csatolás"
 msgid "pending step"
 msgstr "függőben lévő lépés"
 
-#: src/components/Error.jsx:413
+#: src/components/error/BugzillaReport.jsx:352
 msgid "report the issue manually"
 msgstr "jelentheti a hibát kézileg"
 

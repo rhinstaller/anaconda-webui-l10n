@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-23 07:56+0000\n"
+"POT-Creation-Date: 2026-10-24 07:36+0000\n"
 "PO-Revision-Date: 2026-05-06 05:45+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.fedoraproject.org/projects/anaconda-"
@@ -176,7 +176,7 @@ msgid ""
 "Assign partitions to mount points. Useful for pre-configured custom layouts."
 msgstr "ກຳນົດພາກສ່ວນໃຫ້ກັບຈຸດເຊື່ອມຕໍ່. ມີປະໂຫຍດສຳລັບຮູບແບບທີ່ຕັ້ງຄ່າໄວ້ລ່ວງໜ້າ."
 
-#: src/components/Error.jsx:396
+#: src/components/error/BugzillaReport.jsx:335
 msgid "Automatic log file upload"
 msgstr "ອັບໂຫຼດໄຟລ໌ບັນທຶກອັດຕະໂນມັດ"
 
@@ -193,8 +193,9 @@ msgstr "ຕັ້ງເຂດເວລາອັດຕະໂນມັດ"
 msgid "Available free space: $0. Installation requires: $1."
 msgstr "ພື້ນທີ່ວ່າງທີ່ມີ: $0. ການຕິດຕັ້ງຕ້ອງການ: $1."
 
-#: src/components/Error.jsx:668 src/components/Error.jsx:693
 #: src/components/AnacondaWizardFooter.jsx:62
+#: src/components/error/BugzillaReport.jsx:599
+#: src/components/error/BugzillaReport.jsx:624
 msgid "Back"
 msgstr "ກັບຄືນ"
 
@@ -202,15 +203,20 @@ msgstr "ກັບຄືນ"
 msgid "Base environment"
 msgstr "ສະພາບແວດລ້ອມພື້ນຖານ"
 
-#: src/components/Error.jsx:367
+#: src/components/error/BugzillaReport.jsx:306
 msgid "Brief description of the issue"
 msgstr "ຄຳອະທິບາຍຫຍໍ້ກ່ຽວກັບບັນຫາ"
 
-#: src/components/Error.jsx:356
+#: src/components/error/BugzillaReport.jsx:295
 msgid "Bug report details"
 msgstr "ລາຍລະອຽດການລາຍງານບັກ"
 
-#: src/components/Error.jsx:206
+#: src/components/error/GenericReport.jsx:31
+#: src/components/error/GenericReport.jsx:76
+msgid "Bug reporting is not configured for this distribution."
+msgstr ""
+
+#: src/components/error/BugzillaReport.jsx:187
 msgid "Bugzilla API key"
 msgstr "ລະຫັດ Bugzilla API key"
 
@@ -229,8 +235,8 @@ msgstr ""
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:375
-#: src/components/Error.jsx:861 src/components/localization/Keyboard.jsx:282
-#: src/components/review/Hostname.jsx:127
+#: src/components/localization/Keyboard.jsx:282
+#: src/components/error/Error.jsx:163 src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "ຍົກເລີກ"
 
@@ -406,7 +412,7 @@ msgstr "ລຶບພາກສ່ວນ"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "ການລຶບພາກສ່ວນໃດໜຶ່ງອາດເຮັດໃຫ້ $0 ບໍ່ສາມາດບູດໄດ້: $1"
 
-#: src/components/Error.jsx:262
+#: src/components/error/common.jsx:85
 msgid "Description"
 msgstr "ຄຳອະທິບາຍ"
 
@@ -418,7 +424,7 @@ msgstr "ປາຍທາງ"
 msgid "Destination is encrypted"
 msgstr "ປາຍທາງຖືກເຂົ້າລະຫັດໄວ້"
 
-#: src/components/Error.jsx:267
+#: src/components/error/common.jsx:90
 msgid "Detailed description of the issue"
 msgstr "ຄຳອະທິບາຍລາຍລະອຽດຂອງບັນຫາ"
 
@@ -467,7 +473,7 @@ msgstr ""
 msgid "Enter PIN to access the installer"
 msgstr ""
 
-#: src/components/Error.jsx:203
+#: src/components/error/BugzillaReport.jsx:184
 msgid ""
 "Enter your Bugzilla API key to create a bug report. You will be able to "
 "review and edit the bug details in the next step."
@@ -475,7 +481,7 @@ msgstr ""
 "ປ້ອນລະຫັດ Bugzilla API ຂອງທ່ານເພື່ອສ້າງລາຍງານບັກ. ທ່ານຈະສາມາດກວດສອບ ແລະ "
 "ແກ້ໄຂລາຍລະອຽດຂອງບັກໃນຂັ້ນຕອນຕໍ່ໄປ."
 
-#: src/components/Error.jsx:279
+#: src/components/error/common.jsx:103
 msgid "Environment"
 msgstr "ສະພາບແວດລ້ອມ"
 
@@ -483,7 +489,7 @@ msgstr "ສະພາບແວດລ້ອມ"
 msgid "Erase data and install"
 msgstr "ລຶບຂໍ້ມູນ ແລະ ຕິດຕັ້ງ"
 
-#: src/components/Error.jsx:818
+#: src/components/error/common.jsx:50
 msgid "Error details"
 msgstr "ລາຍລະອຽດຂໍ้ຜິດພາດ"
 
@@ -502,7 +508,7 @@ msgstr "ພາກສ່ວນຂະຫຍາຍ"
 msgid "Failed to configure installation source"
 msgstr "ດຳເນີນການຕິດຕັ້ງຕໍ່"
 
-#: src/components/Error.jsx:642
+#: src/components/error/BugzillaReport.jsx:573
 msgid "Failed to report issue"
 msgstr "ລາຍງານບັນຫາບໍ່ສຳເລັດ"
 
@@ -549,7 +555,7 @@ msgstr "ຊື່ເຕັມບໍ່ສາມາດມີເຄື່ອງໝ
 msgid "Helper text"
 msgstr "ຂໍ້ຄວາມຊ່ວຍເຫຼືອ"
 
-#: src/components/Error.jsx:223
+#: src/components/error/BugzillaReport.jsx:204
 msgid "Hide API key"
 msgstr "ເຊື່ອງລະຫັດ API"
 
@@ -559,7 +565,7 @@ msgstr "ເຊື່ອງລະຫັດ API"
 msgid "Hide PIN"
 msgstr "ເຊື່ອງລະຫັດ API"
 
-#: src/components/Password.jsx:276
+#: src/components/Password.jsx:260
 msgid "Hide confirmed password"
 msgstr "ເຊື່ອງລະຫັດຜ່ານທີ່ຢືນຢັນ"
 
@@ -567,7 +573,7 @@ msgstr "ເຊື່ອງລະຫັດຜ່ານທີ່ຢືນຢັນ
 msgid "Hide passphrase"
 msgstr "ເຊື່ອງລະຫັດຜ່ານ"
 
-#: src/components/Password.jsx:240
+#: src/components/Password.jsx:224
 msgid "Hide password"
 msgstr "ເຊື່ອງລະຫັດຜ່ານ"
 
@@ -607,7 +613,7 @@ msgstr ""
 msgid "If you are configuring partitions the following are required:"
 msgstr "ຖ້າທ່ານກຳລັງຕັ້ງຄ່າພາກສ່ວນ, ສິ່ງຕໍ່ໄປນີ້ແມ່ນຈຳເປັນ:"
 
-#: src/components/Error.jsx:411
+#: src/components/error/BugzillaReport.jsx:350
 msgid ""
 "If you do not consent to automatic log file upload, you can $0 instead. "
 "Manual reporting allows you to review and selectively attach log files "
@@ -621,7 +627,7 @@ msgid ""
 "If you do not understand or accept the risks, then please exit this program."
 msgstr "ຖ້າທ່ານບໍ່ເຂົ້າໃຈ ຫຼື ບໍ່ຍອມຮັບຄວາມສ່ຽງ, ກະລຸນາອອກຈາກໂປຣແກຣມນີ້."
 
-#: src/components/Error.jsx:328
+#: src/components/error/BugzillaReport.jsx:267
 msgid ""
 "If your issue matches one of the bugs above, you can open it and add your "
 "information there instead of creating a duplicate report."
@@ -648,7 +654,7 @@ msgid "Installation completed"
 msgstr "ວິທີການຕິດຕັ້ງ"
 
 #: src/components/installation/InstallationProgress.jsx:219
-#: src/components/Error.jsx:849
+#: src/components/error/Error.jsx:151
 msgid "Installation failed"
 msgstr "ການຕິດຕັ້ງບໍ່ສຳເລັດ"
 
@@ -730,7 +736,7 @@ msgstr "ພາສາ"
 msgid "Launch storage editor"
 msgstr "ເປີດຕົວແກ້ໄຂບ່ອນເກັບຂໍ້ມູນ"
 
-#: src/components/Error.jsx:387
+#: src/components/error/BugzillaReport.jsx:326
 msgid "Learn more about restricted access in the configuration"
 msgstr "ຮຽນຮູ້ເພີ່ມເຕີມກ່ຽວກັບການຈຳກັດການເຂົ້າເຖິງໃນການຕັ້ງຄ່າ"
 
@@ -815,7 +821,7 @@ msgstr "ຍ້າຍຂຶ້ນ"
 msgid "Must be at least $0 characters"
 msgstr "ຕ້ອງມີຢ່າງໜ້ອຍ $0 ຕົວອັກສອນ"
 
-#: src/components/Error.jsx:676
+#: src/components/error/BugzillaReport.jsx:607
 msgid "My issue is different, continue"
 msgstr ""
 
@@ -844,13 +850,13 @@ msgstr ""
 msgid "Network Configuration"
 msgstr "ການຕັ້ງຄ່າເຄືອຂ່າຍ"
 
-#: src/components/Error.jsx:726
+#: src/components/error/Error.jsx:59
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
 "the issue."
 msgstr "ບໍ່ມີເຄືອຂ່າຍ. ຕັ້ງຄ່າເຄືອຂ່າຍໃນເມນູແຖບດ້ານເທິງເພື່ອລາຍງານບັນຫາ."
 
-#: src/components/Error.jsx:727
+#: src/components/error/Error.jsx:60
 msgid "Network not available. Configure the network to report the issue."
 msgstr "ບໍ່ມີເຄືອຂ່າຍ. ຕັ້ງຄ່າເຄືອຂ່າຍເພື່ອລາຍງານບັນຫາ."
 
@@ -858,7 +864,8 @@ msgstr "ບໍ່ມີເຄືອຂ່າຍ. ຕັ້ງຄ່າເຄື�
 msgid "Network plugin failed"
 msgstr "ປລັກອິນເຄືອຂ່າຍເຮັດວຽກຜິດພາດ"
 
-#: src/components/Error.jsx:658 src/components/AnacondaWizardFooter.jsx:71
+#: src/components/AnacondaWizardFooter.jsx:71
+#: src/components/error/BugzillaReport.jsx:589
 msgid "Next"
 msgstr "ຕໍ່ໄປ"
 
@@ -917,7 +924,7 @@ msgstr ""
 "ໝາຍເຫດ: ນີ້ແມ່ນຊອບແວລຸ້ນທົດລອງທີ່ມີຈຸດປະສົງເພື່ອການພັດທະນາ ແລະ ການທົດສອບເທົັ້ນນັ້ນ. "
 "ຫ້າມໃຊ້ຊອບແວນີ້ສຳລັບວຽກງານທີ່ສຳຄັນ ຫຼື ໃນສະພາບແວດລ້ອມການເຮັດວຽກຈິງ."
 
-#: src/components/Error.jsx:181
+#: src/components/error/BugzillaReport.jsx:162
 msgid "Open Bugzilla bug entry form"
 msgstr "ເປີດແບບຟອມແຈ້ງບັກຂອງ Bugzilla"
 
@@ -948,7 +955,7 @@ msgstr "ລະຫັດຜ່ານ"
 msgid "Passphrase did not match any locked device"
 msgstr "ລະຫັດຜ່ານບໍ່ກົງກັບອຸປະກອນທີ່ຖືກລັອກໃດໆ"
 
-#: src/components/Password.jsx:289
+#: src/components/Password.jsx:273
 msgid "Passphrases must match"
 msgstr "ລະຫັດຜ່ານຕ້ອງກົງກັນ"
 
@@ -956,13 +963,19 @@ msgstr "ລະຫັດຜ່ານຕ້ອງກົງກັນ"
 msgid "Pending"
 msgstr "ລໍຖ້າ"
 
-#: src/components/Error.jsx:94
+#: src/components/error/BugzillaReport.jsx:88
 msgid "Please attach the log file $0 to the issue."
 msgstr "ກະລຸນາແນບໄຟລ໌ບັນທຶກ $0 ໄປນຳ."
 
 #: src/components/login/LoginPage.jsx:44
 msgid "Please enter a PIN"
 msgstr ""
+
+#: src/components/error/GenericReport.jsx:67
+#, fuzzy
+#| msgid "report the issue manually"
+msgid "Please report this issue at $0."
+msgstr "ລາຍງານບັນຫາດ້ວຍຕົນເອງ"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:322
 msgid "Please select at least one disk to continue"
@@ -972,7 +985,7 @@ msgstr "ກະລຸນາເລືອກດິດຢ່າງໜ້ອຍໜຶ
 msgid "Pool"
 msgstr "Pool"
 
-#: src/components/Error.jsx:296
+#: src/components/error/BugzillaReport.jsx:235
 msgid "Potential duplicate bugs found"
 msgstr ""
 
@@ -984,7 +997,7 @@ msgstr "ຂັບເຄື່ອນໂດຍ Anaconda"
 msgid "Pre-release"
 msgstr "ລຸ້ນທົດລອງ"
 
-#: src/components/Error.jsx:179
+#: src/components/error/BugzillaReport.jsx:160
 msgid "Prefer to report manually? $0"
 msgstr "ຕ້ອງການລາຍງານດ້ວຍຕົນເອງບໍ? $0"
 
@@ -996,8 +1009,9 @@ msgstr "ດຳເນີນການຕິດຕັ້ງຕໍ່"
 msgid "Proxy"
 msgstr ""
 
-#: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
+#: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
+#: src/components/error/Error.jsx:140
 msgid "Quit"
 msgstr "ອອກ"
 
@@ -1034,8 +1048,9 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "ຊື່ເຄື່ອງຕ້ອງມີຄວາມຍາວບໍ່ເກີນ 64 ຕົວອັກສອນ"
 
 #: src/components/installation/InstallationProgress.jsx:248
-#: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
+#: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
+#: src/components/error/Error.jsx:140
 msgid "Reboot"
 msgstr "ເລີ່ມລະບົບໃໝ່"
 
@@ -1123,17 +1138,26 @@ msgstr "ແທນທີ່ການຕິດຕັ້ງປະຈຸບັນ, �
 msgid "Report Issue"
 msgstr "ແຈ້ງບັນຫາ"
 
-#: src/components/Error.jsx:160
+#: src/components/error/GenericReport.jsx:39
+#, fuzzy
+#| msgid ""
+#| "Report an issue or provide feedback by opening the Bugzilla bug entry "
+#| "form $0."
+msgid "Report an issue or provide feedback at $0."
+msgstr "ລາຍງານບັນຫາ ຫຼື ໃຫ້ຄຳແນະນຳໂດຍການເປີດແບບຟອມແຈ້ງບັກຂອງ Bugzilla $0."
+
+#: src/components/error/BugzillaReport.jsx:141
 msgid ""
 "Report an issue or provide feedback by opening the Bugzilla bug entry form "
 "$0."
 msgstr "ລາຍງານບັນຫາ ຫຼື ໃຫ້ຄຳແນະນຳໂດຍການເປີດແບບຟອມແຈ້ງບັກຂອງ Bugzilla $0."
 
-#: src/components/Error.jsx:703 src/components/Error.jsx:870
+#: src/components/error/BugzillaReport.jsx:634
+#: src/components/error/Error.jsx:172
 msgid "Report issue"
 msgstr "ລາຍງານບັນຫາ"
 
-#: src/components/Error.jsx:703
+#: src/components/error/BugzillaReport.jsx:634
 msgid "Reporting issue..."
 msgstr "ກຳລັງລາຍງານບັນຫາ..."
 
@@ -1169,11 +1193,11 @@ msgstr "ປ່ຽນຂະໜາດພາກສ່ວນ"
 msgid "Resizing the following partitions from $0: $1"
 msgstr "ກຳລັງປ່ຽນຂະໜາດພາກສ່ວນຕໍ່ໄປນີ້ຈາກ $0: $1"
 
-#: src/components/Error.jsx:381
+#: src/components/error/BugzillaReport.jsx:320
 msgid "Restrict access to the report"
 msgstr "ຈຳກັດການເຂົ້າເຖິງການລາຍງານ"
 
-#: src/components/Error.jsx:383
+#: src/components/error/BugzillaReport.jsx:322
 msgid "Restricts the report to the $0 group. $1"
 msgstr "ຈຳກັດການລາຍງານໃຫ້ສະເພາະກຸ່ມ $0. $1"
 
@@ -1313,7 +1337,7 @@ msgstr "ແບ່ງປັນດິດກັບລະບົບປະຕິບັ
 msgid "Show AM/PM"
 msgstr "ສະແດງ AM/PM"
 
-#: src/components/Error.jsx:223
+#: src/components/error/BugzillaReport.jsx:204
 msgid "Show API key"
 msgstr "ສະແດງລະຫັດ API"
 
@@ -1323,7 +1347,7 @@ msgstr "ສະແດງລະຫັດ API"
 msgid "Show PIN"
 msgstr "ສະແດງລະຫັດ API"
 
-#: src/components/Password.jsx:276
+#: src/components/Password.jsx:260
 msgid "Show confirmed password"
 msgstr "ສະແດງລະຫັດຜ່ານທີ່ຢືນຢັນ"
 
@@ -1331,7 +1355,7 @@ msgstr "ສະແດງລະຫັດຜ່ານທີ່ຢືນຢັນ"
 msgid "Show passphrase"
 msgstr "ສະແດງລະຫັດຜ່ານ"
 
-#: src/components/Password.jsx:240
+#: src/components/Password.jsx:224
 msgid "Show password"
 msgstr "ສະແດງລະຫັດຜ່ານ"
 
@@ -1367,7 +1391,7 @@ msgstr "ບາງພາກສ່ວນທີ່ຈຳເປັນຫາຍໄປ
 msgid "Space"
 msgstr "ພື້ນທີ່"
 
-#: src/components/Error.jsx:273
+#: src/components/error/common.jsx:97
 msgid "Stacktrace"
 msgstr "Stacktrace"
 
@@ -1448,7 +1472,7 @@ msgstr "ການຕັ້ງຄ່າລະບົບ: ການຕິດຕັ�
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "ການຕິດຕັ້ງ Anaconda ຢຸດເຮັດວຽກໂດຍບໍ່ຄາດຄິດ."
 
-#: src/components/Error.jsx:301
+#: src/components/error/BugzillaReport.jsx:240
 msgid ""
 "The following open bugs may be related to your issue. Please review them "
 "before creating a new report."
@@ -1465,11 +1489,11 @@ msgid ""
 "selected disks is only $1."
 msgstr "ການຕິດຕັ້ງຕ້ອງການພື້ນທີ່ດິດ $0; ແຕ່ຄວາມຈຸຂອງດິດທີ່ເລືອກມີພຽງ $1."
 
-#: src/components/Error.jsx:778
+#: src/components/error/Error.jsx:107
 msgid "The installer cannot continue due to a critical error."
 msgstr "ຕົວຕິດຕັ້ງບໍ່ສາມາດດຳເນີນການຕໍ່ໄດ້ ເນື່ອງຈາກເກີດຂໍ້ຜິດພາດທີ່ຮ້າຍແຮງ."
 
-#: src/components/Error.jsx:777
+#: src/components/error/Error.jsx:106
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "ຕົວຕິດຕັ້ງບໍ່ສາມາດດຳເນີນການຕໍ່ໄດ້ ເນື່ອງຈາກເກີດຂໍ້ຜິດພາດທີ່ຮ້າຍແຮງ: $0"
 
@@ -1503,7 +1527,7 @@ msgstr ""
 "ຕົວແກ້ໄຂບ່ອນເກັບຂໍ້ມູນຊ່ວຍໃຫ້ທ່ານປ່ຽນຂະໜາດ, ລຶບ ແລະ ສ້າງພາກສ່ວນໄດ້. ມັນສາມາດຕັ້ງຄ່າ LVM ແລະ "
 "ອື່ນໆອີກ. ມັນຖືກອອກແບບມາເພື່ອເປັນເຄື່ອງມືຂັ້ນສູງ ແລະ ບໍ່ໄດ້ມີຈຸດປະສົງສຳລັບການຕິດຕັ້ງແບບທົ່ວໄປ."
 
-#: src/components/Error.jsx:407
+#: src/components/error/BugzillaReport.jsx:346
 msgid ""
 "These log files may contain sensitive information such as IP addresses, "
 "usernames, or other system details."
@@ -1538,7 +1562,7 @@ msgstr "ເວລາ"
 msgid "Timezone"
 msgstr "ເຂດເວລາ"
 
-#: src/components/Error.jsx:359
+#: src/components/error/BugzillaReport.jsx:298
 msgid "Title"
 msgstr "ຫົວຂໍ້"
 
@@ -1642,7 +1666,7 @@ msgstr "ຊື່ຜູ້ໃຊ້ຕ້ອງບໍ່ແມ່ນຄຳສະ
 msgid "User names must be shorter than 33 characters"
 msgstr "ຊື່ຜູ້ໃຊ້ຕ້ອງສັ້ນກວ່າ 33 ຕົວອັກສອນ"
 
-#: src/components/Error.jsx:658
+#: src/components/error/BugzillaReport.jsx:589
 msgid "Validating..."
 msgstr "ກຳລັງກວດສອບຄວາມຖືກຕ້ອງ..."
 
@@ -1662,7 +1686,7 @@ msgstr "ຍິນດີຕ້ອນຮັບສູ່ Fedora Linux"
 msgid "Welcome. Let's install $0 now."
 msgstr "ຍິນດີຕ້ອນຮັບ. ມາຕິດຕັ້ງ $0 ດຽວນີ້ເລີຍ."
 
-#: src/components/Error.jsx:402
+#: src/components/error/BugzillaReport.jsx:341
 msgid ""
 "When you submit this bug report, the following log files will be uploaded "
 "automatically: $0"
@@ -1684,7 +1708,7 @@ msgstr ""
 "ທ່ານສາມາດເລືອກເຮັດໃຫ້ມີພື້ນທີ່ວ່າງຢູ່ບ່ອນນີ້ ແລະ ໃຫ້ຕົວຕິດຕັ້ງຈັດການສ່ວນທີ່ເຫຼືອ ຫຼື "
 "ຈະຕັ້ງຄ່າພາກສ່ວນດ້ວຍຕົນເອງກໍໄດ້."
 
-#: src/components/Error.jsx:232
+#: src/components/error/BugzillaReport.jsx:213
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr "ທ່ານສາມາດສ້າງລະຫັດ API ສຳລັບບັນຊີ Bugzilla ຂອງທ່ານໄດ້ທີ່ $0."
 
@@ -1736,7 +1760,8 @@ msgstr "ພາກສ່ວນຂະຫຍາຍ"
 msgid "format as $0"
 msgstr "ຟໍແມັດເປັນ $0"
 
-#: src/components/Error.jsx:162 src/components/Error.jsx:235
+#: src/components/error/BugzillaReport.jsx:143
+#: src/components/error/BugzillaReport.jsx:216
 msgid "here"
 msgstr "ທີ່ນີ້"
 
@@ -1752,7 +1777,7 @@ msgstr "ເຊື່ອມຕໍ່"
 msgid "pending step"
 msgstr "ຂັ້ນຕອນທີ່ກຳລັງລໍຖ້າ"
 
-#: src/components/Error.jsx:413
+#: src/components/error/BugzillaReport.jsx:352
 msgid "report the issue manually"
 msgstr "ລາຍງານບັນຫາດ້ວຍຕົນເອງ"
 

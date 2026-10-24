@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-23 07:56+0000\n"
+"POT-Creation-Date: 2026-10-24 07:36+0000\n"
 "PO-Revision-Date: 2026-07-10 05:44+0000\n"
 "Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/"
@@ -192,7 +192,7 @@ msgstr ""
 "Доделите партиције тачкама качења. Корисно за унапред подешене произвољне "
 "распореде."
 
-#: src/components/Error.jsx:396
+#: src/components/error/BugzillaReport.jsx:335
 msgid "Automatic log file upload"
 msgstr "Самостално отпремање датотеке дневника"
 
@@ -209,8 +209,9 @@ msgstr "Самостално постави временску зону"
 msgid "Available free space: $0. Installation requires: $1."
 msgstr "Доступно слободног простора: $0. Инсталација захтева: $1."
 
-#: src/components/Error.jsx:668 src/components/Error.jsx:693
 #: src/components/AnacondaWizardFooter.jsx:62
+#: src/components/error/BugzillaReport.jsx:599
+#: src/components/error/BugzillaReport.jsx:624
 msgid "Back"
 msgstr "Назад"
 
@@ -218,15 +219,20 @@ msgstr "Назад"
 msgid "Base environment"
 msgstr "Основно окружење"
 
-#: src/components/Error.jsx:367
+#: src/components/error/BugzillaReport.jsx:306
 msgid "Brief description of the issue"
 msgstr "Кратак опис проблема"
 
-#: src/components/Error.jsx:356
+#: src/components/error/BugzillaReport.jsx:295
 msgid "Bug report details"
 msgstr "Детаљи извештаја о грешци"
 
-#: src/components/Error.jsx:206
+#: src/components/error/GenericReport.jsx:31
+#: src/components/error/GenericReport.jsx:76
+msgid "Bug reporting is not configured for this distribution."
+msgstr ""
+
+#: src/components/error/BugzillaReport.jsx:187
 msgid "Bugzilla API key"
 msgstr "Багзила АПИ кључ"
 
@@ -246,8 +252,8 @@ msgstr ""
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:375
-#: src/components/Error.jsx:861 src/components/localization/Keyboard.jsx:282
-#: src/components/review/Hostname.jsx:127
+#: src/components/localization/Keyboard.jsx:282
+#: src/components/error/Error.jsx:163 src/components/review/Hostname.jsx:127
 msgid "Cancel"
 msgstr "Одустани"
 
@@ -422,7 +428,7 @@ msgstr "Обриши партицију"
 msgid "Deletion of certain partitions may prevent $0 from booting: $1"
 msgstr "Брисање одређених партиција може спречити $0 да се покрене: $1"
 
-#: src/components/Error.jsx:262
+#: src/components/error/common.jsx:85
 msgid "Description"
 msgstr "Опис"
 
@@ -434,7 +440,7 @@ msgstr "Одредиште"
 msgid "Destination is encrypted"
 msgstr "Одредиште је шифровано"
 
-#: src/components/Error.jsx:267
+#: src/components/error/common.jsx:90
 msgid "Detailed description of the issue"
 msgstr "Детаљан опис проблема"
 
@@ -484,7 +490,7 @@ msgstr ""
 msgid "Enter PIN to access the installer"
 msgstr ""
 
-#: src/components/Error.jsx:203
+#: src/components/error/BugzillaReport.jsx:184
 msgid ""
 "Enter your Bugzilla API key to create a bug report. You will be able to "
 "review and edit the bug details in the next step."
@@ -492,7 +498,7 @@ msgstr ""
 "Унесите свој АПИ кључ за Бубаждају (Bugzilla) да бисте направили извештај о "
 "грешци. Моћи ћете да прегледате и уредите детаље о грешци у следећем кораку."
 
-#: src/components/Error.jsx:279
+#: src/components/error/common.jsx:103
 msgid "Environment"
 msgstr "Окружење"
 
@@ -500,7 +506,7 @@ msgstr "Окружење"
 msgid "Erase data and install"
 msgstr "Обриши податке и инсталирај"
 
-#: src/components/Error.jsx:818
+#: src/components/error/common.jsx:50
 msgid "Error details"
 msgstr "Појединости грешке"
 
@@ -519,7 +525,7 @@ msgstr "Проширена партиција"
 msgid "Failed to configure installation source"
 msgstr "Неуспешно успостављање извора инсталације"
 
-#: src/components/Error.jsx:642
+#: src/components/error/BugzillaReport.jsx:573
 msgid "Failed to report issue"
 msgstr "Није успело пријављивање проблема"
 
@@ -567,7 +573,7 @@ msgstr "Име и презиме не смеју садржати две тач�
 msgid "Helper text"
 msgstr "Помоћни текст"
 
-#: src/components/Error.jsx:223
+#: src/components/error/BugzillaReport.jsx:204
 msgid "Hide API key"
 msgstr "Сакриј АПИ кључ"
 
@@ -577,7 +583,7 @@ msgstr "Сакриј АПИ кључ"
 msgid "Hide PIN"
 msgstr "Сакриј АПИ кључ"
 
-#: src/components/Password.jsx:276
+#: src/components/Password.jsx:260
 msgid "Hide confirmed password"
 msgstr "Сакриј потврђену лозинку"
 
@@ -585,7 +591,7 @@ msgstr "Сакриј потврђену лозинку"
 msgid "Hide passphrase"
 msgstr "Сакриј лозинку"
 
-#: src/components/Password.jsx:240
+#: src/components/Password.jsx:224
 msgid "Hide password"
 msgstr "Сакриј лозинку"
 
@@ -631,7 +637,7 @@ msgstr ""
 msgid "If you are configuring partitions the following are required:"
 msgstr "Ако подешавате партиције, следеће је потребно:"
 
-#: src/components/Error.jsx:411
+#: src/components/error/BugzillaReport.jsx:350
 msgid ""
 "If you do not consent to automatic log file upload, you can $0 instead. "
 "Manual reporting allows you to review and selectively attach log files "
@@ -646,7 +652,7 @@ msgid ""
 "If you do not understand or accept the risks, then please exit this program."
 msgstr "Ако не разумете или не прихватате ризике, изађите из овог програма."
 
-#: src/components/Error.jsx:328
+#: src/components/error/BugzillaReport.jsx:267
 msgid ""
 "If your issue matches one of the bugs above, you can open it and add your "
 "information there instead of creating a duplicate report."
@@ -673,7 +679,7 @@ msgid "Installation completed"
 msgstr "Инсталирање је завршено"
 
 #: src/components/installation/InstallationProgress.jsx:219
-#: src/components/Error.jsx:849
+#: src/components/error/Error.jsx:151
 msgid "Installation failed"
 msgstr "Инсталирање није успело"
 
@@ -757,7 +763,7 @@ msgstr "Језик"
 msgid "Launch storage editor"
 msgstr "Покрени уређивач складишта"
 
-#: src/components/Error.jsx:387
+#: src/components/error/BugzillaReport.jsx:326
 msgid "Learn more about restricted access in the configuration"
 msgstr "Сазнајте више о ограниченом приступу у подешавањима"
 
@@ -847,7 +853,7 @@ msgstr "Помери горе"
 msgid "Must be at least $0 characters"
 msgstr "Мора имати најмање $0 знакова"
 
-#: src/components/Error.jsx:676
+#: src/components/error/BugzillaReport.jsx:607
 msgid "My issue is different, continue"
 msgstr ""
 
@@ -876,7 +882,7 @@ msgstr "Мрежа"
 msgid "Network Configuration"
 msgstr "Подешавање мреже"
 
-#: src/components/Error.jsx:726
+#: src/components/error/Error.jsx:59
 msgid ""
 "Network not available. Configure the network in the top bar menu to report "
 "the issue."
@@ -884,7 +890,7 @@ msgstr ""
 "Мрежа није доступна. Подесите мрежу у менију на горњој траци да бисте "
 "пријавили проблем."
 
-#: src/components/Error.jsx:727
+#: src/components/error/Error.jsx:60
 msgid "Network not available. Configure the network to report the issue."
 msgstr "Мрежа није доступна. Подесите мрежу да бисте пријавили проблем."
 
@@ -892,7 +898,8 @@ msgstr "Мрежа није доступна. Подесите мрежу да �
 msgid "Network plugin failed"
 msgstr "Прикључак за мрежу није успео"
 
-#: src/components/Error.jsx:658 src/components/AnacondaWizardFooter.jsx:71
+#: src/components/AnacondaWizardFooter.jsx:71
+#: src/components/error/BugzillaReport.jsx:589
 msgid "Next"
 msgstr "Следећа"
 
@@ -953,7 +960,7 @@ msgstr ""
 "тестирање. НЕМОЈТЕ користити овај софтвер за било какав критичан рад или за "
 "продукциона окружења."
 
-#: src/components/Error.jsx:181
+#: src/components/error/BugzillaReport.jsx:162
 msgid "Open Bugzilla bug entry form"
 msgstr "Отвори образац за унос грешке у Бубаждаји"
 
@@ -984,7 +991,7 @@ msgstr "Лозинка"
 msgid "Passphrase did not match any locked device"
 msgstr "Лозинка се не подудара ни са једним закључаним уређајем"
 
-#: src/components/Password.jsx:289
+#: src/components/Password.jsx:273
 msgid "Passphrases must match"
 msgstr "Лозинке се морају подударати"
 
@@ -992,7 +999,7 @@ msgstr "Лозинке се морају подударати"
 msgid "Pending"
 msgstr "У току"
 
-#: src/components/Error.jsx:94
+#: src/components/error/BugzillaReport.jsx:88
 msgid "Please attach the log file $0 to the issue."
 msgstr "Приложите датотеку дневника $0 уз овај проблем."
 
@@ -1002,6 +1009,12 @@ msgstr "Приложите датотеку дневника $0 уз овај п
 msgid "Please enter a PIN"
 msgstr "Молим унесите исправно име."
 
+#: src/components/error/GenericReport.jsx:67
+#, fuzzy
+#| msgid "report the issue manually"
+msgid "Please report this issue at $0."
+msgstr "ручно пријави проблем"
+
 #: src/components/storage/installation-method/InstallationDestination.jsx:322
 msgid "Please select at least one disk to continue"
 msgstr "Изаберите барем један диск да бисте наставили"
@@ -1010,7 +1023,7 @@ msgstr "Изаберите барем један диск да бисте нас
 msgid "Pool"
 msgstr "Депо"
 
-#: src/components/Error.jsx:296
+#: src/components/error/BugzillaReport.jsx:235
 #, fuzzy
 #| msgid "No mountable devices found"
 msgid "Potential duplicate bugs found"
@@ -1024,7 +1037,7 @@ msgstr "Покреће Анаконда"
 msgid "Pre-release"
 msgstr "Пред-издање"
 
-#: src/components/Error.jsx:179
+#: src/components/error/BugzillaReport.jsx:160
 msgid "Prefer to report manually? $0"
 msgstr "Желите ли да пријавите ручно? $0"
 
@@ -1039,8 +1052,9 @@ msgstr "Настави са инсталацијом"
 msgid "Proxy"
 msgstr "_FTP прокси"
 
-#: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
+#: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
+#: src/components/error/Error.jsx:140
 msgid "Quit"
 msgstr "Излаз"
 
@@ -1077,8 +1091,9 @@ msgid "Real hostname must be 64 characters or less"
 msgstr "Право име домаћина мора имати 64 знака или мање"
 
 #: src/components/installation/InstallationProgress.jsx:248
-#: src/components/Error.jsx:838 src/components/AnacondaWizardFooter.jsx:84
+#: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
+#: src/components/error/Error.jsx:140
 msgid "Reboot"
 msgstr "Поново покрени"
 
@@ -1171,7 +1186,17 @@ msgstr "Замени тренутну инсталацију, али задрж�
 msgid "Report Issue"
 msgstr "Пријави проблем"
 
-#: src/components/Error.jsx:160
+#: src/components/error/GenericReport.jsx:39
+#, fuzzy
+#| msgid ""
+#| "Report an issue or provide feedback by opening the Bugzilla bug entry "
+#| "form $0."
+msgid "Report an issue or provide feedback at $0."
+msgstr ""
+"Пријавите проблем или пошаљите повратне информације отварањем обрасца за "
+"унос грешке у Бугзили $0."
+
+#: src/components/error/BugzillaReport.jsx:141
 msgid ""
 "Report an issue or provide feedback by opening the Bugzilla bug entry form "
 "$0."
@@ -1179,11 +1204,12 @@ msgstr ""
 "Пријавите проблем или пошаљите повратне информације отварањем обрасца за "
 "унос грешке у Бугзили $0."
 
-#: src/components/Error.jsx:703 src/components/Error.jsx:870
+#: src/components/error/BugzillaReport.jsx:634
+#: src/components/error/Error.jsx:172
 msgid "Report issue"
 msgstr "Пријави проблем"
 
-#: src/components/Error.jsx:703
+#: src/components/error/BugzillaReport.jsx:634
 msgid "Reporting issue..."
 msgstr "Пријављивање проблема..."
 
@@ -1221,11 +1247,11 @@ msgstr "Промени величину партиције"
 msgid "Resizing the following partitions from $0: $1"
 msgstr "Промена величине следећих партиција са $0: $1"
 
-#: src/components/Error.jsx:381
+#: src/components/error/BugzillaReport.jsx:320
 msgid "Restrict access to the report"
 msgstr "Ограничи приступ извештају"
 
-#: src/components/Error.jsx:383
+#: src/components/error/BugzillaReport.jsx:322
 msgid "Restricts the report to the $0 group. $1"
 msgstr "Ограничава извештај на групу $0. $1"
 
@@ -1367,7 +1393,7 @@ msgstr "Делите диск са другим оперативним сист�
 msgid "Show AM/PM"
 msgstr "Прикажи пре подне/после подне"
 
-#: src/components/Error.jsx:223
+#: src/components/error/BugzillaReport.jsx:204
 msgid "Show API key"
 msgstr "Прикажи АПИ кључ"
 
@@ -1377,7 +1403,7 @@ msgstr "Прикажи АПИ кључ"
 msgid "Show PIN"
 msgstr "Прикажи АПИ кључ"
 
-#: src/components/Password.jsx:276
+#: src/components/Password.jsx:260
 msgid "Show confirmed password"
 msgstr "Прикажи потврђену лозинку"
 
@@ -1385,7 +1411,7 @@ msgstr "Прикажи потврђену лозинку"
 msgid "Show passphrase"
 msgstr "Прикажи фразу"
 
-#: src/components/Password.jsx:240
+#: src/components/Password.jsx:224
 msgid "Show password"
 msgstr "Прикажи лозинку"
 
@@ -1423,7 +1449,7 @@ msgstr "Неке потребне партиције недостају: $0"
 msgid "Space"
 msgstr "Простор"
 
-#: src/components/Error.jsx:273
+#: src/components/error/common.jsx:97
 msgid "Stacktrace"
 msgstr "Траг стека"
 
@@ -1506,7 +1532,7 @@ msgstr ""
 msgid "The Anaconda installation has stopped unexpectedly."
 msgstr "Анаконда инсталатер је неочекивано заустављен."
 
-#: src/components/Error.jsx:301
+#: src/components/error/BugzillaReport.jsx:240
 msgid ""
 "The following open bugs may be related to your issue. Please review them "
 "before creating a new report."
@@ -1527,11 +1553,11 @@ msgstr ""
 "За инсталацију је потребно $0 простора на диску; међутим, капацитет "
 "изабраних дискова је само $1."
 
-#: src/components/Error.jsx:778
+#: src/components/error/Error.jsx:107
 msgid "The installer cannot continue due to a critical error."
 msgstr "Инсталатер не може да настави због критичне грешке."
 
-#: src/components/Error.jsx:777
+#: src/components/error/Error.jsx:106
 msgid "The installer cannot continue due to a critical error: $0"
 msgstr "Инсталатер не може да настави због критичне грешке: $0"
 
@@ -1567,7 +1593,7 @@ msgstr ""
 "партиције. Може да подеси LVM и још много тога. Намењен је за коришћење као "
 "напредна алатка и није предвиђен за уобичајену инсталацију."
 
-#: src/components/Error.jsx:407
+#: src/components/error/BugzillaReport.jsx:346
 msgid ""
 "These log files may contain sensitive information such as IP addresses, "
 "usernames, or other system details."
@@ -1605,7 +1631,7 @@ msgstr "Време"
 msgid "Timezone"
 msgstr "Временска зона"
 
-#: src/components/Error.jsx:359
+#: src/components/error/BugzillaReport.jsx:298
 msgid "Title"
 msgstr "Наслов"
 
@@ -1721,7 +1747,7 @@ msgstr "Корисничко име не сме бити резервисана 
 msgid "User names must be shorter than 33 characters"
 msgstr "Корисничка имена морају бити краћа од 33 знака"
 
-#: src/components/Error.jsx:658
+#: src/components/error/BugzillaReport.jsx:589
 msgid "Validating..."
 msgstr "Проверавам..."
 
@@ -1741,7 +1767,7 @@ msgstr "Добро дошли у Федора Линукс"
 msgid "Welcome. Let's install $0 now."
 msgstr "Добродошли. Хајде да сада инсталирамо $0."
 
-#: src/components/Error.jsx:402
+#: src/components/error/BugzillaReport.jsx:341
 msgid ""
 "When you submit this bug report, the following log files will be uploaded "
 "automatically: $0"
@@ -1765,7 +1791,7 @@ msgstr ""
 "Можете или да ослободите довољно простора овде и пустите инсталатера да "
 "одради остало или да ручно подесите партиције."
 
-#: src/components/Error.jsx:232
+#: src/components/error/BugzillaReport.jsx:213
 msgid "You can generate the API key for your Bugzilla account $0."
 msgstr "Можете да направите АПИ кључ за ваш Бубаждаја налог $0."
 
@@ -1820,7 +1846,8 @@ msgstr "проширена партиција"
 msgid "format as $0"
 msgstr "форматирај као $0"
 
-#: src/components/Error.jsx:162 src/components/Error.jsx:235
+#: src/components/error/BugzillaReport.jsx:143
+#: src/components/error/BugzillaReport.jsx:216
 msgid "here"
 msgstr "овде"
 
@@ -1836,7 +1863,7 @@ msgstr "закачи"
 msgid "pending step"
 msgstr "корак на чекању"
 
-#: src/components/Error.jsx:413
+#: src/components/error/BugzillaReport.jsx:352
 msgid "report the issue manually"
 msgstr "ручно пријави проблем"
 
