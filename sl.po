@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: anaconda 40.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-24 07:36+0000\n"
-"PO-Revision-Date: 2026-10-08 09:28+0000\n"
+"PO-Revision-Date: 2026-10-25 07:49+0000\n"
 "Last-Translator: Matjaž Jeran <matjaz.jeran@amis.net>\n"
 "Language-Team: Slovenian <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/sl/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 2026.10\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:143
 #: src/components/storage/installation-method/InstallationDestination.jsx:276
@@ -225,7 +225,7 @@ msgstr "Podrobnosti poročila o napaki"
 #: src/components/error/GenericReport.jsx:31
 #: src/components/error/GenericReport.jsx:76
 msgid "Bug reporting is not configured for this distribution."
-msgstr ""
+msgstr "Poročanje o napakah ni konfigurirano za to distribucijo."
 
 #: src/components/error/BugzillaReport.jsx:187
 msgid "Bugzilla API key"
@@ -315,10 +315,8 @@ msgid "Closest mirror"
 msgstr "Najbližji zrcalni strežnik"
 
 #: src/components/source/InstallationSource.jsx:286
-#, fuzzy
-#| msgid "Closest mirror"
 msgid "Closest public mirror"
-msgstr "Najbližji zrcalni strežnik"
+msgstr "Najbližji javni zrcalni strežnik"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
@@ -355,16 +353,12 @@ msgid "Configure storage again"
 msgstr "Znova prilagodi hrambo"
 
 #: src/components/source/InstallationSource.jsx:140
-#, fuzzy
-#| msgid "Configuring installed system"
 msgid "Configuring installation source"
-msgstr "Konfiguriranje nameščenega sistema"
+msgstr "Konfiguriranje vira namestitve"
 
 #: src/components/source/InstallationSource.jsx:141
-#, fuzzy
-#| msgid "Setting up installation source..."
 msgid "Configuring installation source..."
-msgstr "Nastavljanje vira namestitve..."
+msgstr "Konfiguriranje vira namestitve..."
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -516,10 +510,8 @@ msgid "Extended partition"
 msgstr "Razširjen razdelek"
 
 #: src/components/source/InstallationSource.jsx:222
-#, fuzzy
-#| msgid "Setting up installation source..."
 msgid "Failed to configure installation source"
-msgstr "Nastavljanje vira namestitve..."
+msgstr "Neuspelo konfiguriranje vira namestitve"
 
 #: src/components/error/BugzillaReport.jsx:573
 msgid "Failed to report issue"
@@ -999,10 +991,8 @@ msgid "Please enter a PIN"
 msgstr "Vnesite PIN"
 
 #: src/components/error/GenericReport.jsx:67
-#, fuzzy
-#| msgid "report the issue manually"
 msgid "Please report this issue at $0."
-msgstr "ročno prijavite težavo"
+msgstr "Prijavite to težavo na $0."
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:322
 msgid "Please select at least one disk to continue"
@@ -1033,11 +1023,8 @@ msgid "Proceed with installation"
 msgstr "Nadaljuj z namestitvijo"
 
 #: src/components/source/InstallationSource.jsx:182
-#, fuzzy
-#| msgctxt "GUI|Network|Proxy"
-#| msgid "HTTP _Proxy"
 msgid "Proxy"
-msgstr "HTTP _Posrednik"
+msgstr "Posrednik"
 
 #: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1175,14 +1162,8 @@ msgid "Report Issue"
 msgstr "Poročaj o težavi"
 
 #: src/components/error/GenericReport.jsx:39
-#, fuzzy
-#| msgid ""
-#| "Report an issue or provide feedback by opening the Bugzilla bug entry "
-#| "form $0."
 msgid "Report an issue or provide feedback at $0."
-msgstr ""
-"Prijavite težavo ali podajte povratne informacije tako, da odprete obrazec "
-"za prijavo napak v Bugzilli $0."
+msgstr "Prijavite težavo ali podajte povratne informacije na $0."
 
 #: src/components/error/BugzillaReport.jsx:141
 msgid ""
@@ -1272,15 +1253,15 @@ msgstr "Korensko geslo je bilo nastavljeno."
 
 #: src/components/source/InstallationSource.jsx:188
 msgid "SSL CA certificate"
-msgstr ""
+msgstr "Potrdilo SSL CA"
 
 #: src/components/source/InstallationSource.jsx:189
 msgid "SSL client certificate"
-msgstr ""
+msgstr "Potrdilo SSL odjemalca"
 
 #: src/components/source/InstallationSource.jsx:185
 msgid "SSL verification"
-msgstr ""
+msgstr "Verifikacija SSL"
 
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
@@ -1361,6 +1342,8 @@ msgid ""
 "Set by the kickstart file. Remove source selection from kickstart to be able "
 "to configure interactively."
 msgstr ""
+"Nastaviljeno v datoteki kickstart. Odstranite izbiro vira iz kickstarta, da "
+"jo lahko interaktivno konfigurirate."
 
 #: src/components/review/Hostname.jsx:87
 msgid "Set custom hostname"
@@ -1643,18 +1626,12 @@ msgid "Type"
 msgstr "Vrsta"
 
 #: src/components/source/InstallationSource.jsx:263
-#, fuzzy
-#| msgctxt "GUI|Software Source"
-#| msgid "_URL:"
 msgid "URL"
-msgstr "_URL:"
+msgstr "URL"
 
 #: src/components/source/InstallationSource.jsx:293
-#, fuzzy
-#| msgctxt "GUI|Software Source"
-#| msgid "URL type:"
 msgid "URL type"
-msgstr "Vrsta URL:"
+msgstr "Vrsta URL"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
