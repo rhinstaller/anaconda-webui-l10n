@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-25 07:49+0000\n"
-"PO-Revision-Date: 2026-09-23 07:58+0000\n"
+"PO-Revision-Date: 2026-10-25 21:04+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/uk/>\n"
@@ -35,7 +35,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.9.1\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:143
 #: src/components/storage/installation-method/InstallationDestination.jsx:276
@@ -239,7 +239,7 @@ msgstr "Подробиці звіту щодо помилки"
 #: src/components/error/GenericReport.jsx:31
 #: src/components/error/GenericReport.jsx:76
 msgid "Bug reporting is not configured for this distribution."
-msgstr ""
+msgstr "Для цього дистрибутива звітування щодо вад не налаштовано."
 
 #: src/components/error/BugzillaReport.jsx:187
 msgid "Bugzilla API key"
@@ -329,10 +329,8 @@ msgid "Closest mirror"
 msgstr "Найближче дзеркало"
 
 #: src/components/source/InstallationSource.jsx:286
-#, fuzzy
-#| msgid "Closest mirror"
 msgid "Closest public mirror"
-msgstr "Найближче дзеркало"
+msgstr "Найближче загальнодоступне дзеркало"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
@@ -369,14 +367,10 @@ msgid "Configure storage again"
 msgstr "Повторне налаштовування сховища даних"
 
 #: src/components/source/InstallationSource.jsx:140
-#, fuzzy
-#| msgid "Configuring installed system"
 msgid "Configuring installation source"
-msgstr "Налаштовуємо встановлену систему"
+msgstr "Налаштовуємо джерело для встановлення"
 
 #: src/components/source/InstallationSource.jsx:141
-#, fuzzy
-#| msgid "Setting up installation source..."
 msgid "Configuring installation source..."
 msgstr "Налаштовування джерела для встановлення…"
 
@@ -531,8 +525,6 @@ msgid "Extended partition"
 msgstr "Розширений розділ"
 
 #: src/components/source/InstallationSource.jsx:222
-#, fuzzy
-#| msgid "Failed to set up installation source"
 msgid "Failed to configure installation source"
 msgstr "Не вдалося налаштувати джерело для встановлення"
 
@@ -689,8 +681,6 @@ msgid "Install"
 msgstr "Встановити"
 
 #: src/components/app.jsx:40
-#, fuzzy
-#| msgid "Installation complete"
 msgid "Installation completed"
 msgstr "Встановлення завершено"
 
@@ -1019,10 +1009,8 @@ msgid "Please enter a PIN"
 msgstr "Будь ласка, введіть PIN-код"
 
 #: src/components/error/GenericReport.jsx:67
-#, fuzzy
-#| msgid "report the issue manually"
 msgid "Please report this issue at $0."
-msgstr "створити звіт щодо вади вручну"
+msgstr "Будь ласка, повідомте про цю ваду тут: $0."
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:322
 msgid "Please select at least one disk to continue"
@@ -1053,11 +1041,8 @@ msgid "Proceed with installation"
 msgstr "Продовжити встановлення"
 
 #: src/components/source/InstallationSource.jsx:182
-#, fuzzy
-#| msgctxt "GUI|Network|Proxy"
-#| msgid "_FTP Proxy"
 msgid "Proxy"
-msgstr "Прокс_і-сервер FTP"
+msgstr "Проксі"
 
 #: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1194,14 +1179,8 @@ msgid "Report Issue"
 msgstr "Повідомити про ваду"
 
 #: src/components/error/GenericReport.jsx:39
-#, fuzzy
-#| msgid ""
-#| "Report an issue or provide feedback by opening the Bugzilla bug entry "
-#| "form $0."
 msgid "Report an issue or provide feedback at $0."
-msgstr ""
-"Повідомте про ваду або надайте відгук шляхом заповнення форми щодо вади у "
-"Bugzilla $0."
+msgstr "Повідомте про ваду або надайте відгук тут: $0."
 
 #: src/components/error/BugzillaReport.jsx:141
 msgid ""
@@ -1292,15 +1271,15 @@ msgstr "Встановлено пароль root."
 
 #: src/components/source/InstallationSource.jsx:188
 msgid "SSL CA certificate"
-msgstr ""
+msgstr "Сертифікат CA SSL"
 
 #: src/components/source/InstallationSource.jsx:189
 msgid "SSL client certificate"
-msgstr ""
+msgstr "Клієнтський сертифікат SSL"
 
 #: src/components/source/InstallationSource.jsx:185
 msgid "SSL verification"
-msgstr ""
+msgstr "Перевірка SSL"
 
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
@@ -1383,6 +1362,8 @@ msgid ""
 "Set by the kickstart file. Remove source selection from kickstart to be able "
 "to configure interactively."
 msgstr ""
+"Встановлюється файлом kickstart. Вилучіть вибір джерела з kickstart, щоб "
+"уможливити інтерактивне налаштовування."
 
 #: src/components/review/Hostname.jsx:87
 msgid "Set custom hostname"
@@ -1576,6 +1557,8 @@ msgid ""
 "The keyboard layout has changed since the disk encryption passphrase was "
 "set. Please re-enter the passphrase."
 msgstr ""
+"Розкладка клавіатури змінилася з моменту встановлення пароля для шифрування "
+"диска. Будь ласка, введіть пароль ще раз."
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:35
 msgid ""
@@ -1668,18 +1651,12 @@ msgid "Type"
 msgstr "Тип"
 
 #: src/components/source/InstallationSource.jsx:263
-#, fuzzy
-#| msgctxt "GUI|Software Source"
-#| msgid "_URL:"
 msgid "URL"
-msgstr "_Адреса:"
+msgstr "Адреса"
 
 #: src/components/source/InstallationSource.jsx:293
-#, fuzzy
-#| msgctxt "GUI|Software Source"
-#| msgid "URL type:"
 msgid "URL type"
-msgstr "Тип адреси:"
+msgstr "Тип адреси"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
@@ -1789,7 +1766,7 @@ msgstr "Розміри розділів Windows з шифруванням BitLoc
 
 #: src/components/app.jsx:41
 msgid "You can close this browser window now."
-msgstr ""
+msgstr "Тепер це вікно браузера можна закрити."
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:83
 msgid ""
