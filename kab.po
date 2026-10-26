@@ -15,9 +15,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-26 08:06+0000\n"
-"PO-Revision-Date: 2026-07-09 06:35+0000\n"
-"Last-Translator: ButterflyOfFire "
-"<butterflyoffire@users.noreply.translate.fedoraproject.org>\n"
+"PO-Revision-Date: 2026-10-27 02:32+0000\n"
+"Last-Translator: Massii Aqvayli <massiin@proton.me>\n"
 "Language-Team: Kabyle <https://translate.fedoraproject.org/projects/anaconda-"
 "webui/anaconda-webui/kab/>\n"
 "Language: kab\n"
@@ -25,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 2026.7.1.dev0\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:143
 #: src/components/storage/installation-method/InstallationDestination.jsx:276
@@ -58,6 +57,8 @@ msgid ""
 "$0 is an MBR extended partition that contains logical partitions. Removing "
 "all logical partitions will also automatically remove the extended partition."
 msgstr ""
+"$0 d aḥric MBR yettwasiɣzfen i deg llan yiḥricen imeẓẓulen. Ma ttwakksen akk "
+"yiḥricen imeẓẓulen, ad yettwakkes daɣen uḥric yettwasiɣzfen s wudem awurman."
 
 #: src/components/storage/installation-method/usePageComplete.jsx:114
 msgid "$0 is required, but only $1 is available."
@@ -67,8 +68,8 @@ msgstr "$0 i laqen, maca ala $1 i yellan."
 #: src/components/storage/Common.jsx:74
 msgid "$0 warning"
 msgid_plural "$0 warnings"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$0 n wulɣu"
+msgstr[1] "$0 n yulɣuten"
 
 #: src/components/storage/StorageReview.jsx:290
 msgid "$0 will be deleted"
@@ -81,10 +82,8 @@ msgstr ""
 "yettwawgelhen"
 
 #: src/helpers/storage.js:267
-#, fuzzy
-#| msgid "'$0' must be on a device formatted to '$1'"
 msgid "'$0' must be assigned to $1"
-msgstr "'$0' ilaq ad yili ɣef yibenk yettwameslen ɣer '$1'"
+msgstr "Ilaq ad yettwasdukel '$0' ɣer '$1'"
 
 #: src/helpers/storage.js:270
 msgid "'$0' must be on a device formatted to '$1'"
@@ -96,12 +95,17 @@ msgid ""
 "filesystem, but is not marked as an ESP. Set the partition type to EFI "
 "System and enable the esp flag."
 msgstr ""
+"Ilaq ad yili '$0' deg uḥric n unagraw EFI. Aḥric yettwafernen yesseqdac "
+"anagraw n ifuyla FAT, maca ur yettwacreḍ ara d ESP. Sbedd tawsit n uḥric ɣer "
+"Aḥric n unagraw EFI yerna sermed takbabt esp."
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:280
 msgid ""
 "'$0' partition on MDRAID device $1 found. Bootloader partitions on MDRAID "
 "devices are not supported."
 msgstr ""
+"Yettwaf uḥric '$0' deg yibenk MDRAID $1. Iḥricen n usali n usekker ur "
+"ttwasefraken ara mi ara ilin deg yibenkan MDRAID."
 
 #: src/components/users/Accounts.jsx:256
 msgid ""
@@ -225,7 +229,7 @@ msgstr "Talqayt n uneqqis n tuccḍa"
 #: src/components/error/GenericReport.jsx:31
 #: src/components/error/GenericReport.jsx:76
 msgid "Bug reporting is not configured for this distribution."
-msgstr ""
+msgstr "Ulɣu ɣef ibugen ur yettwaswel ara i usedger-a."
 
 #: src/components/error/BugzillaReport.jsx:187
 msgid "Bugzilla API key"
@@ -309,14 +313,12 @@ msgstr "Mdel amaẓrag n uḥraz"
 
 #: src/components/source/SourceReviewDescription.jsx:34
 #: src/components/source/InstallationSource.jsx:41
-#, fuzzy
-#| msgid "Close storage editor"
 msgid "Closest mirror"
-msgstr "Mdel amaẓrag n uḥraz"
+msgstr "Lemri i iqerben ugar"
 
 #: src/components/source/InstallationSource.jsx:286
 msgid "Closest public mirror"
-msgstr ""
+msgstr "Lemri azayez i iqerben ugar"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
@@ -354,16 +356,12 @@ msgid "Configure storage again"
 msgstr "Sesteb aḥraz i tikkelt niḍen"
 
 #: src/components/source/InstallationSource.jsx:140
-#, fuzzy
-#| msgid "Continue installation"
 msgid "Configuring installation source"
-msgstr "Kemmel asbeddi"
+msgstr "Aswel n uɣbalu n usbeddi"
 
 #: src/components/source/InstallationSource.jsx:141
-#, fuzzy
-#| msgid "Checking installation configuration..."
 msgid "Configuring installation source..."
-msgstr "Asenqed n tawila n usbeddi…"
+msgstr "Aswel n uɣbalu n usbeddi..."
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -451,7 +449,7 @@ msgstr "Ibenk"
 
 #: src/components/source/InstallationSource.jsx:186
 msgid "Disabled"
-msgstr ""
+msgstr "Yensa"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:388
 msgid "Duplicate device."
@@ -479,11 +477,11 @@ msgstr "Awgelhen"
 
 #: src/components/login/LoginPage.jsx:88
 msgid "Enter PIN"
-msgstr ""
+msgstr "Sekcem tangalt PIN"
 
 #: src/components/login/LoginPage.jsx:77
 msgid "Enter PIN to access the installer"
-msgstr ""
+msgstr "Sekcem tangalt PIN i unekcum ɣer usebdad"
 
 #: src/components/error/BugzillaReport.jsx:184
 msgid ""
@@ -515,10 +513,8 @@ msgid "Extended partition"
 msgstr "Aḥric ɣezzifen"
 
 #: src/components/source/InstallationSource.jsx:222
-#, fuzzy
-#| msgid "Continue installation"
 msgid "Failed to configure installation source"
-msgstr "Kemmel asbeddi"
+msgstr "Aswel n uɣbalu n usbeddi ur yeddi ara"
 
 #: src/components/error/BugzillaReport.jsx:573
 msgid "Failed to report issue"
@@ -573,10 +569,8 @@ msgid "Hide API key"
 msgstr "Ffer tasarut API"
 
 #: src/components/login/LoginPage.jsx:94
-#, fuzzy
-#| msgid "Hide API key"
 msgid "Hide PIN"
-msgstr "Ffer tasarut API"
+msgstr "Ffer tangalt PIN"
 
 #: src/components/Password.jsx:260
 msgid "Hide confirmed password"
@@ -625,6 +619,8 @@ msgid ""
 "If none of the options above apply, use the storage editor to create a "
 "custom partitioning before proceeding."
 msgstr ""
+"Ma ulac afran iwulmen seg wid i d-yettwabeqqḍen sufella, seqdec amaẓrag n "
+"uḥraz i usnulfu n beṭṭu yugnen d iḥricen uqbel ad tkemmleḍ."
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:56
 msgid "If you are configuring partitions the following are required:"
@@ -636,6 +632,9 @@ msgid ""
 "Manual reporting allows you to review and selectively attach log files "
 "yourself."
 msgstr ""
+"Ma ur tqebleḍ ara asali awurman n ufaylu n uɣmis, tzemreḍ ad $0 deg umḍiq-"
+"is. Ulɣu s ufus ɣef ibugen ad k·em-yeǧǧ ad tesneqdeḍ ifuyla n uɣmis yerna ad "
+"tferneḍ s timmad-ik·im wid ara tcuddeḍ."
 
 #: src/components/AnacondaHeader.jsx:76
 msgid ""
@@ -648,6 +647,9 @@ msgid ""
 "If your issue matches one of the bugs above, you can open it and add your "
 "information there instead of creating a duplicate report."
 msgstr ""
+"Ma ugur-ik·im yemṣada d yiwen seg ibugen i d-yettwabeqqḍen nnig-a, tzemreḍ "
+"ad t-teldiḍ yerna ad ternuḍ isefka-inek·inem dinna deg umḍiq n usnulfu n "
+"ulɣu uslag."
 
 #: src/components/installation/InstallationProgress.jsx:284
 msgid "In progress"
