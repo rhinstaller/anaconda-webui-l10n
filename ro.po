@@ -20,8 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-27 08:22+0000\n"
 "PO-Revision-Date: 2026-10-28 08:59+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Petru Rebeja <petru@rebeja.eu>\n"
 "Language-Team: Romanian <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/ro/>\n"
 "Language: ro\n"
@@ -236,7 +235,7 @@ msgstr "Detaliile raportului de eroare"
 #: src/components/error/GenericReport.jsx:31
 #: src/components/error/GenericReport.jsx:76
 msgid "Bug reporting is not configured for this distribution."
-msgstr ""
+msgstr "Această distribuție nu este configurată pentru raportarea incidentelor."
 
 #: src/components/error/BugzillaReport.jsx:187
 msgid "Bugzilla API key"
@@ -326,11 +325,11 @@ msgstr "Închide editorul spațiului de stocare"
 #: src/components/source/SourceReviewDescription.jsx:34
 #: src/components/source/InstallationSource.jsx:41
 msgid "Closest mirror"
-msgstr "Cel mai apropiat server „oglindă” (mirror)"
+msgstr "Cel mai apropiat server-oglindă"
 
 #: src/components/source/InstallationSource.jsx:286
 msgid "Closest public mirror"
-msgstr "Cel mai apropiat server „oglindă” (mirror)"
+msgstr "Cel mai apropiat server-oglindă public"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:336
 msgid ""
@@ -367,16 +366,12 @@ msgid "Configure storage again"
 msgstr "Configurează din nou spațiul de stocare"
 
 #: src/components/source/InstallationSource.jsx:140
-#, fuzzy
-#| msgid "Configuring installed system"
 msgid "Configuring installation source"
-msgstr "Se configurează sistemul instalat"
+msgstr "Se configurează sursa de instalare"
 
 #: src/components/source/InstallationSource.jsx:141
-#, fuzzy
-#| msgid "Setting up installation source..."
 msgid "Configuring installation source..."
-msgstr "Se setează sursa de instalare..."
+msgstr "Se configurează sursa de instalare..."
 
 #: src/components/users/Accounts.jsx:208 src/components/users/Accounts.jsx:411
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:96
@@ -528,10 +523,8 @@ msgid "Extended partition"
 msgstr "Partiție extinsă"
 
 #: src/components/source/InstallationSource.jsx:222
-#, fuzzy
-#| msgid "Failed to set up installation source"
 msgid "Failed to configure installation source"
-msgstr "Nu s-a putut stabili sursa de instalare."
+msgstr "Configurarea sursei de instalare a eșuat"
 
 #: src/components/error/BugzillaReport.jsx:573
 msgid "Failed to report issue"
@@ -831,7 +824,7 @@ msgstr "Este necesar minim $0"
 
 #: src/components/source/InstallationSource.jsx:48
 msgid "Mirrorlist"
-msgstr ""
+msgstr "Listă servere-oglindă"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:137
 msgid "Mismatch between parent device and child device reformat selection."
@@ -1017,10 +1010,8 @@ msgid "Please enter a PIN"
 msgstr "Vă rugăm introduceți un cod PIN valid."
 
 #: src/components/error/GenericReport.jsx:67
-#, fuzzy
-#| msgid "report the issue manually"
 msgid "Please report this issue at $0."
-msgstr "raportați incidentul manual"
+msgstr "Vă rugăm să raportați acest incident la adresa $0."
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:322
 msgid "Please select at least one disk to continue"
@@ -1051,11 +1042,8 @@ msgid "Proceed with installation"
 msgstr "Continuați cu instalarea"
 
 #: src/components/source/InstallationSource.jsx:182
-#, fuzzy
-#| msgctxt "GUI|Network|Proxy"
-#| msgid "_FTP Proxy"
 msgid "Proxy"
-msgstr "Proxy _FTP"
+msgstr "Proxy"
 
 #: src/components/AnacondaWizardFooter.jsx:84
 #: src/components/AnacondaWizardFooter.jsx:119
@@ -1194,13 +1182,8 @@ msgid "Report Issue"
 msgstr "Raportați incident"
 
 #: src/components/error/GenericReport.jsx:39
-#, fuzzy
-#| msgid ""
-#| "Report an issue or provide feedback by opening the Bugzilla bug entry "
-#| "form $0."
 msgid "Report an issue or provide feedback at $0."
-msgstr ""
-"Raportați un incident sau oferiți feedback deschizând formularul Bugzilla $0."
+msgstr "Raportați un incident sau oferiți feedback la adresa $0."
 
 #: src/components/error/BugzillaReport.jsx:141
 msgid ""
@@ -1219,10 +1202,8 @@ msgid "Reporting issue..."
 msgstr "Raportare incident..."
 
 #: src/components/source/InstallationSource.jsx:47
-#, fuzzy
-#| msgid "Repo URL"
 msgid "Repository URL"
-msgstr "URL depozit (repo)"
+msgstr "URL depozit"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:229
 msgid "Required"
@@ -1295,11 +1276,11 @@ msgstr ""
 
 #: src/components/source/InstallationSource.jsx:189
 msgid "SSL client certificate"
-msgstr ""
+msgstr "Certificat SSL client"
 
 #: src/components/source/InstallationSource.jsx:185
 msgid "SSL verification"
-msgstr ""
+msgstr "Verificare SSL"
 
 #: src/components/datetime/CustomNTPModal.jsx:245
 #: src/components/localization/Keyboard.jsx:279
@@ -1380,6 +1361,8 @@ msgid ""
 "Set by the kickstart file. Remove source selection from kickstart to be able "
 "to configure interactively."
 msgstr ""
+"Configurat prin fișierul kickstart. Eliminați selecția sursei din fișierul "
+"kickstart pentru a putea configura sistemul în mod interactiv."
 
 #: src/components/review/Hostname.jsx:87
 msgid "Set custom hostname"
@@ -1665,17 +1648,12 @@ msgid "Type"
 msgstr "Tip"
 
 #: src/components/source/InstallationSource.jsx:263
-#, fuzzy
-#| msgctxt "GUI|Software Source"
-#| msgid "Pro_xy URL:"
 msgid "URL"
-msgstr "URL-ul pro_xy-ului:"
+msgstr "URL"
 
 #: src/components/source/InstallationSource.jsx:293
-#, fuzzy
-#| msgid "URL is empty"
 msgid "URL type"
-msgstr "URL-ul este gol"
+msgstr "Tip URL"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:87
 msgid "Unable to schedule deletion of $0"
