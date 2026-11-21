@@ -25,7 +25,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-20 10:29+0000\n"
+"POT-Creation-Date: 2026-11-21 10:12+0000\n"
 "PO-Revision-Date: 2026-09-30 18:10+0000\n"
 "Last-Translator: Ondrej Sulek <feonsu@gmail.com>\n"
 "Language-Team: Slovak <https://translate.fedoraproject.org/projects/anaconda-"
@@ -48,8 +48,8 @@ msgstr "$0 $1"
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 #: src/components/storage/Common.jsx:58
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 msgid "$0 error"
 msgid_plural "$0 errors"
 msgstr[0] "$0 chyba"
@@ -76,8 +76,8 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr "Vyžaduje sa $0, ale k dispozícii je iba $1."
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
 #: src/components/storage/Common.jsx:74
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
 msgid "$0 warning"
 msgid_plural "$0 warnings"
 msgstr[0] "$0 upozornenie"
@@ -137,8 +137,8 @@ msgstr "O aplikácii"
 msgid "Account"
 msgstr "Účet"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
 #: src/components/storage/StorageReview.jsx:248
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
 msgid "Actions"
 msgstr "Akcie"
 
@@ -165,6 +165,12 @@ msgstr "Dodatočné jazyky"
 #: src/components/software/SoftwareSelection.jsx:147
 msgid "Additional software for the selected environment"
 msgstr "Doplnkový softvér pre vybraté prostredie"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:52
+#, fuzzy
+#| msgid "LVM Thin Provisioning"
+msgid "Advanced LVM with thin provisioning"
+msgstr "LVM Thin Provisioning"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:55
 msgid "All changes made in the storage editor take effect immediately."
@@ -232,6 +238,10 @@ msgstr "Základné prostredie"
 msgid "Brief description of the issue"
 msgstr "Stručný popis problému"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:45
+msgid "Btrfs"
+msgstr "Btrfs"
+
 #: src/components/error/BugzillaReport.jsx:295
 msgid "Bug report details"
 msgstr "Podrobnosti hlásenia chyby"
@@ -256,16 +266,29 @@ msgstr ""
 "vydaným softvérom, ktorý máte v úmysle používať iba na testovacie a vývojové "
 "účely, a ste ochotní hlásiť akékoľvek chyby za účelom zlepšenia tejto práce."
 
-#: src/components/error/Error.jsx:163
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:376
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:375
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/localization/Keyboard.jsx:282
-#: src/components/review/Hostname.jsx:127
+#: src/components/error/Error.jsx:163 src/components/review/Hostname.jsx:127
 #: src/components/datetime/CustomNTPModal.jsx:252
 msgid "Cancel"
 msgstr "Zrušiť"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:353
+#, fuzzy
+#| msgid "Detected valid storage layout:"
+msgid "Cannot apply this storage layout"
+msgstr "Zistené platné rozloženie úložiska:"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:188
+#, fuzzy
+#| msgid "Not enough free space on the selected disks."
+msgid "Cannot create this layout on the selected disks"
+msgstr "Nedostatok voľného miesta na vybraných diskoch."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:427
 #: src/components/review/Hostname.jsx:125
 msgid "Change"
 msgstr "Zmeniť"
@@ -298,9 +321,9 @@ msgstr ""
 msgid "Checking installation configuration..."
 msgstr "Kontroluje sa konfigurácia inštalácie..."
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:481
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:487
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "Kontroluje sa konfigurácia úložiska"
 
@@ -312,9 +335,9 @@ msgstr "Vymazať vyhľadávanie"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr "Kliknite znova na 'Ďalej' na pokračovanie napriek týmto upozorneniam."
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:64
 #: src/components/storage/installation-method/InstallationDestination.jsx:380
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/network/CockpitNetworkConfiguration.jsx:64
 msgid "Close"
 msgstr "Zavrieť"
 
@@ -409,6 +432,18 @@ msgstr "Pred pokračovaním opravte tieto problémy."
 msgid "Create Account"
 msgstr "Vytvoriť účet"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:82
+#, fuzzy
+#| msgid "Your %s must be on a separate partition or LV."
+msgid "Create a separate $0 partition"
+msgstr "%s musí byť na samostatnom diskovom alebo logickom oddieli."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:81
+#, fuzzy
+#| msgid "Delete partition"
+msgid "Create a swap partition"
+msgstr "Odstrániť oddiel"
+
 #: src/components/users/Accounts.jsx:318
 msgid "Create account"
 msgstr "Vytvoriť účet"
@@ -425,8 +460,8 @@ msgstr "Vlastné"
 msgid "Date"
 msgstr "Dátum"
 
-#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
+#: src/components/datetime/index.js:21
 msgid "Date and time"
 msgstr "Dátum a čas"
 
@@ -458,8 +493,8 @@ msgstr "Podrobný popis problému"
 msgid "Detected valid storage layout:"
 msgstr "Zistené platné rozloženie úložiska:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 #: src/components/storage/StorageReview.jsx:246
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 msgid "Device"
 msgstr "Zariadenie"
 
@@ -487,7 +522,7 @@ msgstr "Zašifrovať moje údaje"
 msgid "Encrypted"
 msgstr "Šifrované"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:106
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:105
 msgid "Encryption"
 msgstr "Šifrovanie"
 
@@ -545,6 +580,13 @@ msgstr "Nepodarilo sa uložiť rozloženia"
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:80
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora linux vyžaduje aspoň $0 miesta na disku"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:314
+#, fuzzy
+#| msgctxt "GUI|Custom Partitioning|Configure"
+#| msgid "File S_ystem:"
+msgid "File system"
+msgstr "_Súborový systém:"
 
 #: src/components/installation/InstallationProgress.jsx:247
 msgid "Finalization"
@@ -705,8 +747,8 @@ msgstr "Inštalácia systému zlyhala"
 msgid "Installation of the system failed: $0"
 msgstr "Inštalácia systému zlyhala: $0"
 
-#: src/components/source/index.js:24 src/components/source/index.js:25
 #: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/source/index.js:24 src/components/source/index.js:25
 msgid "Installation source"
 msgstr "Zdroj inštalácie"
 
@@ -762,6 +804,16 @@ msgstr "Klávesnica"
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:75
 msgid "Keyboard layout during boot"
 msgstr "Rozloženie klávesnice počas zavádzania systému"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:49
+msgid "LVM"
+msgstr "LVM"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:53
+#, fuzzy
+#| msgid "LVM Thin Provisioning"
+msgid "LVM thin provisioning"
+msgstr "LVM Thin Provisioning"
 
 #: src/components/localization/InstallationLanguage.jsx:240
 #: src/components/review/ReviewConfiguration.jsx:239
@@ -835,13 +887,19 @@ msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 "Nesúlad medzi výberom preformátovania nadradeného a podradeného zariadenia."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:60
+#, fuzzy
+msgid "Modern storage pooling"
+msgstr "_Upraviť rozloženie úložiska"
+
 #: src/components/storage/StorageReview.jsx:250
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:211
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
 msgid "Mount point"
 msgstr "Bod pripojenia"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 msgid "Mount point assignment"
 msgstr "Priradenie bodov pripojenia"
 
@@ -883,8 +941,8 @@ msgstr "Potrebuje minimálne $0"
 msgid "Network"
 msgstr "Sieť"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:46
 #: src/components/network/index.js:20
+#: src/components/network/CockpitNetworkConfiguration.jsx:46
 msgid "Network Configuration"
 msgstr "Sieťová konfigurácia"
 
@@ -981,13 +1039,19 @@ msgstr "Voľby"
 msgid "Other keyboards"
 msgstr "Ďalšie klávesnice"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:306
+#, fuzzy
+#| msgid "Partitioning Options"
+msgid "Partitioning scheme"
+msgstr "Voľby rozdelenia diskov"
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:88
 msgid "Partitions (advanced)"
 msgstr "Oddiely (pokročilé)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/users/Accounts.jsx:205 src/components/users/Accounts.jsx:407
 msgid "Passphrase"
 msgstr "Heslo"
@@ -1041,6 +1105,13 @@ msgstr "Predčasné vydanie"
 #: src/components/error/BugzillaReport.jsx:160
 msgid "Prefer to report manually? $0"
 msgstr "Preferujete manuálne nahlásenie? $0"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:344
+#, fuzzy
+#| msgctxt "GUI|Keyboard Layout"
+#| msgid "_Preview layout"
+msgid "Preview"
+msgstr "_Ukážka rozloženia"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
@@ -1206,8 +1277,8 @@ msgstr ""
 "Nahláste problém alebo poskytnite spätnú väzbu otvorením formulára zadania "
 "chyby v Bugzille $0."
 
-#: src/components/error/Error.jsx:172
 #: src/components/error/BugzillaReport.jsx:634
+#: src/components/error/Error.jsx:172
 msgid "Report issue"
 msgstr "Nahlásiť problém"
 
@@ -1234,6 +1305,10 @@ msgstr "Znovu preskúmať zariadenia"
 #: src/components/storage/installation-method/InstallationDestination.jsx:97
 msgid "Rescanning of the disks failed."
 msgstr "Opätovné preskúmanie diskov zlyhalo."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:338
+msgid "Reset to defaults"
+msgstr ""
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:539
 msgid "Resize"
@@ -1296,6 +1371,7 @@ msgstr ""
 msgid "SSL verification"
 msgstr ""
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:368
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:245
@@ -1322,7 +1398,7 @@ msgstr "Vyhľadať prostredie"
 msgid "Search keyboard layout"
 msgstr "Vyhľadať rozloženie klávesnice"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:110
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:109
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
@@ -1411,9 +1487,20 @@ msgstr "Zobraziť heslo"
 msgid "Show password"
 msgstr "Zobraziť heslo"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:56
+#, fuzzy
+#| msgid "Change partition layout"
+msgid "Simple and traditional layout"
+msgstr "Zmeniť rozloženie oddielov"
+
 #: src/components/storage/StorageReview.jsx:247
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:212
 msgid "Size"
 msgstr "Veľkosť"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:44
+msgid "Snapshots and compression, with volumes sharing one pool"
+msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:237
 msgid "Software installation"
@@ -1449,14 +1536,20 @@ msgstr "Miesto"
 msgid "Stacktrace"
 msgstr "Stacktrace"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:57
+#, fuzzy
+#| msgid "Extended partition"
+msgid "Standard partitions"
+msgstr "Rozšírený oddiel"
+
 #: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr "Úložisko"
 
-#: src/components/steps.js:37
-#: src/components/installation/InstallationProgress.jsx:232
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
+#: src/components/steps.js:37
+#: src/components/installation/InstallationProgress.jsx:232
 msgid "Storage configuration"
 msgstr "Konfigurácia úložiska"
 
@@ -1472,6 +1565,13 @@ msgstr "Editor úložiska"
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "Úložisko je založené na konfigurácii z 'Upraviť úložisko'."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:412
+#, fuzzy
+#| msgctxt "GUI|Storage|Error Dialog"
+#| msgid "_Modify Storage Layout"
+msgid "Storage layout"
+msgstr "_Upraviť rozloženie úložiska"
+
 #: src/components/storage/scenarios/use-configured-storage/index.js:40
 msgid ""
 "Storage layout is defined by the kickstart file. The planned partitioning "
@@ -1480,6 +1580,12 @@ msgstr ""
 "Rozloženie úložiska je definované súborom kickstart. Plánované rozloženie "
 "oddielov si môžete prezrieť v kroku s prehľadom."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:209
+#, fuzzy
+#| msgid "Storage plugin failed"
+msgid "Storage layout preview"
+msgstr "Zlyhal plugin úložiska"
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid "Storage plugin failed"
 msgstr "Zlyhal plugin úložiska"
@@ -1487,6 +1593,14 @@ msgstr "Zlyhal plugin úložiska"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:624
 msgid "Storage requirements not met"
 msgstr "Požiadavky na úložisko neboli splnené"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:416
+msgid "Storage will be automatically configured using $0."
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:61
+msgid "Stratis"
+msgstr ""
 
 #: src/components/Password.jsx:67
 msgid "Strong"
@@ -1649,6 +1763,7 @@ msgstr ""
 "Aby ste mohli použiť túto možnosť, zmeňte veľkosť alebo odstráňte existujúce "
 "oddiely, aby ste uvoľnili aspoň $0."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:213
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "Typ"
@@ -1745,6 +1860,14 @@ msgstr "Používateľské meno musí byť kratšie ako 33 znakov"
 msgid "Validating..."
 msgstr "Overovanie..."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:48
+#, fuzzy
+#| msgid ""
+#| "You need to configure the network to use a network installation source."
+msgid "Volumes that can be resized after installation"
+msgstr ""
+"Musíte nakonfigurovať sieť aby ste mohli použiť sieťový zdroj inštalácie."
+
 #: src/components/Password.jsx:45
 msgid "Weak"
 msgstr "Slabé"
@@ -1815,9 +1938,9 @@ msgstr "dokončený krok"
 msgid "current step"
 msgstr "aktuálny krok"
 
+#: src/components/storage/StorageReview.jsx:168
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/storage/StorageReview.jsx:168
 msgid "delete"
 msgstr "odstrániť"
 
@@ -2096,17 +2219,6 @@ msgstr "späť"
 #~| msgid "Connection failed"
 #~ msgid "Account setting failed."
 #~ msgstr "Pripojenie zlyhalo"
-
-#, fuzzy
-#~| msgid ""
-#~| "You need to configure the network to use a network installation source."
-#~ msgid "Current configuration can be used for installation."
-#~ msgstr ""
-#~ "Musíte nakonfigurovať sieť aby ste mohli použiť sieťový zdroj inštalácie."
-
-#, fuzzy
-#~ msgid "Modified storage"
-#~ msgstr "_Upraviť rozloženie úložiska"
 
 #, fuzzy
 #~ msgid "Modifying the storage failed."
@@ -2850,9 +2962,6 @@ msgstr "späť"
 #~ msgid "Bridge %(interface_name)s (%(list_of_ports)s) connected"
 #~ msgstr "Premostenie %(interface_name)s (%(list_of_ports)s) je pripojené"
 
-#~ msgid "Btrfs"
-#~ msgstr "Btrfs"
-
 #~ msgid "Btrfs file system is not supported."
 #~ msgstr "Súborový systém Btrfs nie je podporovaný."
 
@@ -3497,10 +3606,6 @@ msgstr "späť"
 #~ msgid "Fair"
 #~ msgstr "Uspokojivé"
 
-#~ msgctxt "GUI|Custom Partitioning|Configure"
-#~ msgid "File S_ystem:"
-#~ msgstr "_Súborový systém:"
-
 #~ msgid "File system type \"{}\" given in autopart command is invalid."
 #~ msgstr ""
 #~ "Typ súborového systému \"{}\" zadaný v príkaze autopart je neplatný."
@@ -3986,12 +4091,6 @@ msgstr "späť"
 #~ msgid "LUN:"
 #~ msgstr "LUN:"
 
-#~ msgid "LVM"
-#~ msgstr "LVM"
-
-#~ msgid "LVM Thin Provisioning"
-#~ msgstr "LVM Thin Provisioning"
-
 #~ msgid "Label:"
 #~ msgstr "Menovka:"
 
@@ -4426,9 +4525,6 @@ msgstr "späť"
 
 #~ msgid "Partition Scheme Options"
 #~ msgstr "Voľby schémy rozdelenia diskov"
-
-#~ msgid "Partitioning Options"
-#~ msgstr "Voľby rozdelenia diskov"
 
 #~ msgid ""
 #~ "Partitioning method changed - planned storage configuration changes will "
@@ -6614,10 +6710,6 @@ msgstr "späť"
 #~ msgid "Your %(mount)s partition size is lower than required %(size)s."
 #~ msgstr "Váš oddiel %(mount)s je menší ako požadovaná veľkosť %(size)s."
 
-#, python-format
-#~ msgid "Your %s must be on a separate partition or LV."
-#~ msgstr "%s musí byť na samostatnom diskovom alebo logickom oddieli."
-
 #~ msgid ""
 #~ "Your BIOS-based system needs a special partition to boot from a GPT disk "
 #~ "label. To continue, please create a 1MiB 'biosboot' type partition on the "
@@ -7022,10 +7114,6 @@ msgstr "späť"
 #~ msgid "_Modify Software Source"
 #~ msgstr "U_praviť zdroj softvéru"
 
-#~ msgctxt "GUI|Storage|Error Dialog"
-#~ msgid "_Modify Storage Layout"
-#~ msgstr "_Upraviť rozloženie úložiska"
-
 #~ msgctxt "GUI|Custom Partitioning|Configure"
 #~ msgid "_Modify..."
 #~ msgstr "_Upraviť..."
@@ -7177,10 +7265,6 @@ msgstr "späť"
 #~ msgctxt "GUI|Custom Partitioning|Reset Dialog"
 #~ msgid "_Preserve current selections"
 #~ msgstr "_Zachovať aktuálne výbery"
-
-#~ msgctxt "GUI|Keyboard Layout"
-#~ msgid "_Preview layout"
-#~ msgstr "_Ukážka rozloženia"
 
 #~ msgctxt "GUI|Software Source|Proxy Dialog"
 #~ msgid "_Proxy Host:"

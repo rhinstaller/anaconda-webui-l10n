@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-20 10:29+0000\n"
+"POT-Creation-Date: 2026-11-21 10:12+0000\n"
 "PO-Revision-Date: 2026-10-25 07:49+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/"
@@ -52,8 +52,8 @@ msgstr "$0 $1"
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 #: src/components/storage/Common.jsx:58
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 msgid "$0 error"
 msgid_plural "$0 errors"
 msgstr[0] "$0 fel"
@@ -80,8 +80,8 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr "$0 är obligatoriskt, men endast $1 är tillgänglig."
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
 #: src/components/storage/Common.jsx:74
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
 msgid "$0 warning"
 msgid_plural "$0 warnings"
 msgstr[0] "$0 varning"
@@ -140,8 +140,8 @@ msgstr "Om"
 msgid "Account"
 msgstr "Konto"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
 #: src/components/storage/StorageReview.jsx:248
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
 msgid "Actions"
 msgstr "Åtgärder"
 
@@ -168,6 +168,12 @@ msgstr "Ytterligare språk"
 #: src/components/software/SoftwareSelection.jsx:147
 msgid "Additional software for the selected environment"
 msgstr "Ytterligare programvara för den valda miljön"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:52
+#, fuzzy
+#| msgid "LVM Thin Provisioning"
+msgid "Advanced LVM with thin provisioning"
+msgstr "LVM tunt underhåll"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:55
 msgid "All changes made in the storage editor take effect immediately."
@@ -236,6 +242,10 @@ msgstr "Basmiljö"
 msgid "Brief description of the issue"
 msgstr "Kort beskrivning av problemet"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:45
+msgid "Btrfs"
+msgstr "Btrfs"
+
 #: src/components/error/BugzillaReport.jsx:295
 msgid "Bug report details"
 msgstr "Felrapport detaljer"
@@ -261,16 +271,29 @@ msgstr ""
 "för test- och utvecklingssyften och är villig att rapportera eventuella "
 "buggar eller problem för att förbättra detta arbete."
 
-#: src/components/error/Error.jsx:163
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:376
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:375
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/localization/Keyboard.jsx:282
-#: src/components/review/Hostname.jsx:127
+#: src/components/error/Error.jsx:163 src/components/review/Hostname.jsx:127
 #: src/components/datetime/CustomNTPModal.jsx:252
 msgid "Cancel"
 msgstr "Avbryt"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:353
+#, fuzzy
+#| msgid "Detected valid storage layout:"
+msgid "Cannot apply this storage layout"
+msgstr "Upptäckt giltig lagringslayout:"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:188
+#, fuzzy
+#| msgid "Not enough free space on the selected disks."
+msgid "Cannot create this layout on the selected disks"
+msgstr "Inte tillräckligt med ledigt utrymme på de valda diskarna."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:427
 #: src/components/review/Hostname.jsx:125
 msgid "Change"
 msgstr "Ändra"
@@ -304,9 +327,9 @@ msgstr ""
 msgid "Checking installation configuration..."
 msgstr "Kontrollerar installationskonfiguration …"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:481
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:487
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "Kontrollerar lagringskonfiguration"
 
@@ -318,9 +341,9 @@ msgstr "Rensa sökning"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr "Klicka på 'Nästa' igen för att fortsätta oavsett dessa varningar."
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:64
 #: src/components/storage/installation-method/InstallationDestination.jsx:380
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/network/CockpitNetworkConfiguration.jsx:64
 msgid "Close"
 msgstr "Stäng"
 
@@ -408,6 +431,18 @@ msgstr "Åtgärda dessa problem innan du fortsätter."
 msgid "Create Account"
 msgstr "Skapa konto"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:82
+#, fuzzy
+#| msgid "Your %s must be on a separate partition or LV."
+msgid "Create a separate $0 partition"
+msgstr "Din %s måste vara på en separat partition eller LV."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:81
+#, fuzzy
+#| msgid "Delete partition"
+msgid "Create a swap partition"
+msgstr "Ta bort partition"
+
 #: src/components/users/Accounts.jsx:318
 msgid "Create account"
 msgstr "Skapa konto"
@@ -424,8 +459,8 @@ msgstr "Anpassad"
 msgid "Date"
 msgstr "Datum"
 
-#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
+#: src/components/datetime/index.js:21
 msgid "Date and time"
 msgstr "Datum och tid"
 
@@ -457,8 +492,8 @@ msgstr "Detaljerad beskrivning av problemet"
 msgid "Detected valid storage layout:"
 msgstr "Upptäckt giltig lagringslayout:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 #: src/components/storage/StorageReview.jsx:246
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 msgid "Device"
 msgstr "Enhet"
 
@@ -486,7 +521,7 @@ msgstr "Kryptera min data"
 msgid "Encrypted"
 msgstr "Krypterad"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:106
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:105
 msgid "Encryption"
 msgstr "Kryptering"
 
@@ -542,6 +577,13 @@ msgstr "Misslyckades med att spara layouterna"
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:80
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora linux kräver minst $0 diskutrymme."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:314
+#, fuzzy
+#| msgctxt "GUI|Custom Partitioning|Configure"
+#| msgid "File S_ystem:"
+msgid "File system"
+msgstr "Fil S_ystem:"
 
 #: src/components/installation/InstallationProgress.jsx:247
 msgid "Finalization"
@@ -700,8 +742,8 @@ msgstr "installationen av systemet misslyckades"
 msgid "Installation of the system failed: $0"
 msgstr "installationen av systemet misslyckades: $0"
 
-#: src/components/source/index.js:24 src/components/source/index.js:25
 #: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/source/index.js:24 src/components/source/index.js:25
 msgid "Installation source"
 msgstr "Installationskälla"
 
@@ -758,6 +800,16 @@ msgstr "Tangentbord"
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:75
 msgid "Keyboard layout during boot"
 msgstr "Tangentbordslayout under uppstart"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:49
+msgid "LVM"
+msgstr "LVM"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:53
+#, fuzzy
+#| msgid "LVM Thin Provisioning"
+msgid "LVM thin provisioning"
+msgstr "LVM tunt underhåll"
 
 #: src/components/localization/InstallationLanguage.jsx:240
 #: src/components/review/ReviewConfiguration.jsx:239
@@ -831,13 +883,20 @@ msgstr ""
 "Felaktig överensstämmelse mellan överordnad enhet och underordnad enhet vid "
 "omformateringsval."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:60
+#, fuzzy
+#| msgid "Modified storage"
+msgid "Modern storage pooling"
+msgstr "Modifierad lagring"
+
 #: src/components/storage/StorageReview.jsx:250
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:211
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
 msgid "Mount point"
 msgstr "Monteringspunkt"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 msgid "Mount point assignment"
 msgstr "Monteringspunkt tilldelning"
 
@@ -879,8 +938,8 @@ msgstr "Kräver åtminstone $0"
 msgid "Network"
 msgstr "Nätverk"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:46
 #: src/components/network/index.js:20
+#: src/components/network/CockpitNetworkConfiguration.jsx:46
 msgid "Network Configuration"
 msgstr "Nätverkskonfiguration"
 
@@ -977,13 +1036,19 @@ msgstr "Alternativ"
 msgid "Other keyboards"
 msgstr "Andra tangentbord"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:306
+#, fuzzy
+#| msgid "Partitioning Options"
+msgid "Partitioning scheme"
+msgstr "Partitioneringsalternativ"
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:88
 msgid "Partitions (advanced)"
 msgstr "Partitioner (avancerat)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/users/Accounts.jsx:205 src/components/users/Accounts.jsx:407
 msgid "Passphrase"
 msgstr "Lösenfras"
@@ -1035,6 +1100,12 @@ msgstr "Förhandsutgåva"
 #: src/components/error/BugzillaReport.jsx:160
 msgid "Prefer to report manually? $0"
 msgstr "Föredrar du att rapportera manuellt? $0"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:344
+#, fuzzy
+#| msgid "Review"
+msgid "Preview"
+msgstr "Granska"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
@@ -1191,8 +1262,8 @@ msgstr ""
 "Rapportera ett problem eller ge feedback genom att öppna Bugzilla-"
 "felrapportsformuläret $0."
 
-#: src/components/error/Error.jsx:172
 #: src/components/error/BugzillaReport.jsx:634
+#: src/components/error/Error.jsx:172
 msgid "Report issue"
 msgstr "Rapportera problem"
 
@@ -1219,6 +1290,10 @@ msgstr "Skanna enheter på nytt"
 #: src/components/storage/installation-method/InstallationDestination.jsx:97
 msgid "Rescanning of the disks failed."
 msgstr "Omsökning av diskarna misslyckades."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:338
+msgid "Reset to defaults"
+msgstr ""
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:539
 msgid "Resize"
@@ -1280,6 +1355,7 @@ msgstr "SSL klientcertifikat"
 msgid "SSL verification"
 msgstr "SSL verifiering"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:368
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:245
@@ -1306,7 +1382,7 @@ msgstr "Sök efter en miljö"
 msgid "Search keyboard layout"
 msgstr "Sök efter tangentbordslayout"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:110
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:109
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
@@ -1398,9 +1474,20 @@ msgstr "Visa lösenfras"
 msgid "Show password"
 msgstr "Visa lösenord"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:56
+#, fuzzy
+#| msgid "Change partition layout"
+msgid "Simple and traditional layout"
+msgstr "Ändra partitionslayout"
+
 #: src/components/storage/StorageReview.jsx:247
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:212
 msgid "Size"
 msgstr "Storlek"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:44
+msgid "Snapshots and compression, with volumes sharing one pool"
+msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:237
 msgid "Software installation"
@@ -1437,14 +1524,20 @@ msgstr "Utrymme"
 msgid "Stacktrace"
 msgstr "Stackspår"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:57
+#, fuzzy
+#| msgid "Standard Partition"
+msgid "Standard partitions"
+msgstr "Standardpartition"
+
 #: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr "Lagring"
 
-#: src/components/steps.js:37
-#: src/components/installation/InstallationProgress.jsx:232
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
+#: src/components/steps.js:37
+#: src/components/installation/InstallationProgress.jsx:232
 msgid "Storage configuration"
 msgstr "Lagringskonfiguration"
 
@@ -1460,6 +1553,13 @@ msgstr "Lagringsredigerare"
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "Lagring baseras på konfigurationen från \"Modifera lagring\"."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:412
+#, fuzzy
+#| msgctxt "GUI|Storage|Error Dialog"
+#| msgid "_Modify Storage Layout"
+msgid "Storage layout"
+msgstr "_Ändra lagringslayout"
+
 #: src/components/storage/scenarios/use-configured-storage/index.js:40
 msgid ""
 "Storage layout is defined by the kickstart file. The planned partitioning "
@@ -1468,6 +1568,12 @@ msgstr ""
 "Lagringslayout definieras av Kickstart fil. Den planerade "
 "partitioneringslayouten kan granskas i sammanfattningssteget."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:209
+#, fuzzy
+#| msgid "Storage plugin failed"
+msgid "Storage layout preview"
+msgstr "Lagringsinsticksmodul misslyckades"
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid "Storage plugin failed"
 msgstr "Lagringsinsticksmodul misslyckades"
@@ -1475,6 +1581,14 @@ msgstr "Lagringsinsticksmodul misslyckades"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:624
 msgid "Storage requirements not met"
 msgstr "Lagringskraven uppfylls inte"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:416
+msgid "Storage will be automatically configured using $0."
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:61
+msgid "Stratis"
+msgstr ""
 
 #: src/components/Password.jsx:67
 msgid "Strong"
@@ -1640,6 +1754,7 @@ msgstr ""
 "För att använda det här alternativet, ändra storlek på eller ta bort "
 "befintliga partitioner för att frigöra minst $0."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:213
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "Typ"
@@ -1730,6 +1845,12 @@ msgstr "Användarnamn måste vara kortare än 33 tecken"
 msgid "Validating..."
 msgstr "Validerar..."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:48
+#, fuzzy
+#| msgid "Current configuration can be used for installation."
+msgid "Volumes that can be resized after installation"
+msgstr "Nuvarande konfiguration kan användas för installation."
+
 #: src/components/Password.jsx:45
 msgid "Weak"
 msgstr "Svagt"
@@ -1802,9 +1923,9 @@ msgstr "färdigt steg"
 msgid "current step"
 msgstr "aktuellt steg"
 
+#: src/components/storage/StorageReview.jsx:168
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/storage/StorageReview.jsx:168
 msgid "delete"
 msgstr "ta bort"
 
@@ -2161,9 +2282,6 @@ msgstr "ångra"
 #~ msgid "Account setting failed."
 #~ msgstr "Kontoinställning misslyckades."
 
-#~ msgid "Current configuration can be used for installation."
-#~ msgstr "Nuvarande konfiguration kan användas för installation."
-
 #~ msgid "The root partition is always re-formatted by the installer."
 #~ msgstr "Rootpartitionen omformateras alltid av installationsprogrammet."
 
@@ -2175,9 +2293,6 @@ msgstr "ångra"
 
 #~ msgid "Ignore"
 #~ msgstr "Ignorera"
-
-#~ msgid "Modified storage"
-#~ msgstr "Modifierad lagring"
 
 #~ msgid "Modifying the storage failed."
 #~ msgstr "Modifering av lagring misslyckades."
@@ -2909,9 +3024,6 @@ msgstr "ångra"
 #~ msgid "Bridge %(interface_name)s (%(list_of_ports)s) connected"
 #~ msgstr "Brygga %(interface_name)s (%(list_of_ports)s) ansluten"
 
-#~ msgid "Btrfs"
-#~ msgstr "Btrfs"
-
 #~ msgid "Btrfs file system is not supported."
 #~ msgstr "Filsystemstypen btrfs stödjs inte."
 
@@ -3574,10 +3686,6 @@ msgstr "ångra"
 #~ msgid "Fair"
 #~ msgstr "Rimligt"
 
-#~ msgctxt "GUI|Custom Partitioning|Configure"
-#~ msgid "File S_ystem:"
-#~ msgstr "Fil S_ystem:"
-
 #~ msgid "File system type \"{}\" given in autopart command is invalid."
 #~ msgstr "Filsystemstypen ”{}” angiven i kommandot autopart är felaktig."
 
@@ -4058,12 +4166,6 @@ msgstr "ångra"
 #~ msgid "LUN:"
 #~ msgstr "LUN:"
 
-#~ msgid "LVM"
-#~ msgstr "LVM"
-
-#~ msgid "LVM Thin Provisioning"
-#~ msgstr "LVM tunt underhåll"
-
 #~ msgid "Label:"
 #~ msgstr "Etikett:"
 
@@ -4497,9 +4599,6 @@ msgstr "ångra"
 
 #~ msgid "Partition Scheme Options"
 #~ msgstr "Alternativ för partitionsschema"
-
-#~ msgid "Partitioning Options"
-#~ msgstr "Partitioneringsalternativ"
 
 #~ msgid ""
 #~ "Partitioning method changed - planned storage configuration changes will "
@@ -5338,9 +5437,6 @@ msgstr "ångra"
 
 #~ msgid "Speed"
 #~ msgstr "Hastighet"
-
-#~ msgid "Standard Partition"
-#~ msgstr "Standardpartition"
 
 #~ msgid "Start VNC"
 #~ msgstr "Starta VNC"
@@ -6690,10 +6786,6 @@ msgstr "ångra"
 #~ msgstr ""
 #~ "Storleken på din partition %(mount)s är mindre än de nödvändiga %(size)s."
 
-#, python-format
-#~ msgid "Your %s must be on a separate partition or LV."
-#~ msgstr "Din %s måste vara på en separat partition eller LV."
-
 #~ msgid ""
 #~ "Your BIOS-based system needs a special partition to boot from a GPT disk "
 #~ "label. To continue, please create a 1MiB 'biosboot' type partition on the "
@@ -7097,10 +7189,6 @@ msgstr "ångra"
 #~ msgctxt "GUI|Software Selection|Error Dialog"
 #~ msgid "_Modify Software Source"
 #~ msgstr "_Ändra programvarukälla"
-
-#~ msgctxt "GUI|Storage|Error Dialog"
-#~ msgid "_Modify Storage Layout"
-#~ msgstr "_Ändra lagringslayout"
 
 #~ msgctxt "GUI|Custom Partitioning|Configure"
 #~ msgid "_Modify..."
@@ -8081,9 +8169,6 @@ msgstr "ångra"
 
 #~ msgid "Installation progress"
 #~ msgstr "Installationsförlopp"
-
-#~ msgid "Review"
-#~ msgstr "Granska"
 
 #~ msgid "Installation language"
 #~ msgstr "Installations språk"

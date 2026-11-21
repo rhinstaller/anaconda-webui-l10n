@@ -68,7 +68,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-20 10:29+0000\n"
+"POT-Creation-Date: 2026-11-21 10:12+0000\n"
 "PO-Revision-Date: 2026-11-02 09:57+0000\n"
 "Last-Translator: blutch112 <vincent.lefebvre59@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/anaconda-"
@@ -91,8 +91,8 @@ msgstr "$0 $1"
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 #: src/components/storage/Common.jsx:58
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 msgid "$0 error"
 msgid_plural "$0 errors"
 msgstr[0] "$0 erreur"
@@ -119,8 +119,8 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr "$0 est requis, mais seul $1 est disponible."
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
 #: src/components/storage/Common.jsx:74
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
 msgid "$0 warning"
 msgid_plural "$0 warnings"
 msgstr[0] "$0 avertissement"
@@ -183,8 +183,8 @@ msgstr "À propos"
 msgid "Account"
 msgstr "Compte"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
 #: src/components/storage/StorageReview.jsx:248
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
 msgid "Actions"
 msgstr "Actions"
 
@@ -211,6 +211,12 @@ msgstr "Langues supplémentaires"
 #: src/components/software/SoftwareSelection.jsx:147
 msgid "Additional software for the selected environment"
 msgstr "Logiciels supplémentaires pour l'environnement sélectionné"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:52
+#, fuzzy
+#| msgid "LVM Thin Provisioning"
+msgid "Advanced LVM with thin provisioning"
+msgstr "Allocation fine LVM"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:55
 msgid "All changes made in the storage editor take effect immediately."
@@ -283,6 +289,10 @@ msgstr "Environnement de base"
 msgid "Brief description of the issue"
 msgstr "Courte description du problème"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:45
+msgid "Btrfs"
+msgstr "Btrfs"
+
 #: src/components/error/BugzillaReport.jsx:295
 msgid "Bug report details"
 msgstr "Détails du rapport de bug"
@@ -308,16 +318,29 @@ msgstr ""
 "uniquement à des fins de test et de développement, et vous vous engagez à "
 "signaler tout bug ou problème rencontré afin d'améliorer ce logiciel."
 
-#: src/components/error/Error.jsx:163
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:376
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:375
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/localization/Keyboard.jsx:282
-#: src/components/review/Hostname.jsx:127
+#: src/components/error/Error.jsx:163 src/components/review/Hostname.jsx:127
 #: src/components/datetime/CustomNTPModal.jsx:252
 msgid "Cancel"
 msgstr "Annuler"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:353
+#, fuzzy
+#| msgid "Detected valid storage layout:"
+msgid "Cannot apply this storage layout"
+msgstr "Schéma de stockage valide détecté :"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:188
+#, fuzzy
+#| msgid "Not enough free space on the selected disks."
+msgid "Cannot create this layout on the selected disks"
+msgstr "Espace libre insuffisant sur les disques sélectionnés."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:427
 #: src/components/review/Hostname.jsx:125
 msgid "Change"
 msgstr "Modifier"
@@ -351,9 +374,9 @@ msgstr ""
 msgid "Checking installation configuration..."
 msgstr "Vérification de la configuration d'installation..."
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:481
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:487
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "Vérification de la configuration du stockage"
 
@@ -366,9 +389,9 @@ msgid "Click 'Next' again to proceed despite these warnings."
 msgstr ""
 "Cliquez à nouveau sur « Suivant » pour continuer malgré ces avertissements."
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:64
 #: src/components/storage/installation-method/InstallationDestination.jsx:380
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/network/CockpitNetworkConfiguration.jsx:64
 msgid "Close"
 msgstr "Fermer"
 
@@ -458,6 +481,18 @@ msgstr "Corrigez ces problèmes avant de continuer."
 msgid "Create Account"
 msgstr "Créer un compte"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:82
+#, fuzzy
+#| msgid "Your %s must be on a separate partition or LV."
+msgid "Create a separate $0 partition"
+msgstr "Votre %s doit résider sur une partition séparée ou un LV."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:81
+#, fuzzy
+#| msgid "Delete partition"
+msgid "Create a swap partition"
+msgstr "Supprimer la partition"
+
 #: src/components/users/Accounts.jsx:318
 msgid "Create account"
 msgstr "Créer un compte"
@@ -474,8 +509,8 @@ msgstr "Personnalisé"
 msgid "Date"
 msgstr "Date"
 
-#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
+#: src/components/datetime/index.js:21
 msgid "Date and time"
 msgstr "Date et heure"
 
@@ -508,8 +543,8 @@ msgstr "Description détaillée du problème"
 msgid "Detected valid storage layout:"
 msgstr "Schéma de stockage valide détecté :"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 #: src/components/storage/StorageReview.jsx:246
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 msgid "Device"
 msgstr "Périphérique"
 
@@ -537,7 +572,7 @@ msgstr "Chiffrer mes données"
 msgid "Encrypted"
 msgstr "Chiffré"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:106
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:105
 msgid "Encryption"
 msgstr "Chiffrement"
 
@@ -593,6 +628,13 @@ msgstr "Échec de l'enregistrement des dispositions"
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:80
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora Linux requiert au moins $0 d'espace disque."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:314
+#, fuzzy
+#| msgctxt "GUI|Custom Partitioning|Configure"
+#| msgid "File S_ystem:"
+msgid "File system"
+msgstr "S_ystème de fichiers :"
 
 #: src/components/installation/InstallationProgress.jsx:247
 msgid "Finalization"
@@ -755,8 +797,8 @@ msgstr "L'installation du système a échoué"
 msgid "Installation of the system failed: $0"
 msgstr "Échec de l'installation du système : $0"
 
-#: src/components/source/index.js:24 src/components/source/index.js:25
 #: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/source/index.js:24 src/components/source/index.js:25
 msgid "Installation source"
 msgstr "Source d’installation"
 
@@ -813,6 +855,16 @@ msgstr "Clavier"
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:75
 msgid "Keyboard layout during boot"
 msgstr "Disposition de clavier pendant le démarrage"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:49
+msgid "LVM"
+msgstr "LVM"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:53
+#, fuzzy
+#| msgid "LVM Thin Provisioning"
+msgid "LVM thin provisioning"
+msgstr "Allocation fine LVM"
 
 #: src/components/localization/InstallationLanguage.jsx:240
 #: src/components/review/ReviewConfiguration.jsx:239
@@ -888,13 +940,20 @@ msgstr ""
 "Problème de correspondance dans la sélection des périphériques parent et "
 "enfant à reformater."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:60
+#, fuzzy
+#| msgid "Modified storage"
+msgid "Modern storage pooling"
+msgstr "Modifier le stockage"
+
 #: src/components/storage/StorageReview.jsx:250
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:211
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
 msgid "Mount point"
 msgstr "Point de montage"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 msgid "Mount point assignment"
 msgstr "Assigner les points de montage"
 
@@ -936,8 +995,8 @@ msgstr "Nécessite au moins $0"
 msgid "Network"
 msgstr "Réseau"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:46
 #: src/components/network/index.js:20
+#: src/components/network/CockpitNetworkConfiguration.jsx:46
 msgid "Network Configuration"
 msgstr "Configuration réseau"
 
@@ -1035,13 +1094,19 @@ msgstr "Options"
 msgid "Other keyboards"
 msgstr "Autres claviers"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:306
+#, fuzzy
+#| msgid "Partitioning Options"
+msgid "Partitioning scheme"
+msgstr "Options de partitionnement"
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:88
 msgid "Partitions (advanced)"
 msgstr "Partitions (avancé)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/users/Accounts.jsx:205 src/components/users/Accounts.jsx:407
 msgid "Passphrase"
 msgstr "Phrase secrète"
@@ -1093,6 +1158,13 @@ msgstr "Préversion"
 #: src/components/error/BugzillaReport.jsx:160
 msgid "Prefer to report manually? $0"
 msgstr "Vous préférez effectuer un signalement manuel ? $0"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:344
+#, fuzzy
+#| msgctxt "GUI|Keyboard Layout"
+#| msgid "_Preview layout"
+msgid "Preview"
+msgstr "_Aperçu de l’agencement"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
@@ -1252,8 +1324,8 @@ msgstr ""
 "Signalez un problème ou envoyez vos commentaires en ouvrant le formulaire "
 "Bugzilla de saisie de bug, accessible $0."
 
-#: src/components/error/Error.jsx:172
 #: src/components/error/BugzillaReport.jsx:634
+#: src/components/error/Error.jsx:172
 msgid "Report issue"
 msgstr "Signaler un problème"
 
@@ -1280,6 +1352,10 @@ msgstr "Scanner à nouveau les périphériques"
 #: src/components/storage/installation-method/InstallationDestination.jsx:97
 msgid "Rescanning of the disks failed."
 msgstr "Échec du scan des disques."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:338
+msgid "Reset to defaults"
+msgstr ""
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:539
 msgid "Resize"
@@ -1343,6 +1419,7 @@ msgstr "Certificat SSL client"
 msgid "SSL verification"
 msgstr "Vérification SSL"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:368
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:245
@@ -1369,7 +1446,7 @@ msgstr "Rechercher un environnement"
 msgid "Search keyboard layout"
 msgstr "Rechercher une disposition de clavier"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:110
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:109
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
@@ -1461,9 +1538,20 @@ msgstr "Afficher la phrase secrète"
 msgid "Show password"
 msgstr "Afficher le mot de passe"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:56
+#, fuzzy
+#| msgid "Change partition layout"
+msgid "Simple and traditional layout"
+msgstr "Modifier la disposition des partitions"
+
 #: src/components/storage/StorageReview.jsx:247
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:212
 msgid "Size"
 msgstr "Taille"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:44
+msgid "Snapshots and compression, with volumes sharing one pool"
+msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:237
 msgid "Software installation"
@@ -1501,14 +1589,20 @@ msgstr "Espace"
 msgid "Stacktrace"
 msgstr "Trace d'appels"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:57
+#, fuzzy
+#| msgid "Standard Partition"
+msgid "Standard partitions"
+msgstr "Partition standard"
+
 #: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr "Stockage"
 
-#: src/components/steps.js:37
-#: src/components/installation/InstallationProgress.jsx:232
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
+#: src/components/steps.js:37
+#: src/components/installation/InstallationProgress.jsx:232
 msgid "Storage configuration"
 msgstr "Configuration du stockage"
 
@@ -1526,6 +1620,13 @@ msgstr ""
 "Le stockage est basé sur la configuration provenant du menu 'Modifier le "
 "stockage'."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:412
+#, fuzzy
+#| msgctxt "GUI|Storage|Error Dialog"
+#| msgid "_Modify Storage Layout"
+msgid "Storage layout"
+msgstr "_Modifier le schéma de stockage"
+
 #: src/components/storage/scenarios/use-configured-storage/index.js:40
 msgid ""
 "Storage layout is defined by the kickstart file. The planned partitioning "
@@ -1534,6 +1635,12 @@ msgstr ""
 "Le schéma de stockage est défini par le fichier Kickstart. Le schéma de "
 "partitionnement planifié peut être examiné à l'étape de résumé."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:209
+#, fuzzy
+#| msgid "Storage plugin failed"
+msgid "Storage layout preview"
+msgstr "Défaillance du plugin stockage"
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid "Storage plugin failed"
 msgstr "Défaillance du plugin stockage"
@@ -1541,6 +1648,14 @@ msgstr "Défaillance du plugin stockage"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:624
 msgid "Storage requirements not met"
 msgstr "Prérequis de stockage non respectés"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:416
+msgid "Storage will be automatically configured using $0."
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:61
+msgid "Stratis"
+msgstr ""
 
 #: src/components/Password.jsx:67
 msgid "Strong"
@@ -1716,6 +1831,7 @@ msgstr ""
 "Pour utiliser cette option, redimensionnez ou supprimez les partitions "
 "existantes afin de libérer au moins $0."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:213
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "Type"
@@ -1806,6 +1922,15 @@ msgstr "Les noms d'utilisateurs ne doivent pas dépasser 32 caractères"
 msgid "Validating..."
 msgstr "Validation..."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:48
+#, fuzzy
+#| msgid ""
+#| "You need to configure the network to use a network installation source."
+msgid "Volumes that can be resized after installation"
+msgstr ""
+"Vous devez configurer le réseau pour utiliser une source d’installation "
+"réseau."
+
 #: src/components/Password.jsx:45
 msgid "Weak"
 msgstr "Faible"
@@ -1879,9 +2004,9 @@ msgstr "étape terminée"
 msgid "current step"
 msgstr "étape actuelle"
 
+#: src/components/storage/StorageReview.jsx:168
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/storage/StorageReview.jsx:168
 msgid "delete"
 msgstr "supprimer"
 
@@ -2247,14 +2372,6 @@ msgstr "annuler"
 #~ msgid "Account setting failed."
 #~ msgstr "Échec de la connexion"
 
-#, fuzzy
-#~| msgid ""
-#~| "You need to configure the network to use a network installation source."
-#~ msgid "Current configuration can be used for installation."
-#~ msgstr ""
-#~ "Vous devez configurer le réseau pour utiliser une source d’installation "
-#~ "réseau."
-
 #~ msgid "The root partition is always re-formatted by the installer."
 #~ msgstr ""
 #~ "La partition racine est toujours reformatée par le programme "
@@ -2268,9 +2385,6 @@ msgstr "annuler"
 
 #~ msgid "Ignore"
 #~ msgstr "Ignorer"
-
-#~ msgid "Modified storage"
-#~ msgstr "Modifier le stockage"
 
 #~ msgid "Modifying the storage failed."
 #~ msgstr "Échec de la modification du stockage."
@@ -3025,9 +3139,6 @@ msgstr "annuler"
 #~ msgid "Bridge %(interface_name)s (%(list_of_ports)s) connected"
 #~ msgstr "Le pont %(interface_name)s (%(list_of_ports)s) est connecté"
 
-#~ msgid "Btrfs"
-#~ msgstr "Btrfs"
-
 #~ msgid "Btrfs file system is not supported."
 #~ msgstr "Le système de fichiers btrfs n’est pas pris en charge."
 
@@ -3715,10 +3826,6 @@ msgstr "annuler"
 #~ msgid "Fair"
 #~ msgstr "Convenable"
 
-#~ msgctxt "GUI|Custom Partitioning|Configure"
-#~ msgid "File S_ystem:"
-#~ msgstr "S_ystème de fichiers :"
-
 #~ msgid "File system type \"{}\" given in autopart command is invalid."
 #~ msgstr ""
 #~ "Système de fichiers de type « {} » donné par la commande autopart n’est "
@@ -4210,12 +4317,6 @@ msgstr "annuler"
 #~ msgid "LUN:"
 #~ msgstr "LUN :"
 
-#~ msgid "LVM"
-#~ msgstr "LVM"
-
-#~ msgid "LVM Thin Provisioning"
-#~ msgstr "Allocation fine LVM"
-
 #~ msgid "Label:"
 #~ msgstr "Étiquette :"
 
@@ -4660,9 +4761,6 @@ msgstr "annuler"
 
 #~ msgid "Partition Scheme Options"
 #~ msgstr "Options du schéma de partitionnement"
-
-#~ msgid "Partitioning Options"
-#~ msgstr "Options de partitionnement"
 
 #~ msgid ""
 #~ "Partitioning method changed - planned storage configuration changes will "
@@ -5534,9 +5632,6 @@ msgstr "annuler"
 
 #~ msgid "Speed"
 #~ msgstr "Vitesse"
-
-#~ msgid "Standard Partition"
-#~ msgstr "Partition standard"
 
 #~ msgid "Start VNC"
 #~ msgstr "Démarrer VNC"
@@ -6960,10 +7055,6 @@ msgstr "annuler"
 #~ "La taille de votre partition %(mount)s est inférieure à la taille requise "
 #~ "de %(size)s."
 
-#, python-format
-#~ msgid "Your %s must be on a separate partition or LV."
-#~ msgstr "Votre %s doit résider sur une partition séparée ou un LV."
-
 #~ msgid ""
 #~ "Your BIOS-based system needs a special partition to boot from a GPT disk "
 #~ "label. To continue, please create a 1MiB 'biosboot' type partition on the "
@@ -7371,10 +7462,6 @@ msgstr "annuler"
 #~ msgid "_Modify Software Source"
 #~ msgstr "_Modifier la source des logiciels"
 
-#~ msgctxt "GUI|Storage|Error Dialog"
-#~ msgid "_Modify Storage Layout"
-#~ msgstr "_Modifier le schéma de stockage"
-
 #~ msgctxt "GUI|Custom Partitioning|Configure"
 #~ msgid "_Modify..."
 #~ msgstr "_Modifier..."
@@ -7528,10 +7615,6 @@ msgstr "annuler"
 #~ msgctxt "GUI|Custom Partitioning|Reset Dialog"
 #~ msgid "_Preserve current selections"
 #~ msgstr "_Conserver les sélections actuelles"
-
-#~ msgctxt "GUI|Keyboard Layout"
-#~ msgid "_Preview layout"
-#~ msgstr "_Aperçu de l’agencement"
 
 #~ msgctxt "GUI|Software Source|Proxy Dialog"
 #~ msgid "_Proxy Host:"

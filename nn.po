@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-20 10:29+0000\n"
+"POT-Creation-Date: 2026-11-21 10:12+0000\n"
 "PO-Revision-Date: 2026-10-28 11:39+0000\n"
 "Last-Translator: Roy-Magne Mo <rmo@sunnmore.net>\n"
 "Language-Team: Norwegian Nynorsk <https://translate.fedoraproject.org/"
@@ -36,8 +36,8 @@ msgstr "$0 $1"
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 #: src/components/storage/Common.jsx:58
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 msgid "$0 error"
 msgid_plural "$0 errors"
 msgstr[0] "$0 feil"
@@ -63,8 +63,8 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr "$0 er nødvendig, men berre $1 er tilgjengeleg."
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
 #: src/components/storage/Common.jsx:74
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
 msgid "$0 warning"
 msgid_plural "$0 warnings"
 msgstr[0] "$0 åtvaring"
@@ -123,8 +123,8 @@ msgstr "Om"
 msgid "Account"
 msgstr "Konto"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
 #: src/components/storage/StorageReview.jsx:248
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
 msgid "Actions"
 msgstr "Handlingar"
 
@@ -151,6 +151,10 @@ msgstr "Tilleggsspråk"
 #: src/components/software/SoftwareSelection.jsx:147
 msgid "Additional software for the selected environment"
 msgstr "Tilleggsprogramvare for det valde miljøet"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:52
+msgid "Advanced LVM with thin provisioning"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:55
 msgid "All changes made in the storage editor take effect immediately."
@@ -220,6 +224,10 @@ msgstr "Grunnmiljø"
 msgid "Brief description of the issue"
 msgstr "Kort skildring av problemet"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:45
+msgid "Btrfs"
+msgstr ""
+
 #: src/components/error/BugzillaReport.jsx:295
 msgid "Bug report details"
 msgstr "Detaljar for feilrapporten"
@@ -245,16 +253,29 @@ msgstr ""
 "utvikling, og at du er villig til å rapportere feil og problem for å betre "
 "arbeidet."
 
-#: src/components/error/Error.jsx:163
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:376
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:375
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/localization/Keyboard.jsx:282
-#: src/components/review/Hostname.jsx:127
+#: src/components/error/Error.jsx:163 src/components/review/Hostname.jsx:127
 #: src/components/datetime/CustomNTPModal.jsx:252
 msgid "Cancel"
 msgstr "Avbryt"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:353
+#, fuzzy
+#| msgid "Detected valid storage layout:"
+msgid "Cannot apply this storage layout"
+msgstr "Fann gyldig lagringsoppsett:"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:188
+#, fuzzy
+#| msgid "Not enough free space on the selected disks."
+msgid "Cannot create this layout on the selected disks"
+msgstr "Ikkje nok ledig plass på dei valde diskane."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:427
 #: src/components/review/Hostname.jsx:125
 msgid "Change"
 msgstr "Endre"
@@ -288,9 +309,9 @@ msgstr ""
 msgid "Checking installation configuration..."
 msgstr "Sjekkar installasjonsoppsettet …"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:481
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:487
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "Sjekkar lagringsoppsettet"
 
@@ -302,9 +323,9 @@ msgstr "Tøm søk"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr "Trykk «Neste» på nytt for å halde fram trass desse åtvaringane."
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:64
 #: src/components/storage/installation-method/InstallationDestination.jsx:380
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/network/CockpitNetworkConfiguration.jsx:64
 msgid "Close"
 msgstr "Lukk"
 
@@ -393,6 +414,18 @@ msgstr "Rett desse problema før du held fram."
 msgid "Create Account"
 msgstr "Opprett konto"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:82
+#, fuzzy
+#| msgid "Delete partition"
+msgid "Create a separate $0 partition"
+msgstr "Slett partisjon"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:81
+#, fuzzy
+#| msgid "Delete partition"
+msgid "Create a swap partition"
+msgstr "Slett partisjon"
+
 #: src/components/users/Accounts.jsx:318
 msgid "Create account"
 msgstr "Opprett konto"
@@ -409,8 +442,8 @@ msgstr "Tilpassa"
 msgid "Date"
 msgstr "Dato"
 
-#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
+#: src/components/datetime/index.js:21
 msgid "Date and time"
 msgstr "Dato og klokkeslett"
 
@@ -442,8 +475,8 @@ msgstr "Detaljert skildring av problemet"
 msgid "Detected valid storage layout:"
 msgstr "Fann gyldig lagringsoppsett:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 #: src/components/storage/StorageReview.jsx:246
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 msgid "Device"
 msgstr "Eining"
 
@@ -471,7 +504,7 @@ msgstr "Krypter dataa mine"
 msgid "Encrypted"
 msgstr "Kryptert"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:106
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:105
 msgid "Encryption"
 msgstr "Kryptering"
 
@@ -527,6 +560,12 @@ msgstr "Klarte ikkje lagre oppsett"
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:80
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora Linux krev minst $0 diskplass."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:314
+#, fuzzy
+#| msgid "Reboot system?"
+msgid "File system"
+msgstr "Start systemet på nytt?"
 
 #: src/components/installation/InstallationProgress.jsx:247
 msgid "Finalization"
@@ -685,8 +724,8 @@ msgstr "Installasjonen av systemet mislukkast"
 msgid "Installation of the system failed: $0"
 msgstr "Installasjonen av systemet mislukkast: $0"
 
-#: src/components/source/index.js:24 src/components/source/index.js:25
 #: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/source/index.js:24 src/components/source/index.js:25
 msgid "Installation source"
 msgstr "Installasjonskjelde"
 
@@ -743,6 +782,14 @@ msgstr "Tastatur"
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:75
 msgid "Keyboard layout during boot"
 msgstr "Tastaturoppsett under oppstart"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:49
+msgid "LVM"
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:53
+msgid "LVM thin provisioning"
+msgstr ""
 
 #: src/components/localization/InstallationLanguage.jsx:240
 #: src/components/review/ReviewConfiguration.jsx:239
@@ -816,13 +863,18 @@ msgstr ""
 "Dei valde omformateringane for overordna og underordna eining samsvarar "
 "ikkje."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:60
+msgid "Modern storage pooling"
+msgstr ""
+
 #: src/components/storage/StorageReview.jsx:250
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:211
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
 msgid "Mount point"
 msgstr "Monteringspunkt"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 msgid "Mount point assignment"
 msgstr "Tildeling av monteringspunkt"
 
@@ -864,8 +916,8 @@ msgstr "Treng minst $0"
 msgid "Network"
 msgstr "Nettverk"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:46
 #: src/components/network/index.js:20
+#: src/components/network/CockpitNetworkConfiguration.jsx:46
 msgid "Network Configuration"
 msgstr "Nettverksoppsett"
 
@@ -963,13 +1015,19 @@ msgstr "Val"
 msgid "Other keyboards"
 msgstr "Andre tastatur"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:306
+#, fuzzy
+#| msgid "Partitions (advanced)"
+msgid "Partitioning scheme"
+msgstr "Partisjonar (avansert)"
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:88
 msgid "Partitions (advanced)"
 msgstr "Partisjonar (avansert)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/users/Accounts.jsx:205 src/components/users/Accounts.jsx:407
 msgid "Passphrase"
 msgstr "Passfrase"
@@ -1021,6 +1079,10 @@ msgstr "Førehandsutgåve"
 #: src/components/error/BugzillaReport.jsx:160
 msgid "Prefer to report manually? $0"
 msgstr "Vil du rapportere manuelt? $0"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:344
+msgid "Preview"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
@@ -1175,8 +1237,8 @@ msgstr ""
 "Rapporter eit problem eller gje tilbakemelding ved å opne Bugzilla-"
 "feilrapportskjemaet $0."
 
-#: src/components/error/Error.jsx:172
 #: src/components/error/BugzillaReport.jsx:634
+#: src/components/error/Error.jsx:172
 msgid "Report issue"
 msgstr "Rapporter eit problem"
 
@@ -1203,6 +1265,10 @@ msgstr "Skann einingar på nytt"
 #: src/components/storage/installation-method/InstallationDestination.jsx:97
 msgid "Rescanning of the disks failed."
 msgstr "Klarte ikkje skanne diskane på nytt."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:338
+msgid "Reset to defaults"
+msgstr ""
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:539
 msgid "Resize"
@@ -1264,6 +1330,7 @@ msgstr "SSL-klientsertifikat"
 msgid "SSL verification"
 msgstr "SSL-verifisering"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:368
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:245
@@ -1290,7 +1357,7 @@ msgstr "Søk etter eit miljø"
 msgid "Search keyboard layout"
 msgstr "Søk tastaturoppsett"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:110
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:109
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
@@ -1381,9 +1448,20 @@ msgstr "Vis passfrase"
 msgid "Show password"
 msgstr "Vis passord"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:56
+#, fuzzy
+#| msgid "Change partition layout"
+msgid "Simple and traditional layout"
+msgstr "Endre partisjonsoppsett"
+
 #: src/components/storage/StorageReview.jsx:247
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:212
 msgid "Size"
 msgstr "Storleik"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:44
+msgid "Snapshots and compression, with volumes sharing one pool"
+msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:237
 msgid "Software installation"
@@ -1419,14 +1497,20 @@ msgstr "Mellomrom"
 msgid "Stacktrace"
 msgstr "Stakkspor"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:57
+#, fuzzy
+#| msgid "Extended partition"
+msgid "Standard partitions"
+msgstr "Utvida partisjon"
+
 #: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr "Lagring"
 
-#: src/components/steps.js:37
-#: src/components/installation/InstallationProgress.jsx:232
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
+#: src/components/steps.js:37
+#: src/components/installation/InstallationProgress.jsx:232
 msgid "Storage configuration"
 msgstr "Lagringsoppsett"
 
@@ -1442,6 +1526,12 @@ msgstr "Lagringsredigering"
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "Lagringa er basert på oppsettet frå «Endre lagring»."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:412
+#, fuzzy
+#| msgid "Storage"
+msgid "Storage layout"
+msgstr "Lagring"
+
 #: src/components/storage/scenarios/use-configured-storage/index.js:40
 msgid ""
 "Storage layout is defined by the kickstart file. The planned partitioning "
@@ -1450,6 +1540,12 @@ msgstr ""
 "Oppsettet for lagring vert definert av kickstart-fila. Det planlagde "
 "partisjonsoppsettet kan gjennomgåast i samandraget."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:209
+#, fuzzy
+#| msgid "Storage plugin failed"
+msgid "Storage layout preview"
+msgstr "Lagringstillegget feila"
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid "Storage plugin failed"
 msgstr "Lagringstillegget feila"
@@ -1457,6 +1553,14 @@ msgstr "Lagringstillegget feila"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:624
 msgid "Storage requirements not met"
 msgstr "Krava til lagring er ikkje oppfylte"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:416
+msgid "Storage will be automatically configured using $0."
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:61
+msgid "Stratis"
+msgstr ""
 
 #: src/components/Password.jsx:67
 msgid "Strong"
@@ -1621,6 +1725,7 @@ msgstr ""
 "For å bruke dette valet, endre storleiken på eller fjern partisjonar som "
 "finst for å frigjere minst $0."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:213
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "Type"
@@ -1711,6 +1816,10 @@ msgstr "Brukarnamn må vere kortare enn 33 teikn"
 msgid "Validating..."
 msgstr "Validerer …"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:48
+msgid "Volumes that can be resized after installation"
+msgstr ""
+
 #: src/components/Password.jsx:45
 msgid "Weak"
 msgstr "Svak"
@@ -1781,9 +1890,9 @@ msgstr "fullført steg"
 msgid "current step"
 msgstr "gjeldande steg"
 
+#: src/components/storage/StorageReview.jsx:168
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/storage/StorageReview.jsx:168
 msgid "delete"
 msgstr "slett"
 

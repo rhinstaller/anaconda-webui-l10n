@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-20 10:29+0000\n"
+"POT-Creation-Date: 2026-11-21 10:12+0000\n"
 "PO-Revision-Date: 2023-11-06 12:22+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Urdu <https://translate.fedoraproject.org/projects/anaconda-"
@@ -34,8 +34,8 @@ msgstr ""
 msgid "$0 ($1)"
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 #: src/components/storage/Common.jsx:58
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 #, fuzzy
 #| msgid "Error"
 msgid "$0 error"
@@ -62,8 +62,8 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
 #: src/components/storage/Common.jsx:74
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
 msgid "$0 warning"
 msgid_plural "$0 warnings"
 msgstr[0] ""
@@ -116,8 +116,8 @@ msgstr ""
 msgid "Account"
 msgstr ""
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
 #: src/components/storage/StorageReview.jsx:248
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
 msgid "Actions"
 msgstr ""
 
@@ -144,6 +144,10 @@ msgstr "نیا انتخاب کنندہ"
 
 #: src/components/software/SoftwareSelection.jsx:147
 msgid "Additional software for the selected environment"
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:52
+msgid "Advanced LVM with thin provisioning"
 msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:55
@@ -212,6 +216,10 @@ msgstr ""
 msgid "Brief description of the issue"
 msgstr ""
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:45
+msgid "Btrfs"
+msgstr ""
+
 #: src/components/error/BugzillaReport.jsx:295
 msgid "Bug report details"
 msgstr ""
@@ -233,17 +241,26 @@ msgid ""
 "issues in order to enhance this work."
 msgstr ""
 
-#: src/components/error/Error.jsx:163
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:376
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:375
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/localization/Keyboard.jsx:282
-#: src/components/review/Hostname.jsx:127
+#: src/components/error/Error.jsx:163 src/components/review/Hostname.jsx:127
 #: src/components/datetime/CustomNTPModal.jsx:252
 #, fuzzy
 msgid "Cancel"
 msgstr "ختم کرنا"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:353
+msgid "Cannot apply this storage layout"
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:188
+msgid "Cannot create this layout on the selected disks"
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:427
 #: src/components/review/Hostname.jsx:125
 msgid "Change"
 msgstr ""
@@ -282,9 +299,9 @@ msgstr ""
 msgid "Checking installation configuration..."
 msgstr "ـتنصیب شروع کیجئے"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:481
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:487
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr ""
 
@@ -296,9 +313,9 @@ msgstr ""
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr ""
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:64
 #: src/components/storage/installation-method/InstallationDestination.jsx:380
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/network/CockpitNetworkConfiguration.jsx:64
 msgid "Close"
 msgstr ""
 
@@ -394,6 +411,20 @@ msgstr ""
 msgid "Create Account"
 msgstr ""
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:82
+#, fuzzy
+#| msgctxt "GUI|Summary"
+#| msgid "_Begin Installation"
+msgid "Create a separate $0 partition"
+msgstr "ـتنصیب شروع کیجئے"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:81
+#, fuzzy
+#| msgctxt "GUI|Summary"
+#| msgid "_Begin Installation"
+msgid "Create a swap partition"
+msgstr "ـتنصیب شروع کیجئے"
+
 #: src/components/users/Accounts.jsx:318
 msgid "Create account"
 msgstr ""
@@ -410,8 +441,8 @@ msgstr ""
 msgid "Date"
 msgstr ""
 
-#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
+#: src/components/datetime/index.js:21
 msgid "Date and time"
 msgstr ""
 
@@ -446,8 +477,8 @@ msgstr ""
 msgid "Detected valid storage layout:"
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 #: src/components/storage/StorageReview.jsx:246
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 msgid "Device"
 msgstr ""
 
@@ -476,7 +507,7 @@ msgstr ""
 msgid "Encrypted"
 msgstr ""
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:106
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:105
 msgid "Encryption"
 msgstr ""
 
@@ -531,6 +562,10 @@ msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:80
 msgid "Fedora linux requires at least $0 of disk space."
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:314
+msgid "File system"
 msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:247
@@ -683,8 +718,8 @@ msgstr "ـتنصیب شروع کیجئے"
 msgid "Installation of the system failed: $0"
 msgstr "ـتنصیب شروع کیجئے"
 
-#: src/components/source/index.js:24 src/components/source/index.js:25
 #: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/source/index.js:24 src/components/source/index.js:25
 #, fuzzy
 msgid "Installation source"
 msgstr "ـتنصیب شروع کیجئے"
@@ -736,6 +771,14 @@ msgstr ""
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:75
 msgid "Keyboard layout during boot"
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:49
+msgid "LVM"
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:53
+msgid "LVM thin provisioning"
 msgstr ""
 
 #: src/components/localization/InstallationLanguage.jsx:240
@@ -812,13 +855,18 @@ msgstr ""
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:60
+msgid "Modern storage pooling"
+msgstr ""
+
 #: src/components/storage/StorageReview.jsx:250
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:211
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
 msgid "Mount point"
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 msgid "Mount point assignment"
 msgstr ""
 
@@ -861,8 +909,8 @@ msgstr ""
 msgid "Network"
 msgstr ""
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:46
 #: src/components/network/index.js:20
+#: src/components/network/CockpitNetworkConfiguration.jsx:46
 msgid "Network Configuration"
 msgstr ""
 
@@ -954,13 +1002,17 @@ msgstr ""
 msgid "Other keyboards"
 msgstr ""
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:306
+msgid "Partitioning scheme"
+msgstr ""
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:88
 msgid "Partitions (advanced)"
 msgstr ""
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/users/Accounts.jsx:205 src/components/users/Accounts.jsx:407
 msgid "Passphrase"
 msgstr ""
@@ -1011,6 +1063,10 @@ msgstr ""
 
 #: src/components/error/BugzillaReport.jsx:160
 msgid "Prefer to report manually? $0"
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:344
+msgid "Preview"
 msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
@@ -1157,8 +1213,8 @@ msgid ""
 "$0."
 msgstr ""
 
-#: src/components/error/Error.jsx:172
 #: src/components/error/BugzillaReport.jsx:634
+#: src/components/error/Error.jsx:172
 msgid "Report issue"
 msgstr ""
 
@@ -1185,6 +1241,10 @@ msgstr "نیا آلہ"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:97
 msgid "Rescanning of the disks failed."
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:338
+msgid "Reset to defaults"
 msgstr ""
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:539
@@ -1252,6 +1312,7 @@ msgstr ""
 msgid "SSL verification"
 msgstr ""
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:368
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:245
@@ -1281,7 +1342,7 @@ msgstr "نیا انتخاب کنندہ"
 msgid "Search keyboard layout"
 msgstr "نیا انتخاب کنندہ"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:110
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:109
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
@@ -1382,8 +1443,20 @@ msgstr ":پاسورڈ"
 msgid "Show password"
 msgstr ":پاسورڈ"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:56
+#, fuzzy
+#| msgctxt "GUI|Summary"
+#| msgid "_Begin Installation"
+msgid "Simple and traditional layout"
+msgstr "ـتنصیب شروع کیجئے"
+
 #: src/components/storage/StorageReview.jsx:247
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:212
 msgid "Size"
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:44
+msgid "Snapshots and compression, with volumes sharing one pool"
 msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:237
@@ -1420,14 +1493,21 @@ msgstr ""
 msgid "Stacktrace"
 msgstr ""
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:57
+#, fuzzy
+#| msgctxt "GUI|Summary"
+#| msgid "_Begin Installation"
+msgid "Standard partitions"
+msgstr "ـتنصیب شروع کیجئے"
+
 #: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr ""
 
-#: src/components/steps.js:37
-#: src/components/installation/InstallationProgress.jsx:232
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
+#: src/components/steps.js:37
+#: src/components/installation/InstallationProgress.jsx:232
 msgid "Storage configuration"
 msgstr ""
 
@@ -1444,11 +1524,21 @@ msgstr "ـتنصیب شروع کیجئے"
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr ""
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:412
+#, fuzzy
+msgid "Storage layout"
+msgstr "ـتنصیب شروع کیجئے"
+
 #: src/components/storage/scenarios/use-configured-storage/index.js:40
 msgid ""
 "Storage layout is defined by the kickstart file. The planned partitioning "
 "layout can be reviewed in the summary step."
 msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:209
+#, fuzzy
+msgid "Storage layout preview"
+msgstr "ـتنصیب شروع کیجئے"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 #, fuzzy
@@ -1457,6 +1547,14 @@ msgstr "ـتنصیب شروع کیجئے"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:624
 msgid "Storage requirements not met"
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:416
+msgid "Storage will be automatically configured using $0."
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:61
+msgid "Stratis"
 msgstr ""
 
 #: src/components/Password.jsx:67
@@ -1603,6 +1701,7 @@ msgid ""
 "$0."
 msgstr ""
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:213
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "قِسم"
@@ -1693,6 +1792,10 @@ msgstr ""
 msgid "Validating..."
 msgstr ""
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:48
+msgid "Volumes that can be resized after installation"
+msgstr ""
+
 #: src/components/Password.jsx:45
 msgid "Weak"
 msgstr ""
@@ -1755,9 +1858,9 @@ msgstr ""
 msgid "current step"
 msgstr ""
 
+#: src/components/storage/StorageReview.jsx:168
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/storage/StorageReview.jsx:168
 #, fuzzy
 #| msgid "Delete"
 msgid "delete"

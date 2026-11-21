@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-20 10:29+0000\n"
+"POT-Creation-Date: 2026-11-21 10:12+0000\n"
 "PO-Revision-Date: 2026-10-25 07:49+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/anaconda-"
@@ -60,8 +60,8 @@ msgstr "$0 $1"
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 #: src/components/storage/Common.jsx:58
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 msgid "$0 error"
 msgid_plural "$0 errors"
 msgstr[0] "$0 오류"
@@ -86,8 +86,8 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr "$0 가 필요하나, $1 만 사용 할 수 있습니다."
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
 #: src/components/storage/Common.jsx:74
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
 msgid "$0 warning"
 msgid_plural "$0 warnings"
 msgstr[0] "$0 경고"
@@ -144,8 +144,8 @@ msgstr "정보"
 msgid "Account"
 msgstr "계정"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
 #: src/components/storage/StorageReview.jsx:248
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
 msgid "Actions"
 msgstr "동작"
 
@@ -172,6 +172,12 @@ msgstr "추가 할 수 있는 언어"
 #: src/components/software/SoftwareSelection.jsx:147
 msgid "Additional software for the selected environment"
 msgstr "선택한 환경을 위한 추가 소프트웨어"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:52
+#, fuzzy
+#| msgid "LVM Thin Provisioning"
+msgid "Advanced LVM with thin provisioning"
+msgstr "LVM 씬 프로비저닝"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:55
 msgid "All changes made in the storage editor take effect immediately."
@@ -239,6 +245,10 @@ msgstr "기본 환경"
 msgid "Brief description of the issue"
 msgstr "사건에 대한 간략한 설명"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:45
+msgid "Btrfs"
+msgstr "B-트리 파일 시스템(B-tree file system)"
+
 #: src/components/error/BugzillaReport.jsx:295
 msgid "Bug report details"
 msgstr "결점 보고 세부 정보"
@@ -263,16 +273,29 @@ msgstr ""
 "업을 향상 시키기 위해 결점 또는 문제점을 기꺼이 보고하고자 하는 사전-출시된 "
 "소프트웨어와 관련된 위험을 이해하고 수용합니다."
 
-#: src/components/error/Error.jsx:163
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:376
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:375
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/localization/Keyboard.jsx:282
-#: src/components/review/Hostname.jsx:127
+#: src/components/error/Error.jsx:163 src/components/review/Hostname.jsx:127
 #: src/components/datetime/CustomNTPModal.jsx:252
 msgid "Cancel"
 msgstr "취소"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:353
+#, fuzzy
+#| msgid "Detected valid storage layout:"
+msgid "Cannot apply this storage layout"
+msgstr "탐지된 유효 저장소 배열:"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:188
+#, fuzzy
+#| msgid "Not enough free space on the selected disks."
+msgid "Cannot create this layout on the selected disks"
+msgstr "선택한 디스크에 여유 공간이 충분하지 않습니다."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:427
 #: src/components/review/Hostname.jsx:125
 msgid "Change"
 msgstr "변경"
@@ -305,9 +328,9 @@ msgstr ""
 msgid "Checking installation configuration..."
 msgstr "설치 구성 확인 중..."
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:481
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:487
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "저장소 구성 확인 중"
 
@@ -319,9 +342,9 @@ msgstr "검색 지우기"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr "이들 경고에도 불구하고 계속 진행하려면 다시 '다음' 을 눌러주세요."
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:64
 #: src/components/storage/installation-method/InstallationDestination.jsx:380
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/network/CockpitNetworkConfiguration.jsx:64
 msgid "Close"
 msgstr "종료"
 
@@ -410,6 +433,18 @@ msgstr "계속하기 전에 이들 문제를 정정합니다."
 msgid "Create Account"
 msgstr "계정 생성"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:82
+#, fuzzy
+#| msgid "Your %s must be on a separate partition or LV."
+msgid "Create a separate $0 partition"
+msgstr "%s은 분리된 파티션 또는 LV.로 구성 해야 합니다."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:81
+#, fuzzy
+#| msgid "Delete partition"
+msgid "Create a swap partition"
+msgstr "파티션 삭제"
+
 #: src/components/users/Accounts.jsx:318
 msgid "Create account"
 msgstr "계정 생성"
@@ -426,8 +461,8 @@ msgstr "사용자 지정"
 msgid "Date"
 msgstr "날짜"
 
-#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
+#: src/components/datetime/index.js:21
 msgid "Date and time"
 msgstr "날짜와 시간"
 
@@ -459,8 +494,8 @@ msgstr "사건에 대한 세부 설명"
 msgid "Detected valid storage layout:"
 msgstr "탐지된 유효 저장소 배열:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 #: src/components/storage/StorageReview.jsx:246
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 msgid "Device"
 msgstr "장치"
 
@@ -488,7 +523,7 @@ msgstr "자료를 암호화합니다"
 msgid "Encrypted"
 msgstr "암호화됨"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:106
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:105
 msgid "Encryption"
 msgstr "암호화"
 
@@ -544,6 +579,13 @@ msgstr "배열을 저장하는 데 실패했습니다"
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:80
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "페도라 리눅스는 적어도 디스크 공간의 $0가 필요합니다."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:314
+#, fuzzy
+#| msgctxt "GUI|Custom Partitioning|Configure"
+#| msgid "File S_ystem:"
+msgid "File system"
+msgstr "파일 시스템(_y):"
 
 #: src/components/installation/InstallationProgress.jsx:247
 msgid "Finalization"
@@ -698,8 +740,8 @@ msgstr "시스템 설치에 실패했습니다"
 msgid "Installation of the system failed: $0"
 msgstr "시스템 설치에 실패했습니다: $0"
 
-#: src/components/source/index.js:24 src/components/source/index.js:25
 #: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/source/index.js:24 src/components/source/index.js:25
 msgid "Installation source"
 msgstr "설치 소스"
 
@@ -756,6 +798,16 @@ msgstr "키보드"
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:75
 msgid "Keyboard layout during boot"
 msgstr "부팅 중에 키보드 나열"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:49
+msgid "LVM"
+msgstr "LVM"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:53
+#, fuzzy
+#| msgid "LVM Thin Provisioning"
+msgid "LVM thin provisioning"
+msgstr "LVM 씬 프로비저닝"
 
 #: src/components/localization/InstallationLanguage.jsx:240
 #: src/components/review/ReviewConfiguration.jsx:239
@@ -827,13 +879,20 @@ msgstr "연결주소목록"
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr "상위 장치와 하위 장치 재-초기화 선택이 일치하지 않습니다."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:60
+#, fuzzy
+#| msgid "Modified storage"
+msgid "Modern storage pooling"
+msgstr "수정된 저장소"
+
 #: src/components/storage/StorageReview.jsx:250
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:211
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
 msgid "Mount point"
 msgstr "적재 지점"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 msgid "Mount point assignment"
 msgstr "적재 지점 지정"
 
@@ -875,8 +934,8 @@ msgstr "최소 $0 가 필요합니다"
 msgid "Network"
 msgstr "네트워크"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:46
 #: src/components/network/index.js:20
+#: src/components/network/CockpitNetworkConfiguration.jsx:46
 msgid "Network Configuration"
 msgstr "네트워크 구성"
 
@@ -971,13 +1030,19 @@ msgstr "선택"
 msgid "Other keyboards"
 msgstr "기타 키보드"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:306
+#, fuzzy
+#| msgid "Partitioning Options"
+msgid "Partitioning scheme"
+msgstr "파티션닝 선택"
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:88
 msgid "Partitions (advanced)"
 msgstr "파티션 (고급)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/users/Accounts.jsx:205 src/components/users/Accounts.jsx:407
 msgid "Passphrase"
 msgstr "암호문"
@@ -1029,6 +1094,12 @@ msgstr "사전-출시"
 #: src/components/error/BugzillaReport.jsx:160
 msgid "Prefer to report manually? $0"
 msgstr "수동으로 보고할까요? $0"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:344
+#, fuzzy
+#| msgid "Review"
+msgid "Preview"
+msgstr "재검토"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
@@ -1180,8 +1251,8 @@ msgid ""
 msgstr ""
 "문제를 보고하거나 버그질라 결점 보고 양식 $0 를 열어서 응답을 제공해 주세요."
 
-#: src/components/error/Error.jsx:172
 #: src/components/error/BugzillaReport.jsx:634
+#: src/components/error/Error.jsx:172
 msgid "Report issue"
 msgstr "문제를 보고합니다"
 
@@ -1208,6 +1279,10 @@ msgstr "장치 재검색"
 #: src/components/storage/installation-method/InstallationDestination.jsx:97
 msgid "Rescanning of the disks failed."
 msgstr "디스크 재검색이 실패함."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:338
+msgid "Reset to defaults"
+msgstr ""
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:539
 msgid "Resize"
@@ -1269,6 +1344,7 @@ msgstr "SSL 클라이언트 인증서"
 msgid "SSL verification"
 msgstr "SSL 검증"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:368
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:245
@@ -1295,7 +1371,7 @@ msgstr "환경을 위한 검색"
 msgid "Search keyboard layout"
 msgstr "키보드 배열을 검색합니다"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:110
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:109
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
@@ -1387,9 +1463,20 @@ msgstr "암호문을 표시합니다"
 msgid "Show password"
 msgstr "비밀번호 표시"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:56
+#, fuzzy
+#| msgid "Change partition layout"
+msgid "Simple and traditional layout"
+msgstr "파티션 구성 변경"
+
 #: src/components/storage/StorageReview.jsx:247
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:212
 msgid "Size"
 msgstr "크기"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:44
+msgid "Snapshots and compression, with volumes sharing one pool"
+msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:237
 msgid "Software installation"
@@ -1425,14 +1512,20 @@ msgstr "공간"
 msgid "Stacktrace"
 msgstr "스택트레이스"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:57
+#, fuzzy
+#| msgid "Standard Partition"
+msgid "Standard partitions"
+msgstr "표준 파티션"
+
 #: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr "저장소"
 
-#: src/components/steps.js:37
-#: src/components/installation/InstallationProgress.jsx:232
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
+#: src/components/steps.js:37
+#: src/components/installation/InstallationProgress.jsx:232
 msgid "Storage configuration"
 msgstr "저장소 구성"
 
@@ -1448,6 +1541,13 @@ msgstr "저장소 편집기"
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "저장소는 '저장소 수정' 에서 구성을 기반으로 합니다."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:412
+#, fuzzy
+#| msgctxt "GUI|Storage|Error Dialog"
+#| msgid "_Modify Storage Layout"
+msgid "Storage layout"
+msgstr "저장소 배열 수정(_M)"
+
 #: src/components/storage/scenarios/use-configured-storage/index.js:40
 msgid ""
 "Storage layout is defined by the kickstart file. The planned partitioning "
@@ -1456,6 +1556,12 @@ msgstr ""
 "킥스타트 파일에서 저장소 배열은 정의됩니다. 계획된 디스크 구획 배열은 요약 단"
 "계에서 검토 할 수 있습니다."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:209
+#, fuzzy
+#| msgid "Storage plugin failed"
+msgid "Storage layout preview"
+msgstr "실패한 저장소 플로그인"
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid "Storage plugin failed"
 msgstr "실패한 저장소 플로그인"
@@ -1463,6 +1569,14 @@ msgstr "실패한 저장소 플로그인"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:624
 msgid "Storage requirements not met"
 msgstr "저장소 요구사항이 충족되지 않았습니다"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:416
+msgid "Storage will be automatically configured using $0."
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:61
+msgid "Stratis"
+msgstr ""
 
 #: src/components/Password.jsx:67
 msgid "Strong"
@@ -1622,6 +1736,7 @@ msgstr ""
 "이와 같은 옵션을 사용하려면, 최소 $0의 공간을 확보하려면 기존 파티션 크기를 "
 "조정하거나 제거하세요."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:213
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "유형"
@@ -1712,6 +1827,12 @@ msgstr "사용자 이름은 33 자보다 짧아야 합니다"
 msgid "Validating..."
 msgstr "검증 중..."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:48
+#, fuzzy
+#| msgid "Current configuration can be used for installation."
+msgid "Volumes that can be resized after installation"
+msgstr "현재 구성은 설치를 위해 사용 될 수 있습니다."
+
 #: src/components/Password.jsx:45
 msgid "Weak"
 msgstr "취약"
@@ -1780,9 +1901,9 @@ msgstr "완료 단계"
 msgid "current step"
 msgstr "현재 단계"
 
+#: src/components/storage/StorageReview.jsx:168
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/storage/StorageReview.jsx:168
 msgid "delete"
 msgstr "삭제"
 
@@ -2118,9 +2239,6 @@ msgstr "실행취소"
 #~ msgid "Account setting failed."
 #~ msgstr "계정 설정이 실패함."
 
-#~ msgid "Current configuration can be used for installation."
-#~ msgstr "현재 구성은 설치를 위해 사용 될 수 있습니다."
-
 #~ msgid "The root partition is always re-formatted by the installer."
 #~ msgstr "root 파티션은 항상 설치자에 의해 다시-초기화됩니다."
 
@@ -2132,9 +2250,6 @@ msgstr "실행취소"
 
 #~ msgid "Ignore"
 #~ msgstr "무시"
-
-#~ msgid "Modified storage"
-#~ msgstr "수정된 저장소"
 
 #~ msgid "Modifying the storage failed."
 #~ msgstr "저장소 수정하기가 실패하였습니다."
@@ -2848,9 +2963,6 @@ msgstr "실행취소"
 #~ msgid "Bridge %(interface_name)s (%(list_of_ports)s) connected"
 #~ msgstr "브릿지 %(interface_name)s (%(list_of_ports)s) 연결됨"
 
-#~ msgid "Btrfs"
-#~ msgstr "B-트리 파일 시스템(B-tree file system)"
-
 #~ msgid "Btrfs file system is not supported."
 #~ msgstr "Btrfs 파일 시스템은 지원하지 않습니다."
 
@@ -3506,10 +3618,6 @@ msgstr "실행취소"
 #~ msgid "Fair"
 #~ msgstr "보통"
 
-#~ msgctxt "GUI|Custom Partitioning|Configure"
-#~ msgid "File S_ystem:"
-#~ msgstr "파일 시스템(_y):"
-
 #~ msgid "File system type \"{}\" given in autopart command is invalid."
 #~ msgstr ""
 #~ "자동 시작 명령에 지정된 파일 시스템 유형 \"{}\"가 유효하지 않습니다."
@@ -3979,12 +4087,6 @@ msgstr "실행취소"
 #~ msgid "LUN:"
 #~ msgstr "LUN:"
 
-#~ msgid "LVM"
-#~ msgstr "LVM"
-
-#~ msgid "LVM Thin Provisioning"
-#~ msgstr "LVM 씬 프로비저닝"
-
 #~ msgid "Label:"
 #~ msgstr "이름표:"
 
@@ -4411,9 +4513,6 @@ msgstr "실행취소"
 
 #~ msgid "Partition Scheme Options"
 #~ msgstr "파티션 구성표 선택"
-
-#~ msgid "Partitioning Options"
-#~ msgstr "파티션닝 선택"
 
 #~ msgid ""
 #~ "Partitioning method changed - planned storage configuration changes will "
@@ -5243,9 +5342,6 @@ msgstr "실행취소"
 
 #~ msgid "Speed"
 #~ msgstr "속도"
-
-#~ msgid "Standard Partition"
-#~ msgstr "표준 파티션"
 
 #~ msgid "Start VNC"
 #~ msgstr "VNC 시작"
@@ -6557,10 +6653,6 @@ msgstr "실행취소"
 #~ msgid "Your %(mount)s partition size is lower than required %(size)s."
 #~ msgstr "당신의 %(mount)s 파티션 크기가 요구하는 %(size)s 작습니다."
 
-#, python-format
-#~ msgid "Your %s must be on a separate partition or LV."
-#~ msgstr "%s은 분리된 파티션 또는 LV.로 구성 해야 합니다."
-
 #~ msgid ""
 #~ "Your BIOS-based system needs a special partition to boot from a GPT disk "
 #~ "label. To continue, please create a 1MiB 'biosboot' type partition on the "
@@ -6961,10 +7053,6 @@ msgstr "실행취소"
 #~ msgctxt "GUI|Software Selection|Error Dialog"
 #~ msgid "_Modify Software Source"
 #~ msgstr "소프트웨어 소스 수정(_M)"
-
-#~ msgctxt "GUI|Storage|Error Dialog"
-#~ msgid "_Modify Storage Layout"
-#~ msgstr "저장소 배열 수정(_M)"
 
 #~ msgctxt "GUI|Custom Partitioning|Configure"
 #~ msgid "_Modify..."
@@ -7933,9 +8021,6 @@ msgstr "실행취소"
 
 #~ msgid "Installation progress"
 #~ msgstr "설치 진행"
-
-#~ msgid "Review"
-#~ msgstr "재검토"
 
 #~ msgid "Installation language"
 #~ msgstr "설치 언어"

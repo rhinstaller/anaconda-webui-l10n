@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-20 10:29+0000\n"
+"POT-Creation-Date: 2026-11-21 10:12+0000\n"
 "PO-Revision-Date: 2023-11-06 12:16+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Bengali (India) <https://translate.fedoraproject.org/projects/"
@@ -47,8 +47,8 @@ msgstr ""
 msgid "$0 ($1)"
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 #: src/components/storage/Common.jsx:58
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 #, fuzzy
 #| msgid "Error"
 msgid "$0 error"
@@ -76,8 +76,8 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr ""
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
 #: src/components/storage/Common.jsx:74
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
 msgid "$0 warning"
 msgid_plural "$0 warnings"
 msgstr[0] ""
@@ -135,8 +135,8 @@ msgstr ""
 msgid "Account"
 msgstr "সজ্জা যোগ করুন"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
 #: src/components/storage/StorageReview.jsx:248
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
 #, fuzzy
 #| msgid "Action"
 msgid "Actions"
@@ -172,6 +172,12 @@ msgstr "উপলব্ধ ভাষা"
 #| msgid "Add-Ons for Selected Environment"
 msgid "Additional software for the selected environment"
 msgstr "নির্বাচিত এনভায়রনমেন্টের জন্য অ্যাড-অন"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:52
+#, fuzzy
+#| msgid "LVM Thin Provisioning"
+msgid "Advanced LVM with thin provisioning"
+msgstr "LVM থিন প্রভিশনিং"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:55
 msgid "All changes made in the storage editor take effect immediately."
@@ -242,6 +248,10 @@ msgstr "প্রাথমিক এনভায়রনমেন্ট"
 msgid "Brief description of the issue"
 msgstr "এখানে বর্ণনা রয়েছে।"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:45
+msgid "Btrfs"
+msgstr "Btrfs"
+
 #: src/components/error/BugzillaReport.jsx:295
 msgid "Bug report details"
 msgstr ""
@@ -263,17 +273,27 @@ msgid ""
 "issues in order to enhance this work."
 msgstr ""
 
-#: src/components/error/Error.jsx:163
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:376
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:375
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/localization/Keyboard.jsx:282
-#: src/components/review/Hostname.jsx:127
+#: src/components/error/Error.jsx:163 src/components/review/Hostname.jsx:127
 #: src/components/datetime/CustomNTPModal.jsx:252
 #, fuzzy
 msgid "Cancel"
 msgstr "বাতিল(_C)"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:353
+msgid "Cannot apply this storage layout"
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:188
+#, fuzzy
+msgid "Cannot create this layout on the selected disks"
+msgstr "নির্বাচিত ডিস্কে পর্যাপ্ত খালি স্থান নেই।"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:427
 #: src/components/review/Hostname.jsx:125
 #, fuzzy
 #| msgctxt "GUI|Advanced User"
@@ -314,9 +334,9 @@ msgstr ""
 msgid "Checking installation configuration..."
 msgstr "স্টোরেজ কনফিগারেশন পরীক্ষা করা হচ্ছে..."
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:481
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:487
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #, fuzzy
 msgid "Checking storage configuration"
 msgstr "স্টোরেজ কনফিগারেশন পরীক্ষা করা হচ্ছে..."
@@ -329,9 +349,9 @@ msgstr ""
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr ""
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:64
 #: src/components/storage/installation-method/InstallationDestination.jsx:380
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/network/CockpitNetworkConfiguration.jsx:64
 msgid "Close"
 msgstr "বন্ধ করুন"
 
@@ -442,6 +462,18 @@ msgstr "দয়া করে জারি রাখার পূর্বে �
 msgid "Create Account"
 msgstr ""
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:82
+#, fuzzy
+#| msgid "%s must be on a primary partition."
+msgid "Create a separate $0 partition"
+msgstr "%s অবশ্যই এক প্রাথমিক বিভাজন হতে হবে।"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:81
+#, fuzzy
+#| msgid "Standard Partition"
+msgid "Create a swap partition"
+msgstr "সাধারণ পার্টিশন"
+
 #: src/components/users/Accounts.jsx:318
 msgid "Create account"
 msgstr ""
@@ -458,8 +490,8 @@ msgstr ""
 msgid "Date"
 msgstr ""
 
-#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
+#: src/components/datetime/index.js:21
 #, fuzzy
 #| msgid "Set Date & Time"
 msgid "Date and time"
@@ -500,8 +532,8 @@ msgstr "ডিভাইস বর্ণনা"
 msgid "Detected valid storage layout:"
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 #: src/components/storage/StorageReview.jsx:246
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 msgid "Device"
 msgstr "ডিভাইস"
 
@@ -535,7 +567,7 @@ msgstr "এনক্রিপ্ট করুন"
 msgid "Encrypted"
 msgstr "এনক্রিপ্ট করুন"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:106
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:105
 msgid "Encryption"
 msgstr "এনক্রিপশন"
 
@@ -600,6 +632,13 @@ msgstr "সঞ্চয়স্থান কনফিগারেশন সং�
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:80
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:314
+#, fuzzy
+#| msgctxt "GUI|Custom Partitioning|Configure"
+#| msgid "File S_ystem:"
+msgid "File system"
+msgstr "ফাইল-সিস্টেম (_y):"
 
 #: src/components/installation/InstallationProgress.jsx:247
 #, fuzzy
@@ -761,8 +800,8 @@ msgstr "ইনস্টলেশন"
 msgid "Installation of the system failed: $0"
 msgstr "ইনস্টলেশন"
 
-#: src/components/source/index.js:24 src/components/source/index.js:25
 #: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/source/index.js:24 src/components/source/index.js:25
 msgid "Installation source"
 msgstr "ইনস্টলেশনের উৎস"
 
@@ -817,6 +856,16 @@ msgstr ""
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:75
 msgid "Keyboard layout during boot"
 msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:49
+msgid "LVM"
+msgstr "LVM"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:53
+#, fuzzy
+#| msgid "LVM Thin Provisioning"
+msgid "LVM thin provisioning"
+msgstr "LVM থিন প্রভিশনিং"
 
 #: src/components/localization/InstallationLanguage.jsx:240
 #: src/components/review/ReviewConfiguration.jsx:239
@@ -899,13 +948,19 @@ msgstr ""
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr ""
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:60
+#, fuzzy
+msgid "Modern storage pooling"
+msgstr "সঞ্চয়স্থান সজ্জা সংশোধন করুন (_M)"
+
 #: src/components/storage/StorageReview.jsx:250
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:211
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
 msgid "Mount point"
 msgstr "মাউন্ট পয়েন্ট"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 #, fuzzy
 msgid "Mount point assignment"
 msgstr "মাউন্ট পয়েন্ট"
@@ -953,8 +1008,8 @@ msgstr ""
 msgid "Network"
 msgstr "নেটওয়ার্ক"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:46
 #: src/components/network/index.js:20
+#: src/components/network/CockpitNetworkConfiguration.jsx:46
 #, fuzzy
 #| msgid "Network configuration"
 msgid "Network Configuration"
@@ -1062,13 +1117,19 @@ msgstr "বিকল্প (_O)"
 msgid "Other keyboards"
 msgstr ""
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:306
+#, fuzzy
+#| msgid "Partition Scheme Options"
+msgid "Partitioning scheme"
+msgstr "বিভাজন স্কিম বিকল্প"
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:88
 msgid "Partitions (advanced)"
 msgstr ""
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/users/Accounts.jsx:205 src/components/users/Accounts.jsx:407
 msgid "Passphrase"
 msgstr "পরিচয়-পংক্তি"
@@ -1129,6 +1190,13 @@ msgstr ""
 #: src/components/error/BugzillaReport.jsx:160
 msgid "Prefer to report manually? $0"
 msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:344
+#, fuzzy
+#| msgctxt "GUI|Keyboard Layout"
+#| msgid "_Preview layout"
+msgid "Preview"
+msgstr "সজ্জা পূর্বরূপ (_P)"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 #, fuzzy
@@ -1295,8 +1363,8 @@ msgid ""
 "$0."
 msgstr ""
 
-#: src/components/error/Error.jsx:172
 #: src/components/error/BugzillaReport.jsx:634
+#: src/components/error/Error.jsx:172
 msgid "Report issue"
 msgstr ""
 
@@ -1332,6 +1400,10 @@ msgstr "%s ডিভাইস কনফিগার করুন"
 #, fuzzy
 msgid "Rescanning of the disks failed."
 msgstr "পুনরায় ডিস্ক স্ক্যান করার কাজ শেষ হয়েছে।"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:338
+msgid "Reset to defaults"
+msgstr ""
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:539
 msgid "Resize"
@@ -1404,6 +1476,7 @@ msgstr ""
 msgid "SSL verification"
 msgstr ""
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:368
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:245
@@ -1438,7 +1511,7 @@ msgstr "ভাষা"
 msgid "Search keyboard layout"
 msgstr "ভাষা"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:110
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:109
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
@@ -1556,8 +1629,18 @@ msgstr "পাসওয়ার্ড নিশ্চিত করুন (_C)"
 msgid "Show password"
 msgstr "Root পাসওয়ার্ড"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:56
+#, fuzzy
+msgid "Simple and traditional layout"
+msgstr "বিবরণ"
+
 #: src/components/storage/StorageReview.jsx:247
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:212
 msgid "Size"
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:44
+msgid "Snapshots and compression, with volumes sharing one pool"
 msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:237
@@ -1595,15 +1678,21 @@ msgstr "কোনো স্থান নেই"
 msgid "Stacktrace"
 msgstr ""
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:57
+#, fuzzy
+#| msgid "Standard Partition"
+msgid "Standard partitions"
+msgstr "সাধারণ পার্টিশন"
+
 #: src/components/review/ReviewConfiguration.jsx:287
 #, fuzzy
 msgid "Storage"
 msgstr "স্টোরেজ বিকল্প"
 
-#: src/components/steps.js:37
-#: src/components/installation/InstallationProgress.jsx:232
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
+#: src/components/steps.js:37
+#: src/components/installation/InstallationProgress.jsx:232
 #, fuzzy
 msgid "Storage configuration"
 msgstr "নেটওয়ার্ক কনফিগারেশন"
@@ -1623,11 +1712,24 @@ msgstr "ইনস্টলেশন"
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "ডিস্ক থেকে সংগ্রহস্থল কনফিগারেশন পুনঃলোড করুন।"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:412
+#, fuzzy
+#| msgctxt "GUI|Storage|Error Dialog"
+#| msgid "_Modify Storage Layout"
+msgid "Storage layout"
+msgstr "সঞ্চয়স্থান সজ্জা সংশোধন করুন (_M)"
+
 #: src/components/storage/scenarios/use-configured-storage/index.js:40
 msgid ""
 "Storage layout is defined by the kickstart file. The planned partitioning "
 "layout can be reviewed in the summary step."
 msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:209
+#, fuzzy
+#| msgid "Node login failed."
+msgid "Storage layout preview"
+msgstr "নোড লগইন ব্যর্থ হয়েছে।"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 #, fuzzy
@@ -1637,6 +1739,14 @@ msgstr "নোড লগইন ব্যর্থ হয়েছে।"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:624
 msgid "Storage requirements not met"
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:416
+msgid "Storage will be automatically configured using $0."
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:61
+msgid "Stratis"
 msgstr ""
 
 #: src/components/Password.jsx:67
@@ -1803,6 +1913,7 @@ msgid ""
 "$0."
 msgstr ""
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:213
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "ধরন"
@@ -1910,6 +2021,10 @@ msgstr "হোস্ট-নেম 64 অক্ষরের মধ্যে স�
 msgid "Validating..."
 msgstr ""
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:48
+msgid "Volumes that can be resized after installation"
+msgstr ""
+
 #: src/components/Password.jsx:45
 msgid "Weak"
 msgstr "দুর্বল"
@@ -1975,9 +2090,9 @@ msgstr "সম্পন্ন!"
 msgid "current step"
 msgstr ""
 
+#: src/components/storage/StorageReview.jsx:168
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/storage/StorageReview.jsx:168
 #, fuzzy
 #| msgid "Delete"
 msgid "delete"
@@ -2123,10 +2238,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "No usable devices on the selected disks."
 #~ msgstr "নির্বাচিত ডিস্কে পর্যাপ্ত খালি স্থান নেই।"
-
-#, fuzzy
-#~ msgid "Modify storage"
-#~ msgstr "সঞ্চয়স্থান সজ্জা সংশোধন করুন (_M)"
 
 #, fuzzy
 #~ msgid "Use free space for the installation"
@@ -2705,9 +2816,6 @@ msgstr ""
 #~ msgid "Bridge %(interface_name)s (%(list_of_ports)s) connected"
 #~ msgstr "সেতু %(interface_name)s (%(list_of_ports)s) সংযুক্ত"
 
-#~ msgid "Btrfs"
-#~ msgstr "Btrfs"
-
 #, fuzzy
 #~| msgid "The \"%s\" file system type is not supported."
 #~ msgid "Btrfs file system is not supported."
@@ -3187,10 +3295,6 @@ msgstr ""
 #~ msgid "Fair"
 #~ msgstr "মোটামুটি"
 
-#~ msgctxt "GUI|Custom Partitioning|Configure"
-#~ msgid "File S_ystem:"
-#~ msgstr "ফাইল-সিস্টেম (_y):"
-
 #~ msgctxt "GUI|Installation Destination|Filter|Multipath"
 #~ msgid "Filter _By:"
 #~ msgstr "এই অনুসারে বাছুন (_B):"
@@ -3488,12 +3592,6 @@ msgstr ""
 
 #~ msgid "LUN"
 #~ msgstr "LUN"
-
-#~ msgid "LVM"
-#~ msgstr "LVM"
-
-#~ msgid "LVM Thin Provisioning"
-#~ msgstr "LVM থিন প্রভিশনিং"
 
 #~ msgid "Label:"
 #~ msgstr "লেবেল:"
@@ -3812,9 +3910,6 @@ msgstr ""
 #~| msgid "Partition \"%s\" given in part command does not exist."
 #~ msgid "Partition \"{}\" given in part command does not exist."
 #~ msgstr " part কম্যান্ডে দেওয়া \"%s\" বিভাজনের অস্তিত্ব নেই।"
-
-#~ msgid "Partition Scheme Options"
-#~ msgstr "বিভাজন স্কিম বিকল্প"
 
 #~ msgctxt "GUI|Software Source|Proxy Dialog"
 #~ msgid "Pass_word:"
@@ -5336,11 +5431,6 @@ msgstr ""
 #~ "%(mount)s পার্টিশনের মাপ %(size)s এর থেকে কম, যা %(productName)s-র "
 #~ "স্বাভাবিক ইনস্টলেশনের জন্য আবশ্যক মাপের থেকেও কম।"
 
-#, fuzzy, python-format
-#~| msgid "%s must be on a primary partition."
-#~ msgid "Your %s must be on a separate partition or LV."
-#~ msgstr "%s অবশ্যই এক প্রাথমিক বিভাজন হতে হবে।"
-
 #, fuzzy
 #~| msgid ""
 #~| "Your BIOS-based system needs a special partition to boot from a GPT disk "
@@ -5652,10 +5742,6 @@ msgstr ""
 #~ msgid "_Modify Software Source"
 #~ msgstr "সফ্টওয়্যার সোর্স সংশোধন করুন (_M)"
 
-#~ msgctxt "GUI|Storage|Error Dialog"
-#~ msgid "_Modify Storage Layout"
-#~ msgstr "সঞ্চয়স্থান সজ্জা সংশোধন করুন (_M)"
-
 #~ msgctxt "GUI|Custom Partitioning|Configure"
 #~ msgid "_Modify..."
 #~ msgstr "সংশোধন করুন (_M)..."
@@ -5787,10 +5873,6 @@ msgstr ""
 #~ msgctxt "GUI|Reclaim Dialog"
 #~ msgid "_Preserve"
 #~ msgstr "সঞ্চয় করুন (_P)"
-
-#~ msgctxt "GUI|Keyboard Layout"
-#~ msgid "_Preview layout"
-#~ msgstr "সজ্জা পূর্বরূপ (_P)"
 
 #~ msgctxt "GUI|Software Source"
 #~ msgid "_Proxy setup..."

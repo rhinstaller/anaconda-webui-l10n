@@ -63,7 +63,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-20 10:29+0000\n"
+"POT-Creation-Date: 2026-11-21 10:12+0000\n"
 "PO-Revision-Date: 2026-02-03 04:28+0000\n"
 "Last-Translator: Yoshiaki Ishii "
 "<zouforestyoppy@users.noreply.translate.fedoraproject.org>\n"
@@ -87,8 +87,8 @@ msgstr "$0 $1"
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 #: src/components/storage/Common.jsx:58
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 #, fuzzy
 #| msgid "Error"
 msgid "$0 error"
@@ -115,8 +115,8 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr "$0 が必要ですが、 $1 のみ利用可能です。"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
 #: src/components/storage/Common.jsx:74
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
 msgid "$0 warning"
 msgid_plural "$0 warnings"
 msgstr[0] ""
@@ -172,8 +172,8 @@ msgstr "About"
 msgid "Account"
 msgstr "アカウント"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
 #: src/components/storage/StorageReview.jsx:248
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
 msgid "Actions"
 msgstr "アクション"
 
@@ -206,6 +206,12 @@ msgstr "使用可能な言語"
 #| msgid "Additional software for selected environment"
 msgid "Additional software for the selected environment"
 msgstr "選択した環境のその他のソフトウェア"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:52
+#, fuzzy
+#| msgid "LVM Thin Provisioning"
+msgid "Advanced LVM with thin provisioning"
+msgstr "LVM シンプロビジョニング"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:55
 msgid "All changes made in the storage editor take effect immediately."
@@ -277,6 +283,10 @@ msgstr "ベース環境"
 msgid "Brief description of the issue"
 msgstr "この問題の簡単な説明"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:45
+msgid "Btrfs"
+msgstr "BTRFS"
+
 #: src/components/error/BugzillaReport.jsx:295
 msgid "Bug report details"
 msgstr "バグ レポートの詳細"
@@ -302,16 +312,29 @@ msgstr ""
 "用して、このソフトウェアを強化するためにバグや問題を率先して報告するものとし"
 "ます。"
 
-#: src/components/error/Error.jsx:163
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:376
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:375
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/localization/Keyboard.jsx:282
-#: src/components/review/Hostname.jsx:127
+#: src/components/error/Error.jsx:163 src/components/review/Hostname.jsx:127
 #: src/components/datetime/CustomNTPModal.jsx:252
 msgid "Cancel"
 msgstr "取り消し"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:353
+#, fuzzy
+#| msgid "Detected valid storage layout:"
+msgid "Cannot apply this storage layout"
+msgstr "有効なストレージ構成が見つかりました:"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:188
+#, fuzzy
+#| msgid "Not enough free space on the selected disks."
+msgid "Cannot create this layout on the selected disks"
+msgstr "選択したディスクには十分な空き領域がありません。"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:427
 #: src/components/review/Hostname.jsx:125
 msgid "Change"
 msgstr "変更"
@@ -347,9 +370,9 @@ msgstr ""
 msgid "Checking installation configuration..."
 msgstr "ストレージ設定をチェック中..."
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:481
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:487
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "ストレージ設定をチェック中"
 
@@ -363,9 +386,9 @@ msgstr "入力した値をクリアします"
 msgid "Click 'Next' again to proceed despite these warnings."
 msgstr "'Next' を再度押し、警告を無視して実行する。"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:64
 #: src/components/storage/installation-method/InstallationDestination.jsx:380
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/network/CockpitNetworkConfiguration.jsx:64
 msgid "Close"
 msgstr "閉じる"
 
@@ -468,6 +491,18 @@ msgstr "すべてのスポークを完了してから継続してください"
 msgid "Create Account"
 msgstr "アカウントを作成"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:82
+#, fuzzy
+#| msgid "Your %s must be on a separate partition or LV."
+msgid "Create a separate $0 partition"
+msgstr "お使いの %s は、別のパーティションまたは LV 上にある必要があります。"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:81
+#, fuzzy
+#| msgid "Recommended partitions:"
+msgid "Create a swap partition"
+msgstr "推奨されるパーティション:"
+
 #: src/components/users/Accounts.jsx:318
 msgid "Create account"
 msgstr "アカウントを作成"
@@ -484,8 +519,8 @@ msgstr "カスタム"
 msgid "Date"
 msgstr ""
 
-#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
+#: src/components/datetime/index.js:21
 msgid "Date and time"
 msgstr "日付と時刻"
 
@@ -521,8 +556,8 @@ msgstr "デバイスの説明"
 msgid "Detected valid storage layout:"
 msgstr "有効なストレージ構成が見つかりました:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 #: src/components/storage/StorageReview.jsx:246
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 msgid "Device"
 msgstr "デバイス"
 
@@ -550,7 +585,7 @@ msgstr "データを暗号化する"
 msgid "Encrypted"
 msgstr "暗号化済み"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:106
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:105
 msgid "Encryption"
 msgstr "暗号化"
 
@@ -606,6 +641,13 @@ msgstr "レイアウトの保存に失敗しました"
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:80
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora Linux は最低でも $0 のディスク領域を必要とします。"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:314
+#, fuzzy
+#| msgctxt "GUI|Custom Partitioning|Configure"
+#| msgid "File S_ystem:"
+msgid "File system"
+msgstr "ファイルシステム(_Y):"
 
 #: src/components/installation/InstallationProgress.jsx:247
 msgid "Finalization"
@@ -760,8 +802,8 @@ msgstr "システムのインストールに失敗しました"
 msgid "Installation of the system failed: $0"
 msgstr "システムのインストールに失敗しました: $0"
 
-#: src/components/source/index.js:24 src/components/source/index.js:25
 #: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/source/index.js:24 src/components/source/index.js:25
 msgid "Installation source"
 msgstr "インストールソース"
 
@@ -815,6 +857,16 @@ msgstr "キーボード"
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:75
 msgid "Keyboard layout during boot"
 msgstr "起動時のキーボードレイアウト"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:49
+msgid "LVM"
+msgstr "LVM"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:53
+#, fuzzy
+#| msgid "LVM Thin Provisioning"
+msgid "LVM thin provisioning"
+msgstr "LVM シンプロビジョニング"
 
 #: src/components/localization/InstallationLanguage.jsx:240
 #: src/components/review/ReviewConfiguration.jsx:239
@@ -891,13 +943,20 @@ msgstr "mirrorlist"
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr "親デバイスと子デバイスの再フォーマットの選択が一致していません。"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:60
+#, fuzzy
+#| msgid "Modified storage"
+msgid "Modern storage pooling"
+msgstr "変更されたストレージ"
+
 #: src/components/storage/StorageReview.jsx:250
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:211
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
 msgid "Mount point"
 msgstr "マウントポイント"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 msgid "Mount point assignment"
 msgstr "マウントポイントの割り当て"
 
@@ -939,8 +998,8 @@ msgstr ""
 msgid "Network"
 msgstr "ネットワーク"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:46
 #: src/components/network/index.js:20
+#: src/components/network/CockpitNetworkConfiguration.jsx:46
 #, fuzzy
 #| msgid "Network configuration"
 msgid "Network Configuration"
@@ -1041,13 +1100,19 @@ msgstr "オプション"
 msgid "Other keyboards"
 msgstr "他のキーボード"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:306
+#, fuzzy
+#| msgid "Partitioning Options"
+msgid "Partitioning scheme"
+msgstr "パーティションオプション"
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:88
 msgid "Partitions (advanced)"
 msgstr "パーティション (上級者向け)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/users/Accounts.jsx:205 src/components/users/Accounts.jsx:407
 msgid "Passphrase"
 msgstr "パスフレーズ"
@@ -1103,6 +1168,12 @@ msgstr "プレリリース"
 #: src/components/error/BugzillaReport.jsx:160
 msgid "Prefer to report manually? $0"
 msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:344
+#, fuzzy
+#| msgid "Review"
+msgid "Preview"
+msgstr "レビュー"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
@@ -1259,8 +1330,8 @@ msgid ""
 "$0."
 msgstr ""
 
-#: src/components/error/Error.jsx:172
 #: src/components/error/BugzillaReport.jsx:634
+#: src/components/error/Error.jsx:172
 msgid "Report issue"
 msgstr "Issueを報告する"
 
@@ -1287,6 +1358,10 @@ msgstr "デバイスの再スキャン"
 #: src/components/storage/installation-method/InstallationDestination.jsx:97
 msgid "Rescanning of the disks failed."
 msgstr "ディスクの再スキャンに失敗しました。"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:338
+msgid "Reset to defaults"
+msgstr ""
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:539
 msgid "Resize"
@@ -1352,6 +1427,7 @@ msgstr ""
 msgid "SSL verification"
 msgstr ""
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:368
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:245
@@ -1382,7 +1458,7 @@ msgstr "言語の選択"
 msgid "Search keyboard layout"
 msgstr "言語の選択"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:110
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:109
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
@@ -1485,8 +1561,19 @@ msgstr "パスフレーズを表示する"
 msgid "Show password"
 msgstr "パスワードを表示する"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:56
+#, fuzzy
+#| msgid "Change partition layout"
+msgid "Simple and traditional layout"
+msgstr "インストール先を変更"
+
 #: src/components/storage/StorageReview.jsx:247
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:212
 msgid "Size"
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:44
+msgid "Snapshots and compression, with volumes sharing one pool"
 msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:237
@@ -1523,14 +1610,20 @@ msgstr "領域"
 msgid "Stacktrace"
 msgstr ""
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:57
+#, fuzzy
+#| msgid "Standard Partition"
+msgid "Standard partitions"
+msgstr "標準パーティション"
+
 #: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr "ストレージ"
 
-#: src/components/steps.js:37
-#: src/components/installation/InstallationProgress.jsx:232
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
+#: src/components/steps.js:37
+#: src/components/installation/InstallationProgress.jsx:232
 msgid "Storage configuration"
 msgstr "ストレージの設定"
 
@@ -1546,11 +1639,24 @@ msgstr "ストレージエディター"
 msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "ストレージは「ストレージの変更」の設定に基づいています。"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:412
+#, fuzzy
+#| msgctxt "GUI|Storage|Error Dialog"
+#| msgid "_Modify Storage Layout"
+msgid "Storage layout"
+msgstr "ストレージ配列の修正(_M)"
+
 #: src/components/storage/scenarios/use-configured-storage/index.js:40
 msgid ""
 "Storage layout is defined by the kickstart file. The planned partitioning "
 "layout can be reviewed in the summary step."
 msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:209
+#, fuzzy
+#| msgid "Node login failed."
+msgid "Storage layout preview"
+msgstr "ストレージプラグインが失敗しました"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 #, fuzzy
@@ -1561,6 +1667,14 @@ msgstr "ストレージプラグインが失敗しました"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:624
 msgid "Storage requirements not met"
 msgstr "ストレージ要件が満たされていません"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:416
+msgid "Storage will be automatically configured using $0."
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:61
+msgid "Stratis"
+msgstr ""
 
 #: src/components/Password.jsx:67
 msgid "Strong"
@@ -1717,6 +1831,7 @@ msgstr ""
 "このオプションを使用するには、既存のパーティションをリサイズ・削除して、少な"
 "くとも $0 の容量を解放してください。"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:213
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "タイプ"
@@ -1826,6 +1941,15 @@ msgstr "ユーザー名は 33 文字未満にしてください"
 msgid "Validating..."
 msgstr "初期化中..."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:48
+#, fuzzy
+#| msgid ""
+#| "You need to configure the network to use a network installation source."
+msgid "Volumes that can be resized after installation"
+msgstr ""
+"ネットワーク上のインストールソースを利用するにはネットワークの設定が必要で"
+"す。"
+
 #: src/components/Password.jsx:45
 msgid "Weak"
 msgstr "弱い"
@@ -1892,9 +2016,9 @@ msgstr "完了した手順"
 msgid "current step"
 msgstr "現在の手順"
 
+#: src/components/storage/StorageReview.jsx:168
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/storage/StorageReview.jsx:168
 #, fuzzy
 #| msgid "Delete"
 msgid "delete"
@@ -2219,14 +2343,6 @@ msgstr ""
 #~ msgid "Account setting failed."
 #~ msgstr "アカウント設定に失敗しました。"
 
-#, fuzzy
-#~| msgid ""
-#~| "You need to configure the network to use a network installation source."
-#~ msgid "Current configuration can be used for installation."
-#~ msgstr ""
-#~ "ネットワーク上のインストールソースを利用するにはネットワークの設定が必要で"
-#~ "す。"
-
 #~ msgid "The root partition is always re-formatted by the installer."
 #~ msgstr ""
 #~ "ルート パーティションは、インストーラーによって常に再フォーマットされま"
@@ -2240,9 +2356,6 @@ msgstr ""
 
 #~ msgid "Ignore"
 #~ msgstr "無視する"
-
-#~ msgid "Modified storage"
-#~ msgstr "変更されたストレージ"
 
 #~ msgid "Modifying the storage failed."
 #~ msgstr "ストレージの変更中に失敗しました。"
@@ -2972,9 +3085,6 @@ msgstr ""
 #~ msgid "Bridge %(interface_name)s (%(list_of_ports)s) connected"
 #~ msgstr "ブリッジ %(interface_name)s (%(list_of_ports)s) が接続されました"
 
-#~ msgid "Btrfs"
-#~ msgstr "BTRFS"
-
 #~ msgid "Btrfs file system is not supported."
 #~ msgstr "Btrfs ファイルシステムはサポートしていません。"
 
@@ -3641,10 +3751,6 @@ msgstr ""
 #~ msgid "Fair"
 #~ msgstr "普通"
 
-#~ msgctxt "GUI|Custom Partitioning|Configure"
-#~ msgid "File S_ystem:"
-#~ msgstr "ファイルシステム(_Y):"
-
 #~ msgid "File system type \"{}\" given in autopart command is invalid."
 #~ msgstr ""
 #~ "autopart コマンドで指定されたファイルシステムタイプ \"{}\" は無効です。"
@@ -4127,12 +4233,6 @@ msgstr ""
 #~ msgid "LUN:"
 #~ msgstr "LUN:"
 
-#~ msgid "LVM"
-#~ msgstr "LVM"
-
-#~ msgid "LVM Thin Provisioning"
-#~ msgstr "LVM シンプロビジョニング"
-
 #~ msgid "Label:"
 #~ msgstr "ラベル:"
 
@@ -4565,9 +4665,6 @@ msgstr ""
 
 #~ msgid "Partition Scheme Options"
 #~ msgstr "パーティションスキーマのオプション"
-
-#~ msgid "Partitioning Options"
-#~ msgstr "パーティションオプション"
 
 #~ msgid ""
 #~ "Partitioning method changed - planned storage configuration changes will "
@@ -5415,9 +5512,6 @@ msgstr ""
 
 #~ msgid "Speed"
 #~ msgstr "速度"
-
-#~ msgid "Standard Partition"
-#~ msgstr "標準パーティション"
 
 #~ msgid "Start VNC"
 #~ msgstr "VNC を起動する"
@@ -6760,11 +6854,6 @@ msgstr ""
 #~ "ご使用の %(mount)s パーティションサイズは、必要とされるサイズ %(size)s よ"
 #~ "りも小さいです。"
 
-#, python-format
-#~ msgid "Your %s must be on a separate partition or LV."
-#~ msgstr ""
-#~ "お使いの %s は、別のパーティションまたは LV 上にある必要があります。"
-
 #~ msgid ""
 #~ "Your BIOS-based system needs a special partition to boot from a GPT disk "
 #~ "label. To continue, please create a 1MiB 'biosboot' type partition on the "
@@ -7169,10 +7258,6 @@ msgstr ""
 #~ msgctxt "GUI|Software Selection|Error Dialog"
 #~ msgid "_Modify Software Source"
 #~ msgstr "ソフトウェアソースを修正 (_M)"
-
-#~ msgctxt "GUI|Storage|Error Dialog"
-#~ msgid "_Modify Storage Layout"
-#~ msgstr "ストレージ配列の修正(_M)"
 
 #~ msgctxt "GUI|Custom Partitioning|Configure"
 #~ msgid "_Modify..."
@@ -8130,9 +8215,6 @@ msgstr ""
 
 #~ msgid "Installation progress"
 #~ msgstr "インストールの進捗"
-
-#~ msgid "Review"
-#~ msgstr "レビュー"
 
 #~ msgid "Installation language"
 #~ msgstr "インストール言語"

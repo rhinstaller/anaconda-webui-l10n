@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-20 10:29+0000\n"
+"POT-Creation-Date: 2026-11-21 10:12+0000\n"
 "PO-Revision-Date: 2026-10-26 08:07+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/"
@@ -36,8 +36,8 @@ msgstr "$0 $1"
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 #: src/components/storage/Common.jsx:58
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 msgid "$0 error"
 msgid_plural "$0 errors"
 msgstr[0] "$0 შეცდომა"
@@ -62,8 +62,8 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr "საჭიროა $0, მაგრამ ხელმისაწვდომია მხოლოდ $1."
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
 #: src/components/storage/Common.jsx:74
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
 msgid "$0 warning"
 msgid_plural "$0 warnings"
 msgstr[0] "$0 გაფრთხილება"
@@ -121,8 +121,8 @@ msgstr "შესახებ"
 msgid "Account"
 msgstr "ანგარიში"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
 #: src/components/storage/StorageReview.jsx:248
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
 msgid "Actions"
 msgstr "ქმედებები"
 
@@ -149,6 +149,12 @@ msgstr "დამატებითი ენები"
 #: src/components/software/SoftwareSelection.jsx:147
 msgid "Additional software for the selected environment"
 msgstr "დამატებითი პროგრამები არჩეული გარემოსთვის"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:52
+#, fuzzy
+#| msgid "LVM Thin Provisioning"
+msgid "Advanced LVM with thin provisioning"
+msgstr "LVM-ის თხელი სამუშაოდ მომზადება"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:55
 msgid "All changes made in the storage editor take effect immediately."
@@ -216,6 +222,10 @@ msgstr "საბაზო გარემო"
 msgid "Brief description of the issue"
 msgstr "პრობლემის მოკლე აღწერა"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:45
+msgid "Btrfs"
+msgstr "Btrfs"
+
 #: src/components/error/BugzillaReport.jsx:295
 msgid "Bug report details"
 msgstr "შეცდომის ანგარიშის დეტალები"
@@ -241,16 +251,29 @@ msgstr ""
 "ტესტირებისთვის და მზად ხართ, გამოგვიგზავნოთ ანგარიში ნებისმიერი შეცდომის "
 "შესახებ."
 
-#: src/components/error/Error.jsx:163
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:376
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:375
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/localization/Keyboard.jsx:282
-#: src/components/review/Hostname.jsx:127
+#: src/components/error/Error.jsx:163 src/components/review/Hostname.jsx:127
 #: src/components/datetime/CustomNTPModal.jsx:252
 msgid "Cancel"
 msgstr "გაუქმება"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:353
+#, fuzzy
+#| msgid "Detected valid storage layout:"
+msgid "Cannot apply this storage layout"
+msgstr "აღმოჩენილია სწორი საცავის განლაგება:"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:188
+#, fuzzy
+#| msgid "Not enough free space on the selected disks."
+msgid "Cannot create this layout on the selected disks"
+msgstr "მონიშნულ დისკებზე საკმარისი თავისუფალი ადგილი არაა."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:427
 #: src/components/review/Hostname.jsx:125
 msgid "Change"
 msgstr "შეცვლა"
@@ -284,9 +307,9 @@ msgstr ""
 msgid "Checking installation configuration..."
 msgstr "დაყენების კონფიგურაციის შემოწმება..."
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:481
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:487
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "საცავის კონფიგურაციის შემოწმება"
 
@@ -299,9 +322,9 @@ msgid "Click 'Next' again to proceed despite these warnings."
 msgstr ""
 "გაფრთხილებების მიუხედავად გასაგრძელებლად დააწკაპუნეთ ღილაკზე 'შემდეგი'."
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:64
 #: src/components/storage/installation-method/InstallationDestination.jsx:380
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/network/CockpitNetworkConfiguration.jsx:64
 msgid "Close"
 msgstr "დაკეტვა"
 
@@ -391,6 +414,18 @@ msgstr "გაგრძელებამდე მოაგვარეთ ე�
 msgid "Create Account"
 msgstr "ანგარიშის შექმნა"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:82
+#, fuzzy
+#| msgid "Your %s must be on a separate partition or LV."
+msgid "Create a separate $0 partition"
+msgstr "%s უნდა იყოს პირველადი დანაყოფი."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:81
+#, fuzzy
+#| msgid "Delete partition"
+msgid "Create a swap partition"
+msgstr "განაყოფის წაშლა"
+
 #: src/components/users/Accounts.jsx:318
 msgid "Create account"
 msgstr "ანგარიშის შექმნა"
@@ -407,8 +442,8 @@ msgstr "ხელით"
 msgid "Date"
 msgstr "თარიღი"
 
-#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
+#: src/components/datetime/index.js:21
 msgid "Date and time"
 msgstr "თარიღი და დრო"
 
@@ -440,8 +475,8 @@ msgstr "პრობლემის დეტალური აღწერა"
 msgid "Detected valid storage layout:"
 msgstr "აღმოჩენილია სწორი საცავის განლაგება:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 #: src/components/storage/StorageReview.jsx:246
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 msgid "Device"
 msgstr "მოწყობილობა"
 
@@ -469,7 +504,7 @@ msgstr "ჩემი მონაცემების დაშიფვრა"
 msgid "Encrypted"
 msgstr "დაშიფრულია"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:106
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:105
 msgid "Encryption"
 msgstr "დაშიფვრა"
 
@@ -525,6 +560,13 @@ msgstr "განლაგებების შენახვის შეც�
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:80
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora linux-ს დისკზე მინიმუმ $0 ადგილი სჭირდება."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:314
+#, fuzzy
+#| msgctxt "GUI|Custom Partitioning|Configure"
+#| msgid "File S_ystem:"
+msgid "File system"
+msgstr "ფაილური ს_ისტემა:"
 
 #: src/components/installation/InstallationProgress.jsx:247
 msgid "Finalization"
@@ -683,8 +725,8 @@ msgstr "სისტემის დაყენება ჩავარდა"
 msgid "Installation of the system failed: $0"
 msgstr "სისტემის დაყენება ჩავარდა: $0"
 
-#: src/components/source/index.js:24 src/components/source/index.js:25
 #: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/source/index.js:24 src/components/source/index.js:25
 msgid "Installation source"
 msgstr "დაყენების წყარო"
 
@@ -741,6 +783,16 @@ msgstr "კლავიატურა"
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:75
 msgid "Keyboard layout during boot"
 msgstr "კლავიატურის განლაგება ჩატვირთვისას"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:49
+msgid "LVM"
+msgstr "LVM"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:53
+#, fuzzy
+#| msgid "LVM Thin Provisioning"
+msgid "LVM thin provisioning"
+msgstr "LVM-ის თხელი სამუშაოდ მომზადება"
 
 #: src/components/localization/InstallationLanguage.jsx:240
 #: src/components/review/ReviewConfiguration.jsx:239
@@ -815,13 +867,20 @@ msgstr ""
 "მშობელი მოწყობილობისა და შვილი მოწყობილობის თავიდან დაფორმატების არჩევანი არ "
 "ემთხვევა."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:60
+#, fuzzy
+#| msgid "Modified storage"
+msgid "Modern storage pooling"
+msgstr "შეცვლილი საცავი"
+
 #: src/components/storage/StorageReview.jsx:250
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:211
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
 msgid "Mount point"
 msgstr "მიმაგრების წერტილი"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 msgid "Mount point assignment"
 msgstr "მიმაგრების წერტილის მინიჭება"
 
@@ -863,8 +922,8 @@ msgstr "საჭიროა სულ ცოტა $0"
 msgid "Network"
 msgstr "ქსელი"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:46
 #: src/components/network/index.js:20
+#: src/components/network/CockpitNetworkConfiguration.jsx:46
 msgid "Network Configuration"
 msgstr "ქსელის კონფიგურაცია"
 
@@ -959,13 +1018,19 @@ msgstr "მორგება"
 msgid "Other keyboards"
 msgstr "სხვა კლავიატურები"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:306
+#, fuzzy
+#| msgid "Partitioning Options"
+msgid "Partitioning scheme"
+msgstr "დისკის დახლეჩის პარამეტრები"
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:88
 msgid "Partitions (advanced)"
 msgstr "დანაყოფები (დამატებით)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/users/Accounts.jsx:205 src/components/users/Accounts.jsx:407
 msgid "Passphrase"
 msgstr "საკვანძო ფრაზა"
@@ -1017,6 +1082,12 @@ msgstr "პრე-რელიზი"
 #: src/components/error/BugzillaReport.jsx:160
 msgid "Prefer to report manually? $0"
 msgstr "გირჩევნიათ, ანგარიში ხელით გამოაგზავნოთ? $0"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:344
+#, fuzzy
+#| msgid "Review"
+msgid "Preview"
+msgstr "გადახედვა"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
@@ -1175,8 +1246,8 @@ msgstr ""
 "მოგვწერეთ პრობლემაზე, ან მოიწერეთ უკუკავშირი Bugzilla-ის შეცდომის ჩანაწერის "
 "ფორმის $0 გახსნით."
 
-#: src/components/error/Error.jsx:172
 #: src/components/error/BugzillaReport.jsx:634
+#: src/components/error/Error.jsx:172
 msgid "Report issue"
 msgstr "პრობლემის ანგარიში"
 
@@ -1203,6 +1274,10 @@ msgstr "მოწყობილობების თავიდან სკ�
 #: src/components/storage/installation-method/InstallationDestination.jsx:97
 msgid "Rescanning of the disks failed."
 msgstr "დისკების თავიდან სკანირების შეცდომა."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:338
+msgid "Reset to defaults"
+msgstr ""
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:539
 msgid "Resize"
@@ -1264,6 +1339,7 @@ msgstr "SSL კლიენტის სერტიფიკატი"
 msgid "SSL verification"
 msgstr "SSL-ის გადამოწმება"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:368
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:245
@@ -1290,7 +1366,7 @@ msgstr "გარემოს ძებნა"
 msgid "Search keyboard layout"
 msgstr "კლავიატურის განლაგების მოძებნა"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:110
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:109
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
@@ -1381,9 +1457,20 @@ msgstr "საკვანძო ფრაზის ჩვენება"
 msgid "Show password"
 msgstr "პაროლის ჩვენება"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:56
+#, fuzzy
+#| msgid "Change partition layout"
+msgid "Simple and traditional layout"
+msgstr "დანაყოფების განლაგების შეცვლა"
+
 #: src/components/storage/StorageReview.jsx:247
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:212
 msgid "Size"
 msgstr "ზომა"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:44
+msgid "Snapshots and compression, with volumes sharing one pool"
+msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:237
 msgid "Software installation"
@@ -1419,14 +1506,20 @@ msgstr "ადგილი"
 msgid "Stacktrace"
 msgstr "სტეკის ტრეისი"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:57
+#, fuzzy
+#| msgid "Standard Partition"
+msgid "Standard partitions"
+msgstr "სტანდარტული დანაყოფი"
+
 #: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr "საცავი"
 
-#: src/components/steps.js:37
-#: src/components/installation/InstallationProgress.jsx:232
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
+#: src/components/steps.js:37
+#: src/components/installation/InstallationProgress.jsx:232
 msgid "Storage configuration"
 msgstr "საცავის მორგება"
 
@@ -1443,6 +1536,13 @@ msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr ""
 "საცავი ეყრდნობა კონფიგურაციას, რომელიც მივიღეთ ფანჯრიდან 'საცავის ჩასწორება'."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:412
+#, fuzzy
+#| msgctxt "GUI|Storage|Error Dialog"
+#| msgid "_Modify Storage Layout"
+msgid "Storage layout"
+msgstr "საცავის განლაგების _ცვლილება"
+
 #: src/components/storage/scenarios/use-configured-storage/index.js:40
 msgid ""
 "Storage layout is defined by the kickstart file. The planned partitioning "
@@ -1451,6 +1551,12 @@ msgstr ""
 "საცავის განლაგება აღწერილია ფაილში kickstart. დაგეგმილი დაყოფის განლაგების "
 "გადახედვა შეჯამების ნაბიჯზე შეგეძლებათ."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:209
+#, fuzzy
+#| msgid "Storage plugin failed"
+msgid "Storage layout preview"
+msgstr "საცავის დამატება ჩავარდა"
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid "Storage plugin failed"
 msgstr "საცავის დამატება ჩავარდა"
@@ -1458,6 +1564,14 @@ msgstr "საცავის დამატება ჩავარდა"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:624
 msgid "Storage requirements not met"
 msgstr "საცავის მოთხოვნები დაყენებული არაა"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:416
+msgid "Storage will be automatically configured using $0."
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:61
+msgid "Stratis"
+msgstr ""
 
 #: src/components/Password.jsx:67
 msgid "Strong"
@@ -1622,6 +1736,7 @@ msgstr ""
 "ამ პარამეტრის გამოსაყენებლად არსებული დანაყოფების ზომა შეცვალეთ ან წაშალეთ "
 "ისინი, სანამ თავისუფალი ადგილი $0 მაინც არ იქნება."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:213
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "ტიპი"
@@ -1712,6 +1827,12 @@ msgstr "მომხმარებლის სახელის სიგრ�
 msgid "Validating..."
 msgstr "გადამოწმება..."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:48
+#, fuzzy
+#| msgid "Current configuration can be used for installation."
+msgid "Volumes that can be resized after installation"
+msgstr "მიმდინარე კონფიგურაციის გამოყენება დაყენებისთვის შესაძლებელია."
+
 #: src/components/Password.jsx:45
 msgid "Weak"
 msgstr "სუსტი"
@@ -1783,9 +1904,9 @@ msgstr "ნაბიჯი დასრულდა"
 msgid "current step"
 msgstr "მიმდინარე ბიჯი"
 
+#: src/components/storage/StorageReview.jsx:168
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/storage/StorageReview.jsx:168
 msgid "delete"
 msgstr "წაშლა"
 
@@ -2136,9 +2257,6 @@ msgstr "გაუქმება"
 #~ msgid "Account setting failed."
 #~ msgstr "ანგარიშის მორგება ჩავარდა."
 
-#~ msgid "Current configuration can be used for installation."
-#~ msgstr "მიმდინარე კონფიგურაციის გამოყენება დაყენებისთვის შესაძლებელია."
-
 #~ msgid "The root partition is always re-formatted by the installer."
 #~ msgstr "ძირითად დანაყოფს დამყენებელი პროგრამა ყოველთვის თავიდან აფორმატებს."
 
@@ -2150,9 +2268,6 @@ msgstr "გაუქმება"
 
 #~ msgid "Ignore"
 #~ msgstr "იგნორირება"
-
-#~ msgid "Modified storage"
-#~ msgstr "შეცვლილი საცავი"
 
 #~ msgid "Modifying the storage failed."
 #~ msgstr "საცავის შეცვლა ჩავარდა."
@@ -2881,9 +2996,6 @@ msgstr "გაუქმება"
 #~ msgid "Bridge %(interface_name)s (%(list_of_ports)s) connected"
 #~ msgstr "Bridge %(interface_name)s (%(list_of_ports)s) შეერთებულია"
 
-#~ msgid "Btrfs"
-#~ msgstr "Btrfs"
-
 #~ msgid "Btrfs file system is not supported."
 #~ msgstr "Btrfs ფაილური სისტემის მხარდაჭერა არ არსებობს."
 
@@ -3553,10 +3665,6 @@ msgstr "გაუქმება"
 #~ msgid "Fair"
 #~ msgstr "ნორმალური"
 
-#~ msgctxt "GUI|Custom Partitioning|Configure"
-#~ msgid "File S_ystem:"
-#~ msgstr "ფაილური ს_ისტემა:"
-
 #~ msgid "File system type \"{}\" given in autopart command is invalid."
 #~ msgstr ""
 #~ "ფაილური სისტემის ტიპი \"{}\", რომელიც autopart ბრძანებისთვისაა "
@@ -4036,12 +4144,6 @@ msgstr "გაუქმება"
 #~ msgid "LUN:"
 #~ msgstr "LUN:"
 
-#~ msgid "LVM"
-#~ msgstr "LVM"
-
-#~ msgid "LVM Thin Provisioning"
-#~ msgstr "LVM-ის თხელი სამუშაოდ მომზადება"
-
 #~ msgid "Label:"
 #~ msgstr "ჭდე:"
 
@@ -4482,9 +4584,6 @@ msgstr "გაუქმება"
 
 #~ msgid "Partition Scheme Options"
 #~ msgstr "დაყოფის სქემის პარამეტრები"
-
-#~ msgid "Partitioning Options"
-#~ msgstr "დისკის დახლეჩის პარამეტრები"
 
 #~ msgid ""
 #~ "Partitioning method changed - planned storage configuration changes will "
@@ -5332,9 +5431,6 @@ msgstr "გაუქმება"
 
 #~ msgid "Speed"
 #~ msgstr "სიჩქარე"
-
-#~ msgid "Standard Partition"
-#~ msgstr "სტანდარტული დანაყოფი"
 
 #~ msgid "Start VNC"
 #~ msgstr "VNC-ის გაშვება"
@@ -6674,10 +6770,6 @@ msgstr "გაუქმება"
 #~ msgid "Your %(mount)s partition size is lower than required %(size)s."
 #~ msgstr "თქვენი %(mount)s დანაყოფის ზომა აუცილებელზე, %(size)s, პატარაა."
 
-#, python-format
-#~ msgid "Your %s must be on a separate partition or LV."
-#~ msgstr "%s უნდა იყოს პირველადი დანაყოფი."
-
 #~ msgid ""
 #~ "Your BIOS-based system needs a special partition to boot from a GPT disk "
 #~ "label. To continue, please create a 1MiB 'biosboot' type partition on the "
@@ -7082,10 +7174,6 @@ msgstr "გაუქმება"
 #~ msgctxt "GUI|Software Selection|Error Dialog"
 #~ msgid "_Modify Software Source"
 #~ msgstr "პროგრამების წყა_როს ჩასწორება"
-
-#~ msgctxt "GUI|Storage|Error Dialog"
-#~ msgid "_Modify Storage Layout"
-#~ msgstr "საცავის განლაგების _ცვლილება"
 
 #~ msgctxt "GUI|Custom Partitioning|Configure"
 #~ msgid "_Modify..."
@@ -7962,9 +8050,6 @@ msgstr "გაუქმება"
 #~| msgid "Installation source"
 #~ msgid "Installation progress"
 #~ msgstr "ჩადგმის წყარო"
-
-#~ msgid "Review"
-#~ msgstr "გადახედვა"
 
 #, fuzzy
 #~| msgid "Installation source"

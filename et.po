@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-20 10:29+0000\n"
+"POT-Creation-Date: 2026-11-21 10:12+0000\n"
 "PO-Revision-Date: 2026-10-05 02:42+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
@@ -41,8 +41,8 @@ msgstr "$0 $1"
 msgid "$0 ($1)"
 msgstr "$0 ($1)"
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 #: src/components/storage/Common.jsx:58
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:74
 msgid "$0 error"
 msgid_plural "$0 errors"
 msgstr[0] "$0 viga"
@@ -69,8 +69,8 @@ msgstr ""
 msgid "$0 is required, but only $1 is available."
 msgstr "Nõutav on $0, kuid vaid $1 on saadaval."
 
-#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
 #: src/components/storage/Common.jsx:74
+#: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:90
 msgid "$0 warning"
 msgid_plural "$0 warnings"
 msgstr[0] "$0 hoiatus"
@@ -129,8 +129,8 @@ msgstr "Teave"
 msgid "Account"
 msgstr "Kasutajakonto"
 
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
 #: src/components/storage/StorageReview.jsx:248
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:142
 msgid "Actions"
 msgstr "Tegevused"
 
@@ -157,6 +157,10 @@ msgstr "Täiendavad keeled"
 #: src/components/software/SoftwareSelection.jsx:147
 msgid "Additional software for the selected environment"
 msgstr "Täiendav tarkvara valitud keskkonna jaoks"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:52
+msgid "Advanced LVM with thin provisioning"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:55
 msgid "All changes made in the storage editor take effect immediately."
@@ -224,6 +228,10 @@ msgstr "Aluskeskkond"
 msgid "Brief description of the issue"
 msgstr "Vea või probleemi lühikirjeldus"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:45
+msgid "Btrfs"
+msgstr ""
+
 #: src/components/error/BugzillaReport.jsx:295
 msgid "Bug report details"
 msgstr "Veateate üksikasjad"
@@ -249,16 +257,29 @@ msgstr ""
 "testimiseks ja arenduseks ning toote edaspidise parandamise nimel oled nõus "
 "arendajatele teada andma leitud vigadest ja probleemidest."
 
-#: src/components/error/Error.jsx:163
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:376
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:72
-#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/storage/installation-method/InstallationDestination.jsx:375
+#: src/components/storage/installation-method/ReclaimSpaceModal.jsx:211
 #: src/components/localization/Keyboard.jsx:282
-#: src/components/review/Hostname.jsx:127
+#: src/components/error/Error.jsx:163 src/components/review/Hostname.jsx:127
 #: src/components/datetime/CustomNTPModal.jsx:252
 msgid "Cancel"
 msgstr "Katkesta"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:353
+#, fuzzy
+#| msgid "Detected valid storage layout:"
+msgid "Cannot apply this storage layout"
+msgstr "Tuvastasin korrektse andmeruumi jaotuse:"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:188
+#, fuzzy
+#| msgid "Not enough free space on the selected disks."
+msgid "Cannot create this layout on the selected disks"
+msgstr "Valitud ketastel pole piisavalt vaba ruumi."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:427
 #: src/components/review/Hostname.jsx:125
 msgid "Change"
 msgstr "Muuda"
@@ -292,9 +313,9 @@ msgstr ""
 msgid "Checking installation configuration..."
 msgstr "Kontrollin paigalduse seadistust..."
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:481
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:487
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:39
 msgid "Checking storage configuration"
 msgstr "Kontrollin andmeruumi seadistust"
 
@@ -308,9 +329,9 @@ msgstr ""
 "Kui tahad jätkata neile hoiatustele vaatamata, siis klõpsa uuesti nuppu "
 "„Edasi“."
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:64
 #: src/components/storage/installation-method/InstallationDestination.jsx:380
 #: src/components/storage/installation-method/EncryptedDevices.jsx:181
+#: src/components/network/CockpitNetworkConfiguration.jsx:64
 msgid "Close"
 msgstr "Sulge"
 
@@ -405,6 +426,18 @@ msgstr "Palun paranda need vead enne jätkamist."
 msgid "Create Account"
 msgstr "Lisa kasutajakonto"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:82
+#, fuzzy
+#| msgid "%s must be on a primary partition."
+msgid "Create a separate $0 partition"
+msgstr "%s peab olema primaarsel partitsioonil."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:81
+#, fuzzy
+#| msgid "Delete partition"
+msgid "Create a swap partition"
+msgstr "Kustuta partitsioon"
+
 #: src/components/users/Accounts.jsx:318
 msgid "Create account"
 msgstr "Lisa kasutajakonto"
@@ -421,8 +454,8 @@ msgstr "Kohandatud"
 msgid "Date"
 msgstr "Kuupäev"
 
-#: src/components/datetime/index.js:21
 #: src/components/datetime/DateAndTime.jsx:151
+#: src/components/datetime/index.js:21
 msgid "Date and time"
 msgstr "Kuupäev ja kellaaeg"
 
@@ -454,8 +487,8 @@ msgstr "Vea või probleemi üksikasjalik kirjeldus"
 msgid "Detected valid storage layout:"
 msgstr "Tuvastasin korrektse andmeruumi jaotuse:"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 #: src/components/storage/StorageReview.jsx:246
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:620
 msgid "Device"
 msgstr "Seade"
 
@@ -483,7 +516,7 @@ msgstr "Krüpti minu andmed"
 msgid "Encrypted"
 msgstr "Krüptitud"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:106
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:105
 msgid "Encryption"
 msgstr "Krüptimine"
 
@@ -541,6 +574,12 @@ msgstr "Klahvistiku paigutuste salvestamine ei õnnestunud"
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:80
 msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora Linux vajab vähemalt $0 andmeruumi."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:314
+#, fuzzy
+#| msgid "Reboot system?"
+msgid "File system"
+msgstr "Kas taaskäivitad süsteemi?"
 
 #: src/components/installation/InstallationProgress.jsx:247
 msgid "Finalization"
@@ -699,8 +738,8 @@ msgstr "Süsteemi paigaldamine ei õnnestunud"
 msgid "Installation of the system failed: $0"
 msgstr "Süsteemi paigaldamine ei õnnestunud: $0"
 
-#: src/components/source/index.js:24 src/components/source/index.js:25
 #: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/source/index.js:24 src/components/source/index.js:25
 #, fuzzy
 #| msgid "Installation type"
 msgid "Installation source"
@@ -760,6 +799,14 @@ msgstr "Klahvistik"
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:75
 msgid "Keyboard layout during boot"
 msgstr "Klahvistiku paigutus alglaadimise ajal"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:49
+msgid "LVM"
+msgstr "LVM"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:53
+msgid "LVM thin provisioning"
+msgstr ""
 
 #: src/components/localization/InstallationLanguage.jsx:240
 #: src/components/review/ReviewConfiguration.jsx:239
@@ -831,13 +878,18 @@ msgstr ""
 msgid "Mismatch between parent device and child device reformat selection."
 msgstr "Ülemseadme ja alamseadme ümbervorminduse valik ei ole vastavuses."
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:60
+msgid "Modern storage pooling"
+msgstr ""
+
 #: src/components/storage/StorageReview.jsx:250
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:211
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:619
 msgid "Mount point"
 msgstr "Haakepunkt"
 
-#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 #: src/components/storage/scenarios/mount-point-mapping/index.js:23
+#: src/components/storage/mount-point-mapping/MountPointMapping.jsx:617
 msgid "Mount point assignment"
 msgstr "Määra haakepunkt"
 
@@ -879,8 +931,8 @@ msgstr "Vajalik on vähemalt $0"
 msgid "Network"
 msgstr "Võrk"
 
-#: src/components/network/CockpitNetworkConfiguration.jsx:46
 #: src/components/network/index.js:20
+#: src/components/network/CockpitNetworkConfiguration.jsx:46
 msgid "Network Configuration"
 msgstr "Võrguseadistus"
 
@@ -977,13 +1029,19 @@ msgstr "Valikud"
 msgid "Other keyboards"
 msgstr "Muud klahvistikud"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:306
+#, fuzzy
+#| msgid "Custom partitioning selected"
+msgid "Partitioning scheme"
+msgstr "Valitud kohandatud partitsioneerimine"
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:88
 msgid "Partitions (advanced)"
 msgstr "Partitsioonid (detailsem seadistus)"
 
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/storage/installation-method/EncryptedDevices.jsx:150
 #: src/components/storage/installation-method/EncryptedDevices.jsx:157
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:93
 #: src/components/users/Accounts.jsx:205 src/components/users/Accounts.jsx:407
 msgid "Passphrase"
 msgstr "Salasõna"
@@ -1037,6 +1095,10 @@ msgstr "Eelversioon"
 #: src/components/error/BugzillaReport.jsx:160
 msgid "Prefer to report manually? $0"
 msgstr "Kas eelistad edastada selle käsitsi? $0"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:344
+msgid "Preview"
+msgstr ""
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
@@ -1194,8 +1256,8 @@ msgid ""
 "$0."
 msgstr "Teata veast või lisa tagasiside avades Bugzilla sisestusvorm $0."
 
-#: src/components/error/Error.jsx:172
 #: src/components/error/BugzillaReport.jsx:634
+#: src/components/error/Error.jsx:172
 msgid "Report issue"
 msgstr "Teata veast või probleemist"
 
@@ -1222,6 +1284,10 @@ msgstr "Skaneeri uuesti seadmeid"
 #: src/components/storage/installation-method/InstallationDestination.jsx:97
 msgid "Rescanning of the disks failed."
 msgstr "Ketaste kordusskaneerimine ei õnnestunud."
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:338
+msgid "Reset to defaults"
+msgstr ""
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:539
 msgid "Resize"
@@ -1285,6 +1351,7 @@ msgstr ""
 msgid "SSL verification"
 msgstr ""
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:368
 #: src/components/localization/Keyboard.jsx:279
 #: src/components/review/Hostname.jsx:125
 #: src/components/datetime/CustomNTPModal.jsx:245
@@ -1311,7 +1378,7 @@ msgstr "Otsi sobivat keskkonda"
 msgid "Search keyboard layout"
 msgstr "Otsi klahvistiku paigutust"
 
-#: src/components/storage/storage-configuration/DiskEncryption.jsx:110
+#: src/components/storage/storage-configuration/DiskEncryption.jsx:109
 msgid ""
 "Secure your data using disk-based encryption. Only applies to new partitions"
 msgstr ""
@@ -1401,9 +1468,20 @@ msgstr "Näita salasõna"
 msgid "Show password"
 msgstr "Näita salasõna"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:56
+#, fuzzy
+#| msgid "Change partition layout"
+msgid "Simple and traditional layout"
+msgstr "Muuda partitsioonide jaotust"
+
 #: src/components/storage/StorageReview.jsx:247
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:212
 msgid "Size"
 msgstr "Suurus"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:44
+msgid "Snapshots and compression, with volumes sharing one pool"
+msgstr ""
 
 #: src/components/installation/InstallationProgress.jsx:237
 msgid "Software installation"
@@ -1439,14 +1517,20 @@ msgstr "Ruum"
 msgid "Stacktrace"
 msgstr "Pinujälg"
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:57
+#, fuzzy
+#| msgid "Extended partition"
+msgid "Standard partitions"
+msgstr "Laiendatud partitsioon"
+
 #: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
 msgstr "Andmeruum"
 
-#: src/components/steps.js:37
-#: src/components/installation/InstallationProgress.jsx:232
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
+#: src/components/steps.js:37
+#: src/components/installation/InstallationProgress.jsx:232
 msgid "Storage configuration"
 msgstr "Andmeruumi seadistus"
 
@@ -1463,6 +1547,12 @@ msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr ""
 "Andmeruum on jagatud vastavalt sammus „Muuda andmeruumi“ tehtud seadistusele."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:412
+#, fuzzy
+#| msgid "Storage"
+msgid "Storage layout"
+msgstr "Andmeruum"
+
 #: src/components/storage/scenarios/use-configured-storage/index.js:40
 msgid ""
 "Storage layout is defined by the kickstart file. The planned partitioning "
@@ -1471,6 +1561,12 @@ msgstr ""
 "Andmeruumi jaotus on kirjeldatud kickstarti failis. Kavandatud "
 "partitsioneerimise saad üle vaadata kokkuvõtlikus sammus."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:209
+#, fuzzy
+#| msgid "Storage plugin failed"
+msgid "Storage layout preview"
+msgstr "Andmeruumi lisamooduli töö ebaõnnestus"
+
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid "Storage plugin failed"
 msgstr "Andmeruumi lisamooduli töö ebaõnnestus"
@@ -1478,6 +1574,14 @@ msgstr "Andmeruumi lisamooduli töö ebaõnnestus"
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:624
 msgid "Storage requirements not met"
 msgstr "Andmeruumi nõuded pole tagatud"
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:416
+msgid "Storage will be automatically configured using $0."
+msgstr ""
+
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:61
+msgid "Stratis"
+msgstr ""
 
 #: src/components/Password.jsx:67
 msgid "Strong"
@@ -1642,6 +1746,7 @@ msgstr ""
 "Selle võimaluse kasutamiseks eemalda mõni olemasolev partitsioon või vähenda "
 "tema suurust nii, et vabaneb vähemalt $0 andmeruumi."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:213
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:140
 msgid "Type"
 msgstr "Tüüp"
@@ -1732,6 +1837,10 @@ msgstr "Kasutajanimed peavad olema lühemad, kui 33 tähemärki"
 msgid "Validating..."
 msgstr "Kontrollin õigsust..."
 
+#: src/components/storage/storage-configuration/PartitioningScheme.jsx:48
+msgid "Volumes that can be resized after installation"
+msgstr ""
+
 #: src/components/Password.jsx:45
 msgid "Weak"
 msgstr "Nõrk"
@@ -1801,9 +1910,9 @@ msgstr "lõpetatud samm"
 msgid "current step"
 msgstr "praegune samm"
 
+#: src/components/storage/StorageReview.jsx:168
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:383
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:397
-#: src/components/storage/StorageReview.jsx:168
 msgid "delete"
 msgstr "kustuta"
 
@@ -2133,9 +2242,6 @@ msgstr "võta tegevus tagasi"
 #~ msgid "Connecting"
 #~ msgstr "Ühendamine"
 
-#~ msgid "Custom partitioning selected"
-#~ msgstr "Valitud kohandatud partitsioneerimine"
-
 #~ msgid "Custom software selected"
 #~ msgstr "Kohandatud tarkvara valitud"
 
@@ -2320,9 +2426,6 @@ msgstr "võta tegevus tagasi"
 
 #~ msgid "LOCALIZATION"
 #~ msgstr "LOKALISEERIMINE"
-
-#~ msgid "LVM"
-#~ msgstr "LVM"
 
 #~ msgid "MANUAL PARTITIONING"
 #~ msgstr "KÄSITSI PARTITSIONERIMINE"
@@ -2639,11 +2742,6 @@ msgstr "võta tegevus tagasi"
 
 #~ msgid "You need to set up networking first if you want to use NTP"
 #~ msgstr "Enne NTP kasutamist pead võrgu üles seadma"
-
-#, fuzzy, python-format
-#~| msgid "%s must be on a primary partition."
-#~ msgid "Your %s must be on a separate partition or LV."
-#~ msgstr "%s peab olema primaarsel partitsioonil."
 
 #, fuzzy
 #~| msgid "Connected"
