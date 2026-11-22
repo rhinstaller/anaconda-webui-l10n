@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-21 10:12+0000\n"
-"PO-Revision-Date: 2026-11-20 10:29+0000\n"
+"PO-Revision-Date: 2026-11-22 10:17+0000\n"
 "Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
 "Language-Team: Latvian <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/lv/>\n"
@@ -80,7 +80,7 @@ msgstr "$0 tiks dzēsts"
 
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:190
 msgid "'$0' filesystem cannot be on an encrypted block device"
-msgstr "„$0” datņu sistēma nevar atrasties šifrētā bloka ierīcē"
+msgstr "„$0” failu sistēma nevar atrasties šifrētā bloka ierīcē"
 
 #: src/helpers/storage.js:267
 msgid "'$0' must be assigned to $1"
@@ -97,7 +97,7 @@ msgid ""
 "System and enable the esp flag."
 msgstr ""
 "„$0” jāatrodas EFI sistēmas nodalījumā. Atlasītais nodalījums lieto FAT "
-"datņu sistēmu, bet nav atzīmēts kā ESP. Iestatiet nodalījuma tipu uz EFI "
+"failu sistēmu, bet nav atzīmēts kā ESP. Iestatiet nodalījuma tipu uz EFI "
 "System un iespējojiet karogu esp."
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:280
@@ -157,7 +157,7 @@ msgstr "Papildu programmatūra atlasītajai videi"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:52
 msgid "Advanced LVM with thin provisioning"
-msgstr ""
+msgstr "Paplašināts LVM ar plāno piešķiršanu"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:55
 msgid "All changes made in the storage editor take effect immediately."
@@ -227,7 +227,7 @@ msgstr "Īss problēmas apraksts"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:45
 msgid "Btrfs"
-msgstr ""
+msgstr "Btrfs"
 
 #: src/components/error/BugzillaReport.jsx:295
 msgid "Bug report details"
@@ -264,16 +264,12 @@ msgid "Cancel"
 msgstr "Atcelt"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:353
-#, fuzzy
-#| msgid "Detected valid storage layout:"
 msgid "Cannot apply this storage layout"
-msgstr "Atrasts derīgs krātuves izkārtojums:"
+msgstr "Šo krātuves izkārtojumu nevar lietot"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:188
-#, fuzzy
-#| msgid "Not enough free space on the selected disks."
 msgid "Cannot create this layout on the selected disks"
-msgstr "Atlasītajos diskos nepietiek brīvas vietas."
+msgstr "Šo izkārtojumu nevar izveidot atlasītajos diskos"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:427
 #: src/components/review/Hostname.jsx:125
@@ -416,16 +412,12 @@ msgid "Create Account"
 msgstr "Izveidot kontu"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:82
-#, fuzzy
-#| msgid "Delete partition"
 msgid "Create a separate $0 partition"
-msgstr "Dzēst nodalījumu"
+msgstr "Izveidot atsevišķu $0 nodalījumu"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:81
-#, fuzzy
-#| msgid "Delete partition"
 msgid "Create a swap partition"
-msgstr "Dzēst nodalījumu"
+msgstr "Izveidot maiņatmiņas nodalījumu"
 
 #: src/components/users/Accounts.jsx:318
 msgid "Create account"
@@ -563,10 +555,8 @@ msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora Linux vajag vismaz $0 diska vietas."
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:314
-#, fuzzy
-#| msgid "Reboot system?"
 msgid "File system"
-msgstr "Vai pārstartēt sistēmu?"
+msgstr "Failu sistēma"
 
 #: src/components/installation/InstallationProgress.jsx:247
 msgid "Finalization"
@@ -758,7 +748,7 @@ msgid ""
 msgstr ""
 "Atrasta nederīga RAID konfigurācija. Ja RAID masīvs izveidots tieši uz "
 "diskiem, masīvā jāizveido nodalījumu tabula. Ja RAID masīvs izveidots uz "
-"nodalījumiem, tajā jābūt vienai datņu sistēmai vai formātam (piemēram, LVM "
+"nodalījumiem, tajā jābūt vienai failu sistēmai vai formātam (piemēram, LVM "
 "PV). Visi esošie nodalījumi šajā masīvā tiks ignorēti."
 
 #: src/components/datetime/CustomNTPModal.jsx:92
@@ -787,11 +777,11 @@ msgstr "Tastatūras izkārtojums sāknēšanas laikā"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:49
 msgid "LVM"
-msgstr ""
+msgstr "LVM"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:53
 msgid "LVM thin provisioning"
-msgstr ""
+msgstr "LVM plānā piešķiršana"
 
 #: src/components/localization/InstallationLanguage.jsx:240
 #: src/components/review/ReviewConfiguration.jsx:239
@@ -865,7 +855,7 @@ msgstr "Neatbilstība starp vecākierīces un bērnierīces pārformatēšanas i
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:60
 msgid "Modern storage pooling"
-msgstr ""
+msgstr "Mūsdienīga krātuves apvienošana pūlos"
 
 #: src/components/storage/StorageReview.jsx:250
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:211
@@ -1014,10 +1004,8 @@ msgid "Other keyboards"
 msgstr "Citas tastatūras"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:306
-#, fuzzy
-#| msgid "Partitions (advanced)"
 msgid "Partitioning scheme"
-msgstr "Nodalījumi (papildu)"
+msgstr "Nodalīšanas shēma"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:88
 msgid "Partitions (advanced)"
@@ -1080,7 +1068,7 @@ msgstr "Vēlaties ziņot manuāli? $0"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:344
 msgid "Preview"
-msgstr ""
+msgstr "Priekšskatījums"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
@@ -1198,7 +1186,7 @@ msgstr ""
 msgid ""
 "Remove or resize existing filesystems to free up space for the installation."
 msgstr ""
-"Noņemt vai samazināt esošās datņu sistēmas, lai atbrīvotu vietu instalēšanai."
+"Noņemt vai samazināt esošās failu sistēmas, lai atbrīvotu vietu instalēšanai."
 
 #: src/components/datetime/CustomNTPModal.jsx:216
 msgid "Remove server"
@@ -1210,7 +1198,7 @@ msgid ""
 "Resizing a partition can free up unused space, but is not risk-free. Be sure "
 "to have backups of anything important before reclaiming space."
 msgstr ""
-"Noņemot datņu sistēmu, visi tajā esošie dati tiks neatgriezeniski dzēsti. "
+"Noņemot failu sistēmu, visi tajā esošie dati tiks neatgriezeniski dzēsti. "
 "Nodalījuma izmēra maiņa var atbrīvot neizmantoto vietu, taču nav bez riska. "
 "Pirms vietas atbrīvošanas dublējiet visu svarīgo."
 
@@ -1265,7 +1253,7 @@ msgstr "Disku pārskenēšana neizdevās."
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:338
 msgid "Reset to defaults"
-msgstr ""
+msgstr "Atiestatīt uz noklusējumu"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:539
 msgid "Resize"
@@ -1447,10 +1435,8 @@ msgid "Show password"
 msgstr "Rādīt paroli"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:56
-#, fuzzy
-#| msgid "Change partition layout"
 msgid "Simple and traditional layout"
-msgstr "Mainīt nodalījumu izkārtojumu"
+msgstr "Vienkāršs un tradicionāls izkārtojums"
 
 #: src/components/storage/StorageReview.jsx:247
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:212
@@ -1459,7 +1445,7 @@ msgstr "Izmērs"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:44
 msgid "Snapshots and compression, with volumes sharing one pool"
-msgstr ""
+msgstr "Momentuzņēmumi un saspiešana; sējumi kopīgi lieto vienu pūlu"
 
 #: src/components/installation/InstallationProgress.jsx:237
 msgid "Software installation"
@@ -1496,10 +1482,8 @@ msgid "Stacktrace"
 msgstr "Steka izseko"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:57
-#, fuzzy
-#| msgid "Extended partition"
 msgid "Standard partitions"
-msgstr "Paplašinātais nodalījums"
+msgstr "Standarta nodalījumi"
 
 #: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
@@ -1525,10 +1509,8 @@ msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "Krātuve balstīta uz konfigurāciju no „Mainīt krātuvi”."
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:412
-#, fuzzy
-#| msgid "Storage"
 msgid "Storage layout"
-msgstr "Krātuve"
+msgstr "Krātuves izkārtojums"
 
 #: src/components/storage/scenarios/use-configured-storage/index.js:40
 msgid ""
@@ -1539,10 +1521,8 @@ msgstr ""
 "var pārskatīt kopsavilkuma solī."
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:209
-#, fuzzy
-#| msgid "Storage plugin failed"
 msgid "Storage layout preview"
-msgstr "Krātuves spraudnis neizdevās"
+msgstr "Krātuves izkārtojuma priekšskatījums"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid "Storage plugin failed"
@@ -1554,11 +1534,11 @@ msgstr "Krātuves prasības nav izpildītas"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:416
 msgid "Storage will be automatically configured using $0."
-msgstr ""
+msgstr "Krātuve tiks automātiski konfigurēta, lietojot $0."
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:61
 msgid "Stratis"
-msgstr ""
+msgstr "Stratis"
 
 #: src/components/Password.jsx:67
 msgid "Strong"
@@ -1814,7 +1794,7 @@ msgstr "Pārbauda..."
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:48
 msgid "Volumes that can be resized after installation"
-msgstr ""
+msgstr "Sējumi, kuru izmēru var mainīt pēc instalēšanas"
 
 #: src/components/Password.jsx:45
 msgid "Weak"
