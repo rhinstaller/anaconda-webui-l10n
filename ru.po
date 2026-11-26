@@ -53,7 +53,7 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-26 11:33+0000\n"
-"PO-Revision-Date: 2026-10-25 07:49+0000\n"
+"PO-Revision-Date: 2026-11-27 11:25+0000\n"
 "Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/"
 "anaconda-webui/anaconda-webui/ru/>\n"
@@ -63,7 +63,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.10.1\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:143
 #: src/components/storage/installation-method/InstallationDestination.jsx:280
@@ -196,10 +196,8 @@ msgid "Additional software for the selected environment"
 msgstr "Дополнительное ПО для выбранного вами окружения"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:53
-#, fuzzy
-#| msgid "LVM Thin Provisioning"
 msgid "Advanced LVM with thin provisioning"
-msgstr "Динамический LVM"
+msgstr "Расширенный LVM с тонким резервированием"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:55
 msgid "All changes made in the storage editor take effect immediately."
@@ -308,16 +306,12 @@ msgid "Cancel"
 msgstr "Отмена"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:354
-#, fuzzy
-#| msgid "Detected valid storage layout:"
 msgid "Cannot apply this storage layout"
-msgstr "Обнаруженая действительная схема хранения:"
+msgstr "Не удаётся применить эту схему хранения"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:189
-#, fuzzy
-#| msgid "Not enough free space on the selected disks."
 msgid "Cannot create this layout on the selected disks"
-msgstr "Недостаточно свободного места на выбранных дисках."
+msgstr "Не удаётся создать эту схему на выбранных дисках"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:422
 #: src/components/review/Hostname.jsx:125
@@ -461,16 +455,12 @@ msgid "Create Account"
 msgstr "Создание уч. записи"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:83
-#, fuzzy
-#| msgid "Your %s must be on a separate partition or LV."
 msgid "Create a separate $0 partition"
-msgstr "%s должен быть на отдельном разделе или логическом томе."
+msgstr "Создать отдельный раздел $0"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:82
-#, fuzzy
-#| msgid "Delete partition"
 msgid "Create a swap partition"
-msgstr "Удалить раздел"
+msgstr "Создать раздел подкачки"
 
 #: src/components/users/Accounts.jsx:318
 msgid "Create account"
@@ -608,11 +598,8 @@ msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora linux требует не менее $0 дискового пространства."
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:315
-#, fuzzy
-#| msgctxt "GUI|Custom Partitioning|Configure"
-#| msgid "File S_ystem:"
 msgid "File system"
-msgstr "_Файловая система:"
+msgstr "Файловая система"
 
 #: src/components/installation/InstallationProgress.jsx:247
 msgid "Finalization"
@@ -839,10 +826,8 @@ msgid "LVM"
 msgstr "LVM"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:54
-#, fuzzy
-#| msgid "LVM Thin Provisioning"
 msgid "LVM thin provisioning"
-msgstr "Динамический LVM"
+msgstr "Тонкое резервирование LVM"
 
 #: src/components/localization/InstallationLanguage.jsx:240
 #: src/components/review/ReviewConfiguration.jsx:239
@@ -917,10 +902,8 @@ msgstr ""
 "устройств."
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:61
-#, fuzzy
-#| msgid "Modified storage"
 msgid "Modern storage pooling"
-msgstr "Измененное устройств хранения"
+msgstr "Современное объединение устройств хранения в пулы"
 
 #: src/components/storage/StorageReview.jsx:250
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:212
@@ -1070,10 +1053,8 @@ msgid "Other keyboards"
 msgstr "Другие клавиатуры"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:307
-#, fuzzy
-#| msgid "Partitioning Options"
 msgid "Partitioning scheme"
-msgstr "Параметры разбиения"
+msgstr "Схема разбиения"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:88
 msgid "Partitions (advanced)"
@@ -1135,11 +1116,8 @@ msgid "Prefer to report manually? $0"
 msgstr "Предпочитаете ручные отчёты? $0"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:345
-#, fuzzy
-#| msgctxt "GUI|Keyboard Layout"
-#| msgid "_Preview layout"
 msgid "Preview"
-msgstr "По_смотреть раскладку"
+msgstr "Предпросмотр"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
@@ -1326,7 +1304,7 @@ msgstr "Повторное сканирование дисков не удало
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:339
 msgid "Reset to defaults"
-msgstr ""
+msgstr "Сбросить к значениям по умолчанию"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:557
 msgid "Resize"
@@ -1508,10 +1486,8 @@ msgid "Show password"
 msgstr "Показать пароль"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:57
-#, fuzzy
-#| msgid "Change partition layout"
 msgid "Simple and traditional layout"
-msgstr "Изменить схему разделов"
+msgstr "Простая и традиционная схема"
 
 #: src/components/storage/StorageReview.jsx:247
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:213
@@ -1520,7 +1496,7 @@ msgstr "Размер"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:45
 msgid "Snapshots and compression, with volumes sharing one pool"
-msgstr ""
+msgstr "Снимки и сжатие, при этом тома используют общий пул"
 
 #: src/components/installation/InstallationProgress.jsx:237
 msgid "Software installation"
@@ -1557,10 +1533,8 @@ msgid "Stacktrace"
 msgstr "Трассировка стека"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:58
-#, fuzzy
-#| msgid "Standard Partition"
 msgid "Standard partitions"
-msgstr "Стандартный раздел"
+msgstr "Стандартные разделы"
 
 #: src/components/review/ReviewConfiguration.jsx:287
 msgid "Storage"
@@ -1586,11 +1560,8 @@ msgid "Storage is based on the configuration from 'Modify storage'."
 msgstr "Хранилище основано на конфигурации из раздела \"Изменить хранилище\"."
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:410
-#, fuzzy
-#| msgctxt "GUI|Storage|Error Dialog"
-#| msgid "_Modify Storage Layout"
 msgid "Storage layout"
-msgstr "_Изменить схему устройств хранения"
+msgstr "Схема хранения"
 
 #: src/components/storage/scenarios/use-configured-storage/index.js:40
 msgid ""
@@ -1601,10 +1572,8 @@ msgstr ""
 "разбиения диска можно просмотреть на этапе обзора итогов."
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:210
-#, fuzzy
-#| msgid "Storage plugin failed"
 msgid "Storage layout preview"
-msgstr "Сбой плагина хранилища"
+msgstr "Предпросмотр схемы хранения"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid "Storage plugin failed"
@@ -1616,11 +1585,11 @@ msgstr "Не соблюдены требования к хранилищу"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:414
 msgid "Storage will be automatically configured using $0."
-msgstr ""
+msgstr "Хранилище будет настроено автоматически с помощью $0."
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:62
 msgid "Stratis"
-msgstr ""
+msgstr "Stratis"
 
 #: src/components/Password.jsx:67
 msgid "Strong"
@@ -1878,11 +1847,8 @@ msgid "Validating..."
 msgstr "Проверка..."
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:49
-#, fuzzy
-#| msgid ""
-#| "You need to configure the network to use a network installation source."
 msgid "Volumes that can be resized after installation"
-msgstr "Для сетевой установки необходимо настроить подключение к сети."
+msgstr "Тома, размер которых можно изменить после установки"
 
 #: src/components/Password.jsx:45
 msgid "Weak"
