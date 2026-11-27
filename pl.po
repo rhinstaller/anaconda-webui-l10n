@@ -32,8 +32,8 @@ msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-27 11:25+0000\n"
-"PO-Revision-Date: 2026-11-09 10:20+0000\n"
-"Last-Translator: Nik Nikovsky <zejdzztegomaila@gmail.com>\n"
+"PO-Revision-Date: 2026-11-28 10:54+0000\n"
+"Last-Translator: Tomasz Bojanowski <tomasz@bojanowski.me>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/anaconda-"
 "webui/anaconda-webui/pl/>\n"
 "Language: pl\n"
@@ -42,7 +42,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.11.1\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:143
 #: src/components/storage/installation-method/InstallationDestination.jsx:280
@@ -114,9 +114,9 @@ msgid ""
 "filesystem, but is not marked as an ESP. Set the partition type to EFI "
 "System and enable the esp flag."
 msgstr ""
-"'$0' musi być na partycji systemowej EFI. Wybrana partycja używa systemu "
-"plików FAT, lecz nie jest zaznaczona jako ESP. Wybierz typ partycji jako "
-"System EFI i włącz flagę ESP."
+"Punkt montowania „$0” musi być na partycji systemowej EFI. Wybrana partycja "
+"używa systemu plików FAT, ale nie jest oznaczona jako ESP. Należy ustawić "
+"typ partycji na „EFI System” i włączyć flagę esp."
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:280
 msgid ""
@@ -135,7 +135,7 @@ msgstr ""
 
 #: src/components/installation/InstallationNonCriticalErrorDialog.jsx:50
 msgid "Abort installation"
-msgstr "Anuluj instalację"
+msgstr "Przerwij instalację"
 
 #: src/components/HeaderKebab.jsx:105
 msgid "About"
@@ -175,10 +175,8 @@ msgid "Additional software for the selected environment"
 msgstr "Dodatkowe oprogramowanie dla wybranego środowiska"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:53
-#, fuzzy
-#| msgid "LVM Thin Provisioning"
 msgid "Advanced LVM with thin provisioning"
-msgstr "Cienkie zabezpieczanie LVM"
+msgstr "Zaawansowany LVM z cienkim zabezpieczaniem"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:55
 msgid "All changes made in the storage editor take effect immediately."
@@ -259,7 +257,7 @@ msgstr "Informacje o zgłoszeniu błędu"
 #: src/components/error/GenericReport.jsx:31
 #: src/components/error/GenericReport.jsx:76
 msgid "Bug reporting is not configured for this distribution."
-msgstr "Zgłaszanie problemów nie jest skonfigurowane dla tej dystrybucji."
+msgstr "Zgłaszanie błędów nie jest skonfigurowane dla tej dystrybucji."
 
 #: src/components/error/BugzillaReport.jsx:187
 msgid "Bugzilla API key"
@@ -272,8 +270,8 @@ msgid ""
 "testing and development purposes only and are willing to report any bugs or "
 "issues in order to enhance this work."
 msgstr ""
-"Kontynuując używanie tego oprogramowania użytkownik potwierdza, że rozumie "
-"i akceptuje ryzyko związane z oprogramowaniem testowym, ma zamiar używać go "
+"Kontynuując używanie tego oprogramowania, użytkownik potwierdza, że rozumie i"
+" akceptuje ryzyko związane z oprogramowaniem testowym, ma zamiar używać go "
 "wyłącznie do testowania i rozwijania, a także chce zgłaszać błędy lub "
 "problemy w celu jego ulepszenia."
 
@@ -288,16 +286,12 @@ msgid "Cancel"
 msgstr "Anuluj"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:354
-#, fuzzy
-#| msgid "Detected valid storage layout:"
 msgid "Cannot apply this storage layout"
-msgstr "Wykryto prawidłowy układ urządzeń do przechowywania danych:"
+msgstr "Nie można zastosować tego układu urządzeń do przechowywania danych"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:189
-#, fuzzy
-#| msgid "Not enough free space on the selected disks."
 msgid "Cannot create this layout on the selected disks"
-msgstr "Za mało wolnego miejsca na wybranych dyskach."
+msgstr "Nie można utworzyć tego układu na wybranych dyskach"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:422
 #: src/components/review/Hostname.jsx:125
@@ -355,7 +349,7 @@ msgstr "Zamknij"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:131
 msgid "Close storage editor"
-msgstr "Zamknij edytora urządzeń do przechowywania danych"
+msgstr "Zamknij edytor urządzeń do przechowywania danych"
 
 #: src/components/source/InstallationSource.jsx:41
 #: src/components/source/SourceReviewDescription.jsx:34
@@ -437,19 +431,15 @@ msgstr "Proszę naprawić te problemy przed kontynuowaniem."
 
 #: src/components/users/index.js:20
 msgid "Create Account"
-msgstr "Utwórz Konto"
+msgstr "Utwórz konto"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:83
-#, fuzzy
-#| msgid "Your %s must be on a separate partition or LV."
 msgid "Create a separate $0 partition"
-msgstr "%s musi znajdować się na oddzielnej partycji lub woluminie logicznym."
+msgstr "Utworzenie oddzielnej partycji $0"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:82
-#, fuzzy
-#| msgid "Delete partition"
 msgid "Create a swap partition"
-msgstr "Usuwa partycję"
+msgstr "Utworzenie partycji wymiany"
 
 #: src/components/users/Accounts.jsx:318
 msgid "Create account"
@@ -540,7 +530,7 @@ msgstr "Wprowadź PIN"
 
 #: src/components/login/LoginPage.jsx:77
 msgid "Enter PIN to access the installer"
-msgstr "Wprowadź PIN żeby uzyskać dostęp do instalatora"
+msgstr "Proszę podać PIN, aby uzyskać dostęp do instalatora"
 
 #: src/components/error/BugzillaReport.jsx:184
 msgid ""
@@ -588,11 +578,8 @@ msgid "Fedora linux requires at least $0 of disk space."
 msgstr "Fedora Linux wymaga co najmniej $0 wolnego miejsca na dysku."
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:315
-#, fuzzy
-#| msgctxt "GUI|Custom Partitioning|Configure"
-#| msgid "File S_ystem:"
 msgid "File system"
-msgstr "_System plików:"
+msgstr "System plików"
 
 #: src/components/installation/InstallationProgress.jsx:247
 msgid "Finalization"
@@ -688,8 +675,9 @@ msgid ""
 "If none of the options above apply, use the storage editor to create a "
 "custom partitioning before proceeding."
 msgstr ""
-"Jeśli żadna z powyższych opcji nie ma zastosowania, przed kontynuacją utwórz "
-"niestandardowe partycjonowanie za pomocą edytora pamięci masowej."
+"Jeśli żadna z powyższych opcji nie ma zastosowania, to przed kontynuowaniem "
+"należy utworzyć niestandardowe partycjonowanie za pomocą edytora urządzeń do "
+"przechowywania danych."
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:56
 msgid "If you are configuring partitions the following are required:"
@@ -717,8 +705,8 @@ msgid ""
 "If your issue matches one of the bugs above, you can open it and add your "
 "information there instead of creating a duplicate report."
 msgstr ""
-"Jeśli Twój problem pasuje do jednego z powyższych błędów, otwórz go i dodaj "
-"swoje informacje, zamiast tworzyć duplikat."
+"Jeśli problem pasuje do jednego z powyższych błędów, to można go otworzyć i "
+"dodać tam swoje informacje, zamiast tworzyć podwójne zgłoszenie."
 
 #: src/components/installation/InstallationProgress.jsx:288
 msgid "In progress"
@@ -774,7 +762,7 @@ msgstr "Za mało miejsca na dysku"
 
 #: src/components/login/LoginPage.jsx:68
 msgid "Invalid PIN. Please try again."
-msgstr "Nieprawidłowy PIN. Spróbuj ponownie."
+msgstr "Nieprawidłowy PIN. Proszę spróbować ponownie."
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:263
 msgid ""
@@ -819,8 +807,6 @@ msgid "LVM"
 msgstr "LVM"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:54
-#, fuzzy
-#| msgid "LVM Thin Provisioning"
 msgid "LVM thin provisioning"
 msgstr "Cienkie zabezpieczanie LVM"
 
@@ -839,7 +825,7 @@ msgstr "Więcej informacji o ograniczonym dostępie znajduje się w konfigurac
 
 #: src/components/users/Accounts.jsx:209
 msgid "Leave both passphrase fields empty to use an empty password."
-msgstr "Zostaw oba pola hasła puste żeby użyć pustego hasła."
+msgstr "Proszę pozostawić oba pola hasła puste, aby użyć pustego hasła."
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:156
 msgid "Location"
@@ -851,7 +837,7 @@ msgstr "Zablokowane urządzenia"
 
 #: src/components/login/LoginPage.jsx:118
 msgid "Log in"
-msgstr "Zaloguj"
+msgstr "Zaloguj się"
 
 #: src/components/localization/Keyboard.jsx:124
 #: src/components/localization/Keyboard.jsx:128
@@ -897,10 +883,8 @@ msgstr ""
 "i urządzenia potomnego."
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:61
-#, fuzzy
-#| msgid "Modified storage"
 msgid "Modern storage pooling"
-msgstr "Zmodyfikowano urządzenia do przechowywania danych"
+msgstr "Nowoczesne łączenie urządzeń do przechowywania danych w pule"
 
 #: src/components/storage/StorageReview.jsx:250
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:212
@@ -1023,10 +1007,8 @@ msgid "Not enough space on selected disks."
 msgstr "Za mało miejsca na wybranych dyskach."
 
 #: src/components/subscription/SubscriptionEmbed.jsx:26
-#, fuzzy
-#| msgid "Not registered."
 msgid "Not registered"
-msgstr "Nie zarejestrowano."
+msgstr "Nie zarejestrowano"
 
 #: src/components/AnacondaHeader.jsx:70
 msgid ""
@@ -1034,9 +1016,9 @@ msgid ""
 "testing purposes only. Do NOT use this software for any critical work or for "
 "production environments."
 msgstr ""
-"Uwaga: to jest wydanie testowe, przeznaczone wyłącznie do rozwijania "
-"i testowania. Nie należy używać tego oprogramowania w środowiskach "
-"produkcyjnych."
+"Uwaga: to jest wydanie testowe, przeznaczone wyłącznie do rozwijania i "
+"testowania. NIE należy używać tego oprogramowania do żadnych ważnych zadań "
+"ani w środowiskach produkcyjnych."
 
 #: src/components/error/BugzillaReport.jsx:162
 msgid "Open Bugzilla bug entry form"
@@ -1055,10 +1037,8 @@ msgid "Other keyboards"
 msgstr "Inne klawiatury"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:307
-#, fuzzy
-#| msgid "Partitioning Options"
 msgid "Partitioning scheme"
-msgstr "Opcje partycjonowania"
+msgstr "Schemat partycjonowania"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:88
 msgid "Partitions (advanced)"
@@ -1093,7 +1073,7 @@ msgstr "Proszę podać PIN"
 
 #: src/components/error/GenericReport.jsx:67
 msgid "Please report this issue at $0."
-msgstr "Proszę zgłoś błąd w $0."
+msgstr "Proszę zgłosić ten błąd na stronie $0."
 
 #: src/components/storage/installation-method/InstallationDestination.jsx:326
 msgid "Please select at least one disk to continue"
@@ -1105,7 +1085,7 @@ msgstr "Pula"
 
 #: src/components/error/BugzillaReport.jsx:235
 msgid "Potential duplicate bugs found"
-msgstr "Znaleziono podobne zgłoszenia błędów"
+msgstr "Odnaleziono potencjalnie podwójne zgłoszenia błędów"
 
 #: src/components/HeaderKebab.jsx:48
 msgid "Powered by Anaconda"
@@ -1120,10 +1100,8 @@ msgid "Prefer to report manually? $0"
 msgstr "Zgłosić ręcznie? $0"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:345
-#, fuzzy
-#| msgid "Review"
 msgid "Preview"
-msgstr "Przegląd"
+msgstr "Podgląd"
 
 #: src/components/storage/cockpit-storage-integration/CheckStorageDialog.jsx:694
 msgid "Proceed with installation"
@@ -1141,7 +1119,7 @@ msgstr "Zakończ"
 
 #: src/components/AnacondaWizardFooter.jsx:104
 msgid "Quit installer?"
-msgstr "Zakończyć instalatora?"
+msgstr "Zakończyć działanie instalatora?"
 
 #: src/components/app.jsx:142
 msgid "Reading information about the OS failed."
@@ -1219,10 +1197,8 @@ msgid "Reformat"
 msgstr "Ponowne formatowanie"
 
 #: src/components/subscription/SubscriptionEmbed.jsx:24
-#, fuzzy
-#| msgid "Registered."
 msgid "Registered"
-msgstr "Zarejestrowano."
+msgstr "Zarejestrowano"
 
 #: src/components/storage/scenarios/reinstall-fedora/index.js:21
 #: src/components/storage/scenarios/reinstall-fedora/index.js:23
@@ -1276,9 +1252,7 @@ msgstr "Zgłoś błąd"
 
 #: src/components/error/GenericReport.jsx:39
 msgid "Report an issue or provide feedback at $0."
-msgstr ""
-"Proszę zgłosić błąd lub podzielić się opinią, otwierając formularz "
-"zgłaszania błędu w $0."
+msgstr "Proszę zgłosić błąd lub podzielić się opinią na stronie $0."
 
 #: src/components/error/BugzillaReport.jsx:141
 msgid ""
@@ -1319,7 +1293,7 @@ msgstr "Ponowne skanowanie dysków się nie powiodło."
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:339
 msgid "Reset to defaults"
-msgstr ""
+msgstr "Przywróć domyślne"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:557
 msgid "Resize"
@@ -1377,7 +1351,7 @@ msgstr "Certyfikat SSL CA"
 
 #: src/components/source/InstallationSource.jsx:189
 msgid "SSL client certificate"
-msgstr "Certyfikat klienta"
+msgstr "Certyfikat klienta SSL"
 
 #: src/components/source/InstallationSource.jsx:185
 msgid "SSL verification"
@@ -1463,8 +1437,8 @@ msgid ""
 "Set by the kickstart file. Remove source selection from kickstart to be able "
 "to configure interactively."
 msgstr ""
-"Ustawione przez plik kickstart. Usuń wybór źródła z pliku kickstart żeby móc "
-"konfigurować interaktywnie."
+"Ustawione przez plik kickstart. Należy usunąć wybór źródła z pliku "
+"kickstart, aby móc konfigurować interaktywnie."
 
 #: src/components/review/Hostname.jsx:87
 msgid "Set custom hostname"
@@ -1503,10 +1477,8 @@ msgid "Show password"
 msgstr "Wyświetl hasło"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:57
-#, fuzzy
-#| msgid "Change partition layout"
 msgid "Simple and traditional layout"
-msgstr "Zmień układ partycji"
+msgstr "Prosty i tradycyjny układ"
 
 #: src/components/storage/StorageReview.jsx:247
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:213
@@ -1515,7 +1487,7 @@ msgstr "Rozmiar"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:45
 msgid "Snapshots and compression, with volumes sharing one pool"
-msgstr ""
+msgstr "Migawki i kompresja, z woluminami współdzielącymi jedną pulę"
 
 #: src/components/installation/InstallationProgress.jsx:237
 msgid "Software installation"
@@ -1552,10 +1524,8 @@ msgid "Stacktrace"
 msgstr "Ślad stosu"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:58
-#, fuzzy
-#| msgid "Standard Partition"
 msgid "Standard partitions"
-msgstr "Standardowa partycja"
+msgstr "Standardowe partycje"
 
 #: src/components/review/ReviewConfiguration.jsx:303
 msgid "Storage"
@@ -1583,11 +1553,8 @@ msgstr ""
 "z „Modyfikuj urządzenia do przechowywania danych”."
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:410
-#, fuzzy
-#| msgctxt "GUI|Storage|Error Dialog"
-#| msgid "_Modify Storage Layout"
 msgid "Storage layout"
-msgstr "_Modyfikuj układ urządzeń do przechowywania danych"
+msgstr "Układ urządzeń do przechowywania danych"
 
 #: src/components/storage/scenarios/use-configured-storage/index.js:40
 msgid ""
@@ -1599,10 +1566,8 @@ msgstr ""
 "podsumowania."
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:210
-#, fuzzy
-#| msgid "Storage plugin failed"
 msgid "Storage layout preview"
-msgstr "Wtyczka urządzeń do przechowywania danych się nie powiodła"
+msgstr "Podgląd układu urządzeń do przechowywania danych"
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegration.jsx:94
 msgid "Storage plugin failed"
@@ -1615,10 +1580,12 @@ msgstr "Wymagania urządzeń do przechowywania danych nie zostały spełnione"
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:414
 msgid "Storage will be automatically configured using $0."
 msgstr ""
+"Urządzenia do przechowywania danych zostaną automatycznie skonfigurowane "
+"według schematu: $0."
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:62
 msgid "Stratis"
-msgstr ""
+msgstr "Stratis"
 
 #: src/components/Password.jsx:67
 msgid "Strong"
@@ -1626,10 +1593,8 @@ msgstr "Silne"
 
 #: src/components/subscription/index.js:21
 #: src/components/review/ReviewConfiguration.jsx:261
-#, fuzzy
-#| msgid "Description"
 msgid "Subscription"
-msgstr "Opis"
+msgstr "Subskrypcja"
 
 #: src/components/installation/InstallationProgress.jsx:220
 msgid "Successfully installed"
@@ -1672,8 +1637,8 @@ msgid ""
 "The following open bugs may be related to your issue. Please review them "
 "before creating a new report."
 msgstr ""
-"Poniższe otwarte błędy mogą być związane z twoim problemem. Proszę sprawdź "
-"je przed utworzeniem nowego raportu."
+"Poniższe otwarte błędy mogą być związane z tym problemem. Proszę je "
+"przejrzeć przed utworzeniem nowego zgłoszenia."
 
 #: src/components/users/Accounts.jsx:47
 msgid "The following user will be created:"
@@ -1701,16 +1666,16 @@ msgid ""
 "The keyboard layout has changed since the disk encryption passphrase was "
 "set. Please re-enter the passphrase."
 msgstr ""
-"Układ klawiatury zmienił się od ustawienia hasła do enkrypcji dysku. Proszę "
-"wpisz hasło ponownie."
+"Układ klawiatury zmienił się od czasu ustawienia hasła szyfrowania dysku. "
+"Proszę ponownie podać hasło."
 
 #: src/components/storage/storage-configuration/DiskEncryption.jsx:35
 msgid ""
 "The passphrase you have provided contains non-ASCII characters. You may not "
 "be able to switch between keyboard layouts when typing it."
 msgstr ""
-"Podane hasło zawiera znaki spoza zestawu ASCII. Nie można przełączać między "
-"układami klawiatury podczas wpisywania hasła."
+"Podane hasło zawiera znaki spoza zestawu ASCII. Przełączanie między układami "
+"klawiatury podczas jego wpisywania może nie być możliwe."
 
 #: src/components/localization/Keyboard.jsx:264
 msgid ""
@@ -1828,8 +1793,8 @@ msgid ""
 "Unlock encrypted partitions to keep existing data and show more installation "
 "methods."
 msgstr ""
-"Odblokowanie zaszyfrowanych partycji pozwoli zachować dane i odkryć kolejne "
-"metody instalacji."
+"Odblokowanie zaszyfrowanych partycji umożliwi zachowanie istniejących danych "
+"i wyświetli więcej metod instalacji."
 
 #: src/components/storage/scenarios/use-configured-storage/index.js:27
 #: src/components/storage/scenarios/use-configured-storage/index.js:41
@@ -1874,18 +1839,15 @@ msgstr "Nazwa użytkownika nie może być słowem zastrzeżonym"
 
 #: src/components/users/Accounts.jsx:176
 msgid "User names must be shorter than 33 characters"
-msgstr "Nazwy użytkowników nie mogą mieć więcej niż 33 znaki"
+msgstr "Nazwy użytkowników muszą być krótsze niż 33 znaki"
 
 #: src/components/error/BugzillaReport.jsx:589
 msgid "Validating..."
 msgstr "Sprawdzanie poprawności…"
 
 #: src/components/storage/storage-configuration/PartitioningScheme.jsx:49
-#, fuzzy
-#| msgid ""
-#| "You need to configure the network to use a network installation source."
 msgid "Volumes that can be resized after installation"
-msgstr "Należy skonfigurować sieć, aby użyć sieciowego źródła instalacji."
+msgstr "Woluminy, których rozmiar można zmienić po instalacji"
 
 #: src/components/Password.jsx:45
 msgid "Weak"
@@ -1908,7 +1870,7 @@ msgid ""
 "When you submit this bug report, the following log files will be uploaded "
 "automatically: $0"
 msgstr ""
-"Podczas wysyłania tego zgłoszenia błędu, następujące pliki dziennika zostaną "
+"Podczas wysyłania tego zgłoszenia błędu następujące pliki dziennika zostaną "
 "automatycznie wysłane: $0"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:581
@@ -1918,7 +1880,7 @@ msgstr ""
 
 #: src/components/app.jsx:41
 msgid "You can close this browser window now."
-msgstr "Możesz teraz zamknąć to okno przeglądarki."
+msgstr "Można teraz zamknąć to okno przeglądarki."
 
 #: src/components/storage/cockpit-storage-integration/CockpitStorageIntegrationSidebar.jsx:83
 msgid ""
@@ -1993,7 +1955,7 @@ msgstr "nieukończone"
 
 #: src/components/storage/StorageReview.jsx:108
 msgid "mount"
-msgstr "punkt montowania"
+msgstr "zamontuj"
 
 #: src/components/installation/InstallationProgress.jsx:276
 msgid "pending step"
@@ -2018,7 +1980,7 @@ msgstr "zmniejsz do $0"
 
 #: src/components/review/Hostname.jsx:154
 msgid "transient, will use DHCP"
-msgstr "tymczasowy, użyje DHCP"
+msgstr "tymczasowa, użyje DHCP"
 
 #: src/components/storage/installation-method/ReclaimSpaceModal.jsx:393
 msgid "undo"
