@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-26 11:33+0000\n"
+"POT-Creation-Date: 2026-11-27 11:25+0000\n"
 "PO-Revision-Date: 2026-10-25 21:04+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
@@ -133,7 +133,7 @@ msgstr "Перервати встановлення"
 msgid "About"
 msgstr "Відомості"
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:281
 msgid "Account"
 msgstr "Обліковий запис"
 
@@ -184,7 +184,7 @@ msgstr "Усі пристрої із цим паролем буде розбло
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/index.html:20 src/login.html:8
+#: src/login.html:8 src/index.html:20
 msgid "Anaconda Web UI"
 msgstr "Веб-інтерфейс Анаконда"
 
@@ -319,7 +319,7 @@ msgid ""
 msgstr ""
 "Зміни, внесені тут, негайно вплинуть на систему. Скасувати їх неможливо."
 
-#: src/components/review/ReviewConfiguration.jsx:196
+#: src/components/review/ReviewConfiguration.jsx:203
 msgid "Checking installation configuration..."
 msgstr "Перевіряємо налаштування для встановлення…"
 
@@ -366,7 +366,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Завершено"
 
-#: src/components/review/ReviewConfiguration.jsx:217
+#: src/components/review/ReviewConfiguration.jsx:224
 msgid "Configuration is incomplete"
 msgstr "Налаштування є неповними"
 
@@ -648,7 +648,7 @@ msgstr "Назва вузла"
 msgid "How would you like to install?"
 msgstr "Яким способом ви хочете виконати встановлення?"
 
-#: src/components/review/ReviewConfiguration.jsx:320
+#: src/components/review/ReviewConfiguration.jsx:336
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
@@ -656,11 +656,11 @@ msgstr[0] "Розумію, що з позначених дисків буде в
 msgstr[1] "Розумію, що з позначених дисків буде витерто усі наявні дані"
 msgstr[2] "Розумію, що з позначених дисків буде витерто усі наявні дані"
 
-#: src/components/review/ReviewConfiguration.jsx:325
+#: src/components/review/ReviewConfiguration.jsx:341
 msgid "I understand that some existing data will be erased"
 msgstr "Розумію, що частину з наявних даних буде витерто"
 
-#: src/components/review/ReviewConfiguration.jsx:326
+#: src/components/review/ReviewConfiguration.jsx:342
 msgid "I understand that some partitions will be modified"
 msgstr "Розумію, що до деяких розділів буде внесено зміни"
 
@@ -744,12 +744,12 @@ msgstr "Не вдалося встановити систему"
 msgid "Installation of the system failed: $0"
 msgstr "Не вдалося встановити систему: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/review/ReviewConfiguration.jsx:268
 #: src/components/source/index.js:24 src/components/source/index.js:25
 msgid "Installation source"
 msgstr "Джерело встановлення"
 
-#: src/components/review/ReviewConfiguration.jsx:280
+#: src/components/review/ReviewConfiguration.jsx:296
 msgid "Installation type"
 msgstr "Тип встановлення"
 
@@ -783,7 +783,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Некоректна назва вузла"
 
-#: src/components/review/ReviewConfiguration.jsx:213
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid "Jump to first incomplete step"
 msgstr "Перейти до першого незавершеного кроку"
 
@@ -814,7 +814,7 @@ msgid "LVM thin provisioning"
 msgstr "LVM у інтелектуальному режимі (Thin Provisioning)"
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:239
+#: src/components/review/ReviewConfiguration.jsx:246
 msgid "Language"
 msgstr "Мова"
 
@@ -1011,6 +1011,12 @@ msgstr "На позначених дисках недостатньо вільн
 msgid "Not enough space on selected disks."
 msgstr "На позначених дисках недостатньо місця."
 
+#: src/components/subscription/SubscriptionEmbed.jsx:26
+#, fuzzy
+#| msgid "Not registered."
+msgid "Not registered"
+msgstr "Не зареєстровано."
+
 #: src/components/AnacondaHeader.jsx:70
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -1025,7 +1031,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Відкрити форму введення звіту щодо вади у Bugzilla"
 
-#: src/components/review/ReviewConfiguration.jsx:228
+#: src/components/review/ReviewConfiguration.jsx:235
 msgid "Operating system"
 msgstr "Операційна система"
 
@@ -1199,6 +1205,12 @@ msgstr "Рекомендовані розділи:"
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:621
 msgid "Reformat"
 msgstr "Повторно форматувати"
+
+#: src/components/subscription/SubscriptionEmbed.jsx:24
+#, fuzzy
+#| msgid "Registered."
+msgid "Registered"
+msgstr "Зареєстровано."
 
 #: src/components/storage/scenarios/reinstall-fedora/index.js:21
 #: src/components/storage/scenarios/reinstall-fedora/index.js:23
@@ -1506,11 +1518,11 @@ msgstr ""
 "даних. Тепер встановлюємо програмне забезпечення на ваш пристрій."
 
 #: src/components/software/index.js:22 src/components/software/index.js:23
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:274
 msgid "Software selection"
 msgstr "Вибір програмного забезпечення"
 
-#: src/components/review/ReviewConfiguration.jsx:220
+#: src/components/review/ReviewConfiguration.jsx:227
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1534,13 +1546,13 @@ msgstr "Трасування стеку"
 msgid "Standard partitions"
 msgstr "Розширений розділ"
 
-#: src/components/review/ReviewConfiguration.jsx:287
+#: src/components/review/ReviewConfiguration.jsx:303
 msgid "Storage"
 msgstr "Сховище даних"
 
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
-#: src/components/steps.js:37
+#: src/components/steps.js:39
 #: src/components/installation/InstallationProgress.jsx:232
 msgid "Storage configuration"
 msgstr "Налаштування сховища даних"
@@ -1599,6 +1611,13 @@ msgstr ""
 #: src/components/Password.jsx:67
 msgid "Strong"
 msgstr "Складний"
+
+#: src/components/subscription/index.js:21
+#: src/components/review/ReviewConfiguration.jsx:261
+#, fuzzy
+#| msgid "Description"
+msgid "Subscription"
+msgstr "Опис"
 
 #: src/components/installation/InstallationProgress.jsx:220
 msgid "Successfully installed"
@@ -1736,7 +1755,7 @@ msgstr "Зачекайте, будь ласка"
 msgid "Time"
 msgstr "Час"
 
-#: src/components/review/ReviewConfiguration.jsx:246
+#: src/components/review/ReviewConfiguration.jsx:253
 #: src/components/datetime/Timezone.jsx:139
 msgid "Timezone"
 msgstr "Часовий пояс"
@@ -4547,9 +4566,6 @@ msgstr "скасувати"
 #~ msgid "Not mounting the system.\n"
 #~ msgstr "Не монтуємо систему.\n"
 
-#~ msgid "Not registered."
-#~ msgstr "Не зареєстровано."
-
 #~ msgid "Not required"
 #~ msgstr "Необов'язковий"
 
@@ -5069,9 +5085,6 @@ msgstr "скасувати"
 
 #~ msgid "Registered with organization {}"
 #~ msgstr "Зареєстровано для організації {}"
-
-#~ msgid "Registered."
-#~ msgstr "Зареєстровано."
 
 #~ msgid "Registering..."
 #~ msgstr "Реєструємося…"

@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-26 11:33+0000\n"
+"POT-Creation-Date: 2026-11-27 11:25+0000\n"
 "PO-Revision-Date: 2023-11-06 12:17+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Basque <https://translate.fedoraproject.org/projects/anaconda-"
@@ -121,7 +121,7 @@ msgstr "Instalazioa"
 msgid "About"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:281
 #, fuzzy
 msgid "Account"
 msgstr "_Gehitu muntatze-puntua"
@@ -182,7 +182,7 @@ msgstr ""
 msgid "Anaconda"
 msgstr ""
 
-#: src/index.html:20 src/login.html:8
+#: src/login.html:8 src/index.html:20
 #, fuzzy
 msgid "Anaconda Web UI"
 msgstr "_Hasi instalazioa"
@@ -316,7 +316,7 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:196
+#: src/components/review/ReviewConfiguration.jsx:203
 #, fuzzy
 msgid "Checking installation configuration..."
 msgstr "Sare konfigurazioa"
@@ -368,7 +368,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Amaituta!"
 
-#: src/components/review/ReviewConfiguration.jsx:217
+#: src/components/review/ReviewConfiguration.jsx:224
 msgid "Configuration is incomplete"
 msgstr ""
 
@@ -691,18 +691,18 @@ msgstr "Ostalari-izena"
 msgid "How would you like to install?"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:320
+#: src/components/review/ReviewConfiguration.jsx:336
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/components/review/ReviewConfiguration.jsx:325
+#: src/components/review/ReviewConfiguration.jsx:341
 msgid "I understand that some existing data will be erased"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:326
+#: src/components/review/ReviewConfiguration.jsx:342
 msgid "I understand that some partitions will be modified"
 msgstr ""
 
@@ -781,14 +781,14 @@ msgstr "Instalazioa"
 msgid "Installation of the system failed: $0"
 msgstr "Instalazioa"
 
-#: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/review/ReviewConfiguration.jsx:268
 #: src/components/source/index.js:24 src/components/source/index.js:25
 #, fuzzy
 #| msgid "Installation"
 msgid "Installation source"
 msgstr "Instalazioa"
 
-#: src/components/review/ReviewConfiguration.jsx:280
+#: src/components/review/ReviewConfiguration.jsx:296
 #, fuzzy
 msgid "Installation type"
 msgstr "Instalazioa"
@@ -821,7 +821,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "ordu-zona baliogabea"
 
-#: src/components/review/ReviewConfiguration.jsx:213
+#: src/components/review/ReviewConfiguration.jsx:220
 #, fuzzy
 msgid "Jump to first incomplete step"
 msgstr "Amaituta!"
@@ -849,7 +849,7 @@ msgid "LVM thin provisioning"
 msgstr ""
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:239
+#: src/components/review/ReviewConfiguration.jsx:246
 #, fuzzy
 msgid "Language"
 msgstr "Hizkuntzak"
@@ -1062,6 +1062,12 @@ msgstr "Ez dago diskorik aukeratuta"
 msgid "Not enough space on selected disks."
 msgstr "Ez dago diskorik aukeratuta"
 
+#: src/components/subscription/SubscriptionEmbed.jsx:26
+#, fuzzy
+#| msgid "Not connected"
+msgid "Not registered"
+msgstr "Konektatu gabe"
+
 #: src/components/AnacondaHeader.jsx:70
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -1073,7 +1079,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:228
+#: src/components/review/ReviewConfiguration.jsx:235
 #, fuzzy
 msgid "Operating system"
 msgstr "Erabiltzaileak sortzen"
@@ -1253,6 +1259,12 @@ msgstr ""
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:621
 msgid "Reformat"
 msgstr ""
+
+#: src/components/subscription/SubscriptionEmbed.jsx:24
+#, fuzzy
+#| msgid "Connection failed"
+msgid "Registered"
+msgstr "Konexioak huts egin du"
 
 #: src/components/storage/scenarios/reinstall-fedora/index.js:21
 #: src/components/storage/scenarios/reinstall-fedora/index.js:23
@@ -1591,11 +1603,11 @@ msgid ""
 msgstr ""
 
 #: src/components/software/index.js:22 src/components/software/index.js:23
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:274
 msgid "Software selection"
 msgstr "Software aukeraketa"
 
-#: src/components/review/ReviewConfiguration.jsx:220
+#: src/components/review/ReviewConfiguration.jsx:227
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1618,13 +1630,13 @@ msgstr ""
 msgid "Standard partitions"
 msgstr "Partizio estandarra"
 
-#: src/components/review/ReviewConfiguration.jsx:287
+#: src/components/review/ReviewConfiguration.jsx:303
 msgid "Storage"
 msgstr ""
 
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
-#: src/components/steps.js:37
+#: src/components/steps.js:39
 #: src/components/installation/InstallationProgress.jsx:232
 #, fuzzy
 msgid "Storage configuration"
@@ -1679,6 +1691,13 @@ msgstr ""
 #: src/components/Password.jsx:67
 msgid "Strong"
 msgstr "Indartsua"
+
+#: src/components/subscription/index.js:21
+#: src/components/review/ReviewConfiguration.jsx:261
+#, fuzzy
+#| msgid "Description"
+msgid "Subscription"
+msgstr "Deskribapena"
 
 #: src/components/installation/InstallationProgress.jsx:220
 msgid "Successfully installed"
@@ -1805,7 +1824,7 @@ msgstr "Horrek une bat har dezake."
 msgid "Time"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:246
+#: src/components/review/ReviewConfiguration.jsx:253
 #: src/components/datetime/Timezone.jsx:139
 #, fuzzy
 #| msgid "%s timezone"
@@ -2747,11 +2766,6 @@ msgstr ""
 #~ msgid "Not enough RAM"
 #~ msgstr "RAM nahikorik ez"
 
-#, fuzzy
-#~| msgid "Not connected"
-#~ msgid "Not required"
-#~ msgstr "Konektatu gabe"
-
 #~ msgid "Nothing selected"
 #~ msgstr "Ez da ezer aukeratu"
 
@@ -2879,11 +2893,6 @@ msgstr ""
 
 #~ msgid "Region"
 #~ msgstr "Herrialdea"
-
-#, fuzzy
-#~| msgid "Connection failed"
-#~ msgid "Registered."
-#~ msgstr "Konexioak huts egin du"
 
 #, fuzzy
 #~| msgid "Disconnecting..."

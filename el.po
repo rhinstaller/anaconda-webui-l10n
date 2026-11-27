@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-26 11:33+0000\n"
+"POT-Creation-Date: 2026-11-27 11:25+0000\n"
 "PO-Revision-Date: 2026-11-22 10:17+0000\n"
 "Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
 "memory@weblate.org>\n"
@@ -135,7 +135,7 @@ msgstr "Ακύρωση εγκατάστασης"
 msgid "About"
 msgstr "Πληροφορίες"
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:281
 msgid "Account"
 msgstr "Λογαριασμός"
 
@@ -187,7 +187,7 @@ msgstr ""
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/index.html:20 src/login.html:8
+#: src/login.html:8 src/index.html:20
 msgid "Anaconda Web UI"
 msgstr "Anaconda Web UI"
 
@@ -321,7 +321,7 @@ msgstr ""
 "Οι αλλαγές που πραγματοποιείτε εδώ θα επηρεάσουν άμεσα το σύστημα. Δεν θα "
 "είναι δυνατή η αναίρεσή τους."
 
-#: src/components/review/ReviewConfiguration.jsx:196
+#: src/components/review/ReviewConfiguration.jsx:203
 msgid "Checking installation configuration..."
 msgstr "Έλεγχος διαμόρφωσης εγκατάστασης..."
 
@@ -371,7 +371,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Ολοκληρώθηκε"
 
-#: src/components/review/ReviewConfiguration.jsx:217
+#: src/components/review/ReviewConfiguration.jsx:224
 msgid "Configuration is incomplete"
 msgstr "Η διαμόρφωση δεν είναι ολοκληρωμένη"
 
@@ -650,7 +650,7 @@ msgstr "Όνομα υπολογιστή"
 msgid "How would you like to install?"
 msgstr "Με ποιον τρόπο θέλετε να κάνετε την εγκατάσταση;"
 
-#: src/components/review/ReviewConfiguration.jsx:320
+#: src/components/review/ReviewConfiguration.jsx:336
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
@@ -659,11 +659,11 @@ msgstr[1] ""
 "Κατανοώ ότι όλα τα υπάρχοντα δεδομένα θα διαγραφούν από τους επιλεγμένους "
 "δίσκους"
 
-#: src/components/review/ReviewConfiguration.jsx:325
+#: src/components/review/ReviewConfiguration.jsx:341
 msgid "I understand that some existing data will be erased"
 msgstr "Κατανοώ ότι ορισμένα από τα υπάρχοντα δεδομένα θα διαγραφούν"
 
-#: src/components/review/ReviewConfiguration.jsx:326
+#: src/components/review/ReviewConfiguration.jsx:342
 msgid "I understand that some partitions will be modified"
 msgstr "Κατανοώ ότι ορισμένα από τα υπάρχοντα διαμέρισματα θα τροποποιηθούν"
 
@@ -747,12 +747,12 @@ msgstr "Η εγκατάσταση του συστήματος απέτυχε"
 msgid "Installation of the system failed: $0"
 msgstr "Αποτυχία εγκατάστασης συστήματος: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/review/ReviewConfiguration.jsx:268
 #: src/components/source/index.js:24 src/components/source/index.js:25
 msgid "Installation source"
 msgstr "Πηγή εγκατάστασης"
 
-#: src/components/review/ReviewConfiguration.jsx:280
+#: src/components/review/ReviewConfiguration.jsx:296
 msgid "Installation type"
 msgstr "Τύπος εγκατάστασης"
 
@@ -787,7 +787,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Μη έγκυρο όνομα υπολογιστή"
 
-#: src/components/review/ReviewConfiguration.jsx:213
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid "Jump to first incomplete step"
 msgstr "Μετάβαση στο πρώτο μη ολοκληρωμένο βήμα"
 
@@ -816,7 +816,7 @@ msgid "LVM thin provisioning"
 msgstr "Δυναμική εκχώρηση LVM"
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:239
+#: src/components/review/ReviewConfiguration.jsx:246
 msgid "Language"
 msgstr "Γλώσσα"
 
@@ -1016,6 +1016,10 @@ msgstr "Δεν υπάρχει επαρκής ελεύθερος χώρος στ�
 msgid "Not enough space on selected disks."
 msgstr "Δεν υπάρχει επαρκής χώρος στους επιλεγμένους δίσκους."
 
+#: src/components/subscription/SubscriptionEmbed.jsx:26
+msgid "Not registered"
+msgstr ""
+
 #: src/components/AnacondaHeader.jsx:70
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -1030,7 +1034,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Άνοιγμα φόρμας καταχώρησης σφαλμάτων Bugzilla"
 
-#: src/components/review/ReviewConfiguration.jsx:228
+#: src/components/review/ReviewConfiguration.jsx:235
 msgid "Operating system"
 msgstr "Λειτουργικό σύστημα"
 
@@ -1203,6 +1207,12 @@ msgstr "Προτεινόμενα διαμερίσματα:"
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:621
 msgid "Reformat"
 msgstr "Επαναδιαμόρφωση"
+
+#: src/components/subscription/SubscriptionEmbed.jsx:24
+#, fuzzy
+#| msgid "Registration failed."
+msgid "Registered"
+msgstr "Αποτυχία εγγραφής."
 
 #: src/components/storage/scenarios/reinstall-fedora/index.js:21
 #: src/components/storage/scenarios/reinstall-fedora/index.js:23
@@ -1510,11 +1520,11 @@ msgstr ""
 "ολοκληρωθεί. Γίνεται τώρα εγκατάσταση του λογισμικού στη συσκευή σας."
 
 #: src/components/software/index.js:22 src/components/software/index.js:23
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:274
 msgid "Software selection"
 msgstr "Επιλογή λογισμικού"
 
-#: src/components/review/ReviewConfiguration.jsx:220
+#: src/components/review/ReviewConfiguration.jsx:227
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1537,13 +1547,13 @@ msgstr "Ιχνηλάτηση στοίβας"
 msgid "Standard partitions"
 msgstr "Τυπικά διαμερίσματα"
 
-#: src/components/review/ReviewConfiguration.jsx:287
+#: src/components/review/ReviewConfiguration.jsx:303
 msgid "Storage"
 msgstr "Αποθηκευτικός χώρος"
 
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
-#: src/components/steps.js:37
+#: src/components/steps.js:39
 #: src/components/installation/InstallationProgress.jsx:232
 msgid "Storage configuration"
 msgstr "Διαμόρφωση χώρου"
@@ -1599,6 +1609,13 @@ msgstr "Stratis"
 #: src/components/Password.jsx:67
 msgid "Strong"
 msgstr "Ισχυρός"
+
+#: src/components/subscription/index.js:21
+#: src/components/review/ReviewConfiguration.jsx:261
+#, fuzzy
+#| msgid "Description"
+msgid "Subscription"
+msgstr "Περιγραφή"
 
 #: src/components/installation/InstallationProgress.jsx:220
 msgid "Successfully installed"
@@ -1741,7 +1758,7 @@ msgstr "Αυτό θα διαρκέσει λίγα λεπτά"
 msgid "Time"
 msgstr "Ώρα"
 
-#: src/components/review/ReviewConfiguration.jsx:246
+#: src/components/review/ReviewConfiguration.jsx:253
 #: src/components/datetime/Timezone.jsx:139
 msgid "Timezone"
 msgstr "Ζώνη ώρας"
@@ -2637,9 +2654,6 @@ msgstr "αναίρεση"
 
 #~ msgid "Region"
 #~ msgstr "Περιοχή"
-
-#~ msgid "Registration failed."
-#~ msgstr "Αποτυχία εγγραφής."
 
 #~ msgctxt "GUI|Custom Partitioning"
 #~ msgid "Remove"

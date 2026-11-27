@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE_VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-26 11:33+0000\n"
+"POT-Creation-Date: 2026-11-27 11:25+0000\n"
 "PO-Revision-Date: 2026-05-06 05:45+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.fedoraproject.org/projects/anaconda-"
@@ -110,7 +110,7 @@ msgstr "ການຕິດຕັ້ງ $0"
 msgid "About"
 msgstr "ກ່ຽວກັບ"
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:281
 msgid "Account"
 msgstr "ບັນຊີ"
 
@@ -159,7 +159,7 @@ msgstr "ທຸກອຸປະກອນທີ່ໃຊ້ລະຫັດຜ່າ
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/index.html:20 src/login.html:8
+#: src/login.html:8 src/index.html:20
 msgid "Anaconda Web UI"
 msgstr "ໜ້າຈໍຜູ້ໃຊ້ເວັບ Anaconda"
 
@@ -289,7 +289,7 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr "ການປ່ຽນແປງຢູ່ບ່ອນນີ້ຈະມີຜົນກັບລະບົບທັນທີ. ບໍ່ສາມາດ 'ຍົກເລີກ' ໄດ້."
 
-#: src/components/review/ReviewConfiguration.jsx:196
+#: src/components/review/ReviewConfiguration.jsx:203
 msgid "Checking installation configuration..."
 msgstr "ກຳລັງກວດສອບການຕັ້ງຄ່າການຕິດຕັ້ງ..."
 
@@ -337,7 +337,7 @@ msgstr "Cockpit storage ບໍ່ໄດ້ໃຫ້ລະຫັດຜ່ານ�
 msgid "Completed"
 msgstr "ສຳເລັດແລ້ວ"
 
-#: src/components/review/ReviewConfiguration.jsx:217
+#: src/components/review/ReviewConfiguration.jsx:224
 msgid "Configuration is incomplete"
 msgstr "ການຕັ້ງຄ່າຍັງບໍ່ທັນຄົບຖ້ວນ"
 
@@ -625,17 +625,17 @@ msgstr "ຊື່ເຄື່ອງ"
 msgid "How would you like to install?"
 msgstr "ທ່ານຕ້ອງການຕິດຕັ້ງແນວໃດ?"
 
-#: src/components/review/ReviewConfiguration.jsx:320
+#: src/components/review/ReviewConfiguration.jsx:336
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] "ຂ້ອຍເຂົ້າໃຈວ່າຂໍ້ມູນທີ່ມີຢູ່ທັງໝົດຈະຖືກລຶບອອກຈາກດິດທີ່ເລືອກ"
 
-#: src/components/review/ReviewConfiguration.jsx:325
+#: src/components/review/ReviewConfiguration.jsx:341
 msgid "I understand that some existing data will be erased"
 msgstr "ຂ້ອຍເຂົ້າໃຈວ່າຂໍ້ມູນທີ່ມີຢູ່ບາງສ່ວນຈະຖືກລຶບ"
 
-#: src/components/review/ReviewConfiguration.jsx:326
+#: src/components/review/ReviewConfiguration.jsx:342
 msgid "I understand that some partitions will be modified"
 msgstr "ຂ້ອຍເຂົ້າໃຈວ່າບາງພາກສ່ວນຈະຖືກປ່ຽນແປງ"
 
@@ -710,14 +710,14 @@ msgstr "ການຕິດຕັ້ງລະບົບບໍ່ສຳເລັດ
 msgid "Installation of the system failed: $0"
 msgstr "ການຕິດຕັ້ງລະບົບບໍ່ສຳເລັດ: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/review/ReviewConfiguration.jsx:268
 #: src/components/source/index.js:24 src/components/source/index.js:25
 #, fuzzy
 #| msgid "Installation type"
 msgid "Installation source"
 msgstr "ປະເພດການຕິດຕັ້ງ"
 
-#: src/components/review/ReviewConfiguration.jsx:280
+#: src/components/review/ReviewConfiguration.jsx:296
 msgid "Installation type"
 msgstr "ປະເພດການຕິດຕັ້ງ"
 
@@ -749,7 +749,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "ຊື່ເຄື່ອງບໍ່ຖືກຕ້ອງ"
 
-#: src/components/review/ReviewConfiguration.jsx:213
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid "Jump to first incomplete step"
 msgstr "ໄປຫາຂັ້ນຕອນທຳອິດທີ່ຍັງບໍ່ສຳເລັດ"
 
@@ -776,7 +776,7 @@ msgid "LVM thin provisioning"
 msgstr ""
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:239
+#: src/components/review/ReviewConfiguration.jsx:246
 msgid "Language"
 msgstr "ພາສາ"
 
@@ -968,6 +968,10 @@ msgstr "ພື້ນທີ່ວ່າງໃນດິດທີ່ເລືອກ
 msgid "Not enough space on selected disks."
 msgstr "ພື້ນທີ່ໃນດິດທີ່ເລືອກບໍ່ພຽງພໍ."
 
+#: src/components/subscription/SubscriptionEmbed.jsx:26
+msgid "Not registered"
+msgstr ""
+
 #: src/components/AnacondaHeader.jsx:70
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -981,7 +985,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "ເປີດແບບຟອມແຈ້ງບັກຂອງ Bugzilla"
 
-#: src/components/review/ReviewConfiguration.jsx:228
+#: src/components/review/ReviewConfiguration.jsx:235
 msgid "Operating system"
 msgstr "ລະບົບປະຕິບັດການ"
 
@@ -1155,6 +1159,10 @@ msgstr "ພາກສ່ວນທີ່ແນະນຳ:"
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:621
 msgid "Reformat"
 msgstr "ຟໍແມັດໃໝ່"
+
+#: src/components/subscription/SubscriptionEmbed.jsx:24
+msgid "Registered"
+msgstr ""
 
 #: src/components/storage/scenarios/reinstall-fedora/index.js:21
 #: src/components/storage/scenarios/reinstall-fedora/index.js:23
@@ -1453,11 +1461,11 @@ msgid ""
 msgstr "ການຕິດຕັ້ງຊອບແວ: ຕັ້ງຄ່າບ່ອນເກັບຂໍ້ມູນສຳເລັດ. ກຳລັງຕິດຕັ້ງຊອບແວລົງໃນອຸປະກອນຂອງທ່ານ."
 
 #: src/components/software/index.js:22 src/components/software/index.js:23
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:274
 msgid "Software selection"
 msgstr "ການເລືອກຊອບແວ"
 
-#: src/components/review/ReviewConfiguration.jsx:220
+#: src/components/review/ReviewConfiguration.jsx:227
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr "ຍັງມີບາງຂັ້ນຕອນການຕິດຕັ້ງທີ່ຕ້ອງເຮັດໃຫ້ສຳເລັດກ່ອນທີ່ຈະດຳເນີນການຕໍ່."
@@ -1480,13 +1488,13 @@ msgstr "Stacktrace"
 msgid "Standard partitions"
 msgstr "ພາກສ່ວນຂະຫຍາຍ"
 
-#: src/components/review/ReviewConfiguration.jsx:287
+#: src/components/review/ReviewConfiguration.jsx:303
 msgid "Storage"
 msgstr "ບ່ອນເກັບຂໍ້ມູນ"
 
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
-#: src/components/steps.js:37
+#: src/components/steps.js:39
 #: src/components/installation/InstallationProgress.jsx:232
 msgid "Storage configuration"
 msgstr "ການຕັ້ງຄ່າບ່ອນເກັບຂໍ້ມູນ"
@@ -1542,6 +1550,13 @@ msgstr ""
 #: src/components/Password.jsx:67
 msgid "Strong"
 msgstr "ແຂງແຮງ"
+
+#: src/components/subscription/index.js:21
+#: src/components/review/ReviewConfiguration.jsx:261
+#, fuzzy
+#| msgid "Description"
+msgid "Subscription"
+msgstr "ຄຳອະທິບາຍ"
 
 #: src/components/installation/InstallationProgress.jsx:220
 msgid "Successfully installed"
@@ -1662,7 +1677,7 @@ msgstr "ນີ້ຈະໃຊ້ເວລາຄາວໜຶ່ງ"
 msgid "Time"
 msgstr "ເວລາ"
 
-#: src/components/review/ReviewConfiguration.jsx:246
+#: src/components/review/ReviewConfiguration.jsx:253
 #: src/components/datetime/Timezone.jsx:139
 msgid "Timezone"
 msgstr "ເຂດເວລາ"

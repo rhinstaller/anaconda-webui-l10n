@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 38.9\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-26 11:33+0000\n"
+"POT-Creation-Date: 2026-11-27 11:25+0000\n"
 "PO-Revision-Date: 2026-10-11 04:15+0000\n"
 "Last-Translator: Khoa Le <inctenone@gmail.com>\n"
 "Language-Team: Vietnamese <https://translate.fedoraproject.org/projects/"
@@ -111,7 +111,7 @@ msgstr "Hủy cài đặt"
 msgid "About"
 msgstr "Thông tin"
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:281
 msgid "Account"
 msgstr "Tài khoản"
 
@@ -163,7 +163,7 @@ msgstr "Mọi thiết bị sử dụng chuỗi mật khẩu này sẽ được m
 msgid "Anaconda"
 msgstr "Trình cài đặt Anaconda"
 
-#: src/index.html:20 src/login.html:8
+#: src/login.html:8 src/index.html:20
 msgid "Anaconda Web UI"
 msgstr "Giao diện Web Anaconda"
 
@@ -297,7 +297,7 @@ msgstr ""
 "Mọi thay đổi ở đây đều có hiệu lực ngay lập tức. Bạn không thể \"hoàn tác\" "
 "thay đổi."
 
-#: src/components/review/ReviewConfiguration.jsx:196
+#: src/components/review/ReviewConfiguration.jsx:203
 msgid "Checking installation configuration..."
 msgstr "Đang kiểm tra cấu hình cài đặt..."
 
@@ -346,7 +346,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Đã hoàn tất"
 
-#: src/components/review/ReviewConfiguration.jsx:217
+#: src/components/review/ReviewConfiguration.jsx:224
 msgid "Configuration is incomplete"
 msgstr "Cấu hình chưa hoàn tất"
 
@@ -631,18 +631,18 @@ msgstr "Tên máy"
 msgid "How would you like to install?"
 msgstr "Bạn muốn cài đặt bằng cách nào?"
 
-#: src/components/review/ReviewConfiguration.jsx:320
+#: src/components/review/ReviewConfiguration.jsx:336
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] ""
 "Tôi hiểu rằng tất cả dữ liệu hiện có sẽ bị xóa khỏi các ổ đĩa đã chọn"
 
-#: src/components/review/ReviewConfiguration.jsx:325
+#: src/components/review/ReviewConfiguration.jsx:341
 msgid "I understand that some existing data will be erased"
 msgstr "Tôi hiểu rằng một số dữ liệu đang có sẽ bị xoá"
 
-#: src/components/review/ReviewConfiguration.jsx:326
+#: src/components/review/ReviewConfiguration.jsx:342
 msgid "I understand that some partitions will be modified"
 msgstr "Tôi hiểu rằng một số phân vùng ổ cứng sẽ được thay đổi"
 
@@ -724,14 +724,14 @@ msgstr "Cài đặt hệ thống thất bại"
 msgid "Installation of the system failed: $0"
 msgstr "Việc cài đặt hệ thống thất bại: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/review/ReviewConfiguration.jsx:268
 #: src/components/source/index.js:24 src/components/source/index.js:25
 #, fuzzy
 #| msgid "Installation type"
 msgid "Installation source"
 msgstr "Loại cài đặt"
 
-#: src/components/review/ReviewConfiguration.jsx:280
+#: src/components/review/ReviewConfiguration.jsx:296
 msgid "Installation type"
 msgstr "Loại cài đặt"
 
@@ -764,7 +764,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Tên máy không hợp lệ"
 
-#: src/components/review/ReviewConfiguration.jsx:213
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid "Jump to first incomplete step"
 msgstr "Chuyển đến bước chưa hoàn thành đầu tiên"
 
@@ -795,7 +795,7 @@ msgid "LVM thin provisioning"
 msgstr "LVM Thin Provisioning"
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:239
+#: src/components/review/ReviewConfiguration.jsx:246
 msgid "Language"
 msgstr "Ngôn ngữ"
 
@@ -988,6 +988,10 @@ msgstr "Các ổ đã chọn không đủ bộ nhớ."
 msgid "Not enough space on selected disks."
 msgstr "Không đủ bộ nhớ trên các ổ đĩa đã chọn."
 
+#: src/components/subscription/SubscriptionEmbed.jsx:26
+msgid "Not registered"
+msgstr ""
+
 #: src/components/AnacondaHeader.jsx:70
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -1002,7 +1006,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Mở biểu mẫu báo lỗi Bugzilla"
 
-#: src/components/review/ReviewConfiguration.jsx:228
+#: src/components/review/ReviewConfiguration.jsx:235
 msgid "Operating system"
 msgstr "Hệ điều hành"
 
@@ -1176,6 +1180,10 @@ msgstr "Phân vùng được đề xuất:"
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:621
 msgid "Reformat"
 msgstr "Định dạng lại"
+
+#: src/components/subscription/SubscriptionEmbed.jsx:24
+msgid "Registered"
+msgstr ""
 
 #: src/components/storage/scenarios/reinstall-fedora/index.js:21
 #: src/components/storage/scenarios/reinstall-fedora/index.js:23
@@ -1490,11 +1498,11 @@ msgstr ""
 "thiết bị của bạn."
 
 #: src/components/software/index.js:22 src/components/software/index.js:23
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:274
 msgid "Software selection"
 msgstr "Chọn phần mềm"
 
-#: src/components/review/ReviewConfiguration.jsx:220
+#: src/components/review/ReviewConfiguration.jsx:227
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1517,13 +1525,13 @@ msgstr "Dòng theo dõi"
 msgid "Standard partitions"
 msgstr "Phân vùng bình thường"
 
-#: src/components/review/ReviewConfiguration.jsx:287
+#: src/components/review/ReviewConfiguration.jsx:303
 msgid "Storage"
 msgstr "Bộ nhớ"
 
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
-#: src/components/steps.js:37
+#: src/components/steps.js:39
 #: src/components/installation/InstallationProgress.jsx:232
 msgid "Storage configuration"
 msgstr "Thiết đặt bộ nhớ"
@@ -1579,6 +1587,13 @@ msgstr ""
 #: src/components/Password.jsx:67
 msgid "Strong"
 msgstr "Mạnh"
+
+#: src/components/subscription/index.js:21
+#: src/components/review/ReviewConfiguration.jsx:261
+#, fuzzy
+#| msgid "Description"
+msgid "Subscription"
+msgstr "Mô tả"
 
 #: src/components/installation/InstallationProgress.jsx:220
 msgid "Successfully installed"
@@ -1706,7 +1721,7 @@ msgstr "Việc này sẽ cần một ít phút"
 msgid "Time"
 msgstr "Thời gian"
 
-#: src/components/review/ReviewConfiguration.jsx:246
+#: src/components/review/ReviewConfiguration.jsx:253
 #: src/components/datetime/Timezone.jsx:139
 msgid "Timezone"
 msgstr "Múi giờ"

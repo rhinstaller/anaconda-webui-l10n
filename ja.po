@@ -63,7 +63,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-26 11:33+0000\n"
+"POT-Creation-Date: 2026-11-27 11:25+0000\n"
 "PO-Revision-Date: 2026-02-03 04:28+0000\n"
 "Last-Translator: Yoshiaki Ishii "
 "<zouforestyoppy@users.noreply.translate.fedoraproject.org>\n"
@@ -168,7 +168,7 @@ msgstr "$0 のインストール"
 msgid "About"
 msgstr "About"
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:281
 msgid "Account"
 msgstr "アカウント"
 
@@ -225,7 +225,7 @@ msgstr "すべてのデバイスは、このパスフレーズにてロック解
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/index.html:20 src/login.html:8
+#: src/login.html:8 src/index.html:20
 msgid "Anaconda Web UI"
 msgstr "Anaconda Web UI"
 
@@ -364,7 +364,7 @@ msgstr ""
 "ここで行う変更はシステムに直ちに影響を及ぼします。操作を'元に戻す'ことはでき"
 "ません。"
 
-#: src/components/review/ReviewConfiguration.jsx:196
+#: src/components/review/ReviewConfiguration.jsx:203
 #, fuzzy
 #| msgid "Checking storage configuration..."
 msgid "Checking installation configuration..."
@@ -417,7 +417,7 @@ msgstr ""
 msgid "Completed"
 msgstr "完了しました"
 
-#: src/components/review/ReviewConfiguration.jsx:217
+#: src/components/review/ReviewConfiguration.jsx:224
 #, fuzzy
 #| msgid "Apply configuration in installer"
 msgid "Configuration is incomplete"
@@ -717,7 +717,7 @@ msgstr "ホスト名"
 msgid "How would you like to install?"
 msgstr "どのようにインストールしますか？"
 
-#: src/components/review/ReviewConfiguration.jsx:320
+#: src/components/review/ReviewConfiguration.jsx:336
 #, fuzzy
 #| msgid "I understand that all existing data will be erased"
 msgid "I understand that all existing data will be erased"
@@ -725,11 +725,11 @@ msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] "既存のデータが全て削除されることを理解しました"
 
-#: src/components/review/ReviewConfiguration.jsx:325
+#: src/components/review/ReviewConfiguration.jsx:341
 msgid "I understand that some existing data will be erased"
 msgstr "既存のデータが一部削除されることを理解しました"
 
-#: src/components/review/ReviewConfiguration.jsx:326
+#: src/components/review/ReviewConfiguration.jsx:342
 msgid "I understand that some partitions will be modified"
 msgstr "一部のパーティションが変更されることを理解しました"
 
@@ -802,12 +802,12 @@ msgstr "システムのインストールに失敗しました"
 msgid "Installation of the system failed: $0"
 msgstr "システムのインストールに失敗しました: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/review/ReviewConfiguration.jsx:268
 #: src/components/source/index.js:24 src/components/source/index.js:25
 msgid "Installation source"
 msgstr "インストールソース"
 
-#: src/components/review/ReviewConfiguration.jsx:280
+#: src/components/review/ReviewConfiguration.jsx:296
 msgid "Installation type"
 msgstr "インストールタイプ"
 
@@ -836,7 +836,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "無効なホスト名です"
 
-#: src/components/review/ReviewConfiguration.jsx:213
+#: src/components/review/ReviewConfiguration.jsx:220
 #, fuzzy
 #| msgid "completed step"
 msgid "Jump to first incomplete step"
@@ -869,7 +869,7 @@ msgid "LVM thin provisioning"
 msgstr "LVM シンプロビジョニング"
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:239
+#: src/components/review/ReviewConfiguration.jsx:246
 msgid "Language"
 msgstr "言語"
 
@@ -1075,6 +1075,12 @@ msgstr "選択したディスクには十分な空き領域がありません。
 msgid "Not enough space on selected disks."
 msgstr "選択したディスクには十分な空き領域がありません。"
 
+#: src/components/subscription/SubscriptionEmbed.jsx:26
+#, fuzzy
+#| msgid "Not registered."
+msgid "Not registered"
+msgstr "登録されていません。"
+
 #: src/components/AnacondaHeader.jsx:70
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -1088,7 +1094,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr ""
 
-#: src/components/review/ReviewConfiguration.jsx:228
+#: src/components/review/ReviewConfiguration.jsx:235
 msgid "Operating system"
 msgstr "オペレーティングシステム"
 
@@ -1270,6 +1276,12 @@ msgstr "推奨されるパーティション:"
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:621
 msgid "Reformat"
 msgstr "再フォーマット"
+
+#: src/components/subscription/SubscriptionEmbed.jsx:24
+#, fuzzy
+#| msgid "Registered."
+msgid "Registered"
+msgstr "登録済み。"
 
 #: src/components/storage/scenarios/reinstall-fedora/index.js:21
 #: src/components/storage/scenarios/reinstall-fedora/index.js:23
@@ -1589,11 +1601,11 @@ msgstr ""
 "バイスにインストールされています。"
 
 #: src/components/software/index.js:22 src/components/software/index.js:23
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:274
 msgid "Software selection"
 msgstr "ソフトウェアの選択"
 
-#: src/components/review/ReviewConfiguration.jsx:220
+#: src/components/review/ReviewConfiguration.jsx:227
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr ""
@@ -1616,13 +1628,13 @@ msgstr ""
 msgid "Standard partitions"
 msgstr "標準パーティション"
 
-#: src/components/review/ReviewConfiguration.jsx:287
+#: src/components/review/ReviewConfiguration.jsx:303
 msgid "Storage"
 msgstr "ストレージ"
 
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
-#: src/components/steps.js:37
+#: src/components/steps.js:39
 #: src/components/installation/InstallationProgress.jsx:232
 msgid "Storage configuration"
 msgstr "ストレージの設定"
@@ -1679,6 +1691,13 @@ msgstr ""
 #: src/components/Password.jsx:67
 msgid "Strong"
 msgstr "強固"
+
+#: src/components/subscription/index.js:21
+#: src/components/review/ReviewConfiguration.jsx:261
+#, fuzzy
+#| msgid "Description"
+msgid "Subscription"
+msgstr "説明"
 
 #: src/components/installation/InstallationProgress.jsx:220
 msgid "Successfully installed"
@@ -1806,7 +1825,7 @@ msgstr "これには少し時間がかかります"
 msgid "Time"
 msgstr "時間"
 
-#: src/components/review/ReviewConfiguration.jsx:246
+#: src/components/review/ReviewConfiguration.jsx:253
 #: src/components/datetime/Timezone.jsx:139
 msgid "Timezone"
 msgstr "タイムゾーン"
@@ -4575,9 +4594,6 @@ msgstr ""
 #~ msgid "Not mounting the system.\n"
 #~ msgstr "システムをマウントしていません。\n"
 
-#~ msgid "Not registered."
-#~ msgstr "登録されていません。"
-
 #~ msgid "Not required"
 #~ msgstr "不要"
 
@@ -5088,9 +5104,6 @@ msgstr ""
 
 #~ msgid "Registered with organization {}"
 #~ msgstr "組織 {} に登録済み"
-
-#~ msgid "Registered."
-#~ msgstr "登録済み。"
 
 #~ msgid "Registering..."
 #~ msgstr "登録中..."

@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-26 11:33+0000\n"
+"POT-Creation-Date: 2026-11-27 11:25+0000\n"
 "PO-Revision-Date: 2026-11-11 18:09+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/"
@@ -135,7 +135,7 @@ msgstr "Keskeytä asennus"
 msgid "About"
 msgstr "Aiheesta"
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:281
 msgid "Account"
 msgstr "Tili"
 
@@ -187,7 +187,7 @@ msgstr "Kaikki tätä tunnuslausetta käyttävät laitteet avataan"
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/index.html:20 src/login.html:8
+#: src/login.html:8 src/index.html:20
 msgid "Anaconda Web UI"
 msgstr "Anaconda-verkkokäyttöliittymä"
 
@@ -322,7 +322,7 @@ msgstr ""
 "Täällä tehdyt muutokset vaikuttavat välittömästi järjestelmään. \"Kumoa\" ei "
 "ole."
 
-#: src/components/review/ReviewConfiguration.jsx:196
+#: src/components/review/ReviewConfiguration.jsx:203
 msgid "Checking installation configuration..."
 msgstr "Tarkistetaan asennuksen kokoonpanoa..."
 
@@ -371,7 +371,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Valmis"
 
-#: src/components/review/ReviewConfiguration.jsx:217
+#: src/components/review/ReviewConfiguration.jsx:224
 msgid "Configuration is incomplete"
 msgstr "Määritys on keskeneräinen"
 
@@ -651,7 +651,7 @@ msgstr "Koneen nimi"
 msgid "How would you like to install?"
 msgstr "Miten haluaisit asentaa?"
 
-#: src/components/review/ReviewConfiguration.jsx:320
+#: src/components/review/ReviewConfiguration.jsx:336
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
@@ -659,11 +659,11 @@ msgstr[0] ""
 "Ymmärrän, että kaikki olemassa olevat tiedot poistetaan valituilta levyiltä"
 msgstr[1] "Ymmärrän, että kaikki olemassa olevat tiedot poistetaan"
 
-#: src/components/review/ReviewConfiguration.jsx:325
+#: src/components/review/ReviewConfiguration.jsx:341
 msgid "I understand that some existing data will be erased"
 msgstr "Ymmärrän, että osa olemassa olevista tiedoista poistetaan"
 
-#: src/components/review/ReviewConfiguration.jsx:326
+#: src/components/review/ReviewConfiguration.jsx:342
 msgid "I understand that some partitions will be modified"
 msgstr "Ymmärrän, että joitain osioita muutetaan"
 
@@ -741,12 +741,12 @@ msgstr "Järjestelmän asennus epäonnistui"
 msgid "Installation of the system failed: $0"
 msgstr "Järjestelmän asennus epäonnistui: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/review/ReviewConfiguration.jsx:268
 #: src/components/source/index.js:24 src/components/source/index.js:25
 msgid "Installation source"
 msgstr "Asennuslähde"
 
-#: src/components/review/ReviewConfiguration.jsx:280
+#: src/components/review/ReviewConfiguration.jsx:296
 msgid "Installation type"
 msgstr "Asennustyyppi"
 
@@ -779,7 +779,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Ei kelvollinen isäntänimi"
 
-#: src/components/review/ReviewConfiguration.jsx:213
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid "Jump to first incomplete step"
 msgstr "Siirry ensimmäiseen keskeneräiseen vaiheeseen"
 
@@ -810,7 +810,7 @@ msgid "LVM thin provisioning"
 msgstr "LVM -ohut resurssien määritys ja tarjoaminen"
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:239
+#: src/components/review/ReviewConfiguration.jsx:246
 msgid "Language"
 msgstr "Kieli"
 
@@ -1008,6 +1008,12 @@ msgstr "Valituilla levyillä ei ole riittävästi vapaata tilaa."
 msgid "Not enough space on selected disks."
 msgstr "Valituilla levyillä ei ole riittävästi vapaata tilaa."
 
+#: src/components/subscription/SubscriptionEmbed.jsx:26
+#, fuzzy
+#| msgid "Not registered."
+msgid "Not registered"
+msgstr "Ei rekisteröity."
+
 #: src/components/AnacondaHeader.jsx:70
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -1022,7 +1028,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Avaa Bugzillan virheilmoituslomake"
 
-#: src/components/review/ReviewConfiguration.jsx:228
+#: src/components/review/ReviewConfiguration.jsx:235
 msgid "Operating system"
 msgstr "Käyttöjärjestelmä"
 
@@ -1196,6 +1202,12 @@ msgstr "Suositellut osiot:"
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:621
 msgid "Reformat"
 msgstr "Alusta uudelleen"
+
+#: src/components/subscription/SubscriptionEmbed.jsx:24
+#, fuzzy
+#| msgid "Registered."
+msgid "Registered"
+msgstr "Rekisteröity."
 
 #: src/components/storage/scenarios/reinstall-fedora/index.js:21
 #: src/components/storage/scenarios/reinstall-fedora/index.js:23
@@ -1498,11 +1510,11 @@ msgstr ""
 "nyt laitteellesi."
 
 #: src/components/software/index.js:22 src/components/software/index.js:23
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:274
 msgid "Software selection"
 msgstr "Ohjelmistovalinta"
 
-#: src/components/review/ReviewConfiguration.jsx:220
+#: src/components/review/ReviewConfiguration.jsx:227
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr "Jotkin asennusvaiheet on vielä suoritettava ennen kuin voit jatkaa."
@@ -1525,13 +1537,13 @@ msgstr "Stacktrace"
 msgid "Standard partitions"
 msgstr "Tavallinen osio"
 
-#: src/components/review/ReviewConfiguration.jsx:287
+#: src/components/review/ReviewConfiguration.jsx:303
 msgid "Storage"
 msgstr "Tallennustila"
 
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
-#: src/components/steps.js:37
+#: src/components/steps.js:39
 #: src/components/installation/InstallationProgress.jsx:232
 msgid "Storage configuration"
 msgstr "Tallennustilan määritykset"
@@ -1588,6 +1600,13 @@ msgstr ""
 #: src/components/Password.jsx:67
 msgid "Strong"
 msgstr "Vahva"
+
+#: src/components/subscription/index.js:21
+#: src/components/review/ReviewConfiguration.jsx:261
+#, fuzzy
+#| msgid "Description"
+msgid "Subscription"
+msgstr "Kuvaus"
 
 #: src/components/installation/InstallationProgress.jsx:220
 msgid "Successfully installed"
@@ -1724,7 +1743,7 @@ msgstr "Tämä kestää hetken"
 msgid "Time"
 msgstr "Aika"
 
-#: src/components/review/ReviewConfiguration.jsx:246
+#: src/components/review/ReviewConfiguration.jsx:253
 #: src/components/datetime/Timezone.jsx:139
 msgid "Timezone"
 msgstr "Aikavyöhyke"
@@ -4501,9 +4520,6 @@ msgstr "kumoa"
 #~ msgid "Not mounting the system.\n"
 #~ msgstr "Ei liitetä järjestelmää.\n"
 
-#~ msgid "Not registered."
-#~ msgstr "Ei rekisteröity."
-
 #~ msgid "Not required"
 #~ msgstr "Ei vaadittu"
 
@@ -5010,9 +5026,6 @@ msgstr "kumoa"
 
 #~ msgid "Registered with organization {}"
 #~ msgstr "Rekisteröity organisaatiolla {}"
-
-#~ msgid "Registered."
-#~ msgstr "Rekisteröity."
 
 #~ msgid "Registering..."
 #~ msgstr "Rekisteröityminen ..."

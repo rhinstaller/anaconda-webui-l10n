@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-26 11:33+0000\n"
+"POT-Creation-Date: 2026-11-27 11:25+0000\n"
 "PO-Revision-Date: 2026-10-05 02:42+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
@@ -125,7 +125,7 @@ msgstr "Katkesta paigaldus"
 msgid "About"
 msgstr "Teave"
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:281
 msgid "Account"
 msgstr "Kasutajakonto"
 
@@ -174,7 +174,7 @@ msgstr "Kõikide seda salasõna kasutavata seadmete lukustus avatakse"
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/index.html:20 src/login.html:8
+#: src/login.html:8 src/index.html:20
 msgid "Anaconda Web UI"
 msgstr "Anaconda veebipõhine kasutajaliides"
 
@@ -309,7 +309,7 @@ msgstr ""
 "Siinkohal tehtud muudatused mõjutavad süsteemi koheselt ja pole mitte mingit "
 "võimalust seda tagasi pöörata."
 
-#: src/components/review/ReviewConfiguration.jsx:196
+#: src/components/review/ReviewConfiguration.jsx:203
 msgid "Checking installation configuration..."
 msgstr "Kontrollin paigalduse seadistust..."
 
@@ -360,7 +360,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Valmis"
 
-#: src/components/review/ReviewConfiguration.jsx:217
+#: src/components/review/ReviewConfiguration.jsx:224
 msgid "Configuration is incomplete"
 msgstr "Seadistus on poolik"
 
@@ -645,7 +645,7 @@ msgstr "Hostinimi"
 msgid "How would you like to install?"
 msgstr "Kuidas sa sooviksid paigaldada?"
 
-#: src/components/review/ReviewConfiguration.jsx:320
+#: src/components/review/ReviewConfiguration.jsx:336
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
@@ -653,11 +653,11 @@ msgstr[0] "Ma saan aru, et kõik olemasolevad andmed kustutatakse"
 msgstr[1] ""
 "Ma saan aru, et kõik olemasolevad andmed kustutatakse valitud ketastelt"
 
-#: src/components/review/ReviewConfiguration.jsx:325
+#: src/components/review/ReviewConfiguration.jsx:341
 msgid "I understand that some existing data will be erased"
 msgstr "Ma saan aru, et mõned olemasolevad andmed kustutatakse"
 
-#: src/components/review/ReviewConfiguration.jsx:326
+#: src/components/review/ReviewConfiguration.jsx:342
 msgid "I understand that some partitions will be modified"
 msgstr "Ma saan aru, et mõned partitsioonid kuuluvad muutmisele"
 
@@ -738,14 +738,14 @@ msgstr "Süsteemi paigaldamine ei õnnestunud"
 msgid "Installation of the system failed: $0"
 msgstr "Süsteemi paigaldamine ei õnnestunud: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/review/ReviewConfiguration.jsx:268
 #: src/components/source/index.js:24 src/components/source/index.js:25
 #, fuzzy
 #| msgid "Installation type"
 msgid "Installation source"
 msgstr "Paigalduse tüüp"
 
-#: src/components/review/ReviewConfiguration.jsx:280
+#: src/components/review/ReviewConfiguration.jsx:296
 msgid "Installation type"
 msgstr "Paigalduse tüüp"
 
@@ -780,7 +780,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Vigane hostinimi"
 
-#: src/components/review/ReviewConfiguration.jsx:213
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid "Jump to first incomplete step"
 msgstr "Mine esimese pooliku sammu juurde"
 
@@ -809,7 +809,7 @@ msgid "LVM thin provisioning"
 msgstr ""
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:239
+#: src/components/review/ReviewConfiguration.jsx:246
 msgid "Language"
 msgstr "Keel"
 
@@ -1003,6 +1003,12 @@ msgstr "Valitud ketastel pole piisavalt vaba ruumi."
 msgid "Not enough space on selected disks."
 msgstr "Valitud ketastel pole piisavalt ruumi."
 
+#: src/components/subscription/SubscriptionEmbed.jsx:26
+#, fuzzy
+#| msgid "Not connected"
+msgid "Not registered"
+msgstr "Pole ühendatud"
+
 #: src/components/AnacondaHeader.jsx:70
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -1017,7 +1023,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Ava Bugzilla veakirjelduse sisestusvorm"
 
-#: src/components/review/ReviewConfiguration.jsx:228
+#: src/components/review/ReviewConfiguration.jsx:235
 msgid "Operating system"
 msgstr "Operatsioonisüsteem"
 
@@ -1191,6 +1197,12 @@ msgstr "Soovituslikud partitsioonid:"
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:621
 msgid "Reformat"
 msgstr "Vorminda uuesti"
+
+#: src/components/subscription/SubscriptionEmbed.jsx:24
+#, fuzzy
+#| msgid "Connection failed"
+msgid "Registered"
+msgstr "Ühendus nurjus"
 
 #: src/components/storage/scenarios/reinstall-fedora/index.js:21
 #: src/components/storage/scenarios/reinstall-fedora/index.js:23
@@ -1496,11 +1508,11 @@ msgstr ""
 "parasjagu sinu arvutisse/seadmesse paigaldamisel."
 
 #: src/components/software/index.js:22 src/components/software/index.js:23
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:274
 msgid "Software selection"
 msgstr "Tarkvara valik"
 
-#: src/components/review/ReviewConfiguration.jsx:220
+#: src/components/review/ReviewConfiguration.jsx:227
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr "Enne jätkamist palun lõpeta mõned paigalduse sammud."
@@ -1523,13 +1535,13 @@ msgstr "Pinujälg"
 msgid "Standard partitions"
 msgstr "Laiendatud partitsioon"
 
-#: src/components/review/ReviewConfiguration.jsx:287
+#: src/components/review/ReviewConfiguration.jsx:303
 msgid "Storage"
 msgstr "Andmeruum"
 
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
-#: src/components/steps.js:37
+#: src/components/steps.js:39
 #: src/components/installation/InstallationProgress.jsx:232
 msgid "Storage configuration"
 msgstr "Andmeruumi seadistus"
@@ -1586,6 +1598,13 @@ msgstr ""
 #: src/components/Password.jsx:67
 msgid "Strong"
 msgstr "Tugev"
+
+#: src/components/subscription/index.js:21
+#: src/components/review/ReviewConfiguration.jsx:261
+#, fuzzy
+#| msgid "Description"
+msgid "Subscription"
+msgstr "Kirjeldus"
 
 #: src/components/installation/InstallationProgress.jsx:220
 msgid "Successfully installed"
@@ -1721,7 +1740,7 @@ msgstr "Selleks kulub mõni hetk"
 msgid "Time"
 msgstr "Kellaaeg"
 
-#: src/components/review/ReviewConfiguration.jsx:246
+#: src/components/review/ReviewConfiguration.jsx:253
 #: src/components/datetime/Timezone.jsx:139
 msgid "Timezone"
 msgstr "Ajavöönd"
@@ -2480,11 +2499,6 @@ msgstr "võta tegevus tagasi"
 #~ msgid "Not enough free space on selected disks."
 #~ msgstr "Valitud kettal pole piisavalt ruumi."
 
-#, fuzzy
-#~| msgid "Not connected"
-#~ msgid "Not required"
-#~ msgstr "Pole ühendatud"
-
 #~ msgid "Nothing selected"
 #~ msgstr "Midagi pole valitud"
 
@@ -2552,11 +2566,6 @@ msgstr "võta tegevus tagasi"
 
 #~ msgid "ROOT PASSWORD"
 #~ msgstr "ADMINISTRAATORI PAROOL"
-
-#, fuzzy
-#~| msgid "Connection failed"
-#~ msgid "Registered."
-#~ msgstr "Ühendus nurjus"
 
 #~ msgid "Registration failed."
 #~ msgstr "Registreerimine nurjus."

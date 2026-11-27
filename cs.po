@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-26 11:33+0000\n"
+"POT-Creation-Date: 2026-11-27 11:25+0000\n"
 "PO-Revision-Date: 2026-10-26 20:01+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/anaconda-"
@@ -155,7 +155,7 @@ msgstr "Přerušit instalaci"
 msgid "About"
 msgstr "O aplikaci"
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:281
 msgid "Account"
 msgstr "Účet"
 
@@ -207,7 +207,7 @@ msgstr "Budou odemknuta veškerá zařízení používající tuto heslovou frá
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/index.html:20 src/login.html:8
+#: src/login.html:8 src/index.html:20
 msgid "Anaconda Web UI"
 msgstr "Anaconda Web UI"
 
@@ -341,7 +341,7 @@ msgid ""
 msgstr ""
 "Změny zde provedené budou mít okamžitý vliv na systém. Nelze je „vzít zpět“."
 
-#: src/components/review/ReviewConfiguration.jsx:196
+#: src/components/review/ReviewConfiguration.jsx:203
 msgid "Checking installation configuration..."
 msgstr "Kontrola konfigurace instalace…"
 
@@ -390,7 +390,7 @@ msgstr ""
 msgid "Completed"
 msgstr "Dokončeno"
 
-#: src/components/review/ReviewConfiguration.jsx:217
+#: src/components/review/ReviewConfiguration.jsx:224
 msgid "Configuration is incomplete"
 msgstr "Konfigurace není dokončena"
 
@@ -670,7 +670,7 @@ msgstr "Název stroje"
 msgid "How would you like to install?"
 msgstr "Jak si přejete nainstalovat?"
 
-#: src/components/review/ReviewConfiguration.jsx:320
+#: src/components/review/ReviewConfiguration.jsx:336
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
@@ -678,11 +678,11 @@ msgstr[0] "Rozumím, že veškerá stávající data budou smazána"
 msgstr[1] "Rozumím, že veškerá stávající data budou smazána z vybraných disků"
 msgstr[2] "Rozumím, že veškerá stávající data budou smazána z vybraných disků"
 
-#: src/components/review/ReviewConfiguration.jsx:325
+#: src/components/review/ReviewConfiguration.jsx:341
 msgid "I understand that some existing data will be erased"
 msgstr "Rozumím, že některá ze stávajících dat budou smazána"
 
-#: src/components/review/ReviewConfiguration.jsx:326
+#: src/components/review/ReviewConfiguration.jsx:342
 msgid "I understand that some partitions will be modified"
 msgstr "Rozumím, že některé oddíly budou změněny"
 
@@ -765,12 +765,12 @@ msgstr "Instalace systému se nezdařila"
 msgid "Installation of the system failed: $0"
 msgstr "instalace systému se nezdařila: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/review/ReviewConfiguration.jsx:268
 #: src/components/source/index.js:24 src/components/source/index.js:25
 msgid "Installation source"
 msgstr "Instalační zdroj"
 
-#: src/components/review/ReviewConfiguration.jsx:280
+#: src/components/review/ReviewConfiguration.jsx:296
 msgid "Installation type"
 msgstr "Typ instalace"
 
@@ -803,7 +803,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Neplatný název stroje"
 
-#: src/components/review/ReviewConfiguration.jsx:213
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid "Jump to first incomplete step"
 msgstr "Přejít na první nedokončený krok"
 
@@ -834,7 +834,7 @@ msgid "LVM thin provisioning"
 msgstr "Tence (thin) poskytované LVM"
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:239
+#: src/components/review/ReviewConfiguration.jsx:246
 msgid "Language"
 msgstr "Jazyk"
 
@@ -1030,6 +1030,12 @@ msgstr "Na vybraných jednotkách není dostatek volného místa."
 msgid "Not enough space on selected disks."
 msgstr "Na vybraných jednotkách není dostatek prostoru."
 
+#: src/components/subscription/SubscriptionEmbed.jsx:26
+#, fuzzy
+#| msgid "Not registered."
+msgid "Not registered"
+msgstr "Nezaregistrováno."
+
 #: src/components/AnacondaHeader.jsx:70
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -1044,7 +1050,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Otevřít formulář zadávání hlášení chyby do Bugzilla"
 
-#: src/components/review/ReviewConfiguration.jsx:228
+#: src/components/review/ReviewConfiguration.jsx:235
 msgid "Operating system"
 msgstr "Operační systém"
 
@@ -1219,6 +1225,12 @@ msgstr "Doporučené oddíly:"
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:621
 msgid "Reformat"
 msgstr "Znovu vytvořit souborový systém"
+
+#: src/components/subscription/SubscriptionEmbed.jsx:24
+#, fuzzy
+#| msgid "Registered."
+msgid "Registered"
+msgstr "Zaregistrováno."
 
 #: src/components/storage/scenarios/reinstall-fedora/index.js:21
 #: src/components/storage/scenarios/reinstall-fedora/index.js:23
@@ -1520,11 +1532,11 @@ msgstr ""
 "instaluje do vašeho zařízení."
 
 #: src/components/software/index.js:22 src/components/software/index.js:23
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:274
 msgid "Software selection"
 msgstr "Výběr softwaru"
 
-#: src/components/review/ReviewConfiguration.jsx:220
+#: src/components/review/ReviewConfiguration.jsx:227
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr "Před pokračováním je třeba vyřešit některé kroky instalace."
@@ -1547,13 +1559,13 @@ msgstr "Stacktrace"
 msgid "Standard partitions"
 msgstr "Standardní oddíl"
 
-#: src/components/review/ReviewConfiguration.jsx:287
+#: src/components/review/ReviewConfiguration.jsx:303
 msgid "Storage"
 msgstr "Úložiště"
 
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
-#: src/components/steps.js:37
+#: src/components/steps.js:39
 #: src/components/installation/InstallationProgress.jsx:232
 msgid "Storage configuration"
 msgstr "Uspořádání úložiště"
@@ -1610,6 +1622,13 @@ msgstr ""
 #: src/components/Password.jsx:67
 msgid "Strong"
 msgstr "Odolné"
+
+#: src/components/subscription/index.js:21
+#: src/components/review/ReviewConfiguration.jsx:261
+#, fuzzy
+#| msgid "Description"
+msgid "Subscription"
+msgstr "Popis"
 
 #: src/components/installation/InstallationProgress.jsx:220
 msgid "Successfully installed"
@@ -1744,7 +1763,7 @@ msgstr "Chvíli to potrvá"
 msgid "Time"
 msgstr "Čas"
 
-#: src/components/review/ReviewConfiguration.jsx:246
+#: src/components/review/ReviewConfiguration.jsx:253
 #: src/components/datetime/Timezone.jsx:139
 msgid "Timezone"
 msgstr "Časové pásmo"
@@ -4524,9 +4543,6 @@ msgstr "zpět"
 #~ msgid "Not mounting the system.\n"
 #~ msgstr "Systém nebude připojen.\n"
 
-#~ msgid "Not registered."
-#~ msgstr "Nezaregistrováno."
-
 #~ msgid "Not required"
 #~ msgstr "Nepožadováno"
 
@@ -5034,9 +5050,6 @@ msgstr "zpět"
 
 #~ msgid "Registered with organization {}"
 #~ msgstr "Zaregistrováno prostřednictvím organizace {}"
-
-#~ msgid "Registered."
-#~ msgstr "Zaregistrováno."
 
 #~ msgid "Registering..."
 #~ msgstr "Registrování…"

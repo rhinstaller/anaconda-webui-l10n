@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-26 11:33+0000\n"
+"POT-Creation-Date: 2026-11-27 11:25+0000\n"
 "PO-Revision-Date: 2026-10-05 09:36+0000\n"
 "Last-Translator: Skyter Lin <linskyter@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -137,7 +137,7 @@ msgstr "終止安裝"
 msgid "About"
 msgstr "關於"
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:281
 msgid "Account"
 msgstr "帳號"
 
@@ -188,7 +188,7 @@ msgstr "所有使用此密碼的設備都將被解鎖"
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/index.html:20 src/login.html:8
+#: src/login.html:8 src/index.html:20
 msgid "Anaconda Web UI"
 msgstr "Anaconda Web 介面"
 
@@ -317,7 +317,7 @@ msgid ""
 "Changes made here will immediately affect the system. There is no 'undo'."
 msgstr "在此進行的變更將立即對系統生效。 這沒有反悔的機會。"
 
-#: src/components/review/ReviewConfiguration.jsx:196
+#: src/components/review/ReviewConfiguration.jsx:203
 msgid "Checking installation configuration..."
 msgstr "正在檢查安裝組態..."
 
@@ -365,7 +365,7 @@ msgstr "Cockpit storage 不會提供用於解鎖加密裝置的密碼短語。"
 msgid "Completed"
 msgstr "已完成"
 
-#: src/components/review/ReviewConfiguration.jsx:217
+#: src/components/review/ReviewConfiguration.jsx:224
 msgid "Configuration is incomplete"
 msgstr "設定不完整"
 
@@ -648,17 +648,17 @@ msgstr "主機名稱"
 msgid "How would you like to install?"
 msgstr "您想如何安裝？"
 
-#: src/components/review/ReviewConfiguration.jsx:320
+#: src/components/review/ReviewConfiguration.jsx:336
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
 msgstr[0] "我知曉所有現存的資料將會從被選擇的磁盤清除"
 
-#: src/components/review/ReviewConfiguration.jsx:325
+#: src/components/review/ReviewConfiguration.jsx:341
 msgid "I understand that some existing data will be erased"
 msgstr "我知曉某些現存資料將會被清除"
 
-#: src/components/review/ReviewConfiguration.jsx:326
+#: src/components/review/ReviewConfiguration.jsx:342
 msgid "I understand that some partitions will be modified"
 msgstr "我知曉有些分割區將會被變更"
 
@@ -733,12 +733,12 @@ msgstr "系統安裝失敗"
 msgid "Installation of the system failed: $0"
 msgstr "系統安裝失敗：$0"
 
-#: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/review/ReviewConfiguration.jsx:268
 #: src/components/source/index.js:24 src/components/source/index.js:25
 msgid "Installation source"
 msgstr "安裝來源"
 
-#: src/components/review/ReviewConfiguration.jsx:280
+#: src/components/review/ReviewConfiguration.jsx:296
 msgid "Installation type"
 msgstr "安裝類型"
 
@@ -770,7 +770,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "無效的主機名稱"
 
-#: src/components/review/ReviewConfiguration.jsx:213
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid "Jump to first incomplete step"
 msgstr "跳轉回第一個未完成的步驟"
 
@@ -799,7 +799,7 @@ msgid "LVM thin provisioning"
 msgstr "LVM 限縮供應"
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:239
+#: src/components/review/ReviewConfiguration.jsx:246
 msgid "Language"
 msgstr "語言"
 
@@ -993,6 +993,12 @@ msgstr "所選取的磁碟上的可用空間不足。"
 msgid "Not enough space on selected disks."
 msgstr "所選取的磁碟上的空間不足。"
 
+#: src/components/subscription/SubscriptionEmbed.jsx:26
+#, fuzzy
+#| msgid "Not registered."
+msgid "Not registered"
+msgstr "未註冊。"
+
 #: src/components/AnacondaHeader.jsx:70
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -1006,7 +1012,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "開啟 Bugzilla 錯誤回報表單"
 
-#: src/components/review/ReviewConfiguration.jsx:228
+#: src/components/review/ReviewConfiguration.jsx:235
 msgid "Operating system"
 msgstr "作業系統"
 
@@ -1184,6 +1190,12 @@ msgstr "建議分割區："
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:621
 msgid "Reformat"
 msgstr "重新格式化"
+
+#: src/components/subscription/SubscriptionEmbed.jsx:24
+#, fuzzy
+#| msgid "Registered."
+msgid "Registered"
+msgstr "已註冊。"
 
 #: src/components/storage/scenarios/reinstall-fedora/index.js:21
 #: src/components/storage/scenarios/reinstall-fedora/index.js:23
@@ -1479,11 +1491,11 @@ msgid ""
 msgstr "軟體選擇：儲存空間設定完成。 該軟體正在安裝至您的裝置上。"
 
 #: src/components/software/index.js:22 src/components/software/index.js:23
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:274
 msgid "Software selection"
 msgstr "軟體選擇"
 
-#: src/components/review/ReviewConfiguration.jsx:220
+#: src/components/review/ReviewConfiguration.jsx:227
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr "繼續前尚有一些安装步骤需要完成"
@@ -1506,13 +1518,13 @@ msgstr "堆疊追蹤"
 msgid "Standard partitions"
 msgstr "延伸分割區"
 
-#: src/components/review/ReviewConfiguration.jsx:287
+#: src/components/review/ReviewConfiguration.jsx:303
 msgid "Storage"
 msgstr "儲存"
 
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
-#: src/components/steps.js:37
+#: src/components/steps.js:39
 #: src/components/installation/InstallationProgress.jsx:232
 msgid "Storage configuration"
 msgstr "儲存裝置組態"
@@ -1568,6 +1580,13 @@ msgstr ""
 #: src/components/Password.jsx:67
 msgid "Strong"
 msgstr "強"
+
+#: src/components/subscription/index.js:21
+#: src/components/review/ReviewConfiguration.jsx:261
+#, fuzzy
+#| msgid "Description"
+msgid "Subscription"
+msgstr "細節"
 
 #: src/components/installation/InstallationProgress.jsx:220
 msgid "Successfully installed"
@@ -1687,7 +1706,7 @@ msgstr "這會需要一段時間"
 msgid "Time"
 msgstr "時間"
 
-#: src/components/review/ReviewConfiguration.jsx:246
+#: src/components/review/ReviewConfiguration.jsx:253
 #: src/components/datetime/Timezone.jsx:139
 msgid "Timezone"
 msgstr "時區"
@@ -4232,9 +4251,6 @@ msgstr "復原"
 #~ msgid "Not mounting the system.\n"
 #~ msgstr "不掛載系統。\n"
 
-#~ msgid "Not registered."
-#~ msgstr "未註冊。"
-
 #, fuzzy
 #~| msgid "Not registered."
 #~ msgid "Not required"
@@ -4689,9 +4705,6 @@ msgstr "復原"
 
 #~ msgid "Registered with organization {}"
 #~ msgstr "已使用 {} 組織註冊"
-
-#~ msgid "Registered."
-#~ msgstr "已註冊。"
 
 #~ msgid "Registering..."
 #~ msgstr "正在註冊…"

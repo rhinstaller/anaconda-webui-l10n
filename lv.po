@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anaconda 32.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-26 11:33+0000\n"
+"POT-Creation-Date: 2026-11-27 11:25+0000\n"
 "PO-Revision-Date: 2026-11-22 10:17+0000\n"
 "Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
 "Language-Team: Latvian <https://translate.fedoraproject.org/projects/"
@@ -122,7 +122,7 @@ msgstr "Pārtraukt instalēšanu"
 msgid "About"
 msgstr "Par"
 
-#: src/components/review/ReviewConfiguration.jsx:265
+#: src/components/review/ReviewConfiguration.jsx:281
 msgid "Account"
 msgstr "Konts"
 
@@ -171,7 +171,7 @@ msgstr "Tiks atbloķētas visas ierīces, kas lieto šo paroles frāzi"
 msgid "Anaconda"
 msgstr "Anaconda"
 
-#: src/index.html:20 src/login.html:8
+#: src/login.html:8 src/index.html:20
 msgid "Anaconda Web UI"
 msgstr "Anaconda tīmekļa saskarne"
 
@@ -301,7 +301,7 @@ msgstr ""
 "Šeit veiktās izmaiņas nekavējoties ietekmēs sistēmu. Tās nav iespējams "
 "atsaukt."
 
-#: src/components/review/ReviewConfiguration.jsx:196
+#: src/components/review/ReviewConfiguration.jsx:203
 msgid "Checking installation configuration..."
 msgstr "Pārbauda instalēšanas konfigurāciju..."
 
@@ -349,7 +349,7 @@ msgstr "Cockpit krātuve nesniedza paroles frāzi šifrētās ierīces atbloķē
 msgid "Completed"
 msgstr "Pabeigts"
 
-#: src/components/review/ReviewConfiguration.jsx:217
+#: src/components/review/ReviewConfiguration.jsx:224
 msgid "Configuration is incomplete"
 msgstr "Konfigurācija nav pabeigta"
 
@@ -622,7 +622,7 @@ msgstr "Resursdatora nosaukums"
 msgid "How would you like to install?"
 msgstr "Kā vēlaties instalēt?"
 
-#: src/components/review/ReviewConfiguration.jsx:320
+#: src/components/review/ReviewConfiguration.jsx:336
 msgid "I understand that all existing data will be erased"
 msgid_plural ""
 "I understand that all existing data will be erased from the selected disks"
@@ -632,11 +632,11 @@ msgstr[1] ""
 msgstr[2] ""
 "Es saprotu, ka visi esošie dati tiks izdzēsti no atlasītajiem diskiem"
 
-#: src/components/review/ReviewConfiguration.jsx:325
+#: src/components/review/ReviewConfiguration.jsx:341
 msgid "I understand that some existing data will be erased"
 msgstr "Es saprotu, ka daļa esošo datu tiks izdzēsta"
 
-#: src/components/review/ReviewConfiguration.jsx:326
+#: src/components/review/ReviewConfiguration.jsx:342
 msgid "I understand that some partitions will be modified"
 msgstr "Es saprotu, ka daži nodalījumi tiks mainīti"
 
@@ -717,12 +717,12 @@ msgstr "Sistēmas instalēšana neizdevās"
 msgid "Installation of the system failed: $0"
 msgstr "Sistēmas instalēšana neizdevās: $0"
 
-#: src/components/review/ReviewConfiguration.jsx:252
+#: src/components/review/ReviewConfiguration.jsx:268
 #: src/components/source/index.js:24 src/components/source/index.js:25
 msgid "Installation source"
 msgstr "Instalēšanas avots"
 
-#: src/components/review/ReviewConfiguration.jsx:280
+#: src/components/review/ReviewConfiguration.jsx:296
 msgid "Installation type"
 msgstr "Instalēšanas tips"
 
@@ -755,7 +755,7 @@ msgstr ""
 msgid "Invalid hostname"
 msgstr "Nederīgs resursdatora nosaukums"
 
-#: src/components/review/ReviewConfiguration.jsx:213
+#: src/components/review/ReviewConfiguration.jsx:220
 msgid "Jump to first incomplete step"
 msgstr "Pāriet uz pirmo nepabeigto soli"
 
@@ -784,7 +784,7 @@ msgid "LVM thin provisioning"
 msgstr "LVM plānā piešķiršana"
 
 #: src/components/localization/InstallationLanguage.jsx:240
-#: src/components/review/ReviewConfiguration.jsx:239
+#: src/components/review/ReviewConfiguration.jsx:246
 msgid "Language"
 msgstr "Valoda"
 
@@ -977,6 +977,10 @@ msgstr "Atlasītajos diskos nepietiek brīvas vietas."
 msgid "Not enough space on selected disks."
 msgstr "Atlasītajos diskos nepietiek vietas."
 
+#: src/components/subscription/SubscriptionEmbed.jsx:26
+msgid "Not registered"
+msgstr ""
+
 #: src/components/AnacondaHeader.jsx:70
 msgid ""
 "Notice: This is pre-released software that is intended for development and "
@@ -991,7 +995,7 @@ msgstr ""
 msgid "Open Bugzilla bug entry form"
 msgstr "Atvērt Bugzilla kļūdas ievades veidlapu"
 
-#: src/components/review/ReviewConfiguration.jsx:228
+#: src/components/review/ReviewConfiguration.jsx:235
 msgid "Operating system"
 msgstr "Operētājsistēma"
 
@@ -1161,6 +1165,10 @@ msgstr "Ieteicamie nodalījumi:"
 #: src/components/storage/mount-point-mapping/MountPointMapping.jsx:621
 msgid "Reformat"
 msgstr "Pārformatēt"
+
+#: src/components/subscription/SubscriptionEmbed.jsx:24
+msgid "Registered"
+msgstr ""
 
 #: src/components/storage/scenarios/reinstall-fedora/index.js:21
 #: src/components/storage/scenarios/reinstall-fedora/index.js:23
@@ -1460,11 +1468,11 @@ msgstr ""
 "Programmatūra tagad tiek instalēta ierīcē."
 
 #: src/components/software/index.js:22 src/components/software/index.js:23
-#: src/components/review/ReviewConfiguration.jsx:258
+#: src/components/review/ReviewConfiguration.jsx:274
 msgid "Software selection"
 msgstr "Programmatūras atlase"
 
-#: src/components/review/ReviewConfiguration.jsx:220
+#: src/components/review/ReviewConfiguration.jsx:227
 msgid ""
 "Some installation steps still need to be completed before you can continue."
 msgstr "Pirms turpināšanas vēl jāpabeidz daži instalēšanas soļi."
@@ -1485,13 +1493,13 @@ msgstr "Steka izseko"
 msgid "Standard partitions"
 msgstr "Standarta nodalījumi"
 
-#: src/components/review/ReviewConfiguration.jsx:287
+#: src/components/review/ReviewConfiguration.jsx:303
 msgid "Storage"
 msgstr "Krātuve"
 
 #: src/components/storage/storage-configuration/index.js:21
 #: src/components/storage/storage-configuration/index.js:22
-#: src/components/steps.js:37
+#: src/components/steps.js:39
 #: src/components/installation/InstallationProgress.jsx:232
 msgid "Storage configuration"
 msgstr "Krātuves konfigurācija"
@@ -1543,6 +1551,13 @@ msgstr "Stratis"
 #: src/components/Password.jsx:67
 msgid "Strong"
 msgstr "Stipra"
+
+#: src/components/subscription/index.js:21
+#: src/components/review/ReviewConfiguration.jsx:261
+#, fuzzy
+#| msgid "Description"
+msgid "Subscription"
+msgstr "Apraksts"
 
 #: src/components/installation/InstallationProgress.jsx:220
 msgid "Successfully installed"
@@ -1676,7 +1691,7 @@ msgstr "Tas aizņems dažus mirkļus"
 msgid "Time"
 msgstr "Laiks"
 
-#: src/components/review/ReviewConfiguration.jsx:246
+#: src/components/review/ReviewConfiguration.jsx:253
 #: src/components/datetime/Timezone.jsx:139
 msgid "Timezone"
 msgstr "Laika josla"
